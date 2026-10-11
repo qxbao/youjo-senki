@@ -1,0 +1,55 @@
+task_id: pilot-01
+volume: vol-01
+chapter: 0
+segment_id_start: YS-LN01/Text/chapter001.xhtml/p000008
+segment_id_end: YS-LN01/Text/chapter001.xhtml/p000031
+unit_count: 24
+source_word_count: 805
+word_count_method:
+  type: regex_matches_per_unit
+  pattern: '[A-Za-z0-9]+(?:[''’\-][A-Za-z0-9]+)*'
+  includes_numbers: true
+  includes_date_location_units: true
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package: work/vol-01/pilot-01-source.jsonl
+source_package_sha256: a46155b672ea7b7cf8d6c60efc9faf03eae3bcbbcd82556b949145440f974b33
+source_manifest: segments/vol-01/manifest.yml
+translation_target: translations/vol-01/pilot-01.jsonl
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/style-guide.md
+  sha256: 9d7f238232bc485d3f495cee43d5b4070827c68d27a5513db234c4cbf0f81e13
+- path: canon/decisions.md
+  sha256: 5642f849c11e6451657250c878477a88827d5c947aab6b2c50bbb768c478c679
+- path: canon/glossary-pending.yml
+  sha256: a587bacfac7c0ed9d9f0a17e2b486b2f8561e8f5fd2cec85c07e74319f55f226
+rubric: evals/pilot-rubric.md
+coverage:
+  narration_description:
+  - YS-LN01/Text/chapter001.xhtml/p000008
+  - YS-LN01/Text/chapter001.xhtml/p000011
+  - YS-LN01/Text/chapter001.xhtml/p000012
+  dialogue:
+  - YS-LN01/Text/chapter001.xhtml/p000013
+  - YS-LN01/Text/chapter001.xhtml/p000015
+  - YS-LN01/Text/chapter001.xhtml/p000017
+  - YS-LN01/Text/chapter001.xhtml/p000020
+  inner_thought:
+  - YS-LN01/Text/chapter001.xhtml/p000009
+  - YS-LN01/Text/chapter001.xhtml/p000014
+  - YS-LN01/Text/chapter001.xhtml/p000018
+  - YS-LN01/Text/chapter001.xhtml/p000022
+  irony:
+  - YS-LN01/Text/chapter001.xhtml/p000028
+  argumentation:
+  - YS-LN01/Text/chapter001.xhtml/p000025
+  - YS-LN01/Text/chapter001.xhtml/p000029
+  - YS-LN01/Text/chapter001.xhtml/p000030
+  - YS-LN01/Text/chapter001.xhtml/p000031
+footnote_ids: []
+translation_editor: null
+status: ready
