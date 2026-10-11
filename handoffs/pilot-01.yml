@@ -29,6 +29,31 @@ canon_references:
   sha256: a587bacfac7c0ed9d9f0a17e2b486b2f8561e8f5fd2cec85c07e74319f55f226
 rubric: evals/pilot-rubric.md
 coverage:
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000008
+  - YS-LN01/Text/chapter001.xhtml/p000009
+  - YS-LN01/Text/chapter001.xhtml/p000010
+  - YS-LN01/Text/chapter001.xhtml/p000011
+  - YS-LN01/Text/chapter001.xhtml/p000012
+  - YS-LN01/Text/chapter001.xhtml/p000013
+  - YS-LN01/Text/chapter001.xhtml/p000014
+  - YS-LN01/Text/chapter001.xhtml/p000015
+  - YS-LN01/Text/chapter001.xhtml/p000016
+  - YS-LN01/Text/chapter001.xhtml/p000017
+  - YS-LN01/Text/chapter001.xhtml/p000018
+  - YS-LN01/Text/chapter001.xhtml/p000019
+  - YS-LN01/Text/chapter001.xhtml/p000020
+  - YS-LN01/Text/chapter001.xhtml/p000021
+  - YS-LN01/Text/chapter001.xhtml/p000022
+  - YS-LN01/Text/chapter001.xhtml/p000023
+  - YS-LN01/Text/chapter001.xhtml/p000024
+  - YS-LN01/Text/chapter001.xhtml/p000025
+  - YS-LN01/Text/chapter001.xhtml/p000026
+  - YS-LN01/Text/chapter001.xhtml/p000027
+  - YS-LN01/Text/chapter001.xhtml/p000028
+  - YS-LN01/Text/chapter001.xhtml/p000029
+  - YS-LN01/Text/chapter001.xhtml/p000030
+  - YS-LN01/Text/chapter001.xhtml/p000031
   narration_description:
   - YS-LN01/Text/chapter001.xhtml/p000008
   - YS-LN01/Text/chapter001.xhtml/p000011
@@ -51,5 +76,22 @@ coverage:
   - YS-LN01/Text/chapter001.xhtml/p000030
   - YS-LN01/Text/chapter001.xhtml/p000031
 footnote_ids: []
-translation_editor: null
+translation_editor: codex-coordinator
+canonical_branch: main
+promotion_authority: codex-coordinator
+candidates:
+  codex:
+    translator: Codex
+    branch: pilot-01/codex
+    translation_target: translations/vol-01/pilot-01.codex.jsonl
+    segment_id_start: YS-LN01/Text/chapter001.xhtml/p000008
+    segment_id_end: YS-LN01/Text/chapter001.xhtml/p000031
+    status: draft
+  claude_sample:
+    translator: Claude Sonnet
+    branch: pilot-01/claude-sample
+    translation_target: translations/vol-01/pilot-01.claude-sample.jsonl
+    segment_id_start: YS-LN01/Text/chapter001.xhtml/p000008
+    segment_id_end: YS-LN01/Text/chapter001.xhtml/p000015
+    status: draft
 status: ready
