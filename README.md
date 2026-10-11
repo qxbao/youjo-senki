@@ -5,11 +5,12 @@ hoặc thuật ngữ riêng nào được chốt trong bước thiết lập.
 
 EPUB/PDF gốc nằm ở thư mục anh em `../youjo-senki-source/`. Chỉ đọc tại chỗ:
 tuyệt đối không sao chép, sửa, đưa vào Git hay tải lên nơi khác. Không gửi nội dung
-nguồn tới dịch vụ bên ngoài. Văn bản tách từ nguồn cũng phải được lưu cục bộ
-ngoài kho và không được đưa vào Git. `.gitignore` là lớp hỗ trợ, không thay thế quy tắc này.
+nguồn tới dịch vụ bên ngoài. Văn bản tách từ nguồn chỉ được lưu cục bộ trong
+`work/` bị Git bỏ qua và không được đưa vào Git. `.gitignore` là lớp hỗ trợ, không thay thế quy tắc này.
 
 Sao chép `project.local.example.yml` thành `project.local.yml` để cấu hình cục bộ.
-Không sao chép sách nguồn. Chưa có công cụ xử lý EPUB ở giai đoạn này.
+Không sao chép sách nguồn. Công cụ chuẩn bị LN 01 và lệnh kiểm tra được mô tả
+trong `tools/README.md`; công cụ dựng EPUB chưa được triển khai.
 
 ## Cấu trúc
 
@@ -18,6 +19,7 @@ Không sao chép sách nguồn. Chưa có công cụ xử lý EPUB ở giai đo�
 | `canon/` | Thuật ngữ, nhân vật, văn phong và quyết định đã duyệt |
 | `context/` | Ghi chú ngữ cảnh, không chép văn bản nguồn |
 | `segments/` | Danh mục mã đoạn và vị trí đối chiếu, không lưu văn bản nguồn |
+| `work/` | Văn bản nguồn làm việc cục bộ; toàn bộ thư mục được Git bỏ qua |
 | `translations/` | Bản dịch tiếng Việt theo mã đoạn |
 | `reviews/semantic/` | Báo cáo phản biện nghĩa |
 | `reviews/prose/` | Báo cáo phản biện văn phong |
