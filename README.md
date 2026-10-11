@@ -1,7 +1,7 @@
 # Youjo Senki — dự án dịch light novel Anh–Việt
 
-Kho này lưu quy chuẩn, bản dịch, báo cáo và bàn giao. Chưa có nội dung dịch
-hoặc thuật ngữ riêng nào được chốt trong bước thiết lập.
+Kho này lưu quy chuẩn, bản dịch, báo cáo và bàn giao. Quy tắc đã duyệt sau
+pilot nằm trong `canon/`; thuật ngữ chưa đủ căn cứ vẫn ở trạng thái chờ xét.
 
 EPUB/PDF gốc nằm ở thư mục anh em `../youjo-senki-source/`. Chỉ đọc tại chỗ:
 tuyệt đối không sao chép, sửa, đưa vào Git hay tải lên nơi khác. Không gửi nội dung
@@ -25,10 +25,19 @@ trong `tools/README.md`; công cụ dựng EPUB chưa được triển khai.
 | `reviews/prose/` | Báo cáo phản biện văn phong |
 | `handoffs/` | Phạm vi công việc, quyền sửa và biên bản bàn giao |
 | `evals/` | Tiêu chí và kết quả kiểm tra |
-| `tools/` | Tài liệu công cụ cần xây dựng sau này |
+| `tools/` | Công cụ tách nguồn, kiểm tra danh mục và lập lô |
 | `output/` | EPUB xuất cục bộ; toàn bộ thư mục được Git bỏ qua |
 
 ## Quy trình
+
+Luồng lô chính thức: **lập lô → dịch Codex medium → kiểm tra tự động → phản
+biện lấy mẫu Claude Sonnet → duyệt**. Lập lô Chapter 0 bằng
+`uv run python tools/plan_batches.py vol-01 chapter-00`; xem
+`tools/README.md` để chạy thử và kiểm tra. Bước lập lô chỉ tạo handoff metadata
+và gói nguồn cục bộ. Kiểm tra tự động bản dịch và phản biện lấy mẫu là các
+bước tiếp theo, không được thực hiện bởi công cụ lập lô. Đối chiếu nguồn
+chỉ tại chỗ; không gửi nguồn đến dịch vụ bên ngoài. Điều phối viên duyệt
+và nâng bản nháp thành bản chuẩn sau khi xử lý các vấn đề còn mở.
 
 1. **Chuẩn bị:** cấu hình đường dẫn nguồn; đọc tại chỗ; lập danh mục mã đoạn ổn định và vị trí nguồn trong `segments/`, ghi ngữ cảnh trong `context/`. Ghi người giữ quyền sửa trong `handoffs/`.
 2. **Dịch:** tác tử được giao quyền sửa viết vào `translations/`, theo mã đoạn và quy chuẩn trong `canon/`; ghi các điểm chưa rõ để xem xét.
