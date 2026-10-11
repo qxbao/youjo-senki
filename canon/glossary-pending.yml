@@ -1,13 +1,78 @@
-# Danh sách đề xuất, chưa có thuật ngữ nào được điền hoặc chốt.
-# Mỗi mục về sau cần có:
+# Danh sách đề xuất; chưa chốt bản dịch cho các mục pending.
+# Mục chỉ ghi ngữ cảnh cần phân biệt dùng id, source_term, status: pending,
+# context và references (segment_id); chưa điền phương án tiếng Việt.
+# Khi ghi phương án tiếng Việt, mỗi mục cần có:
 #   id: mã đề xuất ổn định
 #   proposed_vi: phương án tiếng Việt (chỉ là đề xuất)
 #   category: loại vấn đề, chẳng hạn thuật ngữ / xưng hô / quân hàm
-#   status: proposed hoặc needs_context; không dùng approved tại đây
+#   status: pending, proposed hoặc needs_context; không dùng approved tại đây
 #   rationale: lý do bằng tiếng Việt
 #   references: danh sách segment_id và locator nguồn cục bộ
 #   alternatives_vi: danh sách phương án tiếng Việt khác, có thể để trống
-# Không chép câu/cụm nguồn tiếng Anh; tra nguồn tại chỗ qua references.
+# source_term chỉ nhận diện thuật ngữ cần xét; không chép câu hoặc trích đoạn
+# nguồn tiếng Anh. Tra nguồn tại chỗ qua references.
 # Chỉ chuyển lựa chọn vào canon chính thức sau khi có quyết định được duyệt
 # trong canon/decisions.md, giữ dấu vết mã đề xuất.
-terms: []
+terms:
+  - id: P01-sensibility
+    source_term: sensibility
+    status: pending
+    context: >-
+      Cần phân biệt khả năng cảm nhận với cách cư xử theo chuẩn xã hội,
+      đồng thời phân biệt với lý trí và tính cách trong cùng lập luận.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
+  - id: P01-personality
+    source_term: personality
+    status: pending
+    context: >-
+      Cần phân biệt đặc điểm tính cách với đánh giá đạo đức; xác minh
+      cách gọi chuyên môn theo ngữ cảnh, không đồng nhất với phẩm chất đạo đức.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
+      - YS-LN01/Text/chapter001.xhtml/p000030
+  - id: P01-individual-disposition
+    source_term: individual disposition
+    status: pending
+    context: >-
+      Cần phân biệt khuynh hướng riêng của cá nhân với tính cách và phẩm chất
+      đạo đức trong lập luận về khả thể quá khứ không phụ thuộc các yếu tố này.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
+      - YS-LN01/Text/chapter001.xhtml/p000030
+  - id: P01-moral-character
+    source_term: moral character
+    status: pending
+    context: >-
+      Cần phân biệt bình diện phẩm chất đạo đức với tính cách và khuynh hướng
+      cá nhân; không đưa bình diện đạo đức vào nhận định đúng/sai về điều học được.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
+      - YS-LN01/Text/chapter001.xhtml/p000030
+      - YS-LN01/Text/chapter001.xhtml/p000031
+  - id: P01-deindividuation
+    source_term: deindividuation
+    status: pending
+    context: >-
+      Cần xác minh phạm vi khái niệm trong chuỗi phân vai, thay đổi trạng thái
+      cá nhân và phục tùng; phân biệt với cách hiểu mất toàn bộ tính cách
+      hoặc bản sắc cá nhân trước khi chọn thuật ngữ hay cách diễn giải.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
+  - id: P01-authority
+    source_term: authority
+    status: pending
+    context: >-
+      Cần phân biệt với quyền lực nói chung, xét vị thế của người chi phối
+      và quan hệ với hiện tượng phục tùng; không đổi từ tùy tiện để tránh lặp.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
+  - id: P01-obedience-to-authority
+    source_term: obedience to authority
+    status: pending
+    context: >-
+      Cần nhận diện đây là tên hiện tượng trong lập luận; phân biệt mô tả
+      sự phục tùng với sắc thái bị ép khuất phục hoặc phán xét đạo đức,
+      đồng thời giữ liên hệ với việc phân vai và nguyên nhân được nêu.
+    references:
+      - YS-LN01/Text/chapter001.xhtml/p000029
