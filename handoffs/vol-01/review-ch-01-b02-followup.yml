@@ -1,0 +1,24 @@
+schema_version: 1
+task_id: vol-01-ch-01-b02-review-followup
+role: reviewer
+batch: vol-01-ch-01-b02
+segment_id_start: YS-LN01/Text/chapter003b.xhtml/p000012
+segment_id_end: YS-LN01/Text/chapter003b.xhtml/p000028
+unit_count: 17
+source_package: work/vol-01/batches/ch-01-b02-source.jsonl
+translation_file: translations/vol-01/ch-01-b02.jsonl
+prior_review: reviews/prose/vol-01-ch-01-b02-claude-review.md
+files_allowed: [reviews/prose/vol-01-ch-01-b02-followup-claude.md]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b02-source.jsonl
+  - translations/vol-01/ch-01-b02.jsonl
+  - reviews/prose/vol-01-ch-01-b02-claude-review.md
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+instructions:
+  - Review all follow-up changes for the six former moderate findings and related term/emphasis consistency.
+  - Check Tanya narration uses no unsupported “cô”, p000021 marker ⁴, and p000027 emphasis scope.
+  - Report by stable segment ID; no source sentences or excerpts. Write only the assigned prose report, no translation/canon edits.
+  - Return YAML with severity, segment_id, issue, resolution, risks, next_action.

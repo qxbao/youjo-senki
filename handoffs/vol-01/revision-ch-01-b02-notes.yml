@@ -1,0 +1,22 @@
+schema_version: 1
+task_id: vol-01-ch-01-b02-pending-notes
+role: translator
+batch: vol-01-ch-01-b02
+segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000012
+  - YS-LN01/Text/chapter003b.xhtml/p000013
+  - YS-LN01/Text/chapter003b.xhtml/p000014
+  - YS-LN01/Text/chapter003b.xhtml/p000015
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  - YS-LN01/Text/chapter003b.xhtml/p000028
+source_package: work/vol-01/batches/ch-01-b02-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: 4a458aa3d29cb03bf0cc40083b602a10f22f9ade76130350643c5b9b4b3dd06a
+review_report: reviews/prose/vol-01-ch-01-b02-followup-claude.md
+files_allowed: [translations/vol-01/ch-01-b02.jsonl]
+instructions:
+  - Change notes only for the listed segment IDs so each note is relevant to that segment and uses the selected provisional terms; remove stale alternatives and general lists unrelated to the row.
+  - Preserve all translation text, IDs/order/metadata; changed rows remain draft. Do not edit canon, handoffs, or review reports.
+  - Run the configured validator with this handoff and source package, then git diff --check. Return YAML report.

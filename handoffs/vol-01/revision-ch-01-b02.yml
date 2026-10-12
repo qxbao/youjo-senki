@@ -1,0 +1,34 @@
+schema_version: 1
+task_id: vol-01-ch-01-b02-review-followup
+role: translator
+batch: vol-01-ch-01-b02
+status: reviewed_ready_to_commit
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: submitted_once
+segment_id_start: YS-LN01/Text/chapter003b.xhtml/p000012
+segment_id_end: YS-LN01/Text/chapter003b.xhtml/p000028
+unit_count: 17
+source_package: work/vol-01/batches/ch-01-b02-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: 4a458aa3d29cb03bf0cc40083b602a10f22f9ade76130350643c5b9b4b3dd06a
+review_report: reviews/prose/vol-01-ch-01-b02-claude-review.md
+files_allowed: [translations/vol-01/ch-01-b02.jsonl]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b02-source.jsonl
+  - reviews/prose/vol-01-ch-01-b02-claude-review.md
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Resolve all six moderate findings and the clear minor corrections in the review across the listed 17 rows.
+  - For narration about Tanya, avoid “cô”; use “nó” only where DEC-P01-001 clearly applies, otherwise repeat Tanya or omit the pronoun.
+  - Apply provisional choices: base piece→khẩu pháo chuẩn; fire for effect→bắn hiệu lực; administrative unit→đơn vị biên chế; border army→lục quân biên giới; Technical Arsenal→Xưởng Vũ khí Kỹ thuật; Logistical Command→Bộ Tư lệnh Hậu cần; previous life→đời trước; formulas→thuật thức.
+  - Add the superscript note marker ⁴ after the first ICBM mention. Preserve source emphasis scope and notes on their correct rows.
+  - Use the review's supported wording proposals for B01–B13 minor findings where natural. Keep all choices pending/non-canon.
+  - Only modify translations/vol-01/ch-01-b02.jsonl. Preserve IDs/order/metadata; changed rows draft. Do not edit canon, handoffs, or reports.
+  - Run configured validator with this handoff and source package, then git diff --check. Return shared YAML report.
