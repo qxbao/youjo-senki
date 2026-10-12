@@ -1,0 +1,34 @@
+schema_version: 1
+task_id: vol-01-ch-00-pending-decisions-review
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+scope: vol-01-chapter-00-pending-decisions
+files_allowed:
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+read_only_inputs:
+  - work/run-state/pending-terms.yml
+  - canon/glossary-pending.yml
+  - canon/glossary.yml
+  - canon/characters.yml
+  - canon/decisions.md
+  - canon/style-guide.md
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - reviews/prose/vol-01-ch-00-b03-review-fixes-claude.md
+  - reviews/prose/vol-01-ch-00-b04-followup-claude.md
+  - reviews/prose/vol-01-ch-00-b05-review-fixes-claude.md
+  - translations/vol-01/ch-00-b02.jsonl
+  - translations/vol-01/ch-00-b03.jsonl
+  - translations/vol-01/ch-00-b04.jsonl
+  - translations/vol-01/ch-00-b05.jsonl
+  - work/vol-01/batches/ch-00-b02-source.jsonl
+  - work/vol-01/batches/ch-00-b03-source.jsonl
+  - work/vol-01/batches/ch-00-b04-source.jsonl
+  - work/vol-01/batches/ch-00-b05-source.jsonl
+instructions:
+  - For every unresolved choice referenced in these reviews or the local pending ledger, choose a preferred provisional rendering/voice/speaker interpretation for ongoing translation.
+  - Include stable segment IDs, brief source-context rationale, confidence, and a viable alternative; no source sentences or excerpts.
+  - Include, at minimum, p000086 speaker/address, adult-male third-person “anh”, rationality consistency, Chicago-school field, section-manager rank, Touchstone naming, Being X name/voice, cash-advance, PIP, pink-slip, God/Creator/devil/disbelievers/reborn, and any other entries in the pending ledger or consolidated report.
+  - When evidence is uncertain, select the least-assumptive neutral/literal temporary option and label confidence; do not wait for user approval.
+  - Report only. Do not edit translations, handoffs, or canon. These remain proposals; the report does not authorize canon promotion.
+  - Write only reviews/prose/vol-01-ch-00-pending-decisions-claude.md and return a YAML summary with next_action.

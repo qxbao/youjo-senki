@@ -1,0 +1,30 @@
+schema_version: 1
+task_id: vol-01-ch-00-b05-claude-decisions-review
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b05
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000076
+  - YS-LN01/Text/chapter001.xhtml/p000086
+  - YS-LN01/Text/chapter001.xhtml/p000094
+source_package: work/vol-01/batches/ch-00-b05-source.jsonl
+translation_file: translations/vol-01/ch-00-b05.jsonl
+decision_report: reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+prior_review: reviews/prose/vol-01-ch-00-b05-review-fixes-claude.md
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b05-claude-decisions-review.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b05-source.jsonl
+  - translations/vol-01/ch-00-b05.jsonl
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - reviews/prose/vol-01-ch-00-b05-review-fixes-claude.md
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Review the three applied provisional decisions for meaning, neutral address, voice consistency, and notes.
+  - Treat the Claude decision report as a delegated provisional decision per AGENTS.md; do not block on uncertainty alone.
+  - Write only the assigned prose report; no source sentences or excerpts, no translation/canon edits.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

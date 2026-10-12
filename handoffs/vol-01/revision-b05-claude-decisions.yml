@@ -1,0 +1,35 @@
+schema_version: 1
+task_id: vol-01-ch-00-b05-claude-decisions
+role: translator
+status: reviewed_ready_to_commit
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: submitted_once
+validator: pass
+diff_check: pass
+review: pass
+batch: vol-01-ch-00-b05
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000076
+  - YS-LN01/Text/chapter001.xhtml/p000086
+  - YS-LN01/Text/chapter001.xhtml/p000094
+source_package: work/vol-01/batches/ch-00-b05-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: 8661b7cd0b17b6f40e5e4bd7199a717d7901c14b54d5c395288d4df86a4fabd5
+decision_report: reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+files_allowed:
+  - translations/vol-01/ch-00-b05.jsonl
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b05-source.jsonl
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Apply Claude's provisional decisions in p000076 (“các vị”), p000086 (Being X speaker, “ngươi”), and p000094 (“tái sinh”).
+  - Keep the choices provisional in notes; do not edit canon. Preserve IDs/order/metadata and set changed rows to draft.
+  - Only modify translations/vol-01/ch-00-b05.jsonl.
+  - Run the configured validator using this handoff and source package, then git diff --check.
+  - Return the shared YAML report with findings, pending_terms, risks, and next_action.
