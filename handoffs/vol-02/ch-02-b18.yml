@@ -43,3 +43,84 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000513
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 429
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13124-ed62-7043-9980-90e481fc117b
+  segment_count: 33
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 6
+  files_written:
+  - translations/vol-02/ch-02-b18.jsonl
+review_coordination:
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b18_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b18-claude.md
+  serious: 0
+  moderate: 0
+  minor: 9
+  action: approved
+  followup_findings:
+  - M1
+  - M2
+  - M3
+  translator_followup_segments:
+  - p000498
+  - p000500
+  - p000501
+  - p000505
+  - p000509
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    rear_guard: đơn vị hậu vệ
+    heinrichs_law: Định luật Heinrich
+    radio_operator: báo vụ viên
+    reinforcements: quân tiếp viện
+    well_made_address: lời trình bày chỉn chu
+    tanya_narration: repeat Tanya or omit subject; p000501 use neutral “hơn dự tính”
+  open_minor_findings: 9
+  signoff_report: reviews/prose/vol-02/ch-02-b18-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 9
+  signoff_minor_reconciliation: Narrative leaves L1, L2-L6, L8, L10, L11 open (9);
+    YAML summary says 2 and is inconsistent with report body.
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b18-review-fixes
+  agent_session_id: 01a1312a-a4db-7c10-b006-d1d20d398a3c
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - M1
+  - M2
+  - M3
+  also_resolved_minor:
+  - L1
+  - L7
+  - L8
+  - L9
+  changed_segments:
+  - p000497
+  - p000498
+  - p000500
+  - p000501
+  - p000504
+  - p000505
+  - p000506
+  - p000508
+  - p000509
+  - p000511
+  - p000512
