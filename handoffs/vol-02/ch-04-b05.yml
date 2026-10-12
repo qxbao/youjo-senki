@@ -41,5 +41,49 @@ checkpoints:
 planning:
   min_source_words: 600
   max_source_words: 900
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 730
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1324e-559a-7ad2-9c52-eca83961f172
+  segment_count: 18
+  validator: pass
+  diff_check: pass
+  findings: [3 low-level terminology/prose notes; no serious/moderate reported]
+  pending_term_count: 7
+  files_written:
+  - translations/vol-02/ch-04-b05.jsonl
+review_coordination:
+  triggered_by: [new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-04-b05-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b05_translation_proposals
+  severity_counts: {serious: 0, moderate: 3, minor: 10}
+  reviewer_session_id: afbf40cc-cb0e-42c9-8e3c-99dbca29799a
+  unresolved_findings:
+  - p000097: use Tanya's narrative pronoun per DEC-P01-001
+  - p000102: make Tanya's interior self-reference consistently “mình”
+  - p000099+p000100+p000107+p000111: align Serebryakov's provisional rank with the recent ledger
+  translator_followup:
+    task_id: vol-02-ch-04-b05-review-fixes
+    allowlist: [translations/vol-02/ch-04-b05.jsonl]
+    session_id: 01a13253-4e88-7422-94fb-ddb6944ab052
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3]
+  final_signoff:
+    task_id: vol-02-ch-04-b05-signoff
+    review_report: reviews/prose/vol-02/ch-04-b05-fixes-signoff-claude.md
+    session_id: 5a5aeea1-17c3-4dbc-9df1-630f696172a2
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 9}
+    prior_moderate_resolved: true
+    unresolved_findings: []
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000114
