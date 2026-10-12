@@ -43,3 +43,50 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000335
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 636
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a131e0-530e-7752-9d40-b1b599419cf6
+  segment_count: 33
+  validator: pass
+  diff_check: pass
+  findings: [3 terminology/prose notes; no serious/moderate reported]
+  pending_term_count: 5
+  files_written:
+  - translations/vol-02/ch-03-b18.jsonl
+review_coordination:
+  triggered_by: [even_batch]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-03-b18-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b18_translation_proposals
+  severity_counts: {serious: 0, moderate: 6, minor: 12}
+  reviewer_session_id: a9eb06b3-cad8-4761-8a42-556abb1bad91
+  unresolved_findings:
+  - p000307+p000309+p000321: apply DEC-P01-001 narrative form for Tanya
+  - p000334: restore source-matched emphasis on the opening question
+  - p000332: translate fleet maneuver as action, not formation
+  - p000313: use ledger mana spelling in the compound term
+  - p000302+p000303+p000304: align Sue narration pronoun provisionally with b06 ledger
+  - p000305: remove stronger moral judgment than source supports
+  translator_followup:
+    task_id: vol-02-ch-03-b18-review-fixes
+    allowlist: [translations/vol-02/ch-03-b18.jsonl]
+    session_id: 01a131e6-6a35-70f2-95ad-a839f3261f33
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3, M4, M5, M6]
+  final_signoff:
+    task_id: vol-02-ch-03-b18-signoff
+    review_report: reviews/prose/vol-02/ch-03-b18-fixes-signoff-claude.md
+    session_id: da2db4e0-41b7-4a3c-906d-b40f5421dc17
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 4}
+    prior_moderate_resolved: true
+    unresolved_findings: []
