@@ -29,6 +29,37 @@ source_package: work/vol-02/batches/ch-02-b08-source.jsonl
 source_package_sha256: 53359fe90c3b5096a4cb917c2fdb5594e06446d8e98ec5cbe5be8e2beac38732
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a13091-08f3-7b72-bdd5-dc53face5891
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 5
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b08-review-fixes
+  agent_session_id: 01a13096-8097-7e12-a4d6-0b9b09f386e6
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [MOD-1]
+  aligned_term_choices: [combat_ineffective]
+  restored_footnote_marker: [p000178]
+  changed_segments: [p000172, p000178, p000180]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  signoff_report: reviews/prose/vol-02/ch-02-b08-fixes-signoff-claude.md
+  minor_open: 14
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b08_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b08-claude.md
+  translator_followup_segments: [p000172, p000178, p000180]
+  provisional_choices:
+    footnote: preserve Unicode superscript ⁷ inline pending a volume-wide convention
+    combat_ineffective: mất sức chiến đấu
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
