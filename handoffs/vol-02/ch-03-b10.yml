@@ -43,3 +43,79 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000088
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 552
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13180-9ea1-7a73-9da3-77413f50a86c
+  segment_count: 24
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: note
+    segment_id: p000066
+    issue: Sentence about guarding while supply lines are withdrawn has ambiguous
+      English structure; translator chose the supply-route interpretation for review.
+  pending_term_count: 5
+  files_written:
+  - translations/vol-02/ch-03-b10.jsonl
+review_coordination:
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  - meaning_note
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b10_translation_proposals
+  review_report: reviews/prose/vol-02/ch-03-b10-claude.md
+  serious: 0
+  moderate: 0
+  minor: 9
+  action: approved
+  followup_findings:
+  - M1
+  translator_followup_segments:
+  - p000065
+  - p000066
+  - p000067
+  - p000069
+  - p000075
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    phony_war: cuộc chiến giả
+    materiel: vật tư trang bị
+    death_march: cuộc hành quân tử thần
+    supply_lines_withdrawal: lùi các tuyến tiếp tế về phía sau, ambiguity remains
+    operations_division: Cục Tác chiến
+  signoff_report: reviews/prose/vol-02/ch-03-b10-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 9
+  signoff_reconciliation: Translator metadata overclaimed m1/m4 and m6/m8/m9; final
+    report confirms m1/m4 still partly open and m5-m10 unchanged. Two old minors m2/m3
+    resolved; one new minor n1 remains, for 9 open total.
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b10-review-fixes
+  agent_session_id: 01a13185-c7fe-7cc1-a522-10548039401b
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - M1
+  also_resolved_minor:
+  - m2
+  - m3
+  changed_segments:
+  - p000065
+  - p000066
+  - p000067
+  - p000069
+  - p000075
+  partially_resolved_minor:
+  - m1
+  - m4
