@@ -29,6 +29,32 @@ source_package: work/vol-02/batches/ch-02-b05-source.jsonl
 source_package_sha256: 1c6b416ed35e03eb432a03468403209ad95f0b9c32580c1afcd9dcc3b12cf392
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a13075-3d8f-77b2-952c-43fbab6f0e1d
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 6
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b05-review-fixes
+  agent_session_id: 01a1307a-cf23-74a1-bc57-80fcdd67e7f6
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3, M4, M5, M6, M7]
+  changed_segments: [p000093, p000096, p000100, p000101, p000108, p000109, p000112, p000117]
+review_coordination:
+  triggered_by: [risk_flags, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  signoff_report: reviews/prose/vol-02/ch-02-b05-fixes-signoff-claude.md
+  minor_open: 11
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b05_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b05-claude.md
+  translator_followup_segments: [p000093, p000096, p000100, p000101, p000108, p000109, p000112, p000117]
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
