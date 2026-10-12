@@ -43,3 +43,28 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0010.xhtml/p000119
+review_coordination:
+  triggered_by: [new_pending_terms, meaning]
+  serious: 0
+  moderate: resolved_by_translator_and_signoff
+  action: commit_ready
+  status: signed_off
+  signoff_report: reviews/prose/vol-02/ch-01-b05-fixes-signoff-claude.md
+  unresolved_serious: 0
+  unresolved_moderate: 0
+  open_minor: 3
+  validator: pass
+  diff_check: pass
+  provisional_review_choices:
+    serebryakov_rank: Thiếu úy
+    tanya_third_person_narration: repeat Tanya or omit subject
+    adjutant: sĩ quan phụ tá
+    interior_self_reference: mình
+    formula-fixed: đã cố định thuật thức
+    command_company: Đại đội chỉ huy
+    Frederick_the_Great: Friedrich Đại đế
+  provisional_choices:
+    - {term_id: vol02-ch01-b05-post-structuralist, proposed_vi: người theo chủ nghĩa hậu cấu trúc, alternatives: [], segment_ids: [YS-LN02/Text/part0010.xhtml/p000088], confidence: 0.6}
+    - {term_id: vol02-ch01-b05-formula-fixed, proposed_vi: đã cố định thuật thức, alternatives: [thuật thức cố định, cố định công thức], segment_ids: [YS-LN02/Text/part0010.xhtml/p000097], confidence: 0.5, uncertainty: military usage unclear}
+    - {term_id: vol02-ch01-b05-anti-surface-grenade, proposed_vi: lựu đạn chống mục tiêu mặt đất, alternatives: [lựu đạn chống lực lượng mặt đất], segment_ids: [YS-LN02/Text/part0010.xhtml/p000097], confidence: 0.5}
+    - {term_id: vol02-ch01-b05-infantry-square, proposed_vi: đội hình vuông bộ binh, alternatives: [đội hình ô vuông của bộ binh], segment_ids: [YS-LN02/Text/part0010.xhtml/p000116, YS-LN02/Text/part0010.xhtml/p000118], confidence: 0.55}
