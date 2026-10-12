@@ -42,3 +42,49 @@ planning:
   min_source_words: 600
   max_source_words: 900
   boundary_after: chapter_end
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 676
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13212-0ff6-7c13-bd17-75f1967fa449
+  segment_count: 28
+  validator: pass
+  diff_check: pass
+  findings: [3 pending term notes; emphasis matches source]
+  pending_term_count: 4
+  files_written:
+  - translations/vol-02/ch-03-b22.jsonl
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-03-b22-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b22_translation_proposals
+  severity_counts: {serious: 0, moderate: 5, minor: 10}
+  reviewer_session_id: 30443312-1615-4065-a7e6-a35065238bc9
+  unresolved_findings:
+  - p000412: avoid deferential address that reverses rank direction
+  - p000428: express speed as nautical miles per hour
+  - p000430: avoid added criminal judgment, clarify protection/guarding and actor
+  - p000431: correct naval boarding/inspection term and preserve combat intensity
+  - p000434: keep transfer location distinct from submarine's operating status
+  translator_followup:
+    task_id: vol-02-ch-03-b22-review-fixes
+    allowlist: [translations/vol-02/ch-03-b22.jsonl]
+    session_id: 01a13218-4160-7bf1-b3f0-5a3da8c68e11
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [V1, V2, V3, V4, V5]
+  final_signoff:
+    task_id: vol-02-ch-03-b22-signoff
+    review_report: reviews/prose/vol-02/ch-03-b22-fixes-signoff-claude.md
+    session_id: baccae51-7fef-45d3-8ca4-02d6bf2eb106
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 10}
+    prior_moderate_resolved: true
+    unresolved_findings: []
