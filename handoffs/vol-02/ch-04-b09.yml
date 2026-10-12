@@ -41,5 +41,49 @@ checkpoints:
 planning:
   min_source_words: 600
   max_source_words: 900
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 766
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13271-0ca1-7a72-8a57-3fad59355810
+  segment_count: 25
+  validator: pass
+  diff_check: pass
+  findings: [3 terminology notes; no serious/moderate reported]
+  pending_term_count: 5
+  files_written:
+  - translations/vol-02/ch-04-b09.jsonl
+review_coordination:
+  triggered_by: [new_pending_terms, translator_review_notes]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-04-b09-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b09_translation_proposals
+  severity_counts: {serious: 0, moderate: 0, minor: 13}
+  reviewer_session_id: 3aa793b0-6ec5-431a-a8fd-1a40a0bddc8b
+  reported_findings:
+  - p000193+p000194+p000197+p000199+p000201: use approved Tanya narration pronouns
+  - p000211+p000213+p000214+p000216: use “mình” consistently in Tanya's interior narration
+  - p000199: render discipline as order/discipline, not formation
+  translator_followup:
+    task_id: vol-02-ch-04-b09-review-fixes
+    allowlist: [translations/vol-02/ch-04-b09.jsonl]
+    session_id: 01a13277-2c4c-7f33-bca7-b96e4d80deee
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3]
+  final_signoff:
+    task_id: vol-02-ch-04-b09-signoff
+    review_report: reviews/prose/vol-02/ch-04-b09-fixes-signoff-claude.md
+    session_id: 006aaa63-2c49-49cb-b3ad-dbd9ab340581
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 13}
+    prior_moderate_resolved: true
+    unresolved_findings: []
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000217
