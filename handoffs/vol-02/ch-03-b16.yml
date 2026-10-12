@@ -43,3 +43,48 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000257
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 614
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a131b4-c769-7f92-8d4f-6818ef86eaff
+  segment_count: 42
+  validator: pass
+  diff_check: pass
+  findings: [3 minor; no serious/moderate reported]
+  pending_term_count: 5
+  files_written:
+  - translations/vol-02/ch-03-b16.jsonl
+review_coordination:
+  triggered_by: [even_batch]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-03-b16-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b16_translation_proposals
+  severity_counts: {serious: 0, moderate: 4, minor: 11}
+  reviewer_session_id: b41250a9-524f-4ed6-84d4-af180f92a41e
+  reported_findings:
+  - p000222: apply provisional Serebryakov rank mapping
+  - p000215+p000222+p000224+p000229: remove unsupported gendered address
+  - p000228: align interior self-reference and preserve joke scope
+  - p000248+p000252: use one provisional warning-line term
+  translator_followup:
+    task_id: vol-02-ch-03-b16-review-fixes
+    allowlist: [translations/vol-02/ch-03-b16.jsonl]
+    session_id: 01a131bd-3848-7e30-b38e-627a5ff6c972
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1 rank, M2 gendered address, M3 interior thought, M4 warning-line terminology]
+  final_signoff:
+    task_id: vol-02-ch-03-b16-signoff
+    review_report: reviews/prose/vol-02/ch-03-b16-fixes-signoff-claude.md
+    session_id: 4a0332d8-cb62-4fae-b120-91f0a744f4d9
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 11}
+    prior_moderate_resolved: true
+    unresolved_findings: []
