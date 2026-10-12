@@ -43,3 +43,47 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000138
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 740
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13257-9455-7912-ae6e-316eff774d73
+  segment_count: 24
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 4
+  files_written:
+  - translations/vol-02/ch-04-b06.jsonl
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-04-b06-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b06_translation_proposals
+  severity_counts: {serious: 0, moderate: 0, minor: 13}
+  reviewer_session_id: b5e21780-b34a-4746-9e0c-19a6672e3490
+  reported_findings:
+  - p000123: restore third-person narration for Tanya's final sentence
+  - p000116+p000117+p000131: use consistent battle cruiser class term and fleet-scale label
+  - p000129: align marine mage term with latest provisional marine root
+  translator_followup:
+    task_id: vol-02-ch-04-b06-review-fixes
+    allowlist: [translations/vol-02/ch-04-b06.jsonl]
+    session_id: 01a1325d-b661-7661-966b-8a62feb2f45d
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3, task force term, briefing term]
+  final_signoff:
+    task_id: vol-02-ch-04-b06-signoff
+    review_report: reviews/prose/vol-02/ch-04-b06-fixes-signoff-claude.md
+    session_id: 36dd0c28-42c8-49d3-a8ef-6ce7f1e3b172
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 13}
+    prior_moderate_resolved: true
+    unresolved_findings: []
