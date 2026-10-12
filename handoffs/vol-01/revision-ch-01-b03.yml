@@ -1,0 +1,33 @@
+schema_version: 1
+task_id: vol-01-ch-01-b03-review-followup
+role: translator
+batch: vol-01-ch-01-b03
+status: assigned
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: submitted_once
+segment_id_start: YS-LN01/Text/chapter003b.xhtml/p000029
+segment_id_end: YS-LN01/Text/chapter003b.xhtml/p000043
+unit_count: 15
+source_package: work/vol-01/batches/ch-01-b03-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: debfe472d1a98e0affc278b8af5e93f57e1ac530985e95f1ccbd1eee8ef0dc62
+review_report: reviews/prose/vol-01-ch-01-b03-claude-review.md
+files_allowed: [translations/vol-01/ch-01-b03.jsonl]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b03-source.jsonl
+  - reviews/prose/vol-01-ch-01-b03-claude-review.md
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Resolve the moderate findings at p000031, p000033, p000034, and p000043, then apply clear minor corrections from the report where supported.
+  - Tanya narration must avoid unsupported “cô”; use names/omission or the existing pronoun decision only when applicable.
+  - Apply temporary term choices: company officer→sĩ quan cấp úy; agenda→ý đồ; internal propaganda→tuyên truyền đối nội; mobilize→động viên quân; arbitrate→phân xử; incredulous→không thể tin nổi; military titan→người khổng lồ quân sự; Great Army→Đại Quân; preserve Central untranslated.
+  - Keep all choices provisional. Correct notes on p000030, p000031, p000034, p000040, and p000042 to match row contents; do not quote source text in notes.
+  - Only edit the allowed b03 JSONL. Preserve IDs/order/metadata, changed rows draft. Do not edit canon/handoffs/reviews.
+  - Run configured validator with this handoff/source package and git diff --check; return shared YAML report.
