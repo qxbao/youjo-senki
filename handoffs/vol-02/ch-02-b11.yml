@@ -29,6 +29,42 @@ source_package: work/vol-02/batches/ch-02-b11-source.jsonl
 source_package_sha256: 474d499afed7491bbf260f099b4e3b1502227afb8961f3026cc40f3c45ca056c
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a130af-7b62-7da1-8e4a-272062cf48a5
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 9
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b11-review-fixes
+  agent_session_id: 01a130b9-7b30-78c1-b41b-8d2e6b627a77
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3, M4, M5, M6, M7]
+  aligned_minor_terms: [call_sign, height_units, death_zone, republican_army_contact]
+  changed_segments: [p000258, p000259, p000263, p000264, p000265, p000271, p000280, p000283, p000295, p000297, p000298]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms, risk_flags]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b11_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b11-claude.md
+  translator_followup_segments: [p000258, p000259, p000263, p000264, p000265, p000271, p000280, p000283, p000295, p000297, p000298]
+  review_provisional_choices:
+    formulas: thuật thức gây nhiễu
+    height_units: feet, no conversion, do not add units to bare numbers
+    control_unit: đơn vị điều khiển
+    call_sign: hiệu gọi
+    republican_army_contact: đầu mối trong Quân đội Cộng hòa
+    deviation: dị thường
+    devil_of_rhine: Ác quỷ sông Rhine
+  risk_flag: resolved_by_signoff
+  signoff_report: reviews/prose/vol-02/ch-02-b11-fixes-signoff-claude.md
+  minor_open: 15
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
