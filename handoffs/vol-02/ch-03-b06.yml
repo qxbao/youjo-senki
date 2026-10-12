@@ -43,3 +43,107 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0016.xhtml/p000143
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 502
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13155-bd31-7b32-afdf-213501514a36
+  segment_count: 23
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: note
+    segment_id: p000128
+    issue: Source emphasis preserved.
+  - severity: note
+    segment_id: p000129
+    issue: Source emphasis and nested dialogue preserved.
+  - severity: note
+    segment_id: p000130
+    issue: Source emphasis and first-person perspective preserved.
+  pending_term_count: 10
+  files_written:
+  - translations/vol-02/ch-03-b06.jsonl
+review_coordination:
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b06_translation_proposals
+  review_report: reviews/prose/vol-02/ch-03-b06-claude.md
+  serious: 0
+  moderate: 0
+  minor: 4
+  action: approved
+  followup_findings:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  translator_followup_segments:
+  - p000120
+  - p000121
+  - p000122
+  - p000125
+  - p000126
+  - p000127
+  - p000128
+  - p000129
+  - p000130
+  - p000138
+  - p000139
+  - p000140
+  - p000141
+  - p000142
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    central_army: Quân Trung ương / Cụm tập đoàn quân Trung ương; keep distinct
+    northern_army_group: Cụm tập đoàn quân phương Bắc / cụm tập đoàn quân
+    mage_staff: sĩ quan tham mưu pháp sư / sĩ quan tham mưu
+    colonel_general: Thượng tướng
+    war_college: học viện chiến tranh
+    staff_braid_badge: dây tham mưu / phù hiệu tham mưu
+    field_officer: sĩ quan cấp tá
+    aerial_mage_battalion: Tiểu đoàn Pháp sư Không quân 203
+    tanya_p121: cô ta in this Schreise-POV passage
+  signoff_report: reviews/prose/vol-02/ch-03-b06-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 4
+  open_minor_findings: [F9, F13, M1, M2]
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b06-review-fixes
+  agent_session_id: 01a1315c-7920-70b1-83f3-df0dede7e838
+  validator: pass
+  diff_check: pass
+  resolved_serious:
+  - F1
+  resolved_moderate:
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  changed_segments:
+  - p000120
+  - p000121
+  - p000122
+  - p000125
+  - p000126
+  - p000128
+  - p000129
+  - p000130
+  - p000138
+  - p000139
+  - p000140
+  - p000141
+  - p000142
