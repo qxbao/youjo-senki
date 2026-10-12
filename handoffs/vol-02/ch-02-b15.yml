@@ -28,7 +28,13 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-02-b15-source.jsonl
 source_package_sha256: 8828a7b920367f5efe0ac66490455f85d5cc1380154c1487eaf3b11681d011d7
 translation_editor: codex-coordinator
-status: ready
+status: in_review
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 401
+  allowlist: []
+  state: released
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +49,66 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000417
+translation_report:
+  state: done
+  translator_session_id: 01a13110-2d8f-7941-bc38-46ebdbe91be4
+  segment_count: 25
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 5
+  files_written:
+  - translations/vol-02/ch-02-b15.jsonl
+review_coordination:
+  triggered_by:
+  - new_pending_terms
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b15_translation_proposals
+  serious: 0
+  moderate: 0
+  minor: 9
+  action: approved
+  review_report: reviews/prose/vol-02/ch-02-b15-claude.md
+  pending_status: provisional_non_canon
+  followup_findings:
+  - F01
+  - F02
+  translator_followup_segments:
+  - p000393
+  - p000394
+  - p000395
+  - p000396
+  - p000401
+  - p000414
+  - p000416
+  reviewer_term_recommendations:
+    norden_control: Norden Control
+    control_short_form: Control
+    northern_army_group: Cụm tập đoàn quân phương Bắc
+    uncertain_she_reference: người đó
+    tanya_interior_pronoun: mình
+  signoff_report: reviews/prose/vol-02/ch-02-b15-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 9
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b15-review-fixes
+  agent_session_id: 01a13117-0add-74e0-8608-1771f1f6b175
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - F01
+  - F02
+  also_resolved_minor:
+  - F11
+  changed_segments:
+  - p000393
+  - p000394
+  - p000395
+  - p000396
+  - p000401
+  - p000414
+  - p000416
