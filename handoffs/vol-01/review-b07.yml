@@ -1,0 +1,29 @@
+schema_version: 1
+task_id: vol-01-ch-00-b07-review
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b07
+segment_id_start: YS-LN01/Text/chapter001.xhtml/p000129
+segment_id_end: YS-LN01/Text/chapter001.xhtml/p000154
+source_package: work/vol-01/batches/ch-00-b07-source.jsonl
+translation_file: translations/vol-01/ch-00-b07.jsonl
+translator_handoff: handoffs/vol-01/translation-b07.yml
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b07-claude-review.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b07-source.jsonl
+  - translations/vol-01/ch-00-b07.jsonl
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Review all 26 b07 rows for meaning, omissions, emphasis, provisional terminology, and consistency with Claude's term/voice decisions.
+  - Specifically assess the inferred speaker/address at p000135 and the new proposals in p000132, p000138, and p000141.
+  - Report by stable segment ID; no source sentences or excerpts.
+  - Write only the assigned prose report; never edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

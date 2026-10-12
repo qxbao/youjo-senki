@@ -1,0 +1,25 @@
+schema_version: 1
+task_id: vol-01-ch-00-b07-review-followup
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b07
+segment_ids: [p000129, p000130, p000131, p000132, p000134, p000135, p000137, p000138, p000140, p000141, p000148, p000150]
+source_package: work/vol-01/batches/ch-00-b07-source.jsonl
+translation_file: translations/vol-01/ch-00-b07.jsonl
+prior_review: reviews/prose/vol-01-ch-00-b07-claude-review.md
+files_allowed: [reviews/prose/vol-01-ch-00-b07-followup-claude.md]
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b07-source.jsonl
+  - translations/vol-01/ch-00-b07.jsonl
+  - reviews/prose/vol-01-ch-00-b07-claude-review.md
+  - work/run-state/pending-terms.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+instructions:
+  - Review the applied corrections for p000138/p000141 and listed minor findings.
+  - Confirm provisional terminology/voice choices remain non-canon and consistent.
+  - Report by stable segment ID; no source sentences or excerpts.
+  - Write only the assigned prose report; do not edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

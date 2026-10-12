@@ -1,0 +1,38 @@
+schema_version: 1
+task_id: vol-01-ch-00-b07
+role: translator
+status: assigned
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: initial_prompt_returned_before_edits_hash_mismatch; resume_prompt_submitted_once
+batch: vol-01-ch-00-b07
+segment_id_start: YS-LN01/Text/chapter001.xhtml/p000129
+segment_id_end: YS-LN01/Text/chapter001.xhtml/p000154
+unit_count: 26
+source_word_count: 740
+source_package: work/vol-01/batches/ch-00-b07-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: f47e8d1340d2e25024d1d10d44468c2a8aca49135ee7c1e3bc549cdffa47d190
+original_handoff: handoffs/vol-01/ch-00-b07.yml
+pending_ledger: work/run-state/pending-terms.yml
+claude_decisions: reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+files_allowed:
+  - translations/vol-01/ch-00-b07.jsonl
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b07-source.jsonl
+  - handoffs/vol-01/ch-00-b07.yml
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Translate exactly all 26 units with stable IDs and original order.
+  - Apply Claude's provisional choices and voice decisions from the pending ledger consistently; do not wait for user approval.
+  - Record new uncertain terms as proposals in notes and report them; do not edit canon.
+  - Only modify translations/vol-01/ch-00-b07.jsonl; all rows should remain draft.
+  - Run the configured validator with this handoff and source package, then git diff --check.
+  - Return the shared YAML report with findings, pending_terms, risks, and next_action.

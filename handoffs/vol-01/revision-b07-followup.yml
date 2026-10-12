@@ -1,0 +1,21 @@
+schema_version: 1
+task_id: vol-01-ch-00-b07-review-followup
+role: translator
+status: reviewed_ready_to_commit
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b07
+segment_ids: [p000129, p000130, p000131, p000132, p000133, p000134, p000135, p000137, p000138, p000140, p000141, p000143, p000148, p000150]
+source_package: work/vol-01/batches/ch-00-b07-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: f47e8d1340d2e25024d1d10d44468c2a8aca49135ee7c1e3bc549cdffa47d190
+review_report: reviews/prose/vol-01-ch-00-b07-claude-review.md
+pending_ledger: work/run-state/pending-terms.yml
+files_allowed: [translations/vol-01/ch-00-b07.jsonl]
+instructions:
+  - Resolve moderate p000138 and p000141 and actionable minor findings listed in the review for these IDs.
+  - Use contract→hợp đồng; flaw/flawed→khiếm khuyết; moral fiber→bản lĩnh đạo đức; God vocative→Thượng đế ơi; Being X exclusive we→bọn ta; human narrator we→chúng tôi/loài người; Uh→Ừm. Preserve Lord=Chúa and God=Thượng đế.
+  - Keep ông→ngài at p000148–p000150 as an intentional provisional flattery shift. In p000141 remove invented italics and parenthetical explanation, preserving quote framing.
+  - At p000138 preserve Creator possessive. Only modify the allowed b07 JSONL; preserve IDs/order/metadata and set changed rows draft. Do not edit canon/handoffs/reviews.
+  - Run configured validator with this handoff and source package, then git diff --check. Return the shared YAML report.
