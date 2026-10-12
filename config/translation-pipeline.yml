@@ -65,6 +65,21 @@ tools:
   validator: tools/validate_translation.py
   extraction: tools/extract_epub.py
   batch_planner: tools/plan_batches.py
-  # Khả năng hiện có; không suy ra hỗ trợ toàn bộ sách từ phạm vi mong muốn.
-  prepared_adapter_volumes: [vol-01]
-  prepared_adapter_chapters: [chapter-00]
+  # Chung cho các EPUB LN 01-14; chương được lấy từ TOC/NCX và bộ lọc spine.
+  prepared_adapter_volumes:
+  - vol-01
+  - vol-02
+  - vol-03
+  - vol-04
+  - vol-05
+  - vol-06
+  - vol-07
+  - vol-08
+  - vol-09
+  - vol-10
+  - vol-11
+  - vol-12
+  - vol-13
+  - vol-14
+  prepared_adapter_chapters:
+  - all_story_chapters_from_toc_or_ncx

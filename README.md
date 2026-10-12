@@ -31,8 +31,9 @@ trong `tools/README.md`; công cụ dựng EPUB chưa được triển khai.
 ## Quy trình
 
 Luồng lô chính thức: **lập lô → dịch Codex medium → kiểm tra tự động → phản
-biện lấy mẫu Claude Sonnet → duyệt**. Lập lô Chapter 0 bằng
-`uv run python tools/plan_batches.py vol-01 chapter-00`; xem
+biện lấy mẫu Claude Sonnet → duyệt**. Chuẩn bị EPUB bằng adapter chung, ví dụ
+`uv run python tools/extract_epub.py vol-02 --dry-run`, rồi lập lô một chương bằng
+`uv run python tools/plan_batches.py vol-02 chapter-01`; xem
 `tools/README.md` để chạy thử và kiểm tra. Bước lập lô chỉ tạo handoff metadata
 và gói nguồn cục bộ. Kiểm tra tự động bản dịch và phản biện lấy mẫu là các
 bước tiếp theo, không được thực hiện bởi công cụ lập lô. Đối chiếu nguồn

@@ -40,7 +40,7 @@ Vòng: lease + allowlist → translator → validator/self-check → Claude mỗ
 
 Chỉ coi hoàn tất khi có commit, validator đạt, mọi phản biện bắt buộc đã xử lý và không còn lỗi nghiêm trọng/vừa. Các lô b03–b05 trong repo hiện có báo cáo review tồn đọng: recovery phải xét báo cáo ấy trước khi chọn b06, không coi sự tồn tại JSONL là hoàn tất.
 
-**Giới hạn adapter hiện tại:** `tools/extract_epub.py` chỉ nhận vol-01, `tools/plan_batches.py` chỉ nhận vol-01 chapter-00. Phạm vi cấu hình là mọi tập sẵn có; việc chuẩn bị chương/tập chưa hỗ trợ phải được mở rộng bằng nhiệm vụ công cụ riêng trước khi xử lý. Doctor báo khả năng này; coordinator escalate `preparation_required` thay vì tự dùng tham số không được hỗ trợ hoặc giả vờ hàng đợi đã hết. Bộ scaffold này không mở hoặc thay dữ liệu sách để khắc phục giới hạn đó.
+**Adapter chuẩn bị EPUB dùng chung:** `tools/extract_epub.py vol-NN` nhận diện EPUB theo số LN, đọc thứ tự spine và lấy ranh giới chương từ EPUB 3 TOC hoặc NCX; metadata `epub:type` và đường dẫn lọc bìa, mục lục, bản quyền, phụ lục và ghi chú. Chapter fragment được ánh xạ tới đoạn văn chứa anchor hoặc đoạn kế tiếp. Vol 1 giữ profile audit và mã đoạn hiện có. Các EPUB 2–14 đã được dry-run; adapter từ chối volume nếu không tìm được ranh giới chương an toàn. Manifest chỉ ghi metadata; chữ nguồn và XHTML nằm trong `work/` bị Git bỏ qua. `tools/plan_batches.py vol-NN chapter-NN` lập lô riêng cho chương được yêu cầu.
 
 ## Session, checkpoint và recovery
 

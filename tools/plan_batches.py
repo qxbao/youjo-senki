@@ -1,4 +1,4 @@
-"""Plan Chapter 0 batches locally; emit source only under Git-ignored work/."""
+"""Plan per-chapter story batches for a volume; emit source only under ignored work/."""
 
 import argparse
 from collections import Counter
@@ -108,17 +108,19 @@ def boundary_points(units, records, events, scene_starts):
 def plan_ranges(units, records, boundaries, pilot):
     """Choose a complete partition, preferring in-range batches and useful cuts."""
     ids = [unit["id"] for unit in units]
-    pilot_start = ids.index(pilot["segment_id_start"])
-    pilot_end = ids.index(pilot["segment_id_end"])
-    if pilot_start > pilot_end:
-        raise ValueError("Invalid pilot context range")
+    pilot_start = pilot_end = None
+    if pilot:
+        pilot_start = ids.index(pilot["segment_id_start"])
+        pilot_end = ids.index(pilot["segment_id_end"])
+        if pilot_start > pilot_end:
+            raise ValueError("Invalid pilot context range")
     prefix = [0]
     for record in records:
         prefix.append(prefix[-1] + word_count(record))
     # Protect pilot context: within that span, only a page/scene transition
     # permits a cut. A space-break alone does not establish a scene change.
     allowed = [i for i in range(1, len(units) + 1)
-               if not (pilot_start < i <= pilot_end)
+               if pilot is None or not (pilot_start < i <= pilot_end)
                or boundaries.get(i) in ("pagebreak", "scene_boundary")]
     best = {0: ((0, 0, 0, 0), [])}
     for end in allowed:
@@ -155,17 +157,17 @@ def assert_safe_output(root, relative, source):
         raise ValueError("Output ignore rules do not match source/metadata roles")
 
 
-def prepare_outputs(manifest, units, records, ranges, pilot, versions):
+def prepare_outputs(manifest, volume, chapter, units, records, ranges, pilot, versions):
     outputs, handoffs = [], []
-    editor = pilot["translation_editor"]
+    editor = pilot["translation_editor"] if pilot else "codex-coordinator"
     if not re.fullmatch(r"[A-Za-z0-9_-]+", editor):
         raise ValueError("Invalid editor metadata")
     for number, (start, end, count, kind) in enumerate(ranges, 1):
-        batch_id = f"ch-00-b{number:02d}"
-        source_path = f"work/vol-01/batches/{batch_id}-source.jsonl"
+        batch_id = f"ch-{chapter:02d}-b{number:02d}"
+        source_path = f"work/{volume}/batches/{batch_id}-source.jsonl"
         source = "".join(json.dumps(record, ensure_ascii=False) + "\n" for record in records[start:end])
         handoff = {
-            "task_id": f"vol-01-{batch_id}", "volume": "vol-01", "chapter": 0,
+            "task_id": f"{volume}-{batch_id}", "volume": volume, "chapter": chapter,
             "segment_id_start": units[start]["id"], "segment_id_end": units[end - 1]["id"],
             "unit_count": end - start, "source_word_count": count,
             "word_count_method": {"type": "regex_matches_per_unit", "pattern": WORD_PATTERN,
@@ -174,7 +176,7 @@ def prepare_outputs(manifest, units, records, ranges, pilot, versions):
             "glossary_version": "sha256:" + versions["canon/glossary.yml"],
             "style_guide_version": "sha256:" + versions["canon/style-guide.md"],
             "canon_references": [{"path": path, "sha256": value} for path, value in versions.items()],
-            "source_manifest": "segments/vol-01/manifest.yml",
+            "source_manifest": f"segments/{volume}/manifest.yml",
             "source_package": source_path,
             "source_package_sha256": hashlib.sha256(source.encode("utf-8")).hexdigest(),
             "translation_editor": editor, "status": "ready",
@@ -193,7 +195,7 @@ def prepare_outputs(manifest, units, records, ranges, pilot, versions):
         # Only explicitly constructed metadata reaches a tracked handoff.
         handoffs.append(handoff)
         outputs.extend([(source_path, source, True),
-                        (f"handoffs/vol-01/{batch_id}.yml",
+                        (f"handoffs/{volume}/{batch_id}.yml",
                          yaml.safe_dump(handoff, allow_unicode=True, sort_keys=False), False)])
     return outputs, handoffs
 
@@ -217,8 +219,8 @@ def verify_plan(units, records, ranges):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("volume", choices=["vol-01"])
-    parser.add_argument("chapter", choices=["chapter-00"])
+    parser.add_argument("volume", help="Volume key such as vol-02")
+    parser.add_argument("chapter", help="Chapter key such as chapter-03")
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--dry-run", action="store_true", help="Plan and verify without writing")
     mode.add_argument("--check", action="store_true", help="Verify existing output against the current inputs")
@@ -226,27 +228,40 @@ def main():
                         help="Explicit scene boundary before a whole source unit; repeatable")
     args = parser.parse_args()
     try:
-        ensure_local_source(ROOT)
-        manifest = yaml.safe_load((ROOT / "segments/vol-01/manifest.yml").read_text(encoding="utf-8"))
-        with (ROOT / "work/vol-01/source.jsonl").open(encoding="utf-8") as stream:
+        if not re.fullmatch(r"vol-\d{2}", args.volume):
+            raise ValueError("Volume must use the vol-NN format")
+        chapter_match = re.fullmatch(r"chapter-(\d{2})", args.chapter)
+        if chapter_match is None:
+            raise ValueError("Chapter must use the chapter-NN format")
+        chapter = int(chapter_match.group(1))
+        volume = args.volume
+        ensure_local_source(ROOT, volume)
+        manifest = yaml.safe_load((ROOT / f"segments/{volume}/manifest.yml").read_text(encoding="utf-8"))
+        with (ROOT / f"work/{volume}/source.jsonl").open(encoding="utf-8") as stream:
             all_records = [json.loads(line) for line in stream]
-        validate(manifest, all_records)
-        if manifest["volume"] != args.volume or not re.fullmatch(r"[a-f0-9]{64}", manifest["source"]["sha256"]):
+        validate(manifest, all_records, volume)
+        if manifest["volume"] != volume or not re.fullmatch(r"[a-f0-9]{64}", manifest["source"]["sha256"]):
             raise ValueError("Invalid volume/fingerprint")
-        pilot = yaml.safe_load((ROOT / "handoffs/pilot-01.yml").read_text(encoding="utf-8"))
-        if pilot["source_sha256"] != manifest["source"]["sha256"]:
-            raise ValueError("Pilot and source fingerprints differ")
-        if pilot["word_count_method"]["pattern"] != WORD_PATTERN:
-            raise ValueError("Pilot word-count convention differs")
+        pilot = None
+        pilot_path = ROOT / "handoffs/pilot-01.yml"
+        if volume == "vol-01" and chapter == 0 and pilot_path.is_file():
+            pilot = yaml.safe_load(pilot_path.read_text(encoding="utf-8"))
+            if pilot["source_sha256"] != manifest["source"]["sha256"]:
+                raise ValueError("Pilot and source fingerprints differ")
+            if pilot["word_count_method"]["pattern"] != WORD_PATTERN:
+                raise ValueError("Pilot word-count convention differs")
         pairs = [(unit, record) for unit, record in zip(manifest["units"], all_records)
-                 if unit["kind"] == "story" and unit["chapter"] == 0]
+                 if unit["kind"] == "story" and unit["chapter"] == chapter]
+        if not pairs:
+            raise ValueError("No story units for requested chapter")
         units = [unit for unit, _ in pairs]
         records = [record for _, record in pairs]
         boundaries = boundary_points(units, records, manifest["events"], args.scene_start)
         ranges = plan_ranges(units, records, boundaries, pilot)
         verify_plan(units, records, ranges)
         versions = {path: sha256(ROOT / path) for path in CANON_PATHS}
-        outputs, handoffs = prepare_outputs(manifest, units, records, ranges, pilot, versions)
+        outputs, handoffs = prepare_outputs(manifest, volume, chapter, units, records,
+                                            ranges, pilot, versions)
         # Preflight every output before the first write. Reruns are idempotent;
         # never reset an existing handoff's owner, status or pinned canon.
         for relative, content, source in outputs:
@@ -261,7 +276,8 @@ def main():
                 if not (ROOT / relative).exists():
                     atomic_write(ROOT / relative, content)
         label = "DRY RUN" if args.dry_run else "PASS" if args.check else "PLANNED"
-        print(f"{label}: Chapter 0; {len(units)} story units; {len(handoffs)} batches; no notes")
+        print(f"{label}: {volume} chapter {chapter:02d}; {len(units)} story units; "
+              f"{len(handoffs)} batches")
         for handoff in handoffs:
             print(f"{handoff['task_id']}: {handoff['segment_id_start']} .. {handoff['segment_id_end']}; "
                   f"units={handoff['unit_count']} words={handoff['source_word_count']}; "
