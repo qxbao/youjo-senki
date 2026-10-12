@@ -1,0 +1,36 @@
+schema_version: 1
+task_id: vol-01-ch-00-b04-review-followup-review
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b04
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  - YS-LN01/Text/chapter001.xhtml/p000061
+  - YS-LN01/Text/chapter001.xhtml/p000062
+  - YS-LN01/Text/chapter001.xhtml/p000065
+  - YS-LN01/Text/chapter001.xhtml/p000066
+  - YS-LN01/Text/chapter001.xhtml/p000069
+  - YS-LN01/Text/chapter001.xhtml/p000073
+source_package: work/vol-01/batches/ch-00-b04-source.jsonl
+translation_file: translations/vol-01/ch-00-b04.jsonl
+prior_review: reviews/prose/vol-01-ch-00-b04-review-fixes-claude.md
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b04-followup-claude.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b04-source.jsonl
+  - translations/vol-01/ch-00-b04.jsonl
+  - reviews/prose/vol-01-ch-00-b04-review-fixes-claude.md
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+  - work/run-state/pending-terms.yml
+instructions:
+  - Review the new edits against the source and context, especially p000062/p000069 and scene-wide direct address.
+  - Verify notes report the difference between provisional terms and glossary-pending without treating either proposal as canon.
+  - Report actionable findings by stable segment ID; no source sentences or excerpts.
+  - Write only the assigned prose report; never edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

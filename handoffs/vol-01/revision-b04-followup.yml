@@ -1,0 +1,38 @@
+schema_version: 1
+task_id: vol-01-ch-00-b04-review-followup
+role: translator
+status: reviewed_ready_to_commit
+preflight_status_command: /status submitted_once; output verified
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b04
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  - YS-LN01/Text/chapter001.xhtml/p000061
+  - YS-LN01/Text/chapter001.xhtml/p000062
+  - YS-LN01/Text/chapter001.xhtml/p000065
+  - YS-LN01/Text/chapter001.xhtml/p000066
+  - YS-LN01/Text/chapter001.xhtml/p000069
+  - YS-LN01/Text/chapter001.xhtml/p000073
+source_package: work/vol-01/batches/ch-00-b04-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: c0f99c708fa1ba5bc58fcdc0ba55deea10a27f6d25da1588c4df7c5822b44cdf
+review_report: reviews/prose/vol-01-ch-00-b04-review-fixes-claude.md
+files_allowed:
+  - translations/vol-01/ch-00-b04.jsonl
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b04-source.jsonl
+  - reviews/prose/vol-01-ch-00-b04-review-fixes-claude.md
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Fix the two moderate findings in p000062 and p000069, then resolve the clear scene-level direct-address assumptions in p000061 and p000065, while keeping IDs and metadata unchanged.
+  - Address the cited clear minor concerns in p000060 and p000066 if source/context supports them.
+  - In p000073 notes, state clearly that the translation choice is provisional and differs from the current pending glossary proposal; do not change canon or claim approval.
+  - Keep direct address neutral across the scene where natural; do not assign gender or relationship without evidence.
+  - Only modify this batch JSONL. Changed rows become draft. Run the configured validator with this handoff and source package, then git diff --check.
+  - Return the shared YAML report with findings, pending_terms, risks, and next_action.
