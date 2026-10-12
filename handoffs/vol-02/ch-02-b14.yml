@@ -29,6 +29,42 @@ source_package: work/vol-02/batches/ch-02-b14-source.jsonl
 source_package_sha256: 8b1e1d02af2f1c1d0b34c876147cd78a21e58cc75c1e7e42436cc104b0fbcd80
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a130d6-fab5-7dd1-bbe0-e08abfe70360
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 4
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b14-review-fixes
+  agent_session_id: 01a130e0-e6bd-7d91-991d-a3a34748e4578c
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [MOD-1, MOD-2, MOD-3, MOD-4, MOD-5]
+  changed_segments: [p000354, p000357, p000374, p000381, p000382, p000383, p000384, p000385, p000386, p000387, p000388, p000389, p000391]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: approved
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b14_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b14-claude.md
+  translator_followup_segments: [p000354, p000357, p000374, p000381, p000382, p000383, p000384, p000385, p000386, p000387, p000388, p000389, p000391]
+  signoff_report: reviews/prose/vol-02/ch-02-b14-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  open_minor_findings: 2
+  review_provisional_choices:
+    tanya_narration: repeat Tanya or omit subject
+    tanya_interior: mình
+    serebryakov_rank: Thiếu úy
+    surveillance_waves: sóng giám sát
+    surface_surveillance_train: đoàn tàu giám sát mặt đất
+    opponent_support: phía đối phương; hậu thuẫn
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
