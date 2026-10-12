@@ -43,3 +43,52 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000302
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 626
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a131d4-2284-7d13-b4e0-4e37e155c37c
+  segment_count: 45
+  validator: pass
+  diff_check: pass
+  findings: [3 review notes; no serious/moderate reported]
+  pending_term_count: 8
+  files_written:
+  - translations/vol-02/ch-03-b17.jsonl
+review_coordination:
+  triggered_by: [new_pending_terms, translator_review_notes]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-03-b17-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b17_translation_proposals
+  severity_counts: {serious: 0, moderate: 8, minor: 13}
+  reviewer_session_id: 8ea552a1-9357-4a51-ba6e-2ec3166c059b
+  unresolved_findings:
+  - p000268: use recognition reply instead of command acknowledgement
+  - p000268: apply provisional Serebryakov rank map
+  - p000270: remove familiar/gendered address for Weiss
+  - p000273: use DEC-P01-001 narrative pronoun for Tanya
+  - p000267: use ledger term Không quân, not không vận
+  - p000296: preserve rust image and avoid demeaning address
+  - p000297+p000298: align nickname and reduce unsupported tone additions
+  - p000301: use thuật thức and restore omitted modality/emphasis
+  translator_followup:
+    task_id: vol-02-ch-03-b17-review-fixes
+    allowlist: [translations/vol-02/ch-03-b17.jsonl]
+    session_id: 01a131db-fd91-7ae1-8aeb-b057ee43c112
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3, M4, M5, M6, M7, M8]
+  final_signoff:
+    task_id: vol-02-ch-03-b17-signoff
+    review_report: reviews/prose/vol-02/ch-03-b17-fixes-signoff-claude.md
+    session_id: d2080c66-016a-40c1-b049-3efadd0e6f27
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 11}
+    prior_moderate_resolved: true
+    unresolved_findings: []
