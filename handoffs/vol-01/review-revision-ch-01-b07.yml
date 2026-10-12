@@ -1,0 +1,67 @@
+schema_version: 1
+task_id: vol-01-ch-01-b07-review-fixes-followup
+role: reviewer
+status: ready
+batch: vol-01-ch-01-b07
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000101
+- YS-LN01/Text/chapter003b.xhtml/p000102
+- YS-LN01/Text/chapter003b.xhtml/p000103
+- YS-LN01/Text/chapter003b.xhtml/p000104
+- YS-LN01/Text/chapter003b.xhtml/p000105
+- YS-LN01/Text/chapter003b.xhtml/p000106
+- YS-LN01/Text/chapter003b.xhtml/p000107
+- YS-LN01/Text/chapter003b.xhtml/p000108
+- YS-LN01/Text/chapter003b.xhtml/p000109
+- YS-LN01/Text/chapter003b.xhtml/p000110
+- YS-LN01/Text/chapter003b.xhtml/p000111
+- YS-LN01/Text/chapter003b.xhtml/p000112
+- YS-LN01/Text/chapter003b.xhtml/p000113
+- YS-LN01/Text/chapter003b.xhtml/p000114
+- YS-LN01/Text/chapter003b.xhtml/p000115
+- YS-LN01/Text/chapter003b.xhtml/p000116
+- YS-LN01/Text/chapter003b.xhtml/p000117
+- YS-LN01/Text/chapter003b.xhtml/p000118
+- YS-LN01/Text/chapter003b.xhtml/p000119
+- YS-LN01/Text/chapter003b.xhtml/p000120
+- YS-LN01/Text/chapter003b.xhtml/p000121
+- YS-LN01/Text/chapter003b.xhtml/p000122
+- YS-LN01/Text/chapter003b.xhtml/p000123
+- YS-LN01/Text/chapter003b.xhtml/p000124
+- YS-LN01/Text/chapter003b.xhtml/p000125
+- YS-LN01/Text/chapter003b.xhtml/p000126
+- YS-LN01/Text/chapter003b.xhtml/p000127
+- YS-LN01/Text/chapter003b.xhtml/p000128
+report_path: reviews/prose/vol-01-ch-01-b07-followup-claude.md
+files_allowed:
+- reviews/prose/vol-01-ch-01-b07-followup-claude.md
+read_only_inputs:
+- agents/shared.md
+- agents/reviewer.md
+- config/translation-pipeline.yml
+- handoffs/vol-01/ch-01-b07.yml
+- handoffs/vol-01/revision-ch-01-b07.yml
+- handoffs/vol-01/review-ch-01-b07.yml
+- reviews/prose/vol-01-ch-01-b07-claude-review.md
+- work/vol-01/batches/ch-01-b07-source.jsonl
+- translations/vol-01/ch-01-b07.jsonl
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+metadata_risks:
+- Verify p000119 renders number sequences and avoids ambiguity with Division Six.
+- Verify p000108 no unsupported officer rank and notes/ledger mark the neutral role
+  as pending.
+- Check prior moderate findings and p000128 emphasis.
+- Check terminology notes and ledger after coordinator updates.
+instructions:
+- Re-review the full batch after translator changes. Confirm both prior moderate findings
+  are resolved and identify any new serious/moderate finding. Minor issues may remain.
+- Check ledger consistency for the four original terms and the added artillery-observer
+  proposal; all remain provisional.
+- Do not copy source sentences, make canon decisions, or edit files beyond the allowed
+  report. Return shared YAML counts, unresolved findings, term recommendations and
+  risks; validator/diff_check not_run; commit null.

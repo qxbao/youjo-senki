@@ -1,0 +1,84 @@
+schema_version: 1
+task_id: vol-01-ch-01-b07-review-fixes
+role: translator
+status: ready
+batch: vol-01-ch-01-b07
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000101
+- YS-LN01/Text/chapter003b.xhtml/p000102
+- YS-LN01/Text/chapter003b.xhtml/p000103
+- YS-LN01/Text/chapter003b.xhtml/p000104
+- YS-LN01/Text/chapter003b.xhtml/p000105
+- YS-LN01/Text/chapter003b.xhtml/p000106
+- YS-LN01/Text/chapter003b.xhtml/p000107
+- YS-LN01/Text/chapter003b.xhtml/p000108
+- YS-LN01/Text/chapter003b.xhtml/p000109
+- YS-LN01/Text/chapter003b.xhtml/p000110
+- YS-LN01/Text/chapter003b.xhtml/p000111
+- YS-LN01/Text/chapter003b.xhtml/p000112
+- YS-LN01/Text/chapter003b.xhtml/p000113
+- YS-LN01/Text/chapter003b.xhtml/p000114
+- YS-LN01/Text/chapter003b.xhtml/p000115
+- YS-LN01/Text/chapter003b.xhtml/p000116
+- YS-LN01/Text/chapter003b.xhtml/p000117
+- YS-LN01/Text/chapter003b.xhtml/p000118
+- YS-LN01/Text/chapter003b.xhtml/p000119
+- YS-LN01/Text/chapter003b.xhtml/p000120
+- YS-LN01/Text/chapter003b.xhtml/p000121
+- YS-LN01/Text/chapter003b.xhtml/p000122
+- YS-LN01/Text/chapter003b.xhtml/p000123
+- YS-LN01/Text/chapter003b.xhtml/p000124
+- YS-LN01/Text/chapter003b.xhtml/p000125
+- YS-LN01/Text/chapter003b.xhtml/p000126
+- YS-LN01/Text/chapter003b.xhtml/p000127
+- YS-LN01/Text/chapter003b.xhtml/p000128
+source_package: work/vol-01/batches/ch-01-b07-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: 7dfde0dcee1fe07474ed5b2af7be11f9ba62a30b4feaaa0d43ccd910e040d1c8
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+review_report: reviews/prose/vol-01-ch-01-b07-claude-review.md
+files_allowed:
+- translations/vol-01/ch-01-b07.jsonl
+read_only_inputs:
+- work/vol-01/batches/ch-01-b07-source.jsonl
+- reviews/prose/vol-01-ch-01-b07-claude-review.md
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+instructions:
+- 'Resolve both moderate findings. At p000119 replace “tín hiệu số” with “các dãy
+  số” and use “chúng” for the enemy to avoid confusion with Division Six. At p000108
+  remove the invented rank: use “người điều phối tiền phương được chỉ định” (or the
+  listed neutral alternative) and add the term as pending in notes, not canon.'
+- 'Apply clear minor corrections: remove “diễn trò” at p000101–p000102 and render
+  neutrally as carrying out brinkmanship diplomacy; p000102 “phô trương” → “để lộ
+  dấu hiệu hoạt động quân sự gia tăng”; p000106 “một ổ toàn lũ ngu xuẩn”; p000115
+  “cản trở hỏa lực gián tiếp…”; p000116 “Sư đoàn 6 lục quân”; p000117 ask whether
+  observers can locate it and use “quan sát viên pháo binh” for spotters; p000120
+  use “quan sát viên pháo binh” for spotters while keeping observer mage distinct;
+  p000122 use “tuyến cảnh giới đồ sộ” and keep enemy pronoun compatible with the Entente
+  speaker; p000125 “chiến tranh vốn dĩ dễ thế này sao”. Preserve p000128 emphasis
+  exactly as in source.'
+- Update notes for changed rows to match text and pending ledger IDs; no source sentences.
+  Correct ledger rationale is local coordinator-managed; do not edit ledger/canon.
+  Keep all term choices provisional.
+- Only modify translations/vol-01/ch-01-b07.jsonl; preserve IDs/order/metadata; changed
+  rows draft.
+- 'Run configured validator using this handoff/source package and git diff --check.
+  Return shared YAML with exact files_written, findings, pending_terms, confidence,
+  risks, validator/diff_check, next_action: review. Do not commit.'
