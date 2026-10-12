@@ -43,3 +43,49 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000411
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 666
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13204-18dc-77b2-ac1d-dab56a402828
+  segment_count: 31
+  validator: pass
+  diff_check: pass
+  findings: [2 low-level terminology notes; no serious/moderate reported]
+  pending_term_count: 5
+  files_written:
+  - translations/vol-02/ch-03-b21.jsonl
+review_coordination:
+  triggered_by: [new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-03-b21-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b21_translation_proposals
+  severity_counts: {serious: 0, moderate: 5, minor: 11}
+  reviewer_session_id: 6dd5b0d9-24e9-4716-9bab-cd3b87107a80
+  unresolved_findings:
+  - p000387: keep the intent near the boundary of permissible circumvention without contradicting itself
+  - p000392: preserve uncertainty without adding “premature happiness”
+  - p000395: use consistent pronoun for inferred Habergram referent
+  - p000404: avoid unsupported “infamous” judgment for toxic
+  - p000404+p000405: distinguish Admiralty office and First Lord title; correct “in here”
+  translator_followup:
+    task_id: vol-02-ch-03-b21-review-fixes
+    allowlist: [translations/vol-02/ch-03-b21.jsonl]
+    session_id: 01a1320a-d497-7ba0-8e17-80d2f61ca707
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [V1, V2, V3, V4, V5, N1, N4, N5, N6, N8, N11, N12]
+  final_signoff:
+    task_id: vol-02-ch-03-b21-signoff
+    review_report: reviews/prose/vol-02/ch-03-b21-fixes-signoff-claude.md
+    session_id: efafd0df-70b3-4919-b924-29376c1a654e
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 5}
+    prior_moderate_resolved: true
+    unresolved_findings: []
