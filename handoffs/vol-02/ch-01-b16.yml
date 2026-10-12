@@ -42,3 +42,28 @@ planning:
   min_source_words: 600
   max_source_words: 900
   boundary_after: chapter_end
+translation_report:
+  state: done
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 10
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: resolved_by_translator_and_signoff
+  action: commit_ready
+  status: signed_off
+  signoff_report: reviews/prose/vol-02/ch-01-b16-fixes-signoff-claude.md
+  unresolved_serious: 0
+  unresolved_moderate: 0
+  open_minor: 9
+  validator: pass
+  diff_check: pass
+  pending_status: provisional_non_canon
+  review_report: reviews/prose/vol-02/ch-01-b16-claude.md
+  fix_report_state: translator_done_validator_pass
+  provisional_review_choices:
+    technical_arsenal: Xưởng Vũ khí Kỹ thuật
+    p000053_question: Ông chịu được chứ?
+    operational_level: p000039 về tác chiến; p000047 cấp chiến dịch
