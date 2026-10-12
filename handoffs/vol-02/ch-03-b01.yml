@@ -43,3 +43,87 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0016.xhtml/p000041
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 454
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13136-d6a7-7a71-92ef-115f60955cd8
+  segment_count: 40
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: low
+    segment_id: p000023
+    issue: Eleventh Goddess rendering is provisional; recorded for review.
+  - severity: low
+    segment_id: p000004
+    issue: Major General mapping remains provisional and follows existing ledger.
+  pending_term_count: 4
+  files_written:
+  - translations/vol-02/ch-03-b01.jsonl
+review_coordination:
+  triggered_by:
+  - new_pending_terms
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b01_translation_proposals
+  review_report: reviews/prose/vol-02/ch-03-b01-claude.md
+  serious: 0
+  moderate: 1
+  minor: 11
+  action: approved
+  followup_findings:
+  - F-01
+  translator_followup_segments:
+  - p000003
+  - p000004
+  - p000008
+  - p000023
+  - p000024
+  - p000026
+  - p000036
+  - p000039
+  - p000040
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    eleventh_goddess: Nữ thần Thứ Mười Một
+    general_address: Tướng von Rudersdorf
+    service_corps: Cục Hậu cần
+    jeffrey_reference: repeat Jeffrey or omit subject
+    related_to: người liên quan đến Nữ thần Thứ Mười Một
+  signoff_report: reviews/prose/vol-02/ch-03-b01-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 6
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b01-review-fixes
+  agent_session_id: 01a1313b-8f12-7bf1-be2e-7abf030fbdca
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - F-01
+  also_resolved_minor:
+  - F-03
+  - F-04
+  - F-06
+  - F-08
+  - F-09
+  - F-12
+  - Eleventh Goddess capitalization
+  changed_segments:
+  - p000003
+  - p000004
+  - p000008
+  - p000023
+  - p000024
+  - p000026
+  - p000036
+  - p000038
+  - p000039
+  - p000040
