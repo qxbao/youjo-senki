@@ -1,0 +1,29 @@
+schema_version: 1
+task_id: vol-01-ch-00-b03-review-fixes-review
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b03
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000045
+  - YS-LN01/Text/chapter001.xhtml/p000046
+  - YS-LN01/Text/chapter001.xhtml/p000055
+source_package: work/vol-01/batches/ch-00-b03-source.jsonl
+translation_file: translations/vol-01/ch-00-b03.jsonl
+prior_review: reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b03-review-fixes-claude.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b03-source.jsonl
+  - translations/vol-01/ch-00-b03.jsonl
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Review the three listed edits for meaning, fluency, and canon consistency against source and context.
+  - Report actionable findings by stable segment_id; no source sentences or source excerpts in the report.
+  - Write only the assigned report under reviews/prose/; never edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

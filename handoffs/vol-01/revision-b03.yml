@@ -1,0 +1,33 @@
+schema_version: 1
+task_id: vol-01-ch-00-b03-review-fixes
+role: translator
+status: reviewed_ready_to_commit
+task_prompt_delivery: completed_after_two_followups
+batch: vol-01-ch-00-b03
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000045
+  - YS-LN01/Text/chapter001.xhtml/p000046
+  - YS-LN01/Text/chapter001.xhtml/p000055
+source_package: work/vol-01/batches/ch-00-b03-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: a9e826188b73d0bb94f0152be6eea713e506ce9c29b4294ce0d1661904213622
+review_report: reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+files_allowed:
+  - translations/vol-01/ch-00-b03.jsonl
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b03-source.jsonl
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - For p000045, address only the clearly supported wording concern about “spirit”; leave narrator pronoun choice unchanged.
+  - For p000046, add the substantiated economics field to Chicago school and remove the pejorative tone for bookworm; leave rationality pending.
+  - For p000055, address only the suggested age phrasing; leave Touchstone naming and section-manager rank unresolved.
+  - Keep unresolved terminology, rank, and voice choices as pending; do not promote them to canon.
+  - Do not change section-manager wording or rationality terms where the report requests user decisions.
+  - Preserve stable segment IDs and all JSONL metadata; changed rows become draft.
+  - Return the shared YAML report with findings, files_written, validator, diff_check, pending_terms, risks, and next_action.
