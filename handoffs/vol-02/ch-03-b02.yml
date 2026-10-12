@@ -43,3 +43,65 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0016.xhtml/p000065
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 467
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1313f-5e0e-7e92-8258-16adf51df6ef
+  segment_count: 24
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: note
+    segment_id: p000052
+    issue: Supply hell left in English so the character-count clue remains coherent.
+  - severity: note
+    segment_id: p000059
+    issue: Literal asterisk signature marker encoded as a character entity.
+  pending_term_count: 3
+  new_pending_term_count: 1
+  files_written:
+  - translations/vol-02/ch-03-b02.jsonl
+review_coordination:
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b02_translation_proposals
+  review_report: reviews/prose/vol-02/ch-03-b02-claude.md
+  action: approved
+  serious: 0
+  moderate: 0
+  minor: 8
+  reviewer_term_recommendations:
+    eleventh_goddess: Nữ thần Thứ Mười Một
+    supply_hell: Supply hell (preserve character-count clue)
+    organization_capitalization: Cục Lưu trữ Quốc gia / Ủy ban Quốc phòng
+  open_minor_findings: 8
+  resolved_minor_followup:
+  - organization capitalization at p000045
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b02-term-followup
+  agent_session_id: 01a1313f-5e0e-7e92-8258-16adf51df6ef
+  validator: pass
+  diff_check: pass
+  changed_segments:
+  - p000041
+  - p000050
+  - p000053
+  resolved_issue: aligned Eleventh Goddess capitalization with signed-off chapter
+    3 b01 proposal
+minor_term_followup:
+  state: done
+  task_id: vol-02-ch-03-b02-review-fixes
+  agent_session_id: 01a13144-071b-7be2-be05-055d9af421b9
+  changed_segments:
+  - p000045
+  validator: pass
+  diff_check: pass
