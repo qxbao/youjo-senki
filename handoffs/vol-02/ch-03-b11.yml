@@ -43,3 +43,97 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000116
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 569
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13189-10d4-7373-b3de-dcf4841b493f
+  segment_count: 28
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: resolved
+    segment_id: p000088
+    issue: Initial JSONL schema mismatch; corrected before final pass.
+  - severity: resolved
+    segment_id: p000112
+    issue: Emphasis markup corrected and validated.
+  pending_term_count: 4
+  files_written:
+  - translations/vol-02/ch-03-b11.jsonl
+review_coordination:
+  triggered_by:
+  - new_pending_terms
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b11_translation_proposals
+  review_report: reviews/prose/vol-02/ch-03-b11-claude.md
+  serious: 0
+  moderate: 0
+  minor: 5
+  action: approved
+  followup_findings:
+  - M1
+  - M2
+  - M3
+  translator_followup_segments:
+  - p000092
+  - p000095
+  - p000098
+  - p000099
+  - p000102
+  - p000108
+  - p000110
+  - p000111
+  - p000112
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    tanya_narration: Tanya at p000092, nó at p000095/p000098/p000099
+    tanya_internal: mình at p000102/p000108/p000111/p000112
+    central_army: Quân Trung ương
+    budget_section: Ban Ngân sách
+    northern_army_group: Cụm tập đoàn quân phương Bắc
+    Vitamin_P: keep English label
+    p000110: rủi ro của cuộc tấn công ấy; use Khi…thì
+  out_of_scope_reference_not_modified: Officer of the Week at p000060 is outside b11
+    handoff range and was not inspected/applied.
+  remaining_findings:
+  - minor items m1,m4,m9,m10,m11 from initial review; non-blocking
+  minor_after_final_fix: 5
+  signoff_report: reviews/prose/vol-02/ch-03-b11-fixes-signoff-claude.md
+  final_check_report: reviews/prose/vol-02/ch-03-b11-final-check-claude.md
+  signoff_state: approved
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b11-review-fixes
+  agent_session_id: 01a1318e-459b-7641-b442-583ac95e48af
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - M1
+  - M2
+  - M3
+  changed_segments:
+  - p000095
+  - p000098
+  - p000099
+  - p000102
+  - p000108
+  - p000110
+  - p000111
+  - p000112
+  out_of_scope_reference_not_modified:
+  - Officer of the Week at p000060; absent from b11 package
+post_signoff_final_fix:
+  state: done
+  task_id: vol-02-ch-03-b11-final-fix
+  agent_session_id: 01a13190-f73e-7d90-b838-5d5f84210404
+  changed_segments:
+  - p000092
+  - p000111
+  validator: pass
+  diff_check: pass
