@@ -1,0 +1,30 @@
+schema_version: 1
+task_id: vol-01-ch-00-b06-review
+role: reviewer
+status: assigned
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b06
+segment_id_start: YS-LN01/Text/chapter001.xhtml/p000102
+segment_id_end: YS-LN01/Text/chapter001.xhtml/p000128
+source_package: work/vol-01/batches/ch-00-b06-source.jsonl
+translation_file: translations/vol-01/ch-00-b06.jsonl
+translator_handoff: handoffs/vol-01/translation-b06.yml
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b06-claude-review.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b06-source.jsonl
+  - translations/vol-01/ch-00-b06.jsonl
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Review meaning, logic, emphasis, terminology, and consistency with Claude's provisional choices.
+  - Specifically assess p000105–p000114 Mười Điều Răn wording without assuming an unapproved Bible edition; choose a clear temporary approach if needed.
+  - Check p000125 direct address against the provisional Being X narrator voice choice.
+  - Report findings by stable segment ID; no source sentences or excerpts.
+  - Write only the assigned prose review; never edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

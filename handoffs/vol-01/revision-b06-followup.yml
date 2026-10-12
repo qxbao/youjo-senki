@@ -1,0 +1,39 @@
+schema_version: 1
+task_id: vol-01-ch-00-b06-review-followup
+role: translator
+batch: vol-01-ch-00-b06
+status: assigned
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: submitted_once
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000106
+  - YS-LN01/Text/chapter001.xhtml/p000109
+  - YS-LN01/Text/chapter001.xhtml/p000117
+  - YS-LN01/Text/chapter001.xhtml/p000118
+  - YS-LN01/Text/chapter001.xhtml/p000120
+  - YS-LN01/Text/chapter001.xhtml/p000122
+  - YS-LN01/Text/chapter001.xhtml/p000127
+source_package: work/vol-01/batches/ch-00-b06-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: b199a7db4695f9925e072158d100bc9081fa14df0010015fa40ae19027edc932
+review_report: reviews/prose/vol-01-ch-00-b06-claude-review.md
+files_allowed:
+  - translations/vol-01/ch-00-b06.jsonl
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b06-source.jsonl
+  - reviews/prose/vol-01/ch-00-b06-claude-review.md
+  - reviews/prose/vol-01-ch-00-b06-claude-review.md
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Resolve the moderate finding at p000106 by using God = “Thượng đế” and Lord = “Chúa”, with neutral standalone phrasing rather than a specific Bible edition.
+  - Apply the review’s supported wording corrections at p000109, p000117, p000118, p000120, p000122, and p000127. Keep temporary decisions from the report provisional; do not edit canon.
+  - Preserve IDs/order/metadata; changed rows become draft. Only modify the allowed b06 JSONL.
+  - Run the configured validator with this handoff and source package, then git diff --check.
+  - Return the shared YAML report with findings, pending_terms, risks, and next_action.

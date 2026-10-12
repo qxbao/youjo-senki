@@ -1,0 +1,33 @@
+schema_version: 1
+task_id: vol-01-ch-00-b06-review-followup
+role: reviewer
+status: assigned
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b06
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000106
+  - YS-LN01/Text/chapter001.xhtml/p000109
+  - YS-LN01/Text/chapter001.xhtml/p000117
+  - YS-LN01/Text/chapter001.xhtml/p000118
+  - YS-LN01/Text/chapter001.xhtml/p000120
+  - YS-LN01/Text/chapter001.xhtml/p000122
+  - YS-LN01/Text/chapter001.xhtml/p000127
+source_package: work/vol-01/batches/ch-00-b06-source.jsonl
+translation_file: translations/vol-01/ch-00-b06.jsonl
+prior_review: reviews/prose/vol-01-ch-00-b06-claude-review.md
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b06-followup-claude.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b06-source.jsonl
+  - translations/vol-01/ch-00-b06.jsonl
+  - reviews/prose/vol-01-ch-00-b06-claude-review.md
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - work/run-state/pending-terms.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+instructions:
+  - Review all seven follow-up changes against source/context and the provisional term/style decisions.
+  - Confirm p000106 uses God=Thượng đế and Lord=Chúa in standalone wording; verify no specific Bible edition is imposed.
+  - Report by stable segment ID; no source sentences or excerpts.
+  - Write only the assigned prose report; do not edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.
