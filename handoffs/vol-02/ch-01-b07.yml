@@ -43,3 +43,35 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0010.xhtml/p000179
+translation_report:
+  state: done
+  validator: pass
+  diff_check: pass
+  review_flags: [meaning, new_pending_terms, emphasis]
+  pending_terms: 6
+review_coordination:
+  triggered_by: [meaning, new_pending_terms, emphasis]
+  serious: 0
+  moderate: resolved_by_translator_and_signoff
+  action: commit_ready
+  status: signed_off
+  signoff_report: reviews/prose/vol-02/ch-01-b07-fixes-signoff-claude.md
+  unresolved_serious: 0
+  unresolved_moderate: 0
+  open_minor: 3
+  validator: pass
+  diff_check: pass
+  review_resolution_note: Reviewer retracted the p000157 defensive-shell match; term applies at p000159 only.
+  pending_status: provisional_non_canon
+  review_report: reviews/prose/vol-02/ch-01-b07-claude.md
+  risk_findings:
+    - {segment_id: p000153, issue: anti-surface and anti-air terminology pending}
+    - {segment_id: p000155, issue: formation firing posture terminology pending}
+    - {segment_id: p000160, issue: tercio and sidearms scope}
+    - {segment_id: p000159, issue: sarcastic nickname register}
+  provisional_review_choices:
+    sidearms: vũ khí cá nhân
+    defensive_shell: lớp vỏ phòng ngự (p000159 only; p000157 is a different referent)
+    close_ranks_firing_position: thế bắn theo đội hình khép sát
+    tercio: đội hình tercio
+    service_corps: Quân đoàn Công vụ
