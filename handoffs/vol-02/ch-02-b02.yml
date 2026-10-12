@@ -29,6 +29,35 @@ source_package: work/vol-02/batches/ch-02-b02-source.jsonl
 source_package_sha256: 5b21041864d175ddb0bee825ce97f2ce882acb17a90b963e973f1ae1cc5ae034
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a13058-08bd-7a01-ad55-83a8e17cb7b2
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 2
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b02-review-fixes
+  agent_session_id: 01a1305d-4918-78f2-9ecf-2a400b0333fd
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3]
+  changed_segments: [p000025, p000026, p000043]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  pending_status: provisional_non_canon
+  review_report: reviews/prose/vol-02/ch-02-b02-claude.md
+  signoff_report: reviews/prose/vol-02/ch-02-b02-fixes-signoff-claude.md
+  minor_open: 8
+  translator_followup_segments: [p000025, p000026, p000043]
+  review_provisional_choices:
+    councilor: Nghị viên; title capitalization before names, confidence 0.6
+    grand_duchy: Đại công quốc; possible Dacia inferred from context, confidence 0.6
+    homeland_vs_fatherland: quê hương vs Tổ quốc, confidence 0.65
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
