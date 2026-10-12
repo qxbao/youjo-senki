@@ -1,0 +1,70 @@
+schema_version: 1
+project: youjo-senki-vi
+paths:
+  local_config: project.local.yml
+  manifests: segments/vol-*/manifest.yml
+  handoffs: handoffs/
+  translations: translations/
+  state_dir: work/run-state
+  session: work/run-state/herdr-session.json
+  checkpoint: work/run-state/translation-coordinator.yml
+  pending: work/run-state/pending-terms.yml
+scope:
+  volumes: all_available_in_source_dir
+  units: segment_id
+  include: [story]
+  exclude: [copyright, newsletter, cover, toc, image_page, image_appendix]
+  missing_manifest: preparation_required
+  completion: [committed, validator_pass, required_reviews_resolved, no_open_serious_or_moderate]
+batch:
+  min_source_words: 600
+  max_source_words: 900
+  preserve_segment: true
+  sequential_workers: true
+review:
+  even_batches: true
+  risk_flags: [meaning, new_pending_terms, emphasis, validator_warning]
+  reviewer_writes: [reviews/prose/]
+pending_terms:
+  policy: temporary_consistent_not_canon
+  ledger: work/run-state/pending-terms.yml
+  automatic_canon_promotion: false
+checkpoint:
+  after_each_batch: true
+  summary_max_words: 500
+  compact_after_batches: 4
+  compact_on_context_warning: true
+  fallback: new_coordinator_with_recovery_ack
+hard_stops:
+  - validator_failure
+  - diff_check_failure
+  - unresolved_serious_error
+  - out_of_scope_git_change
+  - agent_or_herdr_failure
+  - plot_affecting_canon_decision
+  - preparation_required
+runtime:
+  herdr_required_env: true
+  reuse_current_workspace: true
+  preserve_tab_and_cwd: true
+  focus: false
+  ready_timeout_seconds: 60
+  shutdown_timeout_ms: 60000
+  codex:
+    launcher_alias: codex-personal
+    via: ai-isolator
+    source_rc: ~/.zshrc
+    model: gpt-6-luna
+    effort: medium
+    sandbox: danger-full-access
+    approval_policy: never
+  claude:
+    command: claude
+    args: [--dangerously-skip-permissions]
+tools:
+  validator: tools/validate_translation.py
+  extraction: tools/extract_epub.py
+  batch_planner: tools/plan_batches.py
+  # Khả năng hiện có; không suy ra hỗ trợ toàn bộ sách từ phạm vi mong muốn.
+  prepared_adapter_volumes: [vol-01]
+  prepared_adapter_chapters: [chapter-00]
