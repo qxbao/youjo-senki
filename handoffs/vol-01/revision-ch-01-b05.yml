@@ -1,0 +1,73 @@
+schema_version: 1
+task_id: vol-01-ch-01-b05-review-fixes
+role: translator
+status: ready
+batch: vol-01-ch-01-b05
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000055
+- YS-LN01/Text/chapter003b.xhtml/p000056
+- YS-LN01/Text/chapter003b.xhtml/p000057
+- YS-LN01/Text/chapter003b.xhtml/p000058
+- YS-LN01/Text/chapter003b.xhtml/p000059
+- YS-LN01/Text/chapter003b.xhtml/p000060
+- YS-LN01/Text/chapter003b.xhtml/p000061
+- YS-LN01/Text/chapter003b.xhtml/p000062
+- YS-LN01/Text/chapter003b.xhtml/p000063
+- YS-LN01/Text/chapter003b.xhtml/p000064
+- YS-LN01/Text/chapter003b.xhtml/p000065
+- YS-LN01/Text/chapter003b.xhtml/p000066
+- YS-LN01/Text/chapter003b.xhtml/p000067
+- YS-LN01/Text/chapter003b.xhtml/p000068
+- YS-LN01/Text/chapter003b.xhtml/p000069
+- YS-LN01/Text/chapter003b.xhtml/p000070
+- YS-LN01/Text/chapter003b.xhtml/p000071
+- YS-LN01/Text/chapter003b.xhtml/p000072
+- YS-LN01/Text/chapter003b.xhtml/p000073
+- YS-LN01/Text/chapter003b.xhtml/p000074
+- YS-LN01/Text/chapter003b.xhtml/p000075
+source_package: work/vol-01/batches/ch-01-b05-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: b09c90b43b6d37d4857105cf7d3722b9ecb2c065d9077ca470843fc3133dfa9f
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+review_report: reviews/prose/vol-01-ch-01-b05-claude-review.md
+files_allowed:
+- translations/vol-01/ch-01-b05.jsonl
+read_only_inputs:
+- work/vol-01/batches/ch-01-b05-source.jsonl
+- reviews/prose/vol-01-ch-01-b05-claude-review.md
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+instructions:
+- 'Resolve both moderate findings: p000058 use the provisionally preferred “hiệu lực
+  tốt” throughout and align with b02’s “bắn hiệu lực”; p000066 and p000068 use “áp
+  chế” consistently to match the corrected pending ledger. Do not upgrade any provisional
+  term to canon.'
+- 'Apply clear minor corrections selected by Claude where supported: p000059 and p000067
+  use “pháo đội”; p000059 replace narration “mình” with “nó” or omit subject; p000060
+  render as “không chỉ là giấc mơ viển vông”; p000066 use formal “địch” rather than
+  “chúng”; p000070 use “Norden Control” to distinguish it from airspace control. Preserve
+  verified footnote ⁵ at p000056 and exactly two emphasis spans p000055/p000070.'
+- Refresh all affected notes to match row content and align note term IDs to b05-airman-radio-set
+  and b05-control-of-the-air (and ledger IDs for any new entries). Do not include
+  source sentences in notes.
+- Only modify translations/vol-01/ch-01-b05.jsonl. Preserve IDs/order/metadata; changed
+  rows draft.
+- 'Run configured validator using this handoff/source package and git diff --check.
+  Return shared YAML findings, pending_terms, confidence, risks, files_written, validator/diff_check,
+  next_action: review. Do not commit.'

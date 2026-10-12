@@ -1,0 +1,61 @@
+schema_version: 1
+task_id: vol-01-ch-01-b05-review
+role: reviewer
+status: ready
+batch: vol-01-ch-01-b05
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000055
+- YS-LN01/Text/chapter003b.xhtml/p000056
+- YS-LN01/Text/chapter003b.xhtml/p000057
+- YS-LN01/Text/chapter003b.xhtml/p000058
+- YS-LN01/Text/chapter003b.xhtml/p000059
+- YS-LN01/Text/chapter003b.xhtml/p000060
+- YS-LN01/Text/chapter003b.xhtml/p000061
+- YS-LN01/Text/chapter003b.xhtml/p000062
+- YS-LN01/Text/chapter003b.xhtml/p000063
+- YS-LN01/Text/chapter003b.xhtml/p000064
+- YS-LN01/Text/chapter003b.xhtml/p000065
+- YS-LN01/Text/chapter003b.xhtml/p000066
+- YS-LN01/Text/chapter003b.xhtml/p000067
+- YS-LN01/Text/chapter003b.xhtml/p000068
+- YS-LN01/Text/chapter003b.xhtml/p000069
+- YS-LN01/Text/chapter003b.xhtml/p000070
+- YS-LN01/Text/chapter003b.xhtml/p000071
+- YS-LN01/Text/chapter003b.xhtml/p000072
+- YS-LN01/Text/chapter003b.xhtml/p000073
+- YS-LN01/Text/chapter003b.xhtml/p000074
+- YS-LN01/Text/chapter003b.xhtml/p000075
+report_path: reviews/prose/vol-01-ch-01-b05-claude-review.md
+files_allowed:
+- reviews/prose/vol-01-ch-01-b05-claude-review.md
+source_package: work/vol-01/batches/ch-01-b05-source.jsonl
+translation: translations/vol-01/ch-01-b05.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: b09c90b43b6d37d4857105cf7d3722b9ecb2c065d9077ca470843fc3133dfa9f
+read_only_inputs:
+- agents/shared.md
+- agents/reviewer.md
+- config/translation-pipeline.yml
+- handoffs/vol-01/ch-01-b05.yml
+- work/vol-01/batches/ch-01-b05-source.jsonl
+- translations/vol-01/ch-01-b05.jsonl
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+metadata_risks:
+- Translator flagged meaning uncertainty at p000066 and p000070.
+- Check footnote marker ⁵ consistency across p000056–p000070.
+- Check any emphasis in assigned units per DEC-P01-002.
+- Translator reported new provisional military and equipment terms; use ledger entries
+  only as proposals.
+instructions:
+- Review all 21 assigned units against source package and canon.
+- Focus on the reported meaning uncertainty, cross-segment footnote marker, and emphasis.
+- Report actionable serious/moderate/minor findings with segment IDs, evidence, and
+  suggested fixes. Identify additional pending terms or uncertainty with confidence.
+- Do not make canon decisions and do not write source sentences. Only write the allowed
+  review report. Return shared YAML summary; validator/diff_check not_run; commit
+  null.
