@@ -43,3 +43,107 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000191
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 596
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1319d-9a40-7992-b6a4-d34815a131db
+  segment_count: 29
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 6
+  files_written:
+  - translations/vol-02/ch-03-b14.jsonl
+review_coordination:
+  triggered_by:
+  - even_batch
+  required: true
+  state: approved
+  review_report: reviews/prose/vol-02/ch-03-b14-claude.md
+  serious: 0
+  moderate: 0
+  minor: 3
+  action: approved
+  followup_findings:
+  - V1
+  - V2
+  - V3
+  - V4
+  - V5
+  - V6
+  translator_followup_segments:
+  - p000162
+  - p000163
+  - p000165
+  - p000166
+  - p000170
+  - p000172
+  - p000176
+  - p000177
+  - p000179
+  - p000181
+  - p000184
+  - p000185
+  - p000187
+  - p000188
+  - p000189
+  - p000190
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b14_translation_proposals
+  reviewer_term_recommendations:
+    officer_address: cô
+    airborne: đột kích đường không / nhảy dù
+    marines: lính thủy đánh bộ / pháp sư hải quân
+    aerial_mage_battalion: Tiểu đoàn Pháp sư Không quân 203
+    fjord: vịnh hẹp
+    computation_orb: quả cầu tính toán
+    republican_force: phe Cộng hòa
+    footnote_marker_p000081: ⁸, preserve marker only
+  out_of_scope_reference_not_modified:
+    segment_id: p000081
+    reason: Outside b14 handoff range and prepared package; not edited and not kept
+      as a b14 ledger term.
+  signoff_report: reviews/prose/vol-02/ch-03-b14-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 3
+  out_of_scope_references_not_modified:
+  - segment_id: p000081
+    reason: Outside b14 handoff range/package; no translation or ledger edit applied.
+  - segment_id: p000151
+    reason: Outside b14 range/package; translator did not modify it and reviewer signoff
+      excluded it.
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b14-review-fixes
+  agent_session_id: 01a131a3-1c96-7ca1-9da4-ef8e16f6a570
+  validator: pass
+  diff_check: pass
+  changed_segments:
+  - p000162
+  - p000163
+  - p000165
+  - p000166
+  - p000170
+  - p000172
+  - p000176
+  - p000177
+  - p000179
+  - p000181
+  - p000184
+  - p000185
+  - p000187
+  - p000188
+  - p000189
+  - p000190
+  out_of_scope_reference_not_modified:
+  - 'p000081: outside b14 package'
+  out_of_scope_references_not_modified:
+  - p000081
+  - p000151
