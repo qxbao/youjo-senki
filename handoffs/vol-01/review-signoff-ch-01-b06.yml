@@ -1,0 +1,38 @@
+schema_version: 1
+task_id: vol-01-ch-01-b06-signoff-review
+role: reviewer
+status: ready
+batch: vol-01-ch-01-b06
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000089
+- YS-LN01/Text/chapter003b.xhtml/p000091
+- YS-LN01/Text/chapter003b.xhtml/p000078
+- YS-LN01/Text/chapter003b.xhtml/p000088
+- YS-LN01/Text/chapter003b.xhtml/p000099
+- YS-LN01/Text/chapter003b.xhtml/p000100
+report_path: reviews/prose/vol-01-ch-01-b06-signoff-claude.md
+files_allowed:
+- reviews/prose/vol-01-ch-01-b06-signoff-claude.md
+read_only_inputs:
+- agents/shared.md
+- agents/reviewer.md
+- config/translation-pipeline.yml
+- handoffs/vol-01/review-final-ch-01-b06.yml
+- handoffs/vol-01/revision-final-ch-01-b06.yml
+- reviews/prose/vol-01-ch-01-b06-final-claude.md
+- work/vol-01/batches/ch-01-b06-source.jsonl
+- translations/vol-01/ch-01-b06.jsonl
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+instructions:
+- 'Confirm the last moderate finding M3 is resolved in actual text and notes: p000089
+  dominion → quyền cai trị; p000091 sovereignty remains chủ quyền. Confirm notes on
+  changed segments match text and ledger.'
+- Report only new or unresolved serious/moderate/minor items with segment IDs. Minor
+  items do not block. Do not copy source sentences, do not edit anything except allowed
+  report, and do not canonize terminology. Return shared YAML; validator/diff_check
+  not_run; commit null.
