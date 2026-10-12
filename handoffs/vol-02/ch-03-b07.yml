@@ -43,3 +43,90 @@ planning:
   max_source_words: 900
   boundary_after: scene_boundary
   next_segment_id: YS-LN02/Text/part0018.xhtml/p000001
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 514
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13160-ab99-7f00-ad1f-0ebbdb919ffe
+  segment_count: 36
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: review
+    segment_id: p000151
+    issue: Silver Wings Assault Badge is not in the pending ledger yet.
+  - severity: review
+    segment_id: p000146
+    issue: The subject of “without making light of him” is ambiguous; translator kept
+      a neutral rendering.
+  pending_term_count: 2
+  files_written:
+  - translations/vol-02/ch-03-b07.jsonl
+review_coordination:
+  triggered_by:
+  - new_pending_terms
+  - review_flag
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b07_translation_proposals
+  review_report: reviews/prose/vol-02/ch-03-b07-claude.md
+  serious: 0
+  moderate: 0
+  minor: 9
+  action: approved
+  followup_findings:
+  - V1
+  - V2
+  - V3
+  - V4
+  translator_followup_segments:
+  - p000145
+  - p000146
+  - p000147
+  - p000149
+  - p000151
+  - p000168
+  - p000169
+  - p000170
+  - p000172
+  - p000173
+  - p000176
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    silver_wings_assault_badge: Huy hiệu Xung kích Cánh bạc
+    rudersdorf_address: tôi–cô
+    v1: ánh nhìn ấy
+    v3: neutral, omit ambiguous third-person subject
+    v4: apply source italics at exact spans
+  signoff_report: reviews/prose/vol-02/ch-03-b07-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 9
+translator_followup:
+  state: done
+  task_id: vol-02-ch-03-b07-review-fixes
+  agent_session_id: 01a13164-b8d2-73f1-a851-6e9c6734d1dc
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - V1
+  - V2
+  - V3
+  - V4
+  changed_segments:
+  - p000145
+  - p000146
+  - p000147
+  - p000149
+  - p000151
+  - p000168
+  - p000170
+  - p000173
+  - p000169
+  - p000172
+  - p000176
