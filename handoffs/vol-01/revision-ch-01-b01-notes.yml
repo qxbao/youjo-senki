@@ -1,0 +1,22 @@
+schema_version: 1
+task_id: vol-01-ch-01-b01-review-notes
+role: translator
+batch: vol-01-ch-01-b01
+segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000005
+  - YS-LN01/Text/chapter003b.xhtml/p000007
+  - YS-LN01/Text/chapter003b.xhtml/p000008
+source_package: work/vol-01/batches/ch-01-b01-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: 797d538788ab449a2ce89af8306eaeee582f633611b0d816af4f39200e363da6
+review_report: reviews/prose/vol-01-ch-01-b01-followup-claude.md
+files_allowed: [translations/vol-01/ch-01-b01.jsonl]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b01-source.jsonl
+  - reviews/prose/vol-01-ch-01-b01-followup-claude.md
+  - work/run-state/pending-terms.yml
+instructions:
+  - Change notes only: at p000005 record all-clear→“không phát hiện địch” with the alternative “khu vực an toàn”; at p000007 remove the Provisional Corps note that belongs to p000008; at p000008 add a cross-reference to the Goliath 07 type discrepancy at p000006 and state that both source statements are preserved without harmonization.
+  - Do not change translation text, canon, or any other file. Preserve IDs/order/metadata; changed rows remain draft.
+  - Run the configured validator with this handoff and source package, then git diff --check. Return the shared YAML report.

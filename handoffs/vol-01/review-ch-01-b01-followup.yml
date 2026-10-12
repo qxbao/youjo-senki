@@ -1,0 +1,23 @@
+schema_version: 1
+task_id: vol-01-ch-01-b01-review-followup
+role: reviewer
+batch: vol-01-ch-01-b01
+segment_id_start: YS-LN01/Text/chapter003.xhtml/p000001
+segment_id_end: YS-LN01/Text/chapter003b.xhtml/p000011
+source_package: work/vol-01/batches/ch-01-b01-source.jsonl
+translation_file: translations/vol-01/ch-01-b01.jsonl
+prior_review: reviews/prose/vol-01-ch-01-b01-claude-review.md
+files_allowed: [reviews/prose/vol-01-ch-01-b01-followup-claude.md]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b01-source.jsonl
+  - translations/vol-01/ch-01-b01.jsonl
+  - reviews/prose/vol-01-ch-01-b01-claude-review.md
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+instructions:
+  - Review the b01 follow-up corrections, focusing on the six former moderate findings and notes placement.
+  - Check that military/magic terminology follows provisional decisions and the Goliath 07 contradiction remains unresolved in notes.
+  - Report by stable segment ID; no source sentences or excerpts. Write only the assigned prose review; no translation/canon edits.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.

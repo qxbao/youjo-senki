@@ -1,0 +1,46 @@
+schema_version: 1
+task_id: vol-01-ch-01-b01-review-followup
+role: translator
+batch: vol-01-ch-01-b01
+status: reviewed_ready_to_commit
+preflight_status_command: /status submitted once; output verified
+task_prompt_delivery: submitted_once
+segment_ids:
+  - YS-LN01/Text/chapter003.xhtml/p000001
+  - YS-LN01/Text/chapter003.xhtml/p000002
+  - YS-LN01/Text/chapter003.xhtml/p000005
+  - YS-LN01/Text/chapter003.xhtml/p000006
+  - YS-LN01/Text/chapter003.xhtml/p000007
+  - YS-LN01/Text/chapter003.xhtml/p000008
+  - YS-LN01/Text/chapter003b.xhtml/p000001
+  - YS-LN01/Text/chapter003b.xhtml/p000003
+  - YS-LN01/Text/chapter003b.xhtml/p000004
+  - YS-LN01/Text/chapter003b.xhtml/p000005
+  - YS-LN01/Text/chapter003b.xhtml/p000006
+  - YS-LN01/Text/chapter003b.xhtml/p000007
+  - YS-LN01/Text/chapter003b.xhtml/p000008
+  - YS-LN01/Text/chapter003b.xhtml/p000009
+  - YS-LN01/Text/chapter003b.xhtml/p000010
+source_package: work/vol-01/batches/ch-01-b01-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+source_package_sha256: 797d538788ab449a2ce89af8306eaeee582f633611b0d816af4f39200e363da6
+review_report: reviews/prose/vol-01-ch-01-b01-claude-review.md
+files_allowed: [translations/vol-01/ch-01-b01.jsonl]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b01-source.jsonl
+  - reviews/prose/vol-01-ch-01-b01-claude-review.md
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Resolve all six moderate findings in the review and the actionable clear minor corrections for listed rows.
+  - Use the review's temporary choices: mặt trận Norden; Năm Thống nhất; ý thức của mình/danh tính được gán; tốc độ mặt đất vừa phải; pháp sư quan sát/cảnh giác; neutral/no vocative for Control→Tanya; đời trước; assigned mission; no unsupported “safe” claim for all clear; neutral child reference; neutral/legal prose where specified.
+  - Apply term ledger choices (thuật thức, quả cầu tính toán, hô hiệu, etc.) consistently; keep every unapproved term provisional.
+  - Correct notes placement so term notes belong to their own stable segment IDs; report the source contradiction about Goliath 07 without harmonizing it.
+  - Only edit translations/vol-01/ch-01-b01.jsonl; preserve IDs/order/metadata, changed rows draft. Do not edit canon, handoffs, or reviews.
+  - Run the configured validator using this handoff and source package, then git diff --check. Return the shared YAML report with findings/pending_terms/risks/next_action.

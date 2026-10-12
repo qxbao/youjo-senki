@@ -1,0 +1,26 @@
+schema_version: 1
+task_id: vol-01-ch-01-b01-review
+role: reviewer
+batch: vol-01-ch-01-b01
+segment_id_start: YS-LN01/Text/chapter003.xhtml/p000001
+segment_id_end: YS-LN01/Text/chapter003b.xhtml/p000011
+unit_count: 19
+source_package: work/vol-01/batches/ch-01-b01-source.jsonl
+translation_file: translations/vol-01/ch-01-b01.jsonl
+files_allowed: [reviews/prose/vol-01-ch-01-b01-claude-review.md]
+read_only_inputs:
+  - work/vol-01/batches/ch-01-b01-source.jsonl
+  - translations/vol-01/ch-01-b01.jsonl
+  - work/run-state/pending-terms.yml
+  - reviews/prose/vol-01-ch-00-pending-decisions-claude.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+instructions:
+  - Review all 19 translations for meaning, omission, emphasis, natural Vietnamese, military terminology, and consistency with Claude's provisional decisions.
+  - Evaluate translator's new terms as provisional proposals; recommend preferred forms and alternatives without canon promotion.
+  - Report by stable segment ID; no source sentences or excerpts.
+  - Write only the assigned prose report; do not edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.
