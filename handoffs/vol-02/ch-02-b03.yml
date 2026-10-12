@@ -29,6 +29,36 @@ source_package: work/vol-02/batches/ch-02-b03-source.jsonl
 source_package_sha256: ae04ab9fef1936a0f04f0942e60660cbddec2f160b18aa7423de884cb9cb5eda
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a13060-47c8-7a70-b87f-78ced3a40e3f
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 4
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b03-review-fixes
+  agent_session_id: 01a13066-49dd-7393-ace9-51b71c8eb1be
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3, M4]
+  changed_segments: [p000044, p000046, p000047, p000049, p000053, p000059, p000062, p000069]
+review_coordination:
+  triggered_by: [new_pending_terms, cross_batch_term_consistency]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  pending_status: provisional_non_canon
+  review_report: reviews/prose/vol-02/ch-02-b03-claude.md
+  signoff_report: reviews/prose/vol-02/ch-02-b03-fixes-signoff-claude.md
+  minor_open: 9
+  translator_followup_segments: [p000044, p000046, p000047, p000049, p000053, p000059, p000062, p000069]
+  provisional_choices:
+    councilor: Nghị viên; title forms before names; “Nghị viên Nội vụ” at p000053
+    commonwealth: Khối Thịnh vượng chung
+    entente_alliance: Liên minh Entente
+    first_lieutenant: Trung úy
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
