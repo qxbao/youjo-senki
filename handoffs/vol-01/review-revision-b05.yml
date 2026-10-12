@@ -1,0 +1,37 @@
+schema_version: 1
+task_id: vol-01-ch-00-b05-review-fixes-review
+role: reviewer
+status: done
+task_prompt_delivery: submitted_once
+batch: vol-01-ch-00-b05
+segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000082
+  - YS-LN01/Text/chapter001.xhtml/p000086
+  - YS-LN01/Text/chapter001.xhtml/p000090
+  - YS-LN01/Text/chapter001.xhtml/p000092
+  - YS-LN01/Text/chapter001.xhtml/p000093
+  - YS-LN01/Text/chapter001.xhtml/p000094
+  - YS-LN01/Text/chapter001.xhtml/p000097
+  - YS-LN01/Text/chapter001.xhtml/p000100
+  - YS-LN01/Text/chapter001.xhtml/p000101
+source_package: work/vol-01/batches/ch-00-b05-source.jsonl
+translation_file: translations/vol-01/ch-00-b05.jsonl
+prior_review: reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+files_allowed:
+  - reviews/prose/vol-01-ch-00-b05-review-fixes-claude.md
+read_only_inputs:
+  - work/vol-01/batches/ch-00-b05-source.jsonl
+  - translations/vol-01/ch-00-b05.jsonl
+  - reviews/prose/vol-01-b03-b05-consolidated-claude-review.md
+  - canon/glossary.yml
+  - canon/glossary-pending.yml
+  - canon/style-guide.md
+  - canon/characters.yml
+  - canon/decisions.md
+  - work/run-state/pending-terms.yml
+instructions:
+  - Review the listed edits for meaning, prose, emphasis, and terminology consistency.
+  - Assess p000086 speaker attribution from source context; if still ambiguous, confirm it must remain pending.
+  - Report by stable segment ID and do not include source sentences or excerpts.
+  - Write only the assigned report in reviews/prose/; never edit translations or canon.
+  - Return YAML with severity, segment_id, issue, resolution, risks, and next_action.
