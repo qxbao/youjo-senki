@@ -29,6 +29,49 @@ source_package: work/vol-02/batches/ch-02-b04-source.jsonl
 source_package_sha256: 0085352774ed700ff25acc56c8eebb77460d7721db85f31bc73a87f727b0d659
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a13069-989c-70e1-a361-d7e57a403fcf
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 8
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b04-review-fixes
+  agent_session_id: 01a13070-5852-7983-8140-33e29bc5a28e
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3, M4, M5, M6]
+  changed_segments: [p000072, p000073, p000075, p000080, p000084, p000090, p000091, p000092]
+term_consistency_followup:
+  state: done
+  task_id: vol-02-ch-02-b04-term-consistency-fixes
+  agent_session_id: 01a13072-e5ed-7ac2-82b0-cfff168dcc81
+  validator: pass
+  diff_check: pass
+  resolved_minor: [n1, n2]
+  changed_segments: [p000073]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  signoff_report: reviews/prose/vol-02/ch-02-b04-fixes-signoff-claude.md
+  term_signoff_report: reviews/prose/vol-02/ch-02-b04-term-signoff-claude.md
+  minor_open: 9
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b04_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b04-claude.md
+  translator_followup_segments: [p000072, p000073, p000075, p000080, p000084, p000090, p000091, p000092]
+  review_provisional_choices:
+    copernican_level_revolution: cuộc cách mạng tầm Copernicus
+    pauls_conversion: sự hoán cải của Thánh Paul
+    game_dogs_and_purebred_elites: chó chọi; lớp tinh hoa thuần chủng
+    war_fever: cơn sốt chiến tranh
+    mobile_battalion: tiểu đoàn cơ động
+    army_group: cụm tập đoàn quân
+    plural_address: Các vị
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
