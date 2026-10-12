@@ -29,6 +29,36 @@ source_package: work/vol-02/batches/ch-02-b10-source.jsonl
 source_package_sha256: c6624394583dbd40c7d45b98772b5b9b103acc64db0e967f184f485b5f10b51e
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: null
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 6
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b10-review-fixes
+  agent_session_id: 01a130aa-0628-70c3-be08-21bf20ccd382
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3]
+  changed_segments: [p000221, p000233, p000235, p000237, p000253]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  signoff_report: reviews/prose/vol-02/ch-02-b10-fixes-signoff-claude.md
+  minor_open: 14
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b10_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b10-claude.md
+  translator_followup_segments: [p000221, p000233, p000235, p000237]
+  review_provisional_choices:
+    Named: retain the capitalized term pending in-text explanation
+    Central_Army: Quân Trung ương
+    Viper_02_interior_self_reference: mình
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
