@@ -29,6 +29,46 @@ source_package: work/vol-02/batches/ch-02-b09-source.jsonl
 source_package_sha256: 1903dddc6a7e5298f45b469ec0fe71d98af7fea98457c3a93a7a8af0cb74ebca
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a13098-d7ce-7ea0-9eca-aca74e95606d
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 3
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b09-review-fixes
+  agent_session_id: 01a1309e-469f-7183-b251-d82e40c028b8
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [MOD-1, MOD-2]
+  aligned_minor_terms: [Kraggana_Depot]
+  changed_segments: [p000195, p000210, p000215, p000217]
+review_coordination:
+  triggered_by: [new_pending_terms, provisional_term_consistency]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  signoff_report: reviews/prose/vol-02/ch-02-b09-fixes-signoff-claude.md
+  minor_open: 8
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b09-review-fixes
+  agent_session_id: 01a1309e-469f-7183-b251-d82e40c028b8
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [MOD-1, MOD-2]
+  resolved_minor: [Kraggana_Depot]
+  changed_segments: [p000195, p000210, p000215, p000217]
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b09_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b09-claude.md
+  translator_followup_segments: [p000195, p000202, p000210, p000215, p000217]
+  review_provisional_choices:
+    formulas: thuật thức
+    air_supremacy_battles: use “ưu thế trên không” ledger term
+    kraggana_depot: Kho Kraggana
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
