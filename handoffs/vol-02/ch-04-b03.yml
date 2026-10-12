@@ -43,3 +43,51 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000063
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 710
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1323a-ccb0-7313-bdc1-5dd3d9767e60
+  segment_count: 25
+  validator: pass
+  diff_check: pass
+  findings: [3 terminology/prose notes; no serious/moderate reported]
+  pending_term_count: 3
+  files_written:
+  - translations/vol-02/ch-04-b03.jsonl
+review_coordination:
+  triggered_by: [new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-04-b03-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b03_translation_proposals
+  severity_counts: {serious: 0, moderate: 0, minor: 11}
+  reviewer_session_id: 27fe9507-6484-4b69-893c-6c7c71c153a1
+  reported_findings:
+  - p000038+p000039: remove unsupported gendered “cô” for male listener
+  - p000044: remove unsupported “cựu” from reservists association
+  - p000049: preserve lunch as pretext for town visit
+  - p000052: use broader capital ships term, not battleship
+  - p000061: preserve regret/obligation and past counterfactual form
+  - p000045+p000046+p000051+p000053: use “mình” for Tanya's interior self-reference
+  translator_followup:
+    task_id: vol-02-ch-04-b03-review-fixes
+    allowlist: [translations/vol-02/ch-04-b03.jsonl]
+    session_id: 01a13240-8ee5-7fb3-b3ec-3a8ca1da0ff2
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3, M4, M5, M6, N1, N4, N5, N6, N8, N11, N12]
+    out_of_scope_findings_ignored: [p000392]
+  final_signoff:
+    task_id: vol-02-ch-04-b03-signoff
+    review_report: reviews/prose/vol-02/ch-04-b03-fixes-signoff-claude.md
+    session_id: 4a3186b4-3418-4d9b-8653-613dcad4077a
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 11}
+    prior_moderate_resolved: true
+    unresolved_findings: []
