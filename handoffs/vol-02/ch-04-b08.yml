@@ -41,5 +41,29 @@ checkpoints:
 planning:
   min_source_words: 600
   max_source_words: 900
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 754
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1326a-a222-7563-8277-d2657f3df1dd
+  segment_count: 22
+  validator: pass
+  diff_check: pass
+  findings: [7 pending terminology notes; no serious/moderate reported]
+  pending_term_count: 10
+  files_written: [translations/vol-02/ch-04-b08.jsonl]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-04-b08-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b08_translation_proposals
+  severity_counts: {serious: 0, moderate: 0, minor: 10}
+  reviewer_session_id: 87a5f708-0a3b-4fd3-9c9f-eb5fc46b45c6
+  unresolved_findings: []
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000192
