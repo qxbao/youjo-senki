@@ -11,7 +11,7 @@
 - `P03-touchstone-award` — YS-LN01/Text/chapter001.xhtml/p000055: tạm giữ dạng “giải Touchstone”; chưa rõ là tên riêng hay mô tả, không diễn giải/bịa nghĩa.
 - `P03-section-manager` — YS-LN01/Text/chapter001.xhtml/p000055: tạm dịch chức danh “section manager” là “trưởng phòng”.
 
-Các lựa chọn trên được dùng tạm trong lô b03 theo chỉ dẫn của người giao việc. Chúng đều là pending; không sửa canon/glossary-pending và không coi lựa chọn nào là chuẩn đã duyệt.
+Các lựa chọn trên được dùng tạm trong lô b03 theo chỉ dẫn của người giao việc. Đã thêm đủ tám mục vào `canon/glossary-pending.yml` với trạng thái `pending`; không coi lựa chọn nào là chuẩn đã duyệt.
 
 ## Tự kiểm theo segment
 
@@ -38,3 +38,4 @@ Các lựa chọn trên được dùng tạm trong lô b03 theo chỉ dẫn củ
 - Giữ “sức mạnh của ý chí con người” ở p000045 vì chưa có căn cứ đủ để chọn một phương án khác; giữ độ mở của “That was when it hit him” ở p000057.
 - Xưng hô tuân DEC-P01-001; nhấn mạnh trong translation tuân DEC-P01-002.
 - Không phát hiện nhu cầu quyết định xưng hô/canon ngoài các đề xuất thuật ngữ nêu trên. Không sửa canon.
+- Đã xử lý các lỗi nghiêm trọng và vừa có căn cứ trong báo cáo Claude; kiểm tra lại bản dịch hiện tại và không phát hiện lỗi nghiêm trọng hoặc vừa nào còn tồn tại.
