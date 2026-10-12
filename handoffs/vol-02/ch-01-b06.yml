@@ -29,6 +29,36 @@ source_package: work/vol-02/batches/ch-01-b06-source.jsonl
 source_package_sha256: 5814b5cde912e2c28ada4bf27f8445c39f911a6d0946d556f2a73408979533aa
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  validator: pass
+  diff_check: pass
+  minor_findings: 2
+  pending_terms: 4
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  serious: 0
+  moderate: resolved_by_translator_and_signoff
+  action: commit_ready
+  status: signed_off
+  signoff_report: reviews/prose/vol-02/ch-01-b06-fixes-signoff-claude.md
+  unresolved_serious: 0
+  unresolved_moderate: 0
+  open_minor: 5
+  validator: pass
+  diff_check: pass
+  fix_report_state: translator_done_validator_pass
+  fix_findings_resolved: 5
+  pending_status: provisional_non_canon
+  review_report: reviews/prose/vol-02/ch-01-b06-claude.md
+  provisional_review_choices:
+    serebryakov_rank: Thiếu úy
+    tanya_third_person_narration: repeat Tanya or omit subject
+    tanya_interior_self_reference: mình; retain tôi for narrated action
+    vice_commander: phó chỉ huy
+    aerial_mage_battalion: Tiểu đoàn Pháp sư Không quân 203
+    containment_fire: bắn kiềm chế
+    aerial_magic_combat_field_manual: Sổ tay tác chiến ma pháp không quân dã chiến, bản thứ hai mươi hai; p000152 uses sổ tay
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
