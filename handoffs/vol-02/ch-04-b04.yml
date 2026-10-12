@@ -43,3 +43,56 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000096
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 720
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13244-bb0c-71b2-a4ec-9ef011ad3c42
+  segment_count: 33
+  validator: pass
+  diff_check: pass
+  findings: [2 low-level terminology notes; no serious/moderate reported]
+  pending_term_count: 4
+  files_written:
+  - translations/vol-02/ch-04-b04.jsonl
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  required: true
+  state: resolved
+  review_report: reviews/prose/vol-02/ch-04-b04-claude.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b04_translation_proposals
+  severity_counts: {serious: 0, moderate: 0, minor: 15}
+  reviewer_session_id: 7a19ee24-534f-4196-80ea-1f6e2e7684d2
+  reported_findings:
+  - p000074: keep reference to the other people, not Tanya, in the interior question
+  - p000078: use ledger orderly term and preserve waiting car/driver details
+  - p000087: preserve scope of everyone being recalled from leave
+  - p000092: align Operations Division title and place emphasis on presence at Norden
+  - p000093: align Northern Sea Fleet with latest provisional b19 form
+  - p000045+p000046+p000051+p000053: use “mình” consistently in Tanya's interior monologue
+  translator_followup:
+    task_id: vol-02-ch-04-b04-review-fixes
+    allowlist: [translations/vol-02/ch-04-b04.jsonl]
+    session_id: 01a1324a-03a1-7343-91f8-c9f61371835f
+    state: done
+    validator: pass
+    diff_check: pass
+    fixed_findings: [M1, M2, M3, M4, M5, p000079 narrative pronoun, N1, N4, N5, N6, N8, N11]
+    out_of_scope_findings_ignored: [p000045, p000046, p000051, p000053]
+    risk_notes:
+    - Review report assigned an M6 finding to p000045-p000053, outside b04's p000063-p000095 range; b04 edits were limited to the authorized range.
+  final_signoff:
+    task_id: vol-02-ch-04-b04-signoff
+    review_report: reviews/prose/vol-02/ch-04-b04-fixes-signoff-claude.md
+    session_id: 1b056d80-704e-4d8b-8520-b543e0d9cca4
+    state: done
+    severity_counts: {serious: 0, moderate: 0, minor: 15}
+    prior_moderate_resolved: true
+    unresolved_findings: []
+    scope_notes:
+    - Initial report contains an M6 reference to p000045-p000053 outside the b04 segment range; translator did not edit those IDs.
+    - p000392 is also outside b04 range and was not reviewed/edited as part of this batch.
