@@ -43,3 +43,72 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000445
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 413
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1311a-acde-7293-89ec-56641b5686cf
+  segment_count: 28
+  validator: pass
+  diff_check: pass
+  findings:
+  - severity: low
+    segment_id: p000417
+    issue: Initial validator schema mismatch; corrected before final pass.
+  - severity: review
+    segment_id: p000425
+    issue: Provisional rendering of power harassment requires semantic review.
+  pending_term_count: 2
+  files_written:
+  - translations/vol-02/ch-02-b16.jsonl
+review_coordination:
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  - review_flag
+  required: true
+  state: approved
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b16_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b16-claude.md
+  serious: 0
+  moderate: 3
+  minor: 10
+  action: approved
+  followup_findings:
+  - F01
+  - F02
+  - F03
+  translator_followup_segments:
+  - p000422
+  - p000425
+  - p000434
+  pending_status: provisional_non_canon
+  reviewer_term_recommendations:
+    power_harassment: lạm quyền chèn ép
+    tsuji_doctrine: học thuyết Tsuji
+    limit_up: mức giá trần, retain buying metaphor
+    gentlemen_address: Các vị
+    freedom_of_belief: tự do tín ngưỡng pending scope
+  signoff_report: reviews/prose/vol-02/ch-02-b16-fixes-signoff-claude.md
+  signoff_state: approved
+  signoff_serious: 0
+  signoff_moderate: 0
+  signoff_minor: 10
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b16-review-fixes
+  agent_session_id: 01a1311f-7fca-7152-b1a7-203ac255792d
+  validator: pass
+  diff_check: pass
+  resolved_moderate:
+  - F01
+  - F02
+  - F03
+  changed_segments:
+  - p000422
+  - p000425
+  - p000434
