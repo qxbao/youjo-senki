@@ -1,0 +1,49 @@
+schema_version: 1
+task_id: vol-01-ch-01-b04-review-fixes-followup
+role: reviewer
+status: ready
+batch: vol-01-ch-01-b04
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000044
+- YS-LN01/Text/chapter003b.xhtml/p000045
+- YS-LN01/Text/chapter003b.xhtml/p000046
+- YS-LN01/Text/chapter003b.xhtml/p000047
+- YS-LN01/Text/chapter003b.xhtml/p000048
+- YS-LN01/Text/chapter003b.xhtml/p000049
+- YS-LN01/Text/chapter003b.xhtml/p000050
+- YS-LN01/Text/chapter003b.xhtml/p000051
+- YS-LN01/Text/chapter003b.xhtml/p000052
+- YS-LN01/Text/chapter003b.xhtml/p000053
+- YS-LN01/Text/chapter003b.xhtml/p000054
+report_path: reviews/prose/vol-01-ch-01-b04-followup-claude.md
+files_allowed:
+- reviews/prose/vol-01-ch-01-b04-followup-claude.md
+read_only_inputs:
+- agents/shared.md
+- agents/reviewer.md
+- config/translation-pipeline.yml
+- handoffs/vol-01/ch-01-b04.yml
+- handoffs/vol-01/revision-ch-01-b04.yml
+- handoffs/vol-01/review-ch-01-b04.yml
+- reviews/prose/vol-01-ch-01-b04-claude-review.md
+- work/vol-01/batches/ch-01-b04-source.jsonl
+- translations/vol-01/ch-01-b04.jsonl
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+metadata_risks:
+- Confirm p000044 tense and agency/overstatement correction.
+- Confirm p000051 emotional nuance and causal logic.
+- Confirm p000044–p000054 preserve ambiguous narrator pronouns per DEC-P01-001 without
+  assigning speaker.
+instructions:
+- Re-review the full assigned b04 range after translator changes.
+- Confirm whether the 3 prior moderate findings are resolved and whether any new serious/moderate
+  issue remains. Minor findings may remain if not blocking.
+- Check that pending terms remain provisional and list any unresolved recommendations.
+- Write only the allowed review report; do not edit translation, handoffs, canon,
+  ledger, or checkpoint. Do not include source sentences. Return shared YAML summary;
+  validator/diff_check not_run; commit null.

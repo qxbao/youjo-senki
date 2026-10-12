@@ -1,0 +1,62 @@
+schema_version: 1
+task_id: vol-01-ch-01-b04-review-fixes
+role: translator
+status: ready
+batch: vol-01-ch-01-b04
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000044
+- YS-LN01/Text/chapter003b.xhtml/p000045
+- YS-LN01/Text/chapter003b.xhtml/p000046
+- YS-LN01/Text/chapter003b.xhtml/p000047
+- YS-LN01/Text/chapter003b.xhtml/p000048
+- YS-LN01/Text/chapter003b.xhtml/p000049
+- YS-LN01/Text/chapter003b.xhtml/p000050
+- YS-LN01/Text/chapter003b.xhtml/p000051
+- YS-LN01/Text/chapter003b.xhtml/p000052
+- YS-LN01/Text/chapter003b.xhtml/p000053
+- YS-LN01/Text/chapter003b.xhtml/p000054
+source_package: work/vol-01/batches/ch-01-b04-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: d2e60eb89aedcacfe9674604636bd380b03cc5829b895329058ee06efba25425
+review_report: reviews/prose/vol-01-ch-01-b04-claude-review.md
+files_allowed:
+- translations/vol-01/ch-01-b04.jsonl
+read_only_inputs:
+- work/vol-01/batches/ch-01-b04-source.jsonl
+- reviews/prose/vol-01-ch-01-b04-claude-review.md
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+instructions:
+- 'Resolve all three moderate findings: p000044 counterfactual past tense and remove
+  added agency/overstatement; p000051 correct the emotional nuance and cause/logic
+  relation; narration across p000044–p000054 keep “nó/mình” according to DEC-P01-001
+  while preserving ambiguity about who speaks. Do not infer speaker.'
+- 'Apply clear minor corrections from Claude where supported: p000045 timing/event
+  sequence; p000046 clarify referent; p000047 restore degree and publicity nuance;
+  p000048 use preferred pending terms; p000049 avoid narrowing “good person”; p000050
+  avoid overstatement and use “món hời”; p000052 render commissioned as receiving
+  an officer rank without naming rank; p000054 use preferred rendering for honors.
+  Keep uncertain items provisional.'
+- Only modify translations/vol-01/ch-01-b04.jsonl. Preserve IDs/order/metadata; changed
+  rows draft. Refresh notes for changed rows so they match the result; notes must
+  not quote source text.
+- 'Run configured validator using this handoff/source package and git diff --check.
+  Return shared YAML findings, pending_terms, confidence, risks, exact files_written,
+  validator/diff_check, next_action: review. Do not commit.'
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
