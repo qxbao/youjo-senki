@@ -29,6 +29,37 @@ source_package: work/vol-02/batches/ch-02-b12-source.jsonl
 source_package_sha256: b8fbf7ae1c46d2603221b4eb9ec654542abcb5c0a4eaf573a7ce4edc4638f4aa
 translation_editor: codex-coordinator
 status: ready
+translation_report:
+  state: done
+  translator_session_id: 01a130c0-4ce7-7dd0-9519-408b256cd6f6
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_groups: 7
+translator_followup:
+  state: done
+  task_id: vol-02-ch-02-b12-review-fixes
+  agent_session_id: 01a130c6-fe42-79f1-aed0-470193dc73ee
+  validator: pass
+  diff_check: pass
+  resolved_moderate: [M1, M2, M3]
+  changed_segments: [p000301, p000303, p000308, p000310, p000311, p000314, p000316, p000317, p000318, p000319]
+review_coordination:
+  triggered_by: [risk_flags, new_pending_terms]
+  serious: 0
+  moderate: 0
+  action: signoff_complete
+  signoff_report: reviews/prose/vol-02/ch-02-b12-fixes-signoff-claude.md
+  minor_open: 13
+  pending_status: provisional_non_canon
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b12_translation_proposals
+  review_report: reviews/prose/vol-02/ch-02-b12-claude.md
+  translator_followup_segments: [p000301, p000303, p000308, p000310, p000311, p000314, p000316, p000317, p000318, p000319]
+  review_provisional_choices:
+    high_command: bộ chỉ huy cấp cao
+    western_army_group: Cụm tập đoàn quân phương Tây
+    formulas: thuật thức
+    intelligence_officer_pronoun: anh ta
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
