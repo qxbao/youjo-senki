@@ -1,0 +1,60 @@
+schema_version: 1
+task_id: vol-01-ch-01-b06-review-fixes-final
+role: translator
+status: ready
+batch: vol-01-ch-01-b06
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000078
+- YS-LN01/Text/chapter003b.xhtml/p000088
+- YS-LN01/Text/chapter003b.xhtml/p000089
+- YS-LN01/Text/chapter003b.xhtml/p000091
+- YS-LN01/Text/chapter003b.xhtml/p000098
+- YS-LN01/Text/chapter003b.xhtml/p000099
+- YS-LN01/Text/chapter003b.xhtml/p000100
+source_package: work/vol-01/batches/ch-01-b06-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: fdf507c3120e2e1a132f03600ae55779381d8d1568fe6e5a0ea37facace18ce9
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+review_report: reviews/prose/vol-01-ch-01-b06-followup-claude.md
+files_allowed:
+- translations/vol-01/ch-01-b06.jsonl
+read_only_inputs:
+- work/vol-01/batches/ch-01-b06-source.jsonl
+- reviews/prose/vol-01-ch-01-b06-followup-claude.md
+- reviews/prose/vol-01-ch-01-b06-claude-review.md
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+instructions:
+- 'Resolve the one open moderate finding M3 exactly in the translation text: at p000089
+  render “claim of dominion” as “yêu sách về quyền cai trị” (or “quyền cai quản”),
+  not “yêu sách về chủ quyền”; keep “chủ quyền” for sovereignty at p000091. Refresh
+  p000089 note to match.'
+- 'Apply small clear follow-ups: remove the repeated “bảo đảm” at p000089 by varying
+  one occurrence without changing meaning; add concise, accurate notes for changed
+  rows p000078, p000088, p000091, and p000099 that currently have empty notes; align
+  notes to the ledger IDs. Optionally change the repeated “kỳ cựu” at p000100 to “lão
+  luyện” as Claude suggests.'
+- 'Ledger has been reconciled: the older b06-pseudo-border proposal is superseded;
+  Airspace Control is lower-case; Combat Direction Center is provisionally “Trung
+  tâm Điều hành Tác chiến”. Do not modify the ledger or canon.'
+- Only modify translations/vol-01/ch-01-b06.jsonl. Preserve IDs/order/metadata; changed
+  rows draft. Notes must not quote source sentences.
+- 'Run configured validator with this handoff/source package and git diff --check.
+  Return shared YAML findings, files_written, validator/diff_check, pending_terms,
+  risks, next_action: review. Do not commit.'

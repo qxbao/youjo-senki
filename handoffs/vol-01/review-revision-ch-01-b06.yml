@@ -1,0 +1,65 @@
+schema_version: 1
+task_id: vol-01-ch-01-b06-review-fixes-followup
+role: reviewer
+status: ready
+batch: vol-01-ch-01-b06
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000076
+- YS-LN01/Text/chapter003b.xhtml/p000077
+- YS-LN01/Text/chapter003b.xhtml/p000078
+- YS-LN01/Text/chapter003b.xhtml/p000079
+- YS-LN01/Text/chapter003b.xhtml/p000080
+- YS-LN01/Text/chapter003b.xhtml/p000081
+- YS-LN01/Text/chapter003b.xhtml/p000082
+- YS-LN01/Text/chapter003b.xhtml/p000083
+- YS-LN01/Text/chapter003b.xhtml/p000084
+- YS-LN01/Text/chapter003b.xhtml/p000085
+- YS-LN01/Text/chapter003b.xhtml/p000086
+- YS-LN01/Text/chapter003b.xhtml/p000087
+- YS-LN01/Text/chapter003b.xhtml/p000088
+- YS-LN01/Text/chapter003b.xhtml/p000089
+- YS-LN01/Text/chapter003b.xhtml/p000090
+- YS-LN01/Text/chapter003b.xhtml/p000091
+- YS-LN01/Text/chapter003b.xhtml/p000092
+- YS-LN01/Text/chapter003b.xhtml/p000093
+- YS-LN01/Text/chapter003b.xhtml/p000094
+- YS-LN01/Text/chapter003b.xhtml/p000095
+- YS-LN01/Text/chapter003b.xhtml/p000096
+- YS-LN01/Text/chapter003b.xhtml/p000097
+- YS-LN01/Text/chapter003b.xhtml/p000098
+- YS-LN01/Text/chapter003b.xhtml/p000099
+- YS-LN01/Text/chapter003b.xhtml/p000100
+report_path: reviews/prose/vol-01-ch-01-b06-followup-claude.md
+files_allowed:
+- reviews/prose/vol-01-ch-01-b06-followup-claude.md
+read_only_inputs:
+- agents/shared.md
+- agents/reviewer.md
+- config/translation-pipeline.yml
+- handoffs/vol-01/ch-01-b06.yml
+- handoffs/vol-01/revision-ch-01-b06.yml
+- handoffs/vol-01/review-ch-01-b06.yml
+- reviews/prose/vol-01-ch-01-b06-claude-review.md
+- work/vol-01/batches/ch-01-b06-source.jsonl
+- translations/vol-01/ch-01-b06.jsonl
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+metadata_risks:
+- Verify p000076 preserves Nordland as written, without unsupported Nordland=Norden
+  equivalence.
+- Verify p000084 pseudo-border wording is compatible with p000089 and added “thực
+  chất” was removed.
+- Verify p000089 uses quyền cai trị distinctly from sovereignty/chủ quyền at p000091.
+- Verify p000094 preserves the hiking euphemism and removes military “hành quân”.
+instructions:
+- Re-review all 25 units after translator changes. Confirm all four former moderate
+  findings are resolved and identify any new serious/moderate finding.
+- Confirm pending terms/notes remain consistent and provisional. Minor issues may
+  remain.
+- Only write allowed follow-up report; no source sentences and no other files. Return
+  shared YAML counts, unresolved findings, term recommendations, risks; validator/diff_check
+  not_run; commit null.

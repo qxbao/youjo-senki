@@ -1,0 +1,86 @@
+schema_version: 1
+task_id: vol-01-ch-01-b06-review-fixes
+role: translator
+status: ready
+batch: vol-01-ch-01-b06
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000076
+- YS-LN01/Text/chapter003b.xhtml/p000077
+- YS-LN01/Text/chapter003b.xhtml/p000078
+- YS-LN01/Text/chapter003b.xhtml/p000079
+- YS-LN01/Text/chapter003b.xhtml/p000080
+- YS-LN01/Text/chapter003b.xhtml/p000081
+- YS-LN01/Text/chapter003b.xhtml/p000082
+- YS-LN01/Text/chapter003b.xhtml/p000083
+- YS-LN01/Text/chapter003b.xhtml/p000084
+- YS-LN01/Text/chapter003b.xhtml/p000085
+- YS-LN01/Text/chapter003b.xhtml/p000086
+- YS-LN01/Text/chapter003b.xhtml/p000087
+- YS-LN01/Text/chapter003b.xhtml/p000088
+- YS-LN01/Text/chapter003b.xhtml/p000089
+- YS-LN01/Text/chapter003b.xhtml/p000090
+- YS-LN01/Text/chapter003b.xhtml/p000091
+- YS-LN01/Text/chapter003b.xhtml/p000092
+- YS-LN01/Text/chapter003b.xhtml/p000093
+- YS-LN01/Text/chapter003b.xhtml/p000094
+- YS-LN01/Text/chapter003b.xhtml/p000095
+- YS-LN01/Text/chapter003b.xhtml/p000096
+- YS-LN01/Text/chapter003b.xhtml/p000097
+- YS-LN01/Text/chapter003b.xhtml/p000098
+- YS-LN01/Text/chapter003b.xhtml/p000099
+- YS-LN01/Text/chapter003b.xhtml/p000100
+source_package: work/vol-01/batches/ch-01-b06-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: fdf507c3120e2e1a132f03600ae55779381d8d1568fe6e5a0ea37facace18ce9
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+review_report: reviews/prose/vol-01-ch-01-b06-claude-review.md
+files_allowed:
+- translations/vol-01/ch-01-b06.jsonl
+read_only_inputs:
+- work/vol-01/batches/ch-01-b06-source.jsonl
+- reviews/prose/vol-01-ch-01-b06-claude-review.md
+- work/run-state/pending-terms.yml
+- canon/glossary.yml
+- canon/glossary-pending.yml
+- canon/style-guide.md
+- canon/characters.yml
+- canon/decisions.md
+instructions:
+- 'Resolve four moderate findings. M1 p000076: use Nordland as it appears in the source
+  heading; do not substitute Norden or assert equivalence. M2 p000084: replace “đường
+  ranh giả” with “một dạng biên giới không chính thức” or another low-assumption wording
+  retaining “biên giới”; remove the added “thực chất”. M3 p000089: use “quyền cai
+  trị” for dominion, retaining “chủ quyền” for sovereignty at p000091. M4 p000094:
+  remove added military “hành quân”; render the hiking euphemism as “cuộc đi bộ đường
+  dài có tổ chức chặt chẽ” (or equivalent), consistent with p000090/p000092.'
+- 'Apply clear minor corrections supported by Claude: p000077 “hỏi trời cao”, “sạm
+  nắng vì tuyết”, “bộ binh không giáp”; p000078 restore distinction from being misinformed
+  rather than not informed; p000084 “cứ thản nhiên bước qua”, “vốn luôn cần mẫn”,
+  “lẽ ra phải lường trước”; p000086 “khoảng cách giữa các tầng lớp”; p000088 include
+  “sai lầm” and use “chửi rủa”; p000089 “vì nể/chiếu cố” and keep actor ambiguity;
+  p000091 retain “thua cay cú” and strengthen “dreamers” as suggested; p000094 render
+  “salary thief” as “kẻ ăn hại lương” and “appallingly thoughtless” without overstatement;
+  p000097 use “vượt qua biên giới”; p000098 provisionally use “Quân đội Đế quốc”,
+  lowercase “bộ phận kiểm soát không phận”, and “Trung tâm Điều hành Tác chiến”; p000099
+  prefer “kênh liên lạc”; p000100 avoid “cựu binh” for an active veteran. Keep other
+  uncertain items provisional.'
+- Refresh notes for changed rows; align pending IDs to work/run-state/pending-terms.yml
+  and do not copy source sentences. Keep all terms non-canon; preserve ambiguity and
+  avoid lore inference.
+- Only modify translations/vol-01/ch-01-b06.jsonl. Preserve IDs/order/metadata; changed
+  rows draft.
+- 'Run configured validator with this handoff/source package and git diff --check.
+  Return shared YAML findings, pending_terms, confidence, risks, exact files_written,
+  validator/diff_check, next_action: review. Do not commit.'
