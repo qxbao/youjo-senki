@@ -1,0 +1,23 @@
+# Tự kiểm ngữ nghĩa — vol-02-ch-06-b12
+
+- Đã giữ đủ 23 mã đoạn trong phạm vi p000359–p000381; không đưa câu nguồn vào báo cáo.
+- Áp dụng DEC-P01-001: “mình” cho nội tâm tự quy chiếu của Tanya, “nó” khi trần thuật về Tanya tại p000373 và p000378. Đại từ Grantz giữ theo ngữ cảnh kể.
+- Đã biểu diễn phần nhấn mạnh ở p000374 và p000381 bằng Markdown nghiêng, đúng phạm vi nguồn (DEC-P01-002).
+- Đã giữ các quan hệ điều kiện, thời gian và khả thể ở p000359–p000363; ý định thủ tiêu nhân chứng ở p000364 được trình bày như suy nghĩ thoáng qua rồi bị kìm lại.
+- Đã sửa các phát hiện prose được giao:
+  - F01 — p000373: chuyển hành động tập hợp sang cấu trúc bị động, không gán người ra lệnh; dùng “mức sẵn sàng hai”.
+  - F02 — p000373, p000378: đổi đại từ trần thuật về Tanya sang “nó”; không áp dụng quy tắc này cho Grantz.
+  - F03 — p000378: giữ giả định nhượng bộ bằng “Ngay cả nếu anh đã lường trước”; giảm kết quả thành “nản lòng”, không khẳng định mất hết tinh thần.
+  - F04 — p000370: diễn đạt Rudel vẫn xoay xở tận hưởng cuộc sống khá tốt sau chiến tranh, không suy ra sung túc vật chất.
+  - F05 — p000370: gắn hình ảnh bê tông cốt thép trực tiếp với lập trường chống cộng và ủng hộ Đức Quốc xã; giữ giọng nhấn mạnh nội tâm.
+  - F06 — p000369: thay kết hợp từ không tự nhiên bằng “huân chương chỉ mang tính hình thức”, không phán xét tính xác thực hay xứng đáng.
+  - F07 — p000379: dùng “điểm trung chuyển tiếp tế lớn”, giữ thông tin địa điểm đã thất thủ mà không thêm nghĩa cứ điểm phòng thủ.
+- Các thuật ngữ dưới đây là lựa chọn tạm, chưa phải canon:
+  - “xuất kích” cho sortie; “trạng thái sẵn sàng xuất kích” cho sortie readiness (p000366–p000367), pending. Phương án khác: “xuất quân / trạng thái sẵn sàng xuất quân”.
+  - “truy kích song song” cho parallel pursuit (p000375), pending. Phương án khác: “truy đuổi song song”.
+  - “điểm trung chuyển tiếp tế” cho supply relay point (p000379), pending. Phương án khác: “đầu mối trung chuyển tiếp tế”.
+  - “mức sẵn sàng hai” cho readiness level two (p000373), pending. Phương án khác: “cấp độ sẵn sàng hai”.
+  - “huân chương chỉ mang tính hình thức” cho superficial decoration (p000369), pending; phương án khác: “huân chương hào nhoáng bề ngoài”.
+  - “bị bắt giam” cho interned trong ngữ cảnh hậu chiến (p000369), lựa chọn tạm.
+- Các lựa chọn quân hàm Thiếu úy cho Grantz và Thiếu tá cho von Degurechaff phù hợp thông tin ngay trong package; giữ tạm, không tự nâng thành canon.
+- Rủi ro diễn đạt còn cân nhắc: “cuồng chiến trận” ở p000366 và “tòa án giả hiệu” ở p000362 là phương án khẩu ngữ tạm.

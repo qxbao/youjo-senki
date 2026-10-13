@@ -1,0 +1,34 @@
+task_id: vol-02-ch-06-b12-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b12
+translation: translations/vol-02/ch-06-b12.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b12-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b12-codex.md
+source_package: work/vol-02/batches/ch-06-b12-source.jsonl
+source_package_sha256: 900b06e047c5e7cf8aee3289ff795a590bdd541038bfdbfaf9597e0a26027e6d
+segment_ids:
+- YS-LN02/Text/part0030.xhtml/p000369
+- YS-LN02/Text/part0030.xhtml/p000370
+- YS-LN02/Text/part0030.xhtml/p000373
+- YS-LN02/Text/part0030.xhtml/p000378
+- YS-LN02/Text/part0030.xhtml/p000379
+review_counts: {serious: 0, moderate: 4, minor: 3, unresolved: 7}
+accepted_resolutions:
+- F01 p000373: remove unsupported agent for gathering; use passive/literal unit was assembled at readiness level two, without inventing who issued an order.
+- F02 p000373 and p000378: apply DEC-P01-001 for Tanya in narration; use “nó”, Tanya, or title where needed. Do not transfer this rule to Grantz.
+- F03 p000378: preserve the concessive hypothetical; reduce the unsupported absolute emotional claim to the source-supported loss of morale.
+- F04 p000370: remove the material-prosperity implication; say he continued to enjoy life fairly well after the war.
+- F05 p000370: attach the reinforced-concrete image directly to his two stated political positions while retaining the inner voice emphasis.
+- F06 p000369: use the temporary wording “huân chương chỉ mang tính hình thức”; do not imply the award was false or undeserved.
+- F07 p000379: use “điểm trung chuyển tiếp tế”; do not imply a fortified military position.
+term_choices:
+- P01: retain “xuất kích / trạng thái sẵn sàng xuất kích” at p000366-p000367; alternative “xuất quân / trạng thái sẵn sàng xuất quân”; provisional, pending.
+- P02: retain “truy kích song song” at p000375; alternative “truy đuổi song song”; provisional, pending.
+- P03: apply “điểm trung chuyển tiếp tế” at p000379; alternative “đầu mối trung chuyển tiếp tế”; provisional, pending.
+- P04: apply “mức sẵn sàng hai” at p000373; alternative “cấp độ sẵn sàng hai”; provisional, pending.
+constraints:
+- Read only the assigned local package, this handoff, the review report, current translation/self-check, and referenced canon/pending inputs. Never open an EPUB/PDF or any other source package.
+- Write only the b12 translation JSONL and semantic self-check. Do not modify reviews/prose, handoffs, canon, pending ledger, or run-state. Do not commit or dispatch another worker.
+- Run tools/validate_translation.py using the b12 handoff/package and git diff --check. Report each finding resolution with IDs, pending terms, validator and diff status.
+status: ready
