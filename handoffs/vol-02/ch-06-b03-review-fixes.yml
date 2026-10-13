@@ -1,0 +1,84 @@
+task_id: vol-02-ch-06-b03-review-fixes
+batch: vol-02-ch-06-b03
+review_report: reviews/prose/vol-02/ch-06-b03-codex.md
+translation: translations/vol-02/ch-06-b03.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b03-self-check.md
+source_package: work/vol-02/batches/ch-06-b03-source.jsonl
+source_package_sha256: 65c888d732ceb171d6088586a60d67f294eac0110291225b6adec9ad03d50e5a
+status: done
+review_counts:
+  serious: 0
+  moderate: 1
+  minor: 6
+findings_to_resolve:
+- id: F01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000068
+  - YS-LN02/Text/part0030.xhtml/p000069
+  - YS-LN02/Text/part0030.xhtml/p000070
+  - YS-LN02/Text/part0030.xhtml/p000071
+  - YS-LN02/Text/part0030.xhtml/p000072
+  - YS-LN02/Text/part0030.xhtml/p000073
+  - YS-LN02/Text/part0030.xhtml/p000074
+  - YS-LN02/Text/part0030.xhtml/p000075
+  - YS-LN02/Text/part0030.xhtml/p000076
+  - YS-LN02/Text/part0030.xhtml/p000077
+  - YS-LN02/Text/part0030.xhtml/p000078
+  - YS-LN02/Text/part0030.xhtml/p000079
+  - YS-LN02/Text/part0030.xhtml/p000080
+  - YS-LN02/Text/part0030.xhtml/p000081
+  - YS-LN02/Text/part0030.xhtml/p000084
+  - YS-LN02/Text/part0030.xhtml/p000085
+  - YS-LN02/Text/part0030.xhtml/p000086
+  - YS-LN02/Text/part0030.xhtml/p000091
+  resolution: 'Restore exact emphasis spans: whole segment p000068–p000081 and p000084–p000086; at p000091 italicize
+    only the two inner sentences identified in review. No emphasis elsewhere.'
+- id: F02
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000068
+  resolution: Repair “nên vừa phải” syntax; preserve nearly impossible, not absolute impossibility.
+- id: F03
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000070
+  resolution: Use coordinator choice “phong trào ly khai đòi độc lập”; add no org/name/legitimacy.
+- id: F04
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000071
+  resolution: Clarify same forces cannot support invasion if deployed here; add no commander or named invasion.
+- id: F05
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000087
+  resolution: Keep one literal asterisk with valid JSON/Markdown escaping; do not italicize annotation.
+- id: F06
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000088
+  resolution: Make “broadly” describe the feigned manner/question, not a character judgment; keep trembling voice.
+- id: F07
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000093
+  resolution: Describe the transport line being severed/ interrupted materially, without adding destroyed bridges/rails
+    or daily tonnage.
+coordinator_term_choices: Apply chapter6_b03_coordinator_choices in ledger; all four remain pending/non-canon.
+constraints:
+- Use only assigned local package; no EPUB/PDF or other package.
+- Edit only translation and semantic self-check.
+- Use exact package emphasis markup; validate Markdown/JSON escaping.
+- Do not edit handoff, ledger, prose report, canon, or checkpoint.
+- Run validator and git diff --check.
+- No commit or another worker.
+files_written:
+- translations/vol-02/ch-06-b03.jsonl
+- reviews/semantic/vol-02/ch-06-b03-self-check.md
+translator_session_id: 01a1360d-29d9-7082-89b8-759d297e09cc
+validator: pass
+diff_check: pass
+findings_resolved:
+- F01
+- F02
+- F03
+- F04
+- F05
+- F06
+- F07
+pending_terms_count: 4
