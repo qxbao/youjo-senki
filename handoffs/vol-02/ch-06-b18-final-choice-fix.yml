@@ -1,0 +1,21 @@
+task_id: vol-02-ch-06-b18-final-choice-fix
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b18
+translation: translations/vol-02/ch-06-b18.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b18-self-check.md
+primary_handoff: handoffs/vol-02/ch-06-b18.yml
+source_package: work/vol-02/batches/ch-06-b18-source.jsonl
+source_package_sha256: 1f6116310c3d403849cb4ba575d10a8bf521a4ea1fc4e6ad08dffe8554685d92
+review_choice: P03-human-capital
+segment_id: YS-LN02/Text/part0030.xhtml/p000563
+resolution: >-
+  Translation already uses reviewer-selected provisional “vốn con người”; update
+  the self-check to name that applied choice and keep “vốn nhân lực” as a pending
+  alternative. No translation text change.
+constraints:
+- Use only the assigned b18 package, primary handoff, translation and self-check; no EPUB/PDF or another package.
+- Write only reviews/semantic/vol-02/ch-06-b18-self-check.md.
+- Do not edit reports, canon, ledger or run-state; do not commit/dispatch.
+- Run python3 tools/validate_translation.py with primary b18 handoff/package and git diff --check.
+status: ready

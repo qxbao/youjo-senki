@@ -5,7 +5,7 @@ Phạm vi: `YS-LN02/Text/part0030.xhtml/p000554`–`p000583` (30 đoạn). Đã 
 ## Kiểm tra
 
 - p000554 giữ yêu cầu thả thường dân và công dân Đế quốc, cùng viện dẫn Điều 26, Khoản 3; p000555 giữ sắc thái yêu cầu chỉ có danh nghĩa và giới hạn công dân Đế quốc có mặt ở Arene.
-- p000556 giữ khả năng phỏng đoán về việc bị giết hoặc bị đám đông hành hình, không nêu cách thức hay thủ phạm cụ thể. p000556–p000563 giữ động cơ trả thù, phản ứng của dân quân, điều kiện thiếu huấn luyện và lập luận về vốn nhân lực. Không đồng nhất dân quân với quân đội chính quy.
+- p000556 giữ khả năng phỏng đoán về việc bị giết hoặc bị đám đông hành hình, không nêu cách thức hay thủ phạm cụ thể. p000556–p000563 giữ động cơ trả thù, phản ứng của dân quân, điều kiện thiếu huấn luyện và lập luận về vốn con người. Không đồng nhất dân quân với quân đội chính quy.
 - p000566–p000570 giữ động cơ chính trị của Tanya, hành động giải cứu tách biệt với tham chiến, và sắc thái tự trấn an khi biện minh. p000567 giữ lý do chính đáng trước mắt; p000570 không khẳng định Tanya được miễn tội. p000573 chỉ đánh dấu nghiêng câu châm ngôn tương ứng với phần nhấn mạnh trong nguồn.
 - p000574–p000583 giữ điểm nhìn Grantz, khác biệt phản ứng của Visha, tính chất truy quét, mệnh lệnh, sự tỉnh táo, hồi tưởng về việc giết người, mùi xác cháy, và trình tự từ cảnh báo/tách dân thường đến cuộc tấn công. p000580 giữ mức cháy thành than và cảm giác không khí quánh dính vì protein. p000582 giữ suy đoán về thủ tục, không xác định cơ chế pháp luật hay quyết định chính thức. p000583 giữ cảm nhận của Grantz về “người phía mình”, sau đó cảm giác tan đi và lời giải thích vẫn dè dặt. p000579 được in nghiêng toàn đoạn theo nguồn.
 
@@ -22,5 +22,5 @@ Phạm vi: `YS-LN02/Text/part0030.xhtml/p000554`–`p000583` (30 đoạn). Đã 
 ## Rủi ro cần coordinator xem xét
 
 - `meaning`: p000582 vẫn để ngỏ quan hệ pháp lý và chủ thể phân loại; bản dịch dùng cách diễn đạt thủ tục ít suy diễn, không thêm căn cứ luật hay quyết định chính thức.
-- `pending_terms`: cả tám lựa chọn tạm về tên văn kiện, cấp bậc, thuật ngữ tác chiến, giải cứu, đại từ/điểm nhìn và cách gọi vẫn pending, không phải canon. Với `human capital` (p000563), dùng tạm “vốn con người” theo P03-human-capital; “vốn nhân lực” vẫn là phương án thay thế pending. Cả hai đều chưa phải canon.
+- `pending_terms`: các lựa chọn tạm về tên văn kiện, cấp bậc, thuật ngữ tác chiến, giải cứu, đại từ/điểm nhìn và cách gọi vẫn pending, không phải canon. Với `human capital` (p000563), đã đổi “vốn nhân lực” thành “vốn con người” theo reviewer và P03-human-capital; “vốn nhân lực” vẫn là phương án thay thế pending. Cả hai đều chưa phải canon.
 - `emphasis`: p000573 và p000582 nhấn nghiêng đúng phạm vi câu được chỉ định; p000579 giữ nhấn mạnh toàn đoạn. Không thêm nhấn mạnh ở nơi khác.
