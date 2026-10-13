@@ -1,0 +1,75 @@
+task_id: vol-02-ch-06-b04-review-fixes
+batch: vol-02-ch-06-b04
+review_report: reviews/prose/vol-02/ch-06-b04-codex.md
+translation: translations/vol-02/ch-06-b04.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b04-self-check.md
+source_package: work/vol-02/batches/ch-06-b04-source.jsonl
+source_package_sha256: f667b42079f2a4e86e9c9461ac282ffbba00b3399f95fbf2f69e5bc798dd9308
+status: done
+review_counts:
+  serious: 1
+  moderate: 4
+  minor: 4
+findings_to_resolve:
+- id: S01
+  severity: serious
+  segment_id: YS-LN02/Text/part0030.xhtml/p000129
+  resolution: Preserve legal condition about noncombatants; do not say no person remains. Keep deception/legal validity
+    and do not add procedure.
+- id: M01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000094
+  resolution: Use neutral “cô lập kẻ địch ở phía bắc”; do not specify retreat or supply.
+- id: M02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000097
+  resolution: Restore exact italic scope to the self-castigating sentence only.
+- id: M03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000103
+  resolution: Replace “Cục Tác chiến” with “bộ phận tác chiến”; no unit level.
+- id: M04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000123
+  resolution: Use “người không tham chiến” and preserve conditional legal argument.
+- id: L01
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000101
+  resolution: Use “dịch chuyển mặt trận”; do not specify retreat/offensive direction.
+- id: L02
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000104
+  resolution: Use modal “có thể giúp”, not certain “sẽ giúp”.
+- id: L03
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000121
+  resolution: Render “we cannot waste another second” naturally; keep entire passage italic and do not make it spoken.
+- id: L04
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000126
+  resolution: Make residents, not the city, the subject; preserve civilians/militia distinction.
+coordinator_term_choices: Use chapter6_b04_coordinator_choices; all provisional/non-canon. At p000117 use full source
+  name Công ước Worms; WTN is absent and not linked.
+constraints:
+- Use only assigned local package, no EPUB/PDF or other packages.
+- Edit only translation and semantic self-check.
+- Do not change canon/ledger/review report/handoffs/checkpoint.
+- Run configured validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b04.jsonl
+- reviews/semantic/vol-02/ch-06-b04-self-check.md
+translator_session_id: 01a13619-c7a2-75b0-8dd4-01539a3b5bfd
+validator: pass
+diff_check: pass
+findings_resolved:
+- S01
+- M01
+- M02
+- M03
+- M04
+- L01
+- L02
+- L03
+- L04
+pending_terms_count: 4
