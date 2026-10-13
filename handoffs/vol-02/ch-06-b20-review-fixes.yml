@@ -1,0 +1,28 @@
+task_id: vol-02-ch-06-b20-review-fixes
+role: translator
+batch: vol-02-ch-06-b20
+translation: translations/vol-02/ch-06-b20.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b20-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b20-codex.md
+source_package: work/vol-02/batches/ch-06-b20-source.jsonl
+source_package_sha256: 1214be418ef94f270ce38a9dfcc5ab091102dd1c54336935a01900f8bcd1d342
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections: [chapter6_b20_translator_proposals, chapter6_b20_review_recommendations]
+review_counts: {serious: 0, moderate: 6, minor: 4, unresolved: 10}
+findings:
+- {id: B20-CX-001, severity: moderate, segment_id: YS-LN02/Text/part0030.xhtml/p000610, resolution: Restore the two emphasized spans separately; do not italicize the whole paragraph. Use the less narrowing wording in CX-007 for the first span.}
+- {id: B20-CX-002, severity: moderate, segment_id: YS-LN02/Text/part0030.xhtml/p000612, resolution: Restore emphasis to the two consecutive internal questions, keeping surrounding narration unitalicized.}
+- {id: B20-CX-003, severity: moderate, segment_id: YS-LN02/Text/part0030.xhtml/p000627, resolution: Emphasize only “Kẻ thù của Đế quốc” in the dialogue.}
+- {id: B20-CX-004, severity: moderate, segment_id: YS-LN02/Text/part0030.xhtml/p000633, resolution: Preserve two emphasized spans and keep “có thể” outside emphasis.}
+- {id: B20-CX-005, severity: moderate, segment_id: YS-LN02/Text/part0030.xhtml/p000631, resolution: Temporarily use “Thiếu úy Grantz” based on p000626; alternative is “Grantz” alone. Record both as provisional, non-canon.}
+- {id: B20-CX-006, severity: moderate, segment_id: YS-LN02/Text/part0030.xhtml/p000639, resolution: Correct self-check viewpoint to Grantz at p000639–p000640; do not claim DEC-P01-001 canon applies to him. Treat p000641–p000643 narrator identity as unconfirmed by this package.}
+- {id: B20-CX-007, severity: minor, segment_id: YS-LN02/Text/part0030.xhtml/p000610, resolution: Prefer “chỉ là những người bình thường” and “các pháp sư tả tơi kia”; do not add injury details.}
+- {id: B20-CX-008, severity: minor, segment_id: YS-LN02/Text/part0030.xhtml/p000613, resolution: Improve the long appositional structure while preserving both threats and the civilians’ protection; suggested wording is in the review report.}
+- {id: B20-CX-009, severity: minor, segment_id: YS-LN02/Text/part0030.xhtml/p000615, resolution: Remove the repeated double sign-off; use one clear turn-end, preferably “Chỉ có vậy. Hết.”}
+- {id: B20-CX-010, severity: minor, segment_id: YS-LN02/Text/part0030.xhtml/p000640, resolution: Temporarily use “Đệch” for the standalone profanity; keep its emphasis and do not add a target.}
+term_choices: Apply the reviewer recommendations in chapter6_b20_review_recommendations consistently within this batch; all remain pending/non-canon.
+constraints:
+- Use only this assigned b20 package, handoffs/reports/self-check, named canon references, and b20 ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-06-b20.jsonl and reviews/semantic/vol-02/ch-06-b20-self-check.md. No handoffs, ledger, canon, run-state or commit.
+- Run python3 tools/validate_translation.py with primary b20 handoff/package and git diff --check.
+status: ready

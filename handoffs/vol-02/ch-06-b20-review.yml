@@ -1,0 +1,21 @@
+task_id: vol-02-ch-06-b20-review
+role: reviewer
+batch: vol-02-ch-06-b20
+translation: translations/vol-02/ch-06-b20.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b20-self-check.md
+source_package: work/vol-02/batches/ch-06-b20-source.jsonl
+source_package_sha256: 1214be418ef94f270ce38a9dfcc5ab091102dd1c54336935a01900f8bcd1d342
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter6_b20_translator_proposals
+review_flags: [even_batch, new_pending_terms, emphasis]
+translator_risks:
+- p000610: “dân thường” for a generic non-combatant group; verify context supports it.
+- p000613: Vietnamese structure around protecting civilians from commander and artillery is heavy; verify both threats and relation.
+- p000640: “Chết tiệt” may understate profanity; assess the best justified temporary rendering from package and context.
+constraints:
+- Independently review only the assigned b20 package, translation, self-check, this handoff, primary b20 handoff, named canon and b20 ledger section.
+- Do not open EPUB/PDF or another source package; do not quote source sentences.
+- Report serious/moderate/minor findings with stable IDs and resolutions; choose provisional alternatives where useful without canon promotion.
+- Write only reviews/prose/vol-02/ch-06-b20-codex.md.
+report_path: reviews/prose/vol-02/ch-06-b20-codex.md
+status: ready
