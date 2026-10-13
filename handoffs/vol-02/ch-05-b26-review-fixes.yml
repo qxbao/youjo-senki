@@ -1,0 +1,106 @@
+task_id: vol-02-ch-05-b26-review-fixes
+batch: vol-02-ch-05-b26
+review_report: reviews/prose/vol-02/ch-05-b26-codex.md
+translation: translations/vol-02/ch-05-b26.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b26-self-check.md
+source_package: work/vol-02/batches/ch-05-b26-source.jsonl
+source_package_sha256: c29cd1ba4c44371ee2a0103097f9e2ecd6697fc4b3e4761b16516b0e7ffc0110
+status: done
+review_counts:
+  serious: 0
+  moderate: 4
+  minor: 6
+findings_to_resolve:
+- id: M01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000048
+  - YS-LN02/Text/part0028.xhtml/p000055
+  - YS-LN02/Text/part0028.xhtml/p000056
+  - YS-LN02/Text/part0028.xhtml/p000058
+  resolution: After the scene break, these inner self-references belong to Tanya; use “mình” in clear internal thought.
+    Keep first-person Grantz narration and dialogue unchanged.
+- id: M02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000050
+  - YS-LN02/Text/part0028.xhtml/p000051
+  - YS-LN02/Text/part0028.xhtml/p000061
+  - YS-LN02/Text/part0028.xhtml/p000072
+  resolution: Restore exactly the four emphasis spans from the assigned package using Markdown per DEC-P01-002.
+- id: M03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000049
+  resolution: Render the administrative idiom as following precedent and avoiding disruption; do not add motives
+    or corruption.
+- id: M04
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000072
+  resolution: 'Repair the either/or construction: first branch foolish, second extremely troublesome and foolish;
+    keep emphasis only on the additive conjunction.'
+- id: L01
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000043
+  resolution: Improve the Vietnamese collocation while retaining small degree of improvement.
+- id: L02
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000051
+  resolution: Use preparation-for-trouble wording rather than calming oneself; retain provisional readiness-level
+    term.
+- id: L03
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000056
+  resolution: Reduce syntactic heaviness/overstated “cú hích”; preserve uncertainty and hypothetical consequence.
+- id: L04
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000067
+  - YS-LN02/Text/part0028.xhtml/p000071
+  resolution: Use provisional “bản tin mã hóa ngắn”; at p000067 prefer “ống đựng thông điệp”.
+- id: L05
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000070
+  resolution: Clarify that no one reads before the commander except the radio operator; use neutral job title.
+- id: L06
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000075
+  resolution: Remove added day duration; retain exasperated reaction.
+coordinator_term_choices: Use the four chapter5_b26_coordinator_choices in pending ledger consistently; all remain
+  provisional/non-canon.
+constraints:
+- Use only assigned local package; no EPUB/PDF or any other source package.
+- Edit only translation and semantic self-check.
+- Apply viewpoint shift only to Tanya internal self-reference at specified IDs; do not change other speakers.
+- Do not edit handoffs, prose reviews, ledger, canon, or checkpoint.
+- Run configured validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-05-b26.jsonl
+- reviews/semantic/vol-02/ch-05-b26-self-check.md
+translator_session_id: 01a135e8-dd9e-7bc0-9547-15e056a066b1
+validator: pass
+diff_check: pass
+findings_resolved:
+- M01
+- M02
+- M03
+- M04
+- L01
+- L02
+- L03
+- L04
+- L05
+- L06
+pending_terms_count: 4
+findings_open: []
+findings_resolution_note: Initial signoff found L05 only partly resolved; follow-up task addresses its remaining
+  terminology mismatch.
+followup_handoff: handoffs/vol-02/ch-05-b26-review-fixes-followup.yml
+followup_signoff: reviews/prose/vol-02/ch-05-b26-final-signoff-followup-codex.md

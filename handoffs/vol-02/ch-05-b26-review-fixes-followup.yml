@@ -1,0 +1,29 @@
+task_id: vol-02-ch-05-b26-review-fixes-followup
+batch: vol-02-ch-05-b26
+review_report: reviews/prose/vol-02/ch-05-b26-codex.md
+initial_signoff: reviews/prose/vol-02/ch-05-b26-final-signoff-codex.md
+translation: translations/vol-02/ch-05-b26.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b26-self-check.md
+source_package: work/vol-02/batches/ch-05-b26-source.jsonl
+source_package_sha256: c29cd1ba4c44371ee2a0103097f9e2ecd6697fc4b3e4761b16516b0e7ffc0110
+status: done
+findings_to_resolve:
+- id: L05
+  severity: minor
+  segment_id: YS-LN02/Text/part0028.xhtml/p000070
+  resolution: Replace “điện báo viên” with a neutral radio-operator title such as “nhân viên vô tuyến”; keep the
+    rule that no one reads before the commander except the radio operator. Do not infer rank or decoding procedure.
+constraints:
+- Use only the assigned local source package; no EPUB/PDF or other package.
+- Edit only b26 translation and its semantic self-check.
+- Do not edit reports, handoffs, pending ledger, canon, or checkpoint.
+- Run the configured validator and git diff --check.
+- Do not commit or dispatch another worker.
+files_written:
+- translations/vol-02/ch-05-b26.jsonl
+- reviews/semantic/vol-02/ch-05-b26-self-check.md
+translator_session_id: 01a135ee-6a3a-75a1-8ce0-0491517f28ff
+validator: pass
+diff_check: pass
+findings_resolved:
+- L05
