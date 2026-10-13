@@ -29,6 +29,57 @@ source_package: work/vol-02/batches/ch-04-b26-source.jsonl
 source_package_sha256: 57ffed64e3747facfaf4036337dad26f925c4ec74d2018d48416166cb6081d32
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 903
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13341-7205-7eb3-81c0-40d228651860
+  segment_count: 32
+  validator: pass
+  diff_check: pass
+  findings: [low terminology/meaning note p000467]
+  pending_term_count: 1
+  files_written: [translations/vol-02/ch-04-b26.jsonl]
+review_coordination:
+  triggered_by: [even_batch]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a13343-cc6a-7251-8e9c-a646734e3bc0
+  review_counts: {serious: 0, moderate: 4, minor: 5}
+  unresolved_serious: []
+  initial_unresolved_moderate: [B26-F01, B26-F02, B26-F03, B26-F04]
+  unresolved_moderate: []
+  signoff_findings_pending: [B26-F01, B26-F02, B26-F03, B26-F04]
+  follow_up_owner: translator-ch04-b26-review-fixes
+  signoff_state: passed_assigned_fixes_only
+  signoff_session_id: 01a13349-79fe-7c83-9567-1fe34137b0a6
+  signoff_report: reviews/prose/vol-02/ch-04-b26-fixes-signoff-codex.md
+  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, deferred_minor: 5}
+  signoff_findings_resolved: [B26-F01, B26-F02, B26-F03, B26-F04]
+  signoff_findings_pending: []
+  deferred_minor: [B26-F05, B26-F06, B26-F07, B26-F08, B26-F09]
+  review_report: reviews/prose/vol-02/ch-04-b26-codex.md
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b26_translation_proposals
+coordinator_provisional_choices:
+  status: pending_non_canon
+  entries:
+  - {finding: B26-F01, decision: describe_chaos_across_defending_force_not_rear_area, segments: [p000457]}
+  - {finding: B26-F02, decision: use_second_command_bridge_provisionally, proposed_vi: đài chỉ huy thứ hai, alternatives_vi: [buồng lái thứ hai], segments: [p000467]}
+  - {finding: B26-F03, decision: preserve_low_yield_explosive_formula_category, proposed_vi: công thức gây nổ công suất thấp, alternatives_vi: [thuật thức gây nổ công suất thấp], segments: [p000473]}
+  - {finding: B26-F04, decision: use_luc_quan_for_army_branch_compared_to_navy, segments: [p000477]}
+fix_report:
+  state: done
+  translator_session_id: 01a13347-95c0-76e2-a277-29de823ee5f8
+  findings_resolved: [B26-F01, B26-F02, B26-F03, B26-F04]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-04-b26.jsonl]
+  allowlist: [translations/vol-02/ch-04-b26.jsonl]
+  next_action: reviewer_signoff
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
