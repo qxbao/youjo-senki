@@ -1,0 +1,72 @@
+task_id: vol-02-ch-05-b25-review-fixes
+batch: vol-02-ch-05-b25
+review_report: reviews/prose/vol-02/ch-05-b25-codex.md
+translation: translations/vol-02/ch-05-b25.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b25-self-check.md
+source_package: work/vol-02/batches/ch-05-b25-source.jsonl
+source_package_sha256: b019ace402b28641702238268c6f0b7ff142cac508aca8efb0c070d43f91fdcc
+status: done
+review_counts:
+  serious: 0
+  moderate: 2
+  minor: 5
+findings_to_resolve:
+- id: M01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0028.xhtml/p000030
+  resolution: Restore the academy situation as a hypothetical counterfactual; keep the reproach italicized.
+- id: M02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0028.xhtml/p000036
+  resolution: Use temporary “Trung úy” for Serebryakov, consistent with p000033/p000037; keep rank pending.
+- id: m01
+  severity: minor
+  segment_id: YS-LN02/Text/part0028.xhtml/p000004
+  resolution: Repair Vietnamese syntax around obedience becoming habitual.
+- id: m02
+  severity: minor
+  segment_id: YS-LN02/Text/part0028.xhtml/p000025
+  resolution: Use neutral lost-awareness phrasing; do not self-diagnose.
+- id: m03
+  severity: minor
+  segment_id: YS-LN02/Text/part0028.xhtml/p000032
+  resolution: Restore “relatively/temporarily okay” shade in the teasing reassurance.
+- id: m04
+  severity: minor
+  segment_id: YS-LN02/Text/part0028.xhtml/p000038
+  resolution: Replace “cựu binh” with reviewer choice “những người lính dày dạn”; do not imply discharge.
+- id: m05
+  severity: minor
+  segment_id: YS-LN02/Text/part0028.xhtml/p000039
+  resolution: Express possible relief beginning, not an imminent action; preserve modest return to calm.
+coordinator_term_choice:
+  source_term: Grantz viewpoint pronouns
+  proposed_vi: tôi in first-person narration and address to superiors; mình in direct inner speech
+  alternative_vi: tôi throughout; omit subject where unambiguous
+  status: provisional_non_canon
+  segment_ids:
+  - YS-LN02/Text/part0028.xhtml/p000001
+  - YS-LN02/Text/part0028.xhtml/p000007
+  - YS-LN02/Text/part0028.xhtml/p000015
+constraints:
+- Use only assigned local package; no EPUB/PDF or other source packages.
+- Edit only translation and its semantic self-check.
+- Use b25 coordinator pronoun choice where applicable; remain provisional/non-canon.
+- Do not change canon, ledger, handoffs, prose review, or checkpoint.
+- Run validator and git diff --check.
+- Do not commit or dispatch another worker.
+files_written:
+- translations/vol-02/ch-05-b25.jsonl
+- reviews/semantic/vol-02/ch-05-b25-self-check.md
+translator_session_id: 01a135dd-6789-7bb3-0f2-7ca8ab38ce43
+validator: pass
+diff_check: pass
+findings_resolved:
+- M01
+- M02
+- m01
+- m02
+- m03
+- m04
+- m05
+pending_terms_count: 4
