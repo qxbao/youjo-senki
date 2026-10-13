@@ -1,0 +1,79 @@
+task_id: vol-02-ch-06-b01-review-fixes
+batch: vol-02-ch-06-b01
+review_report: reviews/prose/vol-02/ch-06-b01-codex.md
+translation: translations/vol-02/ch-06-b01.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b01-self-check.md
+source_package: work/vol-02/batches/ch-06-b01-source.jsonl
+source_package_sha256: 1af0ddf6ecdf9b53f7c11c98ad68c3ed26b966ae769460ff4293d5cbec219d46
+status: done
+review_counts:
+  serious: 0
+  moderate: 5
+  minor: 5
+findings_to_resolve:
+- id: M01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000005
+  resolution: Restore prayer accompanying remembrance; add no object or ritual.
+- id: M02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000014
+  resolution: Replace “Liên bang” with provisional “Liên hiệp Waldstätte”; do not impose a specific constitution.
+- id: M03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000019
+  resolution: Make Rudersdorf the subject seeking approval; do not imply he personally approves the campaign.
+- id: M04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000030
+  resolution: Restore causality, artillery/formula bombardment without adding homes, and preserve full emphasis.
+- id: M05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000035
+  resolution: Restore constructing barriers and “the vast majority” of refugees.
+- id: L01
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000003
+  resolution: Mark only WTN with Markdown emphasis per package/DEC-P01-002.
+- id: L02
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000015
+  resolution: Restore “chính tòa” in Cathedral name consistently.
+- id: L03
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000021
+  resolution: Use provisional “chiến tranh phi chính quy”; keep attribution and speculation.
+- id: L04
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000023
+  resolution: Describe fire engulfing the city, not destroying it completely.
+- id: L05
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000033
+  resolution: Replace “vô số” with “rất nhiều”; preserve scale without absoluteness.
+coordinator_term_choices: Apply chapter6_b01_coordinator_choices in ledger consistently; all pending/non-canon.
+constraints:
+- Use only assigned local package, not EPUB/PDF or any other source package.
+- Edit only translation and semantic self-check.
+- Keep all seven term choices provisional/non-canon.
+- Do not edit handoff, ledger, prose review, canon, or checkpoint.
+- Run configured validator and git diff --check.
+- Do not commit or dispatch another worker.
+files_written:
+- translations/vol-02/ch-06-b01.jsonl
+- reviews/semantic/vol-02/ch-06-b01-self-check.md
+translator_session_id: 01a135f7-f3e9-7903-a866-bb5a45a2cab2
+validator: pass
+diff_check: pass
+findings_resolved:
+- M01
+- M02
+- M03
+- M04
+- M05
+- L01
+- L02
+- L03
+- L04
+- L05
+pending_terms_count: 7
