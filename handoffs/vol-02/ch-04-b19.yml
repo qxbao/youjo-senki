@@ -29,6 +29,43 @@ source_package: work/vol-02/batches/ch-04-b19-source.jsonl
 source_package_sha256: 3798f2132d9e3b147a85c8ec4fe6eb7d6bc99f02bd4cce16762c194bc4793cbf
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 833
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a132f3-1a32-7f92-8047-3f510a320d51
+  segment_count: 24
+  validator: pass
+  diff_check: pass
+  findings: [two low-level uncertainty notes]
+  pending_term_count: 4
+  files_written: [translations/vol-02/ch-04-b19.jsonl]
+review_coordination:
+  triggered_by: [new_pending_terms]
+  required: true
+  state: signoff_passed
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b19_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b19-claude.md
+  review_counts: {serious: 0, moderate: 1, minor: 11}
+  unresolved_moderate: [M1]
+  follow_up_owner: translator-ch04-b19-review-fixes
+  coordinator_proposals:
+    M1: >-
+      At p000234-p000235 use “Named” as an individual designation, not “đơn vị Named”.
+    N2: Use the past counterfactual at p000221 and avoid asserting the unit disappeared.
+    N4: At p000231 use a gender-neutral generic subject rather than “Anh”.
+    N5: At p000240 replace “các anh” with neutral address such as “các vị”.
+    N6: Keep the same “we” reference at p000245 (“chúng tôi”).
+    N7: Render “no support” as lack of support/evidence, not “manh mối”.
+    N8: Render “transmission” as signal transmission.
+    N9: Render “Central” neutrally as “Trung ương”.
+    N10: Use a broad “tàu” for ships in p000210.
+    N11: Use “họ vẫn sạch” as the provisional neutral phrase at p000249.
+  minor_findings_recorded_only: [N1, N3]
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +80,17 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000250
+
+  fix_report:
+    state: done
+    translator_session_id: 01a132f7-b406-7a51-92ff-9f275cbddaac
+    findings_resolved_by_translator: [M1]
+    validator: pass
+    diff_check: pass
+    out_of_scope_review_note: p000221 outside b19 range; not edited
+  signoff_report: reviews/prose/vol-02/ch-04-b19-fixes-signoff-claude.md
+
+  signoff_report: reviews/prose/vol-02/ch-04-b19-fixes-signoff-claude.md
+  signoff_counts: {serious: 0, moderate: 0, minor: 6}
+  unresolved_serious: 0
+  unresolved_moderate: 0
