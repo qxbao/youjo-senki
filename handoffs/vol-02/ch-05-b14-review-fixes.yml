@@ -1,0 +1,60 @@
+task_id: vol-02-ch-05-b14-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b14
+review_report: reviews/prose/vol-02/ch-05-b14-codex.md
+translation: translations/vol-02/ch-05-b14.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b14-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000335
+- YS-LN02/Text/part0026.xhtml/p000337
+- YS-LN02/Text/part0026.xhtml/p000343
+- YS-LN02/Text/part0026.xhtml/p000350
+- YS-LN02/Text/part0026.xhtml/p000353
+- YS-LN02/Text/part0026.xhtml/p000356
+- YS-LN02/Text/part0026.xhtml/p000357
+review_findings:
+- id: R01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000337
+  related_segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000343
+  - YS-LN02/Text/part0026.xhtml/p000353
+  proposed_resolution: Use mình for Tanya's interior self-reference; preserve tôi in dialogue. This is provisional LN02 voice, not canon.
+- id: R02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000350
+  proposed_resolution: Remove the added claim that the raid makes victims die earlier; retain the limited claim about people who would die anyway.
+- id: R03
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000353
+  proposed_resolution: Improve wording for combat experience, unit casualty rate, and reinforcements being wounded gradually; add no quantities or rates.
+- id: R04
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000356
+  proposed_resolution: Include nên inside the emphasized clause according to markup.
+- id: R05
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000335
+  proposed_resolution: Restore Tanya's certainty about the difference after surviving two months; retain first person in dialogue.
+- id: R06
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000357
+  proposed_resolution: Clarify teaching how to write each letter step by step; preserve the following recognition of limited experience.
+coordinator_term_choices:
+- source_term: infant military careers
+  proposed_vi: mới chập chững vào đời binh nghiệp
+  alternative_vi: mới bắt đầu sự nghiệp quân ngũ
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000335]
+  rationale: Preserve the metaphor of inexperience and the speaker's dismissive tone; provisional.
+- source_term: field guns
+  proposed_vi: pháo dã chiến
+  alternative_vi: pháo chiến trường
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000356]
+  rationale: Maintain the distinction from heavy guns in context without adding technical attributes; provisional.
+allowlist:
+- translations/vol-02/ch-05-b14.jsonl
+- reviews/semantic/vol-02/ch-05-b14-self-check.md
+files_written: []
+commit: null
+status: ready
