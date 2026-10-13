@@ -1,0 +1,20 @@
+task_id: vol-02-ch-06-b21-review
+role: reviewer
+batch: vol-02-ch-06-b21
+translation: translations/vol-02/ch-06-b21.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b21-self-check.md
+source_package: work/vol-02/batches/ch-06-b21-source.jsonl
+source_package_sha256: 7cbc9cfc8f06bae5e818fddda061f1a6ca05b00c014e96bb6c75140fb8ad29e8
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter6_b21_translator_proposals
+review_flags: [new_pending_terms, meaning_ambiguity]
+translator_note:
+- p000671 has an ambiguity about which subject the group of 48 can handle; assess whether the current literal rendering preserves it.
+- p000667 emphasis follows the source connector span; verify exact span.
+constraints:
+- Independently review only the assigned b21 package, translation, self-check, primary b21 handoff, this handoff, named canon and b21 ledger section.
+- Do not open EPUB/PDF or another source package; do not quote source sentences.
+- Report findings by stable ID with severity, evidence, resolution and alternatives. Choose provisional recommendations for pending terms; no canon promotion.
+- Write only reviews/prose/vol-02/ch-06-b21-codex.md.
+report_path: reviews/prose/vol-02/ch-06-b21-codex.md
+status: ready

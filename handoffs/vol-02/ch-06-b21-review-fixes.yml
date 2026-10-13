@@ -1,0 +1,91 @@
+task_id: vol-02-ch-06-b21-review-fixes
+role: translator
+batch: vol-02-ch-06-b21
+translation: translations/vol-02/ch-06-b21.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b21-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b21-codex.md
+source_package: work/vol-02/batches/ch-06-b21-source.jsonl
+source_package_sha256: 7cbc9cfc8f06bae5e818fddda061f1a6ca05b00c014e96bb6c75140fb8ad29e8
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter6_b21_translator_proposals
+- chapter6_b21_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 6
+  minor: 4
+  unresolved: 10
+findings:
+- id: B21-R01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000644
+  resolution: Replace the current wording about being out of fashion with a rendering
+    meaning insensitive to the situation or a badly chosen meal.
+- id: B21-R02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000644
+  - YS-LN02/Text/part0030.xhtml/p000645
+  - YS-LN02/Text/part0030.xhtml/p000646
+  resolution: Restore emphasis over the complete source spans in p644 and p645. In
+    p646 restore both spans, leave the dish name outside emphasis and keep the meat
+    meaning inside as reordered.
+- id: B21-R03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000646
+  resolution: Preserve the counterfactual about the meal just eaten, combined with
+    R02 emphasis.
+- id: B21-R04
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000651
+  resolution: Keep the direct argument scoped to trained mages falling on the battlefield;
+    do not broaden it to all soldiers.
+- id: B21-R05
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000652
+  resolution: Render continued stationing at the front until recently; do not turn
+    it into a deployment event two days ago. Preserve the weapons asymmetry hypothetical.
+- id: B21-R06
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000654
+  resolution: Restore past counterfactual uncertainty about Einsteins military ability;
+    use wording equivalent to may not have been good at being a soldier.
+- id: B21-R07
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000655
+  resolution: Replace wording that suggests ordinal line with wording that places
+    Nobel at the front line.
+- id: B21-R08
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000659
+  resolution: Remove repeated waste wording; prefer the concise rendering recommended
+    in review.
+- id: B21-R09
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000667
+  resolution: Remove the unsupported quantity many; retain emphasis only on and.
+- id: B21-R10
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000671
+  resolution: Use the temporary rendering recommended in review for manageable prisoners
+    and people captured as information sources. Preserve ambiguity; do not infer total
+    unit strength or capture policy.
+term_choices: Apply reviewer recommendations in chapter6_b21_review_recommendations
+  locally and consistently; all remain pending/non-canon.
+constraints:
+- Use only assigned b21 package, translation, self-check, reports/handoffs, named
+  canon and b21 ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-06-b21.jsonl and reviews/semantic/vol-02/ch-06-b21-self-check.md.
+  No handoff, ledger, canon, run-state edits or commit.
+- Run python3 tools/validate_translation.py with primary b21 handoff/package and git
+  diff --check.
+status: ready
