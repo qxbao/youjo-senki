@@ -1,0 +1,68 @@
+task_id: vol-02-ch-06-b02-review-fixes
+batch: vol-02-ch-06-b02
+review_report: reviews/prose/vol-02/ch-06-b02-codex.md
+translation: translations/vol-02/ch-06-b02.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b02-self-check.md
+source_package: work/vol-02/batches/ch-06-b02-source.jsonl
+source_package_sha256: 257ce85587df6c83d5c436d6bef806e1e8141f11a0e6f8e4489f0eda6e168a18
+status: done
+review_counts:
+  serious: 0
+  moderate: 5
+  minor: 2
+findings_to_resolve:
+- id: B02-M01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000040
+  resolution: Italicize the complete warning dialogue per source/DEC-P01-002, including quotation marks; no extra
+    emphasis.
+- id: B02-M02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000043
+  resolution: Replace ambiguous “Họ” with “Phía Cộng hòa”; do not name an agency/person.
+- id: B02-M03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000049
+  - YS-LN02/Text/part0030.xhtml/p000050
+  resolution: Render the denial as no person being detained, not merely no military POW; align p000050 and do not
+    add legal interpretation.
+- id: B02-M04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000057
+  resolution: Replace unsupported “Tập đoàn quân” with provisional “Quân đội Khu vực phía Tây”.
+- id: B02-M05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000060
+  resolution: Say the revolt divided western Imperial Army rear areas from the front line; do not reduce to communications
+    or assert supply lines destroyed.
+- id: B02-L01
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000054
+  resolution: Use natural guest-introduction phrasing without adding “today”.
+- id: B02-L02
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000056
+  resolution: Keep spoken register but repair the awkward phrase; preserve italics and continued quotation.
+coordinator_term_choices: Apply chapter6_b02_coordinator_choices in pending ledger; all remain provisional/non-canon.
+constraints:
+- Use only assigned local package; do not inspect EPUB/PDF or other source packages.
+- Edit only b02 translation and semantic self-check.
+- Do not edit handoffs, ledger, prose reports, canon, or checkpoint.
+- Run configured validator and git diff --check.
+- Do not commit or dispatch another worker.
+files_written:
+- translations/vol-02/ch-06-b02.jsonl
+- reviews/semantic/vol-02/ch-06-b02-self-check.md
+translator_session_id: 01a13602-cba4-7931-b46c-a0042cd7463b
+validator: pass
+diff_check: pass
+findings_resolved:
+- B02-M01
+- B02-M02
+- B02-M03
+- B02-M04
+- B02-M05
+- B02-L01
+- B02-L02
+pending_terms_count: 5
