@@ -1,0 +1,28 @@
+task_id: vol-02-ch-06-b15-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b15
+translation: translations/vol-02/ch-06-b15.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b15-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b15-codex.md
+source_package: work/vol-02/batches/ch-06-b15-source.jsonl
+source_package_sha256: 6aa446a5ca911955f226bd56f344b3066c3adfd28b77dd2b07ffd4a1bcb87cdd
+review_counts: {serious: 0, moderate: 4, minor: 5, unresolved: 9}
+findings:
+- {"id": "B15-F01", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000451", "resolution": "Replace the defensive-line wording with “rút khỏi các tuyến”; do not infer a defensive purpose."}
+- {"id": "B15-F02", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000453", "resolution": "Clarify the adjutant belongs to Vianto: “nhưng sĩ quan phụ tá của Vianto không nói điều vô lý”; after reference is clear, “phụ tá của anh” is acceptable."}
+- {"id": "B15-F03", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000456", "resolution": "Use “cả một tiểu đoàn tăng cường” and “thì rõ ràng kẻ địch rất quyết tâm”; preserve the sudden confrontation condition and company/battalion scale."}
+- {"id": "B15-F04", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000458", "resolution": "Use reviewer proposal “quân ta hẳn sẽ có thể chọc thủng các vị trí phòng thủ của chúng khi nguồn tiếp tế bị cắt, anh nghĩ sao?”; preserve counterattack → pressure reduction → supply cutoff condition."}
+- {"id": "B15-F05", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000460", "resolution": "Use “đã gặp dân quân du kích” (or “đã hội hợp…”); change “Họ sẽ có” to “Quân mặt đất ấy sẽ có” to distinguish sides."}
+- {"id": "B15-F06", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000464", "resolution": "Use “Dù thế nào đi nữa, làm lính cũng thật tồi tệ.”"}
+- {"id": "B15-F07", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000474", "resolution": "Use “hỏa lực tầm xa được kiểm soát chặt chẽ mà Lục quân Cộng hòa rất tự hào”; preserve feigned complaint, evasive tone, and pronoun “nó”."}
+- {"id": "B15-F08", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000476", "resolution": "Replace “né chúng khá quyết liệt” with “Dù vậy, mình vẫn khá nghiêm túc trong việc né tránh chúng” or “mình vẫn phải né chúng thật cẩn thận”."}
+- {"id": "B15-F09", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000478", "resolution": "Use “cũng như khó lòng trăm trận trăm thắng”; consider “đột phá mà không bị tổn hại” for intact/unharmed sense."}
+
+term_choices: handoffs/vol-02/ch-06-b15-review.yml and work/run-state/pending-terms.yml chapter6_b15_review_recommendations; apply consistently as pending/non-canon.
+self_check: Update risk/issues and terminology so they match current translation; no source prose or claims about unsupported lore.
+constraints:
+- Read only assigned b15 package, b15 handoffs, review report, translation/self-check and named canon/pending inputs. Never open EPUB/PDF or any other package.
+- Write only translations/vol-02/ch-06-b15.jsonl and reviews/semantic/vol-02/ch-06-b15-self-check.md. Do not edit reports, handoffs, canon, ledger or run-state. No commit or dispatch.
+- Run python3 tools/validate_translation.py with primary b15 handoff/package and git diff --check.
+status: ready
