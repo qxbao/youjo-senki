@@ -1,0 +1,11 @@
+# Self-check — vol-02-ch-06-b10 review fixes
+
+- Phạm vi: 46 segment từ `YS-LN02/Text/part0030.xhtml/p000285` đến `p000330`; đối chiếu đúng package b10, SHA-256 `2aa9e83e70ceb04bd458066e5a6621374f1ff1c60bdaa2682b8a5bc56ac5199c`.
+- Đã giữ nguyên ID, thứ tự, metadata, ranh giới câu và số dòng. Không mở EPUB/PDF hoặc package khác.
+- Đã xử lý F01–F15: bỏ phần văn bản thường bị lặp đúng tại 15 ID; giữ nội tâm in nghiêng một lần và phần trần thuật hợp lệ theo sau, nhất là p000306 và p000316. Đã rà lại các chuỗi lặp sau sửa.
+- Đã xử lý F16–F20 theo phạm vi: dùng “nó” cho Tanya trong trần thuật tại p000289, p000299, p000306, p000308 và vế trần thuật p000316. Giữ nguyên lời thoại, lời đồn/nội tâm “cô ta” của tư lệnh và ranh giới trần thuật.
+- Đã xử lý F21–F23: p000295 là câu hỏi suy đoán về lời cảnh báo đầu hàng làm cớ biện minh; p000320 giữ phép so sánh “người lính như một cỗ máy chiến tranh này”; p000330 nêu rõ câu hỏi “không phải lo chuyện gì” và giữ phần tự kiềm chế.
+- Đã xử lý L01–L08: nhấn mạnh đúng phạm vi nguồn tại p000287/p000294; dùng “bị thương hoặc thiệt mạng” p000297; sửa p000303 thành hình ảnh số ít “một chú chim mách nhỏ”, giữ sắc thái nghe được lời đồn và câu đáp về thính giác ở p000304; “có dịp trổ sức” p000309; đổi riêng nội tâm tư lệnh sang “mình” p000312; “giật nảy người” p000326; “nguyên các khu phố” p000327.
+- Áp dụng lựa chọn coordinator tại b10 ở trạng thái pending/non-canon: “giới chỉ huy cấp cao” p000286/p000319, “cấp trên” p000294, “Tiểu đoàn Pháp sư Trên không số 203” p000293/p000295, “trường quân sự cao cấp” p000298/p000315, “cớ biện minh” p000295, “tư lệnh quân đoàn” p000285/p000326, “nó” tại các tham chiếu trần thuật được liệt kê, và “mình” cho nội tâm tư lệnh tại các vị trí đã nêu trong ledger.
+- Pending terms: các mục lựa chọn coordinator vừa liệt kê tiếp tục là đề xuất, không phải canon. Silver Wings Assault Badge cần giữ loại vật phẩm là Badge (“Huy hiệu Đột kích Cánh bạc”, đề xuất pending/non-canon); thuật ngữ này không xuất hiện trong 46 segment b10 nên không sửa ngoài phạm vi.
+- Tự kiểm ý nghĩa: các điều kiện và suy đoán vẫn có dấu hiệu ngôn ngữ phù hợp; không thêm phương thức ném bom ở p000265; các câu hỏi không bị biến thành ý định chắc chắn; phân biệt thoại, nội tâm tư lệnh và lời người kể được giữ. Các lựa chọn thuật ngữ/đại từ vẫn cần reviewer signoff.
