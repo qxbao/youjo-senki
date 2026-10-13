@@ -1,0 +1,78 @@
+task_id: vol-02-ch-06-b08-review-fixes
+batch: vol-02-ch-06-b08
+review_report: reviews/prose/vol-02/ch-06-b08-codex.md
+translation: translations/vol-02/ch-06-b08.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b08-self-check.md
+source_package: work/vol-02/batches/ch-06-b08-source.jsonl
+source_package_sha256: 6e96135ab00ea6d1f8262ab5a89b7e4365ac618fb8e32f21112226ad7b7e68dd
+status: done
+review_counts:
+  serious: 0
+  moderate: 6
+  minor: 2
+findings_to_resolve:
+- id: B08-M01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000232
+  resolution: Restore emphasis to only “ai cũng”; do not italicize whole sentence/paragraph.
+- id: B08-M02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000238
+  resolution: Emphasize “như thế nào” only; preserve the tentative preceding clause.
+- id: B08-M03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000242
+  resolution: 'Restore two exact em ranges: full hypothetical Warsaw thought beginning “Nhưng nếu...” through its
+    end, and final total-war thought; add “Nhưng” as contrast; do not italicize surrounding narration. Use “mình”
+    in internal self-references as provisional.'
+- id: B08-M04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000245
+  resolution: Render ruler-of-civilization metaphor provisionally as “thứ chi phối nền văn minh”; improve sentence
+    end so learning law is the joy; use “mình” for internal self-reference.
+- id: B08-M05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000249
+  resolution: Make the army the object being equipped with weapons, preserving the island example and ironic legal
+    reasoning.
+- id: B08-M06
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000256
+  resolution: Use broad “nơi trú ẩn”, not a specific bunker; keep evacuation and retreat condition.
+- id: B08-L01
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000236
+  resolution: Naturalize qualification about intellectual education; preserve skeptical tone.
+- id: B08-L02
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000249
+  resolution: Apply provisional “thị trường vận hành hợp lý”; render legal opportunists naturally, moderate profanity
+    as specified by review.
+coordinator_choices: Apply chapter6_b08_coordinator_choices in pending ledger, provisional/non-canon.
+constraints:
+- Use only assigned b08 local package; no EPUB/PDF or other packages.
+- Edit only translation and semantic self-check.
+- Restore the four emphasis spans in M01–M03 exactly. Do not add emphasis at M04 (p000245); its XHTML has no em
+  span.
+- Apply Tanya internal “mình” only at p242/p245; do not change narrator/dialogue elsewhere.
+- Do not modify handoffs, ledger, prose review, canon or checkpoint.
+- Run validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b08.jsonl
+- reviews/semantic/vol-02/ch-06-b08-self-check.md
+translator_session_id: 01a1364b-bd42-73a2-a5fa-b06b5fc23bbf
+validator: pass
+diff_check: pass
+findings_resolved:
+- B08-M01
+- B08-M02
+- B08-M03
+- B08-M04
+- B08-M05
+- B08-M06
+- B08-L01
+- B08-L02
+pending_terms_count: 4
+post_signoff_handoff_correction: Constraint about M04 emphasis corrected by coordinator after final signoff; package
+  shows no em at p000245; translation unchanged.
