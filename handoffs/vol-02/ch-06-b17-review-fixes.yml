@@ -1,0 +1,32 @@
+task_id: vol-02-ch-06-b17-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b17
+translation: translations/vol-02/ch-06-b17.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b17-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b17-codex.md
+source_package: work/vol-02/batches/ch-06-b17-source.jsonl
+source_package_sha256: 3d43967ca2b146408635d3eac527634fc11cb8f20212f5baf6c97505141df8ed
+review_counts: {serious: 0, moderate: 7, minor: 6, unresolved: 13}
+findings:
+- {"id": "B17-F01", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000510"], "resolution": "Use “Theo pháp luật hiện đại, đó là hành vi không hành động”; preserve following reporting-duty sentence; do not name a crime or assert a current-world statute."}
+- {"id": "B17-F02", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000510", "YS-LN02/Text/part0030.xhtml/p000515", "YS-LN02/Text/part0030.xhtml/p000516", "YS-LN02/Text/part0030.xhtml/p000521", "YS-LN02/Text/part0030.xhtml/p000543", "YS-LN02/Text/part0030.xhtml/p000551"], "resolution": "Use “mình” consistently for Tanya’s inner self-reference; keep “tôi” in the spoken apology at p000514, “chúng ta” for shared duty, and họ/chúng for the opponent."}
+- {"id": "B17-F03", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000516"], "resolution": "Restore emphasis around the shout in the rendered translation using *...*; update self-check. Do not substitute quotation marks for emphasis."}
+- {"id": "B17-F04", "severity": "minor", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000519"], "resolution": "Use “Không sao. Bản tính như vậy thì cũng khó làm khác được. Được rồi, Trung úy König, tiếp nhận quyền chỉ huy của Trung úy Weiss.” Remove unsupported intimacy and preserve inevitability."}
+- {"id": "B17-F05", "severity": "minor", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000521"], "resolution": "Use “mình quyết định sắp xếp lại hệ thống chỉ huy”; avoid implying unauthorized action."}
+- {"id": "B17-F06", "severity": "minor", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000528", "YS-LN02/Text/part0030.xhtml/p000529"], "resolution": "At p000528 state Tanya’s force pushed enemy mages from attack-capable areas at the city edge; p000529 use “lực lượng ấy” for the same actor if needed. Do not recast as killing or rescue."}
+- {"id": "B17-F07", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000532"], "resolution": "Use “…Chắc chứ ạ?” or “…Chỉ huy chắc chứ ạ?”; preserve hesitation and subordinate-to-commander relation without gender/age inference."}
+- {"id": "B17-F08", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000533"], "resolution": "Use “giai đoạn truy quét”; do not convert tactical mopping up to physical cleanup or add “tàn quân” without evidence."}
+- {"id": "B17-F09", "severity": "minor", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000539"], "resolution": "Use “tất cả đều đủ chín chắn để giữ những lời ấy trong lòng”; optionally make “dù tốt hay xấu” natural while preserving scope."}
+- {"id": "B17-F10", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000542"], "resolution": "Use “đợt oanh kích sẽ kết thúc mọi chuyện” or “đợt bắn phá”; preserve surrender/non-surrender condition without narrowing to artillery."}
+- {"id": "B17-F11", "severity": "minor", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000546"], "resolution": "Use “Đại đội 2, đảm nhiệm yểm trợ trực tiếp.” Omit unsupported gender and recipient."}
+- {"id": "B17-F12", "severity": "minor", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000547"], "resolution": "Use “Nếu họ hành xử hợp lý thì vẫn có chút khả năng họ sẽ chọn đầu hàng.” Preserve hypothetical trial and self-justifying purpose."}
+- {"id": "B17-F13", "severity": "moderate", "segment_ids": ["YS-LN02/Text/part0030.xhtml/p000551"], "resolution": "Use “giới chỉ huy cấp cao” and “chừa phương án cho cả khả năng họ đầu hàng”; do not add detention, logistics, or legal responsibility."}
+
+term_choices: handoffs/vol-02/ch-06-b17-review.yml plus ledger chapter6_b17_review_recommendations; all seven term and five local choices remain pending/non-canon.
+self_check: Update all 13 findings and pronoun/emphasis notes to match final b17. Do not include source prose.
+constraints:
+- Use only assigned b17 package, handoffs, report, translation/self-check, b17 pending ledger section and named canon inputs. Never open EPUB/PDF or another package.
+- Write only translations/vol-02/ch-06-b17.jsonl and reviews/semantic/vol-02/ch-06-b17-self-check.md. Do not change prose reports, handoffs, canon, ledger or run-state. No commit/dispatch.
+- Run python3 tools/validate_translation.py with primary b17 handoff/package and git diff --check.
+status: ready

@@ -1,0 +1,17 @@
+task_id: vol-02-ch-06-b17-review-report-format-fix
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b17
+reports:
+  - reviews/prose/vol-02/ch-06-b17-codex.md
+  - reviews/prose/vol-02/ch-06-b17-final-signoff-codex.md
+change: >-
+  Remove only the extra trailing blank line at EOF from each listed reviewer report,
+  preserving all preceding bytes and exactly one final newline. This corrects the
+  findings from git diff --cached --check.
+constraints:
+- Reviewer may edit only the two listed reviews/prose files.
+- Do not alter any report content except the extra blank line at EOF.
+- Do not read source packages or source text.
+- Return YAML confirming byte preservation before the trailing blank line, files_written, risks: [], commit: null.
+status: ready

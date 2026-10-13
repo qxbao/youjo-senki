@@ -1,0 +1,29 @@
+task_id: vol-02-ch-06-b17-final-signoff-followup
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b17
+translation: translations/vol-02/ch-06-b17.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b17-self-check.md
+initial_review: reviews/prose/vol-02/ch-06-b17-codex.md
+prior_signoff: reviews/prose/vol-02/ch-06-b17-final-signoff-codex.md
+fix_handoff: handoffs/vol-02/ch-06-b17-final-signoff-fixes.yml
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter6_b17_review_recommendations
+source_package: work/vol-02/batches/ch-06-b17-source.jsonl
+source_package_sha256: 3d43967ca2b146408635d3eac527634fc11cb8f20212f5baf6c97505141df8ed
+verify:
+- B17-F02 is resolved at p000521 and p000525 using “chúng ta” for shared inner thought, while p000514 spoken “tôi” remains.
+- All seven term and five local recommendation entries exist under the named ledger key, are applied/pending/non-canon, and all other 12 findings remain closed.
+- Do not open EPUB/PDF or other packages; no source quotations.
+- Write only reviews/prose/vol-02/ch-06-b17-final-signoff-followup-codex.md.
+status: ready
+
+latest_fix:
+  handoff: handoffs/vol-02/ch-06-b17-final-signoff-fixes.yml
+  report: translator fix report in Herdr session for the same b17 task
+  segment_ids: [YS-LN02/Text/part0030.xhtml/p000521, YS-LN02/Text/part0030.xhtml/p000525]
+  verify: shared-mission inner thought uses “chúng ta”; spoken apology p000514 still uses “tôi”.
+  ledger: chapter6_b17_review_recommendations contains seven term groups and five local recommendations under the named top-level key.
+
+report_path: reviews/prose/vol-02/ch-06-b17-final-signoff-followup-codex.md
+status: ready

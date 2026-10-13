@@ -1,0 +1,22 @@
+task_id: vol-02-ch-06-b17-final-signoff-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b17
+translation: translations/vol-02/ch-06-b17.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b17-self-check.md
+prior_signoff: reviews/prose/vol-02/ch-06-b17-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-06-b17-source.jsonl
+source_package_sha256: 3d43967ca2b146408635d3eac527634fc11cb8f20212f5baf6c97505141df8ed
+finding: B17-F02
+segment_ids: [YS-LN02/Text/part0030.xhtml/p000521, YS-LN02/Text/part0030.xhtml/p000525]
+resolution: >-
+  In both inner-thought references to the shared mission, change “chúng tôi”
+  to “chúng ta” to match the reviewer’s provisional choice. Keep “tôi” in the
+  spoken apology at p000514 and preserve the reviewed pronouns elsewhere. Update
+  the self-check. No other translation or emphasis changes.
+constraints:
+- Use only assigned b17 package, primary handoff, translation, self-check and signoff report. No EPUB/PDF or other package.
+- Write only translations/vol-02/ch-06-b17.jsonl and reviews/semantic/vol-02/ch-06-b17-self-check.md.
+- Do not edit prose reports, handoffs, canon, ledger or run-state; no commit/dispatch.
+- Run python3 tools/validate_translation.py with primary b17 handoff/package and git diff --check.
+status: ready
