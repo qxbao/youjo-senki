@@ -43,3 +43,66 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0026.xhtml/p000284
+coordinator_followup:
+  status: provisional_non_canon
+  review_required_due_to_risk_flags:
+  - meaning
+  - new_pending_terms
+  - emphasis
+  review_report: reviews/prose/vol-02/ch-05-b11-codex.md
+  provisional_terms:
+  - 'instructor unit: đơn vị huấn luyện'
+  - 'suppressive shellfire: pháo kích áp chế'
+  - 'firing line: tuyến hỏa lực'
+  - 'break the newbies in: giúp lính mới làm quen với công việc'
+  term_ledger: work/run-state/pending-terms.yml
+  translator_followup:
+    task_id: vol-02-ch-05-b11-review-fixes
+    session_id: 01a13414-faa7-7f51-9309-ade99eb2b3a7
+    status: done
+    resolved_findings:
+    - B11-P01
+    - B11-P02
+    - B11-P03
+    - B11-P04
+    - B11-P05
+    checked_source_risks:
+    - B11-U01
+    - B11-U02
+    - B11-U03
+    - B11-U04
+    - B11-U05
+    - B11-U06
+    validator: pass
+    diff_check: pass
+    signoff_report: reviews/prose/vol-02/ch-05-b11-fixes-signoff-codex.md
+  p01_resolution:
+    session_id: 01a1341a-a126-7002-bebd-b5154221d074
+    status: translator source-checked
+    segment_id: YS-LN02/Text/part0026.xhtml/p000270
+    disposition: anticipatory duty phrasing; formal issuance remains distinct in p000275-p000279
+    remaining_uncertainty: force/referent of order remains somewhat ambiguous
+    validator: pass
+    diff_check: pass
+  signoff:
+    report: reviews/prose/vol-02/ch-05-b11-final-signoff-codex.md
+    reviewer: codex-personal
+    model: gpt-6.1-sol
+    effort: medium
+    pane_id: w6:pD9
+    terminal_id: term_65db38e5c83431ad
+    agent_session_id: 01a1341c-66ca-7403-a6a6-706f3ae11902
+    preflight_status: submitted_once_and_verified
+    status: approved
+    counts:
+      serious: 0
+      moderate: 0
+      minor: 0
+    closed_findings:
+    - B11-P01
+    - B11-P02
+    - B11-P03
+    - B11-P04
+    - B11-P05
+    unresolved_findings: []
+    terms_status: pending_provisional_non_canon
