@@ -1,0 +1,21 @@
+task_id: vol-02-ch-05-b17-review-fixes-final
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b17
+signoff_report: reviews/prose/vol-02/ch-05-b17-final-signoff-codex.md
+translation: translations/vol-02/ch-05-b17.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b17-self-check.md
+segment_ids: [YS-LN02/Text/part0026.xhtml/p000411]
+review_finding:
+  id: B17-F01-final
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000411
+  issue: First-person “Tôi” remains in narration after the dialogue, and the self-check incorrectly claims that all relevant narration uses mình.
+  proposed_resolution: Change only the narration to “Mình đã buột miệng nói ra nỗi lo”; preserve “tôi” in the preceding dialogue and the existing mình in the following interior self-reference.
+  self_check_resolution: Correct the self-check to distinguish the dialogue, narration, and interior self-reference at p000411 and truthfully reflect the saved translation.
+allowlist:
+- translations/vol-02/ch-05-b17.jsonl
+- reviews/semantic/vol-02/ch-05-b17-self-check.md
+files_written: []
+commit: null
+status: ready

@@ -1,0 +1,86 @@
+task_id: vol-02-ch-05-b17-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b17
+review_handoff: handoffs/vol-02/ch-05-b17-review-retry.yml
+review_report: reviews/prose/vol-02/ch-05-b17-review-retry-codex.md
+translation: translations/vol-02/ch-05-b17.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b17-self-check.md
+source_package: work/vol-02/batches/ch-05-b17-source.jsonl
+source_package_sha256: 49cb1e17ffcdf82a282925db8d25fd7927b4cb06ce9751bb6176b4f40402be6e
+review_findings:
+- id: B17-F01
+  severity: moderate
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000404, YS-LN02/Text/part0026.xhtml/p000411, YS-LN02/Text/part0026.xhtml/p000425]
+  proposed_resolution: Use mình for Tanya's interior self-reference at p404/p411 and provisionally p425; keep chúng ta for the collective and tôi in dialogue. Narration uses Tanya/repeated name/omitted subject or provisional nó.
+- id: B17-F02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000412
+  proposed_resolution: Italicize the entire hypothetical defensive statement to match its XHTML em span; quotation marks do not replace Markdown emphasis.
+- id: B17-F03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000414
+  proposed_resolution: Use Daigongen đáng kính, preserve Zusho, and add no age, kinship, biography, or lore.
+- id: B17-F04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000417
+  proposed_resolution: Use nhóm làm nhiệm vụ trinh sát chiến đấu or an equally neutral phrase; remove added depth/infiltration meaning.
+- id: B17-F05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000420
+  proposed_resolution: Use bị nổ tung dưới hỏa lực dồn dập đáp lại tín hiệu cầu cứu; add no weapon or firing party.
+- id: B17-F06
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000423
+  proposed_resolution: Restore Con người không thể thay thế; mỗi chúng ta đều độc nhất.
+- id: B17-F07
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000428
+  proposed_resolution: Use sĩ quan cấp úy Serebryakov as a neutral pending grade; do not infer a subgrade.
+- id: B17-F08
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000405
+  proposed_resolution: Preserve a natural invitation for the guard to come over; do not change this to bringing the guest to a room.
+- id: B17-F09
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000419
+  proposed_resolution: Smooth the mana-signal/flight-formula comparison without changing its relationship.
+- id: B17-F10
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000424
+  proposed_resolution: Render as ca tụng quỷ dữ như Chúa or equivalent; do not add theology or soften the image.
+out_of_scope_observation:
+  segment_id: YS-LN02/Text/part0026.xhtml/p000394
+  note: A blocked first review attempt incorrectly included this segment; it belongs to the previously completed b16 batch and is not part of this b17 handoff. Do not edit it here.
+coordinator_term_choices:
+- source_term: Lieutenant Serebryakov
+  proposed_vi: sĩ quan cấp úy Serebryakov
+  alternative_vi: Trung úy Serebryakov
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000428]
+  rationale: Correct segment mapping after finding the prior ledger entry reversed; this occurrence does not specify subgrade.
+- source_term: Major
+  proposed_vi: Thiếu tá
+  alternative_vi: Major
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000429]
+  rationale: Correct segment mapping and retain provisional rank choice.
+- source_term: venerable Daigongen
+  proposed_vi: Daigongen đáng kính
+  alternative_vi: Daigongen tôn kính
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000414]
+  rationale: Preserve the name and a neutral honorific without inferred age/kinship.
+- source_term: SOS fire
+  proposed_vi: hỏa lực đáp lại tín hiệu cầu cứu
+  alternative_vi: hỏa lực yểm trợ khẩn cấp
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000420]
+  rationale: Contextual temporary rendering; no weapon or firing party specified.
+- source_term: force recon
+  proposed_vi: nhóm làm nhiệm vụ trinh sát chiến đấu
+  alternative_vi: trinh sát chiến đấu
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000417]
+  rationale: Avoid extra depth or an official unit type.
+allowlist:
+- translations/vol-02/ch-05-b17.jsonl
+- reviews/semantic/vol-02/ch-05-b17-self-check.md
+files_written: [translations/vol-02/ch-05-b17.jsonl, reviews/semantic/vol-02/ch-05-b17-self-check.md]
+commit: null
+status: done

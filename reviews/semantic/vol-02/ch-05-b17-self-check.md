@@ -1,0 +1,7 @@
+# Self-check — vol-02-ch-05-b17
+
+- Đã giữ đủ 26 mã đoạn theo thứ tự p000404–p000429. Đã xử lý các finding B17-F01–F10: ngôi tự quy chiếu, nhấn mạnh p000412, Daigongen, nhiệm vụ trinh sát, hỏa lực cầu cứu, tiền đề không thể thay thế, ánh xạ cấp bậc p000428/p000429, lời mời ở p000405, câu mana ở p000419 và hình ảnh ca tụng ở p000424.
+- Tạm dùng “mình” cho tự quy chiếu nội tâm ở p000404, p000411 và p000425; tại p000411 giữ “Tôi” trong lời thoại, dùng “Mình” cho câu trần thuật “Mình đã buột miệng nói ra nỗi lo”, rồi giữ “mình” trong phần tự quy chiếu nội tâm. Giữ “tôi” trong lời thoại p000412 và “chúng ta” cho tập thể. Các lựa chọn này còn pending, không phải canon. p000425 được giữ “mình” theo điểm nhìn liên tục nhưng cách đọc vẫn bất định.
+- Trần thuật về Tanya dùng tên, chủ ngữ lược hoặc “mình” trong nội tâm; không dùng “cô” ngoài lời thoại. Ở p000414 giữ nguyên Daigongen và Zusho, với kính ngữ trung tính. p000417 dùng “nhóm làm nhiệm vụ trinh sát chiến đấu”; p000420 dùng “hỏa lực dồn dập đáp lại tín hiệu cầu cứu”, không xác định bên bắn hay vũ khí.
+- Dùng tạm “sĩ quan cấp úy Serebryakov” tại p000428 và “Thiếu tá” tại p000429 theo mapping ledger đã sửa; cả hai vẫn pending/non-canon.
+- Yêu cầu hiệu chỉnh về các đại đội trưởng cấp dưới chuẩn bị và tham khảo ý kiến tại p000394 không nằm trong source package hoặc translation batch này (phạm vi p000404–p000429), nên không có đoạn p000394 để xác minh hoặc sửa ở tác vụ này. Không suy rộng sang đoạn khác.
