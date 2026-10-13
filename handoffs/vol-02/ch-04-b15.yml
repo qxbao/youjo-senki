@@ -29,6 +29,39 @@ source_package: work/vol-02/batches/ch-04-b15-source.jsonl
 source_package_sha256: 6d159f1e3ffa2167225d1721f053f37596998e043329df3950c23885bcf883d0
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 806
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a132b0-1248-74a1-af3e-4d6809a39fae
+  segment_count: 30
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 4
+  files_written: [translations/vol-02/ch-04-b15.jsonl]
+review_coordination:
+  triggered_by: [new_pending_terms]
+  required: true
+  state: signoff_passed
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b15_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b15-claude.md
+  review_counts: {serious: 0, moderate: 3, minor: 4}
+  unresolved_moderate: [M1, M2, M3]
+  follow_up_owner: translator-ch04-b15-review-fixes
+  coordinator_proposals:
+    M1: >-
+      Use “thuật thức bắn tỉa” at p000127 and “thuật thức nổ mạnh” at p000133 and
+      p000140, matching the pending ledger and established formula root.
+    M2: Use “mìn sâu” at p000133 and p000134, matching the b10/b12 pending form.
+    M3: Restore source-matched italics at p000114 and p000123 per DEC-P01-002.
+    L1: Restore source italics for “Lytol” at p000118 and “Jawohl” at p000137.
+    L2: Use provisional “tôi” for the different first-person narrator at p000111-p000113; do not extend Tanya's “mình” choice.
+  minor_findings_recorded_only: [L3, L4]
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +76,15 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000141
+
+  fix_report:
+    state: done
+    translator_session_id: 01a132b4-9172-7452-959d-45925183c1d4
+    findings_resolved_by_translator: [M1, M2, M3]
+    validator: pass
+    diff_check: pass
+  signoff_report: reviews/prose/vol-02/ch-04-b15-fixes-signoff-claude.md
+
+  signoff_counts: {serious: 0, moderate: 0, minor: 3}
+  unresolved_serious: 0
+  unresolved_moderate: 0
