@@ -29,6 +29,59 @@ source_package: work/vol-02/batches/ch-04-b24-source.jsonl
 source_package_sha256: ada3d199c5478bc5db1db0cd8b33cae758ea2d5719ddd8533b0d61a8fa2a51d5
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 875
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13329-8014-7b12-a57b-525919faca9f
+  segment_count: 32
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 3
+  files_written: [translations/vol-02/ch-04-b24.jsonl]
+review_coordination:
+  triggered_by: [even_batch, new_pending_terms]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a1332c-7235-7b11-be00-888d54b806cb
+  review_counts: {serious: 0, moderate: 6, minor: 3}
+  unresolved_serious: []
+  initial_unresolved_moderate: [B24-R01, B24-R02, B24-R03, B24-R04, B24-R05, B24-R06]
+  unresolved_moderate: []
+  signoff_findings_pending: [B24-R01, B24-R02, B24-R03, B24-R04, B24-R05, B24-R06]
+  follow_up_owner: translator-ch04-b24-review-fixes
+  signoff_state: passed_assigned_fixes_only
+  signoff_session_id: 01a13332-a8c3-7ab0-bb9c-a9f07743ebd1
+  signoff_report: reviews/prose/vol-02/ch-04-b24-fixes-signoff-codex.md
+  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, deferred_minor: 3}
+  signoff_findings_resolved: [B24-R01, B24-R02, B24-R03, B24-R04, B24-R05, B24-R06]
+  signoff_findings_pending: []
+  minor_deferred: [B24-R07, B24-R08, B24-R09]
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b24_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b24-codex.md
+fix_report:
+  state: done
+  translator_session_id: 01a13330-bca3-7522-8370-59022658c020
+  findings_resolved: [B24-R01, B24-R02, B24-R03, B24-R04, B24-R05, B24-R06]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-04-b24.jsonl]
+  allowlist: [translations/vol-02/ch-04-b24.jsonl]
+  next_action: reviewer_signoff
+coordinator_provisional_choices:
+  status: pending_non_canon
+  entries:
+  - {finding: B24-R01, decision: use_narrative_no_and_interior_minh, segments: [p000388, p000399, p000411, p000412]}
+  - {finding: B24-R02, decision: restore_only_source_emphasis_boundaries, segments: [p000403]}
+  - {finding: B24-R03, decision: retain_unclassified_name_Rhine, segments: [p000397, p000400]}
+  - {finding: B24-R04, decision: use_luc_quan_for_branch_opposed_to_navy, segments: [p000407]}
+  - {finding: B24-R05, decision: use_doi_hinh_dot_kich_len_tau, segments: [p000411]}
+  - {finding: B24-R06, decision: neutral_question_without_live_ammunition_implication, segments: [p000412]}
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
