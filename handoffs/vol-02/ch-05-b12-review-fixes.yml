@@ -1,0 +1,61 @@
+task_id: vol-02-ch-05-b12-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b12
+review_report: reviews/prose/vol-02/ch-05-b12-codex.md
+translation: translations/vol-02/ch-05-b12.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b12-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000286
+- YS-LN02/Text/part0026.xhtml/p000288
+- YS-LN02/Text/part0026.xhtml/p000289
+- YS-LN02/Text/part0026.xhtml/p000290
+- YS-LN02/Text/part0026.xhtml/p000292
+- YS-LN02/Text/part0026.xhtml/p000293
+- YS-LN02/Text/part0026.xhtml/p000294
+- YS-LN02/Text/part0026.xhtml/p000296
+- YS-LN02/Text/part0026.xhtml/p000310
+- YS-LN02/Text/part0026.xhtml/p000312
+review_findings:
+- id: F01
+  severity: serious
+  segment_id: YS-LN02/Text/part0026.xhtml/p000296
+  proposed_resolution: Restore actual personnel outcomes (promotion after death or transfer/rear assignment); remove added worry framing.
+- id: F02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000286
+  related_segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000288
+  - YS-LN02/Text/part0026.xhtml/p000289
+  - YS-LN02/Text/part0026.xhtml/p000294
+  proposed_resolution: Use mình for interior reference; provisionally use nó, repeat Tanya, or omit subject in narration consistently with pending LN02 proposal. This is not canon.
+- id: F03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000292
+  proposed_resolution: Replace Cục Nghiên cứu Kỹ thuật with bộ phận nghiên cứu kỹ thuật; retain Nghiên cứu Kỹ thuật as alternative. Do not infer organizational level.
+- id: F04
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000290
+  proposed_resolution: Use nguyên liệu cho cối xay thịt, avoiding the mixed target/meat-grinder image.
+- id: F05
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000294
+  proposed_resolution: Restore declarative causal conclusion; remove rhetorical-question framing.
+- id: F06
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000293
+  proposed_resolution: Preserve figurative comparison marker for cemetery image; avoid asserting it as a more exact correction.
+- id: F07
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000310
+  proposed_resolution: Separate very low manufacturing cost from suitability for mass production.
+- id: F08
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000312
+  proposed_resolution: Keep stealthy killing distinct from concealing tracks/identity; do not add post-action concealment.
+allowlist:
+- translations/vol-02/ch-05-b12.jsonl
+- reviews/semantic/vol-02/ch-05-b12-self-check.md
+files_written: []
+commit: null
+status: ready
