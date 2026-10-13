@@ -29,6 +29,32 @@ source_package: work/vol-02/batches/ch-04-b17-source.jsonl
 source_package_sha256: 964c987073ddd4b72e41793ac7a628d988f7d241e9ac021e12deb090a210bcda
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 821
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a132df-e81c-78a1-9177-e912729d19e5
+  segment_count: 26
+  validator: pass
+  diff_check: pass
+  findings: [2 low terminology notes]
+  pending_term_count: 2
+  files_written: [translations/vol-02/ch-04-b17.jsonl]
+review_coordination:
+  triggered_by: [risk_flags]
+  required: false
+  state: signoff_passed
+  review_counts: {serious: 0, moderate: 1, minor: 9}
+  unresolved_moderate: [V1]
+  follow_up_owner: translator-ch04-b17-review-fixes
+  coordinator_proposal: >-
+    Use “ông” consistently for the captain at p000175-p000180; explicitly identify the first officer at p000182 to avoid confusing him with the captain. Keep this provisional.
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b17_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b17-claude.md
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +69,18 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000199
+
+  signoff_report: reviews/prose/vol-02/ch-04-b17-fixes-signoff-claude.md
+
+  fix_report:
+    state: done
+    translator_session_id: 01a132e4-ad0d-76a1-a3c7-ffd094fc312c
+    findings_resolved_by_translator: [V1]
+    validator: pass
+    diff_check: pass
+  signoff_report: reviews/prose/vol-02/ch-04-b17-fixes-signoff-claude.md
+
+  signoff_report: reviews/prose/vol-02/ch-04-b17-fixes-signoff-claude.md
+  signoff_counts: {serious: 0, moderate: 0, minor: 9}
+  unresolved_serious: 0
+  unresolved_moderate: 0
