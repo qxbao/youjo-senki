@@ -1,0 +1,25 @@
+task_id: vol-02-ch-06-b19-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b19
+translation: translations/vol-02/ch-06-b19.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b19-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b19-codex.md
+source_package: work/vol-02/batches/ch-06-b19-source.jsonl
+source_package_sha256: 723e1690b28ab3388f722f722362dcf76c7f2498ed788d89d6cb911f1f7151ea
+review_counts: {serious: 0, moderate: 3, minor: 3, unresolved: 6}
+findings:
+- {"id": "B19-M01", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000587", "resolution": "Use only the assigned p000587 evidence. Retain the concept-level rendering “xét về mặt khái niệm”; discard the unsupported legal-regime and reporting-duty language from the earlier recommendation because neither appears in this segment. Do not add a legal claim."}
+- {"id": "B19-M02", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000587", "resolution": "Use “thân thể và thi thể của những nhân viên quân đội được tìm lại” to preserve both categories and avoid deciding whether all were alive/dead, rescued or merely found. Do not add soldiers or legal status."}
+- {"id": "B19-M03", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000604", "resolution": "Replace “vẫn chưa thể yên lòng” with “vẫn chưa thể hài lòng” or “vẫn chưa thỏa mãn”; do not add a reason for the commanders’ dissatisfaction."}
+- {"id": "B19-L01", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000585", "resolution": "Use “Tanya” in place of “cô ta” to keep the subject clear without adding attitude; local “cô” remains a pending alternative if consistent with b19."}
+- {"id": "B19-L02", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000602", "resolution": "Replace “Xin tọa độ mục tiêu” with “Xin thông tin mục tiêu” or “Xin chỉ định mục tiêu”; do not invent coordinate data or radio protocol."}
+- {"id": "B19-L03", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000600", "resolution": "Use “Thiếu tá von Degurechaff, chỉ huy tiểu đoàn” (or “chỉ huy tiểu đoàn, Thiếu tá von Degurechaff”) and adjust possessive syntax; retain both rank and role."}
+
+term_choices: handoffs/vol-02/ch-06-b19-review.yml plus ledger chapter6_b19_translator_proposals and chapter6_b19_review_recommendations; all applicable term/name/pronoun choices remain pending/non-canon. The B19-M01 legal wording is superseded by the package-scoped resolution above and is not a terminology choice.
+self_check_instruction: Update b19 meaning/pronoun concerns and all recommendations to match final translation; no source prose.
+constraints:
+- Use only assigned b19 package, handoffs, review report, translation/self-check, named canon and b19 pending ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-06-b19.jsonl and reviews/semantic/vol-02/ch-06-b19-self-check.md. No reports, handoffs, canon, ledger or run-state edits. No commit/dispatch.
+- Run python3 tools/validate_translation.py with primary b19 handoff/package and git diff --check.
+status: ready
