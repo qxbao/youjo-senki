@@ -1,0 +1,249 @@
+task_id: vol-02-ch-05-b18-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b18
+review_handoff: handoffs/vol-02/ch-05-b18-review-retry.yml
+review_report: reviews/prose/vol-02/ch-05-b18-review-retry-codex.md
+translation: translations/vol-02/ch-05-b18.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b18-self-check.md
+source_package: work/vol-02/batches/ch-05-b18-source.jsonl
+source_package_sha256: f32e7fecfce1d77df1322681680ba6cca9c96eeefc28b1ecc4a14b41ba92674c
+review_findings:
+- id: B18R-F01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000438
+  related_segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000438
+  proposed_resolution: Change Tanya interior self-reference tôi to mình; keep tôi
+    in dialogue and do not apply Tanya pronouns to Grantz.
+- id: B18R-F02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000443
+  - YS-LN02/Text/part0026.xhtml/p000451
+  - YS-LN02/Text/part0026.xhtml/p000454
+  - YS-LN02/Text/part0026.xhtml/p000458
+  - YS-LN02/Text/part0026.xhtml/p000461
+  - YS-LN02/Text/part0026.xhtml/p000462
+  proposed_resolution: Restore exactly the six source emphasis spans specified in
+    the review report; do not extend emphasis beyond XHTML spans.
+- id: B18R-F03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000431
+  - YS-LN02/Text/part0026.xhtml/p000440
+  proposed_resolution: Use the reviewer temporary wording Cô với tôi... at p431 and
+    sĩ quan cấp úy Serebryakov at p440. Do not infer promotion/demotion. Keep thiếu
+    úy ma pháp at p444 where Second is explicit.
+- id: B18R-F04
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000456
+  - YS-LN02/Text/part0026.xhtml/p000463
+  proposed_resolution: Use Tiểu đoàn Pháp sư Xung kích Trên không số 203 at p456 and
+    Tiểu đoàn Pháp sư Trên không số 203 at p463. Do not imply Air Force affiliation
+    or add Xung kích to the short name.
+- id: B18R-F05
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000460
+  proposed_resolution: Use the relative judgment ít đáng lo hơn; remove thường and
+    phe, retain uncertainty, and add no disobedience or certainty.
+- id: B18R-F06
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000440
+  proposed_resolution: Express growing from the ranks, not simply promotion across
+    grades. Preserve conjecture and add no service history.
+- id: B18R-F07
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000451
+  proposed_resolution: Use học viên thuộc lớp thứ hai as a literal, low-confidence
+    label; do not infer academic year or ability rank.
+- id: B18R-F08
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000453
+  proposed_resolution: Use trước khi được phân công; do not name a destination unit
+    or tactical assignment.
+- id: B18R-F09
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000431
+  - YS-LN02/Text/part0026.xhtml/p000440
+  - YS-LN02/Text/part0026.xhtml/p000446
+  - YS-LN02/Text/part0026.xhtml/p000447
+  proposed_resolution: Remove added river meaning; use mặt trận Rhine for military
+    front contexts and khu vực Rhine at p447.
+- id: B18R-F10
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000452
+  proposed_resolution: Use đơn vị huấn luyện or established variant đơn vị phụ trách
+    huấn luyện.
+- id: B18R-F11
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000450
+  proposed_resolution: Use những người lính lâu năm or lính kỳ cựu; retain the three
+    pastimes.
+- id: B18R-F12
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000458
+  proposed_resolution: 'Restore ironic contrast: the trainer also serves as Grantz
+    advisor; keep the claim hypothetical, not established fact.'
+- id: B18R-F13
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000445
+  proposed_resolution: 'Make the sentence idiomatic: food eases hunger and is not
+    too hard to eat; do not imply good taste or end discouragement.'
+- id: B18R-F14
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000444
+  proposed_resolution: Restore cuối cùng cũng in the newly commissioned officer phrase;
+    add no age or training duration.
+coordinator_term_choices:
+- source_term: mana signal
+  proposed_vi: tín hiệu mana
+  alternative_vi: dấu hiệu mana
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000430
+  rationale: Keep existing provisional term; do not conflate with SOS fire.
+- source_term: Lieutenant Serebryakov
+  proposed_vi: Cô with tôi in dialogue; sĩ quan cấp úy Serebryakov at p440
+  alternative_vi: Trung úy Serebryakov
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000431
+  - YS-LN02/Text/part0026.xhtml/p000440
+  rationale: Neutral grade where the package does not distinguish subgrade; dialogue
+    choice remains provisional.
+- source_term: Magic Second Lieutenant
+  proposed_vi: thiếu úy ma pháp
+  alternative_vi: thiếu úy pháp sư
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000444
+  rationale: Second is explicit; retain provisional mapping.
+- source_term: Major von Degurechaff
+  proposed_vi: Thiếu tá von Degurechaff
+  alternative_vi: Major von Degurechaff
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000432
+  - YS-LN02/Text/part0026.xhtml/p000456
+  rationale: Apply temporary Major mapping; do not add Magic where absent.
+- source_term: 203rd Aerial Mage Assault Battalion / 203rd Aerial Mage Battalion
+  proposed_vi: Tiểu đoàn Pháp sư Xung kích Trên không số 203 / Tiểu đoàn Pháp sư Trên
+    không số 203
+  alternative_vi: Tiểu đoàn Pháp sư Xung kích Không quân 203 / Tiểu đoàn Pháp sư Không
+    quân 203
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000456
+  - YS-LN02/Text/part0026.xhtml/p000463
+  rationale: Keep long/short names and avoid inferring Air Force affiliation.
+- source_term: Great Army
+  proposed_vi: Đại quân
+  alternative_vi: Great Army
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000443
+  rationale: Existing pending term; no echelon inferred.
+- source_term: Logistics
+  proposed_vi: bộ phận Hậu cần
+  alternative_vi: phía Hậu cần
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000443
+  rationale: Functional provisional term; do not elevate to bureau/ministry.
+- source_term: instructor unit / instructor / advisor
+  proposed_vi: đơn vị huấn luyện / người huấn luyện / cố vấn
+  alternative_vi: đơn vị phụ trách huấn luyện / huấn luyện viên / người hướng dẫn
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000452
+  - YS-LN02/Text/part0026.xhtml/p000456
+  - YS-LN02/Text/part0026.xhtml/p000458
+  rationale: Keep unit and individual roles distinct; retain ironic dual role.
+- source_term: second-class student
+  proposed_vi: học viên thuộc lớp thứ hai
+  alternative_vi: học viên năm hai / học viên hạng hai
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000451
+  rationale: Literal and low-confidence; do not infer year or competence rank.
+- source_term: picnic
+  proposed_vi: dã ngoại
+  alternative_vi: chuyến đi chơi
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000442
+  rationale: Retain irony; not a mission name.
+- source_term: collective responsibility
+  proposed_vi: trách nhiệm tập thể
+  alternative_vi: trách nhiệm chung / liên đới chịu trách nhiệm
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000461
+  rationale: No specific collective punishment inferred.
+- source_term: railway gun
+  proposed_vi: pháo đường sắt
+  alternative_vi: pháo đặt trên đường sắt
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000448
+  rationale: No caliber or mechanism inferred.
+- source_term: Rhine / Rhine Command / Rhine front
+  proposed_vi: Rhine; mặt trận Rhine in combat context; khu vực Rhine at p447; Bộ
+    chỉ huy Rhine at p451/p453
+  alternative_vi: chiến tuyến Rhine / bộ chỉ huy mặt trận Rhine
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000431
+  - YS-LN02/Text/part0026.xhtml/p000440
+  - YS-LN02/Text/part0026.xhtml/p000446
+  - YS-LN02/Text/part0026.xhtml/p000447
+  - YS-LN02/Text/part0026.xhtml/p000451
+  - YS-LN02/Text/part0026.xhtml/p000453
+  - YS-LN02/Text/part0026.xhtml/p000455
+  rationale: No river or organizational echelon inferred.
+- source_term: replacement / replacements
+  proposed_vi: quân bổ sung
+  alternative_vi: quân thay thế / lính thay thế
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000453
+  - YS-LN02/Text/part0026.xhtml/p000460
+  rationale: Follow b15 temporary usage; not necessarily reinforcements or direct
+    replacements for casualties.
+- source_term: Warren Grantz / Cadet Degurechaff / NCOs
+  proposed_vi: Warren Grantz / Học viên Degurechaff / hạ sĩ quan
+  alternative_vi: Grantz / học viên sĩ quan Degurechaff / NCO
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000440
+  - YS-LN02/Text/part0026.xhtml/p000444
+  - YS-LN02/Text/part0026.xhtml/p000450
+  - YS-LN02/Text/part0026.xhtml/p000451
+  rationale: Do not add von to Cadet or infer an individual NCO rank.
+- source_term: narration/viewpoint pronouns
+  proposed_vi: Grantz anh in narration, mình in interior thought, cô ta in Grantz
+    evaluation, tôi/chúng tôi where source shifts to first person
+  alternative_vi: Omit subject when clear
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000431
+  - YS-LN02/Text/part0026.xhtml/p000432
+  - YS-LN02/Text/part0026.xhtml/p000438
+  - YS-LN02/Text/part0026.xhtml/p000441
+  - YS-LN02/Text/part0026.xhtml/p000442
+  - YS-LN02/Text/part0026.xhtml/p000443
+  - YS-LN02/Text/part0026.xhtml/p000444
+  - YS-LN02/Text/part0026.xhtml/p000451
+  - YS-LN02/Text/part0026.xhtml/p000454
+  - YS-LN02/Text/part0026.xhtml/p000455
+  - YS-LN02/Text/part0026.xhtml/p000456
+  - YS-LN02/Text/part0026.xhtml/p000457
+  - YS-LN02/Text/part0026.xhtml/p000458
+  - YS-LN02/Text/part0026.xhtml/p000460
+  - YS-LN02/Text/part0026.xhtml/p000461
+  - YS-LN02/Text/part0026.xhtml/p000462
+  - YS-LN02/Text/part0026.xhtml/p000463
+  rationale: Distinguish viewpoint locally; provisional choices do not extend DEC-P01-001.
+allowlist:
+- translations/vol-02/ch-05-b18.jsonl
+- reviews/semantic/vol-02/ch-05-b18-self-check.md
+files_written: []
+commit: null
+status: ready
