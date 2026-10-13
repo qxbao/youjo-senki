@@ -1,0 +1,76 @@
+task_id: vol-02-ch-06-b24-review-fixes
+role: translator
+batch: vol-02-ch-06-b24
+translation: translations/vol-02/ch-06-b24.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b24-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b24-codex.md
+source_package: work/vol-02/batches/ch-06-b24-source.jsonl
+source_package_sha256: a1106140d11c8aac7c59fdb12f94336a45379acca67c25b56006d1d93ee6da6a
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter6_b24_translator_proposals
+- chapter6_b24_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 5
+  minor: 1
+  unresolved: 6
+findings:
+- id: B24-C01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000754
+  - YS-LN02/Text/part0030.xhtml/p000755
+  - YS-LN02/Text/part0030.xhtml/p000756
+  - YS-LN02/Text/part0030.xhtml/p000757
+  - YS-LN02/Text/part0030.xhtml/p000760
+  - YS-LN02/Text/part0030.xhtml/p000761
+  - YS-LN02/Text/part0030.xhtml/p000762
+  - YS-LN02/Text/part0030.xhtml/p000763
+  - YS-LN02/Text/part0030.xhtml/p000767
+  - YS-LN02/Text/part0030.xhtml/p000769
+  - YS-LN02/Text/part0030.xhtml/p000782
+  resolution: Change Tanya internal self-reference to mình or omit naturally; preserve
+    tôi in direct dialogue and do not replace all first-person forms indiscriminately.
+- id: B24-C02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000755
+  resolution: 'Restore the two source emphasis spans and contrast: emphasize the able-but-will-not
+    clause as one span and try it as the second. Preserve the concessive relation.'
+- id: B24-C03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000762
+  resolution: Remove unsupported feint/deception; express delaying action at the rear
+    while retreating as a question.
+- id: B24-C04
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000764
+  resolution: Replace copyright registration wording with asking permission or a license
+    to use the Shimahdzu technique. Do not imply ownership or introduce legal lore.
+- id: B24-C05
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000776
+  resolution: Restore the hypothetical future risk that would remain even if the request
+    were not refused; preserve concession, negation, and we as subject.
+- id: B24-C06
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000783
+  resolution: Replace negative tai tiếng with an open reputation expression such as
+    khá nổi tiếng—hiểu theo nhiều nghĩa; do not identify the escargots nickname.
+term_choices: Apply chapter6_b24_review_recommendations locally and consistently;
+  all proposals remain pending/non-canon.
+self_check_update: Record all six finding resolutions; accurately mark p000755 emphasis
+  restored and p000764 emphasis already preserved; list six pending groups and describe
+  reviewer selections/alternatives without promotion.
+constraints:
+- Use only assigned b24 package, translation, self-check, b24 reports/handoffs, named
+  canon and b24 ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-06-b24.jsonl and reviews/semantic/vol-02/ch-06-b24-self-check.md.
+  No handoff/ledger/canon/run-state edits or commit.
+- Run primary b24 validator and git diff --check.
+status: ready
