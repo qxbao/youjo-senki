@@ -29,6 +29,61 @@ source_package: work/vol-02/batches/ch-05-b01-source.jsonl
 source_package_sha256: 8557f906f5d531213cb5fe652563921bc5f648de32e9ce2d9ed0a04bf4bbbaa2
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 965
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13372-6f0b-75e3-ac4f-655873fc6330
+  segment_count: 24
+  validator: pass
+  diff_check: pass
+  findings: [review_required_observed_fire, review_required_human_bullets]
+  pending_term_count: 3
+  files_written: [translations/vol-02/ch-05-b01.jsonl]
+  risks: [Rhine retained as temporary battlefield-place wording]
+review_coordination:
+  triggered_by: [risk_flags, new_pending_terms]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a13375-23c4-7b81-bd3d-2c9b97a20510
+  review_counts: {serious: 0, moderate: 3, minor: 5}
+  unresolved_serious: []
+  initial_unresolved_moderate: [F01, F02, F03]
+  signoff_state: passed_assigned_fixes
+  signoff_session_id: 01a1337b-4d64-7073-a994-7cdfc5ca5d05
+  signoff_report: reviews/prose/vol-02/ch-05-b01-fixes-signoff-codex.md
+  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, deferred_minor: 0}
+  unresolved_moderate: []
+  signoff_findings_pending: []
+  signoff_findings_resolved: [F01, F02, F03, F04, F05, F06, F07, F08]
+  follow_up_owner: translator-ch05-b01-review-fixes
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter5_b01_translation_proposals
+  review_report: reviews/prose/vol-02/ch-05-b01-codex.md
+coordinator_provisional_choices:
+  status: pending_non_canon
+  entries:
+  - {finding: F01, decision: retain_visual_imprint_and_sacred_quality_remove_beauty_judgment, segments: [p000015]}
+  - {finding: F02, decision: use_human_bullets_metaphor_nhung_vien_dan_song, proposed_vi: những viên đạn sống, segments: [p000020]}
+  - {finding: F03, decision: indirect_third_person_Ho_nghi_not_direct_address, segments: [p000021]}
+  - {finding: F04, decision: restructure_soldier_as_subject_of_service_and_memory, segments: [p000002]}
+  - {finding: F05, decision: use_toi_for_old_soldier_voice_pending, segments: [p000007]}
+  - {finding: F06, decision: name_enemy_artillery_specifically, segments: [p000022]}
+  - {finding: F07, decision: clarify_push_battle_line_forward, segments: [p000023]}
+  - {finding: F08, decision: italicize_hoan_toan_khong_co_only, segments: [p000024]}
+  - {term: vol02-ch05-b01-rhine, decision: use_chien_truong_Rhine_at_p000001_and_unclassified_Rhine_at_p000006}
+fix_report:
+  state: done
+  translator_session_id: 01a13379-5176-7c40-a3fc-a37bec311798
+  findings_resolved: [F01, F02, F03, F04, F05, F06, F07, F08]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-05-b01.jsonl]
+  allowlist: [translations/vol-02/ch-05-b01.jsonl]
+  next_action: commit
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
