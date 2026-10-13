@@ -1,0 +1,23 @@
+task_id: vol-02-ch-06-b22-final-correction
+role: translator
+batch: vol-02-ch-06-b22
+translation: translations/vol-02/ch-06-b22.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b22-self-check.md
+final_signoff_report: reviews/prose/vol-02/ch-06-b22-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-06-b22-source.jsonl
+source_package_sha256: 934b216d2e43f95024350f9dde7b33cea51e64670f540d3a4f2b9f6d2ea2e94f
+pending_ledger_section: chapter6_b22_review_recommendations
+finding:
+  id: B22-C03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000688
+  resolution: Replace Bộ Đường sắt của quân đội with neutral cơ quan đường sắt của
+    quân đội, consistent with p000676 and p000690. Preserve dialogue and reporting
+    meaning; no organizational level.
+constraints:
+- Use only this assigned b22 package, translation, self-check, signoff report, b22
+  handoffs and specified ledger section. Never open EPUB/PDF or other package.
+- Write only translations/vol-02/ch-06-b22.jsonl and reviews/semantic/vol-02/ch-06-b22-self-check.md.
+  No ledger/handoff/canon/run-state edits or commit.
+- Run primary b22 validator and git diff --check.
+status: ready

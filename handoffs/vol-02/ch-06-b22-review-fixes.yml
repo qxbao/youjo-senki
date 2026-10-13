@@ -1,0 +1,91 @@
+task_id: vol-02-ch-06-b22-review-fixes
+role: translator
+batch: vol-02-ch-06-b22
+translation: translations/vol-02/ch-06-b22.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b22-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b22-codex.md
+source_package: work/vol-02/batches/ch-06-b22-source.jsonl
+source_package_sha256: 934b216d2e43f95024350f9dde7b33cea51e64670f540d3a4f2b9f6d2ea2e94f
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter6_b22_translator_proposals
+- chapter6_b22_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 6
+  minor: 6
+  unresolved: 12
+findings:
+- id: B22-C01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000683
+  resolution: Restore emphasis to the opening interjection only; leave the rest unitalicized
+    according to the assigned package and style rule.
+- id: B22-C02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000676
+  resolution: Use mình for Tanya internal self-reference in the listed narration/thought
+    segments. At p000675 preserve tôi in dialogue and change only internal thought;
+    do not replace every first-person pronoun in speech.
+- id: B22-C03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000676
+  resolution: Use neutral railroad organization wording and logistics department/field
+    wording; remove unsupported Bureau/Department ranks. Keep names local and provisional.
+- id: B22-C04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000689
+  resolution: Use neutral wording equivalent to one of the officers being transported;
+    do not assume field officers means a battlefield role. Keep officer-rank alternative
+    pending if selected.
+- id: B22-C05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000696
+  resolution: Clarify that higher command is considering moving the Rhine line back;
+    do not merge with Tanya’s question in p000697.
+- id: B22-C06
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000700
+  resolution: Remove the unsupported simultaneous relation between retreating and
+    causing enemy losses; use the temporary wording in the review report or equivalent.
+- id: B22-C07
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000681
+  resolution: Remove the limiting-only implication. Convey that alumni gatherings
+    and rank hierarchy influence officer networking in the background; do not add
+    factions or patronage.
+- id: B22-C08
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000690
+  resolution: Prefer lower-case đại quân; remove hùng mạnh. Do not add a historical
+    name or explain the metaphor.
+- id: B22-C09
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000694
+  resolution: Replace láu cá with wording meaning acting as if one knows better; retain
+    self-questioning tone.
+- id: B22-C10
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000703
+  resolution: Use unprofitable endeavor/project rather than a business enterprise;
+    retain contrast of sunk expenditure and further losses. Do not identify Concorde
+    or explain sunk costs.
+- id: B22-C11
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000704
+  resolution: Clarify the metaphor as a faithful follower of the modern, practical
+    spirit; keep the question about Being X hypothetical.
+- id: B22-C12
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000706
+  resolution: Use wording like Dù vậy… rút lui sao? so the retreat is not portrayed
+    as already underway.
+term_choices: Follow reviewer selections in chapter6_b22_review_recommendations locally;
+  all stay pending/non-canon.
+constraints:
+- Use only assigned b22 package, translation, self-check, b22 reports/handoffs, named
+  canon and b22 ledger sections; never open EPUB/PDF or other source package.
+- Write only translations/vol-02/ch-06-b22.jsonl and reviews/semantic/vol-02/ch-06-b22-self-check.md.
+  No ledger, handoff, canon, run-state edits or commit.
+- Run primary b22 validator/package and git diff --check.
+status: ready

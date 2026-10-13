@@ -1,0 +1,22 @@
+task_id: vol-02-ch-06-b22-review
+role: reviewer
+batch: vol-02-ch-06-b22
+translation: translations/vol-02/ch-06-b22.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b22-self-check.md
+source_package: work/vol-02/batches/ch-06-b22-source.jsonl
+source_package_sha256: 934b216d2e43f95024350f9dde7b33cea51e64670f540d3a4f2b9f6d2ea2e94f
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter6_b22_translator_proposals
+review_flags: [new_pending_terms, rank_uncertainty, meaning_ambiguity, emphasis]
+translator_risks:
+- p000681: syntax and relation between classmates, ranks and connections is unusual.
+- p000690: assess wording of Grand Army metaphor and interior lines strategy.
+- p000703: assess satire about sunk costs; Concorde reference identity is not established by package.
+- p000677: ensure middle ranks does not overcommit to a specific rank beyond context.
+constraints:
+- Independently review only the assigned b22 package, translation, self-check, primary b22 handoff, this handoff, named canon and b22 ledger section.
+- Do not open EPUB/PDF or another source package; do not quote source sentences.
+- Assess pending choices and recommend justified temporary alternatives; no canon promotion.
+- Write only reviews/prose/vol-02/ch-06-b22-codex.md.
+report_path: reviews/prose/vol-02/ch-06-b22-codex.md
+status: ready
