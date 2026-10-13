@@ -29,6 +29,53 @@ source_package: work/vol-02/batches/ch-05-b09-source.jsonl
 source_package_sha256: 84ba76008ef2f2e772d1430b2fe2890e89ccf9f9fa13064a5c60de578b73a9f3
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 1072
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a133de-587f-7741-9c1c-e68326d6ce3e
+  segment_count: 21
+  validator: pass
+  diff_check: pass
+  findings: [B09-P01_through_B09-P07_fixed]
+  pending_term_count: 3
+  files_written: [translations/vol-02/ch-05-b09.jsonl]
+review_coordination:
+  triggered_by: [new_pending_terms, emphasis]
+  required: true
+  state: signed_off
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter5_b09_translation_proposals
+  review_report: reviews/prose/vol-02/ch-05-b09-codex.md
+  risk_notes: [military_term_uncertainty, nickname_interpretation]
+  counts: {serious: 0, moderate: 4, minor: 3}
+  unresolved_serious: 0
+  unresolved_moderate: 0
+  unresolved_minor: 0
+  follow_up_findings: [B09-P01, B09-P02, B09-P03, B09-P04, B09-P05, B09-P06, B09-P07]
+  translator_follow_up_session: 01a133e3-d450-73c3-9fc5-1315f21dace9
+  signoff_report: reviews/prose/vol-02/ch-05-b09-signoff-codex.md
+  signoff_state: signed_off
+  signoff_counts: {serious: 0, moderate: 0, minor: 0}
+  deferred_minor_findings: []
+pending_term_proposals:
+  status: provisional_non_canon
+  entries:
+    - source_term: emergency blow
+      proposed_vi: thổi dằn khẩn cấp để nổi lên
+      alternative_vi: thổi khẩn cấp các két dằn để nổi lên
+      segment_ids: [YS-LN02/Text/part0026.xhtml/p000209]
+    - source_term: Major von Degurechaff; Major Generals von Zettour and von Rudersdorf; Lieutenant Serebryakov
+      proposed_vi: Thiếu tá von Degurechaff; các Thiếu tướng von Zettour và von Rudersdorf; Trung úy Serebryakov
+      alternative_vi: Thiếu tá von Degurechaff; Thiếu tướng von Zettour và Thiếu tướng von Rudersdorf; Trung úy Serebryakov
+      segment_ids: [YS-LN02/Text/part0026.xhtml/p000218, YS-LN02/Text/part0026.xhtml/p000219, YS-LN02/Text/part0026.xhtml/p000225]
+    - source_term: Devil of the Rhine
+      proposed_vi: Ác quỷ sông Rhine
+      alternative_vi: Ác quỷ vùng Rhine
+      segment_ids: [YS-LN02/Text/part0026.xhtml/p000221]
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
