@@ -1,0 +1,43 @@
+task_id: vol-02-ch-06-b14-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b14
+translation: translations/vol-02/ch-06-b14.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b14-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b14-codex.md
+source_package: work/vol-02/batches/ch-06-b14-source.jsonl
+source_package_sha256: fa68024cca38b1f862f4b696c787aa41f3e4fcac36e9564ca36701b26d654578
+review_counts: {serious: 0, moderate: 5, minor: 6, unresolved: 11}
+segment_ids:
+- YS-LN02/Text/part0030.xhtml/p000420
+- YS-LN02/Text/part0030.xhtml/p000421
+- YS-LN02/Text/part0030.xhtml/p000425
+- YS-LN02/Text/part0030.xhtml/p000429
+- YS-LN02/Text/part0030.xhtml/p000430
+- YS-LN02/Text/part0030.xhtml/p000432
+- YS-LN02/Text/part0030.xhtml/p000434
+- YS-LN02/Text/part0030.xhtml/p000435
+- YS-LN02/Text/part0030.xhtml/p000436
+- YS-LN02/Text/part0030.xhtml/p000441
+- YS-LN02/Text/part0030.xhtml/p000445
+- YS-LN02/Text/part0030.xhtml/p000448
+- YS-LN02/Text/part0030.xhtml/p000450
+accepted_resolutions:
+- "B14-F01: Restore emphasis with *...* on the exact source-marked spans: final sentence p000420; all p000421; sentence beginning “Giá mà” p000434; sentence beginning “Thế này thì” p000448; first sentence p000450. Keep surrounding narration unmarked."
+- "B14-F02 p000429: Restore the ironic sense of anticipating an unachieved outcome; use reviewer proposal “Nhưng xem ra, khi nói đến raison d’état, tính chuyện hưởng thành quả từ khi chưa đạt được lại có tác dụng.” Use “rời khỏi các tuyến chính” without specifying line type."
+- "B14-F03 p000432: Apply reviewer’s contextual reading of the unit and one experienced Named being drawn from the front, capable of targeting the Republic’s weakness; use the recommended temporary structure from the report. Do not invent another hostile actor, identity or lore."
+- "B14-F04 p000434 and p000450: Replace “bộ binh” with broader “quân mặt đất” / “lực lượng mặt đất”; preserve number increase and earlier arrival."
+- "B14-F05 p000430: Use “tác chiến có tính cơ động cao”; keep long-range fire capability separate."
+- "B14-F06 p000445: Replace “bắn trả” with “bắn quấy nhiễu”; do not imply a prior shot by a specific side."
+- "B14-F07 p000425: Restore Republic ownership: risk of losing its voice as a great power; do not strengthen this to loss of great-power status."
+- "B14-F08 p000430: Replace emotional “đáng ghét” with “phiền toái” for the difficult opposing force."
+- "B14-F09 p000435: Use conditional wording: if the transport node is held, Imperial supply lines will be unable to deliver supplies in less than a week; keep the next sentence’s certain consequence distinct."
+- "B14-F10 p000441: Change “kiệt sức” to “mệt mỏi”; retain the paragraph emphasis."
+- "B14-F11 p000436: Use “Ý là chúng tôi phải giao chiến với tiểu đoàn đó từ xa sao?”; keep speaker-side “chúng tôi” and omit unsupported second-person gender."
+term_choices: handoffs/vol-02/ch-06-b14-review.yml plus ledger chapter6_b14_review_recommendations; apply consistently, all pending/non-canon.
+self_check: Correct inaccurate p000421 and p000423 descriptions; list all five restored emphasis spans; reflect local terms and recommendations, with no source prose.
+constraints:
+- Read only assigned b14 package, handoffs, review report, current translation/self-check and named canon/pending inputs. Never open EPUB/PDF or any other package.
+- Write only translations/vol-02/ch-06-b14.jsonl and reviews/semantic/vol-02/ch-06-b14-self-check.md. Do not edit reviews/prose, handoffs, canon, ledger or run-state. Do not commit or dispatch.
+- Run python3 tools/validate_translation.py using the primary b14 handoff and assigned package; also git diff --check.
+status: ready

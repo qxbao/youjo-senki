@@ -1,0 +1,23 @@
+task_id: vol-02-ch-06-b14-final-signoff-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b14
+translation: translations/vol-02/ch-06-b14.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b14-self-check.md
+signoff_report: reviews/prose/vol-02/ch-06-b14-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-06-b14-source.jsonl
+source_package_sha256: fa68024cca38b1f862f4b696c787aa41f3e4fcac36e9564ca36701b26d654578
+finding: B14-F04
+severity: moderate
+segment_id: YS-LN02/Text/part0030.xhtml/p000450
+resolution: >-
+  Increase the wording from “đông hơn dự kiến” to “đông hơn nhiều so với dự kiến”
+  so it retains the strong quantity increase. Preserve the earlier-than-expected
+  arrival and the conditional framing. Update the self-check to match. No other
+  translation or emphasis changes.
+constraints:
+- Use only the assigned b14 package, batch handoff, translation, self-check and signoff report. No EPUB/PDF or other package.
+- Write only translations/vol-02/ch-06-b14.jsonl and reviews/semantic/vol-02/ch-06-b14-self-check.md.
+- Do not edit reviews/prose, handoffs, canon, ledger or run-state; no commit or dispatch.
+- Run python3 tools/validate_translation.py with primary b14 handoff/package and git diff --check.
+status: ready
