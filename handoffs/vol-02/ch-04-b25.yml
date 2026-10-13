@@ -29,6 +29,53 @@ source_package: work/vol-02/batches/ch-04-b25-source.jsonl
 source_package_sha256: 0e9255c91497bca58f7e78b0e26a7f08f36e395ac916295cebd795ffcf269132
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 889
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13336-4e3c-7cb3-a768-81df30659cdb
+  segment_count: 34
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 2
+  files_written: [translations/vol-02/ch-04-b25.jsonl]
+review_coordination:
+  triggered_by: [risk_flags, new_pending_terms]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a13338-638f-7372-bed5-a298172f1f5e
+  review_counts: {serious: 0, moderate: 5, minor: 4}
+  unresolved_serious: []
+  initial_unresolved_moderate: [B25-F01, B25-F06, B25-F07, B25-F08, B25-F09]
+  unresolved_moderate: []
+  signoff_findings_pending: [B25-F01, B25-F06, B25-F07, B25-F08, B25-F09]
+  follow_up_owner: translator-ch04-b25-review-fixes
+  signoff_state: passed_assigned_fixes_only
+  signoff_session_id: 01a1333e-b52f-7032-9980-76aefd7e0532
+  signoff_report: reviews/prose/vol-02/ch-04-b25-fixes-signoff-codex.md
+  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, deferred_minor: 4}
+  signoff_findings_resolved: [B25-F01, B25-F06, B25-F07, B25-F08, B25-F09]
+  signoff_findings_pending: []
+  deferred_minor: [B25-F02, B25-F03, B25-F04, B25-F05]
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b25_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b25-codex.md
+fix_report:
+  state: done
+  translator_session_id: 01a1333c-50e4-7802-a35e-6bdbd34b322f
+  findings_resolved: [B25-F01, B25-F06, B25-F07, B25-F08, B25-F09]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-04-b25.jsonl]
+  allowlist: [translations/vol-02/ch-04-b25.jsonl]
+  next_action: reviewer_signoff
+  term_recommendations:
+  - {id: vol02-ch04-b25-marine-mages, proposed_vi: pháp sư tác chiến trên biển, status: pending, canon_promotion: false}
+  - {id: vol02-ch04-b25-magazine, proposed_vi: kho đạn, status: pending, canon_promotion: false}
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
