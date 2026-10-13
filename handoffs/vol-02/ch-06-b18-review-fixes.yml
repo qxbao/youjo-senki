@@ -1,0 +1,37 @@
+task_id: vol-02-ch-06-b18-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b18
+translation: translations/vol-02/ch-06-b18.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b18-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b18-codex.md
+source_package: work/vol-02/batches/ch-06-b18-source.jsonl
+source_package_sha256: 1f6116310c3d403849cb4ba575d10a8bf521a4ea1fc4e6ad08dffe8554685d92
+review_counts: {serious: 0, moderate: 2, minor: 7, unresolved: 9}
+segment_ids:
+- YS-LN02/Text/part0030.xhtml/p000556
+- YS-LN02/Text/part0030.xhtml/p000567
+- YS-LN02/Text/part0030.xhtml/p000570
+- YS-LN02/Text/part0030.xhtml/p000573
+- YS-LN02/Text/part0030.xhtml/p000574
+- YS-LN02/Text/part0030.xhtml/p000580
+- YS-LN02/Text/part0030.xhtml/p000582
+- YS-LN02/Text/part0030.xhtml/p000583
+accepted_resolutions:
+- {"id": "B18-F01", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000582", "resolution": "Use “Xét về mặt thủ tục, có lẽ đó là một bước để có thể coi thường dân là dân quân.” Then “Dù sao, ngay khi không còn cần phân loại thường dân là người không tham chiến, Đế quốc đã bắt đầu tấn công thành phố không chút khoan nhượng.” Preserve “có lẽ”; add no legal basis, official decision or legality claim."}
+- {"id": "B18-F02", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000580", "resolution": "Use “Một xác chết vừa bị thiêu cháy thành than, mùi khét chưa bị mùi thối rữa che lấp. Không khí quánh dính vì protein, hôi thối khủng khiếp.” “Dính bết” is an alternative; do not explain biology."}
+- {"id": "B18-F03", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000573", "resolution": "Italicize only “Điều tốt mình làm cho người khác rồi sẽ quay lại với mình”; keep lead-in and comment outside italics."}
+- {"id": "B18-F04", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000582", "resolution": "Italicize only the middle speculative sentence from F01; leave the other two sentences unitalicized."}
+- {"id": "B18-F05", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000567", "resolution": "Use “Ngay trước mắt mình là một lý do chính đáng tuyệt vời: bảo vệ đồng bào.” Alternative preserves “chính nghĩa” as the reviewer gives."}
+- {"id": "B18-F06", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000570", "resolution": "Use “Ít nhất thì đó cũng hẳn là một lý do để biện minh.” Preserve self-reassurance; do not imply actual acquittal."}
+- {"id": "B18-F07", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000574", "resolution": "Use “vì cô đã có kinh nghiệm” or “vì cô đã thạo việc”; preserve “khá hơn một chút” and risk of hesitation without adding biography."}
+- {"id": "B18-F08", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000583", "resolution": "Use “Anh thấy lạ khi Thiếu tá von Degurechaff quan tâm đến người phía mình hơn kẻ địch...” Keep this as Grantz’s impression, let it fade, and retain “Có lẽ”; do not state Tanya’s motive as fact."}
+- {"id": "B18-F09", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000556", "resolution": "Use “Có lẽ họ đã bị giết hoặc bị đám đông hành hình ngay khi cuộc nổi dậy bắt đầu.” Specify no method, perpetrator or extra certainty."}
+
+term_choices: handoffs/vol-02/ch-06-b18-review.yml and ledger chapter6_b18_review_recommendations; apply the eight terms/viewpoint groups plus B18-HC01 provisionally; none are canon.
+self_check: Update all findings, the p000563 human-capital alignment, emphasis spans p000573/p000582, and the p000582 meaning risk. No source prose.
+constraints:
+- Use only assigned b18 package, b18 handoffs, review report, translation/self-check, named canon and b18 pending-ledger sections. Never open EPUB/PDF or another package.
+- Write only translations/vol-02/ch-06-b18.jsonl and reviews/semantic/vol-02/ch-06-b18-self-check.md. Do not edit reports, handoffs, canon, ledger or run-state. No commit/dispatch.
+- Run python3 tools/validate_translation.py with primary b18 handoff/package and git diff --check.
+status: ready
