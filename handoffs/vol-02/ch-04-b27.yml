@@ -29,6 +29,65 @@ source_package: work/vol-02/batches/ch-04-b27-source.jsonl
 source_package_sha256: 991eaa3b59086592757f00f188247a9194815ac9c84061927196a254c7e17f17
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 917
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1334b-ef4a-7313-aefb-e6d5bbb2adc2
+  segment_count: 23
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 5
+  files_written: [translations/vol-02/ch-04-b27.jsonl]
+review_coordination:
+  triggered_by: [risk_flags, new_pending_terms]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a1334e-27ae-7442-bafe-e71f517ffe62
+  review_counts: {serious: 0, moderate: 5, minor: 5}
+  unresolved_serious: []
+  initial_unresolved_moderate: [B27-04, B27-05, B27-06, B27-08, B27-09]
+  unresolved_moderate: []
+  signoff_findings_pending: [B27-04, B27-05, B27-06, B27-08, B27-09]
+  follow_up_owner: translator-ch04-b27-review-fixes
+  signoff_state: passed_assigned_scope
+  signoff_session_id: 01a13354-b402-7d82-928a-699f96a779aa
+  signoff_report: reviews/prose/vol-02/ch-04-b27-fixes-signoff-codex.md
+  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, deferred_minor: 5}
+  signoff_findings_resolved: [B27-04, B27-05, B27-06, B27-08, B27-09]
+  signoff_findings_pending: []
+  deferred_minor: [B27-01, B27-02, B27-03, B27-07, B27-10]
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b27_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b27-codex.md
+  term_recommendations:
+  - {id: T1, proposed_vi: diễn tập cận chiến của toàn hạm đội, status: pending, canon_promotion: false}
+  - {id: T2, proposed_vi: PX, status: pending, canon_promotion: false}
+  - {id: T3, proposed_vi: ban trọng tài, status: pending, canon_promotion: false}
+  - {id: T4, proposed_vi: kiểm soát thiệt hại, status: pending, canon_promotion: false}
+  - {id: T5, proposed_vi: hỏa lực phòng không, status: pending, canon_promotion: false}
+coordinator_provisional_choices:
+  status: pending_non_canon
+  entries:
+  - {finding: B27-04, decision: show_mages_overloaded_by_excessive_demand_and_unable_to_attend, segments: [p000485]}
+  - {finding: B27-05, decision: use_temporary_role_title_thuyen_truong_Grän_not_rank, segments: [p000488, p000489]}
+  - {finding: B27-06, decision: use_contextual_neutral_side_label_phia_co, segments: [p000489]}
+  - {finding: B27-08, decision: use_minh_for_Tanya_interior_self_reference, segments: [p000495]}
+  - {finding: B27-09, decision: refer_to_enemy_approaching_ship_not_boarding, segments: [p000498]}
+fix_report:
+  state: done
+  translator_session_id: 01a13352-c589-7301-82d6-8bc7c7e74f7d
+  findings_resolved: [B27-04, B27-05, B27-06, B27-08, B27-09]
+  term_choices_applied: [T1]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-04-b27.jsonl]
+  allowlist: [translations/vol-02/ch-04-b27.jsonl]
+  next_action: reviewer_signoff
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
