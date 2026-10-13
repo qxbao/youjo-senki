@@ -1,0 +1,81 @@
+task_id: vol-02-ch-06-b07-review-fixes
+batch: vol-02-ch-06-b07
+review_report: reviews/prose/vol-02/ch-06-b07-codex.md
+translation: translations/vol-02/ch-06-b07.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b07-self-check.md
+source_package: work/vol-02/batches/ch-06-b07-source.jsonl
+source_package_sha256: f6e79df03b5320539229b74f06977d3069c11389c46d192ee3f688dd0ea1ff27
+status: done
+review_counts:
+  serious: 0
+  moderate: 5
+  minor: 3
+findings_to_resolve:
+- id: B07-R01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000205
+  resolution: State that plans must assume enough people remain to maintain the city; describe it as a transportation
+    hub, not merely resembling one.
+- id: B07-R02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000212
+  - YS-LN02/Text/part0030.xhtml/p000215
+  resolution: Restore encirclement and forcing opponents to submit through hunger; keep group reference open, add
+    no identities.
+- id: B07-R03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000214
+  - YS-LN02/Text/part0030.xhtml/p000215
+  - YS-LN02/Text/part0030.xhtml/p000217
+  resolution: Use Tanya pronoun “nó” for narration/internal self-reference per DEC-P01-001; do not alter dialogue.
+- id: B07-R04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000222
+  resolution: Replace “lực lượng dự bị” with neutral “lực lượng dư ra”; do not assign reserve status.
+- id: B07-R05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000222
+  resolution: Move emphasis from “vẫn” to “tình cảnh này”; italicize only that phrase.
+- id: B07-R06
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000214
+  resolution: Improve the idiom for knowing strategic importance and wanting to curse; preserve indirect thought
+    and only being able to complain.
+- id: B07-R07
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000211
+  resolution: Clarify delaying intervention, not physically holding someone back; retain recommendation rather than
+    obligation.
+- id: B07-R08
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000223
+  resolution: Prefer “vật tư quân sự” to avoid narrowing to technical equipment/weapons.
+coordinator_term_choices: Apply chapter6_b07_coordinator_choices in pending ledger, provisional/non-canon.
+constraints:
+- Use only assigned b07 source package; no EPUB/PDF or other packages.
+- Edit only translation and semantic self-check.
+- Keep noncombatants broad and law of war literal; no legal inference.
+- Do not edit handoff/ledger/review/canon/checkpoint.
+- Run validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b07.jsonl
+- reviews/semantic/vol-02/ch-06-b07-self-check.md
+translator_session_id: 01a1363d-5471-7972-bd12-ee3d36dd983e
+validator: pass
+diff_check: pass
+findings_resolved:
+- B07-R01
+- B07-R02
+- B07-R03
+- B07-R04
+- B07-R05
+- B07-R06
+- B07-R07
+- B07-R08
+pending_terms_count: 2
+findings_open: []
+followup_handoff: handoffs/vol-02/ch-06-b07-review-fixes-followup.yml
+followup_signoff_report: reviews/prose/vol-02/ch-06-b07-final-signoff-followup-codex.md

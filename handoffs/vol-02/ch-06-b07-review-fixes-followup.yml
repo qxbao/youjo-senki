@@ -1,0 +1,30 @@
+task_id: vol-02-ch-06-b07-review-fixes-followup
+batch: vol-02-ch-06-b07
+review_report: reviews/prose/vol-02/ch-06-b07-codex.md
+initial_signoff: reviews/prose/vol-02/ch-06-b07-final-signoff-codex.md
+translation: translations/vol-02/ch-06-b07.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b07-self-check.md
+source_package: work/vol-02/batches/ch-06-b07-source.jsonl
+source_package_sha256: f6e79df03b5320539229b74f06977d3069c11389c46d192ee3f688dd0ea1ff27
+status: done
+findings_to_resolve:
+- id: B07-R06
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000214
+  resolution: Make the concluding sentence state that political pressure leaves them able only to complain, e.g.
+    “Dưới sức ép chính trị, họ chỉ có thể than phiền như vậy.” Preserve indirect speech; no sentence from source
+    in self-check.
+constraints:
+- Use only assigned local package; no EPUB/PDF or other packages.
+- Edit only b07 translation and semantic self-check.
+- Do not edit handoffs, ledger, prose reports, canon, or checkpoint.
+- Run validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b07.jsonl
+- reviews/semantic/vol-02/ch-06-b07-self-check.md
+translator_session_id: 01a13641-985d-7303-a926-17b44fb2e8c8
+validator: pass
+diff_check: pass
+findings_resolved:
+- B07-R06
