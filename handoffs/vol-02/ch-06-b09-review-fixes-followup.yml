@@ -1,0 +1,30 @@
+task_id: vol-02-ch-06-b09-review-fixes-followup
+batch: vol-02-ch-06-b09
+initial_signoff: reviews/prose/vol-02/ch-06-b09-final-signoff-codex.md
+translation: translations/vol-02/ch-06-b09.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b09-self-check.md
+source_package: work/vol-02/batches/ch-06-b09-source.jsonl
+source_package_sha256: b8e33087650cb9bb665a018e7adf731ed974f773356be5e7b132bb5d1561fe71
+status: done
+findings_to_resolve:
+- id: B09-F01
+  severity: moderate
+  segments:
+  - YS-LN02/Text/part0030.xhtml/p000276
+  - YS-LN02/Text/part0030.xhtml/p000282
+  resolution: At p276 italicize only “hay” in addition to existing emphasized phrase. At p282 italicize the entire
+    translated paragraph, preserving commander inner pronouns. Update self-check to match both scopes and counts.
+constraints:
+- Use only assigned b09 local package; no EPUB/PDF or other packages.
+- Edit only b09 translation and semantic self-check.
+- Do not edit handoffs, review reports, ledger, canon, checkpoint.
+- Run validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b09.jsonl
+- reviews/semantic/vol-02/ch-06-b09-self-check.md
+translator_session_id: 01a13660-c5f2-7890-9a6d-12b4edc47edf
+validator: pass
+diff_check: pass
+findings_resolved:
+- B09-F01

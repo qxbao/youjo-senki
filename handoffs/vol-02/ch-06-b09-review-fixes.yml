@@ -1,0 +1,102 @@
+task_id: vol-02-ch-06-b09-review-fixes
+batch: vol-02-ch-06-b09
+review_report: reviews/prose/vol-02/ch-06-b09-codex.md
+translation: translations/vol-02/ch-06-b09.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b09-self-check.md
+source_package: work/vol-02/batches/ch-06-b09-source.jsonl
+source_package_sha256: b8e33087650cb9bb665a018e7adf731ed974f773356be5e7b132bb5d1561fe71
+status: done
+review_counts:
+  serious: 0
+  moderate: 6
+  minor: 5
+findings_to_resolve:
+- id: B09-F01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000265
+  - YS-LN02/Text/part0030.xhtml/p000276
+  - YS-LN02/Text/part0030.xhtml/p000279
+  - YS-LN02/Text/part0030.xhtml/p000281
+  - YS-LN02/Text/part0030.xhtml/p000282
+  resolution: Restore the exact five XHTML emphasis patterns as directed in the review; do not add italics elsewhere.
+- id: B09-F02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000264
+  resolution: Keep both legal propositions inside the conditional (“If they claim... If we interpret...”); do not
+    turn interpretation into a decided step.
+- id: B09-F03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000265
+  resolution: Remove unsupported bombing method; use “cho nổ tung tất cả bọn họ” in the hypothetical, keeping it
+    conditional and italicized.
+- id: B09-F04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000279
+  resolution: Correct badge type to provisional “Huy hiệu Đột kích Cánh bạc”, not medal; retain all identifiers.
+- id: B09-F05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000279
+  resolution: Render the child-soldier category naturally (reviewer proposes “một lính trẻ em như trong truyền thuyết
+    à?”); do not make the person’s biography legendary.
+- id: B09-F06
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0030.xhtml/p000274
+  - YS-LN02/Text/part0030.xhtml/p000276
+  - YS-LN02/Text/part0030.xhtml/p000278
+  - YS-LN02/Text/part0030.xhtml/p000279
+  - YS-LN02/Text/part0030.xhtml/p000281
+  resolution: Use “nó” for Tanya in narrator voice per DEC-P01-001; do not change dialogue, the commander’s inner
+    voice, or quoted rumor mechanically; repeat Tanya’s name where safer.
+- id: B09-F07
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000276
+  resolution: Replace “vô cảm” with image of inanimate/cold eyes; retain that emotion is visible in the next clause.
+- id: B09-F08
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000274
+  resolution: Strengthen unfamiliarity (“rất xa lạ”) without adding a new expectation comparison.
+- id: B09-F09
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000270
+  resolution: Preserve rank contrast with “một sĩ quan chỉ mang hàm thiếu tá”; do not change commander title.
+- id: B09-F10
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000271
+  resolution: State that this is only a possibility, not that it simply could occur generally.
+- id: B09-F11
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000258
+  resolution: Use “mình” for Tanya’s direct inner self-reference here, no added dialogue quotes.
+coordinator_term_choices: Apply chapter6_b09_coordinator_choices; every choice is pending/non-canon.
+constraints:
+- Use only assigned local package; no EPUB/PDF or other packages.
+- Edit only translation and semantic self-check.
+- Preserve legal counterfactual and source emphasis exactly.
+- Apply Tanya narration pronoun only to narrated Tanya at listed IDs, keeping dialogue/internal speech distinct.
+- Do not modify handoffs, ledger, prose review, canon, or checkpoint.
+- Run validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b09.jsonl
+- reviews/semantic/vol-02/ch-06-b09-self-check.md
+translator_session_id: 01a1365b-253b-7c22-86e7-af80c752f085
+validator: pass
+diff_check: pass
+findings_resolved:
+- B09-F01
+- B09-F02
+- B09-F03
+- B09-F04
+- B09-F05
+- B09-F06
+- B09-F07
+- B09-F08
+- B09-F09
+- B09-F10
+- B09-F11
+pending_terms_count: 8
+findings_open: []
+followup_handoff: handoffs/vol-02/ch-06-b09-review-fixes-followup.yml
+followup_signoff_report: reviews/prose/vol-02/ch-06-b09-final-signoff-followup-codex.md
