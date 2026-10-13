@@ -29,6 +29,69 @@ source_package: work/vol-02/batches/ch-04-b28-source.jsonl
 source_package_sha256: cbac478639ed500387b1b528a0c99d9302fd5854ddc63e33f530baf12f3941f4
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 937
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13357-ac37-78c3-8568-556f3534617d
+  segment_count: 27
+  validator: pass
+  diff_check: pass
+  findings: [review_terminology_p000507, review_doctrine_p000526]
+  pending_term_count: 5
+  files_written: [translations/vol-02/ch-04-b28.jsonl]
+review_coordination:
+  triggered_by: [even_batch, risk_flags, new_pending_terms]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a13359-89f7-75e1-b6ee-0eac75ac24ae
+  review_counts: {serious: 1, moderate: 5, minor: 2}
+  initial_unresolved_serious: [F01]
+  initial_unresolved_moderate: [F02, F03, F04, F05, F06]
+  unresolved_serious: []
+  unresolved_moderate: []
+  signoff_findings_pending: [F06]
+  prior_signoff_state: partial_changes_required
+  prior_signoff_session_id: 01a1335f-f9ff-71f1-a014-5a2fbd4e00fc
+  prior_signoff_report: reviews/prose/vol-02/ch-04-b28-fixes-signoff-codex.md
+  signoff_state: targeted_pass
+  signoff_session_id: 01a13364-5cfb-7442-8ba1-38e89e5b2363
+  signoff_report: reviews/prose/vol-02/ch-04-b28-f06-signoff-codex.md
+  signoff_counts: {serious_remaining: 0, moderate_remaining: 0, new_serious: 0, new_moderate: 0, deferred_minor: 0}
+  signoff_findings_resolved: [F01, F02, F03, F04, F05, F06, F07, F08]
+  signoff_findings_pending: []
+  follow_up_owner: null
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b28_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b28-codex.md
+  handoff_yaml_duplicate_key: removed_by_coordinator_before_follow_up
+  term_recommendations: [T01, T02, T03, T04, T05]
+coordinator_provisional_choices:
+  status: pending_non_canon
+  entries:
+  - {finding: F01, decision: use_aircraft_comparison_without_specific_model_or_firing_limit, proposed_vi: những chiếc máy bay bị ví như bật lửa một phát, segments: [p000527]}
+  - {finding: F02, decision: use_cognitive_pattern_sense, proposed_vi: khuôn mẫu nhận thức, segments: [p000507]}
+  - {finding: F03, decision: avoid_narrowing_fire_action_to_artillery, proposed_vi: tác chiến bằng hỏa lực, segments: [p000526]}
+  - {finding: F04, decision: keep_navy_as_doctrine_subject_and_use_air_combat_power, segments: [p000526, p000528]}
+  - {finding: F05, decision: state_existing_navy_focus_on_warships, segments: [p000528]}
+  - {finding: F06, decision: restore_only_source_emphasis_boundaries, segments: [p000502, p000504]}
+  - {finding: F07, decision: restore_ship_name_italics, segments: [p000503, p000508, p000527]}
+  - {finding: F08, decision: describe_refit_for_modern_era_and_keep_sinking_metaphor_natural, segments: [p000527]}
+fix_report:
+  state: done
+  translator_session_id: 01a13362-d1d6-7d80-9ce2-ba32b3eff4e0
+  prior_fix_session_id: 01a1335e-7056-70c2-b8c5-a4f54868451a
+  findings_resolved: [F01, F02, F03, F04, F05, F06, F07, F08]
+  findings_pending: []
+  term_choices_applied: [T01, T03, T04]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-04-b28.jsonl]
+  allowlist: [translations/vol-02/ch-04-b28.jsonl]
+  next_action: commit
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
