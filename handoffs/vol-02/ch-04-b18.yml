@@ -29,6 +29,32 @@ source_package: work/vol-02/batches/ch-04-b18-source.jsonl
 source_package_sha256: d1199b9a4b42a902fc79cfa7c5e03891cb019eb4e3d7a0871422a7909b6d338b
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 827
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a132e8-f1d1-7800-a1c6-57a72b713689
+  segment_count: 27
+  validator: pass
+  diff_check: pass
+  findings: [one terminology uncertainty]
+  pending_term_count: 1
+  files_written: [translations/vol-02/ch-04-b18.jsonl]
+review_coordination:
+  triggered_by: [even_batch]
+  required: true
+  state: signoff_passed
+  review_counts: {serious: 0, moderate: 1, minor: 9}
+  unresolved_moderate: [M1]
+  follow_up_owner: translator-ch04-b18-review-fixes
+  coordinator_proposal: >-
+    At p000212 render supposedly deployed as “được cho là đã triển khai”; prefer “đơn vị Named” over a semantic translation for now (pending, non-canon); use “tôi” for the observer narrator p000199-p000211; preserve past counterfactual modality at p000221 and avoid implying the unit certainly disappeared.
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b18_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b18-claude.md
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +69,16 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000226
+
+  fix_report:
+    state: done
+    translator_session_id: 01a132ed-bc21-7b72-9d06-9e27910b8b33
+    findings_resolved_by_translator: [M1]
+    validator: pass
+    diff_check: pass
+  signoff_report: reviews/prose/vol-02/ch-04-b18-fixes-signoff-claude.md
+
+  signoff_report: reviews/prose/vol-02/ch-04-b18-fixes-signoff-claude.md
+  signoff_counts: {serious: 0, moderate: 0, minor: 3}
+  unresolved_serious: 0
+  unresolved_moderate: 0
