@@ -1,0 +1,18 @@
+task_id: vol-02-ch-06-b23-final-selfcheck-correction
+role: translator
+batch: vol-02-ch-06-b23
+translation: translations/vol-02/ch-06-b23.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b23-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b23-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-06-b23-source.jsonl
+source_package_sha256: 58d10ecd3c86a49f5af41f42932270d424bcbeb747fcda3a61c01da710602a4e
+ledger_sections: [chapter6_b23_translator_proposals, chapter6_b23_review_recommendations]
+findings:
+- {id: B23-SELF-C01, segment_id: YS-LN02/Text/part0030.xhtml/p000737, instruction: Update self-check finding resolution and pending choice to nhà nước gác đêm; keep earlier nhà nước chỉ lo giữ gìn trật tự only as superseded proposal history if needed; remove stale risk that would reject the current choice.}
+- {id: B23-SELF-C02, segment_id: YS-LN02/Text/part0030.xhtml/p000746, instruction: Update self-check finding resolution and pending choice to các gói đãi ngộ hậu hĩnh khi rời chức; keep dù vàng only as alternative; update stale risk.}
+- {id: B23-SELF-C03, segment_id: YS-LN02/Text/part0030.xhtml/p000744, instruction: Add separate pending/non-canon unit designation entry Aerial 203rd Mage Battalion → Tiểu đoàn Pháp sư trên không 203 with its alternative; distinguish it from mage.}
+constraints:
+- Use only the assigned b23 package, translation, self-check, b23 reports/handoffs and named ledger sections. Do not open EPUB/PDF or another source package.
+- Write only reviews/semantic/vol-02/ch-06-b23-self-check.md. Do not edit translation, ledger, handoff, canon or run-state; do not commit.
+- Run primary b23 validator and git diff --check after documentation update.
+status: ready

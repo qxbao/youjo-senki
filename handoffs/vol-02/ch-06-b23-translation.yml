@@ -1,0 +1,23 @@
+task_id: vol-02-ch-06-b23
+role: translator
+batch: vol-02-ch-06-b23
+primary_handoff: handoffs/vol-02/ch-06-b23.yml
+source_package: work/vol-02/batches/ch-06-b23-source.jsonl
+source_package_sha256: 58d10ecd3c86a49f5af41f42932270d424bcbeb747fcda3a61c01da710602a4e
+lease:
+  holder: translator
+  pane_id: w6:pK9
+  terminal_id: term_65dbfe097233d26d
+  agent_session_id: 01a13743-da86-7660-9b9b-9486109dfe24
+  checkpoint_generation: 1283
+allowlist:
+- translations/vol-02/ch-06-b23.jsonl
+- reviews/semantic/vol-02/ch-06-b23-self-check.md
+constraints:
+- Translate only assigned stable IDs p000709–p000751 from this package.
+- Do not open EPUB/PDF, another source package, or source outside this package.
+- Read only canon references named in primary handoff and relevant pending ledger sections.
+- Keep pending choices provisional and non-canon.
+- No commit, handoff/ledger/canon/run-state edits, or work outside allowlist.
+- Run python3 tools/validate_translation.py with primary b23 handoff and assigned package, then git diff --check.
+status: ready

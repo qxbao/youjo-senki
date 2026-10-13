@@ -1,0 +1,61 @@
+task_id: vol-02-ch-06-b23-review-fixes
+role: translator
+batch: vol-02-ch-06-b23
+translation: translations/vol-02/ch-06-b23.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b23-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b23-codex.md
+source_package: work/vol-02/batches/ch-06-b23-source.jsonl
+source_package_sha256: 58d10ecd3c86a49f5af41f42932270d424bcbeb747fcda3a61c01da710602a4e
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter6_b23_translator_proposals
+- chapter6_b23_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 3
+  minor: 0
+  low: 3
+  unresolved: 6
+findings:
+- id: B23-R01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000737
+  resolution: Use the temporary label nhà nước gác đêm and preserve the broader argument
+    about citizen protection; do not narrow it to internal order.
+- id: B23-R02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000744
+  resolution: Use Tiểu đoàn Pháp sư trên không 203; do not imply Air Force branch.
+    Preserve reported status, possession, and rear guard mission.
+- id: B23-R03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000742
+  resolution: 'Keep the question about how Tanya participates in the strategy; suggested
+    open wording: Thật đấy—bằng cách nào?'
+- id: B23-R04
+  severity: low
+  segment_id: YS-LN02/Text/part0030.xhtml/p000710
+  resolution: Avoid implying voluntary cooperation; prefer the wording in the review
+    report about acting as expected.
+- id: B23-R05
+  severity: low
+  segment_id: YS-LN02/Text/part0030.xhtml/p000718
+  resolution: Replace the repetitive phrase about spreading propaganda with the suggested
+    tung lời tuyên truyền phrasing.
+- id: B23-R06
+  severity: low
+  segment_id: YS-LN02/Text/part0030.xhtml/p000746
+  resolution: Prefer các gói đãi ngộ hậu hĩnh khi rời chức; alternative is gói đãi
+    ngộ dù vàng with quotation marks, supported by previous explanation.
+self_check_update: The self-check lists five pending choices while the ledger has
+  six; add mage as its own pending/non-canon entry for p000744. Preserve the reviewed
+  p000737 concept and p000744 unit designation decisions.
+term_choices: Apply reviewer choices from chapter6_b23_review_recommendations; all
+  remain pending/non-canon.
+constraints:
+- Use only assigned b23 package, translation, self-check, b23 reports/handoffs, named
+  canon and b23 ledger sections; never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-06-b23.jsonl and reviews/semantic/vol-02/ch-06-b23-self-check.md.
+  No ledger/handoff/canon/run-state edits or commit.
+- Run primary b23 validator/package and git diff --check.
+status: ready

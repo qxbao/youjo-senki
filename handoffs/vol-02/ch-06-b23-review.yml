@@ -1,0 +1,21 @@
+task_id: vol-02-ch-06-b23-review
+role: reviewer
+batch: vol-02-ch-06-b23
+translation: translations/vol-02/ch-06-b23.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b23-self-check.md
+source_package: work/vol-02/batches/ch-06-b23-source.jsonl
+source_package_sha256: 58d10ecd3c86a49f5af41f42932270d424bcbeb747fcda3a61c01da710602a4e
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter6_b23_translator_proposals
+review_flags: [new_pending_terms, political_concept, finance_idiom, emphasis, meaning]
+translator_focus:
+- p000737 night-watchman state rendered as a functional description; assess whether this preserves meaning without over-narrowing the concept.
+- p000746 golden parachutes may be unclear as dù vàng; assess readability and idiom while keeping choices provisional.
+- p000718/p000719/p000729 distinguish information, propaganda, and disinformation; verify consistency and meaning.
+- Verify emphasis and reported low findings at p000716, p000717, p000724, p000744.
+constraints:
+- Review only assigned b23 package, translation, self-check, primary handoff, this handoff, named canon and b23 ledger section. No EPUB/PDF or other source packages; no source sentence quotations.
+- Report findings using stable segment IDs, severity, evidence and resolution. Recommend temporary options with alternatives, all non-canon.
+- Write only reviews/prose/vol-02/ch-06-b23-codex.md.
+report_path: reviews/prose/vol-02/ch-06-b23-codex.md
+status: ready
