@@ -1,0 +1,8 @@
+# Tự kiểm ngữ nghĩa — vol-02-ch-05-b13
+
+- Đã giữ đủ 20 mã đoạn theo đúng thứ tự p000313–p000332; đoạn nhấn mạnh p000316 được đánh dấu nghiêng theo quy ước DEC-P01-002.
+- Điểm nhìn Tanya theo DEC-P01-001: “nó” trong trần thuật, “mình” trong độc thoại nội tâm. Các lời thoại giữ đại từ theo lượt nói, không tự xác định quan hệ thân thuộc.
+- Dùng các lựa chọn pending hiện hành một cách nhất quán: Rhine là địa danh, diễn đạt “các tuyến … ở Rhine” khi chỉ chiến tuyến; Empire là “Đế quốc”; Command là “Bộ chỉ huy”; Lieutenant Serebryakov là “Trung úy Serebryakov” theo đề xuất tạm gần nhất của chương. Đây đều chưa phải canon.
+- Đã rà các đối lập và quan hệ chính: muốn quay về nhưng vẫn tiến lên; tân binh chưa đủ huấn luyện/kinh nghiệm; đào tạo cấp tốc; giảm thiểu thương vong; thiệt hại có thể chỉ giới hạn ở người hành động liều lĩnh nhưng thường ảnh hưởng người khác. Câu cuối giữ ý họ không đáng bị trách vì hiện tượng sinh lý nhưng hành vi gây mất vệ sinh khiến người kể phát ngán.
+- Áp dụng các phương án tạm được giao: “thông báo lưu hành” ở p000320 và hồi chỉ “thông báo” ở p000321; “lớp ngụy trang màu xám theo quy định trang phục trong chiến hào” và “vùng đất giữa hai chiến tuyến” ở p000315; “lao động 3D (bẩn thỉu, nguy hiểm và hạ thấp phẩm giá)” ở p000316; “vị đại tá có vai vế ấy”, “Trung úy Serebryakov” và “cặn vôi” ở p000324; “tuyến đầu” ở p000328 chỉ cho ngữ cảnh này. Các lựa chọn còn pending, không phải canon; p000281 ở b11 giữ nguyên.
+- Rà lại p000324: cách nói về đun nước không thêm cơ chế lắng/lọc; vị cà phê được mô tả theo cảm nhận vị giác. Ở p000326, câu nói về cà phê hàm ý điều kiện sống tiền tuyến, không nói về địa vị hay nghĩa vụ.

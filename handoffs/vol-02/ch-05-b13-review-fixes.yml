@@ -1,0 +1,85 @@
+task_id: vol-02-ch-05-b13-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b13
+review_report: reviews/prose/vol-02/ch-05-b13-codex.md
+translation: translations/vol-02/ch-05-b13.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b13-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000315
+- YS-LN02/Text/part0026.xhtml/p000324
+- YS-LN02/Text/part0026.xhtml/p000326
+- YS-LN02/Text/part0026.xhtml/p000328
+review_findings:
+- id: R01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000324
+  proposed_resolution: Use Trung úy Serebryakov, following the chapter's nearest pending usage; do not infer a rank change.
+- id: R02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000326
+  proposed_resolution: Clarify that the line implies frontline conditions through the coffee; remove phrasing that suggests frontline status or obligation.
+- id: R03
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000324
+  proposed_resolution: Use cặn vôi; describe water as boiled to remove scale without inventing settling/filtration mechanics. Make coffee taste idiomatic.
+- id: R04
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000324
+  proposed_resolution: Use vị đại tá có vai vế ấy; do not add a specific office or rank beyond đại tá.
+- id: R05
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000315
+  proposed_resolution: Use vùng đất giữa hai chiến tuyến to preserve the military location.
+- id: R06
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000328
+  proposed_resolution: For this occurrence, use tuyến đầu; keep b11's separate tuyến hỏa lực proposal pending and non-canon because context may differ.
+coordinator_term_choices:
+- source_term: circulating notice
+  proposed_vi: thông báo lưu hành
+  alternative_vi: công văn lưu chuyển
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000320, YS-LN02/Text/part0026.xhtml/p000321]
+  rationale: Less administratively specific; update the anaphoric noun consistently.
+- source_term: gray camouflage of the trench dress code
+  proposed_vi: lớp ngụy trang màu xám theo quy định trang phục trong chiến hào
+  alternative_vi: trang phục ngụy trang màu xám theo quy định trong chiến hào
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000315]
+  rationale: Keep color with camouflage without specifying uniform type.
+- source_term: 3D labor
+  proposed_vi: lao động 3D (bẩn thỉu, nguy hiểm và hạ thấp phẩm giá)
+  alternative_vi: công việc 3D (bẩn thỉu, nguy hiểm và làm mất phẩm giá)
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000316]
+  rationale: Preserve all three connotations; remain provisional.
+- source_term: firing line
+  proposed_vi: tuyến đầu
+  alternative_vi: tuyến hỏa lực
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000328]
+  status: pending
+  rationale: Context-specific provisional choice for location/conditions; b11 p000281 remains a separate pending use.
+- source_term: Lieutenant Serebryakov
+  proposed_vi: Trung úy Serebryakov
+  alternative_vi: Sĩ quan cấp úy Serebryakov
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000324]
+  rationale: Follow nearest chapter proposal; no rank escalation inferred.
+- source_term: chalk
+  proposed_vi: cặn vôi
+  alternative_vi: chất vôi trong nước
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000324]
+  rationale: Fit water/coffee context without asserting a physical process.
+- source_term: important colonel
+  proposed_vi: vị đại tá có vai vế ấy
+  alternative_vi: vị khách quan trọng mang quân hàm đại tá
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000324]
+  rationale: Convey the guest's importance naturally without inventing office.
+- source_term: no-man’s-land
+  proposed_vi: vùng đất giữa hai chiến tuyến
+  alternative_vi: vùng đất trống giữa hai chiến tuyến
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000315]
+  rationale: Keep the military position clear.
+allowlist:
+- translations/vol-02/ch-05-b13.jsonl
+- reviews/semantic/vol-02/ch-05-b13-self-check.md
+files_written: []
+commit: null
+status: ready
