@@ -29,6 +29,44 @@ source_package: work/vol-02/batches/ch-04-b12-source.jsonl
 source_package_sha256: 25b8fbc5e9dc2c900793b4a6fe969ec6814ade29969a42e8c03c435abfc251a4
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 788
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  prior_attempt: blocked_no_changes_no_translation_written
+  prior_attempt_session_id: 01a13293-6d6f-7841-b324-55e09a2e7023
+  translator_session_id: 01a13293-6d6f-7841-b324-55e09a2e7023
+  segment_count: 31
+  validator: pass
+  diff_check: pass
+  findings: [4 minor terminology notes]
+  pending_term_count: 4
+  files_written: [translations/vol-02/ch-04-b12.jsonl]
+review_coordination:
+  triggered_by: [even_batch]
+  required: true
+  state: signoff_passed
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b12_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b12-claude.md
+  review_counts: {serious: 0, moderate: 3, minor: 10}
+  unresolved_moderate: [M1, M2, M3]
+  follow_up_owner: translator-ch04-b12-review-fixes
+  coordinator_proposals:
+    M1: >-
+      Restore direct interior thought at p000040, italicized as required by DEC-P01-002;
+      render the thought literally and keep the attribution outside the italic span.
+    M2: >-
+      Restore the interior thought at p000053 and italicize the thought text per DEC-P01-002;
+      use “mình” for Tanya's self-reference.
+    M3: >-
+      Use “nó” for third-person narration about Tanya at p000040, p000044, and p000050,
+      applying DEC-P01-001 consistently with the latest reviewed chapter-4 narrative voice.
+      Keep this as a provisional LN02 application, not a canon change.
+  minor_findings_recorded_only: true
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +81,15 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000057
+
+  fix_report:
+    state: done
+    translator_session_id: 01a1329a-91ad-7511-9112-6510766ad84a
+    findings_resolved_by_translator: [M1, M2, M3]
+    validator: pass
+    diff_check: pass
+  signoff_report: reviews/prose/vol-02/ch-04-b12-fixes-signoff-claude.md
+
+  signoff_counts: {serious: 0, moderate: 0, minor: 10}
+  unresolved_serious: 0
+  unresolved_moderate: 0
