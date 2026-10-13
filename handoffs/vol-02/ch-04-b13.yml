@@ -29,6 +29,38 @@ source_package: work/vol-02/batches/ch-04-b13-source.jsonl
 source_package_sha256: ac6760b0fea43e0275a009ed80760f8c9af6b35b46a9554d101347e5f467475f
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 793
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a1329e-1235-72d0-bfec-93eda70327be
+  segment_count: 22
+  validator: pass
+  diff_check: pass
+  findings: []
+  pending_term_count: 6
+  files_written: [translations/vol-02/ch-04-b13.jsonl]
+review_coordination:
+  triggered_by: [new_pending_terms]
+  required: true
+  state: reviewed_passed
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b13_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b13-claude.md
+  review_counts: {serious: 0, moderate: 0, minor: 5}
+  unresolved_serious: 0
+  unresolved_moderate: 0
+  follow_up_owner: translator-ch04-b13-term-alignment
+  coordinator_proposals:
+    F1: Use “Biển Bắc” in p000065, matching the existing provisional proper-name map.
+    F2: Use “Khối Thịnh vượng chung” in p000076, matching the pending ledger capitalization.
+    F3: Restrict p000078 italics to “này”; preserve the other source-matched emphasis.
+    principle_of_legality: Use “nguyên tắc pháp chế” at p000069 as the provisional form.
+    maritime_court: Use “tòa án hàng hải” at p000069 as the provisional form.
+  minor_findings_recorded_only: [F4, F5]
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +75,11 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000079
+
+  term_alignment_report:
+    state: done
+    translator_session_id: 01a132a2-f753-75e0-8b05-94e925313c67
+    validator: pass
+    diff_check: pass
+    minor_findings_resolved: [F1, F2, F3]
+    minor_findings_open: [F4, F5]
