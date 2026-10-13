@@ -1,0 +1,95 @@
+task_id: vol-02-ch-05-b16-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b16
+review_report: reviews/prose/vol-02/ch-05-b16-codex.md
+translation: translations/vol-02/ch-05-b16.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b16-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000388
+- YS-LN02/Text/part0026.xhtml/p000389
+- YS-LN02/Text/part0026.xhtml/p000391
+- YS-LN02/Text/part0026.xhtml/p000394
+- YS-LN02/Text/part0026.xhtml/p000395
+- YS-LN02/Text/part0026.xhtml/p000397
+- YS-LN02/Text/part0026.xhtml/p000398
+- YS-LN02/Text/part0026.xhtml/p000401
+- YS-LN02/Text/part0026.xhtml/p000402
+- YS-LN02/Text/part0026.xhtml/p000403
+review_findings:
+- id: F01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000388
+  related_segment_ids: [YS-LN02/Text/part0026.xhtml/p000389, YS-LN02/Text/part0026.xhtml/p000394, YS-LN02/Text/part0026.xhtml/p000395, YS-LN02/Text/part0026.xhtml/p000397]
+  proposed_resolution: Use Tanya/repeated name, omit subject, or provisional nó in narration; reserve mình for interior self-reference. Keep dialogue pronouns as addressed.
+- id: F02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000394
+  proposed_resolution: Make the battalion commanders under Tanya the subject who prepare for the night attack and consult with the commander of the recruits.
+- id: F03
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000395
+  proposed_resolution: Use đường sắt nhẹ; do not infer narrow gauge.
+- id: F04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000398
+  related_segment_ids: [YS-LN02/Text/part0026.xhtml/p000401]
+  proposed_resolution: Use thuật thức gây nhiễu at both occurrences, following the closest same-term pending entry; do not add a mechanism.
+- id: F05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000401
+  proposed_resolution: Keep the full retreat-and-area-bombing scenario conditional; prefer generic oanh kích because package does not identify weapon.
+- id: F06
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000402
+  proposed_resolution: Use “À, hoặc ta có thể chỉ phải hứng hỏa lực ngăn chặn của súng máy.” Preserve possibility and receiving-side framing.
+- id: F07
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000391
+  proposed_resolution: Restore plural “chúng tôi trông cậy vào cô đấy”; do not name an organization.
+- id: F08
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000403
+  proposed_resolution: Use four different positions, not directions; retain feint, four companies, and no reserves.
+coordinator_term_choices:
+- source_term: interference formulas
+  proposed_vi: thuật thức gây nhiễu
+  alternative_vi: công thức gây nhiễu
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000398, YS-LN02/Text/part0026.xhtml/p000401]
+  rationale: Follow closest same-term pending usage in ledger, without adding mechanism.
+- source_term: light railway
+  proposed_vi: đường sắt nhẹ
+  alternative_vi: đường sắt khổ hẹp
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000395]
+  rationale: Literal, does not infer track gauge.
+- source_term: batman
+  proposed_vi: lính hầu
+  alternative_vi: quân hầu
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000394]
+  rationale: Role-level provisional term; don't upgrade to aide-de-camp.
+- source_term: checking machine-gun fire
+  proposed_vi: hỏa lực ngăn chặn của súng máy
+  alternative_vi: hỏa lực kiềm chế của súng máy
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000402]
+  rationale: Context supports receiving suppressive/interdicting fire; avoid inferring a doctrine.
+- source_term: instructor unit
+  proposed_vi: đơn vị huấn luyện
+  alternative_vi: đơn vị phụ trách huấn luyện
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000388]
+  rationale: Retain existing functional term, no organization level added.
+- source_term: new recruits
+  proposed_vi: tân binh
+  alternative_vi: lính mới
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000388, YS-LN02/Text/part0026.xhtml/p000394, YS-LN02/Text/part0026.xhtml/p000398]
+  rationale: Keep this distinct from replacement troops where context identifies recruits.
+- source_term: no-man’s-land
+  proposed_vi: vùng đất giữa hai chiến tuyến
+  alternative_vi: vùng đất trống giữa hai chiến tuyến
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000398]
+  rationale: Inherited pending term; retain military location.
+allowlist:
+- translations/vol-02/ch-05-b16.jsonl
+- reviews/semantic/vol-02/ch-05-b16-self-check.md
+files_written: []
+commit: null
+status: ready

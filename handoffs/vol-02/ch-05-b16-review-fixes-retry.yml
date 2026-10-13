@@ -1,0 +1,42 @@
+task_id: vol-02-ch-05-b16-review-fixes-retry
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b16
+review_report: reviews/prose/vol-02/ch-05-b16-final-signoff-codex.md
+original_review: reviews/prose/vol-02/ch-05-b16-codex.md
+translation: translations/vol-02/ch-05-b16.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b16-self-check.md
+source_package: work/vol-02/batches/ch-05-b16-source.jsonl
+source_package_sha256: d1c4792e7a846a626620b61d23c7310e956ee283e703192a41c83fcb5fd24c22
+review_findings:
+- id: F01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000388
+  related_segment_ids: [YS-LN02/Text/part0026.xhtml/p000389, YS-LN02/Text/part0026.xhtml/p000394, YS-LN02/Text/part0026.xhtml/p000395, YS-LN02/Text/part0026.xhtml/p000397]
+  proposed_resolution: "Apply handoff's narration option consistently at all remaining cô/nó/mình narration instances: repeat Tanya or omit subject, or provisional nó. Keep mình only in interior self-reference and keep dialogue pronouns unchanged."
+- id: F05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000401
+  proposed_resolution: "Put retreat and the subsequent area bombing under one possibility: “có thể xảy ra chuyện đối phương rút lui rồi cả khu vực bị oanh kích bừa bãi”; do not leave “còn ... sẽ ...” as a certain consequence. Preserve “ngay khi thi triển”."
+- id: F09
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000395
+  proposed_resolution: "Match the XHTML em span by italicizing only “Nhưng mà…”; leave neighboring narration unchanged."
+- id: F10
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000398
+  proposed_resolution: "Remove repeated “giữa” with a natural phrase such as “ngay tại vùng đất giữa hai chiến tuyến”; keep location and meaning."
+- id: SELF-CHECK
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000380
+  proposed_resolution: "Correct only the self-check attribution: Tanya asks the colonel what he wants to say. The saved translation is already correct; do not alter it."
+verification_required:
+- Edit the exact saved workspace files, then reopen translations/vol-02/ch-05-b16.jsonl and verify F01 at every related segment, F05, F09, and F10.
+- Reopen self-check and confirm no completion claim contradicts saved JSONL; fix the p000380 attribution note.
+- Run the batch validator and git diff --check after edits.
+allowlist:
+- translations/vol-02/ch-05-b16.jsonl
+- reviews/semantic/vol-02/ch-05-b16-self-check.md
+files_written: []
+commit: null
+status: ready
