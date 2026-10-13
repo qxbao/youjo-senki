@@ -1,0 +1,23 @@
+task_id: vol-02-ch-06-b13-final-signoff-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b13
+translation: translations/vol-02/ch-06-b13.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b13-self-check.md
+signoff_report: reviews/prose/vol-02/ch-06-b13-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-06-b13-source.jsonl
+source_package_sha256: d2f3d4e413de55741c9c87520bc552ec12ee70ace95601d7fd73cdf966d59562
+finding: B13-R01
+severity: moderate
+segment_ids: [YS-LN02/Text/part0030.xhtml/p000416]
+resolution: >-
+  Align the opening connector phrase with the emphasized span in the assigned
+  package. Preserve all other reviewed wording and the remaining emphasis edges.
+  Update the self-check to state that the full span, including its connector,
+  matches the source package. Keep DEC-P01-002 and do not add emphasis elsewhere.
+constraints:
+- Use only the assigned b13 package and the b13 handoff/review/self-check/translation; do not open EPUB/PDF or other packages.
+- Write only translations/vol-02/ch-06-b13.jsonl and reviews/semantic/vol-02/ch-06-b13-self-check.md.
+- Do not edit prose reports, handoffs, canon, ledger or run-state; do not commit or dispatch.
+- Run python3 tools/validate_translation.py with the primary b13 batch handoff and assigned package, plus git diff --check.
+status: ready

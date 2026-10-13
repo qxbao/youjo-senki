@@ -1,0 +1,13 @@
+task_id: vol-02-ch-06-b13-review-report-format-fix
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b13
+report: reviews/prose/vol-02/ch-06-b13-codex.md
+source_package: work/vol-02/batches/ch-06-b13-source.jsonl
+source_package_sha256: d2f3d4e413de55741c9c87520bc552ec12ee70ace95601d7fd73cdf966d59562
+change: Remove only the extra trailing blank line at EOF reported by git diff --cached --check. Preserve every report character before the final newline. Do not read any source package or other source text; source verification is unnecessary for this formatting correction.
+constraints:
+- Reviewer owns this report and may edit only this file.
+- Do not alter findings, wording, terms, or any other path.
+- Return YAML confirming the single whitespace cleanup and commit: null.
+status: ready

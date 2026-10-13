@@ -1,0 +1,41 @@
+task_id: vol-02-ch-06-b13-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b13
+translation: translations/vol-02/ch-06-b13.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b13-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b13-codex.md
+source_package: work/vol-02/batches/ch-06-b13-source.jsonl
+source_package_sha256: d2f3d4e413de55741c9c87520bc552ec12ee70ace95601d7fd73cdf966d59562
+review_counts: {serious: 0, moderate: 6, minor: 1, unresolved: 7}
+segment_ids:
+- YS-LN02/Text/part0030.xhtml/p000387
+- YS-LN02/Text/part0030.xhtml/p000391
+- YS-LN02/Text/part0030.xhtml/p000393
+- YS-LN02/Text/part0030.xhtml/p000398
+- YS-LN02/Text/part0030.xhtml/p000399
+- YS-LN02/Text/part0030.xhtml/p000400
+- YS-LN02/Text/part0030.xhtml/p000401
+- YS-LN02/Text/part0030.xhtml/p000402
+- YS-LN02/Text/part0030.xhtml/p000403
+- YS-LN02/Text/part0030.xhtml/p000404
+- YS-LN02/Text/part0030.xhtml/p000405
+- YS-LN02/Text/part0030.xhtml/p000407
+- YS-LN02/Text/part0030.xhtml/p000411
+- YS-LN02/Text/part0030.xhtml/p000413
+- YS-LN02/Text/part0030.xhtml/p000414
+- YS-LN02/Text/part0030.xhtml/p000416
+accepted_resolutions:
+- B13-R01: Restore emphasis corresponding to the assigned package and DEC-P01-002 at p000391, p000393, p000398, p000399, p000404, p000407, p000411, p000413, p000414 and p000416. Apply only the sentence or phrase boundaries listed in reviews/prose/vol-02/ch-06-b13-codex.md.
+- B13-R02 p000387: use “khuynh hướng suy nghĩ trong trạng thái kích động”; preserve the causal link, avoid adding impatience.
+- B13-R03 p000400: change the question to ask whether the action is difficult, not whether it is hard to understand; use “Liệu việc đó có khó đến thế không? Grantz vẫn chưa thực sự hiểu.” or the listed low-inference alternative.
+- B13-R04 p000402-p000403: restore that Grantz finds Weiss’s expression strange, identify Weiss as the person inhaling, preserve preparation-for-what question, and retain the reported temporary rank without inventing a title.
+- B13-R05 p000401 and p000417: use “lính bổ sung” for replacement forces at p000401; retain “tân binh” at p000417. This is a contextual provisional distinction, not canon.
+- B13-R06 p000416: restore Grantz’s first-person internal question and translate the feeling as something not fitting/right rather than interpersonal discord; apply the specified emphasis to the last inner question.
+- B13-R07 p000405: express that obtaining/being granted the exemption is routine, not merely that someone requested one.
+term_choices: handoffs/vol-02/ch-06-b13-review.yml plus ledger chapter6_b13_review_recommendations; apply consistently, all pending/non-canon.
+constraints:
+- Read only assigned package, b13 handoffs, review report, current translation/self-check, and named canon/pending inputs. Never open an EPUB/PDF or any other source package.
+- Write only translations/vol-02/ch-06-b13.jsonl and reviews/semantic/vol-02/ch-06-b13-self-check.md. Do not edit reviews/prose, handoffs, canon, ledger or run-state. Do not commit or dispatch.
+- Run python3 tools/validate_translation.py with the primary handoff handoffs/vol-02/ch-06-b13.yml and assigned package; also git diff --check.
+status: ready
