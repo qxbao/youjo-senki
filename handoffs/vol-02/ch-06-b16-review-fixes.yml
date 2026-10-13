@@ -1,0 +1,38 @@
+task_id: vol-02-ch-06-b16-review-fixes
+volume: vol-02
+chapter: 6
+batch: vol-02-ch-06-b16
+translation: translations/vol-02/ch-06-b16.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b16-self-check.md
+review_report: reviews/prose/vol-02/ch-06-b16-codex.md
+source_package: work/vol-02/batches/ch-06-b16-source.jsonl
+source_package_sha256: c4e7416296680421de9b4e6c93a90e7a5f5c7f25c299eec8804f1ca203d974ca
+review_counts: {serious: 0, moderate: 6, minor: 3, unresolved: 9}
+segment_ids:
+- YS-LN02/Text/part0030.xhtml/p000479
+- YS-LN02/Text/part0030.xhtml/p000480
+- YS-LN02/Text/part0030.xhtml/p000481
+- YS-LN02/Text/part0030.xhtml/p000482
+- YS-LN02/Text/part0030.xhtml/p000493
+- YS-LN02/Text/part0030.xhtml/p000505
+- YS-LN02/Text/part0030.xhtml/p000507
+- YS-LN02/Text/part0030.xhtml/p000508
+- YS-LN02/Text/part0030.xhtml/p000509
+accepted_resolutions:
+- {"id": "B16-F01", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000479", "resolution": "Use “đợt phản công có quy mô ngoài dự liệu” and “hỏa lực được tổ chức bài bản”; preserve that evasion succeeded and that speed/mobility alone cannot overcome the fire positions."}
+- {"id": "B16-F02", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000480", "resolution": "Restore emphasis around the entire inner-thought passage with *...*; preserve hypothetical modality and the possibility of trouble."}
+- {"id": "B16-F03", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000481", "resolution": "Remove unsupported dosage form and “một viên”; use “Cho tôi xin ít thuốc bổ được không?” or “Cho tôi xin thuốc bổ được không?”. Optionally use “mệt lạ thường” for unusual tiredness."}
+- {"id": "B16-F04", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000482", "resolution": "Restore simultaneity: “Trong lúc nó đang suy nghĩ, giọng nói mệt mỏi của Trung úy Weiss vang lên qua radio…”. Keep “mình” in the inner thought about the deputy commander; do not add emphasis."}
+- {"id": "B16-F05", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000493", "resolution": "Use local Tanya narration pronoun “nó” consistently; retain “anh” for Weiss. Preserve “seems”/uncertainty about campaign and attainable Ace level; do not state Ace of Aces is already achieved."}
+- {"id": "B16-F06", "severity": "minor", "segment_id": "YS-LN02/Text/part0030.xhtml/p000505", "resolution": "Use “Với tư cách một con người, làm vậy chẳng hay ho gì. Xét về mặt logic, tiêu diệt họ sẽ dễ hơn…”; keep Tanya’s self-justifying humane claim and concern about innocents without narrator confirmation."}
+- {"id": "B16-F07", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000507", "resolution": "Emphasize only the final inner question; provisionally change “cậu” to “anh” for Weiss as the intended thought target, not spoken dialogue."}
+- {"id": "B16-F08", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000508", "resolution": "Use two separate emphasized spans: “*Chà, mình không thích chuyện này*, nó tự giễu, *nhưng hoàn cảnh đòi hỏi phe thân Cộng hòa ở Arene phải chết.*” Preserve narration boundary and use a neutral faction reference."}
+- {"id": "B16-F09", "severity": "moderate", "segment_id": "YS-LN02/Text/part0030.xhtml/p000509", "resolution": "Use “Mình chỉ tham gia theo nghĩa rộng thôi. Mình chỉ chẳng làm gì, như ba con khỉ thông thái kia: không thấy điều ác, không nghe điều ác, không nói điều ác.” Preserve non-action, not deliberate ignoring, and Tanya’s self-exculpating tone."}
+
+term_choices: Apply all eight term_recommendations in the reviewer report; ledger chapter6_b16_review_recommendations records the same eight temporary proposals with alternatives and rationale. Keep non-canon.
+self_check: Correct all b16 risk/findings and pending choices to match the final translation; do not include source prose.
+constraints:
+- Read only assigned b16 package, handoffs, review report, current translation/self-check, and named canon/pending inputs. Never open EPUB/PDF or another package.
+- Write only translations/vol-02/ch-06-b16.jsonl and reviews/semantic/vol-02/ch-06-b16-self-check.md. No reports, handoffs, canon, ledger or run-state edits. No commit/dispatch.
+- Run python3 tools/validate_translation.py with primary b16 handoff/package and git diff --check.
+status: ready
