@@ -1,0 +1,131 @@
+task_id: vol-02-ch-05-b20-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b20
+review_report: reviews/prose/vol-02/ch-05-b20-codex.md
+translation: translations/vol-02/ch-05-b20.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b20-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000497
+- YS-LN02/Text/part0026.xhtml/p000508
+- YS-LN02/Text/part0026.xhtml/p000509
+- YS-LN02/Text/part0026.xhtml/p000510
+- YS-LN02/Text/part0026.xhtml/p000511
+- YS-LN02/Text/part0026.xhtml/p000529
+- YS-LN02/Text/part0026.xhtml/p000514
+- YS-LN02/Text/part0026.xhtml/p000516
+- YS-LN02/Text/part0026.xhtml/p000530
+- YS-LN02/Text/part0026.xhtml/p000534
+review_findings:
+- id: B20-F01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000497
+  resolution: 'Restore past hypothetical: “Nếu lúc ấy tôi bị bỏ mặc như thế, không biết chuyện gì đã có thể xảy ra với tôi.” Do not imply outcome occurred.'
+- id: B20-F02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000508
+  - YS-LN02/Text/part0026.xhtml/p000509
+  - YS-LN02/Text/part0026.xhtml/p000510
+  - YS-LN02/Text/part0026.xhtml/p000511
+  - YS-LN02/Text/part0026.xhtml/p000529
+  resolution: At p000508–p000511 prefer Tanya’s name or omit pronouns when clear. At p000529 keep “mình” only inside the interior thought, then use Tanya or omit the subject in the following narration; do not use “cô” there. Keep p000496–p000504 narrator unchanged and keep the letter/first-person voice p000530–p000534 distinct.
+- id: B20-F03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000534
+  resolution: 'Preserve who laughs at whom: “Ý tôi là, một sĩ quan để mất binh sĩ vì khoai tây hỏng thì người ta chỉ có thể cười nhạo thôi.” Keep “Không, chẳng buồn cười chút nào.”'
+- id: B20-F04
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000514
+  resolution: Replace “cấp trên trực tiếp” with “cấp trên của anh ấy”; no direct-supervisor relation is established.
+- id: B20-F05
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000516
+  resolution: Use “trong một nhiệm vụ tác chiến” (alternative “trong một hoạt động quân sự”); keep sudden illness and long-term serviceability assessment, do not rewrite the potato explanation as medical causation.
+- id: B20-F06
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000514
+  related_segment_id: YS-LN02/Text/part0026.xhtml/p000526
+  resolution: Use “Thiếu tá Pháp sư” at both occurrences, following nearest chapter review recommendation; keep pending and non-canon.
+- id: B20-F07
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000530
+  resolution: Use “màn bảo hộ” consistently with the earlier p000362 choice; keep distinct from “lớp vỏ phòng ngự”; add no mechanism.
+coordinator_term_choices:
+- source_term: computation orb
+  proposed_vi: quả cầu tính toán
+  alternative_vi: cầu tính toán
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000500
+  rationale: Functional but provisional; reviewer choice in original report.
+- source_term: Magic Major
+  proposed_vi: Thiếu tá Pháp sư
+  alternative_vi: Thiếu tá ma pháp
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000514
+  - YS-LN02/Text/part0026.xhtml/p000526
+  rationale: Follow nearest chapter reviewer choice for consistency, pending/non-canon.
+- source_term: Warrant Officer
+  proposed_vi: Chuẩn úy
+  alternative_vi: Sĩ quan chuẩn úy
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000513
+  rationale: Rank mapping remains provisional.
+- source_term: Field Service Badge First Class
+  proposed_vi: Huy hiệu Phục vụ Chiến trường Hạng Nhất
+  alternative_vi: Huy hiệu Dã chiến Hạng Nhất
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000523
+  rationale: Literal description/rank, pending title normalization.
+- source_term: Disability Medal
+  proposed_vi: Huân chương Thương tật
+  alternative_vi: Huy chương Thương tật
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000523
+  rationale: Keep ledger choice; do not infer battle injury.
+- source_term: NBC weapon
+  proposed_vi: vũ khí NBC
+  alternative_vi: vũ khí hạt nhân, sinh học, hóa học
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000530
+  rationale: Preserve acronym scope as source has it; pending/non-canon.
+- source_term: surgeon
+  proposed_vi: bác sĩ quân y
+  alternative_vi: bác sĩ phẫu thuật
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000516
+  - YS-LN02/Text/part0026.xhtml/p000531
+  rationale: Context is military assessment, with no surgery shown; both remain pending.
+- source_term: Personnel Division
+  proposed_vi: Cục Nhân sự
+  alternative_vi: bộ phận Nhân sự
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000518
+  - YS-LN02/Text/part0026.xhtml/p000533
+  rationale: Keep prior local usage for consistency; do not promote organization level.
+- source_term: protective films
+  proposed_vi: màn bảo hộ
+  alternative_vi: màng bảo hộ
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000530
+  rationale: Match prior batch proposal; distinct from defensive shell.
+- source_term: medical formula
+  proposed_vi: thuật thức trị liệu
+  alternative_vi: thuật thức y thuật
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000530
+  rationale: Express treatment function but preserve limited pain relief, not cure.
+- source_term: Grantz narration/voice
+  proposed_vi: Preserve narrator “tôi” p496-p504; Grantz uses “anh” in third-person narration, “mình” in interior thought, “tôi/chúng tôi” for first-person letter/narration p530-p534.
+  alternative_vi: Omit subject when clear.
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000496
+  - YS-LN02/Text/part0026.xhtml/p000508
+  - YS-LN02/Text/part0026.xhtml/p000530
+  rationale: Keep viewpoint boundaries distinct; choices pending where no canon exists.
+allowlist:
+- translations/vol-02/ch-05-b20.jsonl
+- reviews/semantic/vol-02/ch-05-b20-self-check.md
+files_written: []
+commit: null
+status: done
