@@ -1,0 +1,111 @@
+task_id: vol-02-ch-05-b23-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b23
+review_report: reviews/prose/vol-02/ch-05-b23-codex.md
+translation: translations/vol-02/ch-05-b23.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b23-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000588
+- YS-LN02/Text/part0026.xhtml/p000589
+- YS-LN02/Text/part0026.xhtml/p000590
+- YS-LN02/Text/part0026.xhtml/p000593
+- YS-LN02/Text/part0026.xhtml/p000598
+- YS-LN02/Text/part0026.xhtml/p000603
+- YS-LN02/Text/part0026.xhtml/p000605
+- YS-LN02/Text/part0026.xhtml/p000614
+- YS-LN02/Text/part0026.xhtml/p000616
+- YS-LN02/Text/part0026.xhtml/p000617
+review_findings:
+- id: B23-F01
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000588
+  coordinator_resolution: Add quotation marks around the whole direct-speech segment; preserve the existing meaning and its
+    contrast between avoiding failure and ultimately remaining.
+- id: B23-F02
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000589
+  coordinator_resolution: Use “một thành viên bộ phận Tác chiến”; do not establish a department level or rank.
+- id: B23-F03
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000590
+  coordinator_resolution: Use “đánh bại và giày xéo kẻ địch”; retain “có lẽ” and the closing rejection.
+- id: B23-F04
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000593
+  coordinator_resolution: Use “Zettour đáp bằng những lời thẳng thừng, gây chấn động như một quả bom.” Keep the question’s
+    two opposing ideas and its initial emphasis.
+- id: B23-F05
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000598
+  coordinator_resolution: Use “cô bé Degurechaff ấy” in this interior question; retain the question about scope of prediction
+    and its italic span. Keep this local and provisional.
+- id: B23-F06
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000603
+  coordinator_resolution: Use “Giờ đây, ông cảm thấy…” rather than “Giờ ông mới hiểu”; do not raise confidence or imply first
+    understanding.
+- id: B23-F07
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000605
+  coordinator_resolution: 'Restore progression: bloodshed would not only be futile but also push the situation in a disadvantageous
+    direction. Keep it hypothetical; do not add geographic direction.'
+- id: B23-F08
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000614
+  coordinator_resolution: 'Use: “Ông không biết khi nào, nhưng biết họ rồi sẽ chấp nhận kế hoạch vì giá trị quân sự của nó;
+    chỉ về mặt tình cảm là họ không thể chấp nhận.” Preserve military/emotional contrast, not that they will like it.'
+- id: B23-F09
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000616
+  coordinator_resolution: Use “rất có thể”; keep the entire interior segment italicized and the bitter self-responsibility
+    viewpoint.
+- id: B23-F10
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000617
+  coordinator_resolution: Use “tìm đường thoát bằng cách tiến lên”; preserve the paradox and do not imply panic or a specific
+    withdrawal maneuver.
+coordinator_term_choices:
+- source_term: field army
+  proposed_vi: đạo quân dã chiến
+  alternative_vi: lực lượng dã chiến / tập đoàn quân dã chiến
+  rationale: Giữ đối tượng quân địch, không định cấp biên chế.
+  status: pending_non_canon
+- source_term: revolving door
+  proposed_vi: cánh cửa xoay
+  alternative_vi: cửa xoay / thế cửa xoay
+  rationale: Giữ hình ảnh literal; không suy cơ chế thay quân hoặc bao vây.
+  status: pending_non_canon
+- source_term: bloodletting / bleed the enemy
+  proposed_vi: khiến địch đổ máu
+  alternative_vi: tiêu hao sinh lực địch / làm địch tổn thất
+  rationale: Giữ hình ảnh chiến tranh tiêu hao nhất quán, không suy diệt tức thì.
+  status: pending_non_canon
+- source_term: staffers
+  proposed_vi: sĩ quan tham mưu
+  alternative_vi: cán bộ tham mưu / nhân viên tham mưu
+  rationale: Ngữ cảnh họp quân sự hỗ trợ cách gọi tạm; không chốt quân hàm/chức vụ.
+  status: pending_non_canon
+- source_term: that girl / young girl referring to Degurechaff
+  proposed_vi: cô bé Degurechaff ấy
+  alternative_vi: Cô Degurechaff ấy / Degurechaff ấy
+  segment_ids:
+  - YS-LN02/Text/part0026.xhtml/p000598
+  status: pending
+  rationale: Giữ tuổi trẻ trong điểm nhìn kinh ngạc của Zettour nhưng tránh sắc thái suồng sã của cô nhóc; lựa chọn chỉ áp
+    dụng tại câu nội tâm này.
+allowlist:
+- translations/vol-02/ch-05-b23.jsonl
+- reviews/semantic/vol-02/ch-05-b23-self-check.md
+status: done
+commit: null
