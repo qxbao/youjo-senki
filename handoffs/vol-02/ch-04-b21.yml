@@ -29,6 +29,32 @@ source_package: work/vol-02/batches/ch-04-b21-source.jsonl
 source_package_sha256: 97e2ffe31142f170316bf16c5d799d203c6961767b9a11eb51d2629cef9f339f
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 845
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13306-88d2-73f0-a525-e6bb65609968
+  segment_count: 34
+  validator: pass
+  diff_check: pass
+  findings: [low terminology notes]
+  pending_term_count: 6
+  files_written: [translations/vol-02/ch-04-b21.jsonl]
+review_coordination:
+  triggered_by: [risk_flags]
+  required: false
+  state: signoff_passed
+  review_counts: {serious: 0, moderate: 4, minor: 8}
+  unresolved_moderate: [M1, M2, M3, M4]
+  follow_up_owner: translator-ch04-b21-review-fixes
+  coordinator_proposal: >-
+    Fix M1-M4 on p000288, p000294, p000295, p000298 according to the source-grounded review recommendations.
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b21_translation_proposals
+  review_report: reviews/prose/vol-02/ch-04-b21-claude.md
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +69,16 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000312
+
+  fix_report:
+    state: done
+    translator_session_id: 01a1330c-8088-7551-92b4-78a574dbb28f
+    findings_resolved_by_translator: [M1, M2, M3, M4]
+    validator: pass
+    diff_check: pass
+  signoff_report: reviews/prose/vol-02/ch-04-b21-fixes-signoff-claude.md
+
+  signoff_report: reviews/prose/vol-02/ch-04-b21-fixes-signoff-claude.md
+  signoff_counts: {serious: 0, moderate: 0, minor: 0}
+  unresolved_serious: 0
+  unresolved_moderate: 0
