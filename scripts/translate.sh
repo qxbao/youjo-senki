@@ -65,11 +65,19 @@ try:
     assert c['checkpoint']['compact_on_context_warning'] is True and c['checkpoint']['summary_max_words'] == 500, 'context/summary policy invalid'
     required = {'validator_failure', 'diff_check_failure', 'unresolved_serious_error', 'out_of_scope_git_change', 'agent_or_herdr_failure', 'plot_affecting_canon_decision', 'preparation_required'}
     assert required <= set(c['hard_stops']), 'missing hard-stop policy'
-    r = c['runtime']; a = r['codex']
-    assert a == {'launcher_alias': 'codex-personal', 'via': 'ai-isolator', 'source_rc': '~/.zshrc', 'model': 'gpt-6-luna', 'effort': 'medium', 'sandbox': 'danger-full-access', 'approval_policy': 'never'}, 'Codex launcher/model/effort/permissions invalid'
+    r = c['runtime']
+    for role, model in (('codex', 'gpt-6-luna'), ('reviewer', 'gpt-6.1-sol')):
+        a = r[role]
+        expected = {'launcher_alias': 'codex-personal', 'via': 'ai-isolator',
+            'model': model, 'effort': 'medium', 'sandbox': 'danger-full-access',
+            'approval_policy': 'never'}
+        assert isinstance(a, dict), f'runtime.{role} must be a mapping'
+        assert set(a) == set(expected) | {'source_rc'}, f'runtime.{role} fields invalid'
+        for key, value in expected.items():
+            assert a[key] == value, f'runtime.{role}.{key} must be {value}'
+        assert a['source_rc'] in ('~/.zshrc', '/home/$USER/.zshrc'), f'runtime.{role}.source_rc must be ~/.zshrc or /home/$USER/.zshrc'
     assert r['herdr_required_env'] is True and r['preserve_tab_and_cwd'] is True and r['reuse_current_workspace'] is True and r['focus'] is False, 'Herdr topology policy invalid'
     assert 1 <= r['ready_timeout_seconds'] <= 60 and 1000 <= r['shutdown_timeout_ms'] <= 60000, 'runtime timeout outside supported limits'
-    assert r['claude'] == {'command': 'claude', 'args': ['--dangerously-skip-permissions']}, 'Claude launcher invalid'
     for k in ('validator', 'extraction', 'batch_planner'):
         tool = pathlib.Path(c['tools'][k])
         assert not tool.is_absolute() and '..' not in tool.parts and (root / tool).is_file(), f'missing/unsafe tools.{k}'
@@ -92,8 +100,23 @@ PY
   )
 }
 
+codex_shell() {
+  local role=$1 mode=$2 rc code
+  rc=$(jq -r --arg role "$role" '.runtime[$role].source_rc' <<<"$CFG")
+  case "$rc" in
+    '~/.zshrc') code='export DISABLE_AUTO_UPDATE=true; source "$HOME/.zshrc" || exit 1;' ;;
+    '/home/$USER/.zshrc') code='export DISABLE_AUTO_UPDATE=true; source "/home/$USER/.zshrc" || exit 1;' ;;
+    *) fail "Unsupported runtime.$role.source_rc" ;;
+  esac
+  code+=' a=$(alias codex-personal 2>/dev/null) || exit 1; [[ $a == *ai-isolator* && $a == *"run codex"* && $a == *"--name personal"* ]] || exit 1;'
+  if [[ $mode == launch ]]; then
+    code+=" eval \"$(jq -r --arg role "$role" '.runtime[$role] | "\(.launcher_alias) --model \(.model) --config model_reasoning_effort=\(.effort) --sandbox \(.sandbox) --ask-for-approval \(.approval_policy)"' <<<"$CFG")\""
+  fi
+  printf '%s\n' "$code"
+}
+
 doctor() {
-  local errors=0 cmd status help_text
+  local errors=0 cmd status help_text role config_ready=false
   for cmd in git herdr jq zsh flock "$PYTHON"; do
     if ! command -v "$cmd" >/dev/null 2>&1; then
       printf 'ERROR: missing %s. Install it via the system package manager; rerun scripts/translate.sh doctor.\n' "$cmd" >&2
@@ -104,7 +127,8 @@ doctor() {
   if ! "$PYTHON" -c 'import yaml' >/dev/null 2>&1; then
     printf 'ERROR: PyYAML missing. Run: uv sync; then scripts/translate.sh doctor\n' >&2
     errors=$((errors + 1))
-  elif ! load_config; then errors=$((errors + 1)); fi
+  elif load_config; then config_ready=true
+  else errors=$((errors + 1)); fi
   if ! git rev-parse --show-toplevel >/dev/null 2>&1; then
     printf 'ERROR: project is not a Git checkout. Run this script from the project checkout.\n' >&2
     errors=$((errors + 1))
@@ -139,15 +163,15 @@ doctor() {
     [[ $help_text == *'herdr pane split'* && $help_text == *'herdr pane process-info'* ]] || { printf 'ERROR: unsupported Herdr pane syntax. Inspect herdr pane.\n' >&2; errors=$((errors + 1)); }
     herdr --skill >/dev/null || { printf 'ERROR: herdr --skill failed. Inspect herdr status.\n' >&2; errors=$((errors + 1)); }
   fi
-  if ! DISABLE_AUTO_UPDATE=true zsh -ic 'source "$HOME/.zshrc"; a=$(alias codex-personal 2>/dev/null) || exit 1; [[ $a == *ai-isolator* && $a == *"run codex"* && $a == *"--name personal"* ]]' >/dev/null 2>&1; then
-    printf 'ERROR: codex-personal alias through ai-isolator missing. Define that alias in ~/.zshrc; verify with: zsh -ic '\''source ~/.zshrc; type codex-personal'\''\n' >&2
-    errors=$((errors + 1))
+  if $config_ready; then
+    for role in codex reviewer; do
+      if ! DISABLE_AUTO_UPDATE=true zsh -ic "$(codex_shell "$role" probe)" >/dev/null 2>&1; then
+        printf 'ERROR: runtime.%s codex-personal alias through ai-isolator missing. Inspect source_rc in config/translation-pipeline.yml and define the alias there.\n' "$role" >&2
+        errors=$((errors + 1))
+      fi
+    done
   fi
-  if ! command -v claude >/dev/null 2>&1; then
-    printf 'ERROR: Claude CLI missing. Install/configure Claude Code, then verify: claude --version\n' >&2
-    errors=$((errors + 1))
-  fi
-  printf 'NOTE: source-preparation adapters currently cover vol-01/chapter-00 only; later missing manifests/packages require an adapter extension. No book was opened.\n'
+  printf 'NOTE: source-preparation adapters cover LN 01–14 via TOC/NCX; missing manifests/packages require preparation. No book was opened.\n'
   (( errors == 0 )) || return 1
   printf 'OK: config, Git, tools, source directory and Herdr are ready.\n'
 }
@@ -215,8 +239,8 @@ verify_owned() {
 }
 
 launch_coordinator() {
-  local pane=$1 mode=$2 name=$3 live status ready=0 limit i prompt
-  local launch='zsh -ic '\''export DISABLE_AUTO_UPDATE=true; source "$HOME/.zshrc"; a=$(alias codex-personal 2>/dev/null) || exit 1; [[ $a == *ai-isolator* && $a == *"run codex"* && $a == *"--name personal"* ]] || exit 1; eval "codex-personal --model gpt-6-luna --config model_reasoning_effort=medium --sandbox danger-full-access --ask-for-approval never"'\'''
+  local pane=$1 mode=$2 name=$3 live status ready=0 limit i prompt launch
+  launch=$("$PYTHON" -c 'import shlex, sys; print("zsh -ic " + shlex.quote(sys.argv[1]))' "$(codex_shell codex launch)")
   herdr pane run "$pane" "$launch"
   limit=$(jq -r .runtime.ready_timeout_seconds <<<"$CFG")
   for ((i=0; i<limit; i++)); do

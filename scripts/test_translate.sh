@@ -50,7 +50,7 @@ case "$*" in
     [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
     printf '{"result":{"pane":{"pane_id":"w-test:p-owned","terminal_id":"terminal-owned"}}}\n' ;;
   'pane run w-test:p-owned '*)
-    [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 && $4 == *codex-personal* && $4 == *'gpt-6-luna'* && $4 == *'model_reasoning_effort=medium'* && $4 == *'--ask-for-approval never'* ]] || exit 97 ;;
+    [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 && $4 == *'source "/home/$USER/.zshrc" || exit 1;'* && $4 == *codex-personal* && $4 == *'gpt-6-luna'* && $4 == *'model_reasoning_effort=medium'* && $4 == *'--ask-for-approval never'* ]] || exit 97 ;;
   'agent rename w-test:p-owned '*|'pane close w-test:p-owned')
     [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97 ;;
   *) printf 'Forbidden/unexpected mock Herdr call: %s\n' "$*" >&2; exit 97 ;;
@@ -58,10 +58,8 @@ esac
 SH
 cat >"$MOCKBIN/zsh" <<'SH'
 #!/usr/bin/env bash
-exit 0
-SH
-cat >"$MOCKBIN/claude" <<'SH'
-#!/usr/bin/env bash
+printf 'zsh %s\n' "$*" >>"$TRANSLATE_TEST_CALLS"
+[[ $1 == -ic && ( $2 == *'source "/home/$USER/.zshrc" || exit 1;'* || $2 == *'source "$HOME/.zshrc" || exit 1;'* ) ]] || exit 97
 exit 0
 SH
 cat >"$MOCKBIN/orca" <<'SH'
@@ -93,6 +91,48 @@ reject down
 reject down --dry-run
 rg -q 'Missing safe session file' "$TMP/out"
 [[ ! -s "$TRANSLATE_TEST_CALLS" ]] || { printf 'FAIL: missing session down called Herdr\n'; exit 1; }
+
+# The current Codex reviewer config must pass without a runtime.claude section.
+bash "$SCRIPT" doctor >"$TMP/doctor-out" 2>&1
+rg -q '^OK:' "$TMP/doctor-out"
+rg -q 'source "/home/\$USER/\.zshrc"' "$TRANSLATE_TEST_CALLS"
+CONFIG_PYTHON=python3
+[[ ! -x "$FIXTURE/.venv/bin/python" ]] || CONFIG_PYTHON="$FIXTURE/.venv/bin/python"
+cp "$FIXTURE/config/translation-pipeline.yml" "$TMP/original-config.yml"
+update_runtime() {
+  "$CONFIG_PYTHON" - "$FIXTURE/config/translation-pipeline.yml" "$1" "$2" "$3" <<'PY'
+import pathlib, sys, yaml
+p = pathlib.Path(sys.argv[1])
+c = yaml.safe_load(p.read_text())
+c['runtime'][sys.argv[2]][sys.argv[3]] = sys.argv[4]
+p.write_text(yaml.safe_dump(c, sort_keys=False))
+PY
+}
+for role in codex reviewer; do
+  update_runtime "$role" model unsupported-model
+  reject doctor
+  rg -q "runtime.$role.model must be" "$TMP/out"
+  cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+  update_runtime "$role" approval_policy on-request
+  reject doctor
+  rg -q "runtime.$role.approval_policy must be never" "$TMP/out"
+  cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+  update_runtime "$role" source_rc '/tmp/untrusted.rc'
+  reject doctor
+  rg -q "runtime.$role.source_rc must be" "$TMP/out"
+  cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+done
+# Retain support for the original rc spelling, and actually use it in probes.
+update_runtime codex source_rc '~/.zshrc'
+update_runtime reviewer source_rc '~/.zshrc'
+git -C "$FIXTURE" add config/translation-pipeline.yml
+git -C "$FIXTURE" -c user.name=Test -c user.email=test@example.invalid commit -qm legacy-rc
+bash "$SCRIPT" doctor >"$TMP/legacy-doctor-out" 2>&1
+rg -q '^OK:' "$TMP/legacy-doctor-out"
+rg -q 'source "\$HOME/\.zshrc"' "$TRANSLATE_TEST_CALLS"
+cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+git -C "$FIXTURE" add config/translation-pipeline.yml
+git -C "$FIXTURE" -c user.name=Test -c user.email=test@example.invalid commit -qm host-rc
 
 bash "$SCRIPT" up --dry-run >"$TMP/up-out" 2>&1
 [[ ! -e "$FIXTURE/work/run-state" ]] || { printf 'FAIL: dry up created run-state\n'; exit 1; }
@@ -139,4 +179,4 @@ rg -q '^pane close w-test:p-owned$' "$TRANSLATE_TEST_CALLS"
 if rg -q '^pane close w-test:p-caller|forbidden-backend' "$TRANSLATE_TEST_CALLS"; then
   printf 'FAIL: foreign pane or forbidden backend used\n'; exit 1
 fi
-printf 'PASS: invalid args, missing-session down, dry-run immutability, ownership mismatch, shutdown without ACK, mocked up/down lifecycle, no forbidden backend.\n'
+printf 'PASS: current/legacy Codex rc, role model/permissions/rc validation, invalid args, missing-session down, dry-run immutability, ownership mismatch, shutdown without ACK, mocked up/down lifecycle, no forbidden backend.\n'
