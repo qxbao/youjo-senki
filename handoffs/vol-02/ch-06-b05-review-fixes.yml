@@ -1,0 +1,102 @@
+task_id: vol-02-ch-06-b05-review-fixes
+batch: vol-02-ch-06-b05
+review_report: reviews/prose/vol-02/ch-06-b05-codex.md
+translation: translations/vol-02/ch-06-b05.jsonl
+self_check: reviews/semantic/vol-02/ch-06-b05-self-check.md
+source_package: work/vol-02/batches/ch-06-b05-source.jsonl
+source_package_sha256: 0226a197023c2461b81c25596f227309213b56ec6f1795fc69a238c062e0eedd
+status: done
+review_counts:
+  serious: 1
+  moderate: 6
+  minor: 7
+findings_to_resolve:
+- id: S01
+  severity: serious
+  segment_id: YS-LN02/Text/part0030.xhtml/p000134
+  resolution: 'Correct target: this asks about attacking/contending with mages, not using mages to attack; use a
+    neutral question such as “Nhưng lại dùng cách đó để đối phó với pháp sư sao?”.'
+- id: M01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000135
+  resolution: Remove unsupported “cô”; use neutral address, e.g. “Đã từng nghe nói đến bão lửa chưa?”.
+- id: M02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000142
+  resolution: Preserve “cannot imagine/think” rather than impossibility; keep the source paradox.
+- id: M03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000144
+  resolution: Use coordinator term choice “tính hợp lý trong việc đạt mục đích”; preserve that rationality is purpose-directed.
+- id: M04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000152
+  resolution: Remove duplicate conclusion; retain one emphasized sentence after “Nói cách khác” before Tanya breathes
+    deeply; preserve viewpoint.
+- id: M05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000162
+  resolution: Remove added “bị đánh bật”; preserve possibility of the whole army fleeing in disarray if logistics
+    collapse.
+- id: M06
+  severity: moderate
+  segment_id: YS-LN02/Text/part0030.xhtml/p000166
+  resolution: Restore the curse’s profanity/intensity without targeting officers or superiors; no added emphasis.
+- id: L01
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000141
+  resolution: Use “có khuynh hướng bài trí thức” and natural “đơn thuần” wording; keep conditional attribution.
+- id: L02
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000145
+  resolution: Use “lý tưởng nhất là” rather than “xét về lý tưởng”; keep mages as the acting force.
+- id: L03
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000154
+  resolution: Clarify it is news being stated, e.g. “Cái tin rằng…”; retain fragment.
+- id: L04
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000157
+  resolution: State that Tanya followed the advice, not only remembered it.
+- id: L05
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000159
+  resolution: Remove “đúng lúc”; preserve interruption.
+- id: L06
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000165
+  resolution: Restore acknowledgment of the exact time, e.g. “Vâng, ngay lúc này, thưa bà.”; keep temporary pronoun
+    form.
+- id: L07
+  severity: minor
+  segment_id: YS-LN02/Text/part0030.xhtml/p000167
+  resolution: Clarify mild embarrassment at her own expression and keep the unusual calm tentative; preserve italics.
+coordinator_term_choices: Apply chapter6_b05_coordinator_choices in pending ledger, provisional/non-canon.
+constraints:
+- Use only assigned local source package; no EPUB/PDF or other package.
+- Edit only b05 translation and semantic self-check.
+- Do not change handoff/ledger/prose report/canon/checkpoint.
+- Run configured validator and git diff --check.
+- Do not commit or start another worker.
+files_written:
+- translations/vol-02/ch-06-b05.jsonl
+- reviews/semantic/vol-02/ch-06-b05-self-check.md
+translator_session_id: 01a13624-d27d-7ca3-8f9c-b8aaf4cf53df
+validator: pass
+diff_check: pass
+findings_resolved:
+- S01
+- M01
+- M02
+- M03
+- M04
+- M05
+- M06
+- L01
+- L02
+- L03
+- L04
+- L05
+- L06
+- L07
+pending_terms_count: 2
