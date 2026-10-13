@@ -29,6 +29,62 @@ source_package: work/vol-02/batches/ch-05-b03-source.jsonl
 source_package_sha256: 5cd3255f4c74a6311a89225d642dbe019e7de0033f6a64af12d08968fa349659
 translation_editor: codex-coordinator
 status: ready
+translation_lease:
+  holder: null
+  task_id: null
+  checkpoint_generation: 999
+  allowlist: []
+  state: released
+translation_report:
+  state: done
+  translator_session_id: 01a13390-c960-7ea2-b2d4-abebbb212752
+  segment_count: 27
+  validator: pass
+  diff_check: pass
+  findings: [review_term_air_defense_zone_p000067]
+  pending_term_count: 3
+  files_written: [translations/vol-02/ch-05-b03.jsonl]
+  risks: [military_names_and_air-defense_designation_remain_provisional]
+review_coordination:
+  triggered_by: [risk_flags, new_pending_terms]
+  required: true
+  state: signoff_passed
+  reviewer_session_id: 01a13394-d7c4-7521-ad3a-befbb9a97859
+  review_counts: {serious: 0, moderate: 4, minor: 5}
+  signoff_state: passed_assigned_fixes
+  signoff_session_id: 01a1339b-7411-7351-b428-ce855a5f8b62
+  signoff_report: reviews/prose/vol-02/ch-05-b03-fixes-signoff-codex.md
+  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, deferred_minor: 0}
+  signoff_findings_resolved: [B03-F01, B03-F02, B03-F03, B03-F04, B03-F05, B03-F06, B03-F07, B03-F08, B03-F09]
+  unresolved_serious: []
+  initial_unresolved_moderate: [B03-F01, B03-F02, B03-F03, B03-F04]
+  unresolved_moderate: []
+  signoff_findings_pending: []
+  follow_up_owner: translator-ch05-b03-review-fixes
+  provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter5_b03_translation_proposals
+  review_report: reviews/prose/vol-02/ch-05-b03-codex.md
+  term_recommendations: [vol02-ch05-b03-guardians-of-rhine, vol02-ch05-b03-air-defense-identification-zone, vol02-ch05-b03-203rd-aerial-mage-battalion, vol02-ch05-b03-computation-orb, vol02-ch05-b03-brass, vol02-ch05-b03-optical-deception-formulas, vol02-ch05-b03-pixie-call-sign]
+coordinator_provisional_choices:
+  status: pending_non_canon
+  entries:
+  - {finding: B03-F01, decision: use_no_for_Tanya_narration_and_minh_for_interior, segments: [p000066, p000069]}
+  - {finding: B03-F02, decision: retain_zone_and_subzone_levels, proposed_vi: Vùng nhận dạng phòng không Rhine, phân khu D-5, segments: [p000067]}
+  - {finding: B03-F03, decision: avoid_assigning_battalion_to_Air_Force, proposed_vi: Tiểu đoàn Pháp sư Trên không số 203, segments: [p000068]}
+  - {finding: B03-F04, decision: broad_optical_deception_mechanism, proposed_vi: công thức đánh lừa quang học, segments: [p000074]}
+  - {finding: B03-F05, decision: retain_unclassified_Rhine_name, proposed_vi: Những người bảo vệ Rhine, segments: [p000062, p000067]}
+  - {finding: B03-F06, decision: describe_radio_identifier, proposed_vi: hô hiệu Pixie, segments: [p000068]}
+  - {finding: B03-F07, decision: preserve_hierarchy_without_extra_contempt, proposed_vi: giới chỉ huy cấp cao, segments: [p000066]}
+  - {finding: B03-F08, decision: avoid_physical_shock_diagnosis, proposed_vi: bị sốc vì pháo kích, segments: [p000053]}
+  - {finding: B03-F09, decision: preserve_dual_purpose_and_composition, segments: [p000066]}
+fix_report:
+  state: done
+  translator_session_id: 01a13399-1e23-76b2-bb3b-7253d4dab0b1
+  findings_resolved: [B03-F01, B03-F02, B03-F03, B03-F04, B03-F05, B03-F06, B03-F07, B03-F08, B03-F09]
+  validator: pass
+  diff_check: pass
+  files_written: [translations/vol-02/ch-05-b03.jsonl]
+  allowlist: [translations/vol-02/ch-05-b03.jsonl]
+  next_action: commit
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
