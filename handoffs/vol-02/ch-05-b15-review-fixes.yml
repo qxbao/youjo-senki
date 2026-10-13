@@ -1,0 +1,91 @@
+task_id: vol-02-ch-05-b15-review-fixes
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b15
+review_report: reviews/prose/vol-02/ch-05-b15-codex.md
+translation: translations/vol-02/ch-05-b15.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b15-self-check.md
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000358
+- YS-LN02/Text/part0026.xhtml/p000361
+- YS-LN02/Text/part0026.xhtml/p000362
+- YS-LN02/Text/part0026.xhtml/p000364
+- YS-LN02/Text/part0026.xhtml/p000365
+- YS-LN02/Text/part0026.xhtml/p000368
+- YS-LN02/Text/part0026.xhtml/p000371
+- YS-LN02/Text/part0026.xhtml/p000374
+- YS-LN02/Text/part0026.xhtml/p000380
+- YS-LN02/Text/part0026.xhtml/p000382
+review_findings:
+- id: R01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000358
+  proposed_resolution: Remove unsupported siren detail; retain generic warning/check alerting as context permits.
+- id: R02
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000361
+  proposed_resolution: Smooth the phrasing that seeing them fight in environments where magic cannot be relied upon is hard to bear.
+- id: R03
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000362
+  proposed_resolution: Use màn bảo hộ / lớp vỏ phòng ngự as two distinct protective measures; keep terminology provisional.
+- id: R04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000364
+  proposed_resolution: Italicize the full remembered thought from “À phải” through the trailing ellipsis; leave the opening narration outside.
+- id: R05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000365
+  proposed_resolution: Italicize only the interior conclusion from “À, đúng là” through “gấp bội.”
+- id: R06
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000368
+  proposed_resolution: Preserve Tanya's conjecture and emphasize carelessness (sơ ý bỏ qua), not merely inadvertent omission.
+- id: R07
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000371
+  proposed_resolution: Remove absolute “ai cũng” consensus; retain the cold production metaphor naturally and the moral contrast.
+- id: R08
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000374
+  proposed_resolution: Restore possibility (“có thể là”) rather than certainty and state catastrophic/overlarge damage without adding a human tolerance threshold.
+- id: R09
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000380
+  proposed_resolution: Use a natural follow-up question about what the colonel wants to say, not whether Tanya was called.
+- id: R10
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000382
+  proposed_resolution: Clarify accumulating experience under protection; do not imply experience itself is protected or add a specific protective actor.
+coordinator_term_choices:
+- source_term: Heinrich's Law
+  proposed_vi: Định luật Heinrich
+  alternative_vi: Luật Heinrich
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000367]
+  rationale: Keep name and parallel form with Murphy; provisional.
+- source_term: Murphy's Law
+  proposed_vi: Định luật Murphy
+  alternative_vi: Luật Murphy
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000367]
+  rationale: Keep parallel form; provisional.
+- source_term: protective films / defensive shells
+  proposed_vi: màn bảo hộ / lớp vỏ phòng ngự
+  alternative_vi: lớp bảo vệ / lớp vỏ phòng thủ
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000362]
+  rationale: Keep two distinct images and existing pending shell term; do not infer mechanism.
+- source_term: replacement troops
+  proposed_vi: quân thay thế / lính thay thế
+  alternative_vi: quân bổ sung / lính bổ sung
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000358, YS-LN02/Text/part0026.xhtml/p000360, YS-LN02/Text/part0026.xhtml/p000365, YS-LN02/Text/part0026.xhtml/p000372]
+  rationale: Choose quân/lính by syntax; retain tân binh at p000360 where the package identifies new recruits rather than replacement troops.
+- source_term: non-magic raid
+  proposed_vi: đột kích không dùng phép thuật
+  alternative_vi: cuộc đột kích không sử dụng phép thuật
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000382]
+  rationale: Explicit and natural without adding tactics; provisional.
+allowlist:
+- translations/vol-02/ch-05-b15.jsonl
+- reviews/semantic/vol-02/ch-05-b15-self-check.md
+files_written: []
+commit: null
+status: ready

@@ -1,0 +1,91 @@
+task_id: vol-02-ch-05-b15-review-fixes-retry
+volume: vol-02
+chapter: 5
+parent_batch: vol-02-ch-05-b15
+fix_attempt: 2
+review_report: reviews/prose/vol-02/ch-05-b15-codex.md
+withheld_signoff_report: reviews/prose/vol-02/ch-05-b15-final-signoff-codex.md
+previous_fix_report_mismatch: true
+translation: translations/vol-02/ch-05-b15.jsonl
+self_check: reviews/semantic/vol-02/ch-05-b15-self-check.md
+source_package: work/vol-02/batches/ch-05-b15-source.jsonl
+source_package_sha256: 38531306e5839281ec705606edef8cc4ec8af3166a6d7c41ab76644b2870443a
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000358
+- YS-LN02/Text/part0026.xhtml/p000361
+- YS-LN02/Text/part0026.xhtml/p000362
+- YS-LN02/Text/part0026.xhtml/p000364
+- YS-LN02/Text/part0026.xhtml/p000365
+- YS-LN02/Text/part0026.xhtml/p000368
+- YS-LN02/Text/part0026.xhtml/p000371
+- YS-LN02/Text/part0026.xhtml/p000374
+- YS-LN02/Text/part0026.xhtml/p000380
+- YS-LN02/Text/part0026.xhtml/p000382
+review_findings:
+- id: R01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000358
+  resolution: Remove unsupported siren/alarms sound detail; preserve generic warning/check alerting.
+- id: R02
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000361
+  resolution: Smooth the line about combat being difficult to watch where magic cannot be relied upon.
+- id: R03
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000362
+  resolution: Use “màn bảo hộ” / “lớp vỏ phòng ngự”; keep the two measures distinct and non-canon.
+- id: R04
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000364
+  resolution: Italicize the remembered thought only, from “À phải” through the trailing ellipsis; keep opening narration outside emphasis.
+- id: R05
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000365
+  resolution: Italicize only the interior conclusion, not surrounding narration/question.
+- id: R06
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000368
+  resolution: Use wording meaning carelessly overlooked (“sơ ý bỏ qua”) and retain Tanya's conjecture.
+- id: R07
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000371
+  resolution: Remove absolute consensus; keep the cold mass-production metaphor naturally.
+- id: R08
+  severity: moderate
+  segment_id: YS-LN02/Text/part0026.xhtml/p000374
+  resolution: Restore possibility, not certainty; state catastrophic/overlarge damage without a human tolerance threshold.
+- id: R09
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000380
+  resolution: Ask what the colonel wants to say rather than whether Tanya was called.
+- id: R10
+  severity: minor
+  segment_id: YS-LN02/Text/part0026.xhtml/p000382
+  resolution: Clarify accumulating experience under protection and repeated practice/review; add no protective actor.
+verification_required:
+- Edit the actual workspace file at translations/vol-02/ch-05-b15.jsonl; do not use a temporary draft as the final output.
+- After all edits, reopen that exact file and verify the R01-R10 results and the p000364/p000365 Markdown emphasis spans are present in saved JSONL.
+- Reopen the self-check and ensure every completion claim matches the saved translation.
+coordinator_term_choices:
+- source_term: Heinrich's Law / Murphy's Law
+  proposed_vi: Định luật Heinrich / Định luật Murphy
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000367]
+  rationale: Parallel provisional names; do not explain or promote to canon.
+- source_term: protective films / defensive shells
+  proposed_vi: màn bảo hộ / lớp vỏ phòng ngự
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000362]
+  rationale: Keep distinct measures and current coordinator selection, non-canon.
+- source_term: replacement troops
+  proposed_vi: quân thay thế / lính thay thế by syntax; keep tân binh at p000360
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000358, YS-LN02/Text/part0026.xhtml/p000360, YS-LN02/Text/part0026.xhtml/p000365, YS-LN02/Text/part0026.xhtml/p000372]
+  rationale: Use package context at each occurrence; do not equate all new recruits with replacement troops.
+- source_term: non-magic raid
+  proposed_vi: đột kích không dùng phép thuật
+  segment_ids: [YS-LN02/Text/part0026.xhtml/p000382]
+  rationale: Explicit provisional wording without adding tactics.
+allowlist:
+- translations/vol-02/ch-05-b15.jsonl
+- reviews/semantic/vol-02/ch-05-b15-self-check.md
+files_written: []
+commit: null
+status: ready

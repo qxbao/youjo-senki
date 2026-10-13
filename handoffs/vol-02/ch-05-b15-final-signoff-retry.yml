@@ -1,0 +1,31 @@
+task_id: vol-02-ch-05-b15-final-signoff-retry
+volume: vol-02
+chapter: 5
+batch: vol-02-ch-05-b15
+batch_handoff: handoffs/vol-02/ch-05-b15.yml
+review_handoff: handoffs/vol-02/ch-05-b15-review.yml
+fix_handoff: handoffs/vol-02/ch-05-b15-review-fixes-retry.yml
+original_review: reviews/prose/vol-02/ch-05-b15-codex.md
+withheld_signoff: reviews/prose/vol-02/ch-05-b15-final-signoff-codex.md
+retry_report: reviews/semantic/vol-02/ch-05-b15-self-check.md
+translation: translations/vol-02/ch-05-b15.jsonl
+source_package: work/vol-02/batches/ch-05-b15-source.jsonl
+source_package_sha256: 38531306e5839281ec705606edef8cc4ec8af3166a6d7c41ab76644b2870443a
+segment_ids:
+- YS-LN02/Text/part0026.xhtml/p000358
+- YS-LN02/Text/part0026.xhtml/p000361
+- YS-LN02/Text/part0026.xhtml/p000362
+- YS-LN02/Text/part0026.xhtml/p000364
+- YS-LN02/Text/part0026.xhtml/p000365
+- YS-LN02/Text/part0026.xhtml/p000368
+- YS-LN02/Text/part0026.xhtml/p000371
+- YS-LN02/Text/part0026.xhtml/p000374
+- YS-LN02/Text/part0026.xhtml/p000380
+- YS-LN02/Text/part0026.xhtml/p000382
+verification:
+- Open the exact saved translation path, not the retry report/self-check, to verify each finding.
+- Check Markdown emphasis spans p000364 and p000365 against package markup.
+- Confirm the self-check matches saved JSONL.
+- Check for new serious, moderate, or minor issues across the batch.
+report_path: reviews/prose/vol-02/ch-05-b15-final-signoff-retry-codex.md
+status: ready
