@@ -1,0 +1,41 @@
+task_id: vol-02-ch-07-b04
+role: semantic_regression_luna
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+batch: vol-02-ch-07-b04
+primary_handoff: handoffs/vol-02/ch-07-b04.yml
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+baseline: translations/vol-02/ch-07-b04.jsonl
+baseline_sha256: 7126fef09b0fb230afd27808bc237783f12c1ace9a4c3c2e726b5bae0b1c1e85
+candidate: polish-candidates/vol-02/ch-07-b04.gemini.jsonl
+candidate_sha256: 56a56464733317f05de74319f73ce986c36cbe7a4c299b649bbbeeb17af6f4d0
+locked_choices: handoffs/vol-02/ch-07-b04-locked-choices.yml
+locked_choices_sha256: 9933e683a6eae643aaae7981f61eed7f1ec9a994ec296521e57e3d44b684a8e6
+change_log: polish-candidates/vol-02/ch-07-b04.gemini-change-log.yml
+change_log_sha256: dc30f6b222c452385998d727e0370632d3362f09fa93dcb1b6a721ae03e22043
+receipt_path: reviews/semantic/vol-02/ch-07-b04-gemini-regression.yml
+allowlist:
+- reviews/semantic/vol-02/ch-07-b04-gemini-regression.yml
+constraints:
+- Read agents/shared.md, agents/semantic-regression-checker.md, config/translation-pipeline.yml,
+  handoffs/vol-02/ch-07-b04-luna-regression.yml, handoffs/vol-02/ch-07-b04.yml, handoffs/vol-02/ch-07-b04-locked-choices.yml,
+  work/vol-02/batches/ch-07-b04-source.jsonl, translations/vol-02/ch-07-b04.jsonl,
+  polish-candidates/vol-02/ch-07-b04.gemini.jsonl, polish-candidates/vol-02/ch-07-b04.gemini-change-log.yml,
+  and named canon files.
+- Verify all 28 segment_ids in order against source, baseline, locked choices, and
+  change log; check for any critical meaning shift or locked_choice_violation.
+- 'Write ONLY reviews/semantic/vol-02/ch-07-b04-gemini-regression.yml with schema_version:
+  1, task_id: vol-02-ch-07-b04, reviewer_model: gpt-6-luna, decision, exact input
+  SHA-256 hashes, checked_segment_ids (all 28 IDs in order), and findings list. Do
+  not quote source text; do not edit any other file or commit.'
+status: done
+lease:
+  holder: none
+  pane_id: w6:pP4
+  terminal_id: term_65dcc684b60ce2c8
+  agent_session_id: 01a13a79-4d19-7a32-b16d-9ec771c6806b
+  checkpoint_generation: 1445
+  state: released_report_received
+  allowlist: []
+receipt_sha256: 2b056e0d6785e0825628944f81c396ee97eb17e4fbe1e2b4160b9f90349474cd

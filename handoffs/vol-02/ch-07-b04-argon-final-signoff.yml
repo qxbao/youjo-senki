@@ -1,0 +1,37 @@
+task_id: vol-02-ch-07-b04-argon-final-signoff
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b04
+translation: translations/vol-02/ch-07-b04.jsonl
+baseline_sha256: 7126fef09b0fb230afd27808bc237783f12c1ace9a4c3c2e726b5bae0b1c1e85
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+primary_handoff: handoffs/vol-02/ch-07-b04.yml
+previous_argon_review: reviews/prose/vol-02/ch-07-b04-argon-review.yml
+previous_argon_review_sha256: 24df9742c5c5cc244685889e3763af00d408408bc4018be26810196e6a6129a5
+translator_signoff_handoff: handoffs/vol-02/ch-07-b04-translator-signoff.yml
+self_check: reviews/semantic/vol-02/ch-07-b04-self-check.md
+self_check_sha256: cb90c9a6540632aa7f7868b42c7f6d85f82a5a164c2b0323140949a977d33002
+pending_ledger: work/run-state/pending-terms.yml
+constraints:
+- Review only assigned B04 package, current translation (new reviewed hash 7126fef09b0fb230afd27808bc237783f12c1ace9a4c3c2e726b5bae0b1c1e85),
+  self-check, prior B04 Argon review and translator signoff handoff, named canon and
+  B04 ledger sections. No EPUB/PDF or other package; do not reproduce source sentences.
+- Verify all 28 stable IDs on the new reviewed baseline hash, confirm all 28 rows
+  have status reviewed and zero unresolved serious/moderate findings, and output locked
+  choices for Flash polish.
+- Write only reviews/prose/vol-02/ch-07-b04-argon-final-signoff.yml. No translation,
+  self-check, handoff, canon, ledger, checkpoint or commit.
+report_path: reviews/prose/vol-02/ch-07-b04-argon-final-signoff.yml
+status: done
+lease:
+  holder: none
+  pane_id: w6:pN0
+  terminal_id: term_65dcc3ef5740c2c4
+  agent_session_id: 6f8220c5-6518-4e5e-acac-4644da58ae26
+  checkpoint_generation: 1440
+  state: released_report_received
+  allowlist: []
+allowlist:
+- reviews/prose/vol-02/ch-07-b04-argon-final-signoff.yml
+report_sha256: 08a73b19cb4bd81f3bfc7e85aa16fd380f1b1ca427821b90ada136b9c3d86318

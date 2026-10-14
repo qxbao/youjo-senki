@@ -1,0 +1,31 @@
+task_id: vol-02-ch-07-b04-translator-signoff
+role: translator
+batch: vol-02-ch-07-b04
+translation: translations/vol-02/ch-07-b04.jsonl
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+argon_review: reviews/prose/vol-02/ch-07-b04-argon-review.yml
+argon_review_sha256: 24df9742c5c5cc244685889e3763af00d408408bc4018be26810196e6a6129a5
+baseline_sha256: f6d5f16694facccd449bd037916a2666c5727c395b5ff89fdef52282f9127754
+primary_handoff: handoffs/vol-02/ch-07-b04.yml
+constraints:
+- Read only B04 handoff, assigned local package, translation, self-check, Argon review,
+  relevant B04 ledger sections, named canon. No EPUB/PDF or another batch.
+- Argon verified all 28 IDs and zero unresolved findings. Do not change translation
+  strings or any metadata except set status draft -> reviewed for all 28 assigned
+  rows; retain approved if any. If substantive issue appears, make no edit and report
+  blocked.
+- Write only translations/vol-02/ch-07-b04.jsonl. Run assigned validator and git diff
+  --check. No commit.
+status: in_progress
+lease:
+  holder: translator_luna
+  pane_id: w6:pNY
+  terminal_id: term_65dcc288a62852c2
+  agent_session_id: 01a13a69-ab4f-7c61-98e3-9204fb6d7551
+  checkpoint_generation: 1437
+  state: working
+  allowlist:
+  - translations/vol-02/ch-07-b04.jsonl
+allowlist:
+- translations/vol-02/ch-07-b04.jsonl

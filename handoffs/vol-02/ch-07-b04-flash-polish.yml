@@ -1,0 +1,37 @@
+task_id: vol-02-ch-07-b04-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b04
+baseline: translations/vol-02/ch-07-b04.jsonl
+baseline_sha256: 7126fef09b0fb230afd27808bc237783f12c1ace9a4c3c2e726b5bae0b1c1e85
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+argon_review: reviews/prose/vol-02/ch-07-b04-argon-final-signoff.yml
+argon_review_sha256: 08a73b19cb4bd81f3bfc7e85aa16fd380f1b1ca427821b90ada136b9c3d86318
+locked_choices: handoffs/vol-02/ch-07-b04-locked-choices.yml
+locked_choices_sha256: 9933e683a6eae643aaae7981f61eed7f1ec9a994ec296521e57e3d44b684a8e6
+translator_signoff: handoffs/vol-02/ch-07-b04-translator-signoff.yml
+allowlist:
+- polish-candidates/vol-02/ch-07-b04.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b04.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml
+  and only assigned B04 baseline/source package/Argon final signoff/locked choices/canon
+  named in primary handoff.
+- Polish prose only; preserve locked choices, meaning, negation, subjects, modality,
+  time, viewpoint, emphasis, IDs/order and metadata.
+- Write only polish-candidates/vol-02/ch-07-b04.gemini.jsonl and polish-candidates/vol-02/ch-07-b04.gemini-change-log.yml
+  under polish-candidates/. Candidate changes translation only; log all 28 IDs in
+  order with allowed types (syntax/rhythm/diction/punctuation) and explicit boolean
+  escalate. No other files, source quotations, canonical translations, or commit.
+status: done
+lease:
+  holder: none
+  pane_id: w6:pP2
+  terminal_id: term_65dcc575d67162c6
+  agent_session_id: 12d4d0bf-9cca-432c-8d08-8498e9ace251
+  checkpoint_generation: 1442
+  state: released_report_received
+  allowlist: []
+candidate_sha256: 56a56464733317f05de74319f73ce986c36cbe7a4c299b649bbbeeb17af6f4d0
+change_log_sha256: dc30f6b222c452385998d727e0370632d3362f09fa93dcb1b6a721ae03e22043

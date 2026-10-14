@@ -1,0 +1,41 @@
+task_id: vol-02-ch-07-b04-argon-review
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b04
+translation: translations/vol-02/ch-07-b04.jsonl
+baseline_sha256: f6d5f16694facccd449bd037916a2666c5727c395b5ff89fdef52282f9127754
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+primary_handoff: handoffs/vol-02/ch-07-b04.yml
+previous_review: reviews/prose/vol-02/ch-07-b04-codex.md
+previous_signoff: reviews/prose/vol-02/ch-07-b04-final-signoff-codex.md
+self_check: reviews/semantic/vol-02/ch-07-b04-self-check.md
+self_check_sha256: cb90c9a6540632aa7f7868b42c7f6d85f82a5a164c2b0323140949a977d33002
+pending_ledger: work/run-state/pending-terms.yml
+constraints:
+- Review only assigned B04 package, current translation, self-check, prior B04 reports/handoffs,
+  named canon and B04 ledger sections. No EPUB/PDF or other package; do not reproduce
+  source sentences.
+- Review all 28 stable IDs independently. Verify past findings/fixes and report any
+  remaining meaning problem. Choose temporary grounded choices for pending names/ranks/terms/pronouns,
+  with reasons and alternatives; keep non-canon.
+- Write only reviews/prose/vol-02/ch-07-b04-argon-review.yml. No translation, self-check,
+  handoff, canon, ledger, checkpoint, or commit.
+report_path: reviews/prose/vol-02/ch-07-b04-argon-review.yml
+status: done
+lease:
+  holder: none
+  pane_id: w6:pNV
+  terminal_id: term_65dcc0d1c1b352bf
+  agent_session_id: 747e986d-326e-48d2-9927-c25ca36b1e86
+  checkpoint_generation: 1437
+  state: released_report_received
+  allowlist: []
+allowlist:
+- reviews/prose/vol-02/ch-07-b04-argon-review.yml
+report_sha256: 24df9742c5c5cc244685889e3763af00d408408bc4018be26810196e6a6129a5
+review_counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+  total: 0
