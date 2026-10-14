@@ -1,0 +1,108 @@
+task_id: vol-02-ch-07-b03-review-fixes
+role: translator
+batch: vol-02-ch-07-b03
+translation: translations/vol-02/ch-07-b03.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b03-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b03-codex.md
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter7_b03_translator_proposals
+- chapter7_b03_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 6
+  minor: 5
+  unresolved: 11
+findings:
+- id: B03-C01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000055
+  - YS-LN02/Text/part0032.xhtml/p000058
+  - YS-LN02/Text/part0032.xhtml/p000060
+  - YS-LN02/Text/part0032.xhtml/p000063
+  - YS-LN02/Text/part0032.xhtml/p000065
+  - YS-LN02/Text/part0032.xhtml/p000066
+  - YS-LN02/Text/part0032.xhtml/p000068
+  - YS-LN02/Text/part0032.xhtml/p000069
+  - YS-LN02/Text/part0032.xhtml/p000070
+  - YS-LN02/Text/part0032.xhtml/p000074
+  - YS-LN02/Text/part0032.xhtml/p000075
+  resolution: Use mình for Tanya internal self-reference and bọn mình/chúng mình for
+    unit-wide self-reference. Keep tôi in radio speech; distinguish internal thought
+    from dialogue.
+- id: B03-C02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000052
+  resolution: Render concession as dù là a staff officer, not maybe serving as one;
+    retain Being X concern and add no rank.
+- id: B03-C03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000056
+  resolution: Replace tổng tấn công with a large attack about to come; preserve causal
+    direction and reserves.
+- id: B03-C04
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000060
+  - YS-LN02/Text/part0032.xhtml/p000062
+  resolution: Use controlled fire/controlled fire by mages; remove unsupported formation
+    and do not add technical mechanism.
+- id: B03-C05
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000067
+  - YS-LN02/Text/part0032.xhtml/p000074
+  resolution: Change two volleys to two shots in radio dialogue and retain two support
+    shots in internal thought.
+- id: B03-C06
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000074
+  resolution: Separate smoke from explosive rounds and searchlights; retain three
+    retreaters and two support shots.
+- id: B03-C07
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000058
+  resolution: Restore sarcastic warm welcome wording; add no emphasis not present
+    in source.
+- id: B03-C08
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000059
+  resolution: Change ongoing retreat to a future/intended retreat, keep concise radio
+    voice and callsign.
+- id: B03-C09
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000069
+  resolution: Use natural self-congratulatory irony about looking toward the future
+    constructively; do not add moral judgment.
+- id: B03-C10
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000072
+  resolution: 'Restore tentative concession: they may be right to perceive danger;
+    retain limited assessment.'
+- id: B03-C11
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000075
+  resolution: Replace conditional-sounding “nếu có gì thì” with “Thậm chí, mình còn
+    có thể kỳ vọng…” or equivalent; retain decoy attention and survivors’ chance.
+term_choices: Use reviewer proposals in chapter7_b03_review_recommendations, all provisional/non-canon.
+self_check_update: Correct internal pronouns and row assessments for all affected
+  IDs; verify segmentation of interior thought and radio dialogue. Record all 11 findings
+  and four reviewer terminology proposals with current alternatives/pending status.
+constraints:
+- Use only assigned b03 package, translation, self-check, reports/handoffs, named
+  canon and b03 ledger sections; never open EPUB/PDF or other package.
+- Write only translations/vol-02/ch-07-b03.jsonl and reviews/semantic/vol-02/ch-07-b03-self-check.md.
+  No handoff/ledger/canon/run-state edits or commit.
+- Run primary b03 validator/package and git diff --check.
+status: ready

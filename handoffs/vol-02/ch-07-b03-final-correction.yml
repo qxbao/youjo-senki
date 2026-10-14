@@ -1,0 +1,29 @@
+task_id: vol-02-ch-07-b03-final-correction
+role: translator
+batch: vol-02-ch-07-b03
+translation: translations/vol-02/ch-07-b03.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b03-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b03-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+lease:
+  holder: translator
+  pane_id: w6:pM2
+  terminal_id: term_65dc3e2cf6007286
+  agent_session_id: 01a1384a-93e3-7a82-b3e1-2090aebb1499
+  checkpoint_generation: 1288
+finding:
+  id: B03-F01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000060
+  resolution: Preserve condition and make Tanya’s side the subject that maintains
+    the enemy radar blackout, e.g. “miễn là bọn mình giữ cho radar của địch bị làm
+    mù”; retain controlled-fire wording and add no mechanism or formation.
+constraints:
+- Use only assigned b03 package, translation, self-check, review report, named b03
+  handoffs and pending ledger section. No EPUB/PDF or other package.
+- Write only translations/vol-02/ch-07-b03.jsonl and reviews/semantic/vol-02/ch-07-b03-self-check.md.
+  No ledger/handoff/canon/run-state edits or commit.
+- Update p000060 and matching self-check only; run primary b03 validator and git diff
+  --check.
+status: ready
