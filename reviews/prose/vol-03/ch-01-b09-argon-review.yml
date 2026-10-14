@@ -1,0 +1,243 @@
+task_id: vol-03-ch-01-b09-argon-review
+reviewer: gemini-4-argon-medium
+role: reviewer
+model: gemini-4-argon-medium
+batch: vol-03-ch-01-b09
+volume: vol-03
+chapter: 1
+translation_path: translations/vol-03/ch-01-b09.jsonl
+baseline_sha256: 29297df732af1ff6bc3d4197f1554fc23c39d2faaf997641c90f3f91be6e2d7a
+source_package: work/vol-03/batches/ch-01-b09-source.jsonl
+source_package_sha256: b602abeeebf54eb5e5a1b828be8763ba53dee90950b3b3875ba39237b7db3b82
+self_check_path: reviews/semantic/vol-03/ch-01-b09-self-check.md
+self_check_sha256: 80e6a4d920dd5ca9814de5ba398f12239d515da24eaa7bf91f351e7076ad74ba
+segment_id_start: YS-LN03/Text/chapter001_004.xhtml/p000002
+segment_id_end: YS-LN03/Text/chapter001_004.xhtml/p000024
+unit_count: 23
+segment_ids:
+- YS-LN03/Text/chapter001_004.xhtml/p000002
+- YS-LN03/Text/chapter001_004.xhtml/p000003
+- YS-LN03/Text/chapter001_004.xhtml/p000004
+- YS-LN03/Text/chapter001_004.xhtml/p000005
+- YS-LN03/Text/chapter001_004.xhtml/p000006
+- YS-LN03/Text/chapter001_004.xhtml/p000007
+- YS-LN03/Text/chapter001_004.xhtml/p000008
+- YS-LN03/Text/chapter001_004.xhtml/p000009
+- YS-LN03/Text/chapter001_004.xhtml/p000010
+- YS-LN03/Text/chapter001_004.xhtml/p000011
+- YS-LN03/Text/chapter001_004.xhtml/p000012
+- YS-LN03/Text/chapter001_004.xhtml/p000013
+- YS-LN03/Text/chapter001_004.xhtml/p000014
+- YS-LN03/Text/chapter001_004.xhtml/p000015
+- YS-LN03/Text/chapter001_004.xhtml/p000016
+- YS-LN03/Text/chapter001_004.xhtml/p000017
+- YS-LN03/Text/chapter001_004.xhtml/p000018
+- YS-LN03/Text/chapter001_004.xhtml/p000019
+- YS-LN03/Text/chapter001_004.xhtml/p000020
+- YS-LN03/Text/chapter001_004.xhtml/p000021
+- YS-LN03/Text/chapter001_004.xhtml/p000022
+- YS-LN03/Text/chapter001_004.xhtml/p000023
+- YS-LN03/Text/chapter001_004.xhtml/p000024
+status: approved_for_polish
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+unresolved_findings: []
+pending_term_recommendations:
+- source_term: v1_propellants_and_flight_phase_terms_vol03_ch01_b09
+  proposed_vi: V-1 (p000007, p000024) / hydrazine, phụ gia boron (p000007) / đạn tên lửa, boong-ke ngầm (p000008) / tốc độ chặng giữa, buồng đốt tăng lực, giai đoạn cuối của chuyến bay (p000020) / bản đồ dẫn đường, phạm vi sai số cho phép (p000022)
+  alternatives_vi:
+  - chất phụ gia bo / tốc độ hành trình giữa chặng, bộ đốt sau, pha cuối hành trình bay
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000007
+  - YS-LN03/Text/chapter001_004.xhtml/p000008
+  - YS-LN03/Text/chapter001_004.xhtml/p000020
+  - YS-LN03/Text/chapter001_004.xhtml/p000022
+  - YS-LN03/Text/chapter001_004.xhtml/p000024
+  volume: vol-03
+  chapter: 1
+  rationale: "Kế thừa đồng bộ các thuật ngữ nhiên liệu tên lửa (“hydrazine”, “phụ gia boron”) từ quyển 2 chương 7 lô b09 và kết hợp nhất quán với bộ thuật ngữ hàng không – dẫn đường trong giai đoạn chuẩn bị tách tầng công kích của V-1."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: one_shot_lighter_slang_vol03_ch01_b09
+  proposed_vi: chiếc bật lửa nhạy nổ chỉ với một phát bắn (p000011)
+  alternatives_vi:
+  - chiếc bật lửa bốc cháy chỉ sau một phát đạn
+  - mồi lửa một phát cháy ngay
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000011
+  volume: vol-03
+  chapter: 1
+  rationale: "Làm rõ nghĩa lóng quân sự chỉ phương tiện bay dễ bốc cháy ngay khi trúng một phát đạn trực tiếp, qua đó giữ trọn phép so sánh tăng tiến rằng quả tên lửa chứa đầy nhiên liệu nguy hiểm đến mức chỉ cần một vụ nổ bên ngoài cũng đủ kết liễu cả đội."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: directional_waves_and_radio_call_vol03_ch01_b09
+  proposed_vi: 01 gọi tất cả các đơn vị (p000023) / sóng định hướng (p000024)
+  alternatives_vi:
+  - 01 gửi toàn bộ các đơn vị / sóng vô tuyến định hướng
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000023
+  - YS-LN03/Text/chapter001_004.xhtml/p000024
+  volume: vol-03
+  chapter: 1
+  rationale: "Kế thừa cấu trúc khẩu lệnh vô tuyến của 01 từ các lô trước và dịch chuẩn xác thuật ngữ kỹ thuật thông tin liên lạc “sóng định hướng”."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: inherited_factions_ranks_and_theology_terms_vol03_ch01_b09
+  proposed_vi: người François, *Guten Tag* (p000005) / Đế quốc (p000006) / phân đội pháp sư (p000009) / Bộ Tổng tham mưu (p000010) / Thiếu tá Tanya von Degurechaff (p000014) / chủ nghĩa vô thần (p000015) / Chúa (p000016)
+  alternatives_vi:
+  - người Cộng hòa François / Thượng đế
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000005
+  - YS-LN03/Text/chapter001_004.xhtml/p000006
+  - YS-LN03/Text/chapter001_004.xhtml/p000009
+  - YS-LN03/Text/chapter001_004.xhtml/p000010
+  - YS-LN03/Text/chapter001_004.xhtml/p000014
+  - YS-LN03/Text/chapter001_004.xhtml/p000015
+  - YS-LN03/Text/chapter001_004.xhtml/p000016
+  volume: vol-03
+  chapter: 1
+  rationale: "Kế thừa nhất quán định danh quốc gia, dân tộc, cơ quan chỉ huy, cấp bậc của Tanya và thuật ngữ tôn giáo từ các lô trước của chương 1."
+  uncertainty: low
+  status: pending
+  canon: false
+term_recommendations:
+- source_term: v1_propellants_and_flight_phase_terms_vol03_ch01_b09
+  proposed_vi: V-1 (p000007, p000024) / hydrazine, phụ gia boron (p000007) / đạn tên lửa, boong-ke ngầm (p000008) / tốc độ chặng giữa, buồng đốt tăng lực, giai đoạn cuối của chuyến bay (p000020) / bản đồ dẫn đường, phạm vi sai số cho phép (p000022)
+  alternatives_vi:
+  - chất phụ gia bo / tốc độ hành trình giữa chặng, bộ đốt sau, pha cuối hành trình bay
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000007
+  - YS-LN03/Text/chapter001_004.xhtml/p000008
+  - YS-LN03/Text/chapter001_004.xhtml/p000020
+  - YS-LN03/Text/chapter001_004.xhtml/p000022
+  - YS-LN03/Text/chapter001_004.xhtml/p000024
+  volume: vol-03
+  chapter: 1
+  rationale: "Kế thừa đồng bộ các thuật ngữ nhiên liệu tên lửa (“hydrazine”, “phụ gia boron”) từ quyển 2 chương 7 lô b09 và kết hợp nhất quán với bộ thuật ngữ hàng không – dẫn đường trong giai đoạn chuẩn bị tách tầng công kích của V-1."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: one_shot_lighter_slang_vol03_ch01_b09
+  proposed_vi: chiếc bật lửa nhạy nổ chỉ với một phát bắn (p000011)
+  alternatives_vi:
+  - chiếc bật lửa bốc cháy chỉ sau một phát đạn
+  - mồi lửa một phát cháy ngay
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000011
+  volume: vol-03
+  chapter: 1
+  rationale: "Làm rõ nghĩa lóng quân sự chỉ phương tiện bay dễ bốc cháy ngay khi trúng một phát đạn trực tiếp, qua đó giữ trọn phép so sánh tăng tiến rằng quả tên lửa chứa đầy nhiên liệu nguy hiểm đến mức chỉ cần một vụ nổ bên ngoài cũng đủ kết liễu cả đội."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: directional_waves_and_radio_call_vol03_ch01_b09
+  proposed_vi: 01 gọi tất cả các đơn vị (p000023) / sóng định hướng (p000024)
+  alternatives_vi:
+  - 01 gửi toàn bộ các đơn vị / sóng vô tuyến định hướng
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000023
+  - YS-LN03/Text/chapter001_004.xhtml/p000024
+  volume: vol-03
+  chapter: 1
+  rationale: "Kế thừa cấu trúc khẩu lệnh vô tuyến của 01 từ các lô trước và dịch chuẩn xác thuật ngữ kỹ thuật thông tin liên lạc “sóng định hướng”."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: inherited_factions_ranks_and_theology_terms_vol03_ch01_b09
+  proposed_vi: người François, *Guten Tag* (p000005) / Đế quốc (p000006) / phân đội pháp sư (p000009) / Bộ Tổng tham mưu (p000010) / Thiếu tá Tanya von Degurechaff (p000014) / chủ nghĩa vô thần (p000015) / Chúa (p000016)
+  alternatives_vi:
+  - người Cộng hòa François / Thượng đế
+  segment_ids:
+  - YS-LN03/Text/chapter001_004.xhtml/p000005
+  - YS-LN03/Text/chapter001_004.xhtml/p000006
+  - YS-LN03/Text/chapter001_004.xhtml/p000009
+  - YS-LN03/Text/chapter001_004.xhtml/p000010
+  - YS-LN03/Text/chapter001_004.xhtml/p000014
+  - YS-LN03/Text/chapter001_004.xhtml/p000015
+  - YS-LN03/Text/chapter001_004.xhtml/p000016
+  volume: vol-03
+  chapter: 1
+  rationale: "Kế thừa nhất quán định danh quốc gia, dân tộc, cơ quan chỉ huy, cấp bậc của Tanya và thuật ngữ tôn giáo từ các lô trước của chương 1."
+  uncertainty: low
+  status: pending
+  canon: false
+locked_choices:
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000002
+  locks:
+  - "Giữ đại từ ngôi thứ nhất số nhiều “chúng ta”, hình ảnh được vận chuyển tới không phận phía trên đích đến cùng các thùng nhiên liệu và phép so sánh với những phi hành gia thời kỳ đầu chỉ đi quá giang theo chuyến bay."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000003
+  locks:
+  - "Giữ cấu trúc đối lập phủ định rằng khác với những phi hành gia thời kỳ đầu, “chúng ta” không thể kỳ vọng màn chào đón nồng nhiệt từ các đồng nghiệp tay ôm bó hoa sau khi hạ cánh thành công."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000004
+  locks:
+  - "Giữ tương phản không phải quay về Trái Đất nơi đội ngũ hỗ trợ thấp thỏm chờ đón tại điểm đáp dự kiến, mà là lao vào cái ổ của “những chú ốc sên thân mến” đang sục sôi địch ý."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000005
+  locks:
+  - "Giữ cấu trúc điều kiện giả định, định danh “đám người François”, dấu nhấn mạnh chữ nghiêng ở cụm lời chào tiếng Đức `*Guten Tag*` theo DEC-P01-002 và kết quả nhận lại là những viên đạn chì."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000006
+  locks:
+  - "Giữ chủ thể ngôi thứ ba “đơn vị của Tanya từ Đế quốc ghé thăm” và ẩn dụ mỉa mai “lịch sự gõ cửa trước”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000007
+  locks:
+  - "Giữ định danh “V-1”, các thành phần nhiên liệu “hydrazine và phụ gia boron” cùng ẩn dụ dùng chính chúng làm “vòng gõ cửa” để giáng đòn phủ đầu."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000008
+  locks:
+  - "Giữ chi tiết những quả đạn tên lửa bay nhanh hơn âm thanh mang năng lượng khổng lồ lao vào mục tiêu, lời cam đoan của các nhà khoa học về “những chiếc vòng gõ cửa tuyệt vời nhất trong toàn bộ lịch sử nhân loại” và tác dụng đánh thức bất kỳ ai bất kể “boong-ke ngầm” sâu đến đâu."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000009
+  locks:
+  - "Giữ đại từ độc thoại “Mình” theo DEC-P01-001, đại từ “chúng ta”, ẩn dụ gõ cửa mạnh tay và định danh “chiến dịch hai giai đoạn đầy lịch thiệp” nơi “phân đội pháp sư” tấn công ngay tiếp sau."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000010
+  locks:
+  - "Giữ nhận định châm biếm rằng kẻ nghĩ ra kế hoạch này vô cùng độc ác và đó là lời khen ngợi tuyệt vời nhất dành cho một sĩ quan thuộc “Bộ Tổng tham mưu”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000011
+  locks:
+  - "Giữ đại từ độc thoại “mình” / “Chúng ta” theo DEC-P01-001, nỗi khổ tâm muốn bật khóc khi bị buộc chặt vào quả tên lửa và phép so sánh không cần trúng đạn như “chiếc bật lửa nhạy nổ chỉ với một phát bắn” vì chỉ một vụ nổ bên ngoài cũng đủ kết liễu cả đội."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000012
+  locks:
+  - "Giữ dấu nhấn mạnh chữ nghiêng chỉ ở đúng từ `*nên*` theo DEC-P01-002, số phận thổ huyết trong cuộc tử chiến của cả hai phía trên chiến trường và lời tuyên bố ở ngôi thứ ba của “Tanya von Degurechaff” rằng hòa bình là điều thiêng liêng."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000013
+  locks:
+  - "Giữ sự đối lập giữa cảnh binh lính nhàn tản trong thế giới hòa bình với tình cảnh người lính phải vất vả trên chiến trường, cùng ẩn dụ quốc gia quên mặc tã hoặc quên nuôi chó giữ nhà."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000014
+  locks:
+  - "Giữ cấp bậc đầy đủ “Thiếu tá Tanya von Degurechaff”, sự chuyển đổi điểm nhìn từ trần thuật ngôi thứ ba dùng đại từ “nó” ở câu đầu sang độc thoại ngôi thứ nhất dùng đại từ “mình” ở câu thứ hai theo DEC-P01-001, và nguyên tắc đơn vị có kỷ luật nghiêm minh không được phép đến muộn."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000015
+  locks:
+  - "Giữ chủ thể “Tanya”, dấu nhấn mạnh chữ nghiêng bao trọn câu suy nghĩ `*Ít nhất thì nếu lịch sử có ghi chép lại chuyện này, nó cũng nên nhắc tới chủ nghĩa vô thần trên chiến trường.*` theo DEC-P01-002, và câu cuối ở dạng văn bản phẳng dùng đại từ “mình”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000016
+  locks:
+  - "Giữ chủ thể “Tanya”, danh xưng “Chúa” và quyết định thực hiện vài màn quảng bá thật chấn động để hạ thấp Chúa."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000017
+  locks:
+  - "Giữ đại từ độc thoại “mình” theo DEC-P01-001, châm ngôn không có thứ gọi là truyền thông tồi và phép chơi chữ đối chiếu giữa “cuộc khẩu chiến nảy lửa” trên diễn đàn với “vật chất hữu cơ bốc cháy thành ngọn lửa theo đúng nghĩa đen”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000018
+  locks:
+  - "Giữ dấu nhấn mạnh chữ nghiêng chỉ ở đúng câu mở đầu `*Đến giờ làm việc rồi.*` theo DEC-P01-002, cùng hành động xem giờ và rà soát kế hoạch của Tanya."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000019
+  locks:
+  - "Giữ câu tự nhủ ngắn gọn ở dạng văn bản phẳng không in nghiêng rằng không còn thời gian phung phí vào việc càu nhàu."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000020
+  locks:
+  - "Giữ chủ thể “Tanya”, đại từ phản thân “mình” và các thuật ngữ kỹ thuật bay “Tốc độ chặng giữa”, “Các thiết lập buồng đốt tăng lực”, “giai đoạn cuối của chuyến bay”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000021
+  locks:
+  - "Giữ đại từ trần thuật “nó” theo DEC-P01-001 và chi tiết thùng nhiên liệu rỗng từng khiến nó lo phát nổ đã tách ra đúng như thiết kế."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000022
+  locks:
+  - "Giữ chủ thể “Tanya” / “Nó” theo DEC-P01-001, các thuật ngữ “bản đồ dẫn đường”, “thiết bị đo đạc”, mối lo về sai sót tính toán hoặc bị gió thổi chệch hướng và kết luận mọi thứ đều nằm trong “phạm vi sai số cho phép”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000023
+  locks:
+  - "Giữ nguyên khẩu lệnh vô tuyến của Tanya: “01 gọi tất cả các đơn vị. Hiện chúng ta đang bước vào chặng cuối. Báo cáo tình hình.”."
+- segment_id: YS-LN03/Text/chapter001_004.xhtml/p000024
+  locks:
+  - "Giữ chủ thể “Tanya” / “nó” theo DEC-P01-001, các thuật ngữ “đại đội”, “sóng định hướng”, “thợ máy phụ trách bảo dưỡng V-1” và ý nghĩ thầm cảm ơn họ vì những cỗ máy không gặp trục trặc rồi bất ngờ bung rời ra giữa không trung."
