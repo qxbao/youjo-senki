@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-07-b06-source.jsonl
 source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
 translation_editor: codex-coordinator
-status: ready
+status: promoted_awaiting_commit
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +43,17 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0032.xhtml/p000153
+lease:
+  holder: none
+  task_id: vol-02-ch-07-b06
+  state: released_promotion_complete
+  allowlist: []
+promotion:
+  coordinator: ys-coord-1257
+  candidate: polish-candidates/vol-02/ch-07-b06.gemini.jsonl
+  candidate_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+  receipt: reviews/semantic/vol-02/ch-07-b06-gemini-regression.yml
+  decision: accept
+  apply_authorized: true
+promotion_receipt: handoffs/vol-02/ch-07-b06-promotion.yml
+promotion_receipt_sha256: ec16f101c932f2897d570381a07c4e99597ea147fcbe5434c2a420c1cf5482be

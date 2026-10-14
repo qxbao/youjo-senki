@@ -1,0 +1,54 @@
+task_id: vol-02-ch-07-b06
+role: translator
+batch: vol-02-ch-07-b06
+primary_handoff: handoffs/vol-02/ch-07-b06.yml
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+lease:
+  holder: none
+  pane_id: w6:pMT
+  terminal_id: term_65dc90e41658a29e
+  agent_session_id: 01a1399e-396e-74f1-946d-7b36797a06c2
+  checkpoint_generation: 1314
+  state: released_report_received
+  allowlist: []
+allowlist:
+- translations/vol-02/ch-07-b06.jsonl
+- reviews/semantic/vol-02/ch-07-b06-self-check.md
+constraints:
+- Translate only assigned stable IDs p000132–p000152 from this package.
+- Do not open EPUB/PDF, another source package, or source outside this package.
+- Read only canon references named in primary handoff and relevant pending ledger
+  sections.
+- Keep uncertain choices provisional/non-canon.
+- No commit, handoff/ledger/canon/run-state edits, or work outside allowlist.
+- Run python3 tools/validate_translation.py with primary handoff and assigned package,
+  then git diff --check.
+- Use only this handoff, the primary b06 handoff, assigned b06 package, named canon
+  and relevant b06 pending ledger sections.
+- Do not read or edit any batch other than B06.
+status: translation_done_waiting_argon_review
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status
+  status_sent_exactly_once: true
+  model: gpt-6-luna
+  effort: medium
+  sandbox: danger-full-access
+  approval_policy: never
+  verified: true
+  task_prompt_sent: false
+translator_report:
+  state: done
+  segment_ids: p000132-p000152
+  files_written:
+  - translations/vol-02/ch-07-b06.jsonl
+  - reviews/semantic/vol-02/ch-07-b06-self-check.md
+  translation_sha256: 9701d2931c358e9c6cbc39b201b47e7e4bbdeefba76601a6b5540454b1206841
+  self_check_sha256: 060323b4605c49c9788e1a32d30565a41bdaf3fb23affcb777cd940a47dc2b5c
+  validator: pass_21_rows
+  diff_check: pass
+  pending_count: 11
+  commit: null
+  next_action: review

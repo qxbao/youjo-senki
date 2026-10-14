@@ -1,0 +1,58 @@
+task_id: vol-02-ch-07-b06-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b06
+baseline: translations/vol-02/ch-07-b06.jsonl
+baseline_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+argon_review: reviews/prose/vol-02/ch-07-b06-argon-final-signoff.yml
+argon_review_sha256: 57d756976d8e2f032d8df09c4d410218eadf385d5d28b78f6f50a65c26cb2e5f
+locked_choices: handoffs/vol-02/ch-07-b06-locked-choices.yml
+locked_choices_sha256: 9114c86b39f82641f49719ff3e7f32be12a054c094496a83efc45ad3d00fcbe8
+translator_signoff: handoffs/vol-02/ch-07-b06-argon-fixes.yml
+allowlist:
+- polish-candidates/vol-02/ch-07-b06.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b06.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml
+  and only assigned B06 baseline/source package/Argon final signoff/locked choices/canon
+  named by primary handoff.
+- Polish Vietnamese prose only; preserve locked choices, meaning, negation, subject,
+  modality, time, viewpoint, emphasis, IDs/order and metadata.
+- Write only polish-candidates/vol-02/ch-07-b06.gemini.jsonl and polish-candidates/vol-02/ch-07-b06.gemini-change-log.yml
+  under polish-candidates/. Candidate may change translation only; log all 21 IDs
+  in baseline order with allowed types and explicit escalate; no source quotes.
+- No other batch/files, no canonical translations, no reports/handoffs/canon/ledger/checkpoint,
+  no commit. Return YAML and exact hashes.
+status: done_reconfirmed_after_lock_normalization
+lease:
+  holder: polisher
+  pane_id: w6:pN7
+  terminal_id: term_65dc9a66ae2512ab
+  agent_session_id: a297524b-c981-4ac1-b39e-16f4b885693b
+  checkpoint_generation: 1350
+  state: released_report_received
+preflight:
+  argv_model: gemini-3.8-flash-medium
+  argv_effort: medium
+  visible_model: Gemini 3.8 Flash (Medium)
+  verified: true
+  task_prompt_sent: false
+candidate_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+change_log_sha256: 9ed2955f017247810276b3b20429511a296595a8467154bd43292bcba8bad85d
+report:
+  state: done
+  segment_ids_count: 21
+  changed_segments: 0
+  escalations: []
+  risks: []
+  validator: pass
+  diff_check: pass
+previous_flash_candidate_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+previous_flash_change_log_sha256: 9ed2955f017247810276b3b20429511a296595a8467154bd43292bcba8bad85d
+previous_locked_choices_sha256: be7c4d13d3301d98184369d95841142a5e94b4be5dfd93261d8ab7e4ffdb8212
+candidate_sha256_before_rerun: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+change_log_sha256_before_rerun: 9ed2955f017247810276b3b20429511a296595a8467154bd43292bcba8bad85d
+retry_reason: Coordinator normalized Argon choices to promotion schema; previous Flash
+  report no longer matches locked_choices_sha256.

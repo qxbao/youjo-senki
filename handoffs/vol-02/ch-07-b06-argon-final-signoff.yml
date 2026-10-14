@@ -1,0 +1,40 @@
+task_id: vol-02-ch-07-b06-argon-final-signoff
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b06
+translation: translations/vol-02/ch-07-b06.jsonl
+baseline_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+primary_handoff: handoffs/vol-02/ch-07-b06.yml
+initial_review: reviews/prose/vol-02/ch-07-b06-argon-review.yml
+translator_fixes: handoffs/vol-02/ch-07-b06-argon-fixes.yml
+self_check: reviews/semantic/vol-02/ch-07-b06-self-check.md
+pending_ledger: work/run-state/pending-terms.yml
+constraints:
+- Review only assigned B06 package, current B06 translation/self-check, initial Argon
+  report, translator fixes, named canon and B06 pending sections; no EPUB/PDF or other
+  batch.
+- Verify the four reported B06 findings (p000137, p000138, p000146, p000148) are fixed
+  and no serious/moderate or material new meaning issue remains across all 21 IDs.
+  Restate grounded temporary locked choices and alternatives as non-canon.
+- Write only reviews/prose/vol-02/ch-07-b06-argon-final-signoff.yml. No translation,
+  self-check, handoff, canon, ledger, checkpoint or commit edits. No source quotations.
+report_path: reviews/prose/vol-02/ch-07-b06-argon-final-signoff.yml
+status: done
+lease:
+  holder: reviewer
+  pane_id: w6:pN3
+  terminal_id: term_65dc971b048c12a7
+  agent_session_id: 2fab3d65-24a1-4f3a-b869-5c2ed49f453d
+  checkpoint_generation: 1336
+  state: released_report_received
+allowlist:
+- reviews/prose/vol-02/ch-07-b06-argon-final-signoff.yml
+report_sha256: 57d756976d8e2f032d8df09c4d410218eadf385d5d28b78f6f50a65c26cb2e5f
+review_counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+  total: 0
+  resolved_from_initial_review: 4

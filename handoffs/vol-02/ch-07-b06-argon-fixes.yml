@@ -1,0 +1,77 @@
+task_id: vol-02-ch-07-b06-argon-fixes
+role: translator
+batch: vol-02-ch-07-b06
+translation: translations/vol-02/ch-07-b06.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b06-self-check.md
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+argon_report: reviews/prose/vol-02/ch-07-b06-argon-review.yml
+argon_report_sha256: ed9bc23cfdf48b993b453c5bfa1a4577a2fbccd83b3d1d042ed44bf2dcd630b1
+baseline_sha256: 9701d2931c358e9c6cbc39b201b47e7e4bbdeefba76601a6b5540454b1206841
+primary_handoff: handoffs/vol-02/ch-07-b06.yml
+constraints:
+- Use only the assigned B06 package, B06 translation/self-check, fresh B06 Argon report,
+  named canon and B06 pending ledger section. No EPUB/PDF or another batch.
+- Apply all four Argon findings only at p000137, p000138, p000146, p000148. Preserve
+  the other translation strings. Keep Argon locked choices and temporary proposals
+  consistent; all remain non-canon.
+- Update the B06 self-check to record each resolved finding and provisional choices.
+  After all four findings are resolved, set all 21 rows status reviewed; do not use
+  approved.
+- Write only translations/vol-02/ch-07-b06.jsonl and reviews/semantic/vol-02/ch-07-b06-self-check.md.
+  Run assigned validator and git diff --check. No ledger/handoff/canon/checkpoint
+  edits or commit. Return YAML with exact old/new hashes, strings changed IDs, statuses,
+  validator and diff-check.
+status: done_waiting_argon_final_signoff
+lease:
+  holder: translator
+  pane_id: w6:pM0
+  terminal_id: term_65dc961c791db2a4
+  agent_session_id: 01a139b2-d7f5-7141-b759-40907dbfdcd3
+  checkpoint_generation: 1330
+  state: released_report_received
+allowlist:
+- translations/vol-02/ch-07-b06.jsonl
+- reviews/semantic/vol-02/ch-07-b06-self-check.md
+findings_to_fix:
+- segment_id: YS-LN02/Text/part0032.xhtml/p000137
+  severity: minor
+  resolution: Apply DEC-P01-001 self-reference consistently as “bọn mình / mình”.
+- segment_id: YS-LN02/Text/part0032.xhtml/p000138
+  severity: moderate
+  resolution: Correct the impersonal frequency comparison so Tanya is not the subject
+    of “rarely ordered”; preserve the comparison that few people are ordered to kill
+    as often as her.
+- segment_id: YS-LN02/Text/part0032.xhtml/p000146
+  severity: minor
+  resolution: Restore the warning predicate’s supported seriousness and use a neutral
+    plural address for the whole unit.
+- segment_id: YS-LN02/Text/part0032.xhtml/p000148
+  severity: minor
+  resolution: Align the quoted modifier with the selected temporary term “trinh sát
+    chiến đấu”.
+preflight:
+  status_command: /status
+  status_sent_exactly_once: true
+  model: gpt-6-luna
+  effort: medium
+  sandbox: danger-full-access
+  approval_policy: never
+  verified: true
+  task_prompt_sent: false
+translator_report:
+  state: done
+  old_hash: 9701d2931c358e9c6cbc39b201b47e7e4bbdeefba76601a6b5540454b1206841
+  new_hash: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+  self_check_sha256: c712df3613dea43533d4c092419c88b1c50371f1c6f1fd05bb2f6c8e9375386a
+  strings_changed_ids:
+  - YS-LN02/Text/part0032.xhtml/p000137
+  - YS-LN02/Text/part0032.xhtml/p000138
+  - YS-LN02/Text/part0032.xhtml/p000146
+  - YS-LN02/Text/part0032.xhtml/p000148
+  status_counts:
+    reviewed: 21
+  validator: pass
+  diff_check: pass
+  findings_resolved: 4
+  commit: null

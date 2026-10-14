@@ -1,0 +1,42 @@
+task_id: vol-02-ch-07-b06-argon-review
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b06
+translation: translations/vol-02/ch-07-b06.jsonl
+baseline_sha256: 9701d2931c358e9c6cbc39b201b47e7e4bbdeefba76601a6b5540454b1206841
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+primary_handoff: handoffs/vol-02/ch-07-b06.yml
+self_check: reviews/semantic/vol-02/ch-07-b06-self-check.md
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter7_b06_translator_proposals
+constraints:
+- Review only B06 source package, current translation, self-check, primary handoff,
+  named canon and B06 ledger section. No EPUB/PDF or other package; no source quotations.
+- Review all 21 stable IDs independently. Resolve pending terminology/name/rank/pronoun
+  options with a supported temporary choice and alternatives; keep non-canon.
+- Write only reviews/prose/vol-02/ch-07-b06-argon-review.yml. No translation, self-check,
+  handoff, canon, ledger, checkpoint, or commit.
+report_path: reviews/prose/vol-02/ch-07-b06-argon-review.yml
+status: done
+lease:
+  holder: reviewer
+  pane_id: w6:pMY
+  terminal_id: term_65dc94b464bb22a2
+  agent_session_id: db970e54-dec5-4b15-b5e7-3898a8de7c4d
+  checkpoint_generation: 1327
+  state: released_report_received
+allowlist:
+- reviews/prose/vol-02/ch-07-b06-argon-review.yml
+preflight:
+  visible_model: Gemini 4 Argon (Medium)
+  argv_model: gemini-4-argon-medium
+  argv_effort_flag: omitted
+  verified: true
+  task_prompt_sent: true
+report_sha256: ed9bc23cfdf48b993b453c5bfa1a4577a2fbccd83b3d1d042ed44bf2dcd630b1
+review_counts:
+  serious: 0
+  moderate: 1
+  minor: 3
+  total: 4

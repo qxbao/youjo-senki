@@ -1,0 +1,522 @@
+role: reviewer
+task_id: vol-02-ch-07-b06-argon-review
+state: done
+batch: vol-02-ch-07-b06
+review_path: reviews/prose/vol-02/ch-07-b06-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-07-b06-argon-review.yml
+translation: translations/vol-02/ch-07-b06.jsonl
+baseline_sha256: 9701d2931c358e9c6cbc39b201b47e7e4bbdeefba76601a6b5540454b1206841
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000132
+  - YS-LN02/Text/part0032.xhtml/p000133
+  - YS-LN02/Text/part0032.xhtml/p000134
+  - YS-LN02/Text/part0032.xhtml/p000135
+  - YS-LN02/Text/part0032.xhtml/p000136
+  - YS-LN02/Text/part0032.xhtml/p000137
+  - YS-LN02/Text/part0032.xhtml/p000138
+  - YS-LN02/Text/part0032.xhtml/p000139
+  - YS-LN02/Text/part0032.xhtml/p000140
+  - YS-LN02/Text/part0032.xhtml/p000141
+  - YS-LN02/Text/part0032.xhtml/p000142
+  - YS-LN02/Text/part0032.xhtml/p000143
+  - YS-LN02/Text/part0032.xhtml/p000144
+  - YS-LN02/Text/part0032.xhtml/p000145
+  - YS-LN02/Text/part0032.xhtml/p000146
+  - YS-LN02/Text/part0032.xhtml/p000147
+  - YS-LN02/Text/part0032.xhtml/p000148
+  - YS-LN02/Text/part0032.xhtml/p000149
+  - YS-LN02/Text/part0032.xhtml/p000150
+  - YS-LN02/Text/part0032.xhtml/p000151
+  - YS-LN02/Text/part0032.xhtml/p000152
+segment_ids_checked:
+  - YS-LN02/Text/part0032.xhtml/p000132
+  - YS-LN02/Text/part0032.xhtml/p000133
+  - YS-LN02/Text/part0032.xhtml/p000134
+  - YS-LN02/Text/part0032.xhtml/p000135
+  - YS-LN02/Text/part0032.xhtml/p000136
+  - YS-LN02/Text/part0032.xhtml/p000137
+  - YS-LN02/Text/part0032.xhtml/p000138
+  - YS-LN02/Text/part0032.xhtml/p000139
+  - YS-LN02/Text/part0032.xhtml/p000140
+  - YS-LN02/Text/part0032.xhtml/p000141
+  - YS-LN02/Text/part0032.xhtml/p000142
+  - YS-LN02/Text/part0032.xhtml/p000143
+  - YS-LN02/Text/part0032.xhtml/p000144
+  - YS-LN02/Text/part0032.xhtml/p000145
+  - YS-LN02/Text/part0032.xhtml/p000146
+  - YS-LN02/Text/part0032.xhtml/p000147
+  - YS-LN02/Text/part0032.xhtml/p000148
+  - YS-LN02/Text/part0032.xhtml/p000149
+  - YS-LN02/Text/part0032.xhtml/p000150
+  - YS-LN02/Text/part0032.xhtml/p000151
+  - YS-LN02/Text/part0032.xhtml/p000152
+findings:
+  - severity: moderate
+    segment_id: YS-LN02/Text/part0032.xhtml/p000138
+    issue: >-
+      Câu thứ tư dịch là "Vậy mà mình hiếm khi bị ra lệnh giết họ nhiều đến thế",
+      biến "mình" thành chủ ngữ trực tiếp của "hiếm khi bị ra lệnh" và làm đảo
+      ngược nghĩa tần suất/so sánh của bản gốc (bản gốc dùng cấu trúc vô nhân xưng
+      kèm mệnh đề so sánh để khẳng định hiếm có ai/hiếm có trường hợp nào lại bị
+      ra lệnh giết người thường xuyên như nhân vật "mình").
+    basis: >-
+      Đối chiếu cấu trúc mệnh đề so sánh tần suất trong p000138 và mạch lập luận
+      tương phản với câu trước ("Chắc chắn chẳng ai yêu thương con người hơn mình.
+      Vậy mà...").
+    proposal: >-
+      Sửa thành "Vậy mà hiếm có ai lại bị ra lệnh giết người nhiều như mình."
+      hoặc "Vậy mà. Hiếm khi có ai bị ra lệnh giết họ thường xuyên như mình."
+    resolution: open_for_translator_or_coordinator
+    status: unresolved
+  - severity: minor
+    segment_id: YS-LN02/Text/part0032.xhtml/p000137
+    issue: >-
+      Đoạn p000137 không có dấu ngoặc kép và là độc thoại nội tâm của Tanya đang
+      trách thầm đám pháp sư đối phương kéo tới khiêu chiến (có liên hệ tới khái
+      niệm làm thêm không lương và năng suất lao động), nhưng bản dịch dùng tự
+      xưng "bọn tôi / tôi" thay vì "bọn mình / mình" như các đoạn nội tâm liền kề
+      p000134–p000135 và p000138–p000140.
+    basis: >-
+      DEC-P01-001 quy định nội tâm tự quy chiếu của Tanya dùng "mình"; cấu trúc
+      đoạn không có dấu thoại trong XHTML nguồn.
+    proposal: >-
+      Đổi tự xưng sang "bọn mình / mình" ("...lại đến khiêu chiến với bọn mình à?
+      Cá nhân mình khó mà khen ngợi thái độ đó, vì mình biết...") để nhất quán
+      điểm nhìn nội tâm, giữ "các người" cho đối tượng quân địch được gọi thầm.
+    resolution: open_for_translator_or_coordinator
+    status: unresolved
+  - severity: minor
+    segment_id: YS-LN02/Text/part0032.xhtml/p000146
+    issue: >-
+      Trong thông báo của Đài điều khiển, vị ngữ mô tả nhóm xâm nhập được dịch là
+      "khá cừ đấy" thiên về khen kỹ năng thay vì cảnh báo tính chất làm thật/nghiêm
+      túc của đối phương; câu cuối dùng "Các anh" cho lời gọi chung toàn đơn vị
+      khi chưa có căn cứ giới tính toàn bộ thành viên.
+    basis: >-
+      Liên kết ngữ nghĩa với sắc thái "có phần nghiêm trọng" ở p000147 và nhận
+      xét đối phương quyết tâm tiến sâu ở p000148; giới hạn suy luận giới tính
+      theo DEC-P01-001.
+    proposal: >-
+      Chỉnh nhẹ thành "Hôm nay khách của chúng ta làm thật đấy. Mọi người sẽ bận
+      tay đây." (hoặc "khá nghiêm túc đấy / căng đấy").
+    resolution: open_for_translator_or_coordinator
+    status: unresolved
+  - severity: minor
+    segment_id: YS-LN02/Text/part0032.xhtml/p000148
+    issue: >-
+      Các đoạn p000145, p000147 và p000151 dịch thuật ngữ ghép là "trinh sát chiến
+      đấu", nhưng câu đầu p000148 khi tách thành tố bổ nghĩa trong dấu ngoặc kép
+      lại viết "Dù có thêm chữ “bằng vũ lực”, về cơ bản đó vẫn là “trinh sát”",
+      làm lệch bề mặt từ vựng giữa thuật ngữ ghép và thành tố được viện dẫn.
+    basis: >-
+      Tính liên kết bề mặt của lập luận giải thích thuật ngữ giữa p000147 và
+      p000148.
+    proposal: >-
+      Giữ "trinh sát chiến đấu" theo mạch chương 7 và làm rõ liên hệ tại p000148
+      (ví dụ: "Dù có thêm cụm chỉ tính chất “chiến đấu” / “bằng vũ lực”, về cơ bản
+      đó vẫn là “trinh sát”" hoặc đồng bộ thành tố giữa các đoạn).
+    resolution: open_for_translator_or_coordinator
+    status: unresolved
+review_counts:
+  serious: 0
+  moderate: 1
+  minor: 3
+  total: 4
+unresolved_findings:
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000138
+    severity: moderate
+    summary: >-
+      Đảo ngược chủ thể và nghĩa so sánh tần suất ở câu thứ tư ("hiếm có ai bị ra
+      lệnh giết họ thường xuyên như mình", không phải "mình hiếm khi bị ra lệnh").
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000137
+    severity: minor
+    summary: >-
+      Đồng bộ đại từ tự xưng nội tâm của Tanya sang "bọn mình / mình" theo
+      DEC-P01-001.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000146
+    severity: minor
+    summary: >-
+      Chỉnh sắc thái vị ngữ cảnh báo của Đài điều khiển ("làm thật đấy / khá nghiêm
+      túc đấy") và đại từ gọi toàn đơn vị trung tính ("Mọi người").
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000148
+    severity: minor
+    summary: >-
+      Khớp bề mặt thành tố bổ nghĩa trong ngoặc kép ở p000148 với thuật ngữ
+      "trinh sát chiến đấu" ở p000145, p000147, p000151.
+locked_choices:
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000132
+    viewpoint: thoại vô tuyến ngôi thứ nhất
+    pronouns: "tôi (người nói) / họ (đơn vị được điều động)"
+    modality_negation: cam kết điều động nhanh hết mức có thể; giữ dấu ba chấm mở đầu
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000133
+    viewpoint: thoại vô tuyến kết thúc liên lạc
+    pronouns: lược đại từ tân ngữ người nhận để tránh suy đoán cấp bậc/giới tính
+    terms:
+      Lord: Chúa
+    modality_negation: câu cầu chúc trung tính ("Cầu xin Chúa phù hộ.")
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000134
+    viewpoint: độc thoại nội tâm của Tanya
+    pronouns: "mình (theo DEC-P01-001)"
+    terms:
+      CP: CP
+    modality_negation: >-
+      giữ quan hệ mục đích "để sống sót", tình thái nghĩa vụ "phải can đảm và cố
+      hết sức" và phủ định "không để thế giới dị thường này đánh bại"
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000135
+    viewpoint: độc thoại nội tâm của Tanya
+    pronouns: "mình (theo DEC-P01-001)"
+    modality_negation: >-
+      phủ định ý định hy sinh bản thân vì mệnh lệnh bay tiếp; giữ trạng thái tiệm
+      cận "không thể tập trung" và "ý chí gần như suy sụp" (chưa suy sụp hoàn toàn);
+      giữ giới hạn "chỉ có vậy thôi"
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000136
+    viewpoint: lời chỉ huy trực tiếp trước toàn đơn vị
+    pronouns: "chúng ta / tất cả mọi người"
+    terms:
+      all hands: tất cả mọi người
+      counter-mage fight: trận chiến với pháp sư đối địch
+    modality_negation: mệnh lệnh khích lệ dạy cho kẻ thách thức một bài học
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000137
+    viewpoint: độc thoại nội tâm của Tanya hướng thầm về phía pháp sư địch
+    pronouns: "mình / bọn mình (tự xưng nội tâm theo DEC-P01-001); các người (gọi thầm quân địch)"
+    terms:
+      rear: hậu phương
+      unpaid overtime: làm thêm không lương
+      labor productivity: năng suất lao động
+    modality_negation: >-
+      giữ giả định quá khứ "vốn có thể nghỉ ngơi thoải mái ở hậu phương", phủ định
+      mức đóng góp của làm thêm không lương và câu hỏi tu từ trách cứ
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000138
+    viewpoint: độc thoại nội tâm của Tanya
+    pronouns: "mình (theo DEC-P01-001)"
+    modality_negation: >-
+      giữ phủ định so sánh hơn nhất ("chẳng ai yêu thương con người hơn mình"),
+      sửa câu thứ tư để giữ đúng nghĩa hiếm có ai bị ra lệnh giết người thường
+      xuyên như "mình", và giữ giả định tự kiểm ("mình mà nguyền rủa số phận thì
+      thật đáng xấu hổ")
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000139
+    viewpoint: độc thoại nội tâm của Tanya
+    pronouns: "mình (tự xưng); ngài (quy chiếu ngữ pháp tới Chúa/Thượng đế trong câu điều kiện, không hàm ý tôn kính)"
+    terms:
+      Being X: Being X
+      God: Chúa
+    modality_negation: >-
+      giữ sắc thái cận hiện ("Cứ như thể... sắp hiện lên") và mệnh đề điều kiện
+      giả định ("nếu ngài tồn tại, thì ngài đúng là...")
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000140
+    viewpoint: độc thoại nội tâm của Tanya
+    pronouns: "mình (theo DEC-P01-001)"
+    modality_negation: giữ phủ định ("chẳng theo ý mình") và mong muốn sống bình yên
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000141
+    viewpoint: chuyển cảnh sang điểm nhìn phía Cộng hòa (space-break)
+    emphasis: >-
+      giữ đúng hai cụm in nghiêng bằng Markdown *...* theo DEC-P01-002 (*Đó là một
+      ngày bình thường.* và *đó là một chiến trường bình thường.*)
+    modality_negation: giữ phủ định mở đầu và phép tự đính chính bằng "Không,"
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000142
+    viewpoint: trần thuật ngôi thứ nhất số nhiều phía Cộng hòa
+    terms:
+      military observers: sĩ quan quan sát quân sự
+      Commonwealth: Khối Thịnh vượng chung
+    modality_negation: >-
+      giữ cấu trúc điều kiện ("Nếu có điều gì khác thường, thì đó là...") và phủ
+      định mức độ gây chú ý do cảm xúc mọi người đã kiệt quệ
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000143
+    viewpoint: trần thuật ngôi thứ nhất số nhiều phía Cộng hòa
+    pronouns: "chúng tôi (đơn vị phía Cộng hòa); họ (binh sĩ)"
+    terms:
+      bigwigs: các nhân vật tai to mặt lớn
+    modality_negation: >-
+      giữ trình tự thời gian sau bữa tối -> dẫn đi thị sát, và phủ định sự quan
+      tâm của binh sĩ do quá mệt mỏi
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000144
+    viewpoint: trần thuật ngôi thứ nhất số nhiều của pháp sư Cộng hòa
+    pronouns: "chúng tôi (các pháp sư xuất kích)"
+    terms:
+      Third Mage Battalion: Tiểu đoàn Pháp sư số Ba
+      Twenty-Second Division: Sư đoàn số Hai mươi Hai
+      Republican Army: Quân đội Cộng hòa
+      scramble order: lệnh báo động xuất kích
+    modality_negation: >-
+      giữ thế song hành giữa binh sĩ ngủ dưới đất và pháp sư bay lên trời cùng làm
+      tròn nhiệm vụ
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000145
+    viewpoint: trần thuật ngôi thứ nhất số nhiều của pháp sư Cộng hòa
+    pronouns: "chúng tôi"
+    terms:
+      recon-in-force: trinh sát chiến đấu
+      ground troops: lực lượng mặt đất
+    modality_negation: >-
+      phân biệt nhiệm vụ chính (tiêu diệt tiểu đoàn trinh sát chiến đấu) với mục
+      tiêu thứ yếu dự kiến (hỗ trợ lực lượng mặt đất); giữ tình thái khả năng
+      "có lẽ khó hiểu được" đối với người chưa từng ở tiền tuyến
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000146
+    viewpoint: thoại vô tuyến từ Đài điều khiển
+    pronouns: "chúng ta / mọi người (tránh gán giới tính toàn đơn vị)"
+    terms:
+      Control: Đài điều khiển
+    modality_negation: cảnh báo mức độ nghiêm túc/làm thật của đối phương hôm nay
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000147
+    viewpoint: trần thuật ngôi thứ nhất số nhiều phía Cộng hòa
+    terms:
+      combat controller: sĩ quan điều khiển tác chiến
+      reconnaissance-in-force: trinh sát chiến đấu
+    modality_negation: >-
+      giữ đối lập giữa giọng điệu có phần nghiêm trọng và sự tự tin; giữ giả định
+      ngược quá khứ ("Nếu một sư đoàn hay trung đoàn pháp sư... thì có thể đã khác")
+      đối lập với nhận định đẩy lùi một tiểu đoàn trinh sát chiến đấu không quá khó
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000148
+    viewpoint: trần thuật ngôi thứ nhất số nhiều phía Cộng hòa
+    pronouns: "chúng tôi (đơn vị Cộng hòa); họ (quân xâm nhập)"
+    terms:
+      in-force: chiến đấu (bằng vũ lực)
+      reconnaissance: trinh sát
+    modality_negation: >-
+      giữ phán đoán khả năng ("Có lẽ họ sẽ rút lui ngay khi chạm trán"), sự thừa
+      nhận quyết tâm của đối phương hôm đó và nghĩa vụ phải luôn cảnh giác trước
+      quân số địch
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000149
+    viewpoint: thoại vô tuyến hỏi Đài điều khiển
+    terms:
+      Control: Đài điều khiển
+    modality_negation: giữ câu hỏi xác định danh tính/quy mô quân xâm nhập
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000150
+    viewpoint: thoại vô tuyến trả lời của Đài điều khiển
+    terms:
+      augmented battalion: tiểu đoàn tăng cường
+      third defensive line: tuyến phòng thủ thứ ba
+      fourth (defensive line): tuyến (phòng thủ) thứ tư
+    modality_negation: >-
+      giữ sự thật đã hoàn thành (đã vượt qua tuyến phòng thủ thứ ba) và tính tất
+      yếu theo thời gian (chỉ còn là vấn đề thời gian trước khi chọc thủng tuyến
+      thứ tư)
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000151
+    viewpoint: trần thuật phân tích chiến thuật phía Cộng hòa
+    terms:
+      recon-in-force: trinh sát chiến đấu
+      first or second defensive line: tuyến phòng thủ thứ nhất hoặc thứ hai
+      attack position: vị trí tấn công
+      rear: hậu phương
+    modality_negation: >-
+      giữ tính quy luật thông thường ("Thông thường... sẽ"), điều kiện giả định
+      ("Nếu diễn biến như vậy, tác động lên tiền tuyến sẽ không lớn") và phủ định
+      ("chẳng đáng để đánh thức các sĩ quan đang ngủ ở hậu phương")
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000152
+    viewpoint: trần thuật ngôi thứ nhất số nhiều phía Cộng hòa
+    pronouns: "chúng tôi (phía Cộng hòa) / chúng (đối phương)"
+    terms:
+      feint: nghi binh
+    modality_negation: >-
+      giữ cấu trúc điều kiện giả định ("Nếu cứ mỗi cuộc chạm súng nhỏ... mà lại
+      đánh thức cả quân đội, thì chẳng khác nào làm đúng ý chúng") và mục đích
+      nghi binh/đánh lạc hướng
+term_recommendations:
+  - source_term: radio addressee and blessing pronouns
+    proposed_vi: giữ “tôi”, lược đại từ người nhận trong câu chúc ở p000133
+    alternatives_vi:
+      - Cầu Chúa phù hộ cho các vị
+      - Cầu Chúa phù hộ cho anh
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000132
+      - YS-LN02/Text/part0032.xhtml/p000133
+    rationale: >-
+      Gói nguồn B06 không nêu tên, cấp bậc hay giới tính của đầu mối liên lạc vô
+      tuyến ở p000132–p000133; lược đại từ tân ngữ trong lời chúc "Cầu xin Chúa
+      phù hộ." giữ đúng nghĩa cầu chúc mà không suy diễn quan hệ theo DEC-P01-001.
+    uncertainty: low_context_speaker_addressee_unspecified_in_batch
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: CP
+    proposed_vi: CP
+    alternatives_vi:
+      - sở chỉ huy (chỉ khi văn cảnh sau khai triển trực tiếp)
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000134
+    rationale: >-
+      Kế thừa lựa chọn tạm từ các batch trước của chương 7; giữ nguyên chữ viết
+      tắt CP vì gói nguồn chưa khai triển toàn văn.
+    uncertainty: abbreviation_unexpanded_in_source
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: counter-mage fight
+    proposed_vi: trận chiến với pháp sư đối địch
+    alternatives_vi:
+      - trận chiến chống pháp sư
+      - trận không chiến chống pháp sư
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000136
+    rationale: >-
+      Diễn đạt rõ bản chất tác chiến đối đầu lực lượng pháp sư địch mà không tự
+      đặt thuật ngữ chuyên ngành hẹp khi chưa có chuẩn canon.
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: rear
+    proposed_vi: hậu phương
+    alternatives_vi:
+      - tuyến sau
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000137
+      - YS-LN02/Text/part0032.xhtml/p000151
+    rationale: >-
+      Đối lập trực tiếp với tiền tuyến (front lines) và các tuyến phòng thủ đầu
+      trong cùng ngữ cảnh chiến trường.
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: Being X and divine address (God / Lord)
+    proposed_vi: giữ nguyên Being X; dùng Chúa / ngài
+    alternatives_vi:
+      - Being X; Thượng đế / ngài
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000133
+      - YS-LN02/Text/part0032.xhtml/p000139
+    rationale: >-
+      Giữ nguyên định danh Being X theo P05-being-x; dùng "Chúa" ở lời chúc xã
+      giao p000133 và lời rủa mỉa mai trong câu điều kiện p000139 (đại từ "ngài"
+      chỉ dùng để quy chiếu ngữ pháp, đi kèm vị ngữ miệt thị nên không tạo sắc
+      thái tôn kính sai lệch).
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: Commonwealth
+    proposed_vi: Khối Thịnh vượng chung
+    alternatives_vi:
+      - Liên bang Thịnh vượng chung
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000142
+    rationale: >-
+      Cách dịch literal phổ biến và trung tính cho chính thể này khi canon chưa
+      chốt tên chính thức của các quốc gia.
+    uncertainty: official_polity_naming_pending_canon
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: bigwigs
+    proposed_vi: các nhân vật tai to mặt lớn
+    alternatives_vi:
+      - các nhân vật cấp cao
+      - giới chóp bu
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000143
+    rationale: >-
+      Giữ đúng sắc thái khẩu ngữ hơi suồng sã của người kể chuyện tiền tuyến khi
+      nhắc tới bữa tối giữa đoàn khách thị sát và cấp trên.
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: Republican unit names and scramble order
+    proposed_vi: Tiểu đoàn Pháp sư số Ba; Sư đoàn số Hai mươi Hai; Quân đội Cộng hòa; lệnh báo động xuất kích
+    alternatives_vi:
+      - Tiểu đoàn Pháp sư số 3; Sư đoàn số 22; Lục quân Cộng hòa; lệnh xuất kích khẩn cấp
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000144
+    rationale: >-
+      Dịch sát nghĩa các cấp đơn vị và mệnh lệnh cất cánh khẩn cấp mà không tự ý
+      thêm quân chủng ngoài văn bản.
+    uncertainty: unit_numbering_style_words_vs_digits_pending_canon
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: recon-in-force / reconnaissance-in-force
+    proposed_vi: trinh sát chiến đấu (kèm chú giải/khớp thành tố “chiến đấu / bằng vũ lực” ở p000148)
+    alternatives_vi:
+      - trinh sát bằng vũ lực
+      - trinh sát vũ trang
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000145
+      - YS-LN02/Text/part0032.xhtml/p000147
+      - YS-LN02/Text/part0032.xhtml/p000148
+      - YS-LN02/Text/part0032.xhtml/p000151
+    rationale: >-
+      "Trinh sát chiến đấu" là thuật ngữ quân sự chuẩn xác và nhất quán với đề
+      xuất ở B03/B05; riêng tại p000148 cần khớp bề mặt thành tố trong ngoặc kép
+      (hoặc dùng "trinh sát bằng vũ lực" xuyên suốt) để câu giải thích thành tố
+      không bị gãy mạch từ vựng.
+    uncertainty: surface_modifier_alignment_at_p000148
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: ground troops
+    proposed_vi: lực lượng mặt đất
+    alternatives_vi:
+      - quân mặt đất
+      - bộ binh dưới mặt đất
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000145
+    rationale: >-
+      Cách dịch trung tính, đối lập rõ với lực lượng pháp sư bay trên không mà
+      không tự thu hẹp thành một binh chủng đơn lẻ.
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: Control / combat controller
+    proposed_vi: Đài điều khiển / sĩ quan điều khiển tác chiến
+    alternatives_vi:
+      - Đài chỉ huy / kiểm soát viên tác chiến
+      - Trung tâm điều khiển / sĩ quan kiểm soát chiến đấu
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000146
+      - YS-LN02/Text/part0032.xhtml/p000147
+      - YS-LN02/Text/part0032.xhtml/p000149
+    rationale: >-
+      Phân biệt hợp lý giữa danh xưng gọi trên sóng vô tuyến ("Đài điều khiển")
+      và cá nhân phát thông báo trong lời trần thuật ("sĩ quan điều khiển tác chiến").
+    uncertainty: exact_institutional_title_pending_canon
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: augmented battalion
+    proposed_vi: tiểu đoàn tăng cường
+    alternatives_vi:
+      - tiểu đoàn được tăng cường
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000150
+    rationale: >-
+      Thuật ngữ quân sự tương đương trực tiếp, không tự suy đoán biên chế cụ thể.
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+  - source_term: attack position / defensive line / feint
+    proposed_vi: vị trí tấn công / tuyến phòng thủ / nghi binh
+    alternatives_vi:
+      - trận địa xuất phát tấn công / tuyến phòng ngự / động tác giả
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000150
+      - YS-LN02/Text/part0032.xhtml/p000151
+      - YS-LN02/Text/part0032.xhtml/p000152
+    rationale: >-
+      Giữ cách diễn đạt chiến thuật rõ nghĩa, tự nhiên và không suy diễn thêm cấu
+      trúc công sự ngoài văn bản.
+    uncertainty: none
+    status: pending
+    canon: false
+    non_canon: true
+risks:
+  - >-
+    Lỗi nghĩa mức moderate tại p000138 làm đảo ngược chủ thể và tần suất của mệnh
+    đề so sánh ("mình hiếm khi bị ra lệnh..." thay vì "hiếm có ai bị ra lệnh...
+    nhiều như mình"); cần sửa trước khi nâng bản chuẩn.
+  - >-
+    Đoạn p000137 là độc thoại nội tâm hướng thầm về phía quân địch nhưng đang dùng
+    đại từ "bọn tôi / tôi"; cần đồng bộ về "bọn mình / mình" theo DEC-P01-001 để
+    không bị đọc nhầm thành lời diễn văn nối tiếp p000136.
+  - >-
+    Thành tố bổ nghĩa trong ngoặc kép ở p000148 ("bằng vũ lực") cần được khớp bề
+    mặt với thuật ngữ "trinh sát chiến đấu" ở p000145, p000147 và p000151.
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator

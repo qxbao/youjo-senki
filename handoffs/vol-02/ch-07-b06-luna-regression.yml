@@ -1,0 +1,55 @@
+task_id: vol-02-ch-07-b06
+review_task_id: vol-02-ch-07-b06-luna-regression
+role: semantic_regression
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+batch: vol-02-ch-07-b06
+source_package: work/vol-02/batches/ch-07-b06-source.jsonl
+source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
+baseline: translations/vol-02/ch-07-b06.jsonl
+baseline_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+candidate: polish-candidates/vol-02/ch-07-b06.gemini.jsonl
+candidate_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+locked_choices: handoffs/vol-02/ch-07-b06-locked-choices.yml
+locked_choices_sha256: 9114c86b39f82641f49719ff3e7f32be12a054c094496a83efc45ad3d00fcbe8
+change_log: polish-candidates/vol-02/ch-07-b06.gemini-change-log.yml
+change_log_sha256: 9ed2955f017247810276b3b20429511a296595a8467154bd43292bcba8bad85d
+argon_review: reviews/prose/vol-02/ch-07-b06-argon-final-signoff.yml
+receipt_path: reviews/semantic/vol-02/ch-07-b06-gemini-regression.yml
+constraints:
+- Read agents/shared.md, agents/semantic-regression-checker.md, config/translation-pipeline.yml,
+  this handoff and only assigned B06 source/baseline/candidate/normalized locked choices/change
+  log/canon named by primary handoff.
+- Verify exact input hashes; check all 21 segment IDs in baseline order against source,
+  baseline, candidate and locked choices, even though candidate equals baseline. Do
+  not edit inputs or quote source text.
+- Write only reviews/semantic/vol-02/ch-07-b06-gemini-regression.yml. Receipt must
+  be schema_version 1, task_id vol-02-ch-07-b06, reviewer_model gpt-6-luna, decision
+  accept only if no critical or locked_choice_violation, exact hashes and full checked
+  IDs, explicit findings. No commit.
+status: done_accept
+lease:
+  holder: semantic_regression
+  pane_id: w6:pN8
+  terminal_id: term_65dc9b0fe3cfa2ac
+  agent_session_id: 01a139c7-1988-7c72-b17a-c1b4b7017384
+  checkpoint_generation: 1353
+  state: released_receipt_written
+allowlist:
+- reviews/semantic/vol-02/ch-07-b06-gemini-regression.yml
+preflight:
+  status_command: /status
+  status_sent_exactly_once: true
+  model: gpt-6-luna
+  effort: medium
+  sandbox: danger-full-access
+  approval_policy: never
+  verified: true
+  task_prompt_sent: false
+receipt_sha256: 5ab12c669811c4de000558d8800fd1e0db20fd526da631ea4a806d241f498c87
+decision: accept
+checked_segment_ids_count: 21
+findings_counts:
+  critical: 0
+  locked_choice_violation: 0
+  style_only: 0
