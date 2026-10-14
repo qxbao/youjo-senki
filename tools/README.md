@@ -161,8 +161,8 @@ metadata và mã/thứ tự đoạn. Snapshot locked choices trong handoffs ghi
 `types: [syntax|rhythm|diction|punctuation]` và boolean `escalate`. Escalate
 giữ baseline nguyên văn với `types: []`; không cần chặn pending thường.
 
-Receipt Luna theo `agents/semantic-regression-checker.md`: `schema_version: 1`,
-task_id, `reviewer_model: gpt-6-luna`, `decision: accept`, checked_segment_ids
+Receipt kiểm hồi quy theo `agents/semantic-regression-checker.md`: `schema_version: 1`,
+task_id, `reviewer_model: gemini-4-argon-low` (hoặc `gpt-6-luna` cho receipt lịch sử), `decision: accept`, checked_segment_ids
 đầy đủ, findings và các SHA-256 raw bytes của baseline/candidate/snapshot/log/
 source package. Receipt không có `critical` hoặc `locked_choice_violation`;
 `style_only` được ghi nhưng không chặn. `source_sha256` của handoff là SHA

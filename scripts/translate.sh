@@ -77,29 +77,25 @@ try:
     required = {'validator_failure', 'diff_check_failure', 'unresolved_serious_error', 'out_of_scope_git_change', 'agent_or_herdr_failure', 'plot_affecting_canon_decision', 'preparation_required'}
     assert required <= set(c['hard_stops']), 'missing hard-stop policy'
     r = c['runtime']
-    for role in ('codex', 'semantic_regression'):
+    for role, model, effort, effort_flag in (
+        ('coordinator', 'gemini-4-argon-medium', 'medium', 'omit_model_variant_encodes_medium'),
+        ('codex', 'gemini-4-argon-low', 'low', 'omit_model_variant_encodes_low'),
+        ('reviewer', 'gemini-4-argon-medium', 'medium', 'omit_model_variant_encodes_medium'),
+        ('gemini', 'gemini-3.8-flash-medium', 'medium', None),
+        ('semantic_regression', 'gemini-4-argon-low', 'low', 'omit_model_variant_encodes_low'),
+    ):
         a = r[role]
-        expected = {'launcher_alias': 'codex-personal', 'via': 'ai-isolator',
-            'model': 'gpt-6-luna', 'effort': 'medium', 'sandbox': 'danger-full-access',
-            'approval_policy': 'never'}
-        assert isinstance(a, dict), f'runtime.{role} must be a mapping'
-        assert set(a) == set(expected) | {'source_rc'}, f'runtime.{role} fields invalid'
-        for key, value in expected.items():
-            assert a[key] == value, f'runtime.{role}.{key} must be {value}'
-        assert a['source_rc'] in ('~/.zshrc', '/home/$USER/.zshrc'), f'runtime.{role}.source_rc must be ~/.zshrc or /home/$USER/.zshrc'
-    for role, model in (('coordinator', 'gemini-4-argon-medium'), ('reviewer', 'gemini-4-argon-medium'), ('gemini', 'gemini-3.8-flash-medium')):
-        a = r[role]
-        expected = {'launcher_alias': 'agy', 'via': 'agy', 'model': model, 'effort': 'medium',
+        expected = {'launcher_alias': 'agy', 'via': 'agy', 'model': model, 'effort': effort,
             'mode': 'auto', 'approval_policy': 'never'}
         assert isinstance(a, dict), f'runtime.{role} must be a mapping'
         extra = {'source_rc'}
-        if role in ('coordinator', 'reviewer'):
+        if effort_flag is not None:
             extra.add('effort_flag')
         assert set(a) == set(expected) | extra, f'runtime.{role} fields invalid'
         for key, value in expected.items():
             assert a[key] == value, f'runtime.{role}.{key} must be {value}'
-        if role in ('coordinator', 'reviewer'):
-            assert a.get('effort_flag') == 'omit_model_variant_encodes_medium', f'runtime.{role}.effort_flag must omit unsupported --effort for this model variant'
+        if effort_flag is not None:
+            assert a.get('effort_flag') == effort_flag, f'runtime.{role}.effort_flag must omit unsupported --effort for this model variant'
         assert a['source_rc'] in ('~/.zshrc', '/home/$USER/.zshrc'), f'runtime.{role}.source_rc must be ~/.zshrc or /home/$USER/.zshrc'
     assert r['herdr_required_env'] is True and r['preserve_tab_and_cwd'] is True and r['reuse_current_workspace'] is True and r['focus'] is False, 'Herdr topology policy invalid'
     assert 1 <= r['ready_timeout_seconds'] <= 60 and 1000 <= r['shutdown_timeout_ms'] <= 60000, 'runtime timeout outside supported limits'
@@ -144,7 +140,7 @@ runtime_shell() {
         effort=$(jq -r --arg role "$role" '.runtime[$role].effort' <<<"$CFG")
         effort_flag=$(jq -r --arg role "$role" '.runtime[$role].effort_flag // empty' <<<"$CFG")
         mode_value=$(jq -r --arg role "$role" '.runtime[$role].mode' <<<"$CFG")
-        if [[ $effort_flag == omit_model_variant_encodes_medium ]]; then
+        if [[ $effort_flag == omit_model_variant_encodes_* ]]; then
           code+=" $launcher --model $model --mode $mode_value --dangerously-skip-permissions"
         else
           code+=" $launcher --model $model --effort $effort --mode $mode_value --dangerously-skip-permissions"
@@ -154,10 +150,7 @@ runtime_shell() {
       *) fail "Unsupported agy probe mode: $mode" ;;
     esac
   else
-    code+=' a=$(alias codex-personal 2>/dev/null) || exit 1; [[ $a == *ai-isolator* && $a == *"run codex"* && $a == *"--name personal"* ]] || exit 1;'
-    if [[ $mode == launch ]]; then
-      code+=" eval \"$(jq -r --arg role "$role" '.runtime[$role] | "\(.launcher_alias) --model \(.model) --config model_reasoning_effort=\(.effort) --sandbox \(.sandbox) --ask-for-approval \(.approval_policy)"' <<<"$CFG")\""
-    fi
+    fail "Unsupported runtime.$role.via"
   fi
   printf '%s\n' "$code"
 }
@@ -211,13 +204,7 @@ doctor() {
     herdr --skill >/dev/null || { printf 'ERROR: herdr --skill failed. Inspect herdr status.\n' >&2; errors=$((errors + 1)); }
   fi
   if $config_ready; then
-    for role in codex semantic_regression; do
-      if ! DISABLE_AUTO_UPDATE=true zsh -ic "$(runtime_shell "$role" probe)" >/dev/null 2>&1; then
-        printf 'ERROR: runtime.%s codex-personal alias through ai-isolator missing. Inspect source_rc in config/translation-pipeline.yml and define the alias there.\n' "$role" >&2
-        errors=$((errors + 1))
-      fi
-    done
-    for role in coordinator reviewer gemini; do
+    for role in coordinator codex reviewer gemini semantic_regression; do
       if ! help_text=$(DISABLE_AUTO_UPDATE=true zsh -ic "$(runtime_shell "$role" help)" 2>&1); then
         printf 'ERROR: runtime.%s agy unavailable. Inspect source_rc and agy --help in that shell.\n' "$role" >&2
         errors=$((errors + 1))
@@ -413,7 +400,7 @@ PY
     fail 'resume requires herdr-session.json; use up for a new owned session after reconciling checkpoint/Git.'
   fi
   if $DRY_RUN; then
-    printf 'DRY-RUN: validate current workspace; create one sibling project pane if needed; launch codex-personal coordinator. No files/panes/agents changed.\n'
+    printf 'DRY-RUN: validate current workspace; create one sibling project pane if needed; launch agy coordinator. No files/panes/agents changed.\n'
     return
   fi
   lock_state

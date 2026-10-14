@@ -59,7 +59,7 @@ class PromotionTests(unittest.TestCase):
         }
         self.receipt = {
             "schema_version": 1, "task_id": self.task_id,
-            "reviewer_model": "gpt-6-luna", "decision": "accept",
+            "reviewer_model": "gemini-4-argon-low", "decision": "accept",
             "checked_segment_ids": self.ids, "findings": [],
         }
         self.write_jsonl("source", self.source)
@@ -144,12 +144,15 @@ class PromotionTests(unittest.TestCase):
         self.rejected("Cannot read")
 
     def test_wrong_model_task_or_rejection(self):
+        self.receipt["reviewer_model"] = "gpt-6-luna"
+        self.write_yaml("receipt", self.receipt)
+        self.assertEqual(run(self.args, self.root)["result"], "ready")
         for field, value in (("reviewer_model", "other-model"), ("task_id", "other-task"), ("decision", "reject")):
             with self.subTest(field=field):
                 self.receipt[field] = value
                 self.write_yaml("receipt", self.receipt)
                 self.rejected(field)
-                self.receipt.update(reviewer_model="gpt-6-luna", task_id=self.task_id, decision="accept")
+                self.receipt.update(reviewer_model="gemini-4-argon-low", task_id=self.task_id, decision="accept")
 
     def test_blocking_and_style_findings(self):
         for severity in ("critical", "locked_choice_violation", "unknown"):

@@ -11,7 +11,7 @@ cleanup() {
       [[ ! -f "$TMP/$file" ]] || { printf 'Test diagnostic (%s):\n' "$file" >&2; tail -n 12 "$TMP/$file" >&2; }
     done
   fi
-  rm -r -- "$TMP"
+  rm -rf -- "$TMP"
 }
 trap cleanup EXIT
 FIXTURE="$TMP/project"
@@ -40,7 +40,7 @@ case "$*" in
     jq -n --arg root "$TRANSLATE_TEST_ROOT" '{result:{pane:{pane_id:"w-test:p-owned",workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:"terminal-owned",cwd:$root,foreground_cwd:$root,agent:"agy",agent_status:"idle",agent_session:{value:"session-owned"}}}}' ;;
   'pane get w-test:p-polisher'|'pane get w-test:p-semantic')
     pane=$3; tag=${pane##*:p-}
-    jq -n --arg root "$TRANSLATE_TEST_ROOT" --arg pane "$pane" --arg tag "$tag" '{result:{pane:{pane_id:$pane,workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:("terminal-"+$tag),cwd:$root,foreground_cwd:$root,agent:(if $tag=="polisher" then "agy" else "codex" end),agent_status:"idle",agent_session:{value:("session-"+$tag)}}}}' ;;
+    jq -n --arg root "$TRANSLATE_TEST_ROOT" --arg pane "$pane" --arg tag "$tag" '{result:{pane:{pane_id:$pane,workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:("terminal-"+$tag),cwd:$root,foreground_cwd:$root,agent:"agy",agent_status:"idle",agent_session:{value:("session-"+$tag)}}}}' ;;
   'agent get w-test:p-owned')
     [[ ${TRANSLATE_TEST_ALLOW_SHUTDOWN:-} == 1 || ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
     printf '{"result":{"agent":{"agent_status":"idle","agent_session":{"value":"session-owned"}}}}\n' ;;
@@ -79,10 +79,10 @@ printf 'zsh %s\n' "$*" >>"$TRANSLATE_TEST_CALLS"
 [[ $1 == -ic && ( $2 == *'source "/home/$USER/.zshrc" || exit 1;'* || $2 == *'source "$HOME/.zshrc" || exit 1;'* ) ]] || exit 97
 case "$2" in
   *' agy --help') printf '%s\n' "${TRANSLATE_TEST_AGY_FLAGS:---model --effort --mode --dangerously-skip-permissions}" ;;
-  *' agy models') printf '%s\n' "${TRANSLATE_TEST_AGY_MODELS:-gemini-4-argon-medium Argon 4
+  *' agy models') printf '%s\n' "${TRANSLATE_TEST_AGY_MODELS:-gemini-4-argon-medium Argon 4 Medium
+gemini-4-argon-low Argon 4 Low
 gemini-3.8-flash-medium Flash 3.8}" ;;
   *'command -v agy'*) printf 'agy\n' ;;
-  *' a=$(alias codex-personal '* ) exit 0 ;;
   *) printf 'Forbidden/unexpected mock zsh call\n' >&2; exit 97 ;;
 esac
 SH
@@ -180,10 +180,12 @@ rg -q 'acceptance must reject' "$TMP/out"
 cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
 
 # Available-model and CLI capabilities are required, without model invocation.
-export TRANSLATE_TEST_AGY_MODELS='gemini-4-argon-medium Argon 4'
+export TRANSLATE_TEST_AGY_MODELS='gemini-4-argon-medium Argon 4 Medium
+gemini-4-argon-low Argon 4 Low'
 reject doctor
 rg -q 'runtime.gemini model gemini-3.8-flash-medium unavailable' "$TMP/out"
 export TRANSLATE_TEST_AGY_MODELS='gemini-4-argon-medium-extra Argon 4
+gemini-4-argon-low Argon 4 Low
 gemini-3.8-flash-medium Flash 3.8'
 reject doctor
 rg -q 'runtime.coordinator model gemini-4-argon-medium unavailable' "$TMP/out"

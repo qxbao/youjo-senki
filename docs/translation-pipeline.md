@@ -4,7 +4,7 @@ Bộ này là cấu hình và hợp đồng vai trò cho coordinator chạy liê
 
 ## Khởi chạy
 
-Chạy từ pane được Herdr quản lý, trong checkout của dự án. Cần Bash, Git, jq, flock, zsh, Python/PyYAML, Herdr tương thích và `agy`; alias `codex-personal` trong `~/.zshrc` phải gọi ai-isolator profile personal. Coordinator/reviewer chạy `agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions` và bỏ `--effort` vì mức Medium nằm trong model variant. Translator và semantic regression chạy `codex-personal --model gpt-6-luna --config model_reasoning_effort=medium --sandbox danger-full-access --ask-for-approval never`. Polisher chạy `agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions`. `agy` không có subcommand `review`: đọc persona để xác định vai trò. Doctor kiểm help và model registry bằng lệnh đọc, không gửi task. Không gọi `herdr agent start --kind codex` vì lệnh đó có thể chạy Codex gốc.
+Chạy từ pane được Herdr quản lý, trong checkout của dự án. Cần Bash, Git, jq, flock, zsh, Python/PyYAML, Herdr tương thích và `agy`. Coordinator và reviewer chạy `agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions` (bỏ `--effort` vì mức Medium nằm trong model variant). Translator và semantic regression chạy `agy --model gemini-4-argon-low --mode auto --dangerously-skip-permissions` (bỏ `--effort` vì mức Low nằm trong model variant). Polisher chạy `agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions`. `agy` không có subcommand `review`: đọc persona để xác định vai trò. Doctor kiểm help và model registry bằng lệnh đọc, không gửi task. Không gọi `herdr agent start --kind codex` vì lệnh đó có thể chạy Codex gốc.
 
 Đường dẫn nguồn chỉ đặt trong `project.local.yml` bị Git bỏ qua. `source_dir` được kiểm tra bằng metadata thư mục/tên đuôi tệp; preflight không mở sách. Git phải sạch trước bootstrap/recovery, và `work/run-state/` phải không được theo dõi.
 
@@ -27,11 +27,11 @@ Dry-run chỉ đọc kiểm tra và in kế hoạch, không tạo run-state, loc
 
 | Vai trò | Quyền ghi |
 | --- | --- |
-| coordinator | handoff/queue metadata và work/run-state/; nâng nguyên ứng viên đã được Luna duyệt; stage/commit allowlist của lô |
-| translator | translations/ của lô và reviews/semantic/ của lô |
-| reviewer (Gemini 4 Argon qua agy) | reviews/prose/ của task; đề xuất locked choices để coordinator ghi snapshot |
-| polisher (Gemini 3.8 Flash qua agy) | translations/ của lô: chỉ `.gemini.jsonl` và `.gemini-change-log.yml` |
-| semantic_regression (Luna) | reviews/semantic/ của task; không sửa bản dịch |
+| coordinator (Gemini 4 Argon Medium qua agy) | handoff/queue metadata và work/run-state/; nâng nguyên ứng viên đã được semantic regression duyệt; stage/commit allowlist của lô |
+| translator (Gemini 4 Argon Low qua agy) | translations/ của lô và reviews/semantic/ của lô |
+| reviewer (Gemini 4 Argon Medium qua agy) | reviews/prose/ của task; đề xuất locked choices để coordinator ghi snapshot |
+| polisher (Gemini 3.8 Flash qua agy) | polish-candidates/ của lô: chỉ `.gemini.jsonl` và `.gemini-change-log.yml` |
+| semantic_regression (Gemini 4 Argon Low qua agy) | reviews/semantic/ của task; không sửa bản dịch |
 | recovery | work/run-state/ trong pha phục hồi |
 
 Mỗi agent đọc `agents/shared.md` và persona riêng. Coordinator không đọc chữ nguồn hoặc dịch; có thể gọi adapter chuẩn bị nguồn để tạo metadata/handoff/package. Translator báo thuật ngữ mới, coordinator ghi sổ pending cục bộ; không persona nào tự sửa canon. Khi người dùng chốt, một nhiệm vụ sửa canon riêng phải được giao rõ ràng.
@@ -40,7 +40,7 @@ Mỗi lần bắt đầu và sau commit, coordinator dựng lại queue từ `se
 
 Vòng: lease + allowlist → `translator_luna` → validator/self-check → `terminology_review_argon` mỗi batch → translator sửa/signoff → snapshot locked choices → `prose_polish_gemini` bằng 3.8 Flash → `semantic_regression_luna` → coordinator nâng ứng viên → validator/diff-check → commit riêng lô → checkpoint → lô tiếp. `terminology_review_argon` thay stage Claude theo lựa chọn mới của người dùng. Risk flags vẫn là thông tin review; không cho phép bỏ qua bước khóa trước polish.
 
-Task theo pipeline mới chỉ hoàn tất khi có commit, validator đạt, mọi phản biện bắt buộc đã xử lý, không còn lỗi nghiêm trọng/vừa và ứng viên đã có receipt Luna hợp lệ rồi được nâng. Các lô có review tồn đọng phải giải quyết trước bước polish. Task chỉ đổi config/persona không chạy dịch hoặc tự lập hàng đợi mới; phần đã dịch xong chỉ được chuốt khi nằm trong phạm vi nhiệm vụ cụ thể. Receipt/commit lịch sử vẫn được giữ để audit, không tự diễn giải thành đã qua bốn stage mới.
+Task theo pipeline mới chỉ hoàn tất khi có commit, validator đạt, mọi phản biện bắt buộc đã xử lý, không còn lỗi nghiêm trọng/vừa và ứng viên đã có receipt hồi quy hợp lệ rồi được nâng. Các lô có review tồn đọng phải giải quyết trước bước polish. Task chỉ đổi config/persona không chạy dịch hoặc tự lập hàng đợi mới; phần đã dịch xong chỉ được chuốt khi nằm trong phạm vi nhiệm vụ cụ thể. Receipt/commit lịch sử vẫn được giữ để audit, không tự diễn giải thành đã qua bốn stage mới.
 
 ## Chuốt văn và nâng ứng viên
 
@@ -48,9 +48,9 @@ Flash đọc `agents/gemini-polisher.md`, source package cục bộ đúng batch
 
 Flash có thể chỉnh cú pháp, nhịp, kết hợp từ và dấu câu trong một segment; giữ nguyên hệ quy chiếu, điểm nhìn nội tâm “mình”, tên/xưng hô/thuật ngữ, chủ thể, phủ định, tình thái, thời gian, quan hệ nhân quả và thông tin. Không thêm hình ảnh, cảm xúc, mức độ, chi tiết vật lý, chú thích hoặc sắc thái phán xét. Chỉ đổi trường `translation`, giữ mọi metadata và thứ tự/mã đoạn.
 
-Ứng viên `translations/vol-NN/ch-NN-bNN.gemini.jsonl` tách khỏi baseline `ch-NN-bNN.jsonl`. Log `ch-NN-bNN.gemini-change-log.yml` chỉ gồm task_id và entries `{segment_id, types: [syntax|rhythm|diction|punctuation], escalate: false}`; chỗ đòi đổi locked choice giữ nguyên baseline, ghi `types: [], escalate: true`. Argon/coordinator xử lý bằng phương án tạm có căn cứ hoặc giữ baseline literal/trung tính, không chờ quyết định pending thường và không nâng canon.
+Ứng viên `polish-candidates/vol-NN/ch-NN-bNN.gemini.jsonl` tách khỏi baseline `translations/vol-NN/ch-NN-bNN.jsonl`. Log `polish-candidates/vol-NN/ch-NN-bNN.gemini-change-log.yml` chỉ gồm task_id và entries `{segment_id, types: [syntax|rhythm|diction|punctuation], escalate: false}`; chỗ đòi đổi locked choice giữ nguyên baseline, ghi `types: [], escalate: true`. Argon/coordinator xử lý bằng phương án tạm có căn cứ hoặc giữ baseline literal/trung tính, không chờ quyết định pending thường và không nâng canon.
 
-Luna đọc `agents/semantic-regression-checker.md` và kiểm toàn bộ source/baseline/candidate/locked choices. Receipt YAML trong `reviews/semantic/` ghi `reviewer_model: gpt-6-luna`, `decision`, checked_segment_ids đầy đủ, findings và SHA-256 raw bytes của source_package/baseline/candidate/locked choices/change_log. `critical` và `locked_choice_violation` làm reject; `style_only` được báo nhưng không chặn. Nếu sắc thái làm đổi nghĩa/tình thái/mức độ/điểm nhìn thì phải xếp critical. Khi reject, chỉ sửa các vị trí bị báo, sau đó Luna kiểm lại batch trên các hash mới.
+Tác tử kiểm hồi quy đọc `agents/semantic-regression-checker.md` và kiểm toàn bộ source/baseline/candidate/locked choices. Receipt YAML trong `reviews/semantic/` ghi `reviewer_model: gemini-4-argon-low` (công cụ vẫn tương thích receipt lịch sử `gpt-6-luna`), `decision`, checked_segment_ids đầy đủ, findings và SHA-256 raw bytes của source_package/baseline/candidate/locked choices/change_log. `critical` và `locked_choice_violation` làm reject; `style_only` được báo nhưng không chặn. Nếu sắc thái làm đổi nghĩa/tình thái/mức độ/điểm nhìn thì phải xếp critical. Khi reject, chỉ sửa các vị trí bị báo, sau đó kiểm lại batch trên các hash mới.
 
 Coordinator dùng `tools/promote_polished_translation.py` để kiểm receipt và artifact trước khi nâng; mặc định công cụ chỉ đọc. `--apply --coordinator <holder>` chỉ dành cho coordinator đã được ghi quyền sửa đúng bản chuẩn trong handoff/checkpoint, sau khi worker nhả lease. Công cụ kiểm hash, metadata/segment order, acceptance và validator, rồi thay nguyên ứng viên vào baseline bằng atomic replace. Coordinator không được tự sửa câu dịch. Mọi sửa đầu vào đều làm receipt cũ mất hiệu lực. Chi tiết tham số và handoff promotion xem `tools/README.md`.
 

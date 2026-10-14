@@ -1,7 +1,7 @@
 """Check a Gemini candidate; only an explicitly leased coordinator may apply it.
 
 The YAML receipt in reviews/semantic/ must contain schema_version: 1, task_id,
-reviewer_model: gpt-6-luna, decision: accept, checked_segment_ids (all IDs in
+reviewer_model: gemini-4-argon-low (or legacy gpt-6-luna), decision: accept, checked_segment_ids (all IDs in
 source order), findings (segment_id, severity), and SHA256 fields baseline_sha256,
 candidate_sha256, locked_choices_sha256, change_log_sha256, source_package_sha256.
 Allowed severities are critical, locked_choice_violation, and style_only.
@@ -154,7 +154,8 @@ def verify_inputs(
     require_match(choices.get("baseline_sha256"), before.sha256, "Locked choices baseline_sha256")
     require_match(choices.get("source_sha256"), h.get("source_sha256"), "Locked choices source_sha256")
     require_match(choices.get("glossary_version"), h.get("glossary_version"), "Locked choices glossary_version")
-    require_match(r.get("reviewer_model"), "gpt-6-luna", "Receipt reviewer_model")
+    if r.get("reviewer_model") not in {"gemini-4-argon-low", "gpt-6-luna"}:
+        raise PromotionError("Receipt reviewer_model does not match")
     require_match(r.get("decision"), "accept", "Receipt decision")
     for key, item in (
         ("baseline_sha256", before), ("candidate_sha256", after),
