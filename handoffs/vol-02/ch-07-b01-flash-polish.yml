@@ -1,0 +1,55 @@
+task_id: vol-02-ch-07-b01
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b01
+baseline: translations/vol-02/ch-07-b01.jsonl
+baseline_sha256: a39d09858a5dc278d1ddb3905b57d932d9ab29e2165920ec3a344395b8c7dca4
+source_package: work/vol-02/batches/ch-07-b01-source.jsonl
+source_package_sha256: 7b3f19c518f9496b9c62ccbe804df972be23924be7f4be43f4356f9d09cf061c
+argon_review: reviews/prose/vol-02/ch-07-b01-argon-review.yml
+argon_review_sha256: 2b91e6a3958a693f3dd83b4af8c345ad1460008937ef39daa52537d81fff772a
+locked_choices: handoffs/vol-02/ch-07-b01-locked-choices.yml
+locked_choices_sha256: 10fd3ea93c8a5a06d28e6af98d8c8f8b39e0b5b79da3edf29b09296b2fdd8177
+translator_signoff: handoffs/vol-02/ch-07-b01-translator-signoff.yml
+allowlist:
+- polish-candidates/vol-02/ch-07-b01.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b01.gemini-change-log.yml
+constraints:
+- Use only B01 baseline/source package, B01 candidate/log, B01 locked choices and
+  Luna rejection receipt.
+- Fix only the reported issue in segment p000021. Do not change any other candidate
+  translation or metadata. Update the corresponding change_log entry; retain the other
+  24 entries unchanged.
+- Write only polish-candidates/vol-02/ch-07-b01.gemini.jsonl and polish-candidates/vol-02/ch-07-b01.gemini-change-log.yml;
+  no other file, no source quotations, no commit. Return exact new hashes.
+status: done_targeted_fix
+lease:
+  holder: polisher
+  pane_id: w6:pN2
+  terminal_id: term_65dc971b02f062a6
+  agent_session_id: fcb63553-ebf8-419f-ae9c-3e3c7a812126
+  checkpoint_generation: 1336
+  state: released_report_received
+candidate_sha256: 9c47d97ce9c6fbfe0b1455611ba5fef298f0e9c965a79682e13fd97f467f9a0e
+change_log_sha256: c0abbe2b697381a7725b1c6577de938dec61e53a7f2186a3e4aa9dadfae90cbc
+report:
+  state: done
+  segment_ids_count: 25
+  escalations: []
+  risks: []
+review_task_id: vol-02-ch-07-b01-flash-fix-p000021
+previous_luna_receipt: reviews/semantic/vol-02/ch-07-b01-gemini-regression.yml
+previous_luna_receipt_sha256: 23792195dee066230316730764d8814eb5218ff75aea1b3038f2e1c03d243c8f
+rejection:
+  severity: critical
+  segment_id: YS-LN02/Text/part0032.xhtml/p000021
+  summary: Restore the conditional hypothetical protection meaning; preserve all other
+    candidate segments.
+fix_report:
+  state: done
+  target_segment: YS-LN02/Text/part0032.xhtml/p000021
+  baseline_sha256: a39d09858a5dc278d1ddb3905b57d932d9ab29e2165920ec3a344395b8c7dca4
+  candidate_sha256: 9c47d97ce9c6fbfe0b1455611ba5fef298f0e9c965a79682e13fd97f467f9a0e
+  change_log_sha256: c0abbe2b697381a7725b1c6577de938dec61e53a7f2186a3e4aa9dadfae90cbc
+  validator: pass
+  diff_check: pass

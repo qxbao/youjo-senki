@@ -1,0 +1,45 @@
+schema_version: 1
+task_id: vol-02-ch-07-b01
+reviewer_model: gpt-6-luna
+decision: accept
+source_package_sha256: "7b3f19c518f9496b9c62ccbe804df972be23924be7f4be43f4356f9d09cf061c"
+baseline_sha256: "a39d09858a5dc278d1ddb3905b57d932d9ab29e2165920ec3a344395b8c7dca4"
+candidate_sha256: "9c47d97ce9c6fbfe0b1455611ba5fef298f0e9c965a79682e13fd97f467f9a0e"
+locked_choices_sha256: "f66bdce0d87d515497362c5396d1aa9aef63510d81ca46ed88d56b7bf2245d2a"
+change_log_sha256: "c0abbe2b697381a7725b1c6577de938dec61e53a7f2186a3e4aa9dadfae90cbc"
+checked_segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000001
+  - YS-LN02/Text/part0032.xhtml/p000002
+  - YS-LN02/Text/part0032.xhtml/p000003
+  - YS-LN02/Text/part0032.xhtml/p000004
+  - YS-LN02/Text/part0032.xhtml/p000005
+  - YS-LN02/Text/part0032.xhtml/p000006
+  - YS-LN02/Text/part0032.xhtml/p000007
+  - YS-LN02/Text/part0032.xhtml/p000008
+  - YS-LN02/Text/part0032.xhtml/p000009
+  - YS-LN02/Text/part0032.xhtml/p000010
+  - YS-LN02/Text/part0032.xhtml/p000011
+  - YS-LN02/Text/part0032.xhtml/p000012
+  - YS-LN02/Text/part0032.xhtml/p000013
+  - YS-LN02/Text/part0032.xhtml/p000014
+  - YS-LN02/Text/part0032.xhtml/p000015
+  - YS-LN02/Text/part0032.xhtml/p000016
+  - YS-LN02/Text/part0032.xhtml/p000017
+  - YS-LN02/Text/part0032.xhtml/p000018
+  - YS-LN02/Text/part0032.xhtml/p000019
+  - YS-LN02/Text/part0032.xhtml/p000020
+  - YS-LN02/Text/part0032.xhtml/p000021
+  - YS-LN02/Text/part0032.xhtml/p000022
+  - YS-LN02/Text/part0032.xhtml/p000023
+  - YS-LN02/Text/part0032.xhtml/p000024
+  - YS-LN02/Text/part0032.xhtml/p000025
+findings: []
+hash_verification:
+  source_package: match
+  baseline: match
+  candidate: match
+  locked_choices: match
+  change_log: match
+review_notes:
+  p000021: "Không còn sai lệch điều kiện/giả định: giữ giả định về mức bảo vệ và điều kiện nếu bị trúng đạn; không tái hiện lỗi nghiêm trọng trước đó."
+  batch: "Đã đối chiếu tuần tự đủ 25 đoạn với nguồn được giao, baseline, candidate, snapshot lựa chọn và change log. Không phát hiện lỗi dịch cần ghi finding; receipt không được chấp nhận do hash locked choices không khớp handoff."
