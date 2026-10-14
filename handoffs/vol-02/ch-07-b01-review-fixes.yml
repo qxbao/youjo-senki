@@ -1,0 +1,75 @@
+task_id: vol-02-ch-07-b01-review-fixes
+role: translator
+batch: vol-02-ch-07-b01
+translation: translations/vol-02/ch-07-b01.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b01-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b01-codex.md
+source_package: work/vol-02/batches/ch-07-b01-source.jsonl
+source_package_sha256: 7b3f19c518f9496b9c62ccbe804df972be23924be7f4be43f4356f9d09cf061c
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter7_b01_translator_proposals
+- chapter7_b01_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 3
+  minor: 3
+  unresolved: 6
+findings:
+- id: B01-R01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000003
+  resolution: Retain Break! untranslated twice with exclamation and quotation marks;
+    current package cannot disambiguate command function. Remove all inferred direction,
+    recipient, or intent to break encirclement.
+- id: B01-R02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000004
+  resolution: Remove the inferred call/recipient; preserve 04 followed by Fox Three
+    twice, without expansion.
+- id: B01-R03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000023
+  resolution: Preserve event order and suggest the aftermath occurs where they lie
+    after falling; do not claim the fall itself causes the outcome. Use reviewer wording
+    or equivalent.
+- id: B01-R04
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000011
+  resolution: Replace bên bờ Rhine with ở Rhine or tại Rhine; do not classify as river/front.
+- id: B01-R05
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000016
+  resolution: Use đạn nổ mạnh for high explosives directed at aircraft; add no caliber/fuze/mechanism.
+- id: B01-R06
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000019
+  resolution: Clarify single direct hit limit, e.g. one ordinary round directly hitting
+    the defensive film, max 12.7 mm; preserve distinction from saturation attack.
+term_choices: Apply chapter7_b01_review_recommendations locally; all remain pending/non-canon.
+  Do not resolve Break! by guessing; retain it pending.
+self_check_update: Record all six findings resolved, preserve uncertainty at p000003,
+  correct p000764/other emphasis claims if applicable, and list all eleven review
+  term proposals separately as pending/non-canon.
+constraints:
+- Use only assigned b01 source package, translation, self-check, handoffs/reports,
+  named canon and b01 ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-07-b01.jsonl and reviews/semantic/vol-02/ch-07-b01-self-check.md.
+  No handoff/ledger/canon/run-state edits or commit.
+- Run primary b01 validator/package and git diff --check.
+status: ready
+lease:
+  holder: translator
+  pane_id: w6:pKN
+  terminal_id: term_65dc04dbe8a14279
+  agent_session_id: 01a1375f-c672-76e2-8656-6ff61ead581c
+  checkpoint_generation: 1285
+allowlist:
+- translations/vol-02/ch-07-b01.jsonl
+- reviews/semantic/vol-02/ch-07-b01-self-check.md

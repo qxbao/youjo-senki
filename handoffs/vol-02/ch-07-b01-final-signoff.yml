@@ -1,0 +1,21 @@
+task_id: vol-02-ch-07-b01-final-signoff
+role: reviewer
+batch: vol-02-ch-07-b01
+translation: translations/vol-02/ch-07-b01.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b01-self-check.md
+initial_review: reviews/prose/vol-02/ch-07-b01-codex.md
+fix_handoff: handoffs/vol-02/ch-07-b01-review-fixes.yml
+validator_correction: handoffs/vol-02/ch-07-b01-validator-correction.yml
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections: [chapter7_b01_translator_proposals, chapter7_b01_review_recommendations]
+source_package: work/vol-02/batches/ch-07-b01-source.jsonl
+source_package_sha256: 7b3f19c518f9496b9c62ccbe804df972be23924be7f4be43f4356f9d09cf061c
+findings_to_verify: [B01-R01, B01-R02, B01-R03, B01-R04, B01-R05, B01-R06]
+review_focus:
+- Verify all six findings resolved in final translation/self-check; no serious/moderate or material new issue remains.
+- Confirm p000003 contains only the quoted pending Break! token (no inferred command function or copied surrounding source), and p000004 preserves 04 plus Fox Three twice without inferred recipient.
+- Confirm p000011, p000016, p000019 and p000023 corrections, all 11 pending proposals and non-canon status.
+- Use only assigned b01 package, translation, self-check, reports/handoffs, named canon and b01 ledger sections. No EPUB/PDF or other package; no source quotations.
+- Write only reviews/prose/vol-02/ch-07-b01-final-signoff-codex.md.
+report_path: reviews/prose/vol-02/ch-07-b01-final-signoff-codex.md
+status: ready

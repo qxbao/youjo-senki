@@ -1,0 +1,20 @@
+task_id: vol-02-ch-07-b01-review
+role: reviewer
+batch: vol-02-ch-07-b01
+translation: translations/vol-02/ch-07-b01.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b01-self-check.md
+source_package: work/vol-02/batches/ch-07-b01-source.jsonl
+source_package_sha256: 7b3f19c518f9496b9c62ccbe804df972be23924be7f4be43f4356f9d09cf061c
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter7_b01_translator_proposals
+review_flags: [new_pending_terms, radio_command_ambiguity, emphasis]
+review_focus:
+- Assess the short radio command at p000003 using only local b01 package context; recommend least inferential wording if uncertain.
+- Verify all 25 rows, meaning, viewpoint, emphasis, tactical details and numerical content.
+- Assess all pending names/ranks/military and equipment terms; provide justified temporary recommendations and alternatives, non-canon.
+constraints:
+- Review only assigned b01 package, translation, self-check, primary handoff, this handoff, named canon and b01 ledger section. No EPUB/PDF or other package; no source quotations.
+- Report findings with stable IDs, severity, evidence, resolution and alternatives.
+- Write only reviews/prose/vol-02/ch-07-b01-codex.md.
+report_path: reviews/prose/vol-02/ch-07-b01-codex.md
+status: ready
