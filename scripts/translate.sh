@@ -51,20 +51,23 @@ try:
     assert isinstance(c, dict) and c.get('schema_version') == 1, 'schema_version must be 1'
     assert c.get('project') == 'youjo-senki-vi', 'project must be youjo-senki-vi'
     expected = {'local_config': 'project.local.yml', 'manifests': 'segments/vol-*/manifest.yml',
-        'handoffs': 'handoffs/', 'translations': 'translations/', 'state_dir': 'work/run-state',
+        'handoffs': 'handoffs/', 'translations': 'translations/', 'polish_candidates': 'polish-candidates/', 'state_dir': 'work/run-state',
         'session': 'work/run-state/herdr-session.json',
         'checkpoint': 'work/run-state/translation-coordinator.yml',
         'pending': 'work/run-state/pending-terms.yml'}
     assert c['paths'] == expected, 'paths must match the repository-relative pipeline paths'
     assert c['scope']['volumes'] == 'all_available_in_source_dir' and c['scope']['include'] == ['story'], 'scope must include story across available volumes'
     assert c['batch']['min_source_words'] == 600 and c['batch']['max_source_words'] == 900, 'batch target must be 600–900'
-    assert c['batch']['sequential_workers'] is True, 'workers must be sequential'
+    assert c['batch']['sequential_workers'] is False, 'independent worker streams must be enabled'
+    concurrency = c['batch']['concurrency']
+    assert concurrency['max_parallel_workers'] == 2 and concurrency['require_disjoint_allowlists'] is True, 'worker concurrency must be capped at two with disjoint allowlists'
+    assert concurrency['canonical_translation_writer'] == 'one_at_a_time' and concurrency['candidate_root'] == 'polish-candidates/', 'canonical writer/candidate isolation invalid'
     assert c['stages'] == ['translator_luna', 'terminology_review_argon', 'prose_polish_gemini', 'semantic_regression_luna'], 'stages must preserve translation, terminology, polish, semantic-check order'
     assert c['review']['every_batch'] is True, 'terminology review is required for every batch before polishing'
     assert set(c['review']['risk_flags']) == {'meaning', 'new_pending_terms', 'emphasis', 'validator_warning'}, 'review risk_flags invalid'
-    assert c['gemini']['enabled'] is True and c['gemini']['writes_only'] == 'translations/', 'Gemini must write translation candidates only'
+    assert c['gemini']['enabled'] is True and c['gemini']['writes_only'] == 'polish-candidates/', 'Gemini must write isolated polish candidates only'
     assert c['gemini']['preserve_locked_choices'] is True, 'Gemini must preserve locked choices'
-    assert c['gemini']['candidate_pattern'] == 'translations/vol-*/ch-*-b*.gemini.jsonl', 'Gemini must use a separate .gemini.jsonl candidate'
+    assert c['gemini']['candidate_pattern'] == 'polish-candidates/vol-*/ch-*-b*.gemini.jsonl', 'Gemini must use the isolated polish-candidates tree'
     assert set(c['acceptance']['reject_on']) == {'critical', 'locked_choice_violation'}, 'acceptance must reject critical and locked-choice regressions'
     assert c['acceptance']['coordinator_only'] is True, 'only coordinator may promote candidates'
     assert c['acceptance']['require_semantic_receipt'] is True, 'promotion requires a semantic receipt'
@@ -84,14 +87,19 @@ try:
         for key, value in expected.items():
             assert a[key] == value, f'runtime.{role}.{key} must be {value}'
         assert a['source_rc'] in ('~/.zshrc', '/home/$USER/.zshrc'), f'runtime.{role}.source_rc must be ~/.zshrc or /home/$USER/.zshrc'
-    for role, model in (('reviewer', 'gemini-4-argon-medium'), ('gemini', 'gemini-3.8-flash-medium')):
+    for role, model in (('coordinator', 'gemini-4-argon-medium'), ('reviewer', 'gemini-4-argon-medium'), ('gemini', 'gemini-3.8-flash-medium')):
         a = r[role]
         expected = {'launcher_alias': 'agy', 'via': 'agy', 'model': model, 'effort': 'medium',
             'mode': 'auto', 'approval_policy': 'never'}
         assert isinstance(a, dict), f'runtime.{role} must be a mapping'
-        assert set(a) == set(expected) | {'source_rc'}, f'runtime.{role} fields invalid'
+        extra = {'source_rc'}
+        if role in ('coordinator', 'reviewer'):
+            extra.add('effort_flag')
+        assert set(a) == set(expected) | extra, f'runtime.{role} fields invalid'
         for key, value in expected.items():
             assert a[key] == value, f'runtime.{role}.{key} must be {value}'
+        if role in ('coordinator', 'reviewer'):
+            assert a.get('effort_flag') == 'omit_model_variant_encodes_medium', f'runtime.{role}.effort_flag must omit unsupported --effort for this model variant'
         assert a['source_rc'] in ('~/.zshrc', '/home/$USER/.zshrc'), f'runtime.{role}.source_rc must be ~/.zshrc or /home/$USER/.zshrc'
     assert r['herdr_required_env'] is True and r['preserve_tab_and_cwd'] is True and r['reuse_current_workspace'] is True and r['focus'] is False, 'Herdr topology policy invalid'
     assert 1 <= r['ready_timeout_seconds'] <= 60 and 1000 <= r['shutdown_timeout_ms'] <= 60000, 'runtime timeout outside supported limits'
@@ -118,7 +126,7 @@ PY
 }
 
 runtime_shell() {
-  local role=$1 mode=$2 rc code
+  local role=$1 mode=$2 rc code launcher model effort effort_flag mode_value
   rc=$(jq -r --arg role "$role" '.runtime[$role].source_rc' <<<"$CFG")
   case "$rc" in
     '~/.zshrc') code='export DISABLE_AUTO_UPDATE=true; source "$HOME/.zshrc" || exit 1;' ;;
@@ -131,7 +139,17 @@ runtime_shell() {
       help) code+=' agy --help' ;;
       models) code+=' agy models' ;;
       launch)
-        code+=" eval \"$(jq -r --arg role "$role" '.runtime[$role] | "\(.launcher_alias) --model \(.model) --effort \(.effort) --mode \(.mode) --dangerously-skip-permissions"' <<<"$CFG")\"" ;;
+        launcher=$(jq -r --arg role "$role" '.runtime[$role].launcher_alias' <<<"$CFG")
+        model=$(jq -r --arg role "$role" '.runtime[$role].model' <<<"$CFG")
+        effort=$(jq -r --arg role "$role" '.runtime[$role].effort' <<<"$CFG")
+        effort_flag=$(jq -r --arg role "$role" '.runtime[$role].effort_flag // empty' <<<"$CFG")
+        mode_value=$(jq -r --arg role "$role" '.runtime[$role].mode' <<<"$CFG")
+        if [[ $effort_flag == omit_model_variant_encodes_medium ]]; then
+          code+=" $launcher --model $model --mode $mode_value --dangerously-skip-permissions"
+        else
+          code+=" $launcher --model $model --effort $effort --mode $mode_value --dangerously-skip-permissions"
+        fi
+        ;;
       probe) ;;
       *) fail "Unsupported agy probe mode: $mode" ;;
     esac
@@ -199,7 +217,7 @@ doctor() {
         errors=$((errors + 1))
       fi
     done
-    for role in reviewer gemini; do
+    for role in coordinator reviewer gemini; do
       if ! help_text=$(DISABLE_AUTO_UPDATE=true zsh -ic "$(runtime_shell "$role" help)" 2>&1); then
         printf 'ERROR: runtime.%s agy unavailable. Inspect source_rc and agy --help in that shell.\n' "$role" >&2
         errors=$((errors + 1))
@@ -289,8 +307,10 @@ verify_owned() {
 }
 
 launch_coordinator() {
-  local pane=$1 mode=$2 name=$3 live status ready=0 limit i prompt launch
-  launch=$("$PYTHON" -c 'import shlex, sys; print("zsh -ic " + shlex.quote(sys.argv[1]))' "$(runtime_shell codex launch)")
+  local pane=$1 mode=$2 name=$3 live status ready=0 limit i prompt launch expected_agent expected_model process command_line banner
+  launch=$("$PYTHON" -c 'import shlex, sys; print("zsh -ic " + shlex.quote(sys.argv[1]))' "$(runtime_shell coordinator launch)")
+  expected_agent=$(jq -r '.runtime.coordinator.via' <<<"$CFG")
+  expected_model=$(jq -r '.runtime.coordinator.model' <<<"$CFG")
   herdr pane run "$pane" "$launch"
   limit=$(jq -r .runtime.ready_timeout_seconds <<<"$CFG")
   for ((i=0; i<limit; i++)); do
@@ -300,13 +320,21 @@ launch_coordinator() {
       herdr agent read "$pane" --source visible --lines 50
       fail "Coordinator startup blocked in $pane; inspect before any further input."
     fi
-    if [[ $(jq -r '.result.pane.agent // ""' <<<"$live") == codex && ( $status == idle || $status == done ) ]]; then ready=1; break; fi
+    if [[ $(jq -r '.result.pane.agent // ""' <<<"$live") == "$expected_agent" && ( $status == idle || $status == done ) ]]; then ready=1; break; fi
     sleep 1
   done
   (( ready == 1 )) || { herdr pane read "$pane" --source visible --lines 50; fail 'Coordinator did not become ready; command may have been received. Do not resend automatically.'; }
+  process=$(herdr pane process-info --pane "$pane")
+  command_line=$(jq -r '[.result.process_info.foreground_processes[]?.cmdline] | join(" ")' <<<"$process")
+  [[ $command_line == *"--model $expected_model"* ]] || fail "Coordinator model preflight failed in $pane; expected $expected_model in process argv. No task was sent."
+  if [[ $(jq -r '.runtime.coordinator.effort_flag // ""' <<<"$CFG") == omit_model_variant_encodes_medium && $command_line == *'--effort'* ]]; then
+    fail "Coordinator runtime must omit --effort for $expected_model. No task was sent."
+  fi
+  banner=$(herdr pane read "$pane" --source recent-unwrapped --lines 60)
+  [[ $banner == *'Gemini 4 Argon (Medium)'* ]] || fail "Coordinator model banner did not confirm Gemini 4 Argon Medium in $pane. No task was sent."
   herdr agent rename "$pane" "$name" >/dev/null
   live=$(herdr agent get "$pane")
-  # Codex may expose its session ID only after the first submitted turn.
+  # Agent CLIs may expose their session ID only after the first submitted turn.
   DATA=$(jq '.prompt_delivery="dispatching"' <<<"$DATA")
   save_state
   prompt='Read agents/shared.md, agents/coordinator.md and config/translation-pipeline.yml. Start the continuous coordinator loop from manifests/handoffs/Git/checkpoint. Obey role write boundaries; no direct translation. Register every owned worker pane in work/run-state/herdr-session.json immediately. Never repeat uncertain prompt delivery. Create checkpoint before any worker task.'

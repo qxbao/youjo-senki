@@ -79,6 +79,15 @@ runtime:
   focus: false
   ready_timeout_seconds: 60
   shutdown_timeout_ms: 60000
+  coordinator:
+    launcher_alias: agy
+    via: agy
+    source_rc: /home/$USER/.zshrc
+    model: gemini-4-argon-medium
+    effort: medium
+    effort_flag: omit_model_variant_encodes_medium
+    mode: auto
+    approval_policy: never
   codex:
     launcher_alias: codex-personal
     via: ai-isolator

@@ -37,13 +37,19 @@ case "$*" in
   pane) printf 'herdr pane split\nherdr pane process-info\n' ;;
   --skill) printf 'mock skill\n' ;;
   'pane get w-test:p-owned')
-    jq -n --arg root "$TRANSLATE_TEST_ROOT" '{result:{pane:{pane_id:"w-test:p-owned",workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:"terminal-owned",cwd:$root,foreground_cwd:$root,agent:"codex",agent_status:"idle",agent_session:{value:"session-owned"}}}}' ;;
+    jq -n --arg root "$TRANSLATE_TEST_ROOT" '{result:{pane:{pane_id:"w-test:p-owned",workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:"terminal-owned",cwd:$root,foreground_cwd:$root,agent:"agy",agent_status:"idle",agent_session:{value:"session-owned"}}}}' ;;
   'pane get w-test:p-polisher'|'pane get w-test:p-semantic')
     pane=$3; tag=${pane##*:p-}
     jq -n --arg root "$TRANSLATE_TEST_ROOT" --arg pane "$pane" --arg tag "$tag" '{result:{pane:{pane_id:$pane,workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:("terminal-"+$tag),cwd:$root,foreground_cwd:$root,agent:(if $tag=="polisher" then "agy" else "codex" end),agent_status:"idle",agent_session:{value:("session-"+$tag)}}}}' ;;
   'agent get w-test:p-owned')
     [[ ${TRANSLATE_TEST_ALLOW_SHUTDOWN:-} == 1 || ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
     printf '{"result":{"agent":{"agent_status":"idle","agent_session":{"value":"session-owned"}}}}\n' ;;
+  'pane process-info --pane w-test:p-owned')
+    [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
+    printf '{"result":{"process_info":{"foreground_processes":[{"cmdline":"agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions"}]}}}\n' ;;
+  'pane read w-test:p-owned --source recent-unwrapped --lines 60')
+    [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
+    printf 'Gemini 4 Argon (Medium)\n' ;;
   'agent prompt w-test:p-owned '*)
     [[ ${TRANSLATE_TEST_ALLOW_SHUTDOWN:-} == 1 || ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
     if [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 && $4 == 'Shutdown request '* ]]; then
@@ -61,7 +67,7 @@ case "$*" in
     [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
     printf '{"result":{"pane":{"pane_id":"w-test:p-owned","terminal_id":"terminal-owned"}}}\n' ;;
   'pane run w-test:p-owned '*)
-    [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 && $4 == *'source "/home/$USER/.zshrc" || exit 1;'* && $4 == *codex-personal* && $4 == *'gpt-6-luna'* && $4 == *'model_reasoning_effort=medium'* && $4 == *'--ask-for-approval never'* ]] || exit 97 ;;
+    [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 && $4 == *'source "/home/$USER/.zshrc" || exit 1;'* && $4 == *'agy --model gemini-4-argon-medium'* && $4 == *'--mode auto'* && $4 == *'--dangerously-skip-permissions'* && $4 != *'--effort'* ]] || exit 97 ;;
   'agent rename w-test:p-owned '*|'pane close w-test:p-owned'|'pane close w-test:p-polisher'|'pane close w-test:p-semantic')
     [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97 ;;
   *) printf 'Forbidden/unexpected mock Herdr call: %s\n' "$*" >&2; exit 97 ;;
@@ -75,6 +81,7 @@ case "$2" in
   *' agy --help') printf '%s\n' "${TRANSLATE_TEST_AGY_FLAGS:---model --effort --mode --dangerously-skip-permissions}" ;;
   *' agy models') printf '%s\n' "${TRANSLATE_TEST_AGY_MODELS:-gemini-4-argon-medium Argon 4
 gemini-3.8-flash-medium Flash 3.8}" ;;
+  *'command -v agy'*) printf 'agy\n' ;;
   *' a=$(alias codex-personal '* ) exit 0 ;;
   *) printf 'Forbidden/unexpected mock zsh call\n' >&2; exit 97 ;;
 esac
@@ -125,7 +132,7 @@ c['runtime'][sys.argv[2]][sys.argv[3]] = sys.argv[4]
 p.write_text(yaml.safe_dump(c, sort_keys=False))
 PY
 }
-for role in codex reviewer gemini semantic_regression; do
+for role in codex coordinator reviewer gemini semantic_regression; do
   update_runtime "$role" model unsupported-model
   reject doctor
   rg -q "runtime.$role.model must be" "$TMP/out"
@@ -179,7 +186,7 @@ rg -q 'runtime.gemini model gemini-3.8-flash-medium unavailable' "$TMP/out"
 export TRANSLATE_TEST_AGY_MODELS='gemini-4-argon-medium-extra Argon 4
 gemini-3.8-flash-medium Flash 3.8'
 reject doctor
-rg -q 'runtime.reviewer model gemini-4-argon-medium unavailable' "$TMP/out"
+rg -q 'runtime.coordinator model gemini-4-argon-medium unavailable' "$TMP/out"
 unset TRANSLATE_TEST_AGY_MODELS
 export TRANSLATE_TEST_AGY_FLAGS='--model --effort --mode'
 reject doctor
@@ -202,6 +209,7 @@ mv "$TMP/promote_polished_translation.py" "$FIXTURE/tools/promote_polished_trans
 update_runtime codex source_rc '~/.zshrc'
 update_runtime reviewer source_rc '~/.zshrc'
 update_runtime gemini source_rc '~/.zshrc'
+update_runtime coordinator source_rc '~/.zshrc'
 update_runtime semantic_regression source_rc '~/.zshrc'
 git -C "$FIXTURE" add config/translation-pipeline.yml
 git -C "$FIXTURE" -c user.name=Test -c user.email=test@example.invalid commit -qm legacy-rc
