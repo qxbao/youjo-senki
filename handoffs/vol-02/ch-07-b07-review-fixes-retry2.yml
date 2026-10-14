@@ -1,0 +1,30 @@
+task_id: vol-02-ch-07-b07-review-fixes-retry2
+role: translator
+batch: vol-02-ch-07-b07
+translation: translations/vol-02/ch-07-b07.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b07-self-check.md
+source_package: work/vol-02/batches/ch-07-b07-source.jsonl
+source_package_sha256: 154681efcb4892325563b2255f87d1720ea88bf424b1079a42a992f903367355
+argon_report: reviews/prose/vol-02/ch-07-b07-argon-final-signoff.yml
+argon_report_sha256: e9f7327452c0328673f1c93ef88ba1150f85782d8e33c66e4b71d9e180d275cc
+baseline_sha256: 7a9edf09a314f08ce10e338965c638d4864e0718c9883054597808c0bc4315a4
+allowlist:
+- translations/vol-02/ch-07-b07.jsonl
+- reviews/semantic/vol-02/ch-07-b07-self-check.md
+constraints:
+- Read only assigned B07 source package, current B07 JSONL/self-check, Argon reports
+  and canon named in primary handoff; do not read EPUB/PDF or any other source package.
+- Resolve only the nine findings in the final Argon report at their named segment
+  IDs; preserve all other translation strings.
+- Use Argon recommendations for local wording and locked emphasis; record uncertain
+  ordinary terms as provisional, non-canon.
+- Write only the two allowlisted files; run the configured validator and git diff
+  --check; do not commit or edit handoffs, ledger, canon, or checkpoint.
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status
+  must_send_exactly_once: true
+  verify_model: gpt-6-luna
+  effort: medium
+state: registered_before_dispatch

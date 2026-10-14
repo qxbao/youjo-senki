@@ -1,0 +1,34 @@
+task_id: vol-02-ch-07-b07-flash-polish
+role: polisher
+batch: vol-02-ch-07-b07
+primary_handoff: handoffs/vol-02/ch-07-b07.yml
+source_package: work/vol-02/batches/ch-07-b07-source.jsonl
+source_package_sha256: 154681efcb4892325563b2255f87d1720ea88bf424b1079a42a992f903367355
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+baseline: translations/vol-02/ch-07-b07.jsonl
+baseline_sha256: feda73f398624248ee917f609ec7f7be46d74a311c8b81d251eedfd9e8b838eb
+argon_signoff: reviews/prose/vol-02/ch-07-b07-argon-final-signoff-retry2.yml
+argon_signoff_sha256: 58a5f4313751b09a86118399b9beeb69e7cce79286f58fce0d4876ddacc6a830
+locked_choices: handoffs/vol-02/ch-07-b07-locked-choices.yml
+locked_choices_sha256: 05f04808fe97b24e4df8470ddc15a5ea03be821b2b02b81fa42dc2f5905903cc
+candidate: polish-candidates/vol-02/ch-07-b07.gemini.jsonl
+change_log: polish-candidates/vol-02/ch-07-b07.gemini-change-log.yml
+allowlist:
+- polish-candidates/vol-02/ch-07-b07.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b07.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config, assigned B07 source package,
+  baseline, accepted Argon report, locked choices, canon references and pending terms
+  for B07 only.
+- Polish prose only; preserve segment IDs/order/all metadata outside translation,
+  meaning, pronouns, emphasis and locked choices. Do not read EPUB/PDF or other source
+  package.
+- Write exactly candidate and change log under polish-candidates/; never write under
+  translations/, reviews/, ledger, handoffs or checkpoint; no commit. Change log has
+  complete IDs in baseline order and allowed types only.
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+preflight:
+  model: gemini-3.8-flash-medium
+  effort: medium
+  verify: CLI banner and process argv
+state: registered_before_dispatch

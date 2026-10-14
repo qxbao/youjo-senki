@@ -1,0 +1,50 @@
+task_id: vol-02-ch-07-b07
+role: translator
+batch: vol-02-ch-07-b07
+primary_handoff: handoffs/vol-02/ch-07-b07.yml
+source_package: work/vol-02/batches/ch-07-b07-source.jsonl
+source_package_sha256: 154681efcb4892325563b2255f87d1720ea88bf424b1079a42a992f903367355
+lease:
+  holder: none
+  pane_id: w6:pNA
+  terminal_id: term_65dc9ba0cc2812ae
+  agent_session_id: 01a139c9-9e08-7a32-aeb6-e0629bef8e48
+  checkpoint_generation: 1360
+  state: released_report_received
+  allowlist: []
+allowlist:
+- translations/vol-02/ch-07-b07.jsonl
+- reviews/semantic/vol-02/ch-07-b07-self-check.md
+constraints:
+- Translate only stable IDs p000153-p000179 from assigned B07 source package. Do not
+  read EPUB/PDF, another source package or other batch.
+- Read only named canon and relevant B07 pending ledger sections. Keep uncertain terms/names/ranks/pronouns
+  provisional and non-canon; report them in self-check.
+- Write only translations/vol-02/ch-07-b07.jsonl and reviews/semantic/vol-02/ch-07-b07-self-check.md.
+  No other batch/files, ledger, handoff, canon, checkpoint or commit. Run assigned
+  validator and git diff --check.
+status: done_waiting_argon_review
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status
+  status_sent_exactly_once: true
+  model: gpt-6-luna
+  effort: medium
+  sandbox: danger-full-access
+  approval_policy: never
+  verified: true
+  task_prompt_sent: true
+translator_report:
+  state: done
+  segment_ids: p000153-p000179
+  files_written:
+  - translations/vol-02/ch-07-b07.jsonl
+  - reviews/semantic/vol-02/ch-07-b07-self-check.md
+  translation_sha256: 56df6d03eea7572cd30bf69d15543f76e724912ad94d58150a7bc77dbfceefb5
+  self_check_sha256: a0a568949d92ae0658bd31f91d9809f55b6aa7d30db1bf2e3bc9a37778d3d359
+  validator: pass_27_rows
+  diff_check: pass
+  pending_count: 5
+  commit: null
+  next_action: review

@@ -1,0 +1,80 @@
+task_id: vol-02-ch-07-b07-argon-final-signoff
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b07
+translation: translations/vol-02/ch-07-b07.jsonl
+baseline_sha256: 7a9edf09a314f08ce10e338965c638d4864e0718c9883054597808c0bc4315a4
+source_package: work/vol-02/batches/ch-07-b07-source.jsonl
+source_package_sha256: 154681efcb4892325563b2255f87d1720ea88bf424b1079a42a992f903367355
+primary_handoff: handoffs/vol-02/ch-07-b07.yml
+initial_argon_report: reviews/prose/vol-02/ch-07-b07-argon-review.yml
+initial_argon_report_sha256: 9f406ed2e69b988db930bc453f6716b837a757a888607f1d76630b8bb72ebe3d
+translator_fixes: handoffs/vol-02/ch-07-b07-review-fixes.yml
+translator_fixes_sha256: 7968fff2e50a449e18a5c06f95d86844a735dc647ea6f5ca18e756bd05087a9a
+self_check: reviews/semantic/vol-02/ch-07-b07-self-check.md
+pending_ledger: work/run-state/pending-terms.yml
+constraints:
+- Review only assigned B07 package, current translation/self-check, initial Argon
+  report, translator fixes, named canon and B07 ledger sections. No EPUB/PDF or other
+  batch; no source quotations.
+- Verify all 9 initial B07 findings are corrected at their reported segment IDs, all
+  27 rows remain valid, and no material new issue was introduced. Reconfirm temporary
+  locked choices and alternatives as non-canon.
+- Write only reviews/prose/vol-02/ch-07-b07-argon-final-signoff.yml. No translation,
+  self-check, handoff, canon, ledger, checkpoint or commit edits.
+report_path: reviews/prose/vol-02/ch-07-b07-argon-final-signoff.yml
+status: final_signoff_failed_findings_open
+lease:
+  holder: reviewer
+  pane_id: w6:pNF
+  terminal_id: term_65dc9f4a52a812b3
+  agent_session_id: 8d8bf625-f557-424d-8a24-ab7f78b0fd29
+  checkpoint_generation: 1374
+  state: released_report_received
+allowlist:
+- reviews/prose/vol-02/ch-07-b07-argon-final-signoff.yml
+task_prompt_delivery: submitted_once
+report_sha256: e9f7327452c0328673f1c93ef88ba1150f85782d8e33c66e4b71d9e180d275cc
+review_counts:
+  serious: 0
+  moderate: 5
+  minor: 4
+  total: 9
+unresolved_findings:
+- severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000160
+  issue: 'Chưa áp dụng vào JSONL: thiếu `*...*` cho hai câu đầu trong `<html:em>`
+    theo `DEC-P01-002`, còn giữ `mắc kẹt ở đây` và thiếu sắc thái tất yếu ở câu thứ
+    ba.'
+- severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000161
+  issue: 'Chưa áp dụng vào JSONL: còn giữ `Bộ chỉ huy Tập đoàn quân Rhine` (tự thêm
+    `Tập đoàn quân`) và đại từ `họ` cho tiểu đoàn địch gây nhập nhằng chủ thể nắm
+    tin tình báo.'
+- severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000153
+  issue: 'Chưa áp dụng vào JSONL: còn giữ `âm thầm giao chiến với địch` và `phi đội
+    đánh chặn của chúng tôi`.'
+- severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000162
+  issue: 'Chưa áp dụng vào JSONL: còn giữ `các điện báo viên` thay vì `các nhân viên
+    thông tin vô tuyến`.'
+- severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000170
+  issue: 'Chưa áp dụng vào JSONL: còn giữ tình thái quy phạm `cần có` thay vì mô tả
+    trạng thái căng thẳng thể hiện trong giọng người chỉ huy.'
+- severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000156
+  issue: 'Chưa áp dụng vào JSONL tại `p000156` và `p000168`: còn giữ `cuộc tổng tấn
+    công liều lĩnh` và `cuộc tổng tấn công quy mô lớn`.'
+- severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000157
+  issue: 'Chưa áp dụng vào JSONL: còn lược mất tình thái đánh giá ở vế cuối câu cuối.'
+- severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000163
+  issue: 'Chưa áp dụng vào JSONL: còn giữ `vẫn đang xoay xở rất tốt` thay vì `vẫn
+    còn sung sức` / `vẫn còn nguyên sức`.'
+- severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000167
+  issue: 'Chưa áp dụng vào JSONL: còn giữ `đề phòng bắn nhầm quân mình` thay vì làm
+    rõ nguy cơ bị hỏa lực phòng không phe mình bắn nhầm.'

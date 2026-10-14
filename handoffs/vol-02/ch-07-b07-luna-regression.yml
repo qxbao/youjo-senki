@@ -1,0 +1,33 @@
+task_id: vol-02-ch-07-b07
+role: semantic_regression
+batch: vol-02-ch-07-b07
+source_package: work/vol-02/batches/ch-07-b07-source.jsonl
+source_package_sha256: 154681efcb4892325563b2255f87d1720ea88bf424b1079a42a992f903367355
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+baseline: translations/vol-02/ch-07-b07.jsonl
+baseline_sha256: feda73f398624248ee917f609ec7f7be46d74a311c8b81d251eedfd9e8b838eb
+candidate: polish-candidates/vol-02/ch-07-b07.gemini.jsonl
+candidate_sha256: b17092dd585985f29146513a0079a5b2aed5142d551e1b07f16e5ecf89b9e873
+locked_choices: handoffs/vol-02/ch-07-b07-locked-choices.yml
+locked_choices_sha256: 05f04808fe97b24e4df8470ddc15a5ea03be821b2b02b81fa42dc2f5905903cc
+change_log: polish-candidates/vol-02/ch-07-b07.gemini-change-log.yml
+change_log_sha256: 3946dcad1c33f3cb162f26fe9b8a775097b69e28299dc361518882761d66228b
+argon_signoff: reviews/prose/vol-02/ch-07-b07-argon-final-signoff-retry2.yml
+argon_signoff_sha256: 58a5f4313751b09a86118399b9beeb69e7cce79286f58fce0d4876ddacc6a830
+report_path: reviews/semantic/vol-02/ch-07-b07-gemini-regression.yml
+allowlist:
+- reviews/semantic/vol-02/ch-07-b07-gemini-regression.yml
+constraints:
+- Read agents/shared.md and agents/semantic-regression-checker.md; compare the full
+  assigned B07 source package, baseline, candidate, locked choices, change log, Argon
+  signoff and named canon files for all 27 IDs.
+- Do not read EPUB/PDF or any other source package. Do not quote source text. Do not
+  edit translation, candidate, log, ledger, canon, handoff, checkpoint, or commit.
+- Write only the exact machine-readable Luna receipt. Accept only if no critical or
+  locked_choice_violation; record style_only if any. All hashes and all checked IDs
+  must match handoff.
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status sent once in this Codex session; GPT-6-Luna medium verified
+state: registered_before_dispatch

@@ -1,0 +1,30 @@
+task_id: vol-02-ch-07-b07-argon-final-signoff-retry2
+role: reviewer
+batch: vol-02-ch-07-b07
+translation: translations/vol-02/ch-07-b07.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b07-self-check.md
+source_package: work/vol-02/batches/ch-07-b07-source.jsonl
+source_package_sha256: 154681efcb4892325563b2255f87d1720ea88bf424b1079a42a992f903367355
+baseline_sha256: feda73f398624248ee917f609ec7f7be46d74a311c8b81d251eedfd9e8b838eb
+self_check_sha256: 15f6f3610426054d59001667a2a5696036bba415068cd917ee753a59c940810f
+initial_argon_report: reviews/prose/vol-02/ch-07-b07-argon-review.yml
+initial_argon_report_sha256: 9f406ed2e69b988db930bc453f6716b837a757a888607f1d76630b8bb72ebe3d
+report_path: reviews/prose/vol-02/ch-07-b07-argon-final-signoff-retry2.yml
+allowlist:
+- reviews/prose/vol-02/ch-07-b07-argon-final-signoff-retry2.yml
+constraints:
+- Review all 27 B07 stable IDs using only the assigned B07 source package, current
+  translation/self-check, prior B07 reports/handoffs, named canon references and B07
+  pending ledger section. No EPUB/PDF or other source package; do not quote source
+  sentences.
+- Verify each of the nine final-signoff findings is truly fixed in the JSONL, not
+  merely reported in self-check. Confirm metadata, locked emphasis/choices and all
+  ordinary pending terms; choices remain provisional/non-canon.
+- Write only the assigned report. Include exact checked IDs, input hashes, findings
+  counts, and signoff accepted only if no serious/moderate issue remains. No translation,
+  ledger, handoff, checkpoint or commit edits.
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+preflight:
+  model: Gemini 4 Argon
+  effort: Medium via model variant; no --effort
+state: ready_after_B03_argon_task
