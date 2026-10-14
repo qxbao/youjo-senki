@@ -1,0 +1,462 @@
+task_id: vol-02-ch-07-b03-argon-recovery-signoff
+role: reviewer
+reviewer_model: Gemini 4 Argon (Medium)
+batch: vol-02-ch-07-b03
+state: done
+signoff: approved
+signoff_level: full
+serious_or_moderate_remaining: false
+baseline_ready_for_flash_polish: true
+next_action: coordinator_proceed_to_flash_polish
+report_path: reviews/prose/vol-02/ch-07-b03-argon-recovery-signoff.yml
+files_written:
+  - reviews/prose/vol-02/ch-07-b03-argon-recovery-signoff.yml
+commit: null
+
+artifacts_sha256:
+  source_package:
+    path: work/vol-02/batches/ch-07-b03-source.jsonl
+    sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+    source_document_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+  translation:
+    path: translations/vol-02/ch-07-b03.jsonl
+    sha256: c6e3451c183801dde85fe3a12727ed1195d873b8b91fdedf9b0f69b2a45e166f
+  self_check:
+    path: reviews/semantic/vol-02/ch-07-b03-self-check.md
+    sha256: 418f948fe2f6f6d27829b8975a90d8f742e21d8dd6c0b7410dcbe0b9074c5965
+  prior_reviews:
+    initial_review:
+      path: reviews/prose/vol-02/ch-07-b03-codex.md
+      sha256: 8801f7c538169bdefa2feb140ec5fd51b61decabd931084f28a9ad897c3bb85a
+    final_signoff_review:
+      path: reviews/prose/vol-02/ch-07-b03-final-signoff-codex.md
+      sha256: 82202af138e8b49f26e36499bc608c9af039c9fd5359da9f31ba01693386f0e1
+  canon_references:
+    canon/glossary.yml: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+    canon/style-guide.md: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+    canon/characters.yml: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+    canon/decisions.md: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+    canon/glossary-pending.yml: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+
+scope:
+  unit_count: 24
+  ids_and_order_match: true
+  segment_id_start: YS-LN02/Text/part0032.xhtml/p000052
+  segment_id_end: YS-LN02/Text/part0032.xhtml/p000075
+  checked_segment_ids:
+    - YS-LN02/Text/part0032.xhtml/p000052
+    - YS-LN02/Text/part0032.xhtml/p000053
+    - YS-LN02/Text/part0032.xhtml/p000054
+    - YS-LN02/Text/part0032.xhtml/p000055
+    - YS-LN02/Text/part0032.xhtml/p000056
+    - YS-LN02/Text/part0032.xhtml/p000057
+    - YS-LN02/Text/part0032.xhtml/p000058
+    - YS-LN02/Text/part0032.xhtml/p000059
+    - YS-LN02/Text/part0032.xhtml/p000060
+    - YS-LN02/Text/part0032.xhtml/p000061
+    - YS-LN02/Text/part0032.xhtml/p000062
+    - YS-LN02/Text/part0032.xhtml/p000063
+    - YS-LN02/Text/part0032.xhtml/p000064
+    - YS-LN02/Text/part0032.xhtml/p000065
+    - YS-LN02/Text/part0032.xhtml/p000066
+    - YS-LN02/Text/part0032.xhtml/p000067
+    - YS-LN02/Text/part0032.xhtml/p000068
+    - YS-LN02/Text/part0032.xhtml/p000069
+    - YS-LN02/Text/part0032.xhtml/p000070
+    - YS-LN02/Text/part0032.xhtml/p000071
+    - YS-LN02/Text/part0032.xhtml/p000072
+    - YS-LN02/Text/part0032.xhtml/p000073
+    - YS-LN02/Text/part0032.xhtml/p000074
+    - YS-LN02/Text/part0032.xhtml/p000075
+  handoffs_read:
+    - handoffs/vol-02/ch-07-b03-argon-recovery-signoff.yml
+    - handoffs/vol-02/ch-07-b03.yml
+    - handoffs/vol-02/ch-07-b03-translation.yml
+    - handoffs/vol-02/ch-07-b03-review.yml
+    - handoffs/vol-02/ch-07-b03-review-fixes.yml
+    - handoffs/vol-02/ch-07-b03-final-signoff.yml
+    - handoffs/vol-02/ch-07-b03-final-correction.yml
+  ledger_sections_read:
+    - work/run-state/pending-terms.yml#chapter7_b03_translator_proposals
+    - work/run-state/pending-terms.yml#chapter7_b03_review_recommendations
+  evidence_policy: >-
+    Đối chiếu độc lập toàn bộ 24 mã đoạn từ package nguồn được giao, bản dịch,
+    self-check, các handoff/báo cáo B03, canon và các mục ledger của B03. Không
+    mở EPUB/PDF hay package khác, không trích câu nguồn tiếng Anh, không sửa bản dịch.
+
+counts:
+  reviewed_rows: 24
+  prior_initial_findings_verified: 11
+  prior_initial_findings_resolved: 11
+  prior_withheld_signoff_findings_verified: 1
+  prior_withheld_signoff_findings_resolved: 1
+  new_findings: 0
+  serious: 0
+  moderate: 0
+  minor: 0
+  unresolved_findings: 0
+
+prior_findings_verification:
+  - id: B03-C01
+    prior_severity: moderate
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000055
+      - YS-LN02/Text/part0032.xhtml/p000058
+      - YS-LN02/Text/part0032.xhtml/p000060
+      - YS-LN02/Text/part0032.xhtml/p000063
+      - YS-LN02/Text/part0032.xhtml/p000065
+      - YS-LN02/Text/part0032.xhtml/p000066
+      - YS-LN02/Text/part0032.xhtml/p000068
+      - YS-LN02/Text/part0032.xhtml/p000069
+      - YS-LN02/Text/part0032.xhtml/p000070
+      - YS-LN02/Text/part0032.xhtml/p000074
+      - YS-LN02/Text/part0032.xhtml/p000075
+    status: resolved
+    verification: >-
+      Toàn bộ các đoạn độc thoại nội tâm tự quy chiếu của Tanya đã dùng “mình”,
+      các chỗ chỉ toàn đơn vị dùng “bọn mình”, trần thuật ngôi thứ ba tại p000057
+      giữ “nó” đúng DEC-P01-001, và “tôi” chỉ còn trong thoại vô tuyến tại p000059
+      và p000067. Tại p000075, chủ thể của lựa chọn chấp nhận rủi ro nhỏ và nhóm
+      rút lui có cơ hội về nơi an toàn được phân biệt rõ.
+  - id: B03-C02
+    prior_severity: moderate
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000052
+    status: resolved
+    verification: >-
+      Bản dịch dùng mệnh đề nhượng bộ “Dù là sĩ quan tham mưu”, giữ đúng đối lập
+      giữa vị thế tham mưu và thực tế phải chiến đấu giành mạng sống trên chiến
+      trường cùng nỗi ám ảnh về Being X; không biến chức vụ thành phỏng đoán và
+      không tự thêm cấp bậc.
+  - id: B03-C03
+    prior_severity: moderate
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000056
+    status: resolved
+    verification: >-
+      Đã thay cách gọi vượt quá chứng cứ bằng “một cuộc tiến công lớn sắp diễn ra”,
+      giữ nguyên mục tiêu tìm hiểu công tác phòng thủ/vị trí địch và hệ quả bên
+      phòng ngự ưu tiên giấu quân thay vì điều động dự bị quyết liệt.
+  - id: B03-C04
+    prior_severity: moderate
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000060
+      - YS-LN02/Text/part0032.xhtml/p000062
+    status: resolved
+    verification: >-
+      p000060 dùng “khai hỏa có kiểm soát” và p000062 dùng “hỏa lực có kiểm soát
+      của các pháp sư”; đã bỏ chi tiết đội hình không có trong nguồn và giữ rõ
+      đối lập với kiểu bắn nhiều nhưng nhắm kém ở p000063–p000064.
+  - id: B03-C05
+    prior_severity: moderate
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000067
+      - YS-LN02/Text/part0032.xhtml/p000074
+    status: resolved
+    verification: >-
+      Lệnh vô tuyến tại p000067 (“bắn hai phát”) và suy nghĩ nội tâm tại p000074
+      (“bắn hai phát yểm trợ”) đã thống nhất về số lượng và đơn vị bắn.
+  - id: B03-C06
+    prior_severity: moderate
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000074
+    status: resolved
+    verification: >-
+      Cấu trúc “bầu trời vẫn đầy khói từ đạn nổ cùng ánh đèn pha” đã tách rõ hai
+      yếu tố che khuất trên bầu trời, không còn gây hiểu lầm đèn pha tạo ra khói;
+      giữ nguyên nhóm ba người rút lui và hai phát bắn yểm trợ.
+  - id: B03-C07
+    prior_severity: minor
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000058
+    status: resolved
+    verification: >-
+      Khôi phục sắc thái mỉa mai “nồng nhiệt chào đón bọn mình bằng một màn hỏa lực
+      phòng không dày đặc”, không tự thêm chữ nghiêng.
+  - id: B03-C08
+    prior_severity: minor
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000059
+    status: resolved
+    verification: >-
+      Thoại vô tuyến của Fairy 08 dùng “Sẽ rút lui”, biểu thị đúng dự định rút lui
+      trước khi Tanya phân công 06 và 09 yểm trợ ở p000067.
+  - id: B03-C09
+    prior_severity: minor
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000069
+    status: resolved
+    verification: >-
+      Câu độc thoại “Đấy, mình hướng tới tương lai với tinh thần xây dựng như thế đó”
+      tự nhiên, giữ đúng giọng tự tán thưởng pha mỉa mai của Tanya mà không thêm
+      phán xét đạo đức.
+  - id: B03-C10
+    prior_severity: minor
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000072
+    status: resolved
+    verification: >-
+      Đã khôi phục mức độ nhượng bộ dè dặt “Họ có thể có lý khi nhận thấy nguy cơ
+      ở đó” trước khi kết luận đó vẫn chỉ là lối nghĩ nghiệp dư.
+  - id: B03-C11
+    prior_severity: minor
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000075
+    status: resolved
+    verification: >-
+      Liên từ chuyển ý tăng tiến “Thậm chí, mình còn có thể kỳ vọng…” diễn đạt tự
+      nhiên, giữ đúng logic hai người yểm trợ làm mồi nhử thu hút sự chú ý của địch.
+
+withheld_signoff_verification:
+  id: B03-F01
+  prior_severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000060
+  prior_status_in_main_body: withheld
+  prior_status_in_addendum: resolved
+  independent_verification_status: resolved
+  verification: >-
+    Trong lượt ký duyệt trước, báo cáo chính tạm giữ lại signoff vì p000060 chuyển
+    mệnh đề điều kiện sang bị động làm khuyết chủ thể phía Tanya duy trì việc làm
+    mù radar địch; sau lượt sửa bổ sung (ch-07-b03-final-correction), bản dịch hiện
+    tại ghi “miễn là bọn mình giữ cho radar của địch bị làm mù, họ không thể nào
+    khai hỏa có kiểm soát” và self-check cũng đã cập nhật tương ứng. Đối chiếu độc
+    lập xác nhận chủ thể “bọn mình”, trạng thái radar địch bị làm mù và hệ quả đối
+    phương không thể khai hỏa có kiểm soát đều khớp hoàn toàn với nguồn, không tự
+    thêm cơ chế kỹ thuật hay đội hình.
+
+findings: []
+unresolved_findings: []
+
+provisional_resolutions:
+  - group: recon_in_force
+    category: military_terminology
+    source_term: recon-in-force
+    provisional_vi: trinh sát chiến đấu
+    alternatives_vi:
+      - trinh sát bằng vũ lực
+      - trinh sát có vũ trang
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000053
+      - YS-LN02/Text/part0032.xhtml/p000056
+      - YS-LN02/Text/part0032.xhtml/p000058
+    contextual_segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000057
+    confidence: medium-high
+    status: pending
+    canon: false
+    reason: >-
+      “Trinh sát chiến đấu” là thuật ngữ quân sự tiếng Việt chuẩn xác và tự nhiên
+      nhất để chỉ hoạt động vừa giao chiến thật sự (chấp nhận thương vong cao như
+      nêu ở p000053, p000058) vừa thăm dò bố trí phòng ngự/vị trí quân địch (p000056).
+      “Trinh sát bằng vũ lực” sát chữ nhưng hơi nặng cấu trúc giới từ; “trinh sát
+      có vũ trang” dễ làm giảm sắc thái chủ động giao chiến. Tại p000056, Flash có
+      thể cân nhắc sắc thái dò tìm (“thăm dò”) nếu cần làm mượt câu nhưng bản hiện
+      tại đã đủ nghĩa.
+  - group: unit_designation_203rd
+    category: unit_name
+    source_term: 203rd Aerial Mage Battalion
+    provisional_vi: Tiểu đoàn Pháp sư Trên không số 203
+    alternatives_vi:
+      - Tiểu đoàn Pháp sư Không chiến số 203
+      - Tiểu đoàn Pháp sư Hàng không số 203
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000054
+    confidence: medium-high
+    status: pending
+    canon: false
+    reason: >-
+      “Tiểu đoàn Pháp sư Trên không số 203” giữ đúng cấp đơn vị (tiểu đoàn), số hiệu
+      (203) và tính chất hoạt động trên không một cách trung tính, khớp với tiền lệ
+      tạm dùng trong chương mà không tự thu hẹp thành “không chiến” (vì đơn vị còn
+      làm nhiệm vụ trinh sát, nghi binh, hậu vệ mặt trận).
+  - group: radar_and_visual_combat
+    category: military_terminology
+    source_term: radar observers / visual combat
+    provisional_vi: trắc thủ radar / tác chiến bằng quan sát trực tiếp
+    alternatives_vi:
+      - quan sát viên radar / tác chiến bằng mắt thường
+      - trắc thủ radar / không chiến bằng mắt thường
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000061
+      - YS-LN02/Text/part0032.xhtml/p000062
+    contextual_segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000060
+    confidence: medium
+    status: pending
+    canon: false
+    reason: >-
+      Ở p000061–p000062, nhân sự radar làm nhiệm vụ dẫn hướng hỏa lực đánh chặn nên
+      “trắc thủ radar” phản ánh đúng chức năng chuyên môn hơn “quan sát viên radar”.
+      Đối lập với bắn theo dẫn hướng radar là “tác chiến bằng quan sát trực tiếp”,
+      vừa bao quát cả phòng không mặt đất lẫn pháp sư trên không, vừa tránh hàm ý
+      tuyệt đối không dùng khí cụ quang học của cụm “mắt thường”.
+  - group: disciplined_fire
+    category: military_terminology
+    source_term: disciplined fire
+    provisional_vi: khai hỏa có kiểm soát / hỏa lực có kiểm soát
+    alternatives_vi:
+      - hỏa lực có kỷ luật
+      - bắn có điều khiển
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000060
+      - YS-LN02/Text/part0032.xhtml/p000062
+    confidence: medium
+    status: pending
+    canon: false
+    reason: >-
+      Ngữ cảnh p000060–p000064 đặt khái niệm này trong thế đối lập với việc bắn bừa
+      số lượng lớn đạn nhắm kém khi radar bị làm mù. “Khai hỏa có kiểm soát / hỏa
+      lực có kiểm soát” diễn đạt rõ bản chất tác chiến mà không tự suy diễn thành
+      đội hình bắn hay cơ chế kỹ thuật.
+  - group: game_theory_and_zero_sum
+    category: analytical_terminology
+    source_term: game theory / zero-sum
+    provisional_vi: lý thuyết trò chơi / trò chơi tổng bằng không
+    alternatives_vi:
+      - lý thuyết trò chơi / tình thế tổng bằng không
+      - lý thuyết trò chơi / tổng bằng không
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000075
+    confidence: high
+    status: pending
+    canon: false
+    reason: >-
+      Thuật ngữ kinh tế học/toán ứng dụng tiêu chuẩn trong tiếng Việt, khớp với giọng
+      phân tích duy lý của Tanya khi đánh giá lợi ích kép (bản thân giảm nguy cơ bị
+      chú ý, nhóm rút lui vẫn có cơ hội về vùng an toàn).
+  - group: proper_names_and_factions
+    category: names_and_factions
+    source_term: Being X / Imperial Army / Republican Army / Fairy 08, 01, 06, 09
+    provisional_vi: Being X / Lục quân Đế quốc / Lục quân Cộng hòa / Fairy 08, 01, 06, 09
+    alternatives_vi:
+      - Thực thể X / Quân đội Đế quốc / Quân đội Cộng hòa / Tiên nữ 08, 01, 06, 09
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000052
+      - YS-LN02/Text/part0032.xhtml/p000057
+      - YS-LN02/Text/part0032.xhtml/p000058
+      - YS-LN02/Text/part0032.xhtml/p000059
+      - YS-LN02/Text/part0032.xhtml/p000062
+      - YS-LN02/Text/part0032.xhtml/p000067
+    confidence: high
+    status: pending
+    canon: false
+    reason: >-
+      Giữ nguyên “Being X” (khớp P05-being-x trong glossary-pending.yml) và mã gọi
+      vô tuyến “Fairy 08 / 01 / 06 / 09” để bảo toàn tính nhất quán xuyên suốt các
+      batch; “Lục quân Đế quốc” và “Lục quân Cộng hòa” phù hợp với bối cảnh rút pháo
+      dã chiến, bộ binh và công binh trên mặt trận.
+  - group: role_and_pronouns
+    category: pronouns_and_voice
+    source_term: staff officer / third-person narration vs. first-person interior monologue vs. radio speech
+    provisional_vi: sĩ quan tham mưu; trần thuật dùng “nó”, độc thoại nội tâm dùng “mình / bọn mình”, thoại vô tuyến dùng “tôi”, gọi thuộc cấp bị thương là “anh ta”
+    alternatives_vi:
+      - tham mưu; dùng “chúng mình” cho đơn vị và “cậu ta” cho thuộc cấp nếu có thêm ngữ cảnh tuổi tác
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000052
+      - YS-LN02/Text/part0032.xhtml/p000055
+      - YS-LN02/Text/part0032.xhtml/p000057
+      - YS-LN02/Text/part0032.xhtml/p000058
+      - YS-LN02/Text/part0032.xhtml/p000059
+      - YS-LN02/Text/part0032.xhtml/p000060
+      - YS-LN02/Text/part0032.xhtml/p000063
+      - YS-LN02/Text/part0032.xhtml/p000065
+      - YS-LN02/Text/part0032.xhtml/p000066
+      - YS-LN02/Text/part0032.xhtml/p000067
+      - YS-LN02/Text/part0032.xhtml/p000068
+      - YS-LN02/Text/part0032.xhtml/p000069
+      - YS-LN02/Text/part0032.xhtml/p000070
+      - YS-LN02/Text/part0032.xhtml/p000074
+      - YS-LN02/Text/part0032.xhtml/p000075
+    confidence: high
+    status: pending
+    canon: false
+    reason: >-
+      Tuân thủ nghiêm ngặt quy tắc canon DEC-P01-001 cho đại từ trần thuật (“nó”) và
+      nội tâm của Tanya (“mình”); phần mở rộng sang số nhiều (“bọn mình”), thoại vô
+      tuyến quân sự (“tôi”) và quy chiếu thuộc cấp nam trung tính (“anh ta”) giữ rõ
+      ranh giới điểm nhìn mà không suy diễn cấp bậc hay quan hệ thân sơ ngoài nguồn.
+
+segment_audit:
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000052
+    status: pass
+    notes: Trần thuật ngôi thứ ba; giữ đúng nhượng bộ chức vụ sĩ quan tham mưu và ám ảnh về Being X (B03-C02 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000053
+    status: pass
+    notes: Giữ đúng mục đích giữ bí mật nghi binh, tính bắt buộc của nhiệm vụ trinh sát chiến đấu và việc bất chấp tổn thất.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000054
+    status: pass
+    notes: Tên đơn vị, bố trí rải dọc tiền tuyến và vai trò kép mồi nhử/hậu vệ che chắn cuộc rút lui đều chính xác.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000055
+    status: pass
+    notes: Nội tâm dùng “bọn mình/đơn vị mình” (B03-C01 đã đóng); giữ đúng trình tự rút pháo dã chiến trước bộ binh, công binh đã gài bẫy và thời gian dự kiến vài giờ.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000056
+    status: pass
+    notes: Giữ đúng mục đích trinh sát chiến đấu và dấu hiệu cuộc tiến công lớn sắp diễn ra (B03-C03 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000057
+    status: pass
+    notes: Trần thuật dùng “nó” cho Tanya đúng DEC-P01-001; điều kiện câu giờ cho Lục quân Đế quốc rút lui và mệnh lệnh phải xông vào được giữ nguyên.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000058
+    status: pass
+    notes: Nội tâm dùng “bọn mình” và khôi phục giọng mỉa mai “nồng nhiệt chào đón” (B03-C01, B03-C07 đã đóng); giữ đúng mối liên hệ giữa thương vong và trinh sát chiến đấu.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000059
+    status: pass
+    notes: Thoại vô tuyến ngắn gọn, giữ mã gọi Fairy 08 gọi 01, đại từ “Tôi” và dự định “Sẽ rút lui” (B03-C08 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000060
+    status: pass
+    notes: Nội tâm dùng “mình/bọn mình”, giữ rõ chủ thể phía Tanya duy trì việc làm mù radar địch và cụm “khai hỏa có kiểm soát” (B03-C01, B03-C04, B03-F01 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000061
+    status: pass
+    notes: Giữ đúng giả định quá khứ và mức độ dè dặt (“nếu có… có lẽ họ đã đánh chặn hiệu quả hơn”) cùng thuật ngữ tạm “trắc thủ radar”.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000062
+    status: pass
+    notes: Đối lập rõ hỏa lực do trắc thủ radar dẫn hướng và hỏa lực có kiểm soát của pháp sư với tác chiến bằng quan sát trực tiếp (B03-C04 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000063
+    status: pass
+    notes: Nội tâm dùng “bọn mình” (B03-C01 đã đóng); giữ đúng “Lý do chính” và hình ảnh trút sắt thép.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000064
+    status: pass
+    notes: Giữ đúng nhận định bắn đủ nhiều thì nhắm tệ vẫn trúng và câu cảm thán ngắn.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000065
+    status: pass
+    notes: Giữ dấu ba chấm mở đầu, đại từ “mình” (B03-C01 đã đóng) và nỗi tiếc nuối không mua cổ phiếu công ty đạn dược.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000066
+    status: pass
+    notes: Nội tâm dùng “Mình” (B03-C01 đã đóng); giữ đầy đủ lập luận về vật tư tiêu hao lợi nhuận đơn vị thấp nhưng tiêu thụ lớn và khoản lương đầu tư vào tài nguyên thiên nhiên.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000067
+    status: pass
+    notes: Thoại mệnh lệnh của 01 giao 06, 09 yểm trợ và giữ “bắn hai phát” (B03-C05 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000068
+    status: pass
+    notes: Nội tâm dùng “mình” nhất quán (B03-C01 đã đóng); giữ đúng ý rút kinh nghiệm cho tương lai.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000069
+    status: pass
+    notes: Nội tâm dùng “mình” và diễn đạt tự nhiên giọng tự tán thưởng mỉa mai (B03-C01, B03-C09 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000070
+    status: pass
+    notes: Nội tâm dùng “mình” (B03-C01 đã đóng); giữ nguyên câu hỏi tự vấn và câu trả lời phủ định.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000071
+    status: pass
+    notes: Giữ đúng chuỗi tâm lý của dân nghiệp dư khi thấy nguy hiểm thì sợ hãi và cứng đờ.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000072
+    status: pass
+    notes: Giữ đúng nhượng bộ khả thể “Họ có thể có lý” và giới hạn của tư duy nghiệp dư (B03-C10 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000073
+    status: pass
+    notes: Câu châm ngôn ngắn gọn, chuẩn xác.
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000074
+    status: pass
+    notes: Nội tâm dùng “mình”, giữ cụm ba người rút lui, hai phát yểm trợ và tách rõ khói đạn nổ với ánh đèn pha (B03-C01, B03-C05, B03-C06 đã đóng).
+  - segment_id: YS-LN02/Text/part0032.xhtml/p000075
+    status: pass
+    notes: Nội tâm dùng “Thậm chí, mình còn có thể kỳ vọng…” (B03-C01, B03-C11 đã đóng); giữ đúng lập luận mồi nhử, rủi ro nhỏ, cơ hội rút lui an toàn và lý thuyết trò chơi / không phải trò chơi tổng bằng không.
+
+flash_polish_readiness:
+  ready: true
+  summary: >-
+    Không còn lỗi nghiêm trọng hoặc trung bình (0 serious, 0 moderate, 0 minor).
+    Toàn bộ 11 finding ban đầu (B03-C01 đến B03-C11) và finding giữ lại signoff
+    (B03-F01 tại p000060) đều đã được giải quyết triệt để trong bản dịch và
+    self-check. Các lựa chọn thuật ngữ, tên gọi, chức vụ và đại từ chưa chốt đã
+    được giải quyết tạm thời với đầy đủ căn cứ, phương án thay thế và độ tin cậy,
+    giữ nguyên trạng thái pending/non-canon. Bản dịch nền (baseline) của
+    vol-02-ch-07-b03 hoàn toàn sẵn sàng để chuyển sang bước Flash polish.

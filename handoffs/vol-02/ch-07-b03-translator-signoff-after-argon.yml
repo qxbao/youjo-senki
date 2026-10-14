@@ -1,0 +1,27 @@
+task_id: vol-02-ch-07-b03-translator-signoff-after-argon
+role: translator
+batch: vol-02-ch-07-b03
+translation: translations/vol-02/ch-07-b03.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b03-self-check.md
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+argon_report: reviews/prose/vol-02/ch-07-b03-argon-recovery-signoff.yml
+argon_report_sha256: ccc8d2d795bb0580121c05681e2cf41813545f0fd97a18652dd216e1c9de636b
+baseline_sha256: c6e3451c183801dde85fe3a12727ed1195d873b8b91fdedf9b0f69b2a45e166f
+allowlist:
+- translations/vol-02/ch-07-b03.jsonl
+constraints:
+- Use the existing B03 baseline; do not translate from scratch or change any translation
+  string.
+- Argon approved B03 and all 24 rows are still marked draft; change only the status
+  field for every row to reviewed.
+- Verify all 24 stable IDs and unchanged translation strings; run validator using
+  the primary B03 handoff and assigned source package, then git diff --check.
+- Do not write self-check, handoffs, ledger, canon, checkpoint, other batches, or
+  commit. Return hashes and validation results.
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status previously sent once in this Codex session; model/effort
+    verified
+state: registered_before_dispatch

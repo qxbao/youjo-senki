@@ -1,0 +1,29 @@
+task_id: vol-02-ch-07-b03-argon-final-signoff-retry2
+role: reviewer
+batch: vol-02-ch-07-b03
+translation: translations/vol-02/ch-07-b03.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b03-self-check.md
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+baseline_sha256: ea7814b0b122baebc2a1f91df61d3bb8680882147257acd6604a7318e1e1a53a
+self_check_sha256: 418f948fe2f6f6d27829b8975a90d8f742e21d8dd6c0b7410dcbe0b9074c5965
+prior_argon_signoff: reviews/prose/vol-02/ch-07-b03-argon-recovery-signoff.yml
+prior_argon_signoff_sha256: ccc8d2d795bb0580121c05681e2cf41813545f0fd97a18652dd216e1c9de636b
+report_path: reviews/prose/vol-02/ch-07-b03-argon-final-signoff-retry2.yml
+allowlist:
+- reviews/prose/vol-02/ch-07-b03-argon-final-signoff-retry2.yml
+constraints:
+- Review all 24 B03 IDs using only the assigned B03 source package, current translation/self-check,
+  prior B03 review reports/handoffs, named canon and B03 ledger sections. No EPUB/PDF
+  or other source package; no source quotations.
+- Confirm every previous finding remains resolved, row status is reviewed, all translation
+  strings are unchanged from the previously approved baseline, and no serious/moderate
+  issue remains. Report current hashes and all checked IDs; repeat temporary choices
+  as pending/non-canon.
+- Write only the assigned final Argon report. Do not edit translation, handoffs, ledger,
+  canon, checkpoint or commit.
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+preflight:
+  model: Gemini 4 Argon (Medium) verified in banner and process argv
+  effort_flag: omit
+state: registered_before_dispatch

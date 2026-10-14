@@ -1,0 +1,33 @@
+task_id: vol-02-ch-07-b03-argon-recovery-signoff
+role: reviewer
+batch: vol-02-ch-07-b03
+translation: translations/vol-02/ch-07-b03.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b03-self-check.md
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+prior_review: reviews/prose/vol-02/ch-07-b03-codex.md
+prior_signoff: reviews/prose/vol-02/ch-07-b03-final-signoff-codex.md
+input_hashes:
+  translations/vol-02/ch-07-b03.jsonl: c6e3451c183801dde85fe3a12727ed1195d873b8b91fdedf9b0f69b2a45e166f
+  reviews/semantic/vol-02/ch-07-b03-self-check.md: 418f948fe2f6f6d27829b8975a90d8f742e21d8dd6c0b7410dcbe0b9074c5965
+  reviews/prose/vol-02/ch-07-b03-codex.md: 8801f7c538169bdefa2feb140ec5fd51b61decabd931084f28a9ad897c3bb85a
+  reviews/prose/vol-02/ch-07-b03-final-signoff-codex.md: 82202af138e8b49f26e36499bc608c9af039c9fd5359da9f31ba01693386f0e1
+report_path: reviews/prose/vol-02/ch-07-b03-argon-recovery-signoff.yml
+allowlist:
+- reviews/prose/vol-02/ch-07-b03-argon-recovery-signoff.yml
+constraints:
+- Review only the assigned B03 source package, translation, self-check, earlier B03
+  reports/handoffs, named canon references and B03 pending ledger entries.
+- Review all 24 stable IDs; verify prior findings and signoff, identify any open material
+  issue; resolve ordinary pending choices provisionally with evidence and alternatives,
+  never canonize.
+- Do not read EPUB/PDF or any other source package; do not quote source sentences.
+- Write only the assigned report. Do not edit translation, handoff, ledger, canon,
+  run-state, or commit.
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+preflight:
+  model: gemini-4-argon-medium
+  effort: medium encoded by model variant
+  effort_flag: omit
+  verify: CLI status and process argv
+state: registered_before_dispatch

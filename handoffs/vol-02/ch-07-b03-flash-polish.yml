@@ -1,0 +1,45 @@
+task_id: vol-02-ch-07-b03-flash-polish
+batch_task_id: vol-02-ch-07-b03
+role: prose_polish_gemini
+batch: vol-02-ch-07-b03
+primary_handoff: handoffs/vol-02/ch-07-b03.yml
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+baseline_translation: translations/vol-02/ch-07-b03.jsonl
+baseline_sha256: ea7814b0b122baebc2a1f91df61d3bb8680882147257acd6604a7318e1e1a53a
+locked_choices: handoffs/vol-02/ch-07-b03-locked-choices.yml
+locked_choices_sha256: feb92ec969d58c10a1b2a19f21bd6aafc4f6d9bab5beb6c749ed62b3f79349ca
+argon_final_report: reviews/prose/vol-02/ch-07-b03-argon-final-signoff-retry2.yml
+argon_final_report_sha256: 210c40c156e5d3fb070ad65803bac2d24729aafdfab7622af0866f1d8ec52e35
+self_check: reviews/semantic/vol-02/ch-07-b03-self-check.md
+self_check_sha256: 418f948fe2f6f6d27829b8975a90d8f742e21d8dd6c0b7410dcbe0b9074c5965
+candidate_output: polish-candidates/vol-02/ch-07-b03.gemini.jsonl
+change_log_output: polish-candidates/vol-02/ch-07-b03.gemini-change-log.yml
+lease:
+  holder: prose_polish_gemini
+  role: prose_polish_gemini
+  task_id: vol-02-ch-07-b03-flash-polish
+  pane_id: w6:pNP
+  terminal_id: term_65dcb9d866d092ba
+  agent_session_id: f2c8705d-92a3-45d2-8b5c-65242279a246
+  state: released
+  allowlist:
+  - polish-candidates/vol-02/ch-07-b03.gemini.jsonl
+  - polish-candidates/vol-02/ch-07-b03.gemini-change-log.yml
+allowlist:
+- polish-candidates/vol-02/ch-07-b03.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b03.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml, handoffs/vol-02/ch-07-b03-flash-polish.yml, handoffs/vol-02/ch-07-b03.yml, handoffs/vol-02/ch-07-b03-locked-choices.yml, translations/vol-02/ch-07-b03.jsonl, reviews/prose/vol-02/ch-07-b03-argon-final-signoff-retry2.yml, reviews/semantic/vol-02/ch-07-b03-self-check.md, and named canon files. Do not read EPUB/PDF or source packages.
+- Write only polish-candidates/vol-02/ch-07-b03.gemini.jsonl and polish-candidates/vol-02/ch-07-b03.gemini-change-log.yml. Never write under translations/, handoffs/, reviews/, canon/, or work/run-state/.
+- Preserve all 24 stable segment_ids (YS-LN02/Text/part0032.xhtml/p000052 through p000075), row order, and baseline row metadata (including status: reviewed, source_sha256, glossary_version, style_guide_version, locator).
+- Strictly preserve all locked choices in handoffs/vol-02/ch-07-b03-locked-choices.yml and DEC-P01-001/DEC-P01-002 rules.
+- In polish-candidates/vol-02/ch-07-b03.gemini-change-log.yml, set top-level task_id: vol-02-ch-07-b03 and change_log with one entry per segment in source order ({segment_id, types, escalate}). Allowed types are syntax, rhythm, diction, punctuation. If escalate: true, retain the exact baseline translation string. Do not include source text.
+- Run python3 tools/validate_translation.py --handoff handoffs/vol-02/ch-07-b03.yml --source work/vol-02/batches/ch-07-b03-source.jsonl --translation polish-candidates/vol-02/ch-07-b03.gemini.jsonl and git diff --check before reporting YAML.
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+preflight:
+  model: Gemini 3.8 Flash (Medium) verified via CLI banner and process argv
+  effort: medium
+candidate_sha256: 6093503c75c2afa4c0150b35af6f391b8fcb2f101f60d2537330b488830948fd
+change_log_sha256: bde5e1bfc33344ca4b720ab623fa327fcb5902811f2261a7afab686bba16e6b0
+state: done

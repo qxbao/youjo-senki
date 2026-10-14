@@ -1,0 +1,45 @@
+task_id: vol-02-ch-07-b03
+role: semantic_regression
+batch: vol-02-ch-07-b03
+source_package: work/vol-02/batches/ch-07-b03-source.jsonl
+source_package_sha256: 12607922a93b34fd2af9d60c983b49e735829c3c44963023755abee473e372e6
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+baseline: translations/vol-02/ch-07-b03.jsonl
+baseline_sha256: ea7814b0b122baebc2a1f91df61d3bb8680882147257acd6604a7318e1e1a53a
+candidate: polish-candidates/vol-02/ch-07-b03.gemini.jsonl
+candidate_sha256: 6093503c75c2afa4c0150b35af6f391b8fcb2f101f60d2537330b488830948fd
+locked_choices: handoffs/vol-02/ch-07-b03-locked-choices.yml
+locked_choices_sha256: feb92ec969d58c10a1b2a19f21bd6aafc4f6d9bab5beb6c749ed62b3f79349ca
+change_log: polish-candidates/vol-02/ch-07-b03.gemini-change-log.yml
+change_log_sha256: bde5e1bfc33344ca4b720ab623fa327fcb5902811f2261a7afab686bba16e6b0
+argon_signoff: reviews/prose/vol-02/ch-07-b03-argon-final-signoff-retry2.yml
+argon_signoff_sha256: 210c40c156e5d3fb070ad65803bac2d24729aafdfab7622af0866f1d8ec52e35
+report_path: reviews/semantic/vol-02/ch-07-b03-gemini-regression.yml
+allowlist:
+- reviews/semantic/vol-02/ch-07-b03-gemini-regression.yml
+constraints:
+- Read agents/shared.md and agents/semantic-regression-checker.md; compare the full
+  assigned B03 source package, baseline, candidate, locked choices, change log, Argon
+  signoff and named canon files for all 24 IDs.
+- Do not read EPUB/PDF or any other source package. Do not quote source text. Do not
+  edit translation, candidate, log, ledger, canon, handoff, checkpoint, or commit.
+- Write only the exact machine-readable Luna receipt. Accept only if no critical or
+  locked_choice_violation; record style_only if any. All hashes and all checked IDs
+  must match handoff.
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium
+  --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status sent once in this Codex session; GPT-6-Luna medium verified
+lease:
+  holder: none
+  pane_id: w6:pNR
+  terminal_id: term_65dcbd62447d82bc
+  agent_session_id: 01a13a56-05c0-7041-982f-ac75b9c3f6c7
+  checkpoint_generation: 1422
+  state: released_receipt_accepted
+  allowlist: []
+state: done_accepted
+receipt_sha256: 701c8d8003709349aee22624c21b431018c15215fec3cf85a4666f5b35b49e1e
+decision: accept
+
+
