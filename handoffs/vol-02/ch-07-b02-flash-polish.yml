@@ -1,0 +1,44 @@
+task_id: vol-02-ch-07-b02-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b02
+baseline: translations/vol-02/ch-07-b02.jsonl
+baseline_sha256: 6595edd33f0ef4bb74d4c032a7a9e0aaa77e5375873d1f253db0a5c5b608b95b
+source_package: work/vol-02/batches/ch-07-b02-source.jsonl
+source_package_sha256: f0f3f21af108a2773fe799bcf53caaa91cf0b07bf40da350435589c613f9dfbe
+argon_review: reviews/prose/vol-02/ch-07-b02-argon-review.yml
+argon_review_sha256: 50c425bbb03361ccdb9f2560df33893b2cf38c82446187f1d95e59d14db1c801
+locked_choices: handoffs/vol-02/ch-07-b02-locked-choices.yml
+locked_choices_sha256: bdd668ec6351470435942fa6e6e30aa48cda18c356be6d9b117f9b402a4a0b9b
+translator_signoff: handoffs/vol-02/ch-07-b02-translator-signoff.yml
+allowlist:
+- polish-candidates/vol-02/ch-07-b02.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b02.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml
+  and only assigned B02 baseline/source package/Argon report/locked choices/canon
+  named in primary handoff.
+- Polish prose only; preserve locked choices, meaning, negation, subjects, modality,
+  time, viewpoint, emphasis, IDs/order and metadata.
+- Write only polish-candidates/vol-02/ch-07-b02.gemini.jsonl and polish-candidates/vol-02/ch-07-b02.gemini-change-log.yml
+  under polish-candidates/. Candidate changes translation only; log all 26 IDs in
+  order with allowed types and explicit escalation booleans. No other files, source
+  quotations, canonical translations, or commit.
+status: done
+lease:
+  holder: polisher
+  pane_id: w6:pND
+  terminal_id: term_65dc9e55d94092b1
+  agent_session_id: 6cf0c637-3d01-4179-83bd-8d9b73400b28
+  checkpoint_generation: 1372
+  state: released_report_received
+candidate_sha256: d1d14417f0ddee20bcb3d5cbc7753cf76a37ee4fa6aee406911b93a9bedc73e7
+change_log_sha256: 53cae7ab086a09bcbc2f5e1c1d51f3089ab42c3a03d1cccad7db4e6aaad27ef2
+report:
+  state: done
+  segment_ids_count: 26
+  changed_segments: 14
+  escalations: []
+  risks: []
+  validator: pass
+  diff_check: pass

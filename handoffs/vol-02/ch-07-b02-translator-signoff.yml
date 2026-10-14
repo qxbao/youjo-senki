@@ -1,0 +1,46 @@
+task_id: vol-02-ch-07-b02-translator-signoff
+role: translator
+batch: vol-02-ch-07-b02
+translation: translations/vol-02/ch-07-b02.jsonl
+source_package: work/vol-02/batches/ch-07-b02-source.jsonl
+source_package_sha256: f0f3f21af108a2773fe799bcf53caaa91cf0b07bf40da350435589c613f9dfbe
+argon_review: reviews/prose/vol-02/ch-07-b02-argon-review.yml
+argon_review_sha256: 50c425bbb03361ccdb9f2560df33893b2cf38c82446187f1d95e59d14db1c801
+baseline_sha256: 2d89093451e57500e170f6fdef08a5a57072b37d9a4f82d1c10f8ea0bd2394b3
+primary_handoff: handoffs/vol-02/ch-07-b02.yml
+constraints:
+- Read only B02 handoff, assigned local package, translation, self-check, Argon review,
+  relevant B02 ledger sections, named canon. No EPUB/PDF or another batch.
+- Argon verified all 26 IDs and zero unresolved findings. Do not change translation
+  strings or any metadata except set status draft -> reviewed for all assigned rows;
+  retain approved if any. If substantive issue appears, make no edit and report blocked.
+- Write only translations/vol-02/ch-07-b02.jsonl. Run assigned validator and git diff
+  --check. No commit.
+status: done
+lease:
+  holder: none
+  pane_id: w6:pNB
+  terminal_id: term_65dc9cfd665942af
+  agent_session_id: 01a139cf-5933-7df2-8daf-d6ff77f0ca2f
+  checkpoint_generation: 1365
+  state: released_report_received
+  allowlist: []
+allowlist:
+- translations/vol-02/ch-07-b02.jsonl
+preflight:
+  status_command: /status
+  status_sent_exactly_once: true
+  model: gpt-6-luna
+  effort: medium
+  sandbox: danger-full-access
+  approval_policy: never
+  verified: true
+  task_prompt_sent: false
+signoff:
+  result: pass
+  rows_reviewed: 26
+  strings_unchanged: true
+  baseline_sha256_before: 2d89093451e57500e170f6fdef08a5a57072b37d9a4f82d1c10f8ea0bd2394b3
+  baseline_sha256_after: 6595edd33f0ef4bb74d4c032a7a9e0aaa77e5375873d1f253db0a5c5b608b95b
+  validator: pass
+  diff_check: pass

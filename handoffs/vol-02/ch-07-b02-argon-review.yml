@@ -1,0 +1,47 @@
+task_id: vol-02-ch-07-b02-argon-review
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b02
+translation: translations/vol-02/ch-07-b02.jsonl
+baseline_sha256: 2d89093451e57500e170f6fdef08a5a57072b37d9a4f82d1c10f8ea0bd2394b3
+source_package: work/vol-02/batches/ch-07-b02-source.jsonl
+source_package_sha256: f0f3f21af108a2773fe799bcf53caaa91cf0b07bf40da350435589c613f9dfbe
+primary_handoff: handoffs/vol-02/ch-07-b02.yml
+previous_review: reviews/prose/vol-02/ch-07-b02-codex.md
+previous_signoff: reviews/prose/vol-02/ch-07-b02-final-signoff-codex.md
+self_check: reviews/semantic/vol-02/ch-07-b02-self-check.md
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter7_b02_translator_proposals
+- chapter7_b02_review_recommendations
+constraints:
+- Review only assigned B02 package, current translation, self-check, prior reports/handoffs,
+  named canon and B02 ledger sections. No EPUB/PDF or other package; do not reproduce
+  source sentences.
+- Review all 26 IDs independently. Verify past findings/fixes and report any remaining
+  meaning problem. Choose temporary grounded choices for pending names/ranks/terms/pronouns,
+  with reasons and alternatives; keep non-canon.
+- Write only reviews/prose/vol-02/ch-07-b02-argon-review.yml. No translation, self-check,
+  handoff, canon, ledger, checkpoint, or commit.
+report_path: reviews/prose/vol-02/ch-07-b02-argon-review.yml
+status: done
+lease:
+  holder: reviewer
+  pane_id: w6:pN9
+  terminal_id: term_65dc9ba0cac152ad
+  agent_session_id: 2f5bb052-2fb7-4e75-a1a3-9b0bc6b067f3
+  checkpoint_generation: 1360
+  state: released_report_received
+allowlist:
+- reviews/prose/vol-02/ch-07-b02-argon-review.yml
+task_prompt_delivery: submitted_once
+report_sha256: 50c425bbb03361ccdb9f2560df33893b2cf38c82446187f1d95e59d14db1c801
+review_counts:
+  rows_reviewed: 26
+  serious: 0
+  moderate: 0
+  minor: 0
+  total_findings: 0
+  prior_findings_verified: 11
+  prior_findings_resolved: 11
+  unresolved: 0
