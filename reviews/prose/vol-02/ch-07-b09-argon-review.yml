@@ -1,0 +1,282 @@
+task_id: vol-02-ch-07-b09-argon-review
+role: reviewer
+model: gemini-4-argon-medium
+batch: vol-02-ch-07-b09
+volume: vol-02
+chapter: 7
+segment_id_start: YS-LN02/Text/part0032.xhtml/p000208
+segment_id_end: YS-LN02/Text/part0032.xhtml/p000237
+unit_count: 30
+translation: translations/vol-02/ch-07-b09.jsonl
+baseline_sha256: c1b1ef3b046d28cef3d2b6bab9bee7af3506785291f7ed0bbf6d4eea6e94a229
+source_package: work/vol-02/batches/ch-07-b09-source.jsonl
+source_package_sha256: a3e10c81115a39042b253e1196ead4c7f93c9397be3fb7ad6d457641cd7174b8
+primary_handoff: handoffs/vol-02/ch-07-b09.yml
+self_check: reviews/semantic/vol-02/ch-07-b09-self-check.md
+self_check_sha256: 17243faf46155984a383b41ac73fa65474ee2cc55b91215c22e793534651659f
+status: approved_for_polish
+verdict: pass
+counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+unresolved_findings: []
+self_check_verification:
+  status: verified
+  notes: >-
+    Báo cáo tự kiểm tra của translator phản ánh chính xác nội dung 30 đoạn
+    (p000208–p000237). Toàn bộ quan hệ nhân quả, phủ định, giả định, đối chiếu
+    giữa phương án của Xưởng Vũ khí Kỹ thuật Hàng không và phương án của Kỹ sư
+    trưởng Adelheid von Schugel, các thông số kỹ thuật (tầng đẩy nhiên liệu
+    hydrazine dùng một lần tách bỏ kèm thùng nhiên liệu ngoài, phụ gia boron
+    độc gấp 10 lần kali xyanua, sóng xung kích, lực cản sóng, khí đàn hồi, tốc
+    độ mục tiêu Mach 1.5, chỉ bay thẳng và tự lực quay về), quy tắc đại từ
+    DEC-P01-001 và quy tắc nhấn mạnh DEC-P01-002 đều được tuân thủ đầy đủ.
+term_recommendations:
+  - source_term: Aerial Technical Arsenal
+    proposed_vi: Xưởng Vũ khí Kỹ thuật Hàng không
+    alternatives_vi:
+      - Xưởng Kỹ thuật Hàng không
+      - Kho Vũ khí Kỹ thuật Hàng không
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000211
+      - YS-LN02/Text/part0032.xhtml/p000226
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Xây dựng đồng bộ trên gốc tạm “Xưởng Vũ khí Kỹ thuật” (Technical Arsenal)
+      đã dùng từ quyển 1 và trong cùng đoạn p000211, p000221; phân biệt rõ bộ
+      phận chuyên trách mảng hàng không với cơ quan kỹ thuật chung.
+    uncertainty: low
+    status: pending
+    canon: false
+  - source_term: Chief Engineer Adelheid von Schugel
+    proposed_vi: Kỹ sư trưởng Adelheid von Schugel
+    alternatives_vi:
+      - Kỹ sư Trưởng Adelheid von Schugel
+      - Tổng công trình sư Adelheid von Schugel
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000213
+      - YS-LN02/Text/part0032.xhtml/p000218
+      - YS-LN02/Text/part0032.xhtml/p000224
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Giữ nguyên tên riêng tiếng Đức và dịch sát chức danh kỹ thuật “Chief
+      Engineer” là “Kỹ sư trưởng”; trong trần thuật quy chiếu ngôi ba bằng “ông
+      ta” (p000225–p000230) khớp với giọng kể pha chút châm biếm về kế hoạch
+      cực đoan của nhân vật.
+    uncertainty: low
+    status: pending
+    canon: false
+  - source_term: additional acceleration apparatus
+    proposed_vi: khí cụ gia tốc bổ sung
+    alternatives_vi:
+      - thiết bị gia tốc bổ sung
+      - bộ gia tốc phụ trợ
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000214
+      - YS-LN02/Text/part0032.xhtml/p000218
+      - YS-LN02/Text/part0032.xhtml/p000225
+      - YS-LN02/Text/part0032.xhtml/p000227
+      - YS-LN02/Text/part0032.xhtml/p000229
+      - YS-LN02/Text/part0032.xhtml/p000231
+      - YS-LN02/Text/part0032.xhtml/p000236
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Phản ánh sát từng thành tố định danh mà Schugel đặt ra ở p000214 và giải
+      thích trực tiếp ở p000225–p000227 (bổ sung tốc độ bằng một khí cụ gắn
+      ngoài); từ “khí cụ” giữ được sắc thái cơ khí-quân sự trang trọng và phân
+      biệt với “unit” (thiết bị/đơn vị) ở p000211.
+    uncertainty: low
+    status: pending
+    canon: false
+  - source_term: hydrazine fuel boosters / single-use boosters
+    proposed_vi: tầng đẩy nhiên liệu hydrazine / tầng đẩy dùng một lần
+    alternatives_vi:
+      - động cơ đẩy phụ nhiên liệu hydrazine / động cơ đẩy phụ dùng một lần
+      - bộ đẩy nhiên liệu hydrazine / bộ đẩy dùng một lần
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000229
+      - YS-LN02/Text/part0032.xhtml/p000230
+      - YS-LN02/Text/part0032.xhtml/p000233
+      - YS-LN02/Text/part0032.xhtml/p000236
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Trong mô tả kỹ thuật ở p000229, các bộ phận này dùng nhiên liệu hydrazine
+      cỡ cực lớn, chỉ dùng một lần và tách bỏ cùng thùng nhiên liệu ngoài khi
+      cạn để tăng tốc ở cuối hành trình; “tầng đẩy” diễn đạt tự nhiên và chính
+      xác cơ chế phóng-tách tầng tên lửa này.
+    uncertainty: low
+    status: pending
+    canon: false
+  - source_term: boron additive / potassium cyanide
+    proposed_vi: phụ gia boron / kali xyanua
+    alternatives_vi:
+      - chất phụ gia bo / kali xyanua (KCN)
+      - phụ gia boron / potassium cyanide
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000231
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Kết hợp cách gọi danh pháp hóa học phổ thông và rõ nghĩa trong tiếng Việt
+      (“phụ gia boron”, “kali xyanua”), bảo toàn đối sánh mức độ độc hại gấp
+      mười lần và mục đích cơ động tránh né khẩn cấp.
+    uncertainty: low
+    status: pending
+    canon: false
+  - source_term: shock waves / wave drag / aeroelasticity
+    proposed_vi: sóng xung kích / lực cản sóng / khí đàn hồi
+    alternatives_vi:
+      - sóng xung kích / lực cản sóng xung kích / độ đàn hồi khí động
+      - sóng kích / lực cản sóng / hiện tượng khí đàn hồi
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000232
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Bộ ba thuật ngữ khí động học siêu thanh tiêu chuẩn trong tiếng Việt kỹ
+      thuật hàng không, khớp chính xác với bối cảnh bay ở vận tốc Mach 1.5 tại
+      p000232–p000234.
+    uncertainty: low
+    status: pending
+    canon: false
+  - source_term: Devil of the Rhine / recon-in-force / augmented battalion / Imperial Army / Technical Arsenal / protective film / defensive shell
+    proposed_vi: Ác quỷ sông Rhine / trinh sát chiến đấu / tiểu đoàn tăng cường / Lục quân Đế quốc / Xưởng Vũ khí Kỹ thuật / màn chắn bảo hộ / lớp vỏ phòng thủ
+    alternatives_vi:
+      - Ác quỷ vùng Rhine / trinh sát bằng vũ lực / tiểu đoàn tăng cường / Quân đội Đế quốc / Kho Vũ khí Kỹ thuật / màng bảo hộ / vỏ phòng ngự
+    segment_ids:
+      - YS-LN02/Text/part0032.xhtml/p000208
+      - YS-LN02/Text/part0032.xhtml/p000209
+      - YS-LN02/Text/part0032.xhtml/p000210
+      - YS-LN02/Text/part0032.xhtml/p000211
+      - YS-LN02/Text/part0032.xhtml/p000214
+      - YS-LN02/Text/part0032.xhtml/p000217
+      - YS-LN02/Text/part0032.xhtml/p000219
+      - YS-LN02/Text/part0032.xhtml/p000220
+      - YS-LN02/Text/part0032.xhtml/p000221
+      - YS-LN02/Text/part0032.xhtml/p000232
+    volume: vol-02
+    chapter: 7
+    rationale: >-
+      Kế thừa nhất quán các phương án tạm đã khóa ở các batch trước của chương 7.
+    uncertainty: low
+    status: pending
+    canon: false
+locked_choices:
+  batch_rules:
+    pronouns_and_pov:
+      - Quy chiếu tới Ác quỷ sông Rhine (Tanya) trong trần thuật ngôi ba tại p000208 bắt buộc giữ đại từ “nó” theo DEC-P01-001; không đổi thành “cô” hay “ả”.
+      - Quy chiếu tới Kỹ sư trưởng Adelheid von Schugel trong trần thuật ngôi ba tại p000225, p000226, p000228, p000229, p000230 giữ “ông ta”.
+      - Các câu giả định/khái quát chiến thuật ở p000217, p000223, p000237 giữ cấu trúc trung tính/khuyết chủ ngữ ngôi hai, không thêm đại từ xưng hô trực tiếp.
+    emphasis_and_formatting:
+      - Chỉ duy nhất p000215 có dấu nhấn mạnh Markdown `*...*` (`*Cái quái gì thế?*`) theo DEC-P01-002; tuyệt đối không thêm hay bớt `*...*` ở bất kỳ đoạn nào khác.
+      - Giữ dấu ngoặc kép lời thoại tại p000214, p000222; dấu ngoặc kép trích dẫn tên gọi tại p000227; dấu ngoặc đơn toàn đoạn tại p000233.
+    terminology_locks:
+      - Devil of the Rhine -> Ác quỷ sông Rhine (p000208)
+      - recon-in-force / reconnaissance-in-force -> trinh sát chiến đấu (p000209, p000210, p000214, p000217, p000219, p000220)
+      - augmented battalion -> tiểu đoàn tăng cường (p000210)
+      - Imperial Army -> Lục quân Đế quốc (p000211)
+      - Technical Arsenal -> Xưởng Vũ khí Kỹ thuật (p000211, p000221)
+      - Aerial Technical Arsenal -> Xưởng Vũ khí Kỹ thuật Hàng không (p000211, p000226)
+      - Chief Engineer Adelheid von Schugel -> Kỹ sư trưởng Adelheid von Schugel (p000213, p000218, p000224)
+      - additional acceleration apparatus(es) -> khí cụ gia tốc bổ sung (p000214, p000218, p000225, p000227, p000229, p000231, p000236)
+      - hydrazine fuel boosters / boosters -> tầng đẩy nhiên liệu hydrazine / tầng đẩy (p000229, p000230, p000233, p000236)
+      - boron additive / potassium cyanide -> phụ gia boron / kali xyanua (p000231)
+      - shock waves / wave drag / aeroelasticity -> sóng xung kích / lực cản sóng / khí đàn hồi (p000232)
+      - protective film / defensive shell -> màn chắn bảo hộ / lớp vỏ phòng thủ (p000232)
+  segment_locks:
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000208
+      locks:
+        - Giữ “Ác quỷ sông Rhine”, đại từ sở hữu “của nó” (DEC-P01-001) và tỷ lệ thiệt hại “mất ít nhất một nửa quân số”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000209
+      locks:
+        - Giữ chủ thể “Các sĩ quan chỉ huy và tham mưu”, thuật ngữ “trinh sát chiến đấu” và quan hệ nhượng bộ “bất chấp tiền đề đó, vẫn có nhu cầu quân sự cấp bách”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000210
+      locks:
+        - Giữ “tiểu đoàn tăng cường”, “trinh sát chiến đấu” và thế lưỡng nan hai vế (quá nhiều thương vong vs. ít binh sĩ hơn thì không đạt được mục tiêu).
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000211
+      locks:
+        - Giữ “Lục quân Đế quốc”, “Xưởng Vũ khí Kỹ thuật”, “Xưởng Vũ khí Kỹ thuật Hàng không”, đề xuất thiết bị trinh sát tầm cao bay ngoài tầm hỏa lực phòng không, và nhận định các đơn vị không quân có đội trinh sát đặc biệt vốn vượt trội ngay từ đầu.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000212
+      locks:
+        - Giữ câu hỏi hoài nghi về tính khả thi với trình độ công nghệ hiện tại và sự đối lập giữa lời nói nâng độ cao dễ dàng với rào cản kỹ thuật thực tế của máy bay tầm cao.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000213
+      locks:
+        - Giữ chức danh và tên “Kỹ sư trưởng Adelheid von Schugel” cùng cụm “phương pháp luận và hướng tiếp cận dưới góc nhìn ma pháp”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000214
+      locks:
+        - Giữ nguyên câu thoại trong ngoặc kép có dấu ba chấm mở đầu, câu hỏi đề xuất “khí cụ đặc biệt để gia tốc bổ sung trong khi trinh sát chiến đấu”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000215
+      locks:
+        - Giữ nguyên định dạng in nghiêng `*...*` bao quanh toàn câu hỏi ngắn (DEC-P01-002).
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000216
+      locks:
+        - Giữ sắc thái rào đón “xét theo một nghĩa nào đó, lại rất đơn giản” cho câu trả lời trước thắc mắc của mọi người.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000217
+      locks:
+        - Giữ “Trinh sát chiến đấu”, yêu cầu “xuyên thủng các tuyến đánh chặn của địch”, giả định đột kích đánh nhanh rút gọn và kết luận cần đơn vị tốc độ cao, vũ trang hạng nặng.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000218
+      locks:
+        - Giữ mục tiêu gia tốc vượt qua vị trí địch trước khi bị đánh chặn, tên “Schugel” và cụm “đặt các pháp sư vào những khí cụ gia tốc bổ sung”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000219
+      locks:
+        - Giữ mục đích “đo lường hệ thống phòng thủ và năng lực đánh chặn của địch” và thuật ngữ “nhiệm vụ trinh sát chiến đấu”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000220
+      locks:
+        - Giữ mức độ “ở một mức độ nhất định”, thuật ngữ “trinh sát chiến đấu” và quan hệ nhân quả giải thích vì sao bộ binh hoặc pháp sư được dùng thường xuyên hơn máy bay.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000221
+      locks:
+        - Giữ nguyên nhân “thương vong đã vượt quá giới hạn cho phép”, cơ quan “Xưởng Vũ khí Kỹ thuật” và câu chốt dẫn sang đoạn sau.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000222
+      locks:
+        - Giữ câu thoại trong ngoặc kép truyền đạt kết luận cho các pháp sư xung phong ở tốc độ cao.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000223
+      locks:
+        - Giữ thán từ mở đầu, logic tăng tỷ lệ đột phá thành công của pháp sư ở tốc độ cao, và phủ định ở câu cuối (không có pháp sư nào hoạt động nổi ở tốc độ và độ cao như vậy).
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000224
+      locks:
+        - Giữ danh xưng “một thiên tài, Adelheid von Schugel” và hai hành động (đưa ra giải pháp + trăn trở cách hiện thực hóa).
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000225
+      locks:
+        - Giữ đại từ “ông ta”, cấu trúc câu hỏi–đáp ngắn và giải pháp “Bổ sung tốc độ và độ cao bằng một khí cụ gắn ngoài”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000226
+      locks:
+        - Giữ “Xưởng Vũ khí Kỹ thuật Hàng không”, đại từ “ông ta”, và sự phân biệt cốt lõi: độ cao chỉ là sản phẩm phụ, trọng tâm thực chất chỉ đặt vào tốc độ.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000227
+      locks:
+        - Giữ thuật ngữ trong ngoặc kép “khí cụ gia tốc bổ sung”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000228
+      locks:
+        - Giữ đại từ “ông ta” và ý chuyển mạch từ chuyện thiên tài sang xem xét trực tiếp kế hoạch.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000229
+      locks:
+        - Giữ “tầng đẩy nhiên liệu hydrazine cỡ cực lớn”, “tầng đẩy dùng một lần”, đại từ “ông ta”, cơ chế tách rời cùng thùng nhiên liệu gắn ngoài khi cạn và hệ quả tăng tốc cao hơn vào gần cuối hành trình.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000230
+      locks:
+        - Giữ đại từ “ông ta”, việc từ bỏ điều tiết các tầng đẩy, quyết định để khí cụ tiếp tục gia tốc trên đường thẳng, và phủ định tuyệt đối “pháp sư sẽ hoàn toàn không thể điều chỉnh tốc độ” khi đang vận hành.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000231
+      locks:
+        - Giữ “bình phụ gia boron”, tỷ lệ “độc gấp mười lần kali xyanua” và công dụng “cơ động tránh né khẩn cấp” trên bầu trời quân địch.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000232
+      locks:
+        - Giữ đầy đủ 5 thuật ngữ kỹ thuật/ma pháp: “sóng xung kích”, “lực cản sóng”, “khí đàn hồi”, “màn chắn bảo hộ” và “lớp vỏ phòng thủ” của pháp sư.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000233
+      locks:
+        - Giữ dấu ngoặc đơn bao quanh toàn đoạn, điều kiện “chỉ khả thi khi tiêu thụ các tầng đẩy một cách không kiềm chế” và phủ định “máy bay chắc chắn sẽ không thể làm được”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000234
+      locks:
+        - Giữ thông số “tốc độ mục tiêu siêu thanh khó tin là Mach 1.5” và hệ quả bỏ xa mọi thứ phía sau.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000235
+      locks:
+        - Giữ so sánh dễ hiện thực hóa hơn mẫu máy bay trinh sát mới dưới góc độ kỹ thuật thuần túy và kỳ vọng sớm sẵn sàng cho thực chiến.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000236
+      locks:
+        - Giữ “tầng đẩy” dùng một lần, “khí cụ gia tốc bổ sung” và giới hạn “chỉ có thể bay theo đường thẳng”.
+    - segment_id: YS-LN02/Text/part0032.xhtml/p000237
+      locks:
+        - Giữ yêu cầu pháp sư phải tự lực quay về căn cứ sau khi đột phá, ẩn dụ “tấm vé một chiều xuống địa ngục” và câu kết phủ định ý nghĩa của trinh sát nếu đi quan sát mà không thể quay về.

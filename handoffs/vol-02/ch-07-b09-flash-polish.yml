@@ -1,0 +1,34 @@
+task_id: vol-02-ch-07-b09-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b09
+baseline: translations/vol-02/ch-07-b09.jsonl
+baseline_sha256: 0d6d31d13838fcf7f037b92137520d12b7c6490d87fab35774a06e7566a48d82
+source_package: work/vol-02/batches/ch-07-b09-source.jsonl
+source_package_sha256: a3e10c81115a39042b253e1196ead4c7f93c9397be3fb7ad6d457641cd7174b8
+argon_review: reviews/prose/vol-02/ch-07-b09-argon-review.yml
+argon_review_sha256: e52ea70ddf1339e5fc75daf3b31421260c88b36ca6baab5ece5ab1fd6da9e3ac
+locked_choices: handoffs/vol-02/ch-07-b09-locked-choices.yml
+locked_choices_sha256: b506bca61014359adf17485eb9c9626b88420de50cfd313bf61738ca3f926e0a
+allowlist: &id001
+- polish-candidates/vol-02/ch-07-b09.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b09.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml
+  and only assigned B09 baseline/source package/Argon review/locked choices/canon
+  named in primary handoff.
+- Polish prose only; preserve locked choices, meaning, negation, subjects, modality,
+  time, viewpoint, emphasis, IDs/order and metadata.
+- Write only polish-candidates/vol-02/ch-07-b09.gemini.jsonl and polish-candidates/vol-02/ch-07-b09.gemini-change-log.yml
+  under polish-candidates/. Candidate changes translation only; log all 30 IDs in
+  order with allowed types (syntax/rhythm/diction/punctuation) and explicit boolean
+  escalate. No other files, source quotations, canonical translations, or commit.
+status: done
+lease:
+  holder: gemini-flash-polisher-b09
+  pane_id: w6:pPA
+  terminal_id: term_65dccf093341e2ce
+  agent_session_id: 08cc027f-a368-4076-8caf-38859458f962
+  checkpoint_generation: 1456
+  state: released
+  allowlist: *id001
