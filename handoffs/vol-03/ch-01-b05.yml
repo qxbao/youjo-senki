@@ -1,0 +1,45 @@
+task_id: vol-03-ch-01-b05
+volume: vol-03
+chapter: 1
+segment_id_start: YS-LN03/Text/chapter001_002.xhtml/p000093
+segment_id_end: YS-LN03/Text/chapter001_002.xhtml/p000116
+unit_count: 24
+source_word_count: 859
+word_count_method:
+  type: regex_matches_per_unit
+  pattern: '[A-Za-z0-9]+(?:[''’\-][A-Za-z0-9]+)*'
+  includes_numbers: true
+  includes_date_location_units: true
+source_sha256: 74f557a5f02ccc0308519579028d46fc0a89698a81e15219feb3add22ffc96a4
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+source_manifest: segments/vol-03/manifest.yml
+source_package: work/vol-03/batches/ch-01-b05-source.jsonl
+source_package_sha256: 35ff398c0ee54d8ef2916e2f9e47a49d4a039a833459cbc280bd3a76ccd5b0df
+translation_editor: codex-coordinator
+status: ready
+checkpoints:
+  meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
+    giả định.
+  pronouns: Theo DEC-P01-001; phân biệt trần thuật và nội tâm, không suy diễn quan
+    hệ khi thiếu ngữ cảnh.
+  emphasis: Theo DEC-P01-002; dùng *...* trong translation chỉ khi nguồn có nhấn mạnh
+    tương ứng.
+  pending_terms: Tra canon/glossary-pending.yml; ghi nghi vấn theo mã đoạn, không
+    tự chốt thuật ngữ.
+planning:
+  min_source_words: 600
+  max_source_words: 900
+  boundary_after: unit_boundary
+  next_segment_id: YS-LN03/Text/chapter001_002.xhtml/p000117
