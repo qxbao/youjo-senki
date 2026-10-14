@@ -1,5 +1,21 @@
 schema_version: 1
 project: youjo-senki-vi
+stages:
+  - translator_luna
+  - terminology_review_argon
+  - prose_polish_gemini
+  - semantic_regression_luna
+gemini:
+  enabled: true
+  writes_only: translations/
+  preserve_locked_choices: true
+  candidate_pattern: translations/vol-*/ch-*-b*.gemini.jsonl
+acceptance:
+  reject_on:
+    - critical
+    - locked_choice_violation
+  coordinator_only: true
+  require_semantic_receipt: true
 paths:
   local_config: project.local.yml
   manifests: segments/vol-*/manifest.yml
@@ -15,14 +31,14 @@ scope:
   include: [story]
   exclude: [copyright, newsletter, cover, toc, image_page, image_appendix]
   missing_manifest: preparation_required
-  completion: [committed, validator_pass, required_reviews_resolved, no_open_serious_or_moderate]
+  completion: [committed, validator_pass, required_reviews_resolved, no_open_serious_or_moderate, semantic_regression_pass, polished_promoted]
 batch:
   min_source_words: 600
   max_source_words: 900
   preserve_segment: true
   sequential_workers: true
 review:
-  even_batches: true
+  every_batch: true
   risk_flags: [meaning, new_pending_terms, emphasis, validator_warning]
   reviewer_writes: [reviews/prose/]
 pending_terms:
@@ -59,15 +75,32 @@ runtime:
     sandbox: danger-full-access
     approval_policy: never
   reviewer:
+    launcher_alias: agy
+    via: agy
+    source_rc: /home/$USER/.zshrc
+    model: gemini-4-argon-medium
+    effort: medium
+    mode: auto
+    approval_policy: never
+  gemini:
+    launcher_alias: agy
+    via: agy
+    source_rc: /home/$USER/.zshrc
+    model: gemini-3.8-flash-medium
+    effort: medium
+    mode: auto
+    approval_policy: never
+  semantic_regression:
     launcher_alias: codex-personal
     via: ai-isolator
     source_rc: /home/$USER/.zshrc
-    model: gpt-6.1-sol
+    model: gpt-6-luna
     effort: medium
     sandbox: danger-full-access
     approval_policy: never
 tools:
   validator: tools/validate_translation.py
+  polished_promotion: tools/promote_polished_translation.py
   extraction: tools/extract_epub.py
   batch_planner: tools/plan_batches.py
   # Chung cho các EPUB LN 01-14; chương được lấy từ TOC/NCX và bộ lọc spine.

@@ -1,0 +1,33 @@
+task_id: pipeline-argon-flash-luna
+role: coordinator
+scope: configuration_and_personas_only
+status: validated
+requested_runtime:
+  reviewer: gemini-4-argon-medium
+  prose_polisher: gemini-3.8-flash-medium
+  semantic_regression: gpt-6-luna
+stages:
+  - translator_luna
+  - terminology_review_argon
+  - prose_polish_gemini
+  - semantic_regression_luna
+promotion:
+  editor: coordinator_only
+  candidate_suffix: .gemini.jsonl
+  receipt_required: true
+  reject_on: [critical, locked_choice_violation]
+translation_edit_lease: none
+translation_scope: []
+validation:
+  bash_syntax: pass
+  mocked_lifecycle_suite: pass
+  promotion_synthetic_tests: 21_passed
+  existing_translation_validator_tests: pass
+  git_diff_check: pass
+  live_pipeline_started: false
+locked_choices_policy: batch_snapshot_only_not_canon
+notes:
+  - Runtime reviewer và polisher theo lựa chọn người dùng; medium giữ mức hiện hành.
+  - Không chạy dịch, polish, dispatch worker hoặc tạo queue cho batch lịch sử trong task cấu hình này.
+  - Không ghi đè batch/handoff/review đang có thay đổi trong checkout.
+  - Coordinator hiện hữu phải đọc lại config/persona tại ranh giới task an toàn trước khi dùng luồng mới.

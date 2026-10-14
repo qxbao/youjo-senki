@@ -111,3 +111,70 @@ nguồn và phiên bản glossary theo handoff, trường/văn bản nguồn b�
 pháp nhấn mạnh Markdown và quy tắc Git bỏ qua gói nguồn. Thiếu nhấn mạnh trong
 bản dịch khi nguồn có nhấn mạnh được báo cảnh báo. Có thể chạy kiểm tra tối thiểu
 chỉ dùng dữ liệu giả bằng `uv run python tools/test_validate_translation.py`.
+
+## Nâng bản đã chuốt bằng Gemini
+
+`promote_polished_translation.py` chỉ nâng nguyên ứng viên `.gemini.jsonl`
+sau khi Luna chấp nhận; không tự sửa văn bản. Chạy từ gốc kho:
+
+```sh
+uv run python tools/promote_polished_translation.py \
+  --handoff handoffs/vol-02/ch-01-b01.yml \
+  --source work/vol-02/batches/ch-01-b01-source.jsonl \
+  --baseline translations/vol-02/ch-01-b01.jsonl \
+  --candidate translations/vol-02/ch-01-b01.gemini.jsonl \
+  --locked-choices handoffs/vol-02/ch-01-b01-locked-choices.yml \
+  --change-log translations/vol-02/ch-01-b01.gemini-change-log.yml \
+  --receipt reviews/semantic/vol-02/ch-01-b01-gemini-regression.yml
+```
+
+Mặc định chỉ đọc, trả `result: ready` nếu đạt. Chỉ coordinator thêm
+`--apply --coordinator <identity>` sau khi được bàn giao quyền sửa bản chuẩn;
+công cụ thay atomically bằng đúng bytes của ứng viên, giữ nguyên ứng viên và
+in receipt promotion JSON để coordinator ghi checkpoint/handoff.
+
+Handoff batch và checkpoint `work/run-state/translation-coordinator.yml`
+(có thể chỉ định bằng `--checkpoint`) đều phải ghi lease:
+
+```yaml
+lease:
+  holder: ys-coord-example # trùng --coordinator
+  task_id: vol-02-ch-01-b01 # task_id handoff batch, không phải task review
+  state: active
+  allowlist:
+    - translations/vol-02/ch-01-b01.jsonl
+```
+
+Checkpoint còn phải có `coordinator` và `active_translation_editor` trùng
+holder, `active_worker: null`. Lease tuân theo một người sửa translations;
+coordinator nhả lease và ghi promotion receipt sau khi nâng. Kiểm tra này là
+hợp đồng quyền sửa trong filesystem của pipeline.
+
+Baseline phải `reviewed`/`approved`; ứng viên chỉ khác `translation`, giữ mọi
+metadata và mã/thứ tự đoạn. Snapshot locked choices trong handoffs ghi
+`task_id`, `baseline_sha256`, `source_sha256`, `glossary_version` và
+`choices: [{segment_id, kind, value}]`, khớp baseline/handoff. Có thể khai báo
+`choices: []` nếu không có lựa chọn cần khóa. Log dưới translations gồm
+`task_id`, `change_log` đầy đủ theo thứ tự đoạn; mỗi entry chỉ có `segment_id`,
+`types: [syntax|rhythm|diction|punctuation]` và boolean `escalate`. Escalate
+giữ baseline nguyên văn với `types: []`; không cần chặn pending thường.
+
+Receipt Luna theo `agents/semantic-regression-checker.md`: `schema_version: 1`,
+task_id, `reviewer_model: gpt-6-luna`, `decision: accept`, checked_segment_ids
+đầy đủ, findings và các SHA-256 raw bytes của baseline/candidate/snapshot/log/
+source package. Receipt không có `critical` hoặc `locked_choice_violation`;
+`style_only` được ghi nhưng không chặn. `source_sha256` của handoff là SHA
+EPUB; `source_package_sha256` là SHA raw bytes JSONL, không được lẫn hai loại.
+
+Công cụ kiểm validator, receipt, hash, scope và lease trước atomic replace;
+đọc lại tất cả đầu vào ngay trước khi thay. Input đổi thì phải review lại,
+không dùng receipt cũ. Gói nguồn chỉ được đọc dưới work đã Git bỏ qua và chưa
+được theo dõi. Công cụ không tự chứng minh nghĩa hoặc xác thực provider:
+Luna chịu trách nhiệm xét nghĩa; coordinator chịu trách nhiệm tạo receipt
+đúng worker và giữ quyền sửa.
+
+Kiểm thử dùng dữ liệu giả, không đọc hoặc nâng batch thật:
+
+```sh
+uv run python tools/test_promote_polished_translation.py
+```

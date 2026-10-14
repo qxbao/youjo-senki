@@ -4,7 +4,15 @@ set -euo pipefail
 # Only mocks control Herdr; fixtures contain no book text or real credentials.
 ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)
 TMP=$(mktemp -d)
-cleanup() { rm -r -- "$TMP"; }
+cleanup() {
+  local status=$? file
+  if (( status != 0 )); then
+    for file in out doctor-out legacy-doctor-out up-out down-out lifecycle-up lifecycle-status lifecycle-down; do
+      [[ ! -f "$TMP/$file" ]] || { printf 'Test diagnostic (%s):\n' "$file" >&2; tail -n 12 "$TMP/$file" >&2; }
+    done
+  fi
+  rm -r -- "$TMP"
+}
 trap cleanup EXIT
 FIXTURE="$TMP/project"
 MOCKBIN="$TMP/bin"
@@ -30,6 +38,9 @@ case "$*" in
   --skill) printf 'mock skill\n' ;;
   'pane get w-test:p-owned')
     jq -n --arg root "$TRANSLATE_TEST_ROOT" '{result:{pane:{pane_id:"w-test:p-owned",workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:"terminal-owned",cwd:$root,foreground_cwd:$root,agent:"codex",agent_status:"idle",agent_session:{value:"session-owned"}}}}' ;;
+  'pane get w-test:p-polisher'|'pane get w-test:p-semantic')
+    pane=$3; tag=${pane##*:p-}
+    jq -n --arg root "$TRANSLATE_TEST_ROOT" --arg pane "$pane" --arg tag "$tag" '{result:{pane:{pane_id:$pane,workspace_id:"w-test",tab_id:"w-test:t1",terminal_id:("terminal-"+$tag),cwd:$root,foreground_cwd:$root,agent:(if $tag=="polisher" then "agy" else "codex" end),agent_status:"idle",agent_session:{value:("session-"+$tag)}}}}' ;;
   'agent get w-test:p-owned')
     [[ ${TRANSLATE_TEST_ALLOW_SHUTDOWN:-} == 1 || ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97
     printf '{"result":{"agent":{"agent_status":"idle","agent_session":{"value":"session-owned"}}}}\n' ;;
@@ -51,7 +62,7 @@ case "$*" in
     printf '{"result":{"pane":{"pane_id":"w-test:p-owned","terminal_id":"terminal-owned"}}}\n' ;;
   'pane run w-test:p-owned '*)
     [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 && $4 == *'source "/home/$USER/.zshrc" || exit 1;'* && $4 == *codex-personal* && $4 == *'gpt-6-luna'* && $4 == *'model_reasoning_effort=medium'* && $4 == *'--ask-for-approval never'* ]] || exit 97 ;;
-  'agent rename w-test:p-owned '*|'pane close w-test:p-owned')
+  'agent rename w-test:p-owned '*|'pane close w-test:p-owned'|'pane close w-test:p-polisher'|'pane close w-test:p-semantic')
     [[ ${TRANSLATE_TEST_LIFECYCLE:-} == 1 ]] || exit 97 ;;
   *) printf 'Forbidden/unexpected mock Herdr call: %s\n' "$*" >&2; exit 97 ;;
 esac
@@ -60,7 +71,13 @@ cat >"$MOCKBIN/zsh" <<'SH'
 #!/usr/bin/env bash
 printf 'zsh %s\n' "$*" >>"$TRANSLATE_TEST_CALLS"
 [[ $1 == -ic && ( $2 == *'source "/home/$USER/.zshrc" || exit 1;'* || $2 == *'source "$HOME/.zshrc" || exit 1;'* ) ]] || exit 97
-exit 0
+case "$2" in
+  *' agy --help') printf '%s\n' "${TRANSLATE_TEST_AGY_FLAGS:---model --effort --mode --dangerously-skip-permissions}" ;;
+  *' agy models') printf '%s\n' "${TRANSLATE_TEST_AGY_MODELS:-gemini-4-argon-medium Argon 4
+gemini-3.8-flash-medium Flash 3.8}" ;;
+  *' a=$(alias codex-personal '* ) exit 0 ;;
+  *) printf 'Forbidden/unexpected mock zsh call\n' >&2; exit 97 ;;
+esac
 SH
 cat >"$MOCKBIN/orca" <<'SH'
 #!/usr/bin/env bash
@@ -92,7 +109,7 @@ reject down --dry-run
 rg -q 'Missing safe session file' "$TMP/out"
 [[ ! -s "$TRANSLATE_TEST_CALLS" ]] || { printf 'FAIL: missing session down called Herdr\n'; exit 1; }
 
-# The current Codex reviewer config must pass without a runtime.claude section.
+# Doctor only probes Codex aliases and agy help/models, never sends model prompts.
 bash "$SCRIPT" doctor >"$TMP/doctor-out" 2>&1
 rg -q '^OK:' "$TMP/doctor-out"
 rg -q 'source "/home/\$USER/\.zshrc"' "$TRANSLATE_TEST_CALLS"
@@ -108,7 +125,7 @@ c['runtime'][sys.argv[2]][sys.argv[3]] = sys.argv[4]
 p.write_text(yaml.safe_dump(c, sort_keys=False))
 PY
 }
-for role in codex reviewer; do
+for role in codex reviewer gemini semantic_regression; do
   update_runtime "$role" model unsupported-model
   reject doctor
   rg -q "runtime.$role.model must be" "$TMP/out"
@@ -122,9 +139,70 @@ for role in codex reviewer; do
   rg -q "runtime.$role.source_rc must be" "$TMP/out"
   cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
 done
+update_config() {
+  "$CONFIG_PYTHON" - "$FIXTURE/config/translation-pipeline.yml" "$1" "$2" <<'PY'
+import pathlib, sys, yaml
+p = pathlib.Path(sys.argv[1])
+c = yaml.safe_load(p.read_text())
+keys = sys.argv[2].split('.')
+target = c
+for key in keys[:-1]: target = target[key]
+target[keys[-1]] = yaml.safe_load(sys.argv[3])
+p.write_text(yaml.safe_dump(c, sort_keys=False))
+PY
+}
+for setting in review.every_batch gemini.enabled gemini.preserve_locked_choices acceptance.coordinator_only acceptance.require_semantic_receipt; do
+  update_config "$setting" false
+  reject doctor
+  rg -q '^Config error:' "$TMP/out"
+  cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+done
+for setting in gemini.writes_only gemini.candidate_pattern; do
+  update_config "$setting" translations/vol-01/ch-01-b01.jsonl
+  reject doctor
+  rg -q '^Config error:' "$TMP/out"
+  cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+done
+update_config stages '[translator_luna, prose_polish_gemini, terminology_review_argon, semantic_regression_luna]'
+reject doctor
+rg -q 'stages must preserve' "$TMP/out"
+cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+update_config acceptance.reject_on '[critical]'
+reject doctor
+rg -q 'acceptance must reject' "$TMP/out"
+cp "$TMP/original-config.yml" "$FIXTURE/config/translation-pipeline.yml"
+
+# Available-model and CLI capabilities are required, without model invocation.
+export TRANSLATE_TEST_AGY_MODELS='gemini-4-argon-medium Argon 4'
+reject doctor
+rg -q 'runtime.gemini model gemini-3.8-flash-medium unavailable' "$TMP/out"
+export TRANSLATE_TEST_AGY_MODELS='gemini-4-argon-medium-extra Argon 4
+gemini-3.8-flash-medium Flash 3.8'
+reject doctor
+rg -q 'runtime.reviewer model gemini-4-argon-medium unavailable' "$TMP/out"
+unset TRANSLATE_TEST_AGY_MODELS
+export TRANSLATE_TEST_AGY_FLAGS='--model --effort --mode'
+reject doctor
+rg -q 'agy lacks --dangerously-skip-permissions' "$TMP/out"
+unset TRANSLATE_TEST_AGY_FLAGS
+# A missing persona or promotion tool cannot silently remove the acceptance gate.
+mv "$FIXTURE/agents/gemini-polisher.md" "$TMP/gemini-polisher.md"
+reject doctor
+rg -q 'missing agents/gemini-polisher.md' "$TMP/out"
+mv "$TMP/gemini-polisher.md" "$FIXTURE/agents/gemini-polisher.md"
+mv "$FIXTURE/agents/semantic-regression-checker.md" "$TMP/semantic-regression-checker.md"
+reject doctor
+rg -q 'missing agents/semantic-regression-checker.md' "$TMP/out"
+mv "$TMP/semantic-regression-checker.md" "$FIXTURE/agents/semantic-regression-checker.md"
+mv "$FIXTURE/tools/promote_polished_translation.py" "$TMP/promote_polished_translation.py"
+reject doctor
+rg -q 'missing/unsafe tools.polished_promotion' "$TMP/out"
+mv "$TMP/promote_polished_translation.py" "$FIXTURE/tools/promote_polished_translation.py"
 # Retain support for the original rc spelling, and actually use it in probes.
 update_runtime codex source_rc '~/.zshrc'
 update_runtime reviewer source_rc '~/.zshrc'
+update_runtime gemini source_rc '~/.zshrc'
+update_runtime semantic_regression source_rc '~/.zshrc'
 git -C "$FIXTURE" add config/translation-pipeline.yml
 git -C "$FIXTURE" -c user.name=Test -c user.email=test@example.invalid commit -qm legacy-rc
 bash "$SCRIPT" doctor >"$TMP/legacy-doctor-out" 2>&1
@@ -173,10 +251,24 @@ jq -e '.state=="running" and .prompt_delivery=="submitted" and .owned_panes[0].a
 CALLS_BEFORE=$(rg -c '^agent prompt' "$TRANSLATE_TEST_CALLS")
 bash "$SCRIPT" up >"$TMP/lifecycle-retain" 2>&1
 [[ $(rg -c '^agent prompt' "$TRANSLATE_TEST_CALLS") == "$CALLS_BEFORE" ]]
+# The new roles remain under the same ownership and shutdown protocol.
+jq '.owned_panes += [{role:"polisher",pane_id:"w-test:p-polisher",terminal_id:"terminal-polisher",agent_session_id:"session-polisher"},{role:"semantic_regression",pane_id:"w-test:p-semantic",terminal_id:"terminal-semantic",agent_session_id:"session-semantic"}]' "$FIXTURE/work/run-state/herdr-session.json" >"$TMP/worker-session"
+mv "$TMP/worker-session" "$FIXTURE/work/run-state/herdr-session.json"
+bash "$SCRIPT" status >"$TMP/lifecycle-status" 2>&1
+BEFORE=$(sha256sum "$FIXTURE/work/run-state/herdr-session.json")
+bash "$SCRIPT" down --dry-run >"$TMP/worker-down-dry" 2>&1
+[[ $(sha256sum "$FIXTURE/work/run-state/herdr-session.json") == "$BEFORE" ]]
+rg -q 'owned: polisher w-test:p-polisher' "$TMP/worker-down-dry"
+rg -q 'owned: semantic_regression w-test:p-semantic' "$TMP/worker-down-dry"
 bash "$SCRIPT" down >"$TMP/lifecycle-down" 2>&1
-jq -e '.state=="stopped" and .owned_panes[0].closed==true' "$FIXTURE/work/run-state/herdr-session.json" >/dev/null
+jq -e '.state=="stopped" and all(.owned_panes[]; .closed==true)' "$FIXTURE/work/run-state/herdr-session.json" >/dev/null
 rg -q '^pane close w-test:p-owned$' "$TRANSLATE_TEST_CALLS"
+"$CONFIG_PYTHON" - "$TRANSLATE_TEST_CALLS" <<'PY'
+import pathlib, sys
+closed = [line for line in pathlib.Path(sys.argv[1]).read_text().splitlines() if line.startswith('pane close ')]
+assert closed == ['pane close w-test:p-polisher', 'pane close w-test:p-semantic', 'pane close w-test:p-owned'], closed
+PY
 if rg -q '^pane close w-test:p-caller|forbidden-backend' "$TRANSLATE_TEST_CALLS"; then
   printf 'FAIL: foreign pane or forbidden backend used\n'; exit 1
 fi
-printf 'PASS: current/legacy Codex rc, role model/permissions/rc validation, invalid args, missing-session down, dry-run immutability, ownership mismatch, shutdown without ACK, mocked up/down lifecycle, no forbidden backend.\n'
+printf 'PASS: agy Argon/Flash and Luna runtime/rc validation, model/CLI probes, stage and promotion gates, missing artifacts, invalid args, dry-run immutability, ownership mismatch, shutdown without ACK, mocked lifecycle including new worker roles, no forbidden backend.\n'

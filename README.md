@@ -30,15 +30,20 @@ trong `tools/README.md`; công cụ dựng EPUB chưa được triển khai.
 
 ## Quy trình
 
-Luồng lô chính thức: **lập lô → dịch Codex medium → kiểm tra tự động → phản
-biện lấy mẫu Claude Sonnet → duyệt**. Chuẩn bị EPUB bằng adapter chung, ví dụ
+Luồng lô chính thức: **lập lô → Luna dịch → Argon review/khóa lựa chọn →
+Gemini 3.8 Flash chuốt văn → Luna kiểm hồi quy → coordinator nâng ứng viên**.
+Reviewer và polisher chạy qua `agy`, effort medium; xem
+`docs/translation-pipeline.md` và `config/translation-pipeline.yml`.
+Chuẩn bị EPUB bằng adapter chung, ví dụ
 `uv run python tools/extract_epub.py vol-02 --dry-run`, rồi lập lô một chương bằng
 `uv run python tools/plan_batches.py vol-02 chapter-01`; xem
 `tools/README.md` để chạy thử và kiểm tra. Bước lập lô chỉ tạo handoff metadata
-và gói nguồn cục bộ. Kiểm tra tự động bản dịch và phản biện lấy mẫu là các
+và gói nguồn cục bộ. Kiểm tra tự động bản dịch và review là các
 bước tiếp theo, không được thực hiện bởi công cụ lập lô. Đối chiếu nguồn
-chỉ tại chỗ; không gửi nguồn đến dịch vụ bên ngoài. Điều phối viên duyệt
-và nâng bản nháp thành bản chuẩn sau khi xử lý các vấn đề còn mở.
+chỉ tại chỗ; không sao chép hoặc tải lên EPUB/PDF gốc. Chỉ dùng source segment
+được giao trong pipeline đã được cho phép. Flash tạo `.gemini.jsonl`; chỉ
+coordinator nâng thành `.jsonl` sau receipt Luna hợp lệ, không có critical
+hoặc locked_choice_violation và đã xử lý các vấn đề còn mở.
 
 1. **Chuẩn bị:** cấu hình đường dẫn nguồn; đọc tại chỗ; lập danh mục mã đoạn ổn định và vị trí nguồn trong `segments/`, ghi ngữ cảnh trong `context/`. Ghi người giữ quyền sửa trong `handoffs/`.
 2. **Dịch:** tác tử được giao quyền sửa viết vào `translations/`, theo mã đoạn và quy chuẩn trong `canon/`; ghi các điểm chưa rõ để xem xét.
