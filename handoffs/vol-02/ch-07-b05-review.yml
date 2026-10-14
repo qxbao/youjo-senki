@@ -1,0 +1,28 @@
+task_id: vol-02-ch-07-b05-review
+role: reviewer
+batch: vol-02-ch-07-b05
+translation: translations/vol-02/ch-07-b05.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b05-self-check.md
+source_package: work/vol-02/batches/ch-07-b05-source.jsonl
+source_package_sha256: 6644770cd31ca1c5d2bfff29bb96bd181e047e2b4bed40044e6f5b17986b6b46
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter7_b05_translator_proposals
+review_flags:
+- new_pending_terms
+- military_terminology
+- viewpoint
+constraints:
+- Review only assigned b05 package, translation, self-check, primary handoff, named
+  canon and b05 ledger section. No EPUB/PDF/other package; no source quotations.
+- Independently check all 28 rows for meaning, viewpoint, tactical sequence and emphasis.
+  Assess seven pending terminology/name/callsign choices; recommend grounded provisional
+  alternatives, no canon promotion.
+- Write only reviews/prose/vol-02/ch-07-b05-codex.md.
+report_path: reviews/prose/vol-02/ch-07-b05-codex.md
+status: ready
+lease:
+  holder: reviewer
+  pane_id: w6:pMC
+  terminal_id: term_65dc43f951940290
+  agent_session_id: 01a13862-574f-7553-9d69-60b9e6b5b65f
+  checkpoint_generation: 1290

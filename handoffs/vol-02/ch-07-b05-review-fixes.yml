@@ -1,0 +1,65 @@
+task_id: vol-02-ch-07-b05-review-fixes
+role: translator
+batch: vol-02-ch-07-b05
+translation: translations/vol-02/ch-07-b05.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b05-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b05-codex.md
+source_package: work/vol-02/batches/ch-07-b05-source.jsonl
+source_package_sha256: 6644770cd31ca1c5d2bfff29bb96bd181e047e2b4bed40044e6f5b17986b6b46
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter7_b05_translator_proposals
+review_counts:
+  serious: 0
+  moderate: 3
+  minor: 3
+  unresolved: 6
+findings:
+- id: B05-C01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000104
+  resolution: 'Restore the capability/comparator focus: people believe that if any
+    unit can destroy the ammunition depot, it is 203rd. Remove duplicated vì; retain
+    the self-mocking question and Dacia incident.'
+- id: B05-C02
+  severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000112
+  resolution: Replace artillery emplacements with neutral firing positions/fire positions;
+    preserve friendly-fire risk and home-territory context without specifying weapon
+    or shooter.
+- id: B05-C03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000126
+  resolution: Use ground forces instead of infantry and hold out instead of dig in/hold
+    a fixed position; retain delaying action and disorder without naming who causes
+    trampling.
+- id: B05-C04
+  severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000106
+  resolution: Restore superscript footnote marker ²⁵ beside Matsusheeta only; do not
+    open or reproduce footnote contents.
+- id: B05-C05
+  severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000110
+  resolution: Use natural wording for struggling to maintain a professional tone while
+    anger rises; preserve the superior’s casualness.
+- id: B05-C06
+  severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000130
+  resolution: Simplify the nested negatives while retaining that avoiding investment
+    solely from small-risk fear is foolish; preserve profit comparison.
+constraints:
+- Use only assigned b05 package, translation, self-check, review report/handoffs,
+  named canon and b05 ledger section; no EPUB/PDF or other package.
+- Write only translations/vol-02/ch-07-b05.jsonl and reviews/semantic/vol-02/ch-07-b05-self-check.md.
+  No handoff/ledger/canon/run-state edits or commit.
+- Run primary b05 validator and git diff --check.
+status: ready
+lease:
+  holder: translator
+  pane_id: w6:pMD
+  terminal_id: term_65dc44f4dc6ff291
+  agent_session_id: 01a13866-7bf2-7220-aa45-548c0aa0b102
+  checkpoint_generation: 1290
+allowlist:
+- translations/vol-02/ch-07-b05.jsonl
+- reviews/semantic/vol-02/ch-07-b05-self-check.md
