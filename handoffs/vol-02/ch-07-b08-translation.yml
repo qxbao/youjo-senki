@@ -1,0 +1,33 @@
+task_id: vol-02-ch-07-b08
+role: translator_luna
+batch: vol-02-ch-07-b08
+primary_handoff: handoffs/vol-02/ch-07-b08.yml
+source_package: work/vol-02/batches/ch-07-b08-source.jsonl
+source_package_sha256: 66781b3add642e56b08ae9731ada973bd6efce329d8118f7da16961ad91b535c
+lease:
+  holder: translator_luna
+  role: translator_luna
+  task_id: vol-02-ch-07-b08
+  pane_id: w6:pNQ
+  terminal_id: term_65dcb9d868f512bb
+  agent_session_id: 01a13a47-f105-7571-b482-bdcb80251843
+  state: released
+  allowlist:
+  - translations/vol-02/ch-07-b08.jsonl
+  - reviews/semantic/vol-02/ch-07-b08-self-check.md
+allowlist:
+- translations/vol-02/ch-07-b08.jsonl
+- reviews/semantic/vol-02/ch-07-b08-self-check.md
+constraints:
+- Read agents/shared.md, agents/translator.md, config/translation-pipeline.yml, handoffs/vol-02/ch-07-b08.yml, handoffs/vol-02/ch-07-b08-translation.yml, work/vol-02/batches/ch-07-b08-source.jsonl, named canon files, and relevant Chapter 7 sections of work/run-state/pending-terms.yml.
+- Translate only the 28 assigned stable IDs YS-LN02/Text/part0032.xhtml/p000180 through p000207 from work/vol-02/batches/ch-07-b08-source.jsonl.
+- Never open EPUB/PDF or any other source package; do not quote English source sentences in self-check or YAML report.
+- Apply DEC-P01-001 (pronouns/viewpoint) and DEC-P01-002 (markdown *...* emphasis only where XHTML has <html:em>; note p000195, p000196, p000199, p000200, p000203 have <html:em>) and apply provisional Chapter 7 terminology consistently while keeping uncertain choices pending/non-canon.
+- Write only translations/vol-02/ch-07-b08.jsonl and reviews/semantic/vol-02/ch-07-b08-self-check.md. Do not edit handoffs, ledger, canon, run-state, or commit.
+- Run python3 tools/validate_translation.py --handoff handoffs/vol-02/ch-07-b08.yml --source work/vol-02/batches/ch-07-b08-source.jsonl --translation translations/vol-02/ch-07-b08.jsonl and git diff --check before returning YAML report.
+runtime: codex-personal --model gpt-6-luna --config model_reasoning_effort=medium --sandbox danger-full-access --ask-for-approval never
+preflight:
+  status_command: /status sent once in Codex session; model gpt-6-luna and effort medium verified
+translation_sha256: c5a99d655220c019bba5f7e04212a3970cfd075195bf92c03a72be794440575c
+self_check_sha256: a689be76e8566dbca3791066871c393bf64b4538614c64327e40bcebaf7c7352
+state: done

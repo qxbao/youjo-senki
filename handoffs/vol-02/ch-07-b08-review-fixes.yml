@@ -1,0 +1,54 @@
+task_id: vol-02-ch-07-b08-review-fixes
+role: translator
+batch: vol-02-ch-07-b08
+translation: translations/vol-02/ch-07-b08.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b08-self-check.md
+source_package: work/vol-02/batches/ch-07-b08-source.jsonl
+source_package_sha256: 66781b3add642e56b08ae9731ada973bd6efce329d8118f7da16961ad91b535c
+argon_report: reviews/prose/vol-02/ch-07-b08-argon-review.yml
+argon_report_sha256: 059e994e3b73c4d1a468fc63dc96c572793161391d5779eef6b7f2265baf9706
+baseline_sha256: c5a99d655220c019bba5f7e04212a3970cfd075195bf92c03a72be794440575c
+primary_handoff: handoffs/vol-02/ch-07-b08.yml
+constraints:
+- Read only assigned B08 package, translation/self-check, Argon report, named canon
+  and B08 ledger sections. No EPUB/PDF or other batch.
+- 'Resolve every actionable Argon finding in reviews/prose/vol-02/ch-07-b08-argon-review.yml
+  (3 moderate: p000181, p000192 + p000180/p000182 formula consistency, p000207; and
+  4 minor: p000183, p000190, p000204, p000205) at its assigned segment only. Preserve
+  all other translation strings. Keep provisional term choices consistent and non-canon.
+  Once findings are closed, set all 28 rows status reviewed; do not use approved.'
+- Write only translations/vol-02/ch-07-b08.jsonl and reviews/semantic/vol-02/ch-07-b08-self-check.md.
+  Run assigned validator and git diff --check. No handoff/ledger/canon/checkpoint
+  edits or commit.
+status: done_waiting_argon_final_signoff
+lease:
+  holder: none
+  pane_id: w6:pNW
+  terminal_id: term_65dcc0d1c521e2c0
+  agent_session_id: 01a13a62-045a-71f3-8d08-d7741746ab35
+  checkpoint_generation: 1433
+  state: released_report_received
+  allowlist: []
+allowlist:
+- translations/vol-02/ch-07-b08.jsonl
+- reviews/semantic/vol-02/ch-07-b08-self-check.md
+translator_report:
+  state: done
+  translation_sha256: 064395308e02e0d3e42ab7ebdc39072e9b0f3608c679850fa0844e62d54bedc8
+  self_check_sha256: 1fff023a5ac35d68ea1d39f076c5ba31d1d47fd623fd53839d7b0ea3b556b734
+  changed_segments:
+  - YS-LN02/Text/part0032.xhtml/p000180
+  - YS-LN02/Text/part0032.xhtml/p000181
+  - YS-LN02/Text/part0032.xhtml/p000182
+  - YS-LN02/Text/part0032.xhtml/p000183
+  - YS-LN02/Text/part0032.xhtml/p000190
+  - YS-LN02/Text/part0032.xhtml/p000192
+  - YS-LN02/Text/part0032.xhtml/p000204
+  - YS-LN02/Text/part0032.xhtml/p000205
+  - YS-LN02/Text/part0032.xhtml/p000207
+  status_counts:
+    reviewed: 28
+  validator: pass
+  diff_check: pass
+  findings_resolved: 7
+  commit: null

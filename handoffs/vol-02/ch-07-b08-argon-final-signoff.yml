@@ -1,0 +1,43 @@
+task_id: vol-02-ch-07-b08-argon-final-signoff
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b08
+translation: translations/vol-02/ch-07-b08.jsonl
+baseline_sha256: 064395308e02e0d3e42ab7ebdc39072e9b0f3608c679850fa0844e62d54bedc8
+source_package: work/vol-02/batches/ch-07-b08-source.jsonl
+source_package_sha256: 66781b3add642e56b08ae9731ada973bd6efce329d8118f7da16961ad91b535c
+primary_handoff: handoffs/vol-02/ch-07-b08.yml
+previous_review: reviews/prose/vol-02/ch-07-b08-argon-review.yml
+previous_review_sha256: 059e994e3b73c4d1a468fc63dc96c572793161391d5779eef6b7f2265baf9706
+review_fixes_handoff: handoffs/vol-02/ch-07-b08-review-fixes.yml
+self_check: reviews/semantic/vol-02/ch-07-b08-self-check.md
+self_check_sha256: 1fff023a5ac35d68ea1d39f076c5ba31d1d47fd623fd53839d7b0ea3b556b734
+pending_ledger: work/run-state/pending-terms.yml
+constraints:
+- Review only assigned B08 package, current translation/self-check, prior B08 Argon
+  review and fix handoff, named canon and B08 ledger sections. No EPUB/PDF or another
+  package; do not reproduce source sentences.
+- Verify all 28 stable IDs and confirm whether all 3 moderate and 4 minor findings
+  from reviews/prose/vol-02/ch-07-b08-argon-review.yml are resolved with zero unresolved
+  serious/moderate findings, and confirm locked choices for Flash polish.
+- Write only reviews/prose/vol-02/ch-07-b08-argon-final-signoff.yml. No translation,
+  self-check, handoff, canon, ledger, checkpoint or commit.
+report_path: reviews/prose/vol-02/ch-07-b08-argon-final-signoff.yml
+status: done
+lease:
+  holder: none
+  pane_id: w6:pNZ
+  terminal_id: term_65dcc288a75d02c3
+  agent_session_id: b3fd52af-4d08-4310-91ec-f33a67dee22b
+  checkpoint_generation: 1440
+  state: released_report_received
+  allowlist: []
+allowlist:
+- reviews/prose/vol-02/ch-07-b08-argon-final-signoff.yml
+report_sha256: 9827c60dab772d212e7016aeccd25d8cdbc334aed3a6ec35564d455bafa95a62
+review_counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+  total: 0
+  resolved_from_previous_review: 7

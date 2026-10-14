@@ -1,0 +1,36 @@
+task_id: vol-02-ch-07-b08-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b08
+baseline: translations/vol-02/ch-07-b08.jsonl
+baseline_sha256: 064395308e02e0d3e42ab7ebdc39072e9b0f3608c679850fa0844e62d54bedc8
+source_package: work/vol-02/batches/ch-07-b08-source.jsonl
+source_package_sha256: 66781b3add642e56b08ae9731ada973bd6efce329d8118f7da16961ad91b535c
+argon_review: reviews/prose/vol-02/ch-07-b08-argon-final-signoff.yml
+argon_review_sha256: 9827c60dab772d212e7016aeccd25d8cdbc334aed3a6ec35564d455bafa95a62
+locked_choices: handoffs/vol-02/ch-07-b08-locked-choices.yml
+locked_choices_sha256: 1b114e13835b37693f2dae2ec9303842f63d7d9b918541d49b84dfbd071d1d00
+allowlist:
+- polish-candidates/vol-02/ch-07-b08.gemini.jsonl
+- polish-candidates/vol-02/ch-07-b08.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml
+  and only assigned B08 baseline/source package/Argon final signoff/locked choices/canon
+  named in primary handoff.
+- Polish prose only; preserve locked choices, meaning, negation, subjects, modality,
+  time, viewpoint, emphasis, IDs/order and metadata.
+- Write only polish-candidates/vol-02/ch-07-b08.gemini.jsonl and polish-candidates/vol-02/ch-07-b08.gemini-change-log.yml
+  under polish-candidates/. Candidate changes translation only; log all 28 IDs in
+  order with allowed types (syntax/rhythm/diction/punctuation) and explicit boolean
+  escalate. No other files, source quotations, canonical translations, or commit.
+status: done
+lease:
+  holder: none
+  pane_id: w6:pP1
+  terminal_id: term_65dcc3ef58bcd2c5
+  agent_session_id: 5009d289-fa6f-4336-b43b-bed1cc5c4e3d
+  checkpoint_generation: 1440
+  state: released_report_received
+  allowlist: []
+candidate_sha256: dc3ab24fb7cfb9cc9971bf2dde309be2db72a51742e85be9170e52480d9a1413
+change_log_sha256: 8392670a407d05b3a57741ee444391ceb8af40fd22d44bd7bf3b340b0579c70b
