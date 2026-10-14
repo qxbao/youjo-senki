@@ -1,0 +1,41 @@
+task_id: vol-02-ch-07-b04-final-correction
+role: translator
+batch: vol-02-ch-07-b04
+translation: translations/vol-02/ch-07-b04.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b04-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b04-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+pending_ledger_sections:
+- chapter7_b04_translator_proposals
+- chapter7_b04_review_recommendations
+lease:
+  holder: translator
+  pane_id: w6:pM8
+  terminal_id: term_65dc422aa52dd28c
+  agent_session_id: 01a1385a-f1b8-7b51-b4c3-cf868f1d1d73
+  checkpoint_generation: 1289
+findings:
+- id: B04-FS01
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000083
+  - YS-LN02/Text/part0032.xhtml/p000084
+  resolution: At p000083 make the evaluated person explicit without gendering. At
+    p000084 clarify the superior expects much from the recipient. Preserve direct
+    speaker tôi and interrogative tone; do not invent gender or cross-chapter address
+    rules.
+- id: B04-FS02
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000082
+  - YS-LN02/Text/part0032.xhtml/p000103
+  resolution: 'Update self-check pending/finding records to current reviewer choices:
+    đảm nhiệm việc đoạn hậu for the individual at p000082, ghi nhãn sai at p000103.
+    Mark older proposals as historical/alternatives; remove contradictory present-tense
+    claims.'
+constraints:
+- Use only assigned b04 package, translation, self-check, final report/handoffs, named
+  canon and b04 ledger sections; never open EPUB/PDF/other packages.
+- Write only translations/vol-02/ch-07-b04.jsonl and reviews/semantic/vol-02/ch-07-b04-self-check.md;
+  no handoff/ledger/canon/run-state edits or commit.
+- Run primary b04 validator and git diff --check.
+status: ready

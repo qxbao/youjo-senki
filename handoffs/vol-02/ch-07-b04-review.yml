@@ -1,0 +1,16 @@
+task_id: vol-02-ch-07-b04-review
+role: reviewer
+batch: vol-02-ch-07-b04
+translation: translations/vol-02/ch-07-b04.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b04-self-check.md
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter7_b04_translator_proposals
+review_flags: [new_pending_terms, military_ranks, magical_equipment, pronouns]
+constraints:
+- Review only assigned b04 package, translation, self-check, primary handoff, named canon and b04 ledger section. No EPUB/PDF or other source package; no source quotations.
+- Independently review all 28 rows for meaning, clarity, viewpoint, emphasis and pending terminology. Recommend temporary alternatives with rationale; no canon promotion.
+- Write only reviews/prose/vol-02/ch-07-b04-codex.md.
+report_path: reviews/prose/vol-02/ch-07-b04-codex.md
+status: ready

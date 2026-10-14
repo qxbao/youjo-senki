@@ -1,0 +1,79 @@
+task_id: vol-02-ch-07-b04-review-fixes
+role: translator
+batch: vol-02-ch-07-b04
+translation: translations/vol-02/ch-07-b04.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b04-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b04-codex.md
+source_package: work/vol-02/batches/ch-07-b04-source.jsonl
+source_package_sha256: bbe4ad2e636962ef2d554ae815a8bbbed9f026b02a5ab93c3d6c14bc38729d46
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter7_b04_translator_proposals
+- chapter7_b04_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 5
+  minor: 3
+  unresolved: 8
+findings:
+- id: B04-C01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000076
+  resolution: Remove the inference that concern is feigned; retain self-interest alongside
+    genuine concern for subordinates, with natural phrasing.
+- id: B04-C02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000081
+  - YS-LN02/Text/part0032.xhtml/p000082
+  - YS-LN02/Text/part0032.xhtml/p000088
+  resolution: Render General as tướng at p000081–p000082; retain thiếu tướng where
+    major generals is explicit at p000088. Do not infer other exact ranks.
+- id: B04-C03
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000082
+  resolution: Use a natural individual-task phrase such as đảm nhiệm việc đoạn hậu
+    here; do not call one person a team.
+- id: B04-C04
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000085
+  resolution: Clarify that he uses words to pressure others to keep quiet; preserve
+    meaning without legal/lore expansion.
+- id: B04-C05
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000092
+  resolution: Represent routing 01 calls 06 and 09, not a numeric range 01–06; clarify
+    the shield will not last long.
+- id: B04-C06
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000098
+  resolution: Use a vulgar insult with equivalent shape, preserve emphasis; do not
+    turn it into a death curse.
+- id: B04-C07
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000101
+  resolution: Render half as having ceased combat / being out of the fight; do not
+    imply death or its cause.
+- id: B04-C08
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000103
+  resolution: Restore the if/then counterfactual marker and use ghi nhãn sai for mislabeling;
+    keep the hypothetical result.
+additional_choices: Apply reviewer additional choices in chapter7_b04_review_recommendations
+  locally; keep pending/non-canon.
+self_check_update: Update all eight findings and five additional choices, preserve
+  non-canon status; verify ranks/dialogue/internal voice separately.
+constraints:
+- Use only assigned b04 package, translation, self-check, reports/handoffs, named
+  canon and b04 ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-07-b04.jsonl and reviews/semantic/vol-02/ch-07-b04-self-check.md.
+  No handoff/ledger/canon/run-state edits or commit.
+- Run primary b04 validator and git diff --check.
+status: ready
