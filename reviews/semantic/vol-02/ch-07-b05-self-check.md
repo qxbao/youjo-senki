@@ -13,6 +13,12 @@
 - B05-C04, p000106: khôi phục dấu mũ ²⁵ ngay cạnh Matsusheeta; không mở hoặc chép nội dung chú thích.
 - B05-C05, p000110: diễn đạt việc chật vật giữ giọng chuyên nghiệp khi cơn giận dâng lên; giữ lời bình về vẻ nhẹ tênh của cấp trên.
 - B05-C06, p000130: rút gọn cấu trúc phủ định; giữ ý không đầu tư chỉ vì sợ rủi ro nhỏ là dại dột và giữ “lợi nhuận”.
+- B05-R01, p000114: đổi “vô tư đáp” thành “chẳng cần suy nghĩ đã đáp”, giữ phủ định và lời đáp vô tuyến.
+- B05-R02, p000115: bổ sung sắc thái khẩn trương xuất kích từ mặt đất để cản trở nhiệm vụ; không suy ra phương tiện.
+- B05-R03, p000123: chuyển phủ định về việc trải qua huấn luyện không có lý do; giữ giọng tự khẳng định, Being X và nhấn mạnh *Homo sapiens*.
+- B05-R04, p000128: giữ “có lẽ”, làm rõ lực lượng đoạn hậu là bên có thể bị tiêu diệt và đổi sang điều kiện “Nếu kế hoạch này có vấn đề gì…”.
+
+Đã áp dụng các chỉnh sửa C01–C06 và R01–R04; các lựa chọn thuật ngữ/tên gọi vẫn là đề xuất tạm, không phải canon.
 
 ## Thuật ngữ/cách gọi còn đề xuất
 

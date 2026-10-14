@@ -1,0 +1,46 @@
+task_id: vol-02-ch-07-b05-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-07-b05
+baseline: translations/vol-02/ch-07-b05.jsonl
+baseline_sha256: 652e4e888b76fefb7328e22f31f88580cce8f4ed7b39278640aa25c147cb2d0e
+source_package: work/vol-02/batches/ch-07-b05-source.jsonl
+source_package_sha256: 6644770cd31ca1c5d2bfff29bb96bd181e047e2b4bed40044e6f5b17986b6b46
+argon_review: reviews/prose/vol-02/ch-07-b05-argon-review.yml
+argon_review_sha256: 0314eec1b4c5d5fe04f5c9ad00318eb9147e4d3645f22650c096d17ee2ef59f9
+locked_choices: handoffs/vol-02/ch-07-b05-locked-choices.yml
+locked_choices_sha256: 22a7bbe6607dae30ce6633df575c1ae8c415364cdfcdadf746cc0281d0d9fff8
+translator_signoff: handoffs/vol-02/ch-07-b05-translator-signoff.yml
+allowlist:
+- translations/vol-02/ch-07-b05.gemini.jsonl
+- translations/vol-02/ch-07-b05.gemini-change-log.yml
+constraints:
+- Read agents/shared.md, agents/gemini-polisher.md, config/translation-pipeline.yml,
+  this handoff, baseline, assigned source package only, Argon report, locked choices
+  and canon named by the primary handoff.
+- Polish Vietnamese rhythm/diction/syntax only; do not alter locked terminology, name,
+  rank, pronouns, viewpoint, negation, modality, logic, time, segment boundaries,
+  metadata, footnote markers, or emphasis scope.
+- 'Write ONLY translations/vol-02/ch-07-b05.gemini.jsonl and translations/vol-02/ch-07-b05.gemini-change-log.yml.
+  Preserve all baseline fields except translation in candidate. Change log must have
+  every segment ID in baseline order, types drawn only from syntax/rhythm/diction/punctuation,
+  escalate boolean; escalated entries have types: [] and unchanged baseline translation.
+  No source quotations.'
+- Do not write baseline .jsonl, reviews, handoffs, canon, ledger, checkpoint, or commit.
+  Return hashes and YAML report to coordinator.
+status: done
+lease:
+  holder: polisher
+  pane_id: w6:pMQ
+  terminal_id: term_65dc8e4a5611929b
+  agent_session_id: f2855cda-7dbd-4d44-bfae-8c97f2c2255f
+  checkpoint_generation: 1303
+  state: released_report_received
+report_path: worker report in chat only
+candidate_sha256: 71008f5348b781c37941670bbfb8c7b968200e93ef6a1d88ffdb29d3ab6b6355
+change_log_sha256: 4e74a4bb58cc298c2cde5f78bd6f6ea35914e5f595367eed6698a78965f89ab5
+report:
+  state: done
+  segment_ids_count: 28
+  escalations: []
+  risks: []

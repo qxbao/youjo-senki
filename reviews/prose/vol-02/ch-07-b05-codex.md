@@ -1,4 +1,4 @@
-# Review b05 — nghĩa và giọng văn
+# Review nghĩa và văn phong — vol-02 ch-07 b05
 
 ```yaml
 role: reviewer
@@ -6,247 +6,115 @@ task_id: vol-02-ch-07-b05-review
 batch: vol-02-ch-07-b05
 state: done
 review_path: reviews/prose/vol-02/ch-07-b05-codex.md
-files_written:
-  - reviews/prose/vol-02/ch-07-b05-codex.md
-segment_ids:
-  - YS-LN02/Text/part0032.xhtml/p000104
-  - YS-LN02/Text/part0032.xhtml/p000105
-  - YS-LN02/Text/part0032.xhtml/p000106
-  - YS-LN02/Text/part0032.xhtml/p000107
-  - YS-LN02/Text/part0032.xhtml/p000108
-  - YS-LN02/Text/part0032.xhtml/p000109
-  - YS-LN02/Text/part0032.xhtml/p000110
-  - YS-LN02/Text/part0032.xhtml/p000111
-  - YS-LN02/Text/part0032.xhtml/p000112
-  - YS-LN02/Text/part0032.xhtml/p000113
-  - YS-LN02/Text/part0032.xhtml/p000114
-  - YS-LN02/Text/part0032.xhtml/p000115
-  - YS-LN02/Text/part0032.xhtml/p000116
-  - YS-LN02/Text/part0032.xhtml/p000117
-  - YS-LN02/Text/part0032.xhtml/p000118
-  - YS-LN02/Text/part0032.xhtml/p000119
-  - YS-LN02/Text/part0032.xhtml/p000120
-  - YS-LN02/Text/part0032.xhtml/p000121
-  - YS-LN02/Text/part0032.xhtml/p000122
-  - YS-LN02/Text/part0032.xhtml/p000123
-  - YS-LN02/Text/part0032.xhtml/p000124
-  - YS-LN02/Text/part0032.xhtml/p000125
-  - YS-LN02/Text/part0032.xhtml/p000126
-  - YS-LN02/Text/part0032.xhtml/p000127
-  - YS-LN02/Text/part0032.xhtml/p000128
-  - YS-LN02/Text/part0032.xhtml/p000129
-  - YS-LN02/Text/part0032.xhtml/p000130
-  - YS-LN02/Text/part0032.xhtml/p000131
+files_written: [reviews/prose/vol-02/ch-07-b05-codex.md]
 counts:
-  source_rows: 28
-  translation_rows: 28
-  reviewed_rows: 28
+  rows_reviewed: 28
   serious: 0
-  moderate: 3
+  moderate: 1
   minor: 3
-  unresolved_findings: 6
-  pending_choices_assessed: 7
-input_checks:
-  package_sha256: 6644770cd31ca1c5d2bfff29bb96bd181e047e2b4bed40044e6f5b17986b6b46
-  package_hash_matches_handoff: true
-  segment_ids_match: true
-  row_source_hashes_match_primary_handoff: true
-  five_named_canon_hashes_match: true
-  ledger_section: chapter7_b05_translator_proposals
+  term_proposals_reviewed: 5
+  name_callsign_choices_reviewed: 2
+unresolved_findings: [B05-R01, B05-R02, B05-R03, B05-R04]
 validator: not_run
 diff_check: not_run
 commit: null
-findings:
-  - id: B05-C01
-    severity: moderate
-    segment_id: YS-LN02/Text/part0032.xhtml/p000104
-    issue: Cấu trúc “hễ có ai ... thì ... cũng làm được” đổi trọng tâm của lời đánh giá năng lực.
-    evidence: >-
-      Nguồn nhấn mạnh niềm tin rằng 203 là đơn vị có khả năng làm việc đó nếu có
-      bất cứ đơn vị nào làm nổi; bản dịch biến thành so sánh với thành tích của
-      một người hoặc đơn vị khác. Cụm “vì chỉ vì” còn làm câu vấp.
-    resolution: >-
-      Đề xuất đổi vế cuối thành “ai nấy đều tin chắc rằng nếu có đơn vị nào đủ sức
-      phá hủy kho đạn của địch thì đó chính là Tiểu đoàn Pháp sư Trên không số 203”,
-      đồng thời bỏ một chữ “vì”. Giữ câu hỏi tự giễu và nguyên nhân từ vụ Dacia.
-    status: open
-  - id: B05-C02
-    severity: moderate
-    segment_id: YS-LN02/Text/part0032.xhtml/p000112
-    issue: “Trận địa pháo” tự xác định loại hỏa lực.
-    evidence: >-
-      Package chỉ xác định các vị trí khai hỏa dưới vùng trời giao chiến, không
-      xác định đó là pháo. Chi tiết thêm này thu hẹp hình dung chiến thuật.
-    resolution: >-
-      Tạm dùng “các vị trí khai hỏa” hoặc “các trận địa hỏa lực”; giữ ý đối phương
-      ở sân nhà và vẫn có nguy cơ vô tình bị bắn trúng. Không tự chỉ ra bên bắn
-      hay loại vũ khí.
-    status: open
-  - id: B05-C03
-    severity: moderate
-    segment_id: YS-LN02/Text/part0032.xhtml/p000126
-    issue: “Bộ binh” thu hẹp lực lượng rút lui; “cố thủ” gợi thế phòng thủ cố định quá cụ thể.
-    evidence: >-
-      Nguồn nói lực lượng trên mặt đất nói chung và yêu cầu đoạn hậu trụ lại để
-      câu giờ. Package không giới hạn thành phần quân rút lui vào bộ binh hoặc
-      yêu cầu giữ một vị trí cố định.
-    resolution: >-
-      Đề xuất “lực lượng trên mặt đất” thay “bộ binh” và “cầm cự” thay “cố thủ”.
-      Giữ chuỗi nghi binh thất bại, đoạn hậu phải câu giờ, rút lui mất trật tự và
-      nguy cơ bị giẫm đạp; không tự xác định ai gây ra nguy cơ cuối.
-    status: open
-  - id: B05-C04
-    severity: minor
-    segment_id: YS-LN02/Text/part0032.xhtml/p000106
-    issue: Mất dấu gọi chú thích 25 cạnh Matsusheeta.
-    evidence: >-
-      XHTML trong package có liên kết chú thích và số mũ; bản dịch bỏ hẳn dấu
-      nhận diện. Nội dung chú thích không nằm trong phạm vi được giao.
-    resolution: >-
-      Đề xuất phục hồi dấu ²⁵ cạnh tên để giữ liên hệ chú thích, hoặc coordinator
-      xác nhận cơ chế bảo toàn liên kết khi dựng bản xuất. Không thêm nội dung
-      chú thích và không mở tệp đích. Đây là đề xuất định dạng, chưa phải canon.
-    status: open
-  - id: B05-C05
-    severity: minor
-    segment_id: YS-LN02/Text/part0032.xhtml/p000110
-    issue: “Chỉ vừa đủ giữ được giọng điệu công việc” thiếu tự nhiên và làm mờ vẻ chuyên nghiệp gượng giữ.
-    evidence: >-
-      Tanya đang nén giận để lời đáp vẫn có vẻ chuyên nghiệp; “giọng điệu công
-      việc” là kết hợp từ cứng, còn “vừa đủ” nghiêng sang đánh giá mức đạt yêu cầu.
-    resolution: >-
-      Đề xuất “mình chật vật giữ giọng chuyên nghiệp”. Giữ cơn giận đang dâng và
-      lời bình chua chát về sự nhẹ tênh của cấp trên.
-    status: open
-  - id: B05-C06
-    severity: minor
-    segment_id: YS-LN02/Text/part0032.xhtml/p000130
-    issue: Chuỗi phủ định dài làm lời tự khẳng định của Tanya khó đọc.
-    evidence: >-
-      Nghĩa về sự dại dột khi bỏ đầu tư vì một rủi ro nhỏ vẫn đúng, nhưng cấu trúc
-      “không phải kiểu người không hiểu rằng chẳng đầu tư” làm giọng phân tích vấp.
-    resolution: >-
-      Đề xuất “Mình hiểu rõ việc không đầu tư chỉ vì sợ một rủi ro nhỏ là dại dột”.
-      Giữ “lợi nhuận” ở câu sau để bảo toàn phép so sánh kinh tế.
-    status: open
-unresolved_findings: [B05-C01, B05-C02, B05-C03, B05-C04, B05-C05, B05-C06]
-term_recommendations:
-  - source_term: 203rd Aerial Mage Battalion
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000104]
-    proposed_vi: Tiểu đoàn Pháp sư Trên không số 203
-    alternatives_vi: [Tiểu đoàn Pháp sư Không chiến số 203]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Giữ lựa chọn của ledger; cách gọi trên không sát nhãn đơn vị và không tự
-      giới hạn nhiệm vụ vào không chiến. Phương án không chiến dễ đọc nhưng hẹp
-      hơn. Chưa có thuật ngữ được duyệt trong glossary.
-  - source_term: interdiction combat
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000110, YS-LN02/Text/part0032.xhtml/p000111, YS-LN02/Text/part0032.xhtml/p000119]
-    proposed_vi: tác chiến ngăn chặn
-    alternatives_vi: [tác chiến kiềm chế]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Giữ lựa chọn ledger vì mệnh lệnh tại p000109 là cầm chân đối phương đến hết
-      giai đoạn ba. Kiềm chế diễn tả tác dụng tại chỗ nhưng kém sát nhãn nhiệm vụ.
-      Không đồng nhất với “đánh chặn”, vốn chỉ hoạt động của phía đối phương trong lô.
-  - source_term: recon-in-force
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000111, YS-LN02/Text/part0032.xhtml/p000117, YS-LN02/Text/part0032.xhtml/p000125, YS-LN02/Text/part0032.xhtml/p000126]
-    proposed_vi: trinh sát chiến đấu
-    alternatives_vi: [trinh sát bằng vũ lực, trinh sát có vũ trang]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Giữ lựa chọn ledger: p000125 nêu thăm dò năng lực đánh chặn, p000111 có lực
-      lượng hai đại đội xuyên vị trí phòng thủ. “Bằng vũ lực” làm rõ yếu tố giao
-      chiến nhưng thô; “có vũ trang” chỉ nói trang bị, chưa thể hiện thăm dò bằng
-      tác chiến. Đây là đánh giá theo package, không khẳng định chuẩn học thuyết.
-  - source_term: rear guard
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000126, YS-LN02/Text/part0032.xhtml/p000128]
-    proposed_vi: lực lượng đoạn hậu
-    alternatives_vi: [lực lượng hậu vệ]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Giữ lựa chọn ledger vì vai trò là cầm cự để bảo vệ cuộc rút lui và câu giờ,
-      kể cả chịu tiêu diệt sạch. Hậu vệ là phương án khả dụng nhưng kém rõ chức
-      năng trong cuộc rút lui. Không tự suy ra cấp tổ chức của lực lượng này.
-  - source_term: Rhine lines/front
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000109, YS-LN02/Text/part0032.xhtml/p000129]
-    proposed_vi: phòng tuyến Rhine / mặt trận Rhine
-    alternatives_vi: [tuyến phòng thủ Rhine / mặt trận Rhine]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Giữ phân biệt tuyến phòng thủ bị áp sát ở p000109 với phạm vi mặt trận có
-      nhiều đơn vị ở p000129. Không gộp thành một tên chiến dịch hoặc Việt hóa địa
-      danh khi package chưa có căn cứ.
-  - source_term: Matsusheeta
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000106]
-    proposed_vi: Matsusheeta
-    alternatives_vi: [Matsusheeta kèm dấu gọi chú thích ²⁵]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Giữ đúng dạng tên trong package. Phương án khác chỉ phục hồi dấu chú thích,
-      không chuẩn hóa tên thành một nhân vật ngoài đời. Không đủ căn cứ cục bộ
-      để đề xuất một cách viết tên khác có trách nhiệm.
-  - source_term: CP / Fairy 01
-    segment_ids: [YS-LN02/Text/part0032.xhtml/p000105, YS-LN02/Text/part0032.xhtml/p000110]
-    proposed_vi: CP / Fairy 01
-    alternatives_vi: [CP / Tiên 01]
-    status: provisional_non_canon
-    canon: false
-    rationale: >-
-      Ưu tiên giữ nguyên định danh vô tuyến trong ledger; không khai triển CP và
-      giữ “01” khi nguồn dùng dạng rút gọn ở p000105. “Tiên 01” là lựa chọn dịch
-      nghĩa có thể xét nhưng dễ bị hiểu thành tên hoặc loại sinh vật; chưa có
-      quyết định cho phép thay đồng bộ định danh vô tuyến nên không khuyến nghị áp dụng.
-recommendations:
-  - Translator có lease xử lý B05-C01 đến B05-C03 trước khi coordinator tính lô hoàn tất.
-  - Xử lý ba mục nhẹ; mục chú thích cần ghi rõ cách bảo toàn dấu gọi trong phạm vi được phép.
-  - Coordinator ghi bảy đề xuất và lựa chọn thay thế vào ledger/handoff, giữ trạng thái non-canon.
-  - Sau sửa, đối chiếu lại các dòng liên quan rồi chạy validator và diff-check của pipeline.
-risks:
-  - Ba lỗi vừa còn mở; báo cáo hoàn tất không đồng nghĩa lô dịch được duyệt hoàn tất.
-  - Chỉ kiểm tra package b05; chưa có căn cứ về nội dung chú thích 25 hoặc chuẩn hóa tên Matsusheeta.
-  - Tính nhất quán với các lô trước chỉ dựa trên self-check và ledger được giao, không kiểm tra lô khác.
-  - Bảy lựa chọn vẫn là đề xuất; không có quyết định canon ảnh hưởng cốt truyện cần dừng trong phạm vi này.
-next_action: translator_revision
+next_action: coordinator_receive_review_then_translator_fix
 ```
 
-Đã đối chiếu riêng từng dòng về nghĩa, điểm nhìn, sắc thái và markup. Mã đầy đủ của các dòng dưới đây là `YS-LN02/Text/part0032.xhtml/` cộng mã dòng.
+## Phạm vi và căn cứ
 
-| Dòng | Kết quả nghĩa và giọng văn |
-| --- | --- |
-| p000104 | B05-C01; cần giữ lời đánh giá 203 là đơn vị có thể làm nổi nhiệm vụ, giọng than phiền tự giễu. |
-| p000105 | Lời vô tuyến ngắn gọn; lược người nghe không mất thông tin hoặc thêm quan hệ. |
-| p000106 | Nghĩa về may mắn, tuyển người và thời điểm trước khi bị đưa sang thế giới này được giữ; B05-C04 về dấu chú thích. |
-| p000107 | Giữ bước chuyển từ không hiểu sang hiểu và mức khả thể về xác suất. |
-| p000108 | Câu hỏi về tình hình vẫn mở, không đổi thành hỏi địa điểm. |
-| p000109 | Giữ quy mô cấp tiểu đoàn, rìa tầm radar, hướng áp sát và hạn cầm chân đến hết giai đoạn ba. |
-| p000110 | Lời nhận lệnh đối lập với cơn giận nội tâm; B05-C05 về cách thể hiện giọng chuyên nghiệp. |
-| p000111 | Giữ chênh lệch nhiệm vụ và lực lượng hai đại đội, đội hình phân tán và sự hao sức. |
-| p000112 | Giữ đối lập sung sức/sân nhà/nguy cơ bị bắn trúng; B05-C02 về loại hỏa lực bị thêm. |
-| p000113 | Giữ suy đoán chắc cao về mức căng thẳng tinh thần của đối phương. |
-| p000114 | Giữ phủ định nhận định đối phương phục tùng vô tư, không biến thành khinh địch. |
-| p000115 | Giữ tiểu đoàn được điều động từ mặt đất lên cản trinh sát. |
-| p000116 | Giữ lực lượng tuyển chọn, phản đối hy vọng ngây thơ và nguyên tắc chuẩn bị bi quan. |
-| p000117 | Giữ quyền hủy ngay nhiệm vụ trinh sát; không biến thành mệnh lệnh phải hủy. |
-| p000118 | Giữ phản ứng ngập ngừng, thấy việc được cấp quyền hủy là thú vị. |
-| p000119 | Giữ tính hiếm của quyền hủy và điều kiện rút lui đúng kế hoạch mới hạn chế thêm tổn thất. |
-| p000120 | Giữ logic cấp trên có lý nhưng Tanya không rút, cùng hình ảnh tính thực dụng là cái bẫy. |
-| p000121 | Giữ ví dụ đường nhựa xuống địa ngục, ý tốt và lựa chọn rẽ qua hoang địa. Đại từ “bạn” mang nghĩa khái quát. |
-| p000122 | Lược đại từ hợp lý; vẫn là mong không cần dùng tới lựa chọn vừa nêu. |
-| p000123 | Giữ tự khẳng định không phải tay mơ, tư duy kinh tế, huấn luyện, Being X và phép thề về tiến hóa; chỉ tên loài được in nghiêng đúng markup. |
-| p000124 | Hai câu hỏi ngắn giữ sự ngạc nhiên và yêu cầu giải thích, không tự thêm xưng hô. |
-| p000125 | Giữ thăm dò năng lực đánh chặn và nguy cơ lộ mục đích đánh lừa khi hủy sớm. |
-| p000126 | Chuỗi nguyên nhân và nguy cơ vẫn rõ; B05-C03 về thành phần lực lượng và thế cầm cự. |
-| p000127 | Giữ lý do dè chừng trao đổi vô tuyến ngay cả khi đã mã hóa. |
-| p000128 | Giữ chuyển từ gọi tên Tanya sang nội tâm “mình”, giả định vai ra lệnh, khả năng hy sinh đoạn hậu và tiếng chửi cuối. Không cần thay tên riêng bằng đại từ. |
-| p000129 | Giữ so sánh né một tiểu đoàn với bị mọi đơn vị Cộng hòa trên mặt trận truy đuổi. |
-| p000130 | Nghĩa phép so sánh đầu tư và lợi nhuận đúng; B05-C06 về chuỗi phủ định. |
-| p000131 | Giữ giới hạn bí mật trước khi giai đoạn ba kết thúc, loại bỏ đơn vị đánh chặn rồi tiếp tục nhiệm vụ. |
+Chỉ đọc hướng dẫn được giao, cấu hình pipeline, handoff review và handoff chính b05, package b05, bản dịch b05, self-check b05, năm tệp canon được handoff chính nêu và section `chapter7_b05_translator_proposals` của ledger. Không mở EPUB/PDF, chú thích gốc hoặc package khác; không tra cứu ngoài. Không dùng nhận định về lore làm căn cứ.
 
-Self-check đúng về nội tâm “mình”, giới hạn chữ nghiêng và chuỗi quyền hủy–không thể rút–câu giờ đến hết giai đoạn ba. Các nhận xét ấy chưa phát hiện ba lỗi vừa ở trên. Báo cáo không chép câu nguồn, không mở EPUB/PDF, package khác hay nội dung chú thích; không sửa bản dịch, canon hoặc trạng thái pipeline.
+Hash SHA-256 của package khớp `6644770cd31ca1c5d2bfff29bb96bd181e047e2b4bed40044e6f5b17986b6b46`; hash của cả năm tệp canon khớp handoff. Có đủ 28 dòng, mã đoạn nguồn/bản dịch khớp từng dòng theo thứ tự p000104–p000131. Đây là kiểm tra đầu vào thủ công, không thay cho validator hoặc diff-check.
+
+Các mã rút gọn trong bảng dưới đều có tiền tố `YS-LN02/Text/part0032.xhtml/`. Các góp ý chỉ mô tả căn cứ bằng tiếng Việt, không trích câu nguồn. Các lựa chọn thuật ngữ/tên gọi bên dưới đều **pending, không phải canon**.
+
+## Findings
+
+### B05-R01 — nhẹ — YS-LN02/Text/part0032.xhtml/p000114
+
+**Vấn đề:** “vô tư đáp” thiên về tâm thế thản nhiên hoặc không lo lắng, trong khi điểm nhấn là đáp lệnh mà không suy nghĩ. Điều này làm nhạt đánh giá về mức độ cân nhắc của đối phương.
+
+**Căn cứ:** p000114 phủ định việc đối phương chỉ phục tùng một cách thiếu suy xét; p000115–p000116 tiếp tục đánh giá đây là lực lượng tuyển chọn cần được coi trọng. Không có căn cứ để thêm việc họ bất tuân hoặc sợ Tanya.
+
+**Đề xuất:** thay cụm này bằng “đáp … mà chẳng suy nghĩ” hoặc “không cần suy nghĩ đã đáp …”, giữ nguyên phủ định và lời đáp quân sự. Không đổi thành đánh giá lòng can đảm.
+
+### B05-R02 — nhẹ — YS-LN02/Text/part0032.xhtml/p000115
+
+**Vấn đề:** “được điều động từ mặt đất lên” giữ hướng xuất phát nhưng chưa thể hiện tính khẩn trương của việc xuất kích đánh chặn.
+
+**Căn cứ:** package mô tả một tiểu đoàn xuất kích từ mặt đất để cản nhiệm vụ; p000109 xác nhận lực lượng này đang áp sát nhanh. Chỉ thêm sắc thái khẩn trương đã có, không suy ra phương tiện vận chuyển.
+
+**Đề xuất:** “một tiểu đoàn được lệnh khẩn trương xuất kích từ mặt đất để cản trở nhiệm vụ trinh sát của chúng ta”. Nếu muốn giữ câu hiện tại, có thể thêm “khẩn trương” trước “điều động”.
+
+### B05-R03 — vừa — YS-LN02/Text/part0032.xhtml/p000123
+
+**Vấn đề:** “mình đã không trải qua huấn luyện một cách vô ích” chuyển trọng tâm từ việc huấn luyện có lý do/mục đích sang việc huấn luyện không vô ích, tức đánh giá kết quả hoặc hiệu quả.
+
+**Căn cứ:** câu này nằm trong lời tự khẳng định không phải tay mơ, có tư duy hợp lý và đầu óc kinh tế. Phủ định ở nguồn áp vào việc trải qua huấn luyện mà không có lý do; không trực tiếp khẳng định hiệu quả của khóa huấn luyện.
+
+**Đề xuất:** “mình trải qua huấn luyện đâu phải không có lý do”. Cách này giữ lập luận về lý do, giọng nội tâm và phủ định mà không thêm mục đích cụ thể. Giữ nguyên Being X và đúng phạm vi chữ nghiêng ở tên loài.
+
+### B05-R04 — nhẹ — YS-LN02/Text/part0032.xhtml/p000128
+
+**Vấn đề:** “Kế hoạch này chỉ có một vấn đề” biến một mệnh đề có điều kiện thành khẳng định chỉ tồn tại một vấn đề. Cụm “dù phải bị tiêu diệt sạch” cũng có chủ thể lược dễ vướng vào “phía ra lệnh” ở đầu câu.
+
+**Căn cứ:** phần tự bình luận xác định vấn đề từ vị trí người nhận lệnh, không lập danh sách đầy đủ mọi nhược điểm của kế hoạch. Nhóm chịu nguy cơ bị tiêu diệt là lực lượng đoạn hậu, còn việc cấp trên ra lệnh vẫn ở mức phỏng đoán.
+
+**Đề xuất:** “Nếu kế hoạch này có vấn đề gì, thì đó là mình đang ở phía nhận lệnh.” Với câu trước, dùng “dù lực lượng ấy có phải bị tiêu diệt sạch theo đúng nghĩa đen”. Giữ “có lẽ”, mức tổn thất, sự đổi từ trần thuật về Tanya sang nội tâm “mình”, và lời chửi cuối đoạn.
+
+## Đối chiếu đủ 28 dòng
+
+| Mã đoạn | Kết quả nghĩa, điểm nhìn, diễn tiến và văn phong |
+|---|---|
+| p000104 | Đạt: câu hỏi tự giễu, vụ Dacia và việc suy rộng năng lực đơn vị 203 đều còn; tên đơn vị vẫn là đề xuất. |
+| p000105 | Đạt: xác nhận vô tuyến rồi báo tin xấu; lược người nghe không làm mất CP hoặc 01. |
+| p000106 | Đạt: không khẳng định tin vào may mắn; giữ tính nghe kể, thời điểm trước khi đến thế giới này và dấu chú thích ²⁵. |
+| p000107 | Đạt: chuyển từ chưa hiểu sang hiểu, nhưng vẫn giữ khả thể liên quan lý thuyết xác suất. |
+| p000108 | Đạt: câu hỏi mở về tin được báo, không tự thu hẹp nội dung. |
+| p000109 | Đạt: quy mô cấp tiểu đoàn, rìa tầm radar, hướng áp sát và mốc hết giai đoạn ba đều giữ. |
+| p000110 | Đạt: đổi nhiệm vụ, hỏi tiếp, nén giận và chật vật giữ giọng chuyên nghiệp; Fairy 01 không bị khai triển. |
+| p000111 | Đạt: sức mạnh tương đương hai đại đội, đội hình không chặt và hao sức khi qua vị trí phòng thủ; phân biệt hai loại nhiệm vụ. |
+| p000112 | Đạt: tương phản sung sức/hao sức, lợi thế sân nhà và điều kiện không vô tình bị bắn trúng; không tự chỉ bên bắn hoặc vũ khí. |
+| p000113 | Đạt: suy luận về mức căng thẳng tinh thần, giữ mức chắc chắn suy đoán. |
+| p000114 | B05-R01: cần đổi sắc thái “vô tư” về hành động thiếu suy nghĩ; phủ định còn đúng. |
+| p000115 | B05-R02: giữ quy mô, hướng xuất phát và mục tiêu; nên phục hồi sắc thái xuất kích khẩn trương. |
+| p000116 | Đạt: lực lượng tuyển chọn, tránh đánh giá địch là ngốc và chuẩn bị theo hướng bi quan; không thêm lore. |
+| p000117 | Đạt: cho phép hủy ngay, không biến thành lệnh bắt buộc hủy. |
+| p000118 | Đạt: phản ứng ngập ngừng rồi thấy việc được phép ấy đáng chú ý; không thêm dấu nghiêng. |
+| p000119 | Đạt: sự hiếm có của quyền hủy và điều kiện cuộc rút lui đúng kế hoạch; lợi ích chỉ là hạn chế tổn thất thêm. |
+| p000120 | Đạt: cấp trên có vẻ hợp lý nhưng Tanya không rút; giữ bước tự xét lại và hình ảnh cái bẫy. |
+| p000121 | Đạt: thiện ý vẫn có thể dẫn xuống địa ngục; lối rẽ qua hoang địa an toàn hơn, không đổi chiều so sánh. |
+| p000122 | Đạt: mong không cần đến lựa chọn ấy; lược đại từ không gán quan hệ người nói/người nghe. |
+| p000123 | B05-R03: cần trả trọng tâm về lý do huấn luyện; phần kinh tế, Being X, tiến hóa và phạm vi nghiêng còn giữ. |
+| p000124 | Đạt: hai câu hỏi nối tiếp về điều vừa nói, không gán giới tính/cấp bậc. |
+| p000125 | Đạt: mục đích khảo sát đánh chặn và nguy cơ lộ mục đích đánh lừa nếu hủy ngay; không nói nguy cơ đã xảy ra. |
+| p000126 | Đạt: mưu che rút lui thất bại thì đoạn hậu phải cầm cự; không câu giờ được thì rút lui trật tự có nguy cơ hóa hỗn loạn. Giữ sự không rõ tác nhân giẫm đạp. |
+| p000127 | Đạt: dè dặt truyền cuộc trao đổi kể cả khi mã hóa, không biến mã hóa thành bảo đảm an toàn. |
+| p000128 | B05-R04: giữ chuyển điểm nhìn và giả định vai người ra lệnh; chỉnh điều kiện và làm rõ chủ thể chịu tổn thất. |
+| p000129 | Đạt: né tiểu đoàn hiện tại nhưng bị toàn bộ đơn vị Cộng hòa trên mặt trận truy đuổi là phương án tệ hơn. |
+| p000130 | Đạt: ở lại là lựa chọn duy nhất xét rủi ro; giữ phép ví đầu tư và lợi nhuận, phủ định đã được rút gọn đúng. |
+| p000131 | Đạt: không được lộ trước khi giai đoạn ba kết thúc; loại bỏ đơn vị đánh chặn rồi tiếp tục nhiệm vụ, không đảo thứ tự. |
+
+## Bảy khuyến nghị tạm
+
+| Mục và mã đoạn | Phương án đề xuất | Căn cứ trong phạm vi và phương án khác |
+|---|---|---|
+| 203rd Aerial Mage Battalion — p000104 | Giữ “Tiểu đoàn Pháp sư Trên không số 203”. | Giữ cấp đơn vị, số hiệu và đặc tính hoạt động trên không. Ledger b05 đang dùng cách này; không kiểm tra tính nhất quán ở lô khác. “Tiểu đoàn Pháp sư Không chiến số 203” là phương án khác, nhưng nhấn vào chức năng chiến đấu hơn tên mô tả hiện có. |
+| interdiction combat — p000110, p000111, p000119 | Giữ “tác chiến ngăn chặn”. | p000109 giao việc cầm chân lực lượng áp sát; p000110 chuyển nhiệm vụ, p000111 đối chiếu với trinh sát, p000119 xét quyền hủy. Cách gọi này phân biệt được với năng lực/đơn vị “đánh chặn” ở p000125, p000131. “Tác chiến cản bước” là phương án diễn nghĩa, nhưng kém thuận làm tên nhiệm vụ. Không suy ra đây là nhiệm vụ đánh đường tiếp tế. |
+| recon-in-force — p000111, p000117, p000125, p000126 | Giữ “trinh sát chiến đấu”. | p000125 xác định khảo sát năng lực đánh chặn; p000126 dùng nhiệm vụ làm vỏ bọc che rút lui. Cách này giữ tính trinh sát và yếu tố đối đầu. “Trinh sát bằng vũ lực” là phương án literal; “trinh sát có vũ trang” dễ chỉ còn ý mang vũ khí, chưa thể hiện việc thăm dò bằng đối đầu. Không gọi đây là chuẩn thuật ngữ quân sự đã xác minh. |
+| rear guard — p000126, p000128 | Giữ “lực lượng đoạn hậu”. | Nhóm này ở lại cầm cự/câu giờ để bảo đảm rút lui, có thể bị tiêu diệt; cách gọi thể hiện đúng vai trò và không thêm biên chế. “Lực lượng hậu vệ” là phương án khác nhưng ít rõ việc bảo vệ đoàn quân rút. Không đổi thành hậu phương hay hậu cần. |
+| Rhine lines/front — p000109, p000129 | Giữ “phòng tuyến Rhine” / “mặt trận Rhine” theo từng chỗ. | p000109 là tuyến đang bị áp sát; p000129 là phạm vi mặt trận chứa các đơn vị truy đuổi. Không đồng nhất hai phạm vi. “Các tuyến phòng thủ Rhine” ở p000109 và “chiến tuyến Rhine” ở p000129 là phương án khác; chưa đủ căn cứ thêm vị trí dọc sông hoặc tên chiến dịch. |
+| Matsusheeta — p000106 | Giữ Matsusheeta²⁵. | Package cung cấp dạng tên này và dấu gọi chú thích; phạm vi không cho mở chú thích để xác minh danh tính. Phương án khác là chuẩn hóa tên sau khi có nguồn được phép xác nhận, hiện chưa đề xuất dạng thay thế cụ thể. Không tự sửa chính tả hay nhận diện người thật. |
+| CP / Fairy 01 — p000105, p000110 | Giữ CP, 01 và Fairy 01 theo đúng từng lượt thoại. | Cấu trúc vô tuyến cho phép nhận diện nhãn gọi, nhưng không đủ chứng cứ khai triển CP hoặc Việt hóa Fairy. p000105 dùng 01 rút gọn; p000110 dùng Fairy 01 đầy đủ. Phương án khác chỉ là khai triển/Việt hóa sau khi có chứng cứ được phép; không tự thêm nghĩa hoặc chữ số. |
+
+Canon glossary và characters chưa chốt thuật ngữ/tên. DEC-P01-001 và DEC-P01-002 chỉ cung cấp chuẩn đại từ và biểu diễn nhấn mạnh; không phê duyệt bảy mục trên. Being X ở p000123 phù hợp cách giữ nguyên đang pending trong canon/glossary-pending.yml, không mở thêm một quyết định thứ tám.
+
+## Pending và rủi ro còn lại
+
+- Cả bảy lựa chọn vẫn pending/non-canon; đủ căn cứ để dùng tạm nhất quán trong b05, không cần dừng chờ quyết định. Coordinator tiếp nhận khuyến nghị vào ledger/handoff; reviewer không sửa các tệp đó.
+- B05-R03 là lỗi vừa còn mở; cần translator sửa trước khi coi review này đã được xử lý. Ba góp ý nhẹ cũng chưa được áp dụng.
+- Chưa xác minh danh tính Matsusheeta, nội dung chú thích ²⁵, nghĩa khai triển CP hoặc bản dịch Fairy. Giữ nguyên là phương án ít suy diễn nhất với phạm vi được giao.
+- Không xác minh tính nhất quán liên lô hay chuẩn thuật ngữ quân sự bên ngoài; các khuyến nghị dựa vào package b05 và canon được phép đọc.
+- Các điểm self-check tiếp nhận ở p000104, p000112, p000126, dấu chú thích p000106, giọng nén giận p000110 và lập luận p000130 đã hiện diện trong bản dịch đang đọc. Không tuyên bố đã đọc báo cáo phản biện trước đó hoặc đã kiểm tra validator.
+- Không phát hiện lỗi nghiêm trọng, quyết định canon ảnh hưởng cốt truyện hoặc căn cứ cần mở rộng phạm vi. Validator và diff-check chưa chạy; reviewer không sửa bản dịch và không commit.

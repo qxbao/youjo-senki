@@ -10,9 +10,10 @@ pending_ledger: work/run-state/pending-terms.yml
 pending_ledger_section: chapter7_b05_translator_proposals
 review_counts:
   serious: 0
-  moderate: 3
+  moderate: 1
   minor: 3
-  unresolved: 6
+  unresolved: 4
+  previously_resolved: 6
 findings:
 - id: B05-C01
   severity: moderate
@@ -47,11 +48,55 @@ findings:
   segment_id: YS-LN02/Text/part0032.xhtml/p000130
   resolution: Simplify the nested negatives while retaining that avoiding investment
     solely from small-risk fear is foolish; preserve profit comparison.
+- id: B05-R01
+  severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000114
+  resolution: Replace vô tư đáp with phrasing meaning they answer without thinking;
+    retain negation and radio reply.
+- id: B05-R02
+  severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000115
+  resolution: Add the supported urgency of launching from the ground to intercept;
+    infer no transport method.
+- id: B05-R03
+  severity: moderate
+  segment_id: YS-LN02/Text/part0032.xhtml/p000123
+  resolution: Restore “not without reason” logic rather than “not in vain”; keep self-assertive
+    voice and Being X emphasis.
+- id: B05-R04
+  severity: minor
+  segment_id: YS-LN02/Text/part0032.xhtml/p000128
+  resolution: Keep only one problem if-phrase conditional, avoid implying a complete
+    list or a unit with agency; preserve uncertainty about orders.
+- id: B05-R01
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000114
+  resolution: Use wording meaning they answered without thinking; preserve negation
+    and the military reply.
+- id: B05-R02
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000115
+  resolution: Add supported urgency of launch from the ground to intercept; infer
+    no transport method.
+- id: B05-R03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000123
+  resolution: Change not in vain to not without reason; retain self-assertive voice,
+    Being X and emphasis.
+- id: B05-R04
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000128
+  resolution: Keep one problem as a conditional and avoid making the unit the agent;
+    preserve uncertainty about orders.
 constraints:
 - Use only assigned b05 package, translation, self-check, review report/handoffs,
   named canon and b05 ledger section; no EPUB/PDF or other package.
 - Write only translations/vol-02/ch-07-b05.jsonl and reviews/semantic/vol-02/ch-07-b05-self-check.md.
-  No handoff/ledger/canon/run-state edits or commit.
+  No ledger/handoff/canon/run-state edits or commit.
 - Run primary b05 validator and git diff --check.
 status: ready
 lease:
@@ -63,3 +108,5 @@ lease:
 allowlist:
 - translations/vol-02/ch-07-b05.jsonl
 - reviews/semantic/vol-02/ch-07-b05-self-check.md
+self_check_update: Add B05-R01–R04 with accurate closure notes; total ten review findings
+  resolved.
