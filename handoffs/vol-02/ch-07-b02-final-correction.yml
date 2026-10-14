@@ -1,0 +1,30 @@
+task_id: vol-02-ch-07-b02-final-correction
+role: translator
+batch: vol-02-ch-07-b02
+translation: translations/vol-02/ch-07-b02.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b02-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b02-final-signoff-codex.md
+source_package: work/vol-02/batches/ch-07-b02-source.jsonl
+source_package_sha256: f0f3f21af108a2773fe799bcf53caaa91cf0b07bf40da350435589c613f9dfbe
+pending_ledger_section: chapter7_b02_review_recommendations
+lease:
+  holder: translator
+  pane_id: w6:pKW
+  terminal_id: term_65dc3a655bcf6280
+  agent_session_id: 01a1383b-19a0-75b1-b99d-3749b2f28e6c
+  checkpoint_generation: 1286
+finding:
+  id: B02-M01
+  segment_id: YS-LN02/Text/part0032.xhtml/p000038
+  correction: Use cụm tập đoàn quân for army group, preserving the scale contrast
+    with a division.
+  provenance: The prior coordinator fix handoff mistakenly said tập đoàn quân; the
+    reviewer recommendation and corrected ledger specify cụm tập đoàn quân.
+constraints:
+- Use only assigned b02 package, translation, self-check, reviewer report/handoffs
+  and named b02 ledger section. No EPUB/PDF or other source package.
+- Write only translations/vol-02/ch-07-b02.jsonl and reviews/semantic/vol-02/ch-07-b02-self-check.md.
+  No ledger/handoff/canon/run-state edits or commit.
+- Update only p000038 and its self-check finding line; keep term pending/non-canon.
+- Run primary b02 validator and git diff --check.
+status: ready

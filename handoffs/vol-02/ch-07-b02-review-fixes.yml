@@ -1,0 +1,100 @@
+task_id: vol-02-ch-07-b02-review-fixes
+role: translator
+batch: vol-02-ch-07-b02
+translation: translations/vol-02/ch-07-b02.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b02-self-check.md
+review_report: reviews/prose/vol-02/ch-07-b02-codex.md
+source_package: work/vol-02/batches/ch-07-b02-source.jsonl
+source_package_sha256: f0f3f21af108a2773fe799bcf53caaa91cf0b07bf40da350435589c613f9dfbe
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_sections:
+- chapter7_b02_translator_proposals
+- chapter7_b02_review_recommendations
+review_counts:
+  serious: 0
+  moderate: 4
+  minor: 7
+  unresolved: 11
+findings:
+- id: B02-M01
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000038
+  resolution: Render army group as tập đoàn quân; preserve the organizational scale
+    comparison and add no order-of-battle explanation.
+- id: B02-M02
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000042
+  resolution: Render General as Tướng von Zettour; do not infer a precise general
+    rank from external lore.
+- id: B02-M03
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000041
+  - YS-LN02/Text/part0032.xhtml/p000049
+  - YS-LN02/Text/part0032.xhtml/p000050
+  - YS-LN02/Text/part0032.xhtml/p000051
+  resolution: Use trinh sát bằng vũ lực consistently across all four uses; preserve
+    feint/recon-in-force function without adding objectives or force size.
+- id: B02-M04
+  severity: moderate
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000045
+  resolution: Render matériel as vật tư và trang bị quân sự in the retreat requirement;
+    supplies-only contexts may use vật tư tiếp tế.
+- id: B02-L01
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000031
+  resolution: Use natural phrasing equivalent to organized fire and penetration at
+    high speed; retain stealth metaphor and do not make it absolute invisibility.
+- id: B02-L02
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000035
+  resolution: Clarify that the system only just allows a few words / necessary communication;
+    do not imply an intentionally designed minimum.
+- id: B02-L03
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000037
+  resolution: Use quan sát viên Quân đội Cộng hòa for observers; preserve self-correction
+    and rear-guard context, no separate reconnaissance unit.
+- id: B02-L04
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000040
+  resolution: Separate reinforced battalion status from slight understrength; do not
+    define what reinforcement means.
+- id: B02-L05
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000042
+  resolution: Replace có lẽ with the more certain counterfactual; retain past conditional
+    and von Zettour reference.
+- id: B02-L06
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000046
+  resolution: Use natural equivalents for controlling the situation and information
+    that cannot be suppressed by strict secrecy orders; retain the two information
+    layers.
+- id: B02-L07
+  severity: minor
+  segment_ids:
+  - YS-LN02/Text/part0032.xhtml/p000050
+  resolution: Clarify the line about the Empire acting desperate and the feinting
+    reconnaissance mission; do not overstate real desperation or alter the no-regard-for-casualties
+    requirement.
+term_choices: Follow the five b02 reviewer recommendations recorded in chapter7_b02_review_recommendations.
+  All remain pending/non-canon; no further term group is required.
+self_check_update: Record all 11 findings and current term recommendations consistently;
+  preserve all five terms as pending/non-canon and the caution re note 24.
+constraints:
+- Use only assigned b02 package, translation, self-check, b02 reports/handoffs, named
+  canon and b02 ledger sections. Never open EPUB/PDF or another source package.
+- Write only translations/vol-02/ch-07-b02.jsonl and reviews/semantic/vol-02/ch-07-b02-self-check.md.
+  No handoff/ledger/canon/run-state edits or commit.
+- Run primary b02 validator and git diff --check.
+status: ready

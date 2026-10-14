@@ -1,0 +1,16 @@
+task_id: vol-02-ch-07-b02-review
+role: reviewer
+batch: vol-02-ch-07-b02
+translation: translations/vol-02/ch-07-b02.jsonl
+self_check: reviews/semantic/vol-02/ch-07-b02-self-check.md
+source_package: work/vol-02/batches/ch-07-b02-source.jsonl
+source_package_sha256: f0f3f21af108a2773fe799bcf53caaa91cf0b07bf40da350435589c613f9dfbe
+pending_ledger: work/run-state/pending-terms.yml
+pending_ledger_section: chapter7_b02_translator_proposals
+review_flags: [new_pending_terms, military_terminology, magical_equipment]
+constraints:
+- Review only assigned b02 package, translation, self-check, primary handoff, this handoff, named canon and b02 ledger section. No EPUB/PDF or other package; no source quotations.
+- Review all 26 rows for meaning, clarity, emphasis and military/magical terminology. Recommend provisional alternatives with rationale, no canon promotion.
+- Write only reviews/prose/vol-02/ch-07-b02-codex.md.
+report_path: reviews/prose/vol-02/ch-07-b02-codex.md
+status: ready
