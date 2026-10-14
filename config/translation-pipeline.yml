@@ -7,9 +7,9 @@ stages:
   - semantic_regression_luna
 gemini:
   enabled: true
-  writes_only: translations/
+  writes_only: polish-candidates/
   preserve_locked_choices: true
-  candidate_pattern: translations/vol-*/ch-*-b*.gemini.jsonl
+  candidate_pattern: polish-candidates/vol-*/ch-*-b*.gemini.jsonl
 acceptance:
   reject_on:
     - critical
@@ -21,6 +21,7 @@ paths:
   manifests: segments/vol-*/manifest.yml
   handoffs: handoffs/
   translations: translations/
+  polish_candidates: polish-candidates/
   state_dir: work/run-state
   session: work/run-state/herdr-session.json
   checkpoint: work/run-state/translation-coordinator.yml
@@ -36,7 +37,14 @@ batch:
   min_source_words: 600
   max_source_words: 900
   preserve_segment: true
-  sequential_workers: true
+  sequential_workers: false
+  concurrency:
+    max_parallel_workers: 2
+    allow_role_pairs:
+      - [translator_luna, prose_polish_gemini]
+    require_disjoint_allowlists: true
+    candidate_root: polish-candidates/
+    canonical_translation_writer: one_at_a_time
 review:
   every_batch: true
   risk_flags: [meaning, new_pending_terms, emphasis, validator_warning]

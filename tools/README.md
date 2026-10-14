@@ -122,9 +122,9 @@ uv run python tools/promote_polished_translation.py \
   --handoff handoffs/vol-02/ch-01-b01.yml \
   --source work/vol-02/batches/ch-01-b01-source.jsonl \
   --baseline translations/vol-02/ch-01-b01.jsonl \
-  --candidate translations/vol-02/ch-01-b01.gemini.jsonl \
+  --candidate polish-candidates/vol-02/ch-01-b01.gemini.jsonl \
   --locked-choices handoffs/vol-02/ch-01-b01-locked-choices.yml \
-  --change-log translations/vol-02/ch-01-b01.gemini-change-log.yml \
+  --change-log polish-candidates/vol-02/ch-01-b01.gemini-change-log.yml \
   --receipt reviews/semantic/vol-02/ch-01-b01-gemini-regression.yml
 ```
 
@@ -146,15 +146,17 @@ lease:
 ```
 
 Checkpoint còn phải có `coordinator` và `active_translation_editor` trùng
-holder, `active_worker: null`. Lease tuân theo một người sửa translations;
-coordinator nhả lease và ghi promotion receipt sau khi nâng. Kiểm tra này là
-hợp đồng quyền sửa trong filesystem của pipeline.
+holder, `active_worker: null`. Flash candidate/log nằm trong
+`polish-candidates/`, tách khỏi bản chuẩn để có thể chạy đồng thời với
+translator của batch khác. Chỉ một writer được sửa bản chuẩn trong
+`translations/` tại một thời điểm; coordinator nhả lease và ghi promotion
+receipt sau khi nâng.
 
 Baseline phải `reviewed`/`approved`; ứng viên chỉ khác `translation`, giữ mọi
 metadata và mã/thứ tự đoạn. Snapshot locked choices trong handoffs ghi
 `task_id`, `baseline_sha256`, `source_sha256`, `glossary_version` và
 `choices: [{segment_id, kind, value}]`, khớp baseline/handoff. Có thể khai báo
-`choices: []` nếu không có lựa chọn cần khóa. Log dưới translations gồm
+`choices: []` nếu không có lựa chọn cần khóa. Log dưới `polish-candidates/` gồm
 `task_id`, `change_log` đầy đủ theo thứ tự đoạn; mỗi entry chỉ có `segment_id`,
 `types: [syntax|rhythm|diction|punctuation]` và boolean `escalate`. Escalate
 giữ baseline nguyên văn với `types: []`; không cần chặn pending thường.

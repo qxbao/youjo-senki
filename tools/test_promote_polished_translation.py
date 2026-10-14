@@ -26,8 +26,8 @@ class PromotionTests(unittest.TestCase):
         (self.root / ".gitignore").write_text("work/\n", encoding="utf-8")
         self.paths = {
             "baseline": self.root / "translations/vol-02/ch-01-b01.jsonl",
-            "candidate": self.root / "translations/vol-02/ch-01-b01.gemini.jsonl",
-            "change_log": self.root / "translations/vol-02/ch-01-b01.gemini-change-log.yml",
+            "candidate": self.root / "polish-candidates/vol-02/ch-01-b01.gemini.jsonl",
+            "change_log": self.root / "polish-candidates/vol-02/ch-01-b01.gemini-change-log.yml",
             "receipt": self.root / "reviews/semantic/vol-02/ch-01-b01-regression.yml",
             "locked_choices": self.root / "handoffs/vol-02/ch-01-b01-locked.yml",
             "handoff": self.root / "handoffs/vol-02/ch-01-b01.yml",
@@ -246,11 +246,11 @@ class PromotionTests(unittest.TestCase):
         outside = self.root / "outside.jsonl"
         outside.write_bytes(self.paths["candidate"].read_bytes())
         self.args.candidate = outside
-        self.rejected("translations/")
+        self.rejected("polish-candidates/ or legacy translations/")
         self.args.candidate = self.paths["candidate"]
         self.paths["candidate"].unlink()
         self.paths["candidate"].symlink_to(outside)
-        self.rejected("translations/|Symlink|canonical input")
+        self.rejected("polish-candidates/|legacy translations/|Symlink|canonical input")
 
     def test_apply_requires_recorded_matching_exclusive_lease(self):
         self.authorize()

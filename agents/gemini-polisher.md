@@ -21,11 +21,11 @@ Bạn không được phép:
 
 Trả về:
 
-1. Translation đã chuốt trong `translations/vol-NN/ch-NN-bNN.gemini.jsonl`, giữ nguyên mọi trường của baseline ngoài `translation`.
-2. `translations/vol-NN/ch-NN-bNN.gemini-change-log.yml`, gồm `task_id` của handoff batch và `change_log` đủ segment_id theo đúng thứ tự baseline; chỉ nêu loại thay đổi `syntax | rhythm | diction | punctuation`. Mỗi entry có `segment_id`, `types` (danh sách loại thay đổi; rỗng nếu không sửa) và `escalate` (boolean). Entry `escalate: true` có `types: []`, giữ nguyên translation của segment đó. Không chép câu nguồn hoặc thêm nhận xét văn phong vào log.
+1. Translation đã chuốt trong `polish-candidates/vol-NN/ch-NN-bNN.gemini.jsonl`, giữ nguyên mọi trường của baseline ngoài `translation`.
+2. `polish-candidates/vol-NN/ch-NN-bNN.gemini-change-log.yml`, gồm `task_id` của handoff batch và `change_log` đủ segment_id theo đúng thứ tự baseline; chỉ nêu loại thay đổi `syntax | rhythm | diction | punctuation`. Mỗi entry có `segment_id`, `types` (danh sách loại thay đổi; rỗng nếu không sửa) và `escalate` (boolean). Entry `escalate: true` có `types: []`, giữ nguyên translation của segment đó. Không chép câu nguồn hoặc thêm nhận xét văn phong vào log.
 
 Nếu thay đổi đòi hỏi đụng vào locked choice, không sửa; ghi `escalate`. Lựa chọn tạm được khóa để giữ nhất quán trong batch vẫn là đề xuất, không tự nâng thành canon. Coordinator chuyển vấn đề cho Argon; nếu chưa đủ chứng cứ thì giữ baseline literal/trung tính và tiếp tục.
 
-Chỉ ghi hai tệp ứng viên được allowlist dưới `translations/`; không ghi đè `ch-NN-bNN.jsonl`, không viết review/handoff/canon/checkpoint, không commit. Trước khi ghi phải có handoff và lease đúng phạm vi; tuân thủ một người sửa translations tại một thời điểm. Nếu ứng viên làm trên nhánh riêng, bàn giao artifact và hash cho coordinator; chỉ coordinator nâng thành bản chuẩn.
+Chỉ ghi hai tệp ứng viên được allowlist dưới `polish-candidates/`; không ghi hoặc sửa bất kỳ tệp nào dưới `translations/`, không viết review/handoff/canon/checkpoint, không commit. Trước khi ghi phải có handoff và lease đúng phạm vi. Candidate tree tách khỏi bản chuẩn để Flash có thể chạy đồng thời với translator batch khác; chỉ coordinator nâng candidate thành bản chuẩn.
 
 Khi bị trả về, chỉ sửa segment/vị trí bị Luna báo và cập nhật log tương ứng; không chuốt lại các đoạn khác. Mọi sửa đổi làm mất hiệu lực receipt trước đó và phải qua Luna lại. Báo coordinator bằng YAML shared.md cùng `candidate_path`, `change_log_path`, các hash đầu vào/đầu ra và `escalations`; log/YAML điều phối không chứa nguồn.

@@ -102,17 +102,28 @@ def verify_inputs(
     *, root: Path, baseline: Path, candidate: Path, receipt: Path,
     locked_choices: Path, change_log: Path, handoff: Path, source: Path,
 ) -> tuple[list[Snapshot], dict, dict, list[str]]:
+    candidate_abs = candidate if candidate.is_absolute() else root / candidate
+    try:
+        candidate_root = candidate_abs.resolve().relative_to(root.resolve()).parts[0]
+    except (ValueError, IndexError) as exc:
+        raise PromotionError("Candidate must be inside polish-candidates/ or legacy translations/") from exc
+    if candidate_root not in {"polish-candidates", "translations"}:
+        raise PromotionError("Candidate must be inside polish-candidates/ or legacy translations/")
     paths = [scoped_path(path, root, scope) for path, scope in (
-        (baseline, "translations"), (candidate, "translations"),
+        (baseline, "translations"), (candidate, candidate_root),
         (receipt, "reviews"), (locked_choices, "handoffs"),
-        (change_log, "translations"), (handoff, "handoffs"), (source, "work"),
+        (change_log, candidate_root), (handoff, "handoffs"), (source, "work"),
     )]
     baseline, candidate, receipt, locked_choices, change_log, handoff, source = paths
     relative = baseline.relative_to(root.resolve())
     if not re.fullmatch(r"translations/vol-\d{2}/ch-\d{2}-b\d{2}\.jsonl", relative.as_posix()):
         raise PromotionError("Baseline must be translations/vol-xx/ch-xx-byy.jsonl")
-    require_match(candidate, baseline.with_name(baseline.stem + ".gemini.jsonl"), "Candidate filename")
-    require_match(change_log, baseline.with_name(baseline.stem + ".gemini-change-log.yml"), "Change-log filename")
+    legacy_candidate = baseline.with_name(baseline.stem + ".gemini.jsonl")
+    isolated_candidate = root.resolve() / "polish-candidates" / relative.parts[1] / (baseline.stem + ".gemini.jsonl")
+    if candidate not in {legacy_candidate, isolated_candidate}:
+        raise PromotionError("Candidate filename does not match the baseline batch")
+    expected_log = candidate.with_name(baseline.stem + ".gemini-change-log.yml")
+    require_match(change_log, expected_log, "Change-log filename")
     if receipt.relative_to(root.resolve()).parts[:2] != ("reviews", "semantic"):
         raise PromotionError("Receipt must be inside reviews/semantic/")
     check_source_is_local_only(source, root)
@@ -212,6 +223,17 @@ def verify_coordinator(root: Path, handoff: dict, checkpoint: Snapshot, coordina
     require_match(state.get("coordinator"), coordinator, "Checkpoint coordinator")
     if state.get("active_worker"):
         raise PromotionError("Checkpoint still has an active_worker")
+    worker_leases = state.get("worker_leases", [])
+    if not isinstance(worker_leases, list):
+        raise PromotionError("Checkpoint worker_leases must be a list")
+    for worker in worker_leases:
+        if not isinstance(worker, dict):
+            raise PromotionError("Checkpoint worker_leases entries must be objects")
+        allowlist = worker.get("allowlist", [])
+        if not isinstance(allowlist, list):
+            raise PromotionError("Worker lease allowlist must be a list")
+        if any(isinstance(path, str) and path.startswith("translations/") for path in allowlist):
+            raise PromotionError("A worker still leases a canonical translation under translations/")
     require_match(state.get("active_translation_editor"), coordinator, "Checkpoint active_translation_editor")
     relative = baseline.relative_to(root.resolve()).as_posix()
     for label, document in (("Handoff", handoff), ("Checkpoint", state)):
