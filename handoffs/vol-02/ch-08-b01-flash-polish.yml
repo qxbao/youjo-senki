@@ -1,0 +1,28 @@
+task_id: vol-02-ch-08-b01-flash-polish
+role: polisher
+runtime: agy --model gemini-3.8-flash-medium --effort medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-08-b01
+baseline: translations/vol-02/ch-08-b01.jsonl
+baseline_sha256: 45c501db57d263b11ca5c3db4a32ff26916e1cc93620b26457bd8a0ca438d746
+source_package: work/vol-02/batches/ch-08-b01-source.jsonl
+source_package_sha256: c992088570cb5858ee0fd351e5a83c6703e2d797673bb1e8615a26e870588ced
+argon_review: reviews/prose/vol-02/ch-08-b01-argon-review.yml
+argon_review_sha256: aa6af44c78c945a1fb982ba88f0a431ca123b3e0d3fe49453334ed25a9906e8d
+locked_choices: handoffs/vol-02/ch-08-b01-locked-choices.yml
+locked_choices_sha256: c3f69f7e75f397dc1fc4a96766b4e6cecbd05fd832e61342f4abfac0613851c4
+allowlist:
+- polish-candidates/vol-02/ch-08-b01.gemini.jsonl
+- polish-candidates/vol-02/ch-08-b01.gemini-change-log.yml
+status: done
+lease:
+  holder: gemini-flash-polisher-ch08-b01
+  task_id: vol-02-ch-08-b01-flash-polish
+  role: polisher
+  pane_id: w6:pQ2
+  terminal_id: term_65dcdc1ea2b592e6
+  agent_session_id: f11fd014-0a9c-4105-b577-56dcee5f5993
+  checkpoint_generation: 1501
+  state: released
+  allowlist:
+  - polish-candidates/vol-02/ch-08-b01.gemini.jsonl
+  - polish-candidates/vol-02/ch-08-b01.gemini-change-log.yml

@@ -1,0 +1,24 @@
+task_id: vol-02-ch-08-b01-argon-review
+role: reviewer
+runtime: agy --model gemini-4-argon-medium --mode auto --dangerously-skip-permissions
+batch: vol-02-ch-08-b01
+baseline: translations/vol-02/ch-08-b01.jsonl
+baseline_sha256: 13ab856b33234ae5c1575b628c06a28deea17f58a3315c124c993f47be561e5d
+source_package: work/vol-02/batches/ch-08-b01-source.jsonl
+source_package_sha256: c992088570cb5858ee0fd351e5a83c6703e2d797673bb1e8615a26e870588ced
+self_check: reviews/semantic/vol-02/ch-08-b01-self-check.md
+self_check_sha256: 0cecdc59654a229437be80dc7498944dbb8c973eb8c22151f212d90e8f9c8fc9
+allowlist:
+- reviews/prose/vol-02/ch-08-b01-argon-review.yml
+status: done
+lease:
+  holder: argon-reviewer-ch08-b01
+  task_id: vol-02-ch-08-b01-argon-review
+  role: terminology_review_argon
+  pane_id: w6:pPY
+  terminal_id: term_65dcda1a1b1c52e2
+  agent_session_id: a2c9e42c-cb0f-4c61-b082-8b7fede6c1f4
+  checkpoint_generation: 1492
+  state: released
+  allowlist:
+  - reviews/prose/vol-02/ch-08-b01-argon-review.yml
