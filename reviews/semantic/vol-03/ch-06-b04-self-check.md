@@ -1,0 +1,34 @@
+# Báo cáo tự kiểm tra — `vol-03-ch-06-b04`
+
+- **Vai trò:** Translator (`argon-low`)
+- **Task ID:** `vol-03-ch-06-b04`
+- **Phạm vi:** `YS-LN03/Text/chapter006_002.xhtml/p000098` đến `YS-LN03/Text/chapter006_002.xhtml/p000129` (32 đoạn)
+- **Tệp kết quả:** `translations/vol-03/ch-06-b04.jsonl`
+
+## 1. Kiểm tra nghĩa, phủ định, giả định và logic
+- **`p000098`–`p000100`:** Khép lại cảnh liên lạc vô tuyến sóng ngắn từ B03: rắc rối là tín hiệu đầy tạp âm và chất lượng sóng ngắn trên chiến trường cực kỳ tệ hại (`p000098`). `Đại úy Carlos` xin lỗi vì lính bắn tỉa địch đã bắn hỏng toàn bộ máy móc nên đó là mức tốt nhất có thể làm, và Tanya chấp nhận xoay xở với điều kiện hiện có để bắt tay vào việc chính (`p000099`–`p000100`).
+- **`p000101`–`p000108`:** Chuyển cảnh (`space-break2`) sang điểm nhìn của `Grantz` hồi tưởng về chuyến hải trình xuôi nam trên con tàu chở hàng cải hoán của `Reichspost` vốn tiện nghi đáng ngạc nhiên đối với một tàu chở quân, đến mức có lẽ sự đãi ngộ tốt cùng bữa trưa tại `nhà ăn sĩ quan` mà hải quân tự hào (ngay cả chỉ huy tiểu đoàn cũng chấm đạt điểm đậu) đã làm họ thả lỏng quá mức (`p000101`–`p000103`). Tuy nhiên, `Grantz` thầm nghĩ ngay từ đầu họ phải đến đây cũng là lỗi của vị chỉ huy tiểu đoàn: ngay trước lệnh ngừng bắn, cô đã định vượt quá thẩm quyền, thậm chí giống chống lệnh hơn khi chiến dịch và đơn kháng nghị đều bị bác bỏ mà cô vẫn túm lấy ve áo `chỉ huy căn cứ` đe dọa ông rồi gạt phắt nỗ lực ngăn cản của ông để suýt xuất kích (`p000104`–`p000107`). Việc đó khiến sĩ quan phụ tá lâu năm là `Trung úy Weiss` phải lẩm bẩm tự hỏi liệu cô có bị đưa ra `tòa án binh` không và suốt một thời gian tưởng như trát triệu tập sắp gửi tới, nhưng trớ trêu thay mối đe dọa từ bên ngoài đã thổi bay mọi rắc rối đó (`p000107`–`p000108`).
+- **`p000109`–`p000119`:** Mối đe dọa đó chính là sự can thiệp của `Khối Thịnh vượng chung`: trên danh nghĩa `Cộng hòa` nhờ họ làm trung gian đàm phán hòa bình, nhưng các nhà đàm phán lại đưa ra đúng những điều khoản từng bị bác bỏ trong bản “thông báo” trước đó với giả định chúng sẽ bị bác bỏ lần nữa, kèm một “thông báo cuối cùng” áp đặt một chiều (`p000109`–`p000112`). `Đế quốc` lập tức bác bỏ thẳng thừng `tối hậu thư` đó như dự đoán, nhưng lại không ngờ tới tuyên bố kháng chiến toàn diện của phía `Cộng hòa`: trong khi `Đế quốc` đàm phán dựa trên giả định về một cuộc đầu hàng có điều kiện, `Tướng de Lugo` dẫn đầu tàn quân đào thoát đã lấy tư cách `Thứ trưởng Quốc phòng` tuyên bố kháng chiến và tự nhận mình cùng những người ủng hộ mới là chính phủ Cộng hòa chân chính (`p000113`–`p000114`). Dù chính phủ chính thức nằm ở thủ đô bị chiếm đóng, binh lính và hầu hết thuộc địa đều theo `de Lugo`; trái với suy nghĩ rằng ông ta chỉ là con rối của `Khối Thịnh vượng chung`, ông ta tuyên bố thành lập `Cộng hòa Tự do` và tập hợp các thuộc địa ở lục địa phía nam tiếp tục kháng chiến (`p000115`–`p000116`). Lực lượng Cộng hòa đồn trú tại lục địa phía nam vốn được trang bị rất nặng kèm các pháp sư nhằm đối phó `Khối Thịnh vượng chung` hoặc `Vương quốc Ildoa`, tạo thành mối đe dọa không nhỏ khiến `Bộ Tổng tham mưu Lục quân Đế quốc` lâm vào cảnh bí thế (`p000117`–`p000118`). Để vừa giữ lại trên chính quốc một số lượng quân nhất định vừa giải quyết tình hình lục địa phía nam trước liên minh `Cộng hòa Tự do` – `Khối Thịnh vượng chung`, cấp trên quyết định cần đến chỉ huy tiểu đoàn của `Grantz` bất chấp xu hướng tự ý hành động của cô (`p000119`).
+- **`p000120`–`p000129`:** Cơn thịnh nộ của cấp trên chỉ dừng ở mức hủy bỏ toàn bộ hồ sơ đề nghị trao thưởng huân chương đang chờ duyệt của cô từ `mặt trận Rhine`, và đổi lại giá trị của một lực lượng pháp sư hùng mạnh được nhìn nhận rõ ràng khiến `Grantz` cùng đồng đội vừa ngạc nhiên vừa vui sướng vì được tăng lương đáng kể—dù giữa vùng đất phương nam phủ đầy sa mạc khắc nghiệt thì chẳng có chỗ tiêu tiền và họ chỉ biết thèm một cốc bia lạnh buốt (`p000120`–`p000124`). Ngoài chuyện đó ra, cả đơn vị cũng như `Trung úy Weiss` và chỉ huy tiểu đoàn đều đồng tình với chiến lược trấn áp mạnh tay, đánh vào các thuộc địa của `Khối Thịnh vượng chung` và `Cộng hòa` để tước bỏ khả năng tiếp tục chiến đấu (`p000125`–`p000127`). Vấn đề thực sự nằm ở chất lượng các đơn vị tuyến hai (quân dự bị và quân bổ sung gom góp vội vàng, thiếu huấn luyện trầm trọng) được triển khai tới phương nam: họ tệ đến mức khiến ngay cả `Grantz`—người từng bị coi như chú gà con chưa rụng hết vỏ trứng ở `mặt trận Rhine`—cũng trông như một người lính đã được trang bị đầy đủ, giải thích lý do cấp trên coi trọng một đơn vị đã trải qua lửa sắt rửa tội ở vùng `Rhine` (`p000128`–`p000129`).
+
+## 2. Kiểm tra đại từ và giọng điệu (`DEC-P01-001`)
+- **Điểm nhìn Tanya (`p000098`–`p000100`):**
+  - Trần thuật tại `p000098` giữ đại từ `Nó` cho Tanya theo đúng `DEC-P01-001`.
+  - Lời thoại vô tuyến giữa `Đại úy Carlos` và Tanya (`p000099`–`p000100`) giữ đại từ `tôi` – `chúng ta`, nối mạch trực tiếp từ cuối B03 (`p000097`).
+- **Điểm nhìn Grantz (`p000101`–`p000129`):**
+  - Từ `p000101` sau ngắt cảnh `space-break2`, điểm nhìn chuyển sang `Grantz` và tập thể tiểu đoàn (`họ`, `chúng ta` trong độc thoại tại `p000104`).
+  - Khi quy chiếu về Tanya từ góc nhìn của `Grantz` (`chỉ huy tiểu đoàn` / `chỉ huy`), dùng đại từ `cô` / `cô ấy` (`p000104`–`p000107`, `p000119`–`p000120`) đúng với tôn ti cấp dưới nhìn cấp trên nữ và không áp dụng đại từ `nó` ngoài điểm nhìn Tanya theo giới hạn của `DEC-P01-001`.
+
+## 3. Kiểm tra nhấn mạnh (`DEC-P01-002`)
+- Trong 32 đoạn của lô, có đúng 3 đoạn chứa thẻ nhấn mạnh `<html:em class="calibre4">...</em>` trong nguồn và đã được biểu diễn chính xác bằng `*...*`:
+  - `p000104`: `*Dù nói vậy, ngay từ đầu chúng ta phải đến đây cũng là tại cô ấy.*`
+  - `p000109`: `*Sự can thiệp của Khối Thịnh vượng chung…*`
+  - `p000126`: `*Trấn áp mạnh tay là một chiến lược tốt.*`
+- Tất cả 29 đoạn còn lại không có nhấn mạnh trong nguồn nên không dùng `*...*`.
+
+## 4. Thuật ngữ và mục đề xuất mới (Pending Terms)
+- Kế thừa nhất quán từ sổ pending và các batch trước: `sóng ngắn` (`p000098`), `chỉ huy tiểu đoàn` (`p000103`, `p000107`, `p000119`), `lệnh ngừng bắn` (`p000105`), `chỉ huy căn cứ` (`p000106`), `Trung úy Weiss` (`p000107`, `p000127`), `sĩ quan phụ tá` (`p000107`), `tòa án binh` (`p000107`), `Khối Thịnh vượng chung` (`p000109`–`p000110`, `p000113`, `p000116`–`p000117`, `p000119`, `p000125`), `Cộng hòa` (`p000110`, `p000114`, `p000117`, `p000125`), `Đế quốc` (`p000113`–`p000116`, `p000119`), `Tướng de Lugo` (`p000114`), `Thứ trưởng Quốc phòng` (`p000114`), `Cộng hòa Tự do` (`p000116`, `p000119`), `Vương quốc Ildoa` (`p000117`), `Bộ Tổng tham mưu Lục quân Đế quốc` (`p000118`), `mặt trận Rhine` (`p000120`, `p000129`).
+- Ghi nhận đề xuất thuật ngữ mới trong lô (trạng thái `pending`, không tự nâng thành canon):
+  - `Reichspost` → `Reichspost` (`p000101`)
+  - `officer mess` → `nhà ăn sĩ quan` (`p000103`)
+  - `second-string units` → `các đơn vị tuyến hai` (`p000128`)
