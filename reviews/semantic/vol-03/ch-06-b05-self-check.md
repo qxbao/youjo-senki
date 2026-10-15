@@ -1,0 +1,38 @@
+# Báo cáo tự kiểm tra — `vol-03-ch-06-b05`
+
+- **Vai trò:** Translator (`argon-low`)
+- **Task ID:** `vol-03-ch-06-b05`
+- **Phạm vi:** `YS-LN03/Text/chapter006_002.xhtml/p000130` đến `YS-LN03/Text/chapter006_002.xhtml/p000169` (40 đoạn)
+- **Tệp kết quả:** `translations/vol-03/ch-06-b05.jsonl`
+
+## 1. Kiểm tra nghĩa, phủ định, giả định và logic
+- **`p000130`–`p000135`:** Khép lại phần hồi tưởng trên tàu chở quân từ cuối B04 và chuyển về thực tại chiến trường của `Grantz`: đám cựu binh lắm chuyện đặt cược khi nào tư lệnh quân đoàn là `Tướng von Romel` sẽ bùng nổ trước chất lượng quân tuyến hai, với cửa cược phổ biến nhất là ông đã nổi trận lôi đình rồi (`p000130`). Tiểu đoàn của họ được chào đón nồng nhiệt nhờ có toàn cựu binh; nhìn con tàu chở quân là thấy `Tư lệnh von Romel` kỳ vọng nhiều đến mức nào, nhưng `Grantz` hiện tại chỉ muốn đấm cho bản thân trong quá khứ vì từng nghĩ được kỳ vọng không phải chuyện xấu (`p000131`–`p000133`). Sau khi thầm nện cho bản thân trong quá khứ một cú nhẹ trong đầu, `Thiếu úy Ma pháp Warren Grantz` tập trung vào nhiệm vụ đơn giản trước mắt (`p000134`–`p000135`).
+- **`p000136`–`p000148`:** Nhiệm vụ là đối phó lính bắn tỉa ngụy trang giữa vùng sa mạc nhấp nhô mênh mông đầy chỗ ẩn nấp: vì kẻ địch khôn ngoan không dễ lộ diện, lựa chọn duy nhất của `Grantz` và các đơn vị là dùng `công thức nổ` thổi tung cả khu vực, nhưng lại không có cách nào xác nhận đã diệt được địch hay chưa (`p000136`). Giữa lúc `sở chỉ huy` phát thông báo gọi toàn bộ các đơn vị (`p000137`), cát bụi sa mạc còn làm hỏng cả súng trường bộ binh bền bỉ và khiến các cỗ máy khác hết thuốc chữa; dù `Quả cầu Tính toán Xung kích Type 97` mới nhất rất đáng tin cậy, các viên đạn ma pháp dùng để nạp giữ công thức lại không ổn định và đòi hỏi kiểm tra liên tục, khiến việc tác chiến gần như bất khả thi (`p000138`). Tuy nhiên, cấp trên không (và không thể) xét đến điều đó vì `Tư lệnh von Romel` kiên quyết đánh cơ động bất chấp môi trường điên rồ (`p000139`). Mệnh lệnh giữ nguyên không đổi, yêu cầu khép chặt hai sườn và bước ngay vào `chiến tranh cơ động` từ khoảnh khắc đổ bộ nhằm đánh úp khi địch còn mất cảnh giác và chưa kịp ổn định các tuyến tiếp tế cùng hậu cần (`p000140`–`p000143`). `Fairy 01` gọi `Kampfgruppe Bảy` đẩy phòng tuyến lên và `Cerberus 01` gọi `Kampfgruppe Ba` theo sau sẵn sàng yểm trợ mũi đột phá (`p000144`–`p000145`). Khó khăn nằm ở học thuyết ghìm chân địch ở trung tâm rồi vòng ra sau bao vây tiêu diệt: cánh ven biển còn đỡ, chứ lệnh cơ động bọc sườn bằng cuộc hành quân đường dài ở tốc độ tác chiến qua sa mạc gần như không có cột mốc địa hình với trình độ huấn luyện của `Kampfgruppe Bảy` và `Ba` khiến họ chỉ muốn quay về chính quốc hoặc bãi biển ở `Brest` (`p000146`–`p000148`).
+- **`p000149`–`p000165`:** Nhận lệnh chuẩn bị bay theo đội hình, giữ vị trí và kiểm tra tín hiệu dẫn đường báo cáo trực tiếp cho chỉ huy tiểu đoàn từ `CP`, họ kiểm tra máy thu và nhận ra người phát tín hiệu dẫn đường kiêm bay dẫn đầu chính là `Thiếu tá von Degurechaff` (`p000149`–`p000153`). Trong khi lính từ các `Kampfgruppe` chỉ ngạc nhiên, `Grantz` hiểu rõ sự vất vả siêu phàm khi cô vừa chỉ huy tác chiến vừa bay dẫn đầu đội hình—việc mà nếu là anh thì sẽ quay cuồng vì định hướng và trở nên vô dụng trong vai trò chỉ huy (`p000154`–`p000155`). Vừa nghĩ vậy, `Grantz` vẫn chuẩn bị bằng các thao tác thuần thục, giữ cái nhìn không ủy mị và nhắc thuộc cấp kiểm tra kính bảo hộ nếu không muốn bị mù (`p000156`–`p000158`). Là một sĩ quan trẻ linh hoạt, anh sớm hiểu vì sao `Thiếu tá von Degurechaff` đem theo loại `kính bảo hộ hàng không` cỡ lớn hơn cho tác chiến sa mạc và bắt thuộc cấp đeo bất chấp lời phàn nàn rằng chúng to nặng, vì chúng giúp giảm chói và chắn cát bụi (`p000159`–`p000161`). Khi `Fairy 01` phát lệnh cho `Kampfgruppe Bảy` bắt đầu tiến quân, họ lập tức lên đường: bất kể nơi đâu hay môi trường thế nào, chiến đấu là ý chí của cả đất nước `Thiếu úy Grantz` lẫn các quốc gia khác, nên người lính buộc phải chấp hành (`p000162`–`p000165`).
+- **`p000166`–`p000169`:** Chuyển cảnh sang tiêu đề cùng ngày tại `CUỘC HỌP QUỐC PHÒNG LÂM THỜI CỦA CỘNG HÒA TỰ DO` (`p000166`). Đối lập với bên thắng trận ăn mừng, bên chịu tổn thất thấy tình cảnh không sao chịu nổi (`p000167`). `Tướng de Lugo` uống cạn tách trà, thở dài ngước nhìn trần nhà với vẻ chán ngấy trước màn đổ lỗi gay gắt không hồi kết giữa các thành viên dự họp, rồi cụp mắt nhìn xấp tài liệu trên bàn (`p000168`). Chỉ riêng việc tổng hợp và soạn thảo báo cáo cho một cuộc chạm trán đơn lẻ cũng đã vắt kiệt sức ông ta, vì phần lớn các báo cáo thay vì thuật lại diễn biến trận đánh với `Lục quân Đế quốc` lại chủ yếu chỉ trích đồng nghiệp và tự tâng bốc bản thân (`p000169`).
+
+## 2. Kiểm tra đại từ và giọng điệu (`DEC-P01-001`)
+- **Điểm nhìn Grantz (`p000130`–`p000165`):**
+  - Trần thuật quy chiếu `Grantz` bằng `anh`, tập thể đơn vị bằng `họ`, và độc thoại nội tâm của `Grantz` dùng `mình` / `chúng ta` (`p000132`, `p000133`, `p000155`).
+  - Khi quy chiếu `Thiếu tá von Degurechaff` (`chỉ huy tiểu đoàn`) từ góc nhìn của `Grantz`, dùng `cô` / `cô ấy` (`p000154`, `p000155`) nhất quán với B04; không mở rộng quy ước đại từ `nó` của `DEC-P01-001` sang điểm nhìn của `Grantz`.
+  - Quy chiếu `Tướng von Romel` (`Tư lệnh von Romel`) bằng `ông` / `ông ấy` (`p000130`, `p000132`, `p000139`).
+- **Điểm nhìn Tướng de Lugo (`p000166`–`p000169`):**
+  - Quy chiếu `Tướng de Lugo` bằng `ông ta` (`p000168`, `p000169`), đồng bộ với lựa chọn đã khóa ở B04 (`p000114`, `p000116`) và Chương 5 B11 (`p000164`).
+
+## 3. Kiểm tra nhấn mạnh (`DEC-P01-002`)
+- Trong 40 đoạn của lô, có đúng 4 đoạn chứa thẻ nhấn mạnh `<html:em class="calibre4">...</em>` trong nguồn và đã được biểu diễn chính xác bằng `*...*`:
+  - `p000132` (hai câu cuối đoạn): `*Ông ấy rõ ràng kỳ vọng rất nhiều ở chúng ta. Và việc được kỳ vọng vốn chẳng phải chuyện gì xấu.*`
+  - `p000133` (toàn đoạn): `*…Mình muốn đấm cho bản thân trong quá khứ một cú vì đã nghĩ như vậy.*`
+  - `p000153` (câu đầu đoạn): `*Quả nhiên.*`
+  - `p000155` (toàn đoạn): `*Cô ấy vừa chỉ huy tác chiến vừa bay dẫn đầu đội hình. Bộ não của cô ấy ắt phải có năng lực xử lý siêu phàm. Còn mình thì hẳn sẽ quay cuồng với chuyện định hướng dẫn đường và trở nên vô dụng trong vai trò chỉ huy mất.*`
+- Tất cả 36 đoạn còn lại không có nhấn mạnh trong nguồn nên không dùng `*...*`.
+
+## 4. Thuật ngữ và mục đề xuất mới (Pending Terms)
+- Kế thừa nhất quán từ sổ pending và các batch trước: `Tướng von Romel` / `Tư lệnh von Romel` (`p000130`, `p000132`, `p000139`), `tư lệnh quân đoàn` (`p000130`), `Thiếu úy Ma pháp Warren Grantz` / `Thiếu úy Grantz` (`p000134`, `p000164`), `sở chỉ huy` (`p000137`), `quả cầu tính toán` (`p000138`), `Quả cầu Tính toán Xung kích Type 97` (`p000138`), `chiến tranh cơ động` (`p000142`), `các tuyến tiếp tế` (`p000143`), `Fairy 01` (`p000144`, `p000162`), `Kampfgruppe Bảy` / `Kampfgruppe Ba` (`p000144`–`p000145`, `p000148`, `p000162`), `chính quốc` (`p000148`), `chỉ huy tiểu đoàn` (`p000150`, `p000153`), `CP` (`p000152`), `Thiếu tá von Degurechaff` (`p000153`, `p000159`), `trận tác chiến cơ động cao` (`p000156`), `lục địa phía nam` (`p000161`), `Cộng hòa Tự do` (`p000166`), `Tướng de Lugo` (`p000168`), `Lục quân Đế quốc` (`p000169`).
+- Ghi nhận đề xuất thuật ngữ mới trong lô (trạng thái `pending`, không tự nâng thành canon):
+  - `explosion formulas` → `công thức nổ` (`p000136`)
+  - `Cerberus 01` → `Cerberus 01` (`p000145`)
+  - `outflanking maneuver` → `mũi cơ động bọc sườn` (`p000146`)
+  - `guiding beacon` / `beacon` → `tín hiệu dẫn đường` (`p000150`, `p000153`)
+  - `aviation goggles` → `kính bảo hộ hàng không` (`p000159`)
+  - `Free Republic Provisional National Defense Meeting` → `Cuộc họp Quốc phòng Lâm thời của Cộng hòa Tự do` (`p000166`)
