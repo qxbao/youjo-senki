@@ -1,0 +1,29 @@
+# Báo cáo tự kiểm tra — `vol-03-ch-05-b12`
+
+- **Vai trò:** Translator (`argon-low`)
+- **Task ID:** `vol-03-ch-05-b12`
+- **Phạm vi:** `YS-LN03/Text/chapter005_004.xhtml/p000176` đến `YS-LN03/Text/chapter005_004.xhtml/p000204` (29 đoạn)
+- **Tệp kết quả:** `translations/vol-03/ch-05-b12.jsonl`
+
+## 1. Kiểm tra nghĩa, phủ định, giả định và logic
+- **`p000176`–`p000182`:** Bảo toàn mạch chuyển tiếp từ `b11`: Bộ Tổng tham mưu hoàn toàn đón nhận sự ủng hộ của công chúng đối với việc tiếp tục cuộc chiến (`p000176`), nhưng lại hoảng sợ trước sự xuất hiện của một người hùng tại lục địa phía nam cùng việc ngày càng không thể ước lượng được thời điểm rút lui (`p000177`). Giữ rõ sự đối lập giữa phe kiểm soát tổn thất tập hợp quanh Trung tướng von Zettour và phe hiếu chiến muốn mở rộng thành quả chiến tranh (`p000178`), nhận định rằng việc điều thêm quân vượt quá mức tối cần thiết là sự lãng phí nguồn lực khó chấp nhận và gánh nặng tiếp tế vượt sức chịu đựng (`p000179`), cùng ba câu hỏi tu từ ngắn liên tiếp về tàu hộ tống đoàn vận tải, tàu vận tải và các đơn vị chi viện trực tiếp (`p000180`–`p000182`).
+- **`p000183`–`p000189`:** Giữ nguyên nỗi lo chung của các sĩ quan hậu cần và giới hạn căn bản từ học thuyết chiến lược tuyến nội địa của Lục quân Đế quốc khiến họ không chắc có thể triển khai sức mạnh bài bản ở nước ngoài (`p000183`); sự khác biệt khi cơ động một quân đoàn ở lục địa phía nam với lộ trình phức tạp của từng khẩu súng trường và rủi ro hư hại hay chìm tàu (`p000184`); tầm nhìn vận tải biển trước đây chỉ giới hạn ở việc đưa đón quân tới vùng chiếm đóng Norden nên thiếu tàu vận tải và bảo dưỡng chậm chạp (`p000185`); nhược điểm của một quốc gia lục địa thiếu khái niệm bảo vệ tuyến hàng hải huyết mạch và lý thuyết hộ tống đoàn tàu chỉ dừng ở mức cơ bản (`p000186`). Đối lập với khả năng tự cung tự cấp tương đối nhờ nền tảng công nghiệp tại thuộc địa và số lượng tàu bè áp đảo của Khối Thịnh vượng chung cùng Cộng hòa (`p000187`), trong khi nguồn tiếp tế từ các khu vực ảnh hưởng mới của Đế quốc chỉ gắn kết dựa trên lợi ích chung khiến bất kỳ người lính chân chính nào cũng lo ngại khi phải phụ thuộc vào đó (`p000188`–`p000189`).
+- **`p000190`–`p000193`:** Giữ đúng thế tiến thoái lưỡng nan trong cuộc tranh luận tại Bộ Tổng tham mưu (muốn ngăn mặt trận mở rộng thêm nhưng không thể làm ngơ trước kẻ địch ngay trước mắt), định hướng của Zettour về việc chấn chỉnh lại phòng tuyến và vận dụng ảnh hưởng ở hậu trường (`p000191`), cùng bước ngoặt khi báo cáo về một đại thắng và đợt tấn công bồi thêm từ phương nam gửi về trước khi Bộ Tổng tham mưu kịp kết luận—tin tức sẽ vừa đẩy công chúng vào cơn cuồng nhiệt mới vừa gây khó khăn hậu cần cho Zettour mà ông chưa hề hay biết (`p000192`–`p000193`).
+- **`p000194`–`p000204`:** Bảo toàn mốc thời gian – địa điểm `NGÀY 4 THÁNG 9, NĂM THỐNG NHẤT 1925, THỦ ĐÔ ĐẾ QUỐC` (`p000194`) và mạch hồi tưởng từ điểm nhìn của Tướng von Romel: từ sự hào hứng ban đầu khi nghe về các thuộc cấp đến nỗi thất vọng khi danh sách biên chế chỉ có hai sư đoàn—một sư đoàn bộ binh nhẹ gồm tân binh và quân dự bị, một sư đoàn gồm số ít cựu binh nhưng chịu tổn thất nặng nề từ mặt trận Rhine nên thực lực thực tế không tương xứng với con số *x* trên giấy tờ (`p000195`–`p000198`). Giữ rõ việc Romel cho rằng mệnh lệnh đánh chiến dịch phía nam bằng quân tuyến hai chắp vá là phi lý, nhiều lần kiến nghị và nài ép Bộ Tổng tham mưu để rồi nhận được một tiểu đoàn pháp sư tăng cường tinh nhuệ trực thuộc bộ phận Hậu cần và Cục Tác chiến (`p000199`–`p000200`), trước khi sự phấn khích bị dập tắt lúc đọc hồ sơ đánh giá vị chỉ huy—dù bản thân các đánh giá từ học viện (đạt chuẩn sĩ quan cấp tá) và Trường Đại học Chiến tranh (hoàn thành đào tạo cao cấp để đủ tư cách làm sĩ quan Bộ Tổng tham mưu, đáp ứng mọi tiêu chuẩn đáng mong đợi) đều rất tốt đẹp (`p000201`–`p000204`).
+
+## 2. Kiểm tra đại từ và giọng điệu (`DEC-P01-001`)
+- **`p000176`–`p000193`:** Trần thuật ngôi thứ ba từ góc nhìn chiến lược tại Bộ Tổng tham mưu; quy chiếu `Lieutenant General von Zettour` bằng `ông`, các tập thể bằng `họ`, kẻ địch bằng `chúng`.
+- **`p000195`–`p000204`:** Trần thuật ngôi thứ ba gắn với điểm nhìn của `General von Romel` (`ông`). Tại `p000203`–`p000204`, vị chỉ huy tiểu đoàn pháp sư tăng cường được nhìn qua hồ sơ nhân sự từ góc nhìn của Romel nên dùng đại từ `cô` (nhất quán với cách Zettour/Rudersdorf nhìn nhận `Thiếu tá von Degurechaff` từ góc nhìn tướng lĩnh ở `ch-05-b07`), không áp dụng đại từ trần thuật `nó` vốn chỉ giới hạn cho điểm nhìn trần thuật trực tiếp về Tanya theo `DEC-P01-001`.
+
+## 3. Kiểm tra nhấn mạnh (`DEC-P01-002`)
+- Nguồn có duy nhất một vị trí in nghiêng tại `p000198` (`<html:em class="calibre4">x</html:em>`), đã biểu diễn chính xác bằng `*x*` trong `translation`.
+- Các đoạn còn lại không có nhấn mạnh trong nguồn nên không dùng `*...*`.
+
+## 4. Thuật ngữ và mục đề xuất mới (Pending Terms)
+- Kế thừa nhất quán từ các batch trước: `Bộ Tổng tham mưu`, `lục địa phía nam`, `Trung tướng von Zettour`, `chiến lược tuyến nội địa`, `Lục quân Đế quốc`, `Norden`, `Khối Thịnh vượng chung`, `Cộng hòa`, `sư đoàn bộ binh nhẹ`, `mặt trận Rhine`, `Tướng von Romel`, `bộ phận Hậu cần`, `Cục Tác chiến`, `sĩ quan cấp tá`, `Trường Đại học Chiến tranh`, `sĩ quan ma pháp`.
+- Ghi nhận các đề xuất thuật ngữ/định danh mới (trạng thái `pending`, không tự nâng thành canon):
+  - `loss control faction` / `aggressive faction` → `phe kiểm soát tổn thất` / `phe hiếu chiến` (`p000178`, `p000183`)
+  - `convoy ships` / `transport ships` / `convoying` → `tàu hộ tống đoàn vận tải` / `tàu vận tải` / `hoạt động hộ tống đoàn tàu` (`p000180`, `p000181`, `p000185`, `p000186`)
+  - `direct support units` → `các đơn vị chi viện trực tiếp` (`p000182`)
+  - `augmented mage battalion` → `tiểu đoàn pháp sư tăng cường` (`p000200`)
+  - `general staff officer` → `sĩ quan Bộ Tổng tham mưu` (`p000204`)
