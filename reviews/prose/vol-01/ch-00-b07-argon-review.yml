@@ -1,0 +1,559 @@
+task_id: vol-01-ch-00-b07-argon-review
+parent_task_id: vol-01-ch-00-b07
+batch: vol-01-ch-00-b07
+role: reviewer
+reviewer: gemini-4-argon-medium
+model: gemini-4-argon-medium
+volume: vol-01
+chapter: 0
+status: needs_revision
+state: done
+review_path: reviews/prose/vol-01/ch-00-b07-argon-review.yml
+translation_path: translations/vol-01/ch-00-b07.jsonl
+source_package: work/vol-01/batches/ch-00-b07-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: f47e8d1340d2e25024d1d10d44468c2a8aca49135ee7c1e3bc549cdffa47d190
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+segment_id_start: YS-LN01/Text/chapter001.xhtml/p000129
+segment_id_end: YS-LN01/Text/chapter001.xhtml/p000154
+unit_count: 26
+segment_ids:
+- YS-LN01/Text/chapter001.xhtml/p000129
+- YS-LN01/Text/chapter001.xhtml/p000130
+- YS-LN01/Text/chapter001.xhtml/p000131
+- YS-LN01/Text/chapter001.xhtml/p000132
+- YS-LN01/Text/chapter001.xhtml/p000133
+- YS-LN01/Text/chapter001.xhtml/p000134
+- YS-LN01/Text/chapter001.xhtml/p000135
+- YS-LN01/Text/chapter001.xhtml/p000136
+- YS-LN01/Text/chapter001.xhtml/p000137
+- YS-LN01/Text/chapter001.xhtml/p000138
+- YS-LN01/Text/chapter001.xhtml/p000139
+- YS-LN01/Text/chapter001.xhtml/p000140
+- YS-LN01/Text/chapter001.xhtml/p000141
+- YS-LN01/Text/chapter001.xhtml/p000142
+- YS-LN01/Text/chapter001.xhtml/p000143
+- YS-LN01/Text/chapter001.xhtml/p000144
+- YS-LN01/Text/chapter001.xhtml/p000145
+- YS-LN01/Text/chapter001.xhtml/p000146
+- YS-LN01/Text/chapter001.xhtml/p000147
+- YS-LN01/Text/chapter001.xhtml/p000148
+- YS-LN01/Text/chapter001.xhtml/p000149
+- YS-LN01/Text/chapter001.xhtml/p000150
+- YS-LN01/Text/chapter001.xhtml/p000151
+- YS-LN01/Text/chapter001.xhtml/p000152
+- YS-LN01/Text/chapter001.xhtml/p000153
+- YS-LN01/Text/chapter001.xhtml/p000154
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+counts:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000150
+  severity: moderate
+  category: pronoun_referent_and_logic
+  issue: "Câu áp chót của p000150 dịch đại từ khái quát (generic pronoun) thành “ngài” (“Với lại, ngài là nam hay nữ cũng chẳng quan trọng.”), làm lệch chủ thể từ con người nói chung sang Being X."
+  evidence: "Trong mạch lập luận từ p000115 (nhân vật chính viện cớ mình là nam giới về mặt sinh học nên có bản năng tình dục), p000138 (Being X kết tội nhân vật chính bị dục vọng chi phối), p000144 (Being X tóm lược 4 lý do khiến nhân vật chính vô tín: từng là đàn ông, sống trong thế giới khoa học, không biết chiến tranh, không bị đe dọa) đến p000147 (Being X dọa sẽ “khắc phục điều đó”), nhân vật chính ở p000148 và p000150 đang lần lượt rút lại cả 4 lý do để ngăn Being X thực hiện biện pháp “khắc phục”. Ở hai câu cuối p000150, nhân vật chính phản bác trực tiếp điểm “từng là đàn ông” ở p000144 bằng lập luận: dù một người là nam hay nữ thì cũng chẳng khác gì nhau vì cả hai giới đều có ham muốn tình dục. Dịch thành “ngài là nam hay nữ” khiến câu văn biến thành bàn về giới tính của Being X, đứt mạch nhân quả với p000144 và câu kết ngay sau đó."
+  recommendation: "Bỏ đại từ “ngài” ở mệnh đề này và dịch theo nghĩa khái quát chỉ con người, ví dụ: “Với lại, dù là nam hay nữ thì cũng chẳng quan trọng. Rõ ràng cả hai giới đều có ham muốn tình dục!” (hoặc “Với lại, chuyện là nam hay nữ cũng chẳng quan trọng.”)."
+unresolved_findings:
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000150
+  severity: moderate
+  category: pronoun_referent_and_logic
+  issue: "Đại từ khái quát ở câu áp chót bị dịch thành “ngài”, làm lệch đối tượng quy chiếu sang Being X thay vì phản biện lại giả định “vì ngươi từng là đàn ông” tại p000144."
+  recommendation: "Sửa “Với lại, ngài là nam hay nữ cũng chẳng quan trọng.” thành “Với lại, dù là nam hay nữ thì cũng chẳng quan trọng.” (hoặc “Với lại, chuyện là nam hay nữ cũng chẳng quan trọng.”)."
+pending_term_recommendations:
+- id: P05-being-x
+  source_term: Being X
+  proposed_vi: "Being X (thoại: ta - ngươi/các ngươi, số nhiều tự xưng bọn ta; trần thuật: ông ta; đối đáp của nhân vật chính: tôi - ông, chuyển sang tôi - ngài từ giữa p000148 khi xu nịnh)"
+  alternatives_vi:
+  - Thực thể X
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000129
+  - YS-LN01/Text/chapter001.xhtml/p000131
+  - YS-LN01/Text/chapter001.xhtml/p000132
+  - YS-LN01/Text/chapter001.xhtml/p000133
+  - YS-LN01/Text/chapter001.xhtml/p000135
+  - YS-LN01/Text/chapter001.xhtml/p000136
+  - YS-LN01/Text/chapter001.xhtml/p000137
+  - YS-LN01/Text/chapter001.xhtml/p000138
+  - YS-LN01/Text/chapter001.xhtml/p000139
+  - YS-LN01/Text/chapter001.xhtml/p000140
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  - YS-LN01/Text/chapter001.xhtml/p000143
+  - YS-LN01/Text/chapter001.xhtml/p000144
+  - YS-LN01/Text/chapter001.xhtml/p000146
+  - YS-LN01/Text/chapter001.xhtml/p000147
+  - YS-LN01/Text/chapter001.xhtml/p000148
+  - YS-LN01/Text/chapter001.xhtml/p000150
+  - YS-LN01/Text/chapter001.xhtml/p000151
+  - YS-LN01/Text/chapter001.xhtml/p000153
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục P05-being-x, b07-being-x-we và b07-address-escalation trong work/run-state/pending-terms.yml: giữ nguyên định danh “Being X”, duy trì giọng bề trên “ta - ngươi/các ngươi” (và “bọn ta” tại p000140), đại từ trần thuật “ông ta” tại p000137, và bước chuyển có chủ ý từ “ông” sang “ngài” từ giữa p000148 đến p000150 khi nhân vật chính hạ giọng xu nịnh."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-flaw
+  source_term: flaw
+  proposed_vi: khiếm khuyết
+  alternatives_vi:
+  - khuyết điểm
+  - lỗ hổng
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000130
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  - YS-LN01/Text/chapter001.xhtml/p000143
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-flaw trong sổ pending; kết hợp tự nhiên và nhất quán trong cụm “khiếm khuyết trong mô hình kinh doanh” / “mô hình kinh doanh của ông có khiếm khuyết”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-contract
+  source_term: contract
+  proposed_vi: hợp đồng
+  alternatives_vi:
+  - khế ước
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000131
+  - YS-LN01/Text/chapter001.xhtml/p000132
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-contract trong sổ pending; “hợp đồng” khớp trực tiếp với trường từ vựng pháp lý - hành chính hiện đại (“thư bảo đảm”, “trao tận tay”, “phương tiện lưu trữ lâu bền”) mà nhân vật chính dùng để bắt bẻ Being X."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P05-enlightenment
+  source_term: enlightenment
+  proposed_vi: giác ngộ
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000131
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục P05-enlightenment trong sổ pending."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-permanent-medium
+  source_term: permanent medium
+  proposed_vi: phương tiện lưu trữ lâu bền
+  alternatives_vi:
+  - vật lưu trữ bền vững
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000132
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-permanent-medium trong sổ pending; giữ đúng sắc thái thuật ngữ hành chính - kỹ thuật hiện đại khi nhân vật chính chê trách việc không lưu văn bản hợp đồng."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-God
+  source_term: God
+  proposed_vi: "Thượng đế (dạng hô ngữ tại p000148: Thượng đế ơi)"
+  alternatives_vi:
+  - Chúa
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000133
+  - YS-LN01/Text/chapter001.xhtml/p000148
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-God và b07-god-vocative trong sổ pending; phân biệt rõ với “the Lord” (“Chúa”) trong cùng đoạn p000148."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: speaker-address-p000135
+  source_term: speaker attribution and tail question in p000135
+  proposed_vi: "Being X là người nói; dùng đại từ “ngươi” và đuôi câu hỏi “ngươi biết chứ?”"
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000135
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục speaker-address-p000135 trong sổ pending; ăn khớp trực tiếp với lời đáp “Ông bảo tôi biết, nhưng...” của nhân vật chính tại p000136."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-Creator
+  source_term: Creator
+  proposed_vi: Đấng Tạo Hóa (giữ sở hữu cách “Đấng Tạo Hóa của ngươi” tại p000138)
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000138
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-Creator trong sổ pending; bảo toàn sở hữu cách theo đúng quy định."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-moral-fiber
+  source_term: moral fiber
+  proposed_vi: bản lĩnh đạo đức
+  alternatives_vi:
+  - phẩm chất đạo đức
+  - một thớ đạo đức
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000138
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-moral-fiber trong sổ pending; tự nhiên trong câu phủ định toàn bộ “chẳng tìm đâu ra được một chút bản lĩnh đạo đức nào”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-reborn
+  source_term: reborn
+  proposed_vi: tái sinh
+  alternatives_vi:
+  - đầu thai
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000140
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-reborn trong sổ pending."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-average-life-expectancy
+  source_term: average life expectancy
+  proposed_vi: tuổi thọ trung bình
+  alternatives_vi:
+  - kỳ vọng sống trung bình
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-average-life-expectancy trong sổ pending; thuật ngữ nhân khẩu học phổ thông và tự nhiên trong ngữ cảnh."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-title-malthus
+  source_term: An Essay on the Principle of Population
+  proposed_vi: "giữ nguyên tên tác phẩm trong ngoặc kép “An Essay on the Principle of Population” kèm ký hiệu chú thích ³"
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-title-malthus trong sổ pending; không tự chèn chú giải ngoài nguồn và bảo toàn mốc chú thích ³."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-director-of-human-resources
+  source_term: director of human resources
+  proposed_vi: giám đốc nhân sự
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000146
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-director-of-human-resources trong sổ pending (nhất quán với p000069 và p000073)."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P06-lord
+  source_term: the Lord / my Lord
+  proposed_vi: "Chúa (p000148: ân sủng của Chúa; p000150: thưa Chúa!)"
+  alternatives_vi:
+  - Đức Chúa
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000148
+  - YS-LN01/Text/chapter001.xhtml/p000150
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục P06-lord trong sổ pending; giữ sự phân biệt với “God” (“Thượng đế”) ở p000148."
+  uncertainty: low
+  status: pending
+  canon: false
+term_recommendations:
+- id: P05-being-x
+  source_term: Being X
+  proposed_vi: "Being X (thoại: ta - ngươi/các ngươi, số nhiều tự xưng bọn ta; trần thuật: ông ta; đối đáp của nhân vật chính: tôi - ông, chuyển sang tôi - ngài từ giữa p000148 khi xu nịnh)"
+  alternatives_vi:
+  - Thực thể X
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000129
+  - YS-LN01/Text/chapter001.xhtml/p000131
+  - YS-LN01/Text/chapter001.xhtml/p000132
+  - YS-LN01/Text/chapter001.xhtml/p000133
+  - YS-LN01/Text/chapter001.xhtml/p000135
+  - YS-LN01/Text/chapter001.xhtml/p000136
+  - YS-LN01/Text/chapter001.xhtml/p000137
+  - YS-LN01/Text/chapter001.xhtml/p000138
+  - YS-LN01/Text/chapter001.xhtml/p000139
+  - YS-LN01/Text/chapter001.xhtml/p000140
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  - YS-LN01/Text/chapter001.xhtml/p000143
+  - YS-LN01/Text/chapter001.xhtml/p000144
+  - YS-LN01/Text/chapter001.xhtml/p000146
+  - YS-LN01/Text/chapter001.xhtml/p000147
+  - YS-LN01/Text/chapter001.xhtml/p000148
+  - YS-LN01/Text/chapter001.xhtml/p000150
+  - YS-LN01/Text/chapter001.xhtml/p000151
+  - YS-LN01/Text/chapter001.xhtml/p000153
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục P05-being-x, b07-being-x-we và b07-address-escalation trong work/run-state/pending-terms.yml: giữ nguyên định danh “Being X”, duy trì giọng bề trên “ta - ngươi/các ngươi” (và “bọn ta” tại p000140), đại từ trần thuật “ông ta” tại p000137, và bước chuyển có chủ ý từ “ông” sang “ngài” từ giữa p000148 đến p000150 khi nhân vật chính hạ giọng xu nịnh."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-flaw
+  source_term: flaw
+  proposed_vi: khiếm khuyết
+  alternatives_vi:
+  - khuyết điểm
+  - lỗ hổng
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000130
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  - YS-LN01/Text/chapter001.xhtml/p000143
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-flaw trong sổ pending; kết hợp tự nhiên và nhất quán trong cụm “khiếm khuyết trong mô hình kinh doanh” / “mô hình kinh doanh của ông có khiếm khuyết”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-contract
+  source_term: contract
+  proposed_vi: hợp đồng
+  alternatives_vi:
+  - khế ước
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000131
+  - YS-LN01/Text/chapter001.xhtml/p000132
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-contract trong sổ pending; “hợp đồng” khớp trực tiếp với trường từ vựng pháp lý - hành chính hiện đại (“thư bảo đảm”, “trao tận tay”, “phương tiện lưu trữ lâu bền”) mà nhân vật chính dùng để bắt bẻ Being X."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P05-enlightenment
+  source_term: enlightenment
+  proposed_vi: giác ngộ
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000131
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục P05-enlightenment trong sổ pending."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-permanent-medium
+  source_term: permanent medium
+  proposed_vi: phương tiện lưu trữ lâu bền
+  alternatives_vi:
+  - vật lưu trữ bền vững
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000132
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-permanent-medium trong sổ pending; giữ đúng sắc thái thuật ngữ hành chính - kỹ thuật hiện đại khi nhân vật chính chê trách việc không lưu văn bản hợp đồng."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-God
+  source_term: God
+  proposed_vi: "Thượng đế (dạng hô ngữ tại p000148: Thượng đế ơi)"
+  alternatives_vi:
+  - Chúa
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000133
+  - YS-LN01/Text/chapter001.xhtml/p000148
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-God và b07-god-vocative trong sổ pending; phân biệt rõ với “the Lord” (“Chúa”) trong cùng đoạn p000148."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: speaker-address-p000135
+  source_term: speaker attribution and tail question in p000135
+  proposed_vi: "Being X là người nói; dùng đại từ “ngươi” và đuôi câu hỏi “ngươi biết chứ?”"
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000135
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục speaker-address-p000135 trong sổ pending; ăn khớp trực tiếp với lời đáp “Ông bảo tôi biết, nhưng...” của nhân vật chính tại p000136."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-Creator
+  source_term: Creator
+  proposed_vi: Đấng Tạo Hóa (giữ sở hữu cách “Đấng Tạo Hóa của ngươi” tại p000138)
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000138
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-Creator trong sổ pending; bảo toàn sở hữu cách theo đúng quy định."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-moral-fiber
+  source_term: moral fiber
+  proposed_vi: bản lĩnh đạo đức
+  alternatives_vi:
+  - phẩm chất đạo đức
+  - một thớ đạo đức
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000138
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-moral-fiber trong sổ pending; tự nhiên trong câu phủ định toàn bộ “chẳng tìm đâu ra được một chút bản lĩnh đạo đức nào”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-reborn
+  source_term: reborn
+  proposed_vi: tái sinh
+  alternatives_vi:
+  - đầu thai
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000140
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-reborn trong sổ pending."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-average-life-expectancy
+  source_term: average life expectancy
+  proposed_vi: tuổi thọ trung bình
+  alternatives_vi:
+  - kỳ vọng sống trung bình
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-average-life-expectancy trong sổ pending; thuật ngữ nhân khẩu học phổ thông và tự nhiên trong ngữ cảnh."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b07-title-malthus
+  source_term: An Essay on the Principle of Population
+  proposed_vi: "giữ nguyên tên tác phẩm trong ngoặc kép “An Essay on the Principle of Population” kèm ký hiệu chú thích ³"
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000141
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục b07-title-malthus trong sổ pending; không tự chèn chú giải ngoài nguồn và bảo toàn mốc chú thích ³."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-director-of-human-resources
+  source_term: director of human resources
+  proposed_vi: giám đốc nhân sự
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000146
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-director-of-human-resources trong sổ pending (nhất quán với p000069 và p000073)."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P06-lord
+  source_term: the Lord / my Lord
+  proposed_vi: "Chúa (p000148: ân sủng của Chúa; p000150: thưa Chúa!)"
+  alternatives_vi:
+  - Đức Chúa
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000148
+  - YS-LN01/Text/chapter001.xhtml/p000150
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục P06-lord trong sổ pending; giữ sự phân biệt với “God” (“Thượng đế”) ở p000148."
+  uncertainty: low
+  status: pending
+  canon: false
+locked_choices:
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000129
+  locks:
+  - Giữ nét lắp bắp mở đầu “L-lúc nào”, cặp đại từ “ta - các ngươi”, cụm “lũ hoài nghi..., chẳng có lấy một chút đức tin!” và ẩn dụ kinh doanh “làm ta lỗ vốn rồi!”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000130
+  locks:
+  - Giữ câu hỏi tu từ phủ định và cụm thuật ngữ “khiếm khuyết trong mô hình kinh doanh”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000131
+  locks:
+  - Giữ cặp đại từ “Ta - các ngươi”, thuật ngữ “hợp đồng” và “giác ngộ”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000132
+  locks:
+  - Giữ cặp đại từ đối đáp “Ông - tôi”, các thuật ngữ “thư bảo đảm”, “hợp đồng”, “trao tận tay”, “phương tiện lưu trữ lâu bền” và sắc thái giả định tiếc nuối ở quá khứ (“Giá mà ông còn để lại...”).
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000133
+  locks:
+  - Giữ đại từ “Ngươi / ngươi”, danh xưng “Thượng đế” và cụm “cúi đầu trước luật pháp của Thượng đế”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000134
+  locks:
+  - Giữ từ đệm mở đầu “Ừm”, đối lập “phép thuật” - “Khoa học tự nhiên”, cách dịch chủ thể tập thể “loài người / chúng tôi”, cấu trúc phủ định kép “nếu không có mối đe dọa cận kề thì cả cảm giác khủng hoảng lẫn lòng thành kính đều chẳng lan rộng” và câu kết điều kiện phủ định.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000135
+  locks:
+  - Giữ nhịp ngập ngừng nhiều dấu ba chấm của Being X và đuôi câu hỏi “ngươi biết chứ?” tạo tiền đề trực tiếp cho p000136.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000136
+  locks:
+  - Giữ cặp đại từ “Ông - tôi - mình” và cấu trúc bắt lời “Ông bảo tôi biết, nhưng tôi e là mình sẽ không biết cho đến khi ông nói cho tôi hay.”
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000137
+  locks:
+  - Giữ định danh “Being X”, đại từ “ông ta” và “tôi”, nét nghĩa tự nhận thức về thái độ “ngày càng cợt nhả” và câu giả định thuê “dịch vụ phiên dịch”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000138
+  locks:
+  - Giữ đại từ “Ngươi / ngươi”, sở hữu cách “Đấng Tạo Hóa của ngươi” và cụm “chẳng tìm đâu ra được một chút bản lĩnh đạo đức nào”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000139
+  locks:
+  - Giữ nhấn mạnh Markdown `*Phản đối!*` theo DEC-P01-002, cặp đại từ “Tôi - ông” và cụm “chuẩn mực đạo đức và xã hội”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000140
+  locks:
+  - Giữ cặp đại từ số nhiều “Các ngươi - bọn ta” và thuật ngữ “tái sinh”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000141
+  locks:
+  - Giữ từ đệm “Ừm”, cặp đại từ “tôi - ông” cùng “Loài người / chúng tôi”, thuật ngữ “tuổi thọ trung bình”, tên tác phẩm nguyên gốc “An Essay on the Principle of Population” của Malthus kèm ký hiệu chú thích `³`, cụm “sinh sôi nảy nở như chuột” và “mô hình kinh doanh của ông có khiếm khuyết”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000142
+  locks:
+  - Giữ cấu trúc điều kiện giả định trái thực tế “Nếu số tín đồ tăng cùng với dân số thì mọi chuyện đã ổn rồi!”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000143
+  locks:
+  - Giữ cặp đại từ “Tôi - ông”, cụm “khiếm khuyết trong mô hình kinh doanh của ông”, “phân tích tâm lý nhóm khách hàng” và “sai lầm mang tính cấu trúc ngay từ khâu lập kế hoạch”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000144
+  locks:
+  - Giữ đại từ “ngươi” và đủ bốn điều kiện trong câu hỏi tổng kết của Being X (“từng là đàn ông”, “sống trong một thế giới khoa học”, “chẳng biết gì về chiến tranh”, “không bị đe dọa”).
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000145
+  locks:
+  - Giữ nhịp sững sờ “…Hả? Gì cơ?” và câu tự nhận thức “Tôi… ừm, hình như mình vừa làm hỏng chuyện rồi.”
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000146
+  locks:
+  - Giữ định danh “Being X”, chức danh “giám đốc nhân sự”, cụm “lôi kéo hàng loạt kỹ sư kỳ cựu của chúng tôi” và đại từ “Tôi / tôi”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000147
+  locks:
+  - Giữ cặp đại từ “ta - ngươi”, sắc thái khinh miệt “ngay cả hạng như ngươi” và cụm “thức tỉnh đức tin”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000148
+  locks:
+  - Giữ từ đệm “Ừm”, hô ngữ “Thượng đế ơi”, cụm “ân sủng của Chúa”, bước chuyển xưng hô có chủ ý từ “ông” sang “ngài” ở nửa sau đoạn, lời khẩn khoản “xin ngài hạ tay xuống được không?” và câu rút lại ý “chẳng biết gì về chiến tranh” để khớp với p000144.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000149
+  locks:
+  - Giữ câu quát bác bỏ sự xu nịnh “Giờ thì có quỳ lạy cũng chẳng ích gì đâu!”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000150
+  locks:
+  - Giữ hô ngữ “thưa Chúa!”, đại từ “chúng tôi” và “ngài” khi quy chiếu về Being X (“Chuyện ngài tồn tại cũng vậy!”), so sánh “tanh hơn cả chợ cá”, và sau khi sửa lỗi ở câu áp chót thì giữ chủ thể khái quát (“dù là nam hay nữ thì cũng chẳng quan trọng”) gắn với kết luận “Rõ ràng cả hai giới đều có ham muốn tình dục!”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000151
+  locks:
+  - Giữ cặp đại từ “Ngươi - ta” và quyết định dứt khoát của Being X.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000152
+  locks:
+  - Giữ câu hỏi phản xạ ngắn gọn “Gì cơ?”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000153
+  locks:
+  - Giữ cặp đại từ “Ta - ngươi” và đúng bốn dấu chấm than `!!!!` ở cuối câu.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000154
+  locks:
+  - Giữ đánh dấu chữ nghiêng `*...*` bao trọn toàn đoạn theo DEC-P01-002 và giọng tổng kết hồi ức ở ngôi thứ nhất (“tôi”).
+files_written:
+- reviews/prose/vol-01/ch-00-b07-argon-review.yml
+validator: not_run
+diff_check: not_run
+risks: []
+commit: null
+next_action: revise
