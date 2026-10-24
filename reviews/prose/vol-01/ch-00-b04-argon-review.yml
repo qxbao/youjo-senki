@@ -1,0 +1,300 @@
+task_id: vol-01-ch-00-b04-argon-review
+parent_task_id: vol-01-ch-00-b04
+batch: vol-01-ch-00-b04
+role: reviewer
+reviewer: gemini-4-argon-medium
+model: gemini-4-argon-medium
+volume: vol-01
+chapter: 0
+status: approved_for_polish
+state: done
+review_path: reviews/prose/vol-01/ch-00-b04-argon-review.yml
+translation_path: translations/vol-01/ch-00-b04.jsonl
+source_package: work/vol-01/batches/ch-00-b04-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: c0f99c708fa1ba5bc58fcdc0ba55deea10a27f6d25da1588c4df7c5822b44cdf
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+segment_id_start: YS-LN01/Text/chapter001.xhtml/p000058
+segment_id_end: YS-LN01/Text/chapter001.xhtml/p000074
+unit_count: 17
+segment_ids:
+- YS-LN01/Text/chapter001.xhtml/p000058
+- YS-LN01/Text/chapter001.xhtml/p000059
+- YS-LN01/Text/chapter001.xhtml/p000060
+- YS-LN01/Text/chapter001.xhtml/p000061
+- YS-LN01/Text/chapter001.xhtml/p000062
+- YS-LN01/Text/chapter001.xhtml/p000063
+- YS-LN01/Text/chapter001.xhtml/p000064
+- YS-LN01/Text/chapter001.xhtml/p000065
+- YS-LN01/Text/chapter001.xhtml/p000066
+- YS-LN01/Text/chapter001.xhtml/p000067
+- YS-LN01/Text/chapter001.xhtml/p000068
+- YS-LN01/Text/chapter001.xhtml/p000069
+- YS-LN01/Text/chapter001.xhtml/p000070
+- YS-LN01/Text/chapter001.xhtml/p000071
+- YS-LN01/Text/chapter001.xhtml/p000072
+- YS-LN01/Text/chapter001.xhtml/p000073
+- YS-LN01/Text/chapter001.xhtml/p000074
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+unresolved_findings: []
+pending_term_recommendations:
+- id: P04-cost-performance
+  source_term: cost performance
+  proposed_vi: hiệu quả chi phí
+  alternatives_vi:
+  - tỷ suất hiệu quả trên chi phí
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  - YS-LN01/Text/chapter001.xhtml/p000069
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với đề xuất tạm P04-cost-performance trong sổ pending; phản ánh chuẩn xác khái niệm đánh giá hiệu suất nhân sự tương quan với chi phí doanh nghiệp bỏ ra tại cả p000060 và p000069."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-occupational-physician
+  source_term: occupational physician
+  proposed_vi: bác sĩ y tế lao động
+  alternatives_vi:
+  - bác sĩ doanh nghiệp
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với đề xuất tạm P04-occupational-physician trong sổ pending; dịch sát chức danh bác sĩ phụ trách sức khỏe nghề nghiệp/y tế lao động tại công ty."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-cash-advance-loan
+  source_term: cash advance loan
+  proposed_vi: vay tiền mặt / khoản vay tiền mặt
+  alternatives_vi:
+  - khoản vay ứng lương
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với lựa chọn tạm đã rà soát trong work/run-state/pending-terms.yml (P04-cash-advance-loan): dùng động từ “vay tiền mặt” (hoặc danh từ “khoản vay tiền mặt”) sát nghĩa khoản vay tín dụng/tiêu dùng cá nhân và tránh tự thu hẹp thành ứng lương nội bộ công ty."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-pip
+  source_term: PIP
+  proposed_vi: PIP
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000062
+  volume: vol-01
+  chapter: 0
+  rationale: "Giữ nguyên chữ viết tắt PIP theo đúng nguồn và sổ pending (P04-pip), kết hợp tự nhiên trong cụm “khóa đào tạo hoàn thành PIP” mà không tự diễn giải mở rộng."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-director-of-human-resources
+  source_term: director of human resources
+  proposed_vi: giám đốc nhân sự
+  alternatives_vi:
+  - trưởng ban nhân sự
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000069
+  - YS-LN01/Text/chapter001.xhtml/p000073
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-director-of-human-resources trong sổ pending; phân biệt rõ cấp bậc cao hơn “trưởng phòng” (section manager ở b03) và khớp với cách gọi rút gọn “Giám đốc” / đại từ “ông ấy” tại p000073."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-pink-slip
+  source_term: pink slip
+  proposed_vi: giấy sa thải
+  alternatives_vi:
+  - giấy thôi việc
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000073
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với lựa chọn tạm trong work/run-state/pending-terms.yml (P04-pink-slip): “giấy sa thải” thể hiện đúng sắc thái bị chấm dứt hợp đồng lao động ngoài ý muốn khiến nhân viên nảy sinh thù hận cực đoan."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b04-direct-address-choice
+  source_term: direct-address choice (you)
+  proposed_vi: nhân viên / tỉnh lược chủ ngữ ngôi thứ hai
+  alternatives_vi:
+  - anh
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  - YS-LN01/Text/chapter001.xhtml/p000061
+  - YS-LN01/Text/chapter001.xhtml/p000062
+  - YS-LN01/Text/chapter001.xhtml/p000065
+  - YS-LN01/Text/chapter001.xhtml/p000066
+  volume: vol-01
+  chapter: 0
+  rationale: "Tuân thủ giới hạn suy luận của DEC-P01-001 và mục direct-address choice trong sổ pending: dùng danh từ chung “nhân viên” hoặc tỉnh lược chủ ngữ khi người kể chuyện (ngôi thứ nhất “tôi” / “chúng tôi”) nói và độc thoại hướng tới nhân viên bị cho thôi việc, tránh tự gán giới tính hay tuổi tác khi đoạn văn chưa nêu trực tiếp."
+  uncertainty: low
+  status: pending
+  canon: false
+term_recommendations:
+- id: P04-cost-performance
+  source_term: cost performance
+  proposed_vi: hiệu quả chi phí
+  alternatives_vi:
+  - tỷ suất hiệu quả trên chi phí
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  - YS-LN01/Text/chapter001.xhtml/p000069
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với đề xuất tạm P04-cost-performance trong sổ pending; phản ánh chuẩn xác khái niệm đánh giá hiệu suất nhân sự tương quan với chi phí doanh nghiệp bỏ ra tại cả p000060 và p000069."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-occupational-physician
+  source_term: occupational physician
+  proposed_vi: bác sĩ y tế lao động
+  alternatives_vi:
+  - bác sĩ doanh nghiệp
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với đề xuất tạm P04-occupational-physician trong sổ pending; dịch sát chức danh bác sĩ phụ trách sức khỏe nghề nghiệp/y tế lao động tại công ty."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-cash-advance-loan
+  source_term: cash advance loan
+  proposed_vi: vay tiền mặt / khoản vay tiền mặt
+  alternatives_vi:
+  - khoản vay ứng lương
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với lựa chọn tạm đã rà soát trong work/run-state/pending-terms.yml (P04-cash-advance-loan): dùng động từ “vay tiền mặt” (hoặc danh từ “khoản vay tiền mặt”) sát nghĩa khoản vay tín dụng/tiêu dùng cá nhân và tránh tự thu hẹp thành ứng lương nội bộ công ty."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-pip
+  source_term: PIP
+  proposed_vi: PIP
+  alternatives_vi: []
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000062
+  volume: vol-01
+  chapter: 0
+  rationale: "Giữ nguyên chữ viết tắt PIP theo đúng nguồn và sổ pending (P04-pip), kết hợp tự nhiên trong cụm “khóa đào tạo hoàn thành PIP” mà không tự diễn giải mở rộng."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-director-of-human-resources
+  source_term: director of human resources
+  proposed_vi: giám đốc nhân sự
+  alternatives_vi:
+  - trưởng ban nhân sự
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000069
+  - YS-LN01/Text/chapter001.xhtml/p000073
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với mục review-director-of-human-resources trong sổ pending; phân biệt rõ cấp bậc cao hơn “trưởng phòng” (section manager ở b03) và khớp với cách gọi rút gọn “Giám đốc” / đại từ “ông ấy” tại p000073."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P04-pink-slip
+  source_term: pink slip
+  proposed_vi: giấy sa thải
+  alternatives_vi:
+  - giấy thôi việc
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000073
+  volume: vol-01
+  chapter: 0
+  rationale: "Đồng bộ với lựa chọn tạm trong work/run-state/pending-terms.yml (P04-pink-slip): “giấy sa thải” thể hiện đúng sắc thái bị chấm dứt hợp đồng lao động ngoài ý muốn khiến nhân viên nảy sinh thù hận cực đoan."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b04-direct-address-choice
+  source_term: direct-address choice (you)
+  proposed_vi: nhân viên / tỉnh lược chủ ngữ ngôi thứ hai
+  alternatives_vi:
+  - anh
+  segment_ids:
+  - YS-LN01/Text/chapter001.xhtml/p000060
+  - YS-LN01/Text/chapter001.xhtml/p000061
+  - YS-LN01/Text/chapter001.xhtml/p000062
+  - YS-LN01/Text/chapter001.xhtml/p000065
+  - YS-LN01/Text/chapter001.xhtml/p000066
+  volume: vol-01
+  chapter: 0
+  rationale: "Tuân thủ giới hạn suy luận của DEC-P01-001 và mục direct-address choice trong sổ pending: dùng danh từ chung “nhân viên” hoặc tỉnh lược chủ ngữ khi người kể chuyện (ngôi thứ nhất “tôi” / “chúng tôi”) nói và độc thoại hướng tới nhân viên bị cho thôi việc, tránh tự gán giới tính hay tuổi tác khi đoạn văn chưa nêu trực tiếp."
+  uncertainty: low
+  status: pending
+  canon: false
+locked_choices:
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000058
+  locks:
+  - Giữ mốc thời gian và địa điểm “Ngày 22 tháng 2 năm 2013, Tokyo, Nhật Bản” ở dạng văn bản thường, không tự thêm chữ nghiêng.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000059
+  locks:
+  - Giữ hai câu hỏi chất vấn liên tiếp trong thoại và đại từ tự xưng “tôi” của người nhân viên.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000060
+  locks:
+  - Giữ điểm nhìn ngôi thứ nhất “tôi” / “chúng tôi” (đại diện công ty), cách quy chiếu trung tính “nhân viên” / “nhân viên này”, cùng các thuật ngữ “hiệu quả chi phí”, “cấp trên trực tiếp”, “vay tiền mặt”, “bác sĩ y tế lao động” và chuỗi lý do dẫn đến kết luận nhân viên gây tốn kém, có nguy cơ làm tổn hại danh tiếng công ty.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000061
+  locks:
+  - Giữ đại từ “Tôi” / “chúng tôi”, cách gọi trung tính “nhân viên”, đúng phạm vi nhấn mạnh chữ nghiêng `*Có lý do gì để chúng tôi giữ lại nhân viên không?*` theo DEC-P01-002, và lý do ràng buộc pháp lý khiến nhân vật phải giấu kín suy nghĩ thật để đáp lại khéo léo.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000062
+  locks:
+  - Giữ sự đan xen giữa lời thoại công vụ và độc thoại nội tâm thực dụng, thuật ngữ viết tắt “PIP”, cụm “khóa đào tạo hoàn thành PIP”, “Nghỉ không phép”, sự đối lập giữa “công ty vì lợi nhuận” với “tổ chức từ thiện”, và cặp đối lập “tự nguyện xin nghỉ việc” hơn là “bị sa thải kỷ luật”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000063
+  locks:
+  - Giữ quan hệ nhượng bộ giữa việc thấy tốn thời gian với việc đây vẫn là một phần trong “mô tả công việc”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000064
+  locks:
+  - Giữ đại từ “tôi”, phủ định “Trước giờ tôi có phải đi gặp khách hàng đâu!” và câu hỏi phản ứng gay gắt của nhân viên về việc tính đó là đào tạo.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000065
+  locks:
+  - Giữ giọng điệu giải thích quy trình quản trị, các cụm “kết quả công việc sa sút”, “cấp trên”, “các nhân viên kinh doanh”, “phương pháp quản lý”, đại từ “chúng tôi” và cách tỉnh lược đại từ ngôi thứ hai khi nêu yêu cầu tham gia khóa đào tạo.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000066
+  locks:
+  - Giữ đại từ “tôi” / “chúng tôi”, cách tỉnh lược chủ ngữ ngôi thứ hai trong các mệnh đề điều kiện (“Nếu nghĩ…”, “nhưng nếu nghĩ… thì lầm to”), và ba danh xưng trong ngoặc kép “quái vật vô tình”, “con cưng của sếp”, “người máy”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000067
+  locks:
+  - Giữ đại từ “Tôi” và phản thân “mình”, cấu trúc phủ định kép khi tự so sánh với “những thiên tài” và “những người có năng khiếu”, cùng nhận định tự trào về tính cách méo mó và “một mớ phức cảm rối rắm”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000068
+  locks:
+  - Giữ sự đối lập giữa lòng kính phục “Những người thật sự nhân hậu” với nhận thức về “thói đạo đức giả” ở mức độ được xã hội xem là lành mạnh, và thái độ tự khinh bỉ sự thiếu chân thành của bản thân.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000069
+  locks:
+  - Giữ cấu trúc nhượng bộ tự nhận thức bản thân tệ hại nhưng vẫn ngạo mạn cho mình vượt trội hơn kẻ đang khóc lóc trước mặt, thuật ngữ “hiệu quả chi phí”, việc “tái cơ cấu các phòng ban được chỉ định sáp nhập bằng cách cắt giảm nhân sự”, tình thái dự đoán “hẳn là” và chức danh “giám đốc nhân sự”.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000070
+  locks:
+  - Giữ tình thái giả định trái thực tế trong quá khứ “Đáng lẽ cuộc đời tôi phải khá suôn sẻ.” ở dạng văn bản thường.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000071
+  locks:
+  - Giữ toàn bộ câu trong dấu nghiêng `*…Đáng lẽ là vậy.*` theo DEC-P01-002 và sắc thái giả định dở dang nối tiếp p000070.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000072
+  locks:
+  - Giữ toàn bộ câu chuyển cảnh hồi ức trong dấu nghiêng `*Nghĩ đến đó, một chuyện khá khó chịu lại hiện lên trong đầu.*` theo DEC-P01-002.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000073
+  locks:
+  - Giữ mệnh đề “sinh vật chính trị”, thuật ngữ “giấy sa thải”, sự đối lập giữa “cảm xúc bản năng” với “lý lẽ hay những điều cấm kỵ được mọi người chấp nhận”, cụm trong ngoặc kép “đàng hoàng” đi với “giới tinh hoa học thuật”, chức danh “Giám đốc” và đại từ “ông ấy” khi nhắc lời cảnh báo phải đề phòng ở nhà ga.
+- segment_id: YS-LN01/Text/chapter001.xhtml/p000074
+  locks:
+  - Giữ đúng phạm vi chữ nghiêng cho từ tượng thanh `*Rầm!*` ở đầu đoạn theo DEC-P01-002, đại từ ngôi thứ nhất “tôi”, hình ảnh rơi khỏi sân ga trong “chuyển động chậm kỳ dị” và khoảnh khắc nhìn thấy đoàn tàu trước khi ý thức tắt lịm.
+files_written:
+- reviews/prose/vol-01/ch-00-b04-argon-review.yml
+validator: not_run
+diff_check: not_run
+risks: []
+commit: null
+next_action: polish
