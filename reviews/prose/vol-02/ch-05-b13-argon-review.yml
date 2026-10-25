@@ -1,0 +1,508 @@
+task_id: vol-02-ch-05-b13
+review_task_id: vol-02-ch-05-b13-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b13
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000313
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000332
+unit_count: 20
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 2e7afecd8ca26f1cf031857ef3ac5d7bb0894db160111f9524e8bdd651b272a3
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b13-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b13-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000313
+    category: lexical_nuance
+    issue: >-
+      Tại câu 1 của `p000313`, cụm `chúc quân địch ngủ ngon bằng xẻng` dịch thoát từ cách nói giảm mang sắc thái hài đen chỉ việc chào buổi tối đối phương trong cuộc đột kích ban đêm.
+    basis: >-
+      Cách dịch `chúc quân địch ngủ ngon bằng xẻng` vẫn truyền tải trọn vẹn nét mỉa mai đen tối về việc dùng xẻng công binh hạ sát lính địch trong chuyến xuất kích ban đêm nối tiếp `p000312`.
+    recommendation: >-
+      Không chặn signoff; có thể giữ nguyên hoặc chỉnh nhẹ ở bước polish thành `gửi lời chào buổi tối tới quân địch bằng xẻng`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000319
+    category: pronoun_and_pov_consistency
+    issue: >-
+      Ở câu 1 của `p000319` (`Đó là hài kịch hay bi kịch còn tùy vào góc nhìn của bạn.`), đại từ ngôi thứ hai phiếm chỉ trong lời bình chuyển cảnh được dịch thành `bạn`, trong khi câu liền trước (`p000318`) dùng `ta` và quy ước `direct-address choice` trong `work/run-state/pending-terms.yml` ưu tiên cấu trúc trung tính hoặc lược đại từ.
+    basis: >-
+      Câu văn nằm ở đoạn chuyển cảnh hồi cố của người kể chuyện nên dùng `bạn` không làm lệch điểm nhìn hay quan hệ nhân vật.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh thành `Đó là hài kịch hay bi kịch còn tùy vào góc nhìn của mỗi người.` hoặc `còn tùy vào góc nhìn.`
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000321
+    category: emphasis_formatting
+    issue: >-
+      Câu thứ hai của `p000321` (`Tỷ lệ sẽ là thế này nếu phải đưa tân binh ra trận khi họ chưa được huấn luyện đầy đủ và còn thiếu kinh nghiệm.`) tương ứng với thẻ `<html:em>` trong XHTML nguồn nhưng hiện chưa được bọc bằng dấu `*...*` theo quy ước `DEC-P01-002`.
+    basis: >-
+      Nhờ câu 1 dẫn hành động (`nó đặt thông báo lên bàn rồi thở dài ngồi xuống`), người đọc vẫn nhận ra ngay câu 2 là nhận định nội tâm của Tanya và toàn bộ nghĩa điều kiện – hệ quả được bảo toàn chính xác.
+    recommendation: >-
+      Không chặn signoff; ở bước polish hoặc hậu kỳ định dạng có thể bọc câu 2 bằng dấu `*...*` thành `*Tỷ lệ sẽ là thế này nếu phải đưa tân binh ra trận khi họ chưa được huấn luyện đầy đủ và còn thiếu kinh nghiệm.*`
+    resolution: optional_polish
+
+  - id: m4
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000328
+    category: terminology_consistency
+    issue: >-
+      Tại câu 1 của `p000328`, thuật ngữ `firing line` trong lời thoại của Tanya được dịch là `tuyến đầu`, trong khi tại `ch-05-b11` (`p000281`) cùng thuật ngữ này được dịch là `tuyến hỏa lực` (và `tuyến đầu xa nhất` đang dùng cho `forward-most line` ở `p000324`).
+    basis: >-
+      Trong lời thoại ngắn giải thích điều kiện nguồn nước ngoài chiến trường đối lập với Bộ Tổng tham mưu ở hậu phương, `Đây là tuyến đầu` hoàn toàn tự nhiên và rõ nghĩa.
+    recommendation: >-
+      Không chặn signoff; có thể giữ nguyên hoặc cân nhắc đồng bộ với `ch-05-b11` thành `Đây là tuyến hỏa lực` / `Đây là tuyến lửa` ở bước polish.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "new recruit education / new recruits / newbies"
+    source_label: "new recruit education / new recruits / newbies"
+    recommended_vi: "chương trình huấn luyện tân binh / tân binh"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với các batch `ch-05-b10`–`b12`; diễn đạt tự nhiên nhiệm vụ kèm cặp lính mới tại mặt trận Rhine."
+    alternatives:
+      - "lính mới"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000313
+      - YS-LN02/Text/part0026.xhtml/p000320
+      - YS-LN02/Text/part0026.xhtml/p000321
+      - YS-LN02/Text/part0026.xhtml/p000328
+      - YS-LN02/Text/part0026.xhtml/p000331
+
+  - term_key: "Rhine / Rhine lines"
+    source_label: "Rhine / Rhine lines"
+    recommended_vi: "Rhine / các tuyến phòng thủ ở Rhine (hoặc: các tuyến Rhine)"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và các batch trước của chương 5."
+    alternatives:
+      - "các tuyến Rhine"
+      - "chiến tuyến sông Rhine"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000314
+      - YS-LN02/Text/part0026.xhtml/p000320
+
+  - term_key: "the rear"
+    source_label: "the rear"
+    recommended_vi: "hậu phương"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ quân sự chuẩn xác, đồng bộ xuyên suốt các tập và chương trước."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000314
+      - YS-LN02/Text/part0026.xhtml/p000329
+
+  - term_key: "no-man’s-land"
+    source_label: "no-man’s-land"
+    recommended_vi: "vùng đất giữa hai chiến tuyến"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt rõ bản chất không gian chiến thuật giữa hai tuyến chiến hào đối địch mà đơn vị của Tanya đang bò qua."
+    alternatives:
+      - "vùng đất không người"
+      - "vành đai trắng"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000315
+
+  - term_key: "perfect attendance award"
+    source_label: "perfect attendance award"
+    recommended_vi: "giải chuyên cần hoàn hảo"
+    status: provisional
+    uncertainty: low
+    basis: "Giữ đúng phép ẩn dụ châm biếm kiểu công sở của Tanya về việc các xạ thủ bắn tỉa địch làm việc không nghỉ ngày nào."
+    alternatives:
+      - "giải chuyên cần tuyệt đối"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000315
+
+  - term_key: "trench dress code"
+    source_label: "trench dress code"
+    recommended_vi: "quy định trang phục trong chiến hào"
+    status: provisional
+    uncertainty: low
+    basis: "Bảo toàn giọng điệu hài hước kiểu quy tắc công sở khi gọi lớp ngụy trang màu xám lấm bùn nơi chiến hào."
+    alternatives:
+      - "quy chuẩn ăn mặc nơi chiến hào"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000315
+
+  - term_key: "3D (dirty, dangerous, and demeaning) labor"
+    source_label: "3D (dirty, dangerous, and demeaning) labor"
+    recommended_vi: "lao động 3D (bẩn thỉu, nguy hiểm và hạ thấp phẩm giá)"
+    status: provisional
+    uncertainty: low
+    basis: "Bám sát thuật ngữ xã hội – lao động hiện đại (tương đương 3K trong tiếng Nhật) cùng phần chú giải trong ngoặc đơn của bản gốc."
+    alternatives:
+      - "công việc 3D (bẩn thỉu, nguy hiểm và rẻ rúng)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000316
+
+  - term_key: "Imperial Army / the Empire"
+    source_label: "Imperial Army / the Empire"
+    recommended_vi: "Quân đội Đế quốc / Đế quốc"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và toàn bộ các batch trong Tập 1–2."
+    alternatives:
+      - "Lục quân Đế quốc"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000319
+      - YS-LN02/Text/part0026.xhtml/p000320
+
+  - term_key: "chain of command and communications channels"
+    source_label: "chain of command and communications channels"
+    recommended_vi: "hệ thống chỉ huy và các kênh liên lạc"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt chuẩn xác hai khía cạnh tổ chức – thông tin quân sự được cải tổ sau sự cố hiểu lầm về chương trình huấn luyện tân binh."
+    alternatives:
+      - "chuỗi chỉ huy và các kênh thông tin liên lạc"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000319
+
+  - term_key: "field battle capabilities"
+    source_label: "field battle capabilities"
+    recommended_vi: "năng lực tác chiến dã chiến"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ quân sự chuẩn xác chỉ khả năng chiến đấu thực địa ngoài chiến trường."
+    alternatives:
+      - "năng lực chiến đấu dã chiến"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000320
+
+  - term_key: "Operations staffer attached to Command / important colonel / colonel"
+    source_label: "Operations staffer attached to Command / important colonel / colonel"
+    recommended_vi: "Viên sĩ quan Ban Tác chiến thuộc Bộ chỉ huy / vị đại tá có vai vế / Đại tá"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ `Ban Tác chiến` và `Bộ chỉ huy` với `work/run-state/pending-terms.yml` (`ch-05-b08`, `ch-05-b10`–`b12`) và giữ đúng cấp bậc `Đại tá`."
+    alternatives:
+      - "Sĩ quan tham mưu Tác chiến thuộc Bộ chỉ huy"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000320
+      - YS-LN02/Text/part0026.xhtml/p000324
+
+  - term_key: "circulating notice"
+    source_label: "circulating notice"
+    recommended_vi: "thông báo lưu hành"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt chính xác văn bản thông báo luân chuyển nội bộ trong quân đội thống kê tỷ lệ hao hụt quân số."
+    alternatives:
+      - "công văn lưu hành nội bộ"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000320
+      - YS-LN02/Text/part0026.xhtml/p000321
+
+  - term_key: "loss rates"
+    source_label: "loss rates"
+    recommended_vi: "tỷ lệ thương vong"
+    status: provisional
+    uncertainty: low
+    basis: "Rõ nghĩa quân sự trong ngữ cảnh thống kê hao hụt nhân lực tân binh ngoài tiền tuyến."
+    alternatives:
+      - "tỷ lệ tổn thất"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000320
+
+  - term_key: "arm of service"
+    source_label: "arm of service"
+    recommended_vi: "binh chủng"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ quân sự chuẩn xác, đồng bộ với `đổi binh chủng` tại `ch-05-b12` (`p000290`)."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000320
+
+  - term_key: "accelerated education / accelerated training"
+    source_label: "accelerated education / accelerated training"
+    recommended_vi: "chương trình đào tạo bị rút ngắn / huấn luyện cấp tốc"
+    status: provisional
+    uncertainty: low
+    basis: "Phản ánh rõ tình trạng cắt ngắn thời gian đào tạo tân binh thời chiến để kịp bổ sung cho tiền tuyến."
+    alternatives:
+      - "đào tạo cấp tốc"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000322
+      - YS-LN02/Text/part0026.xhtml/p000328
+
+  - term_key: "trench warfare / trenches"
+    source_label: "trench warfare / trenches"
+    recommended_vi: "chiến tranh chiến hào / chiến hào"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ quân sự chuẩn xác và thống nhất xuyên suốt chương 5."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000322
+      - YS-LN02/Text/part0026.xhtml/p000330
+      - YS-LN02/Text/part0026.xhtml/p000331
+      - YS-LN02/Text/part0026.xhtml/p000332
+
+  - term_key: "forward-most line / front lines / the front / firing line"
+    source_label: "forward-most line / front lines / the front / firing line"
+    recommended_vi: "tuyến đầu xa nhất / tiền tuyến / tuyến đầu (hoặc: tuyến hỏa lực)"
+    status: provisional
+    uncertainty: low
+    basis: "Phân biệt rõ tuyến tiền tiêu ngoài cùng (`tuyến đầu xa nhất`), khu vực chiến tuyến chung (`tiền tuyến`) và tuyến giao hỏa (`tuyến đầu` / `tuyến hỏa lực`)."
+    alternatives:
+      - "tuyến hỏa lực"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000321
+      - YS-LN02/Text/part0026.xhtml/p000324
+      - YS-LN02/Text/part0026.xhtml/p000326
+      - YS-LN02/Text/part0026.xhtml/p000327
+      - YS-LN02/Text/part0026.xhtml/p000328
+
+  - term_key: "Lieutenant Serebryakov"
+    source_label: "Lieutenant Serebryakov"
+    recommended_vi: "Trung úy Serebryakov"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và toàn bộ các batch trước của chương 5."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000324
+
+  - term_key: "central General Staff Office"
+    source_label: "central General Staff Office"
+    recommended_vi: "Bộ Tổng tham mưu trung ương"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ với `Bộ Tổng tham mưu` trong `work/run-state/pending-terms.yml`, thêm định ngữ `trung ương` chỉ trụ sở chính ở hậu phương."
+    alternatives:
+      - "Văn phòng Bộ Tổng tham mưu trung ương"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000327
+
+  - term_key: "incontinence"
+    source_label: "all varieties of incontinence"
+    recommended_vi: "đủ kiểu són tiểu, són phân"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt cụ thể, tự nhiên và khớp với giọng phàn nàn thực tế không chút màu mè của Tanya về hiện tượng mất kiểm soát bài tiết do sợ hãi của tân binh trong chiến hào."
+    alternatives:
+      - "đủ kiểu tiểu tiện, đại tiện không tự chủ"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000332
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000313
+    terms:
+      - "Tanya"
+      - "chương trình huấn luyện tân binh"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng tên riêng `Tanya` và đại từ `nó` theo đúng `DEC-P01-001`; quy chiếu đơn vị đi cùng là `họ`."
+    pov_and_voice: "Lời lẩm bẩm mở màn đầy mỉa mai của Tanya kết hợp trần thuật hạn tri mô tả cuộc xuất kích ban đêm."
+    modality_and_logic: "Bảo toàn sự tương phản giữa lời ngợi ca chiếc xẻng là công cụ của nền văn minh với cảnh cả đơn vị bò sấp lấm lem bùn đất đi tập kích địch bằng xẻng trong khuôn khổ chương trình huấn luyện tân binh."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000314
+    terms:
+      - "Tanya"
+      - "Rhine"
+      - "hậu phương"
+    pronouns_and_address: "Trần thuật hạn tri dùng `Tanya` và `nó` (`DEC-P01-001`), quy chiếu đám tân binh là `họ`."
+    pov_and_voice: "Trần thuật hạn tri khắc họa sự miễn cưỡng pha lẫn nguyên tắc chấp hành mệnh lệnh của Tanya."
+    modality_and_logic: "Bảo toàn mệnh đề điều kiện (ép tân binh bò qua bùn lầy để khắc sâu vào đầu họ thực tế ở Rhine rằng chỉ lũ ngốc hoặc xác những anh hùng được đưa về hậu phương mới giữ được quần áo sạch sẽ) và sự đối lập giữa ý muốn cá nhân (`Nó không muốn làm thế`) với nghĩa vụ tuân lệnh (`đã là mệnh lệnh thì chẳng còn cách nào khác`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000315
+    terms:
+      - "vùng đất giữa hai chiến tuyến"
+      - "giải chuyên cần hoàn hảo"
+      - "quy định trang phục trong chiến hào"
+    pronouns_and_address: "Trần thuật hạn tri tiếp tục quy chiếu Tanya bằng `nó` (`DEC-P01-001`)."
+    pov_and_voice: "Trần thuật hạn tri mang đậm giọng châm biếm kiểu văn phòng của Tanya."
+    modality_and_logic: "Bảo toàn giả định trái thực tế ở hiện tại (`Nếu có thể, ngay lúc này nó chỉ muốn quay về`) và quan hệ nhân quả hài đen: vì lính bắn tỉa địch bỏ ngày nghỉ để săn giải chuyên cần hoàn hảo nên đơn vị của Tanya phải mặc ngụy trang màu xám và trườn từng chút một về phía trại địch."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000316
+    terms:
+      - "mũ sắt"
+      - "lao động 3D (bẩn thỉu, nguy hiểm và hạ thấp phẩm giá)"
+    pronouns_and_address: "Độc thoại nội tâm trực tiếp của Tanya dùng `mình` theo đúng `DEC-P01-001`; lược đại từ ngôi thứ hai phiếm chỉ và chủ ngữ số nhiều ở hai câu đầu để tạo nhịp cảm thán tự nhiên."
+    pov_and_voice: "Độc thoại nội tâm gắt gỏng, ghê tởm thực tại dơ bẩn của chiến trường nhưng vẫn giữ kỷ luật của người làm công ăn lương."
+    modality_and_logic: "Bảo toàn trọn vẹn chuỗi cảm xúc từ nỗi nhục nhã khi phải bò lén lút như chuột, sự ghê tởm trước mùi tử khí làm tê liệt khứu giác, đến thái độ cam chịu (`công việc vẫn là công việc`) và lời nguyền rủa thứ lao động 3D vô ích."
+    emphasis: "Bảo toàn chính xác 1 câu `*...*` tương ứng `<html:em>` (`*A, ghê tởm đến mức nào chứ!*`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000317
+    terms:
+      - "cấp trên"
+    pronouns_and_address: "Câu hỏi độc thoại nội tâm của Tanya không dùng đại từ tự xưng."
+    pov_and_voice: "Giọng than thở bất mãn quen thuộc của người cấp dưới trước những đòi hỏi phi lý từ thượng cấp."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu và câu hỏi tu từ trách cứ cấp trên luôn đòi hỏi điều bất khả thi."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000318
+    terms: []
+    pronouns_and_address: "Lời dẫn chuyển cảnh dùng đại từ bao gộp `ta`."
+    pov_and_voice: "Giọng người kể chuyện mở đầu đoạn hồi cố giải thích nguồn cơn sự việc."
+    modality_and_logic: "Giữ đúng mốc chuyển thời gian lùi lại vài giờ trước về điểm khởi đầu của sự cố."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000319
+    terms:
+      - "hệ thống chỉ huy"
+      - "các kênh liên lạc"
+      - "Quân đội Đế quốc"
+    pronouns_and_address: "Dùng `bạn` trong câu nhận định khái quát mở đầu đoạn bình luận lịch sử quân sự."
+    pov_and_voice: "Giọng bình luận khách quan pha chút châm biếm về hậu quả ngoài dự kiến của sự cố."
+    modality_and_logic: "Bảo toàn hai mặt đánh giá: sự việc có thể là hài kịch hoặc bi kịch tùy góc nhìn, nhưng chính nó đã tạo đà cải thiện đáng kể hệ thống chỉ huy và kênh liên lạc của Quân đội Đế quốc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000320
+    terms:
+      - "năng lực tác chiến dã chiến"
+      - "Ban Tác chiến"
+      - "Bộ chỉ huy"
+      - "Tanya"
+      - "thông báo lưu hành"
+      - "tỷ lệ thương vong"
+      - "Rhine"
+      - "binh chủng"
+      - "Đế quốc"
+    pronouns_and_address: "Trong lời thoại mở đầu sau ngắt cảnh (`space-break1`), vị đại tá Ban Tác chiến xưng `Tôi` – gọi Thiếu tá Tanya là `cô`; phần trần thuật ngôi thứ ba dùng `Tanya` và `nó` (`DEC-P01-001`), lược đại từ ngôi thứ hai phiếm chỉ ở câu kết."
+    pov_and_voice: "Lời thoại công vụ trang trọng của sĩ quan tham mưu kết hợp trần thuật hạn tri theo điểm nhìn của Tanya."
+    modality_and_logic: "Bảo toàn đầy đủ bối cảnh cuộc gặp: sĩ quan Ban Tác chiến thuộc Bộ chỉ huy đến xin ý kiến Tanya và đưa tờ thông báo lưu hành thống kê tỷ lệ thương vong cao khủng khiếp của tân binh bổ sung tại Rhine theo từng binh chủng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000321
+    terms:
+      - "tiền tuyến"
+      - "thông báo"
+      - "tân binh"
+    pronouns_and_address: "Câu 1 trần thuật ngôi thứ ba quy chiếu Tanya bằng `nó` (`DEC-P01-001`); câu 2 lược đại từ ngôi thứ hai phiếm chỉ và quy chiếu tân binh bằng `họ`."
+    pov_and_voice: "Trần thuật hạn tri chuyển sang câu nhận định nội tâm ngán ngẩm của một sĩ quan tiền tuyến."
+    modality_and_logic: "Bảo toàn quan hệ điều kiện – hệ quả tất yếu: tỷ lệ thương vong đương nhiên sẽ cao như vậy nếu đưa tân binh chưa đủ huấn luyện và kinh nghiệm ra trận."
+    emphasis: "Ghi nhận tại finding `m3`: câu 2 tương ứng `<html:em>` trong nguồn, có thể bổ sung `*...*` ở bước polish."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000322
+    terms:
+      - "hành quân đội hình"
+      - "chiến hào"
+      - "chiến tranh chiến hào"
+    pronouns_and_address: "Tanya xưng `tôi`, quy chiếu đám tân binh là `họ`."
+    pov_and_voice: "Giọng góp ý thẳng thắn, sắc sảo của sĩ quan chỉ huy thực chiến trước cấp trên."
+    modality_and_logic: "Bảo toàn đầy đủ 3 ý kiến đề xuất của Tanya: chỉ ra nguyên nhân là huấn luyện chưa đủ và đào tạo bị rút ngắn; đề nghị dạy cách nằm trong chiến hào thay vì duyệt đội ngũ; và gợi ý cho tân binh nếm trải phần khắc nghiệt nhất của chiến tranh chiến hào trong điều kiện giảm thiểu thương vong."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000323
+    terms:
+      - "súng máy"
+    pronouns_and_address: "Vị đại tá dùng `ta` (phía Quân đội Đế quốc) và gọi tân binh là `Họ` / `họ`."
+    pov_and_voice: "Giọng suy tư, băn khoăn của sĩ quan tham mưu khi nghĩ tới ranh giới giữa huấn luyện thực tế và an toàn sinh mạng."
+    modality_and_logic: "Bảo toàn sự ngập ngừng qua dấu chấm lửng và thế lưỡng nan: thừa nhận tân binh còn lâu mới dùng được việc, nhưng cũng không thể đem họ ra dựng trước họng súng máy."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000324
+    terms:
+      - "đại tá"
+      - "Tanya"
+      - "tuyến đầu xa nhất"
+      - "Trung úy Serebryakov"
+    pronouns_and_address: "Trần thuật hạn tri dùng `Tanya` / `Nó` / `nó` (`DEC-P01-001`), `vị đại tá có vai vế ấy` / `Đại tá` và `Trung úy Serebryakov`."
+    pov_and_voice: "Trần thuật hạn tri bám sát sự lúng túng và suy luận thực tế của Tanya."
+    modality_and_logic: "Bảo toàn mạch nguyên nhân – kết quả giải thích vị cà phê tệ hại: ở tuyến đầu xa nhất không thể tiếp đãi chu đáo; dù Tanya đã nghiêm lệnh cho Trung úy Serebryakov pha tách cà phê ngon nhất có thể, nhưng hẳn do thiếu nhiên liệu để đun sôi khử cặn vôi nên cà phê có vị tạp chất rất khó chịu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000325
+    terms: []
+    pronouns_and_address: "Tanya gọi vị đại tá là `Ngài` kèm kính ngữ `ạ`."
+    pov_and_voice: "Giọng hỏi thăm dè dặt, lễ phép của sĩ quan cấp dưới với khách cấp trên."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu và câu hỏi nghi vấn phủ định lịch sự về tách cà phê."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000326
+    terms:
+      - "tiền tuyến"
+    pronouns_and_address: "Trần thuật hạn tri quy chiếu Tanya bằng `nó` (`DEC-P01-001`) và vị đại tá bằng `ông`."
+    pov_and_voice: "Trần thuật hạn tri làm rõ dụng ý tinh tế của Tanya đằng sau câu hỏi xã giao."
+    modality_and_logic: "Giữ đúng liên từ chuyển ý (`Dẫu vậy`) và hàm ý của Tanya: nhân tách cà phê dở để ngầm cho vị đại tá thấy thực tế khắc nghiệt ở tiền tuyến."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000327
+    terms:
+      - "tiền tuyến"
+      - "phòng ăn"
+      - "Bộ Tổng tham mưu trung ương"
+    pronouns_and_address: "Vị đại tá xưng `Tôi` / `tôi`, quy chiếu tách cà phê bằng `thứ này` / `Nó`."
+    pov_and_voice: "Giọng than thở thẳng thắn pha chút hài hước khô khan của vị sĩ quan tham mưu."
+    modality_and_logic: "Bảo toàn mệnh đề rào đón (`Tôi không có ý phàn nàn về điều kiện ngoài tiền tuyến, nhưng…`), lời chê trực diện và phép liên tưởng hài hước với phòng ăn ở Bộ Tổng tham mưu trung ương."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000328
+    terms:
+      - "tuyến đầu"
+      - "Tanya"
+      - "tiền tuyến"
+      - "huấn luyện cấp tốc"
+      - "tân binh"
+    pronouns_and_address: "Trong lời thoại Tanya quy chiếu những người ở Bộ Tổng tham mưu bằng `họ`; phần trần thuật dùng tên riêng `Tanya` và quy chiếu tân binh bằng `họ`."
+    pov_and_voice: "Lời lẩm bẩm pha nét bất lực của Tanya nối tiếp bằng suy ngẫm về khoảng cách giữa đời sống dân sự và tiền tuyến."
+    modality_and_logic: "Bảo toàn chuỗi liên tưởng từ hương vị cà phê biến chất ở tuyến đầu sang sự cách biệt hoàn toàn với đời sống dân thường, dẫn tới kết luận rằng không dễ để tân binh chỉ qua huấn luyện cấp tốc thích nghi ngay được."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000329
+    terms:
+      - "hậu phương"
+    pronouns_and_address: "Vị đại tá gọi Tanya là `cô` (`Ý cô là...`) và quy chiếu tân binh là `họ`."
+    pov_and_voice: "Giọng hỏi lại để xác nhận ý tưởng của vị đại tá."
+    modality_and_logic: "Bảo toàn câu hỏi xác nhận việc cho tân binh nếm trải trải nghiệm này ở hậu phương (mắt xích dẫn tới sự hiểu lầm giao việc ở các đoạn sau)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000330
+    terms:
+      - "chiến hào"
+      - "đồng đội"
+    pronouns_and_address: "Lời thoại của Tanya quy chiếu đám tân binh bằng `họ` và những kẻ thích làm anh hùng bằng `Lũ ngốc`."
+    pov_and_voice: "Giọng phân tích thực tế, gay gắt của người chỉ huy chiến trường."
+    modality_and_logic: "Bảo toàn mục đích đập tan ảo tưởng về chiến tranh và cấu trúc tương quan `không chỉ giết chính mình mà còn giết cả đồng đội` theo đúng quy tắc trong `canon/style-guide.md`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000331
+    terms:
+      - "Tân binh"
+      - "chiến hào"
+      - "adrenaline"
+      - "xung phong vô ích"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya gọi đám tân binh thích thể hiện là `lũ ngốc` / `chúng`, và gọi cá nhân một tên liều lĩnh là `một đứa` / `nó`."
+    pov_and_voice: "Độc thoại nội tâm bực dọc, khinh miệt những hành động anh hùng rơm gây họa cho tập thể."
+    modality_and_logic: "Bảo toàn phép đối lập giữa mức thiệt hại tối thiểu (nếu một đứa bị adrenaline cuốn đi mà liều lĩnh xung phong một mình thì chỉ hại mình nó) với thực tế đáng giận là chúng thường lôi kéo cả người khác chết theo."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000332
+    terms:
+      - "hiện tượng sinh lý"
+      - "chiến hào"
+      - "són tiểu, són phân"
+      - "ổ dịch"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `mình` theo đúng `DEC-P01-001`, lược đại từ ngôi thứ hai phiếm chỉ và quy chiếu đám tân binh bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm thực tế, chán ngán trước điều kiện vệ sinh tồi tệ nơi chiến hào."
+    modality_and_logic: "Bảo toàn mệnh đề nhượng bộ (`dù không thể trách họ vì một hiện tượng sinh lý`) và hai hệ quả nối tiếp khiến Tanya phát ngán: làm bẩn chiến hào bằng đủ kiểu mất kiểm soát bài tiết và biến nơi đó thành ổ bệnh truyền nhiễm."
+    emphasis: "none"
