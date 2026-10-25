@@ -1,0 +1,389 @@
+task_id: vol-02-ch-06-b03
+review_task_id: vol-02-ch-06-b03-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 6
+batch: b03
+segment_id_start: YS-LN02/Text/part0030.xhtml/p000068
+segment_id_end: YS-LN02/Text/part0030.xhtml/p000093
+unit_count: 26
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 65c888d732ceb171d6088586a60d67f294eac0110291225b6adec9ad03d50e5a
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-06-b03-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-06-b03-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000068
+    category: lexical_nuance
+    issue: >-
+      Tại vế thứ hai của `p000068`, danh từ `demand` (yêu cầu / đòi hỏi) và cụm trạng ngữ chỉ tính đồng thời đang được diễn đạt mở rộng thành cấu trúc song hành `nên việc phải vừa ổn định hậu phương vừa giữ quân ở tiền tuyến gần như là bất khả thi`.
+    basis: >-
+      Cách diễn đạt hiện tại hoàn toàn tự nhiên, mạch lạc trong tiếng Việt và phản ánh đúng thế kẹt giữa thiếu hụt binh lực ở mặt trận với nhiệm vụ ổn định hậu phương mà không làm sai lệch quan hệ nhân quả của câu gốc.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể giữ nguyên hoặc cân nhắc bám sát danh từ `demand` như `nên yêu cầu vừa phải giữ mặt trận vừa ổn định hậu phương cùng lúc gần như là bất khả thi`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000088
+    category: terminology_consistency
+    issue: >-
+      Danh xưng `Imperial Army` được dịch là `Quân đội Đế quốc` tại `p000076`, `p000077`, `p000091` nhưng dịch là `Lục quân Đế quốc` trong cụm `Bộ Tổng tham mưu Lục quân Đế quốc` tại `p000083`, `p000087`; đồng thời chức danh `army corps commander` tại `p000088` được dịch là `vị chỉ huy quân đoàn` (trong khi `b04` và `chapter6_b10_coordinator_choices` dùng `vị tư lệnh quân đoàn`).
+    basis: >-
+      Trong nội bộ `b03`, việc dùng `Quân đội Đế quốc` khi đối sánh tổng thể với `Quân đội Cộng hòa` và dùng `Bộ Tổng tham mưu Lục quân Đế quốc` cho cơ quan tham mưu đầu não hoàn toàn tự nhiên; cách gọi `vị chỉ huy quân đoàn` tại `p000088` cũng chuẩn xác về chức trách quân sự và không tự suy đoán cấp hàm.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể giữ nguyên hoặc cân nhắc đồng bộ `vị tư lệnh quân đoàn` / `Lục quân Đế quốc` với các lô liền kề trong Chương 6 nếu muốn thống nhất tuyệt đối xuyên suốt các phân cảnh.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "intercepting mage unit / mage units / mage reinforcements / suppression unit"
+    source_label: "intercepting mage unit / mage units / mage reinforcements / suppression unit"
+    recommended_vi: "đơn vị pháp sư đánh chặn / các đơn vị pháp sư / lực lượng pháp sư tiếp viện / đơn vị trấn áp"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `chapter6_b03_coordinator_choices` (`đơn vị pháp sư đánh chặn`, `đơn vị trấn áp`) và `chapter6_b02_coordinator_choices` (`đơn vị trấn áp` tại `p000061`), giữ đúng chức năng tác chiến và cấp gọi chung mà không tự gán cấp tiểu đoàn hay đại đội khi nguồn chưa nêu."
+    alternatives:
+      - "đơn vị pháp sư ngăn chặn / quân tiếp viện pháp sư / đơn vị dẹp loạn"
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000069
+      - YS-LN02/Text/part0030.xhtml/p000070
+      - YS-LN02/Text/part0030.xhtml/p000072
+      - YS-LN02/Text/part0030.xhtml/p000090
+      - YS-LN02/Text/part0030.xhtml/p000092
+
+  - term_key: "separatist independent movement / revolt"
+    source_label: "separatist independent movement / revolt"
+    recommended_vi: "phong trào ly khai đòi độc lập / cuộc nổi dậy"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ tuyệt đối với `chapter6_b03_coordinator_choices` (`phong trào ly khai đòi độc lập`) và các lô `b01`–`b02` (`cuộc nổi dậy`), thể hiện rõ mục tiêu đòi độc lập của phong trào ly khai mà không tự gán danh xưng tổ chức chính thức."
+    alternatives:
+      - "phong trào ly khai giành độc lập / phong trào ly khai độc lập / cuộc nổi loạn"
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000070
+      - YS-LN02/Text/part0030.xhtml/p000074
+      - YS-LN02/Text/part0030.xhtml/p000075
+
+  - term_key: "Command / Imperial Army / Republican Army / Imperial Army General Staff /Imperial Army General Staff Headquarters / central General Staff / General Staff"
+    source_label: "Command / Imperial Army / Republican Army / Imperial Army General Staff / Imperial Army General Staff Headquarters / central General Staff / General Staff"
+    recommended_vi: "Bộ chỉ huy / Quân đội Đế quốc / Quân đội Cộng hòa / Bộ Tổng tham mưu Lục quân Đế quốc / Bộ Tổng tham mưu trung ương / Bộ Tổng tham mưu"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa nhất quán hệ danh xưng cơ quan chỉ huy – tham mưu và quân đội hai phe từ `b01`–`b02` (`Bộ Tổng tham mưu Lục quân Đế quốc`, `Quân đội Đế quốc`, `Quân đội Cộng hòa`, `Bộ Tổng tham mưu`)."
+    alternatives:
+      - "Bộ Tư lệnh / Lục quân Đế quốc / Lục quân Cộng hòa / Tổng hành dinh Bộ Tổng tham mưu Lục quân Đế quốc"
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000070
+      - YS-LN02/Text/part0030.xhtml/p000075
+      - YS-LN02/Text/part0030.xhtml/p000076
+      - YS-LN02/Text/part0030.xhtml/p000077
+      - YS-LN02/Text/part0030.xhtml/p000083
+      - YS-LN02/Text/part0030.xhtml/p000085
+      - YS-LN02/Text/part0030.xhtml/p000087
+      - YS-LN02/Text/part0030.xhtml/p000089
+      - YS-LN02/Text/part0030.xhtml/p000091
+      - YS-LN02/Text/part0030.xhtml/p000092
+      - YS-LN02/Text/part0030.xhtml/p000093
+
+  - term_key: "chief of staff / army corps commander / Railroad Department / division"
+    source_label: "chief of staff / army corps commander / Railroad Department / division"
+    recommended_vi: "tham mưu trưởng / vị chỉ huy quân đoàn / Bộ phận Đường sắt / sư đoàn"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ với `chapter6_b03_coordinator_choices` (`Bộ phận Đường sắt`) và dịch chuẩn xác các chức danh chỉ huy – tham mưu cấp quân đoàn cùng biên chế `sư đoàn` mà không suy đoán quân hàm cụ thể."
+    alternatives:
+      - "tư lệnh quân đoàn / Phòng Đường sắt / Cục Đường sắt"
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000088
+      - YS-LN02/Text/part0030.xhtml/p000092
+      - YS-LN02/Text/part0030.xhtml/p000093
+
+  - term_key: "front / front lines / main battlefront / rear / reserves / supply lines / supply line / battle of attrition / Empire's battle lines / supplies"
+    source_label: "front / front lines / main battlefront / rear / reserves / supply lines / supply line / battle of attrition / Empire's battle lines / supplies"
+    recommended_vi: "mặt trận / tiền tuyến / mặt trận chính / hậu phương / lực lượng dự bị / các tuyến tiếp tế / tuyến tiếp tế / cuộc chiến tiêu hao / phòng tuyến của Đế quốc / quân nhu"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ hệ thuật ngữ chiến lược – hậu cần xuyên suốt bài phân tích của Giáo sư Walter Halbom và phân cảnh tại sở chỉ huy quân đoàn."
+    alternatives:
+      - "chiến tuyến chính / quân trừ bị / đường tiếp vận / chiến tranh tiêu hao / vật tư tiếp tế"
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000068
+      - YS-LN02/Text/part0030.xhtml/p000070
+      - YS-LN02/Text/part0030.xhtml/p000072
+      - YS-LN02/Text/part0030.xhtml/p000073
+      - YS-LN02/Text/part0030.xhtml/p000074
+      - YS-LN02/Text/part0030.xhtml/p000075
+      - YS-LN02/Text/part0030.xhtml/p000081
+      - YS-LN02/Text/part0030.xhtml/p000093
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000068
+    terms:
+      - "quân đội"
+      - "mặt trận"
+      - "hậu phương"
+      - "tiền tuyến"
+    pronouns_and_address: "Lời phát biểu tiếp diễn của Giáo sư Walter Halbom không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng phân tích lịch sử quân sự điềm tĩnh, chỉ rõ thực trạng thiếu hụt binh lực của quân đội Đế quốc."
+    modality_and_logic: "Bảo toàn quan hệ nhân quả và mức độ khả thể (`gần như là bất khả thi`): vì quân đội đã thiếu quân ở mặt trận nên yêu cầu đồng thời ổn định hậu phương gần như không thể thực hiện."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn (có dấu mở ngoặc kép ở đầu đoạn, chưa đóng ngoặc kép ở cuối đoạn) tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000069
+    terms:
+      - "Đế quốc"
+      - "thế lưỡng nan"
+      - "đơn vị pháp sư đánh chặn"
+      - "quân tiếp viện"
+    pronouns_and_address: "Quy chiếu phía Đế quốc bằng đại từ `họ` ở câu thứ hai."
+    pov_and_voice: "Giọng bình luận sắc sảo của Giáo sư Halbom khi đặt cạnh nhau hai cách nhìn trái ngược về lực lượng tiếp viện."
+    modality_and_logic: "Bảo toàn 2 câu: Đế quốc đứng trước thế lưỡng nan lớn với hai vấn đề nan giải; và sự bổ sung nhận định (`Điều duy nhất đáng mừng—hay có lẽ là điều tai hại—`) về việc họ có một đơn vị pháp sư đánh chặn làm quân tiếp viện."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000070
+    terms:
+      - "đơn vị pháp sư"
+      - "Bộ chỉ huy"
+      - "lực lượng dự bị"
+      - "hỏa lực"
+      - "phong trào ly khai đòi độc lập"
+    pronouns_and_address: "Quy chiếu phía Đế quốc / Bộ chỉ huy bằng `họ`."
+    pov_and_voice: "Giọng phân tích năng lực tác chiến của lực lượng pháp sư dự bị."
+    modality_and_logic: "Bảo toàn quan hệ tiền đề – hệ quả: các đơn vị pháp sư được Bộ chỉ huy giữ làm dự bị có hỏa lực nhất định, nhờ đó mở ra phương án trấn áp phong trào ly khai đòi độc lập."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000071
+    terms:
+      - "Đế quốc"
+      - "cuộc xâm lược"
+    pronouns_and_address: "Làm rõ chủ thể điều quân là `Đế quốc` và đối tượng được điều động là `các đơn vị ấy` / `lực lượng đó` để tránh nhập nhằng hai đại từ ngôi thứ ba số nhiều."
+    pov_and_voice: "Giọng chỉ rõ cái giá chiến lược phải trả nếu rút lực lượng dự bị về hậu phương."
+    modality_and_logic: "Bảo toàn câu điều kiện phủ định: nếu điều động các đơn vị pháp sư ấy đến đây thì Đế quốc sẽ không thể dùng lực lượng đó để chống đỡ một cuộc xâm lược."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000072
+    terms:
+      - "mặt trận chính"
+      - "đơn vị pháp sư"
+      - "thị uy"
+      - "nghi binh"
+    pronouns_and_address: "Dùng danh ngữ khái quát `người ta` cho chủ thể mối lo ngại."
+    pov_and_voice: "Giọng phân tích giới hạn chiến thuật của pháp sư trong tác chiến đô thị."
+    modality_and_logic: "Bảo toàn hai ý: nỗi lo mặt trận chính có thể sụp đổ, và nhận định bổ sung rằng trong trận đánh chiếm thành phố thì các đơn vị pháp sư thực ra chỉ hữu dụng để thị uy và nghi binh."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000073
+    terms:
+      - "tiền tuyến"
+      - "đơn vị địch"
+    pronouns_and_address: "Quy chiếu các đơn vị pháp sư bằng `họ`."
+    pov_and_voice: "Câu ngắn đối lập trực tiếp hiệu quả của pháp sư ở tiền tuyến với trong thành phố."
+    modality_and_logic: "Bảo toàn quan hệ đối lập (`Nhưng ở tiền tuyến`) và hai khả năng tác chiến: tiêu diệt hoặc đánh bật các đơn vị địch."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000074
+    terms:
+      - "quân Cộng hòa"
+      - "hậu phương"
+      - "cuộc nổi dậy"
+      - "tuyến tiếp tế"
+      - "cuộc chiến tiêu hao"
+      - "tiền tuyến"
+    pronouns_and_address: "Quy chiếu phía quân đội Đế quốc bằng `Họ` / `họ`."
+    pov_and_voice: "Giọng phân tích kịch bản thứ nhất trong thế tiến thoái lưỡng nan của Đế quốc."
+    modality_and_logic: "Bảo toàn câu hỏi đặt giả thuyết mở đầu và chuỗi hệ quả giả định 3 câu tiếp theo: nếu ưu tiên đẩy lùi quân Cộng hòa đang tấn công thì hậu phương trống rỗng khiến cuộc nổi dậy có nguy cơ lan rộng -> ảnh hưởng nghiêm trọng đến các tuyến tiếp tế và gây tổn thất khổng lồ trong cuộc chiến tiêu hao -> ở tiền tuyến vốn đã giao tranh quyết liệt, khó lòng tưởng tượng họ có thể gánh thêm tổn thất như vậy."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000075
+    terms:
+      - "cuộc nổi dậy"
+      - "lực lượng dự bị"
+      - "Quân đội Cộng hòa"
+      - "phòng tuyến"
+      - "cuộc xâm lược"
+      - "thương vong"
+      - "cuộc tập kích bất ngờ"
+    pronouns_and_address: "Quy chiếu phía Đế quốc bằng `họ`."
+    pov_and_voice: "Giọng phân tích kịch bản thứ hai trong thế lưỡng nan chiến lược."
+    modality_and_logic: "Bảo toàn câu hỏi đặt giả thuyết ngược lại (`Vậy họ nên dẹp cuộc nổi dậy trước ư?`) cùng chuỗi hệ quả giả định chí mạng: mất thời gian của lực lượng dự bị duy nhất -> nếu dự bị sa lầy và Quân đội Cộng hòa đột phá thì thương vong tăng không thể đong đếm -> mọi sinh mạng đã mất khi chống trả cuộc tập kích bất ngờ và đẩy lui địch sẽ thành uổng phí, điều không thể chấp nhận."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000076
+    terms:
+      - "Quân đội Cộng hòa"
+      - "Quân đội Đế quốc"
+      - "phe Cộng hòa"
+    pronouns_and_address: "Không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng đúc kết lợi thế chiến lược một chiều nghiêng về phía Cộng hòa."
+    modality_and_logic: "Bảo toàn sự đối lập (`Ngược lại, với Quân đội Cộng hòa`) và tính chắc chắn: thành công đã được bảo đảm vì dù Quân đội Đế quốc chọn mục tiêu nào thì cuối cùng phe Cộng hòa cũng đạt được kết quả."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000077
+    terms:
+      - "Quân đội Đế quốc"
+    pronouns_and_address: "Không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng nhận định lịch sử nghiêm khắc của Giáo sư Halbom về bước ngoặt dẫn tới tội ác."
+    modality_and_logic: "Bảo toàn định vị thời điểm (`Chính vào lúc này`) và sự phê phán: Quân đội Đế quốc phạm một hành động tàn bạo hiển nhiên, để lại vết nhơ trong lịch sử mà không quốc gia nào nên gây ra."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000078
+    terms:
+      - "binh sĩ"
+    pronouns_and_address: "Dùng đại từ gộp `chúng ta` cho giới nghiên cứu / hậu thế khi nói về hồ sơ lưu trữ."
+    pov_and_voice: "Giọng thuyết minh chỉ ra khoảng trống có chủ đích trong hồ sơ lịch sử."
+    modality_and_logic: "Bảo toàn đủ 3 câu: không rõ ai ra lệnh; không có ghi chép thực sự về người thi hành; và nhận định đó quả là những binh sĩ buộc phải bị gạt khỏi sử sách."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000079
+    terms:
+      - "binh sĩ"
+      - "trận phòng ngự"
+      - "Đế quốc"
+    pronouns_and_address: "Quy chiếu những người lính thi hành bằng `Họ`."
+    pov_and_voice: "Giọng bình luận nêu bật sự tương phản cực đoan giữa chiến công quân sự và vết nhơ đạo đức."
+    modality_and_logic: "Bảo toàn cấu trúc song hành đối lập (`vừa là... vừa là...`): vừa là những binh sĩ xuất sắc bậc nhất lập nên trận phòng ngự thần kỳ, vừa là đám người hèn hạ nhất làm hoen ố sâu sắc danh dự của Đế quốc."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000080
+    terms:
+      - "thời hậu chiến"
+      - "binh sĩ"
+      - "mệnh lệnh"
+    pronouns_and_address: "Giáo sư Halbom tự xưng `tôi`, quy chiếu những người thực thi mệnh lệnh bằng `họ`."
+    pov_and_voice: "Giọng bày tỏ quan điểm cá nhân cảm thông với hoàn cảnh của người lính cấp dưới."
+    modality_and_logic: "Bảo toàn sự đối lập giữa dư luận của nhiều binh sĩ thời hậu chiến (chỉ trích họ) với lập trường cá nhân của Halbom (bênh vực những người bị đặt vào tình thế khó khăn ấy vì họ không còn lựa chọn nào khác và đó là mệnh lệnh)."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại tiếp diễn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000081
+    terms:
+      - "phòng tuyến của Đế quốc"
+    pronouns_and_address: "Giáo sư Halbom tự xưng `tôi`."
+    pov_and_voice: "Lời kết khép lại phần trả lời phỏng vấn của Giáo sư Halbom."
+    modality_and_logic: "Bảo toàn sự phân tách rạch ròi giữa kết quả khách quan (`Điều chắc chắn là đã có người cứu vãn phòng tuyến của Đế quốc`) và thái độ cá nhân (`dù tôi phải nói rằng cá nhân tôi không tán thành cách làm ấy`)."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn thoại khép lại bằng dấu đóng ngoặc kép tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000082
+    terms:
+      - "Giáo sư Walter Halbom"
+    pronouns_and_address: "Câu cảm ơn lịch sự của người dẫn chương trình Andrew dành cho `Giáo sư Walter Halbom`."
+    pov_and_voice: "Giọng dẫn chương trình truyền hình chuyên nghiệp."
+    modality_and_logic: "Bảo toàn lời cảm ơn trực tiếp gửi tới Giáo sư Walter Halbom."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000083
+    terms:
+      - "Giáo sư Halbom"
+      - "tài liệu nội bộ"
+      - "Bộ Tổng tham mưu Lục quân Đế quốc"
+    pronouns_and_address: "Câu mệnh lệnh dẫn dắt khán giả lược đại từ chủ ngữ (`hãy xem`)."
+    pov_and_voice: "Giọng thuyết minh chuyển cảnh giới thiệu tư liệu mới trên màn hình."
+    modality_and_logic: "Bảo toàn lời mời xem đoạn phim tiếp theo và thông tin Giáo sư Halbom cung cấp một tài liệu nội bộ của Bộ Tổng tham mưu Lục quân Đế quốc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000084
+    terms:
+      - "thực dụng"
+    pronouns_and_address: "Quy chiếu chủ thể nữ chưa định danh trong mẩu ghi chú bằng đại từ ngôi thứ ba `Cô ấy` (không áp dụng `DEC-P01-001` vì đây là tài liệu ẩn danh được trích dẫn, không phải trần thuật từ điểm nhìn của Tanya)."
+    pov_and_voice: "Giọng ghi chép chiêm nghiệm lạnh lùng trong mẩu giấy nội bộ."
+    modality_and_logic: "Bảo toàn tình thái khả thể (`có thể gọi đó là`) cùng cấu trúc trích dẫn lồng dấu ngoặc kép và dấu nháy đơn (`“một hình thức ‘thực dụng’ cực đoan”`)."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn trích dẫn tài liệu tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000085
+    terms:
+      - "Bộ chỉ huy"
+      - "Đế quốc"
+      - "binh sĩ"
+    pronouns_and_address: "Quy chiếu chủ thể nữ bằng `cô`, quy chiếu Bộ chỉ huy bằng `họ`, và người viết mẩu ghi chú tự xưng `tôi`."
+    pov_and_voice: "Giọng độc thoại nội tâm căng thẳng, giằng xé của người viết mẩu ghi chú tại Bộ Tổng tham mưu."
+    modality_and_logic: "Bảo toàn sự chuyển ngôi tự nhiên có sẵn trong nguồn (từ ngôi thứ ba `cô` / `họ` sang ngôi thứ nhất `tôi` ở câu 3 rồi quay lại `cô` ở câu 5) cùng toàn bộ 5 câu nhận định về việc Bộ chỉ huy tháo bỏ xiềng xích/giới hạn của cô để giành chiến thắng, nghĩa vụ tuân lệnh của người lính, những thôi thúc bị kìm nén bằng lý trí được tháo cũi vì đại nghiệp, và khả thể lý do khiến cô do dự sẽ biến mất."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn trích dẫn tài liệu tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000086
+    terms: []
+    pronouns_and_address: "Người viết mẩu ghi chú tự xưng `Tôi`; đại từ `nó` chỉ quy chiếu danh từ bất động vật/động vật ẩn dụ `một con thú`."
+    pov_and_voice: "Giọng chất vấn triết lý sắc lạnh quy kết trách nhiệm cho cấp ra lệnh."
+    modality_and_logic: "Bảo toàn câu hỏi tu từ mở đầu về trách nhiệm khi con thú cắn miếng ăn ném trước mặt nó, và câu trả lời khẳng định những kẻ chịu trách nhiệm chính là những người đã ném vật hiến tế cho con thú đang đói."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` bao quanh toàn bộ đoạn trích dẫn tài liệu tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000087
+    terms:
+      - "Bộ Tổng tham mưu Lục quân Đế quốc"
+    pronouns_and_address: "Dòng chú thích nguồn gốc tư liệu không dùng đại từ nhân xưng."
+    pov_and_voice: "Chú thích hồ sơ ngắn gọn."
+    modality_and_logic: "Bảo toàn dấu sao chú thích literal ở đầu dòng (`\\*`, được escape một lần để không biến thành dấu nhấn mạnh chữ nghiêng) và thông tin mẩu ghi chú nguệch ngoạc được tìm thấy trong sọt rác tại Bộ Tổng tham mưu Lục quân Đế quốc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000088
+    terms:
+      - "tham mưu trưởng"
+      - "vị chỉ huy quân đoàn"
+    pronouns_and_address: "Trong lời thoại, vị chỉ huy quân đoàn gọi tham mưu trưởng là `ngài`."
+    pov_and_voice: "Chuyển sang mạch trần thuật lịch sử tại sở chỉ huy quân đoàn với giọng hỏi giả bộ điềm tĩnh nhưng nén giận."
+    modality_and_logic: "Bảo toàn câu hỏi trực tiếp dành cho tham mưu trưởng (`Với cương vị tham mưu trưởng, ngài có biết chuyện này có thể xảy ra không?`) và phần dẫn miêu tả vị chỉ huy quân đoàn giả vờ hỏi với vẻ độ lượng trong khi cố giấu giọng run trước mức độ nghiêm trọng của tình hình."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000089
+    terms:
+      - "Quân đội Cộng hòa"
+      - "Đế quốc"
+    pronouns_and_address: "Trần thuật quy chiếu vị chỉ huy quân đoàn bằng đại từ `ông`."
+    pov_and_voice: "Giọng trần thuật bám sát điểm nhìn của vị chỉ huy quân đoàn."
+    modality_and_logic: "Bảo toàn sự đối lập giữa vẻ mặt bình thản bên ngoài với cơn giận sôi sục bên trong, cùng nguyên nhân là Quân đội Cộng hòa đã hành động nhanh hơn nhiều so với dự liệu của Đế quốc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000090
+    terms:
+      - "lực lượng pháp sư tiếp viện"
+      - "Arene"
+    pronouns_and_address: "Quy chiếu phía quân đoàn / Đế quốc bằng `họ`."
+    pov_and_voice: "Giọng trần thuật báo tin dữ bất ngờ từ chiến trường."
+    modality_and_logic: "Bảo toàn nội dung tin tức kèm mệnh đề nhượng bộ: trái hẳn mọi dự tính của họ, một lực lượng pháp sư tiếp viện, tuy số lượng ít, đã tiến vào Arene."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000091
+    terms:
+      - "Phòng tuyến Arene"
+      - "Quân đội Đế quốc"
+    pronouns_and_address: "Trần thuật quy chiếu vị chỉ huy quân đoàn bằng `ông`, quy chiếu bộ tham mưu/quân đoàn bằng `họ`; hai câu độc thoại nội tâm trực tiếp dùng đại từ ngôi thứ nhất số nhiều `chúng ta`."
+    pov_and_voice: "Sự đan xen giữa lời kể ngôi thứ ba và hai câu cảm thán nội tâm đầy cay đắng của vị chỉ huy quân đoàn."
+    modality_and_logic: "Bảo toàn 4 câu: dự đoán phòng tuyến Arene sẽ càng vững chắc theo thời gian; câu nội tâm xác nhận kế hoạch đã thất bại hoàn toàn; sự đối lập giữa việc kiểm soát được hỗn loạn ban đầu với cảnh tượng thảm hại của đám quân hoảng loạn khiến ông muốn che mắt; và câu hỏi tu từ nội tâm cuối đoạn."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh từng phần theo `DEC-P01-002`: chỉ bọc dấu `*...*` quanh hai câu nội tâm tương ứng với hai thẻ `<html:em>` (`*Trong khi đó, kế hoạch của chúng ta đã thất bại hoàn toàn.*` và `*Đây thật sự là Quân đội Đế quốc của chúng ta sao?*`), giữ nguyên các câu trần thuật ở dạng chữ thường."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000092
+    terms:
+      - "đơn vị trấn áp"
+      - "Bộ Tổng tham mưu trung ương"
+      - "Bộ phận Đường sắt"
+    pronouns_and_address: "Quy chiếu vị chỉ huy quân đoàn bằng `Ông` và quy chiếu Bộ phận Đường sắt bằng `họ`."
+    pov_and_voice: "Giọng trần thuật phản ánh cơn bực tức của vị chỉ huy quân đoàn trước sự chậm trễ hậu cần – vận tải."
+    modality_and_logic: "Bảo toàn hai câu: ngay cả đơn vị trấn áp mà Bộ Tổng tham mưu trung ương hứa điều đến cũng bị chậm trễ dẫn tới kết quả này; và ý muốn mắng cho Bộ phận Đường sắt (cơ quan chịu trách nhiệm quản lý lịch trình) một trận để hỏi rốt cuộc họ đã làm quái gì."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000093
+    terms:
+      - "Arene"
+      - "tuyến tiếp tế"
+      - "tiền tuyến"
+      - "quân nhu"
+      - "sư đoàn"
+      - "Bộ Tổng tham mưu"
+    pronouns_and_address: "Trần thuật khách quan không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng phân tích hậu cần khép lại lô với những con số định lượng khắc nghiệt."
+    modality_and_logic: "Bảo toàn đầy đủ 4 câu cùng các mốc số lượng và điều kiện: việc phải than phiền cho thấy tình hình ở Arene tồi tệ đến mức nào; nếu tàu chạy qua đó tê liệt dù chỉ một ngày thì tuyến tiếp tế chở hàng chục nghìn tấn đạn dược và lương thực ra tiền tuyến sẽ bị đứt đoạn; nếu không điều ít nhất năm trăm—tốt nhất là một nghìn—tấn quân nhu đến mỗi sư đoàn thì quân số tiền tuyến sẽ hao hụt dần; và con số thống kê ấy giờ đã trở thành cơn ác mộng của Bộ Tổng tham mưu."
+    emphasis: "none"
