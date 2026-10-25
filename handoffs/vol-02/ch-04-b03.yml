@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b03-source.jsonl
 source_package_sha256: e8a46121149c09b5ff8290cdcea84cf85c6a6b2fae55613e44c1a1c382a9901a
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -55,17 +55,22 @@ translation_report:
   segment_count: 25
   validator: pass
   diff_check: pass
-  findings: [3 terminology/prose notes; no serious/moderate reported]
+  findings:
+  - 3 terminology/prose notes; no serious/moderate reported
   pending_term_count: 3
   files_written:
   - translations/vol-02/ch-04-b03.jsonl
 review_coordination:
-  triggered_by: [new_pending_terms]
+  triggered_by:
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-04-b03-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b03_translation_proposals
-  severity_counts: {serious: 0, moderate: 0, minor: 11}
+  severity_counts:
+    serious: 0
+    moderate: 0
+    minor: 11
   reviewer_session_id: 27fe9507-6484-4b69-893c-6c7c71c153a1
   reported_findings:
   - p000038+p000039: remove unsupported gendered “cô” for male listener
@@ -76,18 +81,47 @@ review_coordination:
   - p000045+p000046+p000051+p000053: use “mình” for Tanya's interior self-reference
   translator_followup:
     task_id: vol-02-ch-04-b03-review-fixes
-    allowlist: [translations/vol-02/ch-04-b03.jsonl]
+    allowlist:
+    - translations/vol-02/ch-04-b03.jsonl
     session_id: 01a13240-8ee5-7fb3-b3ec-3a8ca1da0ff2
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [M1, M2, M3, M4, M5, M6, N1, N4, N5, N6, N8, N11, N12]
-    out_of_scope_findings_ignored: [p000392]
+    fixed_findings:
+    - M1
+    - M2
+    - M3
+    - M4
+    - M5
+    - M6
+    - N1
+    - N4
+    - N5
+    - N6
+    - N8
+    - N11
+    - N12
+    out_of_scope_findings_ignored:
+    - p000392
   final_signoff:
     task_id: vol-02-ch-04-b03-signoff
     review_report: reviews/prose/vol-02/ch-04-b03-fixes-signoff-claude.md
     session_id: 4a3186b4-3418-4d9b-8653-613dcad4077a
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 11}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 11
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b03
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 138
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b03.jsonl
