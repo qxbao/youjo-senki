@@ -1,0 +1,413 @@
+task_id: vol-02-ch-05-b03
+review_task_id: vol-02-ch-05-b03-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b03
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000049
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000075
+unit_count: 27
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 5cd3255f4c74a6311a89225d642dbe019e7de0033f6a64af12d08968fa349659
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b03-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b03-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000058
+    issue: "Tại câu 2 của p000058, danh từ chỉ hiện tượng âm thanh phát thanh kỳ lạ vang khắp chiến trường (`phenomenon`) được dịch là `Cảnh tượng ấy`, hơi thiên về thị giác trong khi ngay từ p000054 người kể đã đính chính rằng họ nghe thấy chứ không phải nhìn thấy."
+    basis: "Đặt liền sau câu mô tả bầu trời mù bụi và bùn lầy ở p000057, `Cảnh tượng ấy phi thực đến thế` vẫn giữ đúng cảm giác siêu thực khiến binh lính ngỡ mình phát điên hoặc gặp ảo giác thính giác ở p000059."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `Hiện tượng ấy phi thực đến thế` để khớp chặt hơn với mạch thính giác từ p000054 đến p000059."
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000063
+    issue: "Tại câu 2 của p000063, cụm `machine-gun squad` được dịch gọn là `đội súng máy` (so với `tiểu đội súng máy` ở ch-05-b01 p000009) và danh từ giải phẫu chỉ màng nhĩ (`eardrums`) được dịch thoát ý thành `tai tôi`."
+    basis: "Câu dịch hiện tại (`Dòng lời tuôn ra từ máy vô tuyến của đội súng máy sẽ mãi khắc sâu vào tai tôi.`) rất tự nhiên trong tiếng Việt và bảo toàn trọn vẹn ấn tượng thính giác không thể phai mờ của người cựu binh."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc đồng bộ thành `máy vô tuyến của tiểu đội súng máy sẽ mãi khắc sâu vào màng nhĩ tôi`."
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000074
+    issue: "Tại đầu câu 1 của p000074, danh từ hô gọi toàn đơn vị ở đầu mệnh lệnh tác chiến (`Troops,`) được gộp trực tiếp vào đại từ chủ ngữ `Các cậu` (`Các cậu sẽ đảm nhiệm nhiệm vụ yểm trợ tác chiến`), làm giảm nhẹ nhịp hô tập hợp đầu câu của người chỉ huy."
+    basis: "Đại từ `Các cậu` và chuỗi mệnh lệnh chuẩn bị vũ khí – công thức phía sau vẫn truyền tải đầy đủ đối tượng nhận lệnh cũng như giọng chỉ huy bình thản, dứt khoát của Tanya."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc thêm hô ngữ ngắn ở đầu câu như `Tất cả nghe đây, các cậu sẽ đảm nhiệm nhiệm vụ yểm trợ tác chiến` / `Toàn đơn vị, các cậu sẽ đảm nhiệm nhiệm vụ yểm trợ tác chiến`."
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch05-b03-radio-passwords-and-rhine-zone-terms
+    source_term: "backup / reinforcements / radio operator (operators) / enemy transmissions / shell-shocked / auditory hallucination / official language of the Empire / single-use password / Guardians of the Rhine / radio dugout / machine-gun squad / widespread interference / Imperial Army / the brass / god of death / war nuts / response unit / Rhine Air Defense Identification Zone Sector D-5"
+    proposed_vi: "quân tiếp viện (p000049), quân chi viện (p000059) / quân tiếp viện / người lính điện đài (những người lính điện đài) / liên lạc của địch / bị sốc vì pháo kích / ảo giác thính giác / ngôn ngữ chính thức của Đế quốc / mật khẩu dùng một lần / Những người bảo vệ Rhine / hầm vô tuyến / đội súng máy / màn nhiễu sóng trên diện rộng / Lục quân Đế quốc / giới chỉ huy cấp cao / thần chết / những kẻ cuồng chiến tranh / đơn vị phản ứng nhanh / Vùng nhận dạng phòng không Rhine, phân khu D-5"
+    alternatives_vi:
+      - "bị sang chấn vì pháo kích / Những người bảo vệ mặt trận Rhine (Những người bảo vệ sông Rhine) / tiểu đội súng máy / các chỉ huy cấp cao (đám chỉ huy cấp cao) / Khu vực nhận dạng phòng không Rhine, phân khu D-5"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000049
+      - YS-LN02/Text/part0026.xhtml/p000050
+      - YS-LN02/Text/part0026.xhtml/p000051
+      - YS-LN02/Text/part0026.xhtml/p000052
+      - YS-LN02/Text/part0026.xhtml/p000053
+      - YS-LN02/Text/part0026.xhtml/p000059
+      - YS-LN02/Text/part0026.xhtml/p000061
+      - YS-LN02/Text/part0026.xhtml/p000062
+      - YS-LN02/Text/part0026.xhtml/p000063
+      - YS-LN02/Text/part0026.xhtml/p000064
+      - YS-LN02/Text/part0026.xhtml/p000066
+      - YS-LN02/Text/part0026.xhtml/p000067
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ các lựa chọn tạm đã được nghiệm thu qua B03-F02, B03-F05, B03-F07, B03-F08, B03-F09 trong handoff và ledger: giữ nguyên địa danh `Rhine` không tự gắn danh từ phân loại `sông` trong cả lời xướng đáp mật khẩu `Những người bảo vệ Rhine` (`vol02-ch05-b03-guardians-of-rhine` tại p000062) lẫn định danh địa bàn tác chiến `Vùng nhận dạng phòng không Rhine, phân khu D-5` (`vol02-ch05-b03-air-defense-identification-zone` tại p000067, bảo toàn đủ hai cấp vùng và phân khu); giữ `bị sốc vì pháo kích` tại p000053 (chỉ suy đoán của đồng đội về trạng thái tinh thần của người lính điện đài), `giới chỉ huy cấp cao của Lục quân Đế quốc` (`vol02-ch05-b03-brass` tại p000066, giữ đúng tầng chỉ huy mà không thêm sắc thái miệt thị ở câu chuyển góc nhìn), và cặp cấu trúc song song `một tiểu đoàn dành cho những kẻ cuồng chiến tranh, do chính những kẻ cuồng chiến tranh lập nên` tại p000066."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b03-aerial-mage-battalion-and-combat-formulas-terms
+    source_term: "Major Tanya von Degurechaff / 203rd Aerial Mage Battalion / call sign Pixie / trench warfare / propaganda / glass ceiling / personnel system / meritocratic principles / spent shells / enemy artillery position / hazard and war zone pay / supporting combat / anti-surface ordnance / diffusion explosion formulas / optical deception formulas / counter-bullet outer shells / counter-air and -mage fights / computation orb / firing positions"
+    proposed_vi: "Thiếu tá Tanya von Degurechaff / Tiểu đoàn Pháp sư Trên không số 203 / hô hiệu Pixie / chiến tranh chiến hào / tuyên truyền / rào cản vô hình / hệ thống nhân sự / những nguyên tắc trọng dụng nhân tài / vỏ đạn đã bắn / trận địa pháo của địch / phụ cấp nguy hiểm và phụ cấp vùng chiến sự / yểm trợ tác chiến / đạn chống mục tiêu mặt đất / công thức nổ khuếch tán / công thức đánh lừa quang học / vỏ ngoài chống đạn / đối phó với máy bay và pháp sư địch / quả cầu tính toán / các vị trí hỏa lực"
+    alternatives_vi:
+      - "Tiểu đoàn Pháp sư Bay số 203 / tên gọi vô tuyến Pixie / trần kính vô hình / thuật thức nổ khuếch tán / công thức nghi binh quang học (thuật thức đánh lừa quang học) / lớp vỏ ngoài chống đạn"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000067
+      - YS-LN02/Text/part0026.xhtml/p000068
+      - YS-LN02/Text/part0026.xhtml/p000069
+      - YS-LN02/Text/part0026.xhtml/p000070
+      - YS-LN02/Text/part0026.xhtml/p000071
+      - YS-LN02/Text/part0026.xhtml/p000073
+      - YS-LN02/Text/part0026.xhtml/p000074
+      - YS-LN02/Text/part0026.xhtml/p000075
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ các thuật ngữ đơn vị, hô hiệu và tác chiến ma pháp của Tanya đã được nghiệm thu qua B03-F03, B03-F04, B03-F06: dùng `Tiểu đoàn Pháp sư Trên không số 203` (`vol02-ch05-b03-203rd-aerial-mage-battalion` tại p000068, mô tả đúng phương thức tác chiến trên không và không tự gán đơn vị thuộc quân chủng Không quân), `hô hiệu Pixie` (`vol02-ch05-b03-pixie-call-sign` tại p000068), `công thức đánh lừa quang học` (`vol02-ch05-b03-optical-deception-formulas` tại p000074, giữ cơ chế đánh lừa thị giác rộng mà không thu hẹp thành ngụy trang che giấu), và `quả cầu tính toán` (`vol02-ch05-b03-computation-orb` tại p000074, đồng bộ xuyên suốt với `chapter1_b01_pending_terms`). Ghi nhận `công thức` (`formulas` tại p000074) song song với phương án `thuật thức` ở Tập 1 để đối chiếu khi chuẩn hóa toàn bộ sách."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b03-pov-transition-pronouns-and-emphasis
+    source_term: "First-person veteran recollection pronouns (`tôi` / `chúng tôi` / `chúng ta`) in p000049–p000064, radio password and countersign address (`Các anh`) in p000055/p000060/p000062, omniscient bridge reference to ground troops (`họ`) and Tanya (`Nó` / `nó`) in p000065–p000066, Tanya POV third-person narration (`nó` / `Tanya`) vs. first-person interior monologue (`mình` / `chúng ta`) and radio/command dialogue (`Chúng tôi`, `Các cậu`) in p000067–p000075, and italicized span in p000062"
+    proposed_vi: "Bảo toàn chính xác bước chuyển điểm nhìn hai nửa của batch và tuân thủ nghiêm ngặt DEC-P01-001, DEC-P01-002 cùng sửa chữa B03-F01: (1) ở nửa đầu từ p000049 đến p000064 (tiếp nối hồi ức ngôi thứ nhất của người cựu binh từ ch-05-b02), người kể tự xưng `tôi` / `Tôi` ở ngôi thứ nhất số ít và `chúng tôi` / `Chúng tôi` ở ngôi thứ nhất số nhiều (kết hợp phản thân `mình` tại p000058), dùng `chúng ta` trong lời lẩm bẩm trực tiếp với đồng đội tại p000050, quy chiếu người lính điện đài bằng `anh ta` (p000053) và các lính điện đài / người đặt mật mã / pháp sư tiếp viện bằng `họ` (p000051, p000061, p000064), quy chiếu quân địch bằng `chúng` (p000051), giữ lời mật khẩu trang trọng `“Ôi Tổ quốc thân yêu, hãy bình yên.”` lặp nguyên văn tại p000055 và p000060, và dùng đại từ ngôi thứ hai số nhiều `Các anh` trong lời đáp mật khẩu từ hầm vô tuyến tại p000062; (2) ở đoạn cầu nối chuyển cảnh p000065–p000066, quy chiếu những người lính dưới mặt đất bằng `họ` (kết hợp phản thân `mình`), giới thiệu Tanya ở ngôi thứ ba bằng đại từ `Nó` / `nó` theo đúng DEC-P01-001 (B03-F01), và quy chiếu tập thể tiểu đoàn pháp sư bằng `họ`; (3) ở nửa sau từ p000067 đến p000075 (điểm nhìn của Thiếu tá Tanya von Degurechaff mở đầu bằng `space-break1` tại p000067), phân biệt rạch ròi giữa trần thuật ngôi thứ ba dùng `nó` / `Tanya` (p000067, câu 1 p000069, p000072, p000073, câu 2 p000074 — tuyệt đối không dùng `cô` / `cô ta`) với độc thoại nội tâm ngôi thứ nhất dùng `mình` (câu 2 p000069 theo B03-F01, p000070, p000071) và `chúng ta` khi bao gồm cả tiểu đoàn trong giả định bắn nhầm quân mình tại p000075; trong lời thoại của Tanya, dùng `Chúng tôi` khi báo danh qua vô tuyến (p000068) và `Các cậu` khi hạ lệnh cho thuộc cấp trong tiểu đoàn (p000074); (4) bảo toàn duy nhất phạm vi nhấn mạnh toàn câu `*“Những người bảo vệ Rhine! Các anh trung thành! Các anh là đá tảng! Các anh trung thành! Các anh là đá tảng!”*` tại p000062 theo đúng thẻ `<em>` trong nguồn, không thêm `*...*` vào bất kỳ câu nội tâm hay đoạn nào khác (DEC-P01-002)"
+    alternatives_vi:
+      - "Các ngươi (thay cho `Các anh` trong câu khẩu hiệu cổ kính `Ye are loyal! Ye are rocks!` tại p000062 — ưu tiên giữ `Các anh` vì đây là mật khẩu nhận diện bạn – thù đầy phấn khích gửi cho đồng đội giữa chiến trường)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000049
+      - YS-LN02/Text/part0026.xhtml/p000050
+      - YS-LN02/Text/part0026.xhtml/p000051
+      - YS-LN02/Text/part0026.xhtml/p000053
+      - YS-LN02/Text/part0026.xhtml/p000054
+      - YS-LN02/Text/part0026.xhtml/p000055
+      - YS-LN02/Text/part0026.xhtml/p000058
+      - YS-LN02/Text/part0026.xhtml/p000059
+      - YS-LN02/Text/part0026.xhtml/p000060
+      - YS-LN02/Text/part0026.xhtml/p000061
+      - YS-LN02/Text/part0026.xhtml/p000062
+      - YS-LN02/Text/part0026.xhtml/p000063
+      - YS-LN02/Text/part0026.xhtml/p000064
+      - YS-LN02/Text/part0026.xhtml/p000065
+      - YS-LN02/Text/part0026.xhtml/p000066
+      - YS-LN02/Text/part0026.xhtml/p000067
+      - YS-LN02/Text/part0026.xhtml/p000068
+      - YS-LN02/Text/part0026.xhtml/p000069
+      - YS-LN02/Text/part0026.xhtml/p000070
+      - YS-LN02/Text/part0026.xhtml/p000071
+      - YS-LN02/Text/part0026.xhtml/p000072
+      - YS-LN02/Text/part0026.xhtml/p000073
+      - YS-LN02/Text/part0026.xhtml/p000074
+      - YS-LN02/Text/part0026.xhtml/p000075
+    volume: vol-02
+    chapter: 5
+    rationale: "Tuân thủ nghiêm ngặt DEC-P01-001, DEC-P01-002, style-guide.md và toàn bộ 9 sửa chữa B03-F01 → B03-F09 đã được nghiệm thu trong handoff."
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000049
+    terms:
+      - "quân tiếp viện (backup)"
+    pronouns_and_address:
+      - "Tự sự hồi tưởng ngôi thứ nhất số nhiều `chúng tôi` nối tiếp trực tiếp từ p000048."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất của người cựu binh thuộc tổ súng máy."
+    modality_and_logic: "Giữ quan hệ hệ quả `Vì vậy` và mức độ mong mỏi khẩn cấp `càng sớm càng tốt`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000050
+    terms:
+      - "quân tiếp viện (reinforcements)"
+    pronouns_and_address:
+      - "Lời lẩm bẩm dùng `Tôi` và `chúng ta`; lời kể hồi tưởng dùng `tôi` và `anh chàng bên cạnh`."
+    pov_and_voice: "Lời thoại lẩm bẩm xen lẫn câu hỏi tự vấn trong hồi ức của người cựu binh."
+    modality_and_logic: "Giữ nguyên độ bất định về người nói câu lẩm bẩm (`Không biết người lẩm bẩm câu đó là tôi hay anh chàng bên cạnh? Đến giờ tôi vẫn không rõ`) đối lập với sự chắc chắn về sự việc (`nhưng chắc chắn có người đã nói`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000051
+    terms:
+      - "người lính điện đài (radio operator / operators)"
+      - "liên lạc của địch (enemy transmissions)"
+    pronouns_and_address:
+      - "Dùng `tôi` và `chúng tôi`; quy chiếu những người lính điện đài bằng `họ` và quân địch bằng `chúng`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ chức năng kép của lính điện đài (theo dõi liên lạc địch và bảo đảm địch không định vị được đơn vị), cùng sự đối lập giữa thông lệ (`Thường thì họ chỉ toàn báo tin xấu`) và chiêm nghiệm về sau (`nhưng về sau, tôi đã nghĩ đi nghĩ lại rằng đôi khi họ cũng mang đến cho chúng tôi tin tốt`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000052
+    terms:
+      - "Quân tiếp viện (Reinforcements)"
+    pronouns_and_address: []
+    pov_and_voice: "Tiếng hét báo tin mừng của người lính điện đài."
+    modality_and_logic: "Giữ nguyên tiếng hô lặp `“Quân tiếp viện! Quân tiếp viện đến rồi!”`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000053
+    terms:
+      - "người lính điện đài (the operator)"
+      - "bị sốc vì pháo kích (shell-shocked)"
+    pronouns_and_address:
+      - "Dùng `Tôi` và `chúng tôi`; quy chiếu người lính điện đài bằng `anh ta`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Khóa cụm `bị sốc vì pháo kích` theo B03-F08 (phản ánh suy đoán của mọi người về sự hoảng loạn tinh thần của lính điện đài chứ không khẳng định chấn thương thể chất) và bước ngoặt bất ngờ ngay sau đó."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000054
+    pronouns_and_address:
+      - "Dùng `chúng tôi`; tân ngữ `nó` quy chiếu hiện tượng ở câu trước."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất tự đính chính giác quan tiếp nhận."
+    modality_and_logic: "Giữ nguyên câu đính chính ngắn gọn `Hay đúng hơn là chúng tôi nghe thấy nó.`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000055
+    terms:
+      - "Tổ quốc (Fatherland)"
+    pronouns_and_address: []
+    pov_and_voice: "Thông điệp mật khẩu phát qua vô tuyến trên toàn vùng."
+    modality_and_logic: "Khóa câu mật khẩu `“Ôi Tổ quốc thân yêu, hãy bình yên.”` đồng bộ hoàn toàn với p000060."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000056
+    terms:
+      - "mọi kênh (every channel)"
+      - "binh sĩ bình thường (regular soldier)"
+      - "năng lực ma pháp (magic ability)"
+    pronouns_and_address: []
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ cấu trúc mức độ tăng tiến (`mạnh đến mức ngay cả một binh sĩ bình thường không có năng lực ma pháp cũng nghe thấy`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000057
+    terms:
+      - "chiến trường (battlefield)"
+    pronouns_and_address: []
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ sự tương phản mạnh giữa khung cảnh chiến trường hỗn loạn mù mịt bụi bùn với giọng nói `bình thản đến lạ`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000058
+    pronouns_and_address:
+      - "Dùng `chúng tôi` kết hợp đại từ phản thân `mình`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ câu hỏi nội tâm gián tiếp (`tự hỏi liệu mình cũng phát điên rồi chăng`) nối với nghi vấn về người lính điện đài ở p000053."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000059
+    terms:
+      - "mật mã (code)"
+      - "đơn vị quân tiếp viện (unit of reinforcements)"
+      - "quân chi viện (backup)"
+      - "ảo giác thính giác (auditory hallucination)"
+    pronouns_and_address:
+      - "Dùng `Chúng tôi`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ sự hoài nghi ban đầu (`nghĩ rằng quân chi viện không thể nào có thật, hẳn chỉ là ảo giác thính giác`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000060
+    terms:
+      - "Tổ quốc (Fatherland)"
+    pronouns_and_address: []
+    pov_and_voice: "Thông điệp mật khẩu phát lặp lại qua vô tuyến."
+    modality_and_logic: "Khóa câu mật khẩu lặp lại nguyên văn từ p000055: `“Ôi Tổ quốc thân yêu, hãy bình yên.”`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000061
+    terms:
+      - "ngôn ngữ chính thức của Đế quốc (official language of the Empire)"
+      - "mật khẩu dùng một lần (single-use password)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi`; quy chiếu đơn vị phát tín hiệu bằng `họ`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất chuyển từ hoài nghi sang vỡ òa xác nhận."
+    modality_and_logic: "Giữ cấu trúc phủ định kép đầu câu (`không nghe nhầm, cũng chẳng phát điên`) và thông tin then chốt `mật khẩu dùng một lần để chứng minh họ là bạn chứ không phải địch!`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000062
+    terms:
+      - "Những người bảo vệ Rhine (Guardians of the Rhine)"
+    pronouns_and_address:
+      - "Dùng đại từ ngôi thứ hai số nhiều `Các anh` cho các vế xướng đáp."
+    pov_and_voice: "Lời đáp mật khẩu vang dội từ hầm vô tuyến dưới mặt đất."
+    modality_and_logic: "Khóa cụm `Những người bảo vệ Rhine` (giữ nguyên địa danh `Rhine` không tự thêm `sông`) theo `vol02-ch05-b03-guardians-of-rhine` (B03-F05) và giữ nguyên bốn vế lặp nhịp nhàng."
+    emphasis: "Khóa nhấn mạnh toàn bộ câu thoại `*“Những người bảo vệ Rhine! Các anh trung thành! Các anh là đá tảng! Các anh trung thành! Các anh là đá tảng!”*` theo đúng thẻ `<em>` duy nhất trong nguồn của batch (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000063
+    terms:
+      - "Người lính điện đài (The operator)"
+      - "hầm vô tuyến (radio dugout)"
+      - "máy vô tuyến (radio)"
+      - "đội súng máy (machine-gun squad)"
+    pronouns_and_address:
+      - "Dùng `tôi`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ mức cực cấp của cảm xúc (`âm thanh vui sướng nhất tôi từng nghe`) và dấu ấn ký ức vĩnh viễn (`sẽ mãi khắc sâu vào tai tôi`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000064
+    terms:
+      - "mật mã (codes)"
+      - "những người lính điện đài (The radio operators)"
+      - "Màn nhiễu sóng trên diện rộng (The widespread interference)"
+      - "pháp sư (mages)"
+      - "những pháp sư tinh nhuệ của Lục quân Đế quốc (the elite mages of the Imperial Army)"
+    pronouns_and_address:
+      - "Dùng `Chúng tôi`, `tôi`, `tất cả chúng tôi`; quy chiếu người đặt mật mã và các lính điện đài bằng `họ`, quy chiếu các mật mã bằng `chúng`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất khép lại góc nhìn của người lính dưới chiến hào."
+    modality_and_logic: "Giữ sự đối lập giữa thái độ chế giễu thường ngày với niềm an ủi thực sự ở thời khắc sinh tử (`nhưng lần này, chỉ lần này thôi, tôi nghĩ tất cả chúng tôi đều thật sự được an ủi bởi chúng`), cùng ba câu khẳng định dồn dập xác nhận lực lượng pháp sư tinh nhuệ của Lục quân Đế quốc."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000065
+    terms:
+      - "những vị cứu tinh (their saviors)"
+      - "quân tiếp viện (their reinforcements)"
+      - "đồng minh (allies)"
+    pronouns_and_address:
+      - "Bước chuyển từ ngôi thứ nhất của người cựu binh sang lời kể khách quan quy chiếu những người lính dưới hào bằng `họ` kết hợp sở hữu phản thân `của mình`."
+    pov_and_voice: "Trần thuật ngôi thứ ba toàn tri tạo nghịch lý kịch tính trước khi chuyển sang góc nhìn của Tanya."
+    modality_and_logic: "Giữ nguyên nghịch lý trớ trêu (`Thật may là họ không biết những vị cứu tinh, quân tiếp viện của mình lại nguy hiểm đến thế, có thể giáng sự hủy diệt hoàn toàn lên chính đồng minh.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000066
+    terms:
+      - "giới chỉ huy cấp cao của Lục quân Đế quốc (the Imperial Army brass)"
+      - "thần chết (a god of death)"
+      - "tiểu đoàn (battalion)"
+      - "những kẻ cuồng chiến tranh (war nuts)"
+    pronouns_and_address:
+      - "Khóa đại từ trần thuật ngôi thứ ba `Nó` / `nó` cho Tanya theo DEC-P01-001 và B03-F01; quy chiếu những người lính dưới mặt đất và tiểu đoàn pháp sư bằng `họ`."
+    pov_and_voice: "Trần thuật ngôi thứ ba giới thiệu Tanya và tiểu đoàn pháp sư của nó."
+    modality_and_logic: "Khóa hai lựa chọn đã nghiệm thu: (1) `giới chỉ huy cấp cao của Lục quân Đế quốc` theo `vol02-ch05-b03-brass` (B03-F07); (2) cấu trúc song song `Đó là một tiểu đoàn dành cho những kẻ cuồng chiến tranh, do chính những kẻ cuồng chiến tranh lập nên; họ đã có mặt trên chiến trường.` theo B03-F09."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000067
+    terms:
+      - "Thiếu tá Tanya von Degurechaff (Major Tanya von Degurechaff)"
+      - "đơn vị phản ứng nhanh (response unit)"
+      - "Vùng nhận dạng phòng không Rhine, phân khu D-5 (Rhine Air Defense Identification Zone Sector D-5)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba dùng `nó` và danh xưng đầy đủ `Thiếu tá Tanya von Degurechaff` kết hợp phản thân `của mình`."
+    pov_and_voice: "Trần thuật ngôi thứ ba mở đầu phân cảnh điểm nhìn của Tanya (sau `space-break1`)."
+    modality_and_logic: "Khóa địa chỉ tác chiến hai cấp `Vùng nhận dạng phòng không Rhine, phân khu D-5` theo `vol02-ch05-b03-air-defense-identification-zone` (B03-F02, B03-F05) và sự đối lập giữa nội tâm với vẻ mặt (`trong lòng chán ngấy mọi chuyện nhưng ngoài mặt vẫn trơ như không`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000068
+    terms:
+      - "Mật mã (Code)"
+      - "Tiểu đoàn Pháp sư Trên không số 203 (203rd Aerial Mage Battalion)"
+      - "hô hiệu Pixie (call sign Pixie)"
+    pronouns_and_address:
+      - "Tanya đại diện đơn vị báo danh qua vô tuyến bằng `Chúng tôi`."
+    pov_and_voice: "Thông báo vô tuyến tác chiến ngắn gọn, chuẩn xác của Tanya."
+    modality_and_logic: "Khóa tên đơn vị `Tiểu đoàn Pháp sư Trên không số 203` theo `vol02-ch05-b03-203rd-aerial-mage-battalion` (B03-F03), định danh `hô hiệu Pixie` theo `vol02-ch05-b03-pixie-call-sign` (B03-F06), và thời gian tiếp cận `160 giây`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000069
+    terms:
+      - "chiến tranh chiến hào (trench warfare)"
+      - "tuyên truyền (propaganda)"
+    pronouns_and_address:
+      - "Câu 1 trần thuật ngôi thứ ba dùng tên riêng `Tanya`; câu 2 chuyển sang độc thoại nội tâm ngôi thứ nhất tự quy chiếu bằng `mình` theo đúng DEC-P01-001 và B03-F01."
+    pov_and_voice: "Trần thuật ngôi thứ ba chuyển mượt sang độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa cấu trúc so sánh bậc nhất loại trừ ở câu 2 (`Công việc duy nhất mình ghét hơn là phải tỏ ra duyên dáng để phục vụ tuyên truyền.`) theo B03-F01."
+    emphasis: "Không dùng `*...*` (tuân thủ DEC-P01-002, không tự đánh dấu nghiêng cho câu nội tâm)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000070
+    terms:
+      - "rào cản vô hình (invisible glass ceiling)"
+      - "tuyên truyền (propaganda)"
+      - "chiến tranh chiến hào (Trench warfare)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm ngôi thứ nhất của Tanya dùng nhất quán đại từ `mình`."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất thực dụng của Tanya."
+    modality_and_logic: "Giữ nguyên hai lý do khiến Tanya chán ghét hai công việc: sự bất lợi về thăng tiến trong cơ chế trọng nam khiến mình chẳng muốn diễn vẻ nữ tính cho tuyên truyền, và mức độ quá nguy hiểm của chiến tranh chiến hào."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000071
+    terms:
+      - "hệ thống nhân sự của Đế quốc (the Empire’s personnel system)"
+      - "những nguyên tắc trọng dụng nhân tài (meritocratic principles)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm ngôi thứ nhất dùng `mình`."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ cụm rào đón `theo một nghĩa nào đó` và mức độ đánh giá `khá hài lòng` (`more or less satisfied`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000072
+    terms:
+      - "độ cao thấp nhất có thể (lowest-possible altitude)"
+      - "chiến trường (battlefield)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba bám sát điểm nhìn của Tanya dùng `nó` kết hợp đại từ phản thân `mình` ở mệnh đề phụ."
+    pov_and_voice: "Trần thuật ngôi thứ ba gắn với suy nghĩ của Tanya."
+    modality_and_logic: "Giữ quan hệ nhượng bộ – nguyên nhân (`dù bay bám sát mọi đường nét địa hình để duy trì độ cao thấp nhất có thể trên đường lao tới chiến trường là rất nguy hiểm, nó vẫn hài lòng vì ít ra mình sẽ được trọng dụng`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000073
+    terms:
+      - "vỏ đạn đã bắn (spent shells)"
+      - "trận địa pháo của địch (enemy artillery position)"
+      - "phụ cấp nguy hiểm và phụ cấp vùng chiến sự (hazard and war zone pay)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba dùng `nó`."
+    pov_and_voice: "Trần thuật ngôi thứ ba."
+    modality_and_logic: "Giữ sự đối lập giữa chế độ đãi ngộ (`Dù có thêm phụ cấp nguy hiểm và phụ cấp vùng chiến sự`) với cảm giác thực tế trước nhiệm vụ đột kích trận địa pháo địch (`nó vẫn chẳng thấy vui vẻ gì`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000074
+    terms:
+      - "yểm trợ tác chiến (supporting combat)"
+      - "đạn chống mục tiêu mặt đất (anti-surface ordnance)"
+      - "công thức nổ khuếch tán (diffusion explosion formulas)"
+      - "công thức đánh lừa quang học (optical deception formulas)"
+      - "vỏ ngoài chống đạn (counter-bullet outer shells)"
+      - "đối phó với máy bay và pháp sư địch (counter-air and -mage fights)"
+      - "súng trường (rifle)"
+      - "quả cầu tính toán (computation orb)"
+    pronouns_and_address:
+      - "Trong thoại chỉ huy, Tanya gọi thuộc cấp là `Các cậu`; trong câu trần thuật, quy chiếu bằng tên riêng `Tanya`."
+    pov_and_voice: "Lời mệnh lệnh tác chiến trực tiếp của Tanya kết hợp câu trần thuật ngôi thứ ba."
+    modality_and_logic: "Khóa thuật ngữ `công thức đánh lừa quang học` theo `vol02-ch05-b03-optical-deception-formulas` (B03-F04) và `quả cầu tính toán` theo `vol02-ch05-b03-computation-orb`, giữ đầy đủ bốn hạng mục chuẩn bị và quyền tùy nghi giao chiến phòng không / chống pháp sư."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000075
+    terms:
+      - "Yểm trợ tác chiến (Supporting combat)"
+      - "người chỉ huy (commanders)"
+      - "quân mình (our own troops)"
+      - "các vị trí hỏa lực dưới mặt đất (the firing positions on the ground)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm của Tanya dùng `chúng ta` và `quân mình` khi đặt toàn đơn vị vào giả định tác chiến."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya khép lại batch."
+    modality_and_logic: "Giữ nguyên giả định nhân quả chắc chắn (`Nếu chúng ta thổi bay quân mình, chắc chắn ngay sau đó sẽ là một trận mưa đạn từ các vị trí hỏa lực dưới mặt đất.`) mà không tự suy diễn thêm chủ thể bắn trả ngoài những gì nguồn nêu."
+    emphasis: "Không dùng `*...*`."
