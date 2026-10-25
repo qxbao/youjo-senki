@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b01-source.jsonl
 source_package_sha256: 5a32b413006492890e9c3de8051bf615a27fcef1123dcd8346808a5bd4978239
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -52,14 +52,93 @@ review_coordination:
   minor: 11
   action: signoff_confirmed
   provisional_choices:
-    - {term_id: vol02-ch01-b01-fac, proposed_vi: 'keep FAC; provisional gloss: kiểm soát không quân tiền phương', alternatives: ['kiểm soát viên không quân tiền phương', 'tiền sát viên không quân', 'dẫn đường không quân tiền phương'], segment_ids: [YS-LN02/Text/part0008.xhtml/p000003], confidence: 0.55, uncertainty: batch does not establish whether FAC is a person, station, or unit}
-    - {term_id: vol02-ch01-b01-tanya-narration, proposed_vi: repeat the name Tanya, alternatives: ['omit subject where unambiguous', nó, cô], segment_ids: [YS-LN02/Text/part0008.xhtml/p000002, YS-LN02/Text/part0008.xhtml/p000003, YS-LN02/Text/part0008.xhtml/p000006, YS-LN02/Text/part0008.xhtml/p000015, YS-LN02/Text/part0008.xhtml/p000016, YS-LN02/Text/part0008.xhtml/p000017, YS-LN02/Text/part0008.xhtml/p000019], confidence: 0.6, uncertainty: LN02 narrator pronoun usage not settled}
-    - {term_id: vol02-ch01-b01-interior-self-reference, proposed_vi: mình, alternatives: [tôi], segment_ids: [YS-LN02/Text/part0008.xhtml/p000011, YS-LN02/Text/part0008.xhtml/p000012], confidence: 0.8, uncertainty: DEC-P01-001 stage scope}
-    - {term_id: vol02-ch01-b01-god-address, proposed_vi: Thượng đế ơi, alternatives: [Lạy Thượng đế, Lạy Chúa], segment_ids: [YS-LN02/Text/part0008.xhtml/p000015], confidence: 0.65, uncertainty: keep invocation neutral; no added relationship}
+  - term_id: vol02-ch01-b01-fac
+    proposed_vi: 'keep FAC; provisional gloss: kiểm soát không quân tiền phương'
+    alternatives:
+    - kiểm soát viên không quân tiền phương
+    - tiền sát viên không quân
+    - dẫn đường không quân tiền phương
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000003
+    confidence: 0.55
+    uncertainty: batch does not establish whether FAC is a person
+    station: null
+    or unit: null
+  - term_id: vol02-ch01-b01-tanya-narration
+    proposed_vi: repeat the name Tanya
+    alternatives:
+    - omit subject where unambiguous
+    - nó
+    - cô
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000002
+    - YS-LN02/Text/part0008.xhtml/p000003
+    - YS-LN02/Text/part0008.xhtml/p000006
+    - YS-LN02/Text/part0008.xhtml/p000015
+    - YS-LN02/Text/part0008.xhtml/p000016
+    - YS-LN02/Text/part0008.xhtml/p000017
+    - YS-LN02/Text/part0008.xhtml/p000019
+    confidence: 0.6
+    uncertainty: LN02 narrator pronoun usage not settled
+  - term_id: vol02-ch01-b01-interior-self-reference
+    proposed_vi: mình
+    alternatives:
+    - tôi
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000011
+    - YS-LN02/Text/part0008.xhtml/p000012
+    confidence: 0.8
+    uncertainty: DEC-P01-001 stage scope
+  - term_id: vol02-ch01-b01-god-address
+    proposed_vi: Thượng đế ơi
+    alternatives:
+    - Lạy Thượng đế
+    - Lạy Chúa
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000015
+    confidence: 0.65
+    uncertainty: keep invocation neutral; no added relationship
   required_fixes:
-    - {finding: F1, segment_ids: [YS-LN02/Text/part0008.xhtml/p000014], resolution: express that the date is only a paper birthday}
-    - {finding: F2, segment_ids: [YS-LN02/Text/part0008.xhtml/p000015], resolution: preserve interior viewpoint and possibility}
-    - {finding: F3, segment_ids: [YS-LN02/Text/part0008.xhtml/p000015], resolution: use Thượng đế ơi and remove added parent-child address}
-    - {finding: F4, segment_ids: [YS-LN02/Text/part0008.xhtml/p000005], resolution: keep the counterfactual in the past}
-    - {finding: F5, segment_ids: [YS-LN02/Text/part0008.xhtml/p000011, YS-LN02/Text/part0008.xhtml/p000012], resolution: use mình consistently for interior self-reference}
-    - {finding: F6, segment_ids: [YS-LN02/Text/part0008.xhtml/p000002, YS-LN02/Text/part0008.xhtml/p000003, YS-LN02/Text/part0008.xhtml/p000006, YS-LN02/Text/part0008.xhtml/p000015, YS-LN02/Text/part0008.xhtml/p000016, YS-LN02/Text/part0008.xhtml/p000017, YS-LN02/Text/part0008.xhtml/p000019], resolution: use Tanya by name rather than cô; omit the subject only where it is unambiguous}
+  - finding: F1
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000014
+    resolution: express that the date is only a paper birthday
+  - finding: F2
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000015
+    resolution: preserve interior viewpoint and possibility
+  - finding: F3
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000015
+    resolution: use Thượng đế ơi and remove added parent-child address
+  - finding: F4
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000005
+    resolution: keep the counterfactual in the past
+  - finding: F5
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000011
+    - YS-LN02/Text/part0008.xhtml/p000012
+    resolution: use mình consistently for interior self-reference
+  - finding: F6
+    segment_ids:
+    - YS-LN02/Text/part0008.xhtml/p000002
+    - YS-LN02/Text/part0008.xhtml/p000003
+    - YS-LN02/Text/part0008.xhtml/p000006
+    - YS-LN02/Text/part0008.xhtml/p000015
+    - YS-LN02/Text/part0008.xhtml/p000016
+    - YS-LN02/Text/part0008.xhtml/p000017
+    - YS-LN02/Text/part0008.xhtml/p000019
+    resolution: use Tanya by name rather than cô; omit the subject only where it is
+      unambiguous
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b01
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 79
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b01.jsonl
