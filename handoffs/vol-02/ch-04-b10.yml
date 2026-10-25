@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b10-source.jsonl
 source_package_sha256: f4733bf189c25503e6ebb15b70377d60ae39ea80e08e2b958f1191c814a3c875
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -53,61 +53,82 @@ translation_report:
   segment_count: 29
   validator: pass
   diff_check: pass
-  findings: [3 low-level terminology notes; schema corrected before validation]
+  findings:
+  - 3 low-level terminology notes; schema corrected before validation
   pending_term_count: 3
-  files_written: [translations/vol-02/ch-04-b10.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b10.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: signoff_passed
   review_report: reviews/prose/vol-02/ch-04-b10-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b10_translation_proposals
   boundary_after: scene_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000001
-
-  review_counts: {serious: 0, moderate: 3, minor: 11}
-  unresolved_moderate: [M1, M2, M3]
+  review_counts:
+    serious: 0
+    moderate: 3
+    minor: 11
+  unresolved_moderate: 0
   follow_up_owner: translator-ch04-b10-review-fixes
   coordinator_proposals:
-    M1: >-
-      Apply DEC-P01-001 provisionally: “mình” for Tanya interior narration in
-      p000217-p000219, p000221-p000225, p000227-p000231, and p000233-p000235;
-      preserve direct speech “tôi” in p000220, p000232, and p000236. If any listed
-      unit is demonstrably not interior narration from this package, report that
-      exact ID and use the least interpretive consistent form.
-    M2: >-
-      Use “Liên minh Entente” in p000238 and p000244, matching the pending project
+    M1: 'Apply DEC-P01-001 provisionally: “mình” for Tanya interior narration in p000217-p000219,
+      p000221-p000225, p000227-p000231, and p000233-p000235; preserve direct speech
+      “tôi” in p000220, p000232, and p000236. If any listed unit is demonstrably not
+      interior narration from this package, report that exact ID and use the least
+      interpretive consistent form.'
+    M2: Use “Liên minh Entente” in p000238 and p000244, matching the pending project
       proposal; do not canonize.
-    M3: >-
-      Use “tàu tuần dương hay tàu tuần dương chiến đấu” in p000222, matching the
+    M3: Use “tàu tuần dương hay tàu tuần dương chiến đấu” in p000222, matching the
       provisional naval terminology.
   minor_findings_recorded_only: true
-
   fix_report:
     state: done
     translator_session_id: 01a13280-79ab-7863-8c2c-31c5e2d31fc9
-    findings_resolved_by_translator: [M1, M2, M3]
+    findings_resolved_by_translator:
+    - M1
+    - M2
+    - M3
     validator: pass
     diff_check: pass
   signoff_state: passed
   unresolved_serious: 0
-  unresolved_moderate: 0
   signoff_report: reviews/prose/vol-02/ch-04-b10-fixes-signoff-claude.md
-  signoff_counts: {serious: 0, moderate: 0, minor: 11}
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    minor: 11
   term_alignment_owner: translator-ch04-b10-term-alignment
   term_alignment_scope:
-    - segment_ids: [YS-LN02/Text/part0022.xhtml/p000236]
-      source_term: explosion formulas
-      provisional_vi: thuật thức nổ
-    - segment_ids: [YS-LN02/Text/part0022.xhtml/p000238, YS-LN02/Text/part0022.xhtml/p000241]
-      source_term: interceptor formulas
-      provisional_vi: thuật thức đánh chặn
-    - segment_ids: [YS-LN02/Text/part0022.xhtml/p000236]
-      source_term: depth charge
-      provisional_vi: mìn sâu
-
+  - segment_ids:
+    - YS-LN02/Text/part0022.xhtml/p000236
+    source_term: explosion formulas
+    provisional_vi: thuật thức nổ
+  - segment_ids:
+    - YS-LN02/Text/part0022.xhtml/p000238
+    - YS-LN02/Text/part0022.xhtml/p000241
+    source_term: interceptor formulas
+    provisional_vi: thuật thức đánh chặn
+  - segment_ids:
+    - YS-LN02/Text/part0022.xhtml/p000236
+    source_term: depth charge
+    provisional_vi: mìn sâu
   term_alignment_report:
     state: done
     translator_session_id: 01a13285-3a27-7932-984e-7b5c158780f7
     validator: pass
     diff_check: pass
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b10
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 145
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b10.jsonl
