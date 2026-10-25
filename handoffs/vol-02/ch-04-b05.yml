@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b05-source.jsonl
 source_package_sha256: 9fef114e304cf93a7ba320892b5445f3467b5e76e4180a61367feb2d6f5ed17b
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -53,37 +53,61 @@ translation_report:
   segment_count: 18
   validator: pass
   diff_check: pass
-  findings: [3 low-level terminology/prose notes; no serious/moderate reported]
+  findings:
+  - 3 low-level terminology/prose notes; no serious/moderate reported
   pending_term_count: 7
   files_written:
   - translations/vol-02/ch-04-b05.jsonl
 review_coordination:
-  triggered_by: [new_pending_terms]
+  triggered_by:
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-04-b05-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b05_translation_proposals
-  severity_counts: {serious: 0, moderate: 3, minor: 10}
+  severity_counts:
+    serious: 0
+    moderate: 3
+    minor: 10
   reviewer_session_id: afbf40cc-cb0e-42c9-8e3c-99dbca29799a
   unresolved_findings:
   - p000097: use Tanya's narrative pronoun per DEC-P01-001
   - p000102: make Tanya's interior self-reference consistently “mình”
-  - p000099+p000100+p000107+p000111: align Serebryakov's provisional rank with the recent ledger
+  - p000099+p000100+p000107+p000111: align Serebryakov's provisional rank with the
+      recent ledger
   translator_followup:
     task_id: vol-02-ch-04-b05-review-fixes
-    allowlist: [translations/vol-02/ch-04-b05.jsonl]
+    allowlist:
+    - translations/vol-02/ch-04-b05.jsonl
     session_id: 01a13253-4e88-7422-94fb-ddb6944ab052
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [M1, M2, M3]
+    fixed_findings:
+    - M1
+    - M2
+    - M3
   final_signoff:
     task_id: vol-02-ch-04-b05-signoff
     review_report: reviews/prose/vol-02/ch-04-b05-fixes-signoff-claude.md
     session_id: 5a5aeea1-17c3-4dbc-9df1-630f696172a2
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 9}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 9
     prior_moderate_resolved: true
     unresolved_findings: []
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000114
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b05
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 140
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b05.jsonl
