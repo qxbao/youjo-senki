@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b02-source.jsonl
 source_package_sha256: 73b6cb5c31e1809229bdd617a2ffa96373e05a6aacc3a0a0d14cb48c3418395b
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -54,52 +54,93 @@ translation_report:
   segment_count: 37
   validator: pass
   diff_check: pass
-  findings: [4 pending terminology notes; no serious/moderate reported]
+  findings:
+  - 4 pending terminology notes; no serious/moderate reported
   pending_term_count: 5
   files_written:
   - translations/vol-02/ch-04-b02.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-04-b02-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b02_translation_proposals
-  severity_counts: {serious: 0, moderate: 0, minor: 1}
+  severity_counts:
+    serious: 0
+    moderate: 0
+    minor: 1
   reviewer_session_id: 896a28fe-8774-47d8-a667-f3e8fa0d8e3d
   reported_findings:
   - p000004: restore dialogue framing and correct the involuntary embrace logic
   - p000010: remove unsupported daughter-to-father address from wife's speech
   - p000020: distinguish Confederacy Waldstätte from Federation
-  - p000016+p000025+p000027+p000033+p000037: resolve Cazor/Sue address and pronoun consistency provisionally
+  - p000016+p000025+p000027+p000033+p000037: resolve Cazor/Sue address and pronoun
+      consistency provisionally
   translator_followup:
     task_id: vol-02-ch-04-b02-review-fixes
-    allowlist: [translations/vol-02/ch-04-b02.jsonl]
+    allowlist:
+    - translations/vol-02/ch-04-b02.jsonl
     session_id: 01a13230-40c1-74d1-847b-abad67b36181
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [M1 narration framing, serious p000009 context restoration, M2 wife address, M3 Confederacy distinction, M4 Cazor/Sue address]
+    fixed_findings:
+    - M1 narration framing
+    - serious p000009 context restoration
+    - M2 wife address
+    - M3 Confederacy distinction
+    - M4 Cazor/Sue address
     risks:
-    - p000009 reviewer suggestion may not fit the local family-scene context; final signoff must recheck against prepared package
+    - p000009 reviewer suggestion may not fit the local family-scene context; final
+      signoff must recheck against prepared package
   previous_signoff:
     review_report: reviews/prose/vol-02/ch-04-b02-fixes-signoff-claude.md
     state: findings_returned_for_followup
-    severity_counts: {serious: 1, moderate: 3, minor: not_rechecked}
+    severity_counts:
+      serious: 1
+      moderate: 3
+      minor: not_rechecked
     superseded_by: reviews/prose/vol-02/ch-04-b02-context-restoration-signoff-claude.md
   translator_recheck:
     task_id: vol-02-ch-04-b02-context-restoration
-    allowlist: [translations/vol-02/ch-04-b02.jsonl]
+    allowlist:
+    - translations/vol-02/ch-04-b02.jsonl
     state: done
     validator: pass
     diff_check: pass
-    corrected_segments: [p000004, p000009, p000010, p000037]
+    corrected_segments:
+    - p000004
+    - p000009
+    - p000010
+    - p000037
     report_basis: final signoff and prepared b02 package only
   final_signoff:
     task_id: vol-02-ch-04-b02-context-restoration-signoff
     review_report: reviews/prose/vol-02/ch-04-b02-context-restoration-signoff-claude.md
     session_id: d328e5c6-f050-4e68-b3ed-ee1529842148
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 1}
-    prior_findings_resolved: [serious p000009, M1, M2, M3, M4]
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 1
+    prior_findings_resolved:
+    - serious p000009
+    - M1
+    - M2
+    - M3
+    - M4
     unresolved_findings: []
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000038
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b02
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 137
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b02.jsonl
