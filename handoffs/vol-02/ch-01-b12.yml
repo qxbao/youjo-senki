@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b12-source.jsonl
 source_package_sha256: 8616a6c587c377714800f8dc18725dff544e3066054e6d2af54b04543daf3f19
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -50,7 +50,10 @@ translation_report:
   findings: []
   pending_term_groups: 2
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms, rank_map_conflict]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  - rank_map_conflict
   serious: 0
   moderate: resolved_by_translator_and_signoff
   action: commit_ready
@@ -63,8 +66,20 @@ review_coordination:
   diff_check: pass
   pending_status: provisional_non_canon
   review_report: reviews/prose/vol-02/ch-01-b12-claude.md
-  scope_note: B12 spans p000299-p000326; references in the review/follow-up to p000276-p000277 and p000296 belong to b11 and were excluded from b12 edits.
+  scope_note: B12 spans p000299-p000326; references in the review/follow-up to p000276-p000277
+    and p000296 belong to b11 and were excluded from b12 edits.
   provisional_review_choices:
     first_lieutenant_map: Serebryakov = Thiếu úy; Weiss = Trung úy
     lieutenants_address: dùng cấp bậc/tên, tránh cô/anh khi giới chưa rõ
     childish_speech: ngọng nhẹ ở từ chính p000322/p000325
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b12
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 90
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b12.jsonl
