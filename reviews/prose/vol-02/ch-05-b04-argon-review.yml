@@ -1,0 +1,389 @@
+task_id: vol-02-ch-05-b04
+review_task_id: vol-02-ch-05-b04-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b04
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000076
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000102
+unit_count: 27
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 2a85f82ace6d10aef1b96b241e8cbbfa48db1185ee976355b51b7c9d4bebe63b
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b04-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b04-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000085
+    issue: "Tại câu 2 của p000085, tính từ chỉ đặc tính cơ động/mang theo bên người của khẩu phần ăn dưới hào (`portable trench rations`) được dịch thành `khẩu phần chiến hào đóng gói tiêu chuẩn`, hơi dịch chuyển nét nghĩa từ tiện mang theo sang quy cách đóng gói."
+    basis: "Trong ngữ cảnh đối lập trực tiếp với `thức ăn nóng tử tế` tại căn cứ hậu phương, `khẩu phần chiến hào đóng gói tiêu chuẩn` vẫn diễn đạt tự nhiên và giữ nguyên sự tương phản về chất lượng bữa ăn."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `khẩu phần chiến hào mang theo tiêu chuẩn` / `khẩu phần dã chiến mang theo tiêu chuẩn`."
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000092
+    issue: "Tại câu 1 của p000092, thành phần chêm giải thích nằm giữa cặp dấu gạch ngang (`going out of their way—volunteering—to support us`) được gộp phẳng thành `đang chủ động tình nguyện hỗ trợ chúng tôi`, làm nhẹ đi nhịp nhấn mạnh bổ sung của nguyên tác."
+    basis: "Cụm `chủ động tình nguyện hỗ trợ chúng tôi` vẫn bảo toàn đầy đủ cả ý vượt ngoài phận sự thường lệ lẫn hành động tình nguyện làm hoa tiêu của tiểu đội quan sát."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc tách nhịp bằng dấu gạch ngang như `đang cất công—thậm chí tình nguyện—hỗ trợ chúng tôi`."
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000094
+    issue: "Tại đầu câu 1 của p000094, cụm giới từ chỉ xác suất trùng hợp hi hữu theo lối nói mỉa mai (`by some miraculous chance`) khi đi với giả định bất lợi là trúng đạn pháo trực tiếp lại được dịch là `nhờ phép màu nào đó`, dễ gợi sắc thái may mắn tích cực trong tiếng Việt."
+    basis: "Đặt trong mạch câu điều kiện giả định có chứa `mẫu quả cầu mới có lẽ sẽ giúp chúng tôi tránh bị thương chí mạng` (đã sửa đúng theo B04-F04), người đọc vẫn hiểu đây là cách nói ngược chỉ một xác suất cực thấp."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `Nếu do một sự trùng hợp thần kỳ nào đó mà chúng tôi trúng đạn trực tiếp` / `Nếu chẳng may có phép màu ngược đời nào khiến chúng tôi trúng đạn trực tiếp`."
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch05-b04-command-post-and-fire-support-terms
+    source_term: "Commonwealth submarine / Rhine front / CP / Pixie / artillery emplacement / G and H Companies / supporting suppressive fire / Silver Wings Assault Badge / rear base / portable trench rations / field guns / anti-air fire / intercepting mages"
+    proposed_vi: "tàu ngầm của Khối Thịnh vượng chung / mặt trận Rhine / CP / Pixie / vị trí pháo binh / Đại đội G và H / hỏa lực chế áp yểm trợ / Huy hiệu Tấn công Cánh bạc / căn cứ hậu phương / khẩu phần chiến hào đóng gói tiêu chuẩn / các khẩu pháo dã chiến / hỏa lực phòng không / pháp sư đánh chặn"
+    alternatives_vi:
+      - "sở chỉ huy (cho CP) / ổ pháo binh (trận địa pháo) / hỏa lực yểm trợ chế áp / Huy hiệu Xung kích Cánh bạc / khẩu phần chiến hào mang theo tiêu chuẩn"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000079
+      - YS-LN02/Text/part0026.xhtml/p000080
+      - YS-LN02/Text/part0026.xhtml/p000081
+      - YS-LN02/Text/part0026.xhtml/p000082
+      - YS-LN02/Text/part0026.xhtml/p000083
+      - YS-LN02/Text/part0026.xhtml/p000084
+      - YS-LN02/Text/part0026.xhtml/p000085
+      - YS-LN02/Text/part0026.xhtml/p000087
+      - YS-LN02/Text/part0026.xhtml/p000088
+      - YS-LN02/Text/part0026.xhtml/p000090
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ các lựa chọn tạm đã được nghiệm thu trong handoff và ledger (`chapter5_b04_translation_proposals` và `chapter5_b04_reviewer_suggestions`): giữ nguyên định danh vô tuyến `CP` và `Pixie` (`vol02-ch05-b04-cp-pixie` tại p000080–p000081, không tự khai triển chữ viết tắt `CP` khi nguồn chưa mở rộng); dùng `vị trí pháo binh` và `hỏa lực chế áp yểm trợ` (`vol02-ch05-b04-artillery-emplacement-suppressive-fire` tại p000081–p000082, nhận diện trung tính nơi bố trí pháo địch đang bắn Đại đội G và H đồng thời giữ đủ hai chức năng chế áp và yểm trợ); giữ `Huy hiệu Tấn công Cánh bạc` (`vol02-ch05-b04-silver-wings-assault-badge` tại p000083, kèm phương án đối chiếu `Huy hiệu Xung kích Cánh bạc` từ Tập 1); đồng bộ `Khối Thịnh vượng chung` và `mặt trận Rhine` (p000079, không tự thêm danh từ phân loại `sông`)."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b04-anti-surface-assault-and-serebryakov-rank-terms
+    source_term: "strike mission / observation squad / frontline observers / spotting impacts / mage’s outer shells / anti-surface assault formation (anti-surface assault) / new orb model / boot camp / air cover / direct support / Major von Degurechaff (Major Tanya von Degurechaff) / Lieutenant Serebryakov / artillery shelling drills"
+    proposed_vi: "nhiệm vụ không kích / tiểu đội quan sát / các quan sát viên tiền tuyến / quan sát điểm đạn rơi / lớp vỏ ngoài của pháp sư / đội hình xung kích chống mục tiêu mặt đất (đợt xung kích chống mục tiêu mặt đất) / mẫu quả cầu mới / khóa huấn luyện tân binh / yểm trợ trên không / lực lượng yểm trợ trực tiếp / Thiếu tá von Degurechaff (Thiếu tá Tanya von Degurechaff) / Úy Serebryakov / các buổi diễn tập ứng phó pháo kích"
+    alternatives_vi:
+      - "tổ quan sát (đội quan sát) / lớp vỏ bảo vệ của pháp sư / đội hình xung kích đối đất (đội hình tấn công mục tiêu trên mặt đất) / mẫu quả cầu tính toán mới / bộ phận yểm trợ trực tiếp (yểm trợ trực tiếp) / Sĩ quan cấp úy Serebryakov (Thiếu úy Serebryakov / Trung úy Serebryakov)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000091
+      - YS-LN02/Text/part0026.xhtml/p000092
+      - YS-LN02/Text/part0026.xhtml/p000093
+      - YS-LN02/Text/part0026.xhtml/p000094
+      - YS-LN02/Text/part0026.xhtml/p000096
+      - YS-LN02/Text/part0026.xhtml/p000097
+      - YS-LN02/Text/part0026.xhtml/p000098
+      - YS-LN02/Text/part0026.xhtml/p000099
+      - YS-LN02/Text/part0026.xhtml/p000102
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ các thuật ngữ tác chiến và cấp bậc đã được sửa qua B04-F05, B04-F06, B04-F09 và nghiệm thu trong handoff: dùng `tiểu đội quan sát` (`vol02-ch05-b04-observation-squad` tại p000092, bỏ chữ `trinh sát` suy diễn và giữ đúng vai trò quan sát điểm đạn rơi / dẫn đường); giữ cách dịch sát `lớp vỏ ngoài của pháp sư` (`vol02-ch05-b04-mage-outer-shells` tại p000093, đồng bộ với `vỏ ngoài chống đạn` ở ch-05-b03 p000074 mà không tự suy diễn thành kết giới hay giáp); phân biệt hợp ngữ cảnh giữa `đội hình xung kích chống mục tiêu mặt đất` (p000093) và `đợt xung kích chống mục tiêu mặt đất` (p000096) theo `vol02-ch05-b04-anti-surface-assault-formation`; giữ dạng rút gọn `quả cầu` (`vol02-ch05-b04-orb` tại p000094), `lực lượng yểm trợ trực tiếp` (`vol02-ch05-b04-direct-support` tại p000097), và `các buổi diễn tập ứng phó pháo kích` (B04-F09 tại p000099). Đối với `Lieutenant Serebryakov` tại p000099 (`vol02-ch05-b04-lieutenant-serebryakov`), do câu nguồn chỉ dùng danh xưng cấp úy chung không nêu bậc cụ thể, khóa phương án trung tính `Úy Serebryakov` theo B04-F05 để không tự gán bậc Thiếu úy hay Trung úy, đồng thời ghi nhận độ bất định (`medium`) về bậc quân hàm cụ thể của Serebryakov tại thời điểm này."
+    uncertainty: medium
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b04-tanya-pov-pronouns-and-emphasis
+    source_term: "Tanya first-person interior monologue pronouns (`mình` / `chúng tôi`), third-person narration and self-detachment references (`Tanya`, `Thiếu tá von Degurechaff`, `Thiếu tá Tanya von Degurechaff`, `cô bé này`, `Nó` / `nó`, metalinguistic quote `“cô ấy”`), radio and command dialogue pronouns (`Tôi`, `chúng tôi`, `chúng ta`, `tiểu đoàn mình`), generic subject (`người ta`) in p000091, and single italicized interjection (`*ối*`) in p000076"
+    proposed_vi: "Tuân thủ nghiêm ngặt DEC-P01-001, DEC-P01-002 và toàn bộ sửa chữa B04-F01 → B04-F09 đã nghiệm thu: (1) trong độc thoại nội tâm ngôi thứ nhất số ít của Tanya (p000076, p000079, p000083, p000085, p000086, p000087, p000088, p000089, p000097, câu 1 p000101), dùng nhất quán đại từ tự quy chiếu `mình` / `Mình` theo đúng B04-F02 (tuyệt đối không dùng `tôi` hay `cô` cho nội tâm tự quy chiếu); khi tự quy chiếu tập thể đơn vị/phe mình ở ngôi thứ nhất số nhiều trong suy nghĩ (p000085, p000088, p000092, p000094, câu 3 p000101), dùng `chúng tôi` kết hợp `phe ta` / `quân ta` (p000092, p000093); dùng chủ ngữ phiếm chỉ `người ta` cho đại từ khái quát ở p000091; (2) ở các câu/mệnh đề trần thuật ngôi thứ ba hoặc khi Tanya tự nhìn nhận bản thân từ góc nhìn khách quan bên ngoài, giữ nguyên tên riêng/quân hàm `Tanya` (p000083), `Thiếu tá von Degurechaff` (p000098), `Thiếu tá Tanya von Degurechaff` (p000102), danh ngữ `cô bé này` (câu 1 p000101) và đại từ trần thuật `Nó` / `nó` (câu 2 p000101, câu 2 p000102), đồng thời giữ nguyên đại từ trích dẫn trong ngoặc kép `“cô ấy”` tại câu 1 p000101 như đối tượng của lời bình về việc gọi bản thân bằng đại từ giống cái; (3) trong lời thoại vô tuyến tác chiến và giao tiếp chỉ huy trực tiếp, Tanya tự xưng `Tôi` (p000082, p000099), dùng `chúng tôi` khi đại diện đơn vị làm việc với CP/đài quan sát (p000082, p000095), và dùng `chúng ta` cùng `tiểu đoàn mình` khi thông báo cho thuộc cấp là Úy Serebryakov (p000099); (4) bảo toàn duy nhất dấu nhấn mạnh Markdown `*ối*` tại câu 3 p000076 khớp với thẻ `<html:em>` duy nhất trong nguồn, không tự thêm `*...*` ở bất kỳ đoạn nào khác (DEC-P01-002)"
+    alternatives_vi:
+      - "chúng ta (thay cho `chúng tôi` ở câu `Đây mới là mùa xuân đầu tiên của chúng tôi` tại p000085 — ưu tiên giữ `chúng tôi` để đồng bộ với các đoạn suy nghĩ quy chiếu đơn vị/quân đồn trú tại p000088, p000092, p000094, p000101)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000076
+      - YS-LN02/Text/part0026.xhtml/p000079
+      - YS-LN02/Text/part0026.xhtml/p000082
+      - YS-LN02/Text/part0026.xhtml/p000083
+      - YS-LN02/Text/part0026.xhtml/p000085
+      - YS-LN02/Text/part0026.xhtml/p000086
+      - YS-LN02/Text/part0026.xhtml/p000087
+      - YS-LN02/Text/part0026.xhtml/p000088
+      - YS-LN02/Text/part0026.xhtml/p000089
+      - YS-LN02/Text/part0026.xhtml/p000091
+      - YS-LN02/Text/part0026.xhtml/p000092
+      - YS-LN02/Text/part0026.xhtml/p000093
+      - YS-LN02/Text/part0026.xhtml/p000094
+      - YS-LN02/Text/part0026.xhtml/p000095
+      - YS-LN02/Text/part0026.xhtml/p000097
+      - YS-LN02/Text/part0026.xhtml/p000098
+      - YS-LN02/Text/part0026.xhtml/p000099
+      - YS-LN02/Text/part0026.xhtml/p000101
+      - YS-LN02/Text/part0026.xhtml/p000102
+    volume: vol-02
+    chapter: 5
+    rationale: "Bảo toàn trọn vẹn sự phân tầng điểm nhìn đặc trưng của Tanya (giữa cái tôi tiền kiếp `mình`, lời thoại công vụ `Tôi` / `chúng tôi` / `chúng ta`, và hình ảnh khách quan bên ngoài `Tanya` / `cô bé này` / `nó`) theo đúng DEC-P01-001, DEC-P01-002 và sửa chữa B04-F02."
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000076
+    terms:
+      - "Chiến hào (The trenches)"
+      - "các vị trí phòng ngự (positions)"
+      - "Hoa Kỳ (the USA)"
+      - "đại sứ quán Trung Quốc ở Belgrade (the Chinese embassy in Belgrade)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm ngôi thứ nhất số ít tự quy chiếu bằng `mình` theo DEC-P01-001 và B04-F02; quy chiếu Hoa Kỳ bằng `Họ`."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất châm biếm chua cay của Tanya, nối tiếp giả định bắn nhầm quân mình ở p000075."
+    modality_and_logic: "Khóa động từ `lỡ ném bom` theo B04-F01 để giữ chính xác nét nghĩa vô ý/tai nạn trong lời mỉa mai về vụ ném bom nhầm đại sứ quán Trung Quốc ở Belgrade."
+    emphasis: "Khóa duy nhất từ cảm thán in nghiêng `*ối*` theo đúng thẻ `<html:em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000077
+    terms:
+      - "nhiệm vụ yểm trợ (support mission)"
+      - "vị trí địch (enemy position)"
+      - "tập kích bất ngờ (sneak attack)"
+    pronouns_and_address: []
+    pov_and_voice: "Độc thoại nội tâm phân tích chiến thuật của Tanya."
+    modality_and_logic: "Giữ tính duy nhất của phương án khả thi (`lựa chọn khả thi duy nhất cho nhiệm vụ yểm trợ này là sà xuống gần vị trí địch rồi quần thảo hết mình`) và yêu cầu kép về tốc độ cao nhất – độ cao thấp nhất để đồng loạt tập kích bất ngờ."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000078
+    pronouns_and_address: []
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ sự đối lập sắc gọn giữa lý thuyết (`Nhưng đó chỉ là lý thuyết`) và nỗi ngán ngẩm thực tế của những người phải trực tiếp bay nhanh sát mặt đất."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000079
+    terms:
+      - "tàu ngầm của Khối Thịnh vượng chung (the Commonwealth submarine)"
+      - "mặt trận Rhine (the Rhine front)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm ngôi thứ nhất dùng `mình` theo DEC-P01-001 và B04-F02."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ quan hệ nhượng bộ giữa cái lợi trước mắt (thoát khỏi rắc rối quanh vụ đánh chìm tàu ngầm của Khối Thịnh vượng chung) và vận rủi thực tại (bị điều đến mặt trận Rhine)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000080
+    terms:
+      - "CP (CP)"
+      - "Pixie (Pixie)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời gọi vô tuyến tác chiến ngắn gọn của Tanya."
+    modality_and_logic: "Khóa cặp định danh vô tuyến `CP` và `Pixie` theo `vol02-ch05-b04-cp-pixie` cùng yêu cầu nhận chỉ thị mục tiêu."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000081
+    terms:
+      - "Pixie (Pixie)"
+      - "vị trí pháo binh địch (enemy artillery emplacement)"
+      - "Đại đội G và H (G and H Companies)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời đáp vô tuyến giao nhiệm vụ từ CP."
+    modality_and_logic: "Khóa cụm `vị trí pháo binh địch` theo `vol02-ch05-b04-artillery-emplacement-suppressive-fire` và đối tượng đang bị pháo địch dội đạn là `Đại đội G và H`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000082
+    terms:
+      - "hỏa lực chế áp yểm trợ (supporting suppressive fire)"
+    pronouns_and_address:
+      - "Trong thoại vô tuyến, Tanya tự xưng `Tôi` khi nêu yêu cầu và dùng `chúng tôi` cho đơn vị mình, `chúng` cho vị trí pháo địch."
+    pov_and_voice: "Lời thoại vô tuyến tác chiến của Tanya."
+    modality_and_logic: "Khóa thuật ngữ `hỏa lực chế áp yểm trợ` theo `vol02-ch05-b04-artillery-emplacement-suppressive-fire`, thời lượng `năm phút`, mốc thời gian `bắt đầu ngay bây giờ`, và cam kết xử lý mục tiêu trong khoảng thời gian đó."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000083
+    terms:
+      - "Huy hiệu Tấn công Cánh bạc (Silver Wings Assault Badge)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình` ở cả câu 1 và câu 2 (B04-F02), đồng thời giữ nguyên cách tự nhắc tên `Tanya` ở ngôi thứ ba trong mệnh đề phụ đúng như cấu trúc tự tách mình của nguyên tác."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa tên phần thưởng `Huy hiệu Tấn công Cánh bạc` theo `vol02-ch05-b04-silver-wings-assault-badge` và quyền tự chủ tự do chọn mục tiêu."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000084
+    terms:
+      - "Căn cứ hậu phương (the rear base)"
+      - "trận pháo kích (a barrage)"
+    pronouns_and_address: []
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ phép so sánh hơn kém giữa điều kiện ở căn cứ hậu phương với cảnh lấm lem bùn đất, bị lệnh giữ chốt rồi hứng pháo kích giữa lúc hỗn loạn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000085
+    terms:
+      - "căn cứ hậu phương (rear base)"
+      - "khẩu phần chiến hào đóng gói tiêu chuẩn (standard portable trench rations)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình` cho ngôi thứ nhất số ít (B04-F02), `chúng tôi` cho ngôi thứ nhất số nhiều, và `họ` cho quân lính dưới mặt đất."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa câu `Đây mới là mùa xuân đầu tiên của chúng tôi` theo B04-F08 (chỉ số thứ tự mùa xuân chứ không thêm ý đầu mùa) và suy luận nhân quả từ mùi hôi nồng nặc khi bay thấp đến tình trạng làm trái ngược hẳn nguyên tắc vệ sinh."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000086
+    terms:
+      - "chiến hào (trenches)"
+      - "tàu ngầm (submarine)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình` (B04-F02); `Nó` ở đầu câu 2 quy chiếu môi trường chiến trường."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất hồi chiếu tiền kiếp của Tanya."
+    modality_and_logic: "Khóa hình ảnh so sánh sát nguyên văn `ở trên một chiếc tàu ngầm đang chìm xuống một nhà vệ sinh hỏng bét` theo B04-F03 (giữ đúng quan hệ không gian tàu ngầm chìm vào nhà vệ sinh hỏng, không tự sửa thành nhà vệ sinh trên tàu ngầm)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000087
+    terms:
+      - "các khẩu pháo dã chiến (field guns)"
+      - "hỏa lực phòng không (anti–air fire)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình` (B04-F02)."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất thực dụng của Tanya."
+    modality_and_logic: "Giữ sự hài lòng về công việc tương xứng với đồng lương khi đánh phá các khẩu pháo dã chiến chỉ có hỏa lực phòng không yếu ớt."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000088
+    terms:
+      - "pháp sư đánh chặn (intercepting mages)"
+      - "nghỉ phép (leave)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `Mình` / `mình` cho cá nhân (B04-F02), `chúng tôi` cho đơn vị và `Chúng` cho mục tiêu."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ điều kiện miễn trừ (`miễn là không có pháp sư nào đánh chặn`), ẩn dụ `đi săn vịt`, và lập luận pháp lý hình thức của Tanya (`nếu chẳng có gì ghi trên giấy tờ thì mình phải được phép thực hiện quyền lợi của mình chứ`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000089
+    terms:
+      - "hậu phương (the rear)"
+      - "vị trí an toàn (a safe post)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `Mình` (B04-F02)."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ nguyên mong muốn xuyên suốt của Tanya là sớm được điều về hậu phương nhận một vị trí an toàn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000090
+    terms:
+      - "hỏa lực phòng không (anti–air fire)"
+      - "pháo binh (artillery)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời thoại vô tuyến phản đối vì lo ngại từ phía đơn vị dưới mặt đất."
+    modality_and_logic: "Giữ cấu trúc tăng tiến phủ định (`Chừng ấy còn chẳng đủ chế áp hỏa lực phòng không, nói gì đến pháo binh.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000091
+    terms:
+      - "nhiệm vụ không kích (strike mission)"
+      - "tiền tuyến (the front line)"
+    pronouns_and_address:
+      - "Dùng đại từ phiếm chỉ `người ta` cho chủ ngữ khái quát."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa mệnh đề quan hệ `vốn tương đối an toàn ở tiền tuyến` theo B04-F07 (làm rõ tính tương đối an toàn của loại nhiệm vụ này trong bối cảnh tiền tuyến, không gây hiểu nhầm rằng nhiệm vụ làm cho tiền tuyến an toàn)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000092
+    terms:
+      - "tiểu đội quan sát (observation squad)"
+      - "các quan sát viên tiền tuyến (frontline observers)"
+      - "quan sát điểm đạn rơi (spotting impacts)"
+      - "pháo binh (artillery)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi` và `phe ta`; quy chiếu các quan sát viên bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm phân tích tình hình chiến trường của Tanya."
+    modality_and_logic: "Khóa thuật ngữ `tiểu đội quan sát` theo `vol02-ch05-b04-observation-squad` (B04-F06, không tự thêm chức năng `trinh sát`) và chuỗi suy luận: quan sát viên tiền tuyến vốn phải quan sát điểm đạn rơi, nay lại rảnh để làm hoa tiêu chứng tỏ phe ta thiếu pháo binh."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000093
+    terms:
+      - "lớp vỏ ngoài của pháp sư (mage’s outer shells)"
+      - "đội hình xung kích chống mục tiêu mặt đất (anti-surface assault formation)"
+    pronouns_and_address:
+      - "Dùng `quân ta` cho phe mình."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa hai thuật ngữ `lớp vỏ ngoài của pháp sư` (`vol02-ch05-b04-mage-outer-shells`) và `đội hình xung kích chống mục tiêu mặt đất` (`vol02-ch05-b04-anti-surface-assault-formation`), cùng kết luận loại trừ khả năng bị quân ta bắn nhầm."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000094
+    terms:
+      - "mẫu quả cầu mới (the new orb model)"
+      - "pháo kích (artillery)"
+      - "khóa huấn luyện tân binh (boot camp)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi` cho đơn vị."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa mức độ dự đoán có điều kiện `mẫu quả cầu mới có lẽ sẽ giúp chúng tôi tránh bị thương chí mạng` theo B04-F04 và `vol02-ch05-b04-orb` (không biến khả năng sống sót thành sự bảo đảm tuyệt đối)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000095
+    pronouns_and_address:
+      - "Trong thoại vô tuyến, Tanya dùng `chúng tôi` khi nói với đơn vị bạn."
+    pov_and_voice: "Lời thoại vô tuyến trấn an và ra chỉ thị phối hợp hỏa lực của Tanya."
+    modality_and_logic: "Giữ nguyên chỉ thị tác chiến táo bạo: đừng lo cho đơn vị của Tanya mà cứ tiếp tục bắn pháo ngay cả sau khi họ đã xông vào."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000096
+    terms:
+      - "đợt xung kích chống mục tiêu mặt đất (an anti-surface assault)"
+      - "chỉ huy (the commander)"
+      - "yểm trợ trên không (air cover)"
+      - "không chiến (air battle)"
+    pronouns_and_address: []
+    pov_and_voice: "Độc thoại nội tâm nêu nguyên tắc chiến thuật của Tanya."
+    modality_and_logic: "Khóa dạng ngữ cảnh `đợt xung kích chống mục tiêu mặt đất` theo `vol02-ch05-b04-anti-surface-assault-formation` và sự phân công một đơn vị tấn công – một đơn vị yểm trợ trên không."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000097
+    terms:
+      - "lực lượng yểm trợ trực tiếp (direct support)"
+      - "trận pháo kích (a barrage)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng nhất quán `mình` ở cả ba câu theo DEC-P01-001 và B04-F02."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Khóa thuật ngữ `lực lượng yểm trợ trực tiếp` theo `vol02-ch05-b04-direct-support` và hai lợi ích kèm theo: giảm mạnh nguy cơ lọt vào lưới pháo kích và được nâng độ cao thoát khỏi lớp không khí hôi hám."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000098
+    terms:
+      - "vùng nguy hiểm (the danger zone)"
+      - "Thiếu tá von Degurechaff (Major von Degurechaff)"
+    pronouns_and_address:
+      - "Trần thuật/tự thuật khách quan hóa dùng danh xưng `Thiếu tá von Degurechaff`."
+    pov_and_voice: "Câu trần thuật pha giọng tự trào nối giữa nội tâm và lời thoại chỉ huy."
+    modality_and_logic: "Giữ nguyên nhân kép làm tâm trạng của Thiếu tá von Degurechaff khá lên: rời khỏi mùi hôi và rời khỏi vùng nguy hiểm."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000099
+    terms:
+      - "Úy Serebryakov (Lieutenant Serebryakov)"
+      - "các buổi diễn tập ứng phó pháo kích (artillery shelling drills)"
+      - "tiểu đoàn (battalion)"
+    pronouns_and_address:
+      - "Trong lời thoại chỉ huy trực tiếp, Tanya gọi thuộc cấp là `Úy Serebryakov`, dùng `chúng ta`, tự xưng `tôi`, dùng `tiểu đoàn mình` và `quân ta`."
+    pov_and_voice: "Lời thoại chỉ huy pha nét mỉa mai tự tin của Tanya nói với Serebryakov."
+    modality_and_logic: "Khóa hai lựa chọn đã nghiệm thu: (1) danh xưng quân hàm trung tính không tự gán bậc `Úy Serebryakov` theo `vol02-ch05-b04-lieutenant-serebryakov` (B04-F05); (2) cụm `các buổi diễn tập ứng phó pháo kích` theo B04-F09 (làm rõ đây là diễn tập phòng tránh đạn pháo chứ không phải tập bắn pháo)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000100
+    pronouns_and_address: []
+    pov_and_voice: "Lời đáp nhận lệnh ngắn gọn của Serebryakov."
+    modality_and_logic: "Giữ nguyên lời đáp công vụ `“Đã rõ.”` đồng bộ với p000082."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000101
+    pronouns_and_address:
+      - "Phân tách chính xác ba lớp quy chiếu theo DEC-P01-001 và B04-F02: câu 1 dùng `mình` cho chủ thể tự nhận thức, `“cô ấy”` cho đại từ ngôi thứ ba giống cái được đem ra bàn luận, và `cô bé này` cho hình thể hiện tại; câu 2 chuyển sang trần thuật ngôi thứ ba dùng `Nó`; câu 3 trở lại suy nghĩ tập thể của đơn vị dùng `chúng tôi`."
+    pov_and_voice: "Độc thoại nội tâm tự quan sát kết hợp trần thuật ngôi thứ ba của Tanya."
+    modality_and_logic: "Giữ cảm giác kỳ cục khi gọi bản thân là `“cô ấy”`, chi tiết Serebryakov đáp lời hơi gượng gạo mà Tanya chẳng bận tâm, và điểm cộng khi tấn công mặt đất là không phải leo lên độ cao lạnh cóng."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000102
+    terms:
+      - "Thiếu tá Tanya von Degurechaff (Major Tanya von Degurechaff)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba dùng danh xưng đầy đủ `Thiếu tá Tanya von Degurechaff` ở câu 1 và đại từ `nó` ở câu 2 theo đúng DEC-P01-001."
+    pov_and_voice: "Trần thuật ngôi thứ ba khép lại batch."
+    modality_and_logic: "Giữ quan hệ hệ quả `Vì thế` và mức độ biểu cảm tăng tiến từ `phấn chấn hẳn lên` đến `giãn ra thành một nụ cười toe toét`."
+    emphasis: "Không dùng `*...*`."
