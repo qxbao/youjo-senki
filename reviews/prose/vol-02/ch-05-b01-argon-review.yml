@@ -1,0 +1,397 @@
+task_id: vol-02-ch-05-b01
+review_task_id: vol-02-ch-05-b01-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b01
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000001
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000024
+unit_count: 24
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 8557f906f5d531213cb5fe652563921bc5f648de32e9ce2d9ed0a04bf4bbbaa2
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b01-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b01-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000005
+    issue: "Tại câu 2 của p000005, tính từ miêu tả ký ức chiến tranh chưa lành/còn nguyên vẹn nỗi đau (`raw`) được dịch thành `quá dữ dội`, hơi nghiêng về cường độ sự việc hơn là cảm giác nhức nhối, sống động như mới hôm qua trong tâm trí người lính."
+    basis: "Câu dịch hiện tại (`vẫn quá dữ dội trong tâm trí họ, chưa thể phai mờ`) vẫn truyền tải đúng hệ quả ký ức không phai nhạt và nối mạch tự nhiên với câu kế tiếp (`nhớ thế giới ấy rõ mồn một`), không làm sai lệch logic."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `vẫn còn quá nhức nhối và sống động trong tâm trí họ đến mức không thể phai mờ`."
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000008
+    issue: "Tại câu 1 của p000008, cụm trạng ngữ chỉ mức độ chi tiết (`in detail`) được gộp nhẹ vào động từ `nhớ rõ` (`Tôi nhớ rõ những sự việc hôm ấy`), làm giảm đôi chút sắc thái hồi tưởng tỉ mỉ từng chi tiết khi so với câu `Tôi nhớ rất rõ ngày hôm ấy` ở p000014."
+    basis: "Không ảnh hưởng đến nghĩa cốt lõi hay mạch tự sự hồi tưởng của người cựu binh."
+    recommendation: "Có thể giữ nguyên, hoặc tinh chỉnh ở bước chuốt văn thành `Tôi nhớ tường tận những sự việc của ngày hôm ấy` để tạo độ phân biệt sắc thái rõ hơn với p000014."
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000011
+    issue: "Tại câu 1 của p000011, cụm chỉ thái độ phớt lờ/coi như không có gì trước tầm nhìn mù mịt (`made nothing of`) được dịch là `chẳng hề nao núng`, hơi chuyển sang nét nghĩa dũng cảm không sợ hãi thay vì thái độ bất chấp/chẳng mảy may bận tâm của pháo binh địch; đồng thời ở cuối p000012, thuật ngữ `lines of fire` của súng máy dịch là `làn đạn` hơi rộng hơn `đường bắn`."
+    basis: "Cả hai vị trí đều giữ nguyên vẹn quan hệ nhân quả và hiện thực chiến trường lầy lội trong hồi ức của xạ thủ súng máy."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc đổi thành `chẳng mảy may bận tâm đến tầm nhìn tồi tệ` tại p000011 và `kiểm soát đường bắn của mình` tại p000012."
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch05-b01-rhine-and-war-setting-terms
+    source_term: "Rhine / Great War / Imperial Army / Republican Army / Company G / Company E / Company H / five regiments / front line / vanguard unit"
+    proposed_vi: "chiến trường Rhine (p000001), Rhine (p000006) / Đại chiến / Quân đội Đế quốc / Quân đội Cộng hòa / Đại đội G / Đại đội E / Đại đội H / năm trung đoàn / tuyến đầu / đơn vị tiên phong"
+    alternatives_vi:
+      - "Rhine (p000001) / Mặt trận Rhine / Lục quân Đế quốc / Lục quân Cộng hòa / tiền tuyến"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000001
+      - YS-LN02/Text/part0026.xhtml/p000002
+      - YS-LN02/Text/part0026.xhtml/p000006
+      - YS-LN02/Text/part0026.xhtml/p000008
+      - YS-LN02/Text/part0026.xhtml/p000009
+      - YS-LN02/Text/part0026.xhtml/p000011
+      - YS-LN02/Text/part0026.xhtml/p000019
+      - YS-LN02/Text/part0026.xhtml/p000020
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa lựa chọn tạm `chiến trường Rhine` tại p000001 (nơi ngữ cảnh p000005 xác nhận hồi ức hướng về một chiến trường) và giữ nguyên `Rhine` không gắn danh từ phân loại `sông` tại p000006 theo đúng `vol02-ch05-b01-rhine` trong ledger và quy ước xuyên suốt cuối Chương 4 – đầu Chương 5. Kế thừa đồng bộ `Đại chiến`, `Quân đội Đế quốc`, `Quân đội Cộng hòa`, cùng cách gọi phiên hiệu `Đại đội G`, `Đại đội E`, `Đại đội H` và `năm trung đoàn`."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b01-trench-warfare-and-artillery-terms
+    source_term: "attack position / machine-gun squad / trench / firing position / trench mortar squad (mortars) / muzzle flashes / duckboards / gunners / lines of fire / field guns / observed fire / designated riflemen / foxholes / trench foot"
+    proposed_vi: "vị trí tấn công / tiểu đội súng máy / chiến hào / trận địa bắn / tiểu đội súng cối chiến hào (súng cối) / chớp lửa đầu nòng / sàn ván lót / xạ thủ súng máy (p000012), đám pháo thủ (p000018) / làn đạn / pháo dã chiến / bắn hiệu chỉnh theo quan sát / các tay súng được chỉ định / hố cá nhân / bệnh bàn chân chiến hào"
+    alternatives_vi:
+      - "bắn có quan sát (bắn theo quan sát) / đường bắn (p000012) / các lính súng trường được phân công / bệnh bàn chân do chiến hào"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000008
+      - YS-LN02/Text/part0026.xhtml/p000009
+      - YS-LN02/Text/part0026.xhtml/p000010
+      - YS-LN02/Text/part0026.xhtml/p000011
+      - YS-LN02/Text/part0026.xhtml/p000012
+      - YS-LN02/Text/part0026.xhtml/p000013
+      - YS-LN02/Text/part0026.xhtml/p000015
+      - YS-LN02/Text/part0026.xhtml/p000018
+      - YS-LN02/Text/part0026.xhtml/p000020
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ thuật ngữ tác chiến chiến hào trong hồi ức của cựu binh: giữ nhất quán `vị trí tấn công` (p000008, p000013), `hố cá nhân` (p000015, p000020), `pháo dã chiến` (`vol02-ch05-b14-field-guns`), `bệnh bàn chân chiến hào` (`vol02-ch05-b01-trench-foot`), và lựa chọn tạm `bắn hiệu chỉnh theo quan sát` (`vol02-ch05-b01-observed-fire`) tại p000015 (ghi nhận phương án thay thế `bắn có quan sát` / `bắn theo quan sát` để đối chiếu với `vol02-ch05-b06-observed-fire-mission`). Phân biệt rõ `gunners` tại p000012 là `xạ thủ súng máy` (đi kèm `for the machine guns, too`) với `The gunners` tại p000018 là `Đám pháo thủ` (chỉ pháo binh Cộng hòa đang nã đạn xuống bùn)."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b01-command-critique-and-air-support-terms
+    source_term: "the brass / human bullets / bigwigs / air support / enemy guns / local air superiority"
+    proposed_vi: "giới chỉ huy cấp cao / những viên đạn sống / đám tai to mặt lớn / yểm trợ đường không / mấy khẩu pháo địch / ưu thế trên không cục bộ"
+    alternatives_vi:
+      - "đám chỉ huy cấp cao (cấp trên) / đạn người (những viên đạn thịt) / chi viện đường không / ưu thế không phận cục bộ"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000020
+      - YS-LN02/Text/part0026.xhtml/p000022
+      - YS-LN02/Text/part0026.xhtml/p000023
+      - YS-LN02/Text/part0026.xhtml/p000024
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa ẩn dụ `những viên đạn sống` (`vol02-ch05-b01-human-bullets` / F02) để truyền tải chính xác hình ảnh dùng sinh mạng bộ binh đột phá phòng tuyến mà không gây hiểu lầm thành đạn làm từ xác người; đồng bộ `giới chỉ huy cấp cao` (`the brass`), `mấy khẩu pháo địch` (`enemy guns` tại p000022 theo F06), `yểm trợ đường không` và `ưu thế trên không cục bộ`."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b01-old-veteran-pov-pronouns-and-emphasis
+    source_term: "Old veteran third-person frame narration (`ông lão` / `ông`), collective veteran plural (`họ`), transition to first-person interior thought and retrospective narration (`tôi` / `chúng tôi`), generic second-person rendering, and italicized spans in p000006, p000007, p000021, p000024"
+    proposed_vi: "Tuân thủ nghiêm ngặt giới hạn của DEC-P01-001 (quy ước `nó` / `mình` chỉ áp dụng cho điểm nhìn của Tanya, không áp dụng cho người cựu binh chiến trường Rhine): trong khung trần thuật ngôi thứ ba mở đầu (p000001–p000007), quy chiếu người cựu binh già bằng `ông lão` và đại từ `ông` / `Ông`, đồng thời giữ đại từ số nhiều `họ` tại p000003 và p000005 khi mở rộng sang thế hệ những người lính từng tham gia Đại chiến; từ câu độc thoại nội tâm cuối p000007 (`*Có lẽ tôi sẽ chẳng bao giờ quên được.*`) sang toàn bộ mạch hồi tưởng ngôi thứ nhất từ p000008 đến p000024, dùng nhất quán `tôi` / `Tôi` ở ngôi thứ nhất số ít và `chúng tôi` ở ngôi thứ nhất số nhiều (Đại đội G / tiểu đội súng máy) theo đúng `vol02-ch05-b01-old-soldier-interior-voice` (F05); lược chủ ngữ hoặc dùng `người ta` cho đại từ phiếm chỉ tại p000010, p000016; dùng ngôi thứ ba `Họ` quy chiếu `giới chỉ huy cấp cao` trong câu hỏi bức xúc in nghiêng tại p000021 (theo F03); bảo toàn chính xác các phạm vi nhấn mạnh `*...*` theo DEC-P01-002 tại p000006, p000007, p000021 và p000024 (theo F08)"
+    alternatives_vi:
+      - "mình (thay cho `tôi` ở câu nội tâm cuối p000007 — ưu tiên `tôi` để nối mạch liền lạc với tự sự ngôi thứ nhất `Tôi` từ p000008 trở đi và tránh nhầm với quy ước điểm nhìn của Tanya)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000001
+      - YS-LN02/Text/part0026.xhtml/p000002
+      - YS-LN02/Text/part0026.xhtml/p000003
+      - YS-LN02/Text/part0026.xhtml/p000004
+      - YS-LN02/Text/part0026.xhtml/p000005
+      - YS-LN02/Text/part0026.xhtml/p000006
+      - YS-LN02/Text/part0026.xhtml/p000007
+      - YS-LN02/Text/part0026.xhtml/p000008
+      - YS-LN02/Text/part0026.xhtml/p000009
+      - YS-LN02/Text/part0026.xhtml/p000010
+      - YS-LN02/Text/part0026.xhtml/p000011
+      - YS-LN02/Text/part0026.xhtml/p000012
+      - YS-LN02/Text/part0026.xhtml/p000013
+      - YS-LN02/Text/part0026.xhtml/p000014
+      - YS-LN02/Text/part0026.xhtml/p000015
+      - YS-LN02/Text/part0026.xhtml/p000016
+      - YS-LN02/Text/part0026.xhtml/p000017
+      - YS-LN02/Text/part0026.xhtml/p000018
+      - YS-LN02/Text/part0026.xhtml/p000019
+      - YS-LN02/Text/part0026.xhtml/p000020
+      - YS-LN02/Text/part0026.xhtml/p000021
+      - YS-LN02/Text/part0026.xhtml/p000022
+      - YS-LN02/Text/part0026.xhtml/p000023
+      - YS-LN02/Text/part0026.xhtml/p000024
+    volume: vol-02
+    chapter: 5
+    rationale: "Tuân thủ nghiêm ngặt DEC-P01-001, DEC-P01-002 và toàn bộ các sửa chữa F01–F08 đã được nghiệm thu trong handoff."
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000001
+    terms:
+      - "chiến trường Rhine (the Rhine)"
+    pronouns_and_address:
+      - "Quy chiếu người cựu binh già bằng danh ngữ `ông lão`."
+    pov_and_voice: "Trần thuật ngôi thứ ba mở đầu chương từ điểm nhìn gắn với ký ức của người cựu binh."
+    modality_and_logic: "Khóa lựa chọn tạm `chiến trường Rhine` tại p000001 theo `vol02-ch05-b01-rhine`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000002
+    terms:
+      - "Đại chiến (the Great War)"
+      - "người lính (soldiers)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba quy chiếu ông lão bằng `ông` / `Ông`."
+    pov_and_voice: "Trần thuật ngôi thứ ba."
+    modality_and_logic: "Giữ cấu trúc chủ ngữ đã sửa theo F04 (`Ông từng là một trong những người lính phục vụ trong Đại chiến; mọi thứ đã khắc sâu vào tâm trí ông`) để không nhập nhằng chủ thể của mệnh đề trạng ngữ."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000003
+    pronouns_and_address:
+      - "Dùng đại từ số nhiều `họ` quy chiếu những người lính từng phục vụ trong Đại chiến (nối từ câu 2 của p000002)."
+    pov_and_voice: "Trần thuật ngôi thứ ba chiêm nghiệm về di chấn của cuộc chiến."
+    modality_and_logic: "Giữ cụm rào đón `theo một nghĩa nào đó` và hình ảnh `phần đời còn lại của họ được tôi luyện`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000004
+    terms:
+      - "tiếng súng (gunfire)"
+      - "chiếc đĩa hát bị xước (broken record)"
+    pronouns_and_address:
+      - "Quy chiếu ông lão bằng `ông`."
+    pov_and_voice: "Trần thuật ngôi thứ ba."
+    modality_and_logic: "Giữ sự kéo dài đến hiện tại (`Cho đến tận bây giờ... vẫn vọng trong đầu ông`) và hình ảnh so sánh `như một chiếc đĩa hát bị xước`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000005
+    terms:
+      - "chiến trường (battlefield)"
+      - "loài người (the human race)"
+    pronouns_and_address:
+      - "Câu 1 quy chiếu ông lão bằng `ông`; câu 2–3 giữ đúng bước chuyển sang đại từ số nhiều `họ` cho tập thể những người lính từng trải qua cuộc chiến."
+    pov_and_voice: "Trần thuật ngôi thứ ba hòa giọng với cảm xúc cay đắng trong hồi ức của người lính."
+    modality_and_logic: "Giữ nguyên chuỗi câu danh ngữ cảm thán gay gắt ở cuối đoạn (`Cái chiến trường chết tiệt ấy. Thứ khủng khiếp nhất mà loài người từng tạo ra. Chiến trường nơi bùn lầy và ruồi nhặng hoành hành.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000006
+    terms:
+      - "Rhine"
+      - "cánh cổng dẫn xuống địa ngục (the very gates of hell)"
+    pronouns_and_address:
+      - "Câu giữa quy chiếu ông lão bằng `Ông`."
+    pov_and_voice: "Trần thuật ngôi thứ ba đan xen tiếng rên và suy nghĩ trực tiếp của ông lão."
+    modality_and_logic: "Khóa việc giữ nguyên `Rhine` không thêm danh từ phân loại tại p000006 theo `vol02-ch05-b01-rhine`."
+    emphasis: "Khóa chính xác hai phạm vi nhấn mạnh `*Aah.*` và `*Rhine chính là cánh cổng dẫn xuống địa ngục.*`, giữ câu trần thuật `Ông rên lên khi nhớ lại.` ở ngoài dấu `*...*` theo DEC-P01-002."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000007
+    pronouns_and_address:
+      - "Câu 1 quy chiếu bằng `Ông lão`; câu 2 độc thoại nội tâm trực tiếp dùng đại từ ngôi thứ nhất `tôi` theo `vol02-ch05-b01-old-soldier-interior-voice` (F05)."
+    pov_and_voice: "Câu bản lề chuyển từ khung trần thuật ngôi thứ ba của ông lão sang hồi ức ngôi thứ nhất của chính ông thời còn là lính chiến hào."
+    modality_and_logic: "Giữ sắc thái phỏng đoán `Có lẽ` (`probably`) và phủ định `sẽ chẳng bao giờ quên được`."
+    emphasis: "Khóa phạm vi nhấn mạnh `*Có lẽ tôi sẽ chẳng bao giờ quên được.*` ở câu 2 theo đúng thẻ `<em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000008
+    terms:
+      - "Đạn pháo (shells)"
+      - "Đại đội G (Company G)"
+      - "vị trí tấn công (attack position)"
+      - "năm trung đoàn (five regiments)"
+      - "tuyến đầu (front line)"
+      - "Đại đội E (Company E)"
+      - "yểm trợ sườn (support their flank)"
+    pronouns_and_address:
+      - "Tự sự hồi tưởng ngôi thứ nhất dùng `Tôi` / `tôi` (số ít) và `chúng tôi` (số nhiều, Đại đội G); quy chiếu Đại đội E bằng `họ`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất của người cựu binh thuộc Đại đội G."
+    modality_and_logic: "Giữ bối cảnh đạn pháo đan chéo trên đầu, mệnh lệnh tiến lên vị trí tấn công mới và mục đích nhiệm vụ yểm trợ sườn cho Đại đội E."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000009
+    terms:
+      - "tiểu đội súng máy (machine-gun squad)"
+      - "chiến hào (trench)"
+      - "đơn vị tiên phong (vanguard unit)"
+      - "trận địa bắn (firing position)"
+      - "Quân đội Đế quốc (Imperial Army)"
+      - "Quân đội Cộng hòa (Republican Army)"
+      - "áp chế (suppressed)"
+    pronouns_and_address:
+      - "Dùng `Tôi` và `chúng tôi`; cặp đối lập `us and them` dịch tự nhiên là `ta và địch`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất của lính tiểu đội súng máy."
+    modality_and_logic: "Giữ sự đối lập giữa giả định theo kế hoạch (`Lẽ ra Quân đội Đế quốc đã áp chế được Quân đội Cộng hòa khá tốt...`) và thực tế chiến tuyến biến động hỗn loạn (`nhưng như mọi khi, ranh giới giữa hai bên vô cùng phức tạp. Chúng gần như biến động liên tục.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000010
+    terms:
+      - "Trận pháo kích (The bombardment)"
+      - "vũng lầy (mire)"
+      - "chiến hào (trench)"
+      - "khói pháo (artillery smoke)"
+    pronouns_and_address:
+      - "Lược chủ ngữ ở mệnh đề điều kiện khái quát (`hễ ló đầu khỏi chiến hào nhìn ra`), tránh dịch đại từ phiếm chỉ thành ngôi thứ hai trực tiếp."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ chi tiết duy nhất một cái cây còn sót lại (`quật đổ tất cả cây cối trong vũng lầy này, chỉ chừa lại một cây`) và ba đặc điểm tàn khốc của bãi lầy."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000011
+    terms:
+      - "pháo thủ địch (enemy artillerymen)"
+      - "Tiểu đội súng cối chiến hào (trench mortar squad)"
+      - "đại đội (company)"
+      - "chớp lửa đầu nòng (muzzle flashes)"
+      - "Quân đội Cộng hòa (Republican Army)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi` cho phía đại đội của người kể; quy chiếu pháo thủ địch bằng `bọn pháo thủ địch khốn kiếp`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất mang giọng điệu bức xúc của người lính dưới làn pháo kích."
+    modality_and_logic: "Giữ nhịp độ pháo kích biến thiên (`với nhịp độ khi nhanh khi chậm`), sự kém hiệu quả khi súng cối bắn trả (`nhưng hầu như chẳng gây được tổn thất gì`), và quan sát thực tế qua làn khói (`vẫn nhìn thấy nhiều chớp lửa đầu nòng từ các vị trí của Quân đội Cộng hòa`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000012
+    terms:
+      - "súng cối (mortars)"
+      - "Sàn ván lót (duckboards)"
+      - "xạ thủ súng máy (machine guns ... gunners)"
+      - "làn đạn (lines of fire)"
+    pronouns_and_address:
+      - "Dùng `Tôi`, `chúng tôi` và quy chiếu các khẩu đội súng cối bằng `họ`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ quan hệ nguyên nhân – hệ quả (`Sàn ván lót không đứng vững vì cứ lún xuống bùn, khiến họ không có chỗ bắn ổn định`) và cấu trúc tăng tiến mức độ khắc nghiệt (`Điều kiện tồi tệ đến mức ngay cả các xạ thủ súng máy được huấn luyện kỹ lưỡng cũng không thể kiểm soát làn đạn`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000013
+    terms:
+      - "vị trí tấn công (attack positions)"
+    pronouns_and_address:
+      - "Dùng `Tôi` và `ai nấy đều...`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất."
+    modality_and_logic: "Giữ tầm nhìn bao quát (`xa đến tận tầm mắt`) và nỗ lực tột cùng của những người lính phủ đầy bùn nhằm giữ vững vị trí tấn công."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000014
+    pronouns_and_address:
+      - "Dùng `Tôi`."
+    pov_and_voice: "Câu khẳng định ngắn gọn tạo nhịp nhấn trong hồi ức của người cựu binh."
+    modality_and_logic: "Giữ nguyên câu ngắn `Tôi nhớ rất rõ ngày hôm ấy.`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000015
+    terms:
+      - "pháo dã chiến (field guns)"
+      - "chiến hào (trench)"
+      - "bắn hiệu chỉnh theo quan sát (observed fire)"
+      - "các tay súng được chỉ định (designated riflemen)"
+      - "hố cá nhân (foxholes)"
+      - "bệnh bàn chân chiến hào (trench foot)"
+    pronouns_and_address:
+      - "Dùng `tôi` cho người kể; quy chiếu những người lính dũng cảm bằng `những người lính ấy` / `Họ` / `họ`."
+    pov_and_voice: "Tự sự hồi tưởng kết hợp sự kính phục sâu sắc khi nhìn lại từ hiện tại."
+    modality_and_logic: "Khóa thuật ngữ `bắn hiệu chỉnh theo quan sát` (`vol02-ch05-b01-observed-fire`) và `bệnh bàn chân chiến hào` (`vol02-ch05-b01-trench-foot`); giữ nguyên cách diễn đạt đã sửa theo F01 (`Cảnh tượng lòng dũng cảm ấy vẫn in hằn trước mắt tôi, mang một vẻ thiêng liêng; đến tận hôm nay, tôi vẫn kính trọng họ từ tận đáy lòng.`) mà không thêm tính từ phán xét thẩm mỹ ngoài nguồn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000016
+    pronouns_and_address:
+      - "Dùng chủ ngữ phiếm chỉ `người ta` cho đại từ khái quát trong nguồn."
+    pov_and_voice: "Nhận định chiêm nghiệm của người cựu binh."
+    modality_and_logic: "Giữ điều kiện loại trừ (`không thể hiểu nếu chưa từng trải qua; chỉ khi ở đó, người ta mới hiểu được`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000017
+    terms:
+      - "Đám cóc ấy (Those toads)"
+    pronouns_and_address:
+      - "Quy chiếu quân địch bằng `Đám cóc ấy` / `chúng`."
+    pov_and_voice: "Lời thoại bông đùa của đồng đội trong tiểu đội súng máy."
+    modality_and_logic: "Giữ giọng điệu mỉa mai khẩu ngữ trong chiến hào."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000018
+    terms:
+      - "Đám pháo thủ (The gunners)"
+      - "đầm lầy (swamp)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời thoại hưởng ứng câu đùa của đồng đội."
+    modality_and_logic: "Khóa cách dịch `Đám pháo thủ` (chỉ pháo binh địch đang bắn phá làm mặt đất hóa đầm lầy, nối tiếp câu đùa ở p000017)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000019
+    terms:
+      - "Đại đội H (Company H)"
+    pronouns_and_address:
+      - "Người lính trong hố cá nhân tự xưng `Tôi`, quy chiếu Đại đội H bằng `họ`."
+    pov_and_voice: "Lời thoại của những người lính ở hố cá nhân gần đó."
+    modality_and_logic: "Giữ sự chuyển giọng từ bông đùa sang thương cảm cho đơn vị bạn đang hứng hỏa lực (`Nhưng người đang bị bắn là Đại đội H. Tôi thấy thương họ.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000020
+    terms:
+      - "hố cá nhân (foxhole)"
+      - "Đại đội H (Company H)"
+      - "giới chỉ huy cấp cao (the brass)"
+      - "phòng tuyến địch (enemy’s defense)"
+      - "những viên đạn sống (human bullets)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi` cho đơn vị của người kể."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất pha lẫn sự bất mãn đối với giới chỉ huy cấp cao thời bấy giờ."
+    modality_and_logic: "Khóa ẩn dụ `những viên đạn sống` theo `vol02-ch05-b01-human-bullets` (F02) và giữ sắc thái nhận định `dường như tin chắc` (`seemed convinced`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000021
+    pronouns_and_address:
+      - "Dùng đại từ ngôi thứ ba số nhiều `Họ` quy chiếu `giới chỉ huy cấp cao` (nối từ câu cuối p000020) theo đúng sửa chữa F03."
+    pov_and_voice: "Câu hỏi tu từ nội tâm đầy phẫn nộ của người lính."
+    modality_and_logic: "Giữ nguyên câu hỏi cảm thán chất vấn sự coi rẻ sinh mạng binh sĩ vì một mảnh đất lầy lội."
+    emphasis: "Khóa nhấn mạnh toàn câu `*Họ nghĩ mảnh đất lầy lội này đáng giá bao nhiêu mạng người?!*` theo đúng thẻ `<em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000022
+    terms:
+      - "Yểm trợ đường không (Air support)"
+      - "mấy khẩu pháo địch (the enemy guns)"
+    pronouns_and_address: []
+    pov_and_voice: "Tiếng kêu bất lực của một người lính trong đại đội."
+    modality_and_logic: "Khóa cụm `mấy khẩu pháo địch` theo sửa chữa F06 để giữ rõ đối tượng hỏa lực pháo binh địch cần bị dập tắt."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000023
+    terms:
+      - "đại đội (company)"
+      - "tuyến chiến đấu (the lines)"
+      - "ưu thế trên không cục bộ (local air superiority)"
+      - "Chiến dịch (the operation)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi` cho phía đại đội."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất giải thích kế hoạch tác chiến trên lý thuyết."
+    modality_and_logic: "Giữ rõ hành động `đẩy tuyến chiến đấu lên` theo sửa chữa F07 và cấu trúc giả định trái với thực tế đang diễn ra (`Lẽ ra chúng tôi phải... Chiến dịch vốn phải vận hành như vậy.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000024
+    terms:
+      - "Đám tai to mặt lớn (bigwigs)"
+      - "yểm trợ đường không (air support)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi` cho những người lính dưới chiến hào và `họ` cho `Đám tai to mặt lớn khốn kiếp ấy`."
+    pov_and_voice: "Tự sự hồi tưởng ngôi thứ nhất kết thúc đoạn bằng sự châm biếm chua chát."
+    modality_and_logic: "Giữ sự chơi chữ đối lập trực diện giữa lời hứa hẹn của cấp trên (`yểm trợ đường không *đầy đủ*`) và thực tế phũ phàng dưới chiến hào (`*hoàn toàn không có* yểm trợ đường không`)."
+    emphasis: "Khóa chính xác hai phạm vi nhấn mạnh `*đầy đủ*` và `*hoàn toàn không có*` (để cụm `yểm trợ đường không` ở ngoài dấu `*...*`) theo đúng hai thẻ `<em>` trong nguồn (DEC-P01-002 / F08)."
