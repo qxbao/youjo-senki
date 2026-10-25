@@ -1,0 +1,416 @@
+task_id: vol-02-ch-05-b19
+review_task_id: vol-02-ch-05-b19-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b19
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000465
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000495
+unit_count: 31
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 50d746e0dc85dd1a8e61cc52e0586e35a8ae09b241afb3137f527c99f1a0e747
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b19-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b19-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000471
+    category: emphasis_markup_alignment
+    issue: >-
+      Một số vị trí đánh dấu nhấn mạnh giữa `xhtml` nguồn và bản dịch chưa khớp hoàn toàn về hình thức theo `DEC-P01-002`: tại `p000471` hai từ nhấn mạnh (`buried`, `depths`) và tại `p000483` câu mở đầu (`This is crazy.`) có thẻ `<html:em>` trong nguồn nhưng bản dịch đang để chữ thường không có `*...*`; tại `p000478` tên tài liệu trong `<html:em>` (`Field Trip Guide`) đang đặt trong ngoặc kép `“Hướng dẫn dã ngoại”` thay vì `*Hướng dẫn dã ngoại*`; ngược lại tại `p000485` nguồn không có thẻ `<html:em>` nhưng bản dịch đang bọc `*“…Chúng ta chết chắc rồi.”*`; ngoài ra tại `p000479`, `p000481`, `p000482`, `p000486` dấu chấm hỏi `?` ở cuối đoạn trích đang đặt ngoài dấu `*` đóng (`*“...”*?`).
+    basis: >-
+      Toàn bộ nghĩa văn bản, giọng điệu mỉa mai của cẩm nang dã ngoại và cảm xúc kinh hãi của các pháp sư đều được truyền tải chính xác, tự nhiên; sự khác biệt chỉ nằm ở quy ước ký hiệu đánh dấu.
+    recommendation: >-
+      Không chặn signoff; ở bước polish hoặc rà soát định dạng toàn tập có thể đồng bộ dấu `*...*` tại `p000471`, `p000478`, `p000483`, `p000485` và đưa dấu `?` vào trong phạm vi `*...*` ở `p000479`, `p000481`, `p000482`, `p000486` để khớp tuyệt đối với `DEC-P01-002`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000465
+    category: lexical_nuance
+    issue: >-
+      Tại câu 3 của `p000465`, động từ miêu tả Trung đội Bảy lao vội vào phòng (`in ran Seventh Platoon`) đang được dịch nhẹ thành `Trung đội Bảy đã tới`; đồng thời tại `p000478`, hai câu liên tiếp dùng hai từ khác nhau cho cùng một khái niệm (`Hướng dẫn dã ngoại` và `Quy trình đi picnic à?`, trong khi ở `p000467` và `p000477` đều dịch `picnic` là `dã ngoại`).
+    basis: >-
+      Mạch hành động chạy đua với thời hạn ba phút ở `p000465` và sắc thái châm biếm ở `p000478` vẫn rõ ràng, hoàn toàn không ảnh hưởng đến logic tự sự.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh `p000465` thành `Trung đội Bảy cũng vừa chạy ùa vào` và thống nhất `Quy trình dã ngoại à?` ở `p000478` để đồng bộ với `p000467`, `p000477`.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000475
+    category: pronoun_and_vocative_consistency
+    issue: >-
+      Trong tự sự ngôi thứ nhất của Warren Grantz ở lô `ch-05-b19` (`p000475`, `p000478`, `p000487`, `p000488`, `p000491`), Grantz quy chiếu Thiếu tá von Degurechaff nhất quán bằng đại từ `Cô` / `cô`, trong khi ở nửa cuối `ch-05-b18` (`p000451`, `p000457`, `p000458`, `p000460`, `p000461`) lại dùng `cô ta`; ngoài ra tại `p000487`, câu cầu nguyện thầm của Grantz dịch là `*Lạy Chúa, xin cứu chúng con.*` (khớp với phương án thay thế trong `b07-god-vocative` và `ch-05-b17` `p000424`, bên cạnh phương án `Thượng đế` ở `review-God`).
+    basis: >-
+      Điểm nhìn xuyên suốt `ch-05-b19` là của Thiếu úy ma pháp Warren Grantz (không phải trần thuật điểm nhìn Tanya nên không thuộc phạm vi cấm dùng `cô` của `DEC-P01-001`), và cách dùng `Cô` / `cô` nhất quán trong toàn bộ `b19`, đồng thời câu cảm thán `*Lạy Chúa, xin cứu chúng con.*` rất tự nhiên đối với lời cầu cứu trong tâm tưởng người lính.
+    recommendation: >-
+      Không chặn signoff; giữ nguyên trong `b19` và chỉ cần lưu ý nếu biên tập viên muốn đồng bộ sắc thái đại từ quy chiếu của Grantz giữa `b18` và `b19` ở bước chuốt văn toàn chương.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "briefing room / Fourth Platoon / Seventh Platoon / battalion commander / major"
+    source_label: "briefing room / Fourth Platoon / Seventh Platoon / battalion commander / major"
+    recommended_vi: "phòng hội ý / Trung đội Bốn / Trung đội Bảy / vị chỉ huy tiểu đoàn / Thiếu tá"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `phòng hội ý` và `Thiếu tá` từ `ch-05-b17` – `ch-05-b18` (`p000429`, `p000432`, `p000463`), giữ nhất quán tên gọi các trung đội trực thuộc Tiểu đoàn 203 (`Trung đội Bốn`, `Trung đội Bảy`)."
+    alternatives:
+      - "phòng giao ban / Trung đội 4 / Trung đội 7 / tiểu đoàn trưởng"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000465
+      - YS-LN02/Text/part0026.xhtml/p000467
+      - YS-LN02/Text/part0026.xhtml/p000468
+      - YS-LN02/Text/part0026.xhtml/p000469
+
+  - term_key: "warning trench / front lines / forward-most line / canaries / mortality rate"
+    source_label: "warning trench / front lines / forward-most line / canaries / mortality rate"
+    recommended_vi: "chiến hào cảnh giới / tuyến đầu / tuyến tiền phương / những “con chim hoàng yến” (chim hoàng yến) / tỷ lệ tử vong"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ `chiến hào cảnh giới` với `ch-05-b17` (`p000405`, `p000417`) và `chapter5_b17_reviewer_recommendations`; bảo toàn hình ảnh ẩn dụ quân sự `chim hoàng yến` gắn với lời giải thích về chim lồng đưa xuống hầm mỏ ở `p000472`."
+    alternatives:
+      - "chiến hào tiền tiêu / tuyến đầu tiên / tỷ lệ thương vong"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000471
+      - YS-LN02/Text/part0026.xhtml/p000472
+      - YS-LN02/Text/part0026.xhtml/p000484
+      - YS-LN02/Text/part0026.xhtml/p000495
+
+  - term_key: "Field Trip Guide / hand grenades / shovel / rifle / computation orb / night camo / CQB / Republican soldiers"
+    source_label: "Field Trip Guide / hand grenades / shovel / rifle / computation orb / night camo / CQB / Republican soldiers"
+    recommended_vi: "Hướng dẫn dã ngoại / lựu đạn / xẻng / súng trường / quả cầu tính toán / đồ ngụy trang ban đêm / tác chiến cự ly gần / Binh lính Cộng hòa"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ `quả cầu tính toán` (`chapter1_b01_pending_terms`), `xẻng` (`ch-05-b17` `p000416`), `Binh lính Cộng hòa` và dịch rõ thuật ngữ viết tắt quân sự `CQB` là `tác chiến cự ly gần`."
+    alternatives:
+      - "Cẩm nang dã ngoại / lựu đạn cầm tay / cận chiến (CQB) / lính Cộng hòa"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000478
+      - YS-LN02/Text/part0026.xhtml/p000479
+      - YS-LN02/Text/part0026.xhtml/p000480
+      - YS-LN02/Text/part0026.xhtml/p000482
+      - YS-LN02/Text/part0026.xhtml/p000486
+      - YS-LN02/Text/part0026.xhtml/p000492
+
+  - term_key: "intelligence-gathering mission / machine guns / heavy artillery / infantry guns / snipers / double promotion"
+    source_label: "intelligence-gathering mission / machine guns / heavy artillery / infantry guns / snipers / double promotion"
+    recommended_vi: "nhiệm vụ thu thập tình báo / súng máy / pháo hạng nặng / pháo bộ binh / lính bắn tỉa / thăng hai cấp"
+    status: provisional
+    uncertainty: low
+    basis: "Chuẩn xác về thuật ngữ hỏa lực mặt đất và chế độ truy phong hai cấp bậc trong quân đội khi tử trận."
+    alternatives:
+      - "nhiệm vụ thu thập thông tin tình báo / trọng pháo / đặc cách thăng vượt hai cấp"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000483
+      - YS-LN02/Text/part0026.xhtml/p000484
+      - YS-LN02/Text/part0026.xhtml/p000487
+
+  - term_key: "Magic Second Lieutenant Warren Grantz / Major von Degurechaff / commander"
+    source_label: "Magic Second Lieutenant Warren Grantz / Major von Degurechaff / The commander"
+    recommended_vi: "Thiếu úy ma pháp Warren Grantz / Thiếu tá von Degurechaff / Chỉ huy"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ tuyệt đối danh xưng và quân hàm từ `ch-05-b18` (`p000444`, `p000456`)."
+    alternatives:
+      - "Thiếu úy Ma pháp Warren Grantz / vị chỉ huy"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000489
+      - YS-LN02/Text/part0026.xhtml/p000491
+      - YS-LN02/Text/part0026.xhtml/p000492
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000465
+    terms:
+      - "trung đội"
+      - "phòng hội ý"
+      - "Trung đội Bảy"
+      - "Trung đội Bốn"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Warren Grantz dùng `Tôi` và `bọn tôi`, quy chiếu Trung đội Bảy bằng `họ`."
+    pov_and_voice: "Tự sự ngôi thứ nhất tiếp nối trực tiếp lệnh tập hợp khẩn cấp ở cuối `ch-05-b18` (`p000463`–`p000464`)."
+    modality_and_logic: "Bảo toàn chuỗi hành động gấp gáp: giục trung đội đang ăn tối dở, chạy tới phòng hội ý vừa kịp ở mốc 2 phút 51 giây; ban đầu tưởng chưa có trung đội nào khác nhưng Trung đội Bảy đang đua với Trung đội Bốn cũng ùa tới ngay trước khi hết 3 phút."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000466
+    terms:
+      - "sĩ quan cấp trên"
+      - "trung đội"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz quy chiếu các trung đội đến muộn bằng `họ`."
+    pov_and_voice: "Tự sự ngôi thứ nhất pha lẫn câu tự vấn nửa lo lắng nửa mỉa mai về thái độ của những kẻ trễ giờ."
+    modality_and_logic: "Bảo toàn hình ảnh các sĩ quan cấp trên lập tức nở nụ cười toe toét đi lùa các trung đội đến muộn ngay giây tiếp theo, cùng câu hỏi nội tâm của Grantz xem những người đến trễ có thấy áy náy không."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000467
+    terms:
+      - "tập hợp"
+      - "vị chỉ huy tiểu đoàn"
+      - "kế hoạch dã ngoại ban đêm"
+    pronouns_and_address: "Tự sự ngôi thứ nhất số nhiều dùng `chúng tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất đối lập nụ cười tươi của tiểu đoàn trưởng với bản chất tàn khốc của nhiệm vụ."
+    modality_and_logic: "Bảo toàn 3 câu: cả đơn vị nhanh chóng tập hợp; vị chỉ huy tiểu đoàn tươi cười thông báo kế hoạch dã ngoại đêm; và lời bình phủ định rằng thực chất chẳng có gì giống một buổi dã ngoại cả."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000468
+    terms:
+      - "Trung đội Bốn"
+      - "Trung đội Bảy"
+    pronouns_and_address: "Tanya gọi các pháp sư trong tiểu đoàn là `các anh` và tự xưng `Tôi`."
+    pov_and_voice: "Giọng chỉ huy lịch sự kiểu bề trên nhưng lạnh lùng tuyên bố hình phạt."
+    modality_and_logic: "Bảo toàn lời tuyên bố: ngoại trừ Trung đội Bốn và Trung đội Bảy đến đúng giờ, toàn bộ các trung đội còn lại đều đáng chịu phạt."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000469
+    terms:
+      - "Thiếu tá"
+      - "học viện"
+      - "lũ vô dụng"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `Tôi`, quy chiếu các nhóm đến muộn bằng `họ`."
+    pov_and_voice: "Tự sự ngôi thứ nhất nhớ lại tai tiếng của Tanya ở học viện và lật ngược dự đoán ban đầu."
+    modality_and_logic: "Bảo toàn cả hai ý: nhắc lại đây chính là vị Thiếu tá từng tuyên bố ở học viện rằng phải giết lũ vô dụng; và bước ngoặt nhận thức khi Grantz thương hại các nhóm trễ hạn vì tưởng họ sẽ bị ném xuống địa ngục, nhưng hóa ra thực tế còn tệ hơn thế."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000470
+    terms:
+      - "chiến hào"
+    pronouns_and_address: "Tanya tự xưng `tôi` và gọi các trung đội đến muộn là `các anh`."
+    pov_and_voice: "Giọng chỉ huy nghiêm khắc giải thích mục đích hình phạt thực địa."
+    modality_and_logic: "Bảo toàn quan hệ mục đích và nhân quả: điều ra chiến hào để dạy tầm quan trọng của sự khẩn trương; vì nói bằng lời không hiểu nên phải tự thân trải nghiệm kết cục dành cho kẻ chậm chạp."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000471
+    terms:
+      - "pháp sư"
+      - "chiến hào cảnh giới"
+      - "tuyến đầu"
+      - "những “con chim hoàng yến”"
+      - "tuyến tiền phương"
+      - "tỷ lệ tử vong"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz quy chiếu các pháp sư bị phạt bằng `họ` / `Họ`; câu cuối lược đại từ ngôi thứ hai phiếm chỉ theo quy ước `direct-address choice`."
+    pov_and_voice: "Tự sự ngôi thứ nhất tô đậm mức độ khốc liệt của vị trí chiến hào cảnh giới."
+    modality_and_logic: "Bảo toàn sự tăng tiến từ `p000469`: họ thực chất bị chôn vùi dưới đáy địa ngục khi lập tức bị điều ra chiến hào cảnh giới ở phân khu giao tranh ác liệt nhất, làm “chim hoàng yến” hứng đòn đầu tiên ở tuyến tiền phương với tỷ lệ tử vong cao nhất và không một khắc ngơi nghỉ."
+    emphasis: "Nguồn có `<html:em>` tại hai từ chỉ hành động chôn vùi và đáy sâu địa ngục (xem finding `m1`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000472
+    terms:
+      - "chim hoàng yến"
+      - "lý do tồn tại"
+    pronouns_and_address: "Trần thuật giải thích dùng `họ` cho những người lính ở vị trí này."
+    pov_and_voice: "Lời giải thích chua chát về nguồn gốc biệt danh lính gác tiền tiêu."
+    modality_and_logic: "Bảo toàn phép so sánh với những con chim nhốt trong lồng mang xuống hầm mỏ: sở dĩ ví như vậy là vì lời châm biếm rằng lý do tồn tại của người giữ vị trí này chính là khoảnh khắc họ ngừng phản hồi (báo hiệu địch đã tấn công)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000473
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`."
+    pov_and_voice: "Câu đơn chuyển mạch báo hiệu tai họa sắp giáng xuống nhóm đến đúng giờ."
+    modality_and_logic: "Bảo toàn nhận định hối tiếc ở quá khứ rằng bản thân đã quá vội khi thấy nhẹ nhõm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000474
+    terms: []
+    pronouns_and_address: "Tanya gọi hai trung đội đến đúng giờ là `các anh chàng đúng giờ xuất sắc` và tự xưng `tôi`."
+    pov_and_voice: "Giọng chỉ huy ngọt ngào đầy vẻ ban ơn trước khi giao nhiệm vụ cảm tử."
+    modality_and_logic: "Bảo toàn lời khen ngợi đúng giờ và thông báo trao phần thưởng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000475
+    terms:
+      - "đồng đội cùng trung đội"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` / `chúng tôi`, quy chiếu Tanya bằng `Cô`."
+    pov_and_voice: "Sự đối lập giữa vẻ háo hức ngây thơ của đồng đội và trực giác cảnh giác của Grantz."
+    modality_and_logic: "Bảo toàn ánh mắt Tanya nhìn từng người như sắp báo tin vui, cùng sự tương phản giữa các đồng đội đang mong chờ phần thưởng và bản thân Grantz thì không."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000476
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `Tôi`."
+    pov_and_voice: "Câu ngắn dồn nén dự cảm bất an."
+    modality_and_logic: "Bảo toàn khẳng định có linh cảm rất xấu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000477
+    terms:
+      - "hoạt động giải trí thắt chặt tình thân"
+      - "dã ngoại"
+    pronouns_and_address: "Tanya gọi cấp dưới là `Các anh`, dùng đại từ gộp `Chúng ta` và lược chủ ngữ ngôi thứ nhất ở câu cuối."
+    pov_and_voice: "Giọng nói giảm nói tránh đầy hài đen của Tanya khi gọi cuộc tập kích bắt tù binh là buổi dã ngoại giao lưu."
+    modality_and_logic: "Bảo toàn trọn vẹn 3 câu: ban cho một hoạt động giải trí thắt chặt tình thân; cùng đi dã ngoại, nâng ly và mời vài người bạn mới về cùng; có thể gọi đó là một bữa tiệc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000478
+    terms:
+      - "Hướng dẫn dã ngoại"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `chúng tôi` và quy chiếu Tanya bằng `Cô`."
+    pov_and_voice: "Tự sự ngôi thứ nhất kèm câu hỏi ngơ ngác khi nhận cuốn cẩm nang kỳ quặc."
+    modality_and_logic: "Bảo toàn chi tiết ngay khi Tanya dứt lời thì có người phát tập tài liệu mỏng mang tên Hướng dẫn dã ngoại, kèm câu hỏi tự vấn về quy trình dã ngoại."
+    emphasis: "Nguồn có `<html:em>` tại tên cuốn sổ tay (xem finding `m1`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000479
+    terms:
+      - "lựu đạn"
+      - "xẻng"
+      - "súng trường"
+      - "quả cầu tính toán"
+      - "đồ ngụy trang ban đêm"
+      - "tác chiến cự ly gần"
+      - "Binh lính Cộng hòa"
+    pronouns_and_address: "Nội dung cẩm nang gọi người đọc là `các anh` và quy chiếu lính Cộng hòa bằng `họ`."
+    pov_and_voice: "Giọng văn cẩm nang pha trộn mệnh lệnh trang bị vũ khí sát thương, lời đe dọa kỷ luật chiến trường và lý lẽ kết bạn đầy phi lý."
+    modality_and_logic: "Bảo toàn đầy đủ nội dung trích đọc kèm dấu hỏi hoài nghi của Grantz ở cuối: trang bị lựu đạn và xẻng, chuẩn bị súng trường và quả cầu tính toán; mặc đồ ngụy trang đêm cho tác chiến cự ly gần; tự ý dùng quả cầu tính toán hay súng trường khi chưa được phép sẽ bị bắn hoặc đánh chết; lính Cộng hòa cũng là con người nên có thể kết bạn."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` cho toàn bộ đoạn trích từ cuốn hướng dẫn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000480
+    terms:
+      - "xẻng"
+    pronouns_and_address: "Tự sự ngôi thứ nhất số nhiều dùng `chúng tôi`, quy chiếu lính địch bằng `chúng`."
+    pov_and_voice: "Câu hỏi phản bác thẳng vào sự mâu thuẫn nực cười trong cuốn cẩm nang."
+    modality_and_logic: "Bảo toàn câu hỏi chất vấn: nếu là kết bạn thì tại sao lại phải dùng xẻng đập họ bất tỉnh."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000481
+    terms: []
+    pronouns_and_address: "Câu trích dẫn dùng chủ ngữ khái quát `người ta`."
+    pov_and_voice: "Giọng ngụy biện hài hước trong cẩm nang được Grantz đọc lên với giọng nghi vấn."
+    modality_and_logic: "Bảo toàn lập luận dẫn dắt trong cẩm nang rằng thời cổ đại người ta kết bạn bằng cách nói chuyện bằng nắm đấm."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000482
+    terms:
+      - "cái xẻng"
+    pronouns_and_address: "Câu trích dẫn dùng danh ngữ khái quát `Người văn minh ngày nay`."
+    pov_and_voice: "Câu tiếp theo trong cẩm nang đẩy lập luận ngụy biện lên đỉnh điểm, nối tiếp dấu hỏi ngỡ ngàng của người đọc."
+    modality_and_logic: "Bảo toàn mệnh đề đối xứng với `p000481`: người văn minh hiện đại thì dùng công cụ do nền văn minh sinh ra là chiếc xẻng."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000483
+    terms:
+      - "nhiệm vụ đêm"
+      - "lính địch"
+      - "nhiệm vụ thu thập tình báo"
+      - "tù binh"
+      - "chiến hào địch"
+    pronouns_and_address: "Tự sự ngôi thứ nhất số nhiều của Grantz dùng `chúng tôi`."
+    pov_and_voice: "Độc thoại và tự sự ngôi thứ nhất bóc tách bản chất thực sự của nhiệm vụ ẩn sau lớp từ ngữ hoa mỹ."
+    modality_and_logic: "Bảo toàn đầy đủ 4 câu: lời cảm thán đây là chuyện điên rồ; không ai nói ra nhưng hiện rõ trên mặt mọi người; đây là nhiệm vụ đêm bắt cóc lính địch—một nhiệm vụ thu thập tình báo cực kỳ nguy hiểm; và điều kiện tất yếu là muốn kéo địch về thì phải áp sát chiến hào địch."
+    emphasis: "Câu mở đầu có thẻ `<html:em>` trong nguồn (xem finding `m1`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000484
+    terms:
+      - "vị trí địch"
+      - "súng máy"
+      - "pháo hạng nặng"
+      - "pháo bộ binh"
+      - "lính bắn tỉa"
+      - "chiến hào cảnh giới"
+    pronouns_and_address: "Tự sự ngôi thứ nhất số nhiều dùng `chúng tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất liệt kê hàng loạt mối đe dọa chết người để làm nổi bật độ bất khả thi của nhiệm vụ."
+    modality_and_logic: "Bảo toàn cấu trúc tóm lược: phải lẻn vào vị trí địch—nơi có súng máy, đủ loại pháo hạng nặng, pháo bộ binh, lính bắn tỉa và vô số binh lính chờ sẵn—để bắt cóc địch ngay từ chiến hào cảnh giới đang ở mức báo động cao nhất."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000485
+    terms: []
+    pronouns_and_address: "Lời lẩm bẩm dùng đại từ gộp `Chúng ta`."
+    pov_and_voice: "Tiếng thở dài tuyệt vọng của người lính khi nhận ra mức độ nguy hiểm."
+    modality_and_logic: "Bảo toàn câu nhận định chắc chắn sẽ bỏ mạng."
+    emphasis: "Nguồn không có thẻ `<html:em>` (xem finding `m1`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000486
+    terms:
+      - "xẻng"
+      - "Chuyến dã ngoại"
+    pronouns_and_address: "Đoạn trích cẩm nang đan xen đại từ gộp `chúng ta`, ngôi thứ nhất `tôi` của người viết cẩm nang và ngôi thứ hai `các anh`."
+    pov_and_voice: "Lời dẫn của Grantz nối với đoạn trích cẩm nang mô tả giai đoạn rút lui ác liệt nhất bằng ngôn từ đi chơi dã ngoại."
+    modality_and_logic: "Bảo toàn câu dẫn (từ đoạn đó trở đi mọi chuyện mới thực sự khốc liệt) và 3 câu trích dẫn kèm dấu hỏi: sau khi dùng xẻng giao lưu với nhiều bạn mới thì mời vài người về nhà; các bạn ấy sẽ tìm đủ cách giữ chân không cho về; chuyến dã ngoại chỉ kết thúc khi cắt đuôi được họ và về tới nhà."
+    emphasis: "Bảo toàn dấu nhấn mạnh `*...*` cho toàn bộ phần trích dẫn từ cuốn hướng dẫn tương ứng thẻ `<html:em>` theo `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000487
+    terms:
+      - "thăng hai cấp"
+    pronouns_and_address: "Trong lời thoại, Tanya tự xưng `tôi` / `chúng tôi` / `Chúng tôi` và gọi cấp dưới là `các anh chàng đúng giờ này` / `các anh`; câu cầu nguyện nội tâm xen giữa của Grantz dùng `chúng con`; câu dẫn dùng `Cô`."
+    pov_and_voice: "Sự đan xen sắc lạnh giữa nụ cười rạng rỡ, lời đe dọa bỏ rơi người chậm chạp dưới vỏ bọc “thăng vượt hai cấp” của Tanya và tiếng kêu cứu tuyệt vọng trong tâm trí Grantz."
+    modality_and_logic: "Bảo toàn trọn vẹn 6 câu: lời rào đón của Tanya với nhóm đúng giờ; nụ cười rạng rỡ của cô; câu cầu xin Chúa cứu mạng của Grantz; cảnh báo ai quá chậm sẽ bị bỏ lại; lời mỉa mai ai muốn thăng hai cấp nhanh (tử trận) thì cứ ở lại đó; và câu chốt không muốn cản trở con đường thành đạt của họ."
+    emphasis: "Bảo toàn chính xác 1 câu `*...*` tương ứng thẻ `<html:em>` (`*Lạy Chúa, xin cứu chúng con.*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000488
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` / `Tôi`, quy chiếu Tanya bằng `cô`."
+    pov_and_voice: "Tự sự ngôi thứ nhất bàng hoàng khi nhận ra lời đe dọa lúc mới gặp Tanya hoàn toàn là nghĩa đen."
+    modality_and_logic: "Bảo toàn sự liên hệ với buổi gặp đầu tiên và nỗi kinh ngạc khi nhận ra từng chữ cô nói đều là sự thật."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000489
+    terms:
+      - "Thiếu úy ma pháp Warren Grantz"
+    pronouns_and_address: "Trần thuật ngôi thứ ba định danh đầy đủ `Thiếu úy ma pháp Warren Grantz` kết hợp đại từ phản thân `mình`."
+    pov_and_voice: "Nhịp lùi điểm nhìn ra ngôi thứ ba trong một câu đơn để khắc họa phản ứng sinh lý không tự chủ của nhân vật."
+    modality_and_logic: "Bảo toàn nhận thức của Grantz rằng cơ thể mình đang run rẩy."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000490
+    terms:
+      - "Bản năng sinh tồn"
+      - "chiến tranh"
+      - "giao tranh"
+      - "giết chóc"
+    pronouns_and_address: "Quay lại tự sự ngôi thứ nhất của Grantz dùng `tôi` / `Tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất dồn dập diễn tả sự kháng cự của bản năng sinh tồn."
+    modality_and_logic: "Bảo toàn cả 3 câu: bản năng sinh tồn gào thét; mong muốn tránh xa chiến tranh, giao tranh, giết chóc; và trạng thái chần chừ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000491
+    terms:
+      - "Thiếu tá von Degurechaff"
+      - "xuất quân"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `Chúng tôi`, quy chiếu Tanya bằng `Thiếu tá von Degurechaff` và `Cô`."
+    pov_and_voice: "Tự sự ngôi thứ nhất khắc họa uy áp tuyệt đối của Tanya đè bẹp nỗi sợ chiến trường."
+    modality_and_logic: "Bảo toàn 5 câu: chỉ một ánh mắt của Thiếu tá von Degurechaff đã đủ khuất phục bản năng sinh tồn ấy; cô còn đáng sợ hơn nhiều; cả bọn xuất quân như đàn cừu bị chó chăn cừu lùa đi; không ai dám hé răng rên một tiếng; tất cả bò đi trong im lặng dưới màn đêm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000492
+    terms:
+      - "Chỉ huy"
+      - "xẻng"
+      - "lính địch"
+    pronouns_and_address: "Tự sự ngôi thứ nhất số nhiều dùng `Chúng tôi` và phản thân `mình`, quy chiếu Tanya bằng `Chỉ huy`."
+    pov_and_voice: "Tự sự ngôi thứ nhất tả thực màn tập kích cận chiến bằng xẻng trong đêm."
+    modality_and_logic: "Bảo toàn trình tự: Chỉ huy ra tay đầu tiên; cả đội nghe tiếng xẻng nện thùm thụp tiếp nối bằng tiếng rên của vài người; và cả đội cũng liều mạng vung xẻng đập những tên lính địch mất cảnh giác như thể mạng sống của mình phụ thuộc vào đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000493
+    terms: []
+    pronouns_and_address: "Câu hỏi tự sự không dùng đại từ nhân xưng."
+    pov_and_voice: "Câu hỏi ngắn tạo nhịp ngắt cảm nhận thời gian sau cuộc đột kích chớp nhoáng."
+    modality_and_logic: "Bảo toàn câu hỏi tự vấn xem bao nhiêu thời gian đã trôi qua sau đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000494
+    terms: []
+    pronouns_and_address: "Câu trần thuật cảm nhận thời gian không dùng đại từ nhân xưng."
+    pov_and_voice: "Sự đối lập giữa thời gian tâm lý kéo dài vô tận và thời gian thực tế ngắn ngủi trên chiến trường."
+    modality_and_logic: "Bảo toàn hai vế đối lập: cảm giác kéo dài như cả một đời người, nhưng thực tế chỉ vỏn vẹn vài chục giây."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000495
+    terms:
+      - "lính địch"
+      - "chiến hào cảnh giới"
+    pronouns_and_address: "Trần thuật khép lại phân cảnh đột kích không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng trần thuật lạnh lùng khép lại kết cục của toán lính gác địch trong chiến hào cảnh giới."
+    modality_and_logic: "Bảo toàn 2 câu: đó chỉ là một khoảnh khắc ngắn ngủi; và chỉ trong quãng thời gian ngắn ngủi ấy, toàn bộ lính địch tại khu vực chỉ định trong chiến hào cảnh giới đều đã bị đánh gục bất tỉnh hoặc chìm vào giấc ngủ vĩnh viễn không bao giờ tỉnh lại."
+    emphasis: "none"
