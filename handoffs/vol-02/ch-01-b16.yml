@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b16-source.jsonl
 source_package_sha256: d8059c1538fb18a156424af7d813581d099ad776970eb760e3120c81b3a77a23
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -49,7 +49,9 @@ translation_report:
   findings: []
   pending_term_groups: 10
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   serious: 0
   moderate: resolved_by_translator_and_signoff
   action: commit_ready
@@ -67,3 +69,14 @@ review_coordination:
     technical_arsenal: Xưởng Vũ khí Kỹ thuật
     p000053_question: Ông chịu được chứ?
     operational_level: p000039 về tác chiến; p000047 cấp chiến dịch
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b16
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 94
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b16.jsonl
