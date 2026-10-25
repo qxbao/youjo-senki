@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-02-b07-source.jsonl
 source_package_sha256: b0e1af62ec2de06f9129736eb219d6494e221780520c1703a84810ff09e47ae1
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_report:
   state: done
   translator_session_id: 01a13086-7157-7273-b144-221cd6d5e963
@@ -42,9 +42,21 @@ translator_followup:
   agent_session_id: 01a1308c-3578-7712-a22a-03cef2e551a7
   validator: pass
   diff_check: pass
-  resolved_moderate: [M1, M2, M3]
-  aligned_ledger_terms: [great_army, northern_army_group]
-  changed_segments: [p000145, p000147, p000152, p000154, p000157, p000160, p000161]
+  resolved_moderate:
+  - M1
+  - M2
+  - M3
+  aligned_ledger_terms:
+  - great_army
+  - northern_army_group
+  changed_segments:
+  - p000145
+  - p000147
+  - p000152
+  - p000154
+  - p000157
+  - p000160
+  - p000161
 army_group_consistency_followup:
   state: done
   task_id: vol-02-ch-02-b07-army-group-consistency-fix
@@ -52,21 +64,33 @@ army_group_consistency_followup:
   validator: pass
   diff_check: pass
   resolved_finding: MOD-1
-  changed_segments: [p000158, p000159]
+  changed_segments:
+  - p000158
+  - p000159
 review_coordination:
-  triggered_by: [risk_flags, new_pending_terms]
+  triggered_by:
+  - risk_flags
+  - new_pending_terms
   serious: 0
   moderate: 0
   action: signoff_complete
-  signoff_report: reviews/prose/vol-02/ch-02-b07-followup-signoff-claude.md
+  signoff_report: reviews/prose/vol-02/ch-02-b07-fixes-signoff-claude.md
   term_signoff_report: reviews/prose/vol-02/ch-02-b07-term-signoff-claude.md
   minor_open: 12
-  terminology_consistency_fix_segments: [p000158, p000159]
-  signoff_report: reviews/prose/vol-02/ch-02-b07-fixes-signoff-claude.md
+  terminology_consistency_fix_segments:
+  - p000158
+  - p000159
   pending_status: provisional_non_canon
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b07_translation_proposals
   review_report: reviews/prose/vol-02/ch-02-b07-claude.md
-  translator_followup_segments: [p000145, p000147, p000152, p000154, p000157, p000160, p000161]
+  translator_followup_segments:
+  - p000145
+  - p000147
+  - p000152
+  - p000154
+  - p000157
+  - p000160
+  - p000161
   review_provisional_choices:
     Tanya_interior: mình
     unmarked_origin: không đánh dấu nguồn gốc
@@ -86,3 +110,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000168
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-02-b07
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 101
+  state: released
+  allowlist:
+  - translations/vol-02/ch-02-b07.jsonl
