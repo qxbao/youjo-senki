@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-05-b07-source.jsonl
 source_package_sha256: f48a697f9ebb506bc4f26049572c000be894fb77e3aa20b0ac3b23d45544388f
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -41,43 +41,69 @@ translation_report:
   segment_count: 24
   validator: pass
   diff_check: pass
-  findings: [B07-01_through_B07-05_fixed]
+  findings:
+  - B07-01_through_B07-05_fixed
   pending_term_count: 3
-  files_written: [translations/vol-02/ch-05-b07.jsonl]
+  files_written:
+  - translations/vol-02/ch-05-b07.jsonl
 review_coordination:
-  triggered_by: [new_pending_terms]
+  triggered_by:
+  - new_pending_terms
   required: true
   state: signed_off
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter5_b07_translation_proposals
   review_report: reviews/prose/vol-02/ch-05-b07-codex.md
-  risk_notes: [provisional_legal_and_military_terms]
-  counts: {serious: 1, moderate: 4, minor: 3}
+  risk_notes:
+  - provisional_legal_and_military_terms
+  counts:
+    serious: 1
+    moderate: 4
+    minor: 3
   unresolved_serious: 0
   unresolved_moderate: 0
-  follow_up_findings: [B07-01, B07-02, B07-03, B07-04, B07-05]
+  follow_up_findings:
+  - B07-01
+  - B07-02
+  - B07-03
+  - B07-04
+  - B07-05
   translator_follow_up_session: 01a133ce-abce-7bf2-ab49-d1b2bc0ff3bf
   signoff_report: reviews/prose/vol-02/ch-05-b07-signoff-codex.md
   signoff_state: signed_off
-  signoff_counts: {serious: 0, moderate: 0, minor: 3}
-  deferred_minor_findings: [B07-06, B07-07, B07-08]
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    minor: 3
+  deferred_minor_findings:
+  - B07-06
+  - B07-07
+  - B07-08
 pending_term_proposals:
   status: provisional_non_canon
   entries:
-    - source_term: sublation
-      proposed_vi: dung hòa
-      alternative_vi: vượt bỏ
-      rationale: Tạm chọn theo chức năng giữ thể diện và gác vụ việc trong ngữ cảnh này; chưa canon.
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000172]
-    - source_term: court-martial
-      proposed_vi: tòa án binh
-      alternative_vi: tòa án quân sự
-      rationale: Tạm ưu tiên thuật ngữ quân đội, áp dụng nhất quán trong các đoạn liên quan; chưa canon.
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000164, YS-LN02/Text/part0026.xhtml/p000165, YS-LN02/Text/part0026.xhtml/p000166]
-    - source_term: jurisdiction
-      proposed_vi: quyền tài phán
-      alternative_vi: thẩm quyền xét xử
-      rationale: Tạm giữ phân biệt thuật ngữ trong câu; không suy diễn phạm vi ngoài lô, chưa canon.
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000180]
+  - source_term: sublation
+    proposed_vi: dung hòa
+    alternative_vi: vượt bỏ
+    rationale: Tạm chọn theo chức năng giữ thể diện và gác vụ việc trong ngữ cảnh
+      này; chưa canon.
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000172
+  - source_term: court-martial
+    proposed_vi: tòa án binh
+    alternative_vi: tòa án quân sự
+    rationale: Tạm ưu tiên thuật ngữ quân đội, áp dụng nhất quán trong các đoạn liên
+      quan; chưa canon.
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000164
+    - YS-LN02/Text/part0026.xhtml/p000165
+    - YS-LN02/Text/part0026.xhtml/p000166
+  - source_term: jurisdiction
+    proposed_vi: quyền tài phán
+    alternative_vi: thẩm quyền xét xử
+    rationale: Tạm giữ phân biệt thuật ngữ trong câu; không suy diễn phạm vi ngoài
+      lô, chưa canon.
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000180
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -92,3 +118,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0026.xhtml/p000182
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-05-b07
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 172
+  state: released
+  allowlist:
+  - translations/vol-02/ch-05-b07.jsonl

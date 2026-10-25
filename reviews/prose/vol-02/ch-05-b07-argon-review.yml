@@ -1,0 +1,401 @@
+task_id: vol-02-ch-05-b07
+review_task_id: vol-02-ch-05-b07-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b07
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000158
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000181
+unit_count: 24
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: f48a697f9ebb506bc4f26049572c000be894fb77e3aa20b0ac3b23d45544388f
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b07-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b07-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000159
+    issue: "Tại câu 1 của p000159 (`Tanya hẳn sẽ nói với bạn rằng`), đại từ ngôi thứ hai phiếm chỉ trong cấu trúc giả định khái quát được dịch trực tiếp thành `bạn`, hơi tạo cảm giác đối thoại trực tiếp với độc giả so với quy ước lược đại từ ngôi thứ hai phiếm chỉ."
+    basis: "Ở các đoạn lập luận kế tiếp (p000164, p000166), bản dịch đã chuyển sang đại từ phiếm chỉ `anh` phù hợp giọng bình luận nhà binh; câu mở đầu dùng `bạn` vẫn rõ nghĩa khái quát và không làm lệch lập luận."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc lược đại từ ngôi thứ hai phiếm chỉ (`Tanya hẳn sẽ bảo rằng, rốt cuộc, quân đội là công cụ bạo lực của nhà nước.`)."
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000163
+    issue: "Ở cuối câu 2 của p000163 (`kể cả binh nhì thấp kém nhất`), tính từ `thấp kém nhất` dễ gợi sắc thái đánh giá phẩm chất cá nhân hơn là vị trí cấp bậc thấp nhất trong quân ngũ (`lowly privates`)."
+    basis: "Đặt trong mạch đối xứng từ sĩ quan đến binh lính ở câu trước, người đọc vẫn hiểu đây là cấp bậc thấp nhất trong quân đội; tương ứng mục minor B07-06."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `kể cả những binh nhì ở cấp thấp nhất` để giữ thuần bình diện cấp bậc."
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000168
+    issue: "Tại câu 2 của p000168 (`*“Xin hãy nghĩ đến chính trị!”* họ khẩn khoản.`), động từ dẫn thoại `khẩn khoản` làm mềm sắc thái gây sức ép của phía ngoại giao (`demand`)."
+    basis: "Dù lời thoại có từ lịch sự `Xin hãy`, hành động dẫn thoại vẫn đặt ở thế đòi hỏi gay gắt tạo nên bầu không khí căng thẳng trong phòng xử; tương ứng mục minor B07-07."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `họ yêu cầu` / `họ đòi hỏi`."
+    resolution: optional_polish
+
+  - id: m4
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000172
+    issue: "Tại câu 1 của p000172, cách gọi `Vị thẩm phán xử quyền` (`The acting judge`) khá lạ tai so với cụm `Vị chuyên gia pháp lý giữ vai trò thẩm phán` ở p000170; đồng thời `bị mời ăn` thêm sắc thái hành động mời so với trạng thái được dọn/phục vụ món ăn (`has been served`)."
+    basis: "Mạch văn ngay sau p000170 giúp người đọc nhận ra đây vẫn là vị chuyên gia pháp lý đang làm nhiệm vụ thẩm phán, và phép ví von hài hước về ẩm thực François – Albion vẫn truyền tải trọn vẹn vẻ mặt khổ sở của ông; tương ứng mục minor B07-08."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `Vị thẩm phán tạm quyền` / `Người đang làm nhiệm vụ thẩm phán` và `được phục vụ món ngon nhất xứ Albion suốt ba đêm liền`."
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch05-b07-court-martial-and-military-ethos-terms
+    source_term: "instrument of violence / the emperor’s army / protectors of the Empire / vanguard of the people / shield of the nation / Imperial Army / Imperial subjects / imperial military / officers and men / model citizens / lowly privates / honorable officers / peacetime / military authorities / court-martial (being court-martialed / military courts)"
+    proposed_vi: "công cụ bạo lực / quân đội của hoàng đế / những người bảo vệ Đế quốc / đội tiên phong của nhân dân / lá chắn của quốc gia / Quân đội Đế quốc / thần dân Đế quốc / quân đội Đế quốc / sĩ quan và binh lính / công dân gương mẫu / binh nhì thấp kém nhất / những sĩ quan có danh dự / thời bình / giới chức quân đội / tòa án binh (bị đưa ra tòa án binh)"
+    alternatives_vi:
+      - "những binh nhì ở cấp thấp nhất / những sĩ quan trọng danh dự / tòa án quân sự (bị xét xử tại tòa án quân sự)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000159
+      - YS-LN02/Text/part0026.xhtml/p000161
+      - YS-LN02/Text/part0026.xhtml/p000162
+      - YS-LN02/Text/part0026.xhtml/p000163
+      - YS-LN02/Text/part0026.xhtml/p000164
+      - YS-LN02/Text/part0026.xhtml/p000165
+      - YS-LN02/Text/part0026.xhtml/p000166
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ nhóm thuật ngữ quân制, chuẩn mực quân nhân và thiết chế xét xử quân đội trong lô: (1) giữ `tòa án binh` (`vol02-ch05-b07-court-martial` tại p000164–p000166, kèm cấu trúc bị động `bị đưa ra tòa án binh` ở p000165), thống nhất cách gọi giữa danh từ thiết chế và cụm danh từ số nhiều ở p000166 mà không tự suy diễn thêm cấp tòa khác; (2) khóa cụm từ đã sửa theo B07-03 `những sĩ quan có danh dự` tại p000164 để chỉ phẩm chất danh dự của tầng lớp sĩ quan, tránh hiểu nhầm thành hàm/chức danh danh dự; (3) đồng bộ `Đế quốc`, `Quân đội Đế quốc`, `thần dân Đế quốc`, `đội tiên phong`, `thời bình` với các chương và tập trước."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b07-judicial-dismissal-sublation-and-jurisdiction-terms
+    source_term: "Major von Degurechaff / dismissing your case (throwing out my case) / legal specialist acting as the judge (acting judge / presiding legal officer) / reject the claim / judicial call / Françoisman / Albion cuisine / sublation / shelving the case / neutral country’s vessel / Foreign Office / scapegoat / the Commonwealth / precedent / laws and regulations / moral obligation / negligence / legal authority / jurisdiction"
+    proposed_vi: "Thiếu tá von Degurechaff / không thụ lý vụ việc của cô (không thụ lý vụ việc của mình) / vị chuyên gia pháp lý giữ vai trò thẩm phán (vị thẩm phán xử quyền / vị sĩ quan pháp lý chủ tọa) / bác yêu cầu / phán quyết tư pháp / người François / món ăn xứ Albion / dung hòa / gác vụ việc lại / tàu của quốc gia trung lập / Bộ Ngoại giao / vật tế thần / Khối Thịnh vượng chung / tiền lệ / luật lệ / nghĩa vụ đạo đức / sự tắc trách / thẩm quyền pháp lý / quyền tài phán"
+    alternatives_vi:
+      - "đình chỉ vụ việc / người đang làm nhiệm vụ thẩm phán / vượt bỏ (cho sublation) / thẩm quyền xét xử (cho jurisdiction)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000168
+      - YS-LN02/Text/part0026.xhtml/p000170
+      - YS-LN02/Text/part0026.xhtml/p000171
+      - YS-LN02/Text/part0026.xhtml/p000172
+      - YS-LN02/Text/part0026.xhtml/p000173
+      - YS-LN02/Text/part0026.xhtml/p000174
+      - YS-LN02/Text/part0026.xhtml/p000176
+      - YS-LN02/Text/part0026.xhtml/p000177
+      - YS-LN02/Text/part0026.xhtml/p000178
+      - YS-LN02/Text/part0026.xhtml/p000180
+      - YS-LN02/Text/part0026.xhtml/p000181
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa toàn bộ hệ thuật ngữ tố tụng, ngoại giao và triết học – hành chính của phiên tòa: (1) khóa bản sửa theo B07-01 và B07-02 tại p000170–p000171, phân biệt rạch ròi giữa `không thụ lý vụ việc` (do về mặt kỹ thuật không đáp ứng tiêu chí xem xét / nằm ngoài quyền tài phán) với `bác yêu cầu vì không có căn cứ` (phán quyết về nội dung), tuyệt đối không tự gán Tanya là nguyên đơn khởi kiện; (2) khóa `dung hòa` cho `sublation` (`vol02-ch05-b07-sublation` tại p000172; ghi nhận phương án triết học Hegelian `vượt bỏ` trong alternatives), bám sát chức năng giải quyết mâu thuẫn lập trường để giữ thể diện hai bên và được giải nghĩa ngay ở câu kế tiếp bằng `gác vụ việc lại`; (3) khóa cặp thuật ngữ trong cùng câu tại p000180–p000181 là `thẩm quyền pháp lý` (`legal authority`) và `quyền tài phán` (`jurisdiction`, `vol02-ch05-b07-jurisdiction`), giữ rõ sắc thái lập luận quan liêu thoái thác trách nhiệm xét xử; (4) đồng bộ `Thiếu tá von Degurechaff`, `Bộ Ngoại giao`, `Khối Thịnh vượng chung`, `người François`, `xứ Albion`, `vật tế thần` với toàn bộ Tập 2."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b07-tanya-courtroom-pov-pronouns-and-emphasis
+    source_term: "Shift from veteran reminiscence back to Tanya courtroom POV at p000158, Tanya third-person narration pronouns (`Tanya` / `nó`) at p000159, p000175, p000176, p000179, p000181 vs first-person interior monologue pronouns (`mình`) at p000171, p000177, explicit first-person/third-person dissociation (`với tư cách Tanya, mình...`) at p000177, courtroom formal address (`Thiếu tá von Degurechaff` / `cô` vs `chúng tôi` / `tòa`) at p000170, p000180, generic pronouns (`bạn` / `anh` / `chúng ta`) in military-political commentary at p000159–p000166, and exact preservation of five italicized spans across p000159, p000168, p000171, p000179"
+    proposed_vi: "Sau khi khép lại hồi ức của người cựu binh ở cuối ch-05-b06, mạch truyện tại p000158 chuyển thẳng về điểm nhìn của Tanya tại phiên tòa quân sự, tuân thủ nghiêm ngặt DEC-P01-001, DEC-P01-002 và style-guide.md: (1) trong các câu/đoạn trần thuật ngôi thứ ba bám sát điểm nhìn của Tanya (p000159, p000175 — đã sửa theo B07-04, p000176, p000179, p000181 — đã sửa theo B07-05), quy chiếu Tanya nhất quán bằng tên riêng `Tanya` và đại từ trần thuật `nó` (tuyệt đối không dùng `cô` trong trần thuật hay để lẫn `mình` làm mơ hồ tân ngữ ở cuối p000181); (2) trong các câu/đoạn độc thoại nội tâm ngôi thứ nhất trực tiếp của Tanya (p000171, p000177, cùng các câu cảm thán không chủ ngữ ở p000158, p000179), dùng đại từ tự quy chiếu `mình` theo đúng DEC-P01-001, đặc biệt giữ rõ cấu trúc tự nhận thức tách lớp `với tư cách Tanya, mình thấy...` ở p000177; (3) trong lời tuyên đọc phán quyết công vụ của vị chuyên gia pháp lý giữ vai trò thẩm phán (p000170, p000173, p000180), người đọc phán quyết xưng `tòa` / `chúng tôi` (kèm phản thân `mình` ở cuối p000180) và gọi Tanya là `Thiếu tá von Degurechaff` / `cô`, còn lời trần thuật quy chiếu vị thẩm phán bằng `ông` (p000174, p000181) và các phe Bộ Ngoại giao / quân đội bằng `họ` (p000160, p000164, p000168, p000171, p000172, p000176–p000179, p000181); (4) trong lời đấu khẩu giả định giữa phe ngoại giao và phe quân sự ở p000168, phía quân sự gọi phía đòi đem sĩ quan làm vật tế thần là `Các người`; (5) bảo toàn chính xác và duy nhất 5 cụm nhấn mạnh bằng `*...*` khớp tuyệt đối với 5 thẻ `<html:em>` trong nguồn: `*“Công cụ bạo lực là sao?”*` (p000159), `*“Xin hãy nghĩ đến chính trị!”*` và `*“Các người định biến một sĩ quan đã làm tròn nhiệm vụ thành vật tế thần sao?”*` (p000168), `*không thụ lý*` (p000171) và `*Chà, phiền thật.*` (p000179), không tự thêm `*...*` ở bất kỳ vị trí nào khác (DEC-P01-002)."
+    alternatives_vi:
+      - "như thể nó đã giết cha mẹ họ (thay cho `như thể mình đã giết cha mẹ họ` ở vế so sánh phụ của p000177 nếu muốn tách bạch cả ngôi thứ ba trong mệnh đề giả định — giữ `mình` trong bản dịch hiện tại vì liền mạch tự nhiên với chủ ngữ `với tư cách Tanya, mình thấy` ngay trước đó)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000158
+      - YS-LN02/Text/part0026.xhtml/p000159
+      - YS-LN02/Text/part0026.xhtml/p000164
+      - YS-LN02/Text/part0026.xhtml/p000166
+      - YS-LN02/Text/part0026.xhtml/p000168
+      - YS-LN02/Text/part0026.xhtml/p000170
+      - YS-LN02/Text/part0026.xhtml/p000171
+      - YS-LN02/Text/part0026.xhtml/p000174
+      - YS-LN02/Text/part0026.xhtml/p000175
+      - YS-LN02/Text/part0026.xhtml/p000176
+      - YS-LN02/Text/part0026.xhtml/p000177
+      - YS-LN02/Text/part0026.xhtml/p000179
+      - YS-LN02/Text/part0026.xhtml/p000180
+      - YS-LN02/Text/part0026.xhtml/p000181
+    volume: vol-02
+    chapter: 5
+    rationale: "Đảm bảo tuân thủ tuyệt đối DEC-P01-001 (phân biệt `nó` trong trần thuật và `mình` trong nội tâm của Tanya sau khi đã sửa B07-04, B07-05) và DEC-P01-002 (bảo toàn đúng 5 vùng nhấn mạnh `*...*`)."
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000158
+    pronouns_and_address: []
+    pov_and_voice: "Câu chửi thề nội tâm ngắn gọn của Tanya mở đầu cảnh phiên tòa."
+    modality_and_logic: "Giữ câu cảm thán độc lập `Khốn kiếp.`"
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000159
+    terms:
+      - "công cụ bạo lực của nhà nước (a state’s instrument of violence)"
+      - "quân đội (an army / the military)"
+      - "cử tri (voters)"
+    pronouns_and_address:
+      - "Nhắc tên `Tanya`, dùng `bạn` cho ngôi thứ hai khái quát ở câu mở đầu và `Những kẻ` cho nhóm người phẫn nộ chất vấn."
+    pov_and_voice: "Trần thuật pha bình luận lý thuyết chính trị – quân sự sắc lạnh theo góc nhìn của Tanya."
+    modality_and_logic: "Giữ định nghĩa bản chất quân đội là công cụ bạo lực của nhà nước không đổi bất chấp lời lẽ hoa mỹ, và thế lựa chọn loại trừ ở câu cuối (`hoặc không hiểu quân đội, hoặc hiểu cử tri. Chỉ có thể là một trong hai.`)."
+    emphasis: "Khóa chính xác câu hỏi in nghiêng `*“Công cụ bạo lực là sao?”*` khớp với thẻ `<html:em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000160
+    terms:
+      - "quân đội (the army)"
+      - "tổ chức (the organization)"
+    pronouns_and_address:
+      - "Quy chiếu những người cấu thành tổ chức quân đội bằng `họ`."
+    pov_and_voice: "Bình luận nguyên tắc kiểm soát dân sự/nhà nước đối với quân đội."
+    modality_and_logic: "Giữ quan hệ suy luận tất yếu (`Vì thế, dù những người trong tổ chức ấy đáng tin đến đâu, họ vẫn phải bị buộc vào dây cương.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000161
+    terms:
+      - "quân đội của hoàng đế (The emperor’s army)"
+      - "những người bảo vệ Đế quốc (protectors of the Empire)"
+      - "đội tiên phong của nhân dân (vanguard of the people)"
+      - "lá chắn của quốc gia (shield of the nation)"
+      - "Quân đội Đế quốc (the Imperial Army)"
+    pronouns_and_address: []
+    pov_and_voice: "Bình luận liệt kê các mỹ từ tuyên truyền đối lập với thực tế kiểm soát."
+    modality_and_logic: "Giữ chuỗi 4 danh hiệu tán dương kèm dấu ba chấm và kết luận khẳng định ngay cả Quân đội Đế quốc cũng không phải ngoại lệ."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000162
+    terms:
+      - "Thần dân Đế quốc (Imperial subjects)"
+      - "binh sĩ (soldiers)"
+    pronouns_and_address:
+      - "Dùng phản thân `mình` cho Thần dân Đế quốc (`binh sĩ của mình`)."
+    pov_and_voice: "Phân tích tâm lý xã hội Đế quốc đối với người lính."
+    modality_and_logic: "Giữ quan hệ nhân quả: vì thần dân tự hào về binh sĩ nên việc đi chệch khỏi hình mẫu lý tưởng ấy sẽ hứng chịu sự trách móc nặng nề."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000163
+    terms:
+      - "quân đội Đế quốc (The imperial military)"
+      - "sĩ quan và binh lính (officers and men)"
+      - "công dân gương mẫu (model citizens)"
+      - "binh nhì (privates)"
+    pronouns_and_address: []
+    pov_and_voice: "Phân tích chuẩn mực đạo đức trong quân đội Đế quốc."
+    modality_and_logic: "Giữ phạm vi áp dụng toàn diện của kỳ vọng làm công dân gương mẫu từ sĩ quan cho tới binh nhì cấp thấp nhất."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000164
+    terms:
+      - "những sĩ quan có danh dự (honorable officers)"
+      - "thời bình (peacetime)"
+      - "năng lực quân nhân (caliber as a soldier)"
+      - "giới chức quân đội (the military authorities)"
+      - "tòa án binh (a court-martial)"
+    pronouns_and_address:
+      - "Quy chiếu các sĩ quan bằng `họ`, giới chức quân đội bằng `họ`, và dùng đại từ phiếm chỉ `anh` cho người vi phạm quy tắc."
+    pov_and_voice: "Phân tích kỷ luật thời bình và sự cứng nhắc của giới chức quân sự."
+    modality_and_logic: "Khóa cụm từ đã sửa theo B07-03 (`những sĩ quan có danh dự`) và thuật ngữ tạm `tòa án binh` (`vol02-ch05-b07-court-martial`); giữ phép so sánh mức độ quan trọng trong thời bình và hệ quả chỉ cần phạm một quy tắc là có tòa án binh chờ sẵn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000165
+    terms:
+      - "sĩ quan quân đội (military officers)"
+      - "bị đưa ra tòa án binh (being court-martialed)"
+      - "thời bình (peacetime)"
+    pronouns_and_address: []
+    pov_and_voice: "Nhận định chuyển dịch thời cuộc từ thời bình sang thời chiến."
+    modality_and_logic: "Khóa cách diễn đạt `bị đưa ra tòa án binh`, giữ bước ngoặt đối lập (`Nhưng đó là chuyện thời bình. Kỷ nguyên thanh bình, nơi người ta đặt danh dự lên hàng đầu và tôn thờ lý tưởng, đã qua rồi.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000166
+    terms:
+      - "chiến tranh (war)"
+      - "tòa án binh (military courts)"
+      - "nhiệm vụ (duty)"
+    pronouns_and_address:
+      - "Dùng `chúng ta` ở câu khẳng định tình trạng chiến tranh và đại từ phiếm chỉ `anh` ở câu sau."
+    pov_and_voice: "Phân tích tiêu chuẩn xét xử trong thời chiến."
+    modality_and_logic: "Khóa việc thống nhất dùng `tòa án binh` cho `military courts`, giữ trọng tâm xét xử thời chiến xoay quanh việc có kiên quyết hoàn thành nhiệm vụ hay không."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000167
+    terms:
+      - "logic quân đội (military logic)"
+      - "sĩ quan (an officer)"
+      - "thỏa thuận chính trị quốc tế (an international political deal)"
+      - "luật pháp (legislation)"
+    pronouns_and_address: []
+    pov_and_voice: "Phân tích lập trường bảo vệ người thi hành công vụ của phía quân đội."
+    modality_and_logic: "Giữ chuỗi nguyên nhân: theo logic quân đội, khó có thể làm ngơ việc một sĩ quan chỉ đang thi hành nhiệm vụ lại bị cuốn vào một thỏa thuận chính trị quốc tế bắt nguồn từ hệ thống luật pháp không được duy trì đúng mức."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000168
+    terms:
+      - "đối ngoại (foreign affairs)"
+      - "sĩ quan cấp cao (high-ranking officers)"
+      - "các nhà ngoại giao ( the diplomats)"
+      - "vật tế thần (a scapegoat)"
+      - "phòng xử (courtroom)"
+    pronouns_and_address:
+      - "Quy chiếu nhóm sĩ quan cấp cao và nhà ngoại giao bằng `họ`; trong lời phản bác trực tiếp dùng `Các người`."
+    pov_and_voice: "Mô tả sự xung đột gay gắt giữa quan điểm chính trị đối ngoại và quan điểm bảo vệ quân nhân tại tòa."
+    modality_and_logic: "Giữ thế giằng co giữa hai luồng quan điểm đối chọi khiến bầu không khí trong phòng xử căng như dây đàn."
+    emphasis: "Khóa chính xác hai câu thoại in nghiêng `*“Xin hãy nghĩ đến chính trị!”*` và `*“Các người định biến một sĩ quan đã làm tròn nhiệm vụ thành vật tế thần sao?”*` khớp với hai thẻ `<html:em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000169
+    terms:
+      - "xét xử theo pháp luật (a trial according to law)"
+    pronouns_and_address: []
+    pov_and_voice: "Câu dẫn ngắn mang sắc thái châm biếm nhẹ trước khi tuyên án."
+    modality_and_logic: "Giữ câu đúc kết chuyển ý sang phần đọc phán quyết (`Đó là lúc nguyên tắc xét xử theo pháp luật được vận dụng.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000170
+    terms:
+      - "Thiếu tá von Degurechaff (Major von Degurechaff)"
+      - "không thụ lý vụ việc (dismissing your case)"
+      - "chuyên gia pháp lý giữ vai trò thẩm phán (legal specialist acting as the judge)"
+      - "phán quyết (the decision)"
+      - "quân phục / thường phục (uniforms and suits)"
+    pronouns_and_address:
+      - "Thẩm phán xưng `tòa`, gọi Tanya là `Thiếu tá von Degurechaff` và `cô`."
+    pov_and_voice: "Lời tuyên đọc phán quyết chính thức tại tòa và mô tả khung cảnh phòng xử."
+    modality_and_logic: "Khóa câu phán quyết đã sửa theo B07-01 (`“Thiếu tá von Degurechaff, tòa quyết định không thụ lý vụ việc của cô.”`), giữ đúng bản chất thủ tục không thụ lý và không tự gán Tanya là người nộp đơn kiện, cùng hình ảnh ẩn dụ rừng gai từ ánh mắt của cả phe quân phục lẫn thường phục."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000171
+    terms:
+      - "không thụ lý vụ việc (throwing out my case)"
+      - "thỏa hiệp (compromise)"
+      - "bác yêu cầu (reject the claim)"
+      - "phán quyết tư pháp (a judicial call)"
+      - "tiêu chí để được thụ lý (the criteria to be considered)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm của Tanya tự quy chiếu bằng `mình` (`vụ việc của mình`) theo DEC-P01-001; quy chiếu hội đồng xét xử bằng `Họ` / `họ`."
+    pov_and_voice: "Độc thoại nội tâm phân tích thủ thuật pháp lý của tòa án."
+    modality_and_logic: "Khóa bản sửa theo B07-02: phân biệt rõ hành động `*không thụ lý* vụ việc của mình` (né tránh đưa ra phán quyết tư pháp bằng lý do kỹ thuật rằng vụ việc không đáp ứng tiêu chí để được thụ lý) với việc `bác yêu cầu vì không có căn cứ`."
+    emphasis: "Khóa chính xác cụm nhấn mạnh `*không thụ lý*` khớp với thẻ `<html:em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000172
+    terms:
+      - "thẩm phán xử quyền (acting judge)"
+      - "người François (a Françoisman)"
+      - "xứ Albion (Albion)"
+      - "dung hòa (sublation)"
+      - "gác vụ việc lại (shelving the case)"
+    pronouns_and_address:
+      - "Quy chiếu những người cầm trịch phiên tòa bằng `Họ`."
+    pov_and_voice: "Bình luận châm biếm của Tanya về vẻ mặt vị thẩm phán và giải pháp giữ thể diện hai bên."
+    modality_and_logic: "Khóa lựa chọn tạm `dung hòa` cho `sublation` (`vol02-ch05-b07-sublation`), giữ phép so sánh vẻ mặt như người François ăn món ngon nhất xứ Albion ba đêm liền và lời giải thích trực tiếp ở câu cuối (`Nói cách khác, lựa chọn duy nhất là gác vụ việc lại.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000173
+    terms:
+      - "tàu của quốc gia trung lập (the neutral country’s vessel)"
+      - "tai nạn đáng tiếc (an unfortunate accident)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời tuyên đọc bổ sung của vị thẩm phán tại tòa."
+    modality_and_logic: "Giữ nguyên nhận định chính thức gọi vụ tấn công và đánh chìm tàu của quốc gia trung lập là một tai nạn đáng tiếc."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000174
+    terms:
+      - "phòng xử (the courtroom)"
+      - "vị sĩ quan pháp lý chủ tọa (the presiding legal officer)"
+    pronouns_and_address:
+      - "Quy chiếu vị thẩm phán bằng `ông`."
+    pov_and_voice: "Trần thuật phân tích mục đích chính trị – tâm lý của câu nói thêm."
+    modality_and_logic: "Giữ ý nghĩa của việc chèn thêm câu cuối: bày tỏ sự lấy làm tiếc về vụ việc và làm dịu bớt cú sốc cho những người ngồi trong phòng xử."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000175
+    terms:
+      - "Tanya (Tanya)"
+      - "sự dàn xếp (the reconciliation)"
+      - "logic của tổ chức (the logic of the organization)"
+      - "bị kỷ luật (being disciplined)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba quy chiếu Tanya bằng `nó` (`mà nó đã dự liệu`, `Nó biết rằng`) theo đúng DEC-P01-001; quy chiếu người trung thành với tổ chức bằng `họ`."
+    pov_and_voice: "Trần thuật ngôi thứ ba bám sát điểm nhìn của Tanya."
+    modality_and_logic: "Khóa bản sửa đại từ theo B07-04 (`nó`), giữ điều kiện ngoại trừ (`người trung thành với logic của tổ chức sẽ không gặp nguy cơ bị kỷ luật, trừ khi họ làm điều gì đó gây tổn hại cho toàn thể`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000176
+    terms:
+      - "Bộ Ngoại giao (the Foreign Office)"
+      - "quân đội (the army)"
+      - "Tanya (Tanya)"
+      - "hàng ghế khán giả (the gallery)"
+    pronouns_and_address:
+      - "Quy chiếu nhóm người từ Bộ Ngoại giao bằng `Họ` / `họ`."
+    pov_and_voice: "Trần thuật mô tả thái độ của phái đoàn Bộ Ngoại giao trên hàng ghế khán giả."
+    modality_and_logic: "Giữ sự tương phản giữa lý trí và cảm xúc của nhóm người Bộ Ngoại giao: dù đã chuẩn bị tinh thần và hiểu quân đội sẽ không đưa ra phán quyết họ muốn, sự thấu hiểu ấy vẫn không làm dịu những ánh mắt căm tức ném về phía Tanya với nắm tay siết chặt."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000177
+    terms:
+      - "Tanya (Tanya)"
+      - "Bộ Ngoại giao (the Foreign Office)"
+      - "vật tế thần (a scapegoat)"
+      - "Khối Thịnh vượng chung (the Commonwealth)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm ngôi thứ nhất tự quy chiếu bằng `mình` đi kèm cụm định vị danh tính `với tư cách Tanya, mình thấy...` (DEC-P01-001); quy chiếu người của Bộ Ngoại giao bằng `họ` / `Họ`."
+    pov_and_voice: "Độc thoại nội tâm ngôi thứ nhất của Tanya."
+    modality_and_logic: "Giữ cảm giác thấy bất công khi bị nhìn với ánh mắt sát khí như kẻ giết cha mẹ họ, đồng thời hiểu rõ động cơ của phía Bộ Ngoại giao là đang rất cần một vật tế thần để xoa dịu dư luận ở Khối Thịnh vượng chung."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000178
+    terms:
+      - "Bộ Ngoại giao (the Foreign Office)"
+      - "toàn thể quốc gia (the entire state)"
+      - "lợi ích của một cá nhân (an individual’s interests)"
+      - "những mối quan tâm của đất nước (the national concerns)"
+    pronouns_and_address:
+      - "Quy chiếu những người ở Bộ Ngoại giao bằng `họ`."
+    pov_and_voice: "Nhận xét nội tâm của Tanya về hệ quy chiếu của giới ngoại giao."
+    modality_and_logic: "Giữ quan hệ nhân quả và sắc thái suy đoán (`có vẻ`): vì coi trọng toàn thể quốc gia nên họ không đặt lợi ích của một cá nhân vào cùng hệ quy chiếu với những mối quan tâm của đất nước."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000179
+    terms:
+      - "Tanya (Tanya)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba quy chiếu Tanya bằng `nó` (DEC-P01-001) và nhóm người Bộ Ngoại giao bằng `họ`."
+    pov_and_voice: "Câu cảm thán nội tâm nối tiếp bằng trần thuật ngôi thứ ba theo điểm nhìn của Tanya."
+    modality_and_logic: "Giữ lý do Tanya kìm tiếng thở dài: thấy họ đã sôi sục trong lòng nên nó tính toán rằng giữ im lặng là kế hoạch khôn ngoan hơn."
+    emphasis: "Khóa chính xác câu cảm thán nội tâm in nghiêng `*Chà, phiền thật.*` khớp với thẻ `<html:em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000180
+    terms:
+      - "quan hệ quốc tế (international relations)"
+      - "tiền lệ (precedent)"
+      - "luật lệ (laws and regulations)"
+      - "nghĩa vụ đạo đức (moral obligation)"
+      - "sự tắc trách của Thiếu tá von Degurechaff (Major von Degurechaff’s negligence)"
+      - "thẩm quyền pháp lý (legal authority)"
+      - "quyền tài phán (jurisdiction)"
+    pronouns_and_address:
+      - "Thẩm phán đại diện tòa tự xưng `chúng tôi` (kèm phản thân `mình` ở cuối câu), gọi Tanya là `Thiếu tá von Degurechaff`."
+    pov_and_voice: "Lời tuyên đọc trang trọng, mang đậm văn phong pháp lý – hành chính của vị thẩm phán."
+    modality_and_logic: "Khóa sự phân biệt giữa `thẩm quyền pháp lý` (`legal authority`) và `quyền tài phán` (`jurisdiction`, `vol02-ch05-b07-jurisdiction`), giữ đầy đủ các tầng nhượng bộ (công nhận quan hệ quốc tế bị tổn hại là sự thật nghiêm trọng; thừa nhận nghĩa vụ đạo đức phải bàn về sự tắc trách của Thiếu tá von Degurechaff; nhưng căn cứ tiền lệ và luật lệ thì kết luận vụ việc nằm ngoài quyền tài phán của tòa)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000181
+    terms:
+      - "nghĩa vụ đạo đức (moral obligation)"
+      - "thẩm quyền pháp lý (legal authority)"
+      - "Tanya (Tanya)"
+    pronouns_and_address:
+      - "Quy chiếu vị thẩm phán bằng `ông`, tòa án/quân đội bằng `họ`, và quy chiếu Tanya bằng `nó` ở cả hai động từ cuối câu (`không xét xử nó cũng đồng nghĩa với không đổ lỗi cho nó`) theo đúng DEC-P01-001."
+    pov_and_voice: "Trần thuật ngôi thứ ba khép lại cảnh phiên tòa."
+    modality_and_logic: "Khóa bản sửa theo B07-05 (`không xét xử nó cũng đồng nghĩa với không đổ lỗi cho nó`), giữ trọn ý nghĩa thực chất đằng sau câu trả lời quan liêu mập mờ: ai cũng hiểu việc tòa từ chối xét xử Tanya thực chất đồng nghĩa với việc không quy trách nhiệm cho nó."
+    emphasis: "Không dùng `*...*`."
