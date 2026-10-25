@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b08-source.jsonl
 source_package_sha256: 3fcd121b5c377300107b19990d96b91d83cba0ab501e13f806b14651214e9de7
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -53,17 +53,35 @@ translation_report:
   segment_count: 22
   validator: pass
   diff_check: pass
-  findings: [7 pending terminology notes; no serious/moderate reported]
+  findings:
+  - 7 pending terminology notes; no serious/moderate reported
   pending_term_count: 10
-  files_written: [translations/vol-02/ch-04-b08.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b08.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-04-b08-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b08_translation_proposals
-  severity_counts: {serious: 0, moderate: 0, minor: 10}
+  severity_counts:
+    serious: 0
+    moderate: 0
+    minor: 10
   reviewer_session_id: 87a5f708-0a3b-4fd3-9c9f-eb5fc46b45c6
   unresolved_findings: []
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0022.xhtml/p000192
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b08
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 143
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b08.jsonl
