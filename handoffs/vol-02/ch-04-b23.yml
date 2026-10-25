@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b23-source.jsonl
 source_package_sha256: aa4b0daacd3c169a11036cb08d4034c3e189111fba42868aa097b593fa7fc0f0
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -41,35 +41,60 @@ translation_report:
   segment_count: 29
   validator: pass
   diff_check: pass
-  findings: [low terminology note]
+  findings:
+  - low terminology note
   pending_term_count: 4
-  files_written: [translations/vol-02/ch-04-b23.jsonl]
-  risk_out_of_scope_helper: /tmp/write_b23.py created by translator, deleted without reading
+  files_written:
+  - translations/vol-02/ch-04-b23.jsonl
+  risk_out_of_scope_helper: /tmp/write_b23.py created by translator, deleted without
+    reading
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms, out_of_scope_review_read]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  - out_of_scope_review_read
   required: true
   state: signoff_passed
   signoff_state: passed
   signoff_session_id: 1e6e35cf-efbe-4023-bf1f-02b8c3df2551
   reviewer_session_id: c8569496-8b35-40ed-8fb8-0072b54a333f
-  review_counts: {serious: 1, moderate: 3, minor: 15}
-  initial_unresolved_serious: [S1]
-  initial_unresolved_moderate: [M1, M2, M3]
+  review_counts:
+    serious: 1
+    moderate: 3
+    minor: 15
+  initial_unresolved_serious:
+  - S1
+  initial_unresolved_moderate:
+  - M1
+  - M2
+  - M3
   unresolved_serious: []
   unresolved_moderate: []
-  signoff_counts: {serious_remaining: 0, moderate_remaining: 0, new_serious: 0, new_moderate: 0, minor: 1}
+  signoff_counts:
+    serious_remaining: 0
+    moderate_remaining: 0
+    new_serious: 0
+    new_moderate: 0
+    minor: 1
   follow_up_owner: translator-ch04-b23-review-fixes
-  scope_risk: reviewer read first 50 lines of b22 report; reviewer states no reliance on it, review reasoning restricted to b23 inputs
+  scope_risk: reviewer read first 50 lines of b22 report; reviewer states no reliance
+    on it, review reasoning restricted to b23 inputs
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b23_translation_proposals
   review_report: reviews/prose/vol-02/ch-04-b23-claude.md
 fix_report:
   state: done
   translator_session_id: 01a13324-4b75-7081-8edf-f8ede9628d66
-  findings_resolved: [S1, M1, M2, M3]
+  findings_resolved:
+  - S1
+  - M1
+  - M2
+  - M3
   validator: pass
   diff_check: pass
-  files_written: [translations/vol-02/ch-04-b23.jsonl]
-  allowlist: [translations/vol-02/ch-04-b23.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b23.jsonl
+  allowlist:
+  - translations/vol-02/ch-04-b23.jsonl
   next_action: commit
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
@@ -85,5 +110,15 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000381
-
 signoff_session_id: 1e6e35cf-efbe-4023-bf1f-02b8c3df2551
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b23
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 158
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b23.jsonl
