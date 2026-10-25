@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b29-source.jsonl
 source_package_sha256: fed84a3eff02d4e20b648eb59b61959c4bef46266e93dc57d4569035d34fd5e2
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -41,56 +41,148 @@ translation_report:
   segment_count: 29
   validator: pass
   diff_check: pass
-  findings: [terminology_review_p000544, terminology_review_p000536, terminology_review_p000535]
+  findings:
+  - terminology_review_p000544
+  - terminology_review_p000536
+  - terminology_review_p000535
   pending_term_count: 5
-  files_written: [translations/vol-02/ch-04-b29.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b29.jsonl
 review_coordination:
-  triggered_by: [risk_flags, new_pending_terms]
+  triggered_by:
+  - risk_flags
+  - new_pending_terms
   required: true
   state: signoff_passed
   reviewer_session_id: 01a13369-01f3-7f33-9d6c-31bf00010eab
-  review_counts: {serious: 0, moderate: 9, minor: 2}
+  review_counts:
+    serious: 0
+    moderate: 9
+    minor: 2
   unresolved_serious: []
-  initial_unresolved_moderate: [B29-F02, B29-F03, B29-F04, B29-F05, B29-F06, B29-F07, B29-F09, B29-F10, B29-F11]
+  initial_unresolved_moderate:
+  - B29-F02
+  - B29-F03
+  - B29-F04
+  - B29-F05
+  - B29-F06
+  - B29-F07
+  - B29-F09
+  - B29-F10
+  - B29-F11
   unresolved_moderate: []
   signoff_findings_pending: []
   follow_up_owner: translator-ch04-b29-review-fixes
   signoff_state: passed_assigned_scope
   signoff_session_id: 01a1336e-f758-7963-ab43-a420fdce403c
   signoff_report: reviews/prose/vol-02/ch-04-b29-fixes-signoff-codex.md
-  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, excluded_minor: 2}
-  signoff_findings_resolved: [B29-F02, B29-F03, B29-F04, B29-F05, B29-F06, B29-F07, B29-F09, B29-F10, B29-F11]
-  excluded_findings: [B29-F01, B29-F08]
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    new_findings: 0
+    excluded_minor: 2
+  signoff_findings_resolved:
+  - B29-F02
+  - B29-F03
+  - B29-F04
+  - B29-F05
+  - B29-F06
+  - B29-F07
+  - B29-F09
+  - B29-F10
+  - B29-F11
+  excluded_findings:
+  - B29-F01
+  - B29-F08
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b29_translation_proposals
   review_report: reviews/prose/vol-02/ch-04-b29-codex.md
   term_recommendations:
-  - {id: vol02-ch04-b29-counter-ship-doctrine, proposed_vi: chống hạm / học thuyết chống hạm, status: pending, action: retain}
-  - {id: vol02-ch04-b29-technology-department, proposed_vi: bộ phận Công nghệ, status: pending, action: revise}
-  - {id: vol02-ch04-b29-secondary-guns, proposed_vi: pháo phụ, status: pending, action: revise}
-  - {id: vol02-ch04-b29-marines, proposed_vi: thủy quân lục chiến, status: pending, action: retain}
-  - {id: vol02-ch04-b29-death-march, proposed_vi: đợt làm việc đến chết / làm việc đến chết, status: pending, action: revise}
-  - {id: vol02-ch04-b29-203rd-air-mage-battalion, proposed_vi: Tiểu đoàn Pháp sư Trên không 203, status: pending, action: add}
+  - id: vol02-ch04-b29-counter-ship-doctrine
+    proposed_vi: chống hạm / học thuyết chống hạm
+    status: pending
+    action: retain
+  - id: vol02-ch04-b29-technology-department
+    proposed_vi: bộ phận Công nghệ
+    status: pending
+    action: revise
+  - id: vol02-ch04-b29-secondary-guns
+    proposed_vi: pháo phụ
+    status: pending
+    action: revise
+  - id: vol02-ch04-b29-marines
+    proposed_vi: thủy quân lục chiến
+    status: pending
+    action: retain
+  - id: vol02-ch04-b29-death-march
+    proposed_vi: đợt làm việc đến chết / làm việc đến chết
+    status: pending
+    action: revise
+  - id: vol02-ch04-b29-203rd-air-mage-battalion
+    proposed_vi: Tiểu đoàn Pháp sư Trên không 203
+    status: pending
+    action: add
 fix_report:
   state: done
   translator_session_id: 01a1336d-6200-7481-94c9-633478f6191c
-  findings_resolved: [B29-F02, B29-F03, B29-F04, B29-F05, B29-F06, B29-F07, B29-F09, B29-F10, B29-F11]
+  findings_resolved:
+  - B29-F02
+  - B29-F03
+  - B29-F04
+  - B29-F05
+  - B29-F06
+  - B29-F07
+  - B29-F09
+  - B29-F10
+  - B29-F11
   validator: pass
   diff_check: pass
-  files_written: [translations/vol-02/ch-04-b29.jsonl]
-  allowlist: [translations/vol-02/ch-04-b29.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b29.jsonl
+  allowlist:
+  - translations/vol-02/ch-04-b29.jsonl
   next_action: commit
 coordinator_provisional_choices:
   status: pending_non_canon
   entries:
-  - {finding: B29-F02, decision: use_role_based_secondary_guns_term, proposed_vi: pháo phụ, segments: [p000535]}
-  - {finding: B29-F03, decision: use_neutral_department_label_not_assumed_bureau_level, proposed_vi: bộ phận Công nghệ, segments: [p000536]}
-  - {finding: B29-F04, decision: describe_approach_and_confused_deck_two_forces_not_branches, segments: [p000545]}
-  - {finding: B29-F05, decision: preserve_todays_new_placement_conditional_and_joint_ship_crew_contrast, segments: [p000546]}
-  - {finding: B29-F06, decision: use_minh_for_Tanya_interior_self_reference, segments: [p000547]}
-  - {finding: B29-F07, decision: repeat_death_march_image_as_working_to_death, segments: [p000547]}
-  - {finding: B29-F09, decision: retain_possibility_not_completed_acceptance, segments: [p000549]}
-  - {finding: B29-F10, decision: use_literal_air_mage_battalion_name, proposed_vi: Tiểu đoàn Pháp sư Trên không 203, segments: [p000553]}
-  - {finding: B29-F11, decision: use_general_joint_training_not_specific_exercise, segments: [p000554]}
+  - finding: B29-F02
+    decision: use_role_based_secondary_guns_term
+    proposed_vi: pháo phụ
+    segments:
+    - p000535
+  - finding: B29-F03
+    decision: use_neutral_department_label_not_assumed_bureau_level
+    proposed_vi: bộ phận Công nghệ
+    segments:
+    - p000536
+  - finding: B29-F04
+    decision: describe_approach_and_confused_deck_two_forces_not_branches
+    segments:
+    - p000545
+  - finding: B29-F05
+    decision: preserve_todays_new_placement_conditional_and_joint_ship_crew_contrast
+    segments:
+    - p000546
+  - finding: B29-F06
+    decision: use_minh_for_Tanya_interior_self_reference
+    segments:
+    - p000547
+  - finding: B29-F07
+    decision: repeat_death_march_image_as_working_to_death
+    segments:
+    - p000547
+  - finding: B29-F09
+    decision: retain_possibility_not_completed_acceptance
+    segments:
+    - p000549
+  - finding: B29-F10
+    decision: use_literal_air_mage_battalion_name
+    proposed_vi: Tiểu đoàn Pháp sư Trên không 203
+    segments:
+    - p000553
+  - finding: B29-F11
+    decision: use_general_joint_training_not_specific_exercise
+    segments:
+    - p000554
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -104,3 +196,14 @@ planning:
   min_source_words: 600
   max_source_words: 900
   boundary_after: chapter_end
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b29
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 165
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b29.jsonl
