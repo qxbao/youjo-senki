@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b15-source.jsonl
 source_package_sha256: f340547f0a2e2ff61c5c83547a044afd03271ebc7001ec26a6833db284abc28a
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -50,7 +50,8 @@ translation_report:
   minor_findings: 2
   pending_term_groups: 3
 review_coordination:
-  triggered_by: [new_pending_terms]
+  triggered_by:
+  - new_pending_terms
   serious: 0
   moderate: resolved_by_translator_and_signoff
   action: commit_ready
@@ -68,3 +69,14 @@ review_coordination:
   provisional_review_choices:
     service_corps: Cục Hậu cần
     operations: Cục Tác chiến
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b15
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 93
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b15.jsonl
