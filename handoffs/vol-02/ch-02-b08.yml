@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-02-b08-source.jsonl
 source_package_sha256: 53359fe90c3b5096a4cb917c2fdb5594e06446d8e98ec5cbe5be8e2beac38732
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_report:
   state: done
   translator_session_id: 01a13091-08f3-7b72-bdd5-dc53face5891
@@ -42,12 +42,20 @@ translator_followup:
   agent_session_id: 01a13096-8097-7e12-a4d6-0b9b09f386e6
   validator: pass
   diff_check: pass
-  resolved_moderate: [MOD-1]
-  aligned_term_choices: [combat_ineffective]
-  restored_footnote_marker: [p000178]
-  changed_segments: [p000172, p000178, p000180]
+  resolved_moderate:
+  - MOD-1
+  aligned_term_choices:
+  - combat_ineffective
+  restored_footnote_marker:
+  - p000178
+  changed_segments:
+  - p000172
+  - p000178
+  - p000180
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   serious: 0
   moderate: 0
   action: signoff_complete
@@ -56,7 +64,10 @@ review_coordination:
   pending_status: provisional_non_canon
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b08_translation_proposals
   review_report: reviews/prose/vol-02/ch-02-b08-claude.md
-  translator_followup_segments: [p000172, p000178, p000180]
+  translator_followup_segments:
+  - p000172
+  - p000178
+  - p000180
   provisional_choices:
     footnote: preserve Unicode superscript ⁷ inline pending a volume-wide convention
     combat_ineffective: mất sức chiến đấu
@@ -74,3 +85,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000190
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-02-b08
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 102
+  state: released
+  allowlist:
+  - translations/vol-02/ch-02-b08.jsonl
