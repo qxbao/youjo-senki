@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-03-b19-source.jsonl
 source_package_sha256: ebdd7e801248e99f0e4167fff66317bfbf36a94eda4ca9b5210046b5cb1182f4
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -55,17 +55,22 @@ translation_report:
   segment_count: 23
   validator: pass
   diff_check: pass
-  findings: [2 terminology notes; no serious/moderate reported]
+  findings:
+  - 2 terminology notes; no serious/moderate reported
   pending_term_count: 2
   files_written:
   - translations/vol-02/ch-03-b19.jsonl
 review_coordination:
-  triggered_by: [new_pending_terms]
+  triggered_by:
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-03-b19-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b19_translation_proposals
-  severity_counts: {serious: 0, moderate: 3, minor: 11}
+  severity_counts:
+    serious: 0
+    moderate: 3
+    minor: 11
   reviewer_session_id: ee4924e6-b02b-482a-af3b-177fdea2c16f
   reported_findings:
   - p000342: align marine mages with provisional b15 terminology
@@ -73,17 +78,40 @@ review_coordination:
   - p000357: correct office condition meaning and remove added causality
   translator_followup:
     task_id: vol-02-ch-03-b19-review-fixes
-    allowlist: [translations/vol-02/ch-03-b19.jsonl]
+    allowlist:
+    - translations/vol-02/ch-03-b19.jsonl
     session_id: 01a131f1-e1b6-77a2-967a-d3ffbf5f8c35
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [V1, V2, V3, N1, N2, N3, N4, N5]
+    fixed_findings:
+    - V1
+    - V2
+    - V3
+    - N1
+    - N2
+    - N3
+    - N4
+    - N5
   final_signoff:
     task_id: vol-02-ch-03-b19-signoff
     review_report: reviews/prose/vol-02/ch-03-b19-fixes-signoff-claude.md
     session_id: 4faff12a-d672-441c-9f3c-65825f51ddbe
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 7}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 7
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-03-b19
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 132
+  state: released
+  allowlist:
+  - translations/vol-02/ch-03-b19.jsonl
