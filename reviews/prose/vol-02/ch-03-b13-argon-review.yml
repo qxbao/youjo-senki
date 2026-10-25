@@ -1,0 +1,378 @@
+task_id: vol-02-ch-03-b13-argon-review
+reviewer: gemini-4-argon-medium
+role: reviewer
+model: gemini-4-argon-medium
+batch: vol-02-ch-03-b13
+volume: vol-02
+chapter: 3
+translation_path: translations/vol-02/ch-03-b13.jsonl
+source_package: work/vol-02/batches/ch-03-b13-source.jsonl
+source_package_sha256: 6acb2a5d7c25f4ea208c092e6e931a8716dd9914fd16e84369088f8a44e6b722
+segment_id_start: YS-LN02/Text/part0018.xhtml/p000141
+segment_id_end: YS-LN02/Text/part0018.xhtml/p000161
+unit_count: 21
+segment_ids:
+- YS-LN02/Text/part0018.xhtml/p000141
+- YS-LN02/Text/part0018.xhtml/p000142
+- YS-LN02/Text/part0018.xhtml/p000143
+- YS-LN02/Text/part0018.xhtml/p000144
+- YS-LN02/Text/part0018.xhtml/p000145
+- YS-LN02/Text/part0018.xhtml/p000146
+- YS-LN02/Text/part0018.xhtml/p000147
+- YS-LN02/Text/part0018.xhtml/p000148
+- YS-LN02/Text/part0018.xhtml/p000149
+- YS-LN02/Text/part0018.xhtml/p000150
+- YS-LN02/Text/part0018.xhtml/p000151
+- YS-LN02/Text/part0018.xhtml/p000152
+- YS-LN02/Text/part0018.xhtml/p000153
+- YS-LN02/Text/part0018.xhtml/p000154
+- YS-LN02/Text/part0018.xhtml/p000155
+- YS-LN02/Text/part0018.xhtml/p000156
+- YS-LN02/Text/part0018.xhtml/p000157
+- YS-LN02/Text/part0018.xhtml/p000158
+- YS-LN02/Text/part0018.xhtml/p000159
+- YS-LN02/Text/part0018.xhtml/p000160
+- YS-LN02/Text/part0018.xhtml/p000161
+status: needs_revision
+summary:
+  serious: 0
+  moderate: 3
+  minor: 1
+counts:
+  serious: 0
+  moderate: 3
+  minor: 1
+findings:
+- id: F01
+  severity: moderate
+  category: pronoun_viewpoint_consistency
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000142
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000147
+  - YS-LN02/Text/part0018.xhtml/p000152
+  issue: >
+    Đoạn p000142–p000155 là mạch trần thuật ngôi thứ ba đan xen độc thoại nội tâm từ điểm nhìn
+    của Tanya tại phòng họp chỉ huy trên kỳ hạm, nối trực tiếp từ cuối ch-03-b12 (p000134–p000140)
+    sang đầu ch-03-b14 (p000162–p000163). Tuy nhiên bản dịch hiện tại chưa đồng bộ theo DEC-P01-001
+    (canon/decisions.md) và các mục đã khóa ở b11/b12/b14 (vol02-ch03-b11-tanya-third-person-reference,
+    vol02-ch03-b11-tanya-interior-pronoun): (1) Tại p000142, câu trần thuật ngôi thứ ba bám điểm nhìn
+    Tanya đang dùng "cô" hai lần ("cảm xúc của cô", "Trong lòng, cô than vãn ầm ĩ") thay vì "nó"
+    như ở p000134–p000138 (b12) và p000162–p000163 (b14); đồng thời trật tự bổ ngữ ở câu đầu
+    ("Tanya lắng nghe chỉ huy báo cáo tình hình cho mọi người, vẻ mặt nghiêm nghị, chẳng hay biết gì
+    về cảm xúc của cô về chuyện này") đặt cụm "vẻ mặt nghiêm nghị, chẳng hay biết gì về cảm xúc của
+    cô" lửng lơ khiến người đọc dễ gắn nhầm chủ thể giữa Tanya và vị tư lệnh đang phổ biến tình hình
+    mà không hề biết nỗi lòng của Tanya. (2) Tại p000147 ("Một mặt, tôi nể nước đi này; mặt khác,
+    tôi chỉ muốn than thở đôi chút...") và p000152 ("Đâu phải chỉ mình tôi nghĩ vậy—"), độc thoại
+    nội tâm tự quy chiếu ngôi thứ nhất của Tanya lại dùng "tôi" thay vì "mình", làm nhòe ranh giới
+    với lời phát biểu trực tiếp dùng "tôi" của tư lệnh hạm đội ở p000141 và lệch với quy chuẩn
+    DEC-P01-001 (dành "mình" cho tự quy chiếu nội tâm của Tanya và "tôi" cho thoại). Tại p000144,
+    mệnh đề kết câu đầu ("chợt hiểu ra") cũng có thể làm rõ điểm nhìn Tanya bằng "nó chợt hiểu ra"
+    theo đúng cấu trúc nguồn.
+  recommendation: >
+    Chuẩn hóa hệ đại từ điểm nhìn Tanya theo DEC-P01-001 và tách rõ chủ thể bổ ngữ ở p000142:
+    - p000142: Đổi "cô" sang "nó" ở cả hai câu, đồng thời cấu trúc lại câu đầu để phân định rõ
+      người không biết cảm xúc của Tanya là vị chỉ huy đang thuyết trình và vẻ mặt nghiêm nghị
+      của Tanya (kết hợp sửa thuật ngữ ở F02): "Tanya giữ vẻ mặt nghiêm nghị lắng nghe vị chỉ huy
+      phổ biến tình hình cho mọi người mà chẳng hề hay biết cảm xúc của nó về chuyện này, nhưng
+      những lời càu nhàu trong đầu đã chực trào ra. Trong lòng, nó than vãn ầm ĩ, lặp đi lặp lại
+      rằng giá mà đội nhảy dù được bổ sung thêm vài người thì hay biết mấy."
+    - p000144: Làm rõ đại từ điểm nhìn ở câu đầu (kết hợp F03, F04): "*…Hỗ trợ Cụm tập đoàn quân
+      phương Bắc ư?* Tanya bắt đầu nghĩ, rồi nó chợt hiểu ra."
+    - p000147: Đổi "tôi" sang "mình" trong nội tâm của Tanya (kết hợp F03): "Một mặt, mình nể nước
+      đi này; mặt khác, mình chỉ muốn than thở đôi chút rằng một khi trực thuộc Trung ương thì
+      người ta bị đem ra sử dụng như công cụ thế này đây."
+    - p000152: Đổi "chỉ mình tôi" sang "chỉ riêng mình" (hoặc "chỉ mỗi mình"): "Đâu phải chỉ riêng
+      mình nghĩ vậy—một người lính muốn tham gia trận đánh nắm phần thắng thì chẳng có gì lạ."
+- id: F02
+  severity: moderate
+  category: terminology_consistency
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000142
+  - YS-LN02/Text/part0018.xhtml/p000154
+  issue: >
+    Tại p000142 và p000154, bản dịch dùng từ "đổ bộ" cho lực lượng và hoạt động tác chiến đường
+    không của đơn vị pháp sư ("đội đổ bộ" ở p000142; "chiến dịch đổ bộ đường không" ở p000154).
+    Cách dịch này vi phạm trực tiếp nguyên tắc phân biệt tác chiến đường không với đổ bộ đường biển
+    đã khóa tại work/run-state/pending-terms.yml (mục vol02-ch03-b08-airborne-amphibious,
+    vol02-ch03-b14-airborne-action) cũng như các bản sửa đã nghiệm thu ở ch-03-b12 (p000138 đổi
+    "Đổ bộ" sang "Đáp xuống" để không trùng với "cuộc tấn công đổ bộ" ở p000135) và ch-03-b14
+    (p000162, p000163, p000166 đổi toàn bộ sang "chiến dịch đột kích đường không" / "đơn vị đột
+    kích đường không"). Ngay trong nội bộ b13, p000150 và p000151 đã dùng "chiến dịch đổ bộ" /
+    "tiến hành đổ bộ" cho hoạt động đổ bộ đường biển của Hạm đội Bắc Hải; việc gọi đơn vị của
+    Tanya là "đội đổ bộ" ở p000142 và "chiến dịch đổ bộ đường không" ở p000154 gây chồng lấn thuật
+    ngữ giữa hai quân chủng và đứt mạch trực tiếp với câu mở đầu b14 (p000162).
+  recommendation: >
+    Đồng bộ với vol02-ch03-b08-airborne-amphibious, vol02-ch03-b14-airborne-action và ch-03-b14:
+    - p000142: Đổi "đội đổ bộ" thành "đội nhảy dù" (hoặc "đội đột kích đường không").
+    - p000154: Đổi "chiến dịch đổ bộ đường không" thành "chiến dịch đột kích đường không" ("Mà
+      chúng ta còn phải thực hiện một chiến dịch đột kích đường không.") để khớp hoàn toàn với
+      p000162–p000163 của ch-03-b14 ngay sau đó.
+- id: F03
+  severity: moderate
+  category: terminology_consistency
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000143
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000146
+  - YS-LN02/Text/part0018.xhtml/p000147
+  - YS-LN02/Text/part0018.xhtml/p000148
+  - YS-LN02/Text/part0018.xhtml/p000149
+  - YS-LN02/Text/part0018.xhtml/p000150
+  - YS-LN02/Text/part0018.xhtml/p000151
+  issue: >
+    Nhiều định danh phe phái và đơn vị cốt lõi trong b13 đang lệch khỏi canon/glossary.yml và
+    work/run-state/pending-terms.yml của Chương 3:
+    (1) Phe địch ở mặt trận phương Bắc được dịch thành "Cơ chế Hiệp ước" tại p000149 (2 lần),
+    p000150 và p000151, trong khi toàn bộ Quyển 1–2 và Chương 3 (b03, b05, b06, b09, b11 p000089,
+    b20 mục vol02-ch03-b20-entente-alliance) đều khóa là "Liên minh Entente". Cụm "Cơ chế Hiệp ước"
+    làm biến dạng danh xưng quốc gia/liên minh tham chiến thành một cơ chế pháp lý trừu tượng.
+    (2) Định danh cơ quan trung ương tại p000144 và p000147 đang dịch là "Tập đoàn quân Trung tâm"
+    (p000144) và "Trung tâm" (p000147), trái với các mục vol02-ch03-b05-central-army,
+    vol02-ch03-b06-central-army-group, b03, b07 và b11 (p000111) đã khóa "Quân Trung ương" và
+    "Trung ương" (không tự thêm cấp "Tập đoàn quân" và không đổi "Trung ương" thành "Trung tâm").
+    (3) Định danh "Cụm Tập đoàn quân phương Bắc" tại p000143, p000144 (2 lần), p000146 viết hoa
+    chữ "Tập", lệch quy tắc viết hoa "Cụm tập đoàn quân phương Bắc" đã khóa xuyên suốt Chương 3
+    (vol02-ch03-b05-northern-army-group, vol02-ch03-b06-northern-army-group, b09, b10, b11) và
+    chính p000144 cũng viết "Đại quân" (chữ "quân" viết thường) thay vì "Đại Quân" theo
+    canon/glossary.yml.
+    (4) Tên hạm đội tại p000148, p000149, p000151 đang dùng "Hạm đội Biển Bắc" và "Hạm đội Biển
+    Khơi" (viết hoa chữ "Khơi"), trong khi ngay đoạn liền trước ở ch-03-b12 (p000134, mục
+    vol02-ch03-b12-northern-sea-fleet) khóa "Hạm đội Bắc Hải" (còn b19 mục vol02-ch03-b19-fleet-names
+    dùng "Hạm đội Biển Bắc" và "Hạm đội Biển khơi" viết thường chữ "khơi"). Việc chuyển đột ngột
+    từ "Hạm đội Bắc Hải" ở p000134 sang "Hạm đội Biển Bắc" ở p000148 ngay trong cùng một cảnh họp
+    gây bất nhất cục bộ.
+  recommendation: >
+    Chuẩn hóa đồng bộ các định danh theo canon/glossary.yml và pending ledger Chương 3:
+    - Tại p000149 (2 chỗ), p000150, p000151: Đổi toàn bộ "Cơ chế Hiệp ước" thành "Liên minh Entente"
+      ("chốt chặn Liên minh Entente", "chiến hạm của Liên minh Entente", "hạm đội Liên minh Entente",
+      "các chiến hạm Liên minh Entente").
+    - Tại p000144 và p000147: Đổi "Tập đoàn quân Trung tâm" (p000144) thành "Quân Trung ương", và
+      đổi "Trung tâm" (p000147) thành "Trung ương".
+    - Tại p000143, p000144, p000146: Chuẩn hóa viết hoa "Cụm tập đoàn quân phương Bắc" (chữ "tập"
+      viết thường) và tại p000144 đổi "Đại quân" thành "Đại Quân" theo canon/glossary.yml; đồng
+      thời ở câu 2 của p000146 khôi phục đầy đủ danh xưng "Cụm tập đoàn quân phương Bắc" thay vì
+      rút gọn thành "trong cụm" ("cũng chẳng ai trong Cụm tập đoàn quân phương Bắc bị tổn hại").
+    - Tại p000148, p000149, p000151: Chuẩn hóa "Hạm đội Biển Khơi" thành "Hạm đội Biển khơi" (viết
+      thường chữ "khơi" theo quy tắc danh từ chung đi kèm và mục vol02-ch03-b19-fleet-names); với
+      hạm đội địa phương tại p000148, p000149, p000151, khuyến nghị ưu tiên đổi sang "Hạm đội Bắc
+      Hải" để nối mạch liền kề trực tiếp với p000134 của ch-03-b12 trong cùng phân cảnh họp trên
+      kỳ hạm (hoặc nếu điều phối viên chọn giữ "Hạm đội Biển Bắc" theo b19 thì cần ghi chú đồng bộ
+      ngược với p000134 ở bước hợp nhất).
+- id: F04
+  severity: minor
+  category: formatting_and_fidelity
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000141
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000155
+  issue: >
+    Ba chi tiết trình bày và sắc thái từ ngữ nhỏ cần chỉnh để khớp sát nguồn và DEC-P01-002:
+    (1) Tại p000141, câu thoại mở màn của tư lệnh hạm đội bị thiếu cặp dấu ngoặc kép mở/đóng
+    (“...”), trong khi nguồn có dấu ngoặc kép đầy đủ và tất cả các câu thoại khác trong batch
+    (p000143, p000148, p000156, p000161) đều đặt trong “...”.
+    (2) Tại p000144, phần in nghiêng mở đầu `*Hỗ trợ chiến dịch của Cụm Tập đoàn quân phương Bắc
+    ư?*` làm rơi dấu ba chấm mở đầu `…` nằm bên trong thẻ `<em>` của nguồn và tự thêm cụm
+    "chiến dịch của" vốn không có trong mệnh đề lặp lại lời tư lệnh ở đầu đoạn p000144.
+    (3) Tại p000155, cụm "Ngay cả Hồng quân Liên Xô" làm rơi tính từ chỉ màu sắc nhấn mạnh sắc
+    thái châm biếm của Tanya trong nguồn ("đỏ rực" / "đỏ chót" đi trước danh xưng quân đội Liên Xô).
+  recommendation: >
+    - p000141: Bổ sung cặp dấu ngoặc kép chuẩn: `“Được rồi, tôi sẽ giải thích tình hình.”` (hoặc
+      `“Được, tôi sẽ giải thích tình hình.”`).
+    - p000144: Khôi phục dấu ba chấm mở đầu trong phạm vi in nghiêng theo DEC-P01-002 và bỏ cụm
+      tự thêm "chiến dịch của": `*…Hỗ trợ Cụm tập đoàn quân phương Bắc ư?*`.
+    - p000155: Khôi phục sắc thái màu sắc: `Ngay cả Quân đội Liên Xô đỏ rực cũng gặp đủ thứ tai
+      họa trong các cuộc chiến mùa đông.` (hoặc `Ngay cả Hồng quân Liên Xô đỏ rực cũng gặp đủ thứ
+      tai họa trong các cuộc chiến mùa đông.`).
+unresolved_findings:
+- F01
+- F02
+- F03
+- F04
+pending_term_recommendations:
+- source_term: tanya_flagship_briefing_pronouns_and_viewpoint_vol02_ch03_b13
+  proposed_vi: "Trong phân cảnh tư lệnh hạm đội phổ biến kế hoạch tác chiến tại phòng họp chỉ huy trên kỳ hạm và dòng phân tích nội tâm của Tanya (part0018/p000141–p000161): tuân thủ nghiêm ngặt `DEC-P01-001` (`canon/decisions.md`) và nối mạch liền kề với `ch-03-b12` (p000134–p000140) cùng `ch-03-b14` (p000162–p000163): (1) Trong trần thuật ngôi thứ ba bám điểm nhìn Tanya (p000142, p000144), quy chiếu Tanya bằng tên riêng `Tanya` kết hợp đại từ `nó` (cần sửa hai chỗ `cô` tại p000142 sang `nó` theo F01). (2) Trong độc thoại nội tâm tự quy chiếu ngôi thứ nhất số ít của Tanya (p000147, p000152), bắt buộc dùng `mình` (cần sửa hai chỗ `tôi` tại p000147 và một chỗ `tôi` tại p000152 sang `mình` theo F01); khi Tanya quy chiếu tập thể đơn vị mình hoặc lực lượng Đế quốc tham gia chiến dịch trong nội tâm (p000152, p000154, p000155, p000159) và trong câu dẫn lời tư lệnh (p000156), giữ ngôi thứ nhất số nhiều bao gộp `chúng ta`. (3) Trong lời phát biểu trực tiếp của tư lệnh hạm đội trước phòng họp (p000141, p000143, p000148, p000156, p000161), tư lệnh tự xưng `tôi` ở câu mở đầu (p000141) và dùng `Chúng ta` / `chúng ta` khi đại diện toàn lực lượng tham gia chiến dịch (p000143, p000148, p000156, p000161); quy chiếu Thiếu tướng von Rudersdorf trong nội tâm của Tanya bằng `ông ta` (p000147), quy chiếu Bộ Tổng tham mưu và các đơn vị bạn bằng `họ` (p000144–p000146, p000149), và quy chiếu quân địch / hải quân địch bằng `địch` / `chúng` (p000156, p000158, p000159, p000161)"
+  alternatives_vi:
+  - cô (thay cho `nó` trong trần thuật điểm nhìn Tanya tại part0018/p000142 — bắt buộc đổi sang `nó` theo `DEC-P01-001`, mục `vol02-ch03-b11-tanya-third-person-reference` và mạch liền kề ở `ch-03-b12` p000134–p000138, `ch-03-b14` p000162–p000163) / tôi (thay cho `mình` trong độc thoại nội tâm của Tanya tại part0018/p000147, p000152 — bắt buộc đổi sang `mình` theo `DEC-P01-001` và mục `vol02-ch03-b11-tanya-interior-pronoun` để tách bạch với lời phát biểu công khai dùng `tôi` của tư lệnh hạm đội ở p000141)
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000141
+  - YS-LN02/Text/part0018.xhtml/p000142
+  - YS-LN02/Text/part0018.xhtml/p000143
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000145
+  - YS-LN02/Text/part0018.xhtml/p000146
+  - YS-LN02/Text/part0018.xhtml/p000147
+  - YS-LN02/Text/part0018.xhtml/p000148
+  - YS-LN02/Text/part0018.xhtml/p000149
+  - YS-LN02/Text/part0018.xhtml/p000152
+  - YS-LN02/Text/part0018.xhtml/p000153
+  - YS-LN02/Text/part0018.xhtml/p000154
+  - YS-LN02/Text/part0018.xhtml/p000155
+  - YS-LN02/Text/part0018.xhtml/p000156
+  - YS-LN02/Text/part0018.xhtml/p000158
+  - YS-LN02/Text/part0018.xhtml/p000159
+  - YS-LN02/Text/part0018.xhtml/p000161
+  volume: vol-02
+  chapter: 3
+  rationale: "Thực thi nghiêm ngặt `DEC-P01-001` (`canon/decisions.md`) và giữ liên thông trực tiếp với `ch-03-b11`, `ch-03-b12` (p000134–p000140) cùng `ch-03-b14` (p000162–p000163), phân tách rạch ròi giữa trần thuật điểm nhìn Tanya (`Tanya`, `nó`), độc thoại nội tâm tự quy chiếu (`mình`, `chúng ta`) và lời thuyết trình công khai của tư lệnh hạm đội (`tôi`, `Chúng ta`)."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: northern_sea_fleet_osfjord_amphibious_and_airborne_operation_terms_vol02_ch03_b13
+  proposed_vi: "đội nhảy dù (part0018/p000142) / Cụm tập đoàn quân phương Bắc (part0018/p000143, p000144, p000146) / Quân Trung ương, Bộ Tổng tham mưu, Đại Quân (part0018/p000144, p000146) / thỏa hiệp chính trị, kế hoạch tác chiến (part0018/p000145, p000146) / Thiếu tướng von Rudersdorf, Trung ương (part0018/p000147) / Hạm đội Bắc Hải, Hạm đội Biển khơi (part0018/p000148, p000149, p000151) / Liên minh Entente, Cộng hòa, lục quân (part0018/p000149–p000151) / chiến dịch đổ bộ, cuộc tập kích chiến lược, mật lệnh, đánh chặn hạm đội, chiến dịch đổ bộ (part0018/p000150–p000152) / xuất kích (part0018/p000151, p000153) / chiến dịch đột kích đường không, tàu *Titanic* (part0018/p000154) / Quân đội Liên Xô đỏ rực (hoặc Hồng quân Liên Xô đỏ rực), Quân đội Đế quốc (part0018/p000155) / Tư lệnh hạm đội, Osfjord, tuyến liên lạc hậu phương (part0018/p000156, p000157, p000160) / Vịnh hẹp, vịnh hẹp, tàu chiến, thủy lôi, pháo thủ (part0018/p000158, p000160) / khu trục hạm, ngư lôi (part0018/p000159) / Os (part0018/p000160) / chiếm các khẩu pháo của địch (part0018/p000161)"
+  alternatives_vi:
+  - đội đổ bộ / chiến dịch đổ bộ đường không (thay cho `đội nhảy dù` tại part0018/p000142 và `chiến dịch đột kích đường không` tại part0018/p000154 — bắt buộc đổi sang `đội nhảy dù` / `chiến dịch đột kích đường không` theo F02, mục `vol02-ch03-b08-airborne-amphibious`, `vol02-ch03-b14-airborne-action` và bản dịch `ch-03-b14` p000162–p000166 để không lẫn với `chiến dịch đổ bộ` bằng tàu biển ở p000150, p000151) / Cơ chế Hiệp ước (thay cho `Liên minh Entente` tại part0018/p000149–p000151 — bắt buộc đổi sang `Liên minh Entente` theo F03 và toàn bộ các batch Chương 1–3) / Tập đoàn quân Trung tâm / Trung tâm (thay cho `Quân Trung ương` tại part0018/p000144 và `Trung ương` tại part0018/p000147 — bắt buộc đổi sang `Quân Trung ương` và `Trung ương` theo F03, mục `vol02-ch03-b05-central-army`, `vol02-ch03-b06-central-army-group` và `ch-03-b11` p000111) / Cụm Tập đoàn quân phương Bắc (thay cho `Cụm tập đoàn quân phương Bắc` tại part0018/p000143, p000144, p000146 — bắt buộc viết thường chữ `tập` theo mục `vol02-ch03-b05-northern-army-group` và `ch-03-b06`–`b11`) / Hạm đội Biển Bắc (tại part0018/p000148, p000149, p000151 — khuyến nghị đổi sang `Hạm đội Bắc Hải` để khớp trực tiếp với đoạn mở đầu cùng cảnh họp ở `ch-03-b12` p000134 theo mục `vol02-ch03-b12-northern-sea-fleet`, đồng thời ghi nhận phương án `Hạm đội Biển Bắc` ở `vol02-ch03-b19-northern-sea-fleet` để điều phối viên thống nhất cấp chương)
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000142
+  - YS-LN02/Text/part0018.xhtml/p000143
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000145
+  - YS-LN02/Text/part0018.xhtml/p000146
+  - YS-LN02/Text/part0018.xhtml/p000147
+  - YS-LN02/Text/part0018.xhtml/p000148
+  - YS-LN02/Text/part0018.xhtml/p000149
+  - YS-LN02/Text/part0018.xhtml/p000150
+  - YS-LN02/Text/part0018.xhtml/p000151
+  - YS-LN02/Text/part0018.xhtml/p000152
+  - YS-LN02/Text/part0018.xhtml/p000153
+  - YS-LN02/Text/part0018.xhtml/p000154
+  - YS-LN02/Text/part0018.xhtml/p000155
+  - YS-LN02/Text/part0018.xhtml/p000156
+  - YS-LN02/Text/part0018.xhtml/p000157
+  - YS-LN02/Text/part0018.xhtml/p000158
+  - YS-LN02/Text/part0018.xhtml/p000159
+  - YS-LN02/Text/part0018.xhtml/p000160
+  - YS-LN02/Text/part0018.xhtml/p000161
+  volume: vol-02
+  chapter: 3
+  rationale: "Khôi phục tính nhất quán thuật ngữ xuyên suốt Chương 3 giữa `b01`–`b12`, `b13` và `b14`–`b22` theo `canon/glossary.yml` (`Bộ Tổng tham mưu`, `Đại Quân`, `Quân đội Đế quốc`, `Thiếu tướng von Rudersdorf`) và `work/run-state/pending-terms.yml` (`Liên minh Entente`, `Quân Trung ương` / `Trung ương`, `Cụm tập đoàn quân phương Bắc`, `Hạm đội Bắc Hải` / `Hạm đội Biển khơi`, `đội nhảy dù` / `chiến dịch đột kích đường không` đối lập với `chiến dịch đổ bộ`, `Osfjord`, `Os`, `vịnh hẹp`)."
+  uncertainty: low
+  status: pending
+  canon: false
+term_recommendations:
+- source_term: tanya_flagship_briefing_pronouns_and_viewpoint_vol02_ch03_b13
+  proposed_vi: "Trong phân cảnh tư lệnh hạm đội phổ biến kế hoạch tác chiến tại phòng họp chỉ huy trên kỳ hạm và dòng phân tích nội tâm của Tanya (part0018/p000141–p000161): tuân thủ nghiêm ngặt `DEC-P01-001` (`canon/decisions.md`) và nối mạch liền kề với `ch-03-b12` (p000134–p000140) cùng `ch-03-b14` (p000162–p000163): (1) Trong trần thuật ngôi thứ ba bám điểm nhìn Tanya (p000142, p000144), quy chiếu Tanya bằng tên riêng `Tanya` kết hợp đại từ `nó` (cần sửa hai chỗ `cô` tại p000142 sang `nó` theo F01). (2) Trong độc thoại nội tâm tự quy chiếu ngôi thứ nhất số ít của Tanya (p000147, p000152), bắt buộc dùng `mình` (cần sửa hai chỗ `tôi` tại p000147 và một chỗ `tôi` tại p000152 sang `mình` theo F01); khi Tanya quy chiếu tập thể đơn vị mình hoặc lực lượng Đế quốc tham gia chiến dịch trong nội tâm (p000152, p000154, p000155, p000159) và trong câu dẫn lời tư lệnh (p000156), giữ ngôi thứ nhất số nhiều bao gộp `chúng ta`. (3) Trong lời phát biểu trực tiếp của tư lệnh hạm đội trước phòng họp (p000141, p000143, p000148, p000156, p000161), tư lệnh tự xưng `tôi` ở câu mở đầu (p000141) và dùng `Chúng ta` / `chúng ta` khi đại diện toàn lực lượng tham gia chiến dịch (p000143, p000148, p000156, p000161); quy chiếu Thiếu tướng von Rudersdorf trong nội tâm của Tanya bằng `ông ta` (p000147), quy chiếu Bộ Tổng tham mưu và các đơn vị bạn bằng `họ` (p000144–p000146, p000149), và quy chiếu quân địch / hải quân địch bằng `địch` / `chúng` (p000156, p000158, p000159, p000161)"
+  alternatives_vi:
+  - cô (thay cho `nó` trong trần thuật điểm nhìn Tanya tại part0018/p000142 — bắt buộc đổi sang `nó` theo `DEC-P01-001`, mục `vol02-ch03-b11-tanya-third-person-reference` và mạch liền kề ở `ch-03-b12` p000134–p000138, `ch-03-b14` p000162–p000163) / tôi (thay cho `mình` trong độc thoại nội tâm của Tanya tại part0018/p000147, p000152 — bắt buộc đổi sang `mình` theo `DEC-P01-001` và mục `vol02-ch03-b11-tanya-interior-pronoun` để tách bạch với lời phát biểu công khai dùng `tôi` của tư lệnh hạm đội ở p000141)
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000141
+  - YS-LN02/Text/part0018.xhtml/p000142
+  - YS-LN02/Text/part0018.xhtml/p000143
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000145
+  - YS-LN02/Text/part0018.xhtml/p000146
+  - YS-LN02/Text/part0018.xhtml/p000147
+  - YS-LN02/Text/part0018.xhtml/p000148
+  - YS-LN02/Text/part0018.xhtml/p000149
+  - YS-LN02/Text/part0018.xhtml/p000152
+  - YS-LN02/Text/part0018.xhtml/p000153
+  - YS-LN02/Text/part0018.xhtml/p000154
+  - YS-LN02/Text/part0018.xhtml/p000155
+  - YS-LN02/Text/part0018.xhtml/p000156
+  - YS-LN02/Text/part0018.xhtml/p000158
+  - YS-LN02/Text/part0018.xhtml/p000159
+  - YS-LN02/Text/part0018.xhtml/p000161
+  volume: vol-02
+  chapter: 3
+  rationale: "Thực thi nghiêm ngặt `DEC-P01-001` (`canon/decisions.md`) và giữ liên thông trực tiếp với `ch-03-b11`, `ch-03-b12` (p000134–p000140) cùng `ch-03-b14` (p000162–p000163), phân tách rạch ròi giữa trần thuật điểm nhìn Tanya (`Tanya`, `nó`), độc thoại nội tâm tự quy chiếu (`mình`, `chúng ta`) và lời thuyết trình công khai của tư lệnh hạm đội (`tôi`, `Chúng ta`)."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: northern_sea_fleet_osfjord_amphibious_and_airborne_operation_terms_vol02_ch03_b13
+  proposed_vi: "đội nhảy dù (part0018/p000142) / Cụm tập đoàn quân phương Bắc (part0018/p000143, p000144, p000146) / Quân Trung ương, Bộ Tổng tham mưu, Đại Quân (part0018/p000144, p000146) / thỏa hiệp chính trị, kế hoạch tác chiến (part0018/p000145, p000146) / Thiếu tướng von Rudersdorf, Trung ương (part0018/p000147) / Hạm đội Bắc Hải, Hạm đội Biển khơi (part0018/p000148, p000149, p000151) / Liên minh Entente, Cộng hòa, lục quân (part0018/p000149–p000151) / chiến dịch đổ bộ, cuộc tập kích chiến lược, mật lệnh, đánh chặn hạm đội, chiến dịch đổ bộ (part0018/p000150–p000152) / xuất kích (part0018/p000151, p000153) / chiến dịch đột kích đường không, tàu *Titanic* (part0018/p000154) / Quân đội Liên Xô đỏ rực (hoặc Hồng quân Liên Xô đỏ rực), Quân đội Đế quốc (part0018/p000155) / Tư lệnh hạm đội, Osfjord, tuyến liên lạc hậu phương (part0018/p000156, p000157, p000160) / Vịnh hẹp, vịnh hẹp, tàu chiến, thủy lôi, pháo thủ (part0018/p000158, p000160) / khu trục hạm, ngư lôi (part0018/p000159) / Os (part0018/p000160) / chiếm các khẩu pháo của địch (part0018/p000161)"
+  alternatives_vi:
+  - đội đổ bộ / chiến dịch đổ bộ đường không (thay cho `đội nhảy dù` tại part0018/p000142 và `chiến dịch đột kích đường không` tại part0018/p000154 — bắt buộc đổi sang `đội nhảy dù` / `chiến dịch đột kích đường không` theo F02, mục `vol02-ch03-b08-airborne-amphibious`, `vol02-ch03-b14-airborne-action` và bản dịch `ch-03-b14` p000162–p000166 để không lẫn với `chiến dịch đổ bộ` bằng tàu biển ở p000150, p000151) / Cơ chế Hiệp ước (thay cho `Liên minh Entente` tại part0018/p000149–p000151 — bắt buộc đổi sang `Liên minh Entente` theo F03 và toàn bộ các batch Chương 1–3) / Tập đoàn quân Trung tâm / Trung tâm (thay cho `Quân Trung ương` tại part0018/p000144 và `Trung ương` tại part0018/p000147 — bắt buộc đổi sang `Quân Trung ương` và `Trung ương` theo F03, mục `vol02-ch03-b05-central-army`, `vol02-ch03-b06-central-army-group` và `ch-03-b11` p000111) / Cụm Tập đoàn quân phương Bắc (thay cho `Cụm tập đoàn quân phương Bắc` tại part0018/p000143, p000144, p000146 — bắt buộc viết thường chữ `tập` theo mục `vol02-ch03-b05-northern-army-group` và `ch-03-b06`–`b11`) / Hạm đội Biển Bắc (tại part0018/p000148, p000149, p000151 — khuyến nghị đổi sang `Hạm đội Bắc Hải` để khớp trực tiếp với đoạn mở đầu cùng cảnh họp ở `ch-03-b12` p000134 theo mục `vol02-ch03-b12-northern-sea-fleet`, đồng thời ghi nhận phương án `Hạm đội Biển Bắc` ở `vol02-ch03-b19-northern-sea-fleet` để điều phối viên thống nhất cấp chương)
+  segment_ids:
+  - YS-LN02/Text/part0018.xhtml/p000142
+  - YS-LN02/Text/part0018.xhtml/p000143
+  - YS-LN02/Text/part0018.xhtml/p000144
+  - YS-LN02/Text/part0018.xhtml/p000145
+  - YS-LN02/Text/part0018.xhtml/p000146
+  - YS-LN02/Text/part0018.xhtml/p000147
+  - YS-LN02/Text/part0018.xhtml/p000148
+  - YS-LN02/Text/part0018.xhtml/p000149
+  - YS-LN02/Text/part0018.xhtml/p000150
+  - YS-LN02/Text/part0018.xhtml/p000151
+  - YS-LN02/Text/part0018.xhtml/p000152
+  - YS-LN02/Text/part0018.xhtml/p000153
+  - YS-LN02/Text/part0018.xhtml/p000154
+  - YS-LN02/Text/part0018.xhtml/p000155
+  - YS-LN02/Text/part0018.xhtml/p000156
+  - YS-LN02/Text/part0018.xhtml/p000157
+  - YS-LN02/Text/part0018.xhtml/p000158
+  - YS-LN02/Text/part0018.xhtml/p000159
+  - YS-LN02/Text/part0018.xhtml/p000160
+  - YS-LN02/Text/part0018.xhtml/p000161
+  volume: vol-02
+  chapter: 3
+  rationale: "Khôi phục tính nhất quán thuật ngữ xuyên suốt Chương 3 giữa `b01`–`b12`, `b13` và `b14`–`b22` theo `canon/glossary.yml` (`Bộ Tổng tham mưu`, `Đại Quân`, `Quân đội Đế quốc`, `Thiếu tướng von Rudersdorf`) và `work/run-state/pending-terms.yml` (`Liên minh Entente`, `Quân Trung ương` / `Trung ương`, `Cụm tập đoàn quân phương Bắc`, `Hạm đội Bắc Hải` / `Hạm đội Biển khơi`, `đội nhảy dù` / `chiến dịch đột kích đường không` đối lập với `chiến dịch đổ bộ`, `Osfjord`, `Os`, `vịnh hẹp`)."
+  uncertainty: low
+  status: pending
+  canon: false
+locked_choices:
+- segment_id: YS-LN02/Text/part0018.xhtml/p000141
+  locks:
+  - "Giữ đại từ `tôi` trong lời mở đầu của tư lệnh hạm đội và cần bổ sung cặp dấu ngoặc kép mở/đóng `“...”` theo F04."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000142
+  locks:
+  - "Giữ tên riêng `Tanya`; cần đổi hai chỗ đại từ trần thuật `cô` sang `nó` và cấu trúc lại bổ ngữ câu đầu theo `DEC-P01-001` (F01), đồng thời đổi `đội đổ bộ` sang `đội nhảy dù` (hoặc `đội đột kích đường không`) theo F02."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000143
+  locks:
+  - "Giữ đại từ `Chúng ta` trong lời tư lệnh hạm đội; cần chuẩn hóa viết hoa `Cụm tập đoàn quân phương Bắc` (chữ `tập` viết thường) theo F03."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000144
+  locks:
+  - "Cần khôi phục dấu ba chấm mở đầu và phạm vi in nghiêng `*…Hỗ trợ Cụm tập đoàn quân phương Bắc ư?*` theo `DEC-P01-002` (F04), chuẩn hóa `Quân Trung ương`, `Cụm tập đoàn quân phương Bắc` và `Đại Quân` theo `canon/glossary.yml` và ledger (F03), giữ `Bộ Tổng tham mưu` và đại từ `nó` (F01)."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000145
+  locks:
+  - "Giữ các cụm `một chiến dịch quân sự chất đầy toan tính của cấp trên`, `thỏa hiệp chính trị`, và `bắt tay nhau thật đẹp`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000146
+  locks:
+  - "Giữ `Bộ Tổng tham mưu`, `kế hoạch tác chiến`, `tình hình chiến tranh`; cần chuẩn hóa `Cụm tập đoàn quân phương Bắc` ở cả hai câu theo F03."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000147
+  locks:
+  - "Giữ danh xưng `Thiếu tướng von Rudersdorf` và đại từ `ông ta`; cần đổi hai chỗ đại từ nội tâm `tôi` sang `mình` theo `DEC-P01-001` (F01) và đổi `Trung tâm` sang `Trung ương` theo F03."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000148
+  locks:
+  - "Cần chuẩn hóa tên hai hạm đội thành `Hạm đội Bắc Hải` (đồng bộ trực tiếp với p000134 của `ch-03-b12`, hoặc `Hạm đội Biển Bắc` nếu đồng bộ ngược từ `b19`) và `Hạm đội Biển khơi` (viết thường chữ `khơi`) theo F03, cùng cụm `nhiệm vụ hỗ trợ ở phía bắc`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000149
+  locks:
+  - "Cần đổi cả hai chỗ `Cơ chế Hiệp ước` thành `Liên minh Entente` và đồng bộ tên `Hạm đội Bắc Hải` theo F03; giữ các định danh `Cộng hòa`, `lục quân`, và cụm `các cuộc cơ động trên bộ của lục quân`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000150
+  locks:
+  - "Giữ các thuật ngữ hải quân – đổ bộ `chiến dịch đổ bộ`, `một cuộc tập kích chiến lược`, `mật lệnh`, `đánh chặn hạm đội`; cần đổi `hạm đội Cơ chế Hiệp ước` thành `hạm đội Liên minh Entente` theo F03."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000151
+  locks:
+  - "Cần đổi `các chiến hạm Cơ chế Hiệp ước` thành `các chiến hạm Liên minh Entente` và chuẩn hóa tên `Hạm đội Bắc Hải`, `Hạm đội Biển khơi` theo F03; giữ các cụm `xuất kích`, `lực lượng tăng viện khổng lồ`, `tiến hành đổ bộ`, `cục diện chiến tranh sẽ đảo ngược theo đúng nghĩa đen`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000152
+  locks:
+  - "Giữ thuật ngữ `cuộc tập kích chiến lược` và đại từ bao gộp `chúng ta`; cần đổi đại từ nội tâm `chỉ mình tôi` sang `chỉ riêng mình` theo `DEC-P01-001` (F01)."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000153
+  locks:
+  - "Giữ các cụm `chẳng có hy vọng xuất kích`, `tìm cớ để được đi`, và `tham gia tấn công`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000154
+  locks:
+  - "Cần đổi `chiến dịch đổ bộ đường không` thành `chiến dịch đột kích đường không` theo F02 để phân biệt với đổ bộ đường biển và khớp trực tiếp với `ch-03-b14` (p000162–p000166); giữ đại từ `chúng ta` và tên tàu in nghiêng `*Titanic*` theo `DEC-P01-002`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000155
+  locks:
+  - "Giữ định danh canon `Quân đội Đế quốc`, đại từ `chúng ta`, và cụm ẩn dụ `những gói thịt đông lạnh`; cần bổ sung tính từ màu sắc `đỏ rực` (`Quân đội Liên Xô đỏ rực` hoặc `Hồng quân Liên Xô đỏ rực`) theo F04."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000156
+  locks:
+  - "Giữ chức danh `Tư lệnh hạm đội`, địa danh mục tiêu `Osfjord` theo mục `vol02-ch03-b14-osfjord`, đại từ `chúng ta` / `Chúng ta`, và thuật ngữ `các tuyến liên lạc hậu phương của địch`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000157
+  locks:
+  - "Giữ đúng phạm vi nhấn mạnh in nghiêng `*Osfjord…*` theo `DEC-P01-002` và câu trần thuật `Khi mọi người hiểu ra ý nghĩa của lời vừa nghe, một khoảng lặng thoáng qua bao trùm căn phòng.`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000158
+  locks:
+  - "Giữ thuật ngữ địa hình `Vịnh hẹp` theo mục `vol02-ch03-b14-fjord`, cùng các thuật ngữ hải chiến `tàu chiến`, `vách đá dựng đứng hiểm trở`, `thủy lôi`, `pháo thủ`, `chật vật xoay trở giữa làn nước hẹp`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000159
+  locks:
+  - "Giữ các đại từ `chúng`, `chúng ta`, và các thuật ngữ hải quân `khu trục hạm`, `ngư lôi`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000160
+  locks:
+  - "Giữ cặp địa danh và địa hình `Os`, `Osfjord`, `vịnh hẹp` theo các mục `vol02-ch03-b14-osfjord` và `vol02-ch03-b14-fjord` trong `work/run-state/pending-terms.yml`."
+- segment_id: YS-LN02/Text/part0018.xhtml/p000161
+  locks:
+  - "Giữ toàn văn câu kết của tư lệnh hạm đội `“Trong tình thế này, chúng ta cần tiến vào trước khi hạm đội tiến công và chiếm các khẩu pháo của địch.”` nối mạch trực tiếp sang `ch-03-b14` (p000162)."
+validator: not_run
+diff_check: not_run
+commit: null
