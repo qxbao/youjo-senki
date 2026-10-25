@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-05-b10-source.jsonl
 source_package_sha256: c7a3a6292282d3a23258cfced6053fe94d7de1ce4eb0730d03d07b760c517e82
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -118,7 +118,6 @@ coordinator_followup:
     unresolved_findings: []
     f02_disposition: source_preserving_ambiguity
     term_status: pending_provisional_non_canon
-
 codex_recovery_review:
   report: reviews/prose/vol-02/ch-05-b10-codex-recovery-review.md
   reviewer: codex-personal
@@ -128,8 +127,28 @@ codex_recovery_review:
   terminal_id: term_65db31b385c451a7
   agent_session_id: 01a133fe-e407-7171-9cfc-0ab0c25886e1
   preflight_status: submitted_once_and_verified
-  counts: {serious: 0, moderate: 0, minor: 3}
+  counts:
+    serious: 0
+    moderate: 0
+    minor: 3
   signoff_status: pass
-  closed_previous_findings: [F01, F02, F03, F04, F05, F06]
+  closed_previous_findings:
+  - F01
+  - F02
+  - F03
+  - F04
+  - F05
+  - F06
   unresolved_findings: []
   terms_status: pending_provisional_non_canon
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-05-b10
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 175
+  state: released
+  allowlist:
+  - translations/vol-02/ch-05-b10.jsonl

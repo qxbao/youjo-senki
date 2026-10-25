@@ -1,0 +1,495 @@
+task_id: vol-02-ch-05-b10
+review_task_id: vol-02-ch-05-b10-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b10
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000227
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000252
+unit_count: 26
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: c7a3a6292282d3a23258cfced6053fe94d7de1ce4eb0730d03d07b760c517e82
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b10-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b10-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000230
+    category: pronoun_and_pov_consistency
+    issue: >-
+      Trong các đoạn trần thuật ngôi thứ ba (`p000230`, `p000233`, `p000234`, `p000245`), bản dịch quy chiếu Tanya bằng `cô`, trong độc thoại nội tâm ngôi thứ nhất (`p000230`, `p000232`, `p000235`, `p000237`, `p000239`, `p000240`, `p000245`, `p000248`) dùng `tôi`, và trong lời Serebryakov báo cáo (`p000242`, `p000244`) dùng `bà` / `thưa bà` cho `you` / `ma'am`. Các lựa chọn này nhất quán trong phạm vi `b10`–`b11` (theo `handoffs/vol-02/ch-05-b10.yml`), nhưng khác với quy ước `nó` (ngôi 3 trần thuật) / `mình` (ngôi 1 độc thoại nội tâm) và `Thiếu tá` / `thưa Thiếu tá` (hoặc `cô` / `thưa cô`) ở các batch `ch-05-b01`..`b09`.
+    basis: >-
+      `canon/decisions.md` (`DEC-P01-001`) ghi rõ quy ước `nó`/`mình` áp dụng cho giai đoạn pilot-01 và không tự động suy rộng cho giai đoạn khác; trong `b10`, cặp `Tanya`/`cô` (ngôi 3) và `tôi`/`chúng tôi` (ngôi 1) phân tách rõ hai tầng giọng mà không gây nhầm chủ thể ở bất kỳ segment nào.
+    recommendation: >-
+      Không chặn signoff; có thể giữ nguyên theo quy ước nội bộ đã khóa ở `handoffs/vol-02/ch-05-b10.yml`, hoặc ở bước polish đồng bộ toàn chương với `ch-05-b01`..`b09` (`nó` cho ngôi 3 trần thuật, `mình` cho độc thoại nội tâm ngôi 1, và `Thiếu tá` / `thưa Thiếu tá` hoặc `cô` / `thưa cô` cho `ma'am` ở `p000242`, `p000244`).
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000231
+    category: lexical_nuance
+    issue: >-
+      Cụm `giấy gọi nhập ngũ` dịch chức năng của `red slips` (tờ giấy báo triệu tập nhập ngũ màu đỏ) nhưng lược mất sắc thái thị giác/biểu tượng màu sắc của nguyên văn.
+    basis: >-
+      Không làm sai lệch logic lập luận về chi phí phát hành giấy gọi nhập ngũ so với giá mạng lính bộ binh; đã được ghi nhận trong `notes` của segment và `R01` của báo cáo hậu kiểm trước đó.
+    recommendation: >-
+      Có thể giữ nguyên `giấy gọi nhập ngũ` hoặc tinh chỉnh nhẹ thành `giấy gọi nhập ngũ màu đỏ` ở bước polish.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000243
+    category: modality_degree
+    issue: >-
+      Cụm `điều hành tiểu đoàn sao cho hiệu quả về chi phí` giữ đúng hướng nghĩa quản trị chi phí của nguyên văn nhưng hơi làm dịu sắc thái so sánh bậc nhất về mức độ tối ưu chi phí.
+    basis: >-
+      Vẫn bảo toàn đầy đủ mạch nhân quả giải thích vì sao Tanya không hiểu nổi quyết định bổ sung tân binh khi tiểu đoàn chưa hề có thương vong (`p000243`).
+    recommendation: >-
+      Có thể giữ nguyên hoặc chỉnh nhẹ thành `điều hành tiểu đoàn sao cho đạt hiệu quả cao nhất về chi phí` ở bước polish.
+    resolution: optional_polish
+
+  - id: m4
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000251
+    category: aspect_nuance
+    issue: >-
+      Cụm `đang được điều đến Bộ chỉ huy làm quan sát viên ở Rhine` có thể gợi nét hành động thuyên chuyển đang diễn ra, trong khi nguyên văn thiên về trạng thái hiện đang được biệt phái/gắn với Bộ chỉ huy làm quan sát viên tại Rhine.
+    basis: >-
+      Không ảnh hưởng đến nội dung cốt lõi của đoạn đối thoại (người bạn đồng khóa cùng phân khu nhưng khác địa bàn vẫn gửi thư cá nhân báo tin đồn điều chuyển).
+    recommendation: >-
+      Có thể giữ nguyên hoặc chỉnh nhẹ thành `hiện được biệt phái về Bộ chỉ huy làm quan sát viên ở Rhine` ở bước polish.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "red slips"
+    source_label: "red slips"
+    recommended_vi: "giấy gọi nhập ngũ (hoặc: giấy gọi nhập ngũ màu đỏ)"
+    status: provisional
+    uncertainty: low
+    basis: "Chỉ tờ lệnh gọi nhập ngũ in trên giấy đỏ (akagami); dịch nghĩa chức năng giúp câu văn tự nhiên và rõ lập luận kinh tế quân sự của Tanya."
+    alternatives:
+      - "giấy gọi nhập ngũ màu đỏ"
+      - "tờ giấy đỏ gọi nhập ngũ"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000231
+
+  - term_key: "Grupper"
+    source_label: "Grupper"
+    recommended_vi: "Grupper"
+    status: provisional
+    uncertainty: low
+    basis: "Giữ nguyên tên riêng công ty công nghiệp quốc phòng theo `work/run-state/pending-terms.yml` và `canon/style-guide.md`."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000233
+      - YS-LN02/Text/part0026.xhtml/p000237
+
+  - term_key: "curtain of fire"
+    source_label: "curtain of fire"
+    recommended_vi: "màn lửa"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ pháo binh mô tả lưới hỏa lực dày đặc chặn hoặc dọn đường trên chiến trường."
+    alternatives:
+      - "bức màn hỏa lực"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000233
+
+  - term_key: "railway guns"
+    source_label: "80 cm railway guns"
+    recommended_vi: "pháo đường sắt 80 cm"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ vũ khí pháo binh siêu nặng chạy trên đường ray, kết hợp đúng số đo `80 cm` theo `canon/style-guide.md`."
+    alternatives:
+      - "đại bác đường sắt 80 cm"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000235
+
+  - term_key: "military-industrial complex"
+    source_label: "military-industrial complex"
+    recommended_vi: "tổ hợp công nghiệp – quân sự"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ kinh tế - chính trị chuẩn trong tiếng Việt, khớp với giọng suy tư hiện đại của Tanya."
+    alternatives:
+      - "tổ hợp quân sự - công nghiệp"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000236
+
+  - term_key: "special procurement"
+    source_label: "special procurement"
+    recommended_vi: "mua sắm đặc biệt"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt sát nghĩa thuật ngữ kinh tế thời chiến (tokuju / special procurement) khi chính phủ đặt hàng quân nhu quy mô lớn."
+    alternatives:
+      - "đơn đặt hàng đặc biệt thời chiến"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000237
+
+  - term_key: "private military company"
+    source_label: "private military company"
+    recommended_vi: "công ty quân sự tư nhân"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ hiện đại chuẩn xác tương ứng với PMC trong độc thoại kinh tế học của Tanya."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000239
+
+  - term_key: "Republic"
+    source_label: "Republic"
+    recommended_vi: "Cộng hòa"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và toàn bộ các batch trước của `vol-02`."
+    alternatives:
+      - "Francois Cộng hòa"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000240
+
+  - term_key: "Empire"
+    source_label: "Empire"
+    recommended_vi: "Đế quốc"
+    status: canon_locked
+    uncertainty: low
+    basis: "Đã khóa trong `canon/glossary.yml` (`Teikoku` -> `Đế quốc`)."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000241
+
+  - term_key: "Lieutenant Serebryakov"
+    source_label: "Lieutenant Serebryakov"
+    recommended_vi: "Trung úy Serebryakov"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và `canon/characters.yml` cho cấp bậc của Viktoriya Ivanovna Serebryakov ở thời điểm `vol-02` chương 5."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000241
+      - YS-LN02/Text/part0026.xhtml/p000243
+      - YS-LN02/Text/part0026.xhtml/p000245
+      - YS-LN02/Text/part0026.xhtml/p000250
+
+  - term_key: "Major"
+    source_label: "Major"
+    recommended_vi: "Thiếu tá"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` cho cấp bậc của Tanya trong `vol-02` chương 5."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000242
+      - YS-LN02/Text/part0026.xhtml/p000246
+      - YS-LN02/Text/part0026.xhtml/p000248
+      - YS-LN02/Text/part0026.xhtml/p000251
+
+  - term_key: "group command"
+    source_label: "group command"
+    recommended_vi: "Bộ chỉ huy tập đoàn quân"
+    status: provisional
+    uncertainty: low
+    basis: "Phù hợp ngữ cảnh cấp chỉ huy chiến dịch tại mặt trận Rhine thông báo điều động nhân sự xuống tiểu đoàn."
+    alternatives:
+      - "Bộ tư lệnh cụm quân"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000242
+
+  - term_key: "Rhine front / Rhine"
+    source_label: "Rhine front / Rhine"
+    recommended_vi: "mặt trận Rhine / Rhine"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và các batch trước."
+    alternatives:
+      - "Mặt trận sông Rhine"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000243
+      - YS-LN02/Text/part0026.xhtml/p000251
+
+  - term_key: "Command"
+    source_label: "Command"
+    recommended_vi: "Bộ chỉ huy"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` khi chỉ cơ quan chỉ huy cấp trên chưa nêu định danh cụ thể."
+    alternatives:
+      - "Thượng cấp"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000245
+      - YS-LN02/Text/part0026.xhtml/p000251
+
+  - term_key: "augmented battalion"
+    source_label: "augmented battalion"
+    recommended_vi: "tiểu đoàn tăng cường"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` mô tả biên chế mở rộng của Tiểu đoàn 203."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000245
+
+  - term_key: "Being X"
+    source_label: "Being X"
+    recommended_vi: "Thực thể X"
+    status: canon_locked
+    uncertainty: low
+    basis: "Đã khóa trong `canon/glossary.yml` (`Sonzai X` -> `Thực thể X`)."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000248
+
+  - term_key: "instructor unit"
+    source_label: "instructor unit"
+    recommended_vi: "đơn vị huấn luyện"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt rõ chức năng đơn vị hướng dẫn/huấn luyện ở hậu phương mà Serebryakov từng công tác."
+    alternatives:
+      - "đơn vị giáo đạo"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000249
+
+  - term_key: "Cadet Corps"
+    source_label: "Cadet Corps"
+    recommended_vi: "Trường Thiếu sinh quân"
+    status: provisional
+    uncertainty: low
+    basis: "Khớp nghĩa cơ sở đào tạo học viên sĩ quan thiếu sinh quân nơi người quen của Serebryakov gửi thư báo tin."
+    alternatives:
+      - "Đoàn Thiếu sinh quân"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000251
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000227
+    terms: []
+    pronouns_and_address: "Tanya độc thoại nội tâm ngôi thứ nhất ẩn chủ ngữ; giữ câu hỏi tu từ ngắn gọn mở đầu mạch suy ngẫm về việc bị lôi ra tiền tuyến."
+    pov_and_voice: "Độc thoại nội tâm của Tanya, giọng thực dụng, chán ngán."
+    modality_and_logic: "Giữ đúng câu hỏi tự vấn về lý do đơn vị phải xuất kích."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000228
+    terms: []
+    pronouns_and_address: "Dùng `chúng tôi` cho đơn vị của Tanya."
+    pov_and_voice: "Độc thoại nội tâm của Tanya, giọng mỉa mai khô khốc."
+    modality_and_logic: "Bảo toàn đầy đủ cấu trúc nhượng bộ - đối lập: ra tiền tuyến để xả hơi nghe như chuyện cười, và khi quay về hậu cứ thì lại bị bắt làm việc vất vả hơn (đã khắc phục lỗi lược vế ở vòng trước)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000229
+    terms:
+      - "Pháo binh dọn đường, bộ binh tiến lên"
+    pronouns_and_address: "Độc thoại nội tâm không đại từ trực tiếp."
+    pov_and_voice: "Giọng Tanya giễu nhại khẩu hiệu học thuyết quân sự truyền thống."
+    modality_and_logic: "Giữ đúng tương phản giữa câu khẩu hiệu in nghiêng và lời bình châm biếm về việc chỉ thấy sắt thép cùng nhân mạng bị nghiền nát vô nghĩa."
+    emphasis: "Bảo toàn chính xác 1 cụm `*...*` tương ứng `<html:em>` (`*Pháo binh dọn đường, bộ binh tiến lên*`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000230
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Ngôi thứ ba trần thuật dùng `Tanya` / `cô`; vế kết chuyển sang độc thoại nội tâm ngôi thứ nhất dùng `tôi`."
+    pov_and_voice: "Trần thuật hạn tri bám sát góc nhìn kinh tế học chiến tranh của Tanya, kết bằng nhận xét nội tâm trực tiếp."
+    modality_and_logic: "Giữ đúng mạch suy luận của Tanya từ ấn tượng về sự lãng phí sang việc thử tính nhẩm giá thành sinh mạng con người."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000231
+    terms:
+      - "giấy gọi nhập ngũ"
+    pronouns_and_address: "Bình luận nội tâm khách quan hóa của Tanya."
+    pov_and_voice: "Giọng suy tính lạnh lùng, quy đổi sinh mạng binh sĩ bộ binh ra chi phí hành chính của tờ giấy gọi nhập ngũ."
+    modality_and_logic: "Bảo toàn quan hệ so sánh chi phí: mạng lính bộ binh có thể mua chỉ bằng giá một tờ giấy gọi nhập ngũ nên xét mặt nào đó là cực kỳ rẻ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000232
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `tôi`."
+    pov_and_voice: "Giọng hoài nghi thực dụng của Tanya."
+    modality_and_logic: "Giữ đúng lập luận đối lập: dù nhân mạng rẻ như thế, cuộc chiến này vẫn tiêu tốn một khoản tiền khổng lồ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000233
+    terms:
+      - "Grupper"
+      - "màn lửa"
+    pronouns_and_address: "Trần thuật hạn tri quy chiếu Tanya bằng `cô`."
+    pov_and_voice: "Giọng quan sát phân tích tài chính chiến trường của Tanya."
+    modality_and_logic: "Bảo toàn câu hỏi gián tiếp về số tiền đổ vào từng quả đạn pháo trong màn lửa do công ty Grupper sản xuất đang trút xuống đất địch."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000234
+    terms: []
+    pronouns_and_address: "Trần thuật hạn tri quy chiếu Tanya bằng `cô`."
+    pov_and_voice: "Giọng tính toán hậu cần - tài chính tỉnh táo."
+    modality_and_logic: "Giữ đủ chuỗi chi phí cộng dồn: ngoài đạn pháo còn phải tính cả khẩu pháo dùng để bắn và chi phí vận chuyển ra mặt trận."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000235
+    terms:
+      - "pháo đường sắt 80 cm"
+    pronouns_and_address: "Độc thoại nội tâm dùng `tôi`."
+    pov_and_voice: "Giọng mỉa mai xen lẫn kinh ngạc của Tanya trước sự xa xỉ phi lý của vũ khí siêu nặng."
+    modality_and_logic: "Bảo toàn chính xác chi tiết `pháo đường sắt 80 cm được hàng nghìn binh sĩ sử dụng` (đã sửa lỗi dịch nhầm sang tiêu diệt hàng nghìn binh sĩ ở vòng trước)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000236
+    terms:
+      - "tổ hợp công nghiệp – quân sự"
+    pronouns_and_address: "Độc thoại nội tâm khái quát."
+    pov_and_voice: "Giọng bình luận kinh tế vĩ mô của Tanya."
+    modality_and_logic: "Giữ đúng nhận định châm biếm rằng tổ hợp công nghiệp – quân sự chắc hẳn đang cười tít mắt vì lợi nhuận."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000237
+    terms:
+      - "Grupper"
+      - "mua sắm đặc biệt"
+    pronouns_and_address: "Độc thoại nội tâm dùng `tôi`."
+    pov_and_voice: "Giọng nhà đầu tư tiếc nuối cơ hội kiếm lời."
+    modality_and_logic: "Bảo toàn điều kiện giả định trái thực tế: nếu biết trước có đợt mua sắm đặc biệt thời chiến thế này thì đã dốc sạch tiền mua cổ phiếu Grupper."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000238
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm ẩn chủ ngữ."
+    pov_and_voice: "Giọng suy tính thị trường chứng khoán."
+    modality_and_logic: "Giữ đúng phán đoán chắc chắn rằng cổ phiếu công nghiệp quốc phòng đã tăng vọt."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000239
+    terms:
+      - "công ty quân sự tư nhân"
+    pronouns_and_address: "Độc thoại nội tâm dùng `tôi`."
+    pov_and_voice: "Giọng doanh nhân hiện đại của Tanya."
+    modality_and_logic: "Bảo toàn ước muốn giả định: với lượng cầu lớn thế này, Tanya ước gì mình có thể lập một công ty quân sự tư nhân."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000240
+    terms:
+      - "Cộng hòa"
+    pronouns_and_address: "Độc thoại nội tâm trực tiếp dùng `tôi`."
+    pov_and_voice: "Độc thoại nội tâm in nghiêng toàn đoạn; giọng bức xúc vì sự bất cân xứng giữa ngân sách ném vào đạn pháo và tiền lương bản thân."
+    modality_and_logic: "Bảo toàn trọn vẹn 3 câu độc thoại nội tâm: so sánh việc ném tiền bắn đạn pháo sang Cộng hòa như nước lã với mức lương bèo bọt của mình và tự hỏi ngân sách chạy đi đâu (đã sửa lỗi nối gộp câu ở vòng trước)."
+    emphasis: "Bảo toàn chính xác 1 cặp `*...*` bao quanh toàn bộ đoạn tương ứng `<html:em>` của nguồn."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000241
+    terms:
+      - "Đế quốc"
+      - "Tanya"
+      - "Trung úy Serebryakov"
+    pronouns_and_address: "Trần thuật ngôi thứ ba gọi `Tanya` và `Trung úy Serebryakov`."
+    pov_and_voice: "Giọng trần thuật chuyển cảnh từ dòng suy nghĩ miên man của Tanya sang báo cáo hành chính thực tế."
+    modality_and_logic: "Bảo toàn chính xác nghĩa `thông báo hành chính` (administrative announcement) của Trung úy Serebryakov cắt ngang dòng suy nghĩ về chi tiêu quân sự của Đế quốc (đã sửa lỗi dịch lệch sang thông báo của chính quyền ở vòng trước)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000242
+    terms:
+      - "Thiếu tá"
+      - "Bộ chỉ huy tập đoàn quân"
+    pronouns_and_address: "Serebryakov gọi Tanya là `Thiếu tá`, xưng `tôi` - gọi `bà`."
+    pov_and_voice: "Giọng báo cáo quân vụ nghiêm túc, chuẩn mực của phó quan Serebryakov."
+    modality_and_logic: "Giữ đúng nội dung báo cáo: đã nhận được thông báo bổ sung nhân sự từ Bộ chỉ huy tập đoàn quân."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000243
+    terms:
+      - "Tanya"
+      - "mặt trận Rhine"
+      - "Trung úy Serebryakov"
+    pronouns_and_address: "Trần thuật hạn tri dùng `Tanya`; trong lời thoại gọi `Trung úy Serebryakov`, xưng `chúng ta`."
+    pov_and_voice: "Giọng chỉ huy thực dụng, ngạc nhiên vì được nhận tân binh khi chưa có hao hụt quân số."
+    modality_and_logic: "Bảo toàn câu hỏi xác nhận không có thương vong và mạch lý giải rằng Tanya vốn định điều hành tiểu đoàn hiệu quả về chi phí ở mặt trận Rhine điên loạn này nên không hiểu nổi thông báo của cấp trên."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000244
+    terms: []
+    pronouns_and_address: "Serebryakov đáp `thưa bà` (`ma'am`)."
+    pov_and_voice: "Giọng báo cáo ngắn gọn, rõ ràng của phó quan."
+    modality_and_logic: "Xác nhận không có ai tử trận và bổ sung thông tin có một số tân binh sắp được điều tới."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000245
+    terms:
+      - "Bộ chỉ huy"
+      - "Trung úy Serebryakov"
+      - "tiểu đoàn tăng cường"
+    pronouns_and_address: "Tanya xưng `tôi` / `chúng ta`, gọi `Trung úy Serebryakov`; câu trần thuật cuối dùng `của cô`."
+    pov_and_voice: "Giọng Tanya suy đoán nguyên nhân hành chính của quyết định bổ sung quân và bỏ lửng câu nói khi chưa rõ ý đồ của Bộ chỉ huy."
+    modality_and_logic: "Bảo toàn câu hỏi có phải lệnh điều động từ trước không, câu bỏ lửng ở cuối lời thoại, và chi tiết Serebryakov nghiêng đầu khó hiểu trước lời lẩm bẩm của Tanya."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000246
+    terms:
+      - "Thiếu tá"
+    pronouns_and_address: "Serebryakov gọi `Thiếu tá`, dùng `chúng ta`."
+    pov_and_voice: "Giọng Serebryakov dè dặt nêu giả thuyết giải thích lệnh bổ sung quân."
+    modality_and_logic: "Giữ đúng lập luận suy đoán: vì tiểu đoàn được tổ chức vội vã nên có lẽ đây là quân số chi viện đáng lẽ phải nhận từ trước."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000247
+    terms: []
+    pronouns_and_address: "Tanya đối thoại ngắn, không dùng đại từ trực tiếp."
+    pov_and_voice: "Giọng chỉ huy điềm tĩnh nhưng cảnh giác trước sự bất thường của bộ máy quan liêu."
+    modality_and_logic: "Giữ đúng hai vế: có khả năng như vậy, nhưng thời điểm lại quá kỳ quặc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000248
+    terms:
+      - "Tanya"
+      - "Thực thể X"
+      - "Thiếu tá"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `Tanya`; độc thoại nội tâm dùng `tôi`; lời thoại của Serebryakov ở cuối đoạn dùng `tôi` và gọi `Thiếu tá`."
+    pov_and_voice: "Chuyển mượt từ nỗi nghi kỵ âm mưu của Thực thể X trong đầu Tanya sang lời bắt chuyện dè dặt của Serebryakov."
+    modality_and_logic: "Bảo toàn nguyên nhân Tanya sinh nghi (từng bị số phận trêu ngươi vô số lần), nỗi lo có bàn tay thao túng của Thực thể X, và câu rào đón dựa trên tin đồn của Serebryakov."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000249
+    terms:
+      - "đơn vị huấn luyện"
+    pronouns_and_address: "Tanya hỏi ngắn gọn, lược đại từ chủ ngữ để giữ nhịp hội thoại tự nhiên."
+    pov_and_voice: "Giọng cấp trên hỏi dò nguồn tin của cấp dưới."
+    modality_and_logic: "Giữ đúng câu hỏi suy đoán nguồn tin đồn đến từ đơn vị huấn luyện ở hậu phương của Serebryakov."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000250
+    terms:
+      - "Trung úy Serebryakov"
+      - "Tanya"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `Trung úy Serebryakov` và `Tanya`."
+    pov_and_voice: "Giọng trần thuật khách quan mô tả nét lúng túng của Serebryakov trước khi trả lời."
+    modality_and_logic: "Giữ đúng chi tiết Serebryakov thoáng ngập ngừng khi bị hỏi về nguồn tin."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000251
+    terms:
+      - "Thiếu tá"
+      - "Bộ chỉ huy"
+      - "Rhine"
+      - "Trường Thiếu sinh quân"
+    pronouns_and_address: "Serebryakov thưa `Không, thưa Thiếu tá`, xưng `tôi`."
+    pov_and_voice: "Giọng Serebryakov thành thật giải thích nguồn tin cá nhân nhưng vẫn giữ lễ tiết quân đội."
+    modality_and_logic: "Bảo toàn đầy đủ thông tin: nguồn tin từ bạn cùng lớp hiện làm quan sát viên ở Rhine thuộc Bộ chỉ huy (cùng phân khu nhưng khác địa bàn), qua thư cá nhân nhắc tới khả năng người quen từ Trường Thiếu sinh quân được điều về đơn vị."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000252
+    terms: []
+    pronouns_and_address: "Serebryakov xưng `tôi`, gọi các tân binh là `họ`."
+    pov_and_voice: "Giọng báo cáo kết thúc mạch đối thoại của Serebryakov."
+    modality_and_logic: "Giữ đúng kết luận suy đoán của Serebryakov rằng đợt bổ sung này có lẽ là các học viên thiếu sinh quân đó."
+    emphasis: "none"
