@@ -1,0 +1,421 @@
+task_id: vol-02-ch-05-b16
+review_task_id: vol-02-ch-05-b16-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b16
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000383
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000403
+unit_count: 21
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: d1c4792e7a846a626620b61d23c7310e956ee283e703192a41c83fcb5fd24c22
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b16-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b16-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000388
+    category: pronoun_and_style_nuance
+    issue: >-
+      Trong các đoạn trần thuật ngôi thứ ba bám sát điểm nhìn của Tanya (`p000388`, `p000394`, `p000397`), bản dịch đã tuân thủ đúng giới hạn của `DEC-P01-001` khi tuyệt đối không dùng đại từ `cô` cho Tanya, nhưng lặp lại tên riêng `Tanya` dày trong cùng một câu hoặc các câu liền kề (như câu 3 của `p000388`: `Tanya chỉ vừa mới kinh hoàng nhận ra rằng, trong sự bất thường của chiến tranh, Tanya đã trở nên phi lý và lười biếng.`) thay vì luân phiên với đại từ trần thuật `nó` theo `DEC-P01-001` (như ở `ch-05-b14` và `ch-05-b15`) hoặc lược chủ ngữ ở mệnh đề phụ đồng chủ ngữ.
+    basis: >-
+      Cách lặp tên riêng `Tanya` là lựa chọn an toàn để tránh dùng `cô` và hoàn toàn không làm sai lệch điểm nhìn hay nghĩa của đoạn.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể lược bớt chủ ngữ lặp ở mệnh đề phụ hoặc luân phiên với đại từ trần thuật `nó` theo `DEC-P01-001` để nhịp câu thanh thoát hơn (ví dụ tại câu 3 `p000388`: `Tanya chỉ vừa mới kinh hoàng nhận ra rằng, trong sự bất thường của chiến tranh, mình/nó đã sa vào sự phi lý và lười biếng.`).
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000395
+    category: modality_and_lexical_nuance
+    issue: >-
+      Tại câu 3 của `p000395`, tình thái từ diễn tả sự phỏng đoán/kỳ vọng hợp lý dựa trên tiêu chuẩn quân nhu đang được dịch nghiêng sang sắc thái bắt buộc (`Ít ra thì lượng ca-lo vẫn phải đạt định mức.`).
+    basis: >-
+      Đặt trong mạch độc thoại nội tâm suy đoán về việc ưu tiên vận chuyển đồ hộp ở câu 1–2, ý đánh giá vớt vát của Tanya về mặt dinh dưỡng vẫn rõ ràng.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể chỉnh nhẹ thành `Ít ra thì lượng ca-lo chắc vẫn sẽ đạt định mức.` (hoặc `hẳn vẫn đạt đúng quy định`) để sát sắc thái phỏng đoán của nội tâm.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000397
+    category: lexical_nuance
+    issue: >-
+      Tại câu 2 của `p000397`, cách nói ẩn dụ mang màu sắc nhà binh chỉ việc Tanya thôi không phàn nàn về chuyện khoai tây cũ nữa đang được dịch thoát ý thành `đành gác chuyện ăn uống sang một bên`.
+    basis: >-
+      Nghĩa thực tế trong văn cảnh (chấp nhận nhượng bộ chuyện khẩu phần để tiếp tục cuộc họp tác chiến) được truyền tải tự nhiên, trôi chảy.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc giữ nhẹ hình ảnh ẩn dụ quân sự (`đành hạ vũ khí trong chuyện ăn uống rồi tiếp tục cuộc họp`) để làm nổi bật nét hóm hỉnh trong giọng kể.
+    resolution: optional_polish
+
+  - id: m4
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000401
+    category: pronoun_and_lexical_nuance
+    issue: >-
+      Ở câu 2 của `p000401`, tân ngữ chỉ quân địch trong độc thoại tính toán chiến thuật của Tanya đang dùng đại từ `họ` (`Nếu giáng chừng ấy hỏa lực xuống họ dưới màn đêm...`), và ở câu 4, động từ chỉ việc cả khu vực bị bắn phá dồn dập sau khi địch rút lui đang dịch là `oanh kích bừa bãi` (dễ gợi liên tưởng hẹp tới không kích hơn là pháo kích/bắn phá mặt đất tại chiến hào Rhine).
+    basis: >-
+      Mạch lập luận chiến thuật về nguy cơ lộ vị trí khi dùng thuật thức gây nhiễu trong đêm vẫn hoàn toàn chính xác.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể chỉnh thành `Nếu giáng chừng ấy hỏa lực xuống quân địch (hoặc: xuống chúng) dưới màn đêm...` và `cả khu vực bị bắn phá (hoặc: pháo kích) bừa bãi`.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "combat experience / loss rates"
+    source_label: "combat experience / loss rates"
+    recommended_vi: "kinh nghiệm chiến đấu / tỷ lệ tổn thất"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ với `ch-05-b14` và `ch-05-b15` trong cùng cuộc trao đổi giữa vị đại tá Ban Tác chiến và Thiếu tá Tanya."
+    alternatives:
+      - "kinh nghiệm thực chiến / tỷ lệ thương vong"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000383
+
+  - term_key: "large-scale mobile battle / breakthrough / infiltration attack"
+    source_label: "large-scale mobile battle / breakthrough / infiltration attack"
+    recommended_vi: "trận cơ động quy mô lớn / đột phá / tập kích luồn sâu"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ `trận cơ động quy mô lớn` với `ch-05-b14` (`p000339`, `p000344`) và thống nhất động từ `luồn sâu` với `p000403`."
+    alternatives:
+      - "trận đánh cơ động quy mô lớn / đột phá / tấn công thâm nhập"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000385
+      - YS-LN02/Text/part0026.xhtml/p000403
+
+  - term_key: "newbies / new recruits / recruits / fresh recruits"
+    source_label: "newbies / new recruits / recruits / fresh recruits"
+    recommended_vi: "đám lính mới / các tân binh / nhóm tân binh / đám tân binh"
+    status: provisional
+    uncertainty: low
+    basis: "Phù hợp với sắc thái phân biệt giữa giọng nội tâm có phần xuề xòa ở `p000386` (`đám lính mới`) và cách gọi chuẩn trong lời kể/phân tích chiến thuật (`tân binh`), đồng bộ với `ch-05-b15`."
+    alternatives:
+      - "tân binh"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000386
+      - YS-LN02/Text/part0026.xhtml/p000388
+      - YS-LN02/Text/part0026.xhtml/p000394
+      - YS-LN02/Text/part0026.xhtml/p000398
+
+  - term_key: "instructor unit"
+    source_label: "instructor unit"
+    recommended_vi: "đơn vị huấn luyện"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt rõ vai trò tiểu đoàn của Tanya khi đi kèm hướng dẫn tân binh ngoài chiến hào."
+    alternatives:
+      - "đơn vị hướng dẫn"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000388
+
+  - term_key: "batman"
+    source_label: "batman"
+    recommended_vi: "lính hầu"
+    status: provisional
+    uncertainty: low
+    basis: "Dịch đúng chức trách người lính phục vụ sinh hoạt cá nhân của sĩ quan trong quân đội châu Âu thời Thế chiến."
+    alternatives:
+      - "lính cần vụ"
+      - "cần vụ"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000394
+
+  - term_key: "supply unit / canned goods / logistics network / light railway"
+    source_label: "supply unit / canned goods / logistics network / light railway"
+    recommended_vi: "đơn vị tiếp tế / đồ hộp / mạng lưới hậu cần / đường sắt nhẹ"
+    status: provisional
+    uncertainty: low
+    basis: "Hệ thuật ngữ hậu cần – vận tải quân sự chuẩn xác, tự nhiên trong tiếng Việt."
+    alternatives:
+      - "đơn vị quân nhu / thực phẩm đóng hộp / tuyến đường sắt khổ hẹp"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000394
+      - YS-LN02/Text/part0026.xhtml/p000395
+
+  - term_key: "navy / submarine squads"
+    source_label: "the navy / submarine squads"
+    recommended_vi: "hải quân / các đơn vị tàu ngầm"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ với các chương trước của Tập 2 khi nhắc tới lực lượng hải quân và tàu ngầm Đế quốc."
+    alternatives:
+      - "các đội tàu ngầm"
+      - "các biên đội tàu ngầm"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000396
+
+  - term_key: "interference formulas / no-man’s-land / individual radios"
+    source_label: "interference formulas / no-man’s-land / individual radios"
+    recommended_vi: "thuật thức gây nhiễu / vùng đất giữa hai chiến tuyến / máy vô tuyến cá nhân"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ `thuật thức gây nhiễu` với `b02-magical-interference-formulas` trong `work/run-state/pending-terms.yml`; `vùng đất giữa hai chiến tuyến` và `máy vô tuyến cá nhân` rõ nghĩa, tự nhiên."
+    alternatives:
+      - "vùng đất không người"
+      - "điện đài cá nhân"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000398
+      - YS-LN02/Text/part0026.xhtml/p000401
+
+  - term_key: "Operation Eagle Claw / Iran"
+    source_label: "Operation Eagle Claw / Iran"
+    recommended_vi: "Chiến dịch Eagle Claw / Iran"
+    status: provisional
+    uncertainty: low
+    basis: "Giữ nguyên tên riêng chiến dịch giải cứu con tin lịch sử của Mỹ tại Iran năm 1980 theo quy ước giữ tên riêng liên văn bản từ kiếp trước của Tanya."
+    alternatives:
+      - "Chiến dịch Móng vuốt Đại bàng / Iran"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000399
+
+  - term_key: "autonomous platoons / imperial mage platoon / company of regular infantry / augmented battalion / reserves"
+    source_label: "autonomous platoons / imperial mage platoon / company of regular infantry / augmented battalion / reserves"
+    recommended_vi: "các trung đội tự chủ / trung đội pháp sư của Đế quốc / đại đội bộ binh thường / tiểu đoàn tăng cường / lực lượng dự bị"
+    status: provisional
+    uncertainty: low
+    basis: "Phản ánh chính xác biên chế đơn vị (tiểu đoàn tăng cường 4 đại đội của Tanya) và các cấp phân đội trong tính toán phương án tác chiến đêm."
+    alternatives:
+      - "các trung đội tác chiến độc lập"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000400
+      - YS-LN02/Text/part0026.xhtml/p000403
+
+  - term_key: "checking machine-gun fire / feint"
+    source_label: "checking machine-gun fire / feint"
+    recommended_vi: "hỏa lực ngăn chặn của súng máy / nghi binh"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ chiến thuật bộ binh chuẩn xác trong bối cảnh đột kích chiến hào ban đêm."
+    alternatives:
+      - "hỏa lực súng máy kiềm chế"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000402
+      - YS-LN02/Text/part0026.xhtml/p000403
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000383
+    terms:
+      - "kinh nghiệm chiến đấu"
+      - "đơn vị được huấn luyện bài bản"
+      - "tỷ lệ tổn thất"
+    pronouns_and_address: "Nhận định nội tâm tiếp nối của vị đại tá từ cuối `b15` không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng suy ngẫm điềm đạm của vị đại tá Ban Tác chiến về giá trị của thực chiến bên cạnh một đơn vị thiện chiến."
+    modality_and_logic: "Bảo toàn tình thái khuyến nghị (`nên được tích lũy`) và mệnh đề so sánh khẳng định kinh nghiệm thực tế vượt trội hơn trường lớp."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000384
+    terms: []
+    pronouns_and_address: "Tanya đáp lời vị đại tá bằng `Rõ, thưa ngài!`."
+    pov_and_voice: "Giọng đáp lễ dứt khoát, chuẩn mực quân ngũ của Tanya."
+    modality_and_logic: "Bảo toàn tiếng đápรับ mệnh lệnh và sự lặp lại từ khóa `Kinh nghiệm` thể hiện sự đồng tình bề mặt giữa hai người."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000385
+    terms:
+      - "trận cơ động quy mô lớn"
+      - "đột phá"
+      - "tập kích luồn sâu"
+      - "Tanya"
+    pronouns_and_address: "Trần thuật hạn tri dùng tên riêng `Tanya` kèm phản thân `mình`, quy chiếu binh lính bằng `họ` (tuân thủ `DEC-P01-001`, không dùng `cô`)."
+    pov_and_voice: "Trần thuật hạn tri bám sát dòng tự kiểm điểm khắt khe của Tanya."
+    modality_and_logic: "Bảo toàn trọn vẹn chuỗi lập luận: huấn luyện xác chết là vô nghĩa; ngoài chiến trường không biết lúc nào sẽ có cơ hội đánh cơ động quy mô lớn, đột phá hay tập kích luồn sâu; vì vậy phải luôn duy trì huấn luyện để binh lính sẵn sàng đáp ứng mệnh lệnh bất cứ lúc nào, khiến Tanya tự trách sự lơ là của bản thân."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000386
+    terms:
+      - "đám lính mới"
+      - "những người lính lão luyện"
+    pronouns_and_address: "Độc thoại nội tâm ngôi thứ nhất của Tanya dùng `Mình` / `mình` theo đúng `DEC-P01-001`, quy chiếu đám lính mới bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm thẳng thắn nhìn nhận sai lầm trong cách quản lý tân binh trước đó."
+    modality_and_logic: "Bảo toàn quan hệ nhân quả và sự tự phủ định ở vế kết (`nhưng mình đã làm sai cách`): vì không muốn đơn vị chịu tổn thất nên từng nghĩ cứ để mặc đám lính mới tự xoay xở ngoài chiến trường thì chiến trường sẽ rèn họ thành lính lão luyện, song đó là cách làm sai lầm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000387
+    terms:
+      - "chiến hào"
+    pronouns_and_address: "Vị đại tá tự xưng `tôi`, gọi Thiếu tá Tanya là `cô` và quy chiếu đám tân binh bằng `họ` (đồng bộ với `ch-05-b15`)."
+    pov_and_voice: "Giọng giao việc ôn tồn nhưng rõ mục đích của vị đại tá."
+    modality_and_logic: "Bảo toàn câu điều kiện giả định: nếu có dịp huấn luyện tân binh một thời gian trong chiến hào thì vị đại tá muốn họ sát cánh chiến đấu cùng quân của Tanya."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000388
+    terms:
+      - "tiểu đoàn"
+      - "Tanya"
+      - "chiến hào"
+      - "tân binh"
+      - "đơn vị huấn luyện"
+      - "Đế quốc"
+      - "nhân tính và lý trí"
+    pronouns_and_address: "Trần thuật hạn tri dùng tên riêng `Tanya` (có thể kết hợp `nó` / `mình` theo finding `m1`, tuyệt đối không dùng `cô` theo `DEC-P01-001`); câu độc thoại cuối dùng đại từ phiếm chỉ `người ta`."
+    pov_and_voice: "Trần thuật hạn tri đan xen ba câu suy nghĩ nội tâm trực tiếp lên án sự tha hóa tư duy mà chiến tranh gây ra."
+    modality_and_logic: "Bảo toàn sự nhìn nhận thực tế rằng việc đưa tiểu đoàn ra chiến hào kèm tân binh với tư cách đơn vị huấn luyện sẽ củng cố mặt trận, nối sang sự bàng hoàng của Tanya khi nhận ra bản thân đã rơi vào sự phi lý và lười biếng trong môi trường chiến tranh."
+    emphasis: "Bảo toàn chính xác 3 cụm `*...*` tương ứng 3 thẻ `<html:em>` (`*Đế quốc đúng là tận dụng con người đến cùng.*`, `*Bởi vậy chiến tranh mới tệ hại*`, và `*Chiến tranh làm tê liệt nhân tính và lý trí, rồi khiến người ta phát điên vì những ảo tưởng mục nát.*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000389
+    terms:
+      - "Tanya"
+      - "hậu phương"
+      - "chiến hào"
+    pronouns_and_address: "Phần trần thuật dùng tên riêng `Tanya` và phản thân `chính mình`; trong câu phản kháng suýt thốt ra thành lời (đặt trong dấu nhấn mạnh), Tanya dùng `ngài` – `tôi` hướng tới vị đại tá và `họ` cho đám tân binh; câu độc thoại nội tâm cuối đoạn dùng `Mình` / `mình` (`DEC-P01-001`) kết hợp đại từ khái quát `người ta`."
+    pov_and_voice: "Trần thuật hạn tri kết hợp lời thoại giả định trong đầu và câu tự răn mình của Tanya."
+    modality_and_logic: "Bảo toàn hai câu hỏi tu từ tăng tiến mà Tanya suýt buột miệng phản đối (rời hậu phương lao ra chiến hào, lại còn phải dẫn theo đám vô tích sự để huấn luyện), nỗi kinh hãi trước suy nghĩ bị vấy bẩn của bản thân, và kết luận nhượng bộ (`Mình biết... vậy mà một khi đã trải qua, mình mới thấm thía...`)."
+    emphasis: "Bảo toàn chính xác 1 cụm `*...*` bao trọn 2 câu hỏi tu từ tương ứng `<html:em>` (`*Ý ngài là bảo tôi rời hậu phương, lao ra chiến hào ư? Chưa hết, còn phải dẫn theo cả đám vô tích sự ấy và huấn luyện họ nữa sao?*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000390
+    terms: []
+    pronouns_and_address: "Tanya đáp lệnh `Rõ!` và tự xưng `Tôi`."
+    pov_and_voice: "Giọng nhận lệnh dứt khoát, nghiêm chỉnh của Tanya."
+    modality_and_logic: "Bảo toàn cam kết cố gắng hết sức để huấn luyện đơn vị."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000391
+    terms:
+      - "mệnh lệnh bằng văn bản"
+    pronouns_and_address: "Vị đại tá tự xưng `Tôi` (cá nhân người soạn lệnh) và `chúng tôi` (đại diện Bộ chỉ huy/Ban Tác chiến), gọi Tanya là `cô`."
+    pov_and_voice: "Giọng cấp trên phấn khởi, lịch sự khích lệ thuộc cấp khi giao nhiệm vụ nặng nề."
+    modality_and_logic: "Bảo toàn lời hứa chuẩn bị ngay mệnh lệnh bằng văn bản cùng lời xin lỗi vì gây áp lực và gửi gắm sự kỳ vọng vào Tanya."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000392
+    terms: []
+    pronouns_and_address: "Tanya gọi vị đại tá là `thưa ngài` và tự xưng `tôi`."
+    pov_and_voice: "Giọng cấp dưới tự tin, tháo vát cam kết mang lại kết quả sớm."
+    modality_and_logic: "Bảo toàn lời nhận việc đầy tự tin và hứa sớm có thành quả báo cáo."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000393
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Trần thuật dùng `cả hai`, `họ` và tên riêng `Tanya`."
+    pov_and_voice: "Trần thuật tổng kết khép lại phân cảnh giao nhiệm vụ với góc nhìn châm biếm nhẹ về sự lệch pha nhận thức."
+    modality_and_logic: "Bảo toàn cấu trúc phủ định kép (`cả hai đều không nhận ra`) về sự mâu thuẫn rõ rệt trong quan điểm của họ khi Tanya bắt tay thực hiện mệnh lệnh."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000394
+    terms:
+      - "Tanya"
+      - "đại đội trưởng"
+      - "trận đánh đêm"
+      - "người chỉ huy nhóm tân binh"
+      - "lính hầu"
+      - "đơn vị tiếp tế"
+      - "đồ hộp"
+      - "cấp trên"
+      - "mạng lưới hậu cần"
+    pronouns_and_address: "Trần thuật hạn tri sau dấu ngắt cảnh dùng tên riêng `Tanya` (không dùng `cô` theo `DEC-P01-001`), quy chiếu người lính hầu bằng `anh ta`."
+    pov_and_voice: "Trần thuật hạn tri mở đầu phân cảnh bữa tối kiêm hội ý tác chiến của Tanya."
+    modality_and_logic: "Bảo toàn đầy đủ các hành động: Tanya vừa thong thả ăn tối vừa giao các đại đội trưởng chuẩn bị đánh đêm và trao đổi với chỉ huy nhóm tân binh; phàn nàn với lính hầu về khoai tây quá cũ; nhưng khi nghe báo đơn vị tiếp tế đang ưu tiên đồ hộp thì đành miễn cưỡng nhượng bộ vì nhận thấy cấp trên đang tập trung duy trì và tối ưu hóa mạng lưới hậu cần."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000395
+    terms:
+      - "Đường sắt nhẹ"
+      - "đồ hộp"
+      - "ca-lo"
+      - "Tanya"
+    pronouns_and_address: "Độc thoại nội tâm dùng `họ` cho bên hậu cần và `mình` cho Tanya (`DEC-P01-001`); câu trần thuật cuối đoạn dùng tên riêng `Tanya`."
+    pov_and_voice: "Độc thoại nội tâm phân tích hậu cần chuyển sang nỗi ngán ngẩm đời thường trước bữa ăn chiến trường."
+    modality_and_logic: "Bảo toàn chuỗi suy luận: đường sắt nhẹ đã chạy gần hết công suất nên họ ưu tiên đồ hộp vì để được lâu và dễ vận chuyển theo kế hoạch; do đó khó lòng mong có rau củ, thịt hay cá tươi trong thời gian tới; lượng ca-lo vẫn đạt chuẩn nhưng bữa ăn vốn đã đạm bạc sẽ càng tẻ nhạt hơn."
+    emphasis: "Bảo toàn chính xác 1 cụm `*...*` tương ứng `<html:em>` (`*Nhưng mà…*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000396
+    terms:
+      - "hải quân"
+      - "các đơn vị tàu ngầm"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya quy chiếu lính tàu ngầm bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm liên tưởng lan man xen chút hài đen về đãi ngộ của lính tàu ngầm."
+    modality_and_logic: "Bảo toàn sự thu hẹp phạm vi (`chỉ hải quân... Hay chỉ các đơn vị tàu ngầm thôi`) và mệnh đề đối lập bỏ lửng cuối đoạn rằng ngoài chuyện ăn uống được chăm lo tốt thì mọi mặt khác trong hoàn cảnh của lính tàu ngầm đều tệ nhất."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000397
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Trần thuật hạn tri quy chiếu bên hậu cần bằng `họ` và dùng tên riêng `Tanya` (không dùng `cô` theo `DEC-P01-001`)."
+    pov_and_voice: "Trần thuật hạn tri khép lại mạch suy nghĩ về khẩu phần để quay về cuộc họp tác chiến."
+    modality_and_logic: "Bảo toàn quan hệ nhân quả: vì hiểu việc ưu tiên sự thuận tiện trong vận chuyển là hợp lý và không thể phản bác, Tanya đành bỏ qua chuyện ăn uống để tiếp tục cuộc họp."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000398
+    terms:
+      - "trận đánh đêm"
+      - "tiểu đoàn pháp sư"
+      - "ma thuật"
+      - "thuật thức gây nhiễu"
+      - "vùng đất giữa hai chiến tuyến"
+      - "máy vô tuyến cá nhân"
+      - "đám tân binh"
+    pronouns_and_address: "Trần thuật hạn tri / nội tâm quy chiếu các pháp sư bằng `họ`."
+    pov_and_voice: "Giọng phân tích chiến thuật nghiêm túc, chỉ rõ sự khắc nghiệt và rủi ro của bài toán đánh đêm không dùng ma thuật."
+    modality_and_logic: "Bảo toàn trọn vẹn lập luận: phối hợp chặt chẽ và duy trì chỉ huy là yếu tố sống còn trong chiến dịch sắp tới; thông thường tiểu đoàn pháp sư đánh đêm sẽ duy trì kỷ luật bằng ma thuật, nhưng nếu thi triển thuật thức gây nhiễu giữa vùng đất giữa hai chiến tuyến thì sẽ bị phát hiện, lại không được phát máy vô tuyến cá nhân; do đó đánh đêm trong điều kiện này với tân binh là vô cùng liều lĩnh."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000399
+    terms:
+      - "Chiến dịch Eagle Claw"
+      - "Iran"
+    pronouns_and_address: "Nhận định nội tâm của Tanya không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng mỉa mai sắc lạnh đặc trưng của Tanya khi dẫn chiến dịch thất bại nổi tiếng trong lịch sử hiện đại ra làm mốc so sánh."
+    modality_and_logic: "Bảo toàn phép so sánh quá khứ mang tính phỏng đoán mỉa mai rằng ngay cả Chiến dịch Eagle Claw hướng tới Iran có lẽ còn có xác suất thành công cao hơn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000400
+    terms:
+      - "các trung đội tự chủ"
+      - "tập kích"
+      - "trung đội pháp sư của Đế quốc"
+      - "đại đội bộ binh thường"
+      - "đại đội bộ binh"
+      - "trung đội pháp sư"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya lược chủ ngữ hoặc ngầm hiểu `ta` / `chúng ta` trong câu hỏi mở đầu."
+    pov_and_voice: "Độc thoại nội tâm cân nhắc phương án chia nhỏ đội hình thành các trung đội tự chủ."
+    modality_and_logic: "Bảo toàn câu hỏi tự vấn mở đầu và phép đối chiếu thực tế rằng một trung đội pháp sư Đế quốc có hỏa lực và khả năng gây thiệt hại tương đương một đại đội bộ binh thường."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000401
+    terms:
+      - "trận đánh đêm"
+      - "ma thuật"
+      - "thuật thức gây nhiễu"
+    pronouns_and_address: "Độc thoại nội tâm dùng `ta` / `chúng ta` cho phía đơn vị mình, và quy chiếu phía địch bằng `họ` / `đối phương` (có thể chỉnh `họ` thành `quân địch` / `chúng` theo finding `m4`)."
+    pov_and_voice: "Độc thoại nội tâm phân tích ưu thế ban đầu và rủi ro tiếp nối khi đánh đêm."
+    modality_and_logic: "Bảo toàn hai vế đối lập: nếu bất ngờ giáng hỏa lực mạnh dưới màn đêm thì có thể gây hỗn loạn diện rộng, nhưng để tiếp tục chiến đấu sau đó sẽ phải dựa vào ma thuật, và ngay khoảnh khắc thi triển thuật thức gây nhiễu thì rất có thể địch sẽ rút lui rồi bắn phá bừa bãi cả khu vực."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000402
+    terms:
+      - "hỏa lực ngăn chặn của súng máy"
+    pronouns_and_address: "Độc thoại nội tâm dùng đại từ gộp `ta`."
+    pov_and_voice: "Giọng tự nhủ bổ sung một kịch bản ít tệ hơn so với việc bị bắn phá trùm khu vực ở `p000401`."
+    modality_and_logic: "Bảo toàn phương án khả dĩ thay thế (`À, hoặc ta có thể chỉ phải hứng hỏa lực ngăn chặn của súng máy.`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000403
+    terms:
+      - "luồn sâu"
+      - "đại đội"
+      - "nghi binh"
+      - "tiểu đoàn tăng cường"
+      - "lực lượng dự bị"
+      - "hậu phương"
+    pronouns_and_address: "Độc thoại nội tâm dùng `ta` khi tính toán biên chế toàn tiểu đoàn ở câu 4, và chuyển sang `Mình` (`DEC-P01-001`) ở câu 5 khi nói rõ ý đồ giữ an toàn cá nhân của Tanya."
+    pov_and_voice: "Độc thoại nội tâm chuyển mượt từ phân tích chiến thuật khách quan sang động cơ ích kỷ muốn ở lại tuyến sau của Tanya."
+    modality_and_logic: "Bảo toàn trọn vẹn mạch lập luận 5 câu: đặt câu hỏi có nên luồn sâu theo cấp đại đội không; đánh giá phương án này thực tế nhưng độ khó tăng vọt; nhận xét việc cho từng nhóm nghi binh rồi tấn công từ bốn hướng khác nhau không phải ý tồi; chỉ ra điểm yếu là nếu tung cả bốn đại đội vào thì dù là tiểu đoàn tăng cường cũng hết sạch lực lượng dự bị; và chốt lại lý do bác bỏ phương án vì bản thân Tanya muốn lấy cớ chỉ huy đội dự bị để ở lại hậu phương."
+    emphasis: "none"
