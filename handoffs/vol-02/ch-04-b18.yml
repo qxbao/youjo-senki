@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b18-source.jsonl
 source_package_sha256: d1199b9a4b42a902fc79cfa7c5e03891cb019eb4e3d7a0871422a7909b6d338b
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -41,18 +41,27 @@ translation_report:
   segment_count: 27
   validator: pass
   diff_check: pass
-  findings: [one terminology uncertainty]
+  findings:
+  - one terminology uncertainty
   pending_term_count: 1
-  files_written: [translations/vol-02/ch-04-b18.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b18.jsonl
 review_coordination:
-  triggered_by: [even_batch]
+  triggered_by:
+  - even_batch
   required: true
   state: signoff_passed
-  review_counts: {serious: 0, moderate: 1, minor: 9}
-  unresolved_moderate: [M1]
+  review_counts:
+    serious: 0
+    moderate: 1
+    minor: 9
+  unresolved_moderate:
+  - M1
   follow_up_owner: translator-ch04-b18-review-fixes
-  coordinator_proposal: >-
-    At p000212 render supposedly deployed as “được cho là đã triển khai”; prefer “đơn vị Named” over a semantic translation for now (pending, non-canon); use “tôi” for the observer narrator p000199-p000211; preserve past counterfactual modality at p000221 and avoid implying the unit certainly disappeared.
+  coordinator_proposal: At p000212 render supposedly deployed as “được cho là đã triển
+    khai”; prefer “đơn vị Named” over a semantic translation for now (pending, non-canon);
+    use “tôi” for the observer narrator p000199-p000211; preserve past counterfactual
+    modality at p000221 and avoid implying the unit certainly disappeared.
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b18_translation_proposals
   review_report: reviews/prose/vol-02/ch-04-b18-claude.md
 checkpoints:
@@ -69,16 +78,28 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000226
-
   fix_report:
     state: done
     translator_session_id: 01a132ed-bc21-7b72-9d06-9e27910b8b33
-    findings_resolved_by_translator: [M1]
+    findings_resolved_by_translator:
+    - M1
     validator: pass
     diff_check: pass
   signoff_report: reviews/prose/vol-02/ch-04-b18-fixes-signoff-claude.md
-
-  signoff_report: reviews/prose/vol-02/ch-04-b18-fixes-signoff-claude.md
-  signoff_counts: {serious: 0, moderate: 0, minor: 3}
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    minor: 3
   unresolved_serious: 0
   unresolved_moderate: 0
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b18
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 153
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b18.jsonl
