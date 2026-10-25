@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b22-source.jsonl
 source_package_sha256: bb7ae685c283cbbfce5a059f014f06484fc4ddfcfb4c2c6443c745190b59809c
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -43,16 +43,25 @@ translation_report:
   diff_check: pass
   findings: []
   pending_term_count: 0
-  files_written: [translations/vol-02/ch-04-b22.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b22.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: signoff_passed
-  review_counts: {serious: 0, moderate: 1, minor: 12}
-  unresolved_moderate: [M1]
+  review_counts:
+    serious: 0
+    moderate: 1
+    minor: 12
+  unresolved_moderate:
+  - M1
   follow_up_owner: translator-ch04-b22-review-fixes
-  coordinator_proposal: >-
-    Restore source italics at p000328, p000329, p000332, p000333, designated spans in p000337, p000347 and p000350. Keep the exact source-marked boundaries and do not italicize unmarked text. See translator handoff instructions for boundaries.
+  coordinator_proposal: Restore source italics at p000328, p000329, p000332, p000333,
+    designated spans in p000337, p000347 and p000350. Keep the exact source-marked
+    boundaries and do not italicize unmarked text. See translator handoff instructions
+    for boundaries.
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b22_translation_proposals
   review_report: reviews/prose/vol-02/ch-04-b22-claude.md
 checkpoints:
@@ -69,16 +78,28 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000352
-
   fix_report:
     state: done
     translator_session_id: 01a13316-e7e0-70e2-afaa-1debf859de71
-    findings_resolved_by_translator: [M1]
+    findings_resolved_by_translator:
+    - M1
     validator: pass
     diff_check: pass
   signoff_report: reviews/prose/vol-02/ch-04-b22-fixes-signoff-claude.md
-
-  signoff_report: reviews/prose/vol-02/ch-04-b22-fixes-signoff-claude.md
-  signoff_counts: {serious: 0, moderate: 0, minor: 8}
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    minor: 8
   unresolved_serious: 0
   unresolved_moderate: 0
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b22
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 157
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b22.jsonl
