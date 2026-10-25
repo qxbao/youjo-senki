@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b02-source.jsonl
 source_package_sha256: 80d9766c2cdbff2d6464d383d5de6232b576f1eac021b05210353ad732d7d938
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -53,23 +53,162 @@ review_coordination:
   minor_resolved: 3
   action: signoff_confirmed
   provisional_choices:
-    - {term_id: vol02-ch01-b02-border-command, proposed_vi: Bộ chỉ huy Biên phòng, alternatives: [Bộ chỉ huy Biên giới], segment_ids: [YS-LN02/Text/part0010.xhtml/p000005], confidence: 0.5}
-    - {term_id: vol02-ch01-b02-seventh-air-fleet, proposed_vi: Hạm đội Không quân 7, alternatives: [Tập đoàn quân Không quân 7, Binh đoàn Không quân 7], segment_ids: [YS-LN02/Text/part0010.xhtml/p000008], confidence: 0.4, uncertainty: literal form may sound naval in Vietnamese}
-    - {term_id: vol02-ch01-b02-command-post, proposed_vi: Sở chỉ huy, alternatives: [Trạm chỉ huy], segment_ids: [YS-LN02/Text/part0010.xhtml/p000008], confidence: 0.7}
-    - {term_id: vol02-ch01-b02-general-staff-office, proposed_vi: Văn phòng Bộ Tổng tham mưu, alternatives: [Cục Bộ Tổng tham mưu, Bộ Tổng tham mưu], segment_ids: [YS-LN02/Text/part0010.xhtml/p000013], confidence: 0.45, uncertainty: avoid implying a specific bureau}
-    - {term_id: vol02-ch01-b02-regional-army-group, proposed_vi: Cụm tập đoàn quân khu vực, alternatives: [Cụm quân khu vực], segment_ids: [YS-LN02/Text/part0010.xhtml/p000019], confidence: 0.5}
-    - {term_id: vol02-ch01-b02-korean-peoples-army, proposed_vi: Quân đội Nhân dân Triều Tiên, alternatives: [], segment_ids: [YS-LN02/Text/part0010.xhtml/p000022], confidence: 0.65}
-    - {term_id: vol02-ch01-b02-principality, proposed_vi: Công quốc, alternatives: [], segment_ids: [YS-LN02/Text/part0010.xhtml/p000017, YS-LN02/Text/part0010.xhtml/p000018], confidence: 0.7}
-    - {term_id: vol02-ch01-b02-boy-scouts, proposed_vi: Hướng đạo sinh / toán Hướng đạo sinh, alternatives: [đội Hướng đạo sinh], segment_ids: [YS-LN02/Text/part0010.xhtml/p000016, YS-LN02/Text/part0010.xhtml/p000018, YS-LN02/Text/part0010.xhtml/p000021], confidence: 0.7}
-    - {term_id: vol02-ch01-b02-turao-area, proposed_vi: Khu thao trường Turao, alternatives: [Bãi diễn tập dã chiến Turao], segment_ids: [YS-LN02/Text/part0010.xhtml/p000001], confidence: 0.5, uncertainty: facility type unclear}
-    - {term_id: vol02-ch01-b02-two-hundred-third, proposed_vi: Tiểu đoàn 203, alternatives: [Đơn vị 203], segment_ids: [YS-LN02/Text/part0010.xhtml/p000005], confidence: 0.7, uncertainty: battalion inferred from nearby context}
-    - {term_id: vol02-ch01-b02-central, proposed_vi: khu vực trung tâm, alternatives: [miền Trung, Trung ương], segment_ids: [YS-LN02/Text/part0010.xhtml/p000015], confidence: 0.4}
-    - {term_id: vol02-ch01-b02-lieutenant, proposed_vi: Trung úy, alternatives: [Thiếu úy, Thượng úy], segment_ids: [YS-LN02/Text/part0010.xhtml/p000007, YS-LN02/Text/part0010.xhtml/p000009], confidence: 0.6}
-    - {term_id: vol02-ch01-b02-national-guard-reserves, proposed_vi: lực lượng vệ binh quốc gia dự bị, alternatives: [lực lượng dự bị quốc gia], segment_ids: [YS-LN02/Text/part0010.xhtml/p000022], confidence: 0.5}
-    - {term_id: vol02-ch01-b02-tanya-narration, proposed_vi: repeat Tanya or omit subject, alternatives: [nó, cô], segment_ids: [YS-LN02/Text/part0010.xhtml/p000010, YS-LN02/Text/part0010.xhtml/p000016, YS-LN02/Text/part0010.xhtml/p000018, YS-LN02/Text/part0010.xhtml/p000025], confidence: 0.6}
-    - {term_id: vol02-ch01-b02-lergen-narration, proposed_vi: repeat Lergen or omit subject, alternatives: [Ông, anh], segment_ids: [YS-LN02/Text/part0010.xhtml/p000010, YS-LN02/Text/part0010.xhtml/p000018], confidence: 0.55}
-    - {term_id: vol02-ch01-b02-command-personnel, proposed_vi: nhân sự của Bộ chỉ huy, alternatives: [nhân viên Bộ chỉ huy], segment_ids: [YS-LN02/Text/part0010.xhtml/p000006], confidence: 0.55}
+  - term_id: vol02-ch01-b02-border-command
+    proposed_vi: Bộ chỉ huy Biên phòng
+    alternatives:
+    - Bộ chỉ huy Biên giới
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000005
+    confidence: 0.5
+  - term_id: vol02-ch01-b02-seventh-air-fleet
+    proposed_vi: Hạm đội Không quân 7
+    alternatives:
+    - Tập đoàn quân Không quân 7
+    - Binh đoàn Không quân 7
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000008
+    confidence: 0.4
+    uncertainty: literal form may sound naval in Vietnamese
+  - term_id: vol02-ch01-b02-command-post
+    proposed_vi: Sở chỉ huy
+    alternatives:
+    - Trạm chỉ huy
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000008
+    confidence: 0.7
+  - term_id: vol02-ch01-b02-general-staff-office
+    proposed_vi: Văn phòng Bộ Tổng tham mưu
+    alternatives:
+    - Cục Bộ Tổng tham mưu
+    - Bộ Tổng tham mưu
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000013
+    confidence: 0.45
+    uncertainty: avoid implying a specific bureau
+  - term_id: vol02-ch01-b02-regional-army-group
+    proposed_vi: Cụm tập đoàn quân khu vực
+    alternatives:
+    - Cụm quân khu vực
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000019
+    confidence: 0.5
+  - term_id: vol02-ch01-b02-korean-peoples-army
+    proposed_vi: Quân đội Nhân dân Triều Tiên
+    alternatives: []
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000022
+    confidence: 0.65
+  - term_id: vol02-ch01-b02-principality
+    proposed_vi: Công quốc
+    alternatives: []
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000017
+    - YS-LN02/Text/part0010.xhtml/p000018
+    confidence: 0.7
+  - term_id: vol02-ch01-b02-boy-scouts
+    proposed_vi: Hướng đạo sinh / toán Hướng đạo sinh
+    alternatives:
+    - đội Hướng đạo sinh
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000016
+    - YS-LN02/Text/part0010.xhtml/p000018
+    - YS-LN02/Text/part0010.xhtml/p000021
+    confidence: 0.7
+  - term_id: vol02-ch01-b02-turao-area
+    proposed_vi: Khu thao trường Turao
+    alternatives:
+    - Bãi diễn tập dã chiến Turao
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000001
+    confidence: 0.5
+    uncertainty: facility type unclear
+  - term_id: vol02-ch01-b02-two-hundred-third
+    proposed_vi: Tiểu đoàn 203
+    alternatives:
+    - Đơn vị 203
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000005
+    confidence: 0.7
+    uncertainty: battalion inferred from nearby context
+  - term_id: vol02-ch01-b02-central
+    proposed_vi: khu vực trung tâm
+    alternatives:
+    - miền Trung
+    - Trung ương
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000015
+    confidence: 0.4
+  - term_id: vol02-ch01-b02-lieutenant
+    proposed_vi: Trung úy
+    alternatives:
+    - Thiếu úy
+    - Thượng úy
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000007
+    - YS-LN02/Text/part0010.xhtml/p000009
+    confidence: 0.6
+  - term_id: vol02-ch01-b02-national-guard-reserves
+    proposed_vi: lực lượng vệ binh quốc gia dự bị
+    alternatives:
+    - lực lượng dự bị quốc gia
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000022
+    confidence: 0.5
+  - term_id: vol02-ch01-b02-tanya-narration
+    proposed_vi: repeat Tanya or omit subject
+    alternatives:
+    - nó
+    - cô
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000010
+    - YS-LN02/Text/part0010.xhtml/p000016
+    - YS-LN02/Text/part0010.xhtml/p000018
+    - YS-LN02/Text/part0010.xhtml/p000025
+    confidence: 0.6
+  - term_id: vol02-ch01-b02-lergen-narration
+    proposed_vi: repeat Lergen or omit subject
+    alternatives:
+    - Ông
+    - anh
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000010
+    - YS-LN02/Text/part0010.xhtml/p000018
+    confidence: 0.55
+  - term_id: vol02-ch01-b02-command-personnel
+    proposed_vi: nhân sự của Bộ chỉ huy
+    alternatives:
+    - nhân viên Bộ chỉ huy
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000006
+    confidence: 0.55
   required_fixes:
-    - {finding: F1, segment_ids: [YS-LN02/Text/part0010.xhtml/p000006], resolution: render information as about the other post, not from it}
-    - {finding: F2, segment_ids: [YS-LN02/Text/part0010.xhtml/p000025], resolution: preserve every evaluation as the standard, not every person}
-    - {finding: F3, segment_ids: [YS-LN02/Text/part0010.xhtml/p000010, YS-LN02/Text/part0010.xhtml/p000012, YS-LN02/Text/part0010.xhtml/p000016, YS-LN02/Text/part0010.xhtml/p000018, YS-LN02/Text/part0010.xhtml/p000025], resolution: use Tanya/Lergen names or omit unambiguous subjects; no cô/Ông/anh; address Tanya as Thiếu tá in p000012}
+  - finding: F1
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000006
+    resolution: render information as about the other post
+    not from it: null
+  - finding: F2
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000025
+    resolution: preserve every evaluation as the standard
+    not every person: null
+  - finding: F3
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000010
+    - YS-LN02/Text/part0010.xhtml/p000012
+    - YS-LN02/Text/part0010.xhtml/p000016
+    - YS-LN02/Text/part0010.xhtml/p000018
+    - YS-LN02/Text/part0010.xhtml/p000025
+    resolution: use Tanya/Lergen names or omit unambiguous subjects; no cô/Ông/anh;
+      address Tanya as Thiếu tá in p000012
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b02
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 80
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b02.jsonl
