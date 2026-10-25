@@ -1,0 +1,327 @@
+task_id: vol-02-ch-02-b17-argon-review
+reviewer: gemini-4-argon-medium
+role: reviewer
+model: gemini-4-argon-medium
+batch: vol-02-ch-02-b17
+volume: vol-02
+chapter: 2
+translation_path: translations/vol-02/ch-02-b17.jsonl
+source_package: work/vol-02/batches/ch-02-b17-source.jsonl
+source_package_sha256: a97a8417a5827df9df124a42b48ec0b53a4dac3108c73f31f8af16b8fbbc6f99
+segment_id_start: YS-LN02/Text/part0014.xhtml/p000445
+segment_id_end: YS-LN02/Text/part0014.xhtml/p000479
+unit_count: 34
+segment_ids:
+- YS-LN02/Text/part0014.xhtml/p000445
+- YS-LN02/Text/part0014.xhtml/p000446
+- YS-LN02/Text/part0014.xhtml/p000447
+- YS-LN02/Text/part0014.xhtml/p000448
+- YS-LN02/Text/part0014.xhtml/p000449
+- YS-LN02/Text/part0014.xhtml/p000450
+- YS-LN02/Text/part0014.xhtml/p000451
+- YS-LN02/Text/part0014.xhtml/p000452
+- YS-LN02/Text/part0014.xhtml/p000453
+- YS-LN02/Text/part0014.xhtml/p000454
+- YS-LN02/Text/part0014.xhtml/p000455
+- YS-LN02/Text/part0014.xhtml/p000456
+- YS-LN02/Text/part0014.xhtml/p000457
+- YS-LN02/Text/part0014.xhtml/p000458
+- YS-LN02/Text/part0014.xhtml/p000459
+- YS-LN02/Text/part0014.xhtml/p000460
+- YS-LN02/Text/part0014.xhtml/p000461
+- YS-LN02/Text/part0014.xhtml/p000462
+- YS-LN02/Text/part0014.xhtml/p000463
+- YS-LN02/Text/part0014.xhtml/p000464
+- YS-LN02/Text/part0014.xhtml/p000465
+- YS-LN02/Text/part0014.xhtml/p000466
+- YS-LN02/Text/part0014.xhtml/p000467
+- YS-LN02/Text/part0014.xhtml/p000469
+- YS-LN02/Text/part0014.xhtml/p000470
+- YS-LN02/Text/part0014.xhtml/p000471
+- YS-LN02/Text/part0014.xhtml/p000472
+- YS-LN02/Text/part0014.xhtml/p000473
+- YS-LN02/Text/part0014.xhtml/p000474
+- YS-LN02/Text/part0014.xhtml/p000475
+- YS-LN02/Text/part0014.xhtml/p000476
+- YS-LN02/Text/part0014.xhtml/p000477
+- YS-LN02/Text/part0014.xhtml/p000478
+- YS-LN02/Text/part0014.xhtml/p000479
+status: needs_revision
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+counts:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+- id: F01
+  severity: moderate
+  segment_id: YS-LN02/Text/part0014.xhtml/p000469
+  category: pronouns_and_address
+  issue: "Trong câu liên lạc vô tuyến `“Xin lỗi nhé, chắc chắn cô sẽ phải khao bọn tôi rồi. Xung phong!”`, người nói là một trong ba đại đội trưởng đang tiến công chính diện (Đại đội Một, Hai hoặc Ba) vừa gọi đùa về cho vị đại đội trưởng của Đại đội Bốn (người vừa nói ở `p000461` là nếu đi cùng Tanya mượn máy bay tiêm kích thì sẽ thua cược và phải khao cả tiểu đoàn theo giao kèo tại `p000423` của `b16`), sau đó mới hô hiệu lệnh `Xung phong!` cho đại đội mình. Ngay tại `p000471` và `p000472`, người được gọi là đồng đội nam (`chiến hữu`, `Mấy cậu này!`), đồng thời bản thân đại đội trưởng Đại đội Bốn đã được quy chiếu ở `p000456` là `Anh ta`. Việc dịch đại từ ngôi thứ hai thành `cô` vừa gán sai giới tính nữ cho vị đại đội trưởng Đại đội Bốn, vừa dễ khiến người đọc hiểu nhầm đối tượng phải khao rượu là Tanya (trong khi Tanya là người đặt ra kèo cược ở `p000423` chứ không phải một trong bốn đại đội trưởng chịu phạt)."
+  evidence: "Đối chiếu mạch ngữ cảnh từ `p000423` (`b16`: chỉ huy đại đội nào có thành tích tệ nhất sẽ phải đãi những người còn lại một bữa tiệc với chai vang hai mươi lăm năm tuổi), `p000456` (`Anh ta`), `p000461` (đại đội trưởng Đại đội Bốn lo phải khao cả tiểu đoàn), đến `p000470`–`p000472` (các đại đội trưởng khác hùa vào trêu sẽ uống thỏa thích rượu hai mươi lăm năm và đại đội trưởng Đại đội Bốn than `“Ái chà! Mấy cậu này! Xin lỗi ngài, Chỉ huy.”`). Theo `DEC-P01-001`, không suy diễn giới tính sai lệch với ngữ cảnh và phải giữ đúng đối tượng quy chiếu trong thoại."
+  recommendation: "Đổi `cô` thành `cậu` (hoặc `anh`) để khớp với quan hệ đồng cấp giữa các đại đội trưởng nam và hô ứng tự nhiên với câu đáp `“Ái chà! Mấy cậu này!…”` ở `p000472`: `“Xin lỗi nhé, chắc chắn cậu sẽ phải khao bọn tôi rồi. Xung phong!”`."
+unresolved_findings:
+- F01
+pending_term_recommendations:
+- source_term: dacians_invisible_hand_air_force_ace_and_spindle_formation_terms_vol02_ch02_b17
+  proposed_vi: "quân Dacia, cấp dưới, Tinh thần phụng sự (part0014/p000445, p000457) / sự nghiệp chiến tranh vô ích, quỷ dữ (part0014/p000446) / Chúa, Nguyên tắc thị trường, bàn tay vô hình (part0014/p000447) / kinh tế học (part0014/p000448) / Đại đội Bốn, hai đại đội, quân tiếp viện (part0014/p000449, p000450, p000477) / tiểu đoàn tăng cường, bốn đại đội, tiểu đoàn, đại đội tăng cường, hai tiểu đoàn (part0014/p000450, p000461) / quảng cáo quỹ đầu cơ (part0014/p000452) / máy bay ném bom, át chủ bài của lục quân, át chủ bài của không quân, không quân (part0014/p000453, p000454, p000462) / Being X (part0014/p000456) / máy bay tiêm kích (part0014/p000458, p000460, p000462, p000463) / bỏ chạy trước mặt quân địch, Xử bắn, án xử bắn, bộ máy quan liêu, hội nhóm nào bảo vệ lợi ích hay quyền lợi, nhóm lợi ích (part0014/p000463) / Đại đội, chiến hữu, Chỉ huy (part0014/p000470–p000472) / phòng nhân sự, kinh doanh, hoạch định chiến lược, ý chí tự do (part0014/p000474, p000475) / đại đội trưởng, Doberman (part0014/p000478) / đội hình xung kích hình thoi (part0014/p000479)"
+  alternatives_vi:
+  - Thượng đế (thay cho `Chúa` tại part0014/p000447 — ghi nhận đề xuất `review-God: Thượng đế` trong `pending-terms.yml`, nhưng tạm chấp nhận `Chúa` trong câu cảm thán đối lập với `quỷ dữ` ở `p000446` vì tự nhiên, quen thuộc trong tiếng Việt và không ảnh hưởng logic lập luận về bàn tay vô hình của thị trường) / đội hình xung kích hình con suốt (thay cho `đội hình xung kích hình thoi` tại part0014/p000479 — ưu tiên `đội hình xung kích hình thoi` vì là thuật ngữ đội hình chiến thuật tự nhiên, chuẩn xác trong tiếng Việt cho đội hình nhọn hai đầu phình giữa kiểu *spindle-shaped assault formation*)
+  segment_ids:
+  - YS-LN02/Text/part0014.xhtml/p000445
+  - YS-LN02/Text/part0014.xhtml/p000446
+  - YS-LN02/Text/part0014.xhtml/p000447
+  - YS-LN02/Text/part0014.xhtml/p000448
+  - YS-LN02/Text/part0014.xhtml/p000449
+  - YS-LN02/Text/part0014.xhtml/p000450
+  - YS-LN02/Text/part0014.xhtml/p000452
+  - YS-LN02/Text/part0014.xhtml/p000453
+  - YS-LN02/Text/part0014.xhtml/p000454
+  - YS-LN02/Text/part0014.xhtml/p000456
+  - YS-LN02/Text/part0014.xhtml/p000457
+  - YS-LN02/Text/part0014.xhtml/p000458
+  - YS-LN02/Text/part0014.xhtml/p000460
+  - YS-LN02/Text/part0014.xhtml/p000461
+  - YS-LN02/Text/part0014.xhtml/p000462
+  - YS-LN02/Text/part0014.xhtml/p000463
+  - YS-LN02/Text/part0014.xhtml/p000470
+  - YS-LN02/Text/part0014.xhtml/p000471
+  - YS-LN02/Text/part0014.xhtml/p000472
+  - YS-LN02/Text/part0014.xhtml/p000474
+  - YS-LN02/Text/part0014.xhtml/p000475
+  - YS-LN02/Text/part0014.xhtml/p000477
+  - YS-LN02/Text/part0014.xhtml/p000478
+  - YS-LN02/Text/part0014.xhtml/p000479
+  volume: vol-02
+  chapter: 2
+  rationale: "Kế thừa đồng bộ hệ thống danh xưng đơn vị, thực thể siêu nhiên và thuật ngữ quân sự – kinh tế đã khóa tạm từ Tập 1 và các batch trước của Tập 2 (`quân Dacia`, `quỷ dữ` theo `review-devil`, `Being X` theo `P05-being-x` / `vol02-ch02-b17-being-x`, `Đại đội Bốn`, `tiểu đoàn tăng cường` theo `vol02-ch02-b12-augmented-battalion`, `quân tiếp viện`, `máy bay ném bom`, `chiến hữu`, `Chỉ huy`), đồng thời khóa tạm các ẩn dụ kinh tế – công sở và thuật ngữ không chiến trong phân cảnh Đại đội Bốn tách đội hình (`Nguyên tắc thị trường`, `bàn tay vô hình`, `quảng cáo quỹ đầu cơ`, `át chủ bài của lục quân`, `át chủ bài của không quân`, `máy bay tiêm kích`, `bỏ chạy trước mặt quân địch`, `án xử bắn`, `nhóm lợi ích`, `phòng nhân sự`, `đội hình xung kích hình thoi`)."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: tanya_interior_monologue_and_fourth_company_commander_banter_pronouns_vol02_ch02_b17
+  proposed_vi: "Trong phân cảnh Tanya dẫn Đại đội Bốn vòng lên cao để đánh chặn máy bay ném bom cùng hai đại đội hộ tống của địch và đối đáp với đại đội trưởng Đại đội Bốn cũng như các đại đội trưởng khác qua vô tuyến (part0014/p000445–p000479): tuân thủ nghiêm ngặt `DEC-P01-001` và tiếp nối B15–B16, trong toàn bộ mạch độc thoại nội tâm và tự thuật ngôi thứ nhất của Tanya (p000445, p000446, p000450–p000452, p000456, p000457, p000459, p000462, p000463, p000467, p000474, p000475, p000478), Tanya tự quy chiếu ngôi thứ nhất số ít bằng `mình` / `Mình` nhất quán, và dùng ngôi thứ nhất số nhiều `Đơn vị ta` / `Tiểu đoàn ta` khi xét biên chế tác chiến chung (p000450); dùng cấu trúc khái quát lược đại từ hoặc danh từ chung (`khi còn trẻ`, `người ta`) cho đại từ ngôi thứ hai phiếm chỉ ở p000451, p000452, p000456; quy chiếu vị đại đội trưởng Đại đội Bốn trong nội tâm bằng `Anh ta` (p000456), và quy chiếu tập thể các đại đội trưởng cùng binh sĩ dưới quyền bằng `Họ` / `họ` / `Mấy anh chàng này` (p000445, p000446, p000457, p000459, p000462, p000467, p000473–p000475, p000478, p000479). Trong đối thoại giữa Tanya và đại đội trưởng Đại đội Bốn (p000449, p000453–p000455, p000458, p000460, p000461, p000464, p000465, p000471, p000472, p000476, p000477): Tanya tự xưng `tôi` / `Tôi`, dùng `chúng ta` / `Chúng ta` khi bao gộp mình và Đại đội Bốn; đại đội trưởng Đại đội Bốn tự xưng `tôi`, dùng `chúng ta`, và gọi Tanya lễ phép là `ngài` / `Chỉ huy`. Trong liên lạc vô tuyến từ các đại đội trưởng khác gọi sang trêu đại đội trưởng Đại đội Bốn rồi dẫn quân xung phong (p000469–p000472): các đại đội trưởng tự xưng `bọn tôi` / `Tôi`, gọi đại đội trưởng Đại đội Bốn là `cậu` (sau khi sửa `F01` ở p000469), gọi nhau là `chiến hữu` / `Mấy cậu này!`, và chào Tanya lễ phép là `ngài, Chỉ huy`"
+  alternatives_vi:
+  - anh (thay cho `cậu` khi các đại đội trưởng gọi nhau tại part0014/p000469 — ưu tiên `cậu` để khớp hoàn hảo với câu cảm thán đáp trả `“Ái chà! Mấy cậu này! Xin lỗi ngài, Chỉ huy.”` của đại đội trưởng Đại đội Bốn ngay tại p000472) / cô (thay cho `cậu` tại part0014/p000469 — không dùng vì người bị trêu phải khao rượu theo vụ cá cược ở p000423 và p000461 là vị đại đội trưởng Đại đội Bốn nam giới chứ không phải Tanya, xem `F01`)
+  segment_ids:
+  - YS-LN02/Text/part0014.xhtml/p000445
+  - YS-LN02/Text/part0014.xhtml/p000446
+  - YS-LN02/Text/part0014.xhtml/p000449
+  - YS-LN02/Text/part0014.xhtml/p000450
+  - YS-LN02/Text/part0014.xhtml/p000451
+  - YS-LN02/Text/part0014.xhtml/p000452
+  - YS-LN02/Text/part0014.xhtml/p000453
+  - YS-LN02/Text/part0014.xhtml/p000454
+  - YS-LN02/Text/part0014.xhtml/p000456
+  - YS-LN02/Text/part0014.xhtml/p000457
+  - YS-LN02/Text/part0014.xhtml/p000458
+  - YS-LN02/Text/part0014.xhtml/p000459
+  - YS-LN02/Text/part0014.xhtml/p000460
+  - YS-LN02/Text/part0014.xhtml/p000461
+  - YS-LN02/Text/part0014.xhtml/p000462
+  - YS-LN02/Text/part0014.xhtml/p000463
+  - YS-LN02/Text/part0014.xhtml/p000464
+  - YS-LN02/Text/part0014.xhtml/p000465
+  - YS-LN02/Text/part0014.xhtml/p000467
+  - YS-LN02/Text/part0014.xhtml/p000469
+  - YS-LN02/Text/part0014.xhtml/p000470
+  - YS-LN02/Text/part0014.xhtml/p000471
+  - YS-LN02/Text/part0014.xhtml/p000472
+  - YS-LN02/Text/part0014.xhtml/p000473
+  - YS-LN02/Text/part0014.xhtml/p000474
+  - YS-LN02/Text/part0014.xhtml/p000475
+  - YS-LN02/Text/part0014.xhtml/p000476
+  - YS-LN02/Text/part0014.xhtml/p000477
+  - YS-LN02/Text/part0014.xhtml/p000478
+  - YS-LN02/Text/part0014.xhtml/p000479
+  volume: vol-02
+  chapter: 2
+  rationale: "Tuân thủ nghiêm ngặt `DEC-P01-001`, giữ nhất quán đại từ nội tâm tự quy chiếu `mình` của Tanya và cặp xưng hô `tôi` – `ngài` / `Chỉ huy` giữa Tanya với các thuộc cấp, đồng thời khắc phục lỗi lệch đối tượng quy chiếu ở `p000469` (`F01`) để bảo toàn mạch cá cược rượu vang giữa các đại đội trưởng từ `ch-02-b16`."
+  uncertainty: low
+  status: pending
+  canon: false
+term_recommendations:
+- source_term: dacians_invisible_hand_air_force_ace_and_spindle_formation_terms_vol02_ch02_b17
+  proposed_vi: "quân Dacia, cấp dưới, Tinh thần phụng sự (part0014/p000445, p000457) / sự nghiệp chiến tranh vô ích, quỷ dữ (part0014/p000446) / Chúa, Nguyên tắc thị trường, bàn tay vô hình (part0014/p000447) / kinh tế học (part0014/p000448) / Đại đội Bốn, hai đại đội, quân tiếp viện (part0014/p000449, p000450, p000477) / tiểu đoàn tăng cường, bốn đại đội, tiểu đoàn, đại đội tăng cường, hai tiểu đoàn (part0014/p000450, p000461) / quảng cáo quỹ đầu cơ (part0014/p000452) / máy bay ném bom, át chủ bài của lục quân, át chủ bài của không quân, không quân (part0014/p000453, p000454, p000462) / Being X (part0014/p000456) / máy bay tiêm kích (part0014/p000458, p000460, p000462, p000463) / bỏ chạy trước mặt quân địch, Xử bắn, án xử bắn, bộ máy quan liêu, hội nhóm nào bảo vệ lợi ích hay quyền lợi, nhóm lợi ích (part0014/p000463) / Đại đội, chiến hữu, Chỉ huy (part0014/p000470–p000472) / phòng nhân sự, kinh doanh, hoạch định chiến lược, ý chí tự do (part0014/p000474, p000475) / đại đội trưởng, Doberman (part0014/p000478) / đội hình xung kích hình thoi (part0014/p000479)"
+  alternatives_vi:
+  - Thượng đế (thay cho `Chúa` tại part0014/p000447 — ghi nhận đề xuất `review-God: Thượng đế` trong `pending-terms.yml`, nhưng tạm chấp nhận `Chúa` trong câu cảm thán đối lập với `quỷ dữ` ở `p000446` vì tự nhiên, quen thuộc trong tiếng Việt và không ảnh hưởng logic lập luận về bàn tay vô hình của thị trường) / đội hình xung kích hình con suốt (thay cho `đội hình xung kích hình thoi` tại part0014/p000479 — ưu tiên `đội hình xung kích hình thoi` vì là thuật ngữ đội hình chiến thuật tự nhiên, chuẩn xác trong tiếng Việt cho đội hình nhọn hai đầu phình giữa kiểu *spindle-shaped assault formation*)
+  segment_ids:
+  - YS-LN02/Text/part0014.xhtml/p000445
+  - YS-LN02/Text/part0014.xhtml/p000446
+  - YS-LN02/Text/part0014.xhtml/p000447
+  - YS-LN02/Text/part0014.xhtml/p000448
+  - YS-LN02/Text/part0014.xhtml/p000449
+  - YS-LN02/Text/part0014.xhtml/p000450
+  - YS-LN02/Text/part0014.xhtml/p000452
+  - YS-LN02/Text/part0014.xhtml/p000453
+  - YS-LN02/Text/part0014.xhtml/p000454
+  - YS-LN02/Text/part0014.xhtml/p000456
+  - YS-LN02/Text/part0014.xhtml/p000457
+  - YS-LN02/Text/part0014.xhtml/p000458
+  - YS-LN02/Text/part0014.xhtml/p000460
+  - YS-LN02/Text/part0014.xhtml/p000461
+  - YS-LN02/Text/part0014.xhtml/p000462
+  - YS-LN02/Text/part0014.xhtml/p000463
+  - YS-LN02/Text/part0014.xhtml/p000470
+  - YS-LN02/Text/part0014.xhtml/p000471
+  - YS-LN02/Text/part0014.xhtml/p000472
+  - YS-LN02/Text/part0014.xhtml/p000474
+  - YS-LN02/Text/part0014.xhtml/p000475
+  - YS-LN02/Text/part0014.xhtml/p000477
+  - YS-LN02/Text/part0014.xhtml/p000478
+  - YS-LN02/Text/part0014.xhtml/p000479
+  volume: vol-02
+  chapter: 2
+  rationale: "Kế thừa đồng bộ hệ thống danh xưng đơn vị, thực thể siêu nhiên và thuật ngữ quân sự – kinh tế đã khóa tạm từ Tập 1 và các batch trước của Tập 2 (`quân Dacia`, `quỷ dữ` theo `review-devil`, `Being X` theo `P05-being-x` / `vol02-ch02-b17-being-x`, `Đại đội Bốn`, `tiểu đoàn tăng cường` theo `vol02-ch02-b12-augmented-battalion`, `quân tiếp viện`, `máy bay ném bom`, `chiến hữu`, `Chỉ huy`), đồng thời khóa tạm các ẩn dụ kinh tế – công sở và thuật ngữ không chiến trong phân cảnh Đại đội Bốn tách đội hình (`Nguyên tắc thị trường`, `bàn tay vô hình`, `quảng cáo quỹ đầu cơ`, `át chủ bài của lục quân`, `át chủ bài của không quân`, `máy bay tiêm kích`, `bỏ chạy trước mặt quân địch`, `án xử bắn`, `nhóm lợi ích`, `phòng nhân sự`, `đội hình xung kích hình thoi`)."
+  uncertainty: low
+  status: pending
+  canon: false
+- source_term: tanya_interior_monologue_and_fourth_company_commander_banter_pronouns_vol02_ch02_b17
+  proposed_vi: "Trong phân cảnh Tanya dẫn Đại đội Bốn vòng lên cao để đánh chặn máy bay ném bom cùng hai đại đội hộ tống của địch và đối đáp với đại đội trưởng Đại đội Bốn cũng như các đại đội trưởng khác qua vô tuyến (part0014/p000445–p000479): tuân thủ nghiêm ngặt `DEC-P01-001` và tiếp nối B15–B16, trong toàn bộ mạch độc thoại nội tâm và tự thuật ngôi thứ nhất của Tanya (p000445, p000446, p000450–p000452, p000456, p000457, p000459, p000462, p000463, p000467, p000474, p000475, p000478), Tanya tự quy chiếu ngôi thứ nhất số ít bằng `mình` / `Mình` nhất quán, và dùng ngôi thứ nhất số nhiều `Đơn vị ta` / `Tiểu đoàn ta` khi xét biên chế tác chiến chung (p000450); dùng cấu trúc khái quát lược đại từ hoặc danh từ chung (`khi còn trẻ`, `người ta`) cho đại từ ngôi thứ hai phiếm chỉ ở p000451, p000452, p000456; quy chiếu vị đại đội trưởng Đại đội Bốn trong nội tâm bằng `Anh ta` (p000456), và quy chiếu tập thể các đại đội trưởng cùng binh sĩ dưới quyền bằng `Họ` / `họ` / `Mấy anh chàng này` (p000445, p000446, p000457, p000459, p000462, p000467, p000473–p000475, p000478, p000479). Trong đối thoại giữa Tanya và đại đội trưởng Đại đội Bốn (p000449, p000453–p000455, p000458, p000460, p000461, p000464, p000465, p000471, p000472, p000476, p000477): Tanya tự xưng `tôi` / `Tôi`, dùng `chúng ta` / `Chúng ta` khi bao gộp mình và Đại đội Bốn; đại đội trưởng Đại đội Bốn tự xưng `tôi`, dùng `chúng ta`, và gọi Tanya lễ phép là `ngài` / `Chỉ huy`. Trong liên lạc vô tuyến từ các đại đội trưởng khác gọi sang trêu đại đội trưởng Đại đội Bốn rồi dẫn quân xung phong (p000469–p000472): các đại đội trưởng tự xưng `bọn tôi` / `Tôi`, gọi đại đội trưởng Đại đội Bốn là `cậu` (sau khi sửa `F01` ở p000469), gọi nhau là `chiến hữu` / `Mấy cậu này!`, và chào Tanya lễ phép là `ngài, Chỉ huy`"
+  alternatives_vi:
+  - anh (thay cho `cậu` khi các đại đội trưởng gọi nhau tại part0014/p000469 — ưu tiên `cậu` để khớp hoàn hảo với câu cảm thán đáp trả `“Ái chà! Mấy cậu này! Xin lỗi ngài, Chỉ huy.”` của đại đội trưởng Đại đội Bốn ngay tại p000472) / cô (thay cho `cậu` tại part0014/p000469 — không dùng vì người bị trêu phải khao rượu theo vụ cá cược ở p000423 và p000461 là vị đại đội trưởng Đại đội Bốn nam giới chứ không phải Tanya, xem `F01`)
+  segment_ids:
+  - YS-LN02/Text/part0014.xhtml/p000445
+  - YS-LN02/Text/part0014.xhtml/p000446
+  - YS-LN02/Text/part0014.xhtml/p000449
+  - YS-LN02/Text/part0014.xhtml/p000450
+  - YS-LN02/Text/part0014.xhtml/p000451
+  - YS-LN02/Text/part0014.xhtml/p000452
+  - YS-LN02/Text/part0014.xhtml/p000453
+  - YS-LN02/Text/part0014.xhtml/p000454
+  - YS-LN02/Text/part0014.xhtml/p000456
+  - YS-LN02/Text/part0014.xhtml/p000457
+  - YS-LN02/Text/part0014.xhtml/p000458
+  - YS-LN02/Text/part0014.xhtml/p000459
+  - YS-LN02/Text/part0014.xhtml/p000460
+  - YS-LN02/Text/part0014.xhtml/p000461
+  - YS-LN02/Text/part0014.xhtml/p000462
+  - YS-LN02/Text/part0014.xhtml/p000463
+  - YS-LN02/Text/part0014.xhtml/p000464
+  - YS-LN02/Text/part0014.xhtml/p000465
+  - YS-LN02/Text/part0014.xhtml/p000467
+  - YS-LN02/Text/part0014.xhtml/p000469
+  - YS-LN02/Text/part0014.xhtml/p000470
+  - YS-LN02/Text/part0014.xhtml/p000471
+  - YS-LN02/Text/part0014.xhtml/p000472
+  - YS-LN02/Text/part0014.xhtml/p000473
+  - YS-LN02/Text/part0014.xhtml/p000474
+  - YS-LN02/Text/part0014.xhtml/p000475
+  - YS-LN02/Text/part0014.xhtml/p000476
+  - YS-LN02/Text/part0014.xhtml/p000477
+  - YS-LN02/Text/part0014.xhtml/p000478
+  - YS-LN02/Text/part0014.xhtml/p000479
+  volume: vol-02
+  chapter: 2
+  rationale: "Tuân thủ nghiêm ngặt `DEC-P01-001`, giữ nhất quán đại từ nội tâm tự quy chiếu `mình` của Tanya và cặp xưng hô `tôi` – `ngài` / `Chỉ huy` giữa Tanya với các thuộc cấp, đồng thời khắc phục lỗi lệch đối tượng quy chiếu ở `p000469` (`F01`) để bảo toàn mạch cá cược rượu vang giữa các đại đội trưởng từ `ch-02-b16`."
+  uncertainty: low
+  status: pending
+  canon: false
+locked_choices:
+- segment_id: YS-LN02/Text/part0014.xhtml/p000445
+  locks:
+  - "Giữ đại từ nội tâm `mình` theo `DEC-P01-001`, đại từ số nhiều `Họ` / `họ`, các cụm `đánh cho quân Dacia một trận tơi bời`, `cấp dưới của mình thật sự đang thèm khát chiến tranh`, và `Tinh thần phụng sự của họ quả là tận tụy hết mực.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000446
+  locks:
+  - "Giữ đại từ nội tâm `mình`, đại từ `Họ` / `họ`, giả định phản thực tế `nếu không tận tụy theo đuổi cái sự nghiệp chiến tranh vô ích ấy, mình nhất định sẽ muốn chiêu mộ họ`, và câu kết `Chính những chuyện như thế này chứng minh quỷ dữ tồn tại.` (theo `review-devil`)."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000447
+  locks:
+  - "Giữ cấu trúc giả định phản thực tế `Nếu Chúa tồn tại, tài nguyên đã chẳng bị phân bổ bất hợp lý đến thế.` và hai mệnh đề kinh tế học `Nguyên tắc thị trường mới là con đường chân lý duy nhất. Chỉ thị trường mới có bàn tay vô hình.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000448
+  locks:
+  - "Giữ thuật ngữ `kinh tế học` và toàn văn câu nội tâm `Nói thật, chuyện này đáng tiếc quá. Thế giới đúng là được tạo ra để khiến mọi thứ trở nên khó khăn. Có lẽ còn lâu kinh tế học mới giải quyết được tất cả.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000449
+  locks:
+  - "Giữ định danh `Đại đội Bốn`, đại từ ngôi thứ nhất số nhiều `chúng ta` / `Chúng ta`, và câu lệnh `“Đại đội Bốn, chúng ta lên cao. Chúng ta sẽ vòng qua đánh hai đại đội có vẻ là quân tiếp viện kia.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000450
+  locks:
+  - "Giữ đại từ nội tâm `mình`, các cụm `Đơn vị ta là một tiểu đoàn tăng cường—gồm bốn đại đội` (theo `vol02-ch02-b12-augmented-battalion`), `Tiểu đoàn ta sẽ chặn hai tiểu đoàn, còn đại đội tăng cường sẽ đối phó với hai đại đội kia`, và câu kết `Mà mình muốn tự làm cho mọi chuyện nhẹ nhàng, nên sẽ đi cùng nhóm sau.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000451
+  locks:
+  - "Giữ đại từ phản thân `mình` và toàn văn `Trên chiến trường, mục tiêu cao cả nhất là đánh bại kẻ địch với ít công sức nhất có thể. Tất cả chỉ xoay quanh việc làm sao để đời mình thoải mái hơn.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000452
+  locks:
+  - "Giữ đại từ nội tâm `Mình` / `mình`, ẩn dụ tài chính `đáng tin ngang một mẩu quảng cáo quỹ đầu cơ`, và câu kết `Mình nghĩ cứ để mình rèn tính cách cho người khác vậy.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000453
+  locks:
+  - "Giữ đại từ tôn xưng `ngài`, thuật ngữ `máy bay ném bom`, và câu hỏi `“Rõ. Còn máy bay ném bom thì ngài định xử lý thế nào?”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000454
+  locks:
+  - "Giữ đại từ `Chúng`, ngôi tự xưng `tôi` / `Tôi`, và câu thoại `“Chúng là của tôi. Đừng ghét tôi nhé! Tôi chỉ muốn vừa là át chủ bài của lục quân, vừa là át chủ bài của không quân thôi.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000455
+  locks:
+  - "Giữ nguyên câu thoại `“Ha ha ha. Hay đấy.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000456
+  locks:
+  - "Giữ đại từ ngôi thứ ba `Anh ta` (chỉ đại đội trưởng Đại đội Bốn), đại từ nội tâm `mình` / `Mình` theo `DEC-P01-001`, định danh `Being X` (theo `P05-being-x` / `vol02-ch02-b17-being-x`), và câu hỏi nội tâm `Một người tốt như mình, cớ sao lại bị Being X hành hạ vô lý và bắt phải tham chiến trong cuộc chiến này chứ?`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000457
+  locks:
+  - "Giữ đại từ nội tâm `mình`, cụm `cấp dưới của mình`, đại từ `họ`, và câu kết `Thấy đáng ngờ, mình lườm họ rồi hỏi rốt cuộc có gì buồn cười.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000458
+  locks:
+  - "Giữ đại từ tôn xưng `Ngài`, thuật ngữ `máy bay tiêm kích`, và câu hỏi `“Ngài biết là phải dùng máy bay tiêm kích mới làm được, đúng không?”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000459
+  locks:
+  - "Giữ đại từ nội tâm `mình` và các câu `Bực thật, xem ra mình đã hiểu nhầm quy định. Để lộ sự thiếu hiểu biết trước mặt binh lính thế này đúng là đáng tiếc. Xấu hổ không sao tả xiết.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000460
+  locks:
+  - "Giữ các đại từ `chúng ta`, `Tôi`, `chúng`, thuật ngữ `máy bay tiêm kích`, và toàn văn câu thoại của Tanya."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000461
+  locks:
+  - "Giữ cặp đại từ `ngài` – `tôi`, và lời nói đùa liên kết với vụ cá cược ở `b16` `“Sao ngài không đi? Có điều, nếu tôi đi cùng thì e là cuối cùng lại phải khao cả tiểu đoàn mất.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000462
+  locks:
+  - "Giữ các đại từ `họ`, `mình` / `Mình`, cụm `mượn máy bay tiêm kích của không quân ư?`, và câu phủ định `Mình không thể làm thế được.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000463
+  locks:
+  - "Giữ đại từ nội tâm `mình` / `Mình`, các thuật ngữ `bỏ chạy trước mặt quân địch`, `Xử bắn! Chắc chắn đang chờ mình là án xử bắn.`, `máy bay tiêm kích`, `bộ máy quan liêu`, và câu hỏi kết `Chẳng có hội nhóm nào bảo vệ lợi ích hay quyền lợi, thậm chí một nhóm lợi ích nào đó, đứng ra bảo vệ mình sao?`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000464
+  locks:
+  - "Giữ ngôi tự xưng `Tôi` và câu thoại `“Tôi không thể nào quay lưng lại với kẻ địch.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000465
+  locks:
+  - "Giữ nguyên câu thoại `“Thôi, đành vậy. Kết thúc chuyện này nhanh nhất có thể thôi.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000466
+  locks:
+  - "Giữ nguyên hai câu `Rồi tin nhắn từ các đơn vị khác truyền đến. Không gì tuyệt hơn đúng lúc cả.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000467
+  locks:
+  - "Giữ đại từ nội tâm `Mình` / `mình`, đại từ `họ`, và các câu `Mình thích việc binh lính biết đọc tình hình. Chắc chắn họ sẽ giúp ích nhiều cho con đường thăng tiến của mình. Tốt quá.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000469
+  locks:
+  - "Sau khi sửa `F01`, khóa đại từ ngôi thứ hai `cậu` (chỉ đại đội trưởng Đại đội Bốn), đại từ ngôi thứ nhất số nhiều `bọn tôi`, và hiệu lệnh `Xung phong!` trong câu `“Xin lỗi nhé, chắc chắn cậu sẽ phải khao bọn tôi rồi. Xung phong!”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000470
+  locks:
+  - "Giữ cụm `Hai mươi lăm năm…` (quy chiếu chai vang hai mươi lăm năm tuổi ở `p000423`), ngôi tự xưng `Tôi`, và hiệu lệnh `“Hai mươi lăm năm… Tôi sẽ uống cho thỏa thích. Đại đội, tiến lên!”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000471
+  locks:
+  - "Giữ danh xưng `chiến hữu`, cách thưa `ngài, Chỉ huy`, và toàn văn `“Có chiến hữu tốt thật chẳng gì bằng. Vậy nhé, xin phép ngài, Chỉ huy.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000472
+  locks:
+  - "Giữ cụm gọi các đại đội trưởng đồng cấp `Mấy cậu này!`, cách thưa `ngài, Chỉ huy`, và toàn văn `“Ái chà! Mấy cậu này! Xin lỗi ngài, Chỉ huy.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000473
+  locks:
+  - "Giữ đại từ `Họ` và toàn văn `Bầu không khí đã thay đổi hẳn. Họ đúng là chỗ dựa tuyệt vời.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000474
+  locks:
+  - "Giữ đại từ nội tâm `mình` / `Mình`, các cụm `làm ở phòng nhân sự`, `Mấy anh chàng này đúng là hợp làm kinh doanh`, và `đủ sức đảm đương việc hoạch định chiến lược.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000475
+  locks:
+  - "Giữ đại từ `Họ` / `họ`, đại từ nội tâm `Mình`, cụm `yêu chiến tranh thay vì kinh doanh`, và `tôn trọng ý chí tự do của họ`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000476
+  locks:
+  - "Giữ ngôi tự xưng `tôi` và câu lệnh `“Được rồi. Đừng lo cho tôi. Cứ đi trước đi.”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000477
+  locks:
+  - "Giữ cách thưa `Cảm ơn ngài`, định danh `Đại đội Bốn`, đại từ `chúng ta`, và hiệu lệnh `“Cảm ơn ngài. Đại đội Bốn, chúng ta lên trước!”`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000478
+  locks:
+  - "Giữ đại từ nội tâm `mình`, đại từ `Họ`, cụm `các đại đội trưởng của mình`, và hình ảnh so sánh `như lũ Doberman trước con mồi; vừa được mình thả dây cương là lập tức phóng đi.`."
+- segment_id: YS-LN02/Text/part0014.xhtml/p000479
+  locks:
+  - "Giữ đại từ `Họ` / `họ`, thuật ngữ `đội hình xung kích hình thoi`, và câu kết `Cú xung phong chớp nhoáng được thực hiện đồng bộ hoàn hảo, nhưng ham muốn chiến đấu mãnh liệt khiến họ hơi liều lĩnh quá mức.`."
+validator: not_run
+diff_check: not_run
+commit: null
