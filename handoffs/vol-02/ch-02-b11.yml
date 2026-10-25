@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-02-b11-source.jsonl
 source_package_sha256: 474d499afed7491bbf260f099b4e3b1502227afb8961f3026cc40f3c45ca056c
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_report:
   state: done
   translator_session_id: 01a130af-7b62-7da1-8e4a-272062cf48a5
@@ -42,18 +42,54 @@ translator_followup:
   agent_session_id: 01a130b9-7b30-78c1-b41b-8d2e6b627a77
   validator: pass
   diff_check: pass
-  resolved_moderate: [M1, M2, M3, M4, M5, M6, M7]
-  aligned_minor_terms: [call_sign, height_units, death_zone, republican_army_contact]
-  changed_segments: [p000258, p000259, p000263, p000264, p000265, p000271, p000280, p000283, p000295, p000297, p000298]
+  resolved_moderate:
+  - M1
+  - M2
+  - M3
+  - M4
+  - M5
+  - M6
+  - M7
+  aligned_minor_terms:
+  - call_sign
+  - height_units
+  - death_zone
+  - republican_army_contact
+  changed_segments:
+  - p000258
+  - p000259
+  - p000263
+  - p000264
+  - p000265
+  - p000271
+  - p000280
+  - p000283
+  - p000295
+  - p000297
+  - p000298
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms, risk_flags]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  - risk_flags
   serious: 0
   moderate: 0
   action: signoff_complete
   pending_status: provisional_non_canon
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter2_b11_translation_proposals
   review_report: reviews/prose/vol-02/ch-02-b11-claude.md
-  translator_followup_segments: [p000258, p000259, p000263, p000264, p000265, p000271, p000280, p000283, p000295, p000297, p000298]
+  translator_followup_segments:
+  - p000258
+  - p000259
+  - p000263
+  - p000264
+  - p000265
+  - p000271
+  - p000280
+  - p000283
+  - p000295
+  - p000297
+  - p000298
   review_provisional_choices:
     formulas: thuật thức gây nhiễu
     height_units: feet, no conversion, do not add units to bare numbers
@@ -79,3 +115,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000300
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-02-b11
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 105
+  state: released
+  allowlist:
+  - translations/vol-02/ch-02-b11.jsonl
