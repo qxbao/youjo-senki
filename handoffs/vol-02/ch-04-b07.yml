@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b07-source.jsonl
 source_package_sha256: fa2f54d20053fe9506100fa429d7142e7d088c36906d6ec811626037d5d544b5
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -55,20 +55,26 @@ translation_report:
   segment_count: 32
   validator: pass
   diff_check: pass
-  findings: [6 pending terminology notes; no serious/moderate reported]
+  findings:
+  - 6 pending terminology notes; no serious/moderate reported
   pending_term_count: 3
   files_written:
   - translations/vol-02/ch-04-b07.jsonl
 review_coordination:
-  triggered_by: [new_pending_terms]
+  triggered_by:
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-04-b07-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b07_translation_proposals
-  severity_counts: {serious: 0, moderate: 0, minor: 9}
+  severity_counts:
+    serious: 0
+    moderate: 0
+    minor: 9
   reviewer_session_id: ec4706f9-c331-435a-8a1f-aa7df7ffefb7
   reported_findings:
-  - p000153+p000155+p000158+p000161+p000162: use Tanya's approved narrative pronoun per DEC-P01-001
+  - p000153+p000155+p000158+p000161+p000162: use Tanya's approved narrative pronoun
+      per DEC-P01-001
   - p000165: restore both source emphasis spans
   - p000152: preserve the elliptical subject/negative meaning
   - p000154: avoid assuming First Squadron is an air squadron
@@ -77,17 +83,40 @@ review_coordination:
   - p000151: align defensive shell with the existing provisional ledger
   translator_followup:
     task_id: vol-02-ch-04-b07-review-fixes
-    allowlist: [translations/vol-02/ch-04-b07.jsonl]
+    allowlist:
+    - translations/vol-02/ch-04-b07.jsonl
     session_id: 01a13267-08d3-7a33-a04b-a4788bb22a36
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [M1, M2, M3, M4, M5, M6, M7, in-scope term choices]
+    fixed_findings:
+    - M1
+    - M2
+    - M3
+    - M4
+    - M5
+    - M6
+    - M7
+    - in-scope term choices
   final_signoff:
     task_id: vol-02-ch-04-b07-signoff
     review_report: reviews/prose/vol-02/ch-04-b07-fixes-signoff-claude.md
     session_id: f95baf73-ef1b-4198-abbf-8268ac909882
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 9}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 9
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b07
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 142
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b07.jsonl
