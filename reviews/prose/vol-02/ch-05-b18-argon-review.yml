@@ -1,0 +1,431 @@
+task_id: vol-02-ch-05-b18
+review_task_id: vol-02-ch-05-b18-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b18
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000430
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000464
+unit_count: 35
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: f32e7fecfce1d77df1322681680ba6cca9c96eeefc28b1ecc4a14b41ba92674c
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b18-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b18-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000431
+    category: rank_vocative_and_title_nuance
+    issue: >-
+      Tại đầu câu thoại `p000431`, danh xưng hô gọi cấp bậc của Serebryakov (`Lieutenant`) đang được lược bỏ, chỉ giữ đại từ `Cô` (`“Cô với tôi đã chứng kiến đủ cảnh lính mới làm hỏng việc ở mặt trận Rhine đến phát ngán rồi. Cô xử lý được họ chứ?”`); đồng thời tại `p000440`, cụm danh xưng `Sĩ quan cấp úy Serebryakov` dùng trong độc thoại nội tâm của Tanya hơi mang sắc thái giải thích hành chính (tương tự `p000428` của `ch-05-b17`).
+    basis: >-
+      Do nguyên văn chỉ ghi cấp úy chung mà không nêu tiểu cấp cụ thể tại hai đoạn này, phương án lược danh xưng ở `p000431` và dịch trung tính `Sĩ quan cấp úy Serebryakov` ở `p000440` đã tuân thủ đúng giới hạn suy luận của `DEC-P01-001` và giữ đồng bộ hoàn toàn với `ch-05-b17` (`p000428`).
+    recommendation: >-
+      Không chặn signoff; ở bước polish hoặc biên tập toàn tập, nếu đối chiếu khóa cấp bậc của Serebryakov tại thời điểm Chương 5 Tập 2 (Thiếu úy), có thể cân nhắc bổ sung hô ngữ đầu câu `p000431` và rút gọn danh xưng tại `p000440` cho tự nhiên hơn.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000451
+    category: lexical_nuance_and_repetition
+    issue: >-
+      Tại câu 1 của `p000451`, danh từ chỉ câu chuyện truyền miệng mang màu sắc huyền thoại ở học viện (`legend`) đang được dịch là `lời đồn` (lặp với `tin đồn` / `lời đồn` ở `p000450` ngay trước đó), và liên từ `rằng` lặp lại hai lần liên tiếp trong cùng một câu (`ở học viện có lời đồn rằng một học viên thuộc lớp thứ hai từng lẩm bẩm rằng Học viên Degurechaff còn đáng sợ hơn cả chiến trường`).
+    basis: >-
+      Nghĩa cốt lõi về giai thoại truyền tai nhau tại học viện quân sự vẫn hoàn toàn chính xác.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể đổi thành `Chẳng hạn, ở học viện có một giai thoại kể rằng từng có học viên lớp hai lẩm bẩm Học viên Degurechaff còn đáng sợ hơn cả chiến trường.` để làm nổi bật sắc thái phóng đại của từ gốc và tránh lặp từ `rằng`.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000457
+    category: pronoun_and_parallel_structure_nuance
+    issue: >-
+      Trong phần điểm nhìn của Warren Grantz (`p000451`, `p000457`, `p000458`, `p000460`, `p000461`), Grantz quy chiếu Thiếu tá von Degurechaff bằng đại từ `cô ta` (trong khi sang `ch-05-b19` tại `p000475`, `p000478`, `p000487`, `p000488`, `p000491` lại dùng `cô`); ngoài ra tại `p000457`, câu thứ ba (`Vẻ như cô ta đang khát máu.`) hơi lệch cấu trúc danh ngữ song hành so với hai câu đầu (`Nụ cười của cô ta. Cách cô ta nhìn chúng tôi như nhìn lũ giòi bọ.`), và hai câu độc thoại in nghiêng ở `p000458`, `p000462` đang dùng `tôi` thay vì `mình` như ở `p000443`, `p000454`.
+    basis: >-
+      Điểm nhìn từ `p000443` đến `p000464` là của Warren Grantz (không phải trần thuật điểm nhìn Tanya nên không thuộc phạm vi cấm của `DEC-P01-001`), và sắc thái `cô ta` trong `b18` phản ánh tâm lý kinh hãi của Grantz trước lời đồn “ác quỷ đội lốt bé gái”; việc dùng `tôi` trong câu in nghiêng ở `p000458`, `p000462` cũng khớp với mạch tự sự ngôi thứ nhất `tôi` từ `p000456` trở đi.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh câu 3 của `p000457` thành `Cách cô ta trông như đang khát máu.` (hoặc `Vẻ khát máu của cô ta.`) để giữ nhịp điệp cấu trúc, và đồng bộ đại từ quy chiếu của Grantz giữa `b18` và `b19` nếu muốn thống nhất xuyên suốt cảnh.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "mana signal / the Rhine / Major / Lieutenant Serebryakov / NCOs"
+    source_label: "mana signal / the Rhine / Major / Lieutenant Serebryakov / officers and NCOs"
+    recommended_vi: "tín hiệu mana / mặt trận Rhine / Thiếu tá / Sĩ quan cấp úy Serebryakov / các sĩ quan và hạ sĩ quan"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ với `ch-05-b17` (`p000419`, `p000428`, `p000429`) và các mục đã khóa tạm trong `work/run-state/pending-terms.yml` (`vol02-ch05-b17-major-rank`, `vol02-ch05-b17-lieutenant-serebryakov`)."
+    alternatives:
+      - "Thiếu úy Serebryakov"
+      - "Trung úy Serebryakov"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000430
+      - YS-LN02/Text/part0026.xhtml/p000431
+      - YS-LN02/Text/part0026.xhtml/p000432
+      - YS-LN02/Text/part0026.xhtml/p000440
+
+  - term_key: "rear base / front line / Great Army / Logistics / field exercise grounds"
+    source_label: "rear base / front line / Great Army / Logistics / field exercise grounds"
+    recommended_vi: "căn cứ hậu phương / tiền tuyến / Đại quân / bộ phận Hậu cần / thao trường dã chiến"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ hệ thuật ngữ quân sự của Đế quốc trong Tập 1–2 (`Đại quân`, `hậu phương`, `tiền tuyến`, `Hậu cần`)."
+    alternatives:
+      - "Cục Hậu cần / bãi tập dã chiến"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000443
+      - YS-LN02/Text/part0026.xhtml/p000444
+
+  - term_key: "Magic Second Lieutenant Warren Grantz / imperial railway gun / Cadet Degurechaff / Rhine Command"
+    source_label: "Magic Second Lieutenant Warren Grantz / imperial railway gun / Cadet Degurechaff / Rhine Command"
+    recommended_vi: "Thiếu úy ma pháp Warren Grantz / pháo đường sắt của Đế quốc / Học viên Degurechaff / Bộ chỉ huy Rhine"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ quân hàm `Thiếu úy ma pháp` (`chapter1_b01_pending_terms`), giữ nguyên tên riêng `Warren Grantz` (khớp với `ch-05-b19` `p000489`) và danh xưng học viện `Học viên Degurechaff`."
+    alternatives:
+      - "Thiếu úy Ma pháp Warren Grantz / Bộ Tư lệnh Rhine"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000444
+      - YS-LN02/Text/part0026.xhtml/p000448
+      - YS-LN02/Text/part0026.xhtml/p000451
+      - YS-LN02/Text/part0026.xhtml/p000453
+
+  - term_key: "instructor unit / replacement / 203rd Aerial Mage (Assault) Battalion / briefing room"
+    source_label: "instructor unit / replacement / 203rd Aerial Mage Assault Battalion / 203rd Aerial Mage Battalion / briefing room"
+    recommended_vi: "đơn vị huấn luyện / quân bổ sung / Tiểu đoàn Pháp sư Xung kích Trên không số 203 / Tiểu đoàn Pháp sư Trên không số 203 / phòng hội ý"
+    status: provisional
+    uncertainty: low
+    basis: "Bảo toàn chính xác sự khác biệt có/không có từ `Xung kích` (`Assault`) giữa `p000456` và `p000463` theo đúng nguyên văn, đồng bộ `đơn vị huấn luyện` và `phòng hội ý` với `ch-05-b19` (`p000465`)."
+    alternatives:
+      - "lính bổ sung / phòng giao ban"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000452
+      - YS-LN02/Text/part0026.xhtml/p000453
+      - YS-LN02/Text/part0026.xhtml/p000456
+      - YS-LN02/Text/part0026.xhtml/p000460
+      - YS-LN02/Text/part0026.xhtml/p000463
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000430
+    terms:
+      - "tín hiệu mana"
+      - "tiếp cận"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng đại từ gộp `ta` cho đơn vị."
+    pov_and_voice: "Độc thoại nội tâm của Tanya tiếp nối trực tiếp lời phát biểu của Serebryakov ở cuối `ch-05-b17` (`p000429`)."
+    modality_and_logic: "Bảo toàn đánh giá rằng góc nhìn của Serebryakov hợp lý hơn nhiều và điều kiện loại trừ: miễn không ai gây tiếng động hay có kẻ ngốc nào phát ra tín hiệu mana thì khâu tiếp cận sẽ ổn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000431
+    terms:
+      - "lính mới"
+      - "mặt trận Rhine"
+    pronouns_and_address: "Tanya nói với Serebryakov, xưng `tôi`, gọi `Cô` và quy chiếu đám lính mới bằng `họ`."
+    pov_and_voice: "Giọng chỉ huy thực tế, trao đổi với thuộc cấp kỳ cựu cùng từng trải qua chiến trường Rhine."
+    modality_and_logic: "Bảo toàn nhận định rằng cả hai đã chứng kiến đủ cảnh lính mới làm hỏng việc ở mặt trận Rhine đến phát ngán, kèm câu hỏi giao phó việc xử lý/kèm cặp họ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000432
+    terms:
+      - "Thiếu tá"
+      - "yểm trợ"
+    pronouns_and_address: "Serebryakov gọi Tanya là `Thiếu tá`, tự xưng `tôi` và quy chiếu đám tân binh bằng `họ`."
+    pov_and_voice: "Giọng thuộc cấp điềm đạm, có trách nhiệm với cấp dưới."
+    modality_and_logic: "Bảo toàn hai vế: xác nhận sẽ mạnh tay xử lý nếu thật sự cần thiết, nhưng khẳng định sẽ cố hết sức yểm trợ đám lính mới để không phải làm đến mức đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000433
+    terms: []
+    pronouns_and_address: "Tanya dùng đại từ gộp `ta` với các sĩ quan trong cuộc họp."
+    pov_and_voice: "Giọng người chủ trì cuộc họp chuyển sang bước tổng kết phương án."
+    modality_and_logic: "Bảo toàn lời đề nghị điểm lại các ý kiến vừa nêu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000434
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `ta`."
+    pov_and_voice: "Độc thoại nội tâm tóm lược các kết luận hợp lý nhất."
+    modality_and_logic: "Bảo toàn câu dẫn trước danh sách 3 điểm kết luận."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000435
+    terms:
+      - "giao chiến"
+    pronouns_and_address: "Cấu trúc mệnh lệnh/mục tiêu khái quát."
+    pov_and_voice: "Điểm tổng kết thứ nhất trong kế hoạch tác chiến."
+    modality_and_logic: "Bảo toàn mục 1: làm mọi cách để tránh giao chiến."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000436
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng bình luận nội tâm tán thưởng hòa bình của Tanya."
+    modality_and_logic: "Bảo toàn nhận định hòa bình dĩ nhiên là tốt nhất và không có lý do gì để phản đối."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000437
+    terms: []
+    pronouns_and_address: "Cấu trúc mệnh lệnh/mục tiêu khái quát."
+    pov_and_voice: "Điểm tổng kết thứ hai trong kế hoạch tác chiến."
+    modality_and_logic: "Bảo toàn mục 2: điều đơn vị mạnh nhất đi."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000438
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `mình` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Độc thoại nội tâm miễn cưỡng chấp nhận lý lẽ quân sự dù cá nhân thấy phiền phức."
+    modality_and_logic: "Bảo toàn sự đối lập giữa cảm xúc bực mình và lý trí quân sự không thể phản bác, từ đó chấp nhận phương án vì tính thận trọng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000439
+    terms:
+      - "tiếp cận"
+      - "Rút lui"
+    pronouns_and_address: "Cấu trúc nhận định khái quát không chủ ngữ."
+    pov_and_voice: "Điểm tổng kết thứ ba trong kế hoạch tác chiến."
+    modality_and_logic: "Bảo toàn mục 3 gồm câu điều kiện (nếu không bị phát hiện thì có thể tiếp cận) và nhận định cảnh báo (rút lui sẽ nguy hiểm)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000440
+    terms:
+      - "tiến quân"
+      - "rút lui"
+      - "binh lính"
+      - "sĩ quan"
+      - "hạ sĩ quan"
+      - "mặt trận Rhine"
+      - "Sĩ quan cấp úy Serebryakov"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `chúng ta` cho đơn vị và `họ` cho binh lính."
+    pov_and_voice: "Độc thoại nội tâm đánh giá tổng thể độ an toàn và phương án dự phòng của kế hoạch."
+    modality_and_logic: "Bảo toàn đầy đủ 5 câu: xác nhận đây là các điểm đã gom lại; đánh giá đây có lẽ là kế hoạch an toàn nhất; nếu bố trí tiến quân vững vàng và rút lui nhanh chóng thì chắc không có vấn đề gì; nếu binh lính làm hỏng việc thì đã có các sĩ quan và hạ sĩ quan giàu kinh nghiệm ở Rhine hỗ trợ; và Serebryakov cùng những người đi lên từ hàng ngũ hẳn sẽ làm tốt việc đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000441
+    terms: []
+    pronouns_and_address: "Tanya tự xưng `Tôi` trong lời thoại chốt cuộc họp, quy chiếu cấp dưới/đơn vị bằng `họ`."
+    pov_and_voice: "Giọng chỉ huy ra quyết định dứt khoát."
+    modality_and_logic: "Bảo toàn lời chốt kế hoạch và thông báo sẽ phổ biến cho đơn vị."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000442
+    terms:
+      - "pháp sư"
+      - "chuyến dã ngoại"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `mình` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Giọng độc thoại nội tâm nửa đùa nửa thật đầy ác ý trước khi chọn quân đi tập kích đêm."
+    modality_and_logic: "Bảo toàn câu hỏi nội tâm của Tanya về việc sẽ chọn ai trong số các pháp sư mới đến cho “chuyến dã ngoại” đầu tiên."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000443
+    terms:
+      - "Pháp sư"
+      - "sĩ quan"
+      - "căn cứ hậu phương"
+      - "tiền tuyến"
+      - "Đại quân"
+      - "phòng tuyến địch"
+      - "bộ phận Hậu cần"
+    pronouns_and_address: "Đoạn mở đầu cảnh mới sau dấu ngắt cảnh (`space-break`); phần độc thoại nội tâm in nghiêng của Warren Grantz dùng `mình`."
+    pov_and_voice: "Chuyển sang điểm nhìn của Thiếu úy ma pháp Warren Grantz đang ăn tối tại căn cứ hậu phương."
+    modality_and_logic: "Bảo toàn thực đơn đạm bạc (khoai tây, chút thịt tươi, còn lại là đồ hộp) và dòng suy nghĩ về chế độ đãi ngộ pháp sư/sĩ quan, sự đối chiếu giữa căn cứ hậu phương với tiền tuyến, cùng tin đồn Đại quân đang ép phòng tuyến địch trong khi Hậu cần vẫn chật vật."
+    emphasis: "Bảo toàn chính xác phần nhấn mạnh `*...*` trên toàn bộ 3 câu độc thoại nội tâm tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000444
+    terms:
+      - "Thiếu úy ma pháp Warren Grantz"
+      - "được phong sĩ quan"
+      - "khẩu phần"
+      - "thao trường dã chiến"
+    pronouns_and_address: "Trần thuật ngôi thứ ba định danh `Thiếu úy ma pháp Warren Grantz`."
+    pov_and_voice: "Trần thuật ngôi thứ ba bám sát điểm nhìn của tân sĩ quan Grantz."
+    modality_and_logic: "Bảo toàn thông tin Grantz vừa mới được phong hàm sĩ quan, tác phong ăn nhanh kiểu nhà binh và nhận xét bữa ăn này vẫn khá hơn khẩu phần ở thao trường dã chiến."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000445
+    terms: []
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Grantz bằng `anh`."
+    pov_and_voice: "Trần thuật nội tâm phản ánh nỗi u ám của tân binh sắp ra mặt trận khốc liệt nhất."
+    modality_and_logic: "Bảo toàn sự chuyển ý: thức ăn đủ lót dạ và không khó nuốt, nhưng dù đồ ăn khá hơn thì mấy ngày qua anh vẫn chán nản vì bị điều tới khu vực giao tranh ác liệt nhất."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000446
+    terms:
+      - "học viện"
+      - "mặt trận Rhine"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `anh` kết hợp phản thân `mình`."
+    pov_and_voice: "Trần thuật hồi tưởng sự háo hức ngây thơ lúc mới ra trường của Grantz."
+    modality_and_logic: "Bảo toàn sự đối lập giữa tâm trạng hiện tại và lúc vừa rời học viện, khi anh từng run lên vì phấn khích và mơ tưởng lập chiến công vang dội để thành anh hùng ở Rhine."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000447
+    terms:
+      - "đoàn tàu quân sự"
+      - "khu vực Rhine"
+      - "tiền tuyến"
+    pronouns_and_address: "Trần thuật ngôi thứ ba khách quan."
+    pov_and_voice: "Trần thuật ghi lại sự nguội lạnh dần của bầu nhiệt huyết."
+    modality_and_logic: "Bảo toàn quan hệ tỷ lệ nghịch: đoàn tàu quân sự càng tiến gần khu vực Rhine trên đường ra tiền tuyến thì sự háo hức càng lụi tàn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000448
+    terms:
+      - "hố đạn pháo"
+      - "pháo đường sắt của Đế quốc"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Grantz bằng `anh`."
+    pov_and_voice: "Trần thuật giàu tính thị giác, khứu giác và thính giác khắc họa khung cảnh tàn khốc của chiến trường."
+    modality_and_logic: "Bảo toàn chuỗi ấn tượng làm nhụt nhuệ khí của Grantz: hố đạn pháo và những thứ cháy đen phồng rộp, tầm mắt một màu xám xịt của đồng ruộng cháy sém, mùi hăng nồng xộc vào mũi làm tinh thần sa sút, và tiếng gầm của trọng pháo (có lẽ là pháo đường sắt Đế quốc) làm nỗi lo tăng vọt."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000449
+    terms:
+      - "đồng đội"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `anh`, `những người khác` và phản thân `mình`."
+    pov_and_voice: "Trần thuật khắc họa sự lan tỏa của nỗi bất an tập thể trên tàu."
+    modality_and_logic: "Bảo toàn hình ảnh Grantz và những người khác bất giác bồn chồn nhìn quanh và nhận ra nhiều đồng đội cũng mang gương mặt lo âu hệt như mình."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000450
+    terms:
+      - "những người lính lâu năm"
+      - "Grantz"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `Grantz` và đại từ `anh` / `Anh`, phản thân `mình`."
+    pov_and_voice: "Trần thuật sinh hoạt của lính trên tàu quân sự."
+    modality_and_logic: "Bảo toàn các chi tiết: chia sẻ tin đồn là một trong số ít cách giết thời gian; lính lâu năm hoặc ngủ, đánh bài, hoặc tung tin đồn; Grantz lúc chợp mắt lúc trò chuyện theo nhịp tàu lắc lư và nghe lại cả những lời đồn mình từng biết."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000451
+    terms:
+      - "học viện"
+      - "Học viên Degurechaff"
+      - "Bộ chỉ huy Rhine"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `anh` cho Grantz; câu độc thoại nội tâm in nghiêng của Grantz quy chiếu Tanya bằng `Cô ta`."
+    pov_and_voice: "Trần thuật đan xen câu cảm thán nội tâm của Grantz khi nhớ lại giai thoại về Tanya ở học viện."
+    modality_and_logic: "Bảo toàn nội dung giai thoại ở học viện (rằng Học viên Degurechaff còn đáng sợ hơn cả chiến trường), câu tự nhủ xác nhận sự đáng sợ ấy, và bối cảnh Grantz mang những ý nghĩ đó khi đến trình diện tại Bộ chỉ huy Rhine."
+    emphasis: "Bảo toàn chính xác 1 câu `*...*` tương ứng thẻ `<html:em>` (`*Cô ta đúng là đáng sợ.*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000452
+    terms:
+      - "đơn vị huấn luyện"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `anh` và phản thân `mình`."
+    pov_and_voice: "Trần thuật tâm trạng thở phào tạm thời của Grantz."
+    modality_and_logic: "Bảo toàn nguyên nhân khiến Grantz nhẹ nhõm khi mới đến nơi là nghe tin mình được phân về một đơn vị huấn luyện."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000453
+    terms:
+      - "Bộ chỉ huy"
+      - "quân bổ sung"
+      - "tiền tuyến"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `anh`."
+    pov_and_voice: "Trần thuật lời giải thích từ phía Bộ chỉ huy."
+    modality_and_logic: "Bảo toàn quy trình: trước khi nhận phân công chính thức, anh sẽ được huấn luyện lại với tư cách quân bổ sung, nên việc đầu tiên là làm quen với tiền tuyến."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000454
+    terms: []
+    pronouns_and_address: "Câu độc thoại nội tâm in nghiêng dùng `mình`; câu trần thuật tiếp theo dùng `Anh`."
+    pov_and_voice: "Sự đối lập chua chát giữa niềm hy vọng vài ngày trước và thực tại phũ phàng."
+    modality_and_logic: "Bảo toàn câu tự khích lệ in nghiêng và lời dẫn xác nhận đó là suy nghĩ của vài ngày trước."
+    emphasis: "Bảo toàn chính xác 1 câu `*...*` tương ứng thẻ `<html:em>` (`*Có lẽ mình làm được!*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000455
+    terms:
+      - "mặt trận Rhine"
+    pronouns_and_address: "Tanya gọi các sĩ quan/pháp sư bổ sung là `các anh`."
+    pov_and_voice: "Lời chào mừng tân binh đầy kịch tính của Tanya."
+    modality_and_logic: "Bảo toàn câu chào mừng đến với mặt trận Rhine."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000456
+    terms:
+      - "quỷ dữ"
+      - "người huấn luyện"
+      - "chỉ huy"
+      - "Tiểu đoàn Pháp sư Xung kích Trên không số 203"
+      - "Thiếu tá von Degurechaff"
+    pronouns_and_address: "Chuyển sang tự sự ngôi thứ nhất của Grantz (`chúng tôi`) theo đúng sự chuyển ngôi trong nguyên văn; dùng `nó` để quy chiếu `quỷ dữ`."
+    pov_and_voice: "Tự sự ngôi thứ nhất của Grantz bày tỏ nỗi kinh hoàng khi diện kiến người chỉ huy đơn vị huấn luyện."
+    modality_and_logic: "Bảo toàn câu điều kiện khẳng định: nếu quỷ dữ có thật thì hẳn đó chính là người huấn luyện của họ—chỉ huy Tiểu đoàn Pháp sư Xung kích Trên không số 203, Thiếu tá von Degurechaff huyền thoại."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000457
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `chúng tôi` và quy chiếu Tanya bằng `cô ta`."
+    pov_and_voice: "Chuỗi câu ngắn dồn dập khắc họa ấn tượng rùng rợn về Tanya dưới mắt Grantz."
+    modality_and_logic: "Bảo toàn cả ba chi tiết: nụ cười, ánh mắt nhìn đám tân binh như nhìn lũ giòi bọ, và vẻ khát máu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000458
+    terms:
+      - "học viên khóa dưới"
+      - "chiến trường"
+      - "người huấn luyện"
+      - "cố vấn"
+    pronouns_and_address: "Tự sự ngôi thứ nhất và độc thoại nội tâm của Grantz dùng `Tôi` / `tôi`, quy chiếu Tanya bằng `cô ta` và học viên khóa dưới bằng `cậu ta`."
+    pov_and_voice: "Tự sự ngôi thứ nhất pha trộn nỗi sợ hãi tột độ và cảm giác trớ trêu của số phận."
+    modality_and_logic: "Bảo toàn cả 3 câu: sẵn sàng tin ngay lời đồn cô ta từng định giết hay đập vỡ sọ một học viên khóa dưới ngỗ ngược; ý nghĩ in nghiêng rằng nếu mắc lỗi trên chiến trường thì chắc chắn sẽ bị giết; và mức độ bị đe dọa bởi người huấn luyện trớ trêu thay lại kiêm luôn vai trò cố vấn của mình."
+    emphasis: "Bảo toàn chính xác 1 câu `*...*` tương ứng thẻ `<html:em>` (`*Nếu tôi mắc lỗi trên chiến trường, cô ta chắc chắn sẽ giết tôi.*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000459
+    terms: []
+    pronouns_and_address: "Độc thoại cảm thán lược chủ ngữ ngôi thứ nhất của Grantz."
+    pov_and_voice: "Lời than thở tuyệt vọng, đời thường của một tân sĩ quan trẻ tuổi."
+    modality_and_logic: "Bảo toàn câu cảm thán muốn bật khóc."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000460
+    terms:
+      - "quân bổ sung"
+      - "học viện"
+      - "ác quỷ đội lốt bé gái"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`, quy chiếu Tanya bằng `cô ta` / `đứa trẻ bé xíu ấy`, và dùng phản thân `mình` cho các tân binh khác."
+    pov_and_voice: "Tự sự ngôi thứ nhất phân tích sự chênh lệch thông tin giữa Grantz và số quân bổ sung còn lại."
+    modality_and_logic: "Bảo toàn đầy đủ 3 câu: chỉ mình Grantz trong đám quân bổ sung từng qua học viện; do đó những người khác hoặc không biết lời đồn ác quỷ đội lốt bé gái hoặc cười xòa chẳng coi ra gì; và những kẻ chỉ nghĩ đơn giản rằng một đứa trẻ làm được thì mình cũng đi đánh trận được vẫn còn thuộc nhóm ít đáng lo hơn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000461
+    terms:
+      - "trách nhiệm tập thể"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` / `Tôi`, quy chiếu Tanya bằng `cô ta`."
+    pov_and_voice: "Tự sự ngôi thứ nhất đau khổ trước nguy cơ bị vạ lây vì đồng đội khinh suất."
+    modality_and_logic: "Bảo toàn nỗi sợ đau quặn bụng khi nghĩ tới những gì đám người xem thường Tanya có thể gây ra, cùng sự căm ghét tột cùng đối với khái niệm trách nhiệm tập thể."
+    emphasis: "Bảo toàn chính xác 1 cụm `*...*` tương ứng thẻ `<html:em>` (`*trách nhiệm tập thể*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000462
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm in nghiêng và tự sự ngôi thứ nhất của Grantz dùng `tôi`."
+    pov_and_voice: "Nhịp tự sự tạo bước ngoặt bất ngờ ngay khi nhân vật vừa định đi ngủ sớm."
+    modality_and_logic: "Bảo toàn dòng suy nghĩ in nghiêng rằng tối nay được nghỉ nên đi ngủ sớm, và sự việc ập đến đúng vào khoảnh khắc vừa nghĩ xong."
+    emphasis: "Bảo toàn chính xác 2 câu đầu trong 1 cụm `*...*` tương ứng thẻ `<html:em>` (`*Tối nay tôi được nghỉ. Nên đi ngủ sớm mới được.*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000463
+    terms:
+      - "Tiểu đoàn Pháp sư Trên không số 203"
+      - "trung đội"
+      - "phòng hội ý"
+    pronouns_and_address: "Tự sự ngôi thứ nhất số nhiều của Grantz dùng `Chúng tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất thuật lại lệnh triệu tập khẩn cấp ban đêm."
+    modality_and_logic: "Bảo toàn lệnh triệu tập khẩn: Tiểu đoàn Pháp sư Trên không số 203 phải tập hợp theo trung đội tại phòng hội ý trong vòng ba phút."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000464
+    terms: []
+    pronouns_and_address: "Câu mệnh lệnh ngắn không dùng đại từ."
+    pov_and_voice: "Tiếng hô hối thúc khẩn trương của binh lính khi chạy đi tập hợp, nối trực tiếp sang mở đầu `ch-05-b19` (`p000465`)."
+    modality_and_logic: "Bảo toàn hai mệnh lệnh ngắn giục giã chạy nhanh."
+    emphasis: "none"
