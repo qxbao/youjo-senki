@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b09-source.jsonl
 source_package_sha256: dd8bd5f25906c15c796e9a76f375ad551c9638b77b8aeca490be386077c184a0
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -48,10 +48,16 @@ translation_report:
   validator: pass
   diff_check: pass
   findings: 1 minor
-  review_flags: [meaning, new_pending_terms, emphasis]
+  review_flags:
+  - meaning
+  - new_pending_terms
+  - emphasis
   pending_term_groups: 6
 review_coordination:
-  triggered_by: [meaning, new_pending_terms, emphasis]
+  triggered_by:
+  - meaning
+  - new_pending_terms
+  - emphasis
   serious: 0
   moderate: resolved_by_translator_and_signoff
   action: commit_ready
@@ -70,3 +76,14 @@ review_coordination:
     sidearms: chỉ với súng ngắn
     first_lieutenant: Trung úy Weiss
     nickname_p000238: gã Khốn-guchi ở Imphal
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b09
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 87
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b09.jsonl
