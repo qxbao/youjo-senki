@@ -1,0 +1,336 @@
+task_id: vol-01-ch-01-b02-argon-review
+parent_task_id: vol-01-ch-01-b02
+batch: vol-01-ch-01-b02
+role: reviewer
+reviewer: gemini-4-argon-medium
+model: gemini-4-argon-medium
+volume: vol-01
+chapter: 1
+status: approved_for_polish
+state: done
+review_path: reviews/prose/vol-01/ch-01-b02-argon-review.yml
+translation_path: translations/vol-01/ch-01-b02.jsonl
+source_package: work/vol-01/batches/ch-01-b02-source.jsonl
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+source_package_sha256: 4a458aa3d29cb03bf0cc40083b602a10f22f9ade76130350643c5b9b4b3dd06a
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+segment_id_start: YS-LN01/Text/chapter003b.xhtml/p000012
+segment_id_end: YS-LN01/Text/chapter003b.xhtml/p000028
+unit_count: 17
+segment_ids:
+- YS-LN01/Text/chapter003b.xhtml/p000012
+- YS-LN01/Text/chapter003b.xhtml/p000013
+- YS-LN01/Text/chapter003b.xhtml/p000014
+- YS-LN01/Text/chapter003b.xhtml/p000015
+- YS-LN01/Text/chapter003b.xhtml/p000016
+- YS-LN01/Text/chapter003b.xhtml/p000017
+- YS-LN01/Text/chapter003b.xhtml/p000018
+- YS-LN01/Text/chapter003b.xhtml/p000019
+- YS-LN01/Text/chapter003b.xhtml/p000020
+- YS-LN01/Text/chapter003b.xhtml/p000021
+- YS-LN01/Text/chapter003b.xhtml/p000022
+- YS-LN01/Text/chapter003b.xhtml/p000023
+- YS-LN01/Text/chapter003b.xhtml/p000024
+- YS-LN01/Text/chapter003b.xhtml/p000025
+- YS-LN01/Text/chapter003b.xhtml/p000026
+- YS-LN01/Text/chapter003b.xhtml/p000027
+- YS-LN01/Text/chapter003b.xhtml/p000028
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+counts:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+unresolved_findings: []
+pending_term_recommendations:
+- id: b02-artillery-fire-terms
+  source_term: base piece / calibration fire / fire for effect / fire mission
+  proposed_vi: khẩu pháo chuẩn / bắn hiệu chỉnh / bắn hiệu lực / nhiệm vụ bắn pháo
+  alternatives_vi:
+  - khẩu pháo cơ sở / bắn chỉnh pháo / bắn tiêu diệt / nhiệm vụ hỏa lực
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000012
+  - YS-LN01/Text/chapter003b.xhtml/p000014
+  - YS-LN01/Text/chapter003b.xhtml/p000015
+  volume: vol-01
+  chapter: 1
+  rationale: "Phối hợp đồng bộ hệ thuật ngữ chỉ huy pháo binh: “khẩu pháo chuẩn” chỉ khẩu pháo dùng làm mốc lấy phần tử bắn, “bắn hiệu chỉnh” đi đôi với “bắn hiệu lực” đúng quy trình tác chiến pháo binh sau khi xác nhận sai số điểm rơi trong giới hạn cho phép, và “nhiệm vụ bắn pháo” sát nghĩa khẩu lệnh của đơn vị pháo binh."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-ranks-second-lieutenant-warrant-officer
+  source_term: Second Lieutenant / Warrant Officer
+  proposed_vi: thiếu úy / chuẩn úy (viết hoa khi đứng trước tên riêng, viết thường khi đứng độc lập)
+  alternatives_vi:
+  - Thiếu úy / Chuẩn úy
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000013
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  volume: vol-01
+  chapter: 1
+  rationale: "Phân biệt rõ hai nấc quân hàm trong quá trình đào tạo và bổ nhiệm của Tanya: “Chuẩn úy Tanya Degurechaff” khi còn là học viên học viện quân sự trước lúc chiến sự nổ ra, và được phong “thiếu úy” (“Thiếu úy Tanya Degurechaff”) khi hoàn tất huấn luyện thực địa."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P01-tanya-narration-ch01
+  source_term: third-person reference to Tanya in narration
+  proposed_vi: lặp tên Tanya hoặc tỉnh lược chủ ngữ; tránh dùng đại từ “cô”
+  alternatives_vi:
+  - nó (chỉ dùng trong phạm vi quy ước trần thuật đã duyệt ở quyển đầu khi phù hợp ngữ cảnh)
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000013
+  - YS-LN01/Text/chapter003b.xhtml/p000023
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  - YS-LN01/Text/chapter003b.xhtml/p000028
+  volume: vol-01
+  chapter: 1
+  rationale: "Tuân thủ DEC-P01-001 và quyết định tạm ở Chương 1: dùng “mình” trong độc thoại nội tâm tự quy chiếu (p000013, p000016–p000020) và lặp tên “Tanya” hoặc tỉnh lược chủ ngữ ở các đoạn trần thuật ngôi thứ ba để giữ khoảng cách quan sát khách quan, không dùng đại từ “cô”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-reborn
+  source_term: reborn
+  proposed_vi: tái sinh
+  alternatives_vi:
+  - đầu thai
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000016
+  volume: vol-01
+  chapter: 1
+  rationale: "Giữ nhất quán phương án tạm “tái sinh” đã áp dụng từ Chương 0 (p000094, p000140) cho câu hỏi nội tâm của nhân vật về hoàn cảnh chuyển sinh sang thế giới này."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-three-numeric-vectors-and-interference-formulas
+  source_term: three numeric vectors / magical interference formulas / computation orb / formulas
+  proposed_vi: ba vectơ số / thuật thức gây nhiễu ma pháp / quả cầu tính toán / thuật thức
+  alternatives_vi:
+  - ba vectơ trị số / công thức can thiệp ma pháp / bảo châu tính toán / công thức
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000019
+  volume: vol-01
+  chapter: 1
+  rationale: "Kế thừa nhất quán “quả cầu tính toán” và “thuật thức” từ b01; dịch “three numeric vectors” là “ba vectơ số” và “magical interference formulas” là “thuật thức gây nhiễu ma pháp” để phản ánh cơ chế toán học–kỹ thuật khi tác động lên hiện thực bằng ma pháp."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-icbm-and-footnote
+  source_term: ICBM (with footnote 4)
+  proposed_vi: tên lửa đạn đạo liên lục địa⁴ (giữ chỉ số chú thích ⁴ ở lần xuất hiện đầu)
+  alternatives_vi:
+  - ICBM⁴
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000021
+  volume: vol-01
+  chapter: 1
+  rationale: "Dịch rõ nghĩa “tên lửa đạn đạo liên lục địa” trong lập luận so sánh chiến lược răn đe của nhân vật và bảo toàn ký hiệu chú thích ⁴ của văn bản nguồn ở lần nhắc đầu tiên."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-semi-war-and-brinkmanship-diplomacy
+  source_term: state of “semi-war” / brinkmanship diplomacy
+  proposed_vi: tình trạng “bán chiến tranh” / ngoại giao bên miệng hố chiến tranh
+  alternatives_vi:
+  - tình trạng “nửa thời chiến” / ngoại giao mạo hiểm sát bờ vực chiến tranh
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  volume: vol-01
+  chapter: 1
+  rationale: "Giữ ngoặc kép cho thuật ngữ “bán chiến tranh” và dùng thuật ngữ quan hệ quốc tế chuẩn “ngoại giao bên miệng hố chiến tranh” cho “brinkmanship diplomacy”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-rear-institutions-and-field-units
+  source_term: Technical Arsenal / Logistical Command / magic officer training school / border army / administrative unit
+  proposed_vi: Xưởng Vũ khí Kỹ thuật / Bộ Tư lệnh Hậu cần / trường đào tạo sĩ quan ma pháp / lục quân biên giới / đơn vị biên chế
+  alternatives_vi:
+  - Binh công xưởng Kỹ thuật / Bộ Chỉ huy Hậu cần / trường huấn luyện sĩ quan ma pháp / quân đội biên phòng / đơn vị quản lý hành chính
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000028
+  volume: vol-01
+  chapter: 1
+  rationale: "Chuẩn hóa tên gọi các cơ quan tuyến sau (“Xưởng Vũ khí Kỹ thuật”, “Bộ Tư lệnh Hậu cần”) và các đơn vị/cơ sở đào tạo (“trường đào tạo sĩ quan ma pháp”, “lục quân biên giới”, “đơn vị biên chế”) đúng ngữ cảnh tổ chức quân sự Đế quốc."
+  uncertainty: low
+  status: pending
+  canon: false
+term_recommendations:
+- id: b02-artillery-fire-terms
+  source_term: base piece / calibration fire / fire for effect / fire mission
+  proposed_vi: khẩu pháo chuẩn / bắn hiệu chỉnh / bắn hiệu lực / nhiệm vụ bắn pháo
+  alternatives_vi:
+  - khẩu pháo cơ sở / bắn chỉnh pháo / bắn tiêu diệt / nhiệm vụ hỏa lực
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000012
+  - YS-LN01/Text/chapter003b.xhtml/p000014
+  - YS-LN01/Text/chapter003b.xhtml/p000015
+  volume: vol-01
+  chapter: 1
+  rationale: "Phối hợp đồng bộ hệ thuật ngữ chỉ huy pháo binh: “khẩu pháo chuẩn” chỉ khẩu pháo dùng làm mốc lấy phần tử bắn, “bắn hiệu chỉnh” đi đôi với “bắn hiệu lực” đúng quy trình tác chiến pháo binh sau khi xác nhận sai số điểm rơi trong giới hạn cho phép, và “nhiệm vụ bắn pháo” sát nghĩa khẩu lệnh của đơn vị pháo binh."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-ranks-second-lieutenant-warrant-officer
+  source_term: Second Lieutenant / Warrant Officer
+  proposed_vi: thiếu úy / chuẩn úy (viết hoa khi đứng trước tên riêng, viết thường khi đứng độc lập)
+  alternatives_vi:
+  - Thiếu úy / Chuẩn úy
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000013
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  volume: vol-01
+  chapter: 1
+  rationale: "Phân biệt rõ hai nấc quân hàm trong quá trình đào tạo và bổ nhiệm của Tanya: “Chuẩn úy Tanya Degurechaff” khi còn là học viên học viện quân sự trước lúc chiến sự nổ ra, và được phong “thiếu úy” (“Thiếu úy Tanya Degurechaff”) khi hoàn tất huấn luyện thực địa."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: P01-tanya-narration-ch01
+  source_term: third-person reference to Tanya in narration
+  proposed_vi: lặp tên Tanya hoặc tỉnh lược chủ ngữ; tránh dùng đại từ “cô”
+  alternatives_vi:
+  - nó (chỉ dùng trong phạm vi quy ước trần thuật đã duyệt ở quyển đầu khi phù hợp ngữ cảnh)
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000013
+  - YS-LN01/Text/chapter003b.xhtml/p000023
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  - YS-LN01/Text/chapter003b.xhtml/p000028
+  volume: vol-01
+  chapter: 1
+  rationale: "Tuân thủ DEC-P01-001 và quyết định tạm ở Chương 1: dùng “mình” trong độc thoại nội tâm tự quy chiếu (p000013, p000016–p000020) và lặp tên “Tanya” hoặc tỉnh lược chủ ngữ ở các đoạn trần thuật ngôi thứ ba để giữ khoảng cách quan sát khách quan, không dùng đại từ “cô”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: review-reborn
+  source_term: reborn
+  proposed_vi: tái sinh
+  alternatives_vi:
+  - đầu thai
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000016
+  volume: vol-01
+  chapter: 1
+  rationale: "Giữ nhất quán phương án tạm “tái sinh” đã áp dụng từ Chương 0 (p000094, p000140) cho câu hỏi nội tâm của nhân vật về hoàn cảnh chuyển sinh sang thế giới này."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-three-numeric-vectors-and-interference-formulas
+  source_term: three numeric vectors / magical interference formulas / computation orb / formulas
+  proposed_vi: ba vectơ số / thuật thức gây nhiễu ma pháp / quả cầu tính toán / thuật thức
+  alternatives_vi:
+  - ba vectơ trị số / công thức can thiệp ma pháp / bảo châu tính toán / công thức
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000019
+  volume: vol-01
+  chapter: 1
+  rationale: "Kế thừa nhất quán “quả cầu tính toán” và “thuật thức” từ b01; dịch “three numeric vectors” là “ba vectơ số” và “magical interference formulas” là “thuật thức gây nhiễu ma pháp” để phản ánh cơ chế toán học–kỹ thuật khi tác động lên hiện thực bằng ma pháp."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-icbm-and-footnote
+  source_term: ICBM (with footnote 4)
+  proposed_vi: tên lửa đạn đạo liên lục địa⁴ (giữ chỉ số chú thích ⁴ ở lần xuất hiện đầu)
+  alternatives_vi:
+  - ICBM⁴
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000021
+  volume: vol-01
+  chapter: 1
+  rationale: "Dịch rõ nghĩa “tên lửa đạn đạo liên lục địa” trong lập luận so sánh chiến lược răn đe của nhân vật và bảo toàn ký hiệu chú thích ⁴ của văn bản nguồn ở lần nhắc đầu tiên."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-semi-war-and-brinkmanship-diplomacy
+  source_term: state of “semi-war” / brinkmanship diplomacy
+  proposed_vi: tình trạng “bán chiến tranh” / ngoại giao bên miệng hố chiến tranh
+  alternatives_vi:
+  - tình trạng “nửa thời chiến” / ngoại giao mạo hiểm sát bờ vực chiến tranh
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000027
+  volume: vol-01
+  chapter: 1
+  rationale: "Giữ ngoặc kép cho thuật ngữ “bán chiến tranh” và dùng thuật ngữ quan hệ quốc tế chuẩn “ngoại giao bên miệng hố chiến tranh” cho “brinkmanship diplomacy”."
+  uncertainty: low
+  status: pending
+  canon: false
+- id: b02-rear-institutions-and-field-units
+  source_term: Technical Arsenal / Logistical Command / magic officer training school / border army / administrative unit
+  proposed_vi: Xưởng Vũ khí Kỹ thuật / Bộ Tư lệnh Hậu cần / trường đào tạo sĩ quan ma pháp / lục quân biên giới / đơn vị biên chế
+  alternatives_vi:
+  - Binh công xưởng Kỹ thuật / Bộ Chỉ huy Hậu cần / trường huấn luyện sĩ quan ma pháp / quân đội biên phòng / đơn vị quản lý hành chính
+  segment_ids:
+  - YS-LN01/Text/chapter003b.xhtml/p000026
+  - YS-LN01/Text/chapter003b.xhtml/p000028
+  volume: vol-01
+  chapter: 1
+  rationale: "Chuẩn hóa tên gọi các cơ quan tuyến sau (“Xưởng Vũ khí Kỹ thuật”, “Bộ Tư lệnh Hậu cần”) và các đơn vị/cơ sở đào tạo (“trường đào tạo sĩ quan ma pháp”, “lục quân biên giới”, “đơn vị biên chế”) đúng ngữ cảnh tổ chức quân sự Đế quốc."
+  uncertainty: low
+  status: pending
+  canon: false
+locked_choices:
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000012
+  locks:
+  - Giữ hô hiệu “Goliath 07, rõ…” và các thuật ngữ pháo binh “Khẩu pháo chuẩn”, “bắn hiệu chỉnh”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000013
+  locks:
+  - Giữ các thuật ngữ “pháp sư không quân”, “Thiếu úy Tanya Degurechaff”, “quan sát viên pháo binh”, địa danh “vùng cực bắc Norden”, chi tiết máy vô tuyến “to gần bằng Tanya” (lặp tên Tanya, không dùng đại từ “cô”), và câu độc thoại nội tâm dùng đại từ “mình” cùng cấu trúc phủ định kép “không phải mình không tự hỏi hay nghi ngờ việc mình đang làm khi bay ra đây”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000014
+  locks:
+  - Giữ khẩu lệnh báo cáo “Đã xác nhận điểm rơi…”, tình thái ước lượng “Có vẻ trúng gần mục tiêu. Sai số có vẻ nằm trong giới hạn cho phép là mười mét.” và mệnh lệnh “Bắn hiệu lực.”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000015
+  locks:
+  - Giữ hô hiệu “Goliath 07, rõ.” và khẩu lệnh “Bắt đầu nhiệm vụ bắn pháo ngay.”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000016
+  locks:
+  - Giữ cấu trúc phủ định “không thể phủ nhận trong đó ánh lên vẻ bực bội”, đại từ nội tâm “mình”, thuật ngữ “tái sinh”, chi tiết “mang giới tính đối lập” và câu hỏi nội tâm không in nghiêng theo DEC-P01-002.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000017
+  locks:
+  - Giữ đại từ tự quy chiếu “mình”, quan hệ nhượng bộ–nhân quả “Ban đầu, dù con gái phát triển nhanh hơn con trai, chênh lệch kích thước quá lớn khiến mình không thể điều khiển cơ thể với khả năng giữ thăng bằng mà mình đã tin cậy suốt nhiều năm”, và nhận thức trở thành “một đứa trẻ bất lực” kể từ khi nhập ngũ.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000018
+  locks:
+  - Giữ đại từ “Mình / mình”, đại từ ngôi thứ ba “anh ta” cho bạn tập nam khi đấu tập, và các chi tiết khẩu súng quá to, ngắm bắn tệ hại, độ giật làm bầm tím vai cùng ánh mắt thoáng vẻ thương hại.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000019
+  locks:
+  - Giữ đại từ “mình”, các thuật ngữ “quả cầu tính toán”, “ba vectơ số”, “chồng miền con số lên các thuật thức gây nhiễu ma pháp”, “chồng thế giới lên các thuật thức của mình”, và sắc thái mức độ “dù chỉ vừa đủ”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000020
+  locks:
+  - Giữ tình thái suy đoán “Có lẽ mình đã vượt qua được mọi dè dặt về ma pháp nhờ tính hữu dụng của nó như một công cụ” và câu hỏi phản vấn “Nhưng tại sao cứ có công cụ trong tay là mình phải dùng nó?”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000021
+  locks:
+  - Giữ lời cảm thán mở đầu “À, ra vậy.”, đại từ khái quát “chúng ta”, thuật ngữ kèm chỉ số chú thích “tên lửa đạn đạo liên lục địa⁴” ở lần xuất hiện đầu và không kèm chỉ số ở lần thứ hai, câu hỏi phản vấn và sự tương đồng với tin đồn về quan hệ căng thẳng với các nước láng giềng.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000022
+  locks:
+  - Giữ tên “Đế quốc”, “Liên minh Entente”, cụm “những vụ đụng độ biên giới không chính thức” và mệnh đề đối lập “Nhưng ít nhất trên chính trường quốc tế, trên danh nghĩa không có tranh chấp nào về vùng lãnh thổ này.”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000023
+  locks:
+  - Giữ điểm nhìn “Với Tanya” (không dùng đại từ “cô”), tên “Đế quốc”, “Liên Xô”, và phép so sánh việc các nước xung quanh tự tránh tranh chấp biên giới vì sức mạnh áp đảo của Đế quốc.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000024
+  locks:
+  - Giữ nhịp tự đính chính thì quá khứ “…À không, đã từng mạnh.” và nhận định “Điều đáng tiếc duy nhất khi bàn về sức mạnh của Đế quốc là phải nhắc đến nó như chuyện đã qua.”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000025
+  locks:
+  - Giữ dấu ngoặc kép quanh chữ “vô tình” trong “những phát súng “vô tình””, quan hệ nhân quả “dẫn đến giao tranh lẻ tẻ vì hiểu lầm”, việc xử lý ở “cấp chỉ huy địa phương” và cấu trúc “không thể phủ nhận căng thẳng vẫn không ngừng gia tăng”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000026
+  locks:
+  - Giữ giả định trái thực tế trong hoàn cảnh bình thường, cách lặp tên “Tanya” (không dùng “cô”), các thuật ngữ “tình trạng “bán chiến tranh””, “Chuẩn úy Tanya Degurechaff”, “học viện quân sự”, “Xưởng Vũ khí Kỹ thuật” và “Bộ Tư lệnh Hậu cần”.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000027
+  locks:
+  - Giữ cách lặp tên “Tanya” hoặc tỉnh lược chủ ngữ xuyên suốt đoạn (không dùng đại từ “cô”), các thuật ngữ “ngoại giao bên miệng hố chiến tranh”, “lục quân”, “học viện quân sự”, “thiếu úy” (viết thường), “hô hiệu Fairy 08”, và dấu nhấn mạnh Markdown `*nhỏ tuổi*` theo DEC-P01-002.
+- segment_id: YS-LN01/Text/chapter003b.xhtml/p000028
+  locks:
+  - Giữ cách lặp tên “Tanya”, các thuật ngữ “lục quân biên giới”, “Đơn vị biên chế”, “trường đào tạo sĩ quan ma pháp”, cùng hai mốc thời gian “trực chờ trong bốn mươi tám giờ” và “vào ca trực cách đây hai mươi tư giờ”.
+files_written:
+- reviews/prose/vol-01/ch-01-b02-argon-review.yml
+validator: not_run
+diff_check: not_run
+risks: []
+commit: null
+next_action: polish
