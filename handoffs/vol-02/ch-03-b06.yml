@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-03-b06-source.jsonl
 source_package_sha256: bf8d9dc1effee562301a38c6701c16800de31c20d22ffa5041e7304c0450013a
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -118,7 +118,11 @@ review_coordination:
   signoff_serious: 0
   signoff_moderate: 0
   signoff_minor: 4
-  open_minor_findings: [F9, F13, M1, M2]
+  open_minor_findings:
+  - F9
+  - F13
+  - M1
+  - M2
 translator_followup:
   state: done
   task_id: vol-02-ch-03-b06-review-fixes
@@ -147,3 +151,14 @@ translator_followup:
   - p000140
   - p000141
   - p000142
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-03-b06
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 119
+  state: released
+  allowlist:
+  - translations/vol-02/ch-03-b06.jsonl
