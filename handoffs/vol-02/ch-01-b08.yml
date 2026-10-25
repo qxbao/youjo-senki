@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b08-source.jsonl
 source_package_sha256: e2ad2ff5da1b027c6b5322244aa42655558bca36569f6a94098b56ad35824e10
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -50,7 +50,9 @@ translation_report:
   findings: []
   pending_term_groups: 6
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   serious: 0
   moderate: resolved_by_translator_and_signoff
   action: commit_ready
@@ -66,8 +68,21 @@ review_coordination:
   minor_followup: p000210 emphasis span narrowed; p000216 pronoun clarified
   pending_status: provisional_non_canon
   review_report: reviews/prose/vol-02/ch-01-b08-claude.md
-  review_scope_note: Reviewer reported reading source JSONL outside the b08 prepared package and consulting other batches; coordinator follow-up is grounded in b08 findings and the pending ledger only.
+  review_scope_note: Reviewer reported reading source JSONL outside the b08 prepared
+    package and consulting other batches; coordinator follow-up is grounded in b08
+    findings and the pending ledger only.
   provisional_review_choices:
     serebryakov_rank: Thiếu úy
     defensive_shell: lớp vỏ phòng ngự
     emphasis_p000210: fix grammar and keep the source emphasis span
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b08
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 86
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b08.jsonl
