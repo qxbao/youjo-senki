@@ -1,0 +1,409 @@
+task_id: vol-02-ch-06-b11
+review_task_id: vol-02-ch-06-b11-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 6
+batch: b11
+segment_id_start: YS-LN02/Text/part0030.xhtml/p000331
+segment_id_end: YS-LN02/Text/part0030.xhtml/p000358
+unit_count: 28
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: c1dfda6756f791aad672a6f89a87de0017104fd7be57d0cc8a123f631b5d0831
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-06-b11-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-06-b11-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000339
+    category: dialogue_address_consistency
+    issue: >-
+      Tại `p000339`, lời đáp của vị tư lệnh quân đoàn với Tanya mở đầu bằng đại từ ngôi thứ hai `Cậu` (`“Cậu nói đúng. Nhưng đâu phải ai cũng được sống cuộc đời mình mong muốn.”`), trong khi xuyên suốt cuộc trao đổi ở cuối `b10` (`p000304`, `p000310`, `p000328`) và ngay trong lời tự nhủ nội tâm kế tiếp ở `p000340`–`p000341`, ông gọi Tanya bằng quân hàm `Thiếu tá` / `Thiếu tá Pháp sư von Degurechaff` hoặc đại từ `cô`.
+    basis: >-
+      Trong bản thân gói nguồn `b11`, lời thoại ở `p000339` không gắn nhãn người nói trực tiếp mà được nhận diện qua câu suy nghĩ tiếp nối ở `p000340`. Cách dịch `Cậu nói đúng` vẫn truyền đạt chuẩn nghĩa đồng tình và giữ giọng trao đổi trầm lắng của hai người lính, không làm lệch quan hệ hay cốt truyện.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể giữ nguyên hoặc chỉnh nhẹ thành `“Cô nói đúng...”` / `“Đúng thế...”` nếu điều phối viên muốn đồng bộ tuyệt đối trục xưng hô với `b10` và `p000341`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000351
+    category: footnote_marker_tracking
+    issue: >-
+      Tại câu thứ ba của `p000351` (`Đúng rồi, tổ chức WTO, tổ chức đã nghiền nát Mùa xuân Praha, chính là WTO.`), gói nguồn XHTML có đánh dấu chỉ số chú thích trên cao `20` ngay sau chữ viết tắt `WTO` lần đầu (`<html:sup class="calibre8">20</html:sup>`), nhưng bản dịch hiện lược bỏ ký hiệu số chú thích này; ngoài ra việc thêm danh từ loại biệt `tổ chức` lặp hai lần làm nhịp câu hơi nặng hơn cấu trúc đồng nhất ngắn gọn trong nguồn.
+    basis: >-
+      Nội dung chú thích 20 nằm ở tệp khác ngoài phạm vi gói nguồn `b11`, và `canon/decisions.md` hiện chưa khóa quy ước biểu diễn ký hiệu chú thích trong trường `translation`. Bản dịch giữ nguyên chữ viết tắt `WTO` mà không tự khai triển là hoàn toàn đúng giới hạn của `AGENTS.md`.
+    recommendation: >-
+      Không chặn signoff; ghi nhận vị trí mốc chú thích `20` tại `p000351` để điều phối viên theo dõi khi dựng EPUB, và ở bước polish có thể cân nhắc rút gọn nhịp lặp thành `Đúng rồi, WTO, bên đã nghiền nát Mùa xuân Praha, suy cho cùng vẫn là WTO.` (hoặc thêm chỉ số `²⁰` nếu điều phối viên áp dụng quy ước giữ mốc chú thích).
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000352
+    category: terminology_consistency
+    issue: >-
+      Tại `p000352`, thuật ngữ chỉ phương tiện ma đạo đi kèm thuốc nổ mạnh được dịch là `các công thức gây nổ` (`...dùng thuốc nổ mạnh và các công thức gây nổ để phá hủy những tòa nhà đá hết mức có thể.`), trong khi `P01-formulas` và các lô trước (`vol-01` `ch-03-b20`–`b23`) ưu tiên phương án `thuật thức gây nổ` để phân biệt rõ phép thuật tác chiến của pháp sư với công thức toán/hóa học thông thường.
+    basis: >-
+      `chapter6_b11_reviewer_recommendations` trong `work/run-state/pending-terms.yml` hiện cho phép giữ tạm `công thức gây nổ` (với `thuật thức gây nổ` là phương án thay thế) miễn là tách bạch rõ với cụm `thuốc nổ mạnh` đứng trước. Câu dịch hiện tại bảo toàn hoàn toàn chính xác mục đích quân sự là phá vỡ lớp tường đá để làm lộ phần cấu trúc dễ bắt lửa bên trong.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể giữ nguyên theo `chapter6_b11_reviewer_recommendations` hoặc đồng bộ thành `các thuật thức gây nổ` theo `P01-formulas`.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch06-b11-ranks-units-and-command-terms
+    source_term: Zettour / Rudersdorf / Magic Major von Degurechaff / standby dugout / forward-most line / command dugout / highest-priority orders / enemy mages / battalion-sized militia / artillery / supply lines / local army corps commander / frontline officer / battalion's headquarters / Imperial Army
+    proposed_vi: Zettour / Rudersdorf / Thiếu tá Pháp sư von Degurechaff / hầm trú quân nơi chờ lệnh / tuyến trước cùng / hầm chỉ huy / mệnh lệnh ưu tiên cao nhất / các pháp sư địch / lực lượng dân quân quy mô cấp tiểu đoàn / pháo binh / tuyến tiếp tế / tư lệnh quân đoàn địa phương / sĩ quan tiền tuyến / sở chỉ huy tiểu đoàn / Lục quân Đế quốc (Quân đội Đế quốc)
+    alternatives_vi:
+      - Thiếu tá pháp sư von Degurechaff / hầm chờ lệnh / tuyến đầu tiên / đội dân quân quy mô tiểu đoàn / chỉ huy quân đoàn địa phương / Quân đội Đế quốc
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000335
+      - YS-LN02/Text/part0030.xhtml/p000340
+      - YS-LN02/Text/part0030.xhtml/p000342
+      - YS-LN02/Text/part0030.xhtml/p000343
+      - YS-LN02/Text/part0030.xhtml/p000345
+      - YS-LN02/Text/part0030.xhtml/p000346
+      - YS-LN02/Text/part0030.xhtml/p000347
+      - YS-LN02/Text/part0030.xhtml/p000349
+      - YS-LN02/Text/part0030.xhtml/p000353
+    rationale: >-
+      Đồng bộ với `chapter6_b10/b11_coordinator_choices` và bản sửa sau phản biện F06: giữ nguyên tên riêng `Zettour`, `Rudersdorf`; dùng `Thiếu tá Pháp sư von Degurechaff` (`p000340`) và `tư lệnh quân đoàn địa phương` (`p000347`) mà không tự suy diễn quân hàm cụ thể của vị tư lệnh; diễn đạt chính xác `hầm trú quân nơi mình chờ lệnh ở tuyến trước cùng` và `hầm chỉ huy an toàn ở phía sau` (`p000342`) để tránh hiểu nhầm thành lực lượng dự bị; giữ `lực lượng dân quân quy mô cấp tiểu đoàn` (`p000345`).
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch06-b11-urban-bombardment-and-historical-legal-references
+    source_term: the die is cast / Arene / Rhine front / rail transport network / Prague Spring / mob / riot / legally in the white / indiscriminate strategic bombardment / WTO / high explosives / explosion formulas / incendiary bombs / artillery time bombs / Dresden / massacre / carpet-bombing / Warsaw Uprising / gray zone / war criminal / insubordination / fleeing before the enemy / retroactively enforced / Military Tribunal for the Far East
+    proposed_vi: xúc xắc đã gieo — con xúc xắc / Arene / Mặt trận Rhine / mạng lưới vận tải đường sắt / Mùa xuân Praha / đám đông / bạo loạn / xét về mặt pháp lý hoàn toàn trong sạch / oanh kích chiến lược không phân biệt mục tiêu / WTO / thuốc nổ mạnh / công thức gây nổ (thuật thức gây nổ) / bom cháy / đạn pháo hẹn giờ / Dresden / cuộc thảm sát / ném bom rải thảm / Khởi nghĩa Warsaw / vùng xám / tội phạm chiến tranh / tội bất tuân / bỏ chạy trước mặt địch / áp dụng hồi tố / Tòa án Quân sự Viễn Đông
+    alternatives_vi:
+      - sự đã rồi — quyết định ấy / ván đã đóng thuyền — ván cược ấy / Mùa xuân Prague / bắn phá chiến lược không phân biệt mục tiêu / thuật thức gây nổ / oanh tạc rải thảm / Tòa án Quân sự vùng Viễn Đông
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000332
+      - YS-LN02/Text/part0030.xhtml/p000333
+      - YS-LN02/Text/part0030.xhtml/p000334
+      - YS-LN02/Text/part0030.xhtml/p000341
+      - YS-LN02/Text/part0030.xhtml/p000343
+      - YS-LN02/Text/part0030.xhtml/p000344
+      - YS-LN02/Text/part0030.xhtml/p000346
+      - YS-LN02/Text/part0030.xhtml/p000347
+      - YS-LN02/Text/part0030.xhtml/p000348
+      - YS-LN02/Text/part0030.xhtml/p000350
+      - YS-LN02/Text/part0030.xhtml/p000351
+      - YS-LN02/Text/part0030.xhtml/p000352
+      - YS-LN02/Text/part0030.xhtml/p000353
+      - YS-LN02/Text/part0030.xhtml/p000354
+      - YS-LN02/Text/part0030.xhtml/p000355
+      - YS-LN02/Text/part0030.xhtml/p000356
+      - YS-LN02/Text/part0030.xhtml/p000358
+    rationale: >-
+      Áp dụng đầy đủ các lựa chọn đã được sửa và kiểm chứng qua `chapter6_b11_active_choices`: bảo toàn sự lặp lại có chủ ý của hình ảnh xúc xắc giữa `p000332` (`*Vậy là xúc xắc đã gieo.*`) và `p000333` (`con xúc xắc`); dùng `oanh kích chiến lược không phân biệt mục tiêu` (`p000350`) đủ độ mở bao quát cả không kích lẫn pháo kích; giữ nguyên chữ viết tắt `WTO` (`p000351`) không tự khai triển ngoài package; giữ cấu tạo tên `Tòa án Quân sự Viễn Đông` (`p000358`) và các liên tưởng lịch sử (`Mùa xuân Praha`, `Dresden`, `Khởi nghĩa Warsaw`) đúng trong phạm vi suy luận nội tâm của Tanya.
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch06-b11-pronouns-and-pov-shift
+    source_term: corps commander dialogue and inner monologue (p000331–p000341) vs Tanya third-person narration and first-person inner monologue (p000342–p000358)
+    proposed_vi: ở p000331–p000341 (trước ngắt cảnh space-break1), thoại dùng chúng ta cho những người lính và cậu (hoặc cô) ở p000339, nội tâm vị tư lệnh gọi Zettour/Rudersdorf là họ / lũ người độc ác và hướng tới Tanya bằng Thiếu tá Pháp sư von Degurechaff / cô; từ p000342–p000358 (sau space-break1), câu trần thuật ngôi thứ ba quy chiếu Tanya bằng nó / Tanya (p000344, p000346–p000349, câu 2 p000351), còn độc thoại nội tâm ngôi thứ nhất của Tanya tự quy chiếu nhất quán bằng mình (và chúng ta cho phía quân Đế quốc)
+    alternatives_vi:
+      - dùng Cô nói đúng hoặc lược đại từ ở p000339; lặp tên Tanya thay cho nó ở các câu trần thuật nếu cần
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000331
+      - YS-LN02/Text/part0030.xhtml/p000334
+      - YS-LN02/Text/part0030.xhtml/p000335
+      - YS-LN02/Text/part0030.xhtml/p000336
+      - YS-LN02/Text/part0030.xhtml/p000337
+      - YS-LN02/Text/part0030.xhtml/p000338
+      - YS-LN02/Text/part0030.xhtml/p000339
+      - YS-LN02/Text/part0030.xhtml/p000340
+      - YS-LN02/Text/part0030.xhtml/p000341
+      - YS-LN02/Text/part0030.xhtml/p000342
+      - YS-LN02/Text/part0030.xhtml/p000343
+      - YS-LN02/Text/part0030.xhtml/p000344
+      - YS-LN02/Text/part0030.xhtml/p000346
+      - YS-LN02/Text/part0030.xhtml/p000347
+      - YS-LN02/Text/part0030.xhtml/p000348
+      - YS-LN02/Text/part0030.xhtml/p000349
+      - YS-LN02/Text/part0030.xhtml/p000350
+      - YS-LN02/Text/part0030.xhtml/p000351
+      - YS-LN02/Text/part0030.xhtml/p000353
+      - YS-LN02/Text/part0030.xhtml/p000354
+      - YS-LN02/Text/part0030.xhtml/p000355
+      - YS-LN02/Text/part0030.xhtml/p000356
+      - YS-LN02/Text/part0030.xhtml/p000357
+      - YS-LN02/Text/part0030.xhtml/p000358
+    rationale: >-
+      Tuân thủ nghiêm ngặt `DEC-P01-001` và ranh giới chuyển điểm nhìn tại `space-break1` (`p000342`): ở nửa đầu (`p000331`–`p000341`), giữ nguyên lời nhận xét thầm hướng tới Tanya (`cô` tại `p000341`) mà không áp quy ước `nó` của trần thuật vào nội tâm nhân vật khác; ở nửa sau (`p000342`–`p000358`), phân tách chuẩn xác giữa các đoạn tự sự nội tâm ngôi thứ nhất của Tanya (`mình` tại `p000342`–`p000343`, `p000350`, `p000353`–`p000358`) và các đoạn trần thuật ngôi thứ ba nói về Tanya (`nó` tại `p000344`, `p000346`–`p000349`, câu 2 `p000351`), đồng thời không tự thêm dấu in nghiêng cho các câu độc thoại ngôi thứ nhất không có `<html:em>` trong nguồn (`DEC-P01-002`).
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000331
+    terms: []
+    pronouns_and_address: "Câu thoại ngắn không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng cảm thán tiếc nuối trong lời thoại mở đầu đoạn kết cuộc trao đổi."
+    modality_and_logic: "Bảo toàn cặp dấu ngoặc kép của lời thoại và sắc thái cảm thán (`“Nhưng chuyện này thật sự đáng tiếc.”`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000332
+    terms:
+      - "xúc xắc đã gieo"
+    pronouns_and_address: "Không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng độc thoại nội tâm trầm nặng khi bước qua lằn ranh quyết định không thể đảo ngược."
+    modality_and_logic: "Bảo toàn hình ảnh thành ngữ xúc xắc (`*Vậy là xúc xắc đã gieo.*`) để liên kết trực tiếp với `p000333`."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ câu tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000333
+    terms:
+      - "con xúc xắc"
+    pronouns_and_address: "Dùng cụm chỉ đối tượng `người phải chịu trách nhiệm` và chủ thể chung `người ta`."
+    pov_and_voice: "Giọng trần thuật chiêm nghiệm sự ghê tởm của người phải gánh vác mệnh lệnh."
+    modality_and_logic: "Bảo toàn tình thái suy đoán (`có lẽ`) và phép so sánh phủ định tuyệt đối gắn với hình ảnh `con xúc xắc` gây buồn nôn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000334
+    terms:
+      - "binh lính"
+      - "mệnh lệnh"
+      - "Arene"
+    pronouns_and_address: "Lời thoại dùng đại từ gộp `chúng ta` cho những người lính."
+    pov_and_voice: "Giọng đồng tình lạnh lùng, đặt nghĩa vụ tuân lệnh của người lính lên trên hết."
+    modality_and_logic: "Bảo toàn đủ 3 câu: xác nhận chuyện này *thật sự quá đỗi* tệ hại -> lập trường nhưng chúng ta là binh lính -> mệnh đề điều kiện nếu là mệnh lệnh thì dù thành phố Arene xinh đẹp đến đâu cũng phải thiêu rụi."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: chỉ bọc dấu `*...*` quanh cụm trạng từ tăng cường `*thật sự quá đỗi*` tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000335
+    terms:
+      - "Zettour"
+      - "Rudersdorf"
+    pronouns_and_address: "Độc thoại nội tâm dùng lời rủa trực diện `Đồ quỷ sứ` và gọi `Zettour, Rudersdorf` là `lũ người độc ác`."
+    pov_and_voice: "Giọng rủa thầm đầy kinh hãi và phẫn uất trong nội tâm vị tư lệnh quân đoàn."
+    modality_and_logic: "Bảo toàn cả hai câu cảm thán ngắn gọn kết tội bản chất tàn nhẫn của Tanya và hai tướng lĩnh bộ tổng tham mưu."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ 2 câu tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000336
+    terms: []
+    pronouns_and_address: "Quy chiếu nhóm Zettour, Rudersdorf (và Tanya) bằng `họ`."
+    pov_and_voice: "Giọng nhận định bàng hoàng trong nội tâm vị tư lệnh trước sự bất chấp thủ đoạn của thượng tầng."
+    modality_and_logic: "Bảo toàn tình thái suy đoán (`Xem ra`), mục đích (`để chiến thắng cuộc chiến này`) và câu thứ hai nhấn mạnh mức độ tuyệt đối theo đúng nghĩa đen (`Họ thật sự sẽ làm bất cứ điều gì, chẳng chừa thứ gì`)."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ 2 câu tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000337
+    terms:
+      - "binh lính"
+    pronouns_and_address: "Quy chiếu bằng `Họ` / `họ`."
+    pov_and_voice: "Giọng độc thoại nội tâm gay gắt, cho rằng sự cuồng chiến thắng của họ đã vượt ngưỡng tỉnh táo."
+    modality_and_logic: "Bảo toàn đủ 2 câu: ý định giành chiến thắng bằng mọi giá kể cả phát điên -> mệnh đề nhượng bộ tuy là binh lính nhưng họ đúng là phát rồ."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ 2 câu tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000338
+    terms: []
+    pronouns_and_address: "Lời thoại dùng đại từ phủ định phiếm chỉ `Đừng ai`."
+    pov_and_voice: "Giọng buông tiếng thở dài ngao ngán cho số phận nhà binh."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu `…` và câu khuyên phủ định (`“…Đừng ai làm lính cả.”`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000339
+    terms: []
+    pronouns_and_address: "Lời đáp dùng `Cậu` (hoặc `Cô`) và đại từ bất định `ai` kèm phản thân `mình`."
+    pov_and_voice: "Giọng đồng cảm trầm đục của người lính già trước thực tế đời người."
+    modality_and_logic: "Bảo toàn sự tán đồng ở câu đầu và câu phủ định bộ phận ở câu sau (`Nhưng đâu phải ai cũng được sống cuộc đời mình mong muốn`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000340
+    terms:
+      - "Thiếu tá Pháp sư von Degurechaff"
+    pronouns_and_address: "Độc thoại nội tâm hướng trực tiếp tới Tanya bằng quân hàm đầy đủ `Thiếu tá Pháp sư von Degurechaff`."
+    pov_and_voice: "Giọng xác nhận thầm trong đầu vị tư lệnh quân đoàn."
+    modality_and_logic: "Bảo toàn câu khẳng định ngắn gắn với danh xưng."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ câu tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000341
+    terms:
+      - "Mặt trận Rhine"
+    pronouns_and_address: "Nội tâm vị tư lệnh hướng trực tiếp tới Tanya bằng đại từ ngôi thứ hai `cô`."
+    pov_and_voice: "Giọng đánh giá lạnh người khép lại góc nhìn của vị tư lệnh quân đoàn trước khi chuyển cảnh."
+    modality_and_logic: "Bảo toàn cả hai mức tình thái suy đoán (`có lẽ`, `Có lẽ`), phép so sánh không ai hợp làm lính hơn cô, và hình ảnh cảm thấy quen thuộc như ở nhà giữa địa ngục nơi Mặt trận Rhine."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ 2 câu tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000342
+    terms:
+      - "hầm trú quân"
+      - "tuyến trước cùng"
+      - "hầm chỉ huy"
+      - "mệnh lệnh ưu tiên cao nhất"
+      - "pháp sư địch"
+      - "hậu phương"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: sau ngắt cảnh `space-break1`, độc thoại nội tâm ngôi thứ nhất của Tanya tự quy chiếu nhất quán bằng `Mình` / `mình`."
+    pov_and_voice: "Giọng tự sự nội tâm thực dụng, tỉnh táo của Tanya khi điểm lại diễn biến nhận lệnh."
+    modality_and_logic: "Bảo toàn sự tương phản giữa thắc mắc ban đầu (được triệu tập khỏi hầm trú quân chờ lệnh ở tuyến trước cùng về hầm chỉ huy an toàn ở phía sau theo mệnh lệnh ưu tiên cao nhất) với nhiệm vụ thực tế vừa nhận (tiêu diệt pháp sư địch xâm nhập địa điểm trọng yếu ở hậu phương), cùng nhận xét đánh pháp sư địch vốn là nhiệm vụ hết sức bình thường."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000343
+    terms:
+      - "“chiến trường”"
+      - "Arene"
+      - "mạng lưới vận tải đường sắt"
+      - "Đế quốc"
+      - "cấp trên"
+    pronouns_and_address: "Nội tâm Tanya dùng `chúng ta` cho lực lượng thực thi mệnh lệnh và `mình` khi nói về chuỗi cấp trên (`cấp trên của cấp trên của cấp trên mình`)."
+    pov_and_voice: "Giọng phân tích nhiệm vụ rành mạch của Tanya."
+    modality_and_logic: "Bảo toàn đủ 4 câu: điểm khác biệt là “chiến trường” trong ngoặc kép sẽ là một thành phố -> nhấn mạnh vị trí của Arene là nút giao trọng yếu trong mạng lưới vận tải đường sắt của Đế quốc -> yêu cầu phải hành động mau lẹ kèm dấu chấm lửng -> nội dung chỉ thị từ ba tầng cấp trên."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: chỉ bọc dấu `*...*` quanh mệnh đề chỉ thị `*Tiêu diệt kẻ địch bằng mọi cách cần thiết*` tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000344
+    terms:
+      - "Mùa xuân Praha"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: chuyển sang câu trần thuật ngôi thứ ba quy chiếu Tanya bằng `nó` kèm phản thân `mình`."
+    pov_and_voice: "Giọng trần thuật bám sát lăng kính lịch sử kiếp trước của Tanya."
+    modality_and_logic: "Bảo toàn đủ 2 câu: sau khi tự sắp xếp tình hình theo cách riêng thì thấy không khó -> tóm tắt vị thế của nó giống như nhận lệnh dẹp tan Mùa xuân Praha."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000345
+    terms:
+      - "pháp sư địch"
+      - "lực lượng dân quân quy mô cấp tiểu đoàn"
+      - "cuộc nổi dậy"
+      - "xe tăng"
+      - "pháo binh"
+    pronouns_and_address: "Dùng `chúng` cho phe nổi dậy và hiểu ngầm chủ thể pháo binh quân mình."
+    pov_and_voice: "Giọng quy đổi tương quan lực lượng sang mô hình chiến tranh hiện đại quen thuộc."
+    modality_and_logic: "Bảo toàn tình thái nghe nói (`Có vẻ`), thành phần lực lượng (pháp sư địch đi cùng lực lượng dân quân quy mô cấp tiểu đoàn) và phép giải thích giữa cặp dấu gạch ngang dài (`cùng xe tăng của chúng—tức các pháp sư`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000346
+    terms:
+      - "đám đông"
+      - "tuyến tiếp tế"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: trần thuật dùng tên `Tanya` kết hợp đại từ `nó`."
+    pov_and_voice: "Giọng trần thuật thể hiện sự nhàm chán pha lẫn tính toán thực tế của Tanya."
+    modality_and_logic: "Bảo toàn đủ 3 câu: nếu chỉ là nghiền nát đám đông thì Tanya gần như thấy chán vì biết lịch sử có vô số lệnh như vậy -> chuyển ý `Dĩ nhiên` nhìn nhận tuyến tiếp tế đang gặp nguy nên không phải nhiệm vụ nhỏ -> khẳng định Tanya hiểu rõ điều đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000347
+    terms:
+      - "bạo loạn"
+      - "tư lệnh quân đoàn địa phương"
+      - "sĩ quan tiền tuyến"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: trần thuật quy chiếu Tanya bằng `Nó` / `nó`."
+    pov_and_voice: "Giọng trần thuật giải thích lý do Tanya hỏi vặn đi vặn lại vị tư lệnh ở `b10`."
+    modality_and_logic: "Bảo toàn đủ 3 câu: giới hạn vấn đề chỉ có vậy -> nếu bạo loạn nổ ra thì cứ ra lệnh dẹp yên -> nguyên nhân nó kiểm tra đi kiểm tra lại nhiều lần là vì giật mình khi tư lệnh quân đoàn địa phương lại phải gọi một sĩ quan tiền tuyến như nó đến bàn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000348
+    terms:
+      - "đám đông"
+      - "tiền tuyến"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: câu trần thuật đầu đoạn dùng `nó`; hai câu nội tâm in nghiêng tiếp theo lược đại từ."
+    pov_and_voice: "Giọng trần thuật chuyển mượt sang niềm hân hoan thầm kín của Tanya khi tưởng vớ được việc nhẹ ở hậu phương."
+    modality_and_logic: "Bảo toàn câu trần thuật (nhận ra lệnh chỉ là xử lý đám đông nên suýt không nén nổi nụ cười) — giải thích đúng nụ cười ma cà rồng mà vị tư lệnh thấy ở `b10` — và 2 câu nội tâm đắc ý về độ dễ cùng cơ hội rời tiền tuyến."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: giữ câu đầu ở chữ thường, bọc dấu `*...*` quanh trọn 2 câu nội tâm cuối đoạn tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000349
+    terms:
+      - "sở chỉ huy tiểu đoàn"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: trần thuật quy chiếu Tanya bằng `nó` kèm sở hữu `mình`."
+    pov_and_voice: "Giọng trần thuật nối mốc thời gian vừa chạy về sở chỉ huy tiểu đoàn chuẩn bị."
+    modality_and_logic: "Bảo toàn quan hệ tiếp nối sau khi kết luận như vậy và mốc thời gian `cách đây chưa lâu`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000350
+    terms:
+      - "văn bản mệnh lệnh"
+      - "oanh kích chiến lược không phân biệt mục tiêu"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: độc thoại nội tâm của Tanya tự quy chiếu bằng `mình`, dùng `chúng ta` cho phe mình và `họ` cho cấp trên."
+    pov_and_voice: "Giọng khựng lại đầy nghi hoặc khi Tanya đọc kỹ lại văn bản mệnh lệnh."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu `…`, sự nhận ra điểm gợn trong văn bản mệnh lệnh, và câu hỏi đối lập: về pháp lý hoàn toàn trong sạch nhưng tại sao lại ám chỉ khả năng oanh kích chiến lược không phân biệt mục tiêu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000351
+    terms:
+      - "pháp sư địch"
+      - "WTO"
+      - "Mùa xuân Praha"
+    pronouns_and_address: "Đan xen đại từ `chúng ta` ở câu 1, câu trần thuật dùng `Tanya` / `nó` ở câu 2 (`DEC-P01-001`), và `họ` cho khối `WTO` ở câu 4."
+    pov_and_voice: "Giọng suy luận sắc lạnh khi Tanya nhận ra lỗ hổng chết người trong phép so sánh với Mùa xuân Praha."
+    modality_and_logic: "Bảo toàn đủ 5 câu: điều kiện nếu diệt xong pháp sư địch mà quân còn lại không đầu hàng thì bước tiếp theo thật đáng sợ -> Tanya lập tức động não hết mức -> nhận thức lại rằng WTO từng nghiền nát Mùa xuân Praha chính là WTO -> phủ định việc họ hành động dưới ngọn cờ dân chủ -> hệ quả lịch sử có thể lên án việc đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000352
+    terms:
+      - "thuốc nổ mạnh"
+      - "công thức gây nổ"
+    pronouns_and_address: "Không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng phân tích kỹ thuật công phá đô thị thuần túy dưới góc độ quân sự."
+    modality_and_logic: "Bảo toàn đủ 2 câu: yêu cầu của kế hoạch là dùng thuốc nổ mạnh và công thức/thuật thức gây nổ phá hủy tối đa các tòa nhà đá -> đánh giá về mặt quân sự đó là ý hay vì sẽ phơi bày phần bên trong dễ bắt lửa của các tòa nhà."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000353
+    terms:
+      - "bom cháy"
+      - "đạn pháo hẹn giờ"
+      - "Lục quân Đế quốc"
+      - "Arene"
+      - "Dresden"
+    pronouns_and_address: "Lược đại từ tự xưng để câu hỏi tự vấn và tự trả lời trôi chảy."
+    pov_and_voice: "Giọng suy tính lạnh lùng của Tanya về kịch bản phóng hỏa toàn thành phố bằng pháo binh."
+    modality_and_logic: "Bảo toàn đủ 3 câu: câu hỏi phỏng đoán thả chủ yếu bom cháy -> tự bác bỏ (`Không`) và thay bằng khả năng dùng đạn pháo hẹn giờ cũng đủ đốt cháy mọi thứ -> mệnh đề điều kiện nếu mọi đơn vị Lục quân Đế quốc tập kết ở đây dồn hỏa lực thì Arene sẽ có điểm chung với Dresden."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000354
+    terms:
+      - "cuộc thảm sát"
+      - "pháo binh"
+      - "ném bom rải thảm"
+      - "Khởi nghĩa Warsaw"
+    pronouns_and_address: "Dùng đại từ gộp `chúng ta`."
+    pov_and_voice: "Giọng thừa nhận thực tế tàn khốc rồi tự trấn an bằng tiền lệ lịch sử."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu `…`, nhận định ngay cả khi không mắc sai lầm thì đây vẫn sẽ là một cuộc thảm sát, và câu thứ hai mở đầu bằng thán từ `Ờ` giải thích việc dùng pháo binh thay cho ném bom rải thảm giống như trong Khởi nghĩa Warsaw nên chuyện này *vẫn* thuộc loại thường thấy."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: chỉ bọc dấu `*...*` quanh từ khẳng định `*vẫn*` tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000355
+    terms:
+      - "vùng xám"
+      - "tội phạm chiến tranh"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: độc thoại nội tâm của Tanya tự quy chiếu bằng `mình` / `Mình` kèm phản thân `bản thân`."
+    pov_and_voice: "Giọng lo ngại sâu sắc về tiêu chuẩn kép của bên thắng trận và nguy cơ cá nhân bị truy cứu sau chiến tranh."
+    modality_and_logic: "Bảo toàn đủ 3 câu: chỉ ra vùng xám đáng tiếc nơi các vụ ném bom của nước bại trận bị coi là tội ác còn của nước chiến thắng thì thậm chí chẳng bị chất vấn chứ đừng nói đến bị lên án sau những cuộc chất vấn không hề tồn tại -> nguy cơ chỉ một bước sai lầm là mình có thể bị quy là tội phạm chiến tranh -> thái độ dứt khoát từ chối tự đặt bản thân vào nguy hiểm như thế."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000356
+    terms:
+      - "Đế quốc"
+      - "tội bất tuân"
+      - "bỏ chạy trước mặt địch"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: nội tâm Tanya dùng `chúng ta` cho Đế quốc và `mình` cho bản thân."
+    pov_and_voice: "Giọng lật ngược vấn đề khi nhận ra thế tiến thoái lưỡng nan ngay trong hiện tại."
+    modality_and_logic: "Bảo toàn đủ 2 câu: tự chặn lại (`Khoan đã`) rằng chuyện đó chỉ xảy ra nếu Đế quốc thua -> suy ra nếu giả sử không thua mà giờ từ chối tuân lệnh thì sẽ bị xử bắn vì tội bất tuân, bỏ chạy trước mặt địch, vân vân."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000357
+    terms:
+      - "mệnh lệnh"
+      - "cấp trên"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: nội tâm Tanya tự quy chiếu nhất quán bằng `mình` / `Mình` và gọi cấp trên là `họ`."
+    pov_and_voice: "Giọng tự thuyết phục bản thân dựa trên tính hợp lệ hiện thời của mệnh lệnh và áp lực thời gian."
+    modality_and_logic: "Bảo toàn đủ 5 câu: mệnh lệnh vẫn là mệnh lệnh -> lúc này những mệnh lệnh nhận được không có gì sai -> không có căn cứ từ chối và không có lý do phải lo -> không biết cấp trên có chịu nghe nếu tìm cách nói chuyện hay không -> kết luận dù sao cũng có thể chẳng còn thời gian."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000358
+    terms:
+      - "áp dụng hồi tố"
+      - "Tòa án Quân sự Viễn Đông"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: nội tâm Tanya tự quy chiếu nhất quán bằng `mình`."
+    pov_and_voice: "Giọng bức bối, châm biếm của Tanya ở cuối batch khi nhận ra chỉ đúng luật thôi chưa đủ mà còn phải diễn trò nhân đạo để phòng hậu họa."
+    modality_and_logic: "Bảo toàn đủ 3 câu: mặt khác giờ có thể chuyên tâm vào những hành động không vướng vấn đề pháp lý, nhưng xét việc luật pháp từng bị áp dụng hồi tố tại Tòa án Quân sự Viễn Đông thì nhất định phải hành xử nhân đạo -> câu hỏi phẫn nộ về việc còn phải hành động sao cho một đám người sau này không buộc tội mình -> câu hỏi chốt lại đầy ngán ngẩm (`Ý là mình phải giả vờ tử tế sao?`)."
+    emphasis: "none"
