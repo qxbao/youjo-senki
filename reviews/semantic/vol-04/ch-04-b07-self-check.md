@@ -1,0 +1,55 @@
+# Báo cáo tự kiểm (Self-Check): `vol-04-ch-04-b07`
+
+- **Task ID**: `vol-04-ch-04-b07`
+- **Translator**: `argon-low`
+- **Handoff**: `handoffs/vol-04/ch-04-b07.yml`
+- **Tệp dịch**: `translations/vol-04/ch-04-b07.jsonl`
+- **Phạm vi**: `YS-LN04/Text/chapter001_n.xhtml/p000176` → `YS-LN04/Text/chapter001_n.xhtml/p000206` (31 đoạn)
+- **Trạng thái mỗi dòng**: `reviewed`
+
+## 1. Kiểm tra tính đầy đủ và nghĩa gốc
+- Toàn bộ 31 đoạn từ `p000176` đến `p000206` đã được dịch đầy đủ sang tiếng Việt, khớp 1:1 theo thứ tự mã đoạn của gói nguồn cục bộ.
+- Giữ đúng mạch nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic nhân quả và thời gian của giả định:
+  - **Lập luận của Thiếu tá von Degurechaff về mô thức tư duy của Liên bang và tính bất khả thi của việc đàm phán ngừng bắn sớm (`p000176`–`p000186`)**: Tiếp nối câu hỏi tiền đề ở cuối lô trước, Tanya khẳng định không có lý do hợp lý nào cả, ít nhất là không có lý do nào mà phía Đế quốc được biết; khi Zettour hỏi lại, Tanya đáp rằng bất kể quá trình nghiên cứu của họ đã tiến triển ra sao, ắt hẳn vẫn có một lý do nào đó mà họ chưa biết; Lergen thầm nhận xét rằng thực tế theo những gì ông được biết thì quá trình nghiên cứu vẫn chưa hề có tiến triển vì việc đối phó với cuộc xâm lược đang được ưu tiên hơn là tìm hiểu lý do dẫn đến nó, và trong Bộ Tổng tham mưu, một cuộc điều tra toàn diện đã bị gác lại do thiếu hụt nhân lực, buộc họ phải chọn dồn toàn lực đẩy lùi quân địch đang áp sát thay vì thong thả phân tích động cơ của đối phương; Tanya kết luận rằng do đó không nên đàm phán dựa trên mô thức tư duy hiện có, và cho đến khi nắm bắt được mô thức tư duy ấy thì vẫn chưa rõ liệu việc đàm phán với quốc gia đó có khả thi hay không; khi Zettour nêu ý kiến của một số người cho rằng nếu vượt qua được đợt tấn công đầu tiên thì sẽ tìm ra cách, Tanya xin mạn phép chỉ ra rằng một thỏa thuận ngừng bắn sẽ đồng nghĩa với cái chết đối với Liên bang vì ở một quốc gia có thể chế chính trị như của Liên bang, chính phủ sẽ không chấp nhận thất bại đó; Lergen nhíu mày trước chiều hướng của cuộc trò chuyện mà ông cứ ngỡ sẽ chỉ là một màn đi chệch trọng tâm nhưng nay lại giống một cuộc họp chiến lược ở mức độ hết sức thực tế; Degurechaff đã dẫn dắt họ tới câu trả lời hiển nhiên rằng với sự thiếu rõ ràng này thì không thể đàm phán, và quan trọng hơn cả là nếu không biết lý do gốc rễ thì cũng không thể điều tra được; Zettour gật đầu tán đồng như đã thấu hiểu tất cả, để Tanya đi đến kết luận rằng đàm phán một thỏa thuận ngừng bắn sớm hoàn toàn là chuyện viển vông và ngay cả những cuộc đàm phán quy mô nhỏ ngoài tiền tuyến cũng sẽ vô cùng khó khăn.
+  - **Câu hỏi chất vấn của Tướng von Zettour về hệ quả đòn tập kích Moskva và lời giải thích điềm tĩnh của Thiếu tá von Degurechaff cùng đánh giá của Đại tá von Lergen (`p000187`–`p000206`)**: Zettour công nhận luận điểm của cô về sự khó khăn nghe rất có lý, nhưng hỏi vặn rằng cô không nghĩ chính đòn tập kích vào Moskva của cô đã khiến việc đàm phán trở nên bất khả thi vì làm họ mất thể diện sao; Lergen nghĩ tới việc hầu như toàn bộ công sức của họ đã bị xóa sổ bởi cuộc tấn công đó—nói một cách chặt chẽ thì nước đi ấy là nhu cầu tất yếu về mặt quân sự và là hành động không thể thiếu để phòng thủ phía đông, nhưng tự hỏi phải chăng cái giá phải trả lại quá đắt khi giờ đây danh dự của Liên bang đã bị đá văng, chà đạp và băm vằm nát vụn khiến họ không thể lùi bước, còn tinh thần chiến đấu của Đế quốc cùng sự khao khát chiến thắng của công chúng lại đang dâng cao khiến lục quân chẳng thể dễ dàng từ bỏ cuộc chiến, và ít nhất một phần trách nhiệm cho ngòi nổ ấy thuộc về Degurechaff; khi Tanya phủ nhận, Lergen nhận ra câu hỏi của Zettour cũng là điều bản thân ông tò mò ở góc độ cảm xúc, đồng thời bản năng từng hiểu rõ mức độ bất thường của Degurechaff cảnh báo ông rằng câu trả lời của cô ta sẽ toàn là lời rác rưởi; lúc Zettour bảo cô nói xem cô nghĩ thế nào, Lergen thoáng cảm thấy câu hỏi ấy như bàn tay vươn tới chiếc hộp Pandora—ông vừa muốn hỏi đến cồn cào vừa nghe cảm xúc gào thét bảo đừng hỏi; thế nhưng trái với dự đoán, Tanya điềm tĩnh phân tích rằng Liên bang nhìn nhận thế giới theo một cách khác với họ, là một quốc gia có xu hướng bài ngoại và hoang tưởng, nên các giá trị chi phối hành vi của họ có lẽ đặt nặng vấn đề sinh tồn, và nếu đặt giả thuyết rằng họ chủ động ra tay tấn công vì sợ Đế quốc hoặc sợ bị tấn công thì lựa chọn ấy bắt đầu trở nên có lý; sững sờ trước câu trả lời điềm tĩnh ấy, Lergen cố sắp xếp lại tâm trí rối bời khi nghĩ về việc cô là Thiếu tá Tanya von Degurechaff, một sĩ quan ma pháp đã hoàn thành chương trình đào tạo sĩ quan Bộ Tổng tham mưu, và đồng thời là một đứa trẻ—tự hỏi phải chăng đây là hình thái cuối cùng của người lính lý tưởng mà quốc gia hằng mong ước; ông nhìn nhận góc độ phân tích rõ ràng của cô, danh tiếng đã được khẳng định trong Bộ Tổng tham mưu như một chuyên gia về thế giới quan đặc thù của Liên bang, hay chính xác hơn là một chiến lược gia từng làm choáng ngợp Bộ Tổng tham mưu bằng khái niệm mới về chiến tranh tổng lực cùng những vấn đề hậu cần đi kèm và chiến lược rút cạn máu các quốc gia thù địch thông qua tiêu hao đầy hiệu quả đến rợn người; chứng kiến sự hủy diệt của đạo quân dã chiến Cộng hòa cùng sự sụp đổ của quân đội Cộng hòa đi kèm với cuộc tắm máu ấy từng khiến ông chết lặng, và thành công của cô với chiến thuật chặt đầu cùng màn thể hiện trên mặt trận Rhine đã chứng minh cô không chỉ là một chiến lược gia tài ba mà còn là một sĩ quan cấp tá xuất chúng.
+- Kiểm tra cấu trúc “không chỉ… mà còn…” ở câu cuối `p000206`: cả hai vế đều giữ cùng một chủ thể (`cô` — vừa là một chiến lược gia tài ba, vừa là một sĩ quan cấp tá xuất chúng), tuân thủ đúng `canon/style-guide.md`.
+- Không sao chép văn bản hay cụm từ tiếng Anh từ nguồn vào báo cáo.
+
+## 2. Kiểm tra đại từ, xưng hô và giọng văn (`DEC-P01-001`)
+- Tuân thủ nghiêm ngặt giới hạn của `DEC-P01-001` (quy ước dùng `nó` trong trần thuật và `mình` trong nội tâm chỉ áp dụng cho điểm nhìn của Tanya, không áp dụng sang điểm nhìn của Đại tá von Lergen) và tiếp nối liền mạch `vol-04-ch-04-b01` – `b06`:
+  - **Trần thuật ngôi thứ ba và độc thoại nội tâm theo điểm nhìn của Đại tá von Lergen**:
+    - Quy chiếu Đại tá von Lergen bằng tên riêng `Lergen`, đại từ `ông` / `Ông` kết hợp phản thân `mình` (`p000179`, `p000183`, `p000193`, `p000194`, `p000196`, `p000200`, `p000201`, `p000206`).
+    - Quy chiếu Tướng von Zettour bằng tên riêng `Zettour` (`p000185`, `p000193`, `p000196`).
+    - Quy chiếu Thiếu tá Tanya von Degurechaff bằng `Degurechaff` / `Thiếu tá Tanya von Degurechaff`, đại từ `cô` / `Cô` trong lời kể khách quan (`p000184`, `p000191`, `p000194`, `p000200`, `p000203`, `p000204`, `p000205`, `p000206`), dùng `cô ta` trong câu dự cảm nội tâm mang sắc thái cảnh giác của Lergen ở `p000194` (đồng bộ `vol-04-ch-04-b05`), và dùng `Cô ấy` / `cô ấy` trong các câu suy ngẫm nội tâm trực tiếp ở `p000201`–`p000202` (đồng bộ `vol-04-ch-04-b06`).
+    - Lưu ý đại từ `nó` ở `p000179`, `p000183`, `p000193` và `p000205` chỉ quy chiếu các danh từ bất động vật (`cuộc xâm lược`, `cuộc trò chuyện`, `câu hỏi của Zettour`, `khái niệm mới về chiến tranh tổng lực`); tại các câu có đại từ ngôi thứ hai phiếm chỉ trong nguồn ở `p000189` và `p000199`, lược chủ ngữ phiếm chỉ (`Có thể nói rằng`, `Nếu đặt giả thuyết rằng`) theo quy ước `direct-address choice`.
+  - **Đối thoại giữa Tướng von Zettour và Thiếu tá Tanya von Degurechaff**:
+    - Tướng von Zettour (`p000177`, `p000181`, `p000187`, `p000195`, `p000198`): tự xưng `tôi`, dùng đại từ gộp `chúng ta` khi nói về phía Đế quốc (`p000177`, `p000181`), gọi Tanya là `Thiếu tá` và `cô`.
+    - Thiếu tá Tanya von Degurechaff (`p000176`, `p000178`, `p000180`, `p000182`, `p000186`, `p000192`, `p000197`, `p000199`): tự xưng `Tôi`, dùng đại từ gộp `chúng ta` khi nói về phía Đế quốc (`p000176`, `p000178`, `p000180`, `p000197`), quy chiếu Liên bang bằng `họ` (`p000199`), gọi Zettour là `thưa Tướng quân` / `Thưa Tướng quân` kèm tiểu từ kính ngữ `ạ`.
+
+## 3. Kiểm tra bảo toàn nhấn mạnh (`DEC-P01-002`)
+- Kiểm tra toàn bộ 5 đoạn có thẻ `<html:em>` trong XHTML nguồn và bảo toàn chính xác bằng cặp dấu `*...*` đúng phạm vi nhấn mạnh:
+  - `p000176`: cụm nhấn mạnh ở cuối câu thoại (`*không có lý do nào mà chúng ta được biết*`) được đặt trong `*...*`, phần còn lại nằm ngoài dấu `*`.
+  - `p000194`: câu dự cảm nội tâm nằm giữa đoạn (`*Câu trả lời của cô ta sẽ toàn là lời rác rưởi cho mà xem.*`) được đặt trong `*...*`, câu đầu và câu cuối đoạn nằm ngoài dấu `*`.
+  - `p000201`: hai câu nội tâm cuối đoạn (`*Cô ấy là Thiếu tá Tanya von Degurechaff. Cô ấy là một sĩ quan ma pháp và cũng đã hoàn thành chương trình đào tạo sĩ quan Bộ Tổng tham mưu.*`) được đặt trong `*...*`, câu trần thuật mở đầu nằm ngoài dấu `*`.
+  - `p000202`: toàn bộ câu nội tâm (`*Và cô ấy là một đứa trẻ.*`) được đặt trong `*...*`.
+  - `p000203`: câu hỏi nội tâm cuối đoạn (`*Đây có phải là hình thái cuối cùng của người lính lý tưởng mà quốc gia hằng mong ước không?*`) được đặt trong `*...*`, hai câu trần thuật phía trước nằm ngoài dấu `*`.
+- Toàn bộ 26 đoạn còn lại không có thẻ nhấn mạnh trong nguồn và không phát sinh dấu `*` ngoài nguồn.
+
+## 4. Kiểm tra thuật ngữ và tính nhất quán (`canon/` & `work/run-state/pending-terms.yml`)
+- Áp dụng đồng bộ các thuật ngữ đã khóa tạm từ `vol-04-ch-04-b01` – `b06` và các tập/chương trước:
+  - `Tướng quân` / `Zettour`, `Thiếu tá` / `Thiếu tá Tanya von Degurechaff` / `Degurechaff`, `Lergen`, `Bộ Tổng tham mưu`, `mô thức tư duy` (`p000180`), `Liên bang`, `tiền tuyến`, `đòn tập kích vào Moskva` (`p000187`), `Đế quốc`, `lục quân`, `chiếc hộp Pandora` (`p000196`), `sĩ quan ma pháp` (`p000201`), `sĩ quan Bộ Tổng tham mưu` (`p000201`), `chiến lược gia` (`p000205`, `p000206`), `chiến tranh tổng lực` (`p000205`), `hậu cần` (`p000205`), `tiêu hao` (`p000205`), `đạo quân dã chiến` (`p000206`), `Cộng hòa` (`p000206`), `chiến thuật chặt đầu` (`p000206`), `mặt trận Rhine` (`p000206`), `sĩ quan cấp tá` (`p000206`).
+- Ghi nhận các thuật ngữ/cách diễn đạt mới phát sinh trong lô ở trạng thái đề xuất (`pending`):
+  - `thỏa thuận ngừng bắn` / `thỏa thuận ngừng bắn sớm` (`p000182`, `p000186`)
+  - `thể chế chính trị` (`p000182`)
+  - `cuộc họp chiến lược` (`p000183`)
+  - `nhu cầu tất yếu về mặt quân sự` (`p000189`)
+  - `bài ngoại và hoang tưởng` (`p000197`)
+  - `thế giới quan đặc thù` (`p000204`)
+
+## 5. Kiểm tra định dạng và công cụ xác thực
+- Chạy `python3 tools/validate_translation.py --handoff handoffs/vol-04/ch-04-b07.yml --source work/vol-04/batches/ch-04-b07-source.jsonl --translation translations/vol-04/ch-04-b07.jsonl`: kết quả `PASS` (exit code `0`, 31 dòng khớp hoàn toàn thứ tự mã đoạn và metadata).
+
+## 6. Sign-off (`vol-04-ch-04-b07-translator-signoff`)
+- **Báo cáo review**: `reviews/prose/vol-04/ch-04-b07-argon-review.yml` (`status: approved_for_polish`, `serious: 0`, `moderate: 0`, `minor: 0`, `findings: []`).
+- **Xử lý findings**: Không có finding cần chỉnh sửa nội dung. Giữ nguyên toàn bộ `locked_choices` từ `p000176` đến `p000206`.
+- **Cập nhật trạng thái**: Đã chuyển `status` của toàn bộ 31 dòng trong `translations/vol-04/ch-04-b07.jsonl` từ `draft` sang `reviewed`.
