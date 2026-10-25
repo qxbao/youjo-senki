@@ -1,0 +1,459 @@
+task_id: vol-02-ch-05-b14
+review_task_id: vol-02-ch-05-b14-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b14
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000333
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000357
+unit_count: 25
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 1b686a564fa130ce8d390bebad653222ec131bbd66ab5ba619c905d7b2ab1453
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b14-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b14-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000341
+    category: lexical_nuance
+    issue: >-
+      Tại `p000341`, tác phẩm được dẫn theo tên dịch tiếng Việt quen thuộc là `*Phía Tây không có gì lạ*`, trong khi cụm kết câu lại dịch theo nghĩa đen của từ tĩnh lặng ở bản Anh (`chẳng còn gì động tĩnh`), làm giảm nhẹ hiệu ứng lặp từ trực tiếp với nhan đề bộ phim.
+    basis: >-
+      Ý nghĩa so sánh hài đen của Tanya (nếu quân số hao hụt nhanh như trong phim thì cả chiến tuyến sẽ im bặt đúng như tên phim) vẫn hoàn toàn rõ ràng và dấu nhấn mạnh `*...*` được bảo toàn đúng theo `DEC-P01-002`.
+    recommendation: >-
+      Không chặn signoff; có thể giữ nguyên hoặc ở bước polish tinh chỉnh vế sau thành `đúng như nhan đề bộ phim: phía Tây chẳng còn gì động tĩnh` / `đúng như nghĩa đen của nhan đề bộ phim: hoàn toàn tĩnh lặng`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000352
+    category: lexical_nuance
+    issue: >-
+      Tại câu 1 của `p000352`, mệnh đề tự rào đón về cách lập luận cực đoan của Tanya vừa nêu ở `p000350`–`p000351` đang được dịch thành `Dĩ nhiên, đó là nói đến trường hợp cực đoan.` (hơi nghiêng sang cực hạn tình huống thay vì cách nói cực đoan).
+    basis: >-
+      Đặt trong mạch nối tiếp giả định mức tập kích tối đa của địch ở `p000351`, câu dịch hiện tại vẫn hợp logic và không gây hiểu sai đại ý.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể chỉnh nhẹ thành `Dĩ nhiên, đó là nói một cách cực đoan.` để sát hơn với sắc thái tự bình luận về phát ngôn của Tanya.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000354
+    category: modality_and_register
+    issue: >-
+      Ở `p000354`, câu hỏi phủ định mang hàm ý gợi mở của vị đại tá được chuyển thành câu hỏi nghi vấn thông thường và lặp đại từ `cô` đồng thời biến mệnh đề bị động về tỷ lệ tổn thất thành chủ động (`cô nghĩ với sự chỉ dẫn và điều hành của mình, cô có thể hạ tỷ lệ tổn thất xuống không?`).
+    basis: >-
+      Đích giao tiếp (vị đại tá thăm dò khả năng nhờ Tanya hướng dẫn để kéo giảm tỷ lệ tổn thất của tân binh) và thái độ lịch sự công vụ vẫn được truyền tải đầy đủ.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể làm mượt thành `“Thiếu tá von Degurechaff, cô không nghĩ rằng với sự hướng dẫn và chỉ đạo của cô thì tỷ lệ tổn thất có thể giảm xuống sao?”`
+    resolution: optional_polish
+
+  - id: m4
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000357
+    category: pronoun_and_pov_consistency
+    issue: >-
+      Tại câu cuối của `p000357` (`Chợt hiểu ra điều đó, Tanya nhận thấy tiểu đoàn của mình cũng vẫn chưa trải qua một số chuyện ở Rhine.`), cụm mở đầu dịch `Chợt hiểu ra điều đó` hơi lệch nhẹ so với mạch liên tưởng từ ví dụ bảng chữ cái do chính Tanya vừa nêu, và từ phản thân `mình` xuất hiện trong câu trần thuật ngôi thứ ba dễ trùng bề mặt với đại từ nội tâm `mình` theo `DEC-P01-001`.
+    basis: >-
+      Trong tiếng Việt, `của mình` đi sau chủ ngữ `Tanya` đóng vai trò đại từ phản thân hợp ngữ pháp nên không làm rối người đọc.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể chỉnh thành `Nghĩ đến đó, Tanya nhận ra tiểu đoàn của nó cũng vẫn chưa trải qua một số chuyện ở Rhine.`
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "Major / Major von Degurechaff"
+    source_label: "Major / Major von Degurechaff"
+    recommended_vi: "Thiếu tá / Thiếu tá von Degurechaff"
+    status: provisional
+    uncertainty: low
+    basis: "Nhất quán với `work/run-state/pending-terms.yml` và toàn bộ các batch trước của Tập 2."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000334
+      - YS-LN02/Text/part0026.xhtml/p000354
+
+  - term_key: "colonel / superior officers"
+    source_label: "the colonel / superior officers"
+    recommended_vi: "ngài đại tá (hoặc: vị đại tá) / cấp trên"
+    status: provisional
+    uncertainty: low
+    basis: "Giữ đúng cấp bậc của vị sĩ quan Ban Tác chiến thuộc Bộ chỉ huy tiếp nối từ `ch-05-b13`."
+    alternatives:
+      - "vị đại tá"
+      - "thượng cấp"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000337
+      - YS-LN02/Text/part0026.xhtml/p000345
+
+  - term_key: "Rhine"
+    source_label: "the Rhine"
+    recommended_vi: "Rhine"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ với `work/run-state/pending-terms.yml` và các batch trước của chương 5."
+    alternatives:
+      - "mặt trận Rhine"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000335
+      - YS-LN02/Text/part0026.xhtml/p000357
+
+  - term_key: "large-scale mobile battles"
+    source_label: "large-scale mobile battles / a large-scale mobile battle"
+    recommended_vi: "những trận cơ động quy mô lớn / một trận cơ động quy mô lớn"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt chuẩn xác khái niệm tác chiến cơ động quy mô lớn đối lập với chiến tranh chiến hào tĩnh tại."
+    alternatives:
+      - "những trận tác chiến cơ động quy mô lớn"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000339
+      - YS-LN02/Text/part0026.xhtml/p000344
+
+  - term_key: "loss rates / rate of loss / losses / casualties"
+    source_label: "loss rates / rate of loss / losses / casualties"
+    recommended_vi: "tỷ lệ tổn thất / tổn thất / thương vong"
+    status: provisional
+    uncertainty: low
+    basis: "Phân biệt rõ và nhất quán trong toàn batch giữa `tỷ lệ tổn thất` / `tổn thất` và `thương vong`, đồng bộ với các lựa chọn đã ghi nhận ở `ch-05-b13`."
+    alternatives:
+      - "tỷ lệ thương vong"
+      - "hao hụt quân số"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000340
+      - YS-LN02/Text/part0026.xhtml/p000342
+      - YS-LN02/Text/part0026.xhtml/p000347
+      - YS-LN02/Text/part0026.xhtml/p000348
+      - YS-LN02/Text/part0026.xhtml/p000349
+      - YS-LN02/Text/part0026.xhtml/p000351
+      - YS-LN02/Text/part0026.xhtml/p000353
+      - YS-LN02/Text/part0026.xhtml/p000354
+
+  - term_key: "total war"
+    source_label: "total war"
+    recommended_vi: "chiến tranh tổng lực"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ quân sự – lịch sử chuẩn xác, thống nhất xuyên suốt Tập 1–2."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000340
+
+  - term_key: "human resources"
+    source_label: "human resources"
+    recommended_vi: "nguồn nhân lực"
+    status: provisional
+    uncertainty: low
+    basis: "Giữ đúng sắc thái quản trị nhân sự lạnh lùng đặc trưng trong tư duy của Tanya."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000340
+
+  - term_key: "All Quiet on the Western Front"
+    source_label: "All Quiet on the Western Front"
+    recommended_vi: "Phía Tây không có gì lạ"
+    status: provisional
+    uncertainty: low
+    basis: "Sử dụng tên dịch tiếng Việt kinh điển và phổ biến nhất của tiểu thuyết/bộ phim về Thế chiến thứ nhất."
+    alternatives: []
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000341
+
+  - term_key: "Russo-Japanese War / World War I / Dacian War"
+    source_label: "Russo-Japanese War / World War I / Dacian War"
+    recommended_vi: "Chiến tranh Nga–Nhật / Thế chiến thứ nhất / cuộc chiến Dacia"
+    status: provisional
+    uncertainty: low
+    basis: "Các tên gọi cuộc chiến lịch sử và nội bộ thế giới truyện được dịch chuẩn xác, nhất quán với các chương trước."
+    alternatives:
+      - "Chiến tranh Dacia"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000342
+      - YS-LN02/Text/part0026.xhtml/p000349
+      - YS-LN02/Text/part0026.xhtml/p000353
+
+  - term_key: "harassing raid / harassing attack / sneak attack"
+    source_label: "harassing raid / battalion-sized harassing attack / sneak attack"
+    recommended_vi: "cuộc tập kích quấy rối / đợt tập kích quấy rối quy mô tiểu đoàn / tập kích bất ngờ"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ chiến thuật chuẩn xác, phân biệt rõ quy mô đại đội bộ binh đánh tập kích bất ngờ với tiểu đoàn pháp sư tập kích quấy rối."
+    alternatives:
+      - "đột kích quấy rối"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000350
+      - YS-LN02/Text/part0026.xhtml/p000351
+
+  - term_key: "field guns / large-caliber heavy artillery / pillbox"
+    source_label: "field guns / large-caliber heavy artillery / pillbox"
+    recommended_vi: "pháo dã chiến / pháo hạng nặng cỡ lớn / lô cốt"
+    status: provisional
+    uncertainty: low
+    basis: "Thuật ngữ vũ khí và công sự phòng ngự chuẩn xác, làm rõ sự tương phản về hỏa lực công phá chiến hào và bê tông cốt thép."
+    alternatives:
+      - "trọng pháo cỡ nòng lớn"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000356
+
+  - term_key: "radio operators"
+    source_label: "radio operators"
+    recommended_vi: "nhân viên vô tuyến"
+    status: provisional
+    uncertainty: low
+    basis: "Diễn đạt rõ vai trò lính thông tin vận hành điện đài vô tuyến trong lô cốt."
+    alternatives:
+      - "lính điện đài"
+      - "báo vụ viên vô tuyến"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000356
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000333
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Tanya xưng `tôi`, gọi vị đại tá là `Ngài` kèm kính ngữ `ạ`; gọi đám tân binh là `đám nhóc này`; phần dẫn thoại dùng tên riêng `Tanya`."
+    pov_and_voice: "Giọng than vãn bất lực của Tanya trước mặt cấp trên, lập tức chuyển sang hỏi lại lễ phép khi nghe vị đại tá lẩm bẩm."
+    modality_and_logic: "Bảo toàn câu bỏ lửng đầu đoạn, cử chỉ vùi mặt vào hai bàn tay và câu hỏi xác nhận lời vị đại tá vừa nói."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000334
+    terms:
+      - "Thiếu tá"
+    pronouns_and_address: "Vị đại tá xưng `tôi`, gọi Tanya là `cô` và `Thiếu tá`."
+    pov_and_voice: "Giọng nhận xét buột miệng pha chút ngạc nhiên của vị đại tá."
+    modality_and_logic: "Bảo toàn nét hài hước tình huống khi vị đại tá thấy kỳ lạ vì chính Thiếu tá Tanya vẫn còn quá trẻ mà lại than phiền về đám trẻ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000335
+    terms:
+      - "Rhine"
+    pronouns_and_address: "Tanya xưng `tôi`, quy chiếu đám tân binh là `Mấy người` / `họ`."
+    pov_and_voice: "Giọng đánh giá thực dụng, sắc lạnh của một cựu binh tiền tuyến."
+    modality_and_logic: "Bảo toàn cách hiểu chữ `trẻ` theo nghĩa tuổi quân (`mới chập chững vào đời binh nghiệp thì vô dụng`) và điều kiện ngoại lệ (`nếu họ sống sót được hai tháng ở Rhine thì lại là chuyện khác`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000336
+    terms: []
+    pronouns_and_address: "Vị đại tá xưng `tôi` và dùng đại từ bao gộp `Ta`."
+    pov_and_voice: "Giọng lúng túng rút lại lời nhận xét cá nhân để quay về công việc chính."
+    modality_and_logic: "Bảo toàn các từ cảm thán ngập ngừng (`À, không… ừm`), lời đề nghị bỏ qua câu vừa nói và chuyển lại chủ đề chính."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000337
+    terms:
+      - "ngài đại tá"
+      - "cấp trên"
+      - "Tanya"
+    pronouns_and_address: "Câu 1 độc thoại nội tâm dùng `Mình` (`DEC-P01-001`) và `ngài đại tá`; câu 3 trần thuật ngôi thứ ba dùng `Tanya` và quy chiếu vị đại tá bằng `ông`."
+    pov_and_voice: "Độc thoại nội tâm thắc mắc ngắn gọn của Tanya chuyển mượt sang trần thuật hạn tri mô tả tác phong phục tùng mẫu mực."
+    modality_and_logic: "Bảo toàn sự chuyển dịch từ thắc mắc về thái độ lựa lời của vị đại tá, nhận xét khái quát về tính thất thường của cấp trên, sang hành động lễ phép quay lại chủ đề chính mà không hỏi vặn thêm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000338
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Trần thuật hạn tri dùng `Tanya` và `nó` theo đúng `DEC-P01-001`; vế so sánh khái quát dùng `người ta` — `mình` (phản thân)."
+    pov_and_voice: "Trần thuật hạn tri phân tích độ lệch nhận thức giữa góc nhìn bên ngoài và góc nhìn công sở của Tanya."
+    modality_and_logic: "Bảo toàn sự đối lập giữa góc nhìn khách quan (tuổi thật của Tanya rất kỳ lạ) và góc nhìn chủ quan của Tanya (chỉ tính theo thâm niên phục vụ như số năm làm việc ở công ty)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000339
+    terms:
+      - "những trận cơ động quy mô lớn"
+      - "chiến hào"
+    pronouns_and_address: "Tanya thưa `ngài`, dùng `chúng ta` cho quân mình và `họ` cho đám lính mới."
+    pov_and_voice: "Giọng báo cáo tình hình chiến thuật thẳng thắn, thực tế."
+    modality_and_logic: "Bảo toàn nhận định phủ định khả năng xảy ra các trận đánh cơ động quy mô lớn hiện tại và giới hạn nhiệm vụ của tân binh ở mức cố thủ giữ hào và bắn súng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000340
+    terms:
+      - "Tanya"
+      - "tỷ lệ tổn thất"
+      - "chiến tranh tổng lực"
+      - "nguồn nhân lực"
+      - "các tuyến phòng thủ"
+    pronouns_and_address: "Trần thuật hạn tri quy chiếu Tanya bằng `Tanya` và `nó` (`DEC-P01-001`), quy chiếu phía thượng cấp bằng `họ`, và lược đại từ ngôi thứ hai phiếm chỉ."
+    pov_and_voice: "Trần thuật hạn tri trình bày thế giới quan duy lý tàn nhẫn của Tanya về chiến tranh tiêu hao."
+    modality_and_logic: "Bảo toàn toàn bộ lập luận: tỷ lệ tổn thất sẽ giảm khi lính quen dần; bản chất chiến tranh tổng lực là cuộc đua nghiền nát nguồn nhân lực; cấp trên đang quá lo về tác động lên chiến tuyến; và chừng nào tổn thất chưa làm suy giảm năng lực tiếp tục chiến đấu của tổ chức thì đều có thể bỏ qua."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000341
+    terms:
+      - "Phía Tây không có gì lạ"
+    pronouns_and_address: "Trần thuật hạn tri không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng bình luận hài đen mượn điển cố điện ảnh."
+    modality_and_logic: "Bảo toàn giả định trái thực tế: nếu quân số gục ngã nhanh như trong bộ phim về Thế chiến thứ nhất thì chiến trường cũng sẽ rơi vào cảnh im ắng đúng như tên phim."
+    emphasis: "Bảo toàn chính xác 1 cụm `*...*` tương ứng `<html:em>` cho tên tác phẩm `*Phía Tây không có gì lạ*` (`DEC-P01-002`)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000342
+    terms:
+      - "sư đoàn"
+      - "Chiến tranh Nga–Nhật"
+      - "súng máy"
+      - "pháp sư"
+      - "thương vong"
+      - "lính mới"
+    pronouns_and_address: "Độc thoại nội tâm lược đại từ `we` để giữ giọng nhận định chiến thuật khách quan, quy chiếu quân địch là `họ`."
+    pov_and_voice: "Giọng phân tích chiến thuật tự tin pha sự thực dụng của người chỉ huy."
+    modality_and_logic: "Bảo toàn mệnh đề nhượng bộ giả định (dù địch dùng cả sư đoàn đánh đêm như Chiến tranh Nga–Nhật thì súng máy và pháp sư yểm trợ vẫn dễ dàng đẩy lùi) và kết luận thực tế (vẫn phải chấp nhận một mức thương vong trong giới hạn cho phép khi lính mới còn đang học việc)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000343
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `mình` theo đúng `DEC-P01-001`, quy chiếu binh sĩ là `họ`."
+    pov_and_voice: "Độc thoại nội tâm vị kỷ nhưng lý tính của Tanya."
+    modality_and_logic: "Bảo toàn cả hai vế phủ định bổ sung cho nhau: lý do sâu xa là bản thân Tanya không phải người sẽ bỏ mạng, nhưng cũng không có nghĩa là muốn họ chết nếu có thể tránh được."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000344
+    terms:
+      - "trận cơ động quy mô lớn"
+      - "huấn luyện"
+    pronouns_and_address: "Vị đại tá gọi Tanya là `cô` và dùng `ta` cho phía quân đội Đế quốc."
+    pov_and_voice: "Giọng tán đồng về mặt lý trí nhưng còn day dứt của vị đại tá."
+    modality_and_logic: "Bảo toàn sự đồng tình với nhận định chiến thuật của Tanya và liên từ bỏ lửng `nhưng…` mở đường cho nỗi trăn trở ở các đoạn sau."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000345
+    terms:
+      - "ngài đại tá"
+      - "Tanya"
+    pronouns_and_address: "Trần thuật hạn tri dùng `ngài đại tá` và `Tanya`."
+    pov_and_voice: "Trần thuật hạn tri ghi nhận việc lập luận của Tanya không bị bác bỏ."
+    modality_and_logic: "Bảo toàn mệnh đề phủ định: rốt cuộc vị đại tá không đưa ra ý kiến nào bác bỏ lời Tanya."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000346
+    terms: []
+    pronouns_and_address: "Trần thuật hạn tri quy chiếu vị đại tá bằng `ông`."
+    pov_and_voice: "Trần thuật mô tả sự giằng xé nội tâm của vị sĩ quan tham mưu có lương tâm."
+    modality_and_logic: "Bảo toàn nội dung cảm xúc toát ra từ lời đáp đau đớn của vị đại tá: cảm giác sai trái không sao rũ bỏ được và sự căm ghét lối đánh nướng quá nhiều sinh mạng trẻ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000347
+    terms:
+      - "giao tranh nhỏ"
+      - "tổn thất"
+      - "tinh thần binh sĩ"
+    pronouns_and_address: "Vị đại tá dùng `chúng ta`."
+    pov_and_voice: "Giọng trăn trở, lo âu của người làm công tác tham mưu chiến dịch."
+    modality_and_logic: "Bảo toàn cấu trúc nối tiếp từ `p000344` (`…chúng ta cũng không thể làm ngơ...`), sự tích tụ của những tổn thất nhỏ và hệ quả đáng ngại nhất là sự suy sụp tinh thần binh sĩ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000348
+    terms:
+      - "giao tranh nhỏ"
+      - "tổn thất"
+    pronouns_and_address: "Câu thoại của Tanya không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng phản biện khô khan, thuần túy dựa trên quy mô con số."
+    modality_and_logic: "Bảo toàn lập luận điều kiện của Tanya: nếu chỉ là giao tranh nhỏ thì không lý nào lại gây ra quá nhiều tổn thất."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000349
+    terms:
+      - "Tanya"
+      - "tổn thất"
+      - "tỷ lệ thương vong"
+      - "Thế chiến thứ nhất"
+    pronouns_and_address: "Trần thuật hạn tri dùng tên riêng `Tanya`, quy chiếu người bình thường ở thế giới này bằng `người bình thường` / `họ`."
+    pov_and_voice: "Độc thoại nội tâm chuyển sang trần thuật hạn tri tự nhận thức về sự lệch chuẩn trong thước đo thương vong của Tanya."
+    modality_and_logic: "Bảo toàn bước ngoặt nhận thức (`Khoan đã`), phép so sánh với Thế chiến thứ nhất khiến các vụ đụng độ hiện tại trông thật nhỏ bé, và sự đối조 với người bình thường (dù có biết cũng không lấy Thế chiến thứ nhất làm thước đo, còn nếu không biết thì ắt sẽ rùng mình trước những con số không tưởng đó)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000350
+    terms:
+      - "cuộc tập kích quấy rối"
+    pronouns_and_address: "Tanya xưng `tôi` trong lời thoại với vị đại tá."
+    pov_and_voice: "Giọng bình thản đến vô cảm khi nói về sinh mạng binh lính."
+    modality_and_logic: "Bảo toàn lập luận khắc nghiệt của Tanya rằng các cuộc tập kích quấy rối cùng lắm chỉ giết những kẻ đằng nào cũng chết nên không có gì to tát."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000351
+    terms:
+      - "đại đội bộ binh"
+      - "tập kích bất ngờ"
+      - "pháp sư"
+      - "đợt tập kích quấy rối quy mô tiểu đoàn"
+      - "thương vong"
+      - "Đế quốc"
+    pronouns_and_address: "Trần thuật hạn tri / độc thoại phân tích chiến thuật không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng ước tính rủi ro – chi phí quân sự chuẩn xác."
+    modality_and_logic: "Bảo toàn chuỗi suy luận: đột kích lớn quá mạo hiểm nên địch tối đa chỉ dùng một đại đội bộ binh đánh lén hoặc một tiểu đoàn pháp sư tập kích quấy rối; với quy mô đó thì thương vong của phía Đế quốc không thể cao bất thường."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000352
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Trần thuật hạn tri dùng tên riêng `Tanya`."
+    pov_and_voice: "Trần thuật hạn tri nối kết suy nghĩ nội tâm với hành động đời thường trong phòng họp."
+    modality_and_logic: "Bảo toàn lời tự rào đón cho nhận định vừa nêu và chi tiết Tanya uống cạn tách cà phê dở tệ rồi ăn kẹo bạc hà để khử vị."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000353
+    terms:
+      - "cựu binh"
+      - "lính mới"
+      - "Tỷ lệ tổn thất"
+      - "binh sĩ bổ sung"
+      - "cuộc chiến Dacia"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `mình` (`đơn vị mình`) theo đúng `DEC-P01-001`, quy chiếu cựu binh/lính mới bằng `họ`, và lược đại từ ngôi thứ hai phiếm chỉ ở câu cuối."
+    pov_and_voice: "Độc thoại nội tâm tổng kết kinh nghiệm chỉ huy thực chiến."
+    modality_and_logic: "Bảo toàn đầy đủ các ý: khoảng cách giữa cựu binh và tân binh nằm ở trải nghiệm thực chiến; đơn vị của Tanya có tỷ lệ tổn thất thấp nhất nhưng lính bổ sung từ đơn vị khác cũng đang dần bị thương; và sự đối lập giữa những người may mắn được làm quen chiến trường ở cuộc chiến Dacia dễ dàng với những tân binh phải nếm trải mặt trận Rhine khốc liệt ngay lần đầu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000354
+    terms:
+      - "Thiếu tá von Degurechaff"
+      - "tỷ lệ tổn thất"
+    pronouns_and_address: "Vị đại tá gọi `Thiếu tá von Degurechaff` và `cô`."
+    pov_and_voice: "Giọng đặt vấn đề lịch sự, chuẩn bị giao nhiệm vụ huấn luyện thực địa cho Tanya."
+    modality_and_logic: "Bảo toàn câu hỏi gợi ý rằng sự hướng dẫn và chỉ đạo của Tanya có thể giúp kéo giảm tỷ lệ tổn thất."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000355
+    terms: []
+    pronouns_and_address: "Tanya gọi vị đại tá là `ngài`, tự xưng `tôi`, và quy chiếu đám tân binh là `những người lần đầu ra trận này` / `họ`."
+    pov_and_voice: "Giọng nhận lệnh chuẩn mực của một sĩ quan cấp dưới đi kèm quan điểm huấn luyện thực tế."
+    modality_and_logic: "Bảo toàn cam kết sẵn sàng dốc hết sức nếu có lệnh, kèm khẳng định rằng giải pháp duy nhất cho số lính mới lần đầu ra trận là phải kèm cặp từng bước một."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000356
+    terms:
+      - "lính bắn tỉa"
+      - "chiến hào"
+      - "pháo dã chiến"
+      - "hỏa lực tập trung"
+      - "pháo hạng nặng cỡ lớn"
+      - "bê tông cốt thép"
+      - "nhân viên vô tuyến"
+      - "lô cốt"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya lược đại từ ngôi thứ hai phiếm chỉ và quy chiếu đám tân binh bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm sắc lạnh, thực tế về phương pháp huấn luyện trực quan trên chiến trường."
+    modality_and_logic: "Bảo toàn hai ví dụ đối chiếu sinh động: chỉ vào một kẻ ngốc bị bắn tỉa hiệu quả hơn lời nhắc suông không được thò đầu ra; và bắt tân binh đi đào xác những nhân viên vô tuyến bị chôn sống chết ngạt trong lô cốt bị trọng pháo bắn sập sẽ giúp họ khắc cốt ghi tâm việc không được tụ tập hết vào một chỗ."
+    emphasis: "Bảo toàn chính xác 2 cụm `*...*` tương ứng `<html:em>` (`*Đừng thò đầu ra!*` và `*nên đừng có chui hết vào cùng một chỗ!*`) theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000357
+    terms:
+      - "Tanya"
+      - "tiểu đoàn"
+      - "Rhine"
+    pronouns_and_address: "Hai câu đầu lược đại từ ngôi thứ hai phiếm chỉ; câu cuối trần thuật ngôi thứ ba dùng tên riêng `Tanya`."
+    pov_and_voice: "Độc thoại nội tâm chuyển sang trần thuật hạn tri khép lại đoạn hồi tưởng và nối lại với quyết định huấn luyện thực địa ở đầu chương."
+    modality_and_logic: "Bảo toàn phép loại suy với việc dạy viết bảng chữ cái từng bước A-B-C và kết luận bất ngờ của Tanya rằng ngay cả tiểu đoàn của mình cũng còn một số bài học thực tế ở Rhine chưa từng trải qua."
+    emphasis: "none"
