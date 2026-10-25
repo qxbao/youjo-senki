@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b14-source.jsonl
 source_package_sha256: 9ed89f955364dba28c6c49735286f9eebf3137318800787420e70dc9f8a09b3e
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -43,33 +43,45 @@ translation_report:
   diff_check: pass
   findings: []
   pending_term_count: 5
-  files_written: [translations/vol-02/ch-04-b14.jsonl]
+  files_written:
+  - translations/vol-02/ch-04-b14.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: signoff_passed
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b14_translation_proposals
   review_report: reviews/prose/vol-02/ch-04-b14-claude.md
-  review_counts: {serious: 0, moderate: 3, minor: 8}
-  unresolved_moderate: [M1, M2, M3]
+  review_counts:
+    serious: 0
+    moderate: 3
+    minor: 8
+  unresolved_moderate:
+  - M1
+  - M2
+  - M3
   follow_up_owner: translator-ch04-b14-review-fixes
   coordinator_proposals:
-    M1: >-
-      At p000088 and p000096 render “challenge” as hailing/challenging identification;
+    M1: At p000088 and p000096 render “challenge” as hailing/challenging identification;
       use “hô gọi”, and do not add a stop order at p000096.
-    M2: >-
-      Render “ma’am” at p000107 neutrally as “thưa chỉ huy”, avoiding age inference.
-    M3: >-
-      At p000106 remove the unsupported feminine pronoun for Weiss; use “đại đội của
-      Trung úy” or equivalent neutral wording.
-    tanya_narration: >-
-      Provisionally use “nó” for Tanya third-person narration at p000084, p000086,
-      p000089, p000092, p000093, and p000109 to match b10-b13; this remains pending,
-      not canon.
-    neutral_address: >-
-      At p000095 use “Chỉ huy chắc chứ?”; at p000100 and p000104 use a neutral crew
-      address such as “các vị”, avoiding unsupported gender.
-  minor_findings_recorded_only: [F5, F6, F7, F9, F10, F11, F12, F13]
+    M2: Render “ma’am” at p000107 neutrally as “thưa chỉ huy”, avoiding age inference.
+    M3: At p000106 remove the unsupported feminine pronoun for Weiss; use “đại đội
+      của Trung úy” or equivalent neutral wording.
+    tanya_narration: Provisionally use “nó” for Tanya third-person narration at p000084,
+      p000086, p000089, p000092, p000093, and p000109 to match b10-b13; this remains
+      pending, not canon.
+    neutral_address: At p000095 use “Chỉ huy chắc chứ?”; at p000100 and p000104 use
+      a neutral crew address such as “các vị”, avoiding unsupported gender.
+  minor_findings_recorded_only:
+  - F5
+  - F6
+  - F7
+  - F9
+  - F10
+  - F11
+  - F12
+  - F13
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -84,15 +96,30 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0024.xhtml/p000111
-
   fix_report:
     state: done
     translator_session_id: 01a132ab-9576-7082-a042-9e4cdff3f77b
-    findings_resolved_by_translator: [M1, M2, M3]
+    findings_resolved_by_translator:
+    - M1
+    - M2
+    - M3
     validator: pass
     diff_check: pass
   signoff_report: reviews/prose/vol-02/ch-04-b14-fixes-signoff-claude.md
-
-  signoff_counts: {serious: 0, moderate: 0, minor: 8}
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    minor: 8
   unresolved_serious: 0
   unresolved_moderate: 0
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b14
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 149
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b14.jsonl
