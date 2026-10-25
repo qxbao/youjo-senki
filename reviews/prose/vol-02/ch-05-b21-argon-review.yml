@@ -1,0 +1,422 @@
+task_id: vol-02-ch-05-b21
+review_task_id: vol-02-ch-05-b21-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b21
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000535
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000565
+unit_count: 31
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 801ef9953bdc4712bf0cec8ab180f619b2c95976366174aba70af13b496458f8
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b21-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b21-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000535
+    category: pronoun_and_internal_voice_consistency
+    issue: >-
+      Trong phần độc thoại và tự sự ngôi thứ nhất không in nghiêng của Tanya (`p000535`–`p000538`, `p000551`), bản dịch đang dùng đại từ `tôi`, trong khi ở các câu độc thoại nội tâm in nghiêng (`p000539`, `p000552`, `p000557`) dùng `mình` / `Mình` và ở các câu trần thuật ngôi thứ ba (`p000539`, `p000541`–`p000550`, `p000552`, `p000554`–`p000556`) dùng `Tanya` / `nó` kết hợp phản thân `mình`; ngoài ra khi quy chiếu nhóm tân binh, `p000539`–`p000540` đang dùng `chúng` còn `p000541`–`p000542`, `p000545` dùng `họ`.
+    basis: >-
+      Cách phân tách `tôi` cho các đoạn tự sự ngôi thứ nhất không in nghiêng (tiếp nối trực tiếp mạch `p000530`–`p000534` ở cuối `ch-05-b20`), `mình` cho độc thoại nội tâm in nghiêng và `nó` cho trần thuật ngôi thứ ba vẫn giữ đúng ranh giới điểm nhìn của Tanya, hoàn toàn không dùng `cô` trong trần thuật theo đúng `DEC-P01-001`.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc đồng bộ đại từ ngôi thứ nhất số ít của Tanya tại `p000535`–`p000538` và `p000551` về `mình` (giữ `chúng tôi` cho ngôi thứ nhất số nhiều) và thống nhất đại từ quy chiếu nhóm tân binh ở `p000539`–`p000540` thành `họ` để liền mạch với `p000541`–`p000545`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000548
+    category: lexical_nuance_and_specificity
+    issue: >-
+      Tại câu cuối của `p000548`, danh từ chỉ hai lính mới tử trận (`two newbies`) đang được dịch khái quát thành `hai người` (`Trong hoàn cảnh đó, chỉ mất hai người đâu có gì tệ.`); bên cạnh đó, tại `p000542`, cụm chỉ việc rời đi/rút quân sau ba mươi giây (`leaving in thirty seconds`, đối chiếu lệnh rút lui sau 30 giây ở `ch-05-b20` `p000498`) đang dịch là `xuất phát sau ba mươi giây`.
+    basis: >-
+      Vì `p000538`–`p000542` và `p000547` ngay trước đó đã nêu rõ hai tổn thất trong đêm đột kích là hai tân binh không kịp rút lui trước đợt pháo kích, người đọc vẫn nắm bắt chính xác đối tượng và diễn biến sự việc.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh `hai người` ở `p000548` thành `hai lính mới` (hoặc `hai tân binh`) để giữ sắc thái phân trần của Tanya rằng tổn thất chỉ nằm ở đám lính mới, và đổi `xuất phát` ở `p000542` thành `rời đi` (hoặc `rút đi`) để khớp tuyệt đối với lệnh rút quân ở `p000498`.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000558
+    category: institutional_term_and_reference_nuance
+    issue: >-
+      Tại `p000558`, hai cơ quan đồng chủ trì cuộc họp (`Service Corps` và `Operations`) đang được dịch là `bộ phận Hậu cần` và `bộ phận Tác chiến`, dẫn tới việc `Service Corps` (`p000558`) và `Logistics` (`p000565`) cùng được dịch thành `bộ phận Hậu cần` (trong khi một số lô khác ở Bộ Tổng Tham mưu dùng `Cục Quân vụ` / `Cục Hậu cần` và `Cục Tác chiến`); ngoài ra tại `p000565`, cụm chỉ mục đích bảo đảm sự sụp đổ của Liên minh Entente (`to ensure it`) đang dịch hơi lặp từ `ở đó` (`đến khu vực đó để bảo đảm tình hình ở đó`).
+    basis: >-
+      Trong cơ cấu Bộ Tổng Tham mưu Đế quốc, Thiếu tướng von Zettour đứng đầu khối Quân vụ/Hậu cần và trực tiếp phụ trách bài toán tiếp tế xuyên suốt phân cảnh `p000558`–`p000565`, đồng thời cách dịch `bộ phận Hậu cần` tại `p000565` đồng bộ trực tiếp với `ch-05-b18` (`p000443`), không làm sai lệch nội dung cuộc họp.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc phân biệt `Cục Quân vụ` (hoặc `Khối Hậu cần`) với `Cục Tác chiến` ở `p000558` và gọt câu `p000565` thành `cần tạm thời điều một phần binh lực đến khu vực đó để bảo đảm kết cục ấy, việc này cũng khiến bộ phận Hậu cần thêm nặng gánh.` để tránh lặp `ở đó`.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "Republican bombardments / rear / bacon / hard biscuits / ersatz coffee / canned vegetables / rotation / All Quiet on the Western Front"
+    source_label: "Republican bombardments / the rear / bacon / hard biscuits / ersatz coffee / canned vegetables / rotation / All Quiet on the Western Front"
+    recommended_vi: "Pháo kích của quân Cộng hòa / hậu phương / thịt xông khói / bánh quy cứng / cà phê thay thế / rau đóng hộp / thực đơn luân phiên / *Phía Tây không có gì lạ*"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `quân Cộng hòa` và `hậu phương`; khóa tạm các danh từ chỉ khẩu phần dã chiến (`thịt xông khói`, `bánh quy cứng`, `cà phê thay thế`, `rau đóng hộp`, `thực đơn luân phiên`) và dùng tên dịch tiếng Việt kinh điển được công nhận rộng rãi `*Phía Tây không có gì lạ*` cho tiểu thuyết phản chiến Thế chiến I."
+    alternatives:
+      - "lương khô / cà phê giả / khẩu phần luân phiên"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000535
+      - YS-LN02/Text/part0026.xhtml/p000536
+      - YS-LN02/Text/part0026.xhtml/p000537
+      - YS-LN02/Text/part0026.xhtml/p000538
+
+  - term_key: "recruits / front lines / trenches / retraining / tunnel vision / night battle / artillery barrage / subordinates / newbies / two-man cell / food poisoning"
+    source_label: "recruits / front lines / trenches / retraining / tunnel vision / night battle / artillery barrage / subordinates / newbies / two-man cell / food poisoning"
+    recommended_vi: "tân binh / tiền tuyến / chiến hào / huấn luyện lại / lối nhìn hạn hẹp / trận đánh đêm / trận pháo kích / thuộc cấp / lính mới / tổ hai người / ngộ độc thực phẩm"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `tân binh`, `tiền tuyến`, `chiến hào`, `thuộc cấp`, `lính mới` và `ngộ độc thực phẩm` từ `ch-05-b18`–`b20`; khóa tạm `huấn luyện lại`, `lối nhìn hạn hẹp`, `trận đánh đêm`, `trận pháo kích` và thuật ngữ biên chế chiến thuật `tổ hai người`."
+    alternatives:
+      - "tầm nhìn đường hầm / tác chiến đêm / đợt pháo kích / cặp tác chiến hai người"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000538
+      - YS-LN02/Text/part0026.xhtml/p000539
+      - YS-LN02/Text/part0026.xhtml/p000540
+      - YS-LN02/Text/part0026.xhtml/p000541
+      - YS-LN02/Text/part0026.xhtml/p000542
+
+  - term_key: "night raid / higher-ups / high-risk operation / commander / Yankee military / MacArthur / Eisenhower / psychological contamination"
+    source_label: "night raid / higher-ups / high-risk operation / commander / Yankee military / MacArthur / Eisenhower / psychological contamination"
+    recommended_vi: "cuộc đột kích ban đêm / cấp trên / chiến dịch đầy rủi ro / người chỉ huy / quân đội Yankee / MacArthur / Eisenhower / ô nhiễm tâm lý"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ `cuộc đột kích ban đêm` với `ch-05-b20` (`p000530`), `cấp trên` và `người chỉ huy`; giữ nguyên tên riêng lịch sử `MacArthur`, `Eisenhower`, biệt danh `quân đội Yankee`, và khóa tạm thuật ngữ `ô nhiễm tâm lý` chỉ tác dụng phụ ăn mòn tâm trí của quả cầu tính toán Type 95."
+    alternatives:
+      - "cuộc tập kích đêm / chiến dịch có độ rủi ro cao / nhiễm độc tâm lý / ô nhiễm tinh thần"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000547
+      - YS-LN02/Text/part0026.xhtml/p000548
+      - YS-LN02/Text/part0026.xhtml/p000550
+      - YS-LN02/Text/part0026.xhtml/p000551
+      - YS-LN02/Text/part0026.xhtml/p000555
+
+  - term_key: "Service Corps / Operations / Rhine offensive plan / Major General von Zettour / frontal breakthrough / trench warfare / firepower offensive / supply lines / supply-line light-rail / Entente Alliance / Logistics"
+    source_label: "Service Corps / Operations / Rhine offensive plan / Major General von Zettour / frontal breakthrough / trench warfare / large-scale firepower offensive / supply lines / supply-line light-rail / Entente Alliance / Logistics"
+    recommended_vi: "bộ phận Hậu cần / bộ phận Tác chiến / kế hoạch tấn công Rhine / Thiếu tướng von Zettour / đột phá trực diện / chiến tranh chiến hào / chiến dịch hỏa lực quy mô lớn / các tuyến tiếp tế / tuyến đường sắt nhẹ phục vụ tiếp tế / Liên minh Entente / bộ phận Hậu cần"
+    status: provisional
+    uncertainty: low
+    basis: "Đồng bộ cấp bậc `Thiếu tướng von Zettour` tại thời điểm Chương 5 Tập 2 (khớp với `Thiếu tướng von Rudersdorf` ở `ch-05-b22` `p000570`), `Liên minh Entente`, `các tuyến tiếp tế` và `bộ phận Hậu cần` (`ch-05-b18` `p000443`); khóa tạm `kế hoạch tấn công Rhine`, `đột phá trực diện`, `chiến tranh chiến hào`, `chiến dịch hỏa lực quy mô lớn` và `tuyến đường sắt nhẹ phục vụ tiếp tế`."
+    alternatives:
+      - "Cục Quân vụ / Cục Tác chiến / Chuẩn tướng von Zettour / đột phá chính diện / đường sắt dã chiến khổ hẹp phục vụ tiếp tế / Cục Hậu cần"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000558
+      - YS-LN02/Text/part0026.xhtml/p000561
+      - YS-LN02/Text/part0026.xhtml/p000562
+      - YS-LN02/Text/part0026.xhtml/p000563
+      - YS-LN02/Text/part0026.xhtml/p000564
+      - YS-LN02/Text/part0026.xhtml/p000565
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000535
+    terms:
+      - "Pháo kích của quân Cộng hòa"
+      - "hậu phương"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Tanya dùng `chúng tôi` cho đơn vị và `tôi` / `mình` cho bản thân (xem finding `m1`)."
+    pov_and_voice: "Độc thoại tự sự ngôi thứ nhất của Tanya mở đầu cảnh tiếp theo sau khi viết xong thư gia đình cho Chuẩn úy Kahteijanen ở `ch-05-b20`."
+    modality_and_logic: "Bảo toàn sự tương phản và nguyên nhân: pháo kích của quân Cộng hòa vẫn đều đặn như đồng hồ làm rung chuyển vị trí đóng quân, nhưng trong “ngày lành” này Tanya lại trầm tư khác thường vì vừa phải đưa một người về hậu phương vì lý do khó nói thành lời."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000536
+    terms:
+      - "thịt xông khói"
+      - "bánh quy cứng"
+      - "cà phê thay thế"
+      - "súp rau"
+      - "mấy củ khoai tây thủ phạm"
+    pronouns_and_address: "Tự sự ngôi thứ nhất dùng `tôi`."
+    pov_and_voice: "Giọng tự sự thực tế pha chút tiếc nuối đời thường về chế độ dinh dưỡng."
+    modality_and_logic: "Bảo toàn đầy đủ 4 câu: bài học rút ra được áp dụng ngay; bữa sáng gồm thịt xông khói, bánh quy cứng và cà phê thay thế; món súp rau có đám khoai tây thủ phạm bị vứt bỏ vội vàng; cá nhân Tanya lo chế độ ăn thiếu rau sẽ mất cân bằng nhưng đành chịu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000537
+    terms:
+      - "tiếp tế"
+      - "rau đóng hộp"
+      - "chiến trường"
+      - "thực đơn luân phiên"
+    pronouns_and_address: "Tự sự ngôi thứ nhất dùng `tôi` và `chúng tôi`."
+    pov_and_voice: "Giọng tự sự đời thường của người lính ngán ngẩm cảnh sinh hoạt và thực đơn lặp đi lặp lại nơi chiến hào."
+    modality_and_logic: "Bảo toàn cả 3 câu: sáng sớm đã sai người đi lấy tiếp tế nên đoán trưa nay có lẽ sẽ được ăn rau đóng hộp; dù ở chiến trường vẫn không thoát khỏi những nếp sinh hoạt lặp lại đến phát ngán; ước gì có được một bữa ăn nằm ngoài thực đơn luân phiên."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000538
+    terms:
+      - "chiến hào"
+      - "*Phía Tây không có gì lạ*"
+      - "tân binh"
+      - "huấn luyện"
+      - "tiền tuyến"
+    pronouns_and_address: "Tự sự ngôi thứ nhất dùng `chúng tôi` và `tôi`."
+    pov_and_voice: "Liên hệ văn học thế giới cũ để tóm tắt sự đơn điệu của chiến tranh chiến hào."
+    modality_and_logic: "Bảo toàn 3 câu: các trận đánh hằng ngày trong chiến hào diễn ra chẳng khác gì thế giới của *Phía Tây không có gì lạ*; ngày nào cũng lặp lại gần như cùng một khuôn mẫu; điều mới mẻ duy nhất thu hút sự chú ý là đám tân binh đang huấn luyện ngay tại tiền tuyến có làm tốt hay không."
+    emphasis: "Bảo toàn chính xác cụm `*...*` tại tên tác phẩm `*Phía Tây không có gì lạ*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000539
+    terms:
+      - "Tanya"
+      - "chiến hào"
+    pronouns_and_address: "Câu độc thoại nội tâm in nghiêng dùng `Mình`; câu trần thuật ngôi thứ ba dùng `Tanya` và `nó` theo đúng `DEC-P01-001`, quy chiếu tân binh bằng `chúng`."
+    pov_and_voice: "Sự chuyển dịch liền mạch từ câu tự nhủ nội tâm sang lời kể ngôi thứ ba bám sát điểm nhìn của Tanya."
+    modality_and_logic: "Bảo toàn câu tự nhủ mới đưa đám tân binh vào chiến hào hôm qua, và dự tính của Tanya rằng sau một tuần thử lửa chiến tranh trong chiến hào sẽ biết có dùng được hay không."
+    emphasis: "Bảo toàn chính xác 1 câu đầu trong `*...*` (`*Mình mới đưa chúng ra chiến hào hôm qua thôi.*`) tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000540
+    terms:
+      - "huấn luyện lại"
+    pronouns_and_address: "Câu điều kiện lược chủ ngữ ngôi thứ ba của Tanya, quy chiếu tân binh bằng `chúng`."
+    pov_and_voice: "Giọng trần thuật lạnh lùng, coi việc trả quân như thủ tục hành chính đơn giản."
+    modality_and_logic: "Bảo toàn câu điều kiện phủ định: nếu không dùng được thì chỉ việc trả về và làm đơn đề nghị huấn luyện lại."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000541
+    terms:
+      - "lối nhìn hạn hẹp"
+      - "huấn luyện"
+      - "binh lính"
+      - "cấp trên"
+      - "trận đánh đêm"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Tanya nhất quán bằng `nó` theo `DEC-P01-001` và quy chiếu binh lính bằng `họ`."
+    pov_and_voice: "Trần thuật điểm nhìn Tanya tóm lược kết quả bài kiểm tra thực chiến đầu tiên của đám tân binh."
+    modality_and_logic: "Bảo toàn trọn vẹn 2 câu: dù tiếc cho lối nhìn hạn hẹp mà chiến tranh gây ra, Tanya vẫn dốc sức huấn luyện binh lính; đúng như cấp trên dặn, Tanya cho họ làm bài kiểm tra khó nhất trước khi miễn cưỡng đưa vào trận đánh đêm bất chấp rủi ro, nhưng ngạc nhiên và mừng rỡ thay chỉ mất hai người."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000542
+    terms:
+      - "trận pháo kích"
+      - "thuộc cấp"
+      - "lính mới"
+      - "chỉ thị"
+      - "tân binh"
+      - "tổ hai người"
+      - "Tanya"
+      - "ngộ độc thực phẩm"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó`, `Tanya` và phản thân `mình` theo `DEC-P01-001`; quy chiếu đơn vị bằng `mọi người` / `họ`."
+    pov_and_voice: "Trần thuật lạnh lùng về cái chết của hai tân binh rồi rẽ ngoặt sang suy ngẫm triết lý dở khóc dở cười về ngộ độc thực phẩm."
+    modality_and_logic: "Bảo toàn đầy đủ 4 câu: dù đã báo trước thời hạn 30 giây, đôi tân binh kia không theo kịp và bị thổi bay trong trận pháo kích theo xác nhận của một thuộc cấp; chỉ có vậy; ngoài ra đám lính mới đều làm đúng chỉ thị và không ai phát điên; khi ngẫm về nỗi bất hạnh của hai tân binh cùng bị nổ tung trong tổ hai người, Tanya đâm ra hơi triết lý và tự hỏi về vai trò của vận may trong chuyện ngộ độc thực phẩm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000543
+    terms: []
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó` kết hợp phản thân `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Câu khẳng định ngắn gọn về tinh thần làm tròn bổn phận của Tanya."
+    modality_and_logic: "Bảo toàn ý: dù thế nào đi nữa, Tanya vẫn đang làm những việc mình cần làm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000544
+    terms: []
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó` kết hợp phản thân `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Câu chuyển ý nêu sự bất công mà Tanya cảm thấy từ thái độ của xung quanh."
+    modality_and_logic: "Bảo toàn quan hệ nhượng bộ – đối lập: thực tế là dù đang làm đúng việc cần làm, đôi khi Tanya vẫn nhận lấy những ánh mắt ngờ vực."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000545
+    terms:
+      - "báo cáo"
+      - "HUẤN LUYỆN"
+      - "MỆNH LỆNH"
+    pronouns_and_address: "Trần thuật dùng `nó`; nội dung điện báo của Tanya tự xưng `TÔI`, gọi cấp trên là `NGÀI` và quy chiếu tân binh bằng `HỌ`."
+    pov_and_voice: "Văn phong điện báo quân sự in hoa trang trọng."
+    modality_and_logic: "Bảo toàn lời dẫn và nội dung báo cáo đang huấn luyện lính mới theo đúng mệnh lệnh của cấp trên."
+    emphasis: "Bảo toàn chính xác dấu `*...*` kết hợp chữ in hoa tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000546
+    terms:
+      - "ĐÃ RÕ"
+    pronouns_and_address: "Trần thuật dùng `nó`; nội dung điện đáp ngắn gọn không dùng đại từ."
+    pov_and_voice: "Văn phong hồi đáp điện báo quân sự ngắn gọn."
+    modality_and_logic: "Bảo toàn câu dẫn và lời hồi đáp xác nhận đã rõ kèm lời chúc may mắn."
+    emphasis: "Bảo toàn chính xác dấu `*...*` kết hợp chữ in hoa tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000547
+    terms:
+      - "cuộc đột kích ban đêm"
+      - "cấp trên"
+      - "tổn thất"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó` cho Tanya, `họ` cho đơn vị ở câu đầu và cho cấp trên ở câu hai."
+    pov_and_voice: "Trần thuật điểm nhìn Tanya bày tỏ sự khó hiểu trước lời nhắc nhở vô lý của cấp trên."
+    modality_and_logic: "Bảo toàn cả 2 câu: khi đi đột kích đêm và chỉ mất hai người thì cấp trên lại nhắc lần sau phải cẩn thận hơn; Tanya bắt đầu tự hỏi phải chăng họ muốn thực hiện nhiệm vụ với tổn thất bằng không."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000548
+    terms:
+      - "chiến trường"
+      - "chiến dịch đầy rủi ro"
+    pronouns_and_address: "Câu dẫn dùng `nó` theo `DEC-P01-001`; phần lời phân trần dùng đại từ số nhiều `chúng tôi` cho đơn vị."
+    pov_and_voice: "Lời tự biện hộ hợp tình hợp lý của một chỉ huy tiền tuyến."
+    modality_and_logic: "Bảo toàn lập luận hai câu được ngắt bởi lời dẫn `nó phân trần`: đây là chiến trường và đơn vị đã thực hiện một chiến dịch rủi ro cao; mất hai lính mới trong hoàn cảnh đó hoàn toàn không tệ (xem thêm finding `m2`)."
+    emphasis: "Bảo toàn chính xác 2 cụm `*...*` tách biệt quanh lời dẫn `nó phân trần` tương ứng hai thẻ `<html:em>` trong nguồn theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000549
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `Tanya` kết hợp phản thân `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Trần thuật nhượng bộ khi Tanya nghĩ tới yếu tố may rủi."
+    modality_and_logic: "Bảo toàn mức độ tình thái (`có vẻ Tanya phải thừa nhận`): xét về chuyện vận may, Tanya phải thừa nhận mình cần tính đến một số yếu tố."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000550
+    terms:
+      - "tổn thất"
+      - "đơn vị"
+      - "người chỉ huy"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó` cho Tanya và `người ta` cho cấp trên."
+    pov_and_voice: "Trần thuật nỗi ấm ức của người chỉ huy trực tiếp tại hiện trường khi phải gánh trách nhiệm vì vận rủi."
+    modality_and_logic: "Bảo toàn quan hệ nhân quả và sự bất mãn: thật đáng buồn khi chỉ vì cấp trên không muốn có bất kỳ tổn thất nào còn đơn vị lại gặp vận rủi mà mọi trách nhiệm đều đổ lên đầu người chỉ huy có mặt tại chỗ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000551
+    terms:
+      - "công ty tư nhân"
+      - "quân đội Yankee"
+      - "MacArthur"
+      - "cấp dưới"
+      - "Eisenhower"
+      - "cuộc diễu hành"
+    pronouns_and_address: "Độc thoại tự sự ngôi thứ nhất dùng `Tôi`, quy chiếu MacArthur bằng `cái gã MacArthur` và phản thân `mình`."
+    pov_and_voice: "Giọng bình luận lịch sử châm biếm của Tanya, liên hệ thói đổ vấy trách nhiệm của cấp trên từ doanh nghiệp tư nhân tới quân đội Mỹ."
+    modality_and_logic: "Bảo toàn cả 2 câu: biết lịch sử vẫn lặp lại theo những kiểu nhỏ nhặt từ công ty tư nhân đến quân đội Yankee; lấy ví dụ vụ gã MacArthur ra lệnh cho cấp dưới Eisenhower lên kế hoạch diễu hành rồi khăng khăng chối biến là không nhớ gì—xưa nay có vô số chuyện tồi tệ như thế."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000552
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Câu trần thuật đầu dùng tên riêng `Tanya`; hai câu độc thoại nội tâm in nghiêng dùng `mình` / `Mình` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Bước ngoặt hài hước rùng rợn: ý nghĩ ủy mị hoàn toàn trái với bản chất của Tanya đột ngột xuất hiện."
+    modality_and_logic: "Bảo toàn cả 3 câu: câu dẫn Tanya vẫn thấy rất buồn; và hai câu độc thoại nội tâm in nghiêng than thở sắp bật khóc vì mình là con gái."
+    emphasis: "Bảo toàn chính xác cụm `*...*` bao trọn 2 câu cuối (`*A, có lẽ mình sắp khóc mất. Mình là con gái mà!*`) tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000553
+    terms: []
+    pronouns_and_address: "Ký hiệu cảm thán nội tâm không ngôn từ."
+    pov_and_voice: "Khoảnh khắc khựng lại đầy hoang mang của Tanya trước suy nghĩ kỳ quặc vừa thoáng qua."
+    modality_and_logic: "Bảo toàn nguyên vẹn chuỗi dấu chấm lửng và hai dấu chấm hỏi."
+    emphasis: "Bảo toàn chính xác `*…??*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000554
+    terms: []
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó` kết hợp phản thân `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Trần thuật khoảnh khắc Tanya giật mình phát hiện sự bất thường trong tâm trí."
+    modality_and_logic: "Bảo toàn quan hệ thời gian: khi dòng suy nghĩ đi chệch hướng, Tanya đột ngột nhận ra mình cảm thấy không ổn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000555
+    terms:
+      - "ô nhiễm tâm lý"
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `nó` theo `DEC-P01-001`."
+    pov_and_voice: "Trần thuật nhấn mạnh nỗi khiếp sợ tột độ của Tanya trước hiện tượng ăn mòn tâm trí."
+    modality_and_logic: "Bảo toàn hình ảnh nỗi kinh hoàng vì bị ô nhiễm tâm lý tràn ngập tâm trí Tanya."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000556
+    terms: []
+    pronouns_and_address: "Trần thuật ngôi thứ ba dùng `Nó` kết hợp phản thân `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Trần thuật hành động hốt hoảng lao đi cầu cứu của Tanya."
+    modality_and_logic: "Bảo toàn phép so sánh giả định: chạy đi tìm sự giúp đỡ nào đó như thể tính mạng mình phụ thuộc vào đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000557
+    terms:
+      - "Bác sĩ"
+    pronouns_and_address: "Độc thoại nội tâm in nghiêng của Tanya dùng `Mình` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Tiếng gào thét nội tâm khẩn cấp khép lại phân cảnh của Tanya ở mặt trận Rhine."
+    modality_and_logic: "Bảo toàn hai câu cảm thán gọi bác sĩ và khẳng định cần phải gặp bác sĩ ngay."
+    emphasis: "Bảo toàn chính xác `*Bác sĩ! Mình cần gặp bác sĩ!*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000558
+    terms:
+      - "bộ phận Hậu cần"
+      - "bộ phận Tác chiến"
+      - "kế hoạch tấn công Rhine"
+    pronouns_and_address: "Lời thoại mở đầu cuộc họp dùng đại từ ngôi thứ nhất `tôi`."
+    pov_and_voice: "Chuyển cảnh (`class=\"noindent\"`) sang phòng họp Bộ Tổng Tham mưu với lời tuyên bố khai mạc trang trọng."
+    modality_and_logic: "Bảo toàn lời tuyên bố đã đến giờ hẹn và bắt đầu cuộc họp liên tịch giữa khối Hậu cần (Quân vụ) và Tác chiến xoay quanh ưu nhược điểm của kế hoạch tấn công tại mặt trận Rhine."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000559
+    terms:
+      - "Viên sĩ quan chủ trì cuộc họp"
+    pronouns_and_address: "Trần thuật ngôi thứ ba khách quan."
+    pov_and_voice: "Trần thuật khắc họa bầu không khí nặng nề, ngột ngạt ngay đầu cuộc họp."
+    modality_and_logic: "Bảo toàn cả ba mệnh đề: viên sĩ quan chủ trì lên tiếng, nhưng không ai nối lời, và sự im lặng bao trùm."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000560
+    terms:
+      - "phòng họp"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu các tướng lĩnh/sĩ quan bằng `những người đàn ông cấp cao`."
+    pov_and_voice: "Trần thuật sử dụng phép tương phản ngoại cảnh và tâm trạng nhân vật."
+    modality_and_logic: "Bảo toàn sự đối lập giữa vẻ ngoài tráng lệ của tòa nhà với gương mặt u ám của những người đàn ông cấp cao trong phòng họp."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000561
+    terms:
+      - "sĩ quan"
+      - "Thiếu tướng von Zettour"
+      - "quân Cộng hòa"
+      - "Đế quốc"
+      - "chiến tranh chiến hào"
+      - "đột phá trực diện"
+    pronouns_and_address: "Trần thuật ngôi thứ ba định danh `Thiếu tướng von Zettour`."
+    pov_and_voice: "Trần thuật ngôi thứ ba từ góc nhìn chiến lược của Bộ Tổng Tham mưu."
+    modality_and_logic: "Bảo toàn trọn vẹn 3 câu: một số sĩ quan trong đó có Thiếu tướng von Zettour lo lắng không dứt đến mức gần như vò đầu bứt tai vì chưa biết tính sao; tình hình biến chuyển từng khắc khiến chỉ riêng việc nắm bắt diễn biến đã cực kỳ khó khăn; hơn nữa, qua núi xác chất cao do quân Cộng hòa gây ra, Đế quốc đang thấm thía việc đột phá trực diện trong chiến tranh chiến hào là bất khả thi về căn bản."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000562
+    terms:
+      - "cuộc tấn công trực diện"
+      - "chiến hào"
+      - "chiến dịch hỏa lực quy mô lớn"
+      - "các tuyến tiếp tế"
+    pronouns_and_address: "Trần thuật phân tích chiến lược khách quan."
+    pov_and_voice: "Giọng phân tích quân sự nêu rõ thế tiến thoái lưỡng nan giữa sinh lực và hậu cần."
+    modality_and_logic: "Bảo toàn hai vế đối lập: tấn công trực diện vào chiến hào thì cái giá quá đắt; mặt khác, mở chiến dịch hỏa lực quy mô lớn lại gây áp lực quá nặng lên các tuyến tiếp tế."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000563
+    terms:
+      - "tuyến đường sắt nhẹ phục vụ tiếp tế"
+      - "tiền tuyến"
+      - "đồn cứ điểm"
+      - "yêu cầu tăng viện"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu phía Đế quốc bằng `Họ`."
+    pov_and_voice: "Trần thuật phản ánh áp lực dồn dập từ tiền tuyến gửi về hậu phương."
+    modality_and_logic: "Bảo toàn quan hệ tương phản: vừa mới nâng cấp tuyến đường sắt nhẹ tiếp tế ra tiền tuyến, nhưng ngày nào cũng có yêu cầu xin chi viện từ khắp các cứ điểm gửi về."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000564
+    terms:
+      - "Gánh nặng tiếp tế"
+      - "các dự tính trước chiến tranh"
+    pronouns_and_address: "Trần thuật khách quan không dùng đại từ nhân xưng."
+    pov_and_voice: "Câu kết luận cô đọng về sự quá tải hậu cần."
+    modality_and_logic: "Bảo toàn nhận định gánh nặng tiếp tế đã vượt xa các ước tính thời tiền chiến từ lâu."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000565
+    terms:
+      - "Liên minh Entente"
+      - "binh lực"
+      - "bộ phận Hậu cần"
+    pronouns_and_address: "Trần thuật khách quan."
+    pov_and_voice: "Trần thuật mở rộng bức tranh chiến lược sang mặt trận phía bắc, nối trực tiếp sang mở đầu `ch-05-b22` (`p000566`)."
+    modality_and_logic: "Bảo toàn cả ba mệnh đề: Liên minh Entente về cơ bản đang sụp đổ; cần phân bổ một phần binh lực tới khu vực đó trong thời gian ngắn để bảo đảm kết cục ấy; và điều này cũng đè nặng lên bộ phận Hậu cần."
+    emphasis: "none"
