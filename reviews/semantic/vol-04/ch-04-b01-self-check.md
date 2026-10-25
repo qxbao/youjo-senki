@@ -1,0 +1,44 @@
+# Báo cáo tự kiểm (Self-Check): `vol-04-ch-04-b01`
+
+- **Task ID**: `vol-04-ch-04-b01`
+- **Translator**: `argon-low`
+- **Handoff**: `handoffs/vol-04/ch-04-b01.yml`
+- **Tệp dịch**: `translations/vol-04/ch-04-b01.jsonl`
+- **Phạm vi**: `YS-LN04/Text/chapter001_n.xhtml/p000001` → `YS-LN04/Text/chapter001_n.xhtml/p000025` (25 đoạn)
+- **Trạng thái mỗi dòng**: `reviewed`
+
+## 1. Kiểm tra tính đầy đủ và nghĩa gốc
+- Toàn bộ 25 đoạn từ `p000001` đến `p000025` đã được dịch đầy đủ sang tiếng Việt, khớp 1:1 theo thứ tự mã đoạn của gói nguồn cục bộ.
+- Giữ đúng mạch nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic nhân quả và thời gian của giả định:
+  - **Bối cảnh mở đầu tại Văn phòng Bộ Tổng tham mưu và tâm trạng ngán ngẩm của Đại tá von Lergen (`p000001`–`p000010`)**: Ngày 10 tháng 4 năm Thống nhất 1926, tại Văn phòng Bộ Tổng tham mưu; Đại tá von Lergen vốn tự hào về công việc của một sĩ quan Bộ Tổng tham mưu và luôn tin chắc bổn phận của một người lính, một sĩ quan cũng như một con người là tận tụy hoàn thành nhiệm vụ được giao, nhưng có lẽ chính điều đó lại là vấn đề; với gương mặt u ám, ông thầm thở dài không biết đến lần thứ bao nhiêu trong ngày, tự nhủ hẳn đây chính là cảm giác muốn tìm đến rượu và thuốc lá để giải khuây nếu được phép, và xem chừng không chỉ mình ông cảm thấy vậy; chi tiết sự việc quả thực hết sức phi lý: quân đội đang bị trói tay bởi yêu cầu chính trị, khiến ông dù biết rõ đây là một trò hề vẫn rơi vào thế buộc phải ép một số sĩ quan cấp cao đóng vai những tên hề; ngồi vào chỗ đã chuẩn bị sẵn cho mình, Lergen thở dài thầm nghĩ người ta thường có xu hướng lạm dụng những phiên điều trần kiểu này, rồi nhìn quanh phòng thấy gương mặt của những người ngồi hai bên trái phải gần như đều giật giật, lộ rõ vẻ miễn cưỡng khi phải có mặt ở đây; cả các sĩ quan cấp cao của Bộ Tổng tham mưu lẫn các nhân viên tham mưu phụ trách công việc thường nhật đều tham dự—dù mặt trận phía đông đang tạm lắng xuống nhưng thời gian của họ đâu phải vô hạn, nên Lergen rất hiểu nỗi bực dọc khi phải phung phí thời gian vào một việc ngớ ngẩn như vậy; bởi thế, tiếng búa gỗ báo hiệu bắt đầu cuộc họp của chính Trung tướng von Zettour vang lên nghe gần như một lời thúc giục hãy làm cho xong chuyện đi.
+  - **Phiên điều trần đối với Thiếu tá von Degurechaff về cuộc tập kích thủ đô Moskva của Liên bang (`p000011`–`p000025`)**: Trung tướng von Zettour tuyên bố hội đồng điều trần sẽ điều tra hành vi gần đây của Thiếu tá von Degurechaff nhằm làm sáng tỏ những nghi vấn của Bộ Tư lệnh Tối cao; Lergen không thể trách thái độ của Zettour vì mọi thứ ở phiên điều trần này đều bất thường: người thực hiện cuộc tấn công vào thủ đô Liên bang—một chiến dịch thông thường sẽ được coi là thành công—nay lại bị khiển trách một cách vòng vo; theo logic của lục quân, hành động của cô hoàn toàn có thể châm chước nên ban đầu toàn bộ Bộ Tổng tham mưu đã kịch liệt phản đối cuộc họp này, và lý do nó vẫn bị ép tiến hành có lẽ là vì giới quan chức dân sự suốt ngày chỉ ngồi ở hậu phương không hiểu chiến tranh là gì; vì Zettour chủ trì nên phán quyết chắc chắn sẽ là vô tội, song khoảng cách khó lòng khỏa lấp giữa Bộ Tổng tham mưu, chính phủ và các chính trị gia đã lộ rõ qua việc một chuyện chẳng mấy cấp bách lại vẫn bị coi là có vấn đề bất chấp tình hình cũng như việc người ta thấy cần phải mở phiên điều trần dù chỉ để có sẵn một câu chuyện giải trình; Lergen thở dài chấp nhận rằng nguyên nhân duy nhất của rắc rối này là hành động của Thiếu tá von Degurechaff có thể bị coi là quá tay: dưới góc độ quân sự, tấn công thủ đô địch là hợp lý và bất kỳ sĩ quan tham mưu nào cũng tán thành cống hiến to lớn của cô, nhưng Lergen cũng hiểu được lập luận rằng một số hành vi của cô sẽ gây tranh cãi về mặt chính trị; nếu mục đích là nghiền nát danh dự kẻ địch thì khó tránh khỏi việc tấn công các biểu tượng quốc gia của chúng, còn các chính trị gia có lẽ nghĩ làm vậy chỉ chọc giận Liên bang—họ nhìn trượt trọng tâm nhưng ông cũng không thể phủ nhận lời họ nói; khi Zettour đọc bằng giọng đều đều điêu luyện hai cáo buộc sử dụng vũ lực quân sự quá mức trong khu vực đô thị và tự ý thực hiện hành động quân sự, hầu hết các sĩ quan có mặt đều sẽ bác bỏ lập luận đó là méo mó, và bản thân Lergen tin chắc mệnh lệnh nghiêm ngặt về sự vô tội của Degurechaff từ cấp trên trực tiếp của ông là Trung tướng von Rudersdorf sẽ được thực thi, bởi Lergen tin vững chắc rằng cuộc tấn công vào Moskva là cần thiết; sau khi Tanya kiên quyết thề rằng hai cáo buộc đó không đúng sự thật, Zettour bắt đầu làm rõ cáo buộc tự ý hành động trước tiên, trong bối cảnh ai nấy đều tin rằng chiến dịch đe dọa và đánh lạc hướng của Tiểu đoàn Pháp sư Trên không số 203 dù rốt cuộc trở thành cuộc tập kích tầm xa có sức đe dọa và gây phân tán lớn hơn dự tính nhưng vẫn không chệch hướng đáng kể so với các đợt tấn công quấy rối.
+- Không sao chép văn bản hay cụm từ tiếng Anh từ nguồn vào báo cáo.
+
+## 2. Kiểm tra đại từ, xưng hô và giọng văn (`DEC-P01-001`)
+- Tuân thủ nghiêm ngặt giới hạn của `DEC-P01-001` (quy ước dùng `nó` trong trần thuật và `mình` trong nội tâm chỉ áp dụng cho điểm nhìn của Tanya, không áp dụng sang điểm nhìn của Đại tá von Lergen):
+  - **Trần thuật ngôi thứ ba theo điểm nhìn của Đại tá von Lergen**: quy chiếu Đại tá von Lergen bằng danh xưng `Đại tá von Lergen` / `Lergen`, đại từ `ông` / `Ông` và đại từ phản thân `mình` (`p000002`, `p000003`, `p000005`, `p000006`, `p000007`, `p000012`, `p000015`, `p000017`, `p000018`, `p000021`, `p000022`); quy chiếu Trung tướng von Zettour và Trung tướng von Rudersdorf bằng chức danh và đại từ `ông` (`p000010`, `p000012`, `p000014`, `p000020`, `p000021`); quy chiếu Thiếu tá Tanya von Degurechaff từ góc nhìn khách quan của Lergen và hội đồng bằng `Thiếu tá von Degurechaff` / `Degurechaff` và đại từ `cô` (`p000013`, `p000016`, `p000017`, `p000021`); quy chiếu các sĩ quan tham dự và giới chính trị gia bằng `họ` / `Họ` (`p000006`, `p000007`, `p000018`); dùng chủ ngữ khái quát `người ta` cho đại từ ngôi thứ hai phiếm chỉ ở `p000025` theo quy ước `direct-address choice`.
+  - **Đối thoại tại hội đồng điều trần**:
+    - Trung tướng von Zettour chủ trì phiên điều trần: dùng `chúng ta` với hội đồng (`p000009`, `p000024`), gọi Tanya bằng cấp bậc `Thiếu tá von Degurechaff` và đại từ `cô` (`p000011`, `p000019`, `p000024`).
+    - Thiếu tá Tanya von Degurechaff trả lời thẩm vấn trước hội đồng: gọi Zettour là `Thưa Tướng quân` và `ngài`, tự xưng `Tôi` / `tôi` kèm tiểu từ kính ngữ `ạ` (`p000023`).
+
+## 3. Kiểm tra bảo toàn nhấn mạnh (`DEC-P01-002`)
+- Kiểm tra toàn bộ các đoạn có thẻ `<html:em>` trong XHTML nguồn và bảo toàn chính xác bằng cặp dấu `*...*` đúng phạm vi nhấn mạnh:
+  - `p000003`: câu độc thoại nội tâm của Lergen (`*Hẳn cảm giác chỉ muốn tìm đến rượu và thuốc lá để giải khuây nếu được phép chính là như thế này đây.*`) được đặt trong `*...*`.
+  - `p000006`: mệnh đề suy nghĩ mở đầu đoạn của Lergen (`*Người ta thường có xu hướng lạm dụng những phiên điều trần kiểu này*`) được đặt trong `*...*`.
+  - `p000015`: câu tự nhủ đầu đoạn của Lergen (`*Chà, thế cũng hợp lý thôi.*`) được đặt trong `*...*`.
+- Toàn bộ 22 đoạn còn lại không có thẻ nhấn mạnh trong nguồn và không phát sinh dấu `*` ngoài nguồn.
+
+## 4. Kiểm tra thuật ngữ và tính nhất quán (`canon/` & `work/run-state/pending-terms.yml`)
+- Áp dụng đồng bộ các thuật ngữ đã khóa tạm từ các tập trước và Tập 4 Chương 1–3:
+  - `NĂM THỐNG NHẤT 1926`, `VĂN PHÒNG BỘ TỔNG THAM MƯU`, `Đại tá von Lergen` / `Lergen`, `Bộ Tổng tham mưu`, `sĩ quan Bộ Tổng tham mưu`, `sĩ quan cấp cao`, `mặt trận phía đông`, `Trung tướng von Zettour` / `Zettour`, `Thiếu tá von Degurechaff` / `Degurechaff`, `Bộ Tư lệnh Tối cao`, `Liên bang` / `thủ đô Liên bang`, `lục quân`, `hậu phương`, `sĩ quan tham mưu`, `Trung tướng von Rudersdorf`, `Moskva`, `Thưa Tướng quân`, `Tiểu đoàn Pháp sư Trên không số 203`, `tập kích tầm xa`, `tấn công quấy rối`.
+- Ghi nhận các thuật ngữ/cách diễn đạt mới phát sinh trong lô ở trạng thái đề xuất (`pending`):
+  - `hội đồng điều trần` / `phiên điều trần` (`p000006`, `p000011`, `p000012`, `p000014`, `p000019`)
+  - `quan chức dân sự` (`p000013`)
+
+## 5. Kiểm tra định dạng và công cụ xác thực
+- Chạy `python3 tools/validate_translation.py --handoff handoffs/vol-04/ch-04-b01.yml --source work/vol-04/batches/ch-04-b01-source.jsonl --translation translations/vol-04/ch-04-b01.jsonl`: kết quả `PASS` (exit code `0`).
+
+## 6. Sign-off (`vol-04-ch-04-b01-translator-signoff`)
+- **Báo cáo review**: `reviews/prose/vol-04/ch-04-b01-argon-review.yml` (`status: approved_for_polish`, `serious: 0`, `moderate: 0`, `minor: 0`, `findings: []`).
+- **Xử lý findings**: Không có finding cần chỉnh sửa nội dung. Giữ nguyên toàn bộ `locked_choices` từ `p000001` đến `p000025`.
+- **Cập nhật trạng thái**: Đã chuyển `status` của toàn bộ 25 dòng trong `translations/vol-04/ch-04-b01.jsonl` từ `draft` sang `reviewed`.
