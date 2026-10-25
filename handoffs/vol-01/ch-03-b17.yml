@@ -1,0 +1,45 @@
+task_id: vol-01-ch-03-b17
+volume: vol-01
+chapter: 3
+segment_id_start: YS-LN01/Text/chapter007.xhtml/p000349
+segment_id_end: YS-LN01/Text/chapter007.xhtml/p000369
+unit_count: 21
+source_word_count: 831
+word_count_method:
+  type: regex_matches_per_unit
+  pattern: '[A-Za-z0-9]+(?:[''’\-][A-Za-z0-9]+)*'
+  includes_numbers: true
+  includes_date_location_units: true
+source_sha256: 7698e1b80fc5d560020b8934f6243b3b7be1be9c911668455a069f857f3da528
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+style_guide_version: sha256:64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+canon_references:
+- path: canon/glossary.yml
+  sha256: d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+- path: canon/style-guide.md
+  sha256: 64724c03b0b6ca29512cd3cea52fc104042429e96c2c676bbc721cba2243569c
+- path: canon/characters.yml
+  sha256: 354f6573a8343bb94ce0a8cb95325777bd2bbbf2250c6d4efe1563f8cc93f3aa
+- path: canon/decisions.md
+  sha256: 9f173f9c263ac6202bd9988d0b54be460ef993e1a3849cc36c09a667b8bf6044
+- path: canon/glossary-pending.yml
+  sha256: 65458cca57c501b930e3797f84d5c8de2ee2211ac2c09682225e049fd932b3c1
+source_manifest: segments/vol-01/manifest.yml
+source_package: work/vol-01/batches/ch-03-b17-source.jsonl
+source_package_sha256: 56796d47bd0418fc20af1b8f882416a6b05d00d4fa61fcc5e3443db6c0c5e8f2
+translation_editor: codex-coordinator
+status: ready
+checkpoints:
+  meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
+    giả định.
+  pronouns: Theo DEC-P01-001; phân biệt trần thuật và nội tâm, không suy diễn quan
+    hệ khi thiếu ngữ cảnh.
+  emphasis: Theo DEC-P01-002; dùng *...* trong translation chỉ khi nguồn có nhấn mạnh
+    tương ứng.
+  pending_terms: Tra canon/glossary-pending.yml; ghi nghi vấn theo mã đoạn, không
+    tự chốt thuật ngữ.
+planning:
+  min_source_words: 600
+  max_source_words: 900
+  boundary_after: space_break
+  next_segment_id: YS-LN01/Text/chapter007.xhtml/p000370
