@@ -1,0 +1,379 @@
+task_id: vol-02-ch-05-b05
+review_task_id: vol-02-ch-05-b05-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b05
+segment_id_start: YS-LN02/Text/part0026.xhtml/p000103
+segment_id_end: YS-LN02/Text/part0026.xhtml/p000125
+unit_count: 23
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: 53b74c04dfb38c26f537b056488957cde20b1783f671da13441d09ef0bfbfd22
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b05-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b05-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000111
+    issue: "Tại câu 2 của p000111, cụm định ngữ so sánh nhất chỉ vị trí chiến tuyến nằm sát phía trước nhất (`forward-most line`) được dịch gọn thành `tuyến đầu`, làm nhẹ đi đôi chút sắc thái nhấn mạnh tuyến hào cực tiền tiêu nằm sát nách địch chỉ cách vài chục mét đã nêu ở p000109."
+    basis: "Đặt trong mạch văn nối tiếp trực tiếp p000109–p000110 về khoảng cách gần nhất giữa hai tuyến hỏa lực, cách dịch `ở tuyến đầu` vẫn bảo toàn đúng đối lập không gian với khu vực hậu phương ở p000108 và p000113."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `ở tuyến tiền tiêu sát địch nhất` / `ở tuyến đầu sát nhất`."
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000114
+    issue: "Tại câu 2 của p000114, danh từ chỉ sóng vô tuyến (`strong waves`) được chuyển thành `tín hiệu mạnh`, dịch chuyển nhẹ từ hình ảnh vật lý của luồng sóng phát ra sang khái niệm tín hiệu liên lạc."
+    basis: "Vì câu 1 vừa nêu rõ chủ đề là máy vô tuyến và vế sau đã được sửa chuẩn xác theo PR-B05-02 (`từ sở chỉ huy địch hoặc một hầm ở căn cứ của chúng`), `tín hiệu mạnh` vẫn diễn đạt tự nhiên và giữ nguyên cơ chế định vị mục tiêu bằng sóng vô tuyến."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `luồng sóng mạnh` / `bước sóng mạnh`."
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0026.xhtml/p000123
+    issue: "Ở cuối câu thoại cảnh báo của CP gửi Pixie 01 tại p000123, tiểu từ tình thái nhắc nhở/cảnh báo khẩn thiết (`you know!`) được dịch là `biết chưa!`, hơi nghiêng sang giọng quát nạt của cấp trên đối với cấp dưới thay vì lời cảnh báo hốt hoảng về độ nguy hiểm của đạn nổ trên không."
+    basis: "Trong bối cảnh liên lạc vô tuyến khẩn cấp giữa trận đánh ác liệt, `biết chưa!` vẫn truyền tải được sự sốt ruột của đài chỉ huy trước yêu cầu pháo kích liều lĩnh của Pixie 01 mà không làm sai lệch nội dung thông tin."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc chỉnh thành `đấy nhé!` / `đấy có biết không!`."
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch05-b05-dugout-and-communications-terms
+    source_term: "company / firing line (firing lines) / Logistics / Logistics NCO / base dugout / dugout (dugouts) / radio dugout / communications base / the rear / Rhine front / underground fortifications / communications apparatus / heavy armor-piercing rounds / semaphores and trumpets / wireless technology / fog of war / radio operators"
+    proposed_vi: "đại đội / tuyến hỏa lực (hai tuyến hỏa lực) / bộ phận Hậu cần / hạ sĩ quan Hậu cần / hầm ở căn cứ / hầm / hầm vô tuyến / trạm liên lạc / hậu phương / mặt trận Rhine / công sự ngầm / thiết bị liên lạc / đạn xuyên giáp hạng nặng / cờ hiệu và kèn / công nghệ vô tuyến / màn sương chiến tranh / nhân viên vô tuyến"
+    alternatives_vi:
+      - "tuyến bắn / cơ sở liên lạc / hầm trú ẩn / chiến trường Rhine / khí cụ liên lạc / đạn xuyên phá hạng nặng / sương mù chiến tranh / hiệu thính viên (điện báo viên vô tuyến)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000105
+      - YS-LN02/Text/part0026.xhtml/p000107
+      - YS-LN02/Text/part0026.xhtml/p000108
+      - YS-LN02/Text/part0026.xhtml/p000109
+      - YS-LN02/Text/part0026.xhtml/p000113
+      - YS-LN02/Text/part0026.xhtml/p000114
+      - YS-LN02/Text/part0026.xhtml/p000115
+      - YS-LN02/Text/part0026.xhtml/p000116
+      - YS-LN02/Text/part0026.xhtml/p000117
+      - YS-LN02/Text/part0026.xhtml/p000118
+      - YS-LN02/Text/part0026.xhtml/p000119
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ các lựa chọn tạm đã được sửa qua PR-B05-02, PR-B05-04 và nghiệm thu trong handoff cùng ledger (`chapter5_b05_translation_proposals`): (1) phân biệt chặt chẽ theo đúng định ngữ nguồn giữa `hầm ở căn cứ` (`base dugout` tại p000107, p000114), `hầm` (`dugouts` / `dugout` tại p000115, p000117, và `cellar` tại p000116) và `hầm vô tuyến` (`radio dugout` tại p000116) theo `vol02-ch05-b05-dugout`, tuyệt đối không tự gán chức năng chỉ huy hay cấp đại đội khi nguồn không nêu; (2) giữ `trạm liên lạc` (`vol02-ch05-b05-communications-base` tại p000117) chỉ cơ sở thông tin phải di dời trước mốc 48 giờ; (3) giữ `mặt trận Rhine` (`vol02-ch05-b05-rhine` tại p000108, đồng bộ với b04 p000079 và không tự thêm phân loại `sông`); (4) đồng bộ `tuyến hỏa lực` (p000105, p000109), `bộ phận Hậu cần` / `hạ sĩ quan Hậu cần` (p000105, p000107), `công sự ngầm` (p000114), `thiết bị liên lạc` và `đạn xuyên giáp hạng nặng` (p000115), `cờ hiệu và kèn`, `công nghệ vô tuyến` và `màn sương chiến tranh` (p000118), cùng `nhân viên vô tuyến` (p000119)."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b05-artillery-award-and-airburst-radio-terms
+    source_term: "Empire / Republic / Republican Army / Republican artillery / Field Artillery Badge / official gazette / imperial war cause / high explosives (high-explosive shells) / fuses timed for air bursts / CP / Pixie 01"
+    proposed_vi: "Đế quốc / Cộng hòa / Quân đội Cộng hòa / pháo binh Cộng hòa / Huy hiệu Pháo binh Dã chiến / công báo / sự nghiệp chiến tranh của Đế quốc / đạn nổ mạnh / ngòi hẹn giờ để nổ trên không / CP / Pixie 01"
+    alternatives_vi:
+      - "Huy hiệu Pháo binh Chiến trường / ngòi nổ hẹn giờ trên không / sở chỉ huy (cho CP)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000110
+      - YS-LN02/Text/part0026.xhtml/p000111
+      - YS-LN02/Text/part0026.xhtml/p000112
+      - YS-LN02/Text/part0026.xhtml/p000123
+      - YS-LN02/Text/part0026.xhtml/p000124
+    volume: vol-02
+    chapter: 5
+    rationale: "Khóa đồng bộ nhóm thuật ngữ pháo binh, danh hiệu và hô hiệu vô tuyến trong handoff và ledger (`chapter5_b05_translation_proposals`): giữ `Huy hiệu Pháo binh Dã chiến` (`vol02-ch05-b05-field-artillery-badge` tại p000112) chuẩn xác theo phân loại pháo binh dã chiến và giữ chất trang trọng giả tạo của trò đùa trên `công báo`; giữ `đạn nổ mạnh` (p000111, p000123) và cụm mô tả chức năng rõ cơ chế `ngòi hẹn giờ để nổ trên không` (`vol02-ch05-b05-airburst-timed-fuse` tại p000123, tránh hiểu lầm nơi kích hoạt ngòi); bảo toàn nguyên dạng cặp định danh vô tuyến `CP` và `Pixie 01` (`vol02-ch05-b05-cp-pixie-01` tại p000123–p000124, đồng bộ với `CP / Pixie` ở b04 p000080–p000081 mà không tự mở rộng chữ viết tắt `CP`)."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch05-b05-veteran-reminiscence-pronouns-and-emphasis
+    source_term: "Third-person frame reference to the former soldier (`người cựu binh`, `ông`) in p000103, veteran first-person retrospective narration pronouns (`tôi` / `mình` / `chúng tôi`), camaraderie card-debt quote (`Cậu` – `bọn này`) in p000106, generic second-person battlefield observations (`người ta` / subject omission) in p000111/p000115–p000118, radio dialogue of Pixie 01 and CP (`Đơn vị tôi`, `chúng ta`) in p000121/p000123–p000124, external third-person reference to Pixie 01 (`cô ấy`) in p000125, and single italicized gazette quote in p000112"
+    proposed_vi: "Tuân thủ nghiêm ngặt giới hạn của DEC-P01-001, DEC-P01-002 và toàn bộ sửa chữa PR-B05-01 → PR-B05-05 đã nghiệm thu: (1) tại đoạn mở đầu khung kể ngôi thứ ba p000103, quy chiếu người lính năm xưa nhìn lại cuộc chiến nhiều năm sau bằng `người cựu binh` và đại từ trang trọng `ông`; (2) từ p000104 đến p000125, điểm nhìn chuyển sang lời hồi tưởng ngôi thứ nhất của chính người cựu binh ấy: dùng nhất quán `tôi` khi tự xưng (p000106, p000107, p000109, p000112, p000120, p000122, p000125) kết hợp đại từ phản thân/phụ thuộc `mình` trong mệnh đề nội thuộc (p000106 `bài bạc cứ như ghét mình vậy`, p000120 `làm hỏng tai mình không`, p000125 `thính lực của mình`, `tai mình`), và dùng `chúng tôi` khi quy chiếu tập thể đại đội/quân đồn trú cùng chiến tuyến (p000104, p000105, p000110, p000112, p000113, p000118); (3) trong câu dẫn lời đồng đội đòi nợ bài bạc tại p000106, dùng cặp đại từ thân mật đời lính `Cậu – bọn này`; ở các câu nhận định khái quát về quy luật sống còn trên chiến trường (p000111, p000114–p000118), dùng chủ ngữ khái quát `người ta` / `phe ta` / `quân mình` hoặc lược chủ ngữ tự nhiên; (4) trong lời thoại qua sóng vô tuyến tại p000121, chỉ huy đơn vị (Pixie 01) xưng `tôi` (`Đơn vị tôi`) và dùng `chúng ta` khi nêu ưu tiên tác chiến chung; tại p000125, khi người cựu binh nhận xét về giọng nữ của chỉ huy qua tiếng rè vô tuyến, dùng đại từ ngôi thứ ba `cô ấy` (tuân thủ đúng giới hạn DEC-P01-001: không áp đặt đại từ `nó` của mạch trần thuật điểm nhìn Tanya sang lời kể ngôi thứ nhất của nhân vật khác); (5) bảo toàn duy nhất vùng nhấn mạnh `*Chúng tôi hoan nghênh màn thể hiện xuất sắc về trình độ huấn luyện và đóng góp cho sự nghiệp chiến tranh của Đế quốc từ pháo binh Cộng hòa.*` tại câu cuối p000112 khớp chính xác với thẻ `<html:em>` duy nhất trong nguồn, không tự thêm `*...*` ở bất kỳ đoạn nào khác (DEC-P01-002)"
+    alternatives_vi:
+      - "anh (thay cho `ông` ở đoạn khung kể ngôi thứ ba p000103 — ưu tiên `ông` vì câu hỏi về số năm đã trôi qua kể từ sau chiến tranh và chi tiết `Đến tuổi này` ở p000125 cho thấy người cựu binh hồi tưởng khi đã có tuổi)"
+    segment_ids:
+      - YS-LN02/Text/part0026.xhtml/p000103
+      - YS-LN02/Text/part0026.xhtml/p000104
+      - YS-LN02/Text/part0026.xhtml/p000105
+      - YS-LN02/Text/part0026.xhtml/p000106
+      - YS-LN02/Text/part0026.xhtml/p000107
+      - YS-LN02/Text/part0026.xhtml/p000109
+      - YS-LN02/Text/part0026.xhtml/p000110
+      - YS-LN02/Text/part0026.xhtml/p000111
+      - YS-LN02/Text/part0026.xhtml/p000112
+      - YS-LN02/Text/part0026.xhtml/p000113
+      - YS-LN02/Text/part0026.xhtml/p000114
+      - YS-LN02/Text/part0026.xhtml/p000115
+      - YS-LN02/Text/part0026.xhtml/p000116
+      - YS-LN02/Text/part0026.xhtml/p000117
+      - YS-LN02/Text/part0026.xhtml/p000118
+      - YS-LN02/Text/part0026.xhtml/p000120
+      - YS-LN02/Text/part0026.xhtml/p000121
+      - YS-LN02/Text/part0026.xhtml/p000122
+      - YS-LN02/Text/part0026.xhtml/p000123
+      - YS-LN02/Text/part0026.xhtml/p000124
+      - YS-LN02/Text/part0026.xhtml/p000125
+    volume: vol-02
+    chapter: 5
+    rationale: "Giữ trọn vẹn sự chuyển tiếp điểm nhìn từ khung dẫn ngôi thứ ba (`người cựu binh` / `ông`) sang dòng hồi ức ngôi thứ nhất (`tôi` / `chúng tôi`) của người lính dưới chiến hào lắng nghe cuộc gọi vô tuyến của Pixie 01 (`cô ấy`), tuân thủ nghiêm ngặt DEC-P01-001 và DEC-P01-002."
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000103
+    terms:
+      - "người cựu binh (the former soldier)"
+      - "chiến tranh (the war)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba quy chiếu người lính năm xưa bằng danh ngữ `người cựu binh` và đại từ `ông`."
+    pov_and_voice: "Trần thuật ngôi thứ ba mở khung hồi tưởng hậu chiến sau dấu ngắt cảnh (`space-break`)."
+    modality_and_logic: "Giữ câu hỏi tu từ về khoảng thời gian đã trôi qua kể từ sau chiến tranh và mệnh đề tương phản khẳng định ký ức của ông về thời kỳ đó vẫn rõ mồn một."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000104
+    terms:
+      - "viện binh (reinforcements)"
+      - "mức độ nguy hiểm (the threat level)"
+    pronouns_and_address:
+      - "Hồi ức ngôi thứ nhất số nhiều của người cựu binh dùng `chúng tôi` cho đơn vị dưới chiến hào."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh, chuyển cảnh bằng `space-break` vào thời điểm giữa trận đánh."
+    modality_and_logic: "Giữ trọn vẹn sắc thái khả thể (`mức độ nguy hiểm mà chúng tôi phải đối mặt có thể đã giảm đi đôi chút`) và hệ quả tất yếu nếu mất cảnh giác (`nhưng nếu chúng tôi cũng buông lỏng cảnh giác thì sẽ biến thành những cái xác câm lặng`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000105
+    terms:
+      - "đại đội (company)"
+      - "thương binh (the wounded)"
+      - "súng máy (machine guns)"
+      - "nòng mới (replacement barrels)"
+      - "bộ phận Hậu cần (Logistics)"
+      - "tuyến hỏa lực (the firing line)"
+    pronouns_and_address:
+      - "Dùng `đại đội chúng tôi` và `chúng tôi`; quy chiếu những chiếc nòng súng thay thế bằng `chúng`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Giữ chuỗi công việc tranh thủ lúc ngớt giao tranh (dọn người chết, chuẩn bị cáng cho thương binh, chuẩn bị thay nòng súng máy bị mòn) và nghịch lý gây thất vọng: bộ phận Hậu cần có thừa nòng súng nhưng thiếu nhân lực để mang ra tuyến hỏa lực giữa trận đánh lớn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000106
+    terms:
+      - "đội (team)"
+      - "đồng đội cùng đại đội (company mates)"
+    pronouns_and_address:
+      - "Người kể tự xưng `tôi` (kèm `mình` ở mệnh đề phụ `bài bạc cứ như ghét mình vậy`); lời đồng đội đòi nợ bài dùng cặp xưng hô `Cậu – bọn này`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất pha chất hài hước tự trào và chút ngậm ngùi hậu chiến của người cựu binh."
+    modality_and_logic: "Giữ nguyên cách ví von hài hước về trò đánh bài (`nghi thức vừa truyền thống vừa thiêng liêng mang tên đánh bài`), hai khả năng suy đoán về vận đen hoặc trò gian lận của đồng đội, và nỗi tiếc nuối ở hiện tại (`giờ tôi chẳng còn cách nào biết được`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000107
+    terms:
+      - "hầm ở căn cứ (the base dugout)"
+      - "hạ sĩ quan Hậu cần (the Logistics NCO)"
+      - "phụ tùng (the parts)"
+    pronouns_and_address:
+      - "Người kể tự xưng `tôi`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Khóa danh ngữ trung tính `hầm ở căn cứ` theo PR-B05-02 và `vol02-ch05-b05-dugout` (không tự gán chức năng chỉ huy hay cấp đại đội), cùng kết cục sau màn thương lượng với hạ sĩ quan Hậu cần là phải tự vác đống phụ tùng."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000108
+    terms:
+      - "hậu phương (the rear)"
+      - "mặt trận Rhine (the Rhine front)"
+    pronouns_and_address:
+      - "Dùng chủ ngữ khái quát `Người ta`."
+    pov_and_voice: "Nhận định tổng kết từ trải nghiệm thực chiến của người cựu binh."
+    modality_and_logic: "Khóa thuật ngữ `mặt trận Rhine` theo `vol02-ch05-b05-rhine` (không tự thêm danh từ phân loại `sông`) và sự đối lập giữa lầm tưởng phổ biến rằng hậu phương an toàn với thực tế trên mặt trận Rhine lúc bấy giờ."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000109
+    terms:
+      - "tuyến hỏa lực (firing lines)"
+      - "chiến hào (the trenches)"
+      - "quân mình (friendlies)"
+      - "pháo kích (bombardments)"
+    pronouns_and_address:
+      - "Người kể tự xưng `tôi`; dùng `quân mình` cho phe ta và `họ` cho pháo binh."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Giữ nguyên câu ước giả định trái thực tế trong quá khứ (`Giá mà tôi được đối mặt với quân địch ở một nơi như thế`) và quan hệ nhân quả: khoảng cách giữa các chiến hào quá gần làm tăng nguy cơ bắn nhầm quân mình nên thường không thể pháo kích."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000110
+    terms:
+      - "lính pháo binh (artillerymen)"
+      - "Đế quốc (Empire)"
+      - "Cộng hòa (Republic)"
+    pronouns_and_address:
+      - "Quy chiếu lính pháo binh bằng `họ`; dùng `tất cả chúng tôi` và `đồng đội` khi nói về tâm lý chung của binh lính hai phe."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Giữ sắc thái thông tin nghe lại (`nghe nói lính pháo binh cũng ghét bắn vào những khu vực nguy hiểm...`) và điểm chung giữa cả Đế quốc lẫn Cộng hòa là không ai muốn làm nổ tung đồng đội mình."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000111
+    terms:
+      - "đạn nổ mạnh (high explosives)"
+      - "lính bắn tỉa (snipers)"
+      - "mìn (land mines)"
+      - "súng trường (rifles)"
+      - "tuyến đầu (the forward-most line)"
+    pronouns_and_address:
+      - "Dùng `quân mình` và cấu trúc điều kiện khái quát."
+    pov_and_voice: "Hồi ức ngôi thứ nhất phân tích tâm lý chiến hào của người cựu binh."
+    modality_and_logic: "Giữ nguyên phương châm tác chiến của cả hai quân đội (thà bắn về phía địch dù trượt còn hơn trút đạn nổ mạnh xuống vị trí quân mình) và hệ quả thực tế: ở tuyến đầu chỉ cần dè chừng lính bắn tỉa, mìn và súng trường thì ít có nguy cơ mất mạng ngay lập tức."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000112
+    terms:
+      - "tiền tuyến (the front line)"
+      - "Quân đội Cộng hòa (the Republican Army)"
+      - "đạn pháo (shells)"
+      - "Huy hiệu Pháo binh Dã chiến (the Field Artillery Badge)"
+      - "công báo (the official gazette)"
+      - "pháo binh Cộng hòa (the Republican artillery)"
+      - "sự nghiệp chiến tranh của Đế quốc (the imperial war cause)"
+    pronouns_and_address:
+      - "Người kể tự xưng `tôi`, dùng `chúng tôi` cho đơn vị mình trong lời đề cử và câu trích dẫn trên công báo."
+    pov_and_voice: "Hồi ức ngôi thứ nhất pha chất hài đen châm biếm của người cựu binh."
+    modality_and_logic: "Khóa tên phần thưởng `Huy hiệu Pháo binh Dã chiến` theo `vol02-ch05-b05-field-artillery-badge`, giai thoại đạn pháo của Quân đội Cộng hòa quét sạch chính quân Cộng hòa đang tràn vào vị trí, và lời đề cử mỉa mai được đăng lên công báo như một trò đùa."
+    emphasis: "Khóa chính xác câu trích dẫn in nghiêng `*Chúng tôi hoan nghênh màn thể hiện xuất sắc về trình độ huấn luyện và đóng góp cho sự nghiệp chiến tranh của Đế quốc từ pháo binh Cộng hòa.*` khớp với thẻ `<html:em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000113
+    terms:
+      - "chiến trường (battlefield)"
+      - "hậu phương (the rear)"
+    pronouns_and_address:
+      - "Dùng `chúng tôi`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất dẫn dắt lập luận của người cựu binh."
+    modality_and_logic: "Giữ vai trò bản lề chuyển ý: trên một chiến trường như thế, chỉ có duy nhất một lý do khiến hậu phương bị coi là nơi nguy hiểm nhất."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000114
+    terms:
+      - "máy vô tuyến (radios)"
+      - "sở chỉ huy địch (enemy command)"
+      - "hầm ở căn cứ (a base dugout)"
+      - "lính mới (a newbie)"
+      - "công sự ngầm (underground fortifications)"
+    pronouns_and_address:
+      - "Dùng `phe ta`, `chúng` (chỉ địch) và đại từ phản thân `mình` (quy chiếu `lính mới`)."
+    pov_and_voice: "Hồi ức ngôi thứ nhất giải thích thực tế chiến trường của người cựu binh."
+    modality_and_logic: "Khóa đồng thời hai sửa chữa đã nghiệm thu: (1) danh ngữ trung tính `hầm ở căn cứ` và quan hệ nguồn phát `từ sở chỉ huy địch hoặc một hầm ở căn cứ của chúng` theo PR-B05-02 (`vol02-ch05-b05-dugout`); (2) cấu trúc nhân quả chuẩn xác tại câu 3 theo PR-B05-01 (`Chẳng cần đến hai ngày, ảo tưởng của lính mới rằng những công sự ngầm kiên cố sẽ bảo đảm an toàn cho mình đã tan tành`), đặt sự kiên cố của công sự ngầm vào đúng nội dung niềm tin sai lầm của lính mới chứ không biến công sự thành tác nhân phá hủy niềm tin."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000115
+    terms:
+      - "tiền tuyến (the front line)"
+      - "thiết bị liên lạc (the communications apparatus)"
+      - "đạn xuyên giáp hạng nặng (heavy armor-piercing rounds)"
+      - "hầm (dugouts)"
+    pronouns_and_address:
+      - "Dùng chủ ngữ khái quát `Người ta`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Khóa danh từ trung tính `hầm` theo `vol02-ch05-b05-dugout` và giữ đúng mạch suy luận chiến thuật: khi pháo kích tiền tuyến ít hiệu quả thì người ta trút mưa thép vào thiết bị liên lạc, và trước đạn xuyên giáp hạng nặng thì hầm gần như vô tác dụng."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000116
+    terms:
+      - "hầm (a cellar)"
+      - "đạn pháo (artillery shells)"
+      - "chiến hào (trench)"
+      - "hầm vô tuyến (a radio dugout)"
+    pronouns_and_address: []
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Khóa thuật ngữ `hầm vô tuyến` theo `vol02-ch05-b05-dugout` (nơi duy nhất nguồn xác định rõ công dụng vô tuyến của hầm), cùng sự tương phản tột cùng về mặt thời gian (`Vừa lúc trước... ngay sau đó...—thế là hết`) và nỗi sợ chết ngạt dưới chiến hào sập."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000117
+    terms:
+      - "trạm liên lạc (the communications base)"
+      - "hầm (dugout)"
+    pronouns_and_address:
+      - "Dùng `người ta`, `Không ai` và `ai nấy`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Khóa hai lựa chọn thuật ngữ theo PR-B05-02: `trạm liên lạc` (`vol02-ch05-b05-communications-base`) và `hầm` (`vol02-ch05-b05-dugout`, không thêm định ngữ chỉ huy), cùng điều kiêng kỵ bất thành văn là không giữ trạm liên lạc ở cùng một hầm quá bốn mươi tám giờ."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000118
+    terms:
+      - "máy vô tuyến (radios)"
+      - "tiền tuyến (the front)"
+      - "cờ hiệu và kèn (semaphores and trumpets)"
+      - "Công nghệ vô tuyến (Wireless technology)"
+      - "màn sương chiến tranh (the fog of war)"
+    pronouns_and_address:
+      - "Dùng `người ta` và `chúng tôi`; quy chiếu máy vô tuyến bằng `chúng` và công nghệ vô tuyến bằng `nó`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất kết hợp nhận xét từ thời điểm hiện tại hậu chiến của người cựu binh."
+    modality_and_logic: "Giữ lý do bắt buộc phải đưa máy vô tuyến ra tiền tuyến (không thể duy trì một đội quân lớn chỉ bằng cờ hiệu và kèn) và mốc thời gian nối tới hiện tại (`đến tận ngày nay vẫn tiếp tục dựa vào nó`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000119
+    terms:
+      - "dòng thông tin liên lạc (the flood of messages)"
+      - "nhân viên vô tuyến (the radio operators)"
+      - "chiến hào (the trenches)"
+    pronouns_and_address: []
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Khóa câu văn đã sửa theo PR-B05-04 (`Việc nghe lỏm dòng thông tin liên lạc đã thành thói quen không chỉ của nhân viên vô tuyến mà cả những người lính trong chiến hào luôn háo hức chờ tin đồn`), giữ chuẩn xác cấu trúc tăng tiến `không chỉ... mà cả...` và từ vựng phù hợp bối cảnh vô tuyến quân sự."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000120
+    pronouns_and_address:
+      - "Người kể tự xưng `tôi`, dùng `mình` cho bộ phận cơ thể (`tai mình`) và `nó` cho cuộc hội thoại vô tuyến vừa nghe được."
+    pov_and_voice: "Hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Giữ mối liên hệ nhân quả từ thói quen vểnh tai nghe lỏm đến việc nghe thấy một điều khó tin tới mức nghi ngờ trận đánh ác liệt đã làm hỏng tai mình."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000121
+    terms:
+      - "Đơn vị (unit)"
+      - "đạn pháo quân mình (a friendly shell)"
+    pronouns_and_address:
+      - "Trong thoại vô tuyến, người chỉ huy (Pixie 01) dùng `Đơn vị tôi` và `chúng ta`."
+    pov_and_voice: "Lời thoại vô tuyến cứng rắn, tự tin của chỉ huy đơn vị (Pixie 01)."
+    modality_and_logic: "Giữ lời khẳng định phủ định tuyệt đối (`Đơn vị tôi chẳng có tên ngốc nào để bị đạn pháo quân mình bắn trúng đâu`) và mệnh lệnh ưu tiên cao nhất cho việc khống chế, chặn đứng quân địch."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000122
+    terms:
+      - "chỉ huy (commander)"
+      - "pháo kích (a bombardment)"
+    pronouns_and_address:
+      - "Người kể tự xưng `Tôi`; dùng `quân mình` cho đơn vị của vị chỉ huy kia."
+    pov_and_voice: "Phản ứng sững sờ trong hồi ức ngôi thứ nhất của người cựu binh."
+    modality_and_logic: "Khóa câu hỏi đã sửa theo PR-B05-03 (`Một chỉ huy lại yêu cầu pháo kích ngay trên đầu quân mình ư?`), bảo toàn rõ nguy cơ pháo nổ ngay phía trên đầu quân mình cùng dấu gạch ngang bỏ lửng (`thì—`) khi câu thoại tiếp theo vang lên."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000123
+    terms:
+      - "CP (CP)"
+      - "Pixie 01 (Pixie 01)"
+      - "đạn nổ mạnh (high-explosive shells)"
+      - "ngòi hẹn giờ để nổ trên không (fuses timed for air bursts)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời thoại cảnh báo khẩn thiết từ CP gọi Pixie 01 qua vô tuyến."
+    modality_and_logic: "Khóa cặp định danh vô tuyến `CP` và `Pixie 01` (`vol02-ch05-b05-cp-pixie-01`) cùng thuật ngữ `đạn nổ mạnh lắp ngòi hẹn giờ để nổ trên không` (`vol02-ch05-b05-airburst-timed-fuse`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000124
+    terms:
+      - "Pixie 01 (Pixie 01)"
+    pronouns_and_address: []
+    pov_and_voice: "Lời đáp vô tuyến ngắn gọn, thản nhiên của Pixie 01."
+    modality_and_logic: "Khóa định danh `Pixie 01` và lời xác nhận chấp thuận ngắn gọn (`“Pixie 01, rõ. Không sao.”`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0026.xhtml/p000125
+    pronouns_and_address:
+      - "Người cựu binh tự xưng `tôi` (kèm `mình` ở `thính lực của mình`, `tai mình`) và quy chiếu người chỉ huy mang giọng nữ trên sóng vô tuyến (Pixie 01) bằng `cô ấy`."
+    pov_and_voice: "Hồi ức ngôi thứ nhất khép lại batch từ góc nhìn hiện tại ở tuổi xế chiều của người cựu binh."
+    modality_and_logic: "Khóa câu mở đầu đã sửa theo PR-B05-05 (`Dù có tiếng rè nhiễu, tôi vẫn nhận ra giọng cô ấy vui tươi.`) và sự đối lập giữa niềm tự tin vào thính lực ở tuổi hiện tại với lần duy nhất trong đời không dám tin vào tai mình."
+    emphasis: "Không dùng `*...*`."

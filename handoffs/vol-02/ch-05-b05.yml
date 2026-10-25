@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-05-b05-source.jsonl
 source_package_sha256: 53b74c04dfb38c26f537b056488957cde20b1783f671da13441d09ef0bfbfd22
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: translator-ch05-b05-review-fixes
   task_id: vol-02-ch-05-b05-review-fixes
@@ -41,55 +41,123 @@ translation_report:
   segment_count: 23
   validator: pass
   diff_check: pass
-  findings: [review_term_field_artillery_badge, review_term_communications_base, review_term_airburst_fuse]
+  findings:
+  - review_term_field_artillery_badge
+  - review_term_communications_base
+  - review_term_airburst_fuse
   pending_term_count: 4
-  files_written: [translations/vol-02/ch-05-b05.jsonl]
-  risks: [CP_Pixie_and_Rhine_choices_remain_provisional]
+  files_written:
+  - translations/vol-02/ch-05-b05.jsonl
+  risks:
+  - CP_Pixie_and_Rhine_choices_remain_provisional
 review_coordination:
-  triggered_by: [risk_flags, new_pending_terms]
+  triggered_by:
+  - risk_flags
+  - new_pending_terms
   required: true
   state: signoff_passed
   reviewer_session_id: 01a133b0-e9c2-7650-b511-95eeccdd0dc6
   signoff_state: passed_assigned_fixes
   signoff_session_id: 01a133b7-5aa9-7162-a67d-5b9ff28685b3
   signoff_report: reviews/prose/vol-02/ch-05-b05-fixes-signoff-codex.md
-  signoff_counts: {serious: 0, moderate: 0, new_findings: 0, unresolved_assigned: 0}
-  signoff_findings_resolved: [PR-B05-01, PR-B05-02, PR-B05-03, PR-B05-04, PR-B05-05]
-  review_counts: {serious: 0, moderate: 3, minor: 2}
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    new_findings: 0
+    unresolved_assigned: 0
+  signoff_findings_resolved:
+  - PR-B05-01
+  - PR-B05-02
+  - PR-B05-03
+  - PR-B05-04
+  - PR-B05-05
+  review_counts:
+    serious: 0
+    moderate: 3
+    minor: 2
   unresolved_serious: []
-  initial_unresolved_moderate: [PR-B05-01, PR-B05-02, PR-B05-03]
+  initial_unresolved_moderate:
+  - PR-B05-01
+  - PR-B05-02
+  - PR-B05-03
   unresolved_moderate: []
   signoff_findings_pending: []
   follow_up_owner: null
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter5_b05_translation_proposals
   review_report: reviews/prose/vol-02/ch-05-b05-codex.md
   term_recommendations:
-    - {id: vol02-ch05-b05-field-artillery-badge, proposed_vi: Huy hiệu Pháo binh Dã chiến, status: pending}
-    - {id: vol02-ch05-b05-communications-base, proposed_vi: trạm liên lạc, status: pending}
-    - {id: vol02-ch05-b05-dugout, proposed_vi: hầm / hầm ở căn cứ / hầm vô tuyến, status: pending}
-    - {id: vol02-ch05-b05-airburst-timed-fuse, proposed_vi: ngòi hẹn giờ để nổ trên không, status: pending}
-    - {id: vol02-ch05-b05-rhine, proposed_vi: mặt trận Rhine, status: pending}
-    - {id: vol02-ch05-b05-cp-pixie-01, proposed_vi: CP / Pixie 01, status: pending}
+  - id: vol02-ch05-b05-field-artillery-badge
+    proposed_vi: Huy hiệu Pháo binh Dã chiến
+    status: pending
+  - id: vol02-ch05-b05-communications-base
+    proposed_vi: trạm liên lạc
+    status: pending
+  - id: vol02-ch05-b05-dugout
+    proposed_vi: hầm / hầm ở căn cứ / hầm vô tuyến
+    status: pending
+  - id: vol02-ch05-b05-airburst-timed-fuse
+    proposed_vi: ngòi hẹn giờ để nổ trên không
+    status: pending
+  - id: vol02-ch05-b05-rhine
+    proposed_vi: mặt trận Rhine
+    status: pending
+  - id: vol02-ch05-b05-cp-pixie-01
+    proposed_vi: CP / Pixie 01
+    status: pending
 fix_report:
   state: done
   translator_session_id: 01a133b5-3068-7383-83ef-0c57571c644a
-  findings_resolved: [PR-B05-01, PR-B05-02, PR-B05-03, PR-B05-04, PR-B05-05]
-  applied_terms: [vol02-ch05-b05-dugout, vol02-ch05-b05-rhine, vol02-ch05-b05-cp-pixie-01]
+  findings_resolved:
+  - PR-B05-01
+  - PR-B05-02
+  - PR-B05-03
+  - PR-B05-04
+  - PR-B05-05
+  applied_terms:
+  - vol02-ch05-b05-dugout
+  - vol02-ch05-b05-rhine
+  - vol02-ch05-b05-cp-pixie-01
   validator: pass
   diff_check: pass
-  files_written: [translations/vol-02/ch-05-b05.jsonl]
-  allowlist: [translations/vol-02/ch-05-b05.jsonl]
+  files_written:
+  - translations/vol-02/ch-05-b05.jsonl
+  allowlist:
+  - translations/vol-02/ch-05-b05.jsonl
   next_action: commit
 coordinator_provisional_choices:
   status: pending_non_canon
   entries:
-  - {finding: PR-B05-01, decision: preserve_accidental_bombing_and_sarcastic_bet_image, segments: [p000114]}
-  - {finding: PR-B05-02, decision: neutral_dugout_labels_without_command_function_or_unit_level, segments: [p000107, p000114, p000117]}
-  - {finding: PR-B05-03, decision: preserve_overhead_bombardment_risk_not_ground_impact, segments: [p000122]}
-  - {finding: PR-B05-04, decision: natural_radio_communications_wording, segments: [p000119]}
-  - {finding: PR-B05-05, decision: natural_concessive_clause_and_nonrepetitive_voice, segments: [p000125]}
-  - {term: vol02-ch05-b05-rhine, decision: use_mat_tran_Rhine_without_river_classification, segments: [p000108]}
-  - {term: vol02-ch05-b05-cp-pixie-01, decision: retain_CP_and_Pixie_01_radio_identifiers, segments: [p000123, p000124]}
+  - finding: PR-B05-01
+    decision: preserve_accidental_bombing_and_sarcastic_bet_image
+    segments:
+    - p000114
+  - finding: PR-B05-02
+    decision: neutral_dugout_labels_without_command_function_or_unit_level
+    segments:
+    - p000107
+    - p000114
+    - p000117
+  - finding: PR-B05-03
+    decision: preserve_overhead_bombardment_risk_not_ground_impact
+    segments:
+    - p000122
+  - finding: PR-B05-04
+    decision: natural_radio_communications_wording
+    segments:
+    - p000119
+  - finding: PR-B05-05
+    decision: natural_concessive_clause_and_nonrepetitive_voice
+    segments:
+    - p000125
+  - term: vol02-ch05-b05-rhine
+    decision: use_mat_tran_Rhine_without_river_classification
+    segments:
+    - p000108
+  - term: vol02-ch05-b05-cp-pixie-01
+    decision: retain_CP_and_Pixie_01_radio_identifiers
+    segments:
+    - p000123
+    - p000124
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -104,3 +172,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0026.xhtml/p000126
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-05-b05
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 170
+  state: released
+  allowlist:
+  - translations/vol-02/ch-05-b05.jsonl
