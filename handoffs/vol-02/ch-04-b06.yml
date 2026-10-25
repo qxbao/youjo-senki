@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-04-b06-source.jsonl
 source_package_sha256: 2b1a6bd56606a7066a7cad12a313dbf2202f75adb9131557afe83a7db3318680
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -60,30 +60,56 @@ translation_report:
   files_written:
   - translations/vol-02/ch-04-b06.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-04-b06-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter4_b06_translation_proposals
-  severity_counts: {serious: 0, moderate: 0, minor: 13}
+  severity_counts:
+    serious: 0
+    moderate: 0
+    minor: 13
   reviewer_session_id: b5e21780-b34a-4746-9e0c-19a6672e3490
   reported_findings:
   - p000123: restore third-person narration for Tanya's final sentence
-  - p000116+p000117+p000131: use consistent battle cruiser class term and fleet-scale label
+  - p000116+p000117+p000131: use consistent battle cruiser class term and fleet-scale
+      label
   - p000129: align marine mage term with latest provisional marine root
   translator_followup:
     task_id: vol-02-ch-04-b06-review-fixes
-    allowlist: [translations/vol-02/ch-04-b06.jsonl]
+    allowlist:
+    - translations/vol-02/ch-04-b06.jsonl
     session_id: 01a1325d-b661-7661-966b-8a62feb2f45d
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [M1, M2, M3, task force term, briefing term]
+    fixed_findings:
+    - M1
+    - M2
+    - M3
+    - task force term
+    - briefing term
   final_signoff:
     task_id: vol-02-ch-04-b06-signoff
     review_report: reviews/prose/vol-02/ch-04-b06-fixes-signoff-claude.md
     session_id: 36dd0c28-42c8-49d3-a8ef-6ce7f1e3b172
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 13}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 13
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-04-b06
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 141
+  state: released
+  allowlist:
+  - translations/vol-02/ch-04-b06.jsonl
