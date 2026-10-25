@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-03-b22-source.jsonl
 source_package_sha256: 8622c3721aa1ea5f7e9a36295664b56f0e3c5efd9a7e020947fcde4ca176312c
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -54,17 +54,23 @@ translation_report:
   segment_count: 28
   validator: pass
   diff_check: pass
-  findings: [3 pending term notes; emphasis matches source]
+  findings:
+  - 3 pending term notes; emphasis matches source
   pending_term_count: 4
   files_written:
   - translations/vol-02/ch-03-b22.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-03-b22-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b22_translation_proposals
-  severity_counts: {serious: 0, moderate: 5, minor: 10}
+  severity_counts:
+    serious: 0
+    moderate: 5
+    minor: 10
   reviewer_session_id: 30443312-1615-4065-a7e6-a35065238bc9
   unresolved_findings:
   - p000412: avoid deferential address that reverses rank direction
@@ -74,17 +80,37 @@ review_coordination:
   - p000434: keep transfer location distinct from submarine's operating status
   translator_followup:
     task_id: vol-02-ch-03-b22-review-fixes
-    allowlist: [translations/vol-02/ch-03-b22.jsonl]
+    allowlist:
+    - translations/vol-02/ch-03-b22.jsonl
     session_id: 01a13218-4160-7bf1-b3f0-5a3da8c68e11
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [V1, V2, V3, V4, V5]
+    fixed_findings:
+    - V1
+    - V2
+    - V3
+    - V4
+    - V5
   final_signoff:
     task_id: vol-02-ch-03-b22-signoff
     review_report: reviews/prose/vol-02/ch-03-b22-fixes-signoff-claude.md
     session_id: baccae51-7fef-45d3-8ca4-02d6bf2eb106
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 10}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 10
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-03-b22
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 135
+  state: released
+  allowlist:
+  - translations/vol-02/ch-03-b22.jsonl
