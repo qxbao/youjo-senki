@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-05-b25-source.jsonl
 source_package_sha256: b019ace402b28641702238268c6f0b7ff142cac508aca8efb0c070d43f91fdcc
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -43,3 +43,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0028.xhtml/p000040
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-05-b25
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 190
+  state: released
+  allowlist:
+  - translations/vol-02/ch-05-b25.jsonl

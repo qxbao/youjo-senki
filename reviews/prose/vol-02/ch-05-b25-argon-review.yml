@@ -1,0 +1,428 @@
+task_id: vol-02-ch-05-b25
+review_task_id: vol-02-ch-05-b25-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b25
+segment_id_start: YS-LN02/Text/part0028.xhtml/p000001
+segment_id_end: YS-LN02/Text/part0028.xhtml/p000039
+unit_count: 39
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: b019ace402b28641702238268c6f0b7ff142cac508aca8efb0c070d43f91fdcc
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b25-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b25-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0028.xhtml/p000012
+    category: rank_terminology_consistency
+    issue: >-
+      Tại `p000012`, quân hàm `Magic Second Lieutenant Grantz` đang được dịch là `Thiếu úy Pháp sư Grantz` (đồng bộ với `ch-05-b24` `p000620`, trong khi `chapter1_b01_pending_terms` trong `work/run-state/pending-terms.yml` và `ch-05-b18`–`b19` dùng `Thiếu úy ma pháp` / `Thiếu úy Ma pháp`); bên cạnh đó, tại `p000033`, `p000036` và `p000037`, danh xưng `Lieutenant Serebryakov` / `Lieutenant` (nguyên văn chỉ ghi cấp úy chung, không nêu rõ tiểu cấp) đang được dịch là `Trung úy Serebryakov` / `thưa Trung úy` (trong khi `ch-05-b17` `p000428` và `ch-05-b18` `p000440` dùng cách dịch trung tính `Sĩ quan cấp úy Serebryakov`, còn tiểu cấp cụ thể của Serebryakov ở giai đoạn Tập 2 là `Thiếu úy`).
+    basis: >-
+      Cách dịch `Thiếu úy Pháp sư Grantz` hoàn toàn rõ nghĩa và thống nhất trực tiếp với `ch-05-b24` (`p000620`); đối với `Lieutenant Serebryakov`, phương án `Trung úy Serebryakov` nằm trong nhóm phương án thay thế đã ghi nhận tại `vol02-ch05-b17-lieutenant-serebryakov` và giữ mạch đối thoại quân ngũ tự nhiên trong toàn bộ phân cảnh `p000033`–`p000037`.
+    recommendation: >-
+      Không chặn signoff; ở bước polish hoặc rà soát thuật ngữ toàn tập có thể cân nhắc đồng bộ `Thiếu úy Pháp sư Grantz` tại `p000012` thành `Thiếu úy ma pháp Grantz` (hoặc `Thiếu úy Ma pháp Grantz`) và đối chiếu cấp bậc của Serebryakov xuyên suốt Tập 2 để thống nhất thành `Thiếu úy Serebryakov` / `thưa Thiếu úy` tại `p000033`, `p000036`, `p000037`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0028.xhtml/p000002
+    category: monologue_pronoun_consistency
+    issue: >-
+      Tại câu độc thoại nội tâm in nghiêng ở `p000002` (`*Con người vẫn phải ăn, kể cả vào những lúc thế này. Cũng giống như lúc tôi kiệt sức ở học viện mà vẫn phải ép thức ăn xuống cổ họng.*`), bản dịch đang dùng đại từ ngôi thứ nhất `tôi`, trong khi các câu độc thoại nội tâm in nghiêng và lời tự nhủ tiếp theo của Grantz trong cùng lô (`p000007` `*Mình có thể cười.*`, `p000009` `“Ôi, mình không thể đến muộn được.”`, `p000015` `*Mình đến muộn rồi sao?*`) đều dùng `Mình` / `mình`.
+    basis: >-
+      Toàn bộ lô `ch-05-b25` được trần thuật ở ngôi thứ nhất (`Tôi` / `tôi`) dưới điểm nhìn của Warren Grantz (không thuộc phạm vi quy ước đại từ trần thuật Tanya của `DEC-P01-001`), nên việc dùng `tôi` ở câu tự nhủ đầu tiên ngay sau mệnh đề tự sự ngôi thứ nhất ở `p000001` vẫn hoàn toàn tự nhiên và rõ điểm nhìn.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc đổi `tôi` trong phần in nghiêng tại `p000002` thành `mình` (`*...Cũng giống như lúc mình kiệt sức ở học viện mà vẫn phải ép thức ăn xuống cổ họng.*`) để đồng bộ hoàn toàn với `p000007`, `p000009` và `p000015`.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0028.xhtml/p000024
+    category: idiomatic_and_conversational_nuance
+    issue: >-
+      Tại câu cuối của `p000024`, thành ngữ tiếng Anh (`reap what you sow`) diễn tả tâm lý tự trào của Grantz rằng đã trót lơ ngơ bước nhầm vào phòng họp trong ngày nghỉ thì đành ngồi lại chịu trận luôn đang được dịch sát chữ là `Gieo gì gặt nấy mà.`; ngoài ra, tại `p000028`, câu đáp thông cảm của viên sĩ quan kỳ cựu khi nghe Grantz thú nhận chuyện mất hồn trong trận đầu (`that’s how it goes, I suppose`) đang dịch hơi sát cấu trúc tiếng Anh là `“Ừ, tôi đoán chuyện là vậy.”`.
+    basis: >-
+      Tại `p000024`, bản dịch đã tuân thủ đúng quy ước `direct-address choice` khi lược đại từ ngôi thứ hai phiếm chỉ và giữ sát nghĩa thành ngữ trong nguồn; tại `p000028`, thái độ đồng cảm, không trách cứ của các sĩ quan đàn anh vẫn thể hiện rõ nhờ mạch văn liền kề ở `p000029`–`p000031`.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh câu cuối `p000024` thành `Tự làm tự chịu thôi mà.` (hoặc `Trót đâm lao thì phải theo lao thôi.`) và làm mượt câu thoại `p000028` thành `“Ừ, chuyện thường tình ấy mà.”` (hoặc `“Ừ, lần đầu thì thường thế đấy.”`).
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "hard biscuits / bacon / academy / small auditorium / morning classroom session / lecture / hall"
+    source_label: "hard biscuits / bacon / the academy / small auditorium / morning classroom session / the lecture / the hall"
+    recommended_vi: "bánh quy cứng / thịt xông khói / học viện / giảng đường nhỏ / buổi học buổi sáng / giảng đường (buổi giảng) / hội trường"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `bánh quy cứng` và `thịt xông khói` từ `ch-05-b21` (`p000536`), `học viện` từ `ch-05-b18`–`b20`; khóa tạm các danh từ chỉ không gian và sinh hoạt huấn luyện tại căn cứ hậu phương (`giảng đường nhỏ`, `buổi học buổi sáng`, `hội trường`)."
+    alternatives:
+      - "lương khô / phòng học nhỏ / tiết học lý thuyết buổi sáng / buổi học"
+    segment_ids:
+      - YS-LN02/Text/part0028.xhtml/p000001
+      - YS-LN02/Text/part0028.xhtml/p000002
+      - YS-LN02/Text/part0028.xhtml/p000003
+      - YS-LN02/Text/part0028.xhtml/p000011
+      - YS-LN02/Text/part0028.xhtml/p000030
+
+  - term_key: "Magic Second Lieutenant Grantz / company commanders / key officers / Lieutenant Weiss / superior officers / leave"
+    source_label: "Magic Second Lieutenant Grantz / company commanders / key officers / Lieutenant Weiss / superior officers / leave"
+    recommended_vi: "Thiếu úy Pháp sư Grantz / đại đội trưởng / sĩ quan chủ chốt / Trung úy Weiss / các sĩ quan cấp trên / nghỉ phép"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `Thiếu úy Pháp sư Grantz` từ `ch-05-b24` (`p000620`), `đại đội trưởng` từ `ch-05-b16` (`p000394`), `Trung úy Weiss` từ `ch-05-b24` (`p000626`), và `các sĩ quan cấp trên` từ `ch-05-b19` (`p000466`); khóa tạm `sĩ quan chủ chốt` và `nghỉ phép`."
+    alternatives:
+      - "Thiếu úy ma pháp Grantz / Thiếu úy Ma pháp Grantz / sĩ quan nòng cốt"
+    segment_ids:
+      - YS-LN02/Text/part0028.xhtml/p000012
+      - YS-LN02/Text/part0028.xhtml/p000014
+      - YS-LN02/Text/part0028.xhtml/p000019
+      - YS-LN02/Text/part0028.xhtml/p000020
+      - YS-LN02/Text/part0028.xhtml/p000021
+      - YS-LN02/Text/part0028.xhtml/p000024
+      - YS-LN02/Text/part0028.xhtml/p000036
+
+  - term_key: "raid / base / first combat experience / front lines / commander's training / Lieutenant Serebryakov / second-in-command / old stagers"
+    source_label: "the raid / base / first combat experience / front lines / the commander’s training / Lieutenant Serebryakov / second-in-command / old stagers"
+    recommended_vi: "cuộc đột kích / căn cứ / lần đầu ra trận / tiền tuyến / khóa huấn luyện của chỉ huy / Trung úy Serebryakov / phó chỉ huy / những người lính dày dạn"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `cuộc đột kích`, `căn cứ`, `tiền tuyến`, `chỉ huy`, `phó chỉ huy` (`vol-04-ch-04-b04`) và phương án cấp úy cho `Lieutenant Serebryakov` (`vol02-ch05-b17-lieutenant-serebryakov`); khóa tạm `khóa huấn luyện của chỉ huy` và `những người lính dày dạn`."
+    alternatives:
+      - "trải nghiệm thực chiến đầu tiên / Thiếu úy Serebryakov / Sĩ quan cấp úy Serebryakov / những cựu binh lão luyện / những người lính kỳ cựu"
+    segment_ids:
+      - YS-LN02/Text/part0028.xhtml/p000024
+      - YS-LN02/Text/part0028.xhtml/p000025
+      - YS-LN02/Text/part0028.xhtml/p000029
+      - YS-LN02/Text/part0028.xhtml/p000030
+      - YS-LN02/Text/part0028.xhtml/p000032
+      - YS-LN02/Text/part0028.xhtml/p000033
+      - YS-LN02/Text/part0028.xhtml/p000035
+      - YS-LN02/Text/part0028.xhtml/p000036
+      - YS-LN02/Text/part0028.xhtml/p000037
+      - YS-LN02/Text/part0028.xhtml/p000038
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000001
+    terms:
+      - "cà phê"
+      - "bánh quy cứng"
+      - "thịt xông khói"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Warren Grantz dùng `Tôi` / `tôi` và quy chiếu bánh quy bằng `chúng`."
+    pov_and_voice: "Tự sự ngôi thứ nhất của Grantz mở đầu `part0028.xhtml`, tiếp nối trực tiếp cảnh ép bản thân ăn sáng tại nhà ăn sĩ quan ở cuối `ch-05-b24` (`part0026.xhtml/p000663`)."
+    modality_and_logic: "Bảo toàn đầy đủ 2 câu và quan hệ nhân quả – nhượng bộ: dùng cà phê làm mềm bánh quy cứng rồi cố ăn cùng một ít thịt xông khói; hẳn vị giác chẳng cảm nhận được gì nhưng nghĩ cơ thể cần thức ăn để duy trì sự sống nên vẫn nuốt xuống."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000002
+    terms:
+      - "học viện"
+    pronouns_and_address: "Độc thoại nội tâm in nghiêng và tự sự ngôi thứ nhất của Grantz dùng `tôi` / `Tôi` (xem thêm finding `m2`)."
+    pov_and_voice: "Độc thoại nội tâm tự trấn an kết hợp tự sự ngôi thứ nhất về bữa sáng nặng nhọc."
+    modality_and_logic: "Bảo toàn cả 3 câu: hai câu đầu in nghiêng tự nhủ con người vẫn phải ăn kể cả vào những lúc thế này, giống như lúc kiệt sức ở học viện mà vẫn phải ép thức ăn xuống cổ họng; câu thứ ba nêu sự tương phản rằng dù tự nhủ như vậy nhưng phải mất rất lâu mới ăn xong."
+    emphasis: "Bảo toàn chính xác 2 câu đầu trong 1 cụm `*...*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000003
+    terms:
+      - "giảng đường nhỏ"
+      - "buổi học buổi sáng"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` kết hợp phản thân `mình`."
+    pov_and_voice: "Tự sự ngôi thứ nhất mô tả bước chân vô thức theo thói quen sinh hoạt hàng ngày."
+    modality_and_logic: "Bảo toàn hành động không chủ đích: sau đó thấy mình đang đi về phía giảng đường nhỏ để dự buổi học buổi sáng thường lệ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000004
+    terms:
+      - "tuân lệnh"
+      - "người lính"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất giải thích cơ chế phản xạ kỷ luật nhà binh đã ăn sâu vào tiềm thức."
+    modality_and_logic: "Bảo toàn trọn vẹn 2 câu: việc tuân lệnh đã thành thói quen sau những lần rèn luyện lặp đi lặp lại; ngay cả lúc chẳng còn chút ý chí nào như thế này, anh vẫn là một người lính."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000005
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` kết hợp phản thân `mình`."
+    pov_and_voice: "Bước ngoặt tâm lý bất ngờ khi Grantz chợt thấy buồn cười trước phản xạ máy móc của chính mình."
+    modality_and_logic: "Bảo toàn nhận thức đột ngột: rồi nhận ra mình muốn bật cười thành tiếng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000006
+    terms: []
+    pronouns_and_address: "Lời lẩm bẩm thành tiếng của Grantz không dùng đại từ nhân xưng."
+    pov_and_voice: "Câu hỏi tự vấn đầy ngạc nhiên trước sự thay đổi cảm xúc của bản thân."
+    modality_and_logic: "Bảo toàn dấu chấm lửng và câu hỏi `“…Khoan đã, chuyện gì vừa xảy ra vậy?”`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000007
+    terms: []
+    pronouns_and_address: "Câu độc thoại nội tâm in nghiêng của Grantz dùng `Mình`."
+    pov_and_voice: "Sự ngỡ ngàng pha lẫn nhẹ nhõm khi phát hiện bản thân vẫn còn khả năng mỉm cười sau đêm kinh hoàng."
+    modality_and_logic: "Bảo toàn cả 2 câu: câu nội tâm khẳng định mình có thể cười, và lời bình đó là một phát hiện vừa bất ngờ vừa nhẹ nhõm."
+    emphasis: "Bảo toàn chính xác câu đầu `*Mình có thể cười.*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000008
+    terms:
+      - "tinh thần con người"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` kết hợp phản thân `mình`."
+    pov_and_voice: "Chiêm nghiệm của Grantz về sức chịu đựng và khả năng phục hồi của tâm lý con người."
+    modality_and_logic: "Bảo toàn cả 2 câu cùng sắc thái phỏng đoán (`Có lẽ`, `Hóa ra`): có lẽ vì tình cảnh của mình mà không ngờ tới điều đó; hóa ra tinh thần con người bền bỉ đến mức khó tin."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000009
+    terms: []
+    pronouns_and_address: "Lời tự nhủ thành tiếng của Grantz dùng `mình`."
+    pov_and_voice: "Giọng giật mình sực nhớ tới giờ giấc kỷ luật."
+    modality_and_logic: "Bảo toàn câu cảm thán không thể đến muộn được."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000010
+    terms:
+      - "binh lính"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `Tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất tự trách việc ăn sáng quá lâu so với tác phong quân nhân."
+    modality_and_logic: "Bảo toàn quan hệ tương phản – nhượng bộ: ăn sáng lâu đến thế, dù binh lính vốn được ca ngợi là luôn cảnh giác thì đáng lẽ phải ăn cho nhanh."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000011
+    terms:
+      - "giảng đường"
+      - "hội trường"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`."
+    pov_and_voice: "Nhịp tự sự khẩn trương khi nhân vật vội vã chạy đi học."
+    modality_and_logic: "Bảo toàn trọn vẹn 3 câu cùng câu điều kiện ở câu 2: thành ra sáng hôm đó chẳng còn thời gian mà chần chừ; nếu cứ đứng ngẩn ra nghĩ ngợi sẽ không đến kịp giờ; khi nhận ra mấy giờ liền vội chạy tới hội trường."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000012
+    terms:
+      - "Thiếu úy Pháp sư Grantz"
+    pronouns_and_address: "Grantz xưng quân hàm và tên `Thiếu úy Pháp sư Grantz` theo đúng nghi thức báo cáo khi vào phòng."
+    pov_and_voice: "Lời chào báo cáo đúng điều lệnh quân đội của tân sĩ quan."
+    modality_and_logic: "Bảo toàn câu xin phép vào phòng của Grantz (xem thêm finding `m1`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000013
+    terms:
+      - "Grantz"
+    pronouns_and_address: "Trung úy Weiss gọi tên `Grantz` và cho phép vào."
+    pov_and_voice: "Giọng đáp hơi ngạc nhiên nhưng thoải mái của cấp trên."
+    modality_and_logic: "Bảo toàn câu hỏi xác nhận tên kèm lời cho phép vào."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000014
+    terms:
+      - "đại đội trưởng"
+      - "sĩ quan chủ chốt"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất ghi lại khung cảnh vắng vẻ bất thường trong phòng."
+    modality_and_logic: "Bảo toàn quan hệ đối lập – ngoại trừ: khi đến nơi, ngoài vài đại đội trưởng và sĩ quan chủ chốt đang nhìn mình đầy khó hiểu thì các bàn đều trống không."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000015
+    terms: []
+    pronouns_and_address: "Câu hỏi nội tâm in nghiêng dùng `Mình`; phần tự sự tiếp theo dùng `tôi`."
+    pov_and_voice: "Độc thoại nội tâm lo lắng chuyển sang sự bối rối khi đối chiếu đồng hồ."
+    modality_and_logic: "Bảo toàn câu hỏi nội tâm sợ mình đến muộn, nối với chi tiết nhìn đồng hồ treo tường thì thấy thực ra vừa kịp đến sớm năm phút."
+    emphasis: "Bảo toàn chính xác câu hỏi `*Mình đến muộn rồi sao?*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000016
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất dùng đại từ bất định `mọi người`."
+    pov_and_voice: "Tự sự ngôi thứ nhất nêu quy chuẩn giờ giấc thường ngày của đơn vị."
+    modality_and_logic: "Bảo toàn tình thái quy chuẩn (`Đáng lẽ`): vào giờ đó mọi người phải có mặt đông đủ rồi."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000017
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `mình tôi`."
+    pov_and_voice: "Tự sự ngôi thứ nhất khẳng định sự bất thường của tình huống."
+    modality_and_logic: "Bảo toàn phủ định nhấn mạnh: bình thường chẳng đời nào chỉ có một mình anh tất tả chạy đến đây."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000018
+    terms: []
+    pronouns_and_address: "Trung úy Weiss gọi nhóm tân binh của Grantz là `các cậu`."
+    pov_and_voice: "Lời hỏi thăm giải thích nguyên nhân phòng học trống trải."
+    modality_and_logic: "Bảo toàn cả câu hỏi có chuyện gì vậy và thông tin hôm nay nhóm của Grantz được nghỉ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000019
+    terms:
+      - "Trung úy Weiss"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` và quy chiếu `Trung úy Weiss` bằng `anh ấy`."
+    pov_and_voice: "Tự sự ngôi thứ nhất ghi lại khoảnh khắc vỡ lẽ sau lời nhắc của Weiss."
+    modality_and_logic: "Bảo toàn tình thái suy đoán (`hẳn đã hiểu`) và trình tự nhân quả: Trung úy Weiss hẳn đã hiểu vì sao Grantz bối rối, và nghe anh ấy nói xong Grantz mới nhận ra."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000020
+    terms:
+      - "Trung úy"
+    pronouns_and_address: "Grantz thưa `Thưa Trung úy` và tự xưng `tôi`."
+    pov_and_voice: "Giọng phân trần ngượng ngùng nhưng lễ phép của cấp dưới với cấp trên trực tiếp."
+    modality_and_logic: "Bảo toàn lời thú nhận đầy xấu hổ rằng cứ tưởng hôm nay có giờ học."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000021
+    terms:
+      - "Trung úy Weiss"
+      - "nghỉ phép"
+      - "các sĩ quan cấp trên"
+      - "ngày nghỉ"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` / `chúng tôi`, quy chiếu các sĩ quan cấp trên bằng `họ`."
+    pov_and_voice: "Tự sự ngôi thứ nhất giải thích sự hiểu lầm trớ trêu nhưng hợp lý giữa hai bên."
+    modality_and_logic: "Bảo toàn đầy đủ 4 câu: có lẽ cú sốc tối qua quá lớn nên lời dặn không lọt vào đầu; Trung úy Weiss nhăn mặt giải thích rằng sau khi về căn cứ cả bọn đã được cho nghỉ phép; sáng nay đầu óc mải nghĩ chuyện khác nên lảo đảo thức dậy nhưng họ lại tưởng anh thong thả ăn sáng tận hưởng ngày nghỉ; nói cách khác các sĩ quan cấp trên nghĩ anh đang thư thả dùng bữa sáng trong ngày nghỉ nên không đến kiểm tra."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000022
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`."
+    pov_and_voice: "Lời tự trách ngắn gọn."
+    modality_and_logic: "Bảo toàn tình thái tiếc nuối quá khứ: lẽ ra phải nhận ra sớm hơn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000023
+    terms: []
+    pronouns_and_address: "Grantz tự xưng `Tôi`."
+    pov_and_voice: "Lời xin lỗi ngắn gọn vì đã làm phiền các sĩ quan."
+    modality_and_logic: "Bảo toàn câu thoại `“Tôi xin lỗi.”`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000024
+    terms:
+      - "cuộc đột kích"
+      - "Trung úy Weiss"
+      - "sĩ quan"
+    pronouns_and_address: "Trong thoại, Trung úy Weiss tự xưng `tôi` và gọi Grantz là `cậu`; trong tự sự, Grantz dùng `tôi`; câu cuối lược đại từ ngôi thứ hai phiếm chỉ theo quy ước `direct-address choice`."
+    pov_and_voice: "Thái độ cởi mở, thân tình của Trung úy Weiss và quyết định ngồi lại trò chuyện của Grantz."
+    modality_and_logic: "Bảo toàn trọn vẹn 5 câu: Weiss xua tay bảo không sao và tiện đang ở đây thì kể xem nghĩ thế nào về cuộc đột kích vừa nói vừa chỉ ghế ngồi; các sĩ quan khác không phiền nên Grantz quyết định nhập hội; tự nhủ đây cũng là dịp tốt và chốt bằng câu thành ngữ chấp nhận hoàn cảnh (xem thêm finding `m3`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000025
+    terms:
+      - "căn cứ"
+    pronouns_and_address: "Grantz tự xưng `tôi`."
+    pov_and_voice: "Lời thú nhận thật thà của tân binh sau trận thực chiến đầu đời."
+    modality_and_logic: "Bảo toàn cả 2 câu: thành thật mà nói lúc ấy cứ như người mất hồn; đến khi nhận ra thì đã về tới căn cứ rồi."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000026
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi`, lược chủ ngữ đại từ ngôi thứ hai ở mệnh đề điều kiện (`nếu hỏi tôi`)."
+    pov_and_voice: "Tự sự ngôi thứ nhất bổ sung lý giải cho câu trả lời ở `p000025`."
+    modality_and_logic: "Bảo toàn quan hệ nhân quả và đối lập qua 2 câu: vì không muốn chết nên hoàn toàn dồn tâm trí vào hành động; nhưng nếu hỏi thực sự đã làm gì thì ký ức lại rất mơ hồ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000027
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` và quy chiếu các sĩ quan bằng `họ`."
+    pov_and_voice: "Tự sự ngôi thứ nhất thể hiện sự bộc trực của nhân vật."
+    modality_and_logic: "Bảo toàn quan hệ nhượng bộ: dù thấy xấu hổ nhưng vẫn nói thật với họ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000028
+    terms: []
+    pronouns_and_address: "Viên sĩ quan tự xưng `tôi`."
+    pov_and_voice: "Giọng đáp bình thản, từng trải của sĩ quan đàn anh."
+    modality_and_logic: "Bảo toàn lời đồng tình rằng chuyện lần đầu ra trận như vậy là bình thường (xem thêm finding `m3`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000029
+    terms: []
+    pronouns_and_address: "Sĩ quan đàn anh gọi Grantz là `cậu`."
+    pov_and_voice: "Lời khen ngợi và khích lệ thiết thực dành cho tân binh vừa qua lửa đạn."
+    modality_and_logic: "Bảo toàn cả 2 câu: khen sống sót trở về là giỏi rồi; với trận vừa rồi làm trải nghiệm thực chiến đầu tiên thì lần sau hẳn sẽ dễ dàng hơn nhiều."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000030
+    terms:
+      - "sĩ quan"
+      - "học viện"
+      - "tiền tuyến"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` và quy chiếu các sĩ quan bằng `họ`; câu mắng giả định in nghiêng dùng cấu trúc mệnh lệnh không chủ ngữ."
+    pov_and_voice: "Tự sự ngôi thứ nhất đối chiếu sự giáo điều ở học viện với chủ nghĩa thực tế nơi tiền tuyến."
+    modality_and_logic: "Bảo toàn đầy đủ 3 câu cùng giả định trái thực tế quá khứ ở câu 2: các sĩ quan dường như không thật sự trách anh; nếu ở học viện hẳn đã bị mắng té tát bắt ra ngoài đó phải giữ cái đầu tỉnh táo; còn ở tiền tuyến họ thực tế hơn và ghi nhận việc anh đã sống sót."
+    emphasis: "Bảo toàn chính xác câu mắng giả định `*Ra ngoài đó thì phải tỉnh táo lên chứ!*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000031
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` và quy chiếu các sĩ quan bằng `họ`."
+    pov_and_voice: "Sự ngạc nhiên ấm lòng của Grantz trước thái độ ân cần của các bậc đàn anh."
+    modality_and_logic: "Bảo toàn phép so sánh giả định: thật ra họ còn đối xử tử tế với anh, như thể sự quan tâm chu đáo là chuyện thường tình."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000032
+    terms:
+      - "khóa huấn luyện của chỉ huy"
+    pronouns_and_address: "Sĩ quan đàn anh dùng đại từ phiếm chỉ `Ai cũng` và gọi Grantz là `cậu`."
+    pov_and_voice: "Lời động viên pha chút hài hước nhà binh về độ khắc nghiệt của Tanya."
+    modality_and_logic: "Bảo toàn cả 2 câu: ai cũng phải bước qua cửa ải đó; nếu sống sót qua khóa huấn luyện của chỉ huy thì coi như cũng tạm ổn rồi."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000033
+    terms:
+      - "Trung úy Serebryakov"
+    pronouns_and_address: "Lời thoại quy chiếu Serebryakov bằng `Trung úy Serebryakov` và quy chiếu Tanya bằng `cô ấy`."
+    pov_and_voice: "Lời trêu đùa thân mật của một sĩ quan trong phòng hướng sang Serebryakov."
+    modality_and_logic: "Bảo toàn nhận định rằng Serebryakov chỉ cần bay theo chỉ huy thôi là đã cứng cáp lên rồi (xem thêm finding `m1`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000034
+    terms: []
+    pronouns_and_address: "Serebryakov tự xưng `tôi` và hỏi cả phòng `Có ai`."
+    pov_and_voice: "Giọng thở dài nửa đùa nửa thật của Serebryakov khi làm phó quan bay kèm Tanya."
+    modality_and_logic: "Bảo toàn lời thừa nhận kèm câu hỏi gạ đổi vị trí: đúng là thế thật, nhưng có ai muốn đổi chỗ với cô không."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000035
+    terms:
+      - "phó chỉ huy"
+    pronouns_and_address: "Trung úy Weiss tự xưng `Tôi` và quy chiếu Tanya bằng `cô ấy`."
+    pov_and_voice: "Tiếng cười sảng khoái và lời từ chối khéo dựa trên chức trách phó chỉ huy tiểu đoàn của Weiss."
+    modality_and_logic: "Bảo toàn tiếng cười và lý do từ chối: vì là phó chỉ huy nên không thể bay cùng cô ấy được."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000036
+    terms:
+      - "Đại đội trưởng"
+      - "Trung úy"
+    pronouns_and_address: "Một đại đội trưởng tự xưng `tôi` và gọi Serebryakov là `cô` / `thưa Trung úy`."
+    pov_and_voice: "Lời từ chối lịch sự, hài hước viện dẫn nguyên tắc phân tán chỉ huy."
+    modality_and_logic: "Bảo toàn quan hệ nhân quả: các đại đội trưởng tụ tập hết một chỗ thì không ổn, nên thực tế nhiệm vụ khiến anh không thể đổi chỗ với Serebryakov được (xem thêm finding `m1`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000037
+    terms:
+      - "Trung úy Serebryakov"
+    pronouns_and_address: "Trần thuật ngôi thứ nhất định danh `Trung úy Serebryakov`."
+    pov_and_voice: "Câu thoại ngắn và cử chỉ làm bộ giận dỗi khuấy động không khí phòng họp."
+    modality_and_logic: "Bảo toàn câu than tiếc thật đấy và hình ảnh Serebryakov phồng má, phụng phịu như thể đang giận dỗi thật sự (xem thêm finding `m1`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000038
+    terms:
+      - "những người lính dày dạn"
+    pronouns_and_address: "Tự sự ngôi thứ nhất quy chiếu nhóm sĩ quan kỳ cựu bằng `Những người` / `những người lính dày dạn`."
+    pov_and_voice: "Sự nhận thức mới mẻ của Grantz về hai mặt chiến đấu và đời thường của những người lính thiện chiến."
+    modality_and_logic: "Bảo toàn sự đồng nhất đối tượng giữa hai thời điểm: tập hợp những con người đang tạo nên bầu không khí yên bình nơi đây chính là những người lính dày dạn đã làm việc điên cuồng hôm nọ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000039
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `Tôi` / `tôi`."
+    pov_and_voice: "Nhịp lắng dịu khép lại lô khi Grantz dần thoát khỏi trạng thái sang chấn."
+    modality_and_logic: "Bảo toàn cả 2 câu và sự chuyển biến tâm lý theo thời gian: chợt cảm thấy như có thể thở phào nhẹ nhõm; vừa mới đây thôi còn bàng hoàng đến vậy, nhưng giờ đã bắt đầu bình tĩnh lại đôi chút."
+    emphasis: "none"
