@@ -1,0 +1,493 @@
+task_id: vol-02-ch-04-b24
+review_task_id: vol-02-ch-04-b24-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 4
+batch: b24
+segment_id_start: YS-LN02/Text/part0024.xhtml/p000381
+segment_id_end: YS-LN02/Text/part0024.xhtml/p000412
+unit_count: 32
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: ada3d199c5478bc5db1db0cd8b33cae758ea2d5719ddd8533b0d61a8fa2a51d5
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-04-b24-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-04-b24-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0024.xhtml/p000382
+    issue: "Tại p000382, cấu trúc nhượng bộ ở đầu câu thoại (`Dù nơi đó có là luyện ngục`) làm dịu bớt sắc thái bất chấp trực tiếp của người nói so với cấu trúc bác bỏ sự bận tâm trong nguồn."
+    basis: "Ghi nhận từ mục minor B24-R09 đã hoãn trước đó; câu dịch hiện tại vẫn giữ đúng điều kiện giả định về mức độ khắc nghiệt (`luyện ngục`) và cam kết hành động của người lính, không làm sai lệch logic."
+    recommendation: "Có thể giữ nguyên, hoặc ở bước chuốt văn cân nhắc đổi mở đầu thành `Có là luyện ngục cũng chẳng sao—` để tăng nhịp dứt khoát mà vẫn tránh phải thêm đại từ ngôi thứ nhất số ít."
+    resolution: optional_polish
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0024.xhtml/p000389
+    issue: "Tại p000389 và p000390, hình ảnh ẩn dụ loài vật canh giữ (`watchdog`) được dịch thành danh từ chỉ người (`người canh giữ`), làm giảm độ sắc lạnh của ẩn dụ công cụ bạo lực chịu sự kiểm soát của nhà nước và sự đối xứng hình ảnh với `lũ chuột` ở p000392."
+    basis: "Ghi nhận từ mục minor B24-R07 đã hoãn trước đó; cách dịch `người canh giữ` vẫn bảo toàn đúng chức năng bảo vệ và sự phục tùng đối với Đế quốc/nhà nước."
+    recommendation: "Có thể giữ nguyên nếu ưu tiên sắc thái trung tính trong lời hiệu triệu, hoặc đổi thành `chó canh` / `con chó canh` tại p000389–p000390 ở bước chuốt văn để giữ trọn hình ảnh ẩn dụ gốc."
+    resolution: optional_polish
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0024.xhtml/p000393
+    issue: "Trong mạch độc thoại nội tâm liên tiếp về nhân vật lịch sử Tsuji tại p000393–p000394, đại từ ngôi thứ ba quy chiếu Tsuji chuyển từ `ông ta` ở p000393 sang `hắn` ở p000394."
+    basis: "Tại p000393 Tanya đang nêu câu hỏi phản tư chung về thái độ của người đời đối với Tsuji (`ông ta`), còn sang p000394 Tanya đặt giả định Tsuji là cấp dưới tự tiện của chính mình cần bị đưa ra trước đội hành quyết nên chuyển sang `hắn` đầy khinh thị."
+    recommendation: "Không làm mơ hồ chủ thể quy chiếu; có thể giữ nguyên để phản ánh bước chuyển cảm xúc sang thái độ trừng phạt cấp dưới ở p000394, hoặc đồng bộ về `hắn` / `gã` ở cả hai đoạn khi chuốt văn."
+    resolution: optional_polish
+  - id: m4
+    severity: minor
+    segment_id: YS-LN02/Text/part0024.xhtml/p000411
+    issue: "Tại p000411, động từ mô tả nét mặt đầu câu dùng `Nheo mắt` (thay vì nét mặt cau có/quắc mắt trước bọt nước bắn) và câu cuối thêm trạng từ chỉ tốc độ `nhanh chóng` thay cho từ chỉ phạm vi toàn thể."
+    basis: "Ghi nhận từ mục minor B24-R08 đã hoãn trước đó; hai chi tiết chính về đại từ trần thuật `nó` (B24-R01) và thuật ngữ `đội hình đột kích lên tàu` (B24-R05) trong cùng đoạn đều đã được sửa chuẩn xác."
+    recommendation: "Có thể giữ nguyên vì câu văn tự nhiên và giữ đúng diễn biến chiến thuật, hoặc tinh chỉnh thành `Cau mày trước những đợt nước bắn tung tóe...` và `các đại đội đều vào đội hình hỗ trợ lẫn nhau` ở bước chuốt văn."
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch04-b24-heinrichs-law-and-military-discipline-terms
+    source_term: "General Staff Office / penal battalion / purgatory / Heinrich’s Law / military academy / firing squad / pay grade"
+    proposed_vi: "Bộ Tổng tham mưu / tiểu đoàn hình phạt / luyện ngục / Định luật Heinrich / học viện quân sự / đội hành quyết / cấp lương"
+    alternatives_vi:
+      - "Văn phòng Bộ Tổng tham mưu / tiểu đoàn trừng giới / luyện ngục / Quy luật Heinrich / trường võ bị (học viện quân sự) / đội xử bắn / bậc lương"
+    segment_ids:
+      - YS-LN02/Text/part0024.xhtml/p000381
+      - YS-LN02/Text/part0024.xhtml/p000382
+      - YS-LN02/Text/part0024.xhtml/p000383
+      - YS-LN02/Text/part0024.xhtml/p000387
+      - YS-LN02/Text/part0024.xhtml/p000394
+      - YS-LN02/Text/part0024.xhtml/p000403
+    volume: vol-02
+    chapter: 4
+    rationale: "Kế thừa đồng bộ `Bộ Tổng tham mưu` từ các batch trước của Chương 4 và giữ lựa chọn tạm `Định luật Heinrich` (`vol02-ch04-b24-heinrichs-law`) cho nguyên tắc phòng ngừa tai nạn từ các sai sót nhỏ tích tụ tại p000383. Các thuật ngữ `tiểu đoàn hình phạt`, `học viện quân sự`, `đội hành quyết` và `cấp lương` phản ánh tự nhiên, chính xác hệ quy chiếu kỷ luật quân đội kết hợp tư duy nhân sự của Tanya."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch04-b24-rhine-transfer-and-historical-officer-references
+    source_term: "Empire / watchdog / instrument of violence / Tsuji / General Brute-Guchi / Rhine / counterclockwise sweep"
+    proposed_vi: "Đế quốc / người canh giữ / công cụ bạo lực / Tsuji / tướng Brute-Guchi / Rhine / quét chiến trường theo chiều ngược kim đồng hồ"
+    alternatives_vi:
+      - "Đế quốc / chó canh (con chó canh) / công cụ bạo lực / Tsuji / Tướng Brute-Guchi / Mặt trận Rhine (khu vực Rhine) / càn quét chiến trường ngược chiều kim đồng hồ"
+    segment_ids:
+      - YS-LN02/Text/part0024.xhtml/p000389
+      - YS-LN02/Text/part0024.xhtml/p000390
+      - YS-LN02/Text/part0024.xhtml/p000393
+      - YS-LN02/Text/part0024.xhtml/p000394
+      - YS-LN02/Text/part0024.xhtml/p000395
+      - YS-LN02/Text/part0024.xhtml/p000397
+      - YS-LN02/Text/part0024.xhtml/p000398
+      - YS-LN02/Text/part0024.xhtml/p000400
+      - YS-LN02/Text/part0024.xhtml/p000401
+      - YS-LN02/Text/part0024.xhtml/p000403
+    volume: vol-02
+    chapter: 4
+    rationale: "Khóa lựa chọn tạm giữ nguyên địa danh `Rhine` không kèm danh từ phân loại `sông` tại p000397 và p000400 (`vol02-ch04-b24-rhine` / B24-R03) vì p000401 xác định nhiệm vụ là quét qua chiến trường chứ không phải tác chiến đường sông. Giữ nguyên tên riêng `Tsuji` và cách ghép biệt danh mỉa mai `tướng Brute-Guchi` ở p000393–p000398, p000403 mà không tự thêm chú thích lịch sử ngoài văn bản."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch04-b24-naval-exercise-and-boarding-assault-terms
+    source_term: "marine mages / navy vs. army / “hardware” vs. “software” / welfare / fleet / boarding assault formation / anti-air fire / exercise / intercepting fire"
+    proposed_vi: "pháp sư hải quân / hải quân đối lập lục quân / “phần cứng” đối lập “phần mềm” / phúc lợi / hạm đội / đội hình đột kích lên tàu / làn đạn phòng không / cuộc diễn tập (diễn tập) / hỏa lực đánh chặn"
+    alternatives_vi:
+      - "pháp sư tác chiến trên biển (pháp sư thủy quân lục chiến) / hải quân đối lập bên lục quân / đội hình tấn công lên tàu (đội hình đánh chiếm tàu) / hỏa lực phòng không"
+    segment_ids:
+      - YS-LN02/Text/part0024.xhtml/p000406
+      - YS-LN02/Text/part0024.xhtml/p000407
+      - YS-LN02/Text/part0024.xhtml/p000409
+      - YS-LN02/Text/part0024.xhtml/p000411
+      - YS-LN02/Text/part0024.xhtml/p000412
+    volume: vol-02
+    chapter: 4
+    rationale: "Giữ lựa chọn tạm `pháp sư hải quân` (`vol02-ch04-b24-marine-mages`, độ bất định thấp–vừa vì chỉ là cách gọi ví von hoạt động phối hợp với hải quân tại p000406 chứ chưa xác lập quân chủng chính thức). Khóa sự phân biệt `hải quân` với `lục quân` xuyên suốt đoạn so sánh khẩu phần ăn và chi tiêu tại p000407 (`vol02-ch04-b24-army-navy-contrast` / B24-R04), trong khi vẫn giữ `quân đội` cho nghĩa thiết chế chung ở p000390, p000403. Khóa `đội hình đột kích lên tàu` tại p000411 (`vol02-ch04-b24-boarding-assault-formation` / B24-R05) để bảo toàn chính xác hành động tiếp cận tàu trên mặt biển hỗ trợ hạm đội."
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch04-b24-pronouns-pov-shifts-and-ranks
+    source_term: "Tanya third-person narration (`nó` / `Tanya`) vs. first-person interior monologue (`mình`), intra-paragraph POV shifts (p000388, p000398, p000403, p000412), italicized emphases (p000387, p000403, p000412), and ranks/address for Tanya, Weiss, Serebryakov, and Lergen"
+    proposed_vi: "Trong các câu/mệnh đề trần thuật ngôi thứ ba về Tanya (p000388 câu 1, p000398 câu 1, p000399, p000403 mệnh đề dẫn lời, p000411, p000412), dùng tên riêng `Tanya`, chức danh/quân hàm `Thiếu tá von Degurechaff` (p000411) và đại từ trần thuật `nó` / `Nó` (p000388, p000399, p000411, p000412) theo đúng DEC-P01-001 và sửa chữa B24-R01, tuyệt đối không dùng `cô`; trong toàn bộ các đoạn và câu độc thoại nội tâm ngôi thứ nhất của Tanya (p000387, p000388 câu 2–3, p000390, p000391, p000393–p000396, p000398 câu 2–3, p000403, p000404, p000407), dùng nhất quán đại từ tự quy chiếu `mình` / `Mình` theo đúng DEC-P01-001; khi quy chiếu tập thể đơn vị trong cả độc thoại nội tâm lẫn lời diễn thuyết trước tiểu đoàn (p000381–p000383, p000385, p000390, p000392, p000397, p000401–p000403, p000406, p000409, p000412 câu cuối), dùng `chúng ta` / `Chúng ta`, kết hợp danh xưng trang trọng `thưa các quý ông` tại p000397; quy chiếu Phó chỉ huy / Trung úy Weiss bằng `Phó chỉ huy Weiss` (p000387), `phó chỉ huy của mình` (p000395), `Trung úy` / `Trung úy Weiss` (p000397, p000398), `Weiss` (p000404) và đại từ ngôi thứ ba `anh ta` (p000395, p000398), còn Weiss gọi Tanya là `Thưa chỉ huy?` (p000386); giữ đúng tên riêng `Serebryakov` (p000404), `Being X` (p000403) và quân hàm `Đại tá von Lergen` (p000409); bảo toàn chính xác 4 phạm vi nhấn mạnh `*...*` theo DEC-P01-002 tại p000387, p000403 và hai câu nội tâm tại p000412"
+    alternatives_vi:
+      - "tôi (thay cho `mình` trong các đoạn tự sự/nhận định ngôi thứ nhất nếu muốn nối trực tiếp với giọng tự sự `tôi` của b22–b23 — tuy nhiên ưu tiên giữ `mình` như bản dịch hiện tại của b24 vì tuân thủ trực tiếp DEC-P01-001 và khớp hoàn toàn với quyết định B24-R01 trong handoff)"
+    segment_ids:
+      - YS-LN02/Text/part0024.xhtml/p000381
+      - YS-LN02/Text/part0024.xhtml/p000382
+      - YS-LN02/Text/part0024.xhtml/p000383
+      - YS-LN02/Text/part0024.xhtml/p000385
+      - YS-LN02/Text/part0024.xhtml/p000386
+      - YS-LN02/Text/part0024.xhtml/p000387
+      - YS-LN02/Text/part0024.xhtml/p000388
+      - YS-LN02/Text/part0024.xhtml/p000390
+      - YS-LN02/Text/part0024.xhtml/p000391
+      - YS-LN02/Text/part0024.xhtml/p000392
+      - YS-LN02/Text/part0024.xhtml/p000393
+      - YS-LN02/Text/part0024.xhtml/p000394
+      - YS-LN02/Text/part0024.xhtml/p000395
+      - YS-LN02/Text/part0024.xhtml/p000396
+      - YS-LN02/Text/part0024.xhtml/p000397
+      - YS-LN02/Text/part0024.xhtml/p000398
+      - YS-LN02/Text/part0024.xhtml/p000399
+      - YS-LN02/Text/part0024.xhtml/p000401
+      - YS-LN02/Text/part0024.xhtml/p000402
+      - YS-LN02/Text/part0024.xhtml/p000403
+      - YS-LN02/Text/part0024.xhtml/p000404
+      - YS-LN02/Text/part0024.xhtml/p000406
+      - YS-LN02/Text/part0024.xhtml/p000407
+      - YS-LN02/Text/part0024.xhtml/p000409
+      - YS-LN02/Text/part0024.xhtml/p000411
+      - YS-LN02/Text/part0024.xhtml/p000412
+    volume: vol-02
+    chapter: 4
+    rationale: "Tuân thủ nghiêm ngặt DEC-P01-001 và DEC-P01-002: phân biệt rạch ròi giữa trần thuật ngôi thứ ba (`Tanya` / `Thiếu tá von Degurechaff` / `nó`) và nội tâm tự quy chiếu (`mình`), đặc biệt ở các đoạn chuyển ngôi ngay giữa các câu (p000388, p000398, p000403, p000412); đồng thời đồng bộ hệ thống cấp bậc (`Thiếu tá von Degurechaff`, `Phó chỉ huy Weiss` / `Trung úy Weiss`, `Đại tá von Lergen`)."
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000381
+    terms:
+      - "Bộ Tổng tham mưu (General Staff Office)"
+      - "tiểu đoàn hình phạt (penal battalion)"
+      - "chiến công (achievements)"
+    pronouns_and_address:
+      - "Dùng đại từ số nhiều bao gộp `chúng ta` cho Tanya và tiểu đoàn."
+    pov_and_voice: "Độc thoại nội tâm đánh giá tình thế của Tanya."
+    modality_and_logic: "Giữ quan hệ suy luận nhân quả (`còn đích thân cử người đến` -> `chúng ta chưa bị bỏ rơi`) và thế đối lập nhượng bộ (`Vẫn có nguy cơ bị điều đến phục vụ trong một tiểu đoàn hình phạt, nhưng chúng ta chỉ còn cách vượt qua bằng cách lập thật nhiều chiến công`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000382
+    terms:
+      - "luyện ngục (purgatory)"
+      - "người lính (soldiers)"
+    pronouns_and_address:
+      - "Trong lời tuyên bố trước tiểu đoàn: dùng đại từ tập thể `chúng ta`."
+    pov_and_voice: "Lời hiệu triệu cứng rắn của Tanya trước thuộc cấp."
+    modality_and_logic: "Giữ cấu trúc bất chấp điều kiện khắc nghiệt (`Dù nơi đó có là luyện ngục, chúng ta cũng sẽ đến đó và chinh phục nó`) và mệnh đề giải thích bổn phận (`bởi đó là điều người lính phải làm`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000383
+    terms:
+      - "nguyên tắc căn bản (fundamental principle)"
+      - "những điều cơ bản (the basics)"
+      - "Định luật Heinrich (Heinrich’s Law)"
+    pronouns_and_address:
+      - "Dùng `Chúng ta` ở câu nguyên tắc mở đầu."
+    pov_and_voice: "Độc thoại nội tâm mang tư duy quản trị rủi ro và an toàn lao động của Tanya."
+    modality_and_logic: "Giữ mệnh đề chấp hành mệnh lệnh (`được lệnh đi đâu thì sẽ đến đó`), quan hệ đối lập (`vốn chẳng cần phải nói, nhưng những điều cơ bản vẫn cần được thường xuyên ôn lại`) và nội dung cảnh báo của Định luật Heinrich về việc tích tụ các sai sót nhỏ."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000384
+    terms:
+      - "ngăn ngừa tai nạn (prevent accidents)"
+    pronouns_and_address: []
+    pov_and_voice: "Nhận định nguyên tắc trong nội tâm của Tanya."
+    modality_and_logic: "Giữ khẳng định về việc dùng biện pháp mạnh tay hơn để phòng ngừa tai nạn là điều cơ bản."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000385
+    terms:
+      - "nhiệm vụ (mission)"
+    pronouns_and_address:
+      - "Trong lời thoại: dùng `chúng ta` và `Tự mình`."
+    pov_and_voice: "Lời đề xuất hành động dứt khoát của Tanya trước đơn vị."
+    modality_and_logic: "Giữ tính thúc giục tức thời (`bây giờ... làm một nhiệm vụ đi. Tự mình thực hiện luôn`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000386
+    terms:
+      - "chỉ huy (Commander)"
+    pronouns_and_address:
+      - "Weiss gọi Tanya là `Thưa chỉ huy?`."
+    pov_and_voice: "Câu hỏi ngắn thể hiện sự ngạc nhiên/băn khoăn của Phó chỉ huy Weiss."
+    modality_and_logic: "Giữ ngữ điệu nghi vấn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000387
+    terms:
+      - "học viện quân sự (military academy)"
+      - "cấp dưới (subordinates)"
+    names_and_ranks:
+      - "Phó chỉ huy Weiss (Vice Commander Weiss)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm của Tanya dùng nhất quán đại từ `mình` / `Mình` theo DEC-P01-001."
+    pov_and_voice: "Độc thoại nội tâm phản ánh thoáng ngập ngừng rồi lập tức lấy lại sự quyết đoán của Tanya."
+    modality_and_logic: "Giữ hai câu tự vấn liên tiếp, lời răn từ học viện quân sự và cấu trúc so sánh lựa chọn ở câu cuối (`thà hối hận vì đã làm gì đó còn hơn chẳng làm gì, cứ thế mà để mặc mọi chuyện`)."
+    emphasis: "Khóa nhấn mạnh `*Đừng bao giờ nao núng trước cấp dưới.*` khớp chính xác với thẻ `<em>` trong nguồn (DEC-P01-002)."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000388
+    terms:
+      - "nhân sự trong tiểu đoàn (battalion personnel)"
+      - "điều căn bản (the basics)"
+      - "nhân tài (talent)"
+    pronouns_and_address:
+      - "Câu 1 trần thuật ngôi thứ ba dùng `nó` (theo DEC-P01-001 / B24-R01); câu 2 và câu 3 chuyển sang độc thoại nội tâm ngôi thứ nhất dùng `mình`."
+    pov_and_voice: "Trần thuật ngôi thứ ba chuyển sang độc thoại nội tâm ngay trong cùng đoạn."
+    modality_and_logic: "Giữ mức độ kiểm soát biểu cảm ở câu 1 (`chỉ vừa đủ giữ được vẻ mặt thản nhiên rồi liếc nhìn quanh`), phủ định giảm nhẹ ở câu 2 (`có vẻ... vẫn chưa chán những lần mình liên tục xác nhận`) và ước muốn thu nạp nhân tài ở câu 3."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000389
+    terms:
+      - "Đế quốc (Empire)"
+      - "người canh giữ (watchdog)"
+    pronouns_and_address:
+      - "Quy chiếu Đế quốc bằng `họ`."
+    pov_and_voice: "Lời tuyên bố khích lệ lòng trung thành của Tanya trước tiểu đoàn."
+    modality_and_logic: "Giữ cấu trúc mệnh lệnh khích lệ (`Hãy cho Đế quốc thấy... tài giỏi đến mức nào`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000390
+    terms:
+      - "quân đội (the army)"
+      - "công cụ bạo lực (instrument of violence)"
+      - "người canh giữ (watchdog)"
+      - "nhà nước (the state)"
+    pronouns_and_address:
+      - "Câu 1 dùng `Mình` và quy chiếu binh sĩ bằng `họ`; câu 3–4 dùng `Chúng ta` / `mình` / `chúng ta`."
+    pov_and_voice: "Độc thoại nội tâm thực dụng, cảnh giác chính trị của Tanya."
+    modality_and_logic: "Giữ định nghĩa bản chất quân đội ở câu 2, mục đích chứng minh sự phục tùng không chống lại sự kiểm soát của nhà nước ở câu 3, và sự cảnh giác trước những ánh mắt giám sát ở câu 4."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000391
+    terms:
+      - "lòng trung thành (loyalty)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình`; quy chiếu cấp dưới/người quan sát bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm toan tính xen lẫn giọng độc đoán của chỉ huy."
+    modality_and_logic: "Giữ so sánh hơn tuyệt đối ở câu 2 (`Để họ cười mình còn tốt hơn gấp triệu lần việc khiến họ cảnh giác rồi tự đẩy mình vào thế bí`) và cách xử lý thẳng tay ở câu 3 (`ai cười thì mình cứ đánh cho một trận là được`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000392
+    terms:
+      - "lũ chuột (those rats)"
+    pronouns_and_address:
+      - "Trong lời thoại: dùng `chúng ta` đối lập với `lũ chuột ấy` / `chúng`."
+    pov_and_voice: "Lời tuyên bố truy kích kẻ địch của Tanya trước tiểu đoàn."
+    modality_and_logic: "Giữ quan hệ nhượng bộ toàn phần (`chúng có chạy đi đâu thì chúng ta cũng sẽ bám sát gót`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000393
+    terms:
+      - "Người có lý trí (anyone with common sense)"
+    names_and_ranks:
+      - "Tsuji"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình` / `Mình`; quy chiếu Tsuji bằng `ông ta`; quy chiếu người đời bằng `họ`."
+    pov_and_voice: "Độc thoại tự chất vấn khi Tanya chợt nhận ra hành vi của mình giống Tsuji."
+    modality_and_logic: "Giữ chuỗi câu hỏi – tự đáp phủ định (`Người có lý trí nào lại thích ông ta chứ? Còn lâu.`) và câu hỏi truy nguyên nhân ở cuối đoạn (`Vì sao? Vì ông ta cứ hành động mà chẳng bàn bạc với ai sao?`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000394
+    terms:
+      - "người biết điều (sensible person)"
+      - "cấp dưới (subordinate)"
+      - "đội hành quyết (firing squad)"
+    names_and_ranks:
+      - "Tsuji"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình`; quy chiếu Tsuji bằng `hắn`."
+    pov_and_voice: "Độc thoại nội tâm gay gắt của Tanya đối với mẫu sĩ quan tự tiện kiểu Tsuji."
+    modality_and_logic: "Giữ câu điều kiện giả định trái thực tế (`Nếu một người biết điều như mình có cấp dưới kiểu Tsuji, hẳn mình sẽ đưa hắn ra trước đội hành quyết`), lý do giải thích và câu cảm thán phê phán sự vô dụng ở cuối đoạn."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000395
+    terms:
+      - "phó chỉ huy (vice commander)"
+      - "biết điều (have common sense)"
+      - "nổi cơn làm loạn (go on a rampage)"
+    names_and_ranks:
+      - "Tsuji"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình`; quy chiếu phó chỉ huy Weiss bằng `anh ta`."
+    pov_and_voice: "Độc thoại nội tâm suy diễn lo âu của Tanya về cách Weiss nhìn nhận mình."
+    modality_and_logic: "Giữ liên kết suy luận giữa hai câu hỏi (`Thế phó chỉ huy của mình có biết điều không? Nói cách khác, anh ta kết luận rằng mình là một Tsuji có thể nổi cơn làm loạn à?`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000396
+    terms:
+      - "người biết điều (sensible person)"
+      - "tuân thủ quy tắc (following rules)"
+      - "lẽ tồn tại (meaning of my existence)"
+      - "kẽ hở (loopholes)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng nhất quán `mình` / `Mình`."
+    pov_and_voice: "Độc thoại tự biện hộ đầy đặc trưng của Tanya về việc thượng tôn quy tắc và lách luật."
+    modality_and_logic: "Giữ phủ định hành vi tự ý quyết định rồi đổ trách nhiệm, khẳng định việc tuân thủ quy tắc là lẽ tồn tại, và thế đối lập sắc sảo ở câu kết (`Mình không phá luật; mình tìm kẽ hở!`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000397
+    terms:
+      - "Rhine"
+      - "thưa các quý ông (gentlemen)"
+    names_and_ranks:
+      - "Trung úy (Lieutenant)"
+    pronouns_and_address:
+      - "Tanya gọi Weiss là `Trung úy`, dùng `chúng ta` cho cả đơn vị, và gọi toàn thể sĩ quan/binh sĩ là `thưa các quý ông`."
+    pov_and_voice: "Lời thông báo điểm điều chuyển mới của Tanya trước tiểu đoàn."
+    modality_and_logic: "Khóa việc giữ nguyên tên địa danh `Rhine` không thêm từ `sông` ở cả hai vị trí (theo B24-R03)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000398
+    names_and_ranks:
+      - "Tanya"
+      - "Tsuji"
+      - "tướng Brute-Guchi (General Brute-Guchi)"
+      - "Trung úy Weiss (Lieutenant Weiss)"
+    pronouns_and_address:
+      - "Câu 1 trần thuật ngôi thứ ba dùng `Tanya`; câu 2–3 chuyển sang độc thoại nội tâm ngôi thứ nhất dùng `mình`; quy chiếu Tsuji và Brute-Guchi bằng `họ`; quy chiếu Trung úy Weiss bằng `anh ta`."
+    pov_and_voice: "Trần thuật ngôi thứ ba chuyển sang độc thoại nội tâm lo lắng của Tanya."
+    modality_and_logic: "Giữ nguyên nhân gây căng thẳng (`toát mồ hôi lạnh vì hiểu lầm này`), mong muốn tránh bị đánh đồng với nhóm Tsuji / tướng Brute-Guchi và câu điều kiện dự định nói chuyện với Weiss."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000399
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba dùng `nó` theo DEC-P01-001 (B24-R01)."
+    pov_and_voice: "Trần thuật ngôi thứ ba bám sát trạng thái của Tanya."
+    modality_and_logic: "Giữ quan hệ nhượng bộ giữa tâm trạng bên trong và hành động bên ngoài (`Dù trong lòng còn rối bời, nó vẫn tập trung vượt qua tình thế trước mắt`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000400
+    terms:
+      - "Rhine"
+    pronouns_and_address: []
+    pov_and_voice: "Câu hỏi lặp lại địa danh đầy ngạc nhiên của thuộc cấp."
+    modality_and_logic: "Khóa việc giữ nguyên `Rhine ư?` không thêm từ `sông` (theo B24-R03)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000401
+    terms:
+      - "quét chiến trường theo chiều ngược kim đồng hồ (counterclockwise sweep of the battlefield)"
+    pronouns_and_address:
+      - "Trong lời thoại: dùng `chúng ta` / `Chúng ta`; quy chiếu cấp trên bằng `họ`."
+    pov_and_voice: "Lời giải thích kế hoạch tác chiến của Tanya."
+    modality_and_logic: "Giữ thế đối lập (`sẽ phải gấp rút, nhưng họ kỳ vọng rất nhiều ở chúng ta`) và hướng cơ động (`quét chiến trường theo chiều ngược kim đồng hồ`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000402
+    pronouns_and_address:
+      - "Dùng `Chúng ta`."
+    pov_and_voice: "Nhận định ngắn gọn, khẩu ngữ trong nội tâm của Tanya về nhiệm vụ."
+    modality_and_logic: "Giữ giới hạn phạm vi công việc tối giản (`chỉ cần nện cho mấy kẻ cả gan xuất hiện một trận. Chỉ thế thôi.`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000403
+    terms:
+      - "thăng chức (promotions / getting promoted)"
+      - "quân đội (the army)"
+      - "cấp lương (pay grade)"
+      - "Being X"
+    names_and_ranks:
+      - "Tanya"
+      - "Tsuji"
+    pronouns_and_address:
+      - "Câu 1 dùng `Chúng ta`; câu 3–5 và câu 6 dùng `mình` / `Mình` cho độc thoại nội tâm của Tanya; mệnh đề dẫn lời kể dùng tên riêng `Tanya`."
+    pov_and_voice: "Độc thoại nội tâm thực dụng của Tanya xen mệnh đề dẫn lời kể ngôi thứ ba."
+    modality_and_logic: "Giữ lập luận giới hạn nỗ lực theo đúng cấp lương vì thăng chức trong quân đội không hẳn mang lại hạnh phúc, lời than thở quy căn nguyên cho Being X và kết luận tự răn không hành xử quá giống Tsuji."
+    emphasis: "Khóa phạm vi nhấn mạnh `*Tại sao chuyện này lại xảy ra cơ chứ? Không, mình biết gốc rễ mọi chuyện là Being X*` theo đúng thẻ `<em>` trong nguồn, để mệnh đề `, Tanya than thở.` và câu cuối ở ngoài dấu `*...*` (DEC-P01-002 / B24-R02)."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000404
+    terms:
+      - "binh sĩ (troops)"
+    names_and_ranks:
+      - "Serebryakov"
+      - "Weiss"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình` / `Mình`; quy chiếu binh sĩ bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm cân nhắc việc thăm dò tâm tư cấp dưới của Tanya."
+    modality_and_logic: "Giữ hai câu hỏi lựa chọn đối tượng tham vấn (`hỏi Serebryakov xem họ nghĩ gì về mình chăng? Hay hỏi Weiss xem họ dạo này thế nào?`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000405
+    pronouns_and_address: []
+    pov_and_voice: "Câu hỏi ngắn thúc giục tiếp tục mạch thông báo của Weiss."
+    modality_and_logic: "Giữ câu hỏi ngắn `“Rồi sao?”`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000406
+    terms:
+      - "pháp sư hải quân (marine mages)"
+      - "hải quân (the navy)"
+    pronouns_and_address:
+      - "Trong lời thoại: dùng `chúng ta`."
+    pov_and_voice: "Lời thông báo pha giọng trêu đùa của Tanya trước đơn vị."
+    modality_and_logic: "Giữ trình tự thời gian (`nhưng trước đó chúng ta sẽ tham gia một trò chơi nhỏ của các pháp sư hải quân`), câu mệnh lệnh khích lệ (`Vui lên nào`) và câu hỏi đuôi về chất lượng đồ ăn của hải quân."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000407
+    terms:
+      - "suất ăn của hải quân (Navy meals)"
+      - "hải quân (the navy)"
+      - "lục quân (the army)"
+      - "“phần cứng” (“hardware”)"
+      - "“phần mềm” (“software”)"
+      - "phúc lợi (welfare)"
+    pronouns_and_address:
+      - "Độc thoại nội tâm dùng `mình`; quy chiếu binh sĩ bằng `họ`."
+    pov_and_voice: "Độc thoại nội tâm so sánh chế độ đãi ngộ giữa hai quân chủng dưới góc nhìn môi trường làm việc."
+    modality_and_logic: "Khóa việc dùng `lục quân` đối lập với `hải quân` ở cả bốn vị trí so sánh trực tiếp trong đoạn (theo B24-R04), bảo toàn cặp ẩn dụ trong ngoặc kép `“phần cứng”` – `“phần mềm”` và kết luận về góc độ phúc lợi."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000408
+    pronouns_and_address: []
+    pov_and_voice: "Tiếng thốt ngạc nhiên ngắn gọn của thuộc cấp."
+    modality_and_logic: "Giữ câu cảm thán nghi vấn `“Hả?”`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000409
+    terms:
+      - "hạm đội (the fleet)"
+    names_and_ranks:
+      - "Đại tá von Lergen (Colonel von Lergen)"
+    pronouns_and_address:
+      - "Trong lời thoại: dùng `Chúng ta`."
+    pov_and_voice: "Lời giải thích ngắn gọn của Tanya về nhiệm vụ phối hợp với hạm đội."
+    modality_and_logic: "Giữ nguyên nhân/người thu xếp (`Nhờ Đại tá von Lergen đấy`) và nhiệm vụ sắp tới (`đến hỗ trợ hạm đội`)."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000410
+    terms:
+      - "một trăm feet (one hundred feet)"
+    pronouns_and_address: []
+    pov_and_voice: "Câu trần thuật ngắn mở đầu cảnh bay diễn tập trên biển."
+    modality_and_logic: "Giữ thông số độ cao `Ở độ cao một trăm feet.`."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000411
+    terms:
+      - "đội hình đột kích lên tàu (boarding assault formation)"
+      - "mục tiêu (target)"
+      - "các đại đội (the companies)"
+    names_and_ranks:
+      - "Thiếu tá von Degurechaff (Major von Degurechaff)"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba dùng chức danh `Thiếu tá von Degurechaff` ở câu 1 và đại từ `nó` ở câu 3 theo DEC-P01-001 (B24-R01)."
+    pov_and_voice: "Trần thuật ngôi thứ ba mô tả mệnh lệnh và triển khai đội hình bay sát mặt biển."
+    modality_and_logic: "Khóa thuật ngữ `đội hình đột kích lên tàu` (theo B24-R05), giữ nguyên mô tả kỹ thuật bay (`lướt sát mặt nước mà không giảm tốc độ rồi lao vào mục tiêu`) và sự phối hợp đội hình giữa các đại đội."
+    emphasis: "Không dùng `*...*`."
+
+  - segment_id: YS-LN02/Text/part0024.xhtml/p000412
+    terms:
+      - "làn đạn phòng không (anti–air fire)"
+      - "cuộc diễn tập / diễn tập (exercise)"
+      - "màn đánh chặn (interception)"
+      - "hỏa lực đánh chặn (intercepting fire)"
+    names_and_ranks:
+      - "Tanya"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba dùng tên riêng `Tanya` và đại từ `nó` / `Nó` (theo DEC-P01-001 / B24-R01); quy chiếu đơn vị trong lời kể bằng `Họ` và trong câu độc thoại nội tâm cuối bằng `chúng ta`; quy chiếu phía hạm đội phòng không bằng `Họ` / `họ`."
+    pov_and_voice: "Trần thuật ngôi thứ ba đan xen hai câu độc thoại nội tâm trực tiếp in nghiêng của Tanya."
+    modality_and_logic: "Giữ sự tương phản giữa vẻ mặt nghiêm nghị bên ngoài với sự kinh ngạc bên trong, kỳ vọng về màn đánh chặn tương xứng so với thực tế hỏa lực đánh chặn quá yếu, câu hỏi nghi vấn việc khai hỏa `*Họ có đang bắn không vậy?*` (không hàm ý hỏi về đạn thật theo B24-R06), và sự tin chắc ở câu cuối (`*Chắc chắn họ sẽ bắn vào chúng ta, dù đây chỉ là diễn tập.*`)."
+    emphasis: "Khóa chính xác hai phạm vi nhấn mạnh `*Họ có đang bắn không vậy?*` và `*Chắc chắn họ sẽ bắn vào chúng ta, dù đây chỉ là diễn tập.*` theo đúng hai thẻ `<em>` trong nguồn (DEC-P01-002)."
