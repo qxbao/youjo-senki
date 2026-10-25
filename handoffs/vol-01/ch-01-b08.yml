@@ -28,7 +28,7 @@ source_manifest: segments/vol-01/manifest.yml
 source_package: work/vol-01/batches/ch-01-b08-source.jsonl
 source_package_sha256: 03851ec2ab4e7aff5675a2ed9a1986f1975860a1bb12c12256ea5c0dfbafd12e
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -51,13 +51,93 @@ review_coordination:
   moderate_resolved: 7
   action: signoff_confirmed
   provisional_choices:
-    - {term_id: b08-norden-control, proposed_vi: Norden Control, alternatives: [Đài kiểm soát Norden], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000129, YS-LN01/Text/chapter003b.xhtml/p000136, YS-LN01/Text/chapter003b.xhtml/p000139, YS-LN01/Text/chapter003b.xhtml/p000143], confidence: 0.8}
-    - {term_id: b08-air-burst, proposed_vi: đạn nổ trên không, alternatives: [bắn nổ trên không, đạn nổ cao], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000130], confidence: 0.75}
-    - {term_id: b08-time-on-target, proposed_vi: bắn cho đạn cùng rơi trúng mục tiêu một lúc, alternatives: [bắn TOT, bắn đồng loạt theo thời điểm đạn rơi], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000130], confidence: 0.55, uncertainty: technical wording remains provisional}
-    - {term_id: b08-artillery-arm, proposed_vi: pháo binh, alternatives: [binh chủng pháo binh], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000129], confidence: 0.6}
-    - {term_id: b08-field-corps-integration, proposed_vi: pháo binh được tích hợp ở cấp quân đoàn dã chiến, alternatives: [pháo binh phối thuộc cấp quân đoàn], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000138], confidence: 0.45, uncertainty: retain literal wording pending more context}
-    - {term_id: b08-fire-for-effect, proposed_vi: bắn hiệu lực, alternatives: [], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000137], confidence: 0.8}
-    - {term_id: b08-observed-fire, proposed_vi: bắn có quan sát, alternatives: [bắn theo quan sát], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000136], confidence: 0.6}
-    - {term_id: b08-fuji-firepower-review, proposed_vi: buổi trình diễn hỏa lực Fuji, alternatives: [cuộc thao diễn hỏa lực Fuji], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000133], confidence: 0.8}
-    - {term_id: b08-radio-terms, proposed_vi: 'Over: Hết; Out: Kết thúc (cân nhắc); roger: rõ', alternatives: ['Out: Hết', 'roger: đã rõ'], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000139, YS-LN01/Text/chapter003b.xhtml/p000140], confidence: 0.4, uncertainty: chapter-wide radio wording remains unresolved}
-    - {term_id: b08-general-lee, proposed_vi: Tướng Lee, alternatives: [Đại tướng Lee], segment_ids: [YS-LN01/Text/chapter003b.xhtml/p000135], confidence: 0.55}
+  - term_id: b08-norden-control
+    proposed_vi: Norden Control
+    alternatives:
+    - Đài kiểm soát Norden
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000129
+    - YS-LN01/Text/chapter003b.xhtml/p000136
+    - YS-LN01/Text/chapter003b.xhtml/p000139
+    - YS-LN01/Text/chapter003b.xhtml/p000143
+    confidence: 0.8
+  - term_id: b08-air-burst
+    proposed_vi: đạn nổ trên không
+    alternatives:
+    - bắn nổ trên không
+    - đạn nổ cao
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000130
+    confidence: 0.75
+  - term_id: b08-time-on-target
+    proposed_vi: bắn cho đạn cùng rơi trúng mục tiêu một lúc
+    alternatives:
+    - bắn TOT
+    - bắn đồng loạt theo thời điểm đạn rơi
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000130
+    confidence: 0.55
+    uncertainty: technical wording remains provisional
+  - term_id: b08-artillery-arm
+    proposed_vi: pháo binh
+    alternatives:
+    - binh chủng pháo binh
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000129
+    confidence: 0.6
+  - term_id: b08-field-corps-integration
+    proposed_vi: pháo binh được tích hợp ở cấp quân đoàn dã chiến
+    alternatives:
+    - pháo binh phối thuộc cấp quân đoàn
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000138
+    confidence: 0.45
+    uncertainty: retain literal wording pending more context
+  - term_id: b08-fire-for-effect
+    proposed_vi: bắn hiệu lực
+    alternatives: []
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000137
+    confidence: 0.8
+  - term_id: b08-observed-fire
+    proposed_vi: bắn có quan sát
+    alternatives:
+    - bắn theo quan sát
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000136
+    confidence: 0.6
+  - term_id: b08-fuji-firepower-review
+    proposed_vi: buổi trình diễn hỏa lực Fuji
+    alternatives:
+    - cuộc thao diễn hỏa lực Fuji
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000133
+    confidence: 0.8
+  - term_id: b08-radio-terms
+    proposed_vi: 'Over: Hết; Out: Kết thúc (cân nhắc); roger: rõ'
+    alternatives:
+    - 'Out: Hết'
+    - 'roger: đã rõ'
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000139
+    - YS-LN01/Text/chapter003b.xhtml/p000140
+    confidence: 0.4
+    uncertainty: chapter-wide radio wording remains unresolved
+  - term_id: b08-general-lee
+    proposed_vi: Tướng Lee
+    alternatives:
+    - Đại tướng Lee
+    segment_ids:
+    - YS-LN01/Text/chapter003b.xhtml/p000135
+    confidence: 0.55
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-01-ch-01-b08
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 78
+  state: released
+  allowlist:
+  - translations/vol-01/ch-01-b08.jsonl
