@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-02-b02-source.jsonl
 source_package_sha256: 5b21041864d175ddb0bee825ce97f2ce882acb17a90b963e973f1ae1cc5ae034
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_report:
   state: done
   translator_session_id: 01a13058-08bd-7a01-ad55-83a8e17cb7b2
@@ -42,10 +42,18 @@ translator_followup:
   agent_session_id: 01a1305d-4918-78f2-9ecf-2a400b0333fd
   validator: pass
   diff_check: pass
-  resolved_moderate: [M1, M2, M3]
-  changed_segments: [p000025, p000026, p000043]
+  resolved_moderate:
+  - M1
+  - M2
+  - M3
+  changed_segments:
+  - p000025
+  - p000026
+  - p000043
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   serious: 0
   moderate: 0
   action: signoff_complete
@@ -53,7 +61,10 @@ review_coordination:
   review_report: reviews/prose/vol-02/ch-02-b02-claude.md
   signoff_report: reviews/prose/vol-02/ch-02-b02-fixes-signoff-claude.md
   minor_open: 8
-  translator_followup_segments: [p000025, p000026, p000043]
+  translator_followup_segments:
+  - p000025
+  - p000026
+  - p000043
   review_provisional_choices:
     councilor: Nghị viên; title capitalization before names, confidence 0.6
     grand_duchy: Đại công quốc; possible Dacia inferred from context, confidence 0.6
@@ -72,3 +83,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000044
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-02-b02
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 96
+  state: released
+  allowlist:
+  - translations/vol-02/ch-02-b02.jsonl
