@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b04-source.jsonl
 source_package_sha256: 8d17042da50dac7d7bd04a9808567ce891f08e12c303747965f15af39b53fe6b
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -46,7 +46,10 @@ planning:
 review_coordination:
   report: reviews/prose/vol-02/ch-01-b04-claude.md
   signoff_report: reviews/prose/vol-02/ch-01-b04-fixes-signoff-claude.md
-  triggered_by: [even_batch, new_pending_terms, emphasis]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
+  - emphasis
   serious: 0
   moderate: 0
   moderate_resolved: 7
@@ -54,22 +57,123 @@ review_coordination:
   minor_resolved: 3
   action: signoff_confirmed
   provisional_choices:
-    - {term_id: vol02-ch01-b04-turkey-shoot, proposed_vi: cuộc bắn gà tây, alternatives: [cuộc bắn hạ một chiều, cuộc tàn sát một chiều], segment_ids: [YS-LN02/Text/part0010.xhtml/p000065], confidence: 0.45}
-    - {term_id: vol02-ch01-b04-manhunt, proposed_vi: cuộc săn người, alternatives: [cuộc săn lùng con người, cuộc truy lùng], segment_ids: [YS-LN02/Text/part0010.xhtml/p000070], confidence: 0.6}
-    - {term_id: vol02-ch01-b04-aerial-mage, proposed_vi: pháp sư không quân, alternatives: [pháp sư trên không], segment_ids: [YS-LN02/Text/part0010.xhtml/p000078], confidence: 0.65}
-    - {term_id: vol02-ch01-b04-human-resources, proposed_vi: nhân lực, alternatives: [nguồn nhân lực, sức người], segment_ids: [YS-LN02/Text/part0010.xhtml/p000075], confidence: 0.55}
-    - {term_id: vol02-ch01-b04-human-capital, proposed_vi: vốn con người, alternatives: [vốn nhân lực], segment_ids: [YS-LN02/Text/part0010.xhtml/p000075], confidence: 0.7}
-    - {term_id: vol02-ch01-b04-aconitum-01, proposed_vi: keep Aconitum 01, alternatives: [], segment_ids: [YS-LN02/Text/part0010.xhtml/p000077], confidence: 0.8}
-    - {term_id: vol02-ch01-b04-address-to-unit, proposed_vi: mọi người, alternatives: [các đại đội trưởng], segment_ids: [YS-LN02/Text/part0010.xhtml/p000069, YS-LN02/Text/part0010.xhtml/p000079], confidence: 0.6, uncertainty: verify audience scope per utterance}
-    - {term_id: vol02-ch01-b04-serebryakov-address, proposed_vi: Thiếu úy, alternatives: [Thiếu úy Serebryakov], segment_ids: [YS-LN02/Text/part0010.xhtml/p000060, YS-LN02/Text/part0010.xhtml/p000082, YS-LN02/Text/part0010.xhtml/p000085, YS-LN02/Text/part0010.xhtml/p000087], confidence: 0.65}
+  - term_id: vol02-ch01-b04-turkey-shoot
+    proposed_vi: cuộc bắn gà tây
+    alternatives:
+    - cuộc bắn hạ một chiều
+    - cuộc tàn sát một chiều
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000065
+    confidence: 0.45
+  - term_id: vol02-ch01-b04-manhunt
+    proposed_vi: cuộc săn người
+    alternatives:
+    - cuộc săn lùng con người
+    - cuộc truy lùng
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000070
+    confidence: 0.6
+  - term_id: vol02-ch01-b04-aerial-mage
+    proposed_vi: pháp sư không quân
+    alternatives:
+    - pháp sư trên không
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000078
+    confidence: 0.65
+  - term_id: vol02-ch01-b04-human-resources
+    proposed_vi: nhân lực
+    alternatives:
+    - nguồn nhân lực
+    - sức người
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000075
+    confidence: 0.55
+  - term_id: vol02-ch01-b04-human-capital
+    proposed_vi: vốn con người
+    alternatives:
+    - vốn nhân lực
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000075
+    confidence: 0.7
+  - term_id: vol02-ch01-b04-aconitum-01
+    proposed_vi: keep Aconitum 01
+    alternatives: []
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000077
+    confidence: 0.8
+  - term_id: vol02-ch01-b04-address-to-unit
+    proposed_vi: mọi người
+    alternatives:
+    - các đại đội trưởng
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000069
+    - YS-LN02/Text/part0010.xhtml/p000079
+    confidence: 0.6
+    uncertainty: verify audience scope per utterance
+  - term_id: vol02-ch01-b04-serebryakov-address
+    proposed_vi: Thiếu úy
+    alternatives:
+    - Thiếu úy Serebryakov
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000060
+    - YS-LN02/Text/part0010.xhtml/p000082
+    - YS-LN02/Text/part0010.xhtml/p000085
+    - YS-LN02/Text/part0010.xhtml/p000087
+    confidence: 0.65
   required_fixes:
-    - {finding: M1, segment_ids: [YS-LN02/Text/part0010.xhtml/p000060, YS-LN02/Text/part0010.xhtml/p000082, YS-LN02/Text/part0010.xhtml/p000087], resolution: call Serebryakov Thiếu úy consistently}
-    - {finding: M2, segment_ids: [YS-LN02/Text/part0010.xhtml/p000084], resolution: use Tôi for the adjutant's speech, not Tanya's interior Mình}
-    - {finding: M3, segment_ids: [YS-LN02/Text/part0010.xhtml/p000086], resolution: mark only ba sư đoàn in italics}
-    - {finding: M4, segment_ids: [YS-LN02/Text/part0010.xhtml/p000067, YS-LN02/Text/part0010.xhtml/p000068, YS-LN02/Text/part0010.xhtml/p000072, YS-LN02/Text/part0010.xhtml/p000073], resolution: use Tanya by name or omit subject, not nó}
-    - {finding: M5, segment_ids: [YS-LN02/Text/part0010.xhtml/p000069], resolution: use mọi người rather than gendered/age-specific cô cậu}
-    - {finding: M6, segment_ids: [YS-LN02/Text/part0010.xhtml/p000075], resolution: distinguish human resources as nhân lực from human capital as vốn con người}
-    - {finding: M7, segment_ids: [YS-LN02/Text/part0010.xhtml/p000078], resolution: use pháp sư không quân}
+  - finding: M1
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000060
+    - YS-LN02/Text/part0010.xhtml/p000082
+    - YS-LN02/Text/part0010.xhtml/p000087
+    resolution: call Serebryakov Thiếu úy consistently
+  - finding: M2
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000084
+    resolution: use Tôi for the adjutant's speech
+    not Tanya's interior Mình: null
+  - finding: M3
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000086
+    resolution: mark only ba sư đoàn in italics
+  - finding: M4
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000067
+    - YS-LN02/Text/part0010.xhtml/p000068
+    - YS-LN02/Text/part0010.xhtml/p000072
+    - YS-LN02/Text/part0010.xhtml/p000073
+    resolution: use Tanya by name or omit subject
+    not nó: null
+  - finding: M5
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000069
+    resolution: use mọi người rather than gendered/age-specific cô cậu
+  - finding: M6
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000075
+    resolution: distinguish human resources as nhân lực from human capital as vốn
+      con người
+  - finding: M7
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000078
+    resolution: use pháp sư không quân
   additional_term_applications:
-    - {term: turkey shoot, segment_ids: [YS-LN02/Text/part0010.xhtml/p000065], resolution: use literal provisional cuộc bắn gà tây}
-    - {term: manhunt, segment_ids: [YS-LN02/Text/part0010.xhtml/p000070], resolution: use cuộc săn người}
+  - term: turkey shoot
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000065
+    resolution: use literal provisional cuộc bắn gà tây
+  - term: manhunt
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000070
+    resolution: use cuộc săn người
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b04
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 82
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b04.jsonl
