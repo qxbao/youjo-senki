@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-05-b08-source.jsonl
 source_package_sha256: 97ec32ee2c2307be95561bc1f9cb60e009647904dc0b24b926f933e9bac4f4ee
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_lease:
   holder: null
   task_id: null
@@ -41,88 +41,143 @@ translation_report:
   segment_count: 24
   validator: not_run
   diff_check: not_run
-  findings: [B08-P01, B08-P03, B08-P06, B08-P08, B08-P09_fixed]
+  findings:
+  - B08-P01
+  - B08-P03
+  - B08-P06
+  - B08-P08
+  - B08-P09_fixed
   pending_term_count: 13
-  files_written: [translations/vol-02/ch-05-b08.jsonl]
+  files_written:
+  - translations/vol-02/ch-05-b08.jsonl
 review_coordination:
-  triggered_by: [even_batch, risk_flags, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - risk_flags
+  - new_pending_terms
   required: true
   state: signed_off
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter5_b08_translation_proposals
   review_report: reviews/prose/vol-02/ch-05-b08-codex.md
-  risk_notes: [p000182_legal_procedure, p000192_subject_ambiguity, p000191_emphasis]
-  counts: {serious: 0, moderate: 5, minor: 4}
+  risk_notes:
+  - p000182_legal_procedure
+  - p000192_subject_ambiguity
+  - p000191_emphasis
+  counts:
+    serious: 0
+    moderate: 5
+    minor: 4
   unresolved_serious: 0
   unresolved_moderate: 0
-  follow_up_findings: [B08-P01, B08-P03, B08-P06, B08-P08, B08-P09]
+  follow_up_findings:
+  - B08-P01
+  - B08-P03
+  - B08-P06
+  - B08-P08
+  - B08-P09
   translator_follow_up_session: 01a133da-1a08-7493-bd31-b4812c787d1b
   signoff_report: reviews/prose/vol-02/ch-05-b08-signoff-codex.md
   signoff_state: signed_off
-  signoff_counts: {serious: 0, moderate: 0, minor: 4}
-  deferred_minor_findings: [B08-P02, B08-P04, B08-P05, B08-P07]
+  signoff_counts:
+    serious: 0
+    moderate: 0
+    minor: 4
+  deferred_minor_findings:
+  - B08-P02
+  - B08-P04
+  - B08-P05
+  - B08-P07
 pending_term_proposals:
   status: provisional_non_canon
   entries:
-    - source_term: Major
-      proposed_vi: Thiếu tá
-      alternative_vi: Major
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000182, YS-LN02/Text/part0026.xhtml/p000185, YS-LN02/Text/part0026.xhtml/p000186]
-    - source_term: mage
-      proposed_vi: pháp sư
-      alternative_vi: ma pháp sư
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000188, YS-LN02/Text/part0026.xhtml/p000189, YS-LN02/Text/part0026.xhtml/p000190, YS-LN02/Text/part0026.xhtml/p000191, YS-LN02/Text/part0026.xhtml/p000197]
-    - source_term: Named
-      proposed_vi: người mang danh hiệu Named
-      alternative_vi: một Named
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000191]
-    - source_term: Great Army
-      proposed_vi: Đại quân
-      alternative_vi: giữ Great Army
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000190]
-    - source_term: Rhine
-      proposed_vi: Rhine; mặt trận Rhine khi chỉ chiến tuyến
-      alternative_vi: chiến tuyến Rhine
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000188, YS-LN02/Text/part0026.xhtml/p000189, YS-LN02/Text/part0026.xhtml/p000192]
-    - source_term: Silver Wings Assault Badge
-      proposed_vi: Phù hiệu Tấn công Cánh Bạc
-      alternative_vi: Phù hiệu Xung kích Cánh Bạc
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000197]
-    - source_term: Railroad Department
-      proposed_vi: Cục Đường sắt
-      alternative_vi: Ban Đường sắt
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000198]
-    - source_term: Service Corps
-      proposed_vi: lực lượng hậu cần
-      alternative_vi: Quân đoàn Hậu cần
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000198]
-    - source_term: Operations in the General Staff
-      proposed_vi: Ban Tác chiến thuộc Bộ Tổng tham mưu
-      alternative_vi: bộ phận tác chiến thuộc Bộ Tổng tham mưu
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000198]
-    - source_term: Technology Division
-      proposed_vi: bộ phận công nghệ
-      alternative_vi: Cục Công nghệ
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000198]
-    - source_term: court-martial
-      proposed_vi: đưa ra xét xử tại tòa án quân sự
-      alternative_vi: đưa ra tòa án quân sự
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000200]
-    - source_term: Empire
-      proposed_vi: Đế quốc
-      alternative_vi: giữ Empire
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000202]
-    - source_term: Commonwealth
-      proposed_vi: Khối Thịnh vượng chung
-      alternative_vi: giữ Commonwealth
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000202, YS-LN02/Text/part0026.xhtml/p000203, YS-LN02/Text/part0026.xhtml/p000204]
-    - source_term: von Degurechaff
-      proposed_vi: von Degurechaff
-      alternative_vi: giữ nguyên toàn bộ Major von Degurechaff nếu chưa Việt hóa quân hàm
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000182, YS-LN02/Text/part0026.xhtml/p000185, YS-LN02/Text/part0026.xhtml/p000186]
-    - source_term: military law
-      proposed_vi: luật quân sự
-      alternative_vi: pháp luật quân sự
-      segment_ids: [YS-LN02/Text/part0026.xhtml/p000194]
+  - source_term: Major
+    proposed_vi: Thiếu tá
+    alternative_vi: Major
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000182
+    - YS-LN02/Text/part0026.xhtml/p000185
+    - YS-LN02/Text/part0026.xhtml/p000186
+  - source_term: mage
+    proposed_vi: pháp sư
+    alternative_vi: ma pháp sư
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000188
+    - YS-LN02/Text/part0026.xhtml/p000189
+    - YS-LN02/Text/part0026.xhtml/p000190
+    - YS-LN02/Text/part0026.xhtml/p000191
+    - YS-LN02/Text/part0026.xhtml/p000197
+  - source_term: Named
+    proposed_vi: người mang danh hiệu Named
+    alternative_vi: một Named
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000191
+  - source_term: Great Army
+    proposed_vi: Đại quân
+    alternative_vi: giữ Great Army
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000190
+  - source_term: Rhine
+    proposed_vi: Rhine; mặt trận Rhine khi chỉ chiến tuyến
+    alternative_vi: chiến tuyến Rhine
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000188
+    - YS-LN02/Text/part0026.xhtml/p000189
+    - YS-LN02/Text/part0026.xhtml/p000192
+  - source_term: Silver Wings Assault Badge
+    proposed_vi: Phù hiệu Tấn công Cánh Bạc
+    alternative_vi: Phù hiệu Xung kích Cánh Bạc
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000197
+  - source_term: Railroad Department
+    proposed_vi: Cục Đường sắt
+    alternative_vi: Ban Đường sắt
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000198
+  - source_term: Service Corps
+    proposed_vi: lực lượng hậu cần
+    alternative_vi: Quân đoàn Hậu cần
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000198
+  - source_term: Operations in the General Staff
+    proposed_vi: Ban Tác chiến thuộc Bộ Tổng tham mưu
+    alternative_vi: bộ phận tác chiến thuộc Bộ Tổng tham mưu
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000198
+  - source_term: Technology Division
+    proposed_vi: bộ phận công nghệ
+    alternative_vi: Cục Công nghệ
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000198
+  - source_term: court-martial
+    proposed_vi: đưa ra xét xử tại tòa án quân sự
+    alternative_vi: đưa ra tòa án quân sự
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000200
+  - source_term: Empire
+    proposed_vi: Đế quốc
+    alternative_vi: giữ Empire
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000202
+  - source_term: Commonwealth
+    proposed_vi: Khối Thịnh vượng chung
+    alternative_vi: giữ Commonwealth
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000202
+    - YS-LN02/Text/part0026.xhtml/p000203
+    - YS-LN02/Text/part0026.xhtml/p000204
+  - source_term: von Degurechaff
+    proposed_vi: von Degurechaff
+    alternative_vi: giữ nguyên toàn bộ Major von Degurechaff nếu chưa Việt hóa quân
+      hàm
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000182
+    - YS-LN02/Text/part0026.xhtml/p000185
+    - YS-LN02/Text/part0026.xhtml/p000186
+  - source_term: military law
+    proposed_vi: luật quân sự
+    alternative_vi: pháp luật quân sự
+    segment_ids:
+    - YS-LN02/Text/part0026.xhtml/p000194
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -137,3 +192,14 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0026.xhtml/p000206
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-05-b08
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 173
+  state: released
+  allowlist:
+  - translations/vol-02/ch-05-b08.jsonl
