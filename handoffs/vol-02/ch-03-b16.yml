@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-03-b16-source.jsonl
 source_package_sha256: 200b552f0ab47e8d36ba42bc294c2168cd5ff35cbe4b8cba4074a8021b44cd10
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -55,17 +55,22 @@ translation_report:
   segment_count: 42
   validator: pass
   diff_check: pass
-  findings: [3 minor; no serious/moderate reported]
+  findings:
+  - 3 minor; no serious/moderate reported
   pending_term_count: 5
   files_written:
   - translations/vol-02/ch-03-b16.jsonl
 review_coordination:
-  triggered_by: [even_batch]
+  triggered_by:
+  - even_batch
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-03-b16-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b16_translation_proposals
-  severity_counts: {serious: 0, moderate: 4, minor: 11}
+  severity_counts:
+    serious: 0
+    moderate: 4
+    minor: 11
   reviewer_session_id: b41250a9-524f-4ed6-84d4-af180f92a41e
   reported_findings:
   - p000222: apply provisional Serebryakov rank mapping
@@ -74,17 +79,36 @@ review_coordination:
   - p000248+p000252: use one provisional warning-line term
   translator_followup:
     task_id: vol-02-ch-03-b16-review-fixes
-    allowlist: [translations/vol-02/ch-03-b16.jsonl]
+    allowlist:
+    - translations/vol-02/ch-03-b16.jsonl
     session_id: 01a131bd-3848-7e30-b38e-627a5ff6c972
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [M1 rank, M2 gendered address, M3 interior thought, M4 warning-line terminology]
+    fixed_findings:
+    - M1 rank
+    - M2 gendered address
+    - M3 interior thought
+    - M4 warning-line terminology
   final_signoff:
     task_id: vol-02-ch-03-b16-signoff
     review_report: reviews/prose/vol-02/ch-03-b16-fixes-signoff-claude.md
     session_id: 4a0332d8-cb62-4fae-b120-91f0a744f4d9
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 11}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 11
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-03-b16
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 129
+  state: released
+  allowlist:
+  - translations/vol-02/ch-03-b16.jsonl
