@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-03-b20-source.jsonl
 source_package_sha256: 3cab7e43a84b1714c3c988b4636ae5baeabb9652db343a26de7d30f1371ba2aa
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -55,17 +55,23 @@ translation_report:
   segment_count: 22
   validator: pass
   diff_check: pass
-  findings: [3 low-level terminology notes; no serious/moderate reported]
+  findings:
+  - 3 low-level terminology notes; no serious/moderate reported
   pending_term_count: 6
   files_written:
   - translations/vol-02/ch-03-b20.jsonl
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   required: true
   state: resolved
   review_report: reviews/prose/vol-02/ch-03-b20-claude.md
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b20_translation_proposals
-  severity_counts: {serious: 0, moderate: 3, minor: 12}
+  severity_counts:
+    serious: 0
+    moderate: 3
+    minor: 12
   reviewer_session_id: b6de7f30-f80d-48bc-afc4-7438a0233fae
   unresolved_findings:
   - p000367: clarify recipient of the report versus radio operator
@@ -73,17 +79,42 @@ review_coordination:
   - p000371: preserve uncertainty and present-tense gap
   translator_followup:
     task_id: vol-02-ch-03-b20-review-fixes
-    allowlist: [translations/vol-02/ch-03-b20.jsonl]
+    allowlist:
+    - translations/vol-02/ch-03-b20.jsonl
     session_id: 01a131fe-6709-7812-935d-d9829ced4ec6
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [V1, V2, V3, N1, N4, N5, N6, N8, N11, N12]
+    fixed_findings:
+    - V1
+    - V2
+    - V3
+    - N1
+    - N4
+    - N5
+    - N6
+    - N8
+    - N11
+    - N12
   final_signoff:
     task_id: vol-02-ch-03-b20-signoff
     review_report: reviews/prose/vol-02/ch-03-b20-fixes-signoff-claude.md
     session_id: 683b2fbf-d1dc-4fb0-a2ba-c9ec5a19166c
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 7}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 7
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-03-b20
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 133
+  state: released
+  allowlist:
+  - translations/vol-02/ch-03-b20.jsonl
