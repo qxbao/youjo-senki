@@ -1,0 +1,422 @@
+task_id: vol-02-ch-05-b26
+review_task_id: vol-02-ch-05-b26-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 5
+batch: b26
+segment_id_start: YS-LN02/Text/part0028.xhtml/p000040
+segment_id_end: YS-LN02/Text/part0028.xhtml/p000076
+unit_count: 37
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: c29cd1ba4c44371ee2a0103097f9e2ecd6697fc4b3e4761b16516b0e7ffc0110
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-05-b26-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-05-b26-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0028.xhtml/p000042
+    category: rank_and_address_consistency
+    issue: >-
+      Tại `p000042` (thuộc phân cảnh kết thúc mạch tự sự ngôi thứ nhất của Thiếu úy Pháp sư Warren Grantz ở `p000040`–`p000043`, trước đoạn chuyển cảnh `p000044`), danh xưng hô ngữ `Lieutenant` mà viên sĩ quan đàn anh dùng khi vỗ vai động viên Grantz đang được dịch là `Trung úy` (`“Đừng nghĩ ngợi nhiều quá, Trung úy. Cứ tập trung sống sót là được.”`), trong khi cấp bậc của Grantz đã xác lập ngay ở đầu phân cảnh tại `ch-05-b25` (`p000012`) và `ch-05-b24` (`p000620`) là `Thiếu úy` (`Magic Second Lieutenant Grantz`); bên cạnh đó, tại `p000073`, trong câu báo cáo của Trung úy Weiss với cấp trên trực tiếp là Thiếu tá Tanya von Degurechaff (`“Không ạ, cô được triệu đến trình diện ngay lập tức.”`), đại từ ngôi thứ hai đang dùng `cô` thay vì lặp quân hàm `Thiếu tá` (đồng bộ với `p000060`) hoặc dùng đại từ kính ngữ `ngài`.
+    basis: >-
+      Trong nguyên bản tiếng Anh tại `p000042`, danh xưng hô ngữ chỉ dùng từ chỉ cấp úy chung không kèm tiểu cấp, và mạch khích lệ đàn em ở `p000042`–`p000043` cũng như câu báo cáo có tiểu từ kính ngữ `ạ` của Weiss ở `p000073` vẫn hoàn toàn rõ chủ thể giao tiếp và sắc thái tôn trọng.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh `Trung úy` tại `p000042` thành `Thiếu úy` để khớp chính xác với quân hàm của Grantz, và đổi `cô` tại `p000073` thành `Thiếu tá` (hoặc `ngài`) để đồng bộ lễ tiết quân ngũ giữa cấp phó và tiểu đoàn trưởng.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0028.xhtml/p000045
+    category: pronoun_and_pov_consistency
+    issue: >-
+      Tại câu 2 của `p000045` (`Trước hết, khi mình thức dậy, bữa sáng và cà phê đã được chuẩn bị tươm tất sẵn cho mình.`), mệnh đề thời gian trong nguyên bản vẫn thuộc mạch trần thuật ngôi thứ ba nối tiếp câu 1 (`Với Tanya, mọi chuyện đều suôn sẻ quá mức.`) và đoạn `p000046` ngay sau đó, nhưng chủ ngữ đang dùng đại từ nội tâm `mình` (`khi mình thức dậy`) thay vì đại từ trần thuật ngôi thứ ba `nó` theo quy ước `DEC-P01-001`; ngoài ra, tại cuối câu `p000070` (`Nếu gửi cho chỉ huy thì ngoài nhân viên vô tuyến ra, không ai được đọc trước ngài.`), đại từ quy chiếu danh từ khái quát `chỉ huy` trong lời giải thích quy trình bảo mật điện tín đang dịch là `trước ngài`, mang sắc thái kính xưng của cấp dưới hơn là giọng thuyết minh trung tính từ góc nhìn của chính vị chỉ huy tiểu đoàn.
+    basis: >-
+      Do lối tự sự ở Phân cảnh 2 (`p000045`–`p000076`) thường xuyên chuyển dịch linh hoạt giữa trần thuật ngôi thứ ba (`Tanya` / `nó`) và độc thoại nội tâm ngôi thứ nhất (`mình`), việc dùng `mình` ở câu 2 `p000045` hay `ngài` ở `p000070` không làm sai lệch điểm nhìn hay nội dung thông tin.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể chỉnh câu 2 `p000045` thành `Trước hết, khi nó thức dậy, bữa sáng và cà phê đã được chuẩn bị tươm tất sẵn cho mình (hoặc: cho nó).` để bám sát `DEC-P01-001`, và chỉnh cuối câu `p000070` thành `không ai được đọc trước người chỉ huy (hoặc: trước họ).`.
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - term_key: "Lieutenant / experienced officers / harassing bombardments / airspace / administrative tasks / supplies / supply officer / special bullets / interference formulas / casting detonators / debt collector / auditor"
+    source_label: "Lieutenant / experienced officers / harassing bombardments / airspace / administrative tasks / supplies / supply officer / special bullets / interference formulas / casting detonators / debt collector / auditor"
+    recommended_vi: "Trung úy (Thiếu úy) / các sĩ quan dày dạn kinh nghiệm / những đợt pháo kích quấy nhiễu / không phận / những công việc hành chính / hàng tiếp tế / sĩ quan tiếp tế / đạn đặc chủng / thuật thức gây nhiễu / ngòi nổ kích hoạt thuật thức / tay đòi nợ / kiểm toán viên"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `không phận` (`chapter1_b01_pending_terms`) và `thuật thức gây nhiễu` (`b02-magical-interference-formulas` trong `work/run-state/pending-terms.yml`); khóa tạm các thuật ngữ hậu cần, hành chính và trang bị ma pháp trong buổi sáng yên ả bất thường của Tiểu đoàn 203 (`những đợt pháo kích quấy nhiễu`, `những công việc hành chính`, `hàng tiếp tế`, `sĩ quan tiếp tế`, `đạn đặc chủng`, `ngòi nổ kích hoạt thuật thức`, `tay đòi nợ`, `kiểm toán viên`)."
+    alternatives:
+      - "Thiếu úy (tại p000042) / sĩ quan quân nhu / đạn chuyên dụng / ngòi nổ thi triển thuật thức"
+    segment_ids:
+      - YS-LN02/Text/part0028.xhtml/p000042
+      - YS-LN02/Text/part0028.xhtml/p000043
+      - YS-LN02/Text/part0028.xhtml/p000046
+      - YS-LN02/Text/part0028.xhtml/p000047
+
+  - term_key: "supply delivery / paperwork inspection / precedent / trenches / combat readiness level two / steak / sauerkraut / rhubarb juice / supply lines / rear / foreign policy / Commonwealth / food poisoning"
+    source_label: "supply delivery / paperwork inspection / precedent / trenches / combat readiness level two / real steak / sauerkraut / rhubarb juice / supply lines / the rear / foreign policy / the Commonwealth / food poisoning"
+    recommended_vi: "việc giao tiếp tế / kiểm tra giấy tờ / tiền lệ / chiến hào / trạng thái sẵn sàng chiến đấu cấp độ hai / bít tết thật / dưa cải muối / nước ép đại hoàng / tuyến tiếp tế / hậu phương / chính sách đối ngoại / Khối Thịnh vượng chung / ngộ độc thức ăn"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `chiến hào`, `tuyến tiếp tế`, `hậu phương` và `Khối Thịnh vượng chung` từ các lô trước của Tập 1–2; khóa tạm các thuật ngữ quy trình hành chính, cấp độ cảnh giới và khẩu phần ăn trưa (`việc giao tiếp tế`, `kiểm tra giấy tờ`, `tiền lệ`, `trạng thái sẵn sàng chiến đấu cấp độ hai`, `bít tết thật`, `dưa cải muối`, `nước ép đại hoàng`, `chính sách đối ngoại`, `ngộ độc thức ăn`)."
+    alternatives:
+      - "cấp độ sẵn sàng chiến đấu mức hai / bắp cải muối chua / ngộ độc thực phẩm"
+    segment_ids:
+      - YS-LN02/Text/part0028.xhtml/p000048
+      - YS-LN02/Text/part0028.xhtml/p000049
+      - YS-LN02/Text/part0028.xhtml/p000051
+      - YS-LN02/Text/part0028.xhtml/p000052
+      - YS-LN02/Text/part0028.xhtml/p000053
+      - YS-LN02/Text/part0028.xhtml/p000056
+
+  - term_key: "Lieutenant Weiss / telegram / Major / Command / front lines / message tube / short cipher / orders / telegraph / commander / radio operator / summoned to appear immediately"
+    source_label: "Lieutenant Weiss / telegram / Major / Command / the front lines / message tube / short cipher / orders / telegraph / the commander / radio operator / summoned to appear immediately"
+    recommended_vi: "Trung úy Weiss / bức điện tín / Thiếu tá / Bộ chỉ huy / tiền tuyến / ống đựng thông điệp / bản tin mã hóa ngắn / mệnh lệnh / điện tín / chỉ huy / nhân viên vô tuyến / được triệu đến trình diện ngay lập tức"
+    status: provisional
+    uncertainty: low
+    basis: "Kế thừa đồng bộ `Trung úy Weiss` (`ch-05-b24`, `ch-05-b25`), `Thiếu tá` (`ch-05-b19`), `Bộ chỉ huy` (`ch-03-b13`, `ch-03-b16`), `tiền tuyến` và `chỉ huy`; khóa tạm các thuật ngữ thông tin liên lạc quân sự và lệnh triệu tập ở cuối Chương 5 (`bức điện tín`, `ống đựng thông điệp`, `bản tin mã hóa ngắn`, `điện tín`, `nhân viên vô tuyến`, `được triệu đến trình diện ngay lập tức`)."
+    alternatives:
+      - "Bộ Tư lệnh / ống đựng công văn / bức mật mã ngắn / điện báo / điện báo viên / được triệu tập trình diện ngay lập tức"
+    segment_ids:
+      - YS-LN02/Text/part0028.xhtml/p000059
+      - YS-LN02/Text/part0028.xhtml/p000060
+      - YS-LN02/Text/part0028.xhtml/p000063
+      - YS-LN02/Text/part0028.xhtml/p000064
+      - YS-LN02/Text/part0028.xhtml/p000067
+      - YS-LN02/Text/part0028.xhtml/p000068
+      - YS-LN02/Text/part0028.xhtml/p000069
+      - YS-LN02/Text/part0028.xhtml/p000070
+      - YS-LN02/Text/part0028.xhtml/p000071
+      - YS-LN02/Text/part0028.xhtml/p000073
+      - YS-LN02/Text/part0028.xhtml/p000074
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000040
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Warren Grantz dùng `tôi` và đại từ bất định `ai cũng`."
+    pov_and_voice: "Tự sự ngôi thứ nhất của Grantz tiếp nối trực tiếp `ch-05-b25` (`p000039`), suy ngẫm về các sĩ quan kỳ cựu trong phòng họp."
+    modality_and_logic: "Bảo toàn quan hệ đối lập và tình thái chắc chắn (`Không ai nói ra, nhưng tôi chắc...`): dù không ai nói ra, Grantz tin chắc lần đầu nổ súng giết người ai trong số họ cũng từng bàng hoàng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000041
+    terms: []
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz quy chiếu các sĩ quan đàn anh bằng `họ` và ký ức bằng `nó`."
+    pov_and_voice: "Nhận thức lắng đọng của Grantz về sự trưởng thành qua lửa đạn của các bậc đàn anh."
+    modality_and_logic: "Bảo toàn sự chuyển biến theo thời gian (`Nhưng giờ đây...`) và phủ định (`không còn khiến họ bàng hoàng nữa`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000042
+    terms:
+      - "Trung úy"
+    pronouns_and_address: "Sĩ quan đàn anh gọi Grantz bằng quân hàm `Trung úy` (xem thêm finding `m1`)."
+    pov_and_voice: "Lời khuyên ngắn gọn, thực tế và ấm áp của người lính từng trải dành cho tân sĩ quan."
+    modality_and_logic: "Bảo toàn cả hai câu mệnh lệnh khuyên nhủ: đừng nghĩ ngợi nhiều quá, cứ tập trung sống sót là được."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000043
+    terms:
+      - "các sĩ quan dày dạn kinh nghiệm"
+    pronouns_and_address: "Tự sự ngôi thứ nhất của Grantz dùng `tôi` và quy chiếu các sĩ quan đàn anh bằng `các sĩ quan dày dạn kinh nghiệm`."
+    pov_and_voice: "Cảm giác được công nhận khép lại phân cảnh dưới điểm nhìn của Warren Grantz."
+    modality_and_logic: "Bảo toàn trọn vẹn 2 câu và hình ảnh so sánh: có người vỗ vai rồi cho anh đi; đó là dấu hiệu cho thấy các sĩ quan dày dạn kinh nghiệm đã xem anh cứng cáp hơn chú chim non vừa mới nở một chút."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000044
+    terms: []
+    pronouns_and_address: "Trần thuật chuyển cảnh không dùng đại từ nhân xưng."
+    pov_and_voice: "Mốc thời gian mở đầu phân cảnh mới sau khoảng ngắt cảnh (`class=\"space-break\"`)."
+    modality_and_logic: "Bảo toàn mốc thời gian và dấu chấm lửng `Ngày hôm sau…`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000045
+    terms:
+      - "Tanya"
+      - "cà phê"
+    pronouns_and_address: "Trần thuật định danh `Tanya` và dùng `mình` ở câu 2 (xem thêm finding `m2`)."
+    pov_and_voice: "Bước chuyển điểm nhìn từ Warren Grantz về lại Thiếu tá Tanya von Degurechaff."
+    modality_and_logic: "Bảo toàn cả 2 câu: với Tanya mọi chuyện đều suôn sẻ quá mức; trước hết khi thức dậy, bữa sáng và cà phê đã được chuẩn bị tươm tất sẵn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000046
+    terms:
+      - "những đợt pháo kích quấy nhiễu"
+      - "không phận"
+      - "những công việc hành chính"
+      - "hàng tiếp tế"
+    pronouns_and_address: "Trần thuật ngôi thứ ba bám sát điểm nhìn Tanya dùng `nó` theo đúng `DEC-P01-001` và quy chiếu đơn vị bằng `họ`."
+    pov_and_voice: "Trần thuật ngôi thứ ba điểm xuyết nhịp cảm thán ngắn thể hiện sự nghi ngại của Tanya trước sự trơn tru bất thường."
+    modality_and_logic: "Bảo toàn đầy đủ 3 câu cùng cấu trúc phủ định kép ở câu 1 (`Không có... cũng chẳng có...`): không có pháo kích quấy nhiễu hay địch lảng vảng trong không phận nên sau bữa sáng yên ổn các công việc hành chính đầu ngày đều trôi chảy; quá trôi chảy; yêu cầu vốn mất hàng tuần lại được duyệt ngay lần đầu và hàng tiếp tế chuyển đến tức thì."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000047
+    terms:
+      - "sĩ quan tiếp tế"
+      - "đạn đặc chủng"
+      - "thuật thức gây nhiễu"
+      - "ngòi nổ kích hoạt thuật thức"
+      - "tay đòi nợ"
+      - "kiểm toán viên"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya quy chiếu `sĩ quan tiếp tế` bằng `ông ta`."
+    pov_and_voice: "Giọng độc thoại nội tâm châm biếm, cảnh giác của Tanya trước thái độ niềm nở kỳ lạ của bộ phận hậu cần."
+    modality_and_logic: "Bảo toàn trọn vẹn 3 câu: câu hỏi tu từ mở đầu; sự tương phản giữa bản chất tiết kiệm của sĩ quan tiếp tế với việc ông ta vui vẻ giao đạn đặc chủng nạp thuật thức gây nhiễu và ngòi nổ kích hoạt thuật thức; phép so sánh giả định với tay đòi nợ hay kiểm toán viên cười toe toét trước khi tự bác bỏ sau dấu gạch ngang."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000048
+    terms:
+      - "việc giao tiếp tế"
+      - "kiểm tra giấy tờ"
+      - "Tanya"
+    pronouns_and_address: "Câu 1 dùng đại từ nội tâm `mình`; câu 2 chuyển sang trần thuật ngôi thứ ba định danh `Tanya` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Sự đan xen tự nhiên giữa độc thoại nội tâm ngôi thứ nhất và trần thuật ngôi thứ ba."
+    modality_and_logic: "Bảo toàn cả 2 câu: lần đầu tiên mọi việc diễn ra đúng quy trình và chưa từng nghĩ việc giao tiếp tế cùng kiểm tra giấy tờ lại thân thiện đến thế; vô cùng kinh ngạc nên Tanya buộc phải cảnh giác trước hiệu suất bất ngờ này."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000049
+    terms:
+      - "tiếp tế"
+      - "kiểm tra giấy tờ"
+      - "tiền lệ"
+    pronouns_and_address: "Lược đại từ ngôi thứ hai phiếm chỉ ở câu 2 theo quy ước `direct-address choice` và quy chiếu hai hoạt động hành chính bằng `chúng`."
+    pov_and_voice: "Nhận định mang màu sắc quy luật quan liêu quen thuộc của Tanya."
+    modality_and_logic: "Bảo toàn cả 2 câu: việc tiếp tế và kiểm tra giấy tờ vốn vận hành theo quy tắc sắt đá là làm theo tiền lệ và tránh gây xáo trộn; nói cách khác gần như có thể xem chúng là hiện tượng tự nhiên."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000050
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Câu 1 quy chiếu bộ phận hậu cần bằng `họ`; câu 2 dùng `mình` trong phần suy nghĩ in nghiêng và `Tanya` / `nó` trong phần trần thuật theo đúng `DEC-P01-001`."
+    pov_and_voice: "Sự thận trọng của Tanya được thể hiện qua cả suy nghĩ trực tiếp lẫn lời kể ngôi thứ ba."
+    modality_and_logic: "Bảo toàn mệnh đề điều kiện – suy đoán ở câu 1 (`Nếu... thì hẳn là...`), câu suy nghĩ có điều kiện in nghiêng và mệnh đề phủ định kép ở cuối câu 2 (`không ngại chuẩn bị cho mọi tình huống`)."
+    emphasis: "Bảo toàn chính xác cụm `*Chắc mình nên tránh ra ngoài một thời gian, nếu không cần thiết*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000051
+    terms:
+      - "Tanya"
+      - "binh lính"
+      - "chiến hào"
+      - "đơn vị"
+      - "trạng thái sẵn sàng chiến đấu cấp độ hai"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu `Tanya` bằng `Nó` nhất quán qua 3 câu cuối theo đúng `DEC-P01-001`."
+    pov_and_voice: "Từ nhận định nội tâm in nghiêng chuyển sang chuỗi quyết định chỉ huy dứt khoát."
+    modality_and_logic: "Bảo toàn trọn vẹn 5 câu: câu 1 khẳng định chắc chắn hôm nay sẽ có rắc rối; câu 2 Tanya chuẩn bị tinh thần; câu 3–5 nêu ba biện pháp dự phòng ở thì tương lai (`Nó sẽ...`)."
+    emphasis: "Bảo toàn chính xác câu mở đầu `*Hôm nay chắc chắn sẽ có rắc rối.*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000052
+    terms:
+      - "bít tết thật"
+      - "dưa cải muối"
+      - "nước ép đại hoàng"
+    pronouns_and_address: "Trần thuật khách quan không dùng đại từ nhân xưng."
+    pov_and_voice: "Nhịp câu ngắn, gãy gọn tạo hiệu ứng hài hước khi sự cảnh giác cao độ của Tanya chỉ dẫn tới một bữa trưa thịnh soạn."
+    modality_and_logic: "Bảo toàn đầy đủ 4 câu: chẳng hiểu sao không có chuyện gì xảy ra và đã đến giờ ăn trưa; thức ăn được dọn lên; là bít tết thật kèm dưa cải muối; tráng miệng còn có nước ép đại hoàng."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000053
+    terms:
+      - "tuyến tiếp tế"
+    pronouns_and_address: "Trần thuật quy chiếu bữa ăn bằng `Tất cả`."
+    pov_and_voice: "Lời giải thích ngắn gọn nối tiếp `p000052`."
+    modality_and_logic: "Bảo toàn nguyên nhân: tất cả vừa được chuyển đến nhờ tuyến tiếp tế vận hành trơn tru khác thường."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000054
+    terms:
+      - "đơn vị"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Tanya bằng `nó` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Sự đối lập giữa vẻ háo hức của thuộc cấp và tính đa nghi của Tanya."
+    modality_and_logic: "Bảo toàn quan hệ đối lập – nhân quả: các thành viên trong đơn vị đều hào hứng ăn ngấu nghiến, nhưng nó vẫn chưa tin nổi nên kiểm tra thức ăn một lúc rồi mới ăn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000055
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm ngôi thứ nhất của Tanya dùng `Mình` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Độc thoại nội tâm liên tưởng tới viên sĩ quan từng bị đau bụng vì khoai tây hỏng ở đầu Tập 2."
+    modality_and_logic: "Bảo toàn tâm lý ghen tị với người gặp vận may nhờ vụ khoai tây ấy mà được rút về khu vực an toàn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000056
+    terms:
+      - "hậu phương"
+      - "chính sách đối ngoại"
+      - "Khối Thịnh vượng chung"
+      - "ngộ độc thức ăn"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `Mình` / `mình` và quy chiếu thượng cấp bằng `họ`."
+    pov_and_voice: "Lập luận đa nghi mang tính toán chính trị – quân sự đặc trưng của Tanya."
+    modality_and_logic: "Bảo toàn trọn vẹn 2 câu cùng sắc thái phỏng đoán (`liệu... hay không`, `có lẽ`) và câu điều kiện – nhân quả (`Nếu..., họ sẽ..., nên...`): tự hỏi liệu họ có định đưa mình về hậu phương ngay từ bây giờ vì tác động có lẽ mình đã gây ra với chính sách đối ngoại liên quan đến Khối Thịnh vượng chung; nếu bị ngộ độc thức ăn họ sẽ sẵn lòng hy sinh mình nên không thể bất cẩn đổ bệnh."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000057
+    terms:
+      - "cấp dưới"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya lược chủ ngữ đại từ sở hữu trước `cấp dưới`."
+    pov_and_voice: "Lời than thở thực tế trước sức hấp dẫn của món bít tết."
+    modality_and_logic: "Bảo toàn nhận định: nhìn cấp dưới ngấu nghiến thịt đúng là cực hình."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000058
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm ngôi thứ nhất của Tanya dùng `mình` / `Mình` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Nhịp độc thoại dồn nén từ sự ấm ức sang khoảnh khắc chuẩn bị thưởng thức món ăn thì bị cắt ngang."
+    modality_and_logic: "Bảo toàn đầy đủ 3 câu cùng mệnh đề điều kiện ở câu 1 (`nếu cuối cùng chẳng có vấn đề gì...`) và bước ngoặt ở cuối câu 3 (`sắp bắt đầu ăn miếng thịt thì chuyện đó xảy ra`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000059
+    terms:
+      - "Trung úy Weiss"
+      - "bức điện tín"
+      - "Tanya"
+    pronouns_and_address: "Trần thuật ngôi thứ ba định danh `Trung úy Weiss` và `Tanya`."
+    pov_and_voice: "Trần thuật ngôi thứ ba mô tả sự xuất hiện đúng lúc trớ trêu của phó chỉ huy Weiss."
+    modality_and_logic: "Bảo toàn quan hệ kéo theo: Trung úy Weiss chạy tới cùng một bức điện tín, khiến Tanya lỡ mất cơ hội ăn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000060
+    terms:
+      - "Thiếu tá"
+      - "Bộ chỉ huy"
+    pronouns_and_address: "Trung úy Weiss gọi Tanya bằng quân hàm `Thiếu tá`."
+    pov_and_voice: "Câu báo cáo ngắn gọn, khẩn trương."
+    modality_and_logic: "Bảo toàn thông tin bức điện gửi từ Bộ chỉ huy."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000061
+    terms:
+      - "Tanya"
+    pronouns_and_address: "Trần thuật ngôi thứ ba định danh `Tanya`."
+    pov_and_voice: "Trần thuật ngôi thứ ba nhấn mạnh sự bực bội của Tanya khi bị gián đoạn bữa ăn."
+    modality_and_logic: "Bảo toàn hành động đặt dao nĩa xuống để chào đáp lễ và trạng thái *không hài lòng*."
+    emphasis: "Bảo toàn chính xác cụm `*không hài lòng*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000062
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `mình` và quy chiếu Weiss bằng `anh ta`."
+    pov_and_voice: "Câu càu nhàu trong đầu vừa tức tối vừa thừa nhận năng lực của Weiss."
+    modality_and_logic: "Bảo toàn câu điều kiện trái thực tế (`Nếu anh ta không biết điều đến thế, mình đã đuổi cổ anh ta ngay rồi.`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000063
+    terms:
+      - "tiền tuyến"
+    pronouns_and_address: "Hai câu đầu là độc thoại nội tâm trách móc ngầm; câu thứ ba chuyển về trần thuật ngôi thứ ba dùng `nó` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Sự chuyển dịch liền mạch từ cơn giận dữ trong tâm tưởng sang thái độ đáp lời bên ngoài."
+    modality_and_logic: "Bảo toàn trọn vẹn 3 câu: câu 1 trách không biết nhìn tình hình; câu 2 đặt điều kiện rằng đã cản trở bữa ăn ngon hiếm hoi nơi tiền tuyến thì việc đó phải vô cùng quan trọng; câu 3 nêu việc nó không kìm được mà đáp cộc lốc dù biết là phản ứng cảm tính."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000064
+    terms:
+      - "Trung úy Weiss"
+    pronouns_and_address: "Tanya tự xưng `Tôi` và gọi `Trung úy Weiss`."
+    pov_and_voice: "Giọng nhắc nhở lạnh lùng pha chút bất mãn của cấp trên."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu và câu thoại `“…Tôi đang ăn, Trung úy Weiss.”`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000065
+    terms:
+      - "cấp dưới"
+      - "cấp trên"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Tanya ở câu 1 bằng `nó`, và quy chiếu `cấp dưới` khái quát bằng `họ` / `mình`."
+    pov_and_voice: "Trần thuật phân tích tâm lý tổ chức và tính chất khác thường của tình huống."
+    modality_and_logic: "Bảo toàn đầy đủ 5 câu: giọng không hẳn trách móc nhưng phảng phất bất mãn; hầu hết cấp dưới sẽ chần chừ nếu cấp trên nói giọng đó; chẳng ai muốn chọc giận sếp; nhưng trong tình huống bất thường họ không nhượng bộ; và đây là một trong những trường hợp hiếm hoi ấy."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000066
+    terms: []
+    pronouns_and_address: "Trung úy Weiss tự xưng `Tôi`."
+    pov_and_voice: "Lời cáo lỗi lịch sự nhưng kiên quyết vì tính chất công việc."
+    modality_and_logic: "Bảo toàn quan hệ nhượng bộ – đối lập: xin lỗi nhưng việc này khá khẩn cấp."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000067
+    terms:
+      - "bản tin mã hóa ngắn"
+      - "ống đựng thông điệp"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Weiss bằng `anh ta` và Tanya bằng `nó` theo đúng `DEC-P01-001`."
+    pov_and_voice: "Trực giác nhạy bén của Tanya khi quan sát hình thức văn bản được trình lên."
+    modality_and_logic: "Bảo toàn cấu trúc phủ định – đối lập (`một bản tin mã hóa ngắn chứ không phải ống đựng thông điệp`) và hệ quả nhận thức (`nó ngửi thấy mùi rắc rối`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000068
+    terms:
+      - "mệnh lệnh"
+    pronouns_and_address: "Câu hỏi ngắn của Tanya không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng ngạc nhiên xen lẫn nghi vấn của Tanya."
+    modality_and_logic: "Bảo toàn thán từ nghi vấn và câu hỏi phủ định `“Ừm? Không phải mệnh lệnh à?”`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000069
+    terms:
+      - "mệnh lệnh"
+      - "điện tín"
+    pronouns_and_address: "Trần thuật thuyết minh không dùng đại từ nhân xưng."
+    pov_and_voice: "Lời giải thích ngắn gọn về quy trình truyền đạt mệnh lệnh thông thường."
+    modality_and_logic: "Bảo toàn nhận định: thông thường mệnh lệnh được gửi bằng điện tín."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000070
+    terms:
+      - "chỉ huy"
+      - "nhân viên vô tuyến"
+    pronouns_and_address: "Trần thuật dùng danh từ `chỉ huy` và đại từ quy chiếu `ngài` (xem thêm finding `m2`)."
+    pov_and_voice: "Thuyết minh quy tắc bảo mật thư tín chỉ huy tại đơn vị."
+    modality_and_logic: "Bảo toàn cấu trúc điều kiện – ngoại trừ: nếu gửi cho chỉ huy thì ngoài nhân viên vô tuyến ra, không ai được đọc trước."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000071
+    terms:
+      - "bản tin mã hóa ngắn"
+      - "điện tín"
+    pronouns_and_address: "Trần thuật thuyết minh quy chiếu nội dung cần truyền đạt bằng `việc đó`."
+    pov_and_voice: "Kết luận logic từ quy trình ở `p000069`–`p000070`."
+    modality_and_logic: "Bảo toàn quan hệ hệ quả và hai trường hợp phủ định: bản tin mã hóa ngắn được dùng khi việc đó không cần hoặc không thể gửi bằng điện tín."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000072
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya quy chiếu sự việc bằng `chuyện này`."
+    pov_and_voice: "Phán đoán châm biếm đầy bi quan của Tanya."
+    modality_and_logic: "Bảo toàn cấu trúc lựa chọn tăng tiến (`hoặc sẽ ngu ngốc, hoặc sẽ cực kỳ phiền phức *và* ngu ngốc`)."
+    emphasis: "Bảo toàn chính xác liên từ nhấn mạnh `*và*` tương ứng thẻ `<html:em>` theo đúng `DEC-P01-002`."
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000073
+    terms:
+      - "được triệu đến trình diện ngay lập tức"
+    pronouns_and_address: "Trung úy Weiss đáp `Không ạ` và gọi Tanya là `cô` (xem thêm finding `m1`)."
+    pov_and_voice: "Câu trả lời nghiêm túc báo nội dung triệu tập."
+    modality_and_logic: "Bảo toàn phủ định kèm thông báo lệnh triệu tập trình diện ngay lập tức."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000074
+    terms:
+      - "Được triệu đến trình diện ngay lập tức"
+    pronouns_and_address: "Tanya tự xưng `Tôi`."
+    pov_and_voice: "Câu hỏi lặp lại để xác nhận trước khi tiếp nhận mệnh lệnh gọn gàng đúng tác phong quân nhân."
+    modality_and_logic: "Bảo toàn cả câu hỏi xác nhận và câu đáp `Tôi hiểu rồi.`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000075
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm cảm thán không dùng đại từ nhân xưng."
+    pov_and_voice: "Tiếng thở dài ngao ngán trong nội tâm Tanya."
+    modality_and_logic: "Bảo toàn thán từ và câu cảm thán `Chậc, đúng là khổ thật.`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0028.xhtml/p000076
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm quy chiếu tình hình sắp tới bằng `Thế này`."
+    pov_and_voice: "Dự cảm u ám của Tanya khép lại Chương 5."
+    modality_and_logic: "Bảo toàn dự đoán tương lai: thế này sẽ khủng khiếp lắm đây."
+    emphasis: "none"
