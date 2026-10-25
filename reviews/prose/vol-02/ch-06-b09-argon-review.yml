@@ -1,0 +1,397 @@
+task_id: vol-02-ch-06-b09
+review_task_id: vol-02-ch-06-b09-argon-review
+role: reviewer
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-02
+chapter: 6
+batch: b09
+segment_id_start: YS-LN02/Text/part0030.xhtml/p000257
+segment_id_end: YS-LN02/Text/part0030.xhtml/p000284
+unit_count: 28
+source_sha256: 3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a
+source_package_sha256: b8e33087650cb9bb665a018e7adf731ed974f773356be5e7b132bb5d1561fe71
+glossary_version: sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41
+review_path: reviews/prose/vol-02/ch-06-b09-argon-review.yml
+files_written:
+  - reviews/prose/vol-02/ch-06-b09-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+next_action: coordinator_signoff
+
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+
+unresolved_findings: []
+
+findings:
+  - id: m1
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000260
+    category: pronoun_scope_clarity
+    issue: >-
+      Tại câu đầu của `p000260` (`“Theo luật chiến tranh, cả hai ta đều có nghĩa vụ bảo vệ những người không tham chiến.”`), cụm `cả hai ta` trong tiếng Việt thường gợi nghĩa hai cá nhân đang đối thoại (người nói và người nghe, tức Tanya và giảng viên), trong khi mạch lập luận nối tiếp từ `p000255`–`p000256` chỉ cả hai bên tham chiến (phía tấn công/Đế quốc và phía phòng thủ/địch).
+    basis: >-
+      Câu thứ hai ngay sau đó đã dùng `chúng ta` (`người ta sẽ trông đợi chúng ta làm mọi điều trong khả năng...`), nên nghĩa toàn đoạn vẫn hiểu đúng; đây chỉ là điểm tinh chỉnh nhỏ về sắc thái đại từ số nhiều để tránh cảm giác thu hẹp chủ thể ở câu đầu.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể cân nhắc chỉnh nhẹ `cả hai ta` thành `cả hai bên chúng ta` hoặc `cả hai phía`.
+    resolution: optional_polish
+
+  - id: m2
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000279
+    category: syntax_nuance
+    issue: >-
+      Ở cụm nhấn mạnh thứ ba trong `p000279` (`— *người nhận Huy hiệu Đột kích Cánh bạc trông như một nàng tiên, dù sinh ra để chiến đấu* —`), việc đặt `người nhận Huy hiệu Đột kích Cánh bạc` làm chủ ngữ trực tiếp khiến câu nghiêng về mô tả đơn thuần, làm mờ nhẹ sắc thái đối lập/nhượng bộ giữa danh hiệu chiến công dữ dội và ngoại hình như tiên nữ.
+    basis: >-
+      Bản dịch đã sửa đầy đủ tên vật phẩm `Huy hiệu Đột kích Cánh bạc` (`B09-F04`) và khôi phục đúng phạm vi in nghiêng theo `DEC-P01-002` (`B09-F01`), giữ trọn vẹn thông tin cốt lõi của lời đồn.
+    recommendation: >-
+      Không chặn signoff; ở bước chuốt văn có thể cân nhắc làm rõ hơn quan hệ đối lập như `— *so với một người nhận Huy hiệu Đột kích Cánh bạc, cô ta lại trông như một nàng tiên, dù là một nàng tiên sinh ra để chiến đấu* —` hoặc `— *dù là người nhận Huy hiệu Đột kích Cánh bạc, cô ta lại trông như một nàng tiên, có điều là một nàng tiên sinh ra để chiến đấu* —`.
+    resolution: optional_polish
+
+  - id: m3
+    severity: minor
+    segment_id: YS-LN02/Text/part0030.xhtml/p000281
+    category: inner_voice_pronoun_continuity
+    issue: >-
+      Câu cuối in nghiêng của `p000281` (`*Nói thật, nếu chỉ xét điều đó thì nó đúng là một quân nhân xuất sắc.*`) và đoạn in nghiêng kế tiếp `p000282` (`*Cô quá hoàn hảo. Chẳng có gì để chê; cô quá lý trí...*`) đều là độc thoại nội tâm trực tiếp của vị tư lệnh quân đoàn khi đánh giá Tanya, nhưng `p000281` quy chiếu Tanya bằng `nó` (theo đà trần thuật) còn `p000282` chuyển sang `Cô` / `cô`.
+    basis: >-
+      Toàn bộ các câu trần thuật ngôi thứ ba ở `p000274`, `p000276`, `p000278`, `p000279`, `p000281` đã tuân thủ nhất quán `DEC-P01-001` (`nó` / `Tanya`) theo `B09-F06`; sự chuyển giao giữa câu cuối `p000281` và `p000282` nằm ngay ranh giới từ lời kể sang dòng suy nghĩ trực tiếp của tư lệnh quân đoàn nên không gây nhầm chủ thể.
+    recommendation: >-
+      Không chặn signoff; ở bước polish có thể giữ nguyên hoặc đồng bộ đại từ chỉ Tanya trong hai đoạn suy nghĩ in nghiêng liên tiếp của vị tư lệnh (`p000281`–`p000282`).
+    resolution: optional_polish
+
+pending_term_recommendations:
+  - id: vol02-ch06-b09-legal-debate-and-law-of-war-terms
+    source_term: sophistry / finger-pointing / international legal cases / law of war / noncombatants / civilians / militia / prisoners’ rights / war crime / QED
+    proposed_vi: ngụy biện / đổ lỗi cho nhau / các vụ việc pháp lý quốc tế / luật chiến tranh / người không tham chiến / thường dân / dân quân / quyền của tù binh / tội ác chiến tranh / Q.E.D.¹⁹
+    alternatives_vi:
+      - lập luận ngụy biện / chỉ trích lẫn nhau / luật về chiến tranh / người không trực tiếp tham chiến / dân thường / lực lượng dân quân / QED¹⁹
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000259
+      - YS-LN02/Text/part0030.xhtml/p000260
+      - YS-LN02/Text/part0030.xhtml/p000261
+      - YS-LN02/Text/part0030.xhtml/p000262
+      - YS-LN02/Text/part0030.xhtml/p000264
+      - YS-LN02/Text/part0030.xhtml/p000265
+      - YS-LN02/Text/part0030.xhtml/p000269
+    rationale: >-
+      Kế thừa đồng bộ `chapter6_b07/b08/b09_coordinator_choices`: giữ sự phân biệt chuẩn xác giữa khái niệm pháp lý `người không tham chiến` (`p000260`, `p000262`), `thường dân` (`p000261`, `p000264`), `dân quân` (`p000264`) và `quyền của tù binh` (`p000264`); bảo toàn chữ viết tắt kết thúc chứng minh `Q.E.D.` kèm dấu gọi chú thích số mũ `¹⁹` tại `p000269`.
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch06-b09-being-x-and-yugoslavia-references
+    source_term: The former Yugoslavia / a god or a devil / Being X
+    proposed_vi: Nam Tư cũ / một vị thần hay ác quỷ / Being X (gã Being X này)
+    alternatives_vi:
+      - cựu Nam Tư / một vị thần hay một con quỷ / Thực thể X
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000265
+      - YS-LN02/Text/part0030.xhtml/p000267
+    rationale: >-
+      Giữ nguyên định danh `Being X` theo `P05-being-x` trong `canon/glossary-pending.yml` và `work/run-state/pending-terms.yml`, kết hợp danh từ chỉ loại `gã` đúng giọng bất kính trong độc thoại nội tâm của Tanya tại `p000267`; dịch chuẩn tên thực thể lịch sử `Nam Tư cũ` tại `p000265`.
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch06-b09-command-ranks-and-institutions
+    source_term: army corps commander / major / Major von Degurechaff / regional command / Lieutenant Colonel von Lergen / legal specialists / Foreign Office
+    proposed_vi: tư lệnh quân đoàn / thiếu tá / Thiếu tá von Degurechaff / bộ chỉ huy khu vực / Trung tá von Lergen / các chuyên gia pháp lý / Bộ Ngoại giao
+    alternatives_vi:
+      - chỉ huy quân đoàn / bộ tư lệnh khu vực / cơ quan ngoại giao
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000270
+      - YS-LN02/Text/part0030.xhtml/p000272
+      - YS-LN02/Text/part0030.xhtml/p000274
+      - YS-LN02/Text/part0030.xhtml/p000276
+      - YS-LN02/Text/part0030.xhtml/p000277
+      - YS-LN02/Text/part0030.xhtml/p000282
+    rationale: >-
+      Đồng bộ với `chapter6_b09/b10_coordinator_choices`: dịch chức vụ `tư lệnh quân đoàn` mà không tự suy diễn quân hàm cấp tướng cụ thể; dùng `bộ chỉ huy khu vực` viết thường theo đúng danh từ chung trong gói nguồn (`p000277`); giữ nhất quán cấp bậc và họ tên `Thiếu tá von Degurechaff`, `Trung tá von Lergen` và tên cơ quan `Bộ Ngoại giao`.
+    uncertainty: low
+    status: pending
+    canon: false
+
+  - id: vol02-ch06-b09-silver-wings-and-tactical-operations-terms
+    source_term: Silver Wings Assault Badge / child soldier / combat machine / field training / recruits / night raid / enemy outpost trench / loss ratio / enemy mage unit / rear city of Arene / reinforcements / suppress / Republican mages / imperial lookouts / partisan riots / railway / logistics
+    proposed_vi: Huy hiệu Đột kích Cánh bạc / lính trẻ em / cỗ máy chiến đấu / huấn luyện dã chiến / lính mới / tập kích ban đêm / chiến hào tiền đồn của địch / tỷ lệ tổn thất / đơn vị pháp sư địch / thành phố Arene phía sau chiến tuyến (thành phố Arene ở hậu phương) / lực lượng tiếp viện / dẹp yên / các pháp sư Cộng hòa / các đơn vị cảnh giới của Đế quốc / những cuộc bạo loạn của du kích / đường sắt / tuyến hậu cần
+    alternatives_vi:
+      - Huy hiệu Xung kích Cánh bạc / binh sĩ trẻ em / tân binh / bình định thành phố / trạm cảnh giới của Đế quốc
+    segment_ids:
+      - YS-LN02/Text/part0030.xhtml/p000279
+      - YS-LN02/Text/part0030.xhtml/p000281
+      - YS-LN02/Text/part0030.xhtml/p000283
+      - YS-LN02/Text/part0030.xhtml/p000284
+    rationale: >-
+      Áp dụng chính xác các lựa chọn đã duyệt tạm trong `chapter6_b09_coordinator_choices`: giữ đúng loại vật phẩm là `Huy hiệu Đột kích Cánh bạc` (`p000279`, không dùng `Huân chương`), dùng `dẹp yên` cho cả mệnh lệnh tác chiến lẫn điều kiện khôi phục đường sắt (`p000283`–`p000284`) để không tự gán hàm ý cai trị lâu dài, và bảo toàn chuẩn xác hệ thuật ngữ tác chiến – hậu cần liên quan đến thành phố Arene.
+    uncertainty: low
+    status: pending
+    canon: false
+
+locked_choices:
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000257
+    terms: []
+    pronouns_and_address: "Lời thoại ngắn của giảng viên không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng giảng viên tiếp nhận lập luận của Tanya ở cuối `b08` và gợi mở để học viên trình bày tiếp."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu `…`, lời xác nhận đã hiểu ý và câu hỏi ngắn thúc giục nói tiếp (`“…À, ra vậy. Rồi sao nữa?”`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000258
+    terms: []
+    pronouns_and_address: "Tuân thủ `DEC-P01-001` và `chapter6_b11_active_choices`: độc thoại nội tâm của Tanya tự quy chiếu bằng `mình`."
+    pov_and_voice: "Giọng nội tâm điềm nhiên, sẵn sàng trình bày tiếp chuỗi lý lẽ lách luật."
+    modality_and_logic: "Bảo toàn mệnh đề điều kiện (`Nếu được phép nói tiếp`) và quyết định chủ động (`thì mình sẽ tiếp tục`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000259
+    terms:
+      - "tranh luận pháp lý"
+      - "ngụy biện"
+      - "đổ lỗi cho nhau"
+      - "Tòa án"
+      - "các vụ việc pháp lý quốc tế"
+    pronouns_and_address: "Độc thoại nội tâm nhận định khái quát không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng bình luận thực dụng, châm biếm về bản chất của tranh tụng và luật pháp quốc tế."
+    modality_and_logic: "Bảo toàn từ mở đầu `Ừm`, phép chia đôi mỉa mai (`một nửa là ngụy biện, một nửa là đổ lỗi cho nhau`) và quan hệ nhượng bộ – đối lập giữa phán quyết cuối cùng của tòa án với ảnh hưởng lớn từ cách mỗi quốc gia diễn giải luật."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000260
+    terms:
+      - "luật chiến tranh"
+      - "nghĩa vụ bảo vệ"
+      - "những người không tham chiến"
+    pronouns_and_address: "Trong lời phát biểu trước lớp, Tanya dùng `cả hai ta` (hoặc `cả hai bên chúng ta`) và `chúng ta` / `ta` cho chủ thể các bên/phía mình, tự xưng `tôi` khi nêu quan điểm cá nhân (`nhưng tôi nghĩ`), và chuyển đại từ ngôi thứ hai phiếm chỉ sang cấu trúc danh động từ (`Còn tùy cách vận dụng`) theo `direct-address choice`."
+    pov_and_voice: "Giọng thuyết trình pháp lý điềm tĩnh nhưng hướng tới việc lợi dụng quy định nhân đạo làm công cụ tác chiến."
+    modality_and_logic: "Bảo toàn đủ 3 câu: nghĩa vụ chung của cả hai bên theo luật chiến tranh trong việc bảo vệ người không tham chiến -> kỳ vọng nỗ lực tối đa để thực hiện nghĩa vụ ấy -> nhận định tùy cách vận dụng mà phía mình có thể tận dụng quy định đó."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000261
+    terms:
+      - "một toán nhỏ"
+      - "thường dân"
+      - "viên đạn lạc"
+      - "cái cớ"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng đại từ gộp `ta` cho phía quân mình."
+    pov_and_voice: "Giọng toan tính chiến thuật lạnh lùng, cân nhắc giữa thủ đoạn khiêu khích tạo cớ và phương án hợp thức hóa kín kẽ hơn."
+    modality_and_logic: "Bảo toàn đủ 4 câu: câu hỏi giả định về việc cho một toán nhỏ xâm nhập khu dân cư rồi bị tấn công -> điều kiện giả định chỉ cần một viên đạn lạc bắn về phía mình là đủ biến thành cái cớ -> lời tự nhận xét đó là cách làm cực đoan -> khẳng định vẫn có cách chính đáng hơn."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000262
+    terms:
+      - "người không tham chiến"
+    pronouns_and_address: "Tanya dùng đại từ gộp `ta` cho phía mình và `họ` cho đối phương."
+    pov_and_voice: "Giọng đề xuất lạnh lùng, sắc bén."
+    modality_and_logic: "Bảo toàn liên từ phương án thay thế (`Hoặc`), mệnh đề điều kiện ép đối phương tự tuyên bố không có người không tham chiến, và hệ quả tức thì là những hạn chế được dỡ bỏ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000263
+    terms: []
+    pronouns_and_address: "Câu hỏi phản ứng ngắn không dùng đại từ."
+    pov_and_voice: "Giọng sững sờ, ngạc nhiên của giảng viên trước lối lập luận bất ngờ."
+    modality_and_logic: "Bảo toàn câu hỏi ngắn (`“Gì cơ?”`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000264
+    terms:
+      - "thường dân"
+      - "dân quân"
+      - "quyền nào của tù binh"
+    pronouns_and_address: "Tanya dùng `họ` cho đối phương và `chúng ta` / `ta` cho phía mình."
+    pov_and_voice: "Giọng lập luận lách luật sắc lạnh, đẩy tuyên bố kháng cự toàn dân của địch thành căn cứ tước quyền được bảo hộ."
+    modality_and_logic: "Bảo toàn chính xác hai tầng điều kiện giả định liên tiếp (`Nếu họ tuyên bố rằng tất cả mọi người, đến thường dân cuối cùng, đều sẽ kháng cự chúng ta. Nếu ta diễn giải điều đó thành mọi thường dân đều là dân quân`) và kết luận phủ định nghĩa vụ pháp lý (`thì ta không cần công nhận bất kỳ quyền nào của tù binh`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000265
+    terms:
+      - "Nam Tư cũ"
+      - "công dân"
+      - "binh lính"
+      - "tội ác chiến tranh"
+      - "lý trí"
+    pronouns_and_address: "Quy chiếu `Nam Tư cũ` và công dân của họ bằng `họ` / `bọn họ`, dùng `ta` trong mệnh đề suy luận giả định, và chuyển đại từ ngôi thứ hai phiếm chỉ ở câu cuối sang `người ta` theo `direct-address choice`."
+    pov_and_voice: "Giọng liên tưởng lịch sử kiếp trước kết hợp tự nhận thức tỉnh táo về việc lối diễn giải cực đoan này bóp méo cả lý trí."
+    modality_and_logic: "Bảo toàn dấu chấm lửng mở đầu `…`, dẫn chứng tiền lệ Nam Tư cũ tuyên bố mọi công dân đều là binh lính, mệnh đề kết luận hợp lý của cách diễn giải đó (rằng có thể cho nổ tung tất cả mà không phạm tội ác chiến tranh, không tự thêm phương tiện ném bom), và câu nhận xét nhượng bộ ở cuối rằng đẩy kiểu diễn giải này đến cực đoan có thể bóp méo cả lý trí."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: chỉ bọc dấu `*...*` quanh mệnh đề suy luận giả định `*Nếu ai cũng là binh lính, ta có thể cho nổ tung tất cả bọn họ mà không bị xem là phạm tội ác chiến tranh*` tương ứng thẻ `<html:em>`, giữ nguyên phần lời kể còn lại ở chữ thường."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000266
+    terms:
+      - "công lý"
+      - "sự công bằng"
+    pronouns_and_address: "Nhận định nội tâm khái quát không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng kết luận dửng dưng, thực tế."
+    modality_and_logic: "Bảo toàn quan hệ hệ quả tất nhiên: công lý và sự công bằng tất nhiên cũng bị bóp méo theo."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000267
+    terms:
+      - "một vị thần hay ác quỷ"
+      - "Being X"
+      - "công lý"
+    pronouns_and_address: "Quy chiếu `Being X` bằng cụm định danh bất kính `gã Being X này` và đại từ phản thân `mình`; lược đại từ ngôi thứ hai phiếm chỉ ở câu cuối theo `direct-address choice`."
+    pov_and_voice: "Giọng độc thoại nội tâm bất cần, thách thức và đổ lỗi ngược cho Being X để tự hợp thức hóa bản thân."
+    modality_and_logic: "Bảo toàn đủ 6 câu cùng cặp dấu gạch ngang dài chêm ý: lời xác nhận bất cần (`Đúng thế. Rồi sao? Thì sao nào?`) -> định đề thực chứng pháp lý (`Khái niệm vẫn chỉ là khái niệm, luật tồi vẫn là luật`) -> tiền đề về thế giới nơi `gã Being X này` tùy ý làm theo ý mình -> giả định suy ngẫm nghiêm túc về công lý kèm mức phỏng đoán `có lẽ` rằng kẻ quy định thế giới phải chìm trong chiến tranh mới là kẻ ác."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000268
+    terms: []
+    pronouns_and_address: "Tuân thủ `DEC-P01-001`: nội tâm tự quy chiếu của Tanya dùng `mình`."
+    pov_and_voice: "Giọng tự bào chữa trơ trẽn mà hoàn toàn tự tin của Tanya."
+    modality_and_logic: "Bảo toàn kết luận đánh đồng việc tuân thủ quy tắc/lách luật với sự lương thiện (`Nói cách khác, mình chỉ là một người tốt đang làm tròn bổn phận`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000269
+    terms:
+      - "Q.E.D.¹⁹"
+    pronouns_and_address: "Cụm kết luận viết tắt không dùng đại từ."
+    pov_and_voice: "Giọng đóng lại chuỗi ngụy biện nội tâm như một bài toán đã chứng minh xong."
+    modality_and_logic: "Bảo toàn chữ viết tắt `Q.E.D.` và ký hiệu gọi chú thích số mũ `¹⁹`."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000270
+    terms:
+      - "tư lệnh quân đoàn"
+      - "thiếu tá"
+      - "con quái vật này"
+    pronouns_and_address: "Mở đầu phân cảnh mới từ góc nhìn vị tư lệnh quân đoàn: quy chiếu tư lệnh quân đoàn bằng `ông`, và quy chiếu Tanya bằng cách gọi đánh giá `một sĩ quan chỉ mang hàm thiếu tá` / `con quái vật này`."
+    pov_and_voice: "Giọng trần thuật ngôi thứ ba bám sát tâm trạng ngán ngẩm, bất đắc dĩ của vị tư lệnh quân đoàn."
+    modality_and_logic: "Bảo toàn đủ 3 câu: sự hiếm hoi của việc một tư lệnh quân đoàn triệu một sĩ quan chỉ mang hàm thiếu tá -> phỏng đoán `có lẽ` vị tư lệnh chẳng vui vẻ gì với sự hiếm hoi ấy -> mệnh đề nhượng bộ (`Dù là chuyện ngoại lệ`) dẫn tới khả năng đáng ngại rằng một ngày nào đó ông có thể lại phải triệu con quái vật này đến."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000271
+    terms: []
+    pronouns_and_address: "Trần thuật quy chiếu vị tư lệnh quân đoàn bằng `ông`."
+    pov_and_voice: "Giọng trần thuật hài hước khô khan."
+    modality_and_logic: "Bảo toàn giả định truyền đạt và giới hạn mức độ (`Dù có bảo ông rằng đó mới chỉ là một khả năng, ông cũng chẳng thấy khá hơn`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000272
+    terms:
+      - "Thiếu tá von Degurechaff"
+    pronouns_and_address: "Tư lệnh quân đoàn gọi trực tiếp cấp dưới bằng cấp bậc và họ `Thiếu tá von Degurechaff`."
+    pov_and_voice: "Giọng bề trên trang trọng khi mở lời giao nhiệm vụ."
+    modality_and_logic: "Bảo toàn câu mở lời của vị tư lệnh với Thiếu tá von Degurechaff."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000273
+    terms: []
+    pronouns_and_address: "Tanya đáp lễ cấp trên bằng `“Thưa ngài.”`"
+    pov_and_voice: "Giọng đáp điều lệnh ngắn gọn, chuẩn mực."
+    modality_and_logic: "Bảo toàn lời thưa ngắn gọn của cấp dưới."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000274
+    terms:
+      - "con quái vật"
+      - "tư lệnh quân đoàn"
+      - "pháp sư"
+    pronouns_and_address: "Tuân thủ `DEC-P01-001` và `chapter6_b09_coordinator_choices`: trần thuật quy chiếu vị tư lệnh quân đoàn bằng `ông` và quy chiếu Tanya bằng `nó`."
+    pov_and_voice: "Giọng trần thuật từ điểm nhìn của vị tư lệnh quân đoàn—một quân nhân bình thường cảm thấy xa lạ trước các pháp sư."
+    modality_and_logic: "Bảo toàn nỗ lực tránh nhìn thẳng vào con quái vật đang đứng nghiêm trước mặt, sự chấp nhận tiếp chuyện vì công việc, và mức độ đánh giá mạnh rằng dưới góc nhìn người bình thường thì pháp sư quả thực rất xa lạ."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000275
+    terms:
+      - "ma pháp"
+      - "lý trí"
+    pronouns_and_address: "Quy chiếu các pháp sư nói chung bằng `Họ`, và vị tư lệnh quân đoàn bằng `ông`."
+    pov_and_voice: "Giọng phân tích tâm lý của một người bình thường khi đối diện trực tiếp với năng lực siêu nhiên của pháp sư."
+    modality_and_logic: "Bảo toàn định nghĩa về pháp sư (những con người có thể tự bay và dùng ma pháp can thiệp vào thế giới) và sự lệch pha giữa nhận thức lý trí với cảm xúc khi giáp mặt ngoài đời."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000276
+    terms:
+      - "thiếu tá"
+    pronouns_and_address: "Trần thuật quy chiếu vị tư lệnh bằng `ông`, quy chiếu Tanya bằng `vị thiếu tá trước mặt` và đại từ `nó` (`DEC-P01-001`), và chuyển đại từ ngôi thứ hai phiếm chỉ sang `người ta` (`direct-address choice`)."
+    pov_and_voice: "Giọng trần thuật sắc lạnh, khắc họa sự rợn ngợp của vị tư lệnh trước ánh mắt phi nhân tính đối lập với gương mặt xinh xắn của Tanya."
+    modality_and_logic: "Bảo toàn đủ 3 câu: khẳng định chắc chắn rằng không thể dùng lý trí hay cảm xúc của bất kỳ ai để hiểu nguyên tắc hành động của vị thiếu tá trước mặt -> đôi mắt lạnh như vật vô tri khiến người ta buộc phải kết luận suy nghĩ, khuôn khổ tư duy và cách tồn tại của nó đều méo mó -> sự đối lập giữa đôi mắt xanh, gương mặt xinh xắn có lẽ tạo ấn tượng dịu dàng với cảm xúc trong đôi mắt ấy nói lên tất cả và khiến nó trông khác hẳn."
+    emphasis: "Bảo toàn chính xác hai từ nhấn mạnh theo `DEC-P01-002` tương ứng hai thẻ `<html:em>` trong nguồn: `*hay*` và `*bất kỳ ai*`, không nhấn mạnh lan sang phần khác."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000277
+    terms:
+      - "nhiệm vụ đặc biệt"
+      - "bộ chỉ huy khu vực"
+    pronouns_and_address: "Trong lời thoại trực tiếp, tư lệnh quân đoàn gọi Tanya là `Cô`."
+    pov_and_voice: "Giọng thông báo mệnh lệnh công vụ ngắn gọn."
+    modality_and_logic: "Bảo toàn thông báo nhận nhiệm vụ đặc biệt từ bộ chỉ huy khu vực."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000278
+    terms:
+      - "sĩ quan"
+    pronouns_and_address: "Trần thuật quy chiếu Tanya bằng `Nó` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng trần thuật nêu lại chi tiết lý lịch gây sốc của Tanya."
+    modality_and_logic: "Bảo toàn mốc thời gian và tư cách được phong hàm sĩ quan trước cả khi lên mười."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000279
+    terms:
+      - "lính trẻ em"
+      - "cỗ máy chiến đấu"
+      - "Tanya"
+      - "Huy hiệu Đột kích Cánh bạc"
+      - "nàng tiên"
+      - "ma cà rồng"
+    pronouns_and_address: "Trần thuật quy chiếu vị tư lệnh bằng `ông` (kèm phản thân `mình`) và quy chiếu Tanya bằng `nó` / tên riêng `Tanya`."
+    pov_and_voice: "Giọng trần thuật tái hiện sự chuyển biến nhận thức của vị tư lệnh từ lúc nghe đồn đến khi tận mắt gặp Tanya."
+    modality_and_logic: "Bảo toàn đủ 5 câu: phản ứng bật cười ban đầu khi nghe tin -> ấn tượng đầu tiên khi gặp trực tiếp là một cỗ máy chiến đấu -> lập tức sửa lại cách nhìn ấy nhưng không hề nghĩ mình đã hiểu nó -> xác nhận lời đồn đi trước Tanya về người nhận Huy hiệu Đột kích Cánh bạc trông như nàng tiên sinh ra để chiến đấu hẳn đúng từng chữ -> suy đoán có lẽ vì đường nét cân đối mà Tanya giống kiểu người có thể bị gọi sau lưng là ma cà rồng."
+    emphasis: "Bảo toàn chính xác 3 vùng nhấn mạnh theo `DEC-P01-002` tương ứng 3 thẻ `<html:em>` trong nguồn: câu hỏi `*Vậy là một lính trẻ em như trong truyền thuyết à?*`, cụm ấn tượng `*một cỗ máy chiến đấu*`, và mệnh đề lời đồn chêm giữa cặp gạch ngang dài `*người nhận Huy hiệu Đột kích Cánh bạc trông như một nàng tiên, dù sinh ra để chiến đấu*`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000280
+    terms: []
+    pronouns_and_address: "Lời thoại thông báo thời gian ban lệnh không dùng đại từ."
+    pov_and_voice: "Giọng truyền đạt mệnh lệnh quân sự chuẩn xác."
+    modality_and_logic: "Bảo toàn thời điểm ban lệnh ở thể bị động tương lai (`“Mệnh lệnh sẽ được ban ra lúc 14 giờ 22.”`)."
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000281
+    terms:
+      - "huấn luyện dã chiến"
+      - "lính mới"
+      - "tập kích ban đêm"
+      - "chiến hào tiền đồn của địch"
+      - "tỷ lệ tổn thất"
+      - "quân nhân"
+    pronouns_and_address: "Trần thuật quy chiếu Tanya bằng `nó` và đơn vị của Tanya bằng `Họ`."
+    pov_and_voice: "Giọng trần thuật điểm lại thành tích huấn luyện thực chiến đáng kinh ngạc của Tanya trước khi chuyển sang lời nhận xét thầm của vị tư lệnh."
+    modality_and_logic: "Bảo toàn đủ 4 câu: được lệnh tổ chức huấn luyện dã chiến đơn giản nhưng lại dẫn lính mới tập kích ban đêm vào chiến hào tiền đồn của địch -> tỷ lệ tổn thất của đơn vị lại thấp đến bất ngờ -> dù chiến đấu quyết liệt, gan dạ không nao núng và lập được chiến công, tỷ lệ tổn thất vẫn thấp hơn mọi đơn vị khác -> câu kết nhận định giả định rằng nếu chỉ xét điều đó thì quả là một quân nhân xuất sắc."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ câu cuối `*Nói thật, nếu chỉ xét điều đó thì nó đúng là một quân nhân xuất sắc.*` tương ứng thẻ `<html:em>`."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000282
+    terms:
+      - "Trung tá von Lergen"
+      - "các chuyên gia pháp lý"
+      - "Bộ Ngoại giao"
+    pronouns_and_address: "Trong độc thoại nội tâm trực tiếp của vị tư lệnh quân đoàn, Tanya được quy chiếu bằng `Cô` / `cô`."
+    pov_and_voice: "Giọng độc thoại nội tâm trầm ngâm, e ngại trước sự hoàn hảo không kẽ hở của Tanya và sự bất lực của các cơ quan từng muốn kìm hãm cô."
+    modality_and_logic: "Bảo toàn đủ 5 câu cùng dấu chấm lửng cuối đoạn: nhận xét cô quá hoàn hảo -> không có gì để chê vì quá lý trí và đạt quá nhiều thành tựu -> hệ quả không ai ngăn nổi -> lý giải việc Trung tá von Lergen thất bại khi tìm cách loại bỏ cô là dễ hiểu -> phỏng đoán `có lẽ` việc các chuyên gia pháp lý để cô thoát và Bộ Ngoại giao bỏ cuộc còn là những yếu tố lớn hơn."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ đoạn văn tương ứng thẻ `<html:em>` trong nguồn."
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000283
+    terms:
+      - "đơn vị pháp sư địch"
+      - "thành phố Arene"
+      - "lực lượng tiếp viện"
+      - "dẹp yên thành phố"
+    pronouns_and_address: "Câu mệnh lệnh quân sự trực tiếp lược chủ ngữ ngôi thứ hai."
+    pov_and_voice: "Giọng giao nhiệm vụ tác chiến dứt khoát của tư lệnh quân đoàn."
+    modality_and_logic: "Bảo toàn đúng trình tự hai bước nhiệm vụ và khẩu lệnh kết thúc: nhanh chóng tiêu diệt đơn vị pháp sư địch đã đột nhập vào thành phố Arene phía sau chiến tuyến -> sau đó hội quân với lực lượng tiếp viện và dẹp yên thành phố -> `Hết.`"
+    emphasis: "none"
+
+  - segment_id: YS-LN02/Text/part0030.xhtml/p000284
+    terms:
+      - "Các pháp sư Cộng hòa"
+      - "thành phố Arene"
+      - "hậu phương"
+      - "các đơn vị cảnh giới của Đế quốc"
+      - "những cuộc bạo loạn của du kích"
+      - "dẹp yên"
+      - "đường sắt"
+      - "tuyến hậu cần"
+    pronouns_and_address: "Trần thuật dùng đại từ gộp `ta` cho phía Đế quốc ở câu điều kiện."
+    pov_and_voice: "Giọng trần thuật phân tích tình hình chiến lược khẩn cấp tại mắt xích giao thông Arene."
+    modality_and_logic: "Bảo toàn đủ 4 câu: pháp sư Cộng hòa đổ bộ xuống thành phố Arene ở hậu phương, theo một nghĩa nào đó hoàn toàn qua mặt các đơn vị cảnh giới Đế quốc -> các cuộc bạo loạn của du kích đang lan rộng -> chuỗi hai điều kiện nhân quả liên hoàn: nếu không dẹp yên được Arene thì không thể sử dụng đường sắt, và nếu không dùng được đường sắt thì tuyến hậu cần sẽ bị cắt đứt."
+    emphasis: "none"
