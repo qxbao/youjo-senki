@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-01-b03-source.jsonl
 source_package_sha256: a3f3f7637912a7d58acfa02b3d1aa81e490d81f085edd374f881fc37da731b86
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -46,7 +46,9 @@ planning:
 review_coordination:
   report: reviews/prose/vol-02/ch-01-b03-claude.md
   signoff_report: reviews/prose/vol-02/ch-01-b03-fixes-signoff-claude.md
-  triggered_by: [new_pending_terms, emphasis]
+  triggered_by:
+  - new_pending_terms
+  - emphasis
   serious: 0
   moderate: 0
   moderate_resolved: 3
@@ -54,17 +56,101 @@ review_coordination:
   minor_resolved: 3
   action: signoff_confirmed
   provisional_choices:
-    - {term_id: vol02-ch01-b03-dacian, proposed_vi: 'quân Dacia (forces); Dacia (country)', alternatives: ['người Dacia (civilians)', 'phía Dacia (neutral)'], segment_ids: [YS-LN02/Text/part0010.xhtml/p000037, YS-LN02/Text/part0010.xhtml/p000056], confidence: 0.6}
-    - {term_id: vol02-ch01-b03-dacia-country, proposed_vi: Dacia, alternatives: [phía Dacia], segment_ids: [YS-LN02/Text/part0010.xhtml/p000046, YS-LN02/Text/part0010.xhtml/p000048], confidence: 0.75}
-    - {term_id: vol02-ch01-b03-federal-republican-forces, proposed_vi: 'quân Liên bang / quân Cộng hòa', alternatives: ['lực lượng Liên bang / lực lượng Cộng hòa'], segment_ids: [YS-LN02/Text/part0010.xhtml/p000029], confidence: 0.55, uncertainty: Republican may be descriptive rather than a polity name}
-    - {term_id: vol02-ch01-b03-conquistador, proposed_vi: 'các conquistador', alternatives: [conquistador, kẻ chinh phục], segment_ids: [YS-LN02/Text/part0010.xhtml/p000035, YS-LN02/Text/part0010.xhtml/p000041], confidence: 0.6}
-    - {term_id: vol02-ch01-b03-adjutant, proposed_vi: sĩ quan phụ tá, alternatives: [trợ tá, sĩ quan tùy tùng], segment_ids: [YS-LN02/Text/part0010.xhtml/p000049, YS-LN02/Text/part0010.xhtml/p000056, YS-LN02/Text/part0010.xhtml/p000057], confidence: 0.55}
-    - {term_id: vol02-ch01-b03-lieutenant, proposed_vi: 'Serebryakov: Thiếu úy; Weiss: Trung úy', alternatives: ['Trung úy for both'], segment_ids: [YS-LN02/Text/part0010.xhtml/p000051, YS-LN02/Text/part0010.xhtml/p000052, YS-LN02/Text/part0010.xhtml/p000053, YS-LN02/Text/part0010.xhtml/p000058], confidence: 0.55, uncertainty: provisional mapping from local rank statements}
-    - {term_id: vol02-ch01-b03-tanya-narration, proposed_vi: 'repeat Tanya or omit subject', alternatives: [nó], segment_ids: [YS-LN02/Text/part0010.xhtml/p000054, YS-LN02/Text/part0010.xhtml/p000056], confidence: 0.6}
+  - term_id: vol02-ch01-b03-dacian
+    proposed_vi: quân Dacia (forces); Dacia (country)
+    alternatives:
+    - người Dacia (civilians)
+    - phía Dacia (neutral)
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000037
+    - YS-LN02/Text/part0010.xhtml/p000056
+    confidence: 0.6
+  - term_id: vol02-ch01-b03-dacia-country
+    proposed_vi: Dacia
+    alternatives:
+    - phía Dacia
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000046
+    - YS-LN02/Text/part0010.xhtml/p000048
+    confidence: 0.75
+  - term_id: vol02-ch01-b03-federal-republican-forces
+    proposed_vi: quân Liên bang / quân Cộng hòa
+    alternatives:
+    - lực lượng Liên bang / lực lượng Cộng hòa
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000029
+    confidence: 0.55
+    uncertainty: Republican may be descriptive rather than a polity name
+  - term_id: vol02-ch01-b03-conquistador
+    proposed_vi: các conquistador
+    alternatives:
+    - conquistador
+    - kẻ chinh phục
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000035
+    - YS-LN02/Text/part0010.xhtml/p000041
+    confidence: 0.6
+  - term_id: vol02-ch01-b03-adjutant
+    proposed_vi: sĩ quan phụ tá
+    alternatives:
+    - trợ tá
+    - sĩ quan tùy tùng
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000049
+    - YS-LN02/Text/part0010.xhtml/p000056
+    - YS-LN02/Text/part0010.xhtml/p000057
+    confidence: 0.55
+  - term_id: vol02-ch01-b03-lieutenant
+    proposed_vi: 'Serebryakov: Thiếu úy; Weiss: Trung úy'
+    alternatives:
+    - Trung úy for both
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000051
+    - YS-LN02/Text/part0010.xhtml/p000052
+    - YS-LN02/Text/part0010.xhtml/p000053
+    - YS-LN02/Text/part0010.xhtml/p000058
+    confidence: 0.55
+    uncertainty: provisional mapping from local rank statements
+  - term_id: vol02-ch01-b03-tanya-narration
+    proposed_vi: repeat Tanya or omit subject
+    alternatives:
+    - nó
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000054
+    - YS-LN02/Text/part0010.xhtml/p000056
+    confidence: 0.6
   required_fixes:
-    - {finding: M1, segment_ids: [YS-LN02/Text/part0010.xhtml/p000052], resolution: use Thiếu úy for Serebryakov to match the local rank statement}
-    - {finding: M2, segment_ids: [YS-LN02/Text/part0010.xhtml/p000058], resolution: use Trung úy Weiss to match p000053 and provisional ledger}
-    - {finding: M3, segment_ids: [YS-LN02/Text/part0010.xhtml/p000054, YS-LN02/Text/part0010.xhtml/p000056], resolution: replace nó with Tanya by name or omit an unambiguous subject; keep interior self-reference mình}
+  - finding: M1
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000052
+    resolution: use Thiếu úy for Serebryakov to match the local rank statement
+  - finding: M2
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000058
+    resolution: use Trung úy Weiss to match p000053 and provisional ledger
+  - finding: M3
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000054
+    - YS-LN02/Text/part0010.xhtml/p000056
+    resolution: replace nó with Tanya by name or omit an unambiguous subject; keep
+      interior self-reference mình
   additional_corrections:
-    - {finding: m1, segment_ids: [YS-LN02/Text/part0010.xhtml/p000041], resolution: clarify that the episode resembles a massacre but is actually a drill}
-    - {finding: m3, segment_ids: [YS-LN02/Text/part0010.xhtml/p000056], resolution: replace ông ta with Đại tá or omit the subject}
+  - finding: m1
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000041
+    resolution: clarify that the episode resembles a massacre but is actually a drill
+  - finding: m3
+    segment_ids:
+    - YS-LN02/Text/part0010.xhtml/p000056
+    resolution: replace ông ta with Đại tá or omit the subject
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-01-b03
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 81
+  state: released
+  allowlist:
+  - translations/vol-02/ch-01-b03.jsonl
