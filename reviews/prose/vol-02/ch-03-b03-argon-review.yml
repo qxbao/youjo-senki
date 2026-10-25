@@ -1,0 +1,279 @@
+task_id: vol-02-ch-03-b03-argon-review
+reviewer: gemini-4-argon-medium
+role: reviewer
+model: gemini-4-argon-medium
+batch: vol-02-ch-03-b03
+volume: vol-02
+chapter: 3
+translation_path: translations/vol-02/ch-03-b03.jsonl
+source_package: work/vol-02/batches/ch-03-b03-source.jsonl
+source_package_sha256: 9b7afd32ecc905dcc250e757462f6c3f93cb540c50c4dd04c4874acd53dfda8c
+segment_id_start: YS-LN02/Text/part0016.xhtml/p000065
+segment_id_end: YS-LN02/Text/part0016.xhtml/p000079
+unit_count: 15
+segment_ids:
+  - YS-LN02/Text/part0016.xhtml/p000065
+  - YS-LN02/Text/part0016.xhtml/p000066
+  - YS-LN02/Text/part0016.xhtml/p000067
+  - YS-LN02/Text/part0016.xhtml/p000068
+  - YS-LN02/Text/part0016.xhtml/p000069
+  - YS-LN02/Text/part0016.xhtml/p000070
+  - YS-LN02/Text/part0016.xhtml/p000071
+  - YS-LN02/Text/part0016.xhtml/p000072
+  - YS-LN02/Text/part0016.xhtml/p000073
+  - YS-LN02/Text/part0016.xhtml/p000074
+  - YS-LN02/Text/part0016.xhtml/p000075
+  - YS-LN02/Text/part0016.xhtml/p000076
+  - YS-LN02/Text/part0016.xhtml/p000077
+  - YS-LN02/Text/part0016.xhtml/p000078
+  - YS-LN02/Text/part0016.xhtml/p000079
+status: needs_revision
+summary:
+  serious: 0
+  moderate: 2
+  minor: 0
+counts:
+  serious: 0
+  moderate: 2
+  minor: 0
+findings:
+  - id: F01
+    severity: moderate
+    category: pronoun_viewpoint_consistency
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000067
+      - YS-LN02/Text/part0016.xhtml/p000068
+      - YS-LN02/Text/part0016.xhtml/p000069
+      - YS-LN02/Text/part0016.xhtml/p000070
+      - YS-LN02/Text/part0016.xhtml/p000071
+      - YS-LN02/Text/part0016.xhtml/p000072
+      - YS-LN02/Text/part0016.xhtml/p000073
+      - YS-LN02/Text/part0016.xhtml/p000074
+      - YS-LN02/Text/part0016.xhtml/p000075
+      - YS-LN02/Text/part0016.xhtml/p000077
+    issue: >
+      Đoạn p000067–p000077 là mạch trần thuật ngôi thứ ba đan xen độc thoại nội tâm
+      từ điểm nhìn của Tanya tại cuộc họp tham mưu ở Cụm tập đoàn quân phương Bắc, nối
+      trực tiếp sang ch-03-b04 (p000080–p000083). Tuy nhiên bản dịch hiện tại chưa đồng bộ
+      theo DEC-P01-001 (canon/decisions.md): (1) Độc thoại nội tâm tự quy chiếu của Tanya ở
+      p000068, p000070–p000075 và p000077 đang dùng "tôi" (và "Chúng tôi" ở p000075) thay vì
+      "mình" (và "chúng ta"/"đơn vị mình" khi gộp tiểu đoàn trong suy nghĩ), làm nhòe ranh giới
+      giữa lời phát biểu công khai trước phòng họp ("Tôi" ở p000066) với dòng suy nghĩ thầm,
+      đồng thời lệch trực tiếp với mạch nội tâm dùng "mình" ở đầu b04 (p000080–p000083).
+      (2) Trần thuật ngôi thứ ba gắn điểm nhìn Tanya ở p000067–p000069 và p000071 đang dùng
+      "cô" thay vì "nó" (hoặc lặp tên "Tanya"/lược đại từ theo DEC-P01-001 và p000082 của b04);
+      đặc biệt ở câu cuối p000071 vừa dùng "quân hàm của cô" ở vế đầu vừa nhảy sang "chuyền sang
+      cho tôi" ở vế sau trong cùng một câu.
+    recommendation: >
+      Chuẩn hóa theo DEC-P01-001 và mạch liền kề ở ch-03-b04:
+      - Giữ "Tôi" ở p000066 vì đây là lời phát biểu trực tiếp của Thiếu tá von Degurechaff
+        trước hội nghị tham mưu.
+      - Ở trần thuật ngôi thứ ba điểm nhìn Tanya (p000067–p000069, p000071), đổi "cô" sang "nó"
+        (hoặc lược đại từ nơi câu đã rõ chủ ngữ Tanya), đồng bộ với p000082.
+      - Ở độc thoại nội tâm tự quy chiếu của Tanya (p000068, p000070–p000075, p000077), đổi
+        "tôi" sang "mình" (ví dụ: p000068 "mình cũng chẳng thể nghiêm túc..."; p000070 "ban đầu
+        mình đâu định...", "mình cứ nghĩ..."; p000071 "nên mình nghĩ cứ lịch sự...", "Dù đếm từ
+        dưới lên sẽ nhanh chạm tới cấp bậc của mình hơn, quả bóng lại bị đẩy sang chỗ mình";
+        p000072 "có lẽ mình nên làm mẫu..."; p000073 "kẻ chịu trận sẽ là mình..."; p000074
+        "Trước hết, mình đã đẩy lui...", "thành tích đáng kể của mình ở Dacia... khiến lời nhận
+        xét của mình..."; p000075 "Tiểu đoàn của mình đã cố gắng hết sức... Đơn vị mình đã đánh
+        bật... Chúng ta có thể tự hào..."; p000077 "Ông ta mặt dày hơn mình tưởng").
+  - id: F02
+    severity: moderate
+    category: meaning_precision
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000070
+    issue: >
+      Ở p000070 ("Rudersdorf thuộc Cục Tác chiến của Bộ Tổng tham mưu—tôi cứ nghĩ việc ông ta hay
+      thúc ép người khác vốn là nhiệm vụ của mình"), đại từ phản thân "của mình" đặt ngay sau
+      mệnh đề suy nghĩ của Tanya khiến câu tiếng Việt bị hiểu nhầm thành "nhiệm vụ của chính Tanya",
+      trong khi nguyên nghĩa chỉ phần việc/vai trò của Rudersdorf (vốn là người từ Cục Tác chiến
+      Bộ Tổng tham mưu đến nên Tanya tưởng chính ông ta sẽ đứng ra đóng vai kẻ gây sức ép trong
+      cuộc họp). Ngoài ra, cụm "hay thúc ép người khác" biến hành động đóng vai người thúc ép tại
+      buổi họp thành thói quen tính cách thường ngày.
+    recommendation: >
+      Tách rõ sở hữu của Rudersdorf và giữ đúng sắc thái vai trò trong cuộc họp, kết hợp sửa đại từ
+      nội tâm ở F01: "Thật tình, ban đầu mình đâu định can thiệp nhiều đến thế. Rudersdorf đến từ
+      Cục Tác chiến của Bộ Tổng tham mưu—mình cứ nghĩ đóng vai kẻ gây sức ép là việc của ông ta."
+unresolved_findings:
+  - F01
+  - F02
+pending_term_recommendations:
+  - term_id: DEC-P01-001
+    canonical_target: "Nội tâm tự quy chiếu của Tanya: mình; Trần thuật ngôi thứ ba điểm nhìn Tanya: nó; Phát biểu công khai trước hội nghị: Tôi"
+    status: active_canon_decision
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000066
+      - YS-LN02/Text/part0016.xhtml/p000067
+      - YS-LN02/Text/part0016.xhtml/p000068
+      - YS-LN02/Text/part0016.xhtml/p000069
+      - YS-LN02/Text/part0016.xhtml/p000070
+      - YS-LN02/Text/part0016.xhtml/p000071
+      - YS-LN02/Text/part0016.xhtml/p000072
+      - YS-LN02/Text/part0016.xhtml/p000073
+      - YS-LN02/Text/part0016.xhtml/p000074
+      - YS-LN02/Text/part0016.xhtml/p000075
+      - YS-LN02/Text/part0016.xhtml/p000077
+    reason: >
+      Thực thi DEC-P01-001 (canon/decisions.md) và giữ liên thông trực tiếp với ch-03-b04
+      (p000080–p000083). Cần sửa các chỗ dùng "tôi"/"cô" trong nội tâm và trần thuật điểm nhìn
+      Tanya ở p000067–p000075, p000077 theo F01.
+  - term_id: P03-B03-T01
+    canonical_target: "Thượng tướng von Wragell / Trung tướng kiêm Tham mưu trưởng von Schreise / Thiếu tướng von Rudersdorf"
+    status: propose_keep_consistent
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000065
+      - YS-LN02/Text/part0016.xhtml/p000068
+      - YS-LN02/Text/part0016.xhtml/p000071
+      - YS-LN02/Text/part0016.xhtml/p000078
+    reason: >
+      Khớp toàn bộ các đề xuất đã khóa từ ch-03-b01/b02 (P03-B01-T05, P03-B01-T07) và
+      work/run-state/pending-terms.yml cho hệ cấp bậc chỉ huy tại Cụm tập đoàn quân phương Bắc
+      cùng đại diện Bộ Tổng tham mưu.
+  - term_id: P03-B03-T02
+    canonical_target: "chiến dịch tấn công mùa xuân"
+    status: propose_keep_consistent
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000066
+    reason: >
+      Khớp đề xuất P03-B02-T06 tại p000064 của ch-03-b02 và chỉ dẫn trong handoffs/vol-02/ch-03-b03.yml.
+  - term_id: P03-B03-T03
+    canonical_target: "mặt nạ Noh"
+    status: propose_keep_consistent
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000067
+    reason: >
+      Giữ hình ảnh ẩn dụ văn hóa gốc trong suy nghĩ/mô tả gắn với ký ức tiền kiếp Nhật Bản của Tanya,
+      đồng bộ với ch-03-b02 (P03-B02-T05) và chỉ dẫn handoff.
+  - term_id: P03-B03-T04
+    canonical_target: "Quân Trung ương / Trung ương / Bộ Tổng tham mưu / Cục Tác chiến của Bộ Tổng tham mưu / Cụm tập đoàn quân phương Bắc / Đại Quân"
+    status: propose_keep_consistent
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000068
+      - YS-LN02/Text/part0016.xhtml/p000069
+      - YS-LN02/Text/part0016.xhtml/p000070
+      - YS-LN02/Text/part0016.xhtml/p000071
+      - YS-LN02/Text/part0016.xhtml/p000073
+      - YS-LN02/Text/part0016.xhtml/p000076
+      - YS-LN02/Text/part0016.xhtml/p000078
+      - YS-LN02/Text/part0016.xhtml/p000079
+    reason: >
+      Tuân thủ canon/glossary.yml (Bộ Tổng tham mưu, Đại Quân, Quân đội Đế quốc, Liên minh Entente)
+      và hệ thuật ngữ tổ chức đã khóa xuyên suốt Quyển 2 Chương 1–3.
+  - term_id: P03-B03-T05
+    canonical_target: "chuyên gia đột kích cơ động"
+    status: propose_keep_consistent
+    segment_ids:
+      - YS-LN02/Text/part0016.xhtml/p000074
+    reason: >
+      Biểu đạt chính xác vai trò tác chiến thọc sâu cơ động của Tiểu đoàn Pháp sư 203 trong chiến dịch Dacia,
+      tự nhiên trong văn cảnh quân sự tiếng Việt.
+term_recommendations:
+  - term: "General von Wragell / Lieutenant General and Chief of Staff von Schreise"
+    recommended_vi: "Thượng tướng von Wragell / Trung tướng kiêm Tham mưu trưởng von Schreise"
+    decision: lock_for_batch
+    notes: "Đồng bộ P03-B01-T05, P03-B01-T07 trong work/run-state/pending-terms.yml."
+  - term: "spring offensive"
+    recommended_vi: "chiến dịch tấn công mùa xuân"
+    decision: lock_for_batch
+    notes: "Đồng bộ P03-B02-T06 và handoffs/vol-02/ch-03-b03.yml."
+  - term: "Noh mask"
+    recommended_vi: "mặt nạ Noh"
+    decision: lock_for_batch
+    notes: "Đồng bộ P03-B02-T05 và handoffs/vol-02/ch-03-b03.yml."
+  - term: "Central Army / Central / General Staff / Operations Division of the General Staff"
+    recommended_vi: "Quân Trung ương / Trung ương / Bộ Tổng tham mưu / Cục Tác chiến của Bộ Tổng tham mưu"
+    decision: lock_for_batch
+    notes: "Đồng bộ canon/glossary.yml và chuỗi batch Chương 2–3."
+  - term: "section chief (General Staff major general)"
+    recommended_vi: "trưởng ban (hoặc trưởng bộ phận) trong Bộ Tổng tham mưu"
+    decision: lock_for_batch
+    notes: "Giữ cách dịch 'trưởng ban' ở p000071, rõ chức vụ tham mưu của thiếu tướng Bộ Tổng tham mưu."
+  - term: "fire ship"
+    recommended_vi: "con tàu nhử hỏa lực (hoặc tàu cảm tử thu hút hỏa lực)"
+    decision: lock_for_batch
+    notes: "Cách dịch giải nghĩa 'con tàu nhử hỏa lực để bảo vệ phần còn lại của hạm đội' ở p000072 làm rõ ẩn dụ người đứng mũi chịu sào."
+  - term: "mobile penetration expert"
+    recommended_vi: "chuyên gia đột kích cơ động"
+    decision: lock_for_batch
+    notes: "Chuẩn xác về thuật ngữ tác chiến và khớp hồ sơ chiến tích tại Dacia của Tanya."
+  - term: "Great Army / Northern Army Group / Entente Alliance"
+    recommended_vi: "Đại Quân / Cụm tập đoàn quân phương Bắc / Liên minh Entente"
+    decision: lock_for_batch
+    notes: "Khớp canon/glossary.yml và các đề xuất đã khóa trong Chương 1–3."
+locked_choices:
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000065
+    choices:
+      - "Thượng tướng von Wragell"
+      - "Trung tướng kiêm Tham mưu trưởng von Schreise"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000066
+    choices:
+      - "Đại từ phát biểu công khai: Tôi / ta"
+      - "lùi tuyến phòng thủ"
+      - "chiến dịch tấn công mùa xuân"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000067
+    choices:
+      - "mặt nạ Noh"
+      - "sĩ quan tham mưu"
+      - "Cần đổi đại từ trần thuật chỉ Tanya sang 'nó' (hoặc lược) theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000068
+    choices:
+      - "Cụm tập đoàn quân phương Bắc"
+      - "Thiếu tướng von Rudersdorf"
+      - "Cần đổi đại từ nội tâm sang 'mình' và trần thuật sang 'nó' theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000069
+    choices:
+      - "Quân Trung ương"
+      - "Bộ Tổng tham mưu"
+      - "hệ thống chỉ huy của Cụm tập đoàn quân phương Bắc"
+      - "rút ngắn và hợp nhất các tuyến"
+      - "Cần đổi đại từ trần thuật chỉ Tanya sang 'nó' theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000070
+    choices:
+      - "Cục Tác chiến của Bộ Tổng tham mưu"
+      - "Cần đổi đại từ nội tâm sang 'mình' và sửa 'nhiệm vụ của mình' thành 'việc của ông ta' theo F01, F02"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000071
+    choices:
+      - "thiếu tướng trong Bộ Tổng tham mưu giữ chức trưởng ban"
+      - "chỉ huy lữ đoàn"
+      - "Cần thống nhất đại từ nội tâm 'mình' ở cả hai vế câu cuối theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000072
+    choices:
+      - "con tàu nhử hỏa lực để bảo vệ phần còn lại của hạm đội"
+      - "Cần đổi đại từ nội tâm sang 'mình' theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000073
+    choices:
+      - "nhóm được phái đến từ Trung ương"
+      - "Cần đổi đại từ nội tâm sang 'mình' theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000074
+    choices:
+      - "cuộc tấn công với quy mô cấp trung đoàn"
+      - "chuyên gia đột kích cơ động"
+      - "Cần đổi đại từ nội tâm sang 'mình' theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000075
+    choices:
+      - "máy bay ném bom"
+      - "Cần đổi đại từ nội tâm sang 'Tiểu đoàn của mình' / 'Đơn vị mình' / 'Chúng ta' theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000076
+    choices:
+      - "Thiếu tá von Degurechaff"
+      - "Cụm tập đoàn quân phương Bắc"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000077
+    choices:
+      - "Cần đổi đại từ nội tâm sang 'mình' ('Ông ta mặt dày hơn mình tưởng') theo F01"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000078
+    choices:
+      - "Trung ương"
+      - "tuyến tiếp tế"
+      - "Đại Quân"
+      - "mặt trận Rhine"
+      - "Tướng von Rudersdorf"
+  - segment_id: YS-LN02/Text/part0016.xhtml/p000079
+    choices:
+      - "Cụm tập đoàn quân phương Bắc của Quân đội Đế quốc"
+      - "Norden"
+      - "Liên minh Entente"
+      - "tập kích du kích"
+validator: not_run
+diff_check: not_run
+commit: null
