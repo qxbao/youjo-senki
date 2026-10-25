@@ -28,7 +28,7 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-03-b15-source.jsonl
 source_package_sha256: 3c70d1bd529d057a75df7603637fdedf452419fc67346413975dc8e36db3218c
 translation_editor: codex-coordinator
-status: ready
+status: done
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -66,7 +66,10 @@ review_coordination:
   state: resolved
   provisional_choices_recorded_in: work/run-state/pending-terms.yml#chapter3_b15_translation_proposals
   review_report: reviews/prose/vol-02/ch-03-b15-claude.md
-  severity_counts: {serious: 0, moderate: 3, minor: 11}
+  severity_counts:
+    serious: 0
+    moderate: 3
+    minor: 11
   reported_findings:
   - p000193+p000211: unify marine terminology as thủy quân lục chiến
   - p000204+p000210: distinguish airborne/parachute action from amphibious landing
@@ -83,9 +86,13 @@ review_coordination:
     state: done
     validator: pass
     diff_check: pass
-    fixed_findings: [marine terminology, airborne/parachute distinction, p000212 meaning]
+    fixed_findings:
+    - marine terminology
+    - airborne/parachute distinction
+    - p000212 meaning
     pending_terms:
-    - marine regiment / marine mages: trung đoàn thủy quân lục chiến / pháp sư thủy quân lục chiến
+    - marine regiment / marine mages: trung đoàn thủy quân lục chiến / pháp sư thủy
+        quân lục chiến
     - airborne gear: trang bị nhảy dù
     report_state: coordinator_terminal_yaml_received
   final_signoff:
@@ -93,6 +100,20 @@ review_coordination:
     review_report: reviews/prose/vol-02/ch-03-b15-fixes-signoff-claude.md
     session_id: 6ddf39f0-08ae-46d5-8f79-4d90cd3d7f50
     state: done
-    severity_counts: {serious: 0, moderate: 0, minor: 3}
+    severity_counts:
+      serious: 0
+      moderate: 0
+      minor: 3
     prior_moderate_resolved: true
     unresolved_findings: []
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-03-b15
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 128
+  state: released
+  allowlist:
+  - translations/vol-02/ch-03-b15.jsonl
