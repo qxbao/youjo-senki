@@ -28,12 +28,14 @@ source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-02-b01-source.jsonl
 source_package_sha256: 359271364d3876cd87178f19a777f858b63e383332502ef6ff0353260434c735
 translation_editor: codex-coordinator
-status: ready
+status: done
 translation_report:
   state: followup_done
   validator: pass
   diff_check: pass
-  findings: [M1 consistent address; M2 character-specific pending pronoun; M3 “cũng” confirmed present]
+  findings:
+  - M1 consistent address; M2 character-specific pending pronoun; M3 “cũng” confirmed
+    present
   followup_task: vol-02-ch-02-b01-review-fixes
   followup_agent_session_id: 01a13052-d74e-7260-9110-01d304b867b6
   pending_term_groups: 4
@@ -51,9 +53,10 @@ planning:
   max_source_words: 900
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0014.xhtml/p000025
-
 review_coordination:
-  triggered_by: [even_batch, new_pending_terms]
+  triggered_by:
+  - even_batch
+  - new_pending_terms
   serious: 0
   moderate: 0
   action: signoff_complete
@@ -61,9 +64,21 @@ review_coordination:
   review_report: reviews/prose/vol-02/ch-02-b01-claude.md
   signoff_report: reviews/prose/vol-02/ch-02-b01-fixes-signoff-claude.md
   minor_open: 1
-  resolved_in_initial_translation: [p000018 interior “mình cũng” preserved]
+  resolved_in_initial_translation:
+  - p000018 interior “mình cũng” preserved
   provisional_review_choices:
     superior_address_to_sue: ông consistently at p000002/p000007/p000009
     sue_interior_self_reference: mình; character-specific pending choice
     fatherland: Tổ quốc
     the_republic: Cộng hòa, identity open
+lease:
+  holder: ys-coord-backfill-polish
+  task_id: vol-02-ch-02-b01
+  role: coordinator
+  pane_id: w6:p15W
+  terminal_id: term_65e9b6566910d3
+  agent_session_id: b5943c5a-7590-4c02-a2c2-3414ad307273
+  checkpoint_generation: 95
+  state: released
+  allowlist:
+  - translations/vol-02/ch-02-b01.jsonl
