@@ -1,0 +1,192 @@
+task_id: vol-05-ch-03-b13-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 1
+  minor: 3
+findings:
+  - segment_id: YS-LN05/Text/part0020.html/p000110
+    severity: moderate
+    issue: "Thành ngữ chỉ việc để tuột chiến thắng và chuốc lấy thất bại ngay khi thắng lợi đã ở rất gần bị dịch thành 'chứng kiến biết bao thất bại bị giật khỏi tay ngay trước ngưỡng cửa chiến thắng'. Trong tiếng Việt, 'thất bại bị giật khỏi tay' mang nghĩa đánh mất thất bại (tức thoát khỏi thất bại), làm đảo ngược ý cảnh giác của Drake rằng dù nắm ưu thế sát nút vẫn có thể nhận lấy thất bại ngay trước ngưỡng cửa chiến thắng."
+    recommendation: "Diễn đạt lại đúng chiều nghĩa của thành ngữ, ví dụ: 'Ông đã chứng kiến biết bao cảnh phải chuốc lấy thất bại ngay trước ngưỡng cửa chiến thắng, khi thắng lợi chỉ còn cách một tầm tay.' hoặc 'Ông đã chứng kiến biết bao thất bại ập đến ngay từ ngưỡng cửa chiến thắng khi chỉ còn cách một tầm với.'"
+  - segment_id: YS-LN05/Text/part0020.html/p000088
+    severity: minor
+    issue: "Câu thứ hai mở đầu bằng cấu trúc phủ định thể hiện ý nhận xét chua chát rằng giờ có nhận ra thì cũng chẳng làm được gì, nhưng bản dịch viết 'Dù giờ đây họ có thể làm gì được về chuyện đó nữa đâu' khiến liên từ nhượng bộ 'Dù' lệch khớp ngữ pháp với cấu trúc nghi vấn tu từ phía sau."
+    recommendation: "Đổi sang câu phủ định hoặc chuyển tiếp tự nhiên hơn: 'Mà giờ đây họ cũng chẳng thể làm gì được về chuyện đó nữa.' hoặc 'Có điều giờ đây họ cũng đâu thể làm gì được về chuyện đó nữa.'"
+  - segment_id: YS-LN05/Text/part0020.html/p000102
+    severity: minor
+    issue: "Trong cuộc trao đổi qua vô tuyến với Anjou CP, Drake dùng đại từ ngôi thứ nhất số nhiều 'chúng tôi' ở p000095 và p000107 để chỉ lực lượng pháp sư dưới quyền mình (đối lập với phía Anjou CP gọi Drake và đơn vị của ông là 'anh / các anh' ở p000101, p000106), nhưng ở p000102 khi đáp lại Anjou CP về việc đối đầu với tiểu đoàn địch và so sánh quân số lại chuyển sang 'chúng ta'."
+    recommendation: "Đồng bộ đại từ thành 'chúng tôi' trong lời đáp của Drake với Anjou CP tại p000102 ('...vẫn sẽ là một cuộc vật lộn đầy cam go đối với chúng tôi. Đụng độ với các lực lượng khác của Đế quốc có quân số ngang ngửa chúng tôi còn dễ thở hơn nhiều.')."
+  - segment_id: YS-LN05/Text/part0020.html/p000103
+    severity: minor
+    issue: "Động từ bị động ở câu cuối chỉ sự tiêu hao, bào mòn lực lượng qua thời gian chiến đấu từ đầu cuộc chiến bị dịch hẹp thành 'bị bào mòn sức lực', làm mờ quan hệ nhân quả trực tiếp với câu tiếp theo (p000104) nói về việc đơn vị đang phải bù đắp các tổn thất quân số bằng lính mới và tân binh."
+    recommendation: "Lược chữ 'sức lực' hoặc diễn đạt theo hướng hao hụt lực lượng: 'Tuy nói vậy, lực lượng của họ đã bị bào mòn kể từ khi cuộc chiến bắt đầu.' (hoặc 'Tuy nói vậy, họ đã bị tiêu hao dần kể từ khi cuộc chiến bắt đầu.')."
+pending_term_recommendations:
+  - source_term: high-speed military transport ship
+    proposed_vi: tàu vận tải quân sự cao tốc
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với phương án tạm 'tàu vận tải quân sự' trong sổ pending của vol-05, bổ sung chính xác thuộc tính tốc độ cao của tàu."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000082
+  - source_term: General Habergram
+    proposed_vi: Tướng Habergram
+    category: nhân vật / quân hàm
+    status: proposed
+    rationale: "Thống nhất với cách gọi nhân vật Habergram trong sổ pending của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000084
+  - source_term: Named / Named unit
+    proposed_vi: "Pháp sư Định danh / đơn vị Pháp sư Định danh"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ nhất quán với phương án tạm đã khóa xuyên suốt vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000086
+      - YS-LN05/Text/part0020.html/p000091
+      - YS-LN05/Text/part0020.html/p000096
+      - YS-LN05/Text/part0020.html/p000111
+  - source_term: Imperial Army General Staff
+    proposed_vi: Bộ Tổng tham mưu Lục quân Đế quốc
+    category: tên cơ quan
+    status: proposed
+    rationale: "Thống nhất với phương án tạm trong sổ pending từ vol-02 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000088
+  - source_term: Rhine front
+    proposed_vi: mặt trận Rhine
+    category: địa danh / chiến trường
+    status: proposed
+    rationale: "Giữ thống nhất với phương án tạm trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000091
+  - source_term: voluntary army / voluntary mage company / voluntary troops
+    proposed_vi: "đội quân tình nguyện / đại đội pháp sư tình nguyện / đám quân tình nguyện"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ nhất quán gốc thuật ngữ 'quân tình nguyện' từ vol-04, điều chỉnh danh từ đơn vị và sắc thái khẩu ngữ phù hợp với lời thoại của Drake."
+    alternatives_vi:
+      - lực lượng quân tình nguyện
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000093
+      - YS-LN05/Text/part0020.html/p000095
+      - YS-LN05/Text/part0020.html/p000105
+  - source_term: Unified States
+    proposed_vi: Hợp chúng quốc
+    category: tên gọi
+    status: proposed
+    rationale: "Khớp với phương án tạm đã dùng xuyên suốt vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000093
+  - source_term: Pirate 01 / Anjou CP / Anjou
+    proposed_vi: "Pirate 01 / Anjou CP / tàu *Anjou*"
+    category: hô hiệu / tên tàu
+    status: proposed
+    rationale: "Giữ nguyên hô hiệu vô tuyến Pirate 01 và Anjou CP theo quy ước các tập trước; giữ định dạng in nghiêng cho tên tàu *Anjou*."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000094
+      - YS-LN05/Text/part0020.html/p000105
+      - YS-LN05/Text/part0020.html/p000106
+  - source_term: direct support
+    proposed_vi: nhiệm vụ yểm trợ trực tiếp
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với phương án tạm trong sổ pending từ vol-04."
+    alternatives_vi:
+      - yểm trợ trực tiếp
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000094
+  - source_term: marine mages
+    proposed_vi: pháp sư hải quân đánh bộ
+    category: thuật ngữ
+    status: proposed
+    rationale: "Thống nhất với phương án tạm trong sổ pending từ vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000103
+      - YS-LN05/Text/part0020.html/p000109
+  - source_term: fog of war
+    proposed_vi: sương mù chiến tranh
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với phương án tạm trong sổ pending của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000110
+  - source_term: God
+    proposed_vi: Thượng đế
+    category: tên gọi
+    status: proposed
+    rationale: "Giữ thống nhất với phương án tạm trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000111
+  - source_term: Imperial Army
+    proposed_vi: Lục quân Đế quốc
+    category: tên cơ quan / quân chủng
+    status: proposed
+    rationale: "Thống nhất với phương án tạm đã khóa trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000111
+locked_choices:
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000081
+      - YS-LN05/Text/part0020.html/p000083
+      - YS-LN05/Text/part0020.html/p000084
+      - YS-LN05/Text/part0020.html/p000085
+      - YS-LN05/Text/part0020.html/p000086
+      - YS-LN05/Text/part0020.html/p000087
+      - YS-LN05/Text/part0020.html/p000088
+      - YS-LN05/Text/part0020.html/p000089
+      - YS-LN05/Text/part0020.html/p000091
+      - YS-LN05/Text/part0020.html/p000092
+      - YS-LN05/Text/part0020.html/p000093
+      - YS-LN05/Text/part0020.html/p000097
+      - YS-LN05/Text/part0020.html/p000098
+      - YS-LN05/Text/part0020.html/p000099
+      - YS-LN05/Text/part0020.html/p000103
+      - YS-LN05/Text/part0020.html/p000104
+      - YS-LN05/Text/part0020.html/p000108
+      - YS-LN05/Text/part0020.html/p000109
+      - YS-LN05/Text/part0020.html/p000110
+      - YS-LN05/Text/part0020.html/p000111
+    category: điểm nhìn và đại từ quy chiếu phía Drake
+    choice: "Trần thuật ngôi thứ ba quy chiếu Trung tá Drake bằng 'ông' và đơn vị của ông bằng 'họ'; trong độc thoại nội tâm và lời hiệu triệu đơn vị (p000084, p000086, p000089, p000093, p000098), Drake dùng 'chúng ta'; đối phương (Tiểu đoàn 203 của Đế quốc) được quy chiếu nhất quán là 'chúng'."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000094
+      - YS-LN05/Text/part0020.html/p000095
+      - YS-LN05/Text/part0020.html/p000096
+      - YS-LN05/Text/part0020.html/p000100
+      - YS-LN05/Text/part0020.html/p000101
+      - YS-LN05/Text/part0020.html/p000102
+      - YS-LN05/Text/part0020.html/p000105
+      - YS-LN05/Text/part0020.html/p000106
+      - YS-LN05/Text/part0020.html/p000107
+    category: đại từ và xưng hô trong thoại vô tuyến giữa Pirate 01 và Anjou CP
+    choice: "Trong liên lạc vô tuyến giữa Pirate 01 (Drake) và Anjou CP, hai bên xưng 'tôi' (hoặc 'chúng tôi' khi Drake đại diện cho lực lượng pháp sư dưới quyền ở p000095, p000102, p000107) và gọi đối phương là 'anh / các anh' (p000101, p000106); Anjou CP dùng 'chúng ta' ở p000094 khi nói về thế phòng thủ chung trước tàu ngầm."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000085
+      - YS-LN05/Text/part0020.html/p000086
+      - YS-LN05/Text/part0020.html/p000092
+      - YS-LN05/Text/part0020.html/p000094
+      - YS-LN05/Text/part0020.html/p000098
+    category: nhấn mạnh Markdown
+    choice: "Theo DEC-P01-002: giữ đúng dấu *...* cho 5 vị trí có thẻ em trong nguồn (p000085, p000086, p000092, tên tàu *Anjou* ở p000094, và p000098); không tự thêm in nghiêng ở các câu trần thuật tâm lý khác."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000081
+      - YS-LN05/Text/part0020.html/p000088
+      - YS-LN05/Text/part0020.html/p000089
+      - YS-LN05/Text/part0020.html/p000102
+      - YS-LN05/Text/part0020.html/p000104
+      - YS-LN05/Text/part0020.html/p000109
+      - YS-LN05/Text/part0020.html/p000110
+    category: cấu trúc tăng tiến, giả định và phủ định
+    choice: "Giữ đúng cấu trúc tăng tiến 'không chỉ... mà thậm chí còn...' ở p000081; giả định nuối tiếc ở quá khứ 'Đáng lẽ ông phải lường trước được...' tại p000088; phủ định kép ở p000089 ('không thể để... mà không...') và p000109 ('Không chút tự phụ hay kẻ cả'); điều kiện nhượng bộ ở p000102 ('Cho dù... đi chăng nữa') và p000104 ('Nếu... thì dù đáng tiếc đến mấy, họ vẫn phải tính đến khả năng...')."
