@@ -1,0 +1,213 @@
+task_id: vol-05-ch-02-b15-argon-review
+parent_task_id: vol-05-ch-02-b15
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 2
+target_translation: translations/vol-05/ch-02-b15.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0016.html/p000330
+    severity: minor
+    category: terminology
+    issue: "Chức danh 'Sea Lords' trong cơ cấu Bộ Tư lệnh Hải quân Khối Thịnh vượng chung (mô phỏng Hải quân Hoàng gia Anh, song hành với 'First Lord of the Admiralty' ở p000308) chỉ các tướng lĩnh/ủy viên hải sự chuyên trách (First Sea Lord, Second Sea Lord...); dịch thành 'các vị Hải thần vương' dễ gây liên tưởng đến danh xưng thần thoại hơn là chức danh hải quân."
+    recommendation: "Khi chuốt văn có thể cân nhắc đổi 'các vị Hải thần vương' thành 'các vị Đại thần Hải vụ' hoặc 'các vị Ủy viên Hải quân' để đồng bộ với 'Đệ nhất Đại thần Hải quân' ở p000308."
+  - segment_id: YS-LN05/Text/part0016.html/p000341
+    severity: minor
+    category: word_choice
+    issue: "Danh từ chỉ khu vực nơi Hạm đội Biển khơi của Đế quốc đang hoạt động (đối lập với 'vùng biển ven bờ của chúng ta' ở câu trước) mang nghĩa vùng biển hoặc địa bàn hoạt động trên đại dương; dịch thành 'vùng lãnh hải' hơi thu hẹp vào khái niệm pháp lý vùng biển thuộc chủ quyền ven bờ."
+    recommendation: "Khi chuốt văn có thể cân nhắc đổi 'vùng lãnh hải' thành 'vùng biển' hoặc 'địa bàn'."
+pending_term_recommendations:
+  - source_term: First Lord of the Admiralty
+    proposed_vi: "Đệ nhất Đại thần Hải quân"
+    category: chức danh chính phủ / quân sự
+    status: proposed
+    rationale: "Cách dịch chuẩn xác theo danh xưng lịch sử của người đứng đầu về mặt chính trị tại Bộ Tư lệnh Hải quân Anh/Khối Thịnh vượng chung (tương ứng với chức vụ từng nắm giữ của nguyên mẫu Churchill)."
+    alternatives_vi:
+      - "Bộ trưởng Hải quân"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000308
+  - source_term: anti-sub combat
+    proposed_vi: "tác chiến chống ngầm"
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thuật ngữ hải quân chuẩn và tự nhiên trong tiếng Việt để chỉ hoạt động săn ngầm/chống tàu ngầm."
+    alternatives_vi:
+      - "chiến đấu chống tàu ngầm"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000311
+      - YS-LN05/Text/part0016.html/p000316
+  - source_term: continental state / maritime state (maritime nation)
+    proposed_vi: "quốc gia lục địa / quốc gia biển"
+    category: thuật ngữ địa chính trị
+    status: proposed
+    rationale: "Phản ánh rõ cặp khái niệm đối lập địa chính trị giữa cường quốc lục địa (Đế quốc) và cường quốc biển/hàng hải (Khối Thịnh vượng chung)."
+    alternatives_vi:
+      - "quốc gia lục địa / quốc gia hàng hải"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000313
+      - YS-LN05/Text/part0016.html/p000325
+  - source_term: decisive fleet battle
+    proposed_vi: "trận quyết chiến hạm đội"
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thuật ngữ hải chiến chuẩn tương ứng với học thuyết quyết chiến hạm đội (Kantai Kessen), đồng bộ với 'Học thuyết Quyết chiến' trong sổ pending-terms."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000319
+      - YS-LN05/Text/part0016.html/p000328
+      - YS-LN05/Text/part0016.html/p000331
+  - source_term: Sea Lords
+    proposed_vi: "các vị Đại thần Hải vụ"
+    category: chức danh quân sự
+    status: proposed
+    rationale: "Chỉ nhóm tướng lĩnh hải quân chuyên trách trong Ủy ban Bộ Tư lệnh Hải quân (Board of Admiralty), song hành tự nhiên với chức danh chính trị 'Đệ nhất Đại thần Hải quân' (First Lord of the Admiralty) ở p000308."
+    alternatives_vi:
+      - "các vị Ủy viên Hải quân"
+      - "các vị Hải quân Đại thần"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000330
+locked_choices:
+  - segment_id: YS-LN05/Text/part0016.html/p000297
+    choices:
+      - "Tên cơ quan và thuật ngữ: 'Foreign Office' -> 'Bộ Ngoại giao', 'propaganda war' -> 'cuộc chiến tuyên truyền', 'military practicality' -> 'tính thực tiễn về mặt quân sự'."
+  - segment_id: YS-LN05/Text/part0016.html/p000298
+    choices:
+      - "Giữ câu hỏi ngắn gọn trong cuộc họp: 'the navy' -> 'Bên hải quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000299
+    choices:
+      - "Ngôi xưng đại diện hải quân: 'We' -> 'Chúng tôi'; giữ câu trả lời phản đối dứt khoát."
+  - segment_id: YS-LN05/Text/part0016.html/p000300
+    choices:
+      - "Giữ câu hỏi ngắn gọn: 'Phản đối ư?'."
+  - segment_id: YS-LN05/Text/part0016.html/p000301
+    choices:
+      - "Ngôi xưng và cấu trúc phủ định: 'I' -> 'tôi', 'we' -> 'chúng ta'; giữ đúng cấu trúc phủ định kép 'không phải là tôi không hiểu mục tiêu đó'."
+  - segment_id: YS-LN05/Text/part0016.html/p000302
+    choices:
+      - "Thuật ngữ: 'those in the field' -> 'những người ở thực địa', 'navy representatives' -> 'các vị đại diện hải quân'; giữ đúng sắc thái đánh giá của người quan sát."
+  - segment_id: YS-LN05/Text/part0016.html/p000303
+    choices:
+      - "Xưng hô và ngôi xưng: 'You' -> 'các vị', 'we' -> 'chúng ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000304
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'We' -> 'chúng tôi', 'our' -> 'của chúng ta', 'escort vessels' -> 'tàu hộ tống', 'maritime escort efforts' -> 'các nỗ lực hộ tống trên biển'."
+  - segment_id: YS-LN05/Text/part0016.html/p000305
+    choices:
+      - "Giữ câu hỏi ngắn biểu thị sự tức giận/ngạc nhiên: 'Cái gì?'."
+  - segment_id: YS-LN05/Text/part0016.html/p000306
+    choices:
+      - "Chức danh và tên riêng: 'Prime Minister Churbull' -> 'Thủ tướng Churbull', 'the navy' -> 'bên hải quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000307
+    choices:
+      - "Giữ câu nhận định khẳng định tính tất yếu: 'Mà làm sao thay đổi cho được.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000308
+    choices:
+      - "Xưng hô và chức danh: 'Mr. Prime Minister' -> 'Thưa Thủ tướng', 'I' -> 'tôi', 'you/your' -> 'ngài', 'First Lord of the Admiralty' -> 'Đệ nhất Đại thần Hải quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000309
+    choices:
+      - "Xưng hô, thuật ngữ và dấu câu: 'you' -> 'ông', 'I' -> 'tôi', 'destroyers' -> 'tàu khu trục'; giữ dấu ba chấm mở đầu câu."
+  - segment_id: YS-LN05/Text/part0016.html/p000310
+    choices:
+      - "Thuật ngữ và dấu câu: 'destroyers' -> 'tàu khu trục', 'rate of attrition' -> 'tốc độ tiêu hao', 'main fleet' -> 'hạm đội chủ lực', 'escorts' -> 'tàu hộ tống'; giữ dấu ba chấm bỏ lửng cuối câu."
+  - segment_id: YS-LN05/Text/part0016.html/p000311
+    choices:
+      - "Thuật ngữ: 'the fleet' -> 'hạm đội', 'anti-sub combat' -> 'tác chiến chống ngầm'."
+  - segment_id: YS-LN05/Text/part0016.html/p000312
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'I' -> 'tôi', 'imperial submarines' -> 'Tàu ngầm Đế quốc', 'ours' -> 'tàu ngầm của chúng ta'; giữ câu hỏi mỉa mai cuối đoạn."
+  - segment_id: YS-LN05/Text/part0016.html/p000313
+    choices:
+      - "Tên riêng, thuật ngữ và dấu câu: 'the Empire' -> 'Đế quốc', 'continental state' -> 'quốc gia lục địa', 'us' -> 'chúng ta', 'maritime state' -> 'quốc gia biển', 'maritime trading routes' -> 'các tuyến thương mại đường biển'; giữ dấu ba chấm đầu câu."
+  - segment_id: YS-LN05/Text/part0016.html/p000314
+    choices:
+      - "Xưng hô và thuật ngữ: 'you' -> 'các vị', 'our trading routes' -> 'các tuyến thương mại của chúng ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000315
+    choices:
+      - "Chức danh, tên riêng và đại từ: 'The representative' -> 'Vị đại diện', 'Prime Minister Churbull' -> 'Thủ tướng Churbull', 'him/his' -> 'ông ta / của mình'."
+  - segment_id: YS-LN05/Text/part0016.html/p000316
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'we' -> 'chúng ta', 'trading route' -> 'tuyến thương mại', 'destroyers' -> 'tàu khu trục', 'the fleet' -> 'hạm đội', 'marine mages' -> 'pháp sư hải quân đánh bộ', 'anti-sub combat' -> 'tác chiến chống ngầm'."
+  - segment_id: YS-LN05/Text/part0016.html/p000317
+    choices:
+      - "Chức danh và thuật ngữ: 'the prime minister' -> 'vị thủ tướng', 'naval officers' -> 'các sĩ quan hải quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000318
+    choices:
+      - "Xưng hô và cảm thán: 'Mr. Prime Minister' -> 'Thưa Thủ tướng'; giữ lời van nài khẩn thiết."
+  - segment_id: YS-LN05/Text/part0016.html/p000319
+    choices:
+      - "Xưng hô và thuật ngữ: 'you' -> 'ngài', 'we' -> 'chúng ta', 'fleet’s destroyers' -> 'Các tàu khu trục của hạm đội', 'decisive fleet battles' -> 'những trận quyết chiến hạm đội', 'attrition battle' -> 'trận chiến tiêu hao', 'enemy fleet' -> 'hạm đội địch'."
+  - segment_id: YS-LN05/Text/part0016.html/p000320
+    choices:
+      - "Giữ nguyên hình ảnh đối lập giữa những người am hiểu biển cả và việc quên mất mình đang ở trên một ngọn đồi."
+  - segment_id: YS-LN05/Text/part0016.html/p000321
+    choices:
+      - "Giữ câu quát ngắn gọn: 'Câm miệng!'."
+  - segment_id: YS-LN05/Text/part0016.html/p000322
+    choices:
+      - "Giữ câu danh ngữ ngắn gọn: 'Một tiếng quát.'."
+  - segment_id: YS-LN05/Text/part0016.html/p000323
+    choices:
+      - "Chức danh: 'the prime minister' -> 'vị thủ tướng', 'the men from the navy' -> 'những người bên hải quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000324
+    choices:
+      - "Tên riêng và thuật ngữ: 'The Commonwealth' -> 'Khối Thịnh vượng chung', 'maritime trading routes' -> 'các tuyến thương mại đường biển'."
+  - segment_id: YS-LN05/Text/part0016.html/p000325
+    choices:
+      - "Thuật ngữ và đại từ: 'maritime nation' -> 'quốc gia biển', 'They/their' -> 'Họ / của họ', 'foreign lands' -> 'các vùng đất hải ngoại'."
+  - segment_id: YS-LN05/Text/part0016.html/p000326
+    choices:
+      - "Đại từ: 'they/their' -> 'họ / của họ'; giữ cấu trúc điều kiện."
+  - segment_id: YS-LN05/Text/part0016.html/p000327
+    choices:
+      - "Tên riêng: 'the Commonwealth' -> 'Khối Thịnh vượng chung'; giữ quan hệ nhượng bộ 'Dù tán thành hay phản đối'."
+  - segment_id: YS-LN05/Text/part0016.html/p000328
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'we/us/our' -> 'chúng ta', 'I' -> 'Tôi', 'the navy' -> 'hải quân', 'seawalls' -> 'các bức tường thành trên biển', 'decisive fleet battle' -> 'trận quyết chiến hạm đội'."
+  - segment_id: YS-LN05/Text/part0016.html/p000329
+    choices:
+      - "Giữ dấu ba chấm và câu nhận lệnh ngắn gọn: '…Rõ.'."
+  - segment_id: YS-LN05/Text/part0016.html/p000330
+    choices:
+      - "Chức danh và cấu trúc phủ định: giữ cấu trúc phủ định kép 'Không một ai là không thông cảm'; với 'Sea Lords', có thể giữ hoặc đổi 'các vị Hải thần vương' thành 'các vị Đại thần Hải vụ' (hoặc 'các vị Ủy viên Hải quân') khi chuốt văn để đồng bộ với 'Đệ nhất Đại thần Hải quân' ở p000308."
+  - segment_id: YS-LN05/Text/part0016.html/p000331
+    choices:
+      - "Đại từ và thuật ngữ: 'Their/them' -> 'của họ / họ', 'northern seas' -> 'Các vùng biển phía bắc', 'decisive fleet battle' -> 'trận quyết chiến hạm đội'; giữ tình thái suy đoán 'Có lẽ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000332
+    choices:
+      - "Thuật ngữ: 'the state' -> 'quốc gia', 'big plan' -> 'đại kế hoạch'."
+  - segment_id: YS-LN05/Text/part0016.html/p000333
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'we' -> 'Chúng ta / chúng ta', 'the navy' -> 'hải quân', 'northern route' -> 'tuyến đường phía bắc', 'losses' -> 'tổn thất'."
+  - segment_id: YS-LN05/Text/part0016.html/p000334
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'we' -> 'chúng ta / ta', 'I' -> 'tôi', 'high-speed transport ships' -> 'tàu vận tải cao tốc', 'dangerous waters' -> 'các vùng biển nguy hiểm', 'Home Fleet' -> 'Hạm đội bản thổ', 'high-speed destroyers' -> 'các tàu khu trục cao tốc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000335
+    choices:
+      - "Ngôi xưng và thông số: 'I' -> 'Tôi', 'transport ships' -> 'những con tàu vận tải', 'eighteen knots minimum' -> 'tối thiểu là mười tám hải lý một giờ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000336
+    choices:
+      - "Giữ câu cảm thán bác bỏ ngắn gọn: 'Không thể nào!'."
+  - segment_id: YS-LN05/Text/part0016.html/p000337
+    choices:
+      - "Xưng hô và thuật ngữ: 'you' -> 'Các vị', 'attrition rate' -> 'tỷ lệ tiêu hao', 'our coastal waters' -> 'vùng biển ven bờ của chúng ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000338
+    choices:
+      - "Xưng hô và thuật ngữ: 'you' -> 'ông', 'we' -> 'chúng ta', 'enemy-controlled waters' -> 'vùng biển do địch kiểm soát', 'sluggish convoy' -> 'đoàn tàu hộ tống chậm chạp'."
+  - segment_id: YS-LN05/Text/part0016.html/p000339
+    choices:
+      - "Đại từ: 'they' -> 'họ'; giữ sự đối lập giữa việc bàn cách thực hiện và tính khả thi vốn không còn được đem ra bàn cãi."
+  - segment_id: YS-LN05/Text/part0016.html/p000340
+    choices:
+      - "Thuật ngữ: 'escort' -> 'lực lượng hộ tống'; giữ cấu trúc câu hỏi tu từ."
+  - segment_id: YS-LN05/Text/part0016.html/p000341
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'our coastal waters' -> 'vùng biển ven bờ của chúng ta', 'our fleet' -> 'hạm đội của ta', 'we' -> 'chúng ta', 'Imperial High Seas Fleet' -> 'Hạm đội Biển khơi của Đế quốc'; với 'territory', có thể giữ 'vùng lãnh hải' hoặc đổi thành 'vùng biển / địa bàn' khi chuốt văn."
+  - segment_id: YS-LN05/Text/part0016.html/p000342
+    choices:
+      - "Thuật ngữ: 'convoy' -> 'đoàn tàu hộ tống', 'surface-level ship' -> 'tàu chiến mặt nước'; giữ cấu trúc điều kiện 'Trừ khi... bằng không...'."
+  - segment_id: YS-LN05/Text/part0016.html/p000343
+    choices:
+      - "Thuật ngữ: 'aircraft or mages' -> 'máy bay hoặc pháp sư', 'convoy' -> 'đoàn tàu hộ tống'; giữ cấu trúc câu hỏi đề xuất phương án."
