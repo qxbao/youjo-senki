@@ -1,0 +1,494 @@
+task_id: "vol-06-ch-05-b16-argon-review"
+parent_task_id: "vol-06-ch-05-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 5
+source_package: "work/vol-06/batches/ch-05-b16-source.jsonl"
+target_translation: "translations/vol-06/ch-05-b16.jsonl"
+review_path: "reviews/prose/vol-06/ch-05-b16-argon-review.yml"
+output_review: "reviews/prose/vol-06/ch-05-b16-argon-review.yml"
+status: "completed"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN06/Text/part0025.html/p000100"
+    severity: "minor"
+    category: "modality_and_negation"
+    issue: "Cụm 'lẽ ra chúng ta phải kháng cự hiệu quả hơn chứ' thiên về sắc thái giả định trái thực tế hoặc trách móc một việc đã lỡ trong quá khứ, trong khi câu nói của Mary là suy luận điều kiện hướng tới hành động sắp tới: nếu hỗ trợ quân du kích thì họ hẳn sẽ có thể kháng cự hiệu quả hơn."
+    evidence: "Ở p000100, mệnh đề điều kiện đi kèm tình thái suy đoán về khả năng thực hiện ở hiện tại/tương lai, dẫn tới câu đáp của Drake ở p000101 rằng sự có mặt của họ thực chất chỉ gây phiền phức."
+    recommendation: "Đổi 'lẽ ra chúng ta phải kháng cự hiệu quả hơn chứ' thành 'hẳn chúng ta sẽ có thể kháng cự hiệu quả hơn chứ' (hoặc 'chúng ta đáng lẽ sẽ có thể kháng cự hiệu quả hơn chứ')."
+pending_term_recommendations:
+  - source_term: "partisans / partisan camp / partisan movement"
+    proposed_vi: "quân du kích (những người du kích) / phía quân du kích / phong trào du kích"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất cách dịch lực lượng du kích địa phương theo sổ pending tập 06 và lô ch-05-b15 liền trước."
+    alternatives_vi:
+      - "lực lượng du kích / phe du kích / phong trào kháng chiến du kích"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000098"
+      - "YS-LN06/Text/part0025.html/p000106"
+      - "YS-LN06/Text/part0025.html/p000108"
+      - "YS-LN06/Text/part0025.html/p000112"
+      - "YS-LN06/Text/part0025.html/p000115"
+      - "YS-LN06/Text/part0025.html/p000117"
+      - "YS-LN06/Text/part0025.html/p000121"
+      - "YS-LN06/Text/part0025.html/p000131"
+      - "YS-LN06/Text/part0025.html/p000140"
+  - source_term: "Imperial Army / regular army"
+    proposed_vi: "Lục quân Đế quốc / quân đội chính quy"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh Lục quân Đế quốc từ sổ pending và phân biệt rõ quân đội chính quy với lực lượng du kích địa phương."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000099"
+      - "YS-LN06/Text/part0025.html/p000106"
+      - "YS-LN06/Text/part0025.html/p000109"
+      - "YS-LN06/Text/part0025.html/p000123"
+  - source_term: "First Lieutenant Mary Sue / Lieutenant Sue / Lieutenant / Mary"
+    proposed_vi: "Trung úy Mary Sue / Trung úy Sue / Trung úy / Mary"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất cấp bậc Trung úy (First Lieutenant) của Mary Sue ở tập 06 và cách gọi tắt trong thoại của Drake theo các lô trước của chương 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000103"
+      - "YS-LN06/Text/part0025.html/p000106"
+      - "YS-LN06/Text/part0025.html/p000112"
+      - "YS-LN06/Text/part0025.html/p000125"
+      - "YS-LN06/Text/part0025.html/p000138"
+  - source_term: "Drake"
+    proposed_vi: "Drake"
+    category: "nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên tên họ nhân vật Trung tá Drake thống nhất xuyên suốt các tập 04–06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000105"
+      - "YS-LN06/Text/part0025.html/p000112"
+      - "YS-LN06/Text/part0025.html/p000115"
+      - "YS-LN06/Text/part0025.html/p000126"
+      - "YS-LN06/Text/part0025.html/p000139"
+  - source_term: "Commonwealth and Federation Armies"
+    proposed_vi: "Quân đội Khối Thịnh vượng chung và Quân đội Liên bang"
+    category: "quốc gia / tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa định danh Khối Thịnh vượng chung và Liên bang từ sổ pending tập 06; tách rõ danh từ Quân đội cho cả hai chủ thể giúp câu tiếng Việt tự nhiên và rõ nghĩa."
+    alternatives_vi:
+      - "Quân đội Khối Thịnh vượng chung lẫn Liên bang"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000108"
+  - source_term: "former Entente Alliance"
+    proposed_vi: "cựu Liên minh Hiệp ước"
+    category: "quốc gia / tổ chức"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh cựu Liên minh Hiệp ước từ sổ pending tập 06."
+    alternatives_vi:
+      - "Liên minh Hiệp ước cũ"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000109"
+      - "YS-LN06/Text/part0025.html/p000123"
+  - source_term: "law of war"
+    proposed_vi: "luật chiến tranh"
+    category: "thuật ngữ pháp lý / quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng trong sổ pending tập 06."
+    alternatives_vi:
+      - "luật pháp chiến tranh"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000110"
+  - source_term: "resistance fighter Colonel Anson Sue"
+    proposed_vi: "người chiến sĩ kháng chiến, Đại tá Anson Sue"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Dịch chuẩn xác cấp bậc Đại tá của Anson Sue và vai trò chiến sĩ kháng chiến theo mạch truyện."
+    alternatives_vi:
+      - "chiến sĩ kháng chiến – Đại tá Anson Sue"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000136"
+  - source_term: "fatherland / home country"
+    proposed_vi: "tổ quốc / quê hương"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán cách phân biệt sắc thái trang trọng của tổ quốc và sắc thái tình cảm gắn bó của quê hương theo sổ pending tập 06 (như ch-05-b10)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000141"
+      - "YS-LN06/Text/part0025.html/p000143"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0025.html/p000098"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "quân du kích -> Họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba bám điểm nhìn phân tích chiến thuật của Drake."
+    modality_and_negation: "Giữ tình thái suy luận hợp lý ('đều sẽ hiểu rõ') và mức độ giới hạn ('ở mức tối thiểu')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000099"
+    names_and_ranks:
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "regular army -> quân đội chính quy"
+    pronouns_and_address:
+      - "các mục tiêu/khu vực đó -> đó"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ trạng ngữ nhận định thẳng thắn ('Nói thẳng ra') và khả năng diễn ra ('có thể liên tục đụng độ')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000100"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary xưng hô với Drake -> Tôi - ngài"
+      - "Mary gộp đơn vị mình -> chúng ta"
+      - "quân du kích -> họ"
+    pov_and_narration: "Thoại trực tiếp của Mary phản bác Drake."
+    modality_and_negation: "Giữ phủ định toàn phần ở câu đầu ('Tôi chẳng hiểu một lời nào ngài đang nói cả.') và câu điều kiện suy đoán khả năng ở câu sau ('Nếu chúng ta giúp họ, hẳn chúng ta sẽ có thể kháng cự hiệu quả hơn chứ.' sau khi chỉnh)."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000101"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Drake tự xưng -> Tôi"
+      - "Drake gộp đơn vị mình -> chúng ta"
+    pov_and_narration: "Thoại trực tiếp của Drake đáp lại."
+    modality_and_negation: "Giữ mức độ chắc chắn vừa phải ('Tôi khá chắc rằng...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000102"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của Mary."
+    modality_and_negation: "Thán từ nghi vấn sửng sốt."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000103"
+    names_and_ranks:
+      - "First Lieutenant Mary Sue -> Trung úy Mary Sue"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô (phân biệt với 'nó' chỉ dùng cho Tanya theo DEC-P01-001)"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Drake."
+    modality_and_negation: "Giữ câu hỏi phỏng đoán phủ định ở quá khứ hoàn thành ('Có lẽ cô chưa từng nghĩ tới khả năng đó chăng?') và phép so sánh ở câu sau."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000104"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Drake chỉ Mary -> cô ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Drake."
+    modality_and_negation: "Giữ dấu ba chấm mở đầu và phủ định dự đoán ('*…Để làm cho cô ta hiểu được sẽ chẳng dễ dàng gì.*')."
+    emphasis: "Giữ đúng phạm vi Markdown '*...*' cho toàn câu khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000105"
+    names_and_ranks:
+      - "Drake -> Drake"
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Drake -> Mình"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Mệnh đề đầu là độc thoại nội tâm in nghiêng của Drake; phần sau là trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quyết tâm trong nội tâm ('*Mình sẽ phải nói toạc ra thôi*')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Mình sẽ phải nói toạc ra thôi*' (dấu phẩy nằm ngoài dấu sao) khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000106"
+    names_and_ranks:
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "Lieutenant -> Trung úy"
+    pronouns_and_address:
+      - "Drake xưng hô với Mary -> tôi - Trung úy, cô"
+      - "Drake gộp đơn vị mình -> Chúng ta, chúng ta"
+      - "quân du kích -> họ"
+      - "trần thuật về Drake -> Ông, mình"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Thoại trực tiếp của Drake xen kẽ một câu trần thuật ở giữa."
+    modality_and_negation: "Giữ so sánh thứ bậc ('chỉ đứng sau mỗi Lục quân Đế quốc'), mệnh đề phủ định kèm lời thỉnh cầu ('tôi biết cô không muốn nghe..., nhưng làm ơn hãy hiểu cho'), mức độ miễn cưỡng ('chỉ đang miễn cưỡng giúp') và phủ định khả năng được phép ('không thể gây quá nhiều rắc rối')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000107"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Drake gộp đơn vị mình -> chúng ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Drake."
+    modality_and_negation: "Giữ cấu trúc điều kiện - hệ quả ('*Nếu chúng ta tiến vào thành phố, ắt sẽ nảy sinh vấn đề.*')."
+    emphasis: "Giữ đúng phạm vi Markdown '*...*' cho toàn câu khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000108"
+    names_and_ranks:
+      - "Commonwealth and Federation Armies -> Quân đội Khối Thịnh vượng chung và Quân đội Liên bang"
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ cấu trúc liệt kê đồng thời ('cả phía quân du kích lẫn...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000109"
+    names_and_ranks:
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "former Entente Alliance -> cựu Liên minh Hiệp ước"
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ tình thái phỏng đoán kèm phủ định ('có lẽ cũng chẳng muốn giao chiến') và quan hệ nguyên nhân - kết quả ở câu sau."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000110"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ yêu cầu hạn chế có điều kiện ('đều phải được tránh hết mức có thể')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000111"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary gộp đơn vị mình -> Ch-chúng ta"
+    pov_and_narration: "Thoại trực tiếp của Mary."
+    modality_and_negation: "Giữ câu hỏi cảm thán và câu nói lắp bị ngắt quãng bởi gạch ngang dài ('“Cái gì?! Ch-chúng ta là—!”')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000112"
+    names_and_ranks:
+      - "Drake -> Drake"
+      - "Mary -> Mary"
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quan hệ thời gian ('Trước khi Drake kịp ngăn lại, Mary đã...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000113"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Drake -> mình"
+      - "trần thuật về Drake -> ông"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba có lồng mảnh suy nghĩ nội tâm in nghiêng của Drake."
+    modality_and_negation: "Giữ mệnh đề điều kiện ở câu đầu và cấu trúc phủ định đối lập ở câu thứ hai ('không phải là cô không hiểu, mà là cô không muốn chấp nhận thực tại')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Sau khi mình đã nói hết nước hết cái như thế…*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000114"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+      - "phía đơn vị của Mary và Drake -> bọn họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ câu hỏi gián tiếp xác minh sự thật ('hỏi liệu có phải bọn họ thực sự đang ngáng đường hay không')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000115"
+    names_and_ranks:
+      - "Drake -> Drake"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn quan sát của Drake."
+    modality_and_negation: "Giữ giới hạn nhận định theo tầm quan sát ('Theo những gì Drake thấy được khi đứng quan sát...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000116"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người du kích tự xưng -> chúng tôi"
+      - "người du kích gọi nhóm Mary và Drake -> các vị"
+    pov_and_narration: "Thoại trực tiếp của người du kích trả lời Mary."
+    modality_and_negation: "Giữ câu cầu khiến phủ định ('Xin đừng nghĩ xấu về chúng tôi.') và mệnh đề đối lập ('Nhưng sự hiện diện của các vị ở đây sẽ gây ra rắc rối.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000117"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Khẳng định ý nghĩa hàm chứa của lời nói và nét mặt."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000118"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "những người du kích -> Họ, họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ sự đối lập khẳng định - phủ định ('Họ là quân nổi dậy. Nhưng họ không phải là một đội quân.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000119"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "những người du kích -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quan hệ song hành hai mặt của chiến trường ('là nơi để chiến đấu, nhưng cũng là không gian nơi người dân đang sống cuộc đời thường nhật')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000120"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "những người du kích -> họ, mình"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ dấu ba chấm mở đầu và mệnh đề nhượng bộ ('dù muốn gây tổn thất cho kẻ địch, họ vẫn phải duy trì...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000121"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của người du kích (hoặc Drake giải thích)."
+    modality_and_negation: "Giữ tình thái khái quát hóa ('Có thể nói...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000122"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ đánh giá chừng mực ('Nói rằng đó là mối quan hệ cộng sinh với kẻ thù thì hơi quá lời.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000123"
+    names_and_ranks:
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "former Entente Alliance -> cựu Liên minh Hiệp ước"
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ phủ định ('không thể phớt lờ thực tế rằng...') và hệ quả tất yếu trong hoàn cảnh hiện tại ('sẽ sụp đổ mất')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000124"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của Mary."
+    modality_and_negation: "Giữ nhịp lặp từ ngập ngừng và dấu ba chấm cuối câu ('“Nhưng như thế, như thế là thông đồng…”')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000125"
+    names_and_ranks:
+      - "Lieutenant Sue -> Trung úy Sue"
+    pronouns_and_address:
+      - "Drake gọi Mary -> Trung úy Sue"
+      - "Drake gộp đơn vị mình -> chúng ta"
+    pov_and_narration: "Thoại trực tiếp của Drake."
+    modality_and_negation: "Giữ câu mệnh lệnh ngăn chặn kèm dấu ba chấm và mệnh đề điều kiện ('nếu chúng ta quậy tung lên ở vùng ven, sự hiện diện của quân đồn trú trong thành phố sẽ suy yếu đi')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000126"
+    names_and_ranks:
+      - "Drake -> Drake"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ cấu trúc so sánh mức độ có phủ định ở hai vế ('không hẳn là cô không hiểu, mà đúng hơn là về mặt cảm xúc, cô không thể nào tán thành')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000127"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Hai câu đầu là độc thoại nội tâm in nghiêng của Drake; hai câu sau là trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ phủ định giới hạn ở câu cuối ('Chiến tranh đâu chỉ có mỗi chuyện nổ súng.')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Chiến tranh rất phức tạp. Những chuyện thế này vẫn thường xảy ra trên thực địa.*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000128"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba bám điểm nhìn của Drake."
+    modality_and_negation: "Giữ dấu ba chấm chuyển ý và mệnh đề phủ định mang tính suy đoán mỉa mai ('… nhưng xem ra điều đó đã không được đưa vào chương trình huấn luyện của cô')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000129"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Drake tự xưng -> Tôi, mình"
+    pov_and_narration: "Thoại trực tiếp của Drake xin lỗi phía du kích."
+    modality_and_negation: "Lời xin lỗi lịch sự."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000130"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người du kích xưng hô với Drake -> chúng tôi - ngài"
+    pov_and_narration: "Thoại trực tiếp của người du kích đáp lời."
+    modality_and_negation: "Giữ sắc thái nhún nhường và cảm kích."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000131"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "những người du kích -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ tình thái phỏng đoán ('có lẽ bản thân họ cũng thấy uất ức lắm') và sự đối lập thực tế ('Nhưng họ biết rằng xét theo thực tế...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000132"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "cách gọi Mary trong suy nghĩ của Drake -> cô gái đó"
+    pov_and_narration: "Câu hỏi tu từ nội tâm hóa trong trần thuật ngôi thứ ba theo điểm nhìn của Drake."
+    modality_and_negation: "Giữ cấu trúc câu hỏi phủ định trách cứ ('Tại sao cô gái đó lại không thể hiểu... thay vì...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000133"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary gọi Drake -> Ngài"
+    pov_and_narration: "Thoại trực tiếp của Mary chất vấn Drake."
+    modality_and_negation: "Giữ câu hỏi cảm thán."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000134"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Drake gọi Mary -> cô"
+      - "những người du kích -> họ"
+    pov_and_narration: "Thoại trực tiếp của Drake hỏi vặn lại Mary."
+    modality_and_negation: "Câu hỏi tra vấn trực diện."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000135"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của Mary."
+    modality_and_negation: "Tiếng nghẹn lời."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000136"
+    names_and_ranks:
+      - "Colonel Anson Sue -> Đại tá Anson Sue"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Drake."
+    modality_and_negation: "Giữ tình thái suy đoán chắc chắn ('hẳn đó chính là điều cô định nói') và mệnh đề nhượng bộ ('Ngay cả khi xét tới việc..., cô vẫn đang quá mức hẹp hòi.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000137"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ so sánh bậc nhất chỉ sự đối lập hoàn toàn ('là những thứ cách xa sự thấu hiểu nhất')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000138"
+    names_and_ranks:
+      - "Lieutenant Sue -> Trung úy Sue"
+    pronouns_and_address:
+      - "Drake gọi Mary -> Trung úy Sue"
+      - "Drake gộp đơn vị mình -> chúng ta"
+    pov_and_narration: "Thoại trực tiếp của Drake."
+    modality_and_negation: "Khẳng định trực diện vai trò gây rắc rối của họ."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000139"
+    names_and_ranks:
+      - "Drake -> Drake"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Thoại ngắn bỏ lửng của Mary kèm trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ dấu ba chấm trong lời thoại ('“Nhưng…,”') và câu điều kiện phủ định tuyệt đối ('Nếu cô bùng nổ ở đây thì mọi chuyện đời nào có được kết cục tốt đẹp.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000140"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "những người du kích -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Drake."
+    modality_and_negation: "Giữ phủ định ở câu đầu ('không hành động theo cảm tính'), so sánh bậc nhất ở câu thứ hai ('sự kháng cự tốt nhất có thể duy trì') và giới hạn duy nhất ở câu cuối ('Chỉ có kẻ điên mới đi chỉ trích họ.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000141"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Drake xưng hô với Mary -> tôi - Cô, cô"
+    pov_and_narration: "Thoại trực tiếp của Drake nói với Mary."
+    modality_and_negation: "Giữ sự điều chỉnh cách diễn đạt ở câu thứ hai ('Hay có lẽ tôi nên nói là cô đã đủ may mắn để làm được điều đó.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000142"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Drake -> ông"
+      - "trần thuật và nội tâm Drake chỉ Mary -> cô"
+    pov_and_narration: "Phần đầu là trần thuật ngôi thứ ba; phần sau là câu hỏi nội tâm in nghiêng mà Drake kìm nén không quát ra."
+    modality_and_negation: "Giữ câu hỏi chất vấn trong nội tâm."
+    emphasis: "Giữ đúng phạm vi Markdown '*Vậy tại sao cô lại quay về?*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000143"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Drake gọi Mary -> cô, mình"
+    pov_and_narration: "Câu hỏi độc thoại nội tâm in nghiêng của Drake."
+    modality_and_negation: "Giữ cấu trúc điều kiện - câu hỏi phủ định trách cứ ('*Nếu cô thương nhớ quê hương mình đến thế, vậy tại sao cô không thể tỏ ra thông cảm một chút cho những con người buộc phải ở lại?*')."
+    emphasis: "Giữ đúng phạm vi Markdown '*...*' cho toàn câu khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000144"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "những người buộc phải ở lại -> họ"
+    pov_and_narration: "Thoại trực tiếp của Drake."
+    modality_and_negation: "Giữ cấu trúc phủ định ngoại trừ ở câu đầu ('không còn lựa chọn nào khác ngoài việc phải ở lại') và giới hạn ước chừng ở câu sau ('Họa chăng những người duy nhất có thể chỉ trích họ là...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000145"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary gọi Drake -> ngài"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Thoại trực tiếp của Mary kèm phần dẫn thoại ngôi thứ ba."
+    modality_and_negation: "Giữ câu hỏi cảm thán phản bác và trạng thái cảm xúc ('gần như bật khóc')."
+    emphasis: "Không có chữ nghiêng."
