@@ -1,0 +1,263 @@
+task_id: "vol-05-ch-03-b01-argon-review"
+parent_task_id: "vol-05-ch-03-b01"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-03-b01-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0008.html/p000012"
+    issue: "Trong cùng một câu thư gửi chung cho Mẹ và Bà (nhưng vế đầu nhắc trực tiếp đến món bánh của Bà), đại từ tự xưng ngôi thứ nhất chuyển đột ngột từ 'Con' ở đầu câu sang 'cháu' ở hai mệnh đề phụ phía sau, rồi ngay câu kế tiếp (p000013) lại quay về 'Con'."
+    evidence: "Nguyên bản dùng cùng một đại từ ngôi thứ nhất số ít xuyên suốt bức thư và trong cả ba vị trí chủ ngữ của câu p000012."
+    recommendation: "Đề xuất thống nhất đại từ tự xưng trong câu thành 'Con' ('Con có thể nói rằng con nhớ món bánh nướng nhân táo của Bà lắm, nhưng nếu con nói ở đây mình đã được ăn bánh táo hay chưa...') để liền mạch với toàn bộ bức thư từ p000002 đến p000018."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0018.html/p000008"
+    issue: "Đại từ bất định chỉ tác nhân thứ ba chen ngang lấy mất chỗ trên tàu được cụ thể hóa thành 'một đơn vị nào khác chen ngang'."
+    evidence: "Nguyên bản dùng đại từ bất định chỉ người/bên khác nói chung (có thể là sĩ quan cấp cao, cơ quan hoặc đơn vị khác có quyền ưu tiên), không đóng khung sẵn là 'đơn vị'."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ thành 'hoặc kẻ nào khác chen ngang' hay 'hoặc bên nào khác chen ngang' ở bước chuốt văn để giữ đúng độ mở của đại từ bất định."
+pending_term_recommendations:
+  - source_term: "Mary Sue"
+    proposed_vi: "Mary Sue"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng của nhân vật theo sổ pending từ Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0008.html/p000019"
+  - source_term: "Imperial Capital Berun"
+    proposed_vi: "Thủ đô Đế quốc Berun"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Kế thừa nhất quán phương án đã khóa trong sổ pending Tập 5 cho tiêu đề cảnh và lời dẫn."
+    alternatives_vi:
+      - "Đế đô Berun"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000001"
+  - source_term: "General Staff Office / General Staff"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Thống nhất cách dịch phân biệt giữa trụ sở/văn phòng ('General Staff Office') và cơ quan ('General Staff') theo sổ pending Tập 1–5."
+    alternatives_vi:
+      - "Văn phòng Bộ Tổng Tham mưu / Bộ Tổng Tham mưu"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000002"
+      - "YS-LN05/Text/part0018.html/p000004"
+      - "YS-LN05/Text/part0018.html/p000006"
+      - "YS-LN05/Text/part0018.html/p000012"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức chỉ cụm tác chiến hỗn hợp do Tanya chỉ huy, khớp với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000003"
+      - "YS-LN05/Text/part0018.html/p000005"
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff"
+    proposed_vi: "Trung tá Tanya von Degurechaff"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán quân hàm và họ tên đầy đủ của Tanya theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000004"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía Đông"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 5 cho tên mặt trận tác chiến ở hướng đông."
+    alternatives_vi:
+      - "chiến trường phía Đông"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000006"
+  - source_term: "Eastern Army Group"
+    proposed_vi: "Cụm tập đoàn quân phía Đông"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán phương án tạm đã khóa từ Tập 4 và các chương trước của Tập 5."
+    alternatives_vi:
+      - "Cụm tập đoàn quân phương Đông"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000006"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Thống nhất với sổ pending Tập 5 khi chỉ quân chủng lục quân của Đế quốc."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000007"
+      - "YS-LN05/Text/part0018.html/p000015"
+  - source_term: "adjutant"
+    proposed_vi: "sĩ quan phụ tá"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 1 và Tập 4 khi chỉ chức vụ phụ tá quân sự của Visha."
+    alternatives_vi:
+      - "phụ tá"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000009"
+      - "YS-LN05/Text/part0018.html/p000015"
+  - source_term: "Lieutenant General von Rudersdorf"
+    proposed_vi: "Trung tướng von Rudersdorf"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Trung tướng và họ của von Rudersdorf theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000012"
+  - source_term: "magic officer"
+    proposed_vi: "sĩ quan ma pháp"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 4 cho danh xưng chỉ sĩ quan pháp sư trong biên chế quân đội."
+    alternatives_vi:
+      - "sĩ quan pháp sư"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000015"
+  - source_term: "ersatz coffee"
+    proposed_vi: "cà phê thay thế"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 2."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000015"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0008.html/p000001"
+    choices:
+      - "Xưng hô đầu thư của Mary Sue: 'Mẹ và Bà kính mến,'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ dòng bằng '*...*' đúng theo thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0008.html/p000002"
+    choices:
+      - "Xưng hô trong thư: Mary tự xưng 'Con', gọi người nhận là 'Mẹ và Bà' / 'cả hai người', kèm tiểu từ lễ phép 'ạ'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000003"
+    choices:
+      - "Tình thái suy đoán thời tiết quê nhà: 'chắc hẳn sắp đến lúc...'; lời dặn dò lễ phép: 'Hai người nhớ giữ gìn sức khỏe kẻo bị cảm lạnh nhé'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000004"
+    choices:
+      - "Xưng hô lễ phép: 'Con vẫn khỏe ạ.'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000005"
+    choices:
+      - "Xưng hô: 'hai người' – 'con'; giữ nguyên cấu trúc phủ định tăng tiến ('không thể viết bất kỳ chi tiết nào… thậm chí cả ngày tháng hay địa điểm hiện tại')"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000006"
+    choices:
+      - "Xưng hô và giọng thư lễ phép: 'Con đã từng thưa trước rồi, nhưng… đó là quy định ạ.'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000007"
+    choices:
+      - "Đại từ ngôi thứ nhất số nhiều chỉ Mary và đồng đội: 'bọn con'; đại từ ngôi thứ hai: 'Hai người'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000008"
+    choices:
+      - "Đại từ: 'Bọn con' kết hợp với đại từ phản thân 'mình'; giữ cấu trúc phủ định về quy định bảo mật thư tín"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000009"
+    choices:
+      - "Đại từ: 'Bọn con' – 'mình'; giữ nguyên danh sách liệt kê trong ngoặc đơn '(thịt bò, thịt lợn, thịt gà, thịt cừu)'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000010"
+    choices:
+      - "Đại từ: 'Bọn con'; dịch tự nhiên cụm chỉ thư của Mẹ và Bà thành 'thư của gia đình'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000011"
+    choices:
+      - "Giữ nguyên quan hệ mức độ – hệ quả: 'Có quá nhiều quy định hạn chế đến mức thật khó mà nhớ xuể hết được'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000012"
+    choices:
+      - "Xưng hô thống nhất với cả bức thư: tự xưng 'Con / con', gọi 'Bà'"
+      - "Giữ dấu ngoặc kép quanh cụm '“làm lộ bí mật quân sự”' và bọc toàn bộ câu bằng '*...*' theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0008.html/p000013"
+    choices:
+      - "Đại từ: 'Con'; tình thái khả năng và thể bị động: 'có thể một phần nội dung vẫn sẽ bị bộ phận kiểm duyệt bôi đen'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000014"
+    choices:
+      - "Xưng hô: 'hai người' – 'con', phản thân 'mình', tiểu từ 'ạ'; giữ phủ định 'chưa có chuyện gì lớn xảy ra cả'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000015"
+    choices:
+      - "Giữ trung tính giới tính của sĩ quan cấp trên theo đúng đại từ trung tính trong nguồn: 'Sĩ quan cấp trên của con (người đã thông báo rằng con không được phép tiết lộ tên của vị ấy)'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000016"
+    choices:
+      - "Đại từ: 'Bọn con' – 'mình'; giữ phủ định về điểm đến điều động tiếp theo"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000017"
+    choices:
+      - "Đại từ: 'con'; giữ nguyên quan hệ hệ quả và phủ định mức độ ('chẳng có nhiều chuyện để kể')"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000018"
+    choices:
+      - "Lời kết thư: 'Gửi ngàn lời yêu thương từ một căn cứ ở nơi con không thể tiết lộ,'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ dòng bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0008.html/p000019"
+    choices:
+      - "Chữ ký cuối thư: '*Mary Sue*' (bọc trong '*...*' theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0018.html/p000001"
+    choices:
+      - "Tiêu đề thời gian và địa điểm viết hoa toàn bộ, không in nghiêng: 'NGÀY 28 THÁNG 9, NĂM THỐNG NHẤT 1926, THỦ ĐÔ ĐẾ QUỐC BERUN'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000002"
+    choices:
+      - "Cơ quan và tên riêng: 'Văn phòng Bộ Tổng tham mưu', 'Tanya'; danh từ chỉ cấp lãnh đạo: 'Cấp trên'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc câu độc thoại nội tâm '*Cấp trên đúng là chỉ toàn làm theo ý mình*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0018.html/p000003"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'; đại từ chỉ đơn vị: 'Họ / họ'"
+      - "Thuật ngữ: 'Kampfgruppe', 'thủ đô Đế quốc'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000004"
+    choices:
+      - "Quân hàm và tên đầy đủ: 'Trung tá Tanya von Degurechaff'; cơ quan: 'Bộ Tổng tham mưu'"
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó' kết hợp với phản thân 'mình'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000005"
+    choices:
+      - "Thuật ngữ: 'Kampfgruppe'; giữ sắc thái phủ định nhấn mạnh ('đâu phải chuyện dễ dàng gì')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000006"
+    choices:
+      - "Điểm nhìn chuyển sang ngôi thứ nhất số nhiều chỉ tập thể đơn vị của Tanya: 'chúng tôi' (đồng bộ với ch-01-b01)"
+      - "Thuật ngữ: 'Bộ Tổng tham mưu', 'mặt trận phía Đông', 'Cụm tập đoàn quân phía Đông'"
+      - "Giữ cấu trúc đối lập 'Không phải chúng tôi được biệt phái cho họ mượn, mà là đồn trú tại đó' và phủ định tình thái ở cuối câu"
+  - segment_id: "YS-LN05/Text/part0018.html/p000007"
+    choices:
+      - "Thuật ngữ: 'thẻ thông minh', 'Lục quân Đế quốc'"
+      - "Giữ cấu trúc đối lập giữa cam kết trên giấy tờ và thực tế ngoài thực địa"
+  - segment_id: "YS-LN05/Text/part0018.html/p000008"
+    choices:
+      - "Đại từ tập thể đơn vị: 'chúng tôi'; giữ sắc thái mỉa mai 'bản kế hoạch êm đẹp có đóng con dấu chính thức to đùng'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000009"
+    choices:
+      - "Điểm nhìn quay lại trần thuật ngôi thứ ba: 'Tanya'; thuật ngữ: 'đơn vị thiết giáp', 'khí tài hạng nặng của pháo binh', 'viên sĩ quan phụ tá'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000010"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'; cụm danh từ: 'khoang tàu hạng nhất chật hẹp'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000011"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000012"
+    choices:
+      - "Đại từ trần thuật của Tanya: 'nó'; cấu trúc cảm thán khái quát ở câu cuối: 'khiến người ta có cảm giác rằng cấp trên chỉ nghĩ đến sự thuận tiện của riêng họ mà thôi'"
+      - "Cơ quan và quân hàm: 'Bộ Tổng tham mưu', 'Trung tướng von Rudersdorf'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000013"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó / Nó'"
+      - "Thuật ngữ hành chính – quân sự: 'chức trách và thẩm quyền chính đáng'; giữ tình thái phủ định 'khó lòng từ chối'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000014"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'; giữ nguyên chuỗi thời gian ('lúc nửa đêm', 'tờ mờ sáng', 'dù chỉ vài tiếng') và so sánh hơn ('tỉnh táo hơn là thức trắng')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000015"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'"
+      - "Thuật ngữ: 'viên sĩ quan phụ tá', 'sĩ quan ma pháp', 'Lục quân Đế quốc', 'cà phê thay thế'"
