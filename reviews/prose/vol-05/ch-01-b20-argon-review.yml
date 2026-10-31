@@ -1,0 +1,408 @@
+task_id: "vol-05-ch-01-b20-argon-review"
+parent_task_id: "vol-05-ch-01-b20"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b20-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b20.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b20-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000727"
+    severity: "minor"
+    category: "tone"
+    issue: "Thán từ 'Ái chà' trong cụm 'Ái chà, khốn kiếp!' mang sắc thái ngạc nhiên nhẹ nhàng hoặc cảm thán vui vẻ, chưa khớp với tiếng gầm bực tức và giận dữ của Tanya khi nhận ra sai lầm chiến lược."
+    rationale: "Trong ngữ cảnh Tanya vừa chửi thề vì sự bất cẩn của bản thân và Đế quốc, thán từ mở đầu câu chửi thể hiện sự uất ức, điên tiết chứ không phải ngạc nhiên xã giao."
+    recommendation: "Có thể chỉnh ở bước chuốt văn thành 'Aaa, khốn kiếp!' hoặc 'Trời đất ơi, khốn kiếp!'."
+pending_term_recommendations:
+  - source_term: "political commissars"
+    proposed_vi: "chính ủy"
+    category: "chức danh quân sự - chính trị"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn trong tiếng Việt để chỉ các sĩ quan/ủy viên chính trị của đảng trong quân đội Liên bang; trong lời thoại mỉa mai của tù binh tại p000706 dùng 'đám chính ủy'."
+    alternatives_vi:
+      - "ủy viên chính trị"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000706"
+  - source_term: "Logos"
+    proposed_vi: "Logos"
+    category: "thuật ngữ triết học"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Logos -> Logos' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000709"
+  - source_term: "paradigm / shift"
+    proposed_vi: "mô thức / sự chuyển dịch"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với mục 'P03-paradigm-shift -> chuyển đổi mô thức' trong canon/glossary-pending.yml; giữ nguyên hình ảnh nền tảng logic của khung nhận thức/mô thức bị đánh sập dẫn tới sự chuyển dịch."
+    alternatives_vi:
+      - "hệ hình / sự chuyển đổi"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000710"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên quốc gia"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Federation -> Liên bang' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000717"
+      - "YS-LN05/Text/part0010.html/p000737"
+      - "YS-LN05/Text/part0010.html/p000743"
+      - "YS-LN05/Text/part0010.html/p000750"
+      - "YS-LN05/Text/part0010.html/p000754"
+  - source_term: "Communists / Communism / Communist Party"
+    proposed_vi: "những người Cộng sản / Chủ nghĩa Cộng sản / Đảng Cộng sản"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Communists / Communism -> những người Cộng sản / Chủ nghĩa Cộng sản' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000717"
+      - "YS-LN05/Text/part0010.html/p000730"
+      - "YS-LN05/Text/part0010.html/p000739"
+      - "YS-LN05/Text/part0010.html/p000743"
+      - "YS-LN05/Text/part0010.html/p000745"
+  - source_term: "Colonel"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Colonel (addressing Lieutenant Colonel Tanya von Degurechaff) -> Trung tá' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000722"
+  - source_term: "great patriotic war"
+    proposed_vi: "cuộc chiến tranh vệ quốc vĩ đại"
+    category: "thuật ngữ lịch sử - quân sự"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác trong tiếng Việt cho khái niệm lịch sử tương ứng với cuộc chiến tranh bảo vệ tổ quốc của Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000727"
+  - source_term: "second-in-command"
+    proposed_vi: "phó chỉ huy"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'deputy commander / vice commander -> phó chỉ huy' trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000728"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Major Weiss -> Thiếu tá Weiss' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000728"
+      - "YS-LN05/Text/part0010.html/p000738"
+  - source_term: "nationalists / nationalism / nationalist war"
+    proposed_vi: "những kẻ theo chủ nghĩa dân tộc (hoặc những người theo chủ nghĩa dân tộc) / chủ nghĩa dân tộc / cuộc chiến tranh dân tộc chủ nghĩa"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Biểu đạt chuẩn xác các khái niệm chủ nghĩa dân tộc và người theo chủ nghĩa dân tộc trong lập luận chiến lược của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000730"
+      - "YS-LN05/Text/part0010.html/p000731"
+      - "YS-LN05/Text/part0010.html/p000740"
+      - "YS-LN05/Text/part0010.html/p000743"
+      - "YS-LN05/Text/part0010.html/p000744"
+      - "YS-LN05/Text/part0010.html/p000745"
+  - source_term: "Feldgendarmerie / Feldgendarmerie MPs"
+    proposed_vi: "lực lượng Feldgendarmerie / quân cảnh Feldgendarmerie"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với các mục 'Feldgendarmerie -> lực lượng Feldgendarmerie' và 'military police / MPs -> quân cảnh' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000748"
+      - "YS-LN05/Text/part0010.html/p000754"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000704"
+    choices:
+      - "POV/pronouns -> lời vọng/diễn giải lại ý của người lính tù binh dùng 'tôi' ('quê hương của tôi')"
+      - "the party -> đảng"
+      - "homeland -> quê hương"
+      - "negation_and_contrast -> Không phải vì đảng; Không phải vì đảng mà là vì quê hương của tôi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000705"
+    choices:
+      - "pronouns -> anh - mình (Weiss hỏi xác nhận với tù binh)"
+      - "your homeland -> 'quê hương của mình'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000706"
+    choices:
+      - "pronouns -> Tôi - ngài (tù binh nói với Weiss)"
+      - "imperial soldiers -> lính Đế quốc"
+      - "political commissars -> đám chính ủy"
+      - "negation -> chẳng thể tin hết mọi lời đồn đại được"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000707"
+    choices:
+      - "dialogue -> nhận xét của Weiss trước lời châm chọc"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000708"
+    choices:
+      - "names -> Weiss, Serebryakov, Tanya"
+      - "negation -> đều không còn lọt vào tầm mắt của Tanya nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000709"
+    choices:
+      - "Logos -> Logos"
+      - "negation -> Đừng xem nhẹ Logos của ngôn từ"
+      - "emphasis -> bọc toàn bộ câu '*Đừng xem nhẹ Logos của ngôn từ.*' theo đúng nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000710"
+    choices:
+      - "the frame, the paradigm -> khung nhận thức, tức mô thức"
+      - "modality -> một sự chuyển dịch ắt phải xảy ra"
+      - "emphasis -> bọc toàn bộ đoạn '*Nó có sức mạnh thay đổi thế giới. Khi khung nhận thức, tức mô thức, bị đánh sập nền tảng logic của nó, một sự chuyển dịch ắt phải xảy ra.*' theo đúng nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000711"
+    choices:
+      - "pronouns -> mình / bọn tôi (tù binh nói về bản thân và đồng đội)"
+      - "hometown -> quê nhà"
+      - "the party -> đảng"
+      - "rhetorical_question -> Bộ chiến đấu vì quê nhà của mình cũng cần phải có lý do sao?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000712"
+    choices:
+      - "pronouns -> các anh (Weiss hỏi tù binh về phía lính Liên bang)"
+      - "the Empire -> Đế quốc"
+      - "condition_and_question -> Vậy là nếu đánh bại Đế quốc thì cuộc sống của các anh sẽ khấm khá hơn ư?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000713"
+    choices:
+      - "pronouns -> Ngài - tôi / bọn tôi - các người (tù binh nói với Weiss và gọi chung phía Đế quốc là 'các người')"
+      - "the party -> đảng"
+      - "condition_and_modality -> Một khi bọn tôi không cần phải đánh nhau với các người nữa, mọi thứ hẳn sẽ tốt đẹp hơn"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000714"
+    choices:
+      - "pronouns -> tôi - anh (Weiss chuyển hướng thẩm vấn sang đơn vị của tù binh)"
+      - "unit -> đơn vị"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000715"
+    choices:
+      - "names_and_roles -> Weiss, Serebryakov và tên lính địch"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000716"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya' và đại từ 'cô'"
+      - "negation -> Nhưng Tanya chẳng còn bận tâm nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000717"
+    choices:
+      - "pronouns -> chúng ta (nội tâm Tanya tự quy chiếu phía Đế quốc)"
+      - "Federation soldiers -> những người lính Liên bang"
+      - "Communists -> những người Cộng sản"
+      - "negation -> hoàn toàn không phải là những người Cộng sản"
+      - "emphasis -> bọc toàn bộ câu '*Kẻ thù của chúng ta, những người lính Liên bang, hoàn toàn không phải là những người Cộng sản.*' theo đúng nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000718"
+    choices:
+      - "meaning -> Chỉ một câu nói ấy thôi."
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000719"
+    choices:
+      - "meaning -> Chính điều đó là mấu chốt."
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000720"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'cô' và tự quy chiếu phản thân 'mình'"
+      - "incorrigibly wrong -> sai lầm một cách hết thuốc chữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000721"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya', gọi tù binh là 'tên lính địch'"
+      - "interrogation -> cuộc thẩm vấn"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000722"
+    choices:
+      - "Colonel -> Trung tá"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000723"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'cô' cho Tanya"
+      - "subordinates -> Các thuộc cấp"
+      - "modality_and_condition -> có lẽ đang lo lắng cho cô; Trong hoàn cảnh bình thường thì cô sẽ hiểu được điều đó"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000724"
+    choices:
+      - "negation -> Nhưng ngay lúc này thì không thể."
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000725"
+    choices:
+      - "expletive -> …Chết tiệt thật!"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000726"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'cô' và phản thân 'mình'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000727"
+    choices:
+      - "pronouns -> chúng (Tanya chỉ phía Liên bang)"
+      - "ideology -> hệ tư tưởng"
+      - "great patriotic war -> 'cuộc chiến tranh vệ quốc vĩ đại'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000728"
+    choices:
+      - "second-in-command -> Viên phó chỉ huy"
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "POV/pronouns -> trần thuật dùng 'cô' cho Tanya, 'anh ta' cho Weiss"
+      - "condition_and_causality -> Nếu đây là trong thực chiến, Thiếu tá Weiss hẳn sẽ nắm bắt được ý định của cô và phản ứng ngay lập tức, nên sự chậm hiểu của anh ta lúc này khiến cô phát bực"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000729"
+    choices:
+      - "pronouns -> anh ta (chỉ Weiss trong câu hỏi nội tâm của Tanya)"
+      - "negation_and_question -> Sao anh ta lại không nhận ra chuyện này quan trọng đến mức nào chứ?"
+      - "emphasis -> bọc toàn bộ câu hỏi nội tâm '*Sao anh ta lại không nhận ra chuyện này quan trọng đến mức nào chứ?*' theo đúng nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000730"
+    choices:
+      - "pronouns -> Anh - chúng ta - chúng (Tanya nói với Weiss về phía Đế quốc và quân Liên bang)"
+      - "nationalists -> những kẻ theo chủ nghĩa dân tộc"
+      - "Communists -> những người Cộng sản"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000731"
+    choices:
+      - "nationalist war -> một cuộc chiến tranh dân tộc chủ nghĩa"
+      - "POV/pronouns -> trần thuật dùng 'cô' cho Tanya"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000732"
+    choices:
+      - "meaning -> Đây là một sai lầm hoàn toàn."
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000733"
+    choices:
+      - "meaning -> Đây là sự ngu xuẩn thượng hạng, một sự điên rồ sẽ được ghi vào sử sách."
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000734"
+    choices:
+      - "POV/pronouns -> trần thuật giữ 'Weiss', dùng 'cô' cho Tanya và 'anh ta' cho Weiss"
+      - "modality -> có lẽ rồi cũng sẽ tự mình ngộ ra thôi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000735"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'cô' cho Tanya và 'anh ta' cho Weiss"
+      - "negation -> Nhưng cô không có thời gian để ngồi chờ anh ta thong thả suy nghĩ cho thông suốt"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000736"
+    choices:
+      - "pronouns -> Chúng ta - chúng (Tanya nói với Weiss)"
+      - "the Empire -> Đế quốc"
+      - "contrast_and_negation -> Chúng ta đang giúp sức cho chúng chứ không phải đang đánh bại chúng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000737"
+    choices:
+      - "pronouns/politeness -> chúng ta + 'ạ' (Weiss hỏi lại Tanya với thái độ kính trọng cấp trên)"
+      - "Federation -> Liên bang"
+      - "questions -> Hành động của chúng ta lại đang đem tới lợi ích cho Liên bang ư…?; Chuyện đó có thể là thật sao ạ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000738"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "pronouns -> chúng ta / mình - chúng (Tanya giải thích cho Weiss)"
+      - "negation_and_contrast -> chúng ta càng thắng thì quân địch lại càng thêm đoàn kết; nhưng chúng ta đã lầm!; Điều đó không dẫn đến sự sụp đổ của chúng, mà ngược lại!"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000739"
+    choices:
+      - "ideology -> hệ tư tưởng"
+      - "validity or the righteousness -> tính giá trị hoặc tính chính đáng"
+      - "Communism -> Chủ nghĩa Cộng sản"
+      - "POV -> giữ tên riêng 'Tanya' ở câu bình luận điểm nhìn"
+      - "negation -> Việc chỉ ra Chủ nghĩa Cộng sản kém hiệu quả đến mức nào chẳng có gì khó khăn cả"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000740"
+    choices:
+      - "nationalism -> chủ nghĩa dân tộc"
+      - "negation -> Nhưng chiến đấu với chủ nghĩa dân tộc thì lại chẳng ổn chút nào"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000741"
+    choices:
+      - "pronouns -> Hắn (Tanya nhắc lại lời tên tù binh)"
+      - "quoted_line -> 'Có ai lại không nặng lòng với quê hương xứ sở của mình chứ?' (khớp nguyên văn với p000703 ở b19)"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000742"
+    choices:
+      - "politeness -> Vâng ... ạ (Weiss xác nhận với Tanya)"
+      - "the prisoner -> tên tù binh"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000743"
+    choices:
+      - "fatherland -> Tổ quốc / tổ quốc"
+      - "Federation’s people -> người dân Liên bang"
+      - "the party -> đảng"
+      - "Communists -> những người Cộng sản"
+      - "nationalism -> chủ nghĩa dân tộc"
+      - "double_negation -> Không thể nói rằng người dân Liên bang không bất bình, nghi ngờ hay phẫn nộ đối với đảng"
+      - "pronouns -> Chúng ta / mình (phía Đế quốc) - họ (người dân Liên bang)"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000744"
+    choices:
+      - "nationalism -> Chủ nghĩa dân tộc"
+      - "negation -> Chủ nghĩa dân tộc không mang tính logic"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000745"
+    choices:
+      - "Communism -> Chủ nghĩa Cộng sản"
+      - "nationalism / nationalists -> ngọn lửa dân tộc chủ nghĩa / những người theo chủ nghĩa dân tộc"
+      - "Communist Party -> Đảng Cộng sản"
+      - "the Empire -> Đế quốc"
+      - "concession -> cho dù những người theo chủ nghĩa dân tộc có căm ghét Đảng Cộng sản đi chăng nữa, họ vẫn sẽ đoàn kết lại để chống trả Đế quốc, kẻ thù chung của họ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000746"
+    choices:
+      - "pronouns -> chúng ta - họ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000747"
+    choices:
+      - "pronouns -> tôi (Tanya nói trong thoại)"
+      - "modality -> Lẽ ra tôi phải nhận ra sớm hơn mới phải"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000748"
+    choices:
+      - "names_and_pronouns -> Serebryakov / Cô ấy"
+      - "Feldgendarmerie -> lực lượng Feldgendarmerie"
+      - "literal translation -> dịch sát từng chữ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000749"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' ('và mình nghĩ') theo DEC-P01-001"
+      - "interpreter / translator -> thông dịch viên / người dịch thuật"
+      - "idiom -> cái khó nằm ở những chi tiết nhỏ nhặt"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000750"
+    choices:
+      - "Federation soldier -> Tên lính Liên bang"
+      - "pronouns -> hắn"
+      - "negation -> chẳng hề giấu giếm điều gì"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000751"
+    choices:
+      - "pronouns -> Chúng tôi - mình (trích lời người lính Liên bang)"
+      - "homeland -> quê hương"
+      - "emphasis -> bọc toàn bộ câu '*“Chúng tôi đang chiến đấu vì quê hương của mình.”*' theo đúng nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000752"
+    choices:
+      - "pronouns -> tôi (Tanya than thở trong thoại)"
+      - "rhetorical_question_and_negation -> Tại sao lại chẳng có ai nhận ra điều này chứ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000753"
+    choices:
+      - "modality_and_negation -> Chắc hẳn cảm giác buột miệng than vãn mà chẳng hề chủ đích là như thế này đây"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000754"
+    choices:
+      - "Feldgendarmerie MPs -> Đám quân cảnh Feldgendarmerie / họ"
+      - "prisoners -> đám tù binh / chúng"
+      - "Federation -> Liên bang"
+      - "ideology -> hệ tư tưởng"
+      - "modality_and_negation -> Có thể là vì họ đã không đào sâu vào câu trả lời của đám tù binh rằng chúng đang chiến đấu để bảo vệ Liên bang; Cũng có thể là vì họ thông dịch không giỏi bằng Serebryakov"
+      - "emphasis -> không dùng Markdown *...*"
