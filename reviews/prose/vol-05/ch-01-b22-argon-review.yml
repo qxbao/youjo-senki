@@ -1,0 +1,378 @@
+task_id: "vol-05-ch-01-b22-argon-review"
+parent_task_id: "vol-05-ch-01-b22"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b22-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b22.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b22-argon-review.yml"
+status: "completed"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+
+summary:
+  serious: 0
+  moderate: 3
+  minor: 3
+
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000799"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000799"
+      - "YS-LN05/Text/part0010.html/p000800"
+      - "YS-LN05/Text/part0010.html/p000805"
+      - "YS-LN05/Text/part0010.html/p000807"
+      - "YS-LN05/Text/part0010.html/p000808"
+      - "YS-LN05/Text/part0010.html/p000810"
+      - "YS-LN05/Text/part0012.html/p000003"
+      - "YS-LN05/Text/part0012.html/p000004"
+      - "YS-LN05/Text/part0012.html/p000005"
+      - "YS-LN05/Text/part0012.html/p000006"
+      - "YS-LN05/Text/part0012.html/p000010"
+      - "YS-LN05/Text/part0012.html/p000026"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Bản dịch chuyển sang đại từ 'tôi' ở các câu độc thoại nội tâm ngôi thứ nhất không in nghiêng của Tanya, gây vênh điểm nhìn với các câu tự nhủ/nội tâm liền kề dùng 'mình' (p000798, p000806, p000002, p000025) và chưa khớp quyết định DEC-P01-001."
+    rationale: "Theo DEC-P01-001 trong canon/decisions.md, trần thuật về Tanya dùng 'nó' và nội tâm tự quy chiếu của Tanya dùng 'mình'. Toàn bộ chuỗi đoạn này là dòng tự vấn của Tanya khi ở một mình trong phòng chỉ huy."
+    recommendation: "Thống nhất đại từ tự quy chiếu ngôi thứ nhất số ít trong độc thoại nội tâm của Tanya ở các đoạn trên thành 'mình' (hoặc kết hợp 'bản thân' ở vị trí tân ngữ/sở hữu như p000807, p000808 để tránh lặp từ)."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000796"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000796"
+      - "YS-LN05/Text/part0010.html/p000800"
+      - "YS-LN05/Text/part0010.html/p000803"
+      - "YS-LN05/Text/part0012.html/p000020"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Đại từ ngôi thứ nhất số nhiều trong độc thoại nội tâm của Tanya đang dịch là 'chúng tôi' ở p000796, p000800, p000803, p000020, không nhất quán với 'chúng ta' ở các câu liền kề (p000802, p000804, p000011, p000013, p000019, p000023, p000024)."
+    rationale: "Trong độc thoại nội tâm khi Tanya tự suy xét về phía Đế quốc, đại từ số nhiều mang tính tự quy chiếu bao gộp là 'chúng ta' (phù hợp với mục viewpoint and radio dialogue pronouns trong pending-terms-index.yml). Việc xen 'chúng tôi' ngay giữa p000802 và p000804 làm đứt mạch giọng nội tâm."
+    recommendation: "Đổi 'chúng tôi' thành 'chúng ta' tại p000796, p000800, p000803 và p000020."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000009"
+    severity: "moderate"
+    category: "terminology"
+    issue: "Thuật ngữ quân sự 'field army' đang được dịch là 'quân đoàn dã chiến', làm lệch cấp biên chế từ cấp tập đoàn quân/đạo quân dã chiến sang cấp quân đoàn (corps)."
+    rationale: "Trong hệ thống thuật ngữ quân sự của truyện, 'corps' mới là 'quân đoàn', còn 'field army' chỉ lực lượng/đạo quân dã chiến (hoặc tập đoàn quân dã chiến) của đối phương trên chiến trường."
+    recommendation: "Sửa 'quân đoàn dã chiến của địch' thành 'đạo quân dã chiến của địch' hoặc 'lực lượng dã chiến của địch'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000018"
+    severity: "minor"
+    category: "meaning_logic"
+    issue: "Bản dịch thêm cụm 'cùng một lúc' ('đối đầu với tất cả bọn họ cùng một lúc'), làm hẹp nghĩa của 'take them all on' theo hướng đánh lần lượt theo thời gian thay vì không cần đối địch với toàn bộ các nhóm."
+    rationale: "Mạch suy luận từ p000018 sang p000019–p000022 là chia rẽ kẻ địch để giảm số lượng kẻ thù phải đánh và lôi kéo một số nhóm sắc tộc làm đồng minh, chứ không phải đánh từng nhóm theo thứ tự thời gian."
+    recommendation: "Lược bỏ 'cùng một lúc', chỉnh thành: 'Thành thật mà nói, chẳng việc gì phải đối đầu với tất cả bọn họ cả.'"
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000020"
+    severity: "minor"
+    category: "syntax_clarity"
+    issue: "Cụm 'số lượng đối phương phải giao chiến sẽ giảm đi' dễ gây hiểu nhầm đối phương là chủ thể của 'phải giao chiến'."
+    rationale: "Nguồn xác định rõ chủ thể phải giao chiến là phía người nói (ngôi 'you' khái quát), còn đối phương là tân ngữ của hành động giao chiến."
+    recommendation: "Làm rõ quan hệ cú pháp thành: 'Nếu chia rẽ được kẻ địch thành công, số lượng kẻ địch mà ta phải giao chiến sẽ giảm đi.'"
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000021"
+    severity: "minor"
+    category: "modality_idiom"
+    issue: "Cụm 'for better or worse' được dịch là 'dù muốn hay không', lệch nhẹ từ bình diện đánh giá hệ quả tốt/xấu sang ý muốn chủ quan."
+    rationale: "Nhận định của Tanya đánh giá đặc điểm đa sắc tộc của Liên bang như một thực tế hai mặt (vừa tạo sức mạnh nhưng cũng vừa tạo kẽ hở để chia rẽ)."
+    recommendation: "Đổi 'dù muốn hay không' thành 'dù tốt hay xấu' hoặc 'dù hay hay dở'."
+
+pending_term_recommendations:
+  - source_term: "Colonel Uger"
+    proposed_vi: "Đại tá Uger"
+    category: "quân hàm / nhân vật"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Uger mang hàm Thiếu tá ở các tập trước (Major Uger trong pending-terms-index.yml) và tại thời điểm tập 5 đã thăng lên Colonel; dịch là 'Đại tá Uger' đúng cấp bậc trong nguồn."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000794"
+
+  - source_term: "ethnic nationalism"
+    proposed_vi: "chủ nghĩa dân tộc sắc tộc"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Phân biệt rõ với 'nationalism' nói chung ('chủ nghĩa dân tộc') trong cùng lập luận ở p000805 và chuẩn bị cho ý tưởng chia rẽ các nhóm sắc tộc ở cuối batch."
+    alternatives_vi:
+      - "chủ nghĩa dân tộc tộc người"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000797"
+      - "YS-LN05/Text/part0010.html/p000805"
+
+  - source_term: "class war / scientific history"
+    proposed_vi: "cuộc đấu tranh giai cấp / lịch sử khoa học"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Thuật ngữ lý luận Cộng sản được Tanya dẫn lại để đối lập với chủ nghĩa dân tộc sắc tộc; diễn đạt tự nhiên và đúng văn phong chính trị."
+    alternatives_vi:
+      - "chiến tranh giai cấp / quan điểm lịch sử khoa học"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000805"
+
+  - source_term: "mobile offensive"
+    proposed_vi: "cuộc tiến công cơ động"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hệ thuật ngữ 'offensive' ('cuộc tiến công') và 'maneuver battles' ('các trận đánh cơ động') trong pending-terms-index.yml."
+    alternatives_vi:
+      - "chiến dịch tiến công cơ động"
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000006"
+
+  - source_term: "field army"
+    proposed_vi: "đạo quân dã chiến"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Tránh nhầm với 'corps' ('quân đoàn'); chỉ lực lượng tác chiến dã chiến chủ lực của đối phương."
+    alternatives_vi:
+      - "lực lượng dã chiến"
+      - "quân dã chiến"
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000009"
+
+  - source_term: "law of war"
+    proposed_vi: "luật chiến tranh"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Thuật ngữ pháp lý quân sự tiêu chuẩn, xuyên suốt mạch suy nghĩ của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000012"
+
+  - source_term: "suzerain state"
+    proposed_vi: "mẫu quốc"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Đặt trong ngữ cảnh đi liền với 'colonies' ('thuộc địa') ở p000014–p000015, 'mẫu quốc' tự nhiên và chính xác trong tiếng Việt."
+    alternatives_vi:
+      - "nước tông chủ"
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000015"
+
+  - source_term: "divide and conquer"
+    proposed_vi: "chia để trị"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Cách dịch chuẩn xác và cố định trong tiếng Việt cho sách lược cai trị/chiến lược này."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000019"
+
+  - source_term: "multiethnic state / self-determination movements / ethnic minorities"
+    proposed_vi: "quốc gia đa sắc tộc / phong trào tự quyết / sắc tộc thiểu số"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Hệ thuật ngữ chính trị – sắc tộc nhất quán trong phân tích của Tanya về Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000021"
+      - "YS-LN05/Text/part0012.html/p000022"
+
+  - source_term: "hikikomori"
+    proposed_vi: "hikikomori"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ nguyên từ tiếng Nhật đặc trưng trong liên tưởng kiếp trước của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0012.html/p000023"
+
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000794"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó' theo DEC-P01-001."
+      - "Giữ nguyên thuật ngữ 'chỉ huy Kampfgruppe' và cấp bậc 'Đại tá Uger'."
+      - "Không dùng nhấn mạnh Markdown vì nguồn không có thẻ nhấn mạnh."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000795"
+    choices:
+      - "Trần thuật dùng 'nó' và tên riêng 'Tanya'."
+      - "Giữ đúng cấp bậc 'hai Trung úy Serebryakov và Grantz' theo pending-terms-index.yml."
+      - "Giữ thì quá khứ hoàn thành của phỏng đoán ('đã đoán trước được kết luận của bản báo cáo ở một mức độ nhất định ngay từ lúc ra lệnh tiến hành cuộc khảo sát')."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000796"
+    choices:
+      - "Câu đầu là trần thuật ('nó'); từ câu thứ hai chuyển sang độc thoại nội tâm của Tanya, khóa đại từ ngôi thứ nhất số nhiều là 'chúng ta'."
+      - "Giữ từ 'những người Cộng sản' (Communists)."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000797"
+    choices:
+      - "Khóa 'binh lính Liên bang' và thuật ngữ 'chủ nghĩa dân tộc sắc tộc' (ethnic nationalism)."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000798"
+    choices:
+      - "Thoại độc thoại của Tanya dùng đại từ 'Mình' theo DEC-P01-001."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000799"
+    choices:
+      - "Hai câu đầu là trần thuật ('Tanya', 'Nó'); ba câu sau chuyển sang nội tâm tự quy chiếu, khóa đại từ là 'mình' ('Ai cơ? Chính là mình. Là mình đây.')."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000800"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya: khóa 'chúng ta' cho ngôi thứ nhất số nhiều và 'mình' cho ngôi thứ nhất số ít."
+      - "Giữ cấu trúc phủ định kép 'chẳng hiểu địch mà cũng chẳng hiểu nổi chính mình'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000801"
+    choices:
+      - "Trần thuật dùng tên đầy đủ 'Tanya von Degurechaff' và đại từ phản thân 'mình'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000802"
+    choices:
+      - "Thoại cảm thán dùng 'chúng ta'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000803"
+    choices:
+      - "Nội tâm tiếp nối p000802: khóa đại từ 'Chúng ta' ('Chúng ta đã bị lừa.')."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000804"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown '*muôn vàn*' ứng với thẻ em trong nguồn (DEC-P01-002)."
+      - "Giữ đại từ 'các người' (gọi đám Cộng sản) và 'chúng ta'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000805"
+    choices:
+      - "Phân biệt rõ 'chủ nghĩa dân tộc' (nationalism) và 'chủ nghĩa dân tộc sắc tộc' (ethnic nationalism)."
+      - "Giữ thuật ngữ 'cuộc đấu tranh giai cấp' và 'lịch sử khoa học'."
+      - "Độc thoại nội tâm của Tanya khóa đại từ 'mình'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000806"
+    choices:
+      - "Thoại tự trách dùng đại từ 'mình' theo DEC-P01-001."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000807"
+    choices:
+      - "Độc thoại nội tâm của Tanya khóa đại từ 'Mình' (kết hợp 'bản thân' để tránh lặp từ)."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000808"
+    choices:
+      - "Ngôi 'you' khái quát dịch là 'người ta'; ngôi 'I' nội tâm của Tanya khóa là 'Mình'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000809"
+    choices:
+      - "Toàn bộ câu được bọc nhấn mạnh Markdown '*...*' đúng theo thẻ em của nguồn (DEC-P01-002)."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000810"
+    choices:
+      - "Độc thoại nội tâm của Tanya khóa đại từ 'mình'; giữ cấu trúc giả định quá khứ tiếc nuối 'Lẽ ra mình phải biết...'."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000811"
+    choices:
+      - "Trần thuật dùng đại từ 'nó'; giữ dấu chấm lửng cuối câu nối sang phần sau trang minh họa."
+
+  - segment_id: "YS-LN05/Text/part0010.html/p000812"
+    choices:
+      - "Thoại ngắn không chủ ngữ '“Tệ hại hết mức.”', không thêm nhấn mạnh Markdown."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000001"
+    choices:
+      - "Giữ dấu chấm lửng mở đầu nối từ p000811 và định danh 'Tanya von Degurechaff'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000002"
+    choices:
+      - "Toàn bộ câu bọc nhấn mạnh Markdown '*Họ chơi xỏ mình rồi.*' theo DEC-P01-002 và dùng đại từ 'mình' theo DEC-P01-001."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000003"
+    choices:
+      - "Độc thoại nội tâm của Tanya khóa đại từ 'mình'; giữ sắc thái khẩu ngữ miệt thị 'trò tuyên truyền của đám Cộng sản' (Commie propaganda)."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000004"
+    choices:
+      - "Độc thoại nội tâm của Tanya khóa đại từ 'mình'; giữ tên tổ chức 'Đảng Cộng sản'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000005"
+    choices:
+      - "Độc thoại nội tâm khóa đại từ 'mình'; giữ cấu trúc giả định quá khứ 'Lẽ ra mình không nên...'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000006"
+    choices:
+      - "Độc thoại nội tâm khóa đại từ 'Mình' và thuật ngữ 'cuộc tiến công cơ động' (mobile offensive)."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000007"
+    choices:
+      - "Giữ phủ định nhấn mạnh 'thậm chí còn chẳng phải là vấn đề mùa đông nữa'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000008"
+    choices:
+      - "Giữ quan hệ nhân quả tất yếu 'sẽ chỉ càng khiến kẻ địch đoàn kết chặt chẽ hơn'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000009"
+    choices:
+      - "Khóa thuật ngữ 'đạo quân dã chiến' (hoặc 'lực lượng dã chiến') cho 'field army', không dùng 'quân đoàn'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000010"
+    choices:
+      - "Độc thoại nội tâm khóa đại từ 'Mình'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000011"
+    choices:
+      - "Giữ đại từ 'chúng ta', thuật ngữ 'đội quân chính quy' (regular army), 'lực lượng du kích' (guerrillas), và nhấn mạnh Markdown '*có giới hạn*' đúng vị trí thẻ em."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000012"
+    choices:
+      - "Giữ thuật ngữ 'vật tư và trang bị quân sự' (matériel) theo pending-terms-index.yml, cùng các tên riêng 'Việt Nam', 'đế quốc Mỹ', 'Afghanistan', 'Liên Xô', 'người Mông Cổ' và 'luật chiến tranh' (law of war)."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000013"
+    choices:
+      - "Giữ đại từ nội tâm 'chúng ta'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000014"
+    choices:
+      - "Giữ thuật ngữ 'hoạt động chống nổi dậy' (counterinsurgency), 'Quân đội Anh', 'thuộc địa', 'Malaya', đại từ khái quát 'ta', và nhấn mạnh Markdown '*hửm*' ở cuối câu."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000015"
+    choices:
+      - "Giữ thuật ngữ 'thuộc địa' và 'mẫu quốc' (suzerain state), cùng đại từ khái quát 'Người ta'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000016"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*Ồ*' ở đầu câu đúng theo thẻ em (DEC-P01-002) và câu dẫn trần thuật 'Tanya thầm nghĩ'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000017"
+    choices:
+      - "Toàn bộ câu hỏi nội tâm bọc nhấn mạnh Markdown '*Đơn giản quá còn gì nữa?*' theo DEC-P01-002."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000018"
+    choices:
+      - "Giữ nghĩa phủ định sự cần thiết phải đối đầu với toàn bộ kẻ địch, không thêm trạng ngữ thời gian 'cùng một lúc'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000019"
+    choices:
+      - "Giữ đại từ 'Chúng ta' và thành ngữ chiến lược 'chia để trị' (divide and conquer)."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000020"
+    choices:
+      - "Câu dẫn trần thuật dùng 'Tanya'; câu cuối là nội tâm của Tanya khóa đại từ 'chúng ta' và làm rõ chủ thể giao chiến ('số lượng kẻ địch mà ta phải giao chiến')."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000021"
+    choices:
+      - "Khóa thành ngữ 'dù tốt hay xấu' (for better or worse) và thuật ngữ 'quốc gia đa sắc tộc' (multiethnic state)."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000022"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*Chủ nghĩa Cộng sản lý tưởng*' đúng phạm vi thẻ em (DEC-P01-002)."
+      - "Giữ mức độ giả định/khả năng ('Nếu... thì biết đâu lại có thể...', 'Nếu chỉ xét thuần túy về mặt khả năng... có tiềm năng...')."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000023"
+    choices:
+      - "Giữ đại từ 'chúng ta', từ nguyên gốc 'hikikomori', và định danh 'Đế quốc', 'Liên bang'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000024"
+    choices:
+      - "Giữ đại từ 'chúng ta'."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000025"
+    choices:
+      - "Thoại độc thoại của Tanya giữ đại từ 'Mình' theo DEC-P01-001."
+
+  - segment_id: "YS-LN05/Text/part0012.html/p000026"
+    choices:
+      - "Độc thoại nội tâm kết chương của Tanya khóa đại từ 'mình' theo DEC-P01-001."
