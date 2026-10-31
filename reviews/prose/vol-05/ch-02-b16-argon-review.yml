@@ -1,0 +1,187 @@
+task_id: "vol-05-ch-02-b16-argon-review"
+parent_task_id: "vol-05-ch-02-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 2
+source_package: "work/vol-05/batches/ch-02-b16-source.jsonl"
+target_translation: "translations/vol-05/ch-02-b16.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN05/Text/part0016.html/p000344"
+    severity: "minor"
+    category: "terminology"
+    issue: "Cụm 'Slow convoys' đang dịch là 'những đoàn tàu hộ tống đi chậm', dễ giao thoa bề mặt với 'tàu hộ tống' ('escort vessels') ở p000363 dù tại p000344 chỉ các đoàn tàu vận tải/tiếp tế đi theo đội hình hộ tống."
+    basis: "Đối chiếu ngữ cảnh tiếp tế hàng hải ở p000344 và sự phân biệt với 'escort vessels' tại p000363."
+    recommendation: "Có thể giữ nguyên nếu hiểu theo nghĩa tắt của đoàn tàu đi theo đội hình hộ tống, hoặc cân nhắc 'những đoàn tàu vận tải đi chậm' trong đợt chuốt văn nếu muốn tách bạch rõ hơn với tàu hộ tống vũ trang."
+pending_term_recommendations:
+  - source_term: "General Habergram / Major General Habergram / Mr. Habergram"
+    proposed_vi: "Tướng Habergram / Thiếu tướng Habergram / ông Habergram"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất với sổ pending của vol-05 cho danh xưng chung 'Tướng Habergram', đồng thời dịch sát cấp bậc cụ thể 'Major General' là 'Thiếu tướng' tại p000386 và cách gọi xã giao của Thủ tướng 'Mr. Habergram' là 'ông Habergram' tại p000380."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000348"
+      - "YS-LN05/Text/part0016.html/p000352"
+      - "YS-LN05/Text/part0016.html/p000354"
+      - "YS-LN05/Text/part0016.html/p000356"
+      - "YS-LN05/Text/part0016.html/p000366"
+      - "YS-LN05/Text/part0016.html/p000375"
+      - "YS-LN05/Text/part0016.html/p000380"
+      - "YS-LN05/Text/part0016.html/p000386"
+  - source_term: "Prime Minister Churbull / Mr. Prime Minister"
+    proposed_vi: "Thủ tướng Churbull / thưa Thủ tướng"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp với mục đã ghi nhận trong sổ pending vol-05 và giữ sắc thái trang trọng trong đối thoại nghị sự."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000353"
+      - "YS-LN05/Text/part0016.html/p000359"
+      - "YS-LN05/Text/part0016.html/p000377"
+      - "YS-LN05/Text/part0016.html/p000382"
+      - "YS-LN05/Text/part0016.html/p000384"
+  - source_term: "RMS Queen of Anjou"
+    proposed_vi: "RMS *Queen of Anjou*"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên tiền tố tàu hoàng gia 'RMS' và tên riêng con tàu cùng định dạng chữ nghiêng theo đúng cấu trúc nhấn mạnh của nguồn."
+    alternatives_vi:
+      - "chiếc RMS *Queen of Anjou*"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000365"
+  - source_term: "Fleet Command"
+    proposed_vi: "Bộ Tư lệnh Hạm đội"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Cách dịch trực tiếp, chuẩn xác cho cơ quan chỉ huy hạm đội của Hải quân Khối Thịnh vượng chung."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000365"
+  - source_term: "ocean liner / cargo-passenger ship / luxury passenger ship"
+    proposed_vi: "tàu viễn dương / tàu chở khách kiêm chở hàng / tàu chở khách hạng sang"
+    category: "thuật ngữ hàng hải"
+    status: "pending"
+    rationale: "Phân biệt rõ ba cấp độ mô tả phân loại tàu trong nhận thức của Habergram ở p000367-p000368."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000367"
+      - "YS-LN05/Text/part0016.html/p000368"
+  - source_term: "Commonwealth Capital Londinium / the prime minister’s residence"
+    proposed_vi: "Thủ đô Londinium của Khối Thịnh vượng chung / dinh thủ tướng"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên tên thủ đô Londinium và dịch tự nhiên nơi ở/làm việc chính thức của thủ tướng."
+    alternatives_vi:
+      - "Dinh Thủ tướng"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000380"
+      - "YS-LN05/Text/part0016.html/p000385"
+      - "YS-LN05/Text/part0016.html/p000386"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0016.html/p000344"
+    choices:
+      - "Giữ cấu trúc nhấn mạnh vai trò gánh vác nhu cầu tiếp tế quốc gia và ngữ khí chất vấn cuối câu ('các vị biết mà!')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000347"
+    choices:
+      - "Khóa 'Khối Thịnh vượng chung' ('The Commonwealth') và 'khai thông một tuyến đường phía bắc' ('opening up a northern route')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000348"
+    choices:
+      - "Khóa 'Tướng Habergram' ('General Habergram') và 'Liên bang' ('Federation')."
+      - "Giữ đúng hai cụm nhấn mạnh Markdown '*Trong trường hợp đó…*' và '*Quả thực đó không phải… là một kế hoạch tồi. Nhưng chẳng phải như vậy là quá đỗi thuận lợi cho Liên bang hay sao?*' theo DEC-P01-002."
+      - "Giữ phủ định bộ phận và câu hỏi phản vấn nghi ngờ mức độ có lợi cho Liên bang."
+  - segment_id: "YS-LN05/Text/part0016.html/p000349"
+    choices:
+      - "Giữ sắc thái bề mặt 'Thoạt nhìn, kết luận ấy có vẻ nhằm theo đuổi lợi ích của Khối Thịnh vượng chung'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000350"
+    choices:
+      - "Khóa hô ngữ 'Thưa các quý ông' ('Gentlemen') và đại từ 'chúng ta' trong lời điều phối cuộc họp."
+  - segment_id: "YS-LN05/Text/part0016.html/p000351"
+    choices:
+      - "Giữ tình thái phỏng đoán 'có lẽ' ('probably') và mệnh đề khái quát 'Sự đồng thuận tuyệt đối chính là điềm báo của tinh thần đoàn kết'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000352"
+    choices:
+      - "Khóa đại từ trần thuật 'ông' cho Tướng Habergram và chức vụ 'người đứng đầu cơ quan tình báo' ('the head of the intelligence agency')."
+      - "Giữ quan hệ nhân quả nghịch lý: chính vì muốn tin mọi chuyện đang tốt đẹp nên người đứng đầu cơ quan tình báo từng trải qua nhiều gian truân lại không thể hoàn toàn chấp nhận điều đó."
+  - segment_id: "YS-LN05/Text/part0016.html/p000353"
+    choices:
+      - "Khóa 'đơn vị pháp sư hải quân đánh bộ' ('marine mage unit'), 'tuyến đường phía bắc' ('northern route'), 'quân tình nguyện của Hợp chúng quốc' ('Unified States voluntary troops') và 'Thủ tướng Churbull' ('Prime Minister Churbull')."
+      - "Giữ đúng phạm vi nhấn mạnh Markdown '*một chiếc tàu*' ('*one boat*') theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0016.html/p000355"
+    choices:
+      - "Giữ tình thái giả định quá khứ ('thì còn dễ hiểu', 'hẳn đã nói chuyện trước') và câu hỏi nghi vấn nội tâm gián tiếp 'Nhưng… chỉ một chiếc tàu ư?' mà không tự thêm chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000356"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown '*Ồồồ.*' cho cảm thán nội tâm của Tướng Habergram trước khi ông điều chỉnh nhận định."
+  - segment_id: "YS-LN05/Text/part0016.html/p000357"
+    choices:
+      - "Khóa 'Các đại diện hải quân' ('The navy representatives') và đại từ 'ông ta' quy chiếu Thủ tướng Churbull dưới góc nhìn của Habergram."
+  - segment_id: "YS-LN05/Text/part0016.html/p000358"
+    choices:
+      - "Giữ phủ định nhấn mạnh 'thậm chí sẽ chẳng cần đến lực lượng hộ tống' và phản ứng hoảng loạn của phía hải quân."
+  - segment_id: "YS-LN05/Text/part0016.html/p000359"
+    choices:
+      - "Giữ tật nói lắp do hốt hoảng 'X-x-xin khoan đã' và hô ngữ 'thưa Thủ tướng!'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000360"
+    choices:
+      - "Giữ phủ định tuyệt đối và lời can ngăn khẩn thiết ('Không được dùng chiếc đó. Bất cứ thứ gì cũng được trừ chiếc đó ra—ngài tuyệt đối không được làm thế!')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000363"
+    choices:
+      - "Khóa thuật ngữ 'tàu hộ tống' ('escort vessels') và đại từ đối thoại 'tôi - các vị' giữa Thủ tướng với đại diện hải quân."
+  - segment_id: "YS-LN05/Text/part0016.html/p000365"
+    choices:
+      - "Khóa tên tàu 'RMS *Queen of Anjou*' với đúng phạm vi chữ nghiêng Markdown tại '*Queen of Anjou*' và cơ quan 'Bộ Tư lệnh Hạm đội' ('Fleet Command')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000367"
+    choices:
+      - "Khóa 'tàu viễn dương lớn nhất của Khối Thịnh vượng chung' ('the Commonwealth’s largest ocean liner')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000368"
+    choices:
+      - "Khóa 'tàu chở khách kiêm chở hàng' ('cargo-passenger ship') và 'tàu chở khách hạng sang' ('luxury passenger ship')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000369"
+    choices:
+      - "Giữ đúng ranh giới chuyển từ trần thuật sang độc thoại nội tâm in nghiêng bằng Markdown: 'Ông từng nghe nói nó đã bị trưng dụng, nhưng *ra là vậy. Nhìn mức độ hốt hoảng của bên hải quân thì… hẳn nó còn hữu dụng hơn cả lời đồn.*'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000371"
+    choices:
+      - "Khóa 'pháp sư hải quân đánh bộ' ('marine mages') và mệnh lệnh phủ định 'Đừng để con tàu ấy bị đánh chìm!' ('Don’t let her sink!')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000372"
+    choices:
+      - "Giữ sự đối lập hành vi giữa 'các thành viên hải quân' ('the navy members') và 'các thành viên lục quân' ('the army members')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000373"
+    choices:
+      - "Khóa 'Các sĩ quan không quân' ('The air force officers') và chi tiết thảo luận kỹ thuật về động cơ máy bay để tránh bị vạ lây."
+  - segment_id: "YS-LN05/Text/part0016.html/p000374"
+    choices:
+      - "Khóa 'Bộ Ngoại giao' ('Foreign Office') và nét nghĩa phủ định 'chẳng mảy may liên quan gì đến họ'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000375"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown cho toàn bộ khối độc thoại nội tâm đầu đoạn và đại từ tự xưng 'mình' của Habergram trong suy nghĩ."
+  - segment_id: "YS-LN05/Text/part0016.html/p000377"
+    choices:
+      - "Giữ nhận định sửa lại 'hay đúng hơn là đang chế giễu họ' và định danh 'đích thân Thủ tướng Churbull'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000380"
+    choices:
+      - "Khóa cách xưng hô lịch thiệp của Churbull với Habergram ('tôi - ông', 'ông Habergram'), mốc thời gian 'ba giờ chiều mai' và địa điểm 'dinh thủ tướng'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000381"
+    choices:
+      - "Khóa cách đáp lễ của Habergram với Thủ tướng ('tôi - thưa ngài')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000382"
+    choices:
+      - "Giữ nghĩa 'trên thực tế chính là một mệnh lệnh' ('a de facto order') và điều kiện ngoại lệ giả định 'Trừ phi đã có hẹn dùng tiệc trà với nhà vua'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000383"
+    choices:
+      - "Khóa 'quản gia' ('butler') và câu hỏi lịch sự về bữa nhẹ ('Một bữa nhẹ nhàng chút có ổn với ông không?')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000384"
+    choices:
+      - "Khóa câu đáp 'Vâng, xin cảm ơn ngài, thưa Thủ tướng.'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000385"
+    choices:
+      - "Khóa dòng tiêu đề bối cảnh viết hoa 'MỘT NGÀY NỌ, THỦ ĐÔ LONDINIUM CỦA KHỐI THỊNH VƯỢNG CHUNG, DINH THỦ TƯỚNG'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000386"
+    choices:
+      - "Khóa cấp bậc đầy đủ 'Thiếu tướng Habergram' ('Major General Habergram') và 'dinh thủ tướng' ('the prime minister’s residence')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000387"
+    choices:
+      - "Giữ cấu trúc phủ định kép 'chẳng phải điều gì lạ lẫm' cho việc mặt trời không ló dạng trên bầu trời mùa thu."
