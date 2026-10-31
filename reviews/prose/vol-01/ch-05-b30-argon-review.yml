@@ -1,0 +1,253 @@
+task_id: vol-01-ch-05-b30-argon-review
+parent_task_id: vol-01-ch-05-b30
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-01/ch-05-b30-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000110
+    severity: minor
+    category: pronoun_style
+    issue: "Ở câu 3 của p000110 (trần thuật ngôi thứ ba từ điểm nhìn của đoàn thanh tra), cụm 'đơn vị của mình' dùng đại từ phản thân 'mình' cho chủ ngữ ngôi thứ ba ('cô'), trong khi câu 1 cùng đoạn đã dùng 'đơn vị của cô' (tương tự ở câu 2 của p000088 với cụm 'chức trách của mình' cho chủ ngữ phiếm chỉ ngôi thứ ba)."
+    basis: "Dù 'mình' làm đại từ phản thân ngôi thứ ba là cách diễn đạt tự nhiên trong tiếng Việt, quy ước DEC-P01-001 đã dành đại từ 'mình' cho tự quy chiếu nội tâm ngôi thứ nhất của Tanya."
+    recommendation: "Không ảnh hưởng nghĩa hay điểm nhìn; ở bước chuốt văn có thể cân nhắc lược bớt hoặc đổi thành 'đơn vị' / 'đơn vị của cô' tại câu 3 của p000110 (và 'xứng đáng với chức trách' tại câu 2 của p000088) để giữ 'mình' thuần túy cho độc thoại nội tâm của Tanya."
+pending_term_recommendations:
+  - source_term: Colonel von Lergen
+    proposed_vi: Trung tá von Lergen
+    alternatives_vi:
+      - Đại tá von Lergen (không dùng ở giai đoạn Tập 1 vì quân hàm thực tế của von Lergen là Trung tá)
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000087
+      - YS-LN01/Text/chapter011b.xhtml/p000092
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ với sổ pending-terms-index.yml và các lô ch-05-b28, ch-05-b29: trong tiếng Anh quân sự, cấp Trung tá thường được gọi hoặc viết lược nhưng tiếng Việt cần dịch đúng quân hàm thực tế 'Trung tá' ở thời điểm Tập 1."
+  - source_term: Dacian / Dacia / Dacians
+    proposed_vi: tiếng Dacia / Dacia / người Dacia
+    alternatives_vi:
+      - ngôn ngữ Dacia / Công quốc Dacia / quân Dacia
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000093
+      - YS-LN01/Text/chapter011b.xhtml/p000094
+      - YS-LN01/Text/chapter011b.xhtml/p000096
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Phân biệt rõ tên ngôn ngữ ('tiếng Dacia'), quốc danh ('Dacia' đã có trong pending-terms-index.yml) và danh từ chỉ người/lực lượng của quốc gia đó ('người Dacia') theo đúng ngữ cảnh từng câu."
+  - source_term: Battalion Commander von Degurechaff
+    proposed_vi: Tiểu đoàn trưởng von Degurechaff
+    alternatives_vi:
+      - Chỉ huy Tiểu đoàn von Degurechaff
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000098
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ với thuật ngữ 'tiểu đoàn trưởng' đã khóa trong sổ pending-terms-index.yml và tại p000088."
+  - source_term: Ransylvania region / Turao County / Imperial Army field maneuver area
+    proposed_vi: vùng Ransylvania / hạt Turao / khu diễn tập dã ngoại của Quân đội Đế quốc
+    alternatives_vi:
+      - khu vực Ransylvania / quận Turao / thao trường dã ngoại của Quân đội Đế quốc
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000099
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Cách dịch địa danh hành chính và khu vực huấn luyện quân sự trang trọng, chuẩn xác cho dòng tiêu đề chuyển cảnh ở cuối chương 5."
+  - source_term: inspection / initial selection phase / inspectors
+    proposed_vi: đợt thanh tra / giai đoạn tuyển chọn ban đầu / các thanh tra viên
+    alternatives_vi:
+      - cuộc thị sát / giai đoạn sàng lọc ban đầu / các sĩ quan thị sát
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000100
+      - YS-LN01/Text/chapter011b.xhtml/p000101
+      - YS-LN01/Text/chapter011b.xhtml/p000110
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Giữ tính liên kết từ vựng chặt chẽ giữa hoạt động kiểm tra đánh giá đơn vị ('đợt thanh tra') và những người thực hiện ('các thanh tra viên') trong cùng một phân cảnh."
+  - source_term: barrage formula
+    proposed_vi: thuật thức oanh kích
+    alternatives_vi:
+      - thuật thức bắn dồn dập
+      - thuật thức chế áp hỏa lực
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000106
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Kế thừa thuật ngữ gốc 'thuật thức' kết hợp với 'oanh kích' đã dùng cho hỏa lực ma pháp diện rộng ở các lô trước của chương 5."
+  - source_term: Republican Army
+    proposed_vi: Quân đội Cộng hòa
+    alternatives_vi:
+      - Lục quân Cộng hòa
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000109
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Kế thừa nhất quán cách dịch 'Quân đội Cộng hòa' đã dùng ở các chương trước của Tập 1."
+locked_choices:
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000081
+    pov_and_pronouns: "Thoại của Trung tá von Lergen đáp lại câu hỏi của Tanya."
+    terms_and_ranks: "Bộ Tổng Tham mưu."
+    modality_and_negation: "Giữ câu khẳng định ngắn gọn nêu quyết định của Bộ Tổng Tham mưu."
+    emphasis: "Không dùng dấu *...* (nguồn không có thẻ nhấn mạnh theo DEC-P01-002)."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000082
+    pov_and_pronouns: "Thoại của Tanya với cấp trên là Trung tá von Lergen: tự xưng 'Tôi' kèm tiểu từ kính ngữ 'ạ'."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ câu hỏi xin phép lịch sự 'Tôi có thể hỏi tại sao không ạ?'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000083
+    pov_and_pronouns: "Thoại của Lergen với Tanya: gọi Tanya là 'Cô' kết hợp 'đơn vị mình'."
+    terms_and_ranks: "bí mật quân sự; năng lực tác chiến; phía đông nam; mệnh lệnh."
+    modality_and_negation: "Giữ câu khẳng định lý do bảo mật ở câu 1 và câu mệnh lệnh kèm mốc giới hạn thời gian 'cho đến khi nhận được mệnh lệnh mới' ở câu 2."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000084
+    pov_and_pronouns: "Độc thoại nội tâm của Tanya: tự quy chiếu 'mình' / 'Mình' theo DEC-P01-001; quy chiếu Lergen bằng 'ông ấy'."
+    terms_and_ranks: "toan tính chính trị; đơn vị; Bộ Tổng Tham mưu; phía đông nam."
+    modality_and_negation: "Giữ phủ định 'sẽ không giải thích' ở câu 1, mức độ phỏng đoán 'nhưng có lẽ chỉ tổ phí thời gian mà thôi' ở câu 2, và tính bắt buộc 'lại buộc phải được điều tới phía đông nam' ở câu 3."
+    emphasis: "Bảo toàn chính xác hai cụm nhấn mạnh Markdown '*Vậy là ông ấy sẽ không giải thích những toan tính chính trị đằng sau quyết định này.*' và '*Trong trường hợp đó, tất cả những gì mình có thể làm là đoán mò, nhưng có lẽ chỉ tổ phí thời gian mà thôi.*' tương ứng 1:1 với hai thẻ <html:em> ở hai câu đầu; câu thứ ba không đánh dấu *...* theo đúng DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000085
+    pov_and_pronouns: "Thoại của Tanya với Lergen: hô ngữ 'Thưa ngài', tự xưng 'tôi', dùng 'các ngài' quy chiếu Lergen và Bộ Tổng Tham mưu."
+    terms_and_ranks: "năng lực tác chiến; đơn vị."
+    modality_and_negation: "Giữ cấu trúc câu điều kiện kèm lời đề nghị ('nếu thứ các ngài cần là năng lực tác chiến, tôi đề nghị các ngài hãy sử dụng một đơn vị đã được huấn luyện đầy đủ')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000086
+    pov_and_pronouns: "Thoại của Lergen với Tanya: tự xưng 'Tôi', quy chiếu đơn vị của Tanya bằng 'đơn vị của cô'."
+    terms_and_ranks: "đơn vị."
+    modality_and_negation: "Giữ sắc thái phỏng đoán lịch sự 'Tôi cho rằng đơn vị của cô vốn đã ở trên mức trung bình rồi.'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000087
+    pov_and_pronouns: "Thoại công vụ của Tanya với Lergen: gọi 'Thưa Trung tá von Lergen' và 'ngài', tự xưng 'tôi' kết hợp phản thân 'mình', quy chiếu binh lính trong đơn vị bằng 'họ'."
+    terms_and_ranks: "Trung tá von Lergen; triển khai; đơn vị."
+    modality_and_negation: "Giữ sắc thái nghĩa vụ bắt buộc ('tôi buộc phải báo để ngài rõ rằng...') và mức độ khả thể ('làm như vậy có thể cản trở quá trình chuẩn bị để họ có thể chiến đấu một cách hữu hiệu')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000088
+    pov_and_pronouns: "Độc thoại nội tâm của Tanya: tự quy chiếu 'mình' ở câu 1 theo DEC-P01-001; quy chiếu 'Bất kỳ tiểu đoàn trưởng nào' ở câu 2 bằng 'họ' (lưu ý gợi ý tại findings về từ 'mình' phản thân ở câu 2)."
+    terms_and_ranks: "tiểu đoàn trưởng; đơn vị."
+    modality_and_negation: "Giữ khẳng định tất nhiên 'lẽ tự nhiên đều sẽ phàn nàn khi bị tước đi khoảng thời gian cần thiết để giúp đơn vị của họ sẵn sàng'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000089
+    pov_and_pronouns: "Thoại của Lergen với Tanya: gọi Tanya là 'cô'."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ sự đối lập giữa ghi nhận công vụ ở vế đầu và mệnh lệnh phủ định dứt khoát 'nhưng đừng trông mong quyết định này sẽ bị đảo ngược' ở vế sau."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000090
+    pov_and_pronouns: "Độc thoại nội tâm của Tanya: tự quy chiếu 'mình' theo DEC-P01-001; quy chiếu Lergen bằng 'ông ấy'."
+    terms_and_ranks: "cấp trên."
+    modality_and_negation: "Giữ câu điều kiện dẫn tới kết luận chắc chắn tuyệt đối ở câu 2 ('Nếu âm sắc đanh cứng trong giọng nói của ông ấy phản ánh quyết tâm của cấp trên, thì không còn nghi ngờ gì nữa, điều đó cho thấy quyết định này đã như đinh đóng cột rồi.')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000091
+    pov_and_pronouns: "Thoại nhận lệnh của Tanya với Lergen: hô ngữ 'thưa ngài'."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ câu đáp điều lệnh ngắn gọn 'Đã rõ, thưa ngài.'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000092
+    pov_and_pronouns: "Độc thoại nội tâm và trần thuật ngôi thứ nhất của Tanya: tự quy chiếu 'mình' / 'Mình' theo DEC-P01-001; quy chiếu cấp trên bằng 'họ'; quy chiếu Trung tá von Lergen bằng 'ông ấy' / 'chính ông ấy'."
+    terms_and_ranks: "mệnh lệnh bằng văn bản; Trung tá von Lergen; phái viên."
+    modality_and_negation: "Giữ giả định quá khứ 'Nhưng lẽ ra họ đã có thể giải quyết chuyện này...' ở câu 2, câu hỏi nội tâm ở câu 3, phủ định 'Mình không sao gạt bỏ được câu hỏi đó.' ở câu 4, và sắc thái ngoại hiện 'xem chừng đã hoàn tất' ở câu 5."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000093
+    pov_and_pronouns: "Thoại của Lergen khuyên Tanya: gọi Tanya là 'cô'."
+    terms_and_ranks: "phía đông nam; tiếng Dacia."
+    modality_and_negation: "Giữ dấu hai chấm nối lời mở đầu với câu hỏi gợi ý mang hình thức phủ định 'sao không nhân dịp này dành thời gian học tiếng Dacia đi?'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000094
+    pov_and_pronouns: "Thoại hỏi lại của Tanya với Lergen: hô ngữ 'thưa ngài'."
+    terms_and_ranks: "Tiếng Dacia."
+    modality_and_negation: "Giữ nguyên hai câu hỏi ngắn thể hiện sự ngạc nhiên của Tanya."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000095
+    pov_and_pronouns: "Thoại của Lergen với Tanya: dùng đại từ ngôi thứ nhất số nhiều bao gộp 'những người lính chúng ta'."
+    terms_and_ranks: "người lính."
+    modality_and_negation: "Giữ khẳng định phủ định tuyệt đối 'Học thêm một ngôn ngữ mới thì chẳng bao giờ thiệt đi đâu cả'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000096
+    pov_and_pronouns: "Độc thoại nội tâm của Tanya: dùng 'chúng ta' chỉ phía Đế quốc; quy chiếu 'người Dacia' bằng 'họ'."
+    terms_and_ranks: "tiếng Dacia; Dacia; đồng minh; kẻ địch; người Dacia; thu thập tin tức tình báo."
+    modality_and_negation: "Giữ sự tán đồng có giới hạn ở câu 1, câu hỏi nội tâm ở câu 2, hai khả năng đối lập ở câu 3 và hai câu điều kiện đối xứng ở câu 4–5."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000097
+    pov_and_pronouns: "Thoại của Tanya với Lergen: tự xưng 'tôi', gọi Lergen là 'ngài' / 'thưa ngài'."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ câu điều kiện mở 'Nếu thu xếp được thời gian, tôi sẽ thử học xem sao.' và lời cảm ơn lịch sự ở câu 2."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000098
+    pov_and_pronouns: "Thoại của Lergen chào tạm biệt Tanya: gọi Tanya là 'cô' và chức danh 'Tiểu đoàn trưởng von Degurechaff'."
+    terms_and_ranks: "thăng hàm; Tiểu đoàn trưởng von Degurechaff."
+    modality_and_negation: "Giữ lời đáp lịch sự 'Không có gì đâu.' và lời chúc mừng thăng hàm lần nữa."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000099
+    pov_and_pronouns: "Dòng tiêu đề thời gian – địa điểm mở đầu phân cảnh mới."
+    terms_and_ranks: "NĂM THỐNG NHẤT 1924; VÙNG RANSYLVANIA; HẠT TURAO; KHU DIỄN TẬP DÃ NGOẠI CỦA QUÂN ĐỘI ĐẾ QUỐC."
+    modality_and_negation: "Giữ nguyên định dạng in hoa toàn bộ của dòng tiêu đề chuyển cảnh."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000100
+    pov_and_pronouns: "Trần thuật ngôi thứ ba khách quan mở đầu phân cảnh thanh tra."
+    terms_and_ranks: "căn cứ mới; tiểu đoàn; đợt thanh tra; giai đoạn tuyển chọn ban đầu."
+    modality_and_negation: "Giữ mốc thời gian ngắn 'Chỉ vài ngày sau khi...' và mục đích của đợt thanh tra."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000101
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn của các sĩ quan cấp cao thuộc Bộ Tổng Tham mưu: quy chiếu bằng 'họ'."
+    terms_and_ranks: "tình hình chiến sự; kế hoạch triển khai; đợt thanh tra; Các sĩ quan cấp cao của Bộ Tổng Tham mưu; kỷ luật của đơn vị."
+    modality_and_negation: "Giữ quan hệ nhân quả ở câu 1, sự đối lập tích cực 'nhưng những dự tính của họ đã bị phản bội theo cách tuyệt vời nhất có thể' ở câu 2, và định ngữ phủ định khả thể 'một cảnh tượng mà họ chẳng bao giờ có thể tưởng tượng nổi' ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000102
+    pov_and_pronouns: "Thoại quát tháo qua vô tuyến của Tanya với các pháp sư trong tiểu đoàn: gọi 'Lũ đầu đất các người'."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ khẩu khí gay gắt và mệnh lệnh trực tiếp bắt bay cao hơn."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000103
+    pov_and_pronouns: "Thoại của Tanya qua vô tuyến: gọi cấp dưới là 'Các người', tự xưng 'tôi'."
+    terms_and_ranks: "tám nghìn feet."
+    modality_and_negation: "Giữ câu cảm thán chê độ cao mới có tám nghìn feet, lời mắng 'Đồ yếu đuối.' và câu hỏi trách mắng phủ định 'Các người không nghe thấy tôi nói gì hả?'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000104
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ điểm nhìn quan sát bên ngoài của đoàn thanh tra: theo đúng giới hạn của DEC-P01-001, quy chiếu Tanya là 'một đứa trẻ—một cô bé' / 'cô bé' / 'cô' (không dùng 'nó')."
+    terms_and_ranks: "máy vô tuyến; mana."
+    modality_and_negation: "Giữ sự tương phản ở câu 2 ('Thật khó tin, nhưng đó lại là giọng của một đứa trẻ—một cô bé.') và sự đe dọa không khoan nhượng ('sẵn sàng thẳng tay bắn rụng bất kỳ kẻ nào dám bay thấp hơn') ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000105
+    pov_and_pronouns: "Thoại của Tanya qua vô tuyến: gọi các pháp sư là 'các người', dùng 'chúng ta' chỉ phía Quân đội Đế quốc."
+    terms_and_ranks: "tài nguyên; đồng đội."
+    modality_and_negation: "Giữ câu hỏi ngắn phủ định 'Không làm được hả?', chuỗi câu mệnh lệnh ngắn dồn dập và câu điều kiện thực dụng ở câu 4."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000106
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ điểm nhìn bên ngoài: quy chiếu Tanya bằng 'cô', quy chiếu các pháp sư bằng 'họ'."
+    terms_and_ranks: "thuật thức oanh kích; độ cao; mana; pháp sư."
+    modality_and_negation: "Giữ câu điều kiện giả định ở câu 1, cấu trúc điều kiện loại trừ kép 'mà chưa ngất đi hoặc chưa cạn sạch mana trước đó thì chắc chắn sẽ bị bắn rụng khỏi bầu trời' ở câu 2, và mệnh đề phủ định 'các pháp sư cũng chẳng ngờ cô lại làm thật' đối lập với thực tế ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000107
+    pov_and_pronouns: "Thoại mệnh lệnh của Tanya qua vô tuyến."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ cấu trúc lựa chọn mệnh lệnh đặc trưng 'hoặc là chết đi, hoặc là bay cao hơn nữa'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000108
+    pov_and_pronouns: "Trần thuật ngôi thứ ba nhận định chung."
+    terms_and_ranks: "tiền lệ."
+    modality_and_negation: "Giữ câu khẳng định ngắn gọn 'Hôm nay lại là một ngày nữa phá vỡ mọi tiền lệ.'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000109
+    pov_and_pronouns: "Lời lẩm bẩm của Thiếu tá von Degurechaff: dùng đại từ ngôi thứ nhất số nhiều 'chúng ta'."
+    terms_and_ranks: "pháp sư; Quân đội Cộng hòa; tám nghìn; mười nghìn."
+    modality_and_negation: "Giữ quan hệ kéo theo giữa khả năng của đối phương ('có thể vươn tới độ cao tám nghìn') và mục tiêu đặt ra cho đơn vị ('nên chúng ta phải nhắm tới mức mười nghìn')."
+    emphasis: "Bảo toàn chính xác dấu *...* bao trọn toàn bộ câu tương ứng 1:1 với thẻ <html:em> trong xhtml nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000110
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn đoàn thanh tra: gọi 'Thiếu tá von Degurechaff' và quy chiếu bằng 'cô' theo đúng giới hạn chủ thể của DEC-P01-001 (lưu ý gợi ý nhỏ ở findings về từ phản thân ở câu 3)."
+    terms_and_ranks: "Thiếu tá von Degurechaff; đơn vị; các thanh tra viên; sáu nghìn feet; tám nghìn."
+    modality_and_negation: "Giữ nguyên từ trong ngoặc kép '“lập tức”' ở câu 1, nhận định thông thường ('bị coi là tự sát') ở câu 2 và sự đối lập ('Thế nhưng cô lại thản nhiên ra lệnh...') ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000111
+    pov_and_pronouns: "Trần thuật ngôi thứ ba khép lại chương 5 từ góc nhìn của các sĩ quan quan sát: quy chiếu Tanya bằng 'cô' / 'Cô', quy chiếu các pháp sư trong tiểu đoàn bằng 'họ'."
+    terms_and_ranks: "đám lính bất tài; những quân nhân tinh nhuệ; lực lượng tinh nhuệ."
+    modality_and_negation: "Giữ sự đối lập nhượng bộ ở câu 1 ('Chuyện đó nghe có vẻ điên rồ, nhưng cô hoàn toàn nghiêm túc...'), câu phủ định 'Cô không hề nói ngoa.' ở câu 2, câu khẳng định hoàn tất 'Cô đã làm được điều đó.' ở câu 3 và sự đối lập ở câu kết chương ('Cô đã quất roi rèn luyện họ đến mức đổ máu, nhưng họ đã thực sự trở thành lực lượng tinh nhuệ.')."
+    emphasis: "Không dùng dấu *...*."
