@@ -1,0 +1,281 @@
+task_id: "vol-05-ch-01-b02-argon-review"
+parent_task_id: "vol-05-ch-01-b02"
+volume: "vol-05"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-01-b02-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 5
+  minor: 1
+unresolved_findings: 6
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000035"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Đại từ tự quy chiếu ngôi thứ nhất trong độc thoại nội tâm của Tanya đang dịch là 'tôi' ('vừa đọc tôi vừa chỉ muốn bật cười thành tiếng'), trái với quy ước đã duyệt tại DEC-P01-001 ('nội tâm tự quy chiếu của Tanya dùng mình') và thiếu nhất quán với 'Mình' ở đoạn p000033."
+    basis: "DEC-P01-001 trong canon/decisions.md quy định nội tâm tự quy chiếu của Tanya dùng 'mình'."
+    recommendation: "Đổi 'tôi' thành 'mình' ('Kiến thức của các em ấy tường tận đến mức vừa đọc mình vừa chỉ muốn bật cười thành tiếng.')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000046"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Trong độc thoại nội tâm của Tanya khi quan sát mặt trận phía đông qua ống nhòm, đại từ ngôi thứ nhất số nhiều đang dịch là 'chúng tôi' ('chúng tôi vẫn không đủ nhân lực'), mang sắc thái đối thoại với người ngoài thay vì suy nghĩ nội tâm tự quy chiếu."
+    basis: "Điểm nhìn độc thoại nội tâm tiếp nối p000045–p000047 và quy ước đại từ nội tâm 'mình / chúng ta' trong sổ pending."
+    recommendation: "Đổi 'chúng tôi' thành 'chúng ta' (hoặc 'quân ta') để giữ đúng điểm nhìn nội tâm của Tanya."
+  - segment_id: "YS-LN05/Text/part0010.html/p000051"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Đoạn p000051 mở đầu ý nghĩ âm ỉ trong lòng Tanya (tiếp nối trực tiếp p000049–p000050), nhưng đại từ tự quy chiếu lại dịch là 'tôi' ('mà tôi biết') thay vì 'mình' theo DEC-P01-001. Ngoài ra cụm 'quân đội Đức đã định sẵn số phận bị tiêu hao đến tan chảy' thiếu từ chỉ trạng thái bị động cho 'định sẵn số phận'."
+    basis: "DEC-P01-001 trong canon/decisions.md và cấu trúc bị động của vị ngữ chỉ số phận trong nguyên bản."
+    recommendation: "Đổi 'mà tôi biết' thành 'mà mình biết'; chỉnh nhẹ mệnh đề chính thành 'quân đội Đức đã bị định sẵn số phận tiêu hao đến tan chảy' (hoặc 'đã có số phận định sẵn là bị tiêu hao đến tan chảy')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000053"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Tiếp nối mạch độc thoại nội tâm của Tanya khi đối chiếu lịch sử hai cuộc Thế chiến, đại từ tự quy chiếu đang dịch là 'tôi' ('mà tôi nhớ') thay vì 'mình' theo DEC-P01-001."
+    basis: "DEC-P01-001 trong canon/decisions.md quy định nội tâm tự quy chiếu của Tanya dùng 'mình'."
+    recommendation: "Đổi 'mà tôi nhớ' thành 'mà mình nhớ'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000054"
+    severity: "moderate"
+    category: "pronouns_viewpoint"
+    issue: "Ở câu kết chuỗi suy nghĩ nội tâm của Tanya, đại từ ngôi thứ nhất số nhiều đang dịch là 'chúng tôi' ('chúng tôi buộc phải thua ở phía đông') thay vì 'chúng ta', làm lệch điểm nhìn độc thoại nội tâm."
+    basis: "Mạch độc thoại nội tâm liên tục từ p000051 đến p000054 và quy ước đại từ nội tâm 'mình / chúng ta'."
+    recommendation: "Đổi 'chúng tôi' thành 'chúng ta' ('Tuy nhiên, điều đó cũng không có nghĩa là chúng ta buộc phải thua ở phía đông.')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000039"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Cụm từ dịch vật dụng uống cà phê ('chiếc cốc dã chiến quân dụng chẳng ra hình chiếc cốc') thêm chữ 'dã chiến' chưa có trực tiếp trong từ gốc chỉ nêu tính chất quân dụng và kiểu dáng giả cốc."
+    basis: "Nguyên tắc tại canon/style-guide.md: không tự thêm giải thích ngoài chi tiết nguồn."
+    recommendation: "Lược chữ 'dã chiến', giữ 'chiếc cốc quân dụng chẳng ra hình chiếc cốc' (hoặc 'chiếc ca quân dụng giả cốc')."
+pending_term_recommendations:
+  - source_term: "Imperial Service Corps"
+    proposed_vi: "Cục Quân vụ Đế quốc"
+    alternatives_vi:
+      - "Binh chủng Hậu cần Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000029"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với phương án tạm 'Cục Quân vụ' cho 'Service Corps' đã dùng tại vol-01 và vol-04 trong pending-terms-index.yml."
+  - source_term: "information war / information warfare"
+    proposed_vi: "chiến tranh thông tin"
+    alternatives_vi:
+      - "tác chiến thông tin"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000037"
+      - "YS-LN05/Text/part0010.html/p000039"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với thuật ngữ tạm 'chiến tranh thông tin' đã dùng ở vol-02 trong pending-terms-index.yml."
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000038"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với định danh quốc gia đã dùng xuyên suốt vol-04 trong pending-terms-index.yml."
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000038"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với định danh quốc gia đã dùng xuyên suốt vol-04 trong pending-terms-index.yml."
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000039"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phù hợp ngữ cảnh lực lượng tác chiến mặt đất của Đế quốc và tương thích với 'Bộ Tổng tham mưu Lục quân Đế quốc' trong sổ pending."
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff"
+    proposed_vi: "Trung tá Tanya von Degurechaff"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000047"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với quân hàm và định danh nhân vật tại vol-04 trong pending-terms-index.yml."
+  - source_term: "war of attrition"
+    proposed_vi: "cuộc chiến tiêu hao"
+    alternatives_vi:
+      - "chiến tranh tiêu hao"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000052"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Chuẩn xác về thuật ngữ quân sự và đồng bộ với các cụm 'trận chiến tiêu hao', 'tỷ lệ tiêu hao' trong pending-terms-index.yml."
+  - source_term: "human resources"
+    proposed_vi: "nguồn nhân lực"
+    alternatives_vi:
+      - "nhân lực"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000052"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với mục 'human resources -> nguồn nhân lực' tại vol-01 trong pending-terms-index.yml."
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000025"
+    locked:
+      modality: "Tuy có thể không mấy liên quan… / tương đối ngon"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000026"
+    locked:
+      names: "Tanya"
+      negation: "bánh mì không bị ỉu cứng"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000027"
+    locked:
+      names: "Tanya"
+      date_and_logic: "đừng giật mình nhé / ngày 28 tháng 8 / tờ báo của ngày hôm nay"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000028"
+    locked:
+      modality: "Tuy bây giờ đã là buổi chiều, nhưng báo buổi sáng vẫn có thể được chuyển tới"
+      terminology: "những vị trí tiền tiêu xa nhất"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000029"
+    locked:
+      terminology: "Cục Quân vụ Đế quốc / cuộc chiến hậu cần"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000030"
+    locked:
+      names: "Tanya"
+      viewpoint: "trần thuật ngôi thứ ba, lược đại từ tự nhiên ('khi lầm bầm một mình')"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000031"
+    locked:
+      viewpoint: "thoại lầm bầm một mình của Tanya, lược chủ ngữ tự nhiên"
+      terminology: "tin tức thời chiến"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000032"
+    locked:
+      names: "Tanya"
+      terminology: "bí mật quân sự / báo chí ở hậu phương / “Đời sống của những người lính quả cảm nơi tiền tuyến”"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000033"
+    locked:
+      pronouns: "Mình (tự quy chiếu của Tanya theo DEC-P01-001)"
+      terminology: "kiểm duyệt / tuyên truyền / hậu phương / tiền tuyến"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000034"
+    locked:
+      modality_and_negation: "có lẽ đó cũng không phải là một cách tồi để khích lệ tinh thần chiến đấu"
+      terminology: "từ viết tắt lẫn tiếng lóng / tiền tuyến"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000035"
+    locked:
+      pronouns: "mình (độc thoại nội tâm của Tanya theo DEC-P01-001, sửa từ 'tôi')"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000036"
+    locked:
+      pronouns: "Các người (Tanya hướng lời mỉa mai tới phía làm báo/tuyên truyền)"
+      terminology: "tin giả"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000037"
+    locked:
+      negation: "thậm chí còn chẳng buồn che giấu sự thật rằng tất cả những lá thư đó đều do một người viết ra"
+      terminology: "chiến tranh thông tin"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000038"
+    locked:
+      terminology: "Liên bang / Khối Thịnh vượng chung"
+      modality: "có lẽ giỏi mấy trò kiểu này hơn"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000039"
+    locked:
+      names: "Tanya"
+      terminology: "Lục quân Đế quốc / chiến tranh thông tin / chiếc cốc quân dụng chẳng ra hình chiếc cốc"
+      negation: "chẳng có cách nào hay ho để thắng được bọn lừa đảo trong chính trò chơi sở trường của chúng"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000040"
+    locked:
+      condition_and_logic: "nếu phương pháp mà họ lựa chọn lại thiếu đi sự tinh vi, thì nó sẽ chỉ phản tác dụng mà thôi"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000041"
+    locked:
+      viewpoint: "thoại cảm thán của Tanya, dùng danh ngữ khái quát 'một kẻ sống để làm việc'"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000042"
+    locked:
+      names: "Tanya"
+      negation: "chẳng có gì lạ"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000043"
+    locked:
+      pronouns: "nó (trần thuật ngôi thứ ba về Tanya theo DEC-P01-001)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000044"
+    locked:
+      date_and_logic: "những ngày cuối tháng Tám / tiết trời dễ chịu đến mức chẳng thể nào liên tưởng miền đông với bùn lầy được"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000045"
+    locked:
+      names: "Tanya"
+      negation: "chẳng buồn che giấu vẻ bực dọc"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000046"
+    locked:
+      pronouns: "chúng ta (độc thoại nội tâm ngôi thứ nhất số nhiều của Tanya, sửa từ 'chúng tôi')"
+      condition_and_negation: "Nếu cố đánh chiếm dải đất rộng lớn này thì cả đội quân sẽ kiệt sức mất / không đủ nhân lực để bao quát hết toàn bộ"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000047"
+    locked:
+      ranks_and_names: "Trung tá Tanya von Degurechaff"
+      pronouns: "nó (trần thuật ngôi thứ ba về Tanya theo DEC-P01-001)"
+      emphasis: "*Thế này chẳng khác nào lao đầu vào một đường hầm mà chẳng biết có lối ra hay không…* (theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000048"
+    locked:
+      viewpoint: "độc thoại nội tâm lược đại từ chủ ngữ ('Đoán là...')"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000049"
+    locked:
+      names: "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000050"
+    locked:
+      pronouns: "nó (trần thuật ngôi thứ ba về Tanya theo DEC-P01-001)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000051"
+    locked:
+      pronouns: "mình (độc thoại nội tâm của Tanya theo DEC-P01-001, sửa từ 'tôi')"
+      terminology: "Trái Đất / quân đội Đức / mặt trận phía đông / những phòng tuyến bị kéo căng quá mức"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000052"
+    locked:
+      terminology: "Cuộc chiến tiêu hao / Đế quốc / nguồn nhân lực"
+      negation_and_time: "vẫn chưa cạn kiệt / chỉ đúng với hiện tại mà thôi / không phải là sự bảo đảm cho tương lai"
+      emphasis: "*vẫn chưa cạn kiệt* (theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000053"
+    locked:
+      pronouns: "mình (độc thoại nội tâm của Tanya theo DEC-P01-001, sửa từ 'tôi')"
+      terminology_and_logic: "giả định rằng các sự kiện ở đây diễn ra trùng khớp với những gì đã xảy ra trong Thế chiến thứ hai / Thế chiến thứ nhất / Đức"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000054"
+    locked:
+      pronouns: "chúng ta (độc thoại nội tâm ngôi thứ nhất số nhiều của Tanya, sửa từ 'chúng tôi')"
+      negation_and_modality: "hiện tại Đế quốc đang thắng thế ở phía tây / không có nghĩa là chúng ta buộc phải thua ở phía đông / vẫn chưa thể biết rõ cuộc chiến này sẽ ngả theo chiều hướng nào"
+      emphasis: "none"
