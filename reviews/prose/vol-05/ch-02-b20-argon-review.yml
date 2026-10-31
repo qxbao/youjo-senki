@@ -1,0 +1,264 @@
+task_id: "vol-05-ch-02-b20-argon-review"
+parent_task_id: "vol-05-ch-02-b20"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 2
+source_package: "work/vol-05/batches/ch-02-b20-source.jsonl"
+target_translation: "translations/vol-05/ch-02-b20.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN05/Text/part0016.html/p000552"
+    severity: "minor"
+    category: "style"
+    issue: "Thán từ 'Hả?' khi cấp dưới phản ứng trước câu chuyển đề tài của Ủy viên Dân ủy Loria hơi suồng sã so với mạch thoại kính cẩn xuyên suốt ('Thưa Đồng chí Dân ủy... ạ', 'Vậy tức là sao ạ?')."
+    basis: "Đối chiếu thái độ dè dặt, giữ lễ của viên cựu trưởng bộ phận gián điệp trước cấp trên trực tiếp tại các đoạn p000513, p000532, p000536, p000542, p000546 và p000556."
+    recommendation: "Có thể giữ nguyên nếu hiểu là tiếng buột miệng sững sờ theo phản xạ, hoặc chỉnh nhẹ thành 'Dạ?' / 'Sao cơ ạ?' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã ghi nhận trong sổ pending từ vol-04 và các batch trước của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000510"
+  - source_term: "Commissar Loria / Comrade Commissar / Loria"
+    proposed_vi: "Ủy viên Dân ủy Loria / Đồng chí Dân ủy / Loria"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Phân biệt tự nhiên giữa danh xưng đầy đủ trong trần thuật ('Ủy viên Dân ủy Loria') và cách gọi trực tiếp trong lời thoại của thuộc cấp ('Đồng chí Dân ủy'), thống nhất với hệ thuật ngữ Bộ Dân ủy Nội vụ."
+    alternatives_vi:
+      - "Dân ủy Loria"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000510"
+      - "YS-LN05/Text/part0016.html/p000513"
+      - "YS-LN05/Text/part0016.html/p000520"
+      - "YS-LN05/Text/part0016.html/p000523"
+      - "YS-LN05/Text/part0016.html/p000529"
+      - "YS-LN05/Text/part0016.html/p000532"
+      - "YS-LN05/Text/part0016.html/p000534"
+      - "YS-LN05/Text/part0016.html/p000539"
+      - "YS-LN05/Text/part0016.html/p000540"
+  - source_term: "Commonwealth / Commonwealth agents"
+    proposed_vi: "Khối Thịnh vượng chung / các điệp viên của Khối Thịnh vượng chung"
+    category: "tên gọi quốc gia - thuật ngữ"
+    status: "pending"
+    rationale: "Giữ thống nhất xuyên suốt các tập và sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000514"
+      - "YS-LN05/Text/part0016.html/p000517"
+      - "YS-LN05/Text/part0016.html/p000518"
+      - "YS-LN05/Text/part0016.html/p000520"
+      - "YS-LN05/Text/part0016.html/p000532"
+      - "YS-LN05/Text/part0016.html/p000539"
+      - "YS-LN05/Text/part0016.html/p000540"
+      - "YS-LN05/Text/part0016.html/p000543"
+      - "YS-LN05/Text/part0016.html/p000544"
+      - "YS-LN05/Text/part0016.html/p000549"
+  - source_term: "Federation / Federation’s Communist Party"
+    proposed_vi: "Liên bang / Đảng Cộng sản Liên bang"
+    category: "tên gọi quốc gia - tổ chức"
+    status: "pending"
+    rationale: "Khớp với các mục 'Federation' và 'Communist Party' trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000515"
+      - "YS-LN05/Text/part0016.html/p000517"
+      - "YS-LN05/Text/part0016.html/p000544"
+  - source_term: "Communist states / Communism"
+    proposed_vi: "các quốc gia Cộng sản / Chủ nghĩa Cộng sản"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Khớp với sổ pending từ vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000517"
+      - "YS-LN05/Text/part0016.html/p000553"
+      - "YS-LN05/Text/part0016.html/p000554"
+  - source_term: "secret police"
+    proposed_vi: "cảnh sát mật"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Thuật ngữ thông dụng và sát nghĩa để chỉ lực lượng công an mật/mật vụ trong lập luận về thể chế."
+    alternatives_vi:
+      - "mật vụ"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000517"
+  - source_term: "immigration bureau / immigration bureaus"
+    proposed_vi: "cục xuất nhập cảnh"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Thuật ngữ hành chính chuẩn xác cho cơ quan quản lý xuất nhập cảnh được dùng làm bình phong trao đổi người."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000518"
+      - "YS-LN05/Text/part0016.html/p000529"
+  - source_term: "sleepers / handlers"
+    proposed_vi: "các điệp viên nằm vùng / những người phụ trách"
+    category: "thuật ngữ tình báo"
+    status: "pending"
+    rationale: "Giữ thống nhất 'điệp viên nằm vùng' ('sleeper') với ch-02-b18 và dịch sát vai trò điều phối liên lạc của 'handlers' là 'những người phụ trách'."
+    alternatives_vi:
+      - "các điệp viên nằm vùng / các sĩ quan điều khiển"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000535"
+  - source_term: "institutional design"
+    proposed_vi: "thiết kế thể chế"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Thuật ngữ khoa học chính trị - xã hội chuẩn xác trong tiếng Việt."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000545"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0016.html/p000510"
+    choices:
+      - "Khóa 'Bộ Dân ủy Nội vụ' ('the Commissariat for Internal Affairs'), 'Ủy viên Dân ủy Loria' ('Commissar Loria') và đại từ trần thuật 'Ông ta'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000511"
+    choices:
+      - "Khóa phủ định 'Không thể phủ nhận là ông ta rất bận rộn' và dấu ba chấm lửng sau liên từ 'nhưng…'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000512"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown '*Cộp.*' cho từ tượng thanh đầu đoạn theo DEC-P01-002."
+      - "Khóa cụm 'các văn bản lệnh phóng thích' ('documents for releases')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000513"
+    choices:
+      - "Khóa cách xưng hô 'Đồng chí Dân ủy - đồng chí' cùng kính từ 'Thưa... ạ' trong lời hỏi của cấp dưới."
+  - segment_id: "YS-LN05/Text/part0016.html/p000514"
+    choices:
+      - "Khóa đại từ 'đồng chí', 'chúng ta', tên gọi 'Khối Thịnh vượng chung' ('the Commonwealth') và cụm 'cuộc trao đổi nhân sự không chính thức' ('unofficial personnel exchange')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000515"
+    choices:
+      - "Khóa 'Đảng Cộng sản Liên bang' ('the Federation’s Communist Party') và ẩn dụ 'trên danh nghĩa là đôi bàn tay trắng trong, kiêu hãnh bắt lấy tay nhân dân'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000516"
+    choices:
+      - "Khóa sự đối lập giữa 'một lời dối trá khổng lồ' và 'lập trường chính thức của họ' ('their official line')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000517"
+    choices:
+      - "Khóa 'cảnh sát mật' ('secret police'), 'các quốc gia Cộng sản' ('Communist states'), 'các điệp viên của Khối Thịnh vượng chung' ('Commonwealth agents') và 'Liên bang' ('the Federation')."
+      - "Giữ quan hệ suy diễn logic và hai phủ định 'vốn dĩ không thể tồn tại' / 'không thể nào đang giam giữ'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000518"
+    choices:
+      - "Khóa 'Khối Thịnh vượng chung', 'cục xuất nhập cảnh của cả hai nước' ('both countries’ immigration bureaus') và giữ nguyên hai cụm trong ngoặc kép chỉ cái cớ ngoại giao."
+  - segment_id: "YS-LN05/Text/part0016.html/p000519"
+    choices:
+      - "Giữ phủ định 'không bên nào thừa nhận hành vi sai trái' và thông điệp hòa bình về việc muốn đạt thỏa thuận."
+  - segment_id: "YS-LN05/Text/part0016.html/p000520"
+    choices:
+      - "Khóa 'Khối Thịnh vượng chung' và tên riêng 'Loria' cùng nhận định đánh giá triển vọng đàm phán."
+  - segment_id: "YS-LN05/Text/part0016.html/p000521"
+    choices:
+      - "Khóa cụm biểu cảm 'lũ ngu ngốc đang đứng trước mặt ông ta' ('the idiots in front of him') theo điểm nhìn của Loria."
+  - segment_id: "YS-LN05/Text/part0016.html/p000522"
+    choices:
+      - "Giữ câu thoại bỏ lửng bằng dấu gạch ngang dài của viên thuộc cấp."
+  - segment_id: "YS-LN05/Text/part0016.html/p000523"
+    choices:
+      - "Khóa tên riêng 'Loria', đại từ 'chúng ta' và lập luận 'đã có những sự nhầm lẫn đáng tiếc xảy ra ở cả hai phía'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000524"
+    choices:
+      - "Giữ phủ định 'như thể giữa đôi bên chưa từng tồn tại bất kỳ sự thù địch nào' về mặt chính thức."
+  - segment_id: "YS-LN05/Text/part0016.html/p000525"
+    choices:
+      - "Giữ điều kiện phủ định 'Chừng nào mọi chuyện chưa bị phơi bày ra công chúng' và kết câu bỏ lửng 'ấy vậy mà…'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000526"
+    choices:
+      - "Giữ nét lắp bắp 'Nh-nhưng' và đại từ 'chúng' thể hiện thái độ thù địch của thuộc cấp đối với những người bị bắt."
+  - segment_id: "YS-LN05/Text/part0016.html/p000527"
+    choices:
+      - "Khóa cách gọi 'Đồng chí à', đại từ trung tính 'họ' (đối lập với 'chúng' ở câu trước) và phủ định 'không phải là tù nhân'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000528"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown cho toàn bộ đoạn độc thoại nội tâm (bao gồm cả câu nhại lời thuộc cấp trong ngoặc kép) theo cấu trúc XHTML và DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0016.html/p000529"
+    choices:
+      - "Giữ chính xác hai vùng nhấn mạnh Markdown '*nhầm lẫn*' và '*với thiện chí*' theo cấu trúc XHTML và DEC-P01-002."
+      - "Khóa 'Cục xuất nhập cảnh' ('The immigration bureau'), tên riêng 'Loria', đại từ 'Ông ta - gã' trong trần thuật và các phủ định kép về việc không bắt tù nhân cũng như không xin lỗi."
+  - segment_id: "YS-LN05/Text/part0016.html/p000530"
+    choices:
+      - "Khóa đại từ 'gã', phủ định 'đó không phải là lỗi của gã' và sự tương phản mỉa mai về một kẻ không hiểu ẩn ý ngoại giao lại làm việc trong 'một cơ quan mật vụ' ('a department of secrets')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000531"
+    choices:
+      - "Giữ hình ảnh đe dọa ngầm 'những chiếc khóa kéo theo đúng nghĩa đen' ('literal zippers') dành cho những cái miệng thiếu thận trọng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000532"
+    choices:
+      - "Khóa cách xưng hô 'Tôi - Đồng chí Dân ủy', đại từ 'chúng ta' và cụm 'hoạt động do thám bất hợp pháp nhắm vào Khối Thịnh vượng chung'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000533"
+    choices:
+      - "Giữ phủ định giảm nhẹ 'không đến nỗi quá chậm hiểu' ('wasn’t too dense')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000534"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown '*Tốt lắm.*' ở câu đầu theo DEC-P01-002 và tên riêng 'Loria'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000535"
+    choices:
+      - "Khóa thuật ngữ 'các điệp viên nằm vùng' ('sleepers') và 'những người phụ trách' ('the handlers')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000536"
+    choices:
+      - "Khóa lời nhận lệnh 'Rõ, thưa đồng chí.' phù hợp bối cảnh Liên bang."
+  - segment_id: "YS-LN05/Text/part0016.html/p000537"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown cho toàn bộ hai câu độc thoại nội tâm của Loria theo DEC-P01-002."
+      - "Khóa đại từ 'gã' chỉ viên thuộc cấp trong suy nghĩ của Loria."
+  - segment_id: "YS-LN05/Text/part0016.html/p000538"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown cho toàn bộ câu độc thoại nội tâm theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0016.html/p000539"
+    choices:
+      - "Giữ chính xác hai vùng nhấn mạnh Markdown '*Giờ thì*' và câu hỏi nội tâm cuối đoạn tách biệt với phần trần thuật ở giữa theo DEC-P01-002."
+      - "Khóa đại từ tự quy chiếu 'Mình' trong độc thoại nội tâm của Loria và cụm 'vị cựu trưởng bộ phận gián điệp tại Khối Thịnh vượng chung' ('this former head of espionage in the Commonwealth')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000540"
+    choices:
+      - "Khóa tên riêng 'Loria', 'Khối Thịnh vượng chung' và phủ định 'không còn hứng thú... nữa'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000541"
+    choices:
+      - "Khóa đại từ 'Tôi', 'chúng ta' và phủ định 'tôi không muốn chúng ta thực hiện bất kỳ hoạt động do thám bất hợp pháp nào'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000542"
+    choices:
+      - "Khóa đại từ 'chúng ta' và cụm 'thu thập tình báo thông qua các kênh ngoại giao thông thường'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000543"
+    choices:
+      - "Khóa thế đối lập 'Tôi không muốn đánh bại Khối Thịnh vượng chung—tôi muốn hợp tác với họ.'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000544"
+    choices:
+      - "Khóa 'Khối Thịnh vượng chung', 'Liên bang', đại từ 'ông ta' và ẩn dụ 'không phải một bàn đạp cần chinh phục, mà là một con đường để tận dụng trong hòa bình'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000545"
+    choices:
+      - "Khóa phủ định 'Không phải là tôi xem nhẹ quốc gia lâu đời vĩ đại ấy' và thuật ngữ 'thiết kế thể chế' ('institutional design')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000546"
+    choices:
+      - "Khóa câu hỏi ngắn lịch sự 'Vậy tức là sao ạ?' của viên thuộc cấp."
+  - segment_id: "YS-LN05/Text/part0016.html/p000547"
+    choices:
+      - "Khóa đại từ 'chúng ta - họ' và chủ trương 'tận dụng họ với tư cách một đồng minh'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000548"
+    choices:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown cho hai câu độc thoại nội tâm đầu đoạn và để chữ đứng ở câu trần thuật thứ ba theo đúng cấu trúc XHTML và DEC-P01-002."
+      - "Khóa cụm 'những thần thoại đã bị tẩy trắng' ('sanitized myths') và phủ định 'hoàn toàn không thể khơi dậy chút ham muốn nào trong lòng ông ta'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000549"
+    choices:
+      - "Khóa đại từ 'ông ta', 'Khối Thịnh vượng chung' và nhận định 'một cuộc chiến gián điệp chống lại Khối Thịnh vượng chung… sẽ chỉ toàn mang lại bất lợi'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000550"
+    choices:
+      - "Giữ phủ định 'Chẳng có gì hấp dẫn ở đó để làm mục tiêu cho hoạt động do thám bất hợp pháp cả.'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000551"
+    choices:
+      - "Khóa cách gọi 'Đồng chí này', đại từ 'chúng ta' và yêu cầu 'thay đổi hình ảnh của mình'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000552"
+    choices:
+      - "Giữ câu hỏi cảm thán ngắn biểu thị sự bất ngờ của viên thuộc cấp."
+  - segment_id: "YS-LN05/Text/part0016.html/p000553"
+    choices:
+      - "Khóa 'Chủ nghĩa Cộng sản' ('Communism'), đại từ 'Tôi' và phủ định 'tôi không muốn làm bất cứ điều gì quá mức thô bạo'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000554"
+    choices:
+      - "Khóa 'Chủ nghĩa Cộng sản' và cụm 'một học thuyết duy lý tưởng' ('an idealistic doctrine')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000555"
+    choices:
+      - "Khóa 'Giáo điều chính thức' ('The official dogma'), 'Đảng' ('the party'), phủ định 'không thể để đôi tay mình nhơ bẩn' và cụm 'dựng lên một vẻ bề ngoài' ('constructing a facade')."
+  - segment_id: "YS-LN05/Text/part0016.html/p000556"
+    choices:
+      - "Khóa đại từ 'đồng chí', kính từ 'ạ' và cụm 'chiến lược xây dựng hình ảnh' ('image strategy')."
