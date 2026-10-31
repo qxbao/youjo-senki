@@ -1,0 +1,222 @@
+task_id: "vol-06-ch-01-b03-argon-review"
+parent_task_id: "vol-06-ch-01-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 1
+source_package: "work/vol-06/batches/ch-01-b03-source.jsonl"
+target_translation: "translations/vol-06/ch-01-b03.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - segment_id: "YS-LN06/Text/part0008.html/p000082"
+    severity: "moderate"
+    category: "meaning_logic"
+    issue: "Cấu trúc 'Cảnh ... chẳng làm nó thấy tỉnh táo chút nào' trong tiếng Việt dễ bị hiểu thành cảnh tượng đó không làm cho bản thân Tanya cảm thấy tỉnh táo/tỉnh ngủ, làm lệch chủ thể được đánh giá là 'sane' từ hành vi đốt ngân sách của các quốc gia tham chiến sang trạng thái của Tanya."
+    basis: "Cấu trúc nguồn ở câu đầu gắn vị ngữ đánh giá mức độ tỉnh táo/bình thường về mặt lý trí cho cách các quốc gia tham chiến đổ ngân sách và chồng chất nợ nần (tương ứng với nhận xét 'đúng là điên rồ' ở cuối câu thứ hai và mệnh đề nối tiếp ở p000083), trong khi Tanya chỉ là chủ thể nhìn nhận."
+    recommendation: "Sửa câu đầu thành: 'Trong mắt nó, cảnh từng quốc gia tham chiến đổ dồn ngân sách vào cuộc chiến này và chất chồng nợ nần chẳng có vẻ gì là tỉnh táo.' hoặc 'Nó chẳng thấy cách từng quốc gia tham chiến đổ dồn ngân sách vào cuộc chiến này và chất chồng nợ nần có chút nào là tỉnh táo.'"
+  - segment_id: "YS-LN06/Text/part0008.html/p000078"
+    severity: "minor"
+    category: "terminology_context"
+    issue: "Dịch cụm chỉ mùa ở câu cuối thành 'bất chấp mùa màng thời tiết' làm nảy sinh nét nghĩa nông nghiệp/thu hoạch ('mùa màng') không có trong nguồn."
+    basis: "Danh từ chỉ mùa trong câu cuối quy chiếu trực tiếp về mùa đông khắc nghiệt vừa nêu ở hai câu trước, chỉ thời điểm mùa trong năm chứ không nói về mùa vụ canh tác."
+    recommendation: "Đổi 'bất chấp mùa màng thời tiết' thành 'bất chấp đang là mùa nào' hoặc 'bất chấp thời tiết của mùa này'."
+pending_term_recommendations:
+  - source_term: "the Empire / the Federation / General Winter"
+    proposed_vi: "Đế quốc / Liên bang / Tướng Mùa Đông"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán các định danh quốc gia và cách dịch danh xưng nhân cách hóa mùa đông khắc nghiệt ở mặt trận phía đông từ sổ pending tập 5 và batch ch-01-b01."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000078"
+    status: "proposed"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    alternatives_vi: []
+    rationale: "Giữ đúng quân hàm Trung tá của Tanya; cách gọi tắt 'Colonel' của Serebryakov dịch thống nhất là 'Trung tá' theo sổ pending tập 4–5 và các batch trước của chương 1."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000090"
+      - "YS-LN06/Text/part0008.html/p000099"
+    status: "proposed"
+  - source_term: "frontline headquarters of the Kampfgruppe / Kampfgruppe"
+    proposed_vi: "sở chỉ huy tiền tuyến của Kampfgruppe / Kampfgruppe"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ 'Kampfgruppe' và 'sở chỉ huy' từ tập 4–5 và các batch trước của tập 6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000091"
+      - "YS-LN06/Text/part0008.html/p000105"
+    status: "proposed"
+  - source_term: "Lieutenant / Serebryakov"
+    proposed_vi: "Trung úy / Serebryakov"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm Trung úy của Serebryakov theo sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000092"
+      - "YS-LN06/Text/part0008.html/p000093"
+      - "YS-LN06/Text/part0008.html/p000100"
+    status: "proposed"
+  - source_term: "ersatz version / coffee substitute"
+    proposed_vi: "phiên bản thay thế / cà phê thay thế"
+    alternatives_vi: []
+    rationale: "Kế thừa phương án tạm 'cà phê thay thế' đã dùng ở tập 2, tập 5 và batch ch-01-b02 cho loại đồ uống thay thế cà phê thời chiến."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000097"
+      - "YS-LN06/Text/part0008.html/p000102"
+    status: "proposed"
+  - source_term: "government ration"
+    proposed_vi: "khẩu phần chính phủ cấp phát"
+    alternatives_vi:
+      - "khẩu phần cấp phát của chính phủ"
+    rationale: "Diễn đạt rõ nghĩa hàng nhu yếu phẩm/khẩu phần do nhà nước cấp phát cho quân đội trong ngữ cảnh đối lập với đồ uống quân nhu kém chất lượng."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000098"
+      - "YS-LN06/Text/part0008.html/p000099"
+    status: "proposed"
+  - source_term: "human capital"
+    proposed_vi: "vốn con người"
+    alternatives_vi: []
+    rationale: "Kế thừa phương án tạm P03-human-capital trong canon/glossary-pending.yml và sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000101"
+    status: "proposed"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    alternatives_vi:
+      - "Mặt trận phía Đông"
+    rationale: "Kế thừa cách dịch thống nhất trong sổ pending tập 5 và các batch trước của tập 6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000103"
+    status: "proposed"
+  - source_term: "frostbite / cold-weather gear"
+    proposed_vi: "chứng bỏng lạnh / quân trang chống rét"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ từ batch ch-01-b01 cho tổn thương do giá rét và trang bị mùa đông."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000105"
+      - "YS-LN06/Text/part0008.html/p000106"
+      - "YS-LN06/Text/part0008.html/p000114"
+    status: "proposed"
+  - source_term: "cognitive dissonance"
+    proposed_vi: "bất hòa nhận thức"
+    alternatives_vi:
+      - "mâu thuẫn nhận thức"
+    rationale: "Thuật ngữ tâm lý học chuẩn xác, khớp với phong cách suy tư duy lý của Tanya khi đối chiếu nghịch lý giữa việc uống cà phê ngon và viết tờ trình xin tất chống rét."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000106"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0008.html/p000078"
+    choices:
+      - "Thuật ngữ & cấu trúc đối chiếu (cần sửa nhẹ theo finding): 'the Empire' -> 'Đế quốc'; 'the Federation' -> 'Liên bang'; 'General Winter' -> 'Tướng Mùa Đông'; giữ cấu trúc đối lập 'bên trước... bên sau...' và sửa cụm chỉ mùa ở cuối câu thành 'bất chấp đang là mùa nào' (tránh từ 'mùa màng')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000079"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: trần thuật ngôi thứ ba dùng tên riêng 'Tanya'; chỉ bọc '*Giỏi lắm, tất cả mọi người.*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0008.html/p000080"
+    choices:
+      - "Thoại: giữ câu cảm thán ngắn gọn mở đầu lời phàn nàn của Tanya ('Đánh trận giữa thời tiết thế này thật nực cười.')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000081"
+    choices:
+      - "Quan hệ nhượng bộ & thuật ngữ: giữ mệnh đề nhượng bộ 'Dẫu lý lẽ quân sự đòi hỏi điều đó' đối lập với 'sự coi thường đối với nền kinh tế quốc dân'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000082"
+    choices:
+      - "Đại từ, chủ thể đánh giá & cấu trúc so sánh (cần sửa theo finding): trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001; diễn đạt rõ hành vi của các quốc gia tham chiến là đối tượng không có vẻ tỉnh táo trong mắt Tanya; giữ cấu trúc 'chẳng giống... mà giống như... thì đúng hơn—đúng là điên rồ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000083"
+    choices:
+      - "Đại từ khái quát & điều kiện: dùng đại từ khái quát 'bạn' trong mệnh đề giả định chung."
+  - segment_id: "YS-LN06/Text/part0008.html/p000084"
+    choices:
+      - "Thuật ngữ kinh tế: 'supply and demand' -> 'quy luật cung cầu'; giữ không khí nhận định lý luận của Tanya."
+  - segment_id: "YS-LN06/Text/part0008.html/p000085"
+    choices:
+      - "Thuật ngữ & cấu trúc liệt kê ba vế: 'failure of the market' -> 'thất bại của thị trường'; 'economic principles' -> 'các nguyên lý kinh tế'; 'government intervention' -> 'sự can thiệp của chính phủ'; giữ nguyên ba lựa chọn phân loại song hành."
+  - segment_id: "YS-LN06/Text/part0008.html/p000086"
+    choices:
+      - "Điểm nhìn, đại từ & điều kiện: độc thoại nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001; giữ tình thái 'có lẽ mình có thể nhắm tới tấm bằng tiến sĩ' và điều kiện giả định ở câu sau ('Đấy là nếu mình có cơ hội viết luận án sau chiến tranh.')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000087"
+    choices:
+      - "Đại từ nội tâm & giới hạn thời gian: độc thoại nội tâm dùng 'mình / Mình' theo DEC-P01-001; giữ cấu trúc giới hạn điều kiện 'chỉ có thể... một khi cuộc chiến này kết thúc và mọi thứ trở lại bình thường'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000088"
+    choices:
+      - "Điểm nhìn & đại từ: câu đầu dùng đại từ khái quát 'bạn', câu hai chuyển sang trần thuật ngôi thứ ba với 'Tanya' và phản thân 'mình / bản thân'; 'attrition' -> 'mức tiêu hao'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000089"
+    choices:
+      - "Thuật ngữ: 'luxury item' -> 'mặt hàng xa xỉ'; giữ mạch liên kết 'Theo nghĩa đó'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000090"
+    choices:
+      - "Xưng hô & quân hàm: lời của Serebryakov với Tanya dịch 'Colonel' -> 'Trung tá' kèm tiểu từ lễ phép 'ạ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000091"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & thuật ngữ: chỉ bọc '*Có rồi sao?*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; trần thuật ngôi thứ ba dùng 'Tanya' và 'nó' theo DEC-P01-001; 'frontline headquarters of the Kampfgruppe' -> 'sở chỉ huy tiền tuyến của Kampfgruppe'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000092"
+    choices:
+      - "Điểm nhìn & đại từ: trần thuật ngôi thứ ba dùng tên riêng 'Serebryakov', 'Tanya' và đại từ 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN06/Text/part0008.html/p000093"
+    choices:
+      - "Xưng hô, quân hàm & câu hỏi bỏ lửng: Tanya xưng 'Tôi', gọi Serebryakov là 'Trung úy'; giữ câu hỏi bỏ lửng 'Lẽ nào đây là…?'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000094"
+    choices:
+      - "Xưng hô & phủ định: Serebryakov xưng 'tôi' kèm 'ạ'; giữ phủ định 'tôi không nghĩ người ta đã có thể tái tạo mùi hương này bằng phương pháp nhân tạo đâu ạ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000095"
+    choices:
+      - "Điểm nhìn, đại từ & phủ định: trần thuật ngôi thứ ba dùng 'Tanya' và 'Nó' theo DEC-P01-001; giữ câu lẩm bẩm phủ định 'Chắc chắn không có mùi giống cái thứ của quân đội rồi'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000096"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & phủ định: trần thuật dùng 'nó' theo DEC-P01-001; giữ phủ định 'không đời nào nó nhầm lẫn được'; chỉ bọc '*Ààà, thì ra đây chính là cảm giác xúc động dâng trào!*' khớp với thẻ em trong XHTML theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0008.html/p000097"
+    choices:
+      - "Thuật ngữ: 'ersatz version' -> 'phiên bản thay thế'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000098"
+    choices:
+      - "Xưng hô & thuật ngữ trong câu hỏi: Tanya xưng 'Tôi'; giữ dấu chấm lửng ngập ngừng và dịch 'government ration' -> 'khẩu phần chính phủ cấp phát'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000099"
+    choices:
+      - "Xưng hô & thuật ngữ: Serebryakov xưng 'tôi', dịch 'you' -> 'Trung tá', giữ dấu chấm lửng và thống nhất 'government ration' -> 'khẩu phần chính phủ cấp phát'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000100"
+    choices:
+      - "Điểm nhìn & đại từ: độc thoại nội tâm của Tanya quy chiếu Serebryakov bằng 'Serebryakov / cô ấy' và tự quy chiếu bằng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN06/Text/part0008.html/p000101"
+    choices:
+      - "Thuật ngữ & điều kiện phủ định: 'human capital' -> 'vốn con người'; giữ điều kiện phủ định 'nếu không đầu tư vào vốn con người' và câu chuyển ý 'Dù vậy, thông thường thì nút thắt lại nằm ở hạt cà phê'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000102"
+    choices:
+      - "Đại từ nội tâm & thuật ngữ: tự quy chiếu bằng 'Mình' theo DEC-P01-001; 'coffee substitute' -> 'cà phê thay thế'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000103"
+    choices:
+      - "Thoại, thuật ngữ & tình thái: Tanya xưng 'Tôi'; 'eastern front' -> 'mặt trận phía đông'; giữ câu hỏi nguồn gốc nhập khẩu, mệnh đề nhượng bộ 'ngay cả khi chỉ tính riêng...' và nhận định suy đoán 'Hẳn đó phải là một thử thách không nhỏ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000104"
+    choices:
+      - "Sắc thái đối lập: giữ cặp trạng thái tâm lý song hành 'vừa cảm kích vừa ngỡ ngàng'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000105"
+    choices:
+      - "Điểm nhìn, đại từ & thuật ngữ: trần thuật ngôi thứ ba quy chiếu Tanya bằng 'Tanya' và 'nó' theo DEC-P01-001; 'frostbite' -> 'chứng bỏng lạnh'; 'Kampfgruppe' -> 'Kampfgruppe'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000106"
+    choices:
+      - "Đại từ khái quát & thuật ngữ: dùng đại từ khái quát 'bạn'; 'cold-weather gear' -> 'quân trang chống rét'; 'cognitive dissonance' -> 'bất hòa nhận thức'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000107"
+    choices:
+      - "Xưng hô & thuật ngữ trong thoại: Tanya xưng 'tôi', dùng 'chúng ta' cho đơn vị; 'command' -> 'cấp chỉ huy'; giữ dấu chấm lửng cuối câu."
+  - segment_id: "YS-LN06/Text/part0008.html/p000108"
+    choices:
+      - "Thuật ngữ & phủ định: 'luxury goods' -> 'các mặt hàng xa xỉ'; 'frontline morale' -> 'sĩ khí tiền tuyến'; giữ cấu trúc đối lập và vế phủ định 'việc không đáp ứng được những nhu cầu đó sẽ gây ra rắc rối'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000109"
+    choices:
+      - "Phủ định mức độ: giữ sắc thái phủ định giảm nhẹ 'cũng chẳng lấy gì làm xa hoa'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000110"
+    choices:
+      - "Nghĩa & hệ quả: giữ rõ hai điều kiện giới hạn ('Mức điều kiện văn minh tối thiểu' và 'lượng dinh dưỡng chỉ vừa đủ để làm việc nhẹ') dẫn tới hệ quả 'khiến họ bị thiếu hụt calo'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000111"
+    choices:
+      - "Điểm nhìn khái quát: dùng cách diễn đạt khái quát 'người ta phải ăn', 'ở người lính' cho các mệnh đề quy tắc quân ngũ."
+  - segment_id: "YS-LN06/Text/part0008.html/p000112"
+    choices:
+      - "Nghĩa: giữ câu chuyển ngắn gọn 'Lý do thì đã quá rõ ràng.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000113"
+    choices:
+      - "Tình thái bắt buộc: giữ hai mệnh đề bị động chỉ yêu cầu thường trực về duy trì năng lượng và giữ sức chiến đấu ở mức cao nhất có thể."
+  - segment_id: "YS-LN06/Text/part0008.html/p000114"
+    choices:
+      - "Phủ định & thuật ngữ: 'cold-weather gear' -> 'quân trang chống rét'; giữ phủ định tuyệt đối 'đáng lẽ không bao giờ được phép xảy ra'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000115"
+    choices:
+      - "Câu hỏi tự vấn & so sánh phủ định trong thoại: giữ câu hỏi tự vấn của Tanya về việc cho lính hạn chế vận động và ngủ bù, cùng câu so sánh phủ định bỏ lửng 'Đâu phải chúng ta đang ở dưới nước trong một chiếc tàu ngầm…'."
