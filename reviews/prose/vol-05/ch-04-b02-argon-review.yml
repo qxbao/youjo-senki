@@ -1,0 +1,199 @@
+task_id: vol-05-ch-04-b02-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0022.html/p000051
+    severity: minor
+    issue: "Trong cùng một đoạn độc thoại nội tâm của Tanya, đại từ ngôi thứ nhất số nhiều chỉ đơn vị được chuyển đổi giữa 'chúng mình' (câu đầu) và 'bọn mình' (câu cuối), trong khi các đoạn nội tâm khác trong batch (p000052, p000061, p000069) đều dùng 'bọn mình'."
+    recommendation: "Có thể giữ nguyên vì cả hai đều tự nhiên trong độc thoại nội tâm, hoặc đổi 'chúng mình' ở câu đầu thành 'bọn mình' để thống nhất hoàn toàn trong toàn batch."
+  - segment_id: YS-LN05/Text/part0022.html/p000053
+    severity: minor
+    issue: "Bản dịch thêm phó từ giới hạn ở vế đầu ('sẽ chỉ có thể lấp chỗ trống bằng… đám lính mới chỉ được huấn luyện ở mức tối thiểu') làm lặp từ 'chỉ' hai lần gần nhau, dù vẫn phản ánh đúng tâm lý ngán ngẩm của Tanya."
+    recommendation: "Có thể giữ nguyên hoặc lược bớt chữ 'chỉ' đầu tiên ('Chắc chúng ta sẽ có thể lấp chỗ trống bằng… đám lính mới chỉ được huấn luyện ở mức tối thiểu mà thôi…') để câu văn gọn và bám sát cấu trúc gốc hơn."
+pending_term_recommendations:
+  - source_term: human resources
+    proposed_vi: nguồn nhân lực
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ thống nhất với phương án đã dùng xuyên suốt trong sổ pending từ vol-01 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000047
+  - source_term: 203rd Aerial Mage Battalion
+    proposed_vi: Tiểu đoàn Pháp sư Trên không số 203
+    category: tên đơn vị
+    status: proposed
+    rationale: "Giữ đúng tên phiên hiệu đơn vị đã khóa nhất quán từ vol-02 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000048
+  - source_term: human capital management / human capital
+    proposed_vi: "quản trị vốn con người / vốn con người"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp trực tiếp với thuật ngữ 'vốn con người' trong canon/glossary-pending.yml (P03-human-capital) và sổ pending của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000049
+      - YS-LN05/Text/part0022.html/p000057
+  - source_term: mid-career hires
+    proposed_vi: nhân sự đã có kinh nghiệm
+    category: thuật ngữ
+    status: proposed
+    rationale: "Diễn đạt tự nhiên, rõ nghĩa đối với khái niệm tuyển dụng nhân sự đã có thâm niên/kinh nghiệm làm việc thay vì tuyển mới từ đầu trong ngôn ngữ quản trị nhân sự của Tanya."
+    alternatives_vi:
+      - nhân sự tuyển ngang có kinh nghiệm
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000058
+  - source_term: augmented battalion
+    proposed_vi: tiểu đoàn tăng cường
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ thống nhất với thuật ngữ quân sự đã dùng từ vol-01 đến vol-05 trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000061
+  - source_term: Eastern Army Group / Central troops
+    proposed_vi: "Cụm tập đoàn quân phía Đông / quân Trung ương"
+    category: tên đơn vị
+    status: proposed
+    rationale: "Khớp với định danh 'Cụm tập đoàn quân phía Đông' (Eastern Army Group) và lực lượng 'Trung ương' (Central) trong sổ pending các tập trước."
+    alternatives_vi:
+      - "Cụm tập đoàn quân phía Đông / lực lượng Trung ương"
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000061
+  - source_term: vice commander
+    proposed_vi: phó chỉ huy
+    category: chức danh
+    status: proposed
+    rationale: "Thống nhất với chức danh của Weiss trong sổ pending từ vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000064
+  - source_term: Major Weiss / Weiss
+    proposed_vi: "Thiếu tá Weiss / Weiss"
+    category: nhân vật / quân hàm
+    status: proposed
+    rationale: "Giữ đúng cấp bậc Thiếu tá của Weiss ở giai đoạn vol-05 theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000064
+      - YS-LN05/Text/part0022.html/p000065
+      - YS-LN05/Text/part0022.html/p000073
+  - source_term: Colonel von Degurechaff
+    proposed_vi: Trung tá von Degurechaff
+    category: nhân vật / quân hàm
+    status: proposed
+    rationale: "Cách gọi tắt trong thoại đối với cấp bậc Trung tá (Lieutenant Colonel) của Tanya, thống nhất với quy ước toàn dự án."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000068
+  - source_term: General Staff
+    proposed_vi: Bộ Tổng tham mưu
+    category: tên cơ quan
+    status: proposed
+    rationale: "Thống nhất với tên gọi cơ quan tham mưu trung ương trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000069
+  - source_term: redeployment orders / redeployment
+    proposed_vi: "lệnh tái triển khai / tái triển khai"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Chuẩn xác về mặt thuật ngữ quân sự cho mệnh lệnh điều động đơn vị sang vị trí/mặt trận mới."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000071
+      - YS-LN05/Text/part0022.html/p000075
+  - source_term: eastern front main lines / main lines in the east
+    proposed_vi: "phòng tuyến chính ở mặt trận phía đông / phòng tuyến chính ở phía đông"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với 'mặt trận phía đông' trong sổ pending vol-05 và diễn đạt rõ vị trí tuyến đầu nơi đơn vị được điều tới."
+    alternatives_vi:
+      - "phòng tuyến chính ở mặt trận phía Đông / phòng tuyến chính ở phía Đông"
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000072
+      - YS-LN05/Text/part0022.html/p000075
+  - source_term: Kampfgruppe
+    proposed_vi: Kampfgruppe
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức chỉ cụm tác chiến theo sổ pending từ vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000072
+  - source_term: orientation training
+    proposed_vi: huấn luyện định hướng làm quen
+    category: thuật ngữ
+    status: proposed
+    rationale: "Diễn đạt rõ nghĩa của giai đoạn huấn luyện định hướng/làm quen ban đầu dành cho quân bổ sung trước khi đưa vào tác chiến."
+    alternatives_vi:
+      - huấn luyện định hướng
+    segment_ids:
+      - YS-LN05/Text/part0022.html/p000075
+locked_choices:
+  - segment_ids:
+      - YS-LN05/Text/part0022.html/p000040
+      - YS-LN05/Text/part0022.html/p000041
+      - YS-LN05/Text/part0022.html/p000042
+      - YS-LN05/Text/part0022.html/p000044
+      - YS-LN05/Text/part0022.html/p000045
+      - YS-LN05/Text/part0022.html/p000046
+      - YS-LN05/Text/part0022.html/p000047
+      - YS-LN05/Text/part0022.html/p000051
+      - YS-LN05/Text/part0022.html/p000052
+      - YS-LN05/Text/part0022.html/p000053
+      - YS-LN05/Text/part0022.html/p000055
+      - YS-LN05/Text/part0022.html/p000056
+      - YS-LN05/Text/part0022.html/p000057
+      - YS-LN05/Text/part0022.html/p000058
+      - YS-LN05/Text/part0022.html/p000060
+      - YS-LN05/Text/part0022.html/p000061
+      - YS-LN05/Text/part0022.html/p000062
+      - YS-LN05/Text/part0022.html/p000063
+      - YS-LN05/Text/part0022.html/p000064
+      - YS-LN05/Text/part0022.html/p000067
+      - YS-LN05/Text/part0022.html/p000069
+      - YS-LN05/Text/part0022.html/p000070
+      - YS-LN05/Text/part0022.html/p000073
+      - YS-LN05/Text/part0022.html/p000074
+    category: điểm nhìn và đại từ của Tanya
+    choice: "Theo DEC-P01-001: trần thuật ngôi thứ ba gọi Tanya là 'Tanya' (p000047, p000062, p000070) hoặc 'nó' (p000040, p000063, p000064, p000067, p000069, p000073, p000074); độc thoại nội tâm và lời tự nhủ một mình của Tanya dùng 'mình' (p000040, p000041, p000044, p000045, p000046, p000055, p000058), số nhiều chỉ đơn vị dùng 'bọn mình' / 'chúng mình' trong nội tâm (p000051, p000052, p000061, p000069) và 'chúng ta' trong câu cảm thán thành tiếng (p000053); chủ thể giả định khái quát dùng 'bạn' (p000042, p000046, p000056, p000057, p000060, p000062)."
+  - segment_ids:
+      - YS-LN05/Text/part0022.html/p000064
+      - YS-LN05/Text/part0022.html/p000065
+      - YS-LN05/Text/part0022.html/p000066
+      - YS-LN05/Text/part0022.html/p000067
+      - YS-LN05/Text/part0022.html/p000068
+      - YS-LN05/Text/part0022.html/p000072
+    category: xưng hô và quân hàm trong hội thoại Tanya – Weiss
+    choice: "Khóa cấp bậc 'Trung tá' cho Tanya von Degurechaff, 'Thiếu tá' và chức vụ 'phó chỉ huy' cho Weiss. Trong thoại, Tanya gọi Weiss là 'Thiếu tá Weiss' và xưng 'tôi – anh'; Weiss gọi Tanya là 'Trung tá' / 'Trung tá von Degurechaff', xưng 'tôi' và dùng 'chúng ta' khi nói về đơn vị; trần thuật gọi Weiss là 'anh'."
+  - segment_ids:
+      - YS-LN05/Text/part0022.html/p000047
+      - YS-LN05/Text/part0022.html/p000049
+      - YS-LN05/Text/part0022.html/p000062
+      - YS-LN05/Text/part0022.html/p000067
+      - YS-LN05/Text/part0022.html/p000069
+      - YS-LN05/Text/part0022.html/p000070
+      - YS-LN05/Text/part0022.html/p000073
+    category: nhấn mạnh Markdown
+    choice: "Theo DEC-P01-002: giữ đúng dấu *...* tại 7 segment có thẻ em trong nguồn (câu nội tâm ở p000047, cụm số lượng ở p000049, từ khóa ở p000062, hai câu suy đoán ở p000067, thán từ và chuỗi câu hỏi nội tâm ở p000069, cụm chuyển ý ở p000070, và nhận định nội tâm ở p000073); không tự thêm in nghiêng ở các đoạn độc thoại không có thẻ nhấn mạnh."
+  - segment_ids:
+      - YS-LN05/Text/part0022.html/p000041
+      - YS-LN05/Text/part0022.html/p000044
+      - YS-LN05/Text/part0022.html/p000045
+      - YS-LN05/Text/part0022.html/p000046
+      - YS-LN05/Text/part0022.html/p000051
+      - YS-LN05/Text/part0022.html/p000054
+      - YS-LN05/Text/part0022.html/p000055
+      - YS-LN05/Text/part0022.html/p000062
+      - YS-LN05/Text/part0022.html/p000066
+      - YS-LN05/Text/part0022.html/p000067
+      - YS-LN05/Text/part0022.html/p000072
+      - YS-LN05/Text/part0022.html/p000075
+    category: phủ định, giả định và logic
+    choice: "Giữ đúng cấu trúc phủ định giảm nhẹ ('chẳng phải chuyện gì tệ' ở p000041), giả định điều kiện và so sánh hơn kém (p000045, p000055, p000062), giả định trái thực tế trong quá khứ ở p000066 ('Nếu đang căng thẳng, có lẽ anh đã từ chối...'), sự phân biệt giữa 'đơn vị thay thế' (replacement unit) đến tiếp quản và 'số quân bổ sung' (replacement troops) được sáp nhập ở p000072, cùng chuỗi câu hỏi chất vấn liên tiếp ở p000075."
