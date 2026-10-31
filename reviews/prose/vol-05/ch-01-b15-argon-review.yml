@@ -1,0 +1,294 @@
+task_id: "vol-05-ch-01-b15-argon-review"
+parent_task_id: "vol-05-ch-01-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b15-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b15.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b15-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000506"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Cụm chỉ mục đích cơ động của bộ binh Đế quốc đang dịch là 'để bồi thêm cho chúng thấm đòn', nghe thiên về việc tiếp tục giáng đòn tấn công vật lý hơn là làm cho đối phương nhận rõ thông điệp/tình thế (khuyên hàng ở đoạn p000504)."
+    rationale: "Sau khi tiểu đoàn pháp sư đã chế áp từ trên không và khuyên hàng ở cuối lô trước, bộ binh Đế quốc cơ động áp sát nhằm khẳng định thông điệp và buộc quân Liên bang nhận rõ tình thế không thể kháng cự mà hạ vũ khí."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'tiến hành cơ động để làm cho chúng thấm thía tình thế' hoặc 'tiến hành cơ động để ép chúng hiểu rõ thông điệp của chúng ta'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000518"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Cụm chỉ việc thu xếp/xử lý công việc sau khi giao tranh kết thúc đang dịch là 'giải quyết hậu sự sao cho thỏa đáng sau khi giao tranh kết thúc'."
+    rationale: "Trong tiếng Việt hiện đại, 'hậu sự' (lo hậu sự / giải quyết hậu sự) thường mang nghĩa chuyên biệt là việc tang lễ, ma chay cho người đã khuất, trong khi ngữ cảnh tại đây nói về công tác thu xếp hậu chiến như quản lý tù binh và chấn chỉnh kỷ luật lính tráng."
+    recommendation: "Đổi 'giải quyết hậu sự' thành 'thu xếp mọi việc' hoặc 'giải quyết công việc sau khi giao tranh kết thúc' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Imperial Army -> Lục quân Đế quốc' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000506"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên quốc gia / thế lực"
+    status: "pending"
+    rationale: "Nhất quán với tên gọi Liên bang trong sổ pending từ Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000506"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Cấp dưới gọi tắt quân hàm Lieutenant Colonel là Colonel; dịch là 'Trung tá' để khớp đúng quân hàm hiện tại của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000512"
+  - source_term: "Salamander Kampfgruppe / Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander / Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Nhất quán với tên gọi đơn vị tác chiến hỗn hợp trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000518"
+      - "YS-LN05/Text/part0010.html/p000525"
+      - "YS-LN05/Text/part0010.html/p000526"
+  - source_term: "warning and defensive lines"
+    proposed_vi: "các tuyến cảnh giới và phòng ngự"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'warning line -> tuyến cảnh giới' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000522"
+  - source_term: "military police / MPs"
+    proposed_vi: "quân cảnh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác, đồng bộ với cách dịch quân cảnh từ Tập 1."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000525"
+      - "YS-LN05/Text/part0010.html/p000526"
+      - "YS-LN05/Text/part0010.html/p000527"
+  - source_term: "the Rhine"
+    proposed_vi: "mặt trận Rhine"
+    category: "địa danh / chiến trường"
+    status: "pending"
+    rationale: "Nhất quán với mục 'the Rhine -> mặt trận Rhine' trong sổ pending Tập 4–5."
+    alternatives_vi:
+      - "Rhine"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000532"
+      - "YS-LN05/Text/part0010.html/p000537"
+  - source_term: "human resources / human capital"
+    proposed_vi: "nguồn nhân lực / vốn con người"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với mục 'human capital -> vốn con người' trong canon/glossary-pending.yml (P03-human-capital) và 'human resources -> nguồn nhân lực' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000535"
+  - source_term: "no-man’s-land"
+    proposed_vi: "vùng đất không người"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'no-man’s-land -> vùng đất không người' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "vùng trắng"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000538"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000506"
+    choices:
+      - "infiltrators -> đám quân xâm nhập"
+      - "anti–air machine guns -> súng máy phòng không"
+      - "Imperial Army infantry -> bộ binh Lục quân Đế quốc"
+      - "Federation forces -> lực lượng Liên bang"
+      - "negation -> Đời nào đám quân xâm nhập lại vác theo súng máy phòng không"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000507"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001; quy chiếu quân địch bằng 'chúng'"
+      - "causality -> mình đã lo là chúng sẽ kháng cự đến cùng, nên việc chúng đầu hàng đúng là tin tốt với mình"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000508"
+    choices:
+      - "negation -> kết thúc mà không phải đánh nhau với chúng đến người cuối cùng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000509"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'"
+      - "proper uniforms -> quân phục chỉnh tề"
+      - "emphasis -> chỉ bọc '*Ồ.*' cho từ cảm thán in nghiêng đầu đoạn theo DEC-P01-002; phần còn lại để chữ thường"
+  - segment_id: "YS-LN05/Text/part0010.html/p000510"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình'/'mình' theo DEC-P01-001 và 'chúng ta' cho phía Đế quốc"
+      - "dawn attacks -> những đợt tập kích lúc rạng đông"
+      - "negation_and_contrast -> chẳng ưa gì cái thói dùng cả những đợt tập kích lúc rạng đông để đánh lạc hướng chúng ta của bọn họ, nhưng mình thực sự trân trọng việc toàn bộ tổ chức của họ đầu hàng một cách trật tự"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000511"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'; lời thoại dùng 'Tôi' - 'mình'"
+      - "emphasis -> chỉ bọc '*Điều đó có nghĩa là…*' ở đầu đoạn theo DEC-P01-002; phần trần thuật và lời thoại để chữ thường"
+      - "directives_and_negation -> Hãy đảm bảo bố trí chỗ giam giữ tù binh cho thỏa đáng theo đúng điều lệnh; thật sự hy vọng mình không có thuộc cấp nào ngu xuẩn đến mức giở trò bạo lực với tù binh"
+  - segment_id: "YS-LN05/Text/part0010.html/p000512"
+    choices:
+      - "Colonel -> Trung tá (sĩ quan bộ binh thưa với Trung tá Tanya)"
+      - "pronouns -> chúng tôi - thưa Trung tá"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000513"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001; 'họ' chỉ các sĩ quan bộ binh"
+      - "infantry officers -> Các sĩ quan bộ binh"
+      - "modality -> hẳn là họ đã hiểu cách làm việc của mình; có lẽ họ cũng cảm nhận được sự kiên quyết trong đó"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000514"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001"
+      - "concession -> phải nói ra dù biết họ đã hiểu"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000515"
+    choices:
+      - "pronouns -> tôi - các anh - chúng ta (Tanya chỉ thị cho các sĩ quan bộ binh)"
+      - "privates -> binh nhì"
+      - "negation_and_directive -> Không phải là tôi lo lắng về các anh; các anh phải quán triệt cho tất cả những người dưới quyền mình; ngay cả những binh nhì ở cấp thấp nhất cũng phải hiểu được điều mà cấp trên hiểu và mục tiêu mà chúng ta đang tập trung vào"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000516"
+    choices:
+      - "Yes, ma’am! -> Rõ, thưa Trung tá!"
+      - "infantry officers -> các sĩ quan bộ binh"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000517"
+    choices:
+      - "irregulars -> quân không chính quy"
+      - "uniformed soldiers -> những người lính mặc quân phục"
+      - "grunts -> đám lính tráng"
+      - "modality_and_condition -> Đây có lẽ là lần đầu tiên họ nghĩ đến khả năng thuộc cấp của mình có thể gây rắc rối; nếu họ thiếu suy nghĩ mà hành hạ những người lính mặc quân phục, chuyện đó có thể trở thành một vấn đề lớn"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000518"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001"
+      - "Salamander Kampfgruppe -> Kampfgruppe Salamander"
+      - "negation_and_contrast -> Họ không đến mức non nớt tới độ hành xử sai trái ngay giữa sức nóng của trận chiến, nhưng kỳ vọng họ biết cách thu xếp mọi việc sao cho thỏa đáng sau khi giao tranh kết thúc thì lại là quá lạc quan"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000519"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya', dùng đại từ 'cô' cho Tanya và 'họ' cho các chỉ huy bộ binh"
+      - "negation -> sẽ không phạm cùng một sai lầm đến lần thứ hai đâu; không có gì phải lo lắng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000520"
+    choices:
+      - "pronouns -> chúng ta"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000521"
+    choices:
+      - "POV/pronouns -> nội tâm dùng 'chúng ta'"
+      - "garrisoned -> đang đồn trú"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000522"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001"
+      - "warning and defensive lines -> các tuyến cảnh giới và phòng ngự"
+      - "base maintenance -> duy tu căn cứ"
+      - "modality -> có lẽ sẽ tốt hơn nếu để họ tập trung vào việc duy tu căn cứ để họ còn có thể ngủ được chút ít"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000523"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'"
+      - "negation -> không khỏi nhíu mày"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000524"
+    choices:
+      - "prisoners -> đám tù binh"
+      - "condition_and_negation -> nếu không có một trại giam tử tế thì sẽ chẳng thể nào giám sát việc lao động của chúng được"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000525"
+    choices:
+      - "Salamander Kampfgruppe -> Kampfgruppe Salamander"
+      - "combat units -> các đơn vị tác chiến"
+      - "military police -> quân cảnh"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000526"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001"
+      - "Kampfgruppe -> Kampfgruppe"
+      - "MPs -> quân cảnh"
+      - "modality_and_negation -> có lẽ họ cũng có thể tạm thời giám sát đám tù binh; Mình không muốn trói chân bất kỳ nhân sự nào vào việc canh giữ tù binh như thế"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000527"
+    choices:
+      - "pronouns -> tôi - Chúng ta"
+      - "MPs -> bên quân cảnh"
+      - "negation -> tôi chẳng biết phải làm sao nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000528"
+    choices:
+      - "pronouns -> Trung tá - chúng tôi (chỉ huy đơn vị bộ binh đề xuất với Tanya)"
+      - "infantry personnel -> nhân sự bộ binh"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000529"
+    choices:
+      - "pronouns -> Tôi"
+      - "combat troops -> quân tác chiến"
+      - "negation_and_directive -> tôi không muốn làm tiêu hao sức lực của quân tác chiến; Hãy cho các đơn vị đó khẩn trương truy quét tàn quân và đảm bảo an ninh cho chiến trường ngay lập tức"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000530"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya', dùng đại từ 'cô' cho Tanya và 'họ' cho các chỉ huy đơn vị bộ binh"
+      - "infantry unit COs -> các chỉ huy đơn vị bộ binh"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000531"
+    choices:
+      - "POV/pronouns -> giữ cấu trúc pha trộn giữa nội tâm tự quy chiếu 'mình' và tự nhắc tên riêng ngôi thứ ba 'Tanya' đúng theo bản gốc; giữ tên riêng 'Visha'"
+      - "negation -> vẫn không tài nào tin nổi những sĩ quan trẻ tuổi như vậy lại về dưới trướng đơn vị của mình"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000532"
+    choices:
+      - "attrition on the Rhine -> sự tiêu hao trên mặt trận Rhine"
+      - "key personnel -> nhân sự chủ chốt"
+      - "younger demographics -> nhóm nhân khẩu trẻ tuổi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000533"
+    choices:
+      - "POV/pronouns -> nội tâm dùng 'Chúng ta'"
+      - "replacement troops -> quân bổ sung"
+      - "the Empire -> Đế quốc"
+      - "question_target -> Nhưng sức mạnh của Đế quốc sẽ còn cầm cự được thêm bao lâu nữa đây?"
+      - "emphasis -> chỉ bọc '*...*' ở câu hỏi nội tâm thứ ba theo DEC-P01-002; hai câu đầu để chữ thường"
+  - segment_id: "YS-LN05/Text/part0010.html/p000534"
+    choices:
+      - "negation -> Nghĩ về chuyện đó cũng chẳng ích gì"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000535"
+    choices:
+      - "the Empire -> Đế quốc"
+      - "human resources and capital -> nguồn nhân lực và vốn con người"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000536"
+    choices:
+      - "primitive conflict -> cuộc xung đột nguyên thủy"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000537"
+    choices:
+      - "POV/pronouns -> nội tâm dùng 'chúng ta'"
+      - "trenches on the Rhine -> các chiến hào trên mặt trận Rhine"
+      - "engaging at close quarters -> giao chiến tầm gần"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000538"
+    choices:
+      - "hand-to-hand combat -> đánh giáp lá cà"
+      - "no-man’s-land -> vùng đất không người"
+      - "patrols and commandos -> các đội tuần tra và lính biệt kích"
+      - "negation_and_contrast -> chủ yếu là khi các chiến dịch đang được phát động; đó không phải là chuyện diễn ra hằng ngày"
+      - "emphasis -> không dùng Markdown *...*"
