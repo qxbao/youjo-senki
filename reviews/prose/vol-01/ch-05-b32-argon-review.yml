@@ -1,0 +1,342 @@
+task_id: vol-01-ch-05-b32-argon-review
+parent_task_id: vol-01-ch-05-b32
+reviewer: gemini-4-argon-medium
+state: done
+volume: vol-01
+chapter: 5
+source_package: work/vol-01/batches/ch-05-b32-source.jsonl
+target_translation: translations/vol-01/ch-05-b32.jsonl
+review_path: reviews/prose/vol-01/ch-05-b32-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN01/Text/chapter011b.xhtml/p000162
+    issue: "Câu thoại của Lergen cụ thể hóa đại từ tân ngữ ngôi thứ ba số ít thành 'bản luận văn đó' dù câu nguồn tại đoạn này chỉ dùng đại từ quy chiếu ngầm định tới tài liệu về chiến tranh tổng lực và chiến tranh thế giới được nhắc tiếp ở p000163."
+    evidence: "Đối chiếu văn bản nguồn p000162–p000163 và quy tắc không tự thêm giải thích trong canon/style-guide.md; bản dịch hiện tại vẫn giữ đúng logic suy luận của Lergen nên chỉ ghi nhận ở mức nhẹ (tùy chọn giữ nguyên hoặc rút gọn về 'đã viết ra nó' khi chuốt văn nếu cần sát chữ hơn)."
+    recommendation: "Có thể giữ nguyên để rõ mạch liên kết với Chương 4 hoặc cân nhắc phương án sát chữ hơn: 'Phải, chắc chắn chính cô là người đã viết ra nó.'"
+pending_term_recommendations:
+  - source_term: "Elinium Arms"
+    proposed_vi: "Elinium Arms"
+    alternatives_vi:
+      - "hãng vũ khí Elinium"
+    rationale: "Giữ nguyên tên nhà sản xuất trang bị theo work/run-state/pending-terms-index.yml và các lô trước của Chương 5."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000147
+    uncertainty: low
+    status: pending
+  - source_term: "adjutant"
+    proposed_vi: "sĩ quan phụ tá"
+    alternatives_vi:
+      - "phụ tá"
+    rationale: "Đồng bộ chức danh người hỗ trợ trực tiếp cho Trung tá von Lergen theo work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000149
+    uncertainty: low
+    status: pending
+  - source_term: "inspectors / inspection"
+    proposed_vi: "các thanh tra viên / đợt thanh tra"
+    alternatives_vi:
+      - "các sĩ quan kiểm tra / đợt kiểm tra"
+    rationale: "Kế thừa nhất quán thuật ngữ chỉ đoàn kiểm tra của Bộ Tổng Tham mưu theo work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000150
+      - YS-LN01/Text/chapter011b.xhtml/p000171
+      - YS-LN01/Text/chapter011b.xhtml/p000172
+    uncertainty: low
+    status: pending
+  - source_term: "augmented battalion"
+    proposed_vi: "tiểu đoàn tăng cường"
+    alternatives_vi:
+      - "tiểu đoàn biên chế tăng cường"
+    rationale: "Kế thừa thuật ngữ biên chế đơn vị của Tanya theo work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000157
+    uncertainty: low
+    status: pending
+  - source_term: "human resources / resources"
+    proposed_vi: "nguồn nhân lực / tài nguyên"
+    alternatives_vi:
+      - "nhân lực / nguồn lực"
+    rationale: "Phản ánh chính xác tư duy quản trị nhân sự hiện đại của Tanya và sự sững sờ của Lergen khi chữ 'resources' được tách riêng để chất vấn ở p000159 và p000161."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000157
+      - YS-LN01/Text/chapter011b.xhtml/p000159
+      - YS-LN01/Text/chapter011b.xhtml/p000161
+    uncertainty: low
+    status: pending
+  - source_term: "total war / world war"
+    proposed_vi: "chiến tranh tổng lực / chiến tranh thế giới"
+    alternatives_vi:
+      - "tổng lực chiến / thế chiến"
+    rationale: "Kế thừa chuẩn thuật ngữ quân sự xuyên suốt Tập 1 và work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000163
+      - YS-LN01/Text/chapter011b.xhtml/p000175
+      - YS-LN01/Text/chapter011b.xhtml/p000178
+    uncertainty: low
+    status: pending
+  - source_term: "army-sized Dacian unit / Herelmannstadt"
+    proposed_vi: "đơn vị Dacia quy mô cấp tập đoàn quân / Herelmannstadt"
+    alternatives_vi:
+      - "đơn vị Dacia quy mô một đạo quân / Herelmannstadt"
+    rationale: "Dịch 'army-sized' là 'quy mô cấp tập đoàn quân' (và 'army' ở p000170 là 'tập đoàn quân') để phân cấp chuẩn xác dưới 'army group' ('cụm tập đoàn quân' trong pending-terms-index.yml); giữ nguyên địa danh Herelmannstadt và quốc danh Dacia."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000169
+      - YS-LN01/Text/chapter011b.xhtml/p000170
+    uncertainty: low
+    status: pending
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    alternatives_vi:
+      - "Tiểu đoàn Pháp sư Không chiến 203"
+    rationale: "Kế thừa chính xác phiên hiệu đơn vị theo work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000172
+    uncertainty: low
+    status: pending
+  - source_term: "Border Command / Command Post"
+    proposed_vi: "Bộ Tư lệnh Biên phòng / Sở chỉ huy"
+    alternatives_vi:
+      - "Bộ Chỉ huy Biên giới / Trạm chỉ huy"
+    rationale: "Phân biệt rõ cơ quan chỉ huy cấp biên giới ('Bộ Tư lệnh Biên phòng') với vị trí chỉ huy tại thao trường ('Sở chỉ huy')."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000172
+      - YS-LN01/Text/chapter011b.xhtml/p000174
+      - YS-LN01/Text/chapter011b.xhtml/p000176
+    uncertainty: low
+    status: pending
+  - source_term: "The Saga of Tanya the Evil, Volume 1: Deus lo Vult, Fin"
+    proposed_vi: "Tanya Chiến Ký, Tập 1: Deus lo Vult, Hết"
+    alternatives_vi:
+      - "Biên niên sử về Tanya Ác nghiệt, Tập 1: Deus lo Vult, Hết"
+      - "The Saga of Tanya the Evil, Tập 1: Deus lo Vult, Hết"
+    rationale: "Giữ nguyên cụm tiếng Latin 'Deus lo Vult' đồng bộ với tiêu đề Chương 1; tạm dùng 'Tanya Chiến Ký' làm tên gọi bộ truyện ở dòng kết tập và ghi nhận độ bất định trung bình để chờ quyết định canon chính thức."
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000182
+    uncertainty: medium
+    status: pending
+locked_choices:
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000146
+    terms:
+      - "orb: quả cầu"
+      - "mass produced: sản xuất hàng loạt"
+    modality_and_logic: "Giữ sắc thái giới hạn 'Chi phí là rào cản duy nhất' và mệnh đề điều kiện thời gian 'một khi quả cầu này được đưa vào sản xuất hàng loạt'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000147
+    terms:
+      - "Elinium Arms: Elinium Arms"
+    pronouns_and_pov: "Thoại của Trung tá von Lergen nói với sĩ quan phụ tá: tự xưng 'Tôi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000148
+    ranks_and_titles:
+      - "Colonel: thưa Trung tá"
+    pronouns_and_pov: "Thoại của sĩ quan phụ tá đáp lời Trung tá von Lergen: tự xưng 'Tôi', gọi 'thưa Trung tá'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000149
+    names_and_entities:
+      - "Lergen: Lergen"
+    terms:
+      - "adjutant: sĩ quan phụ tá"
+      - "aerial maneuvers: những pha cơ động trên không"
+      - "in inverse proportions: tỷ lệ nghịch với nhau"
+    pronouns_and_pov: "Trần thuật ngôi thứ ba theo điểm nhìn Lergen: quy chiếu Lergen bằng 'ông'."
+    emphasis: "Bọc *...* đúng hai câu độc thoại nội tâm '*Những pha cơ động trên không thực sự đáng kinh ngạc.*' và '*Đôi khi tài năng và nhân tính lại tỷ lệ nghịch với nhau nhỉ?*' theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000150
+    terms:
+      - "inspectors: các thanh tra viên"
+    pronouns_and_pov: "Thoại Tanya qua vô tuyến với binh lính thuộc quyền: gọi 'các người'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000151
+    ranks_and_titles:
+      - "Major von Degurechaff: Thiếu tá von Degurechaff"
+    pronouns_and_pov: "Thoại Lergen hỏi trực tiếp Tanya: gọi 'cô', đại từ phản thân 'mình'."
+    modality_and_logic: "Giữ câu hỏi nghi vấn phủ định 'cô không nghĩ là mình đang đi hơi quá giới hạn sao?'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000152
+    pronouns_and_pov: "Trần thuật và nội tâm theo điểm nhìn Lergen (DEC-P01-001): quy chiếu Lergen bằng 'ông', quy chiếu Tanya bằng 'cô' (không dùng 'nó')."
+    modality_and_logic: "Giữ cấu trúc điều kiện 'Nếu điều đó là thật, thì bài tập này đã mấp mé giới hạn rồi'."
+    emphasis: "Bọc *...* toàn bộ ba câu cuối đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000153
+    terms:
+      - "accepted parameters: các thông số được chấp nhận"
+      - "pick: tuyển chọn"
+      - "purge: thanh lọc"
+      - "incompetence: sự bất tài"
+    pronouns_and_pov: "Thoại Tanya đáp Lergen: tự xưng 'chúng tôi' (đơn vị) và 'tôi' (cá nhân chỉ huy)."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000154
+    terms:
+      - "picking: tuyển chọn"
+      - "purging: thanh lọc"
+      - "military academy: học viện quân sự"
+      - "Imperial Army: Quân đội Đế quốc"
+      - "incompetence: sự bất tài"
+    pronouns_and_pov: "Điểm nhìn Lergen: quy chiếu Lergen bằng 'ông', Tanya bằng 'cô'; trong câu trích dẫn bài diễn văn dùng 'chúng ta'."
+    modality_and_logic: "Giữ cấu trúc đối lập phủ định 'không phải đang bồi dưỡng người của mình mà đúng hơn là đang vứt bỏ những kẻ không có ích'."
+    emphasis: "Không dùng *...*; giữ nguyên các cụm trong ngoặc kép."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000155
+    terms:
+      - "candidates: ứng viên"
+    pronouns_and_pov: "Thoại Lergen nói với Tanya: tự xưng 'Tôi', gọi 'cô'."
+    modality_and_logic: "Giữ phủ định 'một nửa số ứng viên của cô đã không trụ nổi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000156
+    modality_and_logic: "Câu hỏi nội tâm ngắn '*Tại sao?*'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000157
+    terms:
+      - "augmented battalion: tiểu đoàn tăng cường"
+      - "human resources: nguồn nhân lực"
+    pronouns_and_pov: "Thoại Tanya đáp Lergen: tự xưng 'Tôi'."
+    modality_and_logic: "Giữ phủ định 'Tôi vẫn chưa gặp bất kỳ vấn đề nào về mặt nguồn nhân lực cả'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000158
+    pronouns_and_pov: "Thoại Lergen nói với Tanya: tự xưng 'Tôi', gọi 'cô'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000159
+    terms:
+      - "Resources: Tài nguyên"
+      - "Human resources: Nguồn nhân lực"
+    pronouns_and_pov: "Độc thoại nội tâm của Lergen: tự xưng 'mình', chất vấn Tanya trong tâm tưởng bằng 'Cô', quy chiếu quân đội chung bằng 'chúng ta'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000160
+    terms:
+      - "replaceable parts: những linh kiện có thể thay thế"
+    pronouns_and_pov: "Độc thoại nội tâm của Lergen chất vấn Tanya: gọi 'cô'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000161
+    terms:
+      - "staffers: giới sĩ quan tham mưu"
+      - "resources: tài nguyên"
+    pronouns_and_pov: "Độc thoại nội tâm của Lergen: tự xưng 'mình', quy chiếu Tanya bằng 'cô ta'."
+    modality_and_logic: "Giữ phủ định giảm nhẹ 'vốn chẳng mấy xa lạ' và quan hệ suy luận 'Nếu vậy thì cô ta hoàn toàn hợp lý'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000162
+    pronouns_and_pov: "Thoại Lergen lẩm bẩm hướng về Tanya: gọi 'cô'."
+    modality_and_logic: "Giữ tình thái suy đoán chắc chắn ở quá khứ ('chắc chắn chính cô... đã viết...')."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000163
+    terms:
+      - "total war: chiến tranh tổng lực"
+      - "world war: chiến tranh thế giới"
+    pronouns_and_pov: "Độc thoại nội tâm của Lergen: tự xưng 'mình'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000164
+    modality_and_logic: "Giữ câu hỏi tu từ cuối đoạn 'Chẳng lẽ vạn vật đã thực sự hóa điên cả rồi sao?'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000165
+    terms:
+      - "God: Thượng đế"
+      - "devil: ác quỷ"
+    pronouns_and_pov: "Độc thoại nội tâm của Lergen: tự xưng 'mình', quy chiếu Thượng đế bằng 'ngài' viết thường."
+    modality_and_logic: "Giữ mệnh đề giả định 'Nếu một vị Thượng đế khốn kiếp nào đó thực sự tồn tại, mình dám chắc ngay lúc này ngài đang cấu kết với ác quỷ'."
+    emphasis: "Bọc *...* toàn bộ đoạn tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000166
+    pronouns_and_pov: "Thoại Lergen than thở thành tiếng: tự xưng 'tôi', quy chiếu Tanya bằng 'cô ta'."
+    modality_and_logic: "Giữ phủ định kèm lựa chọn nghi vấn 'tôi chẳng biết kẻ điên là cô ta hay là cả thế giới này nữa'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000167
+    pronouns_and_pov: "Trần thuật và nội tâm theo điểm nhìn Lergen (DEC-P01-001): quy chiếu Lergen bằng 'Ông', Tanya bằng 'cô' (không dùng 'nó')."
+    modality_and_logic: "Giữ phủ định kép 'Ông không khỏi nghĩ rằng' ở câu đầu."
+    emphasis: "Bọc *...* hai câu cuối '*Thật kinh hoàng khi thấy bản chất thật sự của cô phơi bày trần trụi. Cô là một con quái vật.*' theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000168
+    terms:
+      - "General Staff: Bộ Tổng Tham mưu"
+    modality_and_logic: "Giữ quan hệ đối lập giữa sự thán phục/lo ngại và việc mọi lời bàn tán lắng xuống trước báo cáo từ biên giới."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000169
+    names_and_entities:
+      - "Herelmannstadt: Herelmannstadt"
+    terms:
+      - "army-sized Dacian unit: đơn vị Dacia quy mô cấp tập đoàn quân"
+    modality_and_logic: "Giữ tình thái phỏng đoán thận trọng 'Có vẻ như họ đang tiến về phía Herelmannstadt'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000170
+    terms:
+      - "Dacia, army, border, violate: Dacia, tập đoàn quân, biên giới, xâm phạm"
+    pronouns_and_pov: "Trần thuật ngôi thứ ba theo điểm nhìn Lergen: quy chiếu Lergen bằng 'Ông'."
+    modality_and_logic: "Giữ phủ định 'Ông không muốn nghĩ tới chuyện đó' và dấu gạch ngang dài ở câu cuối."
+    emphasis: "Bọc *...* đúng câu đầu '*Dacia, tập đoàn quân, biên giới, xâm phạm.*' tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000171
+    terms:
+      - "inspection: Đợt thanh tra"
+      - "suspended: tạm đình chỉ"
+    pronouns_and_pov: "Khẩu lệnh quân sự: người ra lệnh tự xưng 'Tôi' ('Tôi nhắc lại')."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000172
+    terms:
+      - "203rd Aerial Mage Battalion: Tiểu đoàn Pháp sư Trên không số 203"
+      - "Border Command: Bộ Tư lệnh Biên phòng"
+    pronouns_and_pov: "Khẩu lệnh chỉ huy: tự xưng 'tôi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000173
+    terms:
+      - "Staffers: Các sĩ quan tham mưu"
+      - "dress uniforms: lễ phục"
+    modality_and_logic: "Giữ phủ định 'chẳng buồn bận tâm đến bùn đất bắn tung tóe lên lễ phục của mình'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000174
+    ranks_and_titles:
+      - "Lieutenant Colonel von Lergen: Trung tá von Lergen"
+    terms:
+      - "battle stations: vị trí chiến đấu"
+      - "observers: quan sát viên"
+      - "Command Post: Sở chỉ huy"
+    pronouns_and_pov: "Trần thuật ngôi thứ ba: quy chiếu Trung tá von Lergen bằng 'ông'."
+    modality_and_logic: "Giữ mệnh đề phủ định chỉ nguyên nhân 'Những người không có vị trí chiến đấu vì chỉ tới đây với tư cách quan sát viên'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000175
+    terms:
+      - "World war: Chiến tranh thế giới"
+    modality_and_logic: "Giữ câu hỏi bỏ lửng có dấu ba chấm ở cuối để nối ngữ pháp trực tiếp sang p000176."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000176
+    ranks_and_titles:
+      - "Major von Degurechaff: Thiếu tá von Degurechaff"
+    terms:
+      - "Command Post: Sở chỉ huy"
+    pronouns_and_pov: "Trần thuật ngôi thứ ba: quy chiếu Lergen bằng 'ông'."
+    emphasis: "Bọc *...* đúng phần đầu câu '*…thực sự xảy ra sao?*' tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000177
+    ranks_and_titles:
+      - "Colonel: thưa Trung tá"
+    terms:
+      - "Empire: Đế quốc"
+      - "Dacians: người Dacia"
+      - "international cooperation: hợp tác quốc tế"
+    pronouns_and_pov: "Thoại Tanya với Lergen: tự xưng 'Tôi', gọi 'thưa Trung tá', quy chiếu Đế quốc bằng 'chúng ta' và quân Dacia bằng 'chúng'; trần thuật theo điểm nhìn Lergen (DEC-P01-001) quy chiếu Tanya bằng 'cô' (không dùng 'nó')."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000178
+    terms:
+      - "world war: chiến tranh thế giới"
+    pronouns_and_pov: "Trần thuật theo điểm nhìn Lergen (DEC-P01-001): quy chiếu Tanya bằng 'Cô'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000179
+    ranks_and_titles:
+      - "Major Tanya von Degurechaff: Thiếu tá Tanya von Degurechaff"
+    terms:
+      - "Empire: Đế quốc"
+    pronouns_and_pov: "Trần thuật theo điểm nhìn Lergen (DEC-P01-001): quy chiếu Tanya bằng 'cô'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000180
+    pronouns_and_pov: "Thoại thách thức của Tanya hướng tới kẻ địch ('lũ lợn kia'): tự xưng 'ta / chúng ta', gọi địch là 'các ngươi'."
+    modality_and_logic: "Giữ dấu gạch ngang dài ngắt nhịp tự hiệu chỉnh lời nói 'Hay có lẽ ta nên nói là—chúng ta sẽ cho các ngươi một trận ra trò!'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000181
+    terms:
+      - "O God: Hỡi Thượng đế"
+    pronouns_and_pov: "Độc thoại nội tâm của Lergen kêu cầu Thượng đế: gọi 'ngài' viết thường."
+    emphasis: "Bọc *...* toàn bộ đoạn '*Hỡi Thượng đế… Đây là…? Đây là điều ngài mong muốn sao?*' tương ứng 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000182
+    terms:
+      - "Deus lo Vult: Deus lo Vult"
+      - "Fin: Hết"
+    modality_and_logic: "Giữ dòng kết Tập 1 trong ngoặc đơn."
+    emphasis: "Không dùng *...*."
