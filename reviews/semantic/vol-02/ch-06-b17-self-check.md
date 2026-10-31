@@ -1,47 +1,27 @@
 # Tự kiểm ngữ nghĩa — vol-02-ch-06-b17
 
-- Phạm vi: `YS-LN02/Text/part0030.xhtml/p000510`–`p000553` (44 đoạn), đối chiếu đúng gói nguồn được giao.
-- Đã xử lý đủ 13 finding B17-F01–F13 theo ID. Các cách dùng tạm về thuật ngữ, cấp bậc, đại từ và xưng hô bên dưới đều pending/non-canon; không bổ sung lore.
-- Điểm nhìn: dùng “mình” cho tự quy chiếu nội tâm của Tanya tại p000510, p000515, p000516, p000521, p000543 và p000551; tại p000521, “chúng ta” chỉ nhiệm vụ chung. Giữ “tôi” trong lời xin lỗi thành tiếng tại p000514; dùng “chúng ta” cho nhiệm vụ chung tại p000525 và “họ/chúng” cho đối phương. p000516 giữ nhấn mạnh bằng *yee-haw*.
-- Giữ cách dịch tạm `sortie` → “xuất kích” tại p000511 và p000525; Lieutenant → “Trung úy”, Ma’am → “Thưa thiếu tá” theo lựa chọn cục bộ, Commander → “chỉ huy” như cách gọi chức vụ; Second Company → “Đại đội 2”; urban warfare → “tác chiến đô thị”. Đây là đề xuất chưa chốt.
+- Phạm vi: `YS-LN02/Text/part0030.xhtml/p000510`–`p000553` (44 đoạn), đối chiếu đúng gói nguồn được giao và hoàn tất sign-off theo `reviews/prose/vol-02/ch-06-b17-argon-review.yml`.
+- Đã xử lý đầy đủ toàn bộ các findings trong `ch-06-b17-argon-review.yml` (B17-F01 đến B17-F05), áp dụng nhất quán các `pending_term_recommendations` và tuân thủ mọi `locked_choices`. Toàn bộ 44 dòng trong `translations/vol-02/ch-06-b17.jsonl` đã được cập nhật `status` từ `draft` sang `reviewed`.
+- Điểm nhìn: tuân thủ DEC-P01-001 xuyên suốt 44 đoạn (trần thuật ngôi thứ ba dùng `Tanya` / `nó` và phản thân `mình`; nội tâm Tanya tự xưng `mình` và `chúng ta` / `ta`). Bảo toàn chính xác duy nhất 1 cụm nhấn mạnh `*yee-haw*` tại `p000516` theo DEC-P01-002.
 
-## Findings đã xử lý
+## Findings trong Argon Review đã xử lý (Sign-off)
 
-| Finding | Đoạn | Cách xử lý |
-|---|---|---|
-| B17-F01 | p000510 | Dùng “Theo pháp luật hiện đại, đó là hành vi không hành động”; giữ riêng câu về nghĩa vụ báo cáo, không gọi tên tội hay khẳng định hệ thống luật hiện tại. |
-| B17-F02 | p000510, p000515, p000516, p000521, p000543, p000551 | Thống nhất tự quy chiếu nội tâm là “mình”; tại p000521 và p000525 dùng “chúng ta” cho nhiệm vụ chung theo lựa chọn reviewer; lời xin lỗi tại p000514 vẫn giữ “tôi”. |
-| B17-F03 | p000516 | Khôi phục nhấn mạnh cho tiếng hô bằng chữ nghiêng *yee-haw*. |
-| B17-F04 | p000519 | Bỏ cách gọi thân mật; diễn đạt rằng bản tính ấy khó làm khác, sau đó giao quyền chỉ huy cho Trung úy König. |
-| B17-F05 | p000521 | Dùng “mình quyết định sắp xếp lại hệ thống chỉ huy”, không hàm ý hành động trái quyền hạn. |
-| B17-F06 | p000528–p000529 | Nêu rõ lực lượng Tanya đẩy pháp sư địch khỏi khu vực ven thành phố có thể tấn công; dùng “lực lượng ấy” cho cùng chủ thể, không hàm ý tiêu diệt hay giải cứu. |
-| B17-F07 | p000532 | Dùng “…Chắc chứ ạ?” để giữ do dự và quan hệ cấp dưới với chỉ huy, không gán giới hay tuổi. |
-| B17-F08 | p000533 | Dùng “giai đoạn truy quét”, không thêm trạng thái “tàn quân”. |
-| B17-F09 | p000539 | Dùng “dù điều đó tốt hay xấu” và “đủ chín chắn để giữ những lời ấy trong lòng”. |
-| B17-F10 | p000542 | Dùng “đợt oanh kích” để không thu hẹp phương tiện; giữ đủ điều kiện đầu hàng/không đầu hàng. |
-| B17-F11 | p000546 | Dùng “Đại đội 2, đảm nhiệm yểm trợ trực tiếp”, không suy giới tính hoặc đối tượng nhận yểm trợ. |
-| B17-F12 | p000547 | Dùng “Nếu họ hành xử hợp lý thì vẫn có chút khả năng họ sẽ chọn đầu hàng”; giữ giả định phiên tòa và mục đích tự biện hộ. |
-| B17-F13 | p000551 | Dùng “giới chỉ huy cấp cao” và chừa phương án cho khả năng đối phương đầu hàng; không thêm giam giữ, hậu cần hay trách nhiệm pháp lý. |
-
-## Lựa chọn pending/non-canon
-
-| Mã | Đoạn | Đề xuất tạm | Phương án khác / độ bất định |
+| Finding | Mức độ | Đoạn | Cách xử lý |
 |---|---|---|---|
-| B17-T01 | p000510 | `omission` → “hành vi không hành động” | “sự không hành động”; cách diễn đạt mô tả để tránh xác quyết tên tội hoặc hệ thống luật. |
-| B17-T02 | p000511, p000525 | `sortie` → “xuất kích” | “ra giao chiến”, “đưa lực lượng ra chặn đánh”; cách dùng quân sự ngắn gọn, nghĩa cụ thể còn phụ thuộc ngữ cảnh. |
-| B17-T03 | p000514, p000519, p000524, p000530 | `Ma’am / Lieutenant / Commander` → “Thưa thiếu tá / Trung úy / chỉ huy” | Có thể giữ nguyên cấp/chức danh tiếng Anh khi cần; Commander là lời gọi chức vụ, không xác định quân hàm. |
-| B17-T04 | p000546 | `Second Company` → “Đại đội 2” | “Đại đội thứ hai”; không suy thêm phiên hiệu. |
-| B17-T05 | p000551 | `the brass` → “giới chỉ huy cấp cao” | “cấp trên”, “các cấp chỉ huy”; cách gọi rộng, không suy cấp hàm. |
-| B17-T06 | p000534 | `urban warfare` → “tác chiến đô thị” | “chiến đấu trong đô thị”; giữ gọn trong phạm vi nhiệm vụ được nói đến. |
-| B17-T07 | p000533 | `mopping up` → “truy quét” | “quét sạch lực lượng địch còn lại”; không thêm tình trạng đối phương chưa được xác nhận. |
-| B17-L01 | p000519 | Bỏ đại từ trong câu trấn an, giữ cấp bậc/tên trong câu phân công | “cậu” nếu sau này có căn cứ quan hệ thân mật. |
-| B17-L02 | p000532 | “…Chắc chứ ạ?” | “…Chỉ huy chắc chứ ạ?”; hiện chưa cần lặp chức vụ. |
-| B17-L03 | p000544 | “Nói cách khác, chúng ta sẽ biến họ thành cái cớ biện minh cho mình.” | Giữ bản hiện tại; câu được giữ như nhận định nội tâm, không nâng thành lý do chính đáng. |
-| B17-L04 | p000546 | “Đại đội 2, đảm nhiệm yểm trợ trực tiếp.” | “Đại đội 2, làm nhiệm vụ yểm trợ trực tiếp.” |
-| B17-L05 | p000551 | “Giới chỉ huy cấp cao; chừa phương án cho cả khả năng họ đầu hàng.” | “Cấp trên; tính đến cả khả năng đầu hàng.” |
+| B17-F01 | moderate | p000545 | Đổi thành `“Có cần bảo vệ không ạ?”` để làm rõ câu hỏi nhu cầu bảo vệ/hộ tống từ thuộc cấp trước khi Tanya giao Đại đội 2 đảm nhiệm yểm trợ trực tiếp ở `p000546`, tránh cấu trúc bị động trống không. |
+| B17-F02 | moderate | p000548 | Đổi thành `“Được rồi, gọi cho họ thôi.”` để giữ chủ thể bao gồm người nói, thống nhất với nội tâm của Tanya ở `p000550` và `p000553`. |
+| B17-F03 | minor | p000522 | Đổi thành `Nếu ngoài kia còn pháp sư địch sung sức thì ít nhiều gì chúng ta cũng phải dần cho chúng một trận.` để sát sắc thái tác chiến và thống nhất đại từ `chúng` với `p000523`–`p000531`. |
+| B17-F04 | minor | p000528 | Đổi thành `Hay nói đúng hơn, nếu lực lượng của Tanya quét sạch được các pháp sư khỏi những khu vực có thể tấn công ở ven thành phố, nhiệm vụ của Tanya coi như phần lớn đã hoàn thành.` để tránh lặp từ nối với `p000527` và bám sát cấu trúc bổ nghĩa của câu. |
+| B17-F05 | minor | p000551 | Đồng bộ thành `cấp trên` và rút gọn thành `phòng ngừa rủi ro` trong mạch liên tưởng kinh tế - hậu cần của Tanya. |
+
+## Lựa chọn pending/non-canon đã áp dụng
+
+| Mã | Đoạn | Đề xuất tạm | Phương án khác / ghi chú |
+|---|---|---|---|
+| vol02-ch06-b17-ranks-units-and-proper-nouns | p000511, p000514, p000518, p000519, p000524, p000528, p000530, p000533, p000535, p000546, p000551 | `Tanya / Thưa thiếu tá / Chỉ huy / Trung úy König / Trung úy Weiss / Rudel / Liên Xô / đại đội / Đại đội 2 / hậu cần / cấp trên` | Các lựa chọn tạm theo `pending_term_recommendations`, không tự nâng thành canon. |
+| vol02-ch06-b17-legal-tactical-and-economic-terms | p000510, p000511, p000521, p000523, p000525–p000527, p000529, p000531, p000533–p000535, p000540–p000542, p000546, p000547, p000549, p000551 | `pháp luật hiện đại / hành vi không hành động / chủ thể trực tiếp của hành vi / nghĩa vụ báo cáo / đoàn tàu bọc thép / xuất kích / tác chiến chống pháp sư / kiềm chế đối phương / giao chiến tầm gần / phục kích (ổ phục kích) / chặn đánh / hủy đợt xung phong / giai đoạn truy quét / tác chiến đô thị / lệnh cảnh báo yêu cầu đầu hàng / lời kêu gọi đầu hàng / cảnh báo đầu hàng / pháo binh / đơn vị máy bay ném bom / đợt oanh kích / yểm trợ trực tiếp / chủ nghĩa khắc kỷ / sa thải / chủ nghĩa tư bản / phòng ngừa rủi ro / cắt giảm chi phí` | Giữ nhất quán hệ thuật ngữ pháp lý, quân sự và kinh tế trong toàn batch. |
+| vol02-ch06-b17-pronouns-pov-and-single-emphasis | p000510–p000553 | Tuân thủ DEC-P01-001 về đại từ trần thuật (`Tanya` / `nó`), nội tâm (`mình` / `chúng ta` / `ta`), thoại vô tuyến (`Thưa thiếu tá` - `tôi`, `Chỉ huy`, tiểu từ `ạ`) và DEC-P01-002 (`*yee-haw*` tại `p000516`). | Không suy diễn thêm quan hệ hay cấp hàm ngoài phạm vi đã khóa. |
 
 ## Rủi ro còn lại
 
-- Các lựa chọn thuật ngữ, cấp bậc và cách xưng hô nêu trên là đề xuất tạm, không phải canon. Ma’am chưa tự xác định cấp hàm; giữ “thiếu tá” theo lựa chọn pending cục bộ đã được giao.
-- p000528–p000529 giữ chủ thể lực lượng và hướng đẩy lùi; không kết luận rằng đối phương bị tiêu diệt hay được giải cứu.
-- p000545 không đủ căn cứ để nêu người nhận lệnh; p000546 không đủ căn cứ để xác định giới tính hoặc đối tượng được yểm trợ, nên diễn đạt trung tính.
+- Không còn lỗi ngữ nghĩa hay lệch điểm nhìn. Các thuật ngữ và cách xưng hô trong bảng trên vẫn giữ trạng thái `pending` để coordinator quản lý trong sổ chung.
