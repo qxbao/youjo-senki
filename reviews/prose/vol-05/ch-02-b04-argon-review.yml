@@ -1,0 +1,248 @@
+task_id: "vol-05-ch-02-b04-argon-review"
+parent_task_id: "vol-05-ch-02-b04"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-02-b04-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0014.html/p000095"
+    issue: "Danh từ chỉ nhóm ly khai trong lời thoại phân tích chiến lược của Zettour (lặp lại ở p000103) được dịch là 'những kẻ ly khai', mang sắc thái miệt thị nhẹ chưa thật trung tính khi hai bên đang bàn chuyện tìm kiếm sự đoàn kết/liên minh với nhóm này."
+    evidence: "Từ nguyên gốc trong lời của Zettour ở p000095 và p000103 là danh từ định danh chính trị trung tính, đặt trong mạch bàn luận về khả năng biến họ thành đồng minh hoặc lực lượng hợp tác."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ ở bước chuốt văn thành 'các phần tử ly khai', 'những người theo phái ly khai' hoặc 'lực lượng ly khai' tại p000095 và p000103 để giữ sắc thái khách quan."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0014.html/p000108"
+    issue: "Cụm cảm thán ngắn trong thẻ nhấn mạnh ở giữa đoạn được dịch mở rộng thêm động từ giải thích ('*Trong muôn vàn thứ lại thiếu đúng thứ này…*')."
+    evidence: "Nguyên văn cụm in nghiêng chỉ là một ngữ cảm thán ngắn bỏ lửng nối tiếp câu thoại ngay trước đó về việc bỏ lỡ khía cạnh ngôn ngữ."
+    recommendation: "Có thể cân nhắc rút gọn ở bước chuốt văn thành '*Trong muôn vàn thứ…*' hoặc '*Giữa bao nhiêu chuyện không vướng…*' để giữ độ cô đọng của nhịp độc thoại."
+pending_term_recommendations:
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nhất quán tên gọi quốc gia đối địch ở Mặt trận phía Đông theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000095"
+      - "YS-LN05/Text/part0014.html/p000101"
+      - "YS-LN05/Text/part0014.html/p000103"
+      - "YS-LN05/Text/part0014.html/p000110"
+      - "YS-LN05/Text/part0014.html/p000112"
+  - source_term: "multiethnic state"
+    proposed_vi: "quốc gia đa sắc tộc"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với mục đã ghi trong sổ pending Tập 5 (ch-02-b02)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000095"
+  - source_term: "separatists"
+    proposed_vi: "những kẻ ly khai"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Tạm nhận diện đúng khái niệm chính trị chỉ nhóm đòi ly khai bên trong Liên bang; có thể chuốt sắc thái trung tính hơn ('các phần tử ly khai' / 'lực lượng ly khai') ở bước polish."
+    alternatives_vi:
+      - "các phần tử ly khai"
+      - "lực lượng ly khai"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000095"
+      - "YS-LN05/Text/part0014.html/p000103"
+  - source_term: "General"
+    proposed_vi: "Tướng quân"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cách Tanya xưng hô với Trung tướng von Zettour theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000096"
+      - "YS-LN05/Text/part0014.html/p000106"
+      - "YS-LN05/Text/part0014.html/p000111"
+      - "YS-LN05/Text/part0014.html/p000113"
+  - source_term: "Colonel / Colonel von Degurechaff"
+    proposed_vi: "Trung tá / Trung tá von Degurechaff"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cách gọi tắt quân hàm Lieutenant Colonel của Tanya trong lời thoại của Zettour theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000097"
+      - "YS-LN05/Text/part0014.html/p000120"
+      - "YS-LN05/Text/part0014.html/p000124"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nhất quán tên gọi quân chủng lục quân của Đế quốc theo sổ pending Tập 5."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000105"
+      - "YS-LN05/Text/part0014.html/p000109"
+      - "YS-LN05/Text/part0014.html/p000118"
+      - "YS-LN05/Text/part0014.html/p000124"
+  - source_term: "Feldgendarmerie"
+    proposed_vi: "lực lượng Feldgendarmerie"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5 cho quân cảnh dã chiến Đế quốc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000105"
+  - source_term: "pacification strategy"
+    proposed_vi: "chiến lược bình định"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Đồng bộ thuật ngữ 'bình định' với 'chương trình bình định chống Cộng' và 'các hoạt động bình định' ở các lô trước của Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000108"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác cho cơ quan ngoại giao trung ương của Đế quốc trong ngữ cảnh điều động nhân sự biết ngoại ngữ."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000109"
+  - source_term: "Federation language"
+    proposed_vi: "tiếng Liên bang"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000111"
+  - source_term: "antiestablishment factions"
+    proposed_vi: "các phe phái chống đối chế độ"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với phương án tạm đã khóa ở lô ch-02-b03."
+    alternatives_vi:
+      - "các phe phái chống chế độ"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000112"
+      - "YS-LN05/Text/part0014.html/p000116"
+  - source_term: "interior lines strategy"
+    proposed_vi: "chiến lược nội tuyến"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending từ Tập 2 cho học thuyết phòng ngự nội tuyến nền tảng của Đế quốc."
+    alternatives_vi:
+      - "chiến lược tác chiến trên tuyến trong"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000118"
+      - "YS-LN05/Text/part0014.html/p000119"
+  - source_term: "military government"
+    proposed_vi: "chính quyền quân quản"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với phương án tạm đã khóa ở lô ch-02-b03."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000121"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0014.html/p000095"
+    choices:
+      - "Tên riêng và thuật ngữ: 'Liên bang', 'quốc gia đa sắc tộc', 'đạt được sự đoàn kết'"
+      - "Xưng hô trong thoại của Zettour với Tanya: 'cô', 'chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000096"
+    choices:
+      - "Lời đáp lễ phép và quân hàm: 'Vâng, thưa Tướng quân.'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000097"
+    choices:
+      - "Xưng hô và quân hàm trong thoại của Zettour với Tanya: 'Tôi', 'cô', 'Trung tá', 'chúng ta'"
+      - "Giữ đối lập giữa lý thuyết và thực tế: 'những gì viết trong sách giáo khoa', 'ngoài thực địa'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000098"
+    choices:
+      - "Tên riêng và đại từ trần thuật của Tanya theo DEC-P01-001: 'Tanya', 'nó', 'Zettour'"
+      - "Giữ đúng mệnh đề phủ định và phạm vi giới hạn: 'Zettour không nói thẳng ra điều đó', 'chỉ đưa ra một đáp án khả dĩ duy nhất dưới một tập hợp hoàn cảnh nhất định'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000099"
+    choices:
+      - "Đại từ ngôi thứ hai khái quát trong độc thoại: 'bạn'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000100"
+    choices:
+      - "Đại từ ngôi thứ hai khái quát: 'bạn'; thuật ngữ: 'tiền tuyến', 'ngoài thực địa', 'kết quả'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000101"
+    choices:
+      - "Tên riêng và đại từ trong thoại của Zettour: 'Liên bang', 'chúng ta'"
+      - "Giữ cấu trúc phủ định bác bỏ suy luận tự động: 'chỉ vì một ai đó là kẻ thù của kẻ thù không có nghĩa là họ nghiễm nhiên trở thành đồng minh của chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000102"
+    choices:
+      - "Đại từ trần thuật theo DEC-P01-001: 'Nó' (Tanya), 'ông ấy' (Zettour); đại từ khái quát: 'bạn'"
+      - "Giữ quan hệ nhượng bộ và nghi vấn mở: 'ngay cả nếu đôi bên có chung một kẻ thù, câu hỏi về việc liệu bạn có thể đạt được sự đoàn kết hay không vẫn còn bỏ ngỏ'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000103"
+    choices:
+      - "Tên riêng và thuật ngữ: 'Zettour', 'nhà cầm quyền Liên bang'; đại từ: 'chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000104"
+    choices:
+      - "Giữ câu nhận định ngắn trong độc thoại của Tanya: 'Đúng vậy, đó là một điểm cực kỳ quan trọng cần lưu ý.'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000105"
+    choices:
+      - "Tên riêng và thuật ngữ: 'đạo quân Đế quốc đang tiến công', 'người dân bản địa', 'lực lượng Feldgendarmerie', 'Tanya'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000106"
+    choices:
+      - "Xưng hô và đại từ trong thoại: 'Thưa Tướng quân', 'chúng ta'"
+      - "Thuật ngữ: 'những kẻ ngoại lai có vũ trang', 'làm trung gian hòa giải'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000107"
+    choices:
+      - "Tên riêng và chuỗi vai trò giao tiếp: 'Đế quốc', 'người trung gian hòa giải', 'nhà đàm phán', 'thông dịch viên'; đại từ số nhiều trong độc thoại: 'chúng ta'"
+      - "Giữ đúng tình thái giả định trái thực tế trong quá khứ: 'Lẽ ra chúng ta phải tiến vào cùng một người như thế.'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000108"
+    choices:
+      - "Thuật ngữ: 'chiến lược bình định'; tên riêng: 'Tanya'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc phần độc thoại cảm thán bằng '*...*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000109"
+    choices:
+      - "Tên cơ quan và tổ chức: 'Lục quân Đế quốc', 'Bộ Ngoại giao'; đại từ trong độc thoại: 'Chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000110"
+    choices:
+      - "Tên riêng và thuật ngữ trong thoại của Zettour: 'các sĩ quan', 'ngôn ngữ chính thức của Liên bang'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000111"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya: 'Vâng, thưa Tướng quân', 'ngài', 'chúng ta', 'tiếng Liên bang'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000112"
+    choices:
+      - "Tên riêng và thuật ngữ: 'Tanya', 'các phe phái chống đối chế độ ở Liên bang', 'ngôn ngữ chính thức', 'ngôn ngữ của kẻ thù'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000113"
+    choices:
+      - "Xưng hô và đại từ trong thoại: 'Thưa Tướng quân', 'chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000114"
+    choices:
+      - "Xưng hô và câu hỏi xác nhận của Zettour: 'cô', 'chúng ta', 'ngôn ngữ chính thức'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000115"
+    choices:
+      - "Tên nhân vật trong trần thuật: 'Tanya'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000116"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'Nó' / 'nó'; tên riêng và thuật ngữ: 'các phe phái chống đối chế độ', 'Serebryakov'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000117"
+    choices:
+      - "Tên riêng và thuật ngữ: 'Đế quốc', 'Các ngôn ngữ thiểu số', 'giới chuyên gia ngôn ngữ học', 'chương trình đào tạo ngôn ngữ bài bản'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000118"
+    choices:
+      - "Thuật ngữ quân sự trong thoại của Zettour: 'điểm yếu mang tính cấu trúc', 'Lục quân Đế quốc', 'các cuộc viễn chinh ở xứ người', 'chiến lược nội tuyến'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000119"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya: 'tôi', 'chúng ta', 'chiến lược phòng ngự lâu nay', 'chiến lược nội tuyến'; tên nhân vật: 'Tanya'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc chính xác mệnh đề '*chúng ta đã không kiên trì thực hiện nó đến cùng mà lại đưa quân vượt qua biên giới*' theo thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000120"
+    choices:
+      - "Quân hàm và tên riêng trong thoại của Zettour: 'Trung tá von Degurechaff', 'chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000121"
+    choices:
+      - "Đại từ và thuật ngữ trong thoại của Tanya: 'chúng ta', 'triển khai binh lính ở nước ngoài', 'chiếm đóng bằng chính quyền quân quản', 'các vùng lãnh thổ bị chiếm đóng'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000122"
+    choices:
+      - "Tên và đại từ trần thuật của Tanya theo DEC-P01-001: 'Tanya', 'nó'; giữ cấu trúc phủ định kép: 'Không phải là Tanya không ý thức được...'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000123"
+    choices:
+      - "Thuật ngữ chính trị - quân sự: 'dựng lên một chính quyền bù nhìn', 'hậu thuẫn một thế lực thân thiện', 'nhân vật chủ chốt'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000124"
+    choices:
+      - "Quân hàm, tên riêng và xưng hô trong thoại của Zettour: 'Trung tá von Degurechaff', 'Cô', 'Lục quân Đế quốc'"
