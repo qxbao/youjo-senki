@@ -1,0 +1,209 @@
+task_id: vol-05-ch-02-b11-argon-review
+parent_task_id: vol-05-ch-02-b11
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 2
+target_translation: translations/vol-05/ch-02-b11.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0016.html/p000139
+    severity: minor
+    category: style
+    issue: "Cụm 'về phía mặt trận phía Đông' lặp từ 'phía' hai lần liên tiếp khiến nhịp câu hơi nặng."
+    recommendation: "Khi chuốt văn có thể cân nhắc gọn lại thành 'sang mặt trận phía Đông' hoặc 'về mặt trận phía Đông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000148
+    severity: minor
+    category: word_choice
+    issue: "Thành ngữ 'đồng sàng dị mộng' vốn đã bao hàm sắc thái khác biệt kỳ lạ của cụm thành ngữ gốc, việc thêm tính từ 'kỳ quặc' phía sau hơi dư nghĩa."
+    recommendation: "Khi chuốt văn có thể cân nhắc lược bớt 'kỳ quặc' hoặc diễn đạt là 'những kẻ đồng sàng dị mộng trớ trêu'."
+pending_term_recommendations:
+  - source_term: Prime Minister Churbull / Churbull
+    proposed_vi: "Thủ tướng Churbull / Churbull"
+    category: nhân vật / chức danh
+    status: proposed
+    rationale: "Giữ nguyên họ nhân vật và dịch chức danh Prime Minister là Thủ tướng đúng bối cảnh chính phủ Khối Thịnh vượng chung."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000138
+      - YS-LN05/Text/part0016.html/p000139
+      - YS-LN05/Text/part0016.html/p000142
+      - YS-LN05/Text/part0016.html/p000144
+  - source_term: Commonwealth defense meeting
+    proposed_vi: "cuộc họp quốc phòng của Khối Thịnh vượng chung"
+    category: tổ chức / sự kiện
+    status: proposed
+    rationale: "Diễn đạt sát nghĩa danh từ chung chỉ phiên họp quốc phòng của Khối Thịnh vượng chung, đồng bộ với Ủy ban Quốc phòng Khối Thịnh vượng chung ở các batch trước."
+    alternatives_vi:
+      - "hội nghị quốc phòng của Khối Thịnh vượng chung"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000138
+  - source_term: Air Ministry
+    proposed_vi: "Bộ Không quân"
+    category: tổ chức
+    status: proposed
+    rationale: "Cách dịch chuẩn xác theo cơ cấu bộ phụ trách không quân trong nội các Khối Thịnh vượng chung."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000152
+      - YS-LN05/Text/part0016.html/p000157
+      - YS-LN05/Text/part0016.html/p000165
+  - source_term: Imperial Air Fleet
+    proposed_vi: "Không hạm đội Đế quốc"
+    category: tổ chức quân sự
+    status: proposed
+    rationale: "Khớp với thuật ngữ tạm 'không hạm đội của Đế quốc' đã ghi nhận trong sổ pending-terms và đối xứng với Không hạm đội Hoàng gia."
+    alternatives_vi:
+      - "Hạm đội Không quân Đế quốc"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000153
+  - source_term: Royal Air Fleet
+    proposed_vi: "Không hạm đội Hoàng gia"
+    category: tổ chức quân sự
+    status: proposed
+    rationale: "Giữ tính đối xứng về thuật ngữ với Không hạm đội Đế quốc và phản ánh đúng chính thể quân chủ của Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "Hạm đội Không quân Hoàng gia"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000154
+  - source_term: inspector general of the air fleet / inspector general
+    proposed_vi: "tổng thanh tra không hạm đội / tổng thanh tra"
+    category: chức danh quân sự
+    status: proposed
+    rationale: "Thuật ngữ quân sự chuẩn tương ứng với chức danh Inspector General phụ trách thanh tra và giám sát lực lượng không hạm đội."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000157
+      - YS-LN05/Text/part0016.html/p000158
+locked_choices:
+  - segment_id: YS-LN05/Text/part0016.html/p000137
+    choices:
+      - "Đại từ và hình ảnh so sánh: 'he' -> 'ông ta', 'bulldog' -> 'chó mặt xệ', đại từ khái quát 'your' -> 'bạn'."
+  - segment_id: YS-LN05/Text/part0016.html/p000138
+    choices:
+      - "Danh xưng và chức vụ: 'His Royal Majesty’s first subject' -> 'đệ nhất thần dân của Đức Vua', 'Commonwealth defense meeting' -> 'cuộc họp quốc phòng của Khối Thịnh vượng chung', 'Prime Minister Churbull' -> 'Thủ tướng Churbull'."
+  - segment_id: YS-LN05/Text/part0016.html/p000139
+    choices:
+      - "Thuật ngữ: 'the prime minister' -> 'Thủ tướng', 'eastern front' -> 'mặt trận phía Đông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000140
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*Giá mà được thế! Vậy thì chúng tôi đã chẳng phải chịu khổ thế này.*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+      - "Giữ đúng điểm nhìn tập thể của những người dự họp đang hướng về ghế chủ tọa."
+  - segment_id: YS-LN05/Text/part0016.html/p000141
+    choices:
+      - "Tên riêng và cấp bậc: 'General Habergram' -> 'Tướng Habergram'."
+  - segment_id: YS-LN05/Text/part0016.html/p000142
+    choices:
+      - "Ngôi xưng trong thoại của Thủ tướng Churbull: 'I' -> 'tôi'; giữ nguyên hình ảnh ẩn dụ 'the devil' -> 'quỷ dữ' và 'the two devils' -> 'hai con quỷ ấy' (ám chỉ Đế quốc và Liên bang)."
+  - segment_id: YS-LN05/Text/part0016.html/p000143
+    choices:
+      - "Đại từ trần thuật chỉ Churbull: 'his' -> 'của ông ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000144
+    choices:
+      - "Thuật ngữ chính trị: 'anti-Empire' -> 'chống Đế quốc', 'expansionist warmonger' -> 'kẻ hiếu chiến theo chủ nghĩa bành trướng', 'Commonwealth’s stubborn imperialist principles' -> 'những nguyên tắc đế quốc ngoan cố của Khối Thịnh vượng chung'."
+  - segment_id: YS-LN05/Text/part0016.html/p000145
+    choices:
+      - "Giữ tính liên kết biệt danh 'bulldog' -> 'chó mặt xệ' với đoạn p000137."
+  - segment_id: YS-LN05/Text/part0016.html/p000146
+    choices:
+      - "Xưng hô trong lời châm chọc hướng tới Thủ tướng: 'you' -> 'ngài'; giữ giọng mỉa mai tự nhiên."
+  - segment_id: YS-LN05/Text/part0016.html/p000147
+    choices:
+      - "Giữ ẩn dụ 'tucked in' -> 'lên giường đắp chăn chung' để nối mạch chơi chữ sang câu sau."
+  - segment_id: YS-LN05/Text/part0016.html/p000148
+    choices:
+      - "Giữ thế đối lập trong câu hỏi tu từ giữa 'strange bedfellows' và 'a pious man yet tolerant of heresy' cùng nhận xét về sự dày mặt của Churbull."
+  - segment_id: YS-LN05/Text/part0016.html/p000149
+    choices:
+      - "Xưng hô trong lời đáp của Churbull: 'You... gentlemen' -> 'Các vị... thưa các quý ông', 'I/me' -> 'tôi', 'we/our' -> 'chúng ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000150
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*...*' toàn bộ đoạn suy nghĩ nội tâm đúng theo thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: YS-LN05/Text/part0016.html/p000151
+    choices:
+      - "Ngôi xưng trong báo cáo cuộc họp: 'I' -> 'Tôi', 'our' -> 'của chúng ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000152
+    choices:
+      - "Tên cơ quan: 'Air Ministry' -> 'Bộ Không quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000153
+    choices:
+      - "Thuật ngữ quân sự: 'Imperial Air Fleet' -> 'Không hạm đội Đế quốc', 'mage units' -> 'những đơn vị pháp sư'."
+  - segment_id: YS-LN05/Text/part0016.html/p000154
+    choices:
+      - "Thuật ngữ quân sự: 'Royal Air Fleet' -> 'Không hạm đội Hoàng gia', 'air superiority' -> 'ưu thế trên không'."
+  - segment_id: YS-LN05/Text/part0016.html/p000155
+    choices:
+      - "Thuật ngữ: 'interception battles' -> 'những trận đánh chặn', 'the mainland' -> 'bản thổ', 'the Republic' -> 'Cộng hòa'."
+      - "Nhấn mạnh Markdown: bọc '*Mỉa mai thay khi sự sụp đổ của Cộng hòa giờ lại quay ngược lại cắn chính chúng ta.*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: YS-LN05/Text/part0016.html/p000156
+    choices:
+      - "Thuật ngữ và nhân vật: 'air screen' -> 'lưới chắn phòng không', 'General Habergram' -> 'Tướng Habergram'; đại từ phản thân trong suy nghĩ gián tiếp 'he' -> 'mình'."
+  - segment_id: YS-LN05/Text/part0016.html/p000157
+    choices:
+      - "Chức danh và cơ quan: 'head of the air ministry' -> 'người đứng đầu Bộ Không quân', 'inspector general of the air fleet' -> 'tổng thanh tra không hạm đội'."
+  - segment_id: YS-LN05/Text/part0016.html/p000158
+    choices:
+      - "Ngôi xưng và thành ngữ: 'inspector general' -> 'tổng thanh tra', 'I' -> 'tôi', 'we/our' -> 'chúng ta'; giữ đúng cấu trúc 'not a question of if but when' -> 'không còn là câu hỏi liệu có xảy ra hay không, mà là khi nào sẽ xảy ra'."
+  - segment_id: YS-LN05/Text/part0016.html/p000159
+    choices:
+      - "Giữ câu hỏi ngắn gọn trong cuộc họp."
+  - segment_id: YS-LN05/Text/part0016.html/p000160
+    choices:
+      - "Thuật ngữ quân sự: 'attrition' -> 'mức tiêu hao', 'aircraft' -> 'máy bay', 'fleet personnel' -> 'nhân sự không hạm đội', 'support and relief mage troops' -> 'các lực lượng pháp sư yểm trợ và tiếp ứng', 'voluntary units of refugees and university student volunteers' -> 'các đơn vị tình nguyện của người tị nạn và sinh viên đại học tình nguyện'."
+  - segment_id: YS-LN05/Text/part0016.html/p000161
+    choices:
+      - "Thuật ngữ và tên riêng: 'veterans' -> 'lính kỳ cựu', 'green troops' -> 'lính mới thiếu kinh nghiệm', 'General Habergram' -> 'Tướng Habergram', 'Intelligence' -> 'ngành Tình báo'."
+  - segment_id: YS-LN05/Text/part0016.html/p000162
+    choices:
+      - "Đại từ trần thuật chỉ Tướng Habergram: 'he/his' -> 'ông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000163
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*Các đơn vị không quân vốn được hưởng đãi ngộ ưu tiên, vậy mà họ vẫn gặp phải những vấn đề này ư?*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+      - "Đại từ trần thuật chỉ Habergram: 'he/his' -> 'ông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000164
+    choices:
+      - "Số liệu và thuật ngữ: 'two thousand air troops' -> 'hai nghìn binh sĩ không quân', 'over two hundred pilots' -> 'hơn hai trăm phi công', 'left the front' -> 'rời khỏi tiền tuyến'; giữ đúng sắc thái bất định 'unclear if they would be able to return'."
+  - segment_id: YS-LN05/Text/part0016.html/p000165
+    choices:
+      - "Tên cơ quan: 'Air Ministry' -> 'Bộ Không quân', 'Habergram in Intelligence' -> 'Habergram bên ngành Tình báo'."
+  - segment_id: YS-LN05/Text/part0016.html/p000166
+    choices:
+      - "Giữ đúng đối lập giữa 'pilots who completed their training before war began' và 'the ones educated on an urgent basis', cùng sắc thái 'all they had was a head count' -> 'tất cả những gì họ có chỉ là đủ quân số trên giấy tờ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000167
+    choices:
+      - "Thuật ngữ: 'airspace over the mainland' -> 'không phận phía trên bản thổ', 'loss rate' -> 'tỷ lệ tổn thất'; giữ đúng giọng thắc mắc lịch sự trong cuộc họp."
+  - segment_id: YS-LN05/Text/part0016.html/p000168
+    choices:
+      - "Giữ nguyên mạch chuyển sang phần giải thích gây đau đầu."
+  - segment_id: YS-LN05/Text/part0016.html/p000169
+    choices:
+      - "Giữ câu đáp ngắn gọn: 'Có hai vấn đề.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000170
+    choices:
+      - "Giữ mệnh lệnh ngắn gọn: 'Hãy giải thích đi.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000171
+    choices:
+      - "Giữ đúng nghĩa 'loath to use their parachutes' -> 'rất miễn cưỡng sử dụng dù của mình'."
+  - segment_id: YS-LN05/Text/part0016.html/p000172
+    choices:
+      - "Giữ dấu ba chấm và câu hỏi ngắn gọn."
+  - segment_id: YS-LN05/Text/part0016.html/p000173
+    choices:
+      - "Thuật ngữ và xưng hô: 'imperial aerial mages' -> 'pháp sư trên không của Đế quốc', 'you' -> 'Các vị'."
+  - segment_id: YS-LN05/Text/part0016.html/p000174
+    choices:
+      - "Giữ sắc thái không hoàn toàn chắc chắn trong trí nhớ của người nói: 'or something, I believe?' -> 'hay gì đó thì phải?'."
+  - segment_id: YS-LN05/Text/part0016.html/p000175
+    choices:
+      - "Tên riêng và phiên hiệu đơn vị: 'General Habergram' -> 'Tướng Habergram', '203rd Aerial Mage Battalion' -> 'Tiểu đoàn Pháp sư Trên không số 203'."
+  - segment_id: YS-LN05/Text/part0016.html/p000176
+    choices:
+      - "Tên cơ quan: 'Imperial Army General Staff' -> 'Bộ Tổng tham mưu Lục quân Đế quốc'; giữ nghĩa 'reported directly to' -> 'trực thuộc thẳng dưới quyền'."
+  - segment_id: YS-LN05/Text/part0016.html/p000177
+    choices:
+      - "Thuật ngữ: 'rescue mission' -> 'nhiệm vụ giải cứu', 'trump card' -> 'quân bài tẩy', 'General Staff' -> 'Bộ Tổng tham mưu', 'western front' -> 'mặt trận phía Tây', 'aerial mage battle' -> 'trận chiến pháp sư trên không'."
+  - segment_id: YS-LN05/Text/part0016.html/p000178
+    choices:
+      - "Thuật ngữ: 'Commonwealth agencies' -> 'các cơ quan khác nhau của Khối Thịnh vượng chung'; giữ đúng bước ngoặt nhận thức 'but now they knew the answers'."
