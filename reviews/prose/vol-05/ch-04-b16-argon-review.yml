@@ -1,0 +1,301 @@
+task_id: "vol-05-ch-04-b16-argon-review"
+parent_task_id: "vol-05-ch-04-b16"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-04-b16-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000591"
+    issue: "Ở câu cuối, cụm 'lạc lõng giữa chiến trường' thêm từ 'giữa chiến trường' để giải thích rõ ngữ cảnh cho tính từ chỉ sự không hợp cảnh trong nguyên văn."
+    evidence: "Nguyên văn chỉ dùng tính từ mô tả nụ cười lạc lõng/không hợp hoàn cảnh, không có danh từ 'chiến trường' ở câu này (dù bối cảnh đang là chiến trường). Theo hướng dẫn văn phong, nên tránh tự thêm từ giải thích khi từ gốc đã đủ nghĩa."
+    recommendation: "Đề xuất ở bước chuốt văn cân nhắc rút gọn thành: 'Một nụ cười thực sự quyến rũ, lạc lõng và đẹp tựa tranh vẽ.' hoặc 'Một nụ cười thực sự quyến rũ, không hợp cảnh mà lại đẹp tựa tranh vẽ.'"
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000609"
+    issue: "Phần in nghiêng '*Mình cũng đã trải qua lễ rửa tội bằng lửa trên mặt trận Rhine mà.*' thêm cụm 'bằng lửa' không có trong nguyên văn và lặp từ 'Tên' ở đoạn liền trước (p000608: 'Tên pháp sư địch tên Mikel')."
+    evidence: "Nguyên văn chỉ dùng động từ mang nghĩa 'được rửa tội' trên mặt trận Rhine (vừa gợi ẩn dụ thử lửa đầu đời trên chiến trường, vừa hô ứng trực tiếp với bối cảnh tôn giáo/lời cầu nguyện của Tanya ngay trước đó). Việc thêm 'bằng lửa' làm hẹp lớp nghĩa tôn giáo sang thành ngữ cố định."
+    recommendation: "Đề xuất ở bước chuốt văn cân nhắc chỉnh phần nhấn mạnh thành: '*Mình cũng từng được rửa tội trên mặt trận Rhine mà.*' (và ở p000608 có thể đổi chữ 'tên' thứ hai thành 'mang tên Mikel' để tránh lặp từ)."
+pending_term_recommendations:
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "địa danh / tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000586"
+  - source_term: "Commonwealth / Commonwealth mages / Commonwealth marine mages"
+    proposed_vi: "Khối Thịnh vượng chung / các pháp sư Khối Thịnh vượng chung / lực lượng pháp sư hải quân đánh bộ của Khối Thịnh vượng chung"
+    category: "địa danh / tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000586"
+      - "YS-LN05/Text/part0022.html/p000615"
+  - source_term: "erratic evasive maneuvers"
+    proposed_vi: "cơ động né tránh bất quy tắc"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 1."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000587"
+  - source_term: "God of Death"
+    proposed_vi: "Tử thần"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Cách dịch tự nhiên, chuẩn xác cho hình ảnh ẩn dụ đi kèm lưỡi hái."
+    alternatives_vi:
+      - "Thần Chết"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000588"
+  - source_term: "the Lord / God"
+    proposed_vi: "Chúa / Thượng đế"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục đã khóa trong sổ pending từ Tập 1 đến Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000589"
+      - "YS-LN05/Text/part0022.html/p000611"
+      - "YS-LN05/Text/part0022.html/p000625"
+  - source_term: "Colonel von Degurechaff / the colonel"
+    proposed_vi: "Trung tá von Degurechaff / vị trung tá / Trung tá"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5 khi gọi tắt cấp bậc Lieutenant Colonel của Tanya von Degurechaff."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000591"
+      - "YS-LN05/Text/part0022.html/p000597"
+      - "YS-LN05/Text/part0022.html/p000598"
+      - "YS-LN05/Text/part0022.html/p000633"
+  - source_term: "battalion commander"
+    proposed_vi: "tiểu đoàn trưởng"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 1."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000592"
+  - source_term: "manifestation formula / four-layer formula"
+    proposed_vi: "thuật thức hiển hiện / thuật thức bốn tầng"
+    category: "thuật ngữ ma pháp"
+    status: "pending"
+    rationale: "Nhất quán với hệ thống thuật ngữ 'thuật thức' (formula) trong toàn bộ bản dịch."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000595"
+  - source_term: "optical sniping formulas"
+    proposed_vi: "thuật thức bắn tỉa quang học"
+    category: "thuật ngữ ma pháp"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000608"
+      - "YS-LN05/Text/part0022.html/p000619"
+  - source_term: "Mikel"
+    proposed_vi: "Mikel"
+    category: "tên nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000608"
+  - source_term: "the Rhine / Norden / Dacia"
+    proposed_vi: "mặt trận Rhine / Norden / Dacia"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục đã khóa trong sổ pending từ Tập 1 đến Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000609"
+      - "YS-LN05/Text/part0022.html/p000616"
+  - source_term: "203rd"
+    proposed_vi: "Tiểu đoàn 203"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000615"
+  - source_term: "Grantz / Lieutenant Grantz"
+    proposed_vi: "Grantz / Trung úy Grantz"
+    category: "tên nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000628"
+      - "YS-LN05/Text/part0022.html/p000630"
+      - "YS-LN05/Text/part0022.html/p000633"
+  - source_term: "05"
+    proposed_vi: "05"
+    category: "mã gọi vô tuyến"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000631"
+  - source_term: "firing squad"
+    proposed_vi: "đội xử bắn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000633"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0022.html/p000586"
+    choices:
+      - "Thuật ngữ và tên gọi: 'né tránh khẩn cấp', 'cẩm nang tác chiến', 'Phía Liên bang', 'các pháp sư Khối Thịnh vượng chung'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000587"
+    choices:
+      - "Thuật ngữ: 'không phận', 'cơ động né tránh bất quy tắc'; giữ câu hỏi tu từ bất định 'có trời mới biết tiếp theo họ sẽ lách sang hướng nào'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000588"
+    choices:
+      - "Hình ảnh ẩn dụ: 'lưỡi hái của Tử thần', 'lưỡi kiếm đang lao tới'; giữ nhịp ba câu ngắn dồn dập"
+  - segment_id: "YS-LN05/Text/part0022.html/p000589"
+    choices:
+      - "Xưng hô trong lời cầu nguyện của Tanya: 'Con' – 'Chúa'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000590"
+    choices:
+      - "Giữ trạng từ độc lập thành câu riêng: 'Đầy mê đắm.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000591"
+    choices:
+      - "Quân hàm và đại từ chỉ Tanya từ góc nhìn Serebryakov: 'Trung tá von Degurechaff', 'ngài ấy'; giữ sắc thái 'không chút gợn vẻ trách cứ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000592"
+    choices:
+      - "Đại từ khái quát và chức danh: 'bạn', 'ngài ấy', 'vị tiểu đoàn trưởng ấy'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000593"
+    choices:
+      - "Giữ sự đối lập: 'ẩn sâu đằng sau nụ cười ấy lại là một ý chí chiến đấu tuyệt đối'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000594"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya: 'Chúng ta', 'kẻ thù không đội trời chung của Đế quốc'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000595"
+    choices:
+      - "Đại từ và thuật ngữ ma pháp: 'ngài ấy', 'thuật thức hiển hiện', 'ma lực', 'thuật thức bốn tầng', 'năng lượng ma pháp'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000596"
+    choices:
+      - "Giữ tình thái giả định: 'Hầu hết mọi người hẳn sẽ bị sốc.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000597"
+    choices:
+      - "Điểm nhìn nội tâm Serebryakov và quân hàm: 'mình', 'Trung tá von Degurechaff', 'Ngài ấy'; giữ phủ định 'không hề sở hữu một lượng ma lực khổng lồ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000598"
+    choices:
+      - "Đại từ và cấp bậc: 'mình', 'vị trung tá'; giữ hình ảnh so sánh 'đếm từ dưới lên để tìm vị trung tá sẽ nhanh hơn nhiều'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000599"
+    choices:
+      - "Giữ nhận định đánh giá: 'ngay cả việc đặt câu hỏi xem điều đó có ý nghĩa gì cũng đã là chuyện nực cười rồi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000600"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'Kẻ thù không đội trời chung của chúng ta' – 'chúng'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000601"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*thứ đó*' đúng phạm vi thẻ em trong nguồn; đại từ: 'ngài ấy'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000602"
+    choices:
+      - "Đại từ: 'ngài ấy' – 'nó'; giữ quan hệ đồng thời giữa gia tăng mật độ và khống chế kích thước"
+  - segment_id: "YS-LN05/Text/part0022.html/p000603"
+    choices:
+      - "Giữ nhịp câu ngắn: 'Ngay khoảnh khắc đó, nó văng tung tóe.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000604"
+    choices:
+      - "Giữ sắc thái điệp tính từ màu sắc: 'Một thứ gì đó đỏ tươi, đỏ thẫm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000605"
+    choices:
+      - "Giữ giọng điệu câu thoại của Tanya: 'Trò chơi là rút cạn sạch thứ đó—tận hưởng đi nhé!'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000606"
+    choices:
+      - "Điểm nhìn nội tâm Serebryakov: 'mình'; giữ sự tương phản rùng rợn giữa 'Những thứ màu hồng từng là con người' và 'một cô bé đang cười rạng rỡ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000607"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Không, có khi mình đã hóa điên thật rồi cũng nên.*' đúng phạm vi thẻ em trong nguồn; đại từ: 'mình'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000608"
+    choices:
+      - "Đại từ, thuật ngữ và tên riêng: 'mình', 'thuật thức bắn tỉa quang học', 'vị chỉ huy', 'Mikel'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000609"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc mệnh đề nội tâm được đánh dấu thẻ em trong nguồn, không bọc phần dẫn 'Mình sực nhớ lại'; địa danh: 'mặt trận Rhine'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000610"
+    choices:
+      - "Đại từ và thuật ngữ: 'mình', 'phản xạ có điều kiện'; giữ cấu trúc phủ định kép 'hiếm khi nào mình không biết phải làm gì'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000611"
+    choices:
+      - "Thuật ngữ tôn giáo trong thoại của Tanya: 'Ồ, xin ngợi khen Chúa.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000612"
+    choices:
+      - "Đại từ và hình ảnh cốt lõi: 'vị sĩ quan cấp trên của mình', 'ngài ấy', 'lời tuyên xưng đức tin', 'kẻ bề tôi ngoan cố của logic, tràn ngập lý trí thuần khiết'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000613"
+    choices:
+      - "Giữ điểm nhấn tương phản: 'đôi mắt ấy lại gắn trên gương mặt tựa búp bê kia'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000614"
+    choices:
+      - "Đại từ nội tâm Serebryakov: 'mình', 'vị sĩ quan cấp trên'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000615"
+    choices:
+      - "Đơn vị và đại từ: 'lực lượng pháp sư hải quân đánh bộ của Khối Thịnh vượng chung', 'chúng mình', 'Tiểu đoàn 203'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000616"
+    choices:
+      - "Đại từ và chuỗi địa danh: 'chúng mình', 'Norden', 'Dacia', 'mặt trận Rhine', 'lục địa phía nam'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000617"
+    choices:
+      - "Thuật ngữ tôn giáo trong thoại của Tanya: 'Miền đất hứa sẽ mở ra.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000618"
+    choices:
+      - "Thuật ngữ: 'Đám pháp sư địch đã rệu rã tinh thần', 'Các đợt tấn công bồi thêm của tiểu đoàn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000619"
+    choices:
+      - "Đại từ và thuật ngữ: 'Mình', 'thuật thức bắn tỉa quang học', 'tên chỉ huy'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000620"
+    choices:
+      - "Giữ tình thái phỏng đoán phủ định: 'có lẽ chúng cũng chẳng còn sức đâu mà kháng cự nữa'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000621"
+    choices:
+      - "Giữ sự đối lập: 'một màn đánh lạc hướng' – 'một cuộc thảm sát'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000622"
+    choices:
+      - "Giữ cấu trúc giả định: 'như thể sợ làm gián đoạn lời cầu nguyện vậy'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000623"
+    choices:
+      - "Giữ nhịp điệp trong lời hát của Tanya: 'Nào hãy hát lên, nào hãy hát lên.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000624"
+    choices:
+      - "Giữ ba mệnh đề bỏ lửng xoay quanh từ khóa 'chiến trường'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000625"
+    choices:
+      - "Xưng hô và thuật ngữ trong lời cầu nguyện của Tanya: 'Con' – 'ý chỉ của Thượng đế'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000626"
+    choices:
+      - "Đại từ: 'vị cấp trên của chúng mình'; giữ nét biểu cảm 'một nụ cười khẩy lớn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000627"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Điều đó có nghĩa là*' đúng phạm vi thẻ em trong nguồn; đại từ trần thuật ngôi thứ nhất: 'mình'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000628"
+    choices:
+      - "Xưng hô trong thoại vô tuyến của Serebryakov với Grantz và trần thuật nội tâm: 'Grantz này', 'chúng ta', 'tôi', 'ngài ấy' (chỉ Tanya), 'mình' (trần thuật)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000629"
+    choices:
+      - "Đại từ trần thuật ngôi thứ nhất: 'mình'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000630"
+    choices:
+      - "Tên riêng: 'Grantz'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000631"
+    choices:
+      - "Mã gọi vô tuyến và xưng hô của Grantz với Serebryakov: '05', 'người đồng đội', 'tôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000632"
+    choices:
+      - "Xưng hô của Serebryakov với phía Grantz: 'Các anh'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000633"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Nhìn đây này!*' đúng phạm vi thẻ em trong nguồn"
+      - "Quân hàm, thuật ngữ và xưng hô của Grantz: 'Trung úy Grantz', 'Trung tá', 'màn đánh lạc hướng', 'đội xử bắn', 'tôi' – 'chúng ta', trần thuật gọi Grantz là 'Anh ta'"
