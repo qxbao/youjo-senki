@@ -1,0 +1,21 @@
+task_id: vol-05-ch-05-b03-flash-polish
+parent_task_id: vol-05-ch-05-b03
+volume: vol-05
+chapter: 5
+parent_handoff: handoffs/vol-05/ch-05-b03.yml
+baseline_translation: translations/vol-05/ch-05-b03.jsonl
+locked_choices: handoffs/vol-05/ch-05-b03-locked-choices.yml
+candidate_output: polish-candidates/vol-05/ch-05-b03.gemini.jsonl
+change_log_output: polish-candidates/vol-05/ch-05-b03.gemini-change-log.yml
+coordinator: ys-coord-stream-3
+status: in_progress
+lease:
+  holder: stream3-polisher-vol-05-ch-05-b03
+  task_id: vol-05-ch-05-b03-flash-polish
+  role: prose_polish_gemini
+  pane_id: w6:p3D7
+  terminal_id: term_65f21ed48510c30a
+  state: active
+  allowlist:
+  - polish-candidates/vol-05/ch-05-b03.gemini.jsonl
+  - polish-candidates/vol-05/ch-05-b03.gemini-change-log.yml
