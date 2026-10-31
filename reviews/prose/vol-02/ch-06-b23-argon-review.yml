@@ -1,0 +1,228 @@
+task_id: "vol-02-ch-06-b23-argon-review"
+parent_task_id: "vol-02-ch-06-b23"
+volume: "vol-02"
+chapter: 6
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-02/ch-06-b23-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 1
+  moderate: 3
+  minor: 2
+findings:
+  - severity: "serious"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000719"
+    category: "meaning_and_context"
+    issue: "Cụm từ chỉ độ tuổi ở câu cuối (at such an age) bị dịch ngược nghĩa thành 'lại còn trẻ như vậy'. Theo mạch ngữ cảnh từ lô trước (p000682, p000707) đến p000730, người đề ra kế hoạch nghi binh và chiến tranh thông tin này là Tướng von Zettour thuộc Bộ Tổng tham mưu (một tướng lĩnh đã lớn tuổi), không phải một người trẻ tuổi."
+    recommendation: "Sửa 'lại còn trẻ như vậy' thành 'đã ở độ tuổi như vậy' (hoặc 'ở độ tuổi như thế')."
+  - severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000725"
+    category: "pronouns_and_register"
+    issue: "Trong lời thoại của Tanya nói với Thiếu tá Uger ở p000725, đại từ ngôi thứ hai đang dùng là 'anh' ('Ý anh là...'), đồng thời ở p000712 lại thêm tiểu từ kính ngữ 'ạ' ('Diễn kịch ạ?'). Cách xưng hô này lệch với quy ước đồng cấp 'tôi' - 'ông' (không dùng 'ạ') đã xác lập giữa hai thiếu tá cùng khóa trường đại học quân sự trong ch-06-b22 (p000675, p000684, p000697)."
+    recommendation: "Đổi 'Ý anh là' ở p000725 thành 'Ý ông là', đồng thời bỏ 'ạ' ở p000712 (đổi thành '“Diễn kịch sao?”' hoặc '“Một màn kịch sao?”')."
+  - severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000730"
+    category: "pronouns_and_context"
+    issue: "Đại từ ngôi thứ ba số ít chỉ người nghĩ ra kế hoạch (he) đang được dịch là 'anh ta'. Đối tượng được nhắc đến là Tướng von Zettour, nên việc Tanya gọi một vị tướng thượng cấp là 'anh ta' trong lời thoại với Thiếu tá Uger làm sai lệch tương quan cấp bậc, độ tuổi và thái độ tán thưởng của Tanya."
+    recommendation: "Đổi 'anh ta' thành 'ông ấy' hoặc 'ngài ấy' ('“Ý tưởng tuyệt vời thật. Tôi ngạc nhiên là ông ấy nghĩ ra được.”')."
+  - severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000745"
+    category: "pronouns_and_viewpoint"
+    issue: "Trong lời thoại đáp lại Thiếu tá Uger ngay sau khi ông cho biết Tiểu đoàn Pháp sư Trên không số 203 của cô sẽ làm đội hậu vệ (p000744), Tanya lại dùng đại từ gộp 'chúng ta' ('…Họ đánh giá chúng ta cao quá rồi.'). Vì Uger thuộc Cục Đường sắt chứ không thuộc Tiểu đoàn 203, lời thoại trực tiếp với Uger phải dùng đại từ ngôi thứ nhất số nhiều loại trừ ('chúng tôi')."
+    recommendation: "Đổi 'chúng ta' thành 'chúng tôi' ('“…Họ đánh giá chúng tôi cao quá rồi.”')."
+  - severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000741"
+    category: "pending_term_consistency"
+    issue: "Cụm từ chỉ cấp bậc/vai trò 'field major' đang được dịch là 'thiếu tá dã chiến', chưa khớp với phương án tạm 'thiếu tá tác chiến' trong work/run-state/pending-terms-index.yml của vol-02."
+    recommendation: "Đổi 'thiếu tá dã chiến' thành 'thiếu tá tác chiến'."
+  - severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000744"
+    category: "pending_term_consistency"
+    issue: "Tên đơn vị '203rd Aerial Mage Battalion' đang được dịch là 'Tiểu đoàn Pháp sư trên không 203', chưa đồng bộ với phương án tạm 'Tiểu đoàn Pháp sư Trên không số 203' trong work/run-state/pending-terms-index.yml của vol-02."
+    recommendation: "Đổi thành 'Tiểu đoàn Pháp sư Trên không số 203'."
+pending_term_recommendations:
+  - source_term: "information warfare"
+    proposed_vi: "chiến tranh thông tin"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Thuật ngữ chuẩn chỉ hoạt động tung tin tuyên truyền và thao túng nhận thức đối phương trong kế hoạch rút lui."
+    alternatives_vi:
+      - "tác chiến thông tin"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000719"
+  - source_term: "Ems Dispatch incident"
+    proposed_vi: "Vụ Điện tín Ems"
+    category: "sự kiện lịch sử"
+    status: "proposed"
+    rationale: "Cách dịch chuẩn trong sử học tiếng Việt cho sự kiện ngoại giao năm 1870 giữa Bismarck và Napoleon III."
+    alternatives_vi:
+      - "Sự kiện Điện tín Ems"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000726"
+  - source_term: "disinformation"
+    proposed_vi: "thông tin sai lệch"
+    category: "thuật ngữ"
+    status: "proposed"
+    rationale: "Diễn đạt sát nghĩa thông tin giả/bóp méo được tung ra có chủ đích nhằm gây chia rẽ nội bộ đối phương."
+    alternatives_vi:
+      - "tin giả có chủ đích"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000729"
+  - source_term: "night-watchman state"
+    proposed_vi: "nhà nước gác đêm"
+    category: "thuật ngữ chính trị - kinh tế"
+    status: "proposed"
+    rationale: "Thuật ngữ triết học chính trị tiêu chuẩn chỉ mô hình nhà nước tối thiểu chỉ đảm nhiệm chức năng bảo đảm an ninh, trật tự."
+    alternatives_vi:
+      - "nhà nước tuần đêm"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000737"
+  - source_term: "golden parachutes"
+    proposed_vi: "các gói đãi ngộ hậu hĩnh khi rời chức"
+    category: "thuật ngữ kinh tế"
+    status: "proposed"
+    rationale: "Diễn đạt rõ nghĩa ẩn dụ kinh tế trong mạch liên tưởng của Tanya về khoản trợ cấp lớn khi nghỉ việc của giới dân sự."
+    alternatives_vi:
+      - "chiếc dù vàng"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000746"
+locked_choices:
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000709"
+    choices:
+      - "Độc thoại phân tích chiến thuật: giữ đại từ 'chúng ta' và 'họ' (quân Cộng hòa), giữ tương phản về lợi thế tuyến tiếp tế khi tiến sâu so với khi rút lui"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000710"
+    choices:
+      - "Điều kiện: giữ 'kế hoạch chỉ thành công nếu họ hành động đúng như chúng ta trông đợi'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000711"
+    choices:
+      - "Thoại của Uger: giữ đại từ 'chúng ta' và ẩn dụ 'diễn một màn kịch'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000712"
+    choices:
+      - "Thoại của Tanya với Uger: giữ câu hỏi ngắn không dùng tiểu từ kính ngữ 'ạ' ('“Diễn kịch sao?”' hoặc '“Một màn kịch sao?”')"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000713"
+    choices:
+      - "Thoại của Uger với Tanya: gọi 'Thiếu tá', địa danh 'Arene', đại từ 'chúng ta'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000714"
+    choices:
+      - "Độc thoại nội tâm ngắn: giữ '…Khoan đã.'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000715"
+    choices:
+      - "Câu hỏi nội tâm: giữ đại từ 'chúng ta' và ý nghi vấn về lý do rút lui được tung ra"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000716"
+    choices:
+      - "Độc thoại nội tâm: giữ đại từ 'chúng ta' và 'chúng' (quân Cộng hòa), tình thái 'hẳn chúng cũng sẽ ít nhất cử trinh sát đi'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000717"
+    choices:
+      - "Thoại của Tanya: tự xưng 'tôi', giữ hai khả năng rò rỉ thông qua 'một nước thứ ba' hoặc 'một đơn vị tham chiến'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000718"
+    choices:
+      - "Thoại của Uger: đại từ 'Chúng ta', giữ câu trích dẫn tuyên truyền trong dấu nháy đơn về công dân 'Arene' và tuyến đường sắt của 'Quân đội Đế quốc'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000719"
+    choices:
+      - "Độc thoại nội tâm của Tanya: tự xưng 'Mình'"
+      - "Thuật ngữ: 'chiến tranh thông tin' (information warfare)"
+      - "Nghĩa và ngữ cảnh: sửa cụm chỉ độ tuổi của người nghĩ ra kế hoạch (Tướng von Zettour) thành 'đã ở độ tuổi như vậy' / 'ở độ tuổi như thế'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000720"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000721"
+    choices:
+      - "Tương phản logic: giữ sự đối lập giữa việc con người sáng suốt đến thế mà vẫn đi đánh nhau"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000722"
+    choices:
+      - "Thuật ngữ pending P05-behavioral-economics: 'kinh tế học hành vi'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000723"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'Mình'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000724"
+    choices:
+      - "Tên riêng và tổ chức: 'Arene', 'Quân đội Đế quốc'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Các người định phí hoài những thành quả này sao?*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000725"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Uger: dùng 'ông' ('Ý ông là...'), đại từ 'chúng ta' và 'họ'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000726"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình'"
+      - "Tên riêng lịch sử: 'Bismarck', 'Napoleon III', 'Vụ Điện tín Ems'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000727"
+    choices:
+      - "Độc thoại nội tâm: giữ nhận định 'Về cơ bản, đây là một hành động khiêu khích.'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000728"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình', giữ đối chiếu giữa 'khiêu khích' và 'dụ dỗ'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*hoan hô*' tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000729"
+    choices:
+      - "Thoại của Uger: giữ trích dẫn lời rỉ tai trong dấu nháy đơn và thuật ngữ 'thông tin sai lệch' (disinformation)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000730"
+    choices:
+      - "Thoại của Tanya: tự xưng 'Tôi', gọi Tướng von Zettour ở ngôi thứ ba là 'ông ấy' (hoặc 'ngài ấy')"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000731"
+    choices:
+      - "Độc thoại ngắn: giữ 'Chà.'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000732"
+    choices:
+      - "Thuật ngữ: 'Chính quyền Cộng hòa', 'cuộc chiến tổng lực' / 'chiến tranh tổng lực'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000733"
+    choices:
+      - "Phủ định và lập luận: giữ nguyên ý một quốc gia không thể mong người dân chấp nhận lập luận hy sinh số ít vì lợi ích đa số"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000734"
+    choices:
+      - "Tên riêng lịch sử: 'Liên Xô', 'Pol Pot', giữ dấu ngoặc kép cho cụm '“một sự hy sinh nhỏ”'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000735"
+    choices:
+      - "Độc thoại nội tâm: giữ sắc thái mỉa mai về cái cớ bảo vệ công dân để gây chiến"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000736"
+    choices:
+      - "Tên riêng: 'Đế quốc'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000737"
+    choices:
+      - "Thuật ngữ: 'nhà nước gác đêm' (night-watchman state)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000738"
+    choices:
+      - "Độc thoại nội tâm: giữ mệnh đề nhượng bộ cuối câu"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000739"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000740"
+    choices:
+      - "Thoại của Tanya: tự xưng 'tôi'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000741"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình'"
+      - "Thuật ngữ pending: 'thiếu tá tác chiến' (field major), 'đại chiến lược' (grand strategy)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000742"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'Mình', giữ dấu gạch ngang dài trước câu hỏi"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000743"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình', giữ nguyên tắc chỉ phổ biến cho những người cần biết (need-to-know basis)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000744"
+    choices:
+      - "Xưng hô trong thoại của Uger với Tanya: gọi 'cô'"
+      - "Thuật ngữ pending: 'Tiểu đoàn Pháp sư Trên không số 203' (203rd Aerial Mage Battalion), 'đội hậu vệ' / 'lực lượng đoạn hậu' (rear guard)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000745"
+    choices:
+      - "Thoại của Tanya với Uger: dùng đại từ ngôi thứ nhất số nhiều loại trừ 'chúng tôi' để chỉ Tiểu đoàn 203"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000746"
+    choices:
+      - "Thuật ngữ: 'trợ cấp thôi việc hoặc lương hưu', 'các gói đãi ngộ hậu hĩnh khi rời chức' (golden parachutes)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000747"
+    choices:
+      - "Đại từ giả định khái quát: 'ta', giữ sắc thái lạnh lùng về việc xử lý hợp pháp trên chiến trường"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000748"
+    choices:
+      - "Độc thoại nội tâm: 'chúng ta' (Tanya và đơn vị) và 'mình', địa danh 'Arene'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000749"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình', giữ tương phản giữa ưu tiên an toàn bản thân lúc nguy cấp và việc luôn mang lại kết quả cho tổ chức"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000750"
+    choices:
+      - "Độc thoại nội tâm: tự xưng 'mình', địa danh 'Arene'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000751"
+    choices:
+      - "Độc thoại nội tâm: 'mình' và 'chúng ta', thuật ngữ 'đội hậu vệ' / 'lực lượng đoạn hậu' đồng bộ với p000744"
