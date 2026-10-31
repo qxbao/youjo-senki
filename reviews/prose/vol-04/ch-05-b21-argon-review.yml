@@ -1,0 +1,237 @@
+task_id: "vol-04-ch-05-b21-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000328"
+    severity: "minor"
+    category: "terminology"
+    issue: "Thuật ngữ chỉ tín hiệu nhận diện của pháp sư trong nguồn được dịch bổ sung thành 'tín hiệu ma thuật', dùng từ 'ma thuật' chưa đồng nhất với hệ thuật ngữ 'ma pháp' đang áp dụng xuyên suốt vol-04."
+    recommendation: "Đổi 'tín hiệu ma thuật' thành 'tín hiệu ma pháp' (hoặc giữ ngắn gọn là 'tín hiệu' sát với nguyên văn)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000341"
+    severity: "minor"
+    category: "terminology_consistency"
+    issue: "Thuật ngữ lóng quân sự 'the package' (chỉ mục tiêu cần giải cứu trong nhiệm vụ CSAR) đã được ghi nhận trong pending-terms-index.yml của vol-04 với phương án đề xuất 'gói hàng', nhưng tại đây đang dịch là 'kiện hàng'."
+    recommendation: "Cân nhắc đồng bộ 'kiện hàng' thành 'gói hàng' ở cả hai câu trong đoạn để thống nhất với sổ thuật ngữ pending của chương, hoặc giữ nhất quán một lựa chọn trong toàn chương."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000368"
+    severity: "minor"
+    category: "tone_and_register"
+    issue: "Lời cầu nguyện xen lẫn tiếng kêu tuyệt vọng và căm uất hướng tới Thượng đế lại thêm tiểu từ lễ phép 'ạ' ở cuối câu ('tại sao vậy ạ…?'), tạo sắc thái giao tiếp đời thường trẻ con, làm giảm tính trang trọng và bi phẫn của lời khấn."
+    recommendation: "Bỏ tiểu từ 'ạ', đổi thành '*Kính lạy Thượng đế, tại sao vậy…?*' hoặc '*Lạy Thượng đế, tại sao chứ…?*' để đồng nhất giọng điệu với p000370–p000371."
+pending_term_recommendations:
+  - source_term: "optical sniping formula"
+    proposed_vi: "thuật thức bắn tỉa quang học"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000325"
+    rationale: "Thống nhất với mục đã ghi nhận trong pending-terms-index.yml của vol-04."
+    alternatives_vi: []
+  - source_term: "explosion formula"
+    proposed_vi: "thuật thức phát nổ"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000328"
+      - "YS-LN04/Text/chapter001_t.xhtml/p000344"
+    rationale: "Thống nhất với mục đã ghi nhận trong pending-terms-index.yml (vol-02/vol-04)."
+    alternatives_vi:
+      - "thuật thức nổ"
+  - source_term: "delaying combat"
+    proposed_vi: "đánh trì hoãn"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000340"
+    rationale: "Nhất quán với thuật ngữ quân sự 'delaying action / delaying defense' ('đánh trì hoãn / phòng ngự trì hoãn') trong pending-terms-index.yml."
+    alternatives_vi:
+      - "tác chiến trì hoãn"
+  - source_term: "the package"
+    proposed_vi: "gói hàng"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000341"
+    rationale: "Đồng bộ với mục 'the package' ('gói hàng') trong pending-terms-index.yml cho đối tượng được giải cứu trong nhiệm vụ CSAR."
+    alternatives_vi:
+      - "kiện hàng"
+  - source_term: "anti-surface strike equipment / anti-surface attacks"
+    proposed_vi: "thiết bị tập kích mặt đất / tấn công mặt đất"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000350"
+      - "YS-LN04/Text/chapter001_t.xhtml/p000353"
+    rationale: "Thống nhất với hệ thuật ngữ 'tập kích mặt đất' và 'tấn công mặt đất' trong pending-terms-index.yml của vol-04."
+    alternatives_vi: []
+  - source_term: "Galba Control"
+    proposed_vi: "Đài Kiểm soát Galba"
+    category: "tên gọi"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000351"
+    rationale: "Thống nhất với tên gọi đã khóa trong pending-terms-index.yml của vol-04."
+    alternatives_vi: []
+  - source_term: "combat rescue missions"
+    proposed_vi: "các nhiệm vụ giải cứu chiến đấu"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000352"
+    rationale: "Nhất quán với thuật ngữ 'nhiệm vụ tìm kiếm và giải cứu chiến đấu' (combat search and rescue mission) đã dùng trong cùng chương."
+    alternatives_vi: []
+  - source_term: "Mary Sue"
+    proposed_vi: "Mary Sue"
+    category: "tên nhân vật"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000356"
+      - "YS-LN04/Text/chapter001_t.xhtml/p000363"
+    rationale: "Giữ nguyên tên riêng nhân vật, thống nhất với mục 'Second Lieutenant Mary Sue' trong pending-terms-index.yml."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000324"
+    choices:
+      - "Thoại của sĩ quan địch lao ra cứu viện dùng đại từ 'Tôi' - 'ngươi' - 'họ', giữ sắc thái quyết liệt."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000325"
+    choices:
+      - "Nội tâm trực tiếp của Tanya tự xưng 'mình', trần thuật cuối đoạn giữ tên 'Tanya' theo DEC-P01-001."
+      - "Giữ nguyên độ mở của câu hỏi nội tâm về ý đồ đánh lạc hướng hỗ trợ đào thoát của địch."
+      - "Thuật ngữ: 'triển khai thuật thức' (formula deployment), 'thuật thức bắn tỉa quang học' (optical sniping formula), 'trận hỗn chiến tầm gần' (dogfight)."
+      - "Nhấn mạnh Markdown '*Nhưng…*' đúng phạm vi thẻ em của nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000326"
+    choices:
+      - "Giữ đối lập điều kiện chiến đấu giữa 'Tanya' và 'người kia' (vị sĩ quan địch); dịch 'two burdens' là 'hai cục nợ này' đúng giọng đánh giá thực dụng."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000327"
+    choices:
+      - "Quy chiếu đối thủ mới xuất hiện là 'Vị sĩ quan này'; giữ cấu trúc nhấn mạnh sau dấu gạch ngang ('—thậm chí đến mức thái quá')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000328"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó' theo DEC-P01-001; phân biệt rõ với 'người lính địch' / 'Vị sĩ quan đó'."
+      - "Thuật ngữ: 'thuật thức phát nổ' (explosion formula)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000329"
+    choices:
+      - "Trần thuật gọi Tanya là 'Tanya' / 'nó', phản thân dùng 'mình'; quy chiếu mục tiêu trước đó (Mary Sue) là 'cô pháp sư'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000330"
+    choices:
+      - "Phân biệt rõ đại từ trong trần thuật: 'cô ta' chỉ nữ pháp sư địch (Mary Sue), 'nó' / 'Tanya' chỉ Tanya; giữ phủ định 'không giống như nó đã giết được cô ta'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000331"
+    choices:
+      - "Thoại tự nhủ của Tanya tự xưng 'Mình' theo DEC-P01-001 và gọi mục tiêu chạy thoát là 'cô ta'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000332"
+    choices:
+      - "Dịch đại từ khái quát 'you' là 'người ta' và 'they' là 'họ' cho nhận định chung về pháp sư sống sót qua chiến trường."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000333"
+    choices:
+      - "Trần thuật gọi Tanya là 'Tanya' / 'nó' theo DEC-P01-001; nhấn mạnh Markdown '*Đúng là uổng thật.*' đúng phạm vi thẻ em theo DEC-P01-002."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000334"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó' / 'Tanya', độc thoại nội tâm tự xưng 'mình' và gọi đối thủ là 'cô ta' theo DEC-P01-001."
+      - "Nhấn mạnh Markdown hai cụm '*Vậy là mình không hạ được cô ta*' và '*Chắc là mình hụt mất một điểm rồi.*' đúng phạm vi thẻ em theo DEC-P01-002."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000335"
+    choices:
+      - "Mệnh lệnh rút quân của Tanya dùng đại từ bao gộp 'Chúng ta'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000336"
+    choices:
+      - "Trần thuật gọi Tanya là 'Tanya' / 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000337"
+    choices:
+      - "Dịch câu nhận định khái quát với thuật ngữ 'cắt lỗ' (cut your losses) phù hợp tư duy kinh tế của Tanya."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000338"
+    choices:
+      - "Trần thuật gọi Tanya là 'Tanya' / 'nó', phản thân 'mình'; dịch đại từ khái quát 'you' là 'con người ta'."
+      - "Thuật ngữ: 'không chiến' (aerial battle), 'trận đánh trên bộ' (land battle)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000339"
+    choices:
+      - "Thoại mệnh lệnh của Tanya gọi cấp dưới là 'các người'; thống nhất cách dịch 'drop out' là 'tụt lại phía sau'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000340"
+    choices:
+      - "Giữ cấu trúc phủ định kép ('không thể rút ra dễ dàng… nhưng cũng chẳng thể nán lại lâu hơn') và thuật ngữ 'đánh trì hoãn' (delaying combat)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000341"
+    choices:
+      - "Giữ mã gọi '01' và cách xưng hô 'chỉ huy' trong báo cáo vô tuyến của cấp dưới."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000342"
+    choices:
+      - "Mệnh lệnh của Tanya dùng đại từ bao gộp 'Chúng ta'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000343"
+    choices:
+      - "Trần thuật giữ tên 'Tanya' và quan hệ nhân quả dẫn tới quyết định rút lui."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000344"
+    choices:
+      - "Giữ thuật ngữ 'các đại đội' (companies) và 'thuật thức phát nổ ở mức công suất tối đa' (explosion formula at max output)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000345"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó' ('quân của nó'); giữ quan hệ so sánh mục đích ('làm chậm bước truy kích của địch nhiều hơn là để bắn trúng chúng')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000346"
+    choices:
+      - "Giữ phủ định và cách dịch 'dropouts' ('bất cứ ai tụt lại phía sau') nhất quán với p000339 và p000347."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000347"
+    choices:
+      - "Thoại trên kênh vô tuyến chung của chỉ huy tự xưng 'tôi' ('tiểu đoàn của tôi')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000348"
+    choices:
+      - "Thoại trêu đùa của cấp dưới xưng 'bọn tôi' - 'chỉ huy', giữ hình ảnh ẩn dụ 'nhặt thú cưng' (pick up any pets)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000349"
+    choices:
+      - "Giữ lối đáp trả tung hứng tự nhiên ('nhặt ở đâu thì phải trả về đúng chỗ đó!')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000350"
+    choices:
+      - "Giữ phủ định 'không có bất kỳ tổn thất nào' (no losses) và thuật ngữ 'trang bị hạng nặng' (heavy gear), 'thiết bị tập kích mặt đất' (anti-surface strike equipment)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000351"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ sắc thái phỏng đoán 'Có lẽ' (probably) và tên gọi 'Đài Kiểm soát Galba' (Galba Control)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000352"
+    choices:
+      - "Nhấn mạnh Markdown '*Chà*' và toàn bộ mệnh đề nội tâm sau theo đúng phạm vi thẻ em của nguồn (DEC-P01-002)."
+      - "Nội tâm tự xưng 'mình' và dùng 'chúng ta' cho cả đơn vị; giữ thuật ngữ 'các nhiệm vụ giải cứu chiến đấu' (combat rescue missions)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000353"
+    choices:
+      - "Thuật ngữ: 'đơn vị pháp sư' (mage unit), 'tấn công mặt đất' (anti-surface attacks), 'quân mình nào bị bắn rơi' (downed friendlies); giữ đại từ 'chúng ta' và mức độ dè dặt 'gần như có thể nói rằng' (can almost say)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000354"
+    choices:
+      - "Thoại nhắc nhở của Tanya gọi cấp dưới là 'Các binh sĩ' (Troops)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000355"
+    choices:
+      - "Giữ nguyên bốn lớp dấu ngoặc kép biểu thị tiếng đồng thanh đáp lời và cách xưng hô 'thưa chỉ huy'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000356"
+    choices:
+      - "Chuyển điểm nhìn sang 'Mary Sue'; giữ nguyên tên riêng và mốc đánh dấu lần đầu nếm trải lòng căm thù thực sự."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000358"
+    choices:
+      - "Mary Sue gọi cha là 'cha' nhất quán từ p000358 đến p000367."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000361"
+    choices:
+      - "Trần thuật dưới điểm nhìn Mary Sue dùng đại từ 'cô' để chỉ Mary Sue (không dùng 'nó', vốn chỉ dành cho Tanya theo DEC-P01-001)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000362"
+    choices:
+      - "Mary Sue gọi Tanya bằng đại từ căm phẫn 'Ả'/'ả' và gọi người cha đã khuất là 'cha'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000363"
+    choices:
+      - "Phân biệt rõ bốn chủ thể/vật thể trong đoạn: 'Mary Sue' / 'cô' (Mary Sue), 'ả' (Tanya), 'cha mình' / 'ông' (người cha), và 'nó' (khẩu súng)."
+      - "Giữ giả định quá khứ 'cứ ngỡ nó hẳn đã thất lạc' (thought it must have been lost)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000364"
+    choices:
+      - "Nhấn mạnh Markdown '*…Đôi bàn tay của cha ấm áp biết bao.*' đúng phạm vi thẻ em của nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000365"
+    choices:
+      - "Giữ tình thái giả định trái thực tế trong quá khứ 'Lẽ ra nó phải được nắm giữ' (It should have been held)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000366"
+    choices:
+      - "Giữ cách gọi đầy căm hận của Mary Sue dành cho Tanya: 'một tên lính Đế quốc… con ác quỷ đó' (an imperial soldier…that devil)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000367"
+    choices:
+      - "Thoại gào thét trực diện trong cơn phẫn tột cùng của Mary Sue xưng 'Tao' - 'mày' (nhất quán với p000317 ở batch trước) và gọi cha là 'cha tao'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000368"
+    choices:
+      - "Nhấn mạnh Markdown toàn bộ câu cầu nguyện nội tâm đúng phạm vi thẻ em của nguồn theo DEC-P01-002; gọi 'God' là 'Thượng đế'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000369"
+    choices:
+      - "Thoại tự thề của Mary Sue tự xưng 'Mình' và gọi Tanya là 'ả'; giữ cấu trúc phủ định nhấn mạnh kép ('không bao giờ… Không bao giờ, quyết không tha cho ả!')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000370"
+    choices:
+      - "Nhấn mạnh Markdown toàn bộ câu cầu nguyện nội tâm đúng phạm vi thẻ em của nguồn theo DEC-P01-002; Mary Sue xưng 'con' với 'Thượng đế'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000371"
+    choices:
+      - "Nhấn mạnh Markdown toàn bộ câu cầu nguyện nội tâm đúng phạm vi thẻ em của nguồn theo DEC-P01-002; giữ cách xưng 'con' và cụm 'giết chết con ác quỷ đó'."
