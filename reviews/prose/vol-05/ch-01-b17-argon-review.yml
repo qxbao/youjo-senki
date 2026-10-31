@@ -1,0 +1,352 @@
+task_id: "vol-05-ch-01-b17-argon-review"
+parent_task_id: "vol-05-ch-01-b17"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b17-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b17.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b17-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000582"
+    severity: "minor"
+    category: "pronouns_voice"
+    issue: "Câu trần thuật ngôi thứ ba dùng đại từ phản thân 'mình' trong cụm 'dù cảm thấy mình có thể trông cậy vào những cựu binh' dễ giao thoa với đại từ nội tâm tự quy chiếu theo DEC-P01-001."
+    rationale: "Đoạn p000582 là lời trần thuật ngôi thứ ba ('kinh nghiệm của cô... Tanya vẫn nhận thấy...'). Dù 'mình' ở đây đóng vai trò đại từ phản thân tiếng Việt, việc lược bỏ hoặc thay bằng 'bản thân' / 'cô' sẽ giúp giữ ranh giới thật rạch ròi giữa trần thuật và độc thoại nội tâm."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'nhưng dù cảm thấy có thể trông cậy vào những cựu binh...' hoặc 'nhưng dù cảm thấy bản thân có thể trông cậy vào những cựu binh...'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000583"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Dịch 'serious injury' thành 'thương vong nghiêm trọng' làm mở rộng nghĩa sang cả tử vong."
+    rationale: "Trong tiếng Việt, 'thương vong' bao gồm cả bị thương lẫn thiệt mạng (casualties), trong khi thuật ngữ nguồn ở đây chỉ nêu nguy cơ bị thương nặng / chấn thương nghiêm trọng do mệt mỏi tích tụ."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'chấn thương nghiêm trọng' hoặc 'bị thương nặng'."
+pending_term_recommendations:
+  - source_term: "Federation / Federation Army"
+    proposed_vi: "Liên bang / Quân đội Liên bang"
+    category: "tên quốc gia / tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với các mục 'Federation -> Liên bang' và 'Federation Army -> Quân đội Liên bang' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000577"
+      - "YS-LN05/Text/part0010.html/p000596"
+      - "YS-LN05/Text/part0010.html/p000597"
+      - "YS-LN05/Text/part0010.html/p000604"
+  - source_term: "Rhine front"
+    proposed_vi: "mặt trận Rhine"
+    category: "địa danh / chiến trường"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Rhine lines / Rhine front -> phòng tuyến Rhine / mặt trận Rhine' trong sổ pending Tập 2–5."
+    alternatives_vi:
+      - "chiến tuyến Rhine"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000578"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Major Weiss -> Thiếu tá Weiss' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000579"
+  - source_term: "home country"
+    proposed_vi: "quê nhà"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với mục 'home country -> quê nhà' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "trong nước"
+      - "chính quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000585"
+  - source_term: "General Staff / General Staff Office"
+    proposed_vi: "Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'General Staff / General Staff Office -> Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000587"
+      - "YS-LN05/Text/part0010.html/p000588"
+  - source_term: "Operations"
+    proposed_vi: "Cục Tác chiến"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Operations Division / Operations -> Cục Tác chiến' trong sổ pending Tập 1 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000588"
+  - source_term: "rear area"
+    proposed_vi: "vùng hậu phương"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'noncombat zone / rear area -> khu vực phi chiến sự / vùng hậu phương' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "khu vực hậu phương"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000588"
+  - source_term: "Salamander Kampfgruppe / Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander / Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Salamander Kampfgruppe / Kampfgruppe -> Kampfgruppe Salamander / Kampfgruppe' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000589"
+      - "YS-LN05/Text/part0010.html/p000602"
+  - source_term: "general mobilization"
+    proposed_vi: "tổng động viên"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác chỉ việc huy động toàn bộ nguồn lực quốc gia cho chiến tranh."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000597"
+  - source_term: "human resources"
+    proposed_vi: "nguồn nhân lực"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với mục 'human resources -> nguồn nhân lực' trong sổ pending Tập 1 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000597"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Imperial Army -> Lục quân Đế quốc' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000598"
+  - source_term: "salient"
+    proposed_vi: "mũi lồi"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'THE SALIENT ON THE EASTERN FRONT / salient -> MŨI LỒI TRÊN MẶT TRẬN PHÍA ĐÔNG / mũi lồi' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000602"
+  - source_term: "Eastern Front"
+    proposed_vi: "Mặt trận phía Đông"
+    category: "địa danh / chiến trường"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Eastern Front -> Mặt trận phía Đông' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000602"
+  - source_term: "Feldgendarmerie"
+    proposed_vi: "lực lượng Feldgendarmerie"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Feldgendarmerie -> lực lượng Feldgendarmerie' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "quân cảnh dã chiến Feldgendarmerie"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000610"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000577"
+    choices:
+      - "POV/pronouns: độc thoại nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001"
+      - "Federation-style, coolheaded realism -> chủ nghĩa hiện thực lạnh lùng đậm chất Liên bang"
+      - "low-value soldiers / high-value enemies -> binh lính giá trị thấp / các mục tiêu địch giá trị cao"
+      - "double_negation: 'Sẽ là nói dối nếu bảo rằng mình không cảm nhận được...'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000578"
+    choices:
+      - "Rhine front -> mặt trận Rhine"
+      - "pronouns: 'Chúng ta' (Tanya nói với các sĩ quan trong đơn vị)"
+      - "unit’s fatigue -> tình trạng mệt mỏi của đơn vị"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000579"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "pronouns: 'chúng ta'"
+      - "rotate out -> luân phiên rút quân"
+      - "unit exhaustion -> tình trạng kiệt sức của đơn vị"
+      - "question_target: câu hỏi về tần suất luân phiên rút quân để kiểm soát sự kiệt sức"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000580"
+    choices:
+      - "pronouns: 'tôi' (Thiếu tá Weiss đáp lời Tanya) - 'chúng ta'"
+      - "frontline stints -> mỗi đợt làm nhiệm vụ ở tiền tuyến"
+      - "minimum baseline of combat strength -> mức sức chiến đấu nền tảng tối thiểu"
+      - "condition: giới hạn đợt làm nhiệm vụ ở tiền tuyến trong vòng ba tháng"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000581"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'; lời thoại dùng 'Chúng ta'"
+      - "caveat -> điều kiện"
+      - "replacements -> quân bổ sung"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000582"
+    choices:
+      - "POV/pronouns: trần thuật ngôi thứ ba dùng 'cô', 'Tanya' và 'họ' (các cựu binh)"
+      - "veterans -> những cựu binh"
+      - "contrast_and_modality: có thể trông cậy vào từng cựu binh nhưng xét trên tổng thể đơn vị thì họ có thể suy sụp bất ngờ"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000583"
+    choices:
+      - "Managing personnel -> Quản trị nhân sự"
+      - "HR strategy in a corporation -> chiến lược nhân sự trong một tập đoàn"
+      - "buildup of fatigue -> sự mệt mỏi tích tụ"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000584"
+    choices:
+      - "pronouns: 'chúng ta'"
+      - "replacement troops -> quân bổ sung thay thế"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000585"
+    choices:
+      - "Gentlemen -> Thưa các vị"
+      - "pronouns: 'chúng ta'"
+      - "reinforcements or replacements -> lực lượng tiếp viện hay quân bổ sung"
+      - "home country -> quê nhà"
+      - "negation_and_condition: Một khi quê nhà đã ban mệnh lệnh xuống, chúng ta không có quyền nêu ý kiến"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000586"
+    choices:
+      - "condition_and_negation: Nếu ngay cả quân số hiện tại còn chẳng đủ, thì chuyện nhận được người thay thế quả là giấc mộng giữa tầng mộng"
+      - "dream within a dream -> giấc mộng giữa tầng mộng"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000587"
+    choices:
+      - "POV/pronouns: nội tâm dùng 'chúng ta' cho phía Đế quốc và 'mình' cho Tanya theo DEC-P01-001"
+      - "General Staff -> Bộ Tổng tham mưu"
+      - "quick resolution -> giải quyết dứt điểm cuộc chiến một cách chóng vánh"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000588"
+    choices:
+      - "General Staff Office -> Văn phòng Bộ Tổng tham mưu"
+      - "Operations -> Cục Tác chiến"
+      - "major offensive -> cuộc tiến công quy mô lớn"
+      - "rear area -> vùng hậu phương"
+      - "stalemate -> thế bế tắc"
+      - "condition_and_negation: nếu không thể đảm bảo an toàn cho vùng hậu phương, sẽ rất khó tránh khỏi việc tình hình này rơi vào thế bế tắc"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000589"
+    choices:
+      - "Kampfgruppe -> Kampfgruppe"
+      - "Salamander Kampfgruppe -> Kampfgruppe Salamander"
+      - "hold a point -> trấn giữ một điểm chốt"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000590"
+    choices:
+      - "pronouns: 'chúng ta'"
+      - "dilemma -> thế tiến thoái lưỡng nan"
+      - "negation: Chừng nào chưa tháo gỡ được thế tiến thoái lưỡng nan này, chúng ta sẽ còn mắc kẹt"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000591"
+    choices:
+      - "POV/pronouns: giữ chuyển dịch điểm nhìn từ 'chúng ta' sang trần thuật ngôi thứ ba 'Tanya... cô'"
+      - "proof of concept -> cuộc thử nghiệm khái niệm"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000592"
+    choices:
+      - "pronouns: lời thoại dùng 'chúng ta' và 'tôi'"
+      - "double_negation: không phải là bất khả thi"
+      - "fool’s errand -> chuyện công dã tràng"
+      - "patch of wasteland -> mảnh đất hoang này"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000593"
+    choices:
+      - "pronouns: 'chúng ta'"
+      - "mobility, quick response time, and the ability to hold forces in reserve -> tính cơ động, thời gian phản ứng nhanh nhạy và khả năng duy trì lực lượng dự bị"
+      - "hypothetical_and_negation: giả định chia nhỏ đơn vị và kết luận phủ định 'Chẳng đáng đánh đổi chút nào cả'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000594"
+    choices:
+      - "transition: 'Tuy nói là vậy…'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000595"
+    choices:
+      - "the Empire -> Đế quốc"
+      - "bleeding to death -> chảy máu đến chết"
+      - "negation: không thể tránh khỏi kết cục chảy máu đến chết"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000596"
+    choices:
+      - "pronouns: 'chúng ta' (Đế quốc) - 'chúng' (Quân đội Liên bang)"
+      - "Federation Army -> Quân đội Liên bang"
+      - "counterattacks -> các đợt phản kích"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000597"
+    choices:
+      - "Federation forces -> các lực lượng Liên bang"
+      - "the Empire -> Đế quốc"
+      - "general mobilization -> tổng động viên"
+      - "human resources -> nguồn nhân lực"
+      - "pronouns: 'Chúng ta'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000598"
+    choices:
+      - "manpower pool -> quỹ nhân lực"
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "pronouns: 'chúng ta'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000599"
+    choices:
+      - "pronouns: 'Chúng ta'"
+      - "emphasis: bọc '*Chúng ta cần một kế hoạch để khắc phục chuyện này.*' cho toàn bộ đoạn in nghiêng theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0010.html/p000600"
+    choices:
+      - "POV/pronouns: lời lẩm bẩm thành tiếng dùng 'tôi'; trần thuật dùng 'Tanya / cô'; độc thoại nội tâm in nghiêng dùng 'Mình / mình / chúng ta' theo DEC-P01-001"
+      - "question_target: câu hỏi tu từ 'nhưng tôi biết tìm thứ như thế ở đâu ra chứ?'"
+      - "emphasis: chỉ bọc '*Mình phải tìm ra câu trả lời, bất kể phải trả giá thế nào đi nữa. Nếu mình không tìm ra thì chúng ta tiêu đời mất.*' đúng phạm vi in nghiêng của nguồn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0010.html/p000601"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Tanya' và 'Cô'"
+      - "her intellect and the wisdom of all humanity -> cả trí tuệ của bản thân lẫn sự thông thái của toàn nhân loại"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000602"
+    choices:
+      - "header_format: 'NGÀY 12 THÁNG 9, NĂM THỐNG NHẤT 1926, MỘT MŨI LỒI TRÊN MẶT TRẬN PHÍA ĐÔNG, KAMPFGRUPPE SALAMANDER'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000603"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'"
+      - "negation: vẫn chưa tìm ra lối thoát"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000604"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'cô'"
+      - "Federation forces -> các lực lượng Liên bang"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000605"
+    choices:
+      - "POV/pronouns: nội tâm tự quy chiếu dùng 'mình' theo DEC-P01-001"
+      - "modality_and_question: 'Điều đó giải thích cho thái độ hiện tại của mình, chắc vậy nhỉ?'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000606"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'"
+      - "status quo -> hiện trạng trước mắt"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000607"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Cô / cô'"
+      - "negation: vẫn chẳng biết phải làm sao"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000608"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'cô'"
+      - "prisoners -> tù binh"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000609"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya' và dùng 'họ' cho phía đơn vị của cô"
+      - "enemy soldiers -> lính địch"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000610"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'cô' cho Tanya và 'họ' cho lực lượng Feldgendarmerie"
+      - "intelligence -> tin tức tình báo"
+      - "Feldgendarmerie -> lực lượng Feldgendarmerie"
+      - "emphasis: không dùng Markdown *...*"
