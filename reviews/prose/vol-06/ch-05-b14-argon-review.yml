@@ -1,0 +1,528 @@
+task_id: "vol-06-ch-05-b14-argon-review"
+parent_task_id: "vol-06-ch-05-b14"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 5
+source_package: "work/vol-06/batches/ch-05-b14-source.jsonl"
+target_translation: "translations/vol-06/ch-05-b14.jsonl"
+review_path: "reviews/prose/vol-06/ch-05-b14-argon-review.yml"
+output_review: "reviews/prose/vol-06/ch-05-b14-argon-review.yml"
+status: "completed"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN06/Text/part0025.html/p000015"
+    severity: "minor"
+    category: "pronouns_pov"
+    issue: "Trong chuỗi lời thoại liên tiếp của Mary nhằm thuyết phục quân du kích cùng hợp sức chống Đế quốc (p000010, p000012, p000015), đại từ ngôi thứ nhất số nhiều ở p000015 chuyển sang 'Chúng tôi' (tách biệt với người nghe), chưa đồng nhất với 'chúng ta' ở p000010 và p000012 khi Mary vẫn đang kêu gọi sự đồng lòng của quân du kích trước khi bị họ gạt ra như người ngoài ở p000020–p000023."
+    evidence: "Ở p000010 ('Tất cả chúng ta đều cùng chung một con thuyền mà') và p000012 ('Nhưng chúng ta có năng lực đó'), Mary đều dùng đại từ gộp 'chúng ta' để nhấn mạnh mục tiêu chung giữa đơn vị mình và lực lượng du kích địa phương."
+    recommendation: "Đổi 'Chúng tôi' thành 'Chúng ta' (ví dụ: '“Chúng ta sẽ làm những gì mình có thể, từng chút từng chút một, để đuổi cổ Đế quốc đi! Như thế thì có gì sai chứ?!”') để giữ mạch xưng hô gộp nhất quán trong lời kêu gọi của Mary."
+  - segment_id: "YS-LN06/Text/part0025.html/p000029"
+    severity: "minor"
+    category: "pronouns_tone"
+    issue: "Trong câu trần thuật bám điểm nhìn của Mary, danh từ chỉ lực lượng du kích đang được dịch là 'Đám du kích', mang sắc thái hạ thấp/miệt thị (thường chỉ dùng trong điểm nhìn của phía Đế quốc), chưa khớp với thái độ trân trọng của Mary dành cho những người kháng chiến nơi quê nhà."
+    evidence: "Ở p000002 và p000036, bản dịch dùng cách gọi trung tính 'quân du kích' và 'nhóm du kích'; đến p000043, điểm nhìn của Mary vẫn nhìn nhận họ là 'các chiến sĩ kháng chiến đầy kiêu hãnh này'."
+    recommendation: "Đổi 'Đám du kích' thành 'Nhóm du kích' hoặc 'Những người du kích' / 'Quân du kích' (ví dụ: 'Nhóm du kích quắc mắt nhìn cô trong khi các cấp trên của cô lại đang cố giữ những nụ cười xã giao có phần gượng gạo trên môi.') theo đúng quy tắc không thêm sắc thái miệt thị ngoài văn cảnh trong canon/style-guide.md."
+pending_term_recommendations:
+  - source_term: "partisans / partisan leaders / resistance fighters"
+    proposed_vi: "quân du kích (nhóm du kích) / các thủ lĩnh du kích / các chiến sĩ kháng chiến"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất cách dịch lực lượng du kích địa phương theo sổ pending tập 06, đồng thời phản ánh đúng sắc thái kính trọng ('các chiến sĩ kháng chiến') trong điểm nhìn của Mary ở p000043."
+    alternatives_vi:
+      - "lực lượng du kích / những người chỉ huy du kích / những người kháng chiến"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000002"
+      - "YS-LN06/Text/part0025.html/p000004"
+      - "YS-LN06/Text/part0025.html/p000008"
+      - "YS-LN06/Text/part0025.html/p000011"
+      - "YS-LN06/Text/part0025.html/p000023"
+      - "YS-LN06/Text/part0025.html/p000029"
+      - "YS-LN06/Text/part0025.html/p000036"
+      - "YS-LN06/Text/part0025.html/p000043"
+  - source_term: "large-scale guerrilla attack"
+    proposed_vi: "cuộc tấn công du kích quy mô lớn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Diễn đạt sát nghĩa phương án tác chiến do Drake và Mikel đề xuất tại cuộc họp với lực lượng du kích."
+    alternatives_vi:
+      - "đợt tập kích du kích quy mô lớn"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000002"
+  - source_term: "Drake / Mikel"
+    proposed_vi: "Drake / Mikel"
+    category: "nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên tên riêng hai chỉ huy của Khối Thịnh vượng chung và Liên bang theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000002"
+      - "YS-LN06/Text/part0025.html/p000027"
+      - "YS-LN06/Text/part0025.html/p000036"
+      - "YS-LN06/Text/part0025.html/p000037"
+      - "YS-LN06/Text/part0025.html/p000046"
+      - "YS-LN06/Text/part0025.html/p000049"
+  - source_term: "Entente Alliance"
+    proposed_vi: "Liên minh Hiệp ước"
+    category: "quốc gia / tổ chức"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh Liên minh Hiệp ước từ sổ pending các tập 01–06."
+    alternatives_vi:
+      - "Liên minh Entente"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000004"
+  - source_term: "the Empire / Imperial Army / imperial torpedoes / Imperial Army bases"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / số ngư lôi của quân Đế quốc / các căn cứ của Lục quân Đế quốc"
+    category: "quốc gia / tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán hệ danh pháp Đế quốc và Lục quân Đế quốc xuyên suốt sổ pending tập 01–06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000003"
+      - "YS-LN06/Text/part0025.html/p000012"
+      - "YS-LN06/Text/part0025.html/p000015"
+      - "YS-LN06/Text/part0025.html/p000023"
+      - "YS-LN06/Text/part0025.html/p000046"
+      - "YS-LN06/Text/part0025.html/p000049"
+  - source_term: "home country / fatherland / land of my father"
+    proposed_vi: "quê hương / tổ quốc / mảnh đất quê cha"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phân biệt tự nhiên sắc thái tình cảm gắn bó với quê nhà ('quê hương'), nghĩa vụ với đất nước ('tổ quốc') và cách diễn đạt gợi nhắc người cha đã khuất Anson Sue ('mảnh đất quê cha') trong độc thoại nội tâm của Mary."
+    alternatives_vi:
+      - "cố hương / đất tổ / mảnh đất của cha mình"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000013"
+      - "YS-LN06/Text/part0025.html/p000041"
+      - "YS-LN06/Text/part0025.html/p000042"
+  - source_term: "Lieutenant Sue / Mary"
+    proposed_vi: "Trung úy Sue / Mary"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa cấp bậc Trung úy (First Lieutenant) của Mary Sue tại thời điểm tập 06 theo sổ pending (như ch-02, ch-05-b06)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000004"
+      - "YS-LN06/Text/part0025.html/p000008"
+      - "YS-LN06/Text/part0025.html/p000009"
+      - "YS-LN06/Text/part0025.html/p000027"
+      - "YS-LN06/Text/part0025.html/p000031"
+      - "YS-LN06/Text/part0025.html/p000037"
+      - "YS-LN06/Text/part0025.html/p000046"
+  - source_term: "Commonwealth officer"
+    proposed_vi: "sĩ quan Khối Thịnh vượng chung"
+    category: "quốc gia / chức danh quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán tên gọi Khối Thịnh vượng chung trong sổ pending tập 04–06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000034"
+  - source_term: "coastal radar site / torpedo boat supply bases / fjords"
+    proposed_vi: "trạm radar ven biển / các căn cứ tiếp vận tàu phóng lôi / khu vịnh hẹp"
+    category: "thuật ngữ quân sự / địa hình"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Dịch chính xác các mục tiêu quân sự ven biển và địa hình vịnh hẹp đặc trưng của vùng Bắc Âu (Norden/Entente Alliance)."
+    alternatives_vi:
+      - "đài radar bờ biển / các căn cứ hậu cần tàu phóng lôi / các vịnh hẹp fjord"
+    segment_ids:
+      - "YS-LN06/Text/part0025.html/p000045"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0025.html/p000001"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô (phân biệt với 'nó' chỉ dùng cho Tanya theo DEC-P01-001)"
+    pov_and_narration: "Trần thuật ngôi thứ ba mở đầu cảnh, tạo đối lập trực tiếp với tâm trạng lý tưởng hóa của Mary ở cuối lô trước."
+    modality_and_negation: "Khẳng định sự va chạm trực diện với thực tế."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000002"
+    names_and_ranks:
+      - "Drake -> Drake"
+      - "Mikel -> Mikel"
+    pronouns_and_address:
+      - "các bên dự họp -> họ"
+      - "the partisans -> quân du kích"
+    pov_and_narration: "Trần thuật ngôi thứ ba khách quan."
+    modality_and_negation: "Giữ quan hệ thời gian tức thì ('Ngay khoảnh khắc họ bắt đầu..., quân du kích đã bày tỏ sự phản đối...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000003"
+    names_and_ranks:
+      - "imperial -> của quân Đế quốc"
+    pronouns_and_address:
+      - "người du kích gọi phía Drake, Mikel, Mary -> Các người"
+    pov_and_narration: "Thoại trực tiếp của người du kích với giọng điệu gay gắt, phản đối."
+    modality_and_negation: "Giữ câu hỏi chất vấn ('...ư?') và câu mệnh lệnh phủ định bác bỏ ('Đừng có ngu ngốc thế chứ!')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000004"
+    names_and_ranks:
+      - "Entente Alliance -> Liên minh Hiệp ước"
+      - "Mary -> Mary"
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba bám điểm nhìn của Mary."
+    modality_and_negation: "Giữ mức độ hành động ('gần như phun thẳng ra') và phủ định tuyệt đối trong quá khứ ('chưa từng tưởng tượng tới')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000005"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của Mary hỏi lại trong trạng thái sững sờ."
+    modality_and_negation: "Giữ hiệu ứng nói lắp ở đầu câu hỏi ('N-nói thế là có ý gì?')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000006"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người du kích gọi nhóm biệt kích liên quân -> Các người"
+      - "người du kích tự xưng cho lực lượng tại chỗ -> chúng tôi"
+      - "quân Đế quốc -> chúng"
+    pov_and_narration: "Thoại trực tiếp của người du kích giải thích lý do phản đối."
+    modality_and_negation: "Giữ sự đối lập hoàn cảnh ('Các người sẽ rút đi ngay lập tức. Nhưng chúng tôi còn phải ở lại đây chiến đấu.') và mệnh đề điều kiện bỏ lửng ('Nếu chúng tôi thu hút sự chú ý của chúng như thế…')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000007"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Câu nhận định ngắn phản ánh lý lẽ của phía du kích."
+    modality_and_negation: "Khẳng định mức độ ('quả là khá bất công')."
+    emphasis: "Giữ đúng phạm vi Markdown '*quả là*' khớp với thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000008"
+    names_and_ranks:
+      - "Mary -> Mary"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Mary."
+    modality_and_negation: "Giữ quan hệ đối lập ('Mary muốn..., nhưng các thủ lĩnh du kích lại tìm cách khuyên can cô...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000009"
+    names_and_ranks:
+      - "Mary -> Mary"
+    pronouns_and_address:
+      - "các thủ lĩnh du kích -> chúng tôi (trong lời dẫn), họ"
+      - "trần thuật về Mary -> Cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba kết hợp dẫn lại lời của phía du kích và cảm xúc của Mary."
+    modality_and_negation: "Giữ phủ định chỉ sự bất ngờ tột độ ('không tài nào tin nổi')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Đây là chiến trường của chúng tôi*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000010"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary gọi gộp cả hai bên -> Tất cả chúng ta"
+    pov_and_narration: "Thoại trực tiếp của Mary cố thuyết phục quân du kích."
+    modality_and_negation: "Giữ hai câu hỏi đuôi/xác nhận liên tiếp ('...chẳng phải sao? Đều đang... mà?')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000011"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người du kích gọi Mary -> cô bé"
+    pov_and_narration: "Thoại trực tiếp của người du kích với giọng kẻ cả, từng trải."
+    modality_and_negation: "Giữ phủ định bộ phận ('đánh trực diện không phải là cách duy nhất') và câu hỏi đuôi ('Chẳng phải vậy sao, cô bé?')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000012"
+    names_and_ranks:
+      - "Imperial Army -> Lục quân Đế quốc"
+    pronouns_and_address:
+      - "Mary dùng đại từ gộp -> chúng ta"
+    pov_and_narration: "Thoại trực tiếp của Mary phản bác."
+    modality_and_negation: "Khẳng định năng lực đối đầu trực diện, giữ dấu gạch ngang giải thích."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000013"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> Cô"
+      - "Mary và những người đồng đội cùng cảnh ngộ -> họ, mình"
+    pov_and_narration: "Trần thuật ngôi thứ ba bám điểm nhìn nội tâm của Mary."
+    modality_and_negation: "Khẳng định quá trình rèn luyện, mất mát và mục đích giải phóng quê hương."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000014"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Câu hỏi nội tâm trực tiếp in nghiêng của Mary."
+    modality_and_negation: "Câu hỏi bức xúc."
+    emphasis: "Giữ đúng phạm vi Markdown '*Vậy thì tại sao chứ?!*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000015"
+    names_and_ranks:
+      - "the Empire -> Đế quốc"
+    pronouns_and_address:
+      - "Mary kêu gọi quân du kích -> Chúng ta, mình (sau khi chỉnh từ 'Chúng tôi')"
+    pov_and_narration: "Thoại trực tiếp của Mary."
+    modality_and_negation: "Giữ khẳng định quyết tâm kèm câu hỏi tu từ chất vấn ('Như thế thì có gì sai chứ?!')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000016"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "quân du kích -> họ"
+    pov_and_narration: "Câu hỏi nội tâm trực tiếp in nghiêng của Mary."
+    modality_and_negation: "Giữ câu hỏi phủ định ('Tại sao họ lại không chịu hiểu?')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Tại sao họ lại không chịu hiểu?*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000017"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người du kích gọi Mary -> Cô"
+    pov_and_narration: "Thoại trực tiếp của người du kích khuyên Mary hạ hỏa."
+    modality_and_negation: "Giữ mệnh lệnh khẩu ngữ ('Hạ hỏa đi.') và câu phủ định ('Vấn đề không nằm ở vũ khí hay sức mạnh.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000018"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của Mary hỏi vặn lại."
+    modality_and_negation: "Câu hỏi nhấn mạnh vào bản chất vấn đề."
+    emphasis: "Giữ đúng phạm vi Markdown '*là*' khớp với thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000019"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> Cô, mình"
+      - "nội tâm tự quy chiếu của Mary -> mình"
+      - "quân du kích -> họ"
+    pov_and_narration: "Câu đầu trần thuật ngôi thứ ba; câu sau chuyển sang độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ câu hỏi nội tâm phủ định về sự bất lực trong giao tiếp ('Tại sao lời mình nói lại không thể chạm tới họ?')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Tại sao lời mình nói lại không thể chạm tới họ?*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000020"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người du kích gọi Mary -> Một kẻ từng bỏ chạy như cô"
+    pov_and_narration: "Thoại trực tiếp mang tính công kích cá nhân của người du kích."
+    modality_and_negation: "Giữ tình thái phủ định giả định ('thì làm sao mà hiểu được')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000021"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary tự xưng -> Tôi"
+    pov_and_narration: "Thoại trực tiếp của Mary phản ứng tức thì."
+    modality_and_negation: "Khẳng định hành động đã trở về."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000022"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "người đàn ông lớn tuổi -> mình"
+    pov_and_narration: "Thoại trực tiếp giễu cợt kèm câu trần thuật mô tả thái độ của người du kích lớn tuổi."
+    modality_and_negation: "Giữ suy đoán mỉa mai ('Hẳn là cũng phải dày mặt lắm đấy.') và phủ định nhấn mạnh ('thậm chí chẳng buồn che giấu')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000023"
+    names_and_ranks:
+      - "the Empire -> Đế quốc"
+    pronouns_and_address:
+      - "nội tâm Mary chỉ nhóm mình -> chúng ta"
+      - "quân du kích -> họ"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ tình thái 'đáng lẽ phải là' và hai câu hỏi nối tiếp ('vậy tại sao họ lại nhìn chúng ta bằng ánh mắt đó? Như thể chúng ta là người ngoài vậy?')."
+    emphasis: "Giữ đúng phạm vi Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000024"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "quân du kích -> họ"
+      - "nhóm của Mary -> chúng ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ nhận định bác bỏ kèm phủ định ('Thật vô lý khi họ không chịu chấp nhận chúng ta.')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Thật vô lý khi họ không chịu chấp nhận chúng ta.*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000025"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nhóm của Mary -> Chúng ta"
+      - "quân du kích -> họ, những người đồng hương nơi quê nhà"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ hai câu hỏi nội tâm liên tiếp."
+    emphasis: "Giữ đúng phạm vi Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000026"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Mary."
+    modality_and_negation: "Giữ hành động suýt xảy ra ('suýt chút nữa đã bật ra') và giả định trái thực tế trong quá khứ ('Nếu mọi chuyện cứ thế tiếp diễn, chắc chắn cô đã buông ra...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000027"
+    names_and_ranks:
+      - "Drake -> Drake"
+      - "Lieutenant Sue -> Trung úy Sue"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+      - "Drake gọi Mary -> Trung úy Sue"
+    pov_and_narration: "Trần thuật ngôi thứ ba kết hợp lời quát ngăn cản của Drake."
+    modality_and_negation: "Giữ giới hạn nguyên nhân ('Lý do duy nhất giúp cô tránh được chuyện đó là...') và câu mệnh lệnh chấm dứt ('Đủ rồi đấy.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000028"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Drake -> ông"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quan hệ thời gian - nhân quả ('Khi ông nắm lấy... cô mới bừng tỉnh.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000029"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "the partisans -> Nhóm du kích / Quân du kích (sau khi chỉnh từ 'Đám du kích')"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba bám điểm nhìn của Mary."
+    modality_and_negation: "Giữ sự tương phản đồng thời giữa ánh mắt quắc lên của nhóm du kích và nụ cười gượng gạo của các cấp trên."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000030"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> Cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ cấu trúc phủ định kép ('không phải là một cô gái không biết nhìn sắc mặt người khác')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000031"
+    names_and_ranks:
+      - "Mary -> Mary"
+    pronouns_and_address:
+      - "trần thuật về Mary -> mình, cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ giả định quá khứ ('sẽ bị đón nhận ra sao') và quan hệ nhượng bộ có phủ định ('Dù trong lòng chẳng lấy gì làm dễ chịu, cô vẫn có thể tự kìm mình lại.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000032"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+      - "cấp trên và quân du kích -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba chuyển sang câu hỏi nội tâm ngắn in nghiêng của Mary."
+    modality_and_negation: "Khẳng định hành động quan sát và câu hỏi thắc mắc."
+    emphasis: "Giữ đúng phạm vi Markdown '*Tại sao chứ?*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000033"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Drake tự xưng -> Tôi, của mình"
+    pov_and_narration: "Thoại trực tiếp của Drake xin lỗi phía du kích."
+    modality_and_negation: "Khẳng định lời xin lỗi lịch sự."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000034"
+    names_and_ranks:
+      - "Commonwealth officer -> sĩ quan Khối Thịnh vượng chung"
+    pronouns_and_address:
+      - "người du kích dùng đại từ gộp chung -> chúng ta"
+    pov_and_narration: "Thoại trực tiếp của thủ lĩnh du kích đáp lời Drake."
+    modality_and_negation: "Giữ sắc thái ngạc nhiên cảm thán ('Không ngờ... Thời đại chúng ta đang sống thật đáng buồn làm sao.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000035"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Drake tự xưng -> chúng ta (nghĩa khái quát), tôi, chúng tôi (đơn vị liên quân)"
+      - "Drake gọi các thủ lĩnh du kích -> các vị"
+    pov_and_narration: "Thoại trực tiếp của Drake vừa đồng cảm vừa khéo léo chuyển sang xin ý kiến tác chiến."
+    modality_and_negation: "Giữ cấu trúc phủ định ngoại trừ ('không còn lựa chọn nào khác ngoài việc phải...') và câu hỏi mở xin đề xuất mục tiêu."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000036"
+    names_and_ranks:
+      - "Drake -> Drake"
+    pronouns_and_address:
+      - "Drake và nhóm du kích -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba qua góc nhìn quan sát của Mary."
+    modality_and_negation: "Giữ so sánh giả định bỏ lửng ('như thể họ cùng hiểu ngầm điều gì đó…')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000037"
+    names_and_ranks:
+      - "Mary -> Mary"
+      - "Drake -> Drake"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+      - "nội tâm tự quy chiếu của Mary -> mình"
+      - "nhóm du kích -> họ"
+    pov_and_narration: "Câu đầu trần thuật ngôi thứ ba; câu hai là câu hỏi nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ sự đối lập trong câu hỏi nội tâm kèm phủ định ('Tại sao họ lại chịu lắng nghe Drake, còn những điều mình nói thì dường như chẳng mảy may tác động được tới họ?')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Tại sao họ lại chịu lắng nghe Drake, còn những điều mình nói thì dường như chẳng mảy may tác động được tới họ?*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000038"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> Cô"
+      - "nội tâm tự quy chiếu của Mary -> mình"
+    pov_and_narration: "Đan xen hai cụm nội tâm in nghiêng với câu trần thuật ngắn ở giữa."
+    modality_and_negation: "Giữ từ phủ định độc lập ('*Không*.') và cấu trúc điều kiện ('*Nếu mình sai, mình cần phải hỏi xem mình sai ở đâu.*')."
+    emphasis: "Giữ chính xác hai cặp dấu sao '*Không*.' và '*Nếu mình sai, mình cần phải hỏi xem mình sai ở đâu.*', tách biệt với câu trần thuật ở giữa theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0025.html/p000039"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Mary -> mình"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Tình thái tự nhủ ('nên lắng nghe thì hơn')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Lúc này mình nên lắng nghe thì hơn.*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000040"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Mary -> mình"
+      - "trần thuật về Mary -> cô, bản thân"
+    pov_and_narration: "Mệnh đề đầu là nội tâm in nghiêng; phần sau là trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ trình tự thời gian ('Rồi sau đó mình mới có thể...')."
+    emphasis: "Giữ đúng phạm vi Markdown '*Rồi sau đó mình mới có thể nói ra suy nghĩ của mình*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000041"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Mary -> của mình"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Cụm giới từ chỉ mục đích bỏ lửng bằng dấu ba chấm."
+    emphasis: "Giữ đúng phạm vi Markdown '*Vì sự nghiệp giải phóng đất nước của mình…*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000042"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Cụm giới từ chỉ mục đích song hành với p000041."
+    emphasis: "Giữ đúng phạm vi Markdown '*Vì mảnh đất quê cha…*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000043"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> Cô, bản thân"
+      - "resistance fighters -> các chiến sĩ kháng chiến đầy kiêu hãnh này"
+    pov_and_narration: "Trần thuật ngôi thứ ba bám điểm nhìn của Mary."
+    modality_and_negation: "Khẳng định khả năng tự kiềm chế để lắng nghe."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000044"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> của cô, cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quan hệ đối lập - giải thích nguyên nhân ('trông thật nghiêm nghị, nhưng đó là bởi cô đang hết sức nghiêm túc')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000045"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "thủ lĩnh du kích tự xưng -> Chúng tôi"
+      - "thủ lĩnh du kích gọi phía Drake và Mikel -> các vị"
+      - "quân Đế quốc -> chúng"
+    pov_and_narration: "Thoại trực tiếp của thủ lĩnh du kích nêu mục tiêu đề xuất."
+    modality_and_negation: "Khẳng định yêu cầu tác chiến cụ thể."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000046"
+    names_and_ranks:
+      - "Mikel -> Mikel"
+      - "Mary -> Mary"
+      - "Imperial Army -> Lục quân Đế quốc"
+    pronouns_and_address:
+      - "nhóm du kích -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Mary."
+    modality_and_negation: "Giữ quan hệ nhượng bộ đối lập ('Thật kỳ lạ khi thấy Mikel..., nhưng dẫu sao đi nữa, Mary vẫn rất hào hứng...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0025.html/p000047"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nhóm du kích -> họ"
+      - "nội tâm tự quy chiếu của Mary -> mình"
+      - "Mary và nhóm du kích -> chúng ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ suy đoán chắc chắn ('Đó hẳn là điều họ cần.'), cam kết hành động và câu điều kiện ('Nếu làm thế, mình biết chắc chúng ta sẽ có thể vượt qua những bất đồng.')."
+    emphasis: "Giữ đúng phạm vi Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000048"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary và nhóm du kích -> chúng ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Mệnh đề giải thích nguyên nhân bắt đầu bằng dấu ba chấm."
+    emphasis: "Giữ đúng phạm vi Markdown '*…Bởi vì chúng ta là đồng minh mà.*' khớp thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0025.html/p000049"
+    names_and_ranks:
+      - "Mikel -> Mikel"
+      - "the Empire -> Đế quốc"
+    pronouns_and_address:
+      - "các bên đồng minh -> họ"
+      - "trần thuật về Mary -> cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba khép lại lô."
+    modality_and_negation: "Giữ mệnh đề nhượng bộ ('Cho dù họ có những ý kiến khác biệt, các mục tiêu mà họ tin tưởng vẫn là một.') và niềm tin chắc chắn của Mary."
+    emphasis: "Không có chữ nghiêng."
