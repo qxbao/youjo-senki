@@ -1,0 +1,167 @@
+task_id: vol-05-ch-02-b13-argon-review
+parent_task_id: vol-05-ch-02-b13
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 2
+target_translation: translations/vol-05/ch-02-b13.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0016.html/p000228
+    severity: minor
+    category: word_choice
+    issue: "Thành ngữ 'left him high and dry' trong ngữ cảnh hai bên hải quân và không quân lập tức buông lời từ chối phũ phàng ở các đoạn kế tiếp nghiêng về nghĩa dội gáo nước lạnh hoặc đáp trả phũ phàng khiến người hỏi chưng hửng hơn là 'mặc kệ ông ta chơ vơ'."
+    recommendation: "Khi chuốt văn có thể cân nhắc đổi thành 'họ đáp trả phũ phàng khiến ông ta chưng hửng' hoặc 'họ thẳng thừng bỏ mặc ông ta chưng hửng'."
+  - segment_id: YS-LN05/Text/part0016.html/p000230
+    severity: minor
+    category: word_choice
+    issue: "Từ 'lẻ tẻ' trong cụm 'một xu lẻ tẻ' thường dùng cho số nhiều rải rác, kết hợp với danh từ số ít ('a single, measly pence') hơi kém tự nhiên."
+    recommendation: "Khi chuốt văn có thể cân nhắc đổi thành 'một đồng xu còm' hoặc 'một đồng pence lẻ'."
+pending_term_recommendations:
+  - source_term: Federation Navy
+    proposed_vi: "Hải quân Liên bang"
+    category: tổ chức quân sự
+    status: proposed
+    rationale: "Cách dịch trực tiếp, chuẩn xác và nhất quán với 'Quân đội Liên bang' (Federation Army) trong sổ pending-terms."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000236
+  - source_term: brown-water operations
+    proposed_vi: "tác chiến ven bờ và đường thủy nội địa"
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Diễn đạt rõ nội hàm thuật ngữ hải quân 'brown-water' (vùng nước nâu: sông ngòi, cửa sông và sát bờ) trong câu nhận xét về năng lực yếu kém của Hải quân Liên bang."
+    alternatives_vi:
+      - "tác chiến sông ngòi và ven bờ"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000236
+  - source_term: devil’s proof
+    proposed_vi: "chứng minh của quỷ"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Cách dịch chuẩn xác cho thuật ngữ logic/pháp lý 'probatio diabolica' (devil's proof / 悪魔の証明), chỉ yêu cầu chứng minh một việc không tồn tại."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000254
+locked_choices:
+  - segment_id: YS-LN05/Text/part0016.html/p000222
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'we' -> 'chúng ta', 'air unit' -> 'đơn vị không quân', 'northern route' -> 'tuyến đường phía bắc', 'Federation' -> 'Liên bang', 'joint transport route defense squad' -> 'đội bảo vệ tuyến vận tải liên hợp'."
+  - segment_id: YS-LN05/Text/part0016.html/p000223
+    choices:
+      - "Thuật ngữ và từ khóa liên kết: 'The navy' -> 'Hải quân', 'strongly' -> 'kiên quyết' (khớp với từ được nhấn mạnh ở p000226), 'the army’s suggestion' -> 'đề xuất của lục quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000224
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'The air force' -> 'Không quân', 'you' -> 'Các vị', 'our' -> 'của chúng ta', 'mainland defense situation' -> 'tình hình phòng thủ bản thổ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000225
+    choices:
+      - "Giữ đúng tình thái suy đoán ('hẳn là') và sắc thái khó chịu ('chướng tai gai mắt') của bên nhận lời hiến kế."
+  - segment_id: YS-LN05/Text/part0016.html/p000226
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*kiên quyết*' và '*Thái độ của bên hải quân và không quân khi trừng mắt nhìn bên lục quân mới gớm làm sao!*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: YS-LN05/Text/part0016.html/p000227
+    choices:
+      - "Ngôi xưng lịch sự trong cuộc họp: 'I' -> 'tôi'."
+  - segment_id: YS-LN05/Text/part0016.html/p000228
+    choices:
+      - "Thuật ngữ và đại từ: 'army representative' -> 'vị đại diện lục quân', 'him' -> 'ông ta', 'they' -> 'họ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000229
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'you in the army' -> 'các vị bên lục quân', 'We' -> 'Chúng ta', 'single chain of command' -> 'một hệ thống chỉ huy duy nhất', 'the higher-ups in the navy' -> 'giới chóp bu hải quân', 'joint plan' -> 'kế hoạch liên hợp'."
+  - segment_id: YS-LN05/Text/part0016.html/p000230
+    choices:
+      - "Thuật ngữ và đại từ: 'air force representative' -> 'đại diện không quân', 'his' -> 'của ông ta'; giữ đúng chi tiết dốc ngược ví và vỗ vào đáy ví."
+  - segment_id: YS-LN05/Text/part0016.html/p000231
+    choices:
+      - "Giữ câu nhận xét ngắn gọn khép lại phản ứng của hai quân chủng."
+  - segment_id: YS-LN05/Text/part0016.html/p000232
+    choices:
+      - "Chức danh và tên riêng: 'Prime Minister Churbull' -> 'Thủ tướng Churbull', 'Federation unit' -> 'một đơn vị của Liên bang'."
+  - segment_id: YS-LN05/Text/part0016.html/p000233
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'Our air force' -> 'Không quân của chúng ta', 'wherewithal' -> 'nguồn lực'."
+  - segment_id: YS-LN05/Text/part0016.html/p000234
+    choices:
+      - "Thuật ngữ: 'the navy’s perspective' -> 'góc độ của hải quân', 'doctrines and structures' -> 'học thuyết và cơ cấu tổ chức', 'liaison officers' -> 'các sĩ quan liên lạc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000235
+    choices:
+      - "Giữ câu trần thuật ngắn gọn: 'Không quân không có người để cử đi.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000236
+    choices:
+      - "Thuật ngữ: 'Federation Navy' -> 'Hải quân Liên bang', 'brown-water operations' -> 'tác chiến ven bờ và đường thủy nội địa', 'mainland defense duty' -> 'nhiệm vụ phòng thủ bản thổ', 'supply mission' -> 'sứ mệnh tiếp tế', 'airspace under enemy control' -> 'vùng không phận do địch kiểm soát'."
+  - segment_id: YS-LN05/Text/part0016.html/p000237
+    choices:
+      - "Ngôi xưng và tên riêng: 'our' -> 'chúng ta', 'Commonwealth' -> 'Khối Thịnh vượng chung'; giữ đúng hình ảnh ẩn dụ dự báo thời tiết cho căn phòng ngập khói xì gà."
+  - segment_id: YS-LN05/Text/part0016.html/p000238
+    choices:
+      - "Đại từ trần thuật chỉ các thành viên dự họp: 'They' -> 'Họ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000239
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'our/us' -> 'chúng ta', 'our dear colonists' -> 'những người dân thuộc địa yêu quý của chúng ta', 'voluntary forces' -> 'các lực lượng tình nguyện'."
+  - segment_id: YS-LN05/Text/part0016.html/p000240
+    choices:
+      - "Thuật ngữ: 'Public opinion' -> 'Dư luận', 'entering the war' -> 'việc tham chiến'; giữ sự khẳng định dứt khoát."
+  - segment_id: YS-LN05/Text/part0016.html/p000241
+    choices:
+      - "Tên riêng và dấu câu: 'Commonwealth' -> 'Khối Thịnh vượng chung'; giữ dấu ba chấm cuối câu."
+  - segment_id: YS-LN05/Text/part0016.html/p000242
+    choices:
+      - "Giữ cấu trúc điều kiện và hình ảnh nghiến chặt điếu xì gà của các thành viên dự họp."
+  - segment_id: YS-LN05/Text/part0016.html/p000243
+    choices:
+      - "Tên riêng và dấu câu: 'the Empire' -> 'Đế quốc'; giữ dấu ba chấm mở đầu câu hỏi nghi vấn."
+  - segment_id: YS-LN05/Text/part0016.html/p000244
+    choices:
+      - "Cấp bậc, tên riêng và ngôi xưng: 'General Habergram' -> 'Tướng Habergram', 'your' -> 'của ông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000245
+    choices:
+      - "Thuật ngữ và đại từ: 'facilitator' -> 'người điều phối cuộc họp', 'him' (Habergram) -> 'ông', 'the colonists' -> 'những người dân thuộc địa'."
+      - "Nhấn mạnh Markdown: bọc '*Vậy là tình hình đã đến mức họ phải rũ bỏ vẻ thờ ơ chính thức rồi sao? Chắc hẳn họ đang kỳ vọng rất nhiều vào những người dân thuộc địa.*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: YS-LN05/Text/part0016.html/p000246
+    choices:
+      - "Tên riêng và đại từ: 'Habergram' -> 'Habergram', 'them' -> 'họ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000247
+    choices:
+      - "Tên riêng và dấu câu: 'the Empire' -> 'Đế quốc'; giữ dấu ba chấm thể hiện sự ngập ngừng trong lời nói."
+  - segment_id: YS-LN05/Text/part0016.html/p000248
+    choices:
+      - "Giữ nhận xét ngắn gọn: 'Đó là một cách nói vòng vo.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000249
+    choices:
+      - "Đại từ và thuật ngữ: 'he' (Habergram) -> 'ông', 'public opinion maneuvers' -> 'các hoạt động thao túng dư luận', 'the Empire' -> 'Đế quốc', 'unified policy' -> 'chính sách thống nhất'; giữ dấu ba chấm giữa câu."
+  - segment_id: YS-LN05/Text/part0016.html/p000250
+    choices:
+      - "Thuật ngữ: 'embassies' -> 'các đại sứ quán', 'diplomatic outposts' -> 'những cơ quan đại diện ngoại giao tiền tiêu', 'neutral countries' -> 'các quốc gia trung lập'."
+  - segment_id: YS-LN05/Text/part0016.html/p000251
+    choices:
+      - "Đại từ và thuật ngữ: 'He' (Habergram) -> 'Ông', 'organized propaganda campaign' -> 'chiến dịch tuyên truyền có tổ chức'."
+  - segment_id: YS-LN05/Text/part0016.html/p000252
+    choices:
+      - "Tên cơ quan và quốc gia bám sát văn bản nguồn: 'Empire’s Foreign Office' -> 'Bộ Ngoại giao Đế quốc', 'the Federation' -> 'Liên bang', 'we' -> 'chúng ta'; giữ đúng cấu trúc phủ định kép ('không thể nói rằng... hoàn toàn không...')."
+  - segment_id: YS-LN05/Text/part0016.html/p000253
+    choices:
+      - "Thuật ngữ và tên riêng: 'Stealth intelligence operations' -> 'Các hoạt động tình báo ngầm', 'the Empire' -> 'Đế quốc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000254
+    choices:
+      - "Thuật ngữ: 'devil’s proof' -> 'chứng minh của quỷ', 'the Empire' -> 'Đế quốc', 'the people on the ground' -> 'những người ở thực địa'; giữ đúng tình thái suy đoán ('Có lẽ')."
+  - segment_id: YS-LN05/Text/part0016.html/p000255
+    choices:
+      - "Giữ dấu gạch ngang và tình thái suy đoán ('hẳn') về phản ứng của những người tham dự khi nhắc đến sự yếu kém ngoại giao của Đế quốc."
+  - segment_id: YS-LN05/Text/part0016.html/p000256
+    choices:
+      - "Thuật ngữ: 'emerging military power' -> 'Cường quốc quân sự mới nổi', giữ đầy đủ các lĩnh vực liệt kê sau dấu gạch ngang."
+  - segment_id: YS-LN05/Text/part0016.html/p000257
+    choices:
+      - "Tên riêng và sắc thái: 'the Empire' -> 'Đế quốc', 'subtleties of diplomacy' -> 'những sự tinh tế của nghệ thuật ngoại giao'."
+  - segment_id: YS-LN05/Text/part0016.html/p000258
+    choices:
+      - "Thuật ngữ và tên riêng: 'imperial government' -> 'chính phủ Đế quốc', 'pure idealism' -> 'chủ nghĩa duy tâm thuần túy', 'reason' -> 'lý trí', 'Unified States' -> 'Hợp chúng quốc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000259
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*Thế giới lẽ ra phải vận hành như thế này*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+      - "Giữ dấu gạch ngang và lập luận về nguyên nhân khiến các quốc gia lớn đang phát triển đi sai nước cờ."
+  - segment_id: YS-LN05/Text/part0016.html/p000260
+    choices:
+      - "Tên riêng và thuật ngữ: 'Unified States' -> 'Hợp chúng quốc', 'the Empire' -> 'Đế quốc', 'imperial government' -> 'chính phủ Đế quốc', 'the will of the people' -> 'ý nguyện của người dân'."
