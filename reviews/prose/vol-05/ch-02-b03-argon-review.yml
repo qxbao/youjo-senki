@@ -1,0 +1,245 @@
+task_id: "vol-05-ch-02-b03-argon-review"
+parent_task_id: "vol-05-ch-02-b03"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-02-b03-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0014.html/p000065"
+    issue: "Cụm danh từ chỉ cảm xúc của đám đông/người dân có mạo từ xác định được dịch là 'cảm xúc của con người' hơi khái quát so với mạch lập luận về công tác bình định và chủ nghĩa dân tộc ở các đoạn kế tiếp."
+    evidence: "Danh từ tập hợp đi kèm mạo từ xác định trong ngữ cảnh phân tích đối tượng của hoạt động bình định (p000068) và chủ nghĩa dân tộc (p000070) quy chiếu trực tiếp tới người dân/quần chúng tại vùng chiếm đóng."
+    recommendation: "Có thể cân nhắc chỉnh thành 'cảm xúc của người dân' hoặc 'cảm xúc của quần chúng' ở bước chuốt văn để nối mạch tự nhiên hơn với p000068–p000070."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0014.html/p000075"
+    issue: "Cụm động từ thành ngữ mang nghĩa 'trót lọt / yên ổn / xong chuyện khi cứ làm điều gì đó một cách thụ động' được dịch thoát ý thành 'thoát khỏi thế bí'."
+    evidence: "Cấu trúc phủ định ở câu thứ hai cảnh báo rằng phía Đế quốc không thể tiếp tục thói quen quy chụp thụ động mà không phải trả giá, thay vì nói về việc thoát khỏi một thế bí sẵn có."
+    recommendation: "Có thể cân nhắc điều chỉnh nhẹ ở bước chuốt câu thành 'sẽ chẳng thể yên ổn nếu cứ khơi khơi xem...' hoặc 'sẽ không thể xong chuyện nếu cứ khơi khơi xem...' để sát sắc thái thành ngữ hơn."
+pending_term_recommendations:
+  - source_term: "Communists / Communism"
+    proposed_vi: "những người Cộng sản / Chủ nghĩa Cộng sản"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nhất quán với sổ pending từ Tập 4 và các lô trước của Tập 5 khi chỉ hệ tư tưởng và lực lượng theo Chủ nghĩa Cộng sản."
+    alternatives_vi:
+      - "phe Cộng sản"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000059"
+      - "YS-LN05/Text/part0014.html/p000075"
+  - source_term: "apparatus of violence"
+    proposed_vi: "cỗ máy bạo lực"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch tự nhiên, giàu hình ảnh cho thuật ngữ xã hội học - quân sự chỉ quân đội với tư cách một thiết chế/bộ máy thực thi bạo lực."
+    alternatives_vi:
+      - "bộ máy bạo lực"
+      - "thiết chế bạo lực"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000067"
+  - source_term: "pacification efforts"
+    proposed_vi: "các hoạt động bình định"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã khóa ở lô ch-02-b02 cho công tác bình định tại vùng chiếm đóng."
+    alternatives_vi:
+      - "công tác bình định"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000068"
+  - source_term: "rationality"
+    proposed_vi: "tính hợp lý"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục P03-rationality trong canon/glossary-pending.yml."
+    alternatives_vi:
+      - "tính duy lý"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000073"
+  - source_term: "divide and conquer"
+    proposed_vi: "chia để trị"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 5 và lô ch-02-b02; tạo cơ sở ngôn từ trực tiếp để Tanya phản bác khái niệm 'trị / cai trị' ở các đoạn p000077, p000082–p000084."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000076"
+  - source_term: "military government"
+    proposed_vi: "chính quyền quân quản"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn xác chỉ bộ máy cai trị quân sự tại vùng lãnh thổ bị chiếm đóng."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000079"
+      - "YS-LN05/Text/part0014.html/p000082"
+  - source_term: "General von Zettour / General"
+    proposed_vi: "Tướng von Zettour / Tướng quân"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán danh xưng của Trung tướng von Zettour trong lời thoại của Tanya theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000065"
+      - "YS-LN05/Text/part0014.html/p000077"
+      - "YS-LN05/Text/part0014.html/p000083"
+  - source_term: "personnel management"
+    proposed_vi: "quản trị nhân sự"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với sổ pending Tập 5 cho thuật ngữ quản trị quen thuộc trong độc thoại của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000084"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nhất quán tên gọi quốc gia đối địch ở Mặt trận phía Đông theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000094"
+  - source_term: "antiestablishment factions"
+    proposed_vi: "các phe phái chống đối chế độ"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt rõ nghĩa các nhóm đối lập với chính quyền trung ương bên trong Liên bang mà không suy diễn thêm tên gọi cụ thể."
+    alternatives_vi:
+      - "các phe phái chống chế độ"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000094"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0014.html/p000058"
+    choices:
+      - "Chuỗi thuật ngữ logic học trong độc thoại: 'các tiên đề', 'những tiền đề hiển nhiên', 'những giả định'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000059"
+    choices:
+      - "Đại từ số nhiều chỉ phía Đế quốc trong độc thoại của Tanya: 'Chúng ta'"
+      - "Thuật ngữ: 'những người Cộng sản', 'Chủ nghĩa Cộng sản', 'sự mâu thuẫn'"
+      - "Giữ nguyên phủ định tuyệt đối: 'chưa từng có lấy một người lính địch nào tỏ dấu hiệu thực sự tin vào Chủ nghĩa Cộng sản cả'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000060"
+    choices:
+      - "Đại từ: 'chúng ta'; giữ đúng tình thái giả định trái thực tế trong quá khứ: 'Lẽ ra chúng ta phải quan sát kỹ hơn và sớm nhận ra điều đó'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000061"
+    choices:
+      - "Đại từ độc thoại nội tâm của Tanya theo DEC-P01-001: 'mình'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000062"
+    choices:
+      - "Đại từ độc thoại nội tâm của Tanya theo DEC-P01-001: 'mình'"
+      - "Thuật ngữ logic: 'Tiên đề chưa được chứng minh', 'sự mâu thuẫn', 'buộc phải được dung hòa'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000063"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: 'Tôi'; thuật ngữ: 'hệ tư tưởng'; giữ phủ định nhấn mạnh mức độ"
+  - segment_id: "YS-LN05/Text/part0014.html/p000064"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'; đại từ chỉ Zettour: 'ông'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000065"
+    choices:
+      - "Danh xưng trong thoại của Tanya với Zettour: 'thưa Tướng quân'"
+      - "Giữ cấu trúc đối lập nhấn mạnh 'không phải là ... mà là ...'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000066"
+    choices:
+      - "Ẩn dụ quân sự - kinh tế trong độc thoại: 'ngôn từ hoạt động chẳng khác nào đạn dược', 'sự phung phí những nguồn lực quý giá'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000067"
+    choices:
+      - "Thuật ngữ: 'Một cỗ máy bạo lực'; tình thái bắt buộc: 'buộc phải sử dụng vũ khí của mình sao cho hiệu quả'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000068"
+    choices:
+      - "Thuật ngữ: 'Các hoạt động bình định'; đại từ số nhiều chỉ Đế quốc: 'chúng ta'; đại từ chỉ kẻ địch: 'họ'"
+      - "Giữ cấu trúc đối lập mục tiêu: 'không nên nhắm vào việc bào mòn sự thù địch ... mà phải là thứ chia rẽ được họ'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000069"
+    choices:
+      - "Xưng hô trong thoại của Zettour với Tanya: 'cô'; thuật ngữ: 'hệ tư tưởng'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000070"
+    choices:
+      - "Lời đáp lễ phép của Tanya với cấp trên: 'Chính xác ạ'; đại từ: 'Chúng ta'"
+      - "Thuật ngữ: 'chủ nghĩa dân tộc', 'hệ tư tưởng'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*đội lốt hệ tư tưởng*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000071"
+    choices:
+      - "Tên nhân vật trong trần thuật: 'Tanya'; đại từ ngôi thứ hai khái quát: 'bạn'"
+      - "Thuật ngữ: 'hệ tư tưởng', 'sự mâu thuẫn', 'các tiền đề'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000072"
+    choices:
+      - "Đại từ ngôi thứ hai khái quát: 'bạn'; thuật ngữ: 'các giả định'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000073"
+    choices:
+      - "Phân tách rõ đại từ khái quát 'bạn' ở câu hỏi tu từ đầu đoạn và đại từ nội tâm tự quy chiếu 'mình' / 'bản thân' của Tanya ở hai câu sau"
+      - "Thuật ngữ: 'trí tuệ hiện đại cùng tính hợp lý', 'một tòa nhà chờ sập', 'kẻ khổ dâm'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000074"
+    choices:
+      - "Điểm nhìn trần thuật ngôi thứ ba: 'Tanya', 'cấp trên của mình'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000075"
+    choices:
+      - "Đại từ trong thoại: 'chúng ta', tiểu từ lễ phép 'ạ' ở cuối câu"
+      - "Thuật ngữ: 'những người Cộng sản' / 'người Cộng sản'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000076"
+    choices:
+      - "Thuật ngữ cố định trong câu hỏi của Zettour: 'chia để trị'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000077"
+    choices:
+      - "Liên kết từ vựng trực tiếp với câu trước: lặp lại chữ 'Trị ư?' từ cụm 'chia để trị'"
+      - "Xưng hô và tên riêng: 'Thưa Tướng quân ... ạ', 'Đế quốc'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000078"
+    choices:
+      - "Thuật ngữ hành chính - kinh tế: 'các dịch vụ hành chính', 'lợi nhuận'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000079"
+    choices:
+      - "Thuật ngữ: 'vùng lãnh thổ bị chiếm đóng', 'chính quyền quân quản', 'duy trì trật tự xã hội ở mức tối thiểu', 'vận hành cơ sở hạ tầng'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000080"
+    choices:
+      - "Tên và đại từ trần thuật của Tanya theo DEC-P01-001: 'Tanya', 'nó'"
+      - "Thuật ngữ kinh tế: 'những khoản chi phí tất yếu', 'các chức năng thị trường'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000081"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc từ nối '*Nhưng*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000082"
+    choices:
+      - "Chuyển dịch điểm nhìn từ lời kể gián tiếp tự do ('tổ chức của họ') sang độc thoại trực tiếp ('chúng ta')"
+      - "Thuật ngữ: 'chính quyền quân quản', 'công ty vô đạo đức lại còn thiếu hụt nhân sự'; thống nhất động từ 'cai trị' xuyên suốt mạch phản biện"
+  - segment_id: "YS-LN05/Text/part0014.html/p000083"
+    choices:
+      - "Danh xưng trong thoại: 'Thưa Tướng von Zettour'; đại từ: 'chúng ta'"
+      - "Thuật ngữ: 'cai trị', 'bộ máy quân sự', 'thuê ngoài'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000084"
+    choices:
+      - "Tên riêng và thuật ngữ: 'Đế quốc', 'cai trị', 'quản trị nhân sự buộc phải được tối ưu hóa'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000085"
+    choices:
+      - "Tên riêng trong thoại của Zettour: 'Đế quốc'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000086"
+    choices:
+      - "Đại từ và sắc thái lễ phép trong thoại của Tanya: 'chúng ta ... ạ'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000087"
+    choices:
+      - "Giữ giọng điệu chiêm nghiệm hàm ẩn của Zettour: 'Khi có tuổi rồi, chuyện đó chẳng dễ dàng thế đâu.'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000088"
+    choices:
+      - "Đại từ số nhiều trong độc thoại: 'chúng ta'; thuật ngữ ngoại giao: 'các mối quan hệ quốc gia hữu hảo', 'gánh nặng lịch sử'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000089"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc cụm '*Mặt khác*' ở đầu câu đúng phạm vi thẻ em trong nguồn"
+      - "Đại từ nội tâm tự quy chiếu của Tanya: 'mình'; đại từ ngôi thứ hai khái quát: 'bạn'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000090"
+    choices:
+      - "Thuật ngữ dược học: 'thalidomide', 'dị tật bẩm sinh'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc đúng câu chuyển tiếp nội tâm '*Và đó chính xác là lý do…*' theo thẻ em trong nguồn"
+      - "Xưng hô trong phần thoại của Tanya với Zettour: 'chúng ta', 'Ngài ... sao ạ?'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000091"
+    choices:
+      - "Câu hỏi ngắn của Zettour: 'Cái gì cơ?'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000092"
+    choices:
+      - "Câu hỏi tu từ lễ phép của Tanya: 'Chẳng phải chúng ta đang có sẵn nguồn tài nguyên mang tên những kẻ thù cũ hay sao ạ?'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000093"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc đúng câu ngạn ngữ '*Kẻ thù của kẻ thù là bạn.*' theo thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000094"
+    choices:
+      - "Tên riêng và thuật ngữ chính trị - ngoại giao: 'Đế quốc', 'Liên bang', 'các phe phái chống đối chế độ'"
+      - "Đại từ trong thoại của Tanya: 'chúng ta'"
