@@ -1,0 +1,202 @@
+task_id: "vol-05-ch-06-b01-argon-review"
+parent_task_id: "vol-05-ch-06-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 6
+source_package: "work/vol-05/batches/ch-06-b01-source.jsonl"
+target_translation: "translations/vol-05/ch-06-b01.jsonl"
+review_path: "reviews/prose/vol-05/ch-06-b01-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0029.html/p000025"
+    issue: "Từ 'cười khả ố' mang sắc thái đánh giá đạo đức/thẩm mỹ nặng hơn mức từ gốc chỉ tiếng cười hô hố, ầm ĩ bất lịch sự mà các nhà ngoại giao đang cố kìm nén tại bữa tiệc trang trọng."
+    recommendation: "Đổi 'tiếng cười khả ố' thành 'tiếng cười hô hố' hoặc 'tiếng cười phá lên'."
+pending_term_recommendations:
+  - source_term: "THE COMMONWEALTH EMBASSY IN MOSKVA, MILITARY EXCHANGE RECEPTION VENUE"
+    proposed_vi: "ĐẠI SỨ QUÁN KHỐI THỊNH VƯỢNG CHUNG TẠI MOSKVA, ĐỊA ĐIỂM TIỆC CHIÊU ĐÃI GIAO LƯU QUÂN SỰ"
+    category: "địa danh / tiêu đề cảnh"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000001"
+      - "YS-LN05/Text/part0029.html/p000020"
+    rationale: "Giữ thống nhất tên quốc gia 'Khối Thịnh vượng chung' và địa danh 'Moskva' theo sổ pending hiện hành; diễn đạt sát nghĩa địa điểm tổ chức tiệc chiêu đãi giao lưu quân sự."
+    alternatives_vi:
+      - "ĐẠI SỨ QUÁN KHỐI THỊNH VƯỢNG CHUNG Ở MOSKVA, NƠI TỔ CHỨC TIỆC CHIÊU ĐÃI GIAO LƯU QUÂN SỰ"
+  - source_term: "Imperial and Federation Armies / Imperial Army"
+    proposed_vi: "Lục quân Đế quốc và Quân đội Liên bang / Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000002"
+      - "YS-LN05/Text/part0029.html/p000005"
+      - "YS-LN05/Text/part0029.html/p000006"
+      - "YS-LN05/Text/part0029.html/p000010"
+      - "YS-LN05/Text/part0029.html/p000011"
+      - "YS-LN05/Text/part0029.html/p000023"
+    rationale: "Khớp với các mục đã dùng xuyên suốt vol-04 và vol-05 trong sổ pending ('Lục quân Đế quốc' và 'Quân đội Liên bang')."
+    alternatives_vi: []
+  - source_term: "Communist Party / Communism"
+    proposed_vi: "Đảng Cộng sản / Chủ nghĩa Cộng sản"
+    category: "tổ chức chính trị / hệ tư tưởng"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000005"
+      - "YS-LN05/Text/part0029.html/p000009"
+      - "YS-LN05/Text/part0029.html/p000014"
+      - "YS-LN05/Text/part0029.html/p000015"
+    rationale: "Giữ thống nhất theo sổ pending của vol-04 và vol-05."
+    alternatives_vi: []
+  - source_term: "Communist Party presidium / presidium"
+    proposed_vi: "đoàn chủ tịch Đảng Cộng sản / đoàn chủ tịch"
+    category: "cơ quan chính trị"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000009"
+      - "YS-LN05/Text/part0029.html/p000010"
+    rationale: "Thuật ngữ chuẩn trong tiếng Việt tương ứng với cơ quan thường trực/đoàn chủ tịch của đảng."
+    alternatives_vi:
+      - "Đoàn Chủ tịch Đảng Cộng sản"
+  - source_term: "bourgeoisie"
+    proposed_vi: "giai cấp tư sản"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000013"
+    rationale: "Thuật ngữ lý luận chính trị chuẩn xác trong phát ngôn mang màu sắc ý thức hệ của phía Đảng Cộng sản Liên bang."
+    alternatives_vi:
+      - "giới tư sản"
+  - source_term: "Londinium"
+    proposed_vi: "Londinium"
+    category: "địa danh"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000031"
+    rationale: "Giữ nguyên tên thủ đô của Khối Thịnh vượng chung theo sổ pending."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0029.html/p000001"
+    choices:
+      - "UNIFIED YEAR 1926 -> NĂM THỐNG NHẤT 1926"
+      - "THE COMMONWEALTH EMBASSY IN MOSKVA, MILITARY EXCHANGE RECEPTION VENUE -> ĐẠI SỨ QUÁN KHỐI THỊNH VƯỢNG CHUNG TẠI MOSKVA, ĐỊA ĐIỂM TIỆC CHIÊU ĐÃI GIAO LƯU QUÂN SỰ"
+  - segment_id: "YS-LN05/Text/part0029.html/p000002"
+    choices:
+      - "The Imperial and Federation Armies -> Lục quân Đế quốc và Quân đội Liên bang"
+      - "front lines -> tiền tuyến; in the rear -> ở hậu phương"
+  - segment_id: "YS-LN05/Text/part0029.html/p000003"
+    choices:
+      - "skirmishes on the front lines -> những cuộc đụng độ nhỏ lẻ ngoài tiền tuyến"
+      - "Giữ phủ định về ranh giới giữa bạn và thù 'chẳng hề rõ ràng đến thế'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000004"
+    choices:
+      - "Giữ câu chuyển ý ngập ngừng có dấu ba chấm ở cuối"
+  - segment_id: "YS-LN05/Text/part0029.html/p000005"
+    choices:
+      - "conventional battles -> những trận đánh quy ước"
+      - "Imperial Army -> Lục quân Đế quốc; Communist Party -> Đảng Cộng sản"
+  - segment_id: "YS-LN05/Text/part0029.html/p000006"
+    choices:
+      - "party executives -> ban lãnh đạo đảng; party members -> các đảng viên"
+      - "instrument of violence -> công cụ bạo lực"
+  - segment_id: "YS-LN05/Text/part0029.html/p000007"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho hai câu đầu đoạn theo DEC-P01-002"
+      - "machine for violence -> cỗ máy bạo lực; party executives -> ban lãnh đạo đảng"
+  - segment_id: "YS-LN05/Text/part0029.html/p000008"
+    choices:
+      - "party elites -> giới tinh hoa trong đảng"
+      - "Giữ sắc thái giới hạn 'cũng chỉ làm được đến thế là cùng'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000009"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *Chiến tranh chỉ là sự tiếp nối của chính trị.* ở câu đầu theo DEC-P01-002"
+      - "Communist Party presidium -> đoàn chủ tịch Đảng Cộng sản"
+  - segment_id: "YS-LN05/Text/part0029.html/p000010"
+    choices:
+      - "Imperial Army -> Lục quân Đế quốc; presidium -> đoàn chủ tịch"
+      - "Giữ sắc thái mỉa mai của người kể chuyện 'mà lại còn ra chiều sắc sảo lắm'"
+      - "Bảo toàn nhấn mạnh Markdown *Quân đội suy cho cùng cũng chỉ là phương tiện để phục vụ mục đích chính trị.* ở câu cuối theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000011"
+    choices:
+      - "receding front lines -> chiến tuyến ngày một lùi dần; party executives -> ban lãnh đạo đảng; Imperial Army -> Lục quân Đế quốc"
+  - segment_id: "YS-LN05/Text/part0029.html/p000012"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ hai câu của đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000013"
+    choices:
+      - "bourgeoisie -> giai cấp tư sản; người phát biểu tại cuộc họp đảng xưng 'tôi'"
+      - "Giữ đối lập giữa 'biết cách đánh bại kẻ thù' và 'chẳng biết làm thế nào để kết thêm đồng minh'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000014"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu hỏi tu từ nội tâm tập thể của Đảng Cộng sản theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000015"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ đoạn theo DEC-P01-002"
+      - "party -> đảng; fatherland -> tổ quốc; Communism -> Chủ nghĩa Cộng sản"
+  - segment_id: "YS-LN05/Text/part0029.html/p000016"
+    choices:
+      - "rock-solid conviction -> niềm xác tín vững như bàn thạch"
+  - segment_id: "YS-LN05/Text/part0029.html/p000017"
+    choices:
+      - "Giữ câu chuyển cảnh ngắn có dấu ba chấm"
+  - segment_id: "YS-LN05/Text/part0029.html/p000018"
+    choices:
+      - "Lời nâng ly chúc mừng ngắn gọn, trang trọng"
+  - segment_id: "YS-LN05/Text/part0029.html/p000019"
+    choices:
+      - "Lời nâng ly chúc mừng hợp tác quân sự giữa hai quốc gia ('chúng ta')"
+  - segment_id: "YS-LN05/Text/part0029.html/p000020"
+    choices:
+      - "Commonwealth Embassy in Moskva -> Đại sứ quán Khối Thịnh vượng chung ở Moskva"
+  - segment_id: "YS-LN05/Text/part0029.html/p000021"
+    choices:
+      - "honor guards -> đội tiêu binh danh dự; dress uniforms -> bộ lễ phục"
+      - "Giữ đối lập giữa không gian giao tế xa hoa như thời bình và dấu hiệu duy nhất của thời chiến"
+  - segment_id: "YS-LN05/Text/part0029.html/p000022"
+    choices:
+      - "wartime pact -> hiệp ước thời chiến; separate peace agreements -> thỏa thuận hòa bình riêng rẽ"
+      - "Giữ ẩn dụ châm biếm về những ly rượu của sự dối trá và đạo đức giả được rót đầy lợi ích chung"
+  - segment_id: "YS-LN05/Text/part0029.html/p000023"
+    choices:
+      - "Imperial Army -> Lục quân Đế quốc; gọi phía Đế quốc là 'Họ'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000024"
+    choices:
+      - "Xưng hô xã giao giữa các nhà ngoại giao nam giới tại tiệc chiêu đãi: 'tôi' - 'ông'"
+      - "Giữ ẩn dụ 'lấy đà tung cú đấm'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000025"
+    choices:
+      - "Diễn đạt hành động các nhà ngoại giao nam cố nén tiếng cười lớn ('tiếng cười hô hố' / 'tiếng cười phá lên')"
+  - segment_id: "YS-LN05/Text/part0029.html/p000026"
+    choices:
+      - "Xưng hô ngoại giao: gọi người đối thoại là 'Ông'"
+      - "Bảo toàn nhấn mạnh Markdown *mọi thứ* đúng vị trí từ được in nghiêng trong nguồn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000027"
+    choices:
+      - "Nhà ngoại giao Khối Thịnh vượng chung xưng 'tôi', nhắc tới 'Liên bang' và 'Đế quốc'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000028"
+    choices:
+      - "Federation -> Liên bang; giữ sự đối lập giữa lời lẽ xã giao sáo rỗng và cách nói thẳng không màu mè của phía Liên bang"
+  - segment_id: "YS-LN05/Text/part0029.html/p000029"
+    choices:
+      - "Đại diện Liên bang xưng 'chúng tôi' / 'chúng ta', gọi phía Khối Thịnh vượng chung là 'các ông'; second front -> mặt trận thứ hai"
+      - "Bảo toàn nhấn mạnh Markdown *Lực lượng mặt đất của các ông đâu rồi?* cho câu hỏi mỉa mai ngầm theo DEC-P01-002"
+      - "Federation -> Liên bang; Commonwealth -> Khối Thịnh vượng chung"
+  - segment_id: "YS-LN05/Text/part0029.html/p000030"
+    choices:
+      - "diplomats -> các nhà ngoại giao; giữ cấu trúc giả định ngược về bản lĩnh nghề nghiệp của nhà ngoại giao"
+  - segment_id: "YS-LN05/Text/part0029.html/p000031"
+    choices:
+      - "Nhà ngoại giao Khối Thịnh vượng chung xưng 'Tôi' / 'chúng tôi', giữ địa danh 'Londinium'"
+      - "fatherland -> tổ quốc; brothers-in-arms -> những người chiến hữu; Commonwealth diplomat -> Nhà ngoại giao của Khối Thịnh vượng chung"
