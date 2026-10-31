@@ -1,0 +1,230 @@
+task_id: vol-05-ch-02-b09-argon-review
+parent_task_id: vol-05-ch-02-b09
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 2
+target_translation: translations/vol-05/ch-02-b09.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0016.html/p000091
+    severity: minor
+    category: terminology_and_style
+    issue: "Cụm từ Pháp ngữ chỉ nghĩa vụ/trách nhiệm của giới quý tộc được dịch kèm phần giải nghĩa nối bằng dấu gạch ngang ở p000091 nhưng sang p000094 lại chỉ dùng phần dịch nghĩa tiếng Việt, chưa hoàn toàn đồng nhất giữa hai đoạn gần nhau (lưu ý không bọc nghiêng Markdown vì nguồn ở hai đoạn này không có thẻ nhấn mạnh)."
+    recommendation: "Có thể giữ cách diễn đạt hiện tại hoặc thống nhất dùng 'tinh thần trách nhiệm của tầng lớp quý tộc (noblesse oblige)' / 'ý thức trách nhiệm của tầng lớp quý tộc' ở cả p000091 và p000094 khi chuốt văn, miễn không thêm dấu *...* trái DEC-P01-002."
+  - segment_id: YS-LN05/Text/part0016.html/p000094
+    severity: minor
+    category: word_choice
+    issue: "Dịch 'ground unit' thành 'đơn vị bộ binh' hơi thu hẹp phạm vi so với đơn vị mặt đất/lục quân nói chung."
+    recommendation: "Khi chuốt văn có thể cân nhắc đổi 'đơn vị bộ binh' thành 'đơn vị mặt đất' để sát nghĩa gốc hơn."
+pending_term_recommendations:
+  - source_term: General Habergram / Habergram
+    proposed_vi: "Tướng Habergram / Habergram"
+    category: nhân vật / cấp bậc
+    status: proposed
+    rationale: "Giữ nguyên họ nhân vật và dịch cấp bậc General là Tướng nhất quán với các lãnh đạo quân sự khác trong tập 5."
+    alternatives_vi:
+      - "Tướng quân Habergram"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000061
+      - YS-LN05/Text/part0016.html/p000067
+      - YS-LN05/Text/part0016.html/p000081
+      - YS-LN05/Text/part0016.html/p000089
+  - source_term: Intelligence / intelligence agency
+    proposed_vi: "ngành Tình báo / cơ quan tình báo"
+    category: tổ chức
+    status: proposed
+    rationale: "Phân biệt hợp lý giữa danh từ viết hoa chỉ ngành/cơ quan Tình báo của Khối Thịnh vượng chung và danh từ chung chỉ cơ quan tình báo."
+    alternatives_vi:
+      - "Cục Tình báo"
+      - "bên Tình báo"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000068
+      - YS-LN05/Text/part0016.html/p000069
+      - YS-LN05/Text/part0016.html/p000071
+      - YS-LN05/Text/part0016.html/p000075
+      - YS-LN05/Text/part0016.html/p000087
+      - YS-LN05/Text/part0016.html/p000096
+  - source_term: Foreign Office
+    proposed_vi: "Bộ Ngoại giao"
+    category: tổ chức
+    status: proposed
+    rationale: "Cách dịch chuẩn xác cho cơ quan phụ trách đối ngoại của Khối Thịnh vượng chung, khớp với sổ thuật ngữ tạm tập 5."
+    alternatives_vi:
+      - "Văn phòng Đối ngoại"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000076
+  - source_term: Ministry of Supply
+    proposed_vi: "Bộ Tiếp vận"
+    category: tổ chức
+    status: proposed
+    rationale: "Diễn đạt đúng chức năng cơ quan cấp bộ phụ trách nguồn cung và vật tư thời chiến của Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "Bộ Cung ứng"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000077
+  - source_term: commerce raids
+    proposed_vi: "tập kích tuyến thương mại"
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thuật ngữ hải chiến/quân sự chỉ các hoạt động đánh phá tàu buôn và tuyến hàng hải thương mại của đối phương."
+    alternatives_vi:
+      - "đánh phá thương thuyền"
+      - "phá hoại giao thương"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000077
+  - source_term: Office of the Admiralty
+    proposed_vi: "Bộ Tư lệnh Hải quân"
+    category: tổ chức
+    status: proposed
+    rationale: "Phù hợp với ngữ cảnh cơ quan chỉ huy tối cao của hải quân Khối Thịnh vượng chung đang đòi tin tình báo quân sự về tàu ngầm và hạm đội Đế quốc."
+    alternatives_vi:
+      - "Bộ Hải quân"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000078
+  - source_term: War Office
+    proposed_vi: "Bộ Chiến tranh"
+    category: tổ chức
+    status: proposed
+    rationale: "Cách dịch chuẩn theo tên gọi lịch sử của bộ phụ trách lục quân/chiến tranh trong hệ thống nội các kiểu Anh/Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "Bộ Quân sự"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000079
+  - source_term: Committee of Commonwealth Defense
+    proposed_vi: "Ủy ban Quốc phòng Khối Thịnh vượng chung"
+    category: tổ chức
+    status: proposed
+    rationale: "Kết hợp nhất quán tên gọi 'Khối Thịnh vượng chung' đã dùng xuyên suốt với tên cơ quan hoạch định quốc phòng cấp cao."
+    alternatives_vi:
+      - "Ủy ban Phòng thủ Khối Thịnh vượng chung"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000084
+  - source_term: noblesse oblige
+    proposed_vi: "trách nhiệm của tầng lớp quý tộc / noblesse oblige"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Nguồn ở p000091 và p000094 không in nghiêng nên không bọc dấu sao theo DEC-P01-002; diễn đạt nghĩa trách nhiệm/nghĩa vụ của tầng lớp tinh hoa quý tộc giúp câu văn tự nhiên và rõ nghĩa."
+    alternatives_vi:
+      - "noblesse oblige"
+      - "nghĩa vụ quý tộc"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000091
+      - YS-LN05/Text/part0016.html/p000094
+locked_choices:
+  - segment_id: YS-LN05/Text/part0016.html/p000060
+    choices:
+      - "Điểm nhìn trần thuật ngôi thứ ba bám theo Tướng Habergram: 'he' -> 'ông', 'they/their' -> 'họ/của mình'."
+      - "Giữ cấu trúc mức độ 'couldn’t regret that heavy loss enough' -> 'dù ông có nuối tiếc tổn thất nặng nề ấy đến mấy cũng không xuể'."
+  - segment_id: YS-LN05/Text/part0016.html/p000061
+    choices:
+      - "Thuật ngữ và tên riêng: 'Imperial Army' -> 'Lục quân Đế quốc', 'General Habergram' -> 'Tướng Habergram', 'mole' -> 'tên nội gián'."
+  - segment_id: YS-LN05/Text/part0016.html/p000062
+    choices:
+      - "Tên riêng: 'The Empire' -> 'Đế quốc'; giữ đúng logic phản bác sự trùng hợp ngẫu nhiên."
+  - segment_id: YS-LN05/Text/part0016.html/p000063
+    choices:
+      - "Đại từ: 'he' -> 'ông'; giữ sắc thái quyết liệt trong ý định trừ khử nội gián."
+  - segment_id: YS-LN05/Text/part0016.html/p000064
+    choices:
+      - "Thuật ngữ: 'army and navy' -> 'lục quân và hải quân', 'human resources' -> 'nguồn nhân lực'."
+  - segment_id: YS-LN05/Text/part0016.html/p000065
+    choices:
+      - "Thuật ngữ: 'veteran agents on loan' -> 'các điệp viên kỳ cựu biệt phái'."
+  - segment_id: YS-LN05/Text/part0016.html/p000066
+    choices:
+      - "Lời thoại cảm thán của Habergram: giữ giọng bức xúc tự nhiên, 'they' -> 'họ', 'their own allies' -> 'chính đồng minh của mình'."
+  - segment_id: YS-LN05/Text/part0016.html/p000067
+    choices:
+      - "Giữ tình thái giả định quá khứ 'would have liked to give them a piece of his mind' -> 'chỉ muốn nói thẳng vào mặt họ cho ra lẽ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000068
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*...*' toàn bộ câu thoại dẫn lại đúng theo thẻ em trong nguồn (DEC-P01-002)."
+      - "Đại từ trong lời viện cớ của bên quân đội: 'We' -> 'Chúng tôi', 'you' -> 'các ông', 'Intelligence' -> 'ngành Tình báo'."
+  - segment_id: YS-LN05/Text/part0016.html/p000069
+    choices:
+      - "Thuật ngữ: 'intelligence agency' -> 'cơ quan tình báo'; giữ đúng quan hệ đối lập giữa lý lẽ và hành động cưỡng đoạt nhân sự."
+  - segment_id: YS-LN05/Text/part0016.html/p000070
+    choices:
+      - "Thuật ngữ: 'veteran agents' -> 'điệp viên kỳ cựu'."
+  - segment_id: YS-LN05/Text/part0016.html/p000071
+    choices:
+      - "Thuật ngữ: 'Intelligence' -> 'ngành Tình báo', 'mole hunt' -> 'cuộc truy lùng nội gián'."
+  - segment_id: YS-LN05/Text/part0016.html/p000072
+    choices:
+      - "Giữ cấu trúc phủ định giả định 'As if not having anyone to trust didn’t already have him at wit’s end'."
+  - segment_id: YS-LN05/Text/part0016.html/p000073
+    choices:
+      - "Thuật ngữ: 'Imperial Army’s code' -> 'mật mã của Lục quân Đế quốc'; giữ đúng đối lập giữa bí mật giải mã chưa lộ và mọi thứ khác đã rò rỉ."
+  - segment_id: YS-LN05/Text/part0016.html/p000074
+    choices:
+      - "Thuật ngữ: 'anti-espionage efforts' -> 'công tác phản gián', 'top secret intel' -> 'tin tình báo tuyệt mật'."
+  - segment_id: YS-LN05/Text/part0016.html/p000075
+    choices:
+      - "Thuật ngữ: 'Intelligence' -> 'ngành Tình báo'."
+  - segment_id: YS-LN05/Text/part0016.html/p000076
+    choices:
+      - "Tên cơ quan: 'Foreign Office' -> 'Bộ Ngoại giao', 'the Empire' -> 'Đế quốc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000077
+    choices:
+      - "Tên cơ quan và thuật ngữ: 'Ministry of Supply' -> 'Bộ Tiếp vận', 'Imperial Army' -> 'Lục quân Đế quốc', 'commerce raids' -> 'tập kích tuyến thương mại'."
+  - segment_id: YS-LN05/Text/part0016.html/p000078
+    choices:
+      - "Tên cơ quan: 'Office of the Admiralty' -> 'Bộ Tư lệnh Hải quân', 'Imperial Navy' -> 'Hải quân Đế quốc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000079
+    choices:
+      - "Tên cơ quan và phe phái: 'War Office' -> 'Bộ Chiến tranh', 'imperial and Federation forces in the east' -> 'cả lực lượng Đế quốc lẫn Liên bang ở phía đông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000080
+    choices:
+      - "Thuật ngữ: 'cabinet' -> 'nội các', 'minister' -> 'bộ trưởng', 'areas of jurisdiction' -> 'phạm vi thẩm quyền'."
+  - segment_id: YS-LN05/Text/part0016.html/p000081
+    choices:
+      - "Nhấn mạnh Markdown và điểm nhìn: bọc '*Và trên cương vị một công bộc, mình tôn trọng điều đó. Nhưng mà*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002); đại từ nội tâm trực tiếp 'I' -> 'mình', trần thuật 'he' -> 'ông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000082
+    choices:
+      - "Giữ đúng sắc thái các bộ phận đều đòi ưu tiên cao nhất trong khủng hoảng quốc gia."
+  - segment_id: YS-LN05/Text/part0016.html/p000083
+    choices:
+      - "Giữ đúng điều kiện giả định 'if it were possible, he would want to cooperate' và chi tiết 'passed the screenings' -> 'vượt qua các vòng thẩm tra lý lịch'."
+  - segment_id: YS-LN05/Text/part0016.html/p000084
+    choices:
+      - "Tên cơ quan: 'Committee of Commonwealth Defense' -> 'Ủy ban Quốc phòng Khối Thịnh vượng chung'."
+  - segment_id: YS-LN05/Text/part0016.html/p000085
+    choices:
+      - "Đại từ trần thuật: 'him/his' -> 'ông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000086
+    choices:
+      - "Giữ sự chuyển ý 'No, that was all he could do' -> 'Không, đó là tất cả những gì ông có thể làm'."
+  - segment_id: YS-LN05/Text/part0016.html/p000087
+    choices:
+      - "Thuật ngữ: 'Intelligence staff' -> 'nhân viên Tình báo', 'the continent' -> 'lục địa'."
+  - segment_id: YS-LN05/Text/part0016.html/p000088
+    choices:
+      - "Đại từ khái quát: 'you' -> 'bạn'; giữ đúng mệnh đề điều kiện mỉa mai về trào lưu tân binh trẻ tình nguyện ra tiền tuyến."
+  - segment_id: YS-LN05/Text/part0016.html/p000089
+    choices:
+      - "Tên riêng: 'General Habergram' -> 'Tướng Habergram'."
+  - segment_id: YS-LN05/Text/part0016.html/p000090
+    choices:
+      - "Đại từ: 'He' -> 'Ông', 'their youth' -> 'giới trẻ nước mình'."
+  - segment_id: YS-LN05/Text/part0016.html/p000091
+    choices:
+      - "Giữ cấu trúc phủ định kép giảm nhẹ 'it wasn’t as if he felt no warmth' -> 'không phải là ông chẳng cảm thấy chút ấm lòng nào'; không tự thêm in nghiêng Markdown vì nguồn không có thẻ nhấn mạnh."
+  - segment_id: YS-LN05/Text/part0016.html/p000092
+    choices:
+      - "Đại từ: 'he' -> 'ông', 'their fatherland' -> 'tổ quốc'."
+  - segment_id: YS-LN05/Text/part0016.html/p000093
+    choices:
+      - "Giữ đúng quan hệ điều kiện và nhận xét về sự bướng bỉnh trong quyết tâm cống hiến cho tổ quốc của giới trẻ."
+  - segment_id: YS-LN05/Text/part0016.html/p000094
+    choices:
+      - "Thuật ngữ quân sự: 'air units' -> 'các đơn vị không quân', 'mage units' -> 'đơn vị pháp sư', 'naval fleet' -> 'hạm đội hải quân'."
+  - segment_id: YS-LN05/Text/part0016.html/p000095
+    choices:
+      - "Giữ câu ngắn chuyển đoạn dứt khoát."
+  - segment_id: YS-LN05/Text/part0016.html/p000096
+    choices:
+      - "Thuật ngữ: 'rear service' -> 'phục vụ ở hậu phương', 'intelligence agency' -> 'cơ quan tình báo', 'frontline commander' -> 'chỉ huy tiền tuyến', 'air or mage forces' -> 'lực lượng không quân hoặc pháp sư'."
+      - "Giữ cấu trúc so sánh kép 'The more... the more likely...' -> 'Càng... càng... thì họ lại càng...'."
