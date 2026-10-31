@@ -1,0 +1,277 @@
+task_id: "vol-05-ch-03-b02-argon-review"
+parent_task_id: "vol-05-ch-03-b02"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-03-b02-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0018.html/p000025"
+    issue: "Động từ chỉ thủ tục lính gác yêu cầu khách dừng lại khai báo danh tính theo điều lệnh canh gác được dịch thành 'tra hỏi khách đến làm việc', hơi nghiêng về sắc thái thẩm vấn nghi phạm."
+    evidence: "Nguyên bản dùng động từ thuật ngữ canh gác chỉ hành động chặn hỏi danh tính/mật khẩu đối với người ra vào cổng gác (tương ứng trực tiếp với câu yêu cầu khai báo tên và cấp bậc ở p000019), và người kể đang khen ngợi tác phong làm việc đúng quy định của họ."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ ở bước chuốt văn thành 'yêu cầu khách đến khai báo danh tính' hoặc 'kiểm tra danh tính khách đến làm việc' để giữ đúng sắc thái thủ tục canh gác quân sự."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0018.html/p000038"
+    issue: "Cụm định ngữ chỉ nơi đóng quân của Tanya được dịch là 'từ vùng tôi từng đồn trú', dễ gợi ý rằng đợt đồn trú của Tanya tại đó đã kết thúc."
+    evidence: "Nguyên bản dùng thì quá khứ theo điểm nhìn thời điểm Tanya đang tạm về thủ đô Berun công tác và món mật ong đã được mua từ trước khi lên đường, nhưng thực tế Tanya vẫn đang thuộc biên chế đồn trú tại mặt trận phía Đông (như vừa khai báo ở p000022)."
+    recommendation: "Có thể cân nhắc lược chữ 'từng' thành 'từ vùng tôi đồn trú' hoặc 'từ vùng chỗ tôi đồn trú' ở bước chuốt văn để tránh hiểu nhầm là đã chuyển đơn vị khỏi mặt trận phía Đông."
+pending_term_recommendations:
+  - source_term: "General Staff Office / General Staff"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Thống nhất cách dịch phân biệt giữa trụ sở/văn phòng ('General Staff Office') và cơ quan ('General Staff') theo sổ pending Tập 1–5."
+    alternatives_vi:
+      - "Văn phòng Bộ Tổng Tham mưu / Bộ Tổng Tham mưu"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000016"
+      - "YS-LN05/Text/part0018.html/p000017"
+      - "YS-LN05/Text/part0018.html/p000020"
+      - "YS-LN05/Text/part0018.html/p000021"
+      - "YS-LN05/Text/part0018.html/p000025"
+      - "YS-LN05/Text/part0018.html/p000049"
+  - source_term: "MP"
+    proposed_vi: "quân cảnh"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 1 và Tập 5 cho lực lượng quân cảnh làm nhiệm vụ kiểm soát tại cổng."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000018"
+  - source_term: "Magic Lieutenant Colonel Tanya von Degurechaff"
+    proposed_vi: "Trung tá Pháp sư Tanya von Degurechaff"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc chuyên ngành pháp sư và họ tên đầy đủ của Tanya theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi:
+      - "Trung tá Ma pháp Tanya von Degurechaff"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000022"
+  - source_term: "Salamander Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ Kampfgruppe kèm tên định danh Salamander theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000022"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía Đông"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 5 cho tên mặt trận tác chiến ở hướng đông."
+    alternatives_vi:
+      - "chiến trường phía Đông"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000022"
+  - source_term: "Colonel von Degurechaff"
+    proposed_vi: "Trung tá von Degurechaff"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Dịch đúng cấp bậc thực tế của Tanya (Trung tá) khi lính gác dùng cách gọi tắt trong giao tiếp quân sự, khớp với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000023"
+  - source_term: "Operations Division"
+    proposed_vi: "Cục Tác chiến"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 4 và Tập 5 cho cơ quan tác chiến thuộc Bộ Tổng tham mưu."
+    alternatives_vi:
+      - "Phòng Tác chiến"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000026"
+  - source_term: "Colonel Uger / Lieutenant Colonel Uger"
+    proposed_vi: "Trung tá Uger"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Thống nhất dịch là 'Trung tá Uger' cả trong lời chào gọi tắt ('Colonel Uger' ở p000031) lẫn trần thuật đầy đủ ('Lieutenant Colonel Uger' ở p000043), khớp với sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000031"
+      - "YS-LN05/Text/part0018.html/p000043"
+  - source_term: "General von Rudersdorf"
+    proposed_vi: "Tướng von Rudersdorf"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 5 khi nguyên bản gọi chung cấp tướng ('General') kèm họ."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000032"
+  - source_term: "First Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Trung úy của Serebryakov theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000037"
+  - source_term: "war college"
+    proposed_vi: "trường đại học quân sự"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với phương án đã khóa trong sổ pending từ Tập 2."
+    alternatives_vi:
+      - "học viện quân sự"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000043"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Thống nhất với sổ pending Tập 5 khi chỉ quân chủng lục quân của Đế quốc."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000049"
+  - source_term: "home front"
+    proposed_vi: "hậu phương"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch tự nhiên, chuẩn xác chỉ đời sống trong nước/hậu phương đối lập với tiền tuyến."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000051"
+  - source_term: "rutabagas"
+    proposed_vi: "củ cải Thụy Điển"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Dịch chuẩn xác tên loại củ cải đường/củ cải Thụy Điển gắn với điển cố lịch sử mùa đông củ cải thời Thế chiến I."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000052"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0018.html/p000016"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó' kết hợp với đại từ phản thân 'mình'"
+      - "Cơ quan và danh từ: 'Văn phòng Bộ Tổng tham mưu', 'quà lưu niệm từ miền đông', 'chiếc va li sĩ quan'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000017"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'"
+      - "Thuật ngữ: 'điều lệnh', 'Bộ Tổng tham mưu'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000018"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó / Nó'"
+      - "Thuật ngữ: 'bàn trực của quân cảnh'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000019"
+    choices:
+      - "Câu mệnh lệnh theo điều lệnh của quân cảnh gác cổng, lược đại từ ngôi thứ hai: '“Hãy khai báo tên và cấp bậc.”'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000020"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc cụm '*vẫn như mọi khi*' đúng phạm vi thẻ em trong nguồn"
+      - "Cơ quan: 'Văn phòng Bộ Tổng tham mưu'; giữ phủ định 'không bao giờ lơ là chức trách'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000021"
+    choices:
+      - "Điểm nhìn độc thoại nội tâm của Tanya theo DEC-P01-001: tự xưng 'Mình / mình'"
+      - "Cơ quan: 'Văn phòng Bộ Tổng tham mưu'; tình thái suy đoán chắc chắn: 'hẳn họ phải có trí nhớ siêu phàm lắm'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000022"
+    choices:
+      - "Lời khai báo quân hàm, họ tên và đơn vị của Tanya: '“Trung tá Pháp sư Tanya von Degurechaff thuộc Kampfgruppe Salamander, hiện đang được phân công tại mặt trận phía Đông.”'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000023"
+    choices:
+      - "Cách gọi cấp bậc của lính gác với Tanya: 'Trung tá von Degurechaff', kèm tiểu từ lễ phép 'ạ'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000024"
+    choices:
+      - "Giữ nguyên lập luận khái quát về kỷ luật hành chính và điều lệnh ('trái với điều lệnh')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000025"
+    choices:
+      - "Điểm nhìn độc thoại nội tâm của Tanya theo DEC-P01-001: tự xưng 'mình'"
+      - "Cơ quan: 'Văn phòng Bộ Tổng tham mưu'; giữ câu hỏi tu từ phủ định ở cuối đoạn ('Làm sao mình có thể phàn nàn...')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000026"
+    choices:
+      - "Xưng hô của quân cảnh với Tanya: tự xưng 'Chúng tôi', gọi 'Trung tá', kèm tiểu từ lễ phép 'ạ'"
+      - "Cơ quan: 'Cục Tác chiến'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000027"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'Nó'"
+      - "Giữ phủ định toàn phần: 'hoàn toàn không có cảnh hối hả nhộn nhịp thường thấy trước một chiến dịch lớn'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000028"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc cụm '*Vậy thì sao đây*' đúng phạm vi thẻ em trong nguồn"
+      - "Đại từ trần thuật của Tanya: 'Tanya', 'Nó' kết hợp phản thân 'mình'; giữ phủ định ở câu đầu ('Chẳng một nhân viên tham mưu nào qua lại trông có vẻ quá căng thẳng cả')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000029"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 và nội tâm theo DEC-P01-001: '*Mình đoán nhầm sao?*' (đúng phạm vi thẻ em)"
+      - "Đại từ trần thuật của Tanya ở phần còn lại: 'Nó / nó'; giữ mệnh đề nhượng bộ ('dù vẫn giữ chừng mực để không thành khiếm nhã')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000030"
+    choices:
+      - "Lời chào xã giao tự nhiên, không gán đại từ khi chưa nêu tên người nói: '“Ồ, lâu rồi không gặp.”'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000031"
+    choices:
+      - "Quân hàm và tên trong lời đáp của Tanya: 'Trung tá Uger'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000032"
+    choices:
+      - "Trần thuật ngôi thứ ba: 'Họ', 'Tanya' – 'mình'"
+      - "Quân hàm và tên: 'Tướng von Rudersdorf'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000033"
+    choices:
+      - "Xưng hô của Uger với Tanya (đồng cấp Trung tá, bạn học cũ ở trường đại học quân sự): gọi Tanya là 'cô'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000034"
+    choices:
+      - "Xưng hô của Tanya với Uger: tự xưng 'Tôi'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000035"
+    choices:
+      - "Xưng hô của Uger với Tanya: tự xưng 'tôi'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000036"
+    choices:
+      - "Đại từ trần thuật chỉ Uger: 'Anh ta'; tên riêng: 'Tanya'"
+      - "Xưng hô trong thoại của Tanya với Uger: tự xưng 'Tôi', gọi 'anh'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000037"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'Nó / nó'"
+      - "Quân hàm và tên: 'Trung úy Serebryakov'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000038"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Uger: tự xưng 'tôi', gọi 'Anh'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000039"
+    choices:
+      - "Xưng hô trong thoại của Uger với Tanya: gọi 'cô'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000040"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ đúng 3 cụm bọc '*...*' tương ứng với 3 thẻ em trong nguồn ('*Hửm?*', '*nhẹ nhõm*', '*Chỉ là mật ong thôi mà… Có thực sự đáng để mừng rỡ đến mức ấy không?*')"
+      - "Trần thuật ngôi thứ ba: 'Tanya', 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000041"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Uger: tự xưng 'tôi', gọi 'anh'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000042"
+    choices:
+      - "Xưng hô trong thoại của Uger với Tanya: tự xưng 'tôi', đại từ gộp 'cả hai chúng ta'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000043"
+    choices:
+      - "Tên riêng và quân hàm: 'Tanya', 'Trung tá Uger'"
+      - "Thuật ngữ: 'trường đại học quân sự'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000044"
+    choices:
+      - "Đại từ trần thuật chỉ Uger: 'Anh ta'; giữ nguyên cấu trúc giả định 'Nếu chỉ một món quà cảm ơn bằng mật ong thôi mà đã đủ để nhận lại cái bắt tay đầy cảm kích, thì chuyện này quả là khá kỳ lạ'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000045"
+    choices:
+      - "Giữ nguyên đối tượng và mức độ câu hỏi của Tanya: '“…Tình hình lương thực ở hậu phương tệ đến mức ấy cơ à?”'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000046"
+    choices:
+      - "Giữ cấu trúc phủ định bộ phận có rào đón trong câu trả lời của Uger: '“Chưa đến mức khủng hoảng đâu, nên xét theo nghĩa đó thì cũng không kinh khủng đến thế.”'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000047"
+    choices:
+      - "Đại từ trần thuật chỉ Uger: 'anh ta'; giữ phủ định kép ở cả hai câu ('không bị chết đói', 'chẳng có ai như đang phải chịu cảnh đói khát cả')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000048"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Mà cũng phải*' đúng phạm vi thẻ em trong nguồn; trần thuật 'Tanya nghĩ thêm'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000049"
+    choices:
+      - "Cơ quan và chức danh: 'Lục quân Đế quốc', 'Văn phòng Bộ Tổng tham mưu', 'các sĩ quan tham mưu'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 và giả định trái thực tế: chỉ bọc '*đâu còn là lúc để mà đánh đấm nữa*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0018.html/p000050"
+    choices:
+      - "Thuật ngữ: 'việc phân phối theo định lượng'; giữ cấu trúc so sánh hơn ('vận hành trôi chảy hơn so với hồi đầu cuộc chiến')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000051"
+    choices:
+      - "Thuật ngữ: 'hậu phương'; giữ câu hỏi xác nhận của Tanya"
+  - segment_id: "YS-LN05/Text/part0018.html/p000052"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*trên phương diện calo và dinh dưỡng*' đúng phạm vi thẻ em trong nguồn"
+      - "Đại từ ngôi thứ nhất số nhiều trong thoại của Uger: 'chúng ta'; thuật ngữ: 'củ cải Thụy Điển'"
