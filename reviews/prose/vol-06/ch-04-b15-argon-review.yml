@@ -1,0 +1,254 @@
+task_id: "vol-06-ch-04-b15-argon-review"
+parent_task_id: "vol-06-ch-04-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 4
+source_package: "work/vol-06/batches/ch-04-b15-source.jsonl"
+target_translation: "translations/vol-06/ch-04-b15.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN06/Text/part0019.html/p000524"
+    severity: "minor"
+    category: "pronouns_and_address"
+    issue: "Tanya gọi chung cả nhóm sĩ quan cấp dưới ở bàn ăn là 'các anh' (tại p000524, p000541, p000543, p000548, p000550) trong khi trong nhóm đang dùng bữa có cả nữ sĩ quan là Trung úy Serebryakov (tham gia thoại trực tiếp ở p000538–p000539 và được liệt kê ở p000549)."
+    evidence: "Trong nhóm sĩ quan cùng ăn tối có Weiss, Grantz, Wüstemann và Serebryakov; cách gọi 'các anh' thiên về giới tính nam, dù trong khẩu lệnh/giao tiếp quân ngũ đôi khi vẫn dùng khái quát."
+    recommendation: "Có thể cân nhắc đổi cách gọi chung 'troops' / 'you' sang 'mọi người' hoặc 'các đồng chí / các vị' để bao quát cả Serebryakov tự nhiên hơn; không ảnh hưởng nghĩa cốt lõi."
+pending_term_recommendations:
+  - source_term: "Kingdom of Ildoa / Ildoa"
+    proposed_vi: "Vương quốc Ildoa / Ildoa"
+    category: "tên quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với phương án đã dùng xuyên suốt trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000525"
+      - "YS-LN06/Text/part0019.html/p000531"
+      - "YS-LN06/Text/part0019.html/p000533"
+      - "YS-LN06/Text/part0019.html/p000534"
+  - source_term: "Lieutenant Grantz / Grantz"
+    proposed_vi: "Trung úy Grantz / Grantz"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc First Lieutenant của Grantz trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Thượng úy Grantz"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000528"
+      - "YS-LN06/Text/part0019.html/p000529"
+      - "YS-LN06/Text/part0019.html/p000549"
+  - source_term: "Major Weiss / Weiss"
+    proposed_vi: "Thiếu tá Weiss / Weiss"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc hiện tại của Weiss trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000529"
+      - "YS-LN06/Text/part0019.html/p000549"
+      - "YS-LN06/Text/part0019.html/p000552"
+      - "YS-LN06/Text/part0019.html/p000553"
+  - source_term: "the Empire / the Republic / Entente Alliance / Dacia / Federation / Commonwealth / Free Republic"
+    proposed_vi: "Đế quốc / Cộng hòa / Liên minh Hiệp ước / Dacia / Liên bang / Khối Thịnh vượng chung / Cộng hòa Tự do"
+    category: "tên quốc gia / phe phái"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thống nhất hoàn toàn với hệ thống tên quốc gia trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000531"
+      - "YS-LN06/Text/part0019.html/p000537"
+      - "YS-LN06/Text/part0019.html/p000538"
+      - "YS-LN06/Text/part0019.html/p000545"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Thưa Trung tá / Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với quy ước cấp dưới gọi Trung tá Tanya von Degurechaff trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000525"
+      - "YS-LN06/Text/part0019.html/p000538"
+  - source_term: "Lieutenant Serebryakov / Serebryakov / Wüstemann / lieutenants"
+    proposed_vi: "Trung úy Serebryakov / Serebryakov / Wüstemann / các trung úy"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc First Lieutenant của Serebryakov, Wüstemann và các sĩ quan cùng cấp trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000539"
+      - "YS-LN06/Text/part0019.html/p000549"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tên cơ quan quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với phương án tạm trong work/run-state/pending-terms-index.yml ở tập 6."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000546"
+  - source_term: "MPs"
+    proposed_vi: "quân cảnh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với phương án dịch military police / MPs trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000548"
+      - "YS-LN06/Text/part0019.html/p000550"
+  - source_term: "ersatz food"
+    proposed_vi: "đồ ăn thay thế"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Tương ứng nhất quán với 'cà phê thay thế' (ersatz coffee) đã có trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "thực phẩm thay thế"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000559"
+  - source_term: "the homeland"
+    proposed_vi: "chính quốc"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với phương án tạm trong work/run-state/pending-terms-index.yml và đối lập rõ với 'tiền tuyến' (the front lines) trong câu."
+    alternatives_vi:
+      - "hậu phương trong nước"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000560"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0019.html/p000524"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng đại từ 'nó'; thoại Tanya dùng ngôi gộp 'Chúng ta'; giữ cấu trúc phủ định bộ phận 'khó lòng… được' và thông điệp 'Đối thoại là bước đầu tiên để làm lành với nhau'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000525"
+    choices:
+      - "Thoại Grantz hỏi Tanya: tự xưng 'tôi', gọi 'Trung tá' kèm 'ạ?'; giữ đúng trọng tâm câu hỏi về việc 'Ildoa rốt cuộc sẽ thực sự đứng ra làm trung gian hòa giải không'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000526"
+    choices:
+      - "Thoại Tanya đáp ngắn gọn, dứt khoát: 'Không, điều đó là bất khả thi'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000527"
+    choices:
+      - "Thoại Grantz phản hỏi: giữ câu hỏi phủ định tu từ 'Thế thì chẳng phải chuyện này chỉ là phí thời gian thôi sao ạ?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000528"
+    choices:
+      - "Thoại Weiss đồng tình với Grantz: tự xưng 'Tôi', gọi 'Trung úy Grantz'; giữ phủ định 'Chẳng có lý do gì để chúng ta phải hùa theo chiến thuật câu giờ của kẻ địch cả…'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000529"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng đại từ 'Mình'; giữ cấu trúc 'không phải là người duy nhất' và sắc thái 'ngay cả Weiss cũng đồng tình!'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000530"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng 'mình'; nhấn mạnh Markdown theo DEC-P01-002: giữ '*Đúng là khổ với đám hiếu chiến mà!*' đúng phạm vi phần in nghiêng trong nguồn."
+  - segment_id: "YS-LN06/Text/part0019.html/p000531"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'Nó / nó'; giữ dấu gạch ngang chen hành động thở dài; giữ đầy đủ tên các quốc gia ('Vương quốc Ildoa', 'Đế quốc', 'Cộng hòa', 'Liên minh Hiệp ước', 'Dacia', 'Liên bang', 'Khối Thịnh vượng chung', 'Cộng hòa Tự do') và quan hệ điều kiện 'nếu… thì động cơ của họ đã quá rõ ràng'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000532"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó'; giữ tình thái 'dường như vẫn chưa nhìn ra điều đó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000533"
+    choices:
+      - "Thoại Tanya: giữ cấu trúc khẳng định loại trừ 'chỉ có thể là nền hòa bình trên tất cả các mặt trận chứ không gì khác'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000534"
+    choices:
+      - "Nội tâm phân tích của Tanya: giữ phủ định 'không phải là kiểu tình huống có thể đạt được hòa bình riêng lẻ với từng quốc gia' và mục đích 'Ildoa cần phải đàm phán với tất cả các bên'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000535"
+    choices:
+      - "Câu nhấn mạnh ngắn trong nội tâm: 'Đúng vậy, với tất cả các bên có liên quan'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000536"
+    choices:
+      - "Nội tâm Tanya: giữ phủ định 'Đó chẳng phải là kiểu hội nghị có thể thu xếp một sớm một chiều được'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000537"
+    choices:
+      - "Thoại cấp dưới nhận xét: giữ phủ định kép song hành 'Cả Liên bang lẫn Khối Thịnh vượng chung đều sẽ không chấp nhận chiến thắng của Đế quốc' và điều kiện ngoại trừ 'Trừ phi chúng ta đưa ra một số nhượng bộ lớn…'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000538"
+    choices:
+      - "Thoại Serebryakov hỏi Tanya: gọi 'Thưa Trung tá, Trung tá' kèm 'ạ?'; giữ đúng câu hỏi về việc 'Đế quốc nên nhượng bộ không'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000539"
+    choices:
+      - "Trần thuật giữ tên 'Tanya' và phản thân 'mình'; thoại Tanya gọi 'Trung úy Serebryakov', giữ tình thái thận trọng 'có lẽ đó không phải là chuyện mà một quân nhân tại ngũ nên bận tâm' và 'những quân nhân phụng sự Hoàng đế và Tổ quốc'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000540"
+    choices:
+      - "Nội tâm Tanya: giữ câu hỏi tu từ 'Làm sao có ai phản đối nó cho được?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000541"
+    choices:
+      - "Thoại Tanya: giữ cấu trúc điều kiện loại trừ 'Trừ khi… còn không thì chúng ta chẳng có lựa chọn nào khác ngoài việc tuân thủ nội quy và điều lệnh của quân đội'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000542"
+    choices:
+      - "Trần thuật: giữ tên 'Tanya' và hành động 'chấm dứt cuộc trò chuyện đó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000543"
+    choices:
+      - "Thoại Tanya chuyển chủ đề sang bữa tối: giữ giọng điệu thân mật với cấp dưới."
+  - segment_id: "YS-LN06/Text/part0019.html/p000544"
+    choices:
+      - "Nhận định ngắn trong nội tâm: 'Một bữa ăn lúc nào cũng là một niềm vui'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000545"
+    choices:
+      - "Nội tâm Tanya: giữ quan hệ nhượng bộ 'Ngay cả khi tình trạng thiếu hụt vật tư ngày càng trầm trọng, hệ thống phân phối tại Đế quốc vẫn vận hành đủ tốt để người ta có thể đi ăn tiệm'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000546"
+    choices:
+      - "Trần thuật gián tiếp tự do về Tanya theo DEC-P01-001: dùng 'nó'; giữ giả định 'nếu được hỏi có muốn dùng bữa tại Văn phòng Bộ Tổng tham mưu hay không, nó sẽ lập tức từ chối—đồ ăn ở đây ngon đến mức đó đấy' (trong đó 'ở đây' quy chiếu quán ăn hiện tại)."
+  - segment_id: "YS-LN06/Text/part0019.html/p000547"
+    choices:
+      - "Nội tâm Tanya: giữ 'bữa tối chẳng tệ chút nào' và 'nơi tuyệt vời để bàn chuyện nghỉ phép'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000548"
+    choices:
+      - "Thoại Tanya: tự xưng 'tôi', ngôi gộp 'chúng ta'; giữ 'trạng thái trực chiến dự bị', phủ định 'không ở vùng chiến sự' và điều kiện 'Chừng nào… không làm chuyện gì khiến quân cảnh phải nhúng tay vào'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000549"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'Tanya' và 'Nó'; Weiss đáp 'Rõ ạ' và được quy chiếu bằng 'anh ta'; giữ danh sách 'Serebryakov, Grantz, Wüstemann và các trung úy khác'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000550"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó'; thoại Tanya tự xưng 'Tôi', giữ dấu gạch ngang nhấn mạnh 'Hãy cẩn thận—đúng vậy, hết sức cẩn thận—đừng có gây gổ đánh nhau với quân cảnh đấy' và điều kiện nghỉ phép khi quay lại phía đông."
+  - segment_id: "YS-LN06/Text/part0019.html/p000551"
+    choices:
+      - "Thoại Weiss hỏi Tanya: giữ câu hỏi ngắn kèm tiểu từ lễ phép 'À, ai sẽ trực ban vậy ạ?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000552"
+    choices:
+      - "Trần thuật: giữ tên 'Weiss', đại từ 'anh ta' và nhận xét 'có vẻ đáng tin cậy'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000553"
+    choices:
+      - "Thoại Tanya nói với Weiss: gọi 'Thiếu tá Weiss', xưng 'Tôi - anh'; giữ nhịp tự sửa lời bằng dấu gạch ngang 'Chúng ta sẽ—anh sẽ chia đôi thời gian trực với tôi'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000554"
+    choices:
+      - "Thoại Weiss nhận lệnh: giữ dấu ba chấm ngập ngừng '…Rõ ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000555"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó', quy chiếu Weiss bằng 'anh ta'; giữ phủ định kép 'Không phải là nó không thấy áy náy vì chẳng thể cho anh ta một kỳ nghỉ phép trọn vẹn'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000556"
+    choices:
+      - "Nhận định khái quát: 'Người có trách nhiệm tồn tại là để gánh vác trách nhiệm'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000557"
+    choices:
+      - "Trần thuật giữ tên 'Tanya'; nhấn mạnh Markdown theo DEC-P01-002: giữ '*Tôi là kẻ ăn hại chỉ biết choán chỗ chứ chẳng buồn lo liệu lấy những việc thuộc trách nhiệm của mình!*' đúng phạm vi phần in nghiêng trong nguồn."
+  - segment_id: "YS-LN06/Text/part0019.html/p000558"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Hừm.*' đúng phạm vi từ in nghiêng trong nguồn; trần thuật giữ tên 'Tanya'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000559"
+    choices:
+      - "Thoại phàn nàn về đồ ăn: tự xưng 'tôi', giữ thuật ngữ 'đồ ăn thay thế' và so sánh phủ định 'chẳng có thứ gì làm tôi mất cảm giác thèm ăn hơn thế'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000560"
+    choices:
+      - "Thoại cấp dưới nhận xét: kết câu bằng 'ạ', giữ đối chiếu giữa 'chính quốc' và 'ngoài tiền tuyến'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000561"
+    choices:
+      - "Thoại đáp lại: giữ tình thái 'Có lẽ đúng là phải như vậy' và quan hệ điều kiện 'một khi đầu lưỡi đã quen nếm mùi xa xỉ rồi thì cũng cần thời gian mới thích nghi lại được'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000562"
+    choices:
+      - "Thoại cấp dưới: tự xưng 'Tôi' kèm 'ạ…', giữ sự hoài nghi 'không chắc liệu có thể gọi cuộc sống ngoài tiền tuyến là xa xỉ hay không'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000563"
+    choices:
+      - "Trần thuật: giữ tên 'Tanya' và trạng thái 'đã… chết lặng'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000564"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng đại từ 'mình / Mình'; giữ câu hỏi tự vấn trong dấu gạch ngang 'Mình—một người coi trọng lối sống văn minh, có văn hóa và tôn trọng trí tuệ—mà lại bị chiến trường mê hoặc ư?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000565"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng 'Mình'; giữ nhận định kết luận 'Trong một thế giới chìm trong chiến tranh, sự khắc nghiệt của cuộc sống thường nhật có thể làm méo mó cả những tập quán lẫn giá trị của con người'."
