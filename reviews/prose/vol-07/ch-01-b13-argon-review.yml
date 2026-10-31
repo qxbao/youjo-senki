@@ -1,0 +1,212 @@
+task_id: "vol-07-ch-01-b13-argon-review"
+parent_task_id: "vol-07-ch-01-b13"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 1
+source_package: "work/vol-07/batches/ch-01-b13-source.jsonl"
+target_translation: "translations/vol-07/ch-01-b13.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000501"
+    severity: "minor"
+    issue: "Câu trần thuật cuối đoạn dịch là 'Tanya rủa thầm trời xanh' trong khi câu thoại ngay trước đó được đặt trong dấu ngoặc kép (lời nói thành tiếng), và động từ gốc chỉ hành động buông lời nguyền rủa hướng lên trời chứ không có nét nghĩa 'thầm'."
+    rationale: "Bỏ chữ 'thầm' (đổi thành 'nguyền rủa trời xanh' hoặc 'buông lời nguyền rủa trời xanh') để không mâu thuẫn với câu thoại nói thành tiếng ngay trước đó và bám sát nghĩa gốc."
+    suggested_fix: "Đổi 'Tanya rủa thầm trời xanh.' thành 'Tanya nguyền rủa trời xanh.' (hoặc 'Tanya buông lời nguyền rủa trời xanh.')."
+pending_term_recommendations:
+  - source_term: "LMGs"
+    proposed_vi: "súng máy hạng nhẹ"
+    alternatives_vi:
+      - "trung liên"
+    rationale: "Dịch rõ chữ viết tắt quân sự chỉ súng máy hạng nhẹ hỗ trợ hỏa lực bộ binh."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000495"
+    status: "proposed"
+  - source_term: "chain of command / artillery division"
+    proposed_vi: "hệ thống chỉ huy / sư đoàn pháo binh"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ 'hệ thống chỉ huy' và 'sư đoàn pháo binh' từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000499"
+      - "YS-LN07/Text/chapter002.xhtml/p000502"
+    status: "proposed"
+  - source_term: "Fifty-Fourth Regiment / Colonel Dirichlet / second-in-command"
+    proposed_vi: "Trung đoàn 54 / Đại tá Dirichlet / phó chỉ huy"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên đơn vị 'Trung đoàn 54', quân hàm 'Đại tá Dirichlet' và chức danh 'phó chỉ huy' từ batch trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000502"
+      - "YS-LN07/Text/chapter002.xhtml/p000505"
+      - "YS-LN07/Text/chapter002.xhtml/p000507"
+      - "YS-LN07/Text/chapter002.xhtml/p000508"
+      - "YS-LN07/Text/chapter002.xhtml/p000511"
+      - "YS-LN07/Text/chapter002.xhtml/p000512"
+      - "YS-LN07/Text/chapter002.xhtml/p000526"
+    status: "proposed"
+  - source_term: "firing squad"
+    proposed_vi: "xử bắn"
+    alternatives_vi:
+      - "đội xử bắn"
+    rationale: "Kế thừa cách dịch tự nhiên trong ngữ cảnh hình phạt kỷ luật quân sự từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000503"
+    status: "proposed"
+  - source_term: "Colonel / Ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / Thưa Trung tá"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán cách dịch xưng hô của cấp dưới với Trung tá Tanya von Degurechaff từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000510"
+      - "YS-LN07/Text/chapter002.xhtml/p000529"
+    status: "proposed"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm và tên Thiếu tá Weiss từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000522"
+    status: "proposed"
+  - source_term: "Salamander Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên đơn vị 'Kampfgruppe Salamander' từ sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000524"
+    status: "proposed"
+  - source_term: "HQ section / provisional headquarters"
+    proposed_vi: "ban chỉ huy / sở chỉ huy lâm thời"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán 'sở chỉ huy lâm thời' và dịch rõ bộ phận tham mưu - chỉ huy của trung đoàn là 'ban chỉ huy'."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000529"
+      - "YS-LN07/Text/chapter002.xhtml/p000532"
+    status: "proposed"
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên đơn vị 'Tiểu đoàn Pháp sư Trên không số 203' từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000531"
+      - "YS-LN07/Text/chapter002.xhtml/p000532"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000495"
+    choices:
+      - "Thoại, đại từ & thuật ngữ: giữ dấu chấm lửng mở đầu, đại từ tự xưng 'Tôi' của Tanya, phủ định 'không nghe thấy đủ' và thuật ngữ 'súng máy hạng nhẹ'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000496"
+    choices:
+      - "Tình thái, câu hỏi nội tâm & thuật ngữ: giữ suy đoán 'hẳn là từng trận địa đã bắt đầu tổ chức phản kích theo kế hoạch phòng ngự', câu hỏi 'Chẳng lẽ họ đã đánh mất toàn bộ trang bị hạng nặng trong lúc rút lui rồi sao?' và nhận định 'Hỏa lực bắn trả của quân ta nghe yếu ớt đến thảm hại.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000497"
+    choices:
+      - "Thoại cảm thán & phủ định: giữ câu phủ định 'Thậm chí chẳng tìm nổi một điểm sáng le lói nào.' và câu hỏi cảm thán của Tanya."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000498"
+    choices:
+      - "Nghĩa & thuật ngữ: giữ hình ảnh so sánh dàn nhạc giao hưởng của hỏa lực Đế quốc với chiếc máy hát đĩa bị hỏng; giữ đối lập giữa sự kháng cự ngoan cường của từng đơn vị riêng lẻ và sự thiếu vắng phối hợp cũng như 'hỏa lực yểm trợ cấp trung đoàn hoặc sư đoàn'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000499"
+    choices:
+      - "Đại từ, thuật ngữ & giọng mỉa mai: dùng 'chúng tôi' cho phe mình; 'local chain of command' -> 'hệ thống chỉ huy tại chỗ'; 'artillery division' -> 'sư đoàn pháo binh'; giữ giọng mỉa mai cay độc ở câu cuối."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000500"
+    choices:
+      - "Nhận định ngắn: giữ 'Nói ngắn gọn, đây là kịch bản tồi tệ nhất.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000501"
+    choices:
+      - "Đại từ, phủ định & trần thuật: dùng 'chúng tôi' trong nội tâm và 'Chúng ta' trong câu thoại; giữ phủ định 'không còn phương tiện để dựng lên một thế trận phòng ngự có tổ chức'; chỉnh 'rủa thầm trời xanh' thành 'nguyền rủa trời xanh' (hoặc 'buông lời nguyền rủa trời xanh') theo finding minor."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000502"
+    choices:
+      - "Đại từ trần thuật, quân hàm & thuật ngữ: quy chiếu Tanya bằng 'nó' theo DEC-P01-001; 'Fifty-Fourth Regiment' -> 'Trung đoàn 54'; 'Colonel Dirichlet' -> 'Đại tá Dirichlet'; 'chain of command' -> 'hệ thống chỉ huy'; giữ phủ định 'hầu như chẳng biết gì' và 'vẫn chưa được thiết lập'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000503"
+    choices:
+      - "Đại từ nội tâm, thời gian giả định & phủ định: tự quy chiếu của Tanya dùng 'Mình'/'mình' theo DEC-P01-001, số nhiều dùng 'chúng tôi'; giữ giả định quá khứ 'cứ đinh ninh rằng chúng tôi sẽ có thời gian...' và phủ định kép 'chẳng thể chối cãi rằng sai lầm ngớ ngẩn này đáng bị lôi ra xử bắn'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000504"
+    choices:
+      - "Đại từ trần thuật & phủ định: giữ câu phủ định ngắn 'Không.', cấu trúc đối lập 'nắm quyền chỉ huy, chứ không phải tự kiểm điểm' và đại từ trần thuật 'nó' quy chiếu Tanya theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000505"
+    choices:
+      - "Xưng hô & mệnh lệnh: 'Fifty-Fourth Regiment' -> 'Trung đoàn 54'; Tanya gọi các sĩ quan là 'các anh'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000506"
+    choices:
+      - "Đại từ trần thuật & phủ định: quy chiếu Tanya bằng 'Nó' theo DEC-P01-001; giữ câu mệnh lệnh phủ định mang tính quy tắc 'Đừng bao giờ coi thường...'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000507"
+    choices:
+      - "Quân hàm & đại từ thoại: 'Colonel Dirichlet' -> 'Đại tá Dirichlet'; Tanya xưng 'Tôi' khi tuyên bố tạm thời nắm quyền chỉ huy."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000508"
+    choices:
+      - "Đại từ nội tâm & hình ảnh ẩn dụ: tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001; 'Fifty-Fourth Regiment' -> 'Trung đoàn 54'; giữ dấu chấm lửng và hình ảnh 'những bánh răng chỉ biết làm theo mệnh lệnh'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000509"
+    choices:
+      - "Quan hệ điều kiện & đại từ: giữ quan hệ nhân quả - điều kiện 'nên nếu chúng ta tra cho họ chất bôi trơn thích hợp thì vẫn còn hy vọng'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000510"
+    choices:
+      - "Quân hàm & thoại lắp bắp: giữ 'Tr-Trung tá?!' khi sĩ quan cấp dưới gọi Tanya."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000511"
+    choices:
+      - "Thuật ngữ & xưng hô: 'second-in-command' -> 'phó chỉ huy'; Tanya xưng 'tôi' và gọi 'các anh'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000512"
+    choices:
+      - "Trần thuật & thuật ngữ: giữ cách diễn đạt thành ngữ 'thúc đít đội ngũ sĩ quan của Trung đoàn 54' và chủ thể 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000513"
+    choices:
+      - "Thuật ngữ & mệnh lệnh: 'intercept' -> 'đánh chặn'; giữ dấu gạch ngang và đại từ 'các anh'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000514"
+    choices:
+      - "Nghĩa: giữ câu nhận định 'Đây là những mệnh lệnh được sinh ra từ những lời thề nguyện đã định sẵn.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000515"
+    choices:
+      - "Khẩu lệnh: giữ nhịp câu ngắn dồn dập 'Di chuyển! Di chuyển! Chuẩn bị sẵn sàng! Các sĩ quan, làm tròn bổn phận của mình đi!'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000516"
+    choices:
+      - "Điều kiện & phủ định: giữ mệnh đề phủ định 'không biết phải bắt đầu từ đâu' và điều kiện 'Chừng nào họ còn hiểu được mục đích của việc đánh chặn quân địch...'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000517"
+    choices:
+      - "Khẩu lệnh ngắn: giữ 'Sẵn sàng chiến đấu!'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000518"
+    choices:
+      - "Khẩu lệnh ngắn: giữ 'Nhanh lên! Về vị trí! Tăng tốc lên!'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000519"
+    choices:
+      - "Tình thái: giữ suy đoán 'hẳn phải là thành quả của quá trình huấn luyện hằng ngày'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000520"
+    choices:
+      - "Đối lập & phủ định: giữ tương phản giữa tốc độ ban đầu còn uể oải và việc chuyển sang thế trận phòng ngự 'không đến mức chậm chạp một cách chí mạng'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000521"
+    choices:
+      - "Nghĩa: giữ nhận định khái quát 'Ngay cả tại một điểm tựa tạm thời trong lúc rút quân, một đội quân sẽ luôn cần ít nhất sự chuẩn bị ở mức tối thiểu.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000522"
+    choices:
+      - "Xưng hô & quân hàm: 'Major Weiss' -> 'Thiếu tá Weiss'; Tanya dùng 'chính chúng ta' cho đơn vị và xưng 'tôi' khi nói với Weiss."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000523"
+    choices:
+      - "Tình thái & trần thuật: giữ 'hẳn sẽ ổn thỏa' và chủ thể 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000524"
+    choices:
+      - "Thuật ngữ & phủ định: 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; giữ phủ định 'chẳng có cơ may nào đạt được phản ứng gần như tức thời' và thành ngữ 'liệu cơm gắp mắm'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000525"
+    choices:
+      - "Đại từ khái quát: dùng 'bạn' cho câu châm ngôn khái quát."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000526"
+    choices:
+      - "Đại từ trần thuật, xưng hô & thuật ngữ: câu hỏi đầu dùng 'Chúng ta' và 'phó chỉ huy'; trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001; thoại sau Tanya xưng 'Tôi', gọi viên sĩ quan trẻ là 'anh' và quy chiếu phó chỉ huy Trung đoàn 54 là 'ông ta'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000527"
+    choices:
+      - "Giọng thoại cấp dưới: giữ dấu chấm lửng và tiểu từ lễ phép 'ạ' trong câu hỏi ngược lại '…Ai đang nắm quyền chỉ huy cơ ạ?!'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000528"
+    choices:
+      - "Nhấn mạnh Markdown & xưng hô: chỉ bọc chữ nghiêng đại từ '*anh*' theo đúng DEC-P01-002; giữ câu hỏi phủ định 'Anh không biết sao?!'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000529"
+    choices:
+      - "Xưng hô, thuật ngữ & giọng ngập ngừng: 'Ma’am' -> 'Thưa Trung tá'; 'HQ section' -> 'ban chỉ huy'; viên sĩ quan xưng 'tôi' kèm 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000530"
+    choices:
+      - "Trần thuật: giữ 'Vẫn còn chết lặng, Tanya nhận ra sai lầm của mình.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000531"
+    choices:
+      - "Thuật ngữ, nhấn mạnh Markdown, đại từ trần thuật & phủ định: '203rd Aerial Mage Battalion' -> 'Tiểu đoàn Pháp sư Trên không số 203'; chỉ bọc chữ nghiêng '*Nếu đã vậy…*' theo DEC-P01-002; quy chiếu Tanya bằng 'Nó' theo DEC-P01-001; giữ phủ định 'chẳng có việc gì để làm' và 'đã không cử Weiss và những người khác đi tìm kiếm sớm hơn'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000532"
+    choices:
+      - "Thuật ngữ & trích dẫn trong thoại: 'provisional headquarters' -> 'sở chỉ huy lâm thời'; '203rd Aerial Mage Battalion' -> 'Tiểu đoàn Pháp sư Trên không số 203'; giữ chỗ tự ngắt lời bằng dấu gạch ngang và nội dung thông điệp trong cặp nháy đơn."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000533"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ trần thuật & thuật ngữ khí tượng: chỉ bọc chữ nghiêng câu hỏi nội tâm đầu đoạn '*Rốt cuộc chuyện quái gì đang xảy ra thế này…?*' theo DEC-P01-002; quy chiếu Tanya bằng 'nó' ở câu thứ ba theo DEC-P01-001; phân biệt 'trần mây quang đãng' và 'tầng mây che phủ đầy chướng mắt'."
