@@ -1,0 +1,170 @@
+task_id: "vol-05-ch-01-b01-argon-review"
+parent_task_id: "vol-05-ch-01-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b01-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b01.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000002"
+    severity: "minor"
+    category: "pronouns_consistency"
+    issue: "Trong các đoạn độc thoại nội tâm / tự thuật ngôi thứ nhất không đặt trong ngoặc kép của Tanya (p000002–p000004, p000007, p000016, p000017, p000022), đại từ tự quy chiếu số ít đang dùng 'tôi' (thậm chí trộn lẫn 'mình' và 'tôi' trong cùng một câu ở p000002 và cùng một đoạn ở p000016), trong khi phần trần thuật ngôi thứ ba đan xen ngay kế tiếp (p000010) lại quy chiếu Tanya bằng 'nó'. Cách trộn 'tôi' và 'nó' ngoài lời thoại chưa đồng bộ với quy ước DEC-P01-001 (trần thuật dùng 'nó', nội tâm tự quy chiếu của Tanya dùng 'mình')."
+    recommendation: "Đề xuất đổi đại từ tự quy chiếu ngôi thứ nhất số ít ngoài lời thoại từ 'tôi' sang 'mình' ở p000002, p000003 (lưu ý diễn đạt 'kéo giật mình đi khắp chốn' hoặc 'lôi mình quay cuồng khắp chốn' để tránh trùng với động từ 'giật mình'), p000004 ('Kampfgruppe của mình'), p000007 ('báo cho mình biết'), p000016 ('chính là mình'), p000017 ('Mình bị hối thúc... mình đã đang lắc lư') và p000022 ('thấp bé như mình'); giữ nguyên 'chúng tôi' khi chỉ tập thể đơn vị (p000004, p000007, p000014) và giữ 'tôi' / 'chúng tôi' trong lời thoại có dấu ngoặc kép (p000005, p000023)."
+  - segment_id: "YS-LN05/Text/part0010.html/p000004"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Cụm động từ thể bị động mô tả việc đơn vị dần bị đẩy tiến xa hơn về phía đông vào lãnh thổ Liên bang đang được dịch theo hướng chủ động ('khi dần tiến sâu hơn về phía đông'), làm giảm nhẹ sắc thái bị cuốn/đẩy đi theo mệnh lệnh vốn nối mạch trực tiếp từ p000003."
+    recommendation: "Cân nhắc chỉnh thành 'nhưng khi dần bị đẩy tiến xa hơn về phía đông vào lãnh thổ Liên bang' hoặc 'nhưng khi dần bị đẩy sâu hơn về phía đông vào lãnh thổ Liên bang'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000021"
+    severity: "minor"
+    category: "pronoun_clarity"
+    issue: "Câu thứ ba dùng đại từ 'Nó' ở đầu câu ('Nó khác một trời một vực...') để chỉ toa tàu hạng nhất trên đoàn tàu quân sự, dễ gây nhầm thoáng qua với đại từ 'nó' dùng cho Tanya theo DEC-P01-001."
+    recommendation: "Có thể đổi 'Nó khác một trời một vực' thành 'Toa tàu này khác một trời một vực' hoặc 'Nơi này khác một trời một vực' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "Eastern Front"
+    proposed_vi: "Mặt trận phía Đông"
+    alternatives_vi:
+      - "Chiến trường phía Đông"
+    rationale: "Đồng bộ với danh xưng 'Cụm tập đoàn quân phía Đông' (Eastern Army Group) và quy ước dịch tên các mặt trận theo phương hướng trong tập 1–4."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000001"
+    status: "proposed"
+  - source_term: "Salamander Kampfgruppe / Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander / Kampfgruppe"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm đã khóa trong sổ pending tập 4 cho đơn vị tác chiến hỗn hợp trực thuộc Bộ Tổng tham mưu do Tanya chỉ huy."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000002"
+      - "YS-LN05/Text/part0010.html/p000004"
+      - "YS-LN05/Text/part0010.html/p000006"
+      - "YS-LN05/Text/part0010.html/p000012"
+    status: "proposed"
+  - source_term: "Colonel von Degurechaff"
+    proposed_vi: "Trung tá von Degurechaff"
+    alternatives_vi: []
+    rationale: "Trong hội thoại quân sự tiếng Anh, cấp bậc Lieutenant Colonel được gọi tắt là Colonel; dịch sang tiếng Việt cần giữ đúng quân hàm thực tế của Tanya là Trung tá như đã thống nhất ở tập 4."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000006"
+    status: "proposed"
+  - source_term: "Eastern Army Group"
+    proposed_vi: "Cụm tập đoàn quân phía Đông"
+    alternatives_vi:
+      - "Cụm tập đoàn quân phương Đông"
+    rationale: "Kế thừa nhất quán phương án tạm đã dùng trong sổ pending tập 4."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000007"
+      - "YS-LN05/Text/part0010.html/p000010"
+      - "YS-LN05/Text/part0010.html/p000014"
+    status: "proposed"
+  - source_term: "armored train"
+    proposed_vi: "đoàn tàu bọc thép"
+    alternatives_vi:
+      - "tàu hỏa bọc thép"
+    rationale: "Thuật ngữ quân sự chuẩn xác chỉ đoàn tàu hỏa được gia cố giáp thép chạy trên tuyến đường sắt quân sự ra tiền tuyến."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000020"
+    status: "proposed"
+  - source_term: "the Reich"
+    proposed_vi: "Đế quốc"
+    alternatives_vi:
+      - "Reich"
+    rationale: "Cách gọi quê hương Đế quốc trong lời độc thoại của Tanya; dịch là 'Đế quốc' giúp thống nhất tự nhiên với mạch văn tiếng Việt mà không làm phát sinh tên gọi tách biệt gây khó hiểu."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000023"
+    status: "proposed"
+  - source_term: "Service Corps / Railroad Department"
+    proposed_vi: "Cục Quân vụ / Cục Đường sắt"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán hai tên cơ quan thuộc Bộ Tổng tham mưu đã có trong sổ pending từ tập 1–4."
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000024"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000001"
+    choices:
+      - "Tiêu đề cảnh & thuật ngữ: giữ định dạng viết hoa toàn bộ 'NGÀY 28 THÁNG 8, NĂM THỐNG NHẤT 1926, MẶT TRẬN PHÍA ĐÔNG, TOA TÀU HẠNG NHẤT'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0010.html/p000002"
+    choices:
+      - "Thuật ngữ & địa danh: 'southern continent' -> 'lục địa phía nam'; 'long-range reconnaissance mission' -> 'nhiệm vụ trinh sát tầm xa'; 'Federation' -> 'Liên bang'; 'Moskva' -> 'Moskva'; 'the rear' -> 'hậu phương'; 'Rhine front' -> 'mặt trận Rhine'; 'Kampfgruppe' -> 'Kampfgruppe'."
+      - "Điểm nhìn & đại từ: độc thoại nội tâm / tự thuật ngôi thứ nhất của Tanya thống nhất dùng đại từ tự quy chiếu 'mình' theo DEC-P01-001; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0010.html/p000003"
+    choices:
+      - "Điểm nhìn & đại từ: tự thuật nội tâm của Tanya dùng 'mình' theo DEC-P01-001 (tránh kết hợp từ 'giật mình' gây nhầm nghĩa); giữ chuỗi phương hướng 'nam, đông, tây' và kết cục tham chiến ở phía đông."
+  - segment_id: "YS-LN05/Text/part0010.html/p000004"
+    choices:
+      - "Thuật ngữ & đại từ: 'main forces' -> 'lực lượng chủ lực'; 'Federation' -> 'Liên bang'; 'Kampfgruppe' -> 'Kampfgruppe'; dùng 'Chúng tôi' cho tập thể đơn vị và 'mình' cho sở hữu cá nhân ('Kampfgruppe của mình')."
+      - "Quan hệ đối lập & thể bị động: giữ cấu trúc đối lập giữa vai trò yểm trợ ban đầu và việc dần bị đẩy tiến xa hơn về phía đông trước khi nhận mệnh lệnh mới."
+  - segment_id: "YS-LN05/Text/part0010.html/p000005"
+    choices:
+      - "Xưng hô & giọng thoại: lời hỏi xác nhận trực tiếp của Tanya với sĩ quan cấp cao của Cụm tập đoàn quân phía Đông dùng 'chúng tôi' và tiểu từ lễ phép 'ạ'; giữ dấu chấm lửng mở đầu."
+  - segment_id: "YS-LN05/Text/part0010.html/p000006"
+    choices:
+      - "Cấp bậc, tên đơn vị & xưng hô: 'Colonel von Degurechaff' -> 'Trung tá von Degurechaff'; 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; 'General Staff' -> 'Bộ Tổng tham mưu'; sĩ quan cấp cao xưng 'chúng tôi', gọi Tanya là 'cô'."
+      - "Phủ định & lý do: giữ phủ định 'chúng tôi đâu thể giữ cô lại khi cô thuộc quân số của Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000007"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc '*biết làm sao được*' khớp chính xác với thẻ em trong XHTML (DEC-P01-002); giữ dấu ngoặc kép quanh từ '“đột ngột”' ở câu thứ hai."
+      - "Thuật ngữ & đại từ: 'Eastern Army Group' -> 'Cụm tập đoàn quân phía Đông'; tự thuật nội tâm dùng 'mình' (ngôi thứ nhất số ít) và 'chúng tôi' (tập thể đơn vị)."
+  - segment_id: "YS-LN05/Text/part0010.html/p000008"
+    choices:
+      - "Điểm nhìn & tình thái: chuyển sang trần thuật ngôi thứ ba với tên riêng 'Tanya'; giữ mức độ hạn định 'có chút gì đó hơi kỳ lạ'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000009"
+    choices:
+      - "Giọng thoại & xưng hô: lời động viên trực tiếp của sĩ quan tham mưu Cụm tập đoàn quân phía Đông gọi Tanya là 'cô'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000010"
+    choices:
+      - "Thuật ngữ & đại từ: 'Eastern Army Group staffers' -> 'các sĩ quan tham mưu thuộc Cụm tập đoàn quân phía Đông'; trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0010.html/p000011"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc '*đột ngột*' khớp thẻ em trong XHTML (DEC-P01-002)."
+      - "Phủ định & điểm nhìn: giữ tên riêng 'Tanya', phản thân 'mình', và câu khẳng định phủ định mạnh ở câu thứ hai ('đời nào lại thốt ra những lời như thế')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000012"
+    choices:
+      - "Thuật ngữ: 'Kampfgruppe' -> 'Kampfgruppe'; 'General Staff' -> 'Bộ Tổng tham mưu'; 'Imperial Army' -> 'Lục quân Đế quốc'; 'from the A lines to the B lines' -> 'từ tuyến A sang tuyến B'."
+      - "Phủ định: giữ câu phủ định tuyệt đối 'Chẳng ai có quyền phản đối việc đó cả'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000013"
+    choices:
+      - "Quan hệ điều kiện: giữ câu chuyển ý điều kiện 'Nhưng nếu nghĩ theo hướng này thì mọi chuyện đều trở nên hợp lý'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0010.html/p000014"
+    choices:
+      - "Thuật ngữ & ẩn dụ: 'anesthesiologist' -> 'bác sĩ gây mê'; 'university hospital' -> 'bệnh viện đại học'; 'private hospital' -> 'bệnh viện tư nhân'; 'regional hospital' -> 'bệnh viện tuyến tỉnh'; 'General Staff' -> 'Bộ Tổng tham mưu'; 'Eastern Army Group' -> 'Cụm tập đoàn quân phía Đông'."
+      - "Đại từ & câu hỏi tu từ phủ định: dùng 'chúng tôi' cho đơn vị; giữ đúng câu hỏi tu từ phủ định kép ở cuối đoạn ('thì chẳng phải sẽ rất kỳ quặc nếu không vấp phải chút phản đối nào hay sao?')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000015"
+    choices:
+      - "Phủ định & suy luận tất yếu: giữ câu hỏi nghi vấn mang tính phản vấn ở câu đầu ('chẳng chút ồn ào ư?') và suy luận chắc chắn ở câu sau ('Điều đó ắt hẳn có nghĩa là họ đã biết trước chuyện này từ khá lâu rồi')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000016"
+    choices:
+      - "Đại từ & tình thái: độc thoại nội tâm dùng nhất quán 'mình' ở cả hai câu theo DEC-P01-001; giữ mức độ tình thái suy đoán 'có lẽ là hoàn toàn chính xác'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000017"
+    choices:
+      - "Đại từ & cấu trúc: tự thuật nội tâm dùng 'Mình / mình' theo DEC-P01-001; giữ nguyên phần bình luận trong ngoặc đơn khẳng định kế hoạch đã được tính toán trước vì vẫn có thời gian làm thủ tục bàn giao."
+  - segment_id: "YS-LN05/Text/part0010.html/p000018"
+    choices:
+      - "Điểm nhìn & phủ định: trần thuật ngôi thứ ba dùng tên riêng 'Tanya'; giữ chuỗi phủ định 'mà chẳng hề có bất kỳ sự chậm trễ hay trục trặc nào, cũng chẳng sót một thông điệp nào cả'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000019"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc '*Chẳng hạn như*' ở đầu câu thứ hai khớp thẻ em trong XHTML (DEC-P01-002); phần dẫn trần thuật phía sau để chữ thường."
+      - "Tình thái & phủ định: giữ chú thích rào đón trong ngoặc đơn và phủ định 'không thể làm ngơ'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000020"
+    choices:
+      - "Thuật ngữ & đại từ: 'first class' -> '“hạng nhất”' (giữ dấu ngoặc kép); 'armored train' -> 'đoàn tàu bọc thép'; 'military-use line' -> 'tuyến đường sắt quân sự'; dùng đại từ khái quát 'bạn' ở câu cuối."
+  - segment_id: "YS-LN05/Text/part0010.html/p000021"
+    choices:
+      - "Thuật ngữ & địa danh: 'supply line' -> 'tuyến tiếp tế'; 'the higher-ups' -> 'cấp trên'; 'first-class train car' -> 'toa tàu hạng nhất'; 'Federation' -> 'Liên bang'; 'air-conditioning' -> 'điều hòa nhiệt độ'."
+      - "Tình thái & rõ nghĩa đại từ: giữ tình thái 'có thể xem là điều đáng kinh ngạc', nhượng bộ 'Đành rằng...', và làm rõ chủ ngữ chỉ toa tàu ở câu thứ ba để tránh trùng với đại từ 'nó' của Tanya."
+  - segment_id: "YS-LN05/Text/part0010.html/p000022"
+    choices:
+      - "Thuật ngữ & đại từ: 'sleeping car' -> 'toa giường nằm'; 'compartment' -> 'khoang tàu'; 'wooden bench' -> 'chiếc ghế băng bằng gỗ'; điều kiện giả định ở câu hai dùng đại từ tự quy chiếu 'mình' ('nếu không thấp bé như mình') theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0010.html/p000023"
+    choices:
+      - "Thoại độc thoại & giả định quá khứ: giữ dấu ngoặc kép của lời nói thành tiếng và dấu nháy đơn cho câu chửi giả định bên trong; 'the Reich' -> 'Đế quốc'; giữ đúng giả định trái thực tế 'Nếu đang ở quê nhà tại Đế quốc, hẳn tôi đã chửi thẳng vào mặt họ rồi'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000024"
+    choices:
+      - "Thuật ngữ: 'livestock transport car' -> 'toa chở gia súc'; 'front lines' -> 'tiền tuyến'; 'occupied enemy territory' -> 'lãnh thổ địch bị chiếm đóng'; 'Service Corps' -> 'Cục Quân vụ'; 'Railroad Department' -> 'Cục Đường sắt'."
+      - "Phủ định & tình thái: giữ phủ định kép 'khó lòng phủ nhận khả năng... rất có thể đã...', phủ định 'không thể bỏ qua', suy luận 'Quân ta ắt hẳn đã...' và tình thái 'Có thể nói...'."
