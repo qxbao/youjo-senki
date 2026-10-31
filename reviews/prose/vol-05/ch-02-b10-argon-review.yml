@@ -1,0 +1,256 @@
+task_id: "vol-05-ch-02-b10-argon-review"
+parent_task_id: "vol-05-ch-02-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 2
+target_translation: "translations/vol-05/ch-02-b10.jsonl"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-02-b10-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN05/Text/part0016.html/p000097"
+    severity: "minor"
+    category: "word_choice_and_register"
+    issue: "Cụm 'chạy chọt kiếm một chân ở hậu phương' bổ sung sắc thái tiêu cực về việc luồn cúi/móc nối và đại từ 'bọn họ' ở cuối câu hơi suồng sã so với thái độ trân trọng của Tướng Habergram đối với các sĩ quan trẻ không vội vã tìm đường lui về hậu phương."
+    recommendation: "Khi chuốt văn có thể cân nhắc chỉnh nhẹ thành 'vội vã tìm đường về phục vụ ở hậu phương' và đổi 'bọn họ' thành 'họ' để đồng nhất sắc thái kính trọng với p000098–p000099."
+  - segment_id: "YS-LN05/Text/part0016.html/p000111"
+    severity: "minor"
+    category: "modality_and_negation"
+    issue: "Bản dịch chuyển lối nói giảm phủ định kép trong nguyên văn sang câu khẳng định mạnh 'Đó là một điểm rất đáng lưu tâm', làm giảm nhẹ sắc thái dè dặt đặc trưng trong độc thoại của Habergram."
+    recommendation: "Có thể giữ nguyên để câu văn tự nhiên hoặc chỉnh nhẹ thành 'Đó cũng không phải là một điểm tồi để lưu tâm' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "General Habergram"
+    proposed_vi: "Tướng Habergram"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'General Habergram / Habergram' đã dùng nhất quán trong sổ thuật ngữ tạm Tập 5."
+    alternatives_vi:
+      - "Tướng quân Habergram"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000097"
+      - "YS-LN05/Text/part0016.html/p000107"
+      - "YS-LN05/Text/part0016.html/p000118"
+  - source_term: "Intelligence / intelligence agency"
+    proposed_vi: "ngành Tình báo / Tình báo / cơ quan tình báo"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Phân biệt rõ danh từ viết hoa chỉ ngành/tổ chức Tình báo của Khối Thịnh vượng chung và danh từ chung chỉ cơ quan tình báo, khớp với sổ thuật ngữ tạm Tập 5."
+    alternatives_vi:
+      - "Cục Tình báo"
+      - "bên Tình báo"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000099"
+      - "YS-LN05/Text/part0016.html/p000100"
+      - "YS-LN05/Text/part0016.html/p000107"
+      - "YS-LN05/Text/part0016.html/p000116"
+      - "YS-LN05/Text/part0016.html/p000119"
+      - "YS-LN05/Text/part0016.html/p000128"
+  - source_term: "War Office"
+    proposed_vi: "Bộ Chiến tranh"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'War Office' của Khối Thịnh vượng chung trong sổ thuật ngữ tạm Tập 5."
+    alternatives_vi:
+      - "Bộ Quân sự"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000101"
+      - "YS-LN05/Text/part0016.html/p000103"
+  - source_term: "Office of the Admiralty"
+    proposed_vi: "Bộ Tư lệnh Hải quân"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Office of the Admiralty' trong sổ thuật ngữ tạm Tập 5."
+    alternatives_vi:
+      - "Bộ Hải quân"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000101"
+      - "YS-LN05/Text/part0016.html/p000103"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'General Staff' trong sổ thuật ngữ tạm xuyên suốt các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000113"
+  - source_term: "Whitehall"
+    proposed_vi: "Whitehall"
+    category: "địa danh / chính quyền"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng Whitehall (vừa chỉ khu vực trung tâm hành chính tại Londinium vừa hoán dụ cho chính phủ Khối Thịnh vượng chung), khớp với sổ thuật ngữ tạm Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000113"
+      - "YS-LN05/Text/part0016.html/p000132"
+  - source_term: "human resources"
+    proposed_vi: "nguồn nhân lực"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'human resources' trong sổ thuật ngữ tạm Tập 1 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000119"
+  - source_term: "Committee of Commonwealth Defense"
+    proposed_vi: "Ủy ban Quốc phòng Khối Thịnh vượng chung"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Committee of Commonwealth Defense' trong sổ thuật ngữ tạm Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000124"
+  - source_term: "Commonwealth defense meeting"
+    proposed_vi: "cuộc họp quốc phòng của Khối Thịnh vượng chung"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Commonwealth defense meeting' trong sổ thuật ngữ tạm Tập 5."
+    alternatives_vi:
+      - "hội nghị quốc phòng Khối Thịnh vượng chung"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000130"
+      - "YS-LN05/Text/part0016.html/p000133"
+  - source_term: "Commonwealth Capital Londinium / Commonwealth"
+    proposed_vi: "Thủ đô Londinium của Khối Thịnh vượng chung / Khối Thịnh vượng chung"
+    category: "địa danh / quốc gia"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Commonwealth Capital Londinium / Commonwealth' trong sổ thuật ngữ tạm Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000132"
+      - "YS-LN05/Text/part0016.html/p000134"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0016.html/p000097"
+    choices:
+      - "Quân hàm và tên riêng: 'Tướng Habergram'"
+      - "Giữ phủ định về tinh thần kiên định không tìm cách lui về phục vụ hậu phương"
+  - segment_id: "YS-LN05/Text/part0016.html/p000098"
+    choices:
+      - "Đại từ quy chiếu nhóm sĩ quan trẻ: 'họ'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000099"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*ở hậu phương*' đúng phạm vi thẻ em trong nguồn"
+      - "Đại từ và chức vụ: 'ông', 'mình', 'người đứng đầu ngành Tình báo'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000100"
+    choices:
+      - "Thuật ngữ và phủ định kép: 'không thể... nhân sự Tình báo', 'thông tin mật', 'chẳng thể... cơ quan tình báo'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000101"
+    choices:
+      - "Tên cơ quan: 'Bộ Chiến tranh', 'Bộ Tư lệnh Hải quân'"
+      - "Thuật ngữ: 'sĩ quan phục vụ hậu phương'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000102"
+    choices:
+      - "Thuật ngữ quân chủng và phủ định: 'lục quân và hải quân', 'đời nào chịu nhả những sĩ quan thực sự ưu tú ra'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000103"
+    choices:
+      - "Đại từ giả định chung: 'bạn'; tên cơ quan: 'Bộ Chiến tranh', 'Bộ Tư lệnh Hải quân'"
+      - "Giữ cấu trúc nhượng bộ và phủ định ở mệnh đề chính: 'không bị tống cổ thẳng thừng đã là may lắm rồi'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000104"
+    choices:
+      - "Giữ cấu trúc dẫn trực tiếp lồng trong lời thoại của Habergram; xưng hô 'Các vị'; phủ định 'Họ nói cũng chẳng sai'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000105"
+    choices:
+      - "Giữ quan hệ nhượng bộ giữa việc ca ngợi tinh thần cao quý của giới trẻ và tình cảnh tiến thoái lưỡng nan của đội ngũ tuyển mộ"
+  - segment_id: "YS-LN05/Text/part0016.html/p000106"
+    choices:
+      - "Thuật ngữ: 'sĩ quan thương binh', 'vùng chiến sự'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000107"
+    choices:
+      - "Tên riêng và thuật ngữ: 'nhân sự Tình báo', 'Tướng Habergram'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000108"
+    choices:
+      - "Đại từ trần thuật chỉ Habergram: 'ông'; thuật ngữ: 'ra thực địa làm điệp viên', 'các quốc gia trung lập hoặc thù địch'"
+      - "Giữ cấu trúc phủ định bộ phận: 'Không phải quân nhân mang thương tật là chuyện hiếm gặp, nhưng...'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000109"
+    choices:
+      - "Lời thoại tự vấn của Habergram: 'chúng ta', 'tuyển phụ nữ làm điệp viên'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000110"
+    choices:
+      - "Đại từ trần thuật: 'Ông'; thuật ngữ: 'lãnh thổ địch', 'tổng động viên toàn diện', 'tiền tuyến', 'các vị trí lao động phổ thông ở hậu phương'"
+      - "Giữ đúng tình thái giả định có thể xảy ra: 'nếu... thì phụ nữ thực chất có thể sẽ ít bị chú ý hơn'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000111"
+    choices:
+      - "Giữ nhận định đánh giá tích cực về điểm lưu ý trên"
+  - segment_id: "YS-LN05/Text/part0016.html/p000112"
+    choices:
+      - "Lời thoại bỏ lửng của Habergram: 'cho phụ nữ nhảy dù xuống lãnh thổ địch thì…'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000113"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc '*...*' toàn bộ đoạn độc thoại nội tâm đúng phạm vi thẻ em trong nguồn"
+      - "Tên riêng và đại từ nội tâm trực tiếp: 'Bộ Tổng tham mưu', 'Whitehall', 'chiến dịch bí mật', 'mình'; tình thái 'có lẽ mình vẫn có thể tự quyết định tiến hành, nhưng…'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000114"
+    choices:
+      - "Câu hỏi nội tâm gián tiếp không bọc nghiêng Markdown (nguồn không có thẻ em); thuật ngữ: 'cuộc chiến tuyên truyền'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000115"
+    choices:
+      - "Đại từ trần thuật: 'ông', 'họ'; giữ cấu trúc giả định về rủi ro chính trị nếu có người bị bắt giữ khi hành động đơn phương"
+  - segment_id: "YS-LN05/Text/part0016.html/p000116"
+    choices:
+      - "Thuật ngữ: 'nhân sự Tình báo'; giữ thế đối lập giữa khối lượng công việc phình ra và nhân sự vơi dần"
+  - segment_id: "YS-LN05/Text/part0016.html/p000117"
+    choices:
+      - "Lời than thở của Habergram: giữ phủ định 'chẳng bao giờ diễn ra theo ý muốn cả'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000118"
+    choices:
+      - "Quân hàm và tên riêng: 'Tướng Habergram'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000119"
+    choices:
+      - "Thuật ngữ và đại từ: 'Nguồn nhân lực', 'ngành Tình báo', 'quý ông lịch thiệp', 'ông'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000120"
+    choices:
+      - "Giữ tình thái phỏng đoán 'xem chừng' và phủ định 'không có lấy thời gian để suy nghĩ'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000121"
+    choices:
+      - "Danh từ chỉ nhân vật phụ: 'một viên chức cấp dưới'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000122"
+    choices:
+      - "Đại từ chỉ viên chức cấp dưới: 'Anh ta'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000123"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Trời đất ơi.*' ở đầu đoạn đúng phạm vi thẻ em trong nguồn"
+      - "Đại từ phân biệt rõ: 'ông' (Habergram) và 'Cấp dưới của ông'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000124"
+    choices:
+      - "Xưng hô của cấp dưới với Habergram: 'tôi' - 'thưa ngài'; tên tổ chức: 'Ủy ban Quốc phòng Khối Thịnh vượng chung'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000125"
+    choices:
+      - "Thuật ngữ hành chính trong lời hỏi lại của Habergram: 'ủy ban quốc phòng', 'thông tư triệu tập'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000126"
+    choices:
+      - "Đại từ trần thuật: 'ông' / 'mình'; thuật ngữ: 'lệnh triệu tập'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000127"
+    choices:
+      - "Xưng hô trong thoại của Habergram: 'tôi'; giữ phủ định 'không xảy ra thường xuyên đâu'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000128"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Để một thành viên của ngành Tình báo tham dự một cuộc họp có ghi biên bản chính thức ư?*' ở câu đầu đúng phạm vi thẻ em trong nguồn"
+      - "Đại từ và chức danh: 'ngành Tình báo', 'Ông', 'thủ tướng'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000129"
+    choices:
+      - "Đại từ và phủ định: 'ông cũng chẳng có lý do hay cách thức nào để khước từ một chỉ thị...'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000130"
+    choices:
+      - "Thuật ngữ và chức danh: 'cuộc họp quốc phòng của Khối Thịnh vượng chung', 'văn phòng thủ tướng'"
+      - "Đại từ ngôi thứ nhất của Habergram khi giao việc cho cấp dưới: 'tôi'; giữ mệnh lệnh cuối đoạn"
+  - segment_id: "YS-LN05/Text/part0016.html/p000131"
+    choices:
+      - "Đại từ và chức danh: 'ông', 'thủ tướng', 'mình'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000132"
+    choices:
+      - "Giữ định dạng in hoa toàn bộ dòng tiêu đề thời gian và địa điểm: 'MỘT NGÀY NỌ TRONG THÁNG 9, NĂM THỐNG NHẤT 1926, THỦ ĐÔ LONDINIUM CỦA KHỐI THỊNH VƯỢNG CHUNG, TẠI KHU VỰC WHITEHALL'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000133"
+    choices:
+      - "Thuật ngữ mở cảnh nhất quán với p000130: 'Tại cuộc họp quốc phòng của Khối Thịnh vượng chung…'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000134"
+    choices:
+      - "Tên riêng và chức danh: 'các quan chức cấp cao', 'Khối Thịnh vượng chung'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000135"
+    choices:
+      - "Thuật ngữ và cấu trúc câu danh ngữ: 'Những nhân vật đầu mối từ cả lục quân lẫn hải quân', 'quan chức'"
+  - segment_id: "YS-LN05/Text/part0016.html/p000136"
+    choices:
+      - "Giữ câu danh ngữ kết đoạn cô đọng: 'Những công bộc đã hoàn toàn vắt kiệt sức lực.'"
