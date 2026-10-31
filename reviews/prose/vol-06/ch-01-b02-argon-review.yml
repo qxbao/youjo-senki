@@ -1,0 +1,243 @@
+task_id: "vol-06-ch-01-b02-argon-review"
+parent_task_id: "vol-06-ch-01-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 1
+source_package: "work/vol-06/batches/ch-01-b02-source.jsonl"
+target_translation: "translations/vol-06/ch-01-b02.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+  - segment_id: "YS-LN06/Text/part0008.html/p000058"
+    severity: "moderate"
+    category: "meaning_logic"
+    issue: "Dịch nhầm thành ngữ điều kiện nhượng bộ ở đầu câu thành cấu trúc loại trừ tuyệt đối ('Không gì khác ngoài niềm hạnh phúc'), làm đổi nghĩa từ lời tự an ủi ở mức tối thiểu sang khẳng định tuyệt đối."
+    basis: "Trong ngữ cảnh nối tiếp p000057 (niềm vui khi có một điều dù nhỏ bé để mong đợi là tách cà phê giữa mặt trận phía đông khắc nghiệt), thành ngữ điều kiện ở nguồn mang nghĩa 'dẫu chẳng có gì khác / ít nhất thì cũng là niềm hạnh phúc', không phải 'nothing else but'."
+    recommendation: "Sửa thành '“Ít nhất thì cũng là chút hạnh phúc.”' hoặc '“Dẫu chẳng được gì khác, ít nhất cũng là niềm hạnh phúc.”'"
+pending_term_recommendations:
+  - source_term: "Lieutenant Serebryakov / Lieutenant / adjutant"
+    proposed_vi: "Trung úy Serebryakov / Trung úy / sĩ quan phụ tá"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm và chức danh của Serebryakov theo sổ pending từ tập 4–5 và batch ch-01-b01."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000035"
+      - "YS-LN06/Text/part0008.html/p000041"
+      - "YS-LN06/Text/part0008.html/p000049"
+      - "YS-LN06/Text/part0008.html/p000070"
+    status: "proposed"
+  - source_term: "headquarters building / provisional headquarters"
+    proposed_vi: "tòa nhà sở chỉ huy / sở chỉ huy lâm thời"
+    alternatives_vi: []
+    rationale: "Kế thừa cách dịch 'headquarters' là 'sở chỉ huy' từ sổ pending tập 5, kết hợp bổ nghĩa trực tiếp theo ngữ cảnh đóng quân tại làng đồn trú."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000036"
+      - "YS-LN06/Text/part0008.html/p000056"
+    status: "proposed"
+  - source_term: "harassment attacks / partisans"
+    proposed_vi: "những đòn tấn công quấy rối / quân du kích"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm đã khóa trong sổ pending tập 5 cho hoạt động tác chiến quấy rối và lực lượng du kích ở mặt trận phía đông."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000037"
+    status: "proposed"
+  - source_term: "Salamander Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên đơn vị tác chiến hỗn hợp do Tanya chỉ huy từ tập 4–5 và batch ch-01-b01."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000039"
+    status: "proposed"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    alternatives_vi:
+      - "Mặt trận phía Đông"
+    rationale: "Kế thừa cách dịch thống nhất trong sổ pending tập 5 cho chiến trường phía đông."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000039"
+      - "YS-LN06/Text/part0008.html/p000050"
+      - "YS-LN06/Text/part0008.html/p000076"
+    status: "proposed"
+  - source_term: "Colonel / Ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Thưa Trung tá / Trung tá"
+    alternatives_vi: []
+    rationale: "Giữ đúng quân hàm Trung tá của Tanya; cách gọi tắt 'Colonel' hoặc 'Ma’am' của Serebryakov dịch thống nhất là 'Thưa Trung tá' / 'Trung tá' theo sổ pending tập 4–5 và batch ch-01-b01."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000042"
+      - "YS-LN06/Text/part0008.html/p000059"
+      - "YS-LN06/Text/part0008.html/p000063"
+    status: "proposed"
+  - source_term: "ersatz stuff / General Staff dining room"
+    proposed_vi: "thứ cà phê thay thế / nhà ăn Bộ Tổng tham mưu"
+    alternatives_vi: []
+    rationale: "Kế thừa phương án tạm 'cà phê thay thế' (tập 2, tập 5) và 'nhà ăn Bộ Tổng tham mưu' (tập 5) trong sổ pending."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000052"
+    status: "proposed"
+  - source_term: "Rhine front"
+    proposed_vi: "mặt trận Rhine"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán địa danh chiến trường từ các tập trước."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000071"
+    status: "proposed"
+  - source_term: "human capital"
+    proposed_vi: "vốn con người"
+    alternatives_vi: []
+    rationale: "Kế thừa phương án tạm P03-human-capital trong canon/glossary-pending.yml và sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000071"
+    status: "proposed"
+  - source_term: "NCOs"
+    proposed_vi: "các hạ sĩ quan"
+    alternatives_vi: []
+    rationale: "Kế thừa cách dịch 'noncommissioned officers' trong sổ pending tập 5."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000073"
+    status: "proposed"
+  - source_term: "volunteer mages / conscripts / old-hand volunteers"
+    proposed_vi: "các pháp sư tình nguyện / những lính nghĩa vụ / những người lính tình nguyện kỳ cựu"
+    alternatives_vi: []
+    rationale: "Phân biệt rõ nhóm pháp sư tình nguyện kỳ cựu với nhóm lính nghĩa vụ theo đúng lập luận về chất lượng nhân sự của Tanya."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000074"
+      - "YS-LN06/Text/part0008.html/p000075"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0008.html/p000033"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: chỉ bọc '*Nhưng…*' khớp với thẻ em trong XHTML theo DEC-P01-002; trần thuật ngôi thứ ba dùng tên riêng 'Tanya'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000034"
+    choices:
+      - "Đại từ trần thuật: quy chiếu Tanya bằng 'nó' theo DEC-P01-001; không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0008.html/p000035"
+    choices:
+      - "Quân hàm, chức danh & đại từ: 'Lieutenant Serebryakov' -> 'Trung úy Serebryakov'; 'adjutant' -> 'sĩ quan phụ tá'; trần thuật quy chiếu Tanya bằng 'Tanya' và 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN06/Text/part0008.html/p000036"
+    choices:
+      - "Thuật ngữ & đại từ: trần thuật quy chiếu Tanya bằng 'nó', đơn vị bằng 'quân đội của họ'; 'headquarters building' -> 'tòa nhà sở chỉ huy'; 'defensive positions' -> 'Các công sự phòng ngự'; 'garrison village' -> 'ngôi làng đồn trú'; 'settlement’s perimeter' -> 'vành đai khu định cư'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000037"
+    choices:
+      - "Thuật ngữ, đại từ & điều kiện: trần thuật dùng 'Tanya' và 'nó' theo DEC-P01-001; giữ mệnh đề điều kiện 'nếu nó có thể công khai dạo bước xung quanh mà chẳng cần bận tâm...'; 'harassment attacks' -> 'những đòn tấn công quấy rối'; 'partisans' -> 'quân du kích'; 'snipers' -> 'lính bắn tỉa'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000038"
+    choices:
+      - "Điểm nhìn & nghĩa: câu nhận định khái quát về việc hai sĩ quan thoải mái sóng bước bên nhau là một điều xa xỉ."
+  - segment_id: "YS-LN06/Text/part0008.html/p000039"
+    choices:
+      - "Thuật ngữ & cấu trúc giả định: 'eastern front' -> 'mặt trận phía đông'; 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; giữ mệnh đề điều kiện 'Nếu... chỉ riêng những câu chuyện thôi cũng sẽ làm họ phải ghen tị'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000040"
+    choices:
+      - "Nghĩa & phủ định: giữ chi tiết 'mà không cần đội hộ tống' và nhận xét về mức độ bất ổn ở phía đông."
+  - segment_id: "YS-LN06/Text/part0008.html/p000041"
+    choices:
+      - "Xưng hô & câu hỏi trong thoại: Tanya dùng 'chúng ta' cho đơn vị, gọi 'Trung úy Serebryakov' và 'Cô'; giữ đúng đối tượng và thời quá khứ của câu hỏi về cảm nghĩ khi nhìn thấy đống quân trang."
+  - segment_id: "YS-LN06/Text/part0008.html/p000042"
+    choices:
+      - "Xưng hô & dấu câu: Serebryakov gọi Tanya là 'Thưa Trung tá', dùng 'chúng ta' và giữ dấu chấm lửng bỏ lửng câu nói."
+  - segment_id: "YS-LN06/Text/part0008.html/p000043"
+    choices:
+      - "Xưng hô & phủ định: Tanya xưng 'tôi', gọi Serebryakov là 'Cô'; giữ phủ định 'Cô không cần nói thêm nữa'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000044"
+    choices:
+      - "Quan hệ nhân quả & so sánh: giữ cấu trúc so sánh hơn 'còn ảm đạm hơn cả dự tính' và quan hệ hệ quả 'nên Tanya lập tức chấm dứt câu chuyện'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000045"
+    choices:
+      - "Phủ định giảm nhẹ: giữ sắc thái phủ định giảm nhẹ 'khó lòng gọi là tác phong đúng mực của một người chỉ huy'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000046"
+    choices:
+      - "Đại từ khái quát & phủ định: dùng đại từ khái quát 'bạn' và phủ định 'không được phép để lộ sự dao động ra ngoài'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000047"
+    choices:
+      - "Giọng thoại: lời than của Tanya xưng 'tôi', diễn đạt tự nhiên ý muốn uống một tách cà phê nóng cho trôi đi cảm giác nặng nề."
+  - segment_id: "YS-LN06/Text/part0008.html/p000048"
+    choices:
+      - "Giọng thoại & thuật ngữ: lời đáp lễ phép của Serebryakov có tiểu từ 'ạ'; 'supply shipment' -> 'chuyến hàng tiếp tế'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000049"
+    choices:
+      - "Xưng hô & nhấn mạnh Markdown: 'Lieutenant' -> 'Trung úy'; chỉ bọc '*Đúng là tin tốt lành.*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0008.html/p000050"
+    choices:
+      - "Thuật ngữ & tình thái: 'logistics' -> 'khâu hậu cần'; 'provisions' -> 'nhu yếu phẩm'; 'eastern front' -> 'mặt trận phía đông'; 'luxury items' -> 'các mặt hàng xa xỉ'; giữ dấu chấm lửng chuyển ý và tình thái 'thường có xu hướng bị xếp ở mức ưu tiên thấp'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000051"
+    choices:
+      - "Xưng hô, câu hỏi tự vấn & nghĩa: Serebryakov xưng 'Tôi' kèm 'ạ' cuối lời thoại; giữ câu hỏi tự lựa lời 'Tôi nên nói thế nào nhỉ?' và sự đối lập giữa tiêu chuẩn thấp nhất có thể với việc vẫn là hàng thật."
+  - segment_id: "YS-LN06/Text/part0008.html/p000052"
+    choices:
+      - "Xưng hô, phủ định & thuật ngữ: Tanya dùng 'chúng ta' và 'tôi'; giữ điều kiện phủ định 'Miễn không phải thứ cà phê thay thế kinh hoàng được phục vụ trong nhà ăn Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000053"
+    choices:
+      - "Xưng hô & điểm nhìn: Serebryakov đáp 'Rõ. Xin cứ giao cho tôi ạ.'; tiếp nối bằng câu trần thuật và nhận định khen ngợi."
+  - segment_id: "YS-LN06/Text/part0008.html/p000054"
+    choices:
+      - "Xưng hô trong thoại: Tanya xưng 'Tôi' ('Tôi rất mong chờ đấy.')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000055"
+    choices:
+      - "Quan hệ so sánh & đối lập: giữ chi tiết 'Tự chuốc lấy việc phải nghe tin xấu suốt ngày' và cấu trúc so sánh ngang bằng 'quá nhiều căng thẳng cũng làm suy kiệt sức lực chẳng kém gì việc thiếu hẳn nó'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000056"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: chỉ bọc '*Đến giờ nghỉ ngơi rồi.*' khớp với thẻ em trong XHTML theo DEC-P01-002; 'provisional headquarters' -> 'sở chỉ huy lâm thời'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000057"
+    choices:
+      - "Nhượng bộ: giữ cấu trúc nhượng bộ 'dẫu nhỏ bé đến đâu'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000058"
+    choices:
+      - "Điều kiện nhượng bộ (cần sửa theo finding): diễn đạt đúng nghĩa thành ngữ điều kiện tối thiểu ('Ít nhất thì cũng là chút hạnh phúc.' hoặc 'Dẫu chẳng được gì khác, ít nhất cũng là niềm hạnh phúc.'), không dịch thành cấu trúc loại trừ 'Không gì khác ngoài...'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000059"
+    choices:
+      - "Xưng hô & quân hàm: câu hỏi lại của Serebryakov dịch 'Ma’am?' -> 'Thưa Trung tá?'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000060"
+    choices:
+      - "Điểm nhìn & đại từ: trần thuật ngôi thứ ba quy chiếu Tanya bằng 'Tanya' và 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN06/Text/part0008.html/p000061"
+    choices:
+      - "Điểm nhìn & đại từ nội tâm: độc thoại nội tâm trực tiếp của Tanya dùng 'Mình' theo DEC-P01-001; không tự thêm chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0008.html/p000062"
+    choices:
+      - "Xưng hô trong thoại: lời cảm thán thành tiếng của Tanya xưng 'tôi'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000063"
+    choices:
+      - "Xưng hô & quân hàm: Serebryakov xưng 'Tôi', gọi Tanya là 'Trung tá' kèm tiểu từ 'ạ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000064"
+    choices:
+      - "Xưng hô & đối lập thời gian: Tanya xưng 'tôi / Tôi', giữ rõ sự chuyển biến nhận thức từ quá khứ ('Trước đây tôi từng coi thường... Tôi đã lầm.') sang đánh giá hiện tại."
+  - segment_id: "YS-LN06/Text/part0008.html/p000065"
+    choices:
+      - "Quan hệ nhân quả nhấn mạnh: giữ cấu trúc nhấn mạnh nguyên nhân 'Chính vì đang sống giữa những điều bất thường nên chúng ta mới có thể...'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000066"
+    choices:
+      - "Xưng hô trong thoại: Tanya gọi Serebryakov là 'cô' và xưng 'tôi' trong câu hỏi nhắc pha cà phê."
+  - segment_id: "YS-LN06/Text/part0008.html/p000067"
+    choices:
+      - "Xưng hô & tu từ: Serebryakov xưng 'Tôi' kèm 'ạ', giữ đủ bốn vế so sánh cổ điển về cà phê."
+  - segment_id: "YS-LN06/Text/part0008.html/p000068"
+    choices:
+      - "Giọng thoại: lời cảm ơn ngắn gọn của Tanya ('Cảm ơn nhé.')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000069"
+    choices:
+      - "Đại từ & sắc thái: quy chiếu Serebryakov bằng 'cô ấy'; giữ quan hệ chuyển ý 'chỉ đang nói đùa thôi, nhưng...'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000070"
+    choices:
+      - "Đại từ & chức danh: quy chiếu Serebryakov bằng 'Cô ấy'; 'adjutant' -> 'sĩ quan phụ tá'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000071"
+    choices:
+      - "Điểm nhìn, đại từ & thuật ngữ: độc thoại nội tâm của Tanya dùng 'chúng tôi' (cho hai người), 'mình' (cho bản thân theo DEC-P01-001) và 'cô ấy' (cho Serebryakov); 'Rhine front' -> 'mặt trận Rhine'; 'human capital' -> 'vốn con người'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000072"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu Serebryakov bằng 'cô ấy'; 'veteran' -> 'cựu binh'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000073"
+    choices:
+      - "Thuật ngữ & phủ định giảm nhẹ: 'NCOs' -> 'các hạ sĩ quan'; giữ đại từ 'chúng ta' và cách nói phủ định giảm nhẹ 'cũng chẳng phải chuyện gì tệ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000074"
+    choices:
+      - "Cấu trúc tương phản & thuật ngữ: giữ cấu trúc nhấn mạnh 'không phải các pháp sư tình nguyện mà chính những lính nghĩa vụ mới là những người đã trưởng thành thành cựu binh'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000075"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ: chỉ bọc '*Ààà*' khớp với thẻ em trong XHTML theo DEC-P01-002; trần thuật ngôi thứ ba quy chiếu Tanya bằng 'Tanya' và 'nó' theo DEC-P01-001; 'old-hand volunteers' -> 'những người lính tình nguyện kỳ cựu'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000076"
+    choices:
+      - "Độc thoại thành tiếng, phủ định & thuật ngữ: trong lời tự nhủ thành tiếng, Tanya dùng 'chúng ta' và 'Tôi'; 'eastern front' -> 'Mặt trận phía đông'; giữ các cấu trúc phủ định 'không có nghĩa là...', 'Chẳng có lối thoát nào cả'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000077"
+    choices:
+      - "Cấu trúc song hành & tương phản: giữ hai mệnh đề song hành 'Họ có thể điều... và họ có thể gửi...' đối lập với kết cục 'nhưng tất cả rồi sẽ chỉ bị kẻ địch và tuyết trắng nuốt chửng mà thôi'."
