@@ -1,0 +1,250 @@
+task_id: "vol-06-ch-02-b01-argon-review"
+parent_task_id: "vol-06-ch-02-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 2
+source_package: "work/vol-06/batches/ch-02-b01-source.jsonl"
+target_translation: "translations/vol-06/ch-02-b01.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 3
+  minor: 0
+findings:
+  - segment_id: "YS-LN06/Text/part0011.html/p000005"
+    severity: "moderate"
+    category: "terminology_consistency"
+    issue: "Danh xưng 'Colonel Mikel' đang được dịch là 'Đại tá Mikel', lệch với cấp bậc 'Trung tá Mikel' đã được xác lập và khóa ở chương 1 (ch-01-b17, ch-01-b18) cũng như phần sau của chương 2 (ch-02-b07, ch-02-b08)."
+    basis: "Tại YS-LN06/Text/part0011.html/p000289 (cùng chương 2), bản gốc ghi rõ cấp bậc đầy đủ là 'Lieutenant Colonel Mikel' và gọi rút gọn là 'Colonel Mikel' ở câu thoại kế tiếp (p000290). Trong work/run-state/pending-terms-index.yml và các báo cáo review ch-01-b17, ch-01-b18, ch-02-b07, ch-02-b08, cách gọi tắt này đã được thống nhất dịch là 'Trung tá Mikel' (tương tự trường hợp Trung tá Tanya và Trung tá Drake được gọi tắt bằng Colonel)."
+    recommendation: "Đổi 'Đại tá Mikel' thành 'Trung tá Mikel': 'Sau khi công khai rời khỏi sở chỉ huy lực lượng liên hợp, Trung tá Drake và Trung tá Mikel đã cùng nhau hướng về nơi ở được phân công...'"
+  - segment_id: "YS-LN06/Text/part0011.html/p000016"
+    severity: "moderate"
+    category: "terminology_consistency"
+    issue: "Cách xưng hô 'Colonel Mikel' trong lời thoại của Drake đang được dịch là 'thưa Đại tá Mikel', chưa đồng bộ với cấp bậc 'Trung tá Mikel' đã khóa trong tập 6."
+    basis: "Theo work/run-state/pending-terms-index.yml và các lô đã review của chương 1–2 tập 6 (ch-01-b17, ch-01-b18, ch-02-b07, ch-02-b08), Mikel mang quân hàm Trung tá (Lieutenant Colonel) và khi được gọi bằng 'Colonel Mikel' cần dịch nhất quán là 'Trung tá Mikel'."
+    recommendation: "Đổi 'thưa Đại tá Mikel' thành 'thưa Trung tá Mikel': '“Tôi rất tiếc, thưa Trung tá Mikel. Tôi không biết gì về chuyện đó cả.”'"
+  - segment_id: "YS-LN06/Text/part0011.html/p000018"
+    severity: "moderate"
+    category: "terminology_consistency"
+    issue: "Cách gọi 'Colonel' khi Drake thưa chuyện với Mikel đang được dịch là 'thưa Đại tá', lệch với phương án 'thưa Trung tá' đã khóa ở chương 1 (p000661, p000677)."
+    basis: "Trong work/run-state/pending-terms-index.yml (mục 'Colonel (addressing Mikel) -> Trung tá') và các lô ch-01-b17, ch-01-b18, lời gọi tắt 'Colonel' dành cho Trung tá Mikel được thống nhất dịch là 'Trung tá' / 'thưa Trung tá'."
+    recommendation: "Đổi 'thưa Đại tá' thành 'thưa Trung tá': '“Ý tôi là, thưa Trung tá. Mệnh lệnh duy nhất mà chúng tôi nhận được là ‘hợp tác với Quân đội Liên bang’...”'"
+pending_term_recommendations:
+  - source_term: "FEDERATION TERRITORY / THE MULTINATIONAL FORCES HEADQUARTERS / joint forces headquarters"
+    proposed_vi: "LÃNH THỔ LIÊN BANG / SỞ CHỈ HUY LỰC LƯỢNG ĐA QUỐC GIA / sở chỉ huy lực lượng liên hợp"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán cách dịch tiêu đề địa điểm từ sổ pending tập 6 (ch-01-b16) và thuật ngữ 'lực lượng liên hợp' ở đầu đoạn."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000001"
+      - "YS-LN06/Text/part0011.html/p000005"
+    status: "proposed"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quốc danh Đế quốc từ sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000004"
+      - "YS-LN06/Text/part0011.html/p000007"
+    status: "proposed"
+  - source_term: "limited offensive / major spring counteroffensive"
+    proposed_vi: "cuộc tiến công giới hạn / cuộc tổng phản công mùa xuân"
+    alternatives_vi:
+      - "cuộc tiến công giới hạn / cuộc phản công lớn vào mùa xuân"
+    rationale: "Kế thừa thuật ngữ 'cuộc tiến công giới hạn' từ sổ pending tập 6 và diễn đạt tự nhiên chiến dịch phản công quy mô lớn dự kiến vào mùa xuân."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000004"
+      - "YS-LN06/Text/part0011.html/p000029"
+    status: "proposed"
+  - source_term: "Lieutenant Colonel Drake / Drake"
+    proposed_vi: "Trung tá Drake / Drake"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm Trung tá và họ của Drake từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000005"
+      - "YS-LN06/Text/part0011.html/p000006"
+      - "YS-LN06/Text/part0011.html/p000008"
+      - "YS-LN06/Text/part0011.html/p000012"
+      - "YS-LN06/Text/part0011.html/p000020"
+      - "YS-LN06/Text/part0011.html/p000026"
+      - "YS-LN06/Text/part0011.html/p000027"
+      - "YS-LN06/Text/part0011.html/p000032"
+      - "YS-LN06/Text/part0011.html/p000034"
+      - "YS-LN06/Text/part0011.html/p000036"
+    status: "proposed"
+  - source_term: "Colonel Mikel / Colonel (addressing Mikel) / Mikel"
+    proposed_vi: "Trung tá Mikel / thưa Trung tá / Mikel"
+    alternatives_vi:
+      - "Đại tá Mikel / thưa Đại tá / Mikel"
+    rationale: "Đồng bộ với cấp bậc đầy đủ 'Lieutenant Colonel Mikel' ở p000289 và phương án 'Trung tá Mikel' đã khóa tại ch-01-b17, ch-01-b18, ch-02-b07, ch-02-b08 trong sổ pending tập 6."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000005"
+      - "YS-LN06/Text/part0011.html/p000011"
+      - "YS-LN06/Text/part0011.html/p000012"
+      - "YS-LN06/Text/part0011.html/p000016"
+      - "YS-LN06/Text/part0011.html/p000018"
+      - "YS-LN06/Text/part0011.html/p000025"
+      - "YS-LN06/Text/part0011.html/p000026"
+      - "YS-LN06/Text/part0011.html/p000029"
+      - "YS-LN06/Text/part0011.html/p000032"
+    status: "proposed"
+  - source_term: "Federation / Federation Army / Federation side"
+    proposed_vi: "Liên bang / Quân đội Liên bang / phía Liên bang"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quốc danh Liên bang và tên lực lượng quân sự từ sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000007"
+      - "YS-LN06/Text/part0011.html/p000008"
+      - "YS-LN06/Text/part0011.html/p000018"
+      - "YS-LN06/Text/part0011.html/p000036"
+      - "YS-LN06/Text/part0011.html/p000037"
+    status: "proposed"
+  - source_term: "General Winter"
+    proposed_vi: "Tướng Mùa Đông"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán danh xưng nhân cách hóa mùa đông Liên bang từ sổ pending tập 5–6."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000007"
+      - "YS-LN06/Text/part0011.html/p000008"
+      - "YS-LN06/Text/part0011.html/p000010"
+    status: "proposed"
+  - source_term: "Moskva"
+    proposed_vi: "Moskva"
+    alternatives_vi: []
+    rationale: "Giữ nguyên tên thủ đô Liên bang theo sổ pending tập 5–6."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000011"
+    status: "proposed"
+  - source_term: "Commonwealth / Commonwealth side / Commonwealth officers"
+    proposed_vi: "Khối Thịnh vượng chung / phía Khối Thịnh vượng chung / sĩ quan Khối Thịnh vượng chung"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quốc danh Khối Thịnh vượng chung từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000015"
+      - "YS-LN06/Text/part0011.html/p000036"
+      - "YS-LN06/Text/part0011.html/p000037"
+    status: "proposed"
+  - source_term: "raw recruits / conscripts"
+    proposed_vi: "đám tân binh non nớt / lính nghĩa vụ"
+    alternatives_vi: []
+    rationale: "Kế thừa 'lính nghĩa vụ' từ sổ pending tập 6 và dịch sát nghĩa 'tân binh non nớt' cho lính mới chưa qua huấn luyện bài bản."
+    segment_ids:
+      - "YS-LN06/Text/part0011.html/p000033"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0011.html/p000001"
+    choices:
+      - "Tiêu đề thời gian & địa điểm: giữ định dạng in hoa toàn bộ 'VÀI NGÀY TRƯỚC LỄ GIÁNG SINH, NĂM THỐNG NHẤT 1926, LÃNH THỔ LIÊN BANG, KHU VỰC LÂN CẬN SỞ CHỈ HUY LỰC LƯỢNG ĐA QUỐC GIA'; không dùng Markdown nhấn mạnh."
+  - segment_id: "YS-LN06/Text/part0011.html/p000002"
+    choices:
+      - "Điểm nhìn & quan hệ nhân quả: trần thuật khách quan mở đầu cảnh, giữ mệnh đề đối lập 'Trái với suy nghĩ của đa số mọi người' và tính tất yếu 'tự khắc sẽ thu hút sự chú ý'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000003"
+    choices:
+      - "Câu hỏi trực tiếp trong thoại: giữ đúng đối tượng câu hỏi về mục tiêu của chiến dịch lần này."
+  - segment_id: "YS-LN06/Text/part0011.html/p000004"
+    choices:
+      - "Thoại, tình thái & thuật ngữ: Mikel xưng 'Tôi', giữ tình thái nghe truyền đạt lại 'Tôi nghe nói là'; 'the Empire’s attrition' -> 'sự tiêu hao của Đế quốc'; 'limited offensive' -> 'cuộc tiến công giới hạn'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000005"
+    choices:
+      - "Quân hàm, nhân danh & thuật ngữ (cần sửa theo finding): 'joint forces headquarters' -> 'sở chỉ huy lực lượng liên hợp'; 'Lieutenant Colonel Drake' -> 'Trung tá Drake'; 'Colonel Mikel' -> 'Trung tá Mikel' (đổi từ 'Đại tá Mikel' để đồng bộ với p000289 và chương 1); 'designated lodgings' -> 'nơi ở được phân công'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000006"
+    choices:
+      - "Thoại câu hỏi & trần thuật: giữ câu hỏi cảm thán về thời tiết tuyết rơi và chi tiết Drake thở dài nhấp ngụm trà nguội."
+  - segment_id: "YS-LN06/Text/part0011.html/p000007"
+    choices:
+      - "Thuật ngữ, phủ định & tình thái: 'Federation’s General Winter' -> 'Tướng Mùa Đông của Liên bang'; 'the Empire' -> 'Đế quốc'; quy chiếu Tướng Mùa Đông bằng 'ông ta'; giữ hai phủ định ('vốn chẳng vị nể một ai', 'không phân biệt nổi đâu là bạn đâu là thù') và tình thái nhượng bộ 'Có thể ông ta đã lập công lớn..., nhưng...'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000008"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & phủ định: chỉ bọc '*Nói lại cho đúng thì*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; phần dẫn 'Drake lẩm bẩm trong đầu.' và hai câu sau để ngoài dấu sao; giữ hai cấu trúc phủ định ('Cũng đâu phải Tướng Mùa Đông là một người yêu nước của Liên bang.', 'chẳng phải đồng minh của bất kỳ ai cả')."
+  - segment_id: "YS-LN06/Text/part0011.html/p000009"
+    choices:
+      - "Nghĩa & sắc thái: giữ câu nhận định ngắn 'Những kẻ trung lập thường là một lũ ngạo mạn.'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000010"
+    choices:
+      - "Thuật ngữ & thành ngữ trong thoại: 'General Winter' -> 'Tướng Mùa Đông'; 'batten down the hatches' -> 'đóng chặt cửa cố thủ'; giữ câu ví von về mùa của những buổi giao tế xã hội."
+  - segment_id: "YS-LN06/Text/part0011.html/p000011"
+    choices:
+      - "Xưng hô, địa danh & chuỗi phủ định: Mikel xưng 'tôi / Chúng tôi'; trần thuật quy chiếu Mikel bằng 'Mikel / ông'; 'Moskva' -> 'Moskva'; giữ bốn phủ định ('không còn nghi ngờ gì nữa', 'chẳng hiểu nổi', 'không có quyền lên tiếng', 'Chẳng thể làm gì khác được') cùng cặp dấu gạch ngang nhấn mạnh '—những mệnh lệnh nghiêm ngặt—'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000012"
+    choices:
+      - "Điểm nhìn & nhân danh: trần thuật nêu tên 'Drake' và 'Mikel', giữ mức độ tức thời 'hiểu ngay lập tức'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000013"
+    choices:
+      - "Đại từ, tình thái & phép so sánh: quy chiếu Mikel bằng 'ông' và phản thân 'mình'; giữ tình thái dự đoán 'có lẽ ông sẽ buộc phải' và hai phép so sánh ('vốn chẳng khác nào gia đình của mình', 'như những món đồ dùng một lần rồi bỏ')."
+  - segment_id: "YS-LN06/Text/part0011.html/p000014"
+    choices:
+      - "Phủ định & tình thái suy luận tất yếu: giữ mệnh đề chủ ngữ phủ định 'Bất kỳ ai không cảm thấy giằng xé trong hoàn cảnh đó' và tình thái 'hẳn phải khiếm khuyết một phần nhân tính căn bản nào đó'; 'dilemma' -> 'tình thế tiến thoái lưỡng nan'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000015"
+    choices:
+      - "Xưng hô, điều kiện & thuật ngữ trong thoại: Mikel xưng 'tôi', gọi Drake là 'ngài', dùng 'chúng ta' ở cụm cuối; 'the Commonwealth side' -> 'phía Khối Thịnh vượng chung'; giữ câu điều kiện 'Nếu ngài có nghe được...'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000016"
+    choices:
+      - "Xưng hô, quân hàm & phủ định trong thoại (cần sửa theo finding): Drake xưng 'Tôi'; 'Colonel Mikel' -> 'thưa Trung tá Mikel' (đổi từ 'thưa Đại tá Mikel'); giữ phủ định toàn phần 'Tôi không biết gì về chuyện đó cả.'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000017"
+    choices:
+      - "Thoại ngắn: giữ câu hỏi ngạc nhiên '“Sao cơ?”'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000018"
+    choices:
+      - "Xưng hô, quân hàm, thuật ngữ, phủ định & tình thái (cần sửa theo finding): trong thoại Drake xưng 'tôi / chúng tôi', gọi Mikel là 'thưa Trung tá' (đổi từ 'thưa Đại tá'); 'Federation Army' -> 'Quân đội Liên bang'; giữ nhượng bộ phủ định 'Ngay cả khi..., chúng tôi cũng chẳng bao giờ được nghe...'; trần thuật quy chiếu Drake bằng 'Ông / ông' và giữ tình thái suy đoán phủ định kép 'Có lẽ ông không tài nào truyền đạt nổi... nếu không làm ra vẻ nghiêm túc đến mức lố bịch.'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000019"
+    choices:
+      - "Thoại, tình thái & đại từ: giữ dấu chấm lửng mở đầu, tình thái 'Xem ra' và đại từ bao gộp 'cả hai chúng ta'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000020"
+    choices:
+      - "Nhân danh & ẩn dụ: giữ tên riêng 'Drake' và phép đối lập giữa 'mứt' hợp với trà và 'một người bạn già' (rượu scotch) để giải khuây nỗi bức bối."
+  - segment_id: "YS-LN06/Text/part0011.html/p000021"
+    choices:
+      - "Đại từ trần thuật: quy chiếu Drake bằng 'Ông' và phản thân 'mình'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000022"
+    choices:
+      - "Xưng hô & câu hỏi trong thoại: Drake gọi Mikel là 'Ngài' trong hai câu hỏi mời rượu ngắn gọn."
+  - segment_id: "YS-LN06/Text/part0011.html/p000023"
+    choices:
+      - "Xưng hô & sắc thái: Mikel xưng 'tôi / Tôi', dùng 'hai quốc gia chúng ta', giữ giọng điệu lịch thiệp pha chút hài hước ngoại giao."
+  - segment_id: "YS-LN06/Text/part0011.html/p000024"
+    choices:
+      - "Xưng hô & dấu câu: giữ dấu chấm lửng mở đầu, Drake xưng 'tôi' và gọi Mikel là 'ngài'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000025"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & phủ định: trần thuật nêu tên 'Mikel', quy chiếu bằng 'mình / Ông'; chỉ bọc '*Gần như toàn là cồn cả!*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; giữ phủ định 'chẳng định thốt ra' và hệ quả phủ định ở câu cuối."
+  - segment_id: "YS-LN06/Text/part0011.html/p000026"
+    choices:
+      - "Quân hàm, xưng hô & trần thuật: Mikel dùng 'Chúng ta' và gọi 'thưa Trung tá Drake' ('Lieutenant Colonel Drake'); giữ tên riêng 'Mikel' ở vế trần thuật."
+  - segment_id: "YS-LN06/Text/part0011.html/p000027"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & đại từ: chỉ bọc câu độc thoại nội tâm '*Chà, mình cũng chẳng trách ông ấy được.*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002 (Drake tự xưng 'mình', quy chiếu Mikel là 'ông ấy'); phần trần thuật sau để ngoài dấu sao và nêu tên 'Drake'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000028"
+    choices:
+      - "Phủ định: giữ câu nhận định ngắn gọn 'Chuyện này không cần phải nói nhiều.'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000029"
+    choices:
+      - "Xưng hô, thuật ngữ & phủ định nhượng bộ: trần thuật nêu tên 'Mikel' và quy chiếu bằng 'ông'; trong thoại Mikel xưng 'tôi / chúng tôi'; 'limited offensive' -> 'cuộc tiến công giới hạn'; 'foothold' -> 'bàn đạp'; 'major spring counteroffensive' -> 'cuộc tổng phản công mùa xuân'; giữ cấu trúc phủ định nhượng bộ 'Tôi sẽ không gọi đó là liều mạng, nhưng ngay cả với tư cách một người yêu nước kiên định, tôi có thể tự tin nói rằng việc này đầy rủi ro.'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000030"
+    choices:
+      - "Xưng hô & câu hỏi đuôi trong thoại: Drake gọi phía Liên bang là 'phía các ngài' và giữ câu hỏi phủ định xác nhận 'chẳng phải... rồi sao?'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000031"
+    choices:
+      - "Thoại bỏ lửng: giữ nguyên câu đáp ngắn kèm dấu chấm lửng '“Trên giấy tờ thôi…”'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000032"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: chỉ bọc '*Ý ngài là…?*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; vế trần thuật 'Drake hỏi bằng ánh mắt và Mikel nhún vai.' để ngoài dấu sao."
+  - segment_id: "YS-LN06/Text/part0011.html/p000033"
+    choices:
+      - "Đại từ, tình thái, thời gian & thuật ngữ trong thoại: Mikel phân biệt 'chúng tôi' (phía Liên bang) và 'chúng ta' (hai người đang trò chuyện); 'raw recruits' -> 'đám tân binh non nớt'; 'conscripts' -> 'lính nghĩa vụ'; giữ tình thái 'có lẽ' và thời điểm hiện tại tiếp diễn 'mới chỉ đang làm thủ tục đăng ký ngay lúc chúng ta nói chuyện này'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000034"
+    choices:
+      - "Nhân danh & thành ngữ: giữ tên riêng 'Drake' và thành ngữ chỉ sự bàng hoàng 'máu trong người Drake lạnh toát'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000035"
+    choices:
+      - "Thoại & câu hỏi: giữ trọn ý mức độ gây sốc làm mất cả thú vui thưởng thức ly đồ uống ấm và câu hỏi xác nhận 'Có thật không vậy?'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000036"
+    choices:
+      - "Điều kiện giả định, điểm nhìn & thuật ngữ: giữ câu điều kiện 'Nếu tin này là sự thật, họ đang rơi vào một tình thế vô cùng bấp bênh'; quy chiếu 'Drake / ông'; 'Commonwealth officers' -> 'sĩ quan Khối Thịnh vượng chung'; 'Federation side' -> 'phía Liên bang'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000037"
+    choices:
+      - "Phủ định, dấu ngoặc kép mỉa mai & thuật ngữ: giữ mệnh đề chủ ngữ phủ định 'Việc điều này chẳng làm ai ngạc nhiên', dấu ngoặc kép mỉa mai quanh từ '“nồng ấm”', 'Commonwealth' -> 'Khối Thịnh vượng chung' và 'Federation' -> 'Liên bang'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000038"
+    choices:
+      - "Thoại bỏ lửng: giữ câu cảm thán kèm dấu chấm lửng '“Đó là một tin rò rỉ động trời đấy…”'."
+  - segment_id: "YS-LN06/Text/part0011.html/p000039"
+    choices:
+      - "Xưng hô, phủ định & câu hỏi đuôi: Mikel gọi Drake là 'ngài', giữ phủ định 'không hề biết' và câu hỏi đuôi 'đúng chứ?'."
