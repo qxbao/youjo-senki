@@ -12,9 +12,9 @@ Phạm vi: `YS-LN02/Text/part0030.xhtml/p000584`–`p000609` (26 đoạn), đố
 - p000594–p000597: giữ điều kiện về sự tồn tại của Thượng đế, tên Being X, nhận định con người cứu con người và điểm nhìn Tanya. Các danh xưng và cách gọi ở đây vẫn là đề xuất pending.
 - p000598–p000599: giữ điểm nhìn Grantz, hình ảnh bàn tay sạch và lời tự biện hộ mong manh; không biến lời ấy thành xác nhận vô tội.
 - p000600: B19-L03 sắp xếp lại thành “Thiếu tá von Degurechaff, chỉ huy tiểu đoàn”, giữ cả quân hàm và chức vụ; lời cảnh báo đầu hàng cùng việc dân quân khước từ làm tan vỡ sự tự dối mình của Grantz.
-- p000601: giữ vai trò tiên phong, giả định phản thực, nhiệm vụ ban đầu và lựa chọn pending “thần dân Đế quốc”.
+- p000601: B19-F01 đổi thành “Tiểu đoàn Pháp sư Trên không số 203” theo sổ pending; giữ vai trò tiên phong, giả định phản thực, nhiệm vụ ban đầu và lựa chọn pending “thần dân Đế quốc”.
 - p000602: B19-L02 đổi yêu cầu thành “Xin thông tin mục tiêu”, không thêm tọa độ hay quy trình liên lạc.
-- p000603–p000609: giữ việc tập hợp, nhiệm vụ tấn công, ý định Tanya đích thân tham gia, sự chưa hài lòng của các cấp chỉ huy (B19-M03), trao đổi với Bộ Chỉ huy, pháp sư làm hậu quân và phản ứng của Grantz. Không nâng điều nhìn thấy thành xác minh danh tính.
+- p000603–p000609: xử lý B19-F02 tại câu đầu p000608 (“Như một phần của quá trình huấn luyện, anh được phân công về đại đội sở chỉ huy.”) và câu đầu p000604 (“Rất đáng nghi ngờ liệu người dân Arene còn đủ phương tiện để sống sót hay không, nói gì đến chiến đấu.”); xử lý B19-F03 tại cuối p000587 (“cho thấy rõ ý định gây hại của phía dân thường ấy”) và B19-F04 tại p000603, p000605–p000606 (đóng câu p000603 bằng dấu chấm, thống nhất “Sở chỉ huy”). Cập nhật toàn bộ 26 dòng sang trạng thái `reviewed`.
 
 ## Bảy đề xuất thuật ngữ pending, không phải canon
 
