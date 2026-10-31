@@ -27,8 +27,8 @@ canon_references:
 source_manifest: segments/vol-02/manifest.yml
 source_package: work/vol-02/batches/ch-07-b06-source.jsonl
 source_package_sha256: bc84d4375c395a4d9ae54c67fed52097f9a7d30d76e66009f19c574f5382c36f
-translation_editor: codex-coordinator
-status: promoted_awaiting_commit
+translation_editor: ys-coord-stream-1
+status: polished
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -44,10 +44,12 @@ planning:
   boundary_after: unit_boundary
   next_segment_id: YS-LN02/Text/part0032.xhtml/p000153
 lease:
-  holder: none
+  holder: ys-coord-stream-1
   task_id: vol-02-ch-07-b06
-  state: released_promotion_complete
-  allowlist: []
+  role: coordinator
+  state: completed
+  allowlist:
+  - translations/vol-02/ch-07-b06.jsonl
 promotion:
   coordinator: ys-coord-1257
   candidate: polish-candidates/vol-02/ch-07-b06.gemini.jsonl
@@ -57,3 +59,10 @@ promotion:
   apply_authorized: true
 promotion_receipt: handoffs/vol-02/ch-07-b06-promotion.yml
 promotion_receipt_sha256: ec16f101c932f2897d570381a07c4e99597ea147fcbe5434c2a420c1cf5482be
+polish_promotion:
+  result: promoted
+  task_id: vol-02-ch-07-b06
+  segment_count: 21
+  baseline_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+  candidate_sha256: cc8cd67986aa259a3c6bf2d7df12d474f868db8fedc6d473f2c49f581886cc8b
+  receipt_sha256: 5ab12c669811c4de000558d8800fd1e0db20fd526da631ea4a806d241f498c87
