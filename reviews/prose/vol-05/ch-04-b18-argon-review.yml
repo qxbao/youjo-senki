@@ -1,0 +1,268 @@
+task_id: "vol-05-ch-04-b18-argon-review"
+parent_task_id: "vol-05-ch-04-b18"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-04-b18-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000693"
+    issue: "Cụm 'đó là kết luận mà đơn vị kiểm tra lần theo dấu vết chúng đưa ra!' đặt đại từ 'chúng' ngay trước động từ 'đưa ra', dễ gây hiểu nhầm chủ ngữ của hành động 'đưa ra' là 'chúng' thay vì 'đơn vị kiểm tra'."
+    evidence: "Trong nguyên văn, mệnh đề quan hệ bổ nghĩa cho đơn vị kiểm tra đang lần theo dấu vết của đối phương, và chính đơn vị kiểm tra này là chủ thể đưa ra kết luận nhận dạng."
+    recommendation: "Đề xuất ở bước chuốt văn cân nhắc chỉnh lại trật tự từ để tách rõ chủ ngữ – vị ngữ, chẳng hạn: 'đó là kết luận do đơn vị kiểm tra đang lần theo dấu vết của chúng đưa ra!'."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000732"
+    issue: "Cụm 'Giờ thì người ta cứ nóng ran và bứt rứt cả lên' dễ bị đọc nhầm 'người ta' thành đại từ phiếm chỉ hoặc cách tự xưng suồng sã, thay vì nghĩa 'cơ thể ta / trong người ta'."
+    evidence: "Nguyên văn dùng chủ ngữ ngôi thứ nhất với tính từ chỉ trạng thái cơ thể/tâm sinh lý đang nóng bừng và bứt rứt của Loria."
+    recommendation: "Đề xuất ở bước chuốt văn cân nhắc đổi thành: 'Giờ thì cả người ta cứ nóng ran và bứt rứt hết lên' hoặc 'Giờ thì ta cứ thấy nóng ran và bứt rứt cả người'."
+pending_term_recommendations:
+  - source_term: "Comrade Loria / Comrade / Loria"
+    proposed_vi: "Đồng chí Loria / Đồng chí / Loria"
+    category: "tên nhân vật / xưng hô"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000682"
+      - "YS-LN05/Text/part0022.html/p000684"
+      - "YS-LN05/Text/part0022.html/p000686"
+      - "YS-LN05/Text/part0022.html/p000701"
+      - "YS-LN05/Text/part0022.html/p000706"
+      - "YS-LN05/Text/part0022.html/p000708"
+      - "YS-LN05/Text/part0022.html/p000722"
+  - source_term: "political officer"
+    proposed_vi: "sĩ quan chính trị"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000683"
+  - source_term: "Moskva"
+    proposed_vi: "Moskva"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000690"
+      - "YS-LN05/Text/part0022.html/p000692"
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    category: "địa danh / tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000690"
+      - "YS-LN05/Text/part0022.html/p000729"
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    category: "tên đơn vị"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 2 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000692"
+  - source_term: "Comrade Commissar"
+    proposed_vi: "Đồng chí Dân ủy"
+    category: "chức danh / xưng hô"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000693"
+  - source_term: "inspection unit"
+    proposed_vi: "đơn vị kiểm tra"
+    category: "thuật ngữ quân sự / hành chính"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa cho bộ phận được cử đi kiểm tra, xác minh dấu vết tại hiện trường."
+    alternatives_vi:
+      - "đơn vị thanh tra"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000693"
+  - source_term: "Colonel Mikel / Comrade Colonel Mikel"
+    proposed_vi: "Đại tá Mikel / Đồng chí Đại tá Mikel"
+    category: "tên nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000703"
+      - "YS-LN05/Text/part0022.html/p000706"
+      - "YS-LN05/Text/part0022.html/p000725"
+      - "YS-LN05/Text/part0022.html/p000729"
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000708"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0022.html/p000682"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Nhưng…*' đúng phạm vi thẻ em trong nguồn; giữ tên riêng 'Loria'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000683"
+    choices:
+      - "Chức danh và sắc thái đánh giá từ góc nhìn Loria: 'gã sĩ quan chính trị rác rưởi duy nhất này'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000684"
+    choices:
+      - "Xưng hô của cấp dưới với Loria: 'Đồng chí Loria?'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000685"
+    choices:
+      - "Giữ câu hỏi xác nhận phủ định của Loria: 'Vậy là không có sai sót nào trong bản báo cáo này chứ, hửm?'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000686"
+    choices:
+      - "Đại từ trần thuật chỉ Loria và cấp dưới: 'Loria' – 'ông ta' – 'họ'; giữ cụm 'ý thức nghề nghiệp tuyệt vời'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000687"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'ông ta'; giữ câu hỏi phỏng đoán và nhịp đánh giá 'lũ bất tài kia chăng? Cảm giác thậm chí còn thật sảng khoái.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000688"
+    choices:
+      - "Giữ nét lắp bắp và xưng hô của cấp dưới: 'K-không có đâu ạ', 'chúng tôi', 'báo cáo đầu tiên', 'xác nhận sơ bộ thiệt hại'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000689"
+    choices:
+      - "Giữ câu chỉ đạo ngắn gọn của Loria: 'Chuyện đó có thể điều tra sau.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000690"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn độc thoại nội tâm '*Họ đang giao chiến ... cái cớ tồi.*'"
+      - "Đại từ nội tâm của Loria, cách gọi Tanya và địa danh/tổ chức: 'ta', 'nàng tiên của ta', 'con tiểu quỷ', 'Moskva', 'Khối Thịnh vượng chung'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000691"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Không, quan trọng hơn là.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000692"
+    choices:
+      - "Xưng hô trong thoại của Loria với cấp dưới và tên riêng/phiên hiệu: 'Anh', 'Moskva', 'Tiểu đoàn Pháp sư Trên không số 203'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000693"
+    choices:
+      - "Xưng hô và thuật ngữ của cấp dưới với Loria: 'ngài', 'thưa Đồng chí Dân ủy', 'đơn vị kiểm tra', 'nhận dạng chính xác một trăm phần trăm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000694"
+    choices:
+      - "Đại từ tự xưng của Loria trước mặt cấp dưới: 'tôi'; giữ chỉ dẫn 'ưu tiên hàng đầu việc giao chúng cho tôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000695"
+    choices:
+      - "Khẩu lệnh đáp lời của cấp dưới: 'Rõ, thưa ngài! Tôi làm ngay!'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000696"
+    choices:
+      - "Xưng hô của Loria với cấp dưới: 'Anh' – 'tôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000697"
+    choices:
+      - "Giữ nét lắp bắp của cấp dưới: 'T-tôi sẽ bắt tay vào việc ngay lập tức!'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000698"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu nội tâm '*Thật là một tin tức tuyệt vời.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000699"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn nội tâm '*Chúng ta tìm thấy ... khẩu phần cho họ.*'"
+      - "Đại từ nội tâm của Loria và cách gọi Tanya: 'Chúng ta' – 'ta' – 'mình', 'con bé', 'tình yêu chân thành của ta', 'như một gã tư bản'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000700"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu nội tâm '*Dù ta chẳng hài lòng chút nào khi có một tên ngu xuẩn hiểu lầm vai trò của mình cho đến tận phút cuối.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000701"
+    choices:
+      - "Cách gọi cấp dưới trong thoại của Loria: 'Đồng chí'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000702"
+    choices:
+      - "Cách đáp lời ngắn của cấp dưới: 'Thưa ngài?'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000703"
+    choices:
+      - "Xưng hô và quân hàm trong thoại của Loria trước mặt cấp dưới: 'chúng ta', 'tôi', 'Đại tá Mikel' – 'ông ấy', 'tên đần độn bất tài đã vu khống các đồng chí đang chiến đấu gian khổ của chúng ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000704"
+    choices:
+      - "Câu hỏi của cấp dưới với Loria: 'Chúng tôi có nên bỏ độc ông ta không ạ?'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000705"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc hai phần độc thoại nội tâm '*Cái gì?!*' và '*Tên này đang nói cái quái gì thế?*', giữ phần trần thuật ở ngoài dấu sao; đại từ trần thuật chỉ Loria: 'Ông ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000706"
+    choices:
+      - "Xưng hô và quân hàm trong lời cảnh cáo của Loria: 'Đồng chí', 'anh' – 'tôi', 'Đại tá Mikel' – 'ông ấy'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000707"
+    choices:
+      - "Giữ nét lắp bắp của cấp dưới: 'R-rõ, thưa ngài!'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000708"
+    choices:
+      - "Tên riêng, đại từ và tổ chức: 'Loria', 'Ông ta', 'Bộ Dân ủy Nội vụ', 'một lũ bạo dâm vô tích sự'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000709"
+    choices:
+      - "Giữ câu chuyển ý ngắn: 'Nhưng thực trạng vẫn cứ là như vậy.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000710"
+    choices:
+      - "Giữ câu cảm thán ngắn: 'Đúng là hết thuốc chữa.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000711"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'Ông ta' – 'mình'; giữ sắc thái mỉa mai về 'những suy nghĩ vô cùng thuần khiết của mình' đối lập với 'bộ mặt của lũ đần độn này'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000712"
+    choices:
+      - "Giữ câu nhấn mạnh ngắn: 'Phải nhắc lại lần nữa, thật không thể chịu đựng nổi.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000713"
+    choices:
+      - "Đại từ trần thuật chỉ Loria và nhóm cấp dưới: 'ông ta' – 'họ' / 'bọn họ'; giữ lời đuổi ngắn gọn 'Được rồi, tất cả ra ngoài.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000714"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'ông ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000715"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'ông ta'; giữ chi tiết 'bức ảnh lấy ra từ ngăn kéo bàn làm việc'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000716"
+    choices:
+      - "Xưng hô trong lời độc thoại của Loria khi nhìn ảnh Tanya: 'ta' – 'em' – 'chúng ta', 'nàng tiên nhỏ… vô cùng đáng yêu, đáng yêu của ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000717"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Em thích chơi trốn tìm lắm phải không?*'; giữ đại từ 'Em'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000718"
+    choices:
+      - "Xưng hô và nhịp ngắt trong lời độc thoại của Loria với bức ảnh: 'ta' – 'em', 'em đúng là—đúng là một nhà chiến thuật đại tài!'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000719"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Em thích trêu ngươi lắm phải không?*'; giữ đại từ 'Em'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000720"
+    choices:
+      - "Xưng hô và nhịp bỏ lửng trong lời độc thoại của Loria: 'Ta' – 'mình' – 'em', 'Ôi, em đấy, cô bé này… Thế này thì…'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000721"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Thật không sao chịu nổi.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000722"
+    choices:
+      - "Tên riêng và cụm danh từ: 'Loria', 'nàng tiên yêu dấu của mình'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000723"
+    choices:
+      - "Đại từ trần thuật chỉ Loria và Tanya: 'Ông ta' – 'con bé'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000724"
+    choices:
+      - "Đại từ trần thuật và phủ định: 'Ông ta cũng chẳng thực sự nghĩ rằng một đơn vị tầm cỡ đó có thể bắn hạ nàng tiên của ông ta khỏi bầu trời.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000725"
+    choices:
+      - "Xưng hô và quân hàm trong lời độc thoại của Loria khi ở một mình: 'ta' – 'chúng ta', 'con bé', 'Đại tá Mikel' – 'ông ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000726"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ hai câu '*Làm một ván đuổi bắt thì sao nhỉ? Ta sẽ làm người đi bắt và tóm gọn cô bé đó.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000727"
+    choices:
+      - "Xưng hô và nhịp lặp trong lời độc thoại của Loria: 'ta', 'Ta thực sự, thực sự không thể chờ thêm được nữa.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000728"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Chơi nào.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000729"
+    choices:
+      - "Xưng hô, quân hàm và tổ chức trong lời độc thoại của Loria: 'ta', 'Đồng chí Đại tá Mikel' – 'ông ta', 'Khối Thịnh vượng chung'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000730"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Ta sẽ gửi cho con bé thật nhiều bạn bè.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000731"
+    choices:
+      - "Đại từ trần thuật chỉ Loria và Tanya: 'ông ta' – 'con bé', 'Nàng tiên thích đùa đáng yêu ấy'; giữ dấu ba chấm bỏ lửng cuối câu"
+  - segment_id: "YS-LN05/Text/part0022.html/p000732"
+    choices:
+      - "Đại từ tự xưng của Loria trong lời độc thoại: 'ta'; giữ ý tự nhận xét trạng thái nóng bừng, bứt rứt ở độ tuổi của mình"
+  - segment_id: "YS-LN05/Text/part0022.html/p000733"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn nội tâm '*Đúng là một cô bé hư. ... chỉ vì muốn đè con bé xuống.*'"
+      - "Đại từ nội tâm của Loria và cách gọi Tanya: 'ta', 'cô bé hư', 'Con bé'"
