@@ -1,0 +1,179 @@
+task_id: vol-05-ch-02-b12-argon-review
+parent_task_id: vol-05-ch-02-b12
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 2
+target_translation: translations/vol-05/ch-02-b12.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0016.html/p000189
+    severity: minor
+    category: word_choice
+    issue: "Cụm 'public schools' trong bối cảnh Khối Thịnh vượng chung (mô phỏng Anh) chỉ hệ thống trường công học/trường tư thục tinh hoa, dịch thành 'các trường danh tiếng' làm rõ hàm ý xã hội nhưng hơi thoát khỏi danh từ định chế gốc."
+    recommendation: "Khi chuốt văn có thể cân nhắc 'các trường công học danh tiếng' hoặc giữ 'các trường danh tiếng' nếu ưu tiên nhịp đọc tự nhiên."
+  - segment_id: YS-LN05/Text/part0016.html/p000219
+    severity: minor
+    category: word_choice
+    issue: "Động từ 'shore them up' trong ngữ cảnh tính toán viện trợ quân sự nghiêng về nghĩa chống đỡ hoặc củng cố sức cầm cự hơn là 'vực dậy họ'."
+    recommendation: "Khi chuốt văn có thể cân nhắc đổi thành 'chống đỡ cho họ' hoặc 'củng cố sức cầm cự cho họ'."
+pending_term_recommendations:
+  - source_term: Commonwealth Army
+    proposed_vi: "Lục quân Khối Thịnh vượng chung"
+    category: tổ chức quân sự
+    status: proposed
+    rationale: "Thống nhất với sổ pending-terms ở các tập trước để chỉ lực lượng lục quân của Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "Quân đội Khối Thịnh vượng chung"
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000184
+  - source_term: Royal Air Force
+    proposed_vi: "Không quân Hoàng gia"
+    category: tổ chức quân sự
+    status: proposed
+    rationale: "Cách dịch chuẩn xác cho tên quân chủng không quân của Khối Thịnh vượng chung khi nguồn dùng 'Royal Air Force' thay vì 'Royal Air Fleet'."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000194
+  - source_term: Principality of Dacia / Dacia
+    proposed_vi: "Công quốc Dacia / Dacia"
+    category: địa danh / quốc gia
+    status: proposed
+    rationale: "Giữ nguyên tên riêng Dacia và dịch chính thể 'Principality' là 'Công quốc' nhất quán với các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0016.html/p000203
+      - YS-LN05/Text/part0016.html/p000212
+locked_choices:
+  - segment_id: YS-LN05/Text/part0016.html/p000179
+    choices:
+      - "Thuật ngữ và ngôi xưng trong báo cáo: 'police' -> 'Cảnh sát', 'our uniforms' -> 'quân phục của ta', 'ejected pilots' -> 'những phi công nhảy dù thoát hiểm', 'our own' -> 'của chúng ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000180
+    choices:
+      - "Giữ nguyên hình ảnh so sánh: 'gossip' -> 'tin đồn', 'germs' -> 'mầm bệnh'."
+  - segment_id: YS-LN05/Text/part0016.html/p000181
+    choices:
+      - "Thuật ngữ: 'civilian police' -> 'cảnh sát dân sự', 'imperial special ops unit' -> 'một đơn vị đặc nhiệm của Đế quốc'; giữ nguyên cấu trúc câu hỏi theo sát văn bản nguồn."
+  - segment_id: YS-LN05/Text/part0016.html/p000182
+    choices:
+      - "Giữ hình ảnh thành ngữ: 'spread like wildfire' -> 'lan đi nhanh như cháy rừng', 'pubs around town' -> 'các quán rượu trong thị trấn'."
+  - segment_id: YS-LN05/Text/part0016.html/p000183
+    choices:
+      - "Giữ cấu trúc điểm nhìn tập thể và dấu hai chấm: 'enemy soldiers raining down from the sky' -> 'lính địch trút xuống như mưa từ trên bầu trời'."
+  - segment_id: YS-LN05/Text/part0016.html/p000184
+    choices:
+      - "Tên tổ chức: 'Commonwealth Army' -> 'Lục quân Khối Thịnh vượng chung'; giữ đúng quan hệ đối lập nhân quả."
+  - segment_id: YS-LN05/Text/part0016.html/p000185
+    choices:
+      - "Thuật ngữ: 'voluntary pilot' -> 'phi công tình nguyện', 'language issues' -> 'bất đồng ngôn ngữ'; giữ đúng ý nguyện cực đoan của các phi công."
+  - segment_id: YS-LN05/Text/part0016.html/p000186
+    choices:
+      - "Giữ dấu ba chấm, dấu gạch ngang nhấn mạnh mệnh lệnh khẩn cấp và nhận xét 'awfully backward' -> 'quá đỗi ngược đời'."
+  - segment_id: YS-LN05/Text/part0016.html/p000187
+    choices:
+      - "Giữ đúng phản ứng thở dài của toàn bộ những người dự họp."
+  - segment_id: YS-LN05/Text/part0016.html/p000188
+    choices:
+      - "Tên riêng và sắc thái: 'Commonwealth' -> 'Khối Thịnh vượng chung', 'of all people' -> 'Trớ trêu thay', 'patriotic frenzy' -> 'cơn cuồng nhiệt yêu nước'."
+  - segment_id: YS-LN05/Text/part0016.html/p000189
+    choices:
+      - "Giữ đúng cấu trúc giả định quá khứ ('hẳn đã lâm vào cảnh nguy hiểm nếu không...'), 'provided identification' -> 'xuất trình giấy tờ tùy thân' và 'pilot morale' -> 'tinh thần của các phi công'."
+  - segment_id: YS-LN05/Text/part0016.html/p000190
+    choices:
+      - "Tên riêng và cấp bậc: 'General Habergram' -> 'Tướng Habergram', đại từ phản thân 'personally' -> 'cá nhân mình'."
+  - segment_id: YS-LN05/Text/part0016.html/p000191
+    choices:
+      - "Giữ câu hỏi chuyển ý ngắn gọn của Thủ tướng."
+  - segment_id: YS-LN05/Text/part0016.html/p000192
+    choices:
+      - "Chức danh và tên riêng: 'the prime minister' -> 'Vị thủ tướng', 'Habergram' -> 'Habergram'."
+  - segment_id: YS-LN05/Text/part0016.html/p000193
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'We/our' -> 'Chúng tôi', 'maintenance troops' -> 'binh lính bảo dưỡng', 'behind-the-scenes staff' -> 'các nhân sự hậu cần khác', 'production facilities' -> 'Các cơ sở sản xuất', 'air units' -> 'các đơn vị không quân', 'maintenance teams' -> 'các đội bảo dưỡng'."
+  - segment_id: YS-LN05/Text/part0016.html/p000194
+    choices:
+      - "Tên tổ chức: 'Air Ministry' -> 'Bộ Không quân', 'Royal Air Force' -> 'Không quân Hoàng gia'."
+  - segment_id: YS-LN05/Text/part0016.html/p000195
+    choices:
+      - "Thuật ngữ: 'rate of operation' -> 'tỷ lệ vận hành'; giữ dấu ba chấm cuối câu thoại."
+  - segment_id: YS-LN05/Text/part0016.html/p000196
+    choices:
+      - "Ngôi xưng và lập luận: 'We' -> 'Chúng tôi', 'air units' -> 'các đơn vị không quân', giữ đúng sự phân biệt giữa vấn đề bảo dưỡng và nguyên nhân chính là khâu sản xuất yếu kém."
+  - segment_id: YS-LN05/Text/part0016.html/p000197
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'We' -> 'Chúng tôi', 'production lines' -> 'các dây chuyền sản xuất', 'mobilized workers' -> 'những công nhân huy động'."
+  - segment_id: YS-LN05/Text/part0016.html/p000198
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*Đó không phải lỗi của bộ phận tôi*' đúng phạm vi thẻ em trong nguồn (DEC-P01-002)."
+      - "Giữ đúng câu hỏi tu từ thể hiện sự ngao ngán trước thái độ đùn đẩy trách nhiệm."
+  - segment_id: YS-LN05/Text/part0016.html/p000199
+    choices:
+      - "Giữ nhận định kết luận: 'crisis of low standards' -> 'một cuộc khủng hoảng vì tiêu chuẩn quá thấp'."
+  - segment_id: YS-LN05/Text/part0016.html/p000200
+    choices:
+      - "Đại từ và danh xưng: 'he' (Habergram) -> 'ông', 'seat of honor' -> 'ghế chủ tọa', 'the prime minister' -> 'vị thủ tướng'."
+  - segment_id: YS-LN05/Text/part0016.html/p000201
+    choices:
+      - "Ngôi xưng và ẩn dụ trong lời Thủ tướng Churbull: 'we/us/our' -> 'chúng ta/ta', 'overseas colonies' -> 'các thuộc địa hải ngoại', 'that devil' -> 'con quỷ' (ám chỉ Liên bang, nhất quán với batch trước)."
+  - segment_id: YS-LN05/Text/part0016.html/p000202
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'I' -> 'Tôi', 'we' -> 'chúng ta', 'attaché' -> 'Tùy viên quân sự', 'Federation Army' -> 'Quân đội Liên bang'."
+  - segment_id: YS-LN05/Text/part0016.html/p000203
+    choices:
+      - "Ngôi xưng và tên riêng: 'I' -> 'Tôi', 'Dacia' -> 'Dacia'."
+  - segment_id: YS-LN05/Text/part0016.html/p000204
+    choices:
+      - "Giữ câu đáp ngập ngừng ngắn gọn: 'À thì, không đến mức đó.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000205
+    choices:
+      - "Tên cơ quan: 'War Office' -> 'Bộ Chiến tranh'."
+  - segment_id: YS-LN05/Text/part0016.html/p000206
+    choices:
+      - "Đại từ trần thuật chỉ đại diện Bộ Chiến tranh: 'he' -> 'ông ta'."
+  - segment_id: YS-LN05/Text/part0016.html/p000207
+    choices:
+      - "Tên riêng và thuật ngữ: 'Habergram' -> 'Habergram', 'War Office' -> 'Bộ Chiến tranh', 'Federation' -> 'Liên bang', 'the army' -> 'bên lục quân', 'purges' -> 'thanh trừng'; giữ dấu ngoặc kép nhấn mạnh cụm 'cực kỳ lạc quan'."
+  - segment_id: YS-LN05/Text/part0016.html/p000208
+    choices:
+      - "Giữ nhận định ngắn gọn về tổn thất nhân sự điển hình."
+  - segment_id: YS-LN05/Text/part0016.html/p000209
+    choices:
+      - "Thuật ngữ: 'air and mage units' -> 'Các đơn vị không quân và pháp sư', 'modern combat' -> 'tác chiến hiện đại', 'class struggle' -> 'đấu tranh giai cấp'."
+  - segment_id: YS-LN05/Text/part0016.html/p000210
+    choices:
+      - "Giữ đúng thế nhượng bộ ('Dù...'): 'hastily reassembled' -> 'vội vã tập hợp lại', 'gear' -> 'trang bị'."
+  - segment_id: YS-LN05/Text/part0016.html/p000211
+    choices:
+      - "Thuật ngữ: 'land war weapons and artillery' -> 'vũ khí lục chiến và pháo binh', 'ground troops' -> 'lục quân của họ'."
+  - segment_id: YS-LN05/Text/part0016.html/p000212
+    choices:
+      - "Tên riêng: 'Principality of Dacia' -> 'Công quốc Dacia', 'Habergram' -> 'Habergram', 'Federation Army' -> 'Quân đội Liên bang'."
+  - segment_id: YS-LN05/Text/part0016.html/p000213
+    choices:
+      - "Thuật ngữ quân sự: 'numerical superiority' -> 'ưu thế về quân số'."
+  - segment_id: YS-LN05/Text/part0016.html/p000214
+    choices:
+      - "Giữ dấu ba chấm và lời cảm thán ngắn gọn: '…Thật là lãng phí.'"
+  - segment_id: YS-LN05/Text/part0016.html/p000215
+    choices:
+      - "Thuật ngữ: 'imperial forces' -> 'lực lượng Đế quốc', 'taking on the brunt' -> 'hứng chịu mũi nhọn tiến công chính'."
+  - segment_id: YS-LN05/Text/part0016.html/p000216
+    choices:
+      - "Thuật ngữ: 'eastern front' -> 'mặt trận phía Đông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000217
+    choices:
+      - "Tên các thế lực và lực lượng: 'the Empire' -> 'Đế quốc', 'naval forces' -> 'lực lượng hải quân', 'the Commonwealth' -> 'Khối Thịnh vượng chung', 'ground forces' -> 'lực lượng lục quân', 'The Federation' -> 'Liên bang', 'aerial battles' -> 'những trận không chiến'."
+  - segment_id: YS-LN05/Text/part0016.html/p000218
+    choices:
+      - "Thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc', 'eastern front' -> 'mặt trận phía Đông'."
+  - segment_id: YS-LN05/Text/part0016.html/p000219
+    choices:
+      - "Ngôi xưng và thuật ngữ: 'we' -> 'chúng ta/ta', 'aerial battles' -> 'các trận không chiến'."
+  - segment_id: YS-LN05/Text/part0016.html/p000220
+    choices:
+      - "Giữ câu hỏi ngắn gọn của Thủ tướng Churbull: 'Cụ thể là bằng cách nào?'"
+  - segment_id: YS-LN05/Text/part0016.html/p000221
+    choices:
+      - "Tên riêng và đại từ: 'Prime Minister Churbull' -> 'Thủ tướng Churbull', 'his' -> 'của ông', 'the army' -> 'bên lục quân'."
