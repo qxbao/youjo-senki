@@ -1,0 +1,447 @@
+task_id: "vol-02-ch-06-b16-argon-review"
+parent_task_id: "vol-02-ch-06-b16"
+role: "reviewer"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+volume: "vol-02"
+chapter: 6
+batch: "b16"
+segment_id_start: "YS-LN02/Text/part0030.xhtml/p000479"
+segment_id_end: "YS-LN02/Text/part0030.xhtml/p000509"
+unit_count: 31
+source_sha256: "3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a"
+source_package_sha256: "c4e7416296680421de9b4e6c93a90e7a5f5c7f25c299eec8804f1ca203d974ca"
+glossary_version: "sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41"
+review_path: "reviews/prose/vol-02/ch-06-b16-argon-review.yml"
+files_written:
+  - "reviews/prose/vol-02/ch-06-b16-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+next_action: "translator_revision"
+
+summary:
+  serious: 0
+  moderate: 3
+  minor: 2
+
+unresolved_findings:
+  - "B16-F01"
+  - "B16-F02"
+  - "B16-F03"
+
+findings:
+  - id: "B16-F01"
+    severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000492"
+    category: "terminology_and_role_distinction"
+    issue: "Tại câu đầu của `p000492`, cụm danh từ chỉ Weiss với vai trò người trợ giúp/cấp phó đắc lực của Tanya được dịch là `người phụ tá tài giỏi`, trùng từ khóa `phụ tá` vừa dùng cho chức danh sĩ quan phụ tá (`adjutant`) của Serebryakov ở `p000483` (`viên phụ tá của mình`), dễ gây nhầm lẫn chức vụ trong ban chỉ huy tiểu đoàn."
+    basis: "Trong `p000482`, Weiss được xác định là `Phó chỉ huy` (`vice commander`), còn ở `p000483` Serebryakov là `viên phụ tá` (`adjutant`). Ở `p000492`, danh từ nguồn mang nghĩa người trợ thủ/cánh tay phải đắc lực chứ không phải chức danh sĩ quan phụ tá."
+    recommendation: "Đổi `người phụ tá tài giỏi` ở `p000492` thành `người trợ thủ tài giỏi` hoặc `người trợ thủ đắc lực` để tách bạch rõ với chức danh `viên phụ tá` của Serebryakov ở `p000483`."
+    resolution: "pending_revision"
+
+  - id: "B16-F02"
+    severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000493"
+    category: "rank_consistency_and_lexical_accuracy"
+    issue: "Tại câu đầu của `p000493`, cấp bậc đầy đủ của Weiss (`First Lieutenant Weiss`) được dịch là `Thượng úy Weiss`, mâu thuẫn trực tiếp với cách gọi `Trung úy Weiss` ở `p000482` và `p000484` trong cùng batch; đồng thời tính từ định danh mang sắc thái phẩm chất hiền lành/tốt bụng đi trước cấp bậc được dịch lệch sang năng lực thành `xuất sắc` (`viên Thượng úy Weiss xuất sắc`)."
+    basis: "Trong hệ thống quân hàm của truyện và mạch dịch hiện tại, Weiss giữ quân hàm `Trung úy` (khi gọi tắt ở `p000482`, `p000484` lẫn khi nêu đủ bậc ở `p000493`). Ngoài ra, tính từ đi kèm tên Weiss ở `p000493` tương ứng trực tiếp với cặp tính từ chỉ bản tính lương thiện, có lương tâm của anh ở `p000506` (`Weiss lương thiện và có lương tâm`) — chính vì bản tính đàng hoàng, tử tế và sáng suốt nên anh mới nảy sinh băn khoăn về chiến dịch ở Arene, còn năng lực tác chiến của anh được tách riêng ở câu thứ hai (`trên mức trung bình`)."
+    recommendation: "Đồng bộ quân hàm ở `p000493` thành `Trung úy Weiss` và chỉnh cụm danh ngữ thành `chàng Trung úy Weiss tử tế` hoặc `viên Trung úy Weiss lương thiện` (hoặc `Trung úy Weiss tốt bụng`)."
+    resolution: "pending_revision"
+
+  - id: "B16-F03"
+    severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000508"
+    category: "terminology_accuracy"
+    issue: "Tại vế in nghiêng thứ hai của `p000508`, danh từ chỉ lực lượng vũ trang không chính quy/du kích tại Arene (`the partisans of Arene`) được dịch thành `phe thân Cộng hòa ở Arene`, làm mờ ranh giới thuật ngữ quân sự - pháp lý giữa đối tượng có thiện cảm chính trị (`pro-Republic` ở `p000504`) và thành phần du kích kháng chiến (`partisans`)."
+    basis: "Ở `p000504`, nguồn dùng cách gọi chỉ khuynh hướng chính trị và đã được dịch đúng là `đám thân Cộng hòa cố thủ ở Arene`. Sang `p000506`–`p000508`, lập luận của Tanya xoay quanh tính hợp pháp theo luật chiến tranh, trong đó việc định danh mục tiêu tại Arene là `quân du kích` / `lực lượng du kích` (`partisans`) là cơ sở trực tiếp dẫn tới kết luận hoàn cảnh đòi hỏi họ phải chết."
+    recommendation: "Đổi `phe thân Cộng hòa ở Arene` ở `p000508` thành `quân du kích ở Arene` hoặc `lực lượng du kích ở Arene` (hoặc `đám du kích ở Arene`)."
+    resolution: "pending_revision"
+
+  - id: "B16-F04"
+    severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000479"
+    category: "terminology_alignment"
+    issue: "Tại câu thứ hai của `p000479`, cụm thuật ngữ chỉ hỏa lực bắn có kỷ luật/kiểm soát của Cộng hòa được dịch là `hỏa lực được tổ chức bài bản của Cộng hòa`, hơi khác về chữ so với phương án tạm `hỏa lực có kiểm soát` trong `work/run-state/pending-terms-index.yml`."
+    basis: "Nghĩa chiến thuật và quan hệ nhượng bộ giữa thiết kế đội hình tấn công với thực tế đội hình bị rối loạn sau đợt phản công của địch vẫn được truyền tải rõ ràng."
+    recommendation: "Không bắt buộc chặn nếu giữ tự nhiên, nhưng khuyến nghị đồng bộ thành `hỏa lực có kiểm soát của Cộng hòa` theo `pending-terms-index.yml`."
+    resolution: "optional_polish"
+
+  - id: "B16-F05"
+    severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000499"
+    category: "lexical_nuance"
+    issue: "Tại câu thứ ba của `p000499`, danh từ định danh chiến tranh như một sự lãng phí nguồn lực (`this waste called war`) được dịch thoát ý thành `cuộc chiến vô nghĩa này`, làm giảm nhẹ phép ẩn dụ kinh tế học nối tiếp câu trước về vốn con người trong xã hội tư bản."
+    basis: "Câu thứ hai và thứ ba của `p000499` đặt trong lăng kính thị trường của Tanya: những cá nhân coi trọng lý trí và thị trường là trụ cột của xã hội tư bản tương lai, nên việc tiêu hao họ (`squander them`) vào sự lãng phí mang tên chiến tranh (`this waste called war`) là điều kinh khủng."
+    recommendation: "Ở bước chỉnh sửa hoặc polish có thể đổi `trong cuộc chiến vô nghĩa này` thành `vào sự lãng phí mang tên chiến tranh này` để giữ trọn sắc thái kinh tế học của Tanya."
+    resolution: "optional_polish"
+
+pending_term_recommendations:
+  - id: "vol02-ch06-b16-ranks-roles-and-proper-nouns"
+    source_term: "Tanya / Major / Lieutenant Weiss / First Lieutenant Weiss / vice commander / capable assistant / Lieutenant Serebryakov / adjutant / Republic / Republicans / pro-Republic fellows / partisans of Arene / Empire / Rhine / Norden / Arene / the reds / Ace of Aces"
+    proposed_vi: "Tanya / thiếu tá (thưa thiếu tá) / Trung úy Weiss / Phó chỉ huy / người trợ thủ tài giỏi (người trợ thủ đắc lực) / Trung úy Serebryakov / viên phụ tá / Cộng hòa / quân Cộng hòa / đám thân Cộng hòa / quân du kích ở Arene (lực lượng du kích ở Arene) / Đế quốc / Rhine / Norden / Arene / quân Đỏ / Ace of Aces"
+    alternatives_vi:
+      - "Thiếu úy Serebryakov (nếu đối chiếu cấp bậc đầy đủ ở các chương trước) / cấp phó đắc lực / đám du kích ở Arene / Hồng quân"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000479"
+      - "YS-LN02/Text/part0030.xhtml/p000480"
+      - "YS-LN02/Text/part0030.xhtml/p000481"
+      - "YS-LN02/Text/part0030.xhtml/p000482"
+      - "YS-LN02/Text/part0030.xhtml/p000483"
+      - "YS-LN02/Text/part0030.xhtml/p000484"
+      - "YS-LN02/Text/part0030.xhtml/p000487"
+      - "YS-LN02/Text/part0030.xhtml/p000491"
+      - "YS-LN02/Text/part0030.xhtml/p000492"
+      - "YS-LN02/Text/part0030.xhtml/p000493"
+      - "YS-LN02/Text/part0030.xhtml/p000494"
+      - "YS-LN02/Text/part0030.xhtml/p000495"
+      - "YS-LN02/Text/part0030.xhtml/p000500"
+      - "YS-LN02/Text/part0030.xhtml/p000501"
+      - "YS-LN02/Text/part0030.xhtml/p000504"
+      - "YS-LN02/Text/part0030.xhtml/p000506"
+      - "YS-LN02/Text/part0030.xhtml/p000508"
+    rationale: "Giữ nguyên các địa danh `Rhine`, `Norden`, `Arene` và danh hiệu `Ace of Aces` (`p000493`); thống nhất quân hàm của Weiss là `Trung úy Weiss` ở cả dạng gọi tắt (`p000482`, `p000484`) lẫn dạng đầy đủ (`p000493`, theo `B16-F02`); giữ `Trung úy Serebryakov` ở `p000481` sát cách gọi lược bậc trong câu nguồn mà không tự suy diễn thêm ngoài ngữ cảnh đoạn (ghi chú độ bất định thấp–vừa nếu toàn tập đối chiếu lại quân hàm Thiếu úy/Trung úy của Serebryakov); phân biệt rõ chức danh `Phó chỉ huy` (`p000482`) / `người trợ thủ tài giỏi` (`p000492`, theo `B16-F01`) của Weiss với `viên phụ tá` (`p000483`) của Serebryakov; tách bạch `đám thân Cộng hòa` (`p000504`) với `quân du kích ở Arene` (`p000508`, theo `B16-F03`)."
+    uncertainty: "low"
+    status: "pending"
+    canon: false
+
+  - id: "vol02-ch06-b16-tactical-medical-and-ideological-terms"
+    source_term: "counterattack / strike formation / disciplined fire / enemy firing positions / spread-out maneuvering / speed is armor / firepower / tonic / soldier fuel / tourniquet / first aid / berserkers / adrenaline / meth / war addicts / war nut / war crazies / chain of command / interceptors / RTB / reason and the market / capitalist society / human rights / philanthropic / massacre / three wise monkeys"
+    proposed_vi: "đợt phản công / đội hình tấn công / hỏa lực có kiểm soát (hỏa lực được tổ chức bài bản) / các vị trí khai hỏa của địch / cơ động phân tán / tốc độ là áo giáp / hỏa lực / thuốc bổ / nhiên liệu của người lính / garô / sơ cứu / những kẻ cuồng chiến / adrenaline / meth / đám nghiện chiến tranh / kẻ cuồng chiến / đám cuồng chiến / chuỗi chỉ huy / những tay đánh chặn / đưa họ về căn cứ (quay về căn cứ) / lý trí và thị trường / xã hội tư bản / nhân quyền / có lòng nhân ái / cuộc thảm sát / ba con khỉ thông thái"
+    alternatives_vi:
+      - "lưới lửa có kỷ luật / dây garô / những kẻ say máu chiến trận / rút về căn cứ / chủ nghĩa nhân đạo"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000479"
+      - "YS-LN02/Text/part0030.xhtml/p000480"
+      - "YS-LN02/Text/part0030.xhtml/p000481"
+      - "YS-LN02/Text/part0030.xhtml/p000483"
+      - "YS-LN02/Text/part0030.xhtml/p000486"
+      - "YS-LN02/Text/part0030.xhtml/p000487"
+      - "YS-LN02/Text/part0030.xhtml/p000488"
+      - "YS-LN02/Text/part0030.xhtml/p000492"
+      - "YS-LN02/Text/part0030.xhtml/p000494"
+      - "YS-LN02/Text/part0030.xhtml/p000496"
+      - "YS-LN02/Text/part0030.xhtml/p000497"
+      - "YS-LN02/Text/part0030.xhtml/p000499"
+      - "YS-LN02/Text/part0030.xhtml/p000505"
+      - "YS-LN02/Text/part0030.xhtml/p000507"
+      - "YS-LN02/Text/part0030.xhtml/p000509"
+    rationale: "Đảm bảo tính chính xác của hệ thuật ngữ chiến thuật không chiến (`đội hình tấn công`, `cơ động phân tán`, `tốc độ là áo giáp`, `những tay đánh chặn`, `chuỗi chỉ huy`), thuật ngữ sơ cứu chiến trường (`cầm máu`, `buộc garô`, `sơ cứu`), và hệ từ vựng kinh tế - pháp lý đặc trưng trong độc thoại của Tanya (`lý trí và thị trường`, `xã hội tư bản`, `xâm phạm nhân quyền`, `ba con khỉ thông thái`)."
+    uncertainty: "low"
+    status: "pending"
+    canon: false
+
+  - id: "vol02-ch06-b16-pronouns-pov-and-three-emphases"
+    source_term: "Tanya narration vs. inner monologue pronouns (DEC-P01-001), radio dialogue address between Tanya, Weiss, and Serebryakov, and 3 HTML emphasis spans (DEC-P01-002)"
+    proposed_vi: "Tuân thủ nghiêm ngặt DEC-P01-001 xuyên suốt 31 đoạn: trong trần thuật ngôi thứ ba, quy chiếu Tanya bằng tên riêng Tanya kết hợp đại từ nó (p000479, p000482, p000483, p000487, p000492, p000493, p000508) và quy chiếu đơn vị của Tanya bằng họ (p000479); trong độc thoại nội tâm, Tanya tự xưng mình và chúng ta (p000480, p000482, p000487, p000488, p000492, p000497, p000498, p000500, p000501, p000504, p000505, p000506, p000507, p000508, p000509), gọi Weiss là anh / anh ta và Serebryakov là cô ấy; trong thoại vô tuyến, Weiss và Serebryakov xưng tôi - gọi đối phương bằng cấp bậc hoặc anh / anh ấy (p000481, p000484, p000486, p000490), Weiss gọi Tanya là thưa thiếu tá (p000495) hoặc đáp ngắn gọn không chèn đại từ dư thừa (p000502), Tanya xưng tôi / bọn tôi và gọi Weiss là Weiss / anh (p000491, p000496, p000503); bảo toàn chính xác 3 đoạn có thẻ <html:em> bằng dấu *...* tại p000480 (toàn câu), p000507 (câu thứ ba) và p000508 (hai vế kẹp giữa cụm trần thuật nó tự giễu) theo đúng DEC-P01-002"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000479"
+      - "YS-LN02/Text/part0030.xhtml/p000480"
+      - "YS-LN02/Text/part0030.xhtml/p000481"
+      - "YS-LN02/Text/part0030.xhtml/p000482"
+      - "YS-LN02/Text/part0030.xhtml/p000483"
+      - "YS-LN02/Text/part0030.xhtml/p000484"
+      - "YS-LN02/Text/part0030.xhtml/p000486"
+      - "YS-LN02/Text/part0030.xhtml/p000487"
+      - "YS-LN02/Text/part0030.xhtml/p000488"
+      - "YS-LN02/Text/part0030.xhtml/p000490"
+      - "YS-LN02/Text/part0030.xhtml/p000491"
+      - "YS-LN02/Text/part0030.xhtml/p000492"
+      - "YS-LN02/Text/part0030.xhtml/p000493"
+      - "YS-LN02/Text/part0030.xhtml/p000495"
+      - "YS-LN02/Text/part0030.xhtml/p000496"
+      - "YS-LN02/Text/part0030.xhtml/p000497"
+      - "YS-LN02/Text/part0030.xhtml/p000498"
+      - "YS-LN02/Text/part0030.xhtml/p000500"
+      - "YS-LN02/Text/part0030.xhtml/p000501"
+      - "YS-LN02/Text/part0030.xhtml/p000502"
+      - "YS-LN02/Text/part0030.xhtml/p000503"
+      - "YS-LN02/Text/part0030.xhtml/p000504"
+      - "YS-LN02/Text/part0030.xhtml/p000505"
+      - "YS-LN02/Text/part0030.xhtml/p000506"
+      - "YS-LN02/Text/part0030.xhtml/p000507"
+      - "YS-LN02/Text/part0030.xhtml/p000508"
+      - "YS-LN02/Text/part0030.xhtml/p000509"
+    rationale: "Giữ vững sự phân tách điểm nhìn trần thuật (`nó` / `Tanya`) và nội tâm (`mình` / `chúng ta`) theo `DEC-P01-001`, giữ giọng chỉ huy quân sự tự nhiên qua vô tuyến và khớp tuyệt đối phạm vi nhấn mạnh Markdown `*...*` theo `DEC-P01-002`."
+    uncertainty: "low"
+    status: "pending"
+    canon: false
+
+locked_choices:
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000479"
+    terms:
+      - "đợt phản công"
+      - "đội hình tấn công"
+      - "hỏa lực có kiểm soát"
+      - "Cộng hòa"
+      - "Tanya"
+      - "cơ động phân tán"
+      - "các vị trí khai hỏa của địch"
+      - "tốc độ là áo giáp"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu đơn vị của Tanya bằng `mọi người` / `họ` và tường minh hóa chủ thể nhận thức là `Tanya`."
+    pov_and_voice: "Giọng trần thuật bám điểm nhìn chiến thuật của Tanya ngay sau đợt giao chiến mở màn."
+    modality_and_logic: "Bảo toàn đủ 4 câu: may mắn là mọi người đều tránh được đợt phản công có quy mô ngoài dự liệu -> tuy nhiên trong quá trình đó đội hình tấn công đã trở nên khá lộn xộn dù vốn được thiết kế để đối phó với hỏa lực có kiểm soát (hoặc hỏa lực được tổ chức bài bản) của Cộng hòa -> Tanya buộc phải thừa nhận thực tế đau lòng rằng chỉ dựa vào tốc độ và cơ động phân tán thì không thể vượt qua các vị trí khai hỏa của địch -> ý tưởng tốc độ là áo giáp rõ ràng vẫn có vài khiếm khuyết."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000480"
+    terms:
+      - "hỏa lực"
+      - "quân Đỏ"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng đại từ gộp `chúng ta` cho đơn vị/phe mình."
+    pov_and_voice: "Giọng suy tính chiến thuật xa hơn của Tanya khi liên tưởng tới học thuyết hỏa lực của phe Cộng sản (`quân Đỏ`)."
+    modality_and_logic: "Bảo toàn quan hệ tương phản và tình thái khả năng: hiện giờ chúng ta vẫn ổn, nhưng nếu phải đối đầu với những kẻ tôn sùng hỏa lực như quân Đỏ thì có thể sẽ gặp rắc rối."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ đoạn tương ứng thẻ `<html:em>`."
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000481"
+    terms:
+      - "Trung úy Serebryakov"
+      - "thuốc bổ"
+    pronouns_and_address: "Weiss gọi Serebryakov qua vô tuyến là `Trung úy Serebryakov` và tự xưng `tôi`."
+    pov_and_voice: "Giọng nói mệt mỏi, hơi lơ mơ của Weiss khi chưa nhận ra bản thân đã trúng đạn."
+    modality_and_logic: "Bảo toàn đủ 2 câu và dấu ba chấm lửng: xin lỗi Trung úy Serebryakov vì thấy mệt một cách kỳ lạ -> hỏi xin một ít thuốc bổ."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000482"
+    terms:
+      - "Trung úy Weiss"
+      - "radio"
+      - "Tanya"
+      - "Phó chỉ huy"
+      - "Rhine"
+      - "Norden"
+    pronouns_and_address: "Câu 1 trần thuật ngôi thứ ba dùng `nó` và `Tanya` theo `DEC-P01-001`; hai câu hỏi tiếp theo là độc thoại nội tâm trực tiếp nên Tanya tự xưng `mình` (`Phó chỉ huy của mình`)."
+    pov_and_voice: "Từ trần thuật chuyển sang câu hỏi nội tâm đầy ngạc nhiên và hoài nghi của Tanya."
+    modality_and_logic: "Bảo toàn đủ 3 câu: trong lúc nó đang suy nghĩ thì giọng mệt mỏi của Trung úy Weiss vang lên qua radio khiến Tanya bất giác cau mày -> câu hỏi nội tâm ngắn (`Mệt ư?`) -> câu hỏi tu từ ngạc nhiên sao người phó chỉ huy từng bị vắt kiệt sức ở Rhine và Norden lại mệt chỉ sau chừng này."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000483"
+    terms:
+      - "Tanya"
+      - "viên phụ tá"
+      - "nhiên liệu của người lính"
+      - "Serebryakov"
+      - "radio"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Tanya bằng `Tanya` / `nó` kết hợp phản thân `mình`, và quy chiếu viên phụ tá Serebryakov bằng `cô ấy`."
+    pov_and_voice: "Giọng trần thuật nhịp nhanh, pha nét hài hước kiểu lính tráng khi gọi rượu là nhiên liệu của người lính trước khi chuyển sang tiếng hét thất thanh."
+    modality_and_logic: "Bảo toàn hành động và quan hệ nhân quả: Tanya lập tức ném cho viên phụ tá của mình một ít rượu—nhiên liệu của người lính—khi bảo cô ấy qua kiểm tra, và thắc mắc của nó được giải đáp khi tiếng hét hoảng hốt của Serebryakov vang lên qua radio."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000484"
+    terms:
+      - "Trung úy Weiss"
+    pronouns_and_address: "Serebryakov gọi Weiss là `Trung úy Weiss` và dùng đại từ `anh`."
+    pov_and_voice: "Giọng hét hoảng hốt, khẩn cấp của Serebryakov khi phát hiện vết thương của Weiss."
+    modality_and_logic: "Bảo toàn đủ 2 câu cảm thán: báo cho Trung úy Weiss biết anh đã bị bắn -> giục mau cầm máu."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000485"
+    terms: []
+    pronouns_and_address: "Câu hỏi ngắn không chứa đại từ nhân xưng."
+    pov_and_voice: "Giọng ngơ ngác của Weiss khi chưa nhận thức được mình trúng đạn."
+    modality_and_logic: "Bảo toàn câu hỏi ngắn gọn (`“Cái gì?”`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000486"
+    terms:
+      - "garô"
+    pronouns_and_address: "Serebryakov xưng `tôi` và gọi Weiss là `anh`."
+    pov_and_voice: "Giọng vừa sững sờ vừa gấp gáp của Serebryakov khi tiến hành sơ cứu."
+    modality_and_logic: "Bảo toàn đủ 3 câu cảm thán/nghi vấn (`?!`, `!`, `!`): hỏi dồn anh không nhận ra sao -> bảo để tôi buộc garô cho anh -> giục nhanh lên."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000487"
+    terms:
+      - "sơ cứu"
+      - "Serebryakov"
+      - "Weiss"
+      - "Tanya"
+      - "những kẻ cuồng chiến"
+      - "adrenaline"
+    pronouns_and_address: "Câu 1 trần thuật gọi tên `Serebryakov`, `Weiss`, `Tanya` và quy chiếu Serebryakov (`the former`) bằng `cô ấy`; câu 2 độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Trần thuật nối liền với tiếng thở dài ngán ngẩm trong nội tâm của Tanya."
+    modality_and_logic: "Bảo toàn đủ 2 câu: qua cuộc trao đổi về sơ cứu và việc Serebryakov thúc giục Weiss, Tanya nhận ra Serebryakov (`cô ấy`) đã đúng rồi thở dài -> thay vì cấp dưới thiếu tinh thần chiến đấu, mình lại có những kẻ cuồng chiến bị adrenaline kích động quá mức đến nỗi không nhận ra bản thân bị thương; điều đó có gì đó khiến mình thấy chán nản/buồn bực một cách mơ hồ."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000488"
+    terms:
+      - "meth"
+      - "đám nghiện chiến tranh"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` và quy chiếu Weiss là `anh ta` (hoặc `anh`)."
+    pov_and_voice: "Giọng tự trào đầy châm biếm của Tanya về đám lính dưới quyền."
+    modality_and_logic: "Bảo toàn đủ 2 câu: mình thậm chí còn chưa cho anh ta dùng meth mà đã thành ra thế này -> thật khó biết nên mừng vì có những người lính giỏi nhất hay than thở vì mình đã tập hợp cả một đám nghiện chiến tranh."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000489"
+    terms: []
+    pronouns_and_address: "Tanya hỏi tình hình của Weiss qua cách gọi mỉa mai `Tên ngốc không nhận ra mình bị trúng đạn`."
+    pov_and_voice: "Giọng hỏi thăm lạnh lùng, pha chút cằn nhằn đặc trưng của người chỉ huy."
+    modality_and_logic: "Bảo toàn dấu ba chấm mở đầu (`…`) và câu hỏi về tình trạng của người vừa trúng đạn mà không tự biết."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000490"
+    terms: []
+    pronouns_and_address: "Serebryakov tự xưng `tôi` và quy chiếu Weiss là `anh ấy` khi báo cáo với Tanya."
+    pov_and_voice: "Giọng báo cáo nghiêm túc, rõ ràng của sĩ quan phụ tá."
+    modality_and_logic: "Bảo toàn cấu trúc nhượng bộ: vết thương không nguy hiểm đến tính mạng, nhưng cô nghĩ anh ấy khó có thể tiếp tục chiến đấu."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000491"
+    terms:
+      - "Weiss"
+    pronouns_and_address: "Tanya gọi trực tiếp tên `Weiss` khi ra lệnh rút lui."
+    pov_and_voice: "Giọng quyết đoán, thực dụng của Tanya khi nắm được tình trạng thương tích của cấp phó."
+    modality_and_logic: "Bảo toàn đủ 3 câu ngắn: hỏi lại ngắn gọn (`Sao cơ?`) -> chấp nhận thực tế (`Thôi, đành vậy.`) -> ra lệnh cho Weiss rút lui (`Weiss, rút lui đi.`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000492"
+    terms:
+      - "người trợ thủ tài giỏi"
+      - "kẻ cuồng chiến"
+      - "chuỗi chỉ huy"
+      - "Tanya"
+    pronouns_and_address: "Hai câu đầu là độc thoại nội tâm nên Tanya tự xưng `mình` và gọi Weiss là `anh`; câu thứ ba chuyển về trần thuật ngôi thứ ba nên dùng `Tanya` và `nó` kết hợp phản thân `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Sự chuyển dịch mượt mà từ nỗi lo âu nội tâm sang tác phong chỉ huy thực dụng của Tanya."
+    modality_and_logic: "Bảo toàn đủ 3 câu và sửa theo `B16-F01`: điều đột nhiên chiếm lấy tâm trí mình là nỗi lo mất đi `người trợ thủ tài giỏi` (hoặc `người trợ thủ đắc lực`, không dùng `phụ tá` để tránh trùng với Serebryakov) -> dù là một kẻ cuồng chiến, anh vẫn là một trong những người biết suy nghĩ theo lẽ thường, và hơn hết việc chuỗi chỉ huy bị ảnh hưởng lớn như vậy giữa lúc giao tranh là điều đặc biệt đau đớn/nguy hại -> nhưng Tanya đã lập tức chuyển hướng suy nghĩ vì nó biết mình phải cân nhắc không chỉ lợi ích trước mắt mà cả giải pháp cho những vấn đề tương lai."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000493"
+    terms:
+      - "Trung úy Weiss"
+      - "pháp sư"
+      - "Ace of Aces"
+    pronouns_and_address: "Trần thuật ngôi thứ ba bám điểm nhìn của Tanya dùng đại từ `nó` cho Tanya và `anh` / `Weiss` cho Trung úy Weiss."
+    pov_and_voice: "Giọng trần thuật phân tích cả thái độ tâm lý lẫn trình độ tác chiến của Weiss."
+    modality_and_logic: "Bảo toàn đủ 3 câu và sửa theo `B16-F02`: là người sáng suốt nhất trong số thuộc hạ của nó, `chàng Trung úy Weiss tử tế` (hoặc `viên Trung úy Weiss lương thiện`, đồng bộ quân hàm `Trung úy Weiss` với `p000482`, `p000484` và giữ đúng nghĩa tính từ chỉ phẩm chất tương ứng `p000506`) dường như có đôi điều suy nghĩ về chiến dịch này -> việc anh phải rời chiến trường có nghĩa là một trong những pháp sư trên mức trung bình của nó suýt bị bắn hạ -> bình thường, Weiss thuộc mẫu pháp sư có thể đạt đến đẳng cấp Ace of Aces."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000494"
+    terms:
+      - "quân Cộng hòa"
+      - "những tay đánh chặn"
+    pronouns_and_address: "Nhận định chiến thuật khách quan từ góc nhìn của Tanya, quy chiếu đối phương là `quân Cộng hòa`."
+    pov_and_voice: "Giọng suy luận sắc lạnh về năng lực phòng không/đánh chặn của địch."
+    modality_and_logic: "Bảo toàn dấu ba chấm mở đầu (`…`) và câu điều kiện giả định: nếu đó không phải là sự ăn may, thì quân Cộng hòa là những tay đánh chặn cực kỳ đáng gờm/giỏi."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000495"
+    terms:
+      - "thiếu tá"
+    pronouns_and_address: "Weiss gọi Tanya là `thưa thiếu tá`."
+    pov_and_voice: "Giọng ngập ngừng định phản đối mệnh lệnh rút lui của Weiss, bị ngắt ngang bằng dấu gạch ngang dài (`—`)."
+    modality_and_logic: "Bảo toàn lời thoại bỏ lửng (`“Nhưng, thưa thiếu tá—”`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000496"
+    terms:
+      - "căn cứ"
+    pronouns_and_address: "Tanya gọi Weiss là `Anh` và dùng `bọn tôi` / `cả đội` cho lực lượng ở lại tiếp tục chiến đấu."
+    pov_and_voice: "Giọng chỉ huy dứt khoát, giao nhiệm vụ thu dung thương binh để Weiss chấp nhận rút lui mà không tự ái."
+    modality_and_logic: "Bảo toàn đủ 3 câu: khẳng định không sao và bảo rút lui đi -> trấn an rằng anh chỉ là một người, bọn tôi vẫn ổn -> thay vì làm chậm cả đội, hãy tập hợp những người khác bị trúng đạn rồi quay về căn cứ (hoặc đưa họ về căn cứ)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000497"
+    terms:
+      - "đám cuồng chiến"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` nhất quán theo `DEC-P01-001`."
+    pov_and_voice: "Giọng than vãn nội tâm của Tanya khi thấy mình trở thành người tỉnh táo duy nhất còn lại."
+    modality_and_logic: "Bảo toàn đủ 4 câu: nghiêm túc thì tốt nhưng nếu những nhân sự nghiêm túc đều rời đi thì lại là rắc rối -> không còn ai đáng tin cậy xung quanh, chỉ còn lại một mình mình -> mình là người sáng suốt duy nhất giữa đám cuồng chiến này -> đúng là một cơn ác mộng."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000498"
+    terms:
+      - "đơn vị"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng suy ngẫm mang tính quản trị nhân sự của Tanya về giá trị của những người giữ được sự tỉnh táo trong chiến tranh."
+    modality_and_logic: "Bảo toàn đủ 3 câu: khỏi phải nói cũng biết mình sẽ kiệt sức cả về thể chất lẫn tinh thần -> những người vẫn giữ được sự sáng suốt giữa tình trạng bất thường như chiến tranh là vô cùng quý giá -> rất khó kiểm soát một đơn vị đã mất đi một người như vậy."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000499"
+    terms:
+      - "lý trí và thị trường"
+      - "xã hội tư bản"
+    pronouns_and_address: "Độc thoại nội tâm khái quát của Tanya, quy chiếu nhóm người sáng suốt là `họ`."
+    pov_and_voice: "Giọng triết lý kinh tế học thị trường đặc trưng của Tanya khi tiếc thương nguồn vốn con người bị tiêu hao."
+    modality_and_logic: "Bảo toàn đủ 3 câu: những người sáng suốt nhìn chung luôn giữ được cái đầu lạnh trong khủng hoảng -> những con người hiện đại biết coi trọng lý trí và thị trường ấy chính là trụ cột nâng đỡ xã hội tư bản trong tương lai -> phung phí họ vào sự lãng phí mang tên chiến tranh này (hoặc cuộc chiến vô nghĩa này) thực sự là điều khủng khiếp."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000500"
+    terms:
+      - "Đế quốc"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `Mình` và quy chiếu `Đế quốc` bằng `họ`."
+    pov_and_voice: "Giọng bi quan về triển vọng kinh tế hậu chiến của Đế quốc."
+    modality_and_logic: "Bảo toàn đủ 2 câu: câu hỏi tu từ về việc nền kinh tế Đế quốc sau chiến tranh sẽ ra sao nếu cứ vứt bỏ những người ưu tú nhất như thế này -> khẳng định mình thậm chí chẳng muốn nghĩ đến."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000501"
+    terms:
+      - "Đế quốc"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `Mình` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng tính toán tài chính cá nhân thực dụng của Tanya trước tương lai bất định của quốc gia."
+    modality_and_logic: "Bảo toàn đủ 2 câu: tự hỏi có nên đổi toàn bộ tiền lương sang vàng và hàng hóa khi vẫn còn có thể hay không -> linh cảm rằng dù thắng hay thua thì tương lai của Đế quốc cũng chẳng mấy sáng sủa."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000502"
+    terms: []
+    pronouns_and_address: "Lời đáp qua vô tuyến của Weiss giữ hình thức tỉnh lược tự nhiên (`Rõ… Chúc may mắn.`)."
+    pov_and_voice: "Giọng tuân lệnh trầm xuống nhưng chân thành của Weiss trước khi rút lui."
+    modality_and_logic: "Bảo toàn dấu ba chấm lửng và lời chúc may mắn."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000503"
+    terms: []
+    pronouns_and_address: "Tanya gọi Weiss là `Anh` / `Đồ ngốc to xác` và tự xưng `tôi`."
+    pov_and_voice: "Giọng mắng mỏ bề ngoài nhưng thực chất là nhìn thấu tâm can cấp dưới và dặn dò sống sót trở về của Tanya."
+    modality_and_logic: "Bảo toàn đủ 4 câu: nhận xét anh nghĩ nhiều quá -> hỏi vặn anh đã do dự đúng không -> mắng là đồ ngốc to xác -> dọa khi tôi quay về thì anh biết tay."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000504"
+    terms:
+      - "đám thân Cộng hòa"
+      - "Arene"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng thực dụng, gác lại cảm xúc cá nhân để tập trung hoàn thành nhiệm vụ."
+    modality_and_logic: "Bảo toàn đủ 2 câu: nhưng trước hết mình phải sống sót qua chuyện này đã -> dù phiền phức và chẳng có động lực gì, mình vẫn phải nghiền nát đám thân Cộng hòa đang cố thủ ở Arene."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000505"
+    terms:
+      - "nhân quyền"
+      - "có lòng nhân ái"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` và quy chiếu mục tiêu ở Arene là `họ`."
+    pov_and_voice: "Giọng tự biện hộ đầy mỉa mai của Tanya khi tự nhận mình là người giàu lòng nhân ái."
+    modality_and_logic: "Bảo toàn đủ 3 câu: xét trên phương diện con người thì làm vậy chẳng hay ho gì -> về mặt logic, tiêu diệt họ sẽ dễ hơn nhưng chẳng ai khen ngợi việc xâm phạm nhân quyền -> khẳng định mình có lòng nhân ái nên không muốn kéo những người vô tội vào chuyện này."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000506"
+    terms:
+      - "Weiss"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` và quy chiếu Weiss bằng `anh`."
+    pov_and_voice: "Giọng phân tích tâm lý sắc sảo của Tanya về nguyên nhân khiến Weiss trúng đạn."
+    modality_and_logic: "Bảo toàn đủ 3 câu và cấu trúc phủ định kép ở câu cuối: dù xét về mặt pháp lý thì không có vấn đề gì, hẳn có điều gì đó đã khiến Weiss lương thiện và có lương tâm phải chùn bước -> nói cách khác, sự miễn cưỡng và do dự đã làm chậm thao tác cơ động của anh và kết quả là anh bị trúng đạn -> thôi thì cũng không phải là mình không hiểu được (`mình cũng hiểu được`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000507"
+    terms:
+      - "cuộc thảm sát"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình`, quy chiếu Weiss bằng `anh` ở cả phần suy ngẫm lẫn câu hỏi nội tâm in nghiêng cuối đoạn."
+    pov_and_voice: "Giọng thừa nhận thẳng thắn pha chút ghen tị và châm biếm của Tanya."
+    modality_and_logic: "Bảo toàn đủ 3 câu và giả định trái thực tế: nhưng nói một điều công bằng, nếu ở vào vị trí như anh thì mình cũng muốn trốn tránh trách nhiệm theo cách tương tự -> vì vậy ở điểm đó mình thấy ghen tị -> câu cảm thán nội tâm in nghiêng hỏi anh ghét việc tham gia một cuộc thảm sát đến thế sao."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: giữ hai câu đầu ở chữ thường, chỉ bọc dấu `*...*` quanh câu thứ ba tương ứng thẻ `<html:em>`."
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000508"
+    terms:
+      - "quân du kích ở Arene"
+      - "Arene"
+    pronouns_and_address: "Hai vế độc thoại nội tâm dùng `mình`, mệnh đề trần thuật xen giữa dùng `nó` (`nó tự giễu`) theo đúng `DEC-P01-001`."
+    pov_and_voice: "Giọng tự giễu lạnh lùng của Tanya trước đòi hỏi tàn khốc của hoàn cảnh chiến trường."
+    modality_and_logic: "Bảo toàn cấu trúc câu có mệnh đề trần thuật xen giữa và sửa thuật ngữ theo `B16-F03`: `*Chà, mình không thích chuyện này*, nó tự giễu, *nhưng hoàn cảnh đòi hỏi quân du kích ở Arene phải chết.*` (hoặc `lực lượng du kích ở Arene` / `đám du kích ở Arene`)."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` riêng cho hai vế độc thoại nội tâm tương ứng hai thẻ `<html:em>`, giữ cụm `, nó tự giễu,` ở chữ thường."
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000509"
+    terms:
+      - "ba con khỉ thông thái"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `Mình` nhất quán theo `DEC-P01-001`."
+    pov_and_voice: "Giọng phủi trách nhiệm đạo đức kiểu quan liêu của Tanya bằng điển cố ba con khỉ thông thái."
+    modality_and_logic: "Bảo toàn đủ 2 câu: mình chỉ tham gia theo nghĩa rộng mà thôi -> mình chỉ đang không làm gì cả, giống như ba con khỉ thông thái kia—không thấy điều ác, không nghe điều ác, không nói điều ác."
+    emphasis: "none"
