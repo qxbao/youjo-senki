@@ -1,0 +1,476 @@
+task_id: "vol-06-ch-05-b13-argon-review"
+parent_task_id: "vol-06-ch-05-b13"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 5
+source_package: "work/vol-06/batches/ch-05-b13-source.jsonl"
+target_translation: "translations/vol-06/ch-05-b13.jsonl"
+review_path: "reviews/prose/vol-06/ch-05-b13-argon-review.yml"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN06/Text/part0023.html/p000454"
+    severity: "minor"
+    category: "pronouns_pov"
+    issue: "Đoạn nhận xét nội tâm không in nghiêng của Tanya đang dùng đại từ 'chúng tôi', mang sắc thái phát ngôn hướng ngoại như trong hội thoại thay vì điểm nhìn nội tâm tự quy chiếu ('mình' theo DEC-P01-001)."
+    evidence: "Các đoạn nội tâm lân cận của Tanya (p000452, p000466, p000468) đều tự quy chiếu bằng 'mình'; ở p000454, chủ thể bao gồm Tanya và phía đơn vị của nó (tách biệt với Uger)."
+    recommendation: "Đổi 'chúng tôi' thành 'bọn mình' hoặc 'chúng mình' (ví dụ: 'Nếu bọn mình mà không lên tiếng, có trời mới biết anh ta sẽ điều số trang bị của bọn mình đi tận đẩu tận đâu!') để giữ nhất quán giọng nội tâm."
+  - segment_id: "YS-LN06/Text/part0023.html/p000457"
+    severity: "minor"
+    category: "pronouns_tone"
+    issue: "Trong lời thoại của Trung tá Uger nói với Tanya và Đại úy Ahrens, đại từ ngôi thứ hai số nhiều 'Các người' mang sắc thái lạnh lùng hoặc chất vấn kẻ đối địch, chưa khớp với thái độ thông cảm và thân tình của Uger trong ngữ cảnh."
+    evidence: "Ở p000455, p000465, p000466 và p000469, Uger giữ giọng điệu đồng nghiệp lịch sự, hơi ngượng nghịu nhưng thiện chí với Tanya ('tôi - cô')."
+    recommendation: "Đổi 'Các người' thành 'Các vị' hoặc 'Phía bên cô' (ví dụ: 'Chà, tôi hiểu mà. Các vị vốn là bên suýt nữa thì mất trang bị còn gì.')."
+pending_term_recommendations:
+  - source_term: "Captain Ahrens / Ahrens"
+    proposed_vi: "Đại úy Ahrens / Ahrens"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất cách dịch quân hàm và tên gọi của Đại úy Elmer Ahrens (chỉ huy đại đội thiết giáp thuộc Kampfgruppe Salamander) theo sổ pending các tập 05–06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000444"
+      - "YS-LN06/Text/part0023.html/p000450"
+      - "YS-LN06/Text/part0023.html/p000451"
+  - source_term: "armored troops / motorcycle troops / armored unit commander / tank crews"
+    proposed_vi: "lính thiết giáp / quân mô tô / chỉ huy một đơn vị thiết giáp / những kíp lái xe tăng"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Diễn đạt sát nghĩa sự chuyển đổi biên chế tạm thời từ binh lính thiết giáp vận hành xe tăng sang lực lượng cơ động bằng mô tô và giữ rõ chức trách chỉ huy thiết giáp của Ahrens."
+    alternatives_vi:
+      - "binh lính thiết giáp / lính mô tô / chỉ huy đơn vị thiết giáp / các tổ lái xe tăng"
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000447"
+      - "YS-LN06/Text/part0023.html/p000450"
+  - source_term: "home country"
+    proposed_vi: "chính quốc"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với ngữ cảnh đóng quân tại doanh trại hậu phương ở bản thổ/chính quốc đối lập với việc cơ động ngoài tiền tuyến, đồng bộ với các batch trước của vol-06."
+    alternatives_vi:
+      - "quê nhà"
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000448"
+  - source_term: "Colonel Uger / Uger"
+    proposed_vi: "Trung tá Uger / Uger"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nguồn tiếng Anh gọi tắt cấp bậc Lieutenant Colonel là Colonel trong lời thoại; đối chiếu cấp bậc thực của Uger trong hệ thống hậu cần/Bộ Tổng tham mưu ở tập 05–06 là Trung tá."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000452"
+      - "YS-LN06/Text/part0023.html/p000460"
+  - source_term: "General Staff / Service Corps"
+    proposed_vi: "Bộ Tổng tham mưu / Cục Quân vụ"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất tên cơ quan tham mưu và hậu cần của Đế quốc theo sổ pending xuyên suốt từ tập 01 đến tập 06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000454"
+      - "YS-LN06/Text/part0023.html/p000455"
+  - source_term: "sectionalism / selection and concentration"
+    proposed_vi: "chủ nghĩa cục bộ / chọn lọc và tập trung nguồn lực"
+    category: "thuật ngữ quản trị - kinh tế"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phản ánh chuẩn xác tư duy quản trị tổ chức và phân bổ nguồn lực hữu hạn trong độc thoại của Tanya."
+    alternatives_vi:
+      - "tính cục bộ bản vị / chọn lọc và tập trung"
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000461"
+      - "YS-LN06/Text/part0023.html/p000462"
+  - source_term: "FORMER ENTENTE ALLIANCE TERRITORY, NEAR THE OSFJORD"
+    proposed_vi: "LÃNH THỔ CỰU LIÊN MINH HIỆP ƯỚC, GẦN OSFJORD"
+    category: "địa danh"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất tên gọi Liên minh Hiệp ước và địa danh Osfjord theo các lô trước của chương 5 tập 06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000471"
+  - source_term: "joint headquarters / fatherland / propaganda corps"
+    proposed_vi: "sở chỉ huy liên hợp / tổ quốc / đội tuyên truyền"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Dịch sát nghĩa cơ quan chỉ huy của lực lượng liên quân tại bãi đổ bộ, khái niệm tổ quốc của Mary và bộ phận quay chụp tuyên truyền."
+    alternatives_vi:
+      - "sở chỉ huy liên quân / quê hương / ban tuyên truyền"
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000480"
+      - "YS-LN06/Text/part0023.html/p000481"
+      - "YS-LN06/Text/part0023.html/p000483"
+  - source_term: "Lieutenant Colonel Drake / Colonel Mikel"
+    proposed_vi: "Trung tá Drake / Đại tá Mikel"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "medium"
+    rationale: "Trong đoạn trần thuật p000483, bản nguồn đặt cạnh nhau hai cấp bậc phân biệt rõ ('Lieutenant Colonel' cho Drake và 'Colonel' cho Mikel); giữ 'Trung tá Drake' và 'Đại tá Mikel' khớp với văn bản nguồn tại chỗ và với mục pending của chương 5 (dù ở một vài chương trước trong tập 06 nguồn từng có chỗ ghi Mikel là Lieutenant Colonel)."
+    alternatives_vi:
+      - "Trung tá Drake / Trung tá Mikel"
+    segment_ids:
+      - "YS-LN06/Text/part0023.html/p000483"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0023.html/p000441"
+    names_and_ranks:
+      - "Tanya -> Tanya"
+    pronouns_and_address:
+      - "trần thuật về Tanya -> lược đại từ (dùng tên riêng Tanya)"
+    pov_and_narration: "Ngôi thứ ba trần thuật khách quan."
+    modality_and_negation: "Khẳng định hành động gật đầu xin lỗi."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000442"
+    names_and_ranks:
+      - "Tanya -> Tanya"
+    pronouns_and_address:
+      - "trần thuật về Tanya -> cá nhân Tanya"
+    pov_and_narration: "Trần thuật bám điểm nhìn của Tanya."
+    modality_and_negation: "Giữ cấu trúc điều kiện 'Nếu... có thể được đảm bảo, thì...' và phủ định 'chẳng có gì để phàn nàn'."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000443"
+    names_and_ranks:
+      - "Tanya -> Tanya"
+    pronouns_and_address:
+      - "subordinate in attendance -> người cấp dưới đang ngồi im lặng dự họp"
+    pov_and_narration: "Kết hợp câu nội tâm ngắn in nghiêng của Tanya và câu trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ mệnh đề giả định bỏ lửng ở đầu đoạn."
+    emphasis: "Giữ đúng phạm vi Markdown '*Nếu còn điều gì phải bận tâm thì…*' khớp với thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0023.html/p000444"
+    names_and_ranks:
+      - "Captain Ahrens -> Đại úy Ahrens"
+    pronouns_and_address:
+      - "Tanya gọi Đại úy Ahrens -> Đại úy Ahrens, anh"
+    pov_and_narration: "Thoại trực tiếp của Tanya hỏi ý kiến cấp dưới."
+    modality_and_negation: "Câu hỏi mở thăm dò ý kiến."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000445"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Ahrens xưng với Tanya -> Chúng tôi (thêm tiểu từ lễ phép 'ạ')"
+    pov_and_narration: "Thoại trực tiếp của Đại úy Ahrens đại diện đơn vị thiết giáp."
+    modality_and_negation: "Khẳng định thái độ sẵn lòng tiếp nhận."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000446"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Tanya gọi Ahrens -> anh"
+    pov_and_narration: "Thoại trực tiếp của Tanya xác nhận lại với Ahrens."
+    modality_and_negation: "Câu hỏi xác nhận."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000447"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Tanya -> Nó (DEC-P01-001)"
+      - "trần thuật về Ahrens -> anh"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Tanya."
+    modality_and_negation: "Giữ quan hệ nhân quả ('hỏi vậy vì muốn... nhưng...') và phủ định quá khứ ('Nó không ngờ anh lại dễ dàng đồng ý...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000448"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Ahrens xưng với Tanya -> chúng tôi (kèm 'ạ')"
+    pov_and_narration: "Thoại trực tiếp của Ahrens giải thích lý do đồng ý."
+    modality_and_negation: "Giữ mức khẳng định chắc chắn ('Chắc chắn là còn hơn...') và cấu trúc so sánh."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000449"
+    names_and_ranks:
+      - "Tanya -> Tanya"
+    pronouns_and_address:
+      - "Tanya trong thoại -> Tôi"
+      - "trần thuật về Tanya -> nó, của mình (DEC-P01-001)"
+    pov_and_narration: "Thoại ngắn của Tanya kèm trần thuật nội tâm hóa."
+    modality_and_negation: "Giữ phủ định kép kèm điều kiện ('chẳng muốn bỏ lại... nếu không thực sự bắt buộc')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000450"
+    names_and_ranks:
+      - "Ahrens -> Ahrens"
+    pronouns_and_address:
+      - "generic you -> bạn"
+    pov_and_narration: "Bình luận trần thuật/nội tâm khái quát hóa về tâm lý người lính và chỉ huy thiết giáp."
+    modality_and_negation: "Giữ phủ định thu hẹp phạm vi ('chẳng phải chỉ riêng với Ahrens') và mức tăng tiến ('lại càng bền chặt hơn nữa khi...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000451"
+    names_and_ranks:
+      - "Ahrens -> Ahrens"
+    pronouns_and_address:
+      - "Ahrens xưng với Tanya -> chúng tôi (kèm 'ạ')"
+    pov_and_narration: "Thoại của Ahrens xen câu trần thuật mô tả giọng điệu."
+    modality_and_negation: "Giữ giới hạn thời gian giả định ('chỉ là tạm thời cho đến khi... sau khi... đúng không ạ?')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000452"
+    names_and_ranks:
+      - "Tanya -> Tanya"
+      - "Colonel Uger -> Trung tá Uger"
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Tanya -> Mình (DEC-P01-001)"
+      - "trần thuật về Ahrens -> anh"
+      - "Tanya xưng hô với Uger -> tôi - anh, chúng tôi"
+    pov_and_narration: "Đan xen thoại của Tanya, câu độc thoại nội tâm không in nghiêng, trần thuật và lời thoại hướng sang Uger."
+    modality_and_negation: "Giữ mức chắc chắn ('dám chắc họ sẽ ghét...') và câu yêu cầu khéo bằng hình thức câu hỏi ('anh có thể lập cam kết bằng văn bản cho chúng tôi được không?')."
+    emphasis: "Không dùng chữ nghiêng cho câu nội tâm không có thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN06/Text/part0023.html/p000453"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Tanya -> nó"
+      - "trần thuật về Uger -> anh"
+      - "nội tâm Tanya nói về Uger -> con người này"
+    pov_and_narration: "Trần thuật ngôi thứ ba chuyển sang câu độc thoại nội tâm in nghiêng của Tanya."
+    modality_and_negation: "Giữ sắc thái nghi vấn trong nhận định vẻ mặt ('nửa thông cảm, nửa thất vọng sao?') và tình thái bắt buộc ('phải luôn tỉnh táo đề phòng')."
+    emphasis: "Giữ Markdown '*Đúng là với con người này thì phải luôn tỉnh táo đề phòng mới được.*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000454"
+    names_and_ranks:
+      - "General Staff -> Bộ Tổng tham mưu"
+    pronouns_and_address:
+      - "nội tâm Tanya quy chiếu mình và đơn vị -> bọn mình / chúng mình (sau khi chỉnh từ 'chúng tôi')"
+      - "nội tâm Tanya chỉ Uger -> anh ta"
+    pov_and_narration: "Độc thoại nội tâm không in nghiêng của Tanya."
+    modality_and_negation: "Giữ giả định trái thực tế trong quá khứ ('Nếu... mà không lên tiếng, có trời mới biết anh ta sẽ điều... đi tận đẩu tận đâu!') và mệnh đề tương phản ('vốn là một lời khen, nhưng cái gì cũng phải có giới hạn')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000455"
+    names_and_ranks:
+      - "Service Corps -> Cục Quân vụ"
+    pronouns_and_address:
+      - "Uger xưng hô với Tanya -> Tôi - cô"
+    pov_and_narration: "Thoại trực tiếp của Uger."
+    modality_and_negation: "Giữ phủ định ('chẳng qua mặt cô được chuyện gì') và cấu trúc đối lập ('không chỉ là... mà thành...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000456"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Tanya xưng với Uger -> Tôi"
+    pov_and_narration: "Thoại trực tiếp của Tanya."
+    modality_and_negation: "Khẳng định lời cảm ơn."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000457"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Uger xưng hô với Tanya và Ahrens -> tôi - Các vị / Phía bên cô (sau khi điều chỉnh từ 'Các người')"
+    pov_and_narration: "Thoại trực tiếp của Uger."
+    modality_and_negation: "Giữ giả định quá khứ ('vốn là bên suýt nữa thì mất trang bị')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000458"
+    names_and_ranks:
+      - "Tanya -> Tanya"
+    pronouns_and_address:
+      - "trần thuật về Tanya -> nó"
+      - "trần thuật về Uger -> anh"
+    pov_and_narration: "Trần thuật ngôi thứ ba theo điểm nhìn của Tanya."
+    modality_and_negation: "Giữ hành động suýt xảy ra nhưng dừng lại ngay ('suýt nữa đã... nhưng nó lập tức ngậm miệng lại')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000459"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Tanya -> Nó"
+      - "trần thuật về Uger -> anh"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Khẳng định sự thấu hiểu."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000460"
+    names_and_ranks:
+      - "Uger -> Uger"
+    pronouns_and_address:
+      - "trần thuật về Tanya -> nó"
+      - "trần thuật về đơn vị của Tanya -> họ"
+      - "trần thuật về Uger -> anh"
+    pov_and_narration: "Trần thuật ngôi thứ ba phản ánh suy nghĩ của Tanya."
+    modality_and_negation: "Giữ quan hệ nguyên nhân - hệ quả ('Xét việc... có lẽ nó nên...') và dấu ngoặc kép quanh từ 'mánh khóe'."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000461"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Nhận định khái quát trong dòng suy nghĩ của Tanya."
+    modality_and_negation: "Khẳng định đánh giá về chủ nghĩa cục bộ."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000462"
+    names_and_ranks:
+      - "Communists -> những người Cộng sản"
+    pronouns_and_address:
+      - "generic you -> mình"
+    pov_and_narration: "Nhận định khái quát trong dòng suy nghĩ của Tanya."
+    modality_and_negation: "Giữ điều kiện phủ định kép ('nếu không có thần đèn trợ giúp, chẳng ai có thể tránh khỏi việc...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000463"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Thoại trực tiếp của Tanya chia sẻ với Uger."
+    modality_and_negation: "Câu hỏi đuôi bày tỏ sự cảm thông ('..., nhỉ?')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000464"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Độc thoại/trần thuật bám điểm nhìn của Tanya."
+    modality_and_negation: "Câu hỏi tu từ kèm khẳng định chắc chắn ('Lẽ tất nhiên là vậy rồi.')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000465"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Uger tự xưng -> tôi"
+    pov_and_narration: "Thoại trực tiếp của Uger."
+    modality_and_negation: "Khẳng định sự đồng tình và xin phép cáo từ."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000466"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Uger -> anh"
+      - "nội tâm tự quy chiếu của Tanya -> mình (DEC-P01-001)"
+    pov_and_narration: "Câu đầu trần thuật ngôi thứ ba; câu hai chuyển sang nội tâm trực tiếp không in nghiêng của Tanya."
+    modality_and_negation: "Giữ sắc thái suy đoán/tự nhủ ('Có lẽ mình nên biết ơn...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000467"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Tanya chỉ mình và Uger -> Chúng ta"
+    pov_and_narration: "Nội tâm trực tiếp in nghiêng của Tanya."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Giữ Markdown '*Chúng ta đều là những người chuyên nghiệp cả.*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000468"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Tanya -> mình"
+    pov_and_narration: "Nội tâm trực tiếp in nghiêng của Tanya."
+    modality_and_negation: "Mệnh lệnh tự nhủ ('hãy làm những gì mình cần phải làm thôi')."
+    emphasis: "Giữ Markdown '*Vậy nên hãy làm những gì mình cần phải làm thôi.*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000469"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Uger gọi Tanya -> cô"
+    pov_and_narration: "Thoại trực tiếp của Uger chúc Tanya trước khi chia tay."
+    modality_and_negation: "Lời chúc."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000470"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Tanya xưng hô với Uger -> tôi - Anh"
+    pov_and_narration: "Thoại trực tiếp của Tanya đáp lời Uger."
+    modality_and_negation: "Khẳng định cam kết."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000471"
+    names_and_ranks:
+      - "ENTENTE ALLIANCE -> LIÊN MINH HIỆP ƯỚC"
+      - "OSFJORD -> OSFJORD"
+    pronouns_and_address: []
+    pov_and_narration: "Tiêu đề chuyển cảnh (thời gian, địa điểm)."
+    modality_and_negation: "Giữ nguyên định dạng viết hoa toàn bộ."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000472"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm tự quy chiếu của Mary -> Mình"
+      - "trần thuật về Mary -> cô (phân biệt với 'nó' chỉ dùng cho Tanya theo DEC-P01-001)"
+    pov_and_narration: "Trần thuật ngôi thứ ba đan xen cụm nội tâm in nghiêng của Mary Sue."
+    modality_and_negation: "Khẳng định cảm nhận khi trở về quê nhà."
+    emphasis: "Giữ đúng phạm vi Markdown '*Mình đã về rồi…*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000473"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Mary -> Mình"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ quan hệ đối lập ('lâu đến thế, vậy mà cảm giác như mới chỉ...')."
+    emphasis: "Giữ Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000474"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary gọi người cha đã khuất trong tâm tưởng -> Cha ơi, con"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary hướng tới cha mình (Anson Sue)."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Giữ Markdown '*Cha ơi, con đã về nhà rồi.*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000475"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "Mary tự xưng với cha -> Con"
+      - "we all -> tất cả chúng ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary tiếp nối lời thưa với cha."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Giữ Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000476"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Mary -> mình, chúng ta, người dân của mình"
+      - "những người đã ngã xuống -> họ"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary chuyển về tự suy ngẫm."
+    modality_and_negation: "Giữ chuỗi mở rộng chủ thể ('mình, chúng ta, người dân của mình') và sự đối lập sinh thành - ngã xuống."
+    emphasis: "Giữ Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000477"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Giữ Markdown '*…Đây là nhà.*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000478"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Mary -> mình, tất cả chúng ta"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ chuỗi tự hiệu chỉnh mở rộng chủ thể ('mà mình, mà tất cả chúng ta, cần phải bảo vệ')."
+    emphasis: "Giữ Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000479"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "nội tâm Mary -> chúng ta, mình, cha"
+    pov_and_narration: "Độc thoại nội tâm in nghiêng của Mary."
+    modality_and_negation: "Giữ cấu trúc song hành lời thề ('thứ chúng ta đã thề với những người bạn..., thứ mình đã thề với cha, rằng chúng ta sẽ giành lại')."
+    emphasis: "Giữ Markdown '*...*' cho toàn đoạn khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000480"
+    names_and_ranks:
+      - "Mary -> Mary"
+    pronouns_and_address:
+      - "trần thuật về Mary -> cô"
+      - "Mary và những người bạn du kích -> họ"
+    pov_and_narration: "Mở đầu bằng cụm nội tâm in nghiêng ngắn, tiếp theo là trần thuật ngôi thứ ba."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Giữ đúng phạm vi Markdown '*Được rồi.*' khớp thẻ em trong nguồn."
+  - segment_id: "YS-LN06/Text/part0023.html/p000481"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "trần thuật về Mary -> của mình, cô"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quan hệ nhân quả ('Vì đây là..., nên cô...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000482"
+    names_and_ranks:
+      - "Commonwealth -> Khối Thịnh vượng chung"
+      - "Federation -> Liên bang"
+    pronouns_and_address:
+      - "quân du kích và các pháp sư -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000483"
+    names_and_ranks:
+      - "Lieutenant Colonel Drake -> Trung tá Drake"
+      - "Colonel Mikel -> Đại tá Mikel"
+    pronouns_and_address:
+      - "các thủ lĩnh du kích và hai vị chỉ huy -> họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Giữ quan hệ đồng thời ('Khi... gặp..., họ..., trong lúc...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000484"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "brothers-in-arms -> những người chiến hữu, họ"
+    pov_and_narration: "Trần thuật ngôi thứ ba."
+    modality_and_negation: "Khẳng định."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000485"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_narration: "Trần thuật ngôi thứ ba mang sắc thái châm biếm nhẹ."
+    modality_and_negation: "Giữ giới hạn góc nhìn ('Ít nhất thì trong ánh mắt thuần khiết của ai đó...')."
+    emphasis: "Không có chữ nghiêng."
+  - segment_id: "YS-LN06/Text/part0023.html/p000486"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "the girl (Mary) -> cô gái"
+      - "quân du kích và những người lính -> họ, mình"
+    pov_and_narration: "Trần thuật ngôi thứ ba toàn tri khép lại cảnh."
+    modality_and_negation: "Giữ phủ định ('không hề hay biết') và quan hệ nhân quả giới hạn ('sở dĩ chỉ chăm chăm... là bởi họ biết rõ mình cần những tấm ảnh này')."
+    emphasis: "Không có chữ nghiêng."
