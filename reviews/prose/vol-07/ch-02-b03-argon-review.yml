@@ -1,0 +1,214 @@
+task_id: "vol-07-ch-02-b03-argon-review"
+parent_task_id: "vol-07-ch-02-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 2
+source_package: "work/vol-07/batches/ch-02-b03-source.jsonl"
+target_translation: "translations/vol-07/ch-02-b03.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000067"
+    severity: "moderate"
+    issue: "Lệch đại từ chủ ngữ ở câu đầu của lượt thoại: nguồn dùng đại từ ngôi thứ nhất cho cả hai câu (tương ứng lời của Weiss tiếp nối đoạn dẫn p000066 trước khi Ahrens đáp lại ở p000068), nhưng bản dịch đổi chủ ngữ câu đầu thành ngôi thứ hai 'ngài' ('Gần đây ngài cũng thấy tình cảnh tương tự đấy') trong khi câu thứ hai vẫn dịch là 'tôi'."
+    evidence: "Hai câu liên tiếp trong cùng lượt thoại đều dùng chủ ngữ ngôi thứ nhất số ít; câu đầu nói về điều người nói vừa chứng kiến gần đây, câu thứ hai nói về điều người nói vừa nghe hôm nay."
+    resolution: "Đổi 'ngài' ở câu đầu thành 'tôi' để thống nhất chủ thể ngôi thứ nhất trong cả hai câu: '“Gần đây tôi cũng thấy tình cảnh tương tự đấy. Hôm nay tôi vừa nghe nói là trừ phi lính mới nhắm bắn được vào xích xe tăng, bằng không thì đến hy vọng cầm chân quân địch thôi cũng chẳng có.”'."
+pending_term_recommendations:
+  - source_term: "the colonel / Colonel (addressing or referring to Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / thưa Trung tá"
+    alternatives_vi: []
+    rationale: "Giữ đúng quân hàm thực tế Trung tá của Tanya khi cấp dưới nhắc tới hoặc xưng hô bằng dạng rút gọn."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000068"
+      - "YS-LN07/Text/chapter006.xhtml/p000088"
+      - "YS-LN07/Text/chapter006.xhtml/p000094"
+    status: "proposed"
+  - source_term: "Federation / Federation tanks"
+    proposed_vi: "Liên bang / xe tăng Liên bang"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên quốc gia đối phương từ sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000068"
+      - "YS-LN07/Text/chapter006.xhtml/p000080"
+      - "YS-LN07/Text/chapter006.xhtml/p000089"
+    status: "proposed"
+  - source_term: "203rd Aerial Mage Battalion / aerial mage / aerial mages"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 / pháp sư trên không / các pháp sư trên không"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên đơn vị và danh từ binh chủng từ sổ pending các tập 2–7."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000069"
+      - "YS-LN07/Text/chapter006.xhtml/p000070"
+      - "YS-LN07/Text/chapter006.xhtml/p000073"
+      - "YS-LN07/Text/chapter006.xhtml/p000093"
+      - "YS-LN07/Text/chapter006.xhtml/p000097"
+      - "YS-LN07/Text/chapter006.xhtml/p000100"
+    status: "proposed"
+  - source_term: "main battle tanks / armored vehicles / anti-tank combat / armored troops"
+    proposed_vi: "xe tăng chiến đấu chủ lực / phương tiện thiết giáp / tác chiến chống tăng / lính thiết giáp"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ thiết giáp và tác chiến chống tăng từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000069"
+      - "YS-LN07/Text/chapter006.xhtml/p000070"
+      - "YS-LN07/Text/chapter006.xhtml/p000073"
+      - "YS-LN07/Text/chapter006.xhtml/p000093"
+      - "YS-LN07/Text/chapter006.xhtml/p000097"
+    status: "proposed"
+  - source_term: "EASTERN FRONT / eastern front"
+    proposed_vi: "MẶT TRẬN PHÍA ĐÔNG / mặt trận phía đông"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán cách dịch tên mặt trận từ sổ pending tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000075"
+      - "YS-LN07/Text/chapter006.xhtml/p000091"
+    status: "proposed"
+  - source_term: "Kampfgruppe / Kampfgruppe HQ / Salamander Kampfgruppe"
+    proposed_vi: "Kampfgruppe / sở chỉ huy Kampfgruppe / Kampfgruppe Salamander"
+    alternatives_vi: []
+    rationale: "Giữ nguyên thuật ngữ Kampfgruppe và định danh Kampfgruppe Salamander theo quy ước đã khóa từ các tập 4–7."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000075"
+      - "YS-LN07/Text/chapter006.xhtml/p000086"
+      - "YS-LN07/Text/chapter006.xhtml/p000097"
+    status: "proposed"
+  - source_term: "Imperial Army / the rear"
+    proposed_vi: "Lục quân Đế quốc / hậu phương"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên quân chủng và thuật ngữ hậu phương từ sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000077"
+      - "YS-LN07/Text/chapter006.xhtml/p000078"
+      - "YS-LN07/Text/chapter006.xhtml/p000079"
+    status: "proposed"
+  - source_term: "light machine guns / LMGs"
+    proposed_vi: "súng máy hạng nhẹ"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ vũ khí bộ binh từ sổ pending tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000091"
+    status: "proposed"
+  - source_term: "strongpoint / spider holes"
+    proposed_vi: "cứ điểm / hố cá nhân"
+    alternatives_vi: []
+    rationale: "Kế thừa 'cứ điểm' từ sổ pending và dịch chuẩn xác thuật ngữ công sự cá nhân 'spider holes' là 'hố cá nhân'."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000090"
+      - "YS-LN07/Text/chapter006.xhtml/p000093"
+    status: "proposed"
+  - source_term: "command post / chain of command / CP"
+    proposed_vi: "sở chỉ huy / hệ thống chỉ huy / CP"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ chỉ huy và giữ nguyên viết tắt hô hiệu 'CP' trong liên lạc từ các tập trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter006.xhtml/p000086"
+      - "YS-LN07/Text/chapter006.xhtml/p000094"
+      - "YS-LN07/Text/chapter006.xhtml/p000096"
+      - "YS-LN07/Text/chapter006.xhtml/p000099"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000067"
+    choices:
+      - "Đại từ, điều kiện loại trừ & phủ định: dùng thống nhất đại từ ngôi thứ nhất 'tôi' cho cả hai câu trong lượt lời của Weiss; giữ cấu trúc 'trừ phi lính mới nhắm bắn được vào xích xe tăng, bằng không thì đến hy vọng cầm chân quân địch thôi cũng chẳng có'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000068"
+    choices:
+      - "Xưng hô, quân hàm & tình thái: Đại úy Ahrens gọi Thiếu tá Weiss là 'ngài', gọi gộp Weiss và Tanya là 'các ngài'; 'the colonel' -> 'Trung tá'; 'Federation tanks' -> 'xe tăng Liên bang'; giữ tình thái phỏng đoán 'chắc hẳn... phải khác chứ ạ' và 'có khi... đã phát ngấy'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000069"
+    choices:
+      - "Phủ định, thuật ngữ & đại từ: mở đầu bằng phủ định 'Không, chúng tôi chỉ phát ngán...'; '203rd Aerial Mage Battalion' -> 'Tiểu đoàn Pháp sư Trên không số 203'; 'main battle tanks' -> 'xe tăng chiến đấu chủ lực'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000070"
+    choices:
+      - "Điểm nhìn, phủ định & thuật ngữ: điểm nhìn trần thuật của 'Ahrens'; giữ phủ định quá khứ 'Trước đây việc tiêu diệt xe tăng vốn chẳng khó khăn đến thế'; 'aerial mage' -> 'pháp sư trên không'; 'armored vehicles' -> 'phương tiện thiết giáp'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000071"
+    choices:
+      - "Đại từ & ẩn dụ: Weiss dùng 'chúng tôi' cho các pháp sư trên không; giữ hình ảnh so sánh 'bật tung dễ như khui đồ hộp'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000072"
+    choices:
+      - "Xưng hô: câu hỏi ngắn của Đại úy Ahrens với Thiếu tá Weiss có 'ạ' ('“Thật sao ạ?”')."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000073"
+    choices:
+      - "Thuật ngữ & phân biệt đại từ: 'Aerial mages' -> 'Pháp sư trên không'; 'anti-tank combat' -> 'tác chiến chống tăng'; phân biệt rõ 'chúng tôi' (pháp sư trên không), 'chúng ta' (Weiss và Ahrens đang trò chuyện) và cặp 'tôi' - 'anh'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000074"
+    choices:
+      - "Xưng hô: Ahrens đáp lời cảm ơn Thiếu tá Weiss bằng '“Vâng, cảm ơn ngài.”'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000075"
+    choices:
+      - "Tiêu đề thời gian – địa điểm: giữ định dạng in hoa 'NGÀY 24 THÁNG 4 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, CHỐT ĐỒN TRÚ TẠM THỜI CỦA KAMPFGRUPPE'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000076"
+    choices:
+      - "Nghĩa & quan hệ đối lập: giữ chuỗi công việc của người chỉ huy ở câu đầu và thế đối lập giữa 'là chuyện đương nhiên' với 'làm sao để điều đó thấm xuống toàn bộ tổ chức lại là cả một vấn đề nan giải'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000077"
+    choices:
+      - "Phủ định kép & thuật ngữ: giữ cấu trúc phủ định kép 'rất khó tránh khỏi cảm giác rằng...'; 'the rear' -> 'hậu phương'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000078"
+    choices:
+      - "Phủ định kép & thuật ngữ: giữ cấu trúc nhấn mạnh phủ định 'chẳng còn sót lại lấy một mảy may căng thẳng... thì cũng chẳng hề quá lời'; 'Imperial Army' -> 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000079"
+    choices:
+      - "Nghĩa & thuật ngữ: giữ nhận định 'Những sai lầm bắt nguồn từ sự thật mới là thứ hiểm họa khôn lường nhất'; 'Imperial Army' -> 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000080"
+    choices:
+      - "Thuật ngữ & quan hệ thời gian: 'Federation' -> 'Liên bang'; giữ chi tiết còi báo động chỉ bắt đầu rú lên khi quân địch đã áp sát khá gần và phản ứng thuần thục của binh lính."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000081"
+    choices:
+      - "Trần thuật: giữ chi tiết binh lính lấy ba lô làm gối bị vỗ cho tỉnh ngủ và lập tức bật dậy lao vào vị trí chiến đấu."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000082"
+    choices:
+      - "Thoại báo động: giữ câu hô lặp lại '“Địch tập kích! Địch tập kích!”'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000083"
+    choices:
+      - "Thoại mệnh lệnh: giữ câu hô '“Tất cả các đơn vị vào vị trí!”'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000084"
+    choices:
+      - "Thuật ngữ & sắc thái: 'duty officer' -> 'Viên sĩ quan trực ban'; giữ sắc thái binh lính chửi rủa không ngớt miệng nhưng vẫn đồng loạt lao vào vị trí cực kỳ ăn khớp."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000085"
+    choices:
+      - "Thoại & xưng hô: lính Đế quốc chửi rủa xưng 'tụi này'/'tao' và gọi quân địch là 'bọn chúng'; 'public nuisance' -> 'tội gây rối trật tự công cộng'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000086"
+    choices:
+      - "Đại từ, phủ định & thuật ngữ: trần thuật gọi 'Tanya', quy chiếu bằng 'Nó'/'nó' và tự quy chiếu bằng 'mình' theo DEC-P01-001; 'Kampfgruppe HQ' -> 'sở chỉ huy Kampfgruppe'; 'command post' -> 'sở chỉ huy'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000087"
+    choices:
+      - "Thoại mệnh lệnh: giữ câu lệnh ngắn gọn '“Báo cáo tình hình!”'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000088"
+    choices:
+      - "Quân hàm & xưng hô: dịch 'ma’am' là 'thưa Trung tá' kèm 'ạ' khi cấp dưới báo cáo Tanya."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000089"
+    choices:
+      - "Thoại, phủ định & thuật ngữ: giữ lời chửi và câu hỏi tu từ mỉa mai của Tanya; 'we' -> 'chúng ta'; 'Federation' -> 'Liên bang'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000090"
+    choices:
+      - "Nhấn mạnh Markdown, tình thái & thuật ngữ: chỉ bọc cụm '*Họ hiện đang dốc hết sức để hoàn thành nó*' khớp thẻ em nguồn theo DEC-P01-002; 'spider holes' -> 'hố cá nhân'; giữ tình thái bất định 'có đào nổi... hay chưa cũng còn chưa biết chừng'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000091"
+    choices:
+      - "Đại từ, phủ định kép & thuật ngữ: dùng 'Chúng tôi'/'chúng tôi' cho lực lượng Đế quốc ở tiền tuyến; 'light machine guns'/'LMGs' -> 'súng máy hạng nhẹ'; 'eastern front' -> 'mặt trận phía đông'; giữ cấu trúc phủ định 'Cả mùa đông giá rét lẫn mùa xuân lầy lội đều chẳng hề ưu ái gì...'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000092"
+    choices:
+      - "Nghĩa & đối chiếu: giữ sự tương phản về mật độ hỏa lực thấp thảm hại ở đây so với các chiến tuyến phía tây."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000093"
+    choices:
+      - "Đại từ, phủ định & thuật ngữ: dùng 'chúng tôi'; giữ phủ định và mệnh đề nhượng bộ 'không thể trông mong cứ điểm sẽ ghìm chân hay chặn đứng hoàn toàn quân địch, ngay cả khi có chiến hào'; 'strongpoint' -> 'cứ điểm'; 'armored troops' -> 'lính thiết giáp'; 'aerial mages' -> 'các pháp sư trên không'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000094"
+    choices:
+      - "Quân hàm, thuật ngữ & xưng hô: 'Colonel' -> 'Thưa Trung tá'; 'command post' -> 'sở chỉ huy'; giữ chữ 'ạ' của cấp dưới."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000095"
+    choices:
+      - "Thoại mệnh lệnh: Tanya ra lệnh '“Nối máy cho tôi.”'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000096"
+    choices:
+      - "Điểm nhìn & thuật ngữ: trần thuật gọi 'Tanya'; 'chain of command' -> 'hệ thống chỉ huy'; 'unified command at the division level' -> 'sự chỉ huy thống nhất ở cấp sư đoàn'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000097"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: Tanya trao đổi với sở chỉ huy cấp trên xưng 'Chúng tôi' và dùng 'ạ' lịch sự; 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; 'armored troops' -> 'lính thiết giáp'; 'aerial mages' -> 'các pháp sư trên không'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000098"
+    choices:
+      - "Nghĩa: giữ nhận định về khâu thương lượng trong bước quán triệt nhiệm vụ trước khi bắt tay vào việc."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000099"
+    choices:
+      - "Thoại vô tuyến & thuật ngữ: giữ nguyên 'CP'; 'defense line two' -> 'tuyến phòng ngự số hai'; CP gọi đơn vị của Tanya là 'Các vị'."
+  - segment_id: "YS-LN07/Text/chapter006.xhtml/p000100"
+    choices:
+      - "Thoại, đại từ & thuật ngữ: Tanya đáp lại bằng 'Chúng tôi'; 'aerial mages' -> 'các pháp sư trên không'; giữ điều kiện kèm theo về việc các pháp sư trên không phải bám trụ quanh khu vực đó."
