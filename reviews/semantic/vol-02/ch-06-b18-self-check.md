@@ -1,26 +1,23 @@
-# Tự kiểm ngữ nghĩa — vol-02-ch-06-b18
+# Tự kiểm ngữ nghĩa & Sign-off — vol-02-ch-06-b18
 
-Phạm vi: `YS-LN02/Text/part0030.xhtml/p000554`–`p000583` (30 đoạn). Đã giữ nguyên ID và thứ tự; p000573 chỉ in nghiêng câu châm ngôn, p000579 in nghiêng toàn đoạn theo nguồn, p000582 chỉ in nghiêng câu suy đoán ở giữa.
+Phạm vi: `YS-LN02/Text/part0030.xhtml/p000554`–`p000583` (30 đoạn). Đã giữ nguyên ID và thứ tự; cập nhật toàn bộ `status` từ `draft` sang `reviewed` sau khi xử lý báo cáo `reviews/prose/vol-02/ch-06-b18-argon-review.yml`.
 
-## Kiểm tra
+## Xử lý findings từ Argon Review
 
-- p000554 giữ yêu cầu thả thường dân và công dân Đế quốc, cùng viện dẫn Điều 26, Khoản 3; p000555 giữ sắc thái yêu cầu chỉ có danh nghĩa và giới hạn công dân Đế quốc có mặt ở Arene.
-- p000556 giữ khả năng phỏng đoán về việc bị giết hoặc bị đám đông hành hình, không nêu cách thức hay thủ phạm cụ thể. p000556–p000563 giữ động cơ trả thù, phản ứng của dân quân, điều kiện thiếu huấn luyện và lập luận về vốn con người. Không đồng nhất dân quân với quân đội chính quy.
-- p000566–p000570 giữ động cơ chính trị của Tanya, hành động giải cứu tách biệt với tham chiến, và sắc thái tự trấn an khi biện minh. p000567 giữ lý do chính đáng trước mắt; p000570 không khẳng định Tanya được miễn tội. p000573 chỉ đánh dấu nghiêng câu châm ngôn tương ứng với phần nhấn mạnh trong nguồn.
-- p000574–p000583 giữ điểm nhìn Grantz, khác biệt phản ứng của Visha, tính chất truy quét, mệnh lệnh, sự tỉnh táo, hồi tưởng về việc giết người, mùi xác cháy, và trình tự từ cảnh báo/tách dân thường đến cuộc tấn công. p000580 giữ mức cháy thành than và cảm giác không khí quánh dính vì protein. p000582 giữ suy đoán về thủ tục, không xác định cơ chế pháp luật hay quyết định chính thức. p000583 giữ cảm nhận của Grantz về “người phía mình”, sau đó cảm giác tan đi và lời giải thích vẫn dè dặt. p000579 được in nghiêng toàn đoạn theo nguồn.
+- `B18-F01` (moderate, `p000567`): Đã khôi phục đầy đủ câu mở đầu bị sót: `Đây là cơ hội hoàn hảo. Ngay trước mắt mình là một lý do chính đáng tuyệt vời: bảo vệ đồng bào.`
+- `B18-F02` (moderate, `p000554`): Đã đổi đại từ ở câu thứ hai từ `Chúng ta` thành `Chúng tôi` để thống nhất ngôi xưng của thông điệp cảnh báo chính thức với câu thứ ba (`Chúng tôi không thể để các người tiếp tục tàn sát. Chúng tôi yêu cầu thả các công dân Đế quốc...`).
+- `B18-F03` (minor, `p000560`): Đã chỉnh cụm cuối câu thành `những công dân đang tham gia hoạt động kinh tế lành mạnh` để làm rõ giọng điệu kinh tế học của Tanya trong mạch `p000560`–`p000563`.
+- `B18-F04` (minor, `p000580`): Đã chỉnh `cảm giác nhột lạ trong mũi` thành `cảm giác cay rát kỳ lạ trong mũi` cho khớp ngữ cảnh kích ứng khứu giác vì mùi thịt cháy ở câu kế tiếp; giữ cách diễn đạt `quan tâm đến người phía mình hơn kẻ địch` ở `p000583` theo `locked_choices`.
 
-## Đề xuất tạm, chưa phải canon
+## Kiểm tra tuân thủ locked_choices & checkpoints
 
-- `Rules of War on Land` → “Quy tắc Chiến tranh trên bộ” (p000554). Chọn cách dịch mô tả gần nghĩa; phương án khác: giữ nguyên tên tiếng Anh hoặc dùng “Luật Chiến tranh trên bộ”. Không xác định đây là tên chính thức của văn kiện nào.
-- `Second Lieutenant` → “Thiếu úy” (p000581); `Major` → “Thiếu tá” (p000583). Dùng tương ứng với lựa chọn quy đổi cấp bậc tạm thời ở các lô trước; phương án khác là giữ nguyên cấp bậc tiếng Anh. Ánh xạ cấp bậc vẫn pending, không suy ra quy chuẩn rộng hơn.
-- `cleanup / mopping up` → “truy quét” (p000574, p000576); phương án khác: “quét sạch lực lượng còn lại” hoặc “dọn dẹp chiến trường”. Giữ nghĩa tác chiến, không hàm ý công tác hậu chiến.
-- `extermination / annihilation` → “cuộc tiêu diệt / giai đoạn tiêu diệt toàn bộ” (p000566, p000568); phương án khác: “tiêu diệt sạch”. Chọn từ ngữ trực tiếp trong ngữ cảnh tác chiến, không thêm đối tượng ngoài mạch đang nói.
-- `prisoner rescue mission` → “nhiệm vụ giải cứu những người bị giam giữ” (p000583); phương án khác: “nhiệm vụ giải cứu tù binh” hoặc “nhiệm vụ giải cứu người bị bắt”. Cách nói trung tính không gán tư cách pháp lý cho tất cả người được cứu.
-- Đại từ: dùng “mình” cho nội tâm tự quy chiếu của Tanya (p000556, p000566–p000570, p000573); dùng “anh” cho Grantz ở trần thuật (p000577, p000580–p000581, p000583), còn p000579 giữ nội tâm Grantz bằng “mình”. Dùng “cô” cho Visha và cho Tanya trong cảm nhận của Grantz ở p000583. Đây là lựa chọn tạm theo điểm nhìn cục bộ, không mở rộng thành quy tắc canon.
-- Cách gọi “đồng bào” và lời thoại “lũ Đế quốc khốn kiếp” (p000561, p000567–p000569) là đề xuất theo ngữ cảnh, không xác lập quan hệ hoặc cách xưng hô chuẩn cho các nhân vật.
+- `p000554`–`p000555`: Giữ yêu cầu thả dân thường không thuộc phe nào và công dân Đế quốc theo Điều 26, Khoản 3 của Quy tắc Chiến tranh trên bộ; giữ sắc thái yêu cầu chỉ có danh nghĩa và phạm vi công dân Đế quốc có mặt ở Arene.
+- `p000556`–`p000563`: Giữ cấp độ suy đoán về số phận người bị bắt, sự đối lập giữa quân đội chính quy và dân quân thiếu huấn luyện, và luận điểm kinh tế học về `vốn con người` (`p000563`).
+- `p000564`–`p000573`: Giữ mạch báo cáo vô tuyến với `Sở chỉ huy` (`Pixie 01`, xưng `tôi`) và độc thoại nội tâm thực dụng của Tanya (tự xưng `mình`, dùng `chúng ta` khi gộp đơn vị ở `p000565`). Bảo toàn chính xác phạm vi nhấn mạnh `*...*` ở câu châm ngôn trong `p000573`.
+- `p000574`–`p000583`: Giữ sự chuyển điểm nhìn sau ngắt cảnh sang trần thuật ngôi thứ ba giới hạn theo Grantz (`anh`) và Visha (`cô`), độc thoại nội tâm trực tiếp của Grantz in nghiêng toàn đoạn ở `p000579` (tự xưng `mình`), câu suy đoán thủ tục in nghiêng ở giữa `p000582`, và quy chiếu `Thiếu tá von Degurechaff` là `cô` ở `p000583`.
 
-## Rủi ro cần coordinator xem xét
+## Đề xuất tạm (pending_term_recommendations), chưa phải canon
 
-- `meaning`: p000582 vẫn để ngỏ quan hệ pháp lý và chủ thể phân loại; bản dịch dùng cách diễn đạt thủ tục ít suy diễn, không thêm căn cứ luật hay quyết định chính thức.
-- `pending_terms`: các lựa chọn tạm về tên văn kiện, cấp bậc, thuật ngữ tác chiến, giải cứu, đại từ/điểm nhìn và cách gọi vẫn pending, không phải canon. Với `human capital` (p000563), đã đổi “vốn nhân lực” thành “vốn con người” theo reviewer và P03-human-capital; “vốn nhân lực” vẫn là phương án thay thế pending. Cả hai đều chưa phải canon.
-- `emphasis`: p000573 và p000582 nhấn nghiêng đúng phạm vi câu được chỉ định; p000579 giữ nhấn mạnh toàn đoạn. Không thêm nhấn mạnh ở nơi khác.
+- Danh từ riêng, cấp bậc, mã hiệu và văn bản pháp lý: `Arene`, `thành phố trước đây thuộc Cộng hòa`, `Quân đội Cộng hòa`, `Đế quốc`, `Lục quân Đế quốc`, `Điều 26, Khoản 3 của Quy tắc Chiến tranh trên bộ` (`p000554`), `Sở chỉ huy` (`p000564`, `p000571`, `p000576`, `p000577`), `Pixie 01` (`p000572`), `Thiếu úy Grantz` (`p000581`), `Visha` (`p000574`), `Thiếu tá von Degurechaff` (`p000583`).
+- Thuật ngữ quân sự, pháp lý và kinh tế: `những người dân thường không thuộc phe nào`, `công dân Đế quốc`, `nhân viên dân sự của quân đội`, `dân quân`, `những người đấu tranh vì tự do`, `hiểm họa môi trường`, `kinh tế học`, `vốn con người`, `cuộc tiêu diệt`, `giai đoạn tiêu diệt toàn bộ`, `tấm bùa miễn tội`, `màn truy quét / truy quét`, `lời cảnh báo đầu hàng`, `người không tham chiến`, `nhiệm vụ giải cứu những người bị giam giữ`.
+- Điểm nhìn, đại từ và nhấn mạnh: tuân thủ `DEC-P01-001` và `DEC-P01-002` trên toàn bộ 30 đoạn (`p000554`–`p000583`), chỉ đánh dấu `*...*` tại đúng 3 vị trí có nhấn mạnh trong nguồn (`p000573`, `p000579`, `p000582`).

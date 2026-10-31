@@ -1,0 +1,421 @@
+task_id: "vol-02-ch-06-b18-argon-review"
+parent_task_id: "vol-02-ch-06-b18"
+role: "reviewer"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+volume: "vol-02"
+chapter: 6
+batch: "b18"
+segment_id_start: "YS-LN02/Text/part0030.xhtml/p000554"
+segment_id_end: "YS-LN02/Text/part0030.xhtml/p000583"
+unit_count: 30
+source_sha256: "3ac53161b6e093ba07203f284a400049cf902a3b0f51c0d3e40200867c13ae0a"
+source_package_sha256: "1f6116310c3d403849cb4ba575d10a8bf521a4ea1fc4e6ad08dffe8554685d92"
+glossary_version: "sha256:d5f19d64d8d734e1a21400978b70a7c10daf776ba7f77eb58f01a39ac78f5a41"
+review_path: "reviews/prose/vol-02/ch-06-b18-argon-review.yml"
+files_written:
+  - "reviews/prose/vol-02/ch-06-b18-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+next_action: "translator_revision"
+
+summary:
+  serious: 0
+  moderate: 2
+  minor: 2
+
+unresolved_findings:
+  - "B18-F01"
+  - "B18-F02"
+
+findings:
+  - id: "B18-F01"
+    severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000567"
+    category: "omission_and_completeness"
+    issue: "Tại `p000567`, bản dịch mới chỉ chuyển ngữ câu thứ hai (`Ngay trước mắt mình là một lý do chính đáng tuyệt vời: bảo vệ đồng bào.`) và bỏ sót hoàn toàn câu đầu tiên của đoạn khẳng định đây là cơ hội hoàn hảo."
+    basis: "Đoạn `p000567` trong nguyên tác gồm hai câu độc lập: câu đầu nối tiếp mạch tính toán ở `p000565`–`p000566` để khẳng định đây là cơ hội hoàn hảo, còn câu sau mới nêu cụ thể chính nghĩa bảo vệ đồng bào đang ở ngay trước mắt. Theo `canon/style-guide.md`, bản dịch không được lược bỏ câu hay chi tiết của nguồn."
+    recommendation: "Khôi phục đầy đủ câu mở đầu của `p000567`, chẳng hạn: `Đây là cơ hội hoàn hảo. Ngay trước mắt mình là một lý do chính đáng tuyệt vời: bảo vệ đồng bào.`"
+    resolution: "pending_revision"
+
+  - id: "B18-F02"
+    severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000554"
+    category: "pronoun_consistency_in_dialogue"
+    issue: "Tại `p000554`, thông điệp cảnh báo chính thức phát cho lực lượng nổi dậy trong thành phố dùng đại từ ngôi thứ nhất bao gộp `Chúng ta` ở câu thứ hai (`Chúng ta không thể để các người tiếp tục tàn sát.`), nhưng ngay câu thứ ba lại đổi sang đại từ loại trừ `Chúng tôi` (`Chúng tôi yêu cầu thả các công dân Đế quốc...`)."
+    basis: "Cả hai câu đều là lời tuyên bố của phía Quân đội Đế quốc đối lập trực tiếp với đối phương (`các người`). Việc dùng `Chúng ta` (bao gồm cả người nghe) ở câu 2 gây lệch ngôi xưng hô và thiếu nhất quán với `Chúng tôi` ở câu 3."
+    recommendation: "Đổi `Chúng ta` ở câu thứ hai của `p000554` thành `Chúng tôi`: `“Lập tức thả những người dân thường không thuộc phe nào. Chúng tôi không thể để các người tiếp tục tàn sát. Chúng tôi yêu cầu thả các công dân Đế quốc theo Điều 26, Khoản 3 của Quy tắc Chiến tranh trên bộ.”`"
+    resolution: "pending_revision"
+
+  - id: "B18-F03"
+    severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000560"
+    category: "register_and_terminology_nuance"
+    issue: "Tại câu cuối của `p000560`, cụm từ mang màu sắc thuật ngữ kinh tế học đặc trưng trong độc thoại của Tanya (`citizens engaged in wholesome economic activity`) được dịch thoát ý theo lối khẩu ngữ là `những thường dân đang làm ăn lương thiện`."
+    basis: "Nghĩa cốt lõi vẫn bảo đảm, nhưng trong mạch `p000560`–`p000563`, Tanya đang nhìn nhận chiến trường bằng lăng kính kinh tế học (`environmental hazard`, `economic theory`, `human capital`), nên giữ sắc thái thuật ngữ kinh tế sẽ làm nổi bật giọng nhân vật hơn."
+    recommendation: "Ở bước chỉnh sửa hoặc polish có thể cân nhắc đổi thành `những công dân đang tham gia hoạt động kinh tế lành mạnh` (hoặc giữ nguyên nếu ưu tiên nhịp khẩu ngữ)."
+    resolution: "optional_polish"
+
+  - id: "B18-F04"
+    severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000580"
+    category: "lexical_nuance"
+    issue: "Tại `p000580`, cảm giác kích ứng khứu giác trong mũi của Grantz trước mùi thịt người cháy (`strange tingle in his nose`) được dịch là `cảm giác nhột lạ trong mũi`, nghe thiên về xúc giác cơ học hơn là sự cay rát/ngứa râm ran do mùi khét và khí độc gây ra; ngoài ra ở `p000583`, cụm `quan tâm đến người phía mình hơn kẻ địch` có thể làm rõ hơn sắc thái ưu tiên nhiệm vụ giải cứu đồng đội so với việc tiêu diệt địch."
+    basis: "Ngay câu sau của `p000580` giải thích rõ nguyên nhân là mùi hôi khét đang kích ứng mũi (`một mùi hôi đang kích ứng nơi ấy`), và câu cuối `p000583` giải thích rằng Tanya chỉ đang quyết định theo thứ tự ưu tiên nhiệm vụ."
+    recommendation: "Ở bước chỉnh sửa hoặc polish có thể đổi `cảm giác nhột lạ trong mũi` ở `p000580` thành `cảm giác cay rát kỳ lạ trong mũi` (hoặc `cảm giác ngứa râm ran kỳ lạ trong mũi`), và ở `p000583` có thể diễn đạt là `ưu tiên người phe mình hơn việc đánh địch` / `bận tâm đến người phía mình hơn kẻ địch`."
+    resolution: "optional_polish"
+
+pending_term_recommendations:
+  - id: "vol02-ch06-b18-proper-nouns-ranks-and-callsigns"
+    source_term: "Arene / Republican city / Republican Army / Empire / Imperial Army / article 26, paragraph 3 of the Rules of War on Land / HQ / Pixie 01 / Grantz / Second Lieutenant Grantz / Visha / Major von Degurechaff"
+    proposed_vi: "Arene / thành phố thuộc Cộng hòa / Quân đội Cộng hòa / Đế quốc / Lục quân Đế quốc / Điều 26, Khoản 3 của Quy tắc Chiến tranh trên bộ / Sở chỉ huy / Pixie 01 / Grantz / Thiếu úy Grantz / Visha / Thiếu tá von Degurechaff"
+    alternatives_vi:
+      - "Luật Chiến tranh trên bộ / Tổng hành dinh"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000554"
+      - "YS-LN02/Text/part0030.xhtml/p000555"
+      - "YS-LN02/Text/part0030.xhtml/p000564"
+      - "YS-LN02/Text/part0030.xhtml/p000571"
+      - "YS-LN02/Text/part0030.xhtml/p000572"
+      - "YS-LN02/Text/part0030.xhtml/p000574"
+      - "YS-LN02/Text/part0030.xhtml/p000575"
+      - "YS-LN02/Text/part0030.xhtml/p000576"
+      - "YS-LN02/Text/part0030.xhtml/p000577"
+      - "YS-LN02/Text/part0030.xhtml/p000578"
+      - "YS-LN02/Text/part0030.xhtml/p000581"
+      - "YS-LN02/Text/part0030.xhtml/p000582"
+      - "YS-LN02/Text/part0030.xhtml/p000583"
+    rationale: "Giữ nguyên địa danh `Arene` (`p000555`, khớp `work/run-state/pending-terms-index.yml`), tên gọi văn bản pháp lý quân sự `Điều 26, Khoản 3 của Quy tắc Chiến tranh trên bộ` (`p000554`), mã hiệu liên lạc `Pixie 01` theo đúng bản gốc tiếng Anh tại `p000572` và `Sở chỉ huy` cho `HQ` (`p000564`, `p000571`, `p000576`, `p000577`); thống nhất cấp bậc `Thiếu úy Grantz` (`p000581`) và `Thiếu tá von Degurechaff` (`p000583`)."
+    uncertainty: "low"
+    status: "pending"
+    canon: false
+
+  - id: "vol02-ch06-b18-military-legal-and-economic-terms"
+    source_term: "unaffiliated members of the general population / imperial citizens / imperial subjects / civilian army personnel / militia / freedom fighters / environmental hazard / economic theory / human capital / extermination / annihilation phase / get-out-of-jail-free card / mopping up / cleanup / surrender warning / noncombatants / prisoner rescue mission"
+    proposed_vi: "những người dân thường không thuộc phe nào / công dân Đế quốc / nhân viên dân sự của quân đội / dân quân / những người đấu tranh vì tự do / hiểm họa môi trường / kinh tế học (lý thuyết kinh tế) / vốn con người / cuộc tiêu diệt / giai đoạn tiêu diệt toàn bộ / tấm bùa miễn tội / màn truy quét / truy quét / lời cảnh báo đầu hàng / người không tham chiến / nhiệm vụ giải cứu những người bị giam giữ"
+    alternatives_vi:
+      - "thần dân Đế quốc / nhiệm vụ giải cứu tù binh (con tin)"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000554"
+      - "YS-LN02/Text/part0030.xhtml/p000555"
+      - "YS-LN02/Text/part0030.xhtml/p000560"
+      - "YS-LN02/Text/part0030.xhtml/p000562"
+      - "YS-LN02/Text/part0030.xhtml/p000563"
+      - "YS-LN02/Text/part0030.xhtml/p000566"
+      - "YS-LN02/Text/part0030.xhtml/p000568"
+      - "YS-LN02/Text/part0030.xhtml/p000569"
+      - "YS-LN02/Text/part0030.xhtml/p000574"
+      - "YS-LN02/Text/part0030.xhtml/p000576"
+      - "YS-LN02/Text/part0030.xhtml/p000582"
+      - "YS-LN02/Text/part0030.xhtml/p000583"
+    rationale: "Áp dụng nhất quán thuật ngữ `vốn con người` (`human capital`, `p000563`) theo đúng đề xuất `P03-human-capital` trong `canon/glossary-pending.yml`; giữ sự phân biệt chuẩn xác giữa `thường dân` / `người không tham chiến` (`civilians` / `noncombatants`), `nhân viên dân sự của quân đội` (`civilian army personnel`), `dân quân` (`militia`) và `quân đội chính quy` (`proper army`)."
+    uncertainty: "low"
+    status: "pending"
+    canon: false
+
+  - id: "vol02-ch06-b18-pronouns-pov-shift-and-emphasis"
+    source_term: "Tanya inner monologue (p000555-p000573) vs. Grantz/Visha third-person limited POV (p000574-p000583) and 3 HTML emphasis spans (p000573, p000579, p000582)"
+    proposed_vi: "Tuân thủ nghiêm ngặt DEC-P01-001 và DEC-P01-002 xuyên suốt 30 đoạn: ở nửa đầu lô (p000554-p000573), thông điệp phát loa xưng Chúng tôi - gọi đối phương là các người (p000554 sau khi sửa theo B18-F02), độc thoại nội tâm của Tanya tự xưng mình (ngôi thứ nhất số ít) và chúng ta (khi gộp toàn đơn vị ở p000565), giao tiếp vô tuyến với Sở chỉ huy xưng tôi (p000564, p000572); từ sau ngắt cảnh space-break (p000574-p000583), điểm nhìn chuyển sang trần thuật ngôi thứ ba giới hạn theo Grantz và Visha, quy chiếu Visha là cô (p000574), Grantz là anh (p000577, p000580, p000581, p000583), độc thoại nội tâm trực tiếp của Grantz tự xưng mình (p000579), và từ góc nhìn của Thiếu úy Grantz quy chiếu cấp trên Thiếu tá von Degurechaff là cô (p000583, khớp mục Tanya third-person pronoun trong pending-terms-index.yml); bảo toàn chính xác cả 3 thẻ <html:em> tại p000573, p000579 và p000582 bằng dấu *...*"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000554"
+      - "YS-LN02/Text/part0030.xhtml/p000556"
+      - "YS-LN02/Text/part0030.xhtml/p000564"
+      - "YS-LN02/Text/part0030.xhtml/p000565"
+      - "YS-LN02/Text/part0030.xhtml/p000566"
+      - "YS-LN02/Text/part0030.xhtml/p000567"
+      - "YS-LN02/Text/part0030.xhtml/p000569"
+      - "YS-LN02/Text/part0030.xhtml/p000572"
+      - "YS-LN02/Text/part0030.xhtml/p000573"
+      - "YS-LN02/Text/part0030.xhtml/p000574"
+      - "YS-LN02/Text/part0030.xhtml/p000577"
+      - "YS-LN02/Text/part0030.xhtml/p000579"
+      - "YS-LN02/Text/part0030.xhtml/p000580"
+      - "YS-LN02/Text/part0030.xhtml/p000581"
+      - "YS-LN02/Text/part0030.xhtml/p000582"
+      - "YS-LN02/Text/part0030.xhtml/p000583"
+    rationale: "Giữ rõ sự chuyển dịch điểm nhìn tại `p000574` từ độc thoại nội tâm thực dụng của Tanya sang trải nghiệm tâm lý chấn động của Grantz, đồng thời bảo toàn tuyệt đối phạm vi của 3 cụm chữ nghiêng theo `DEC-P01-002`."
+    uncertainty: "low"
+    status: "pending"
+    canon: false
+
+locked_choices:
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000554"
+    terms:
+      - "dân thường không thuộc phe nào"
+      - "công dân Đế quốc"
+      - "Điều 26, Khoản 3"
+      - "Quy tắc Chiến tranh trên bộ"
+    pronouns_and_address: "Thông điệp cảnh báo chính thức của phía Đế quốc xưng `Chúng tôi` nhất quán ở cả câu 2 và câu 3 (sửa `Chúng ta` thành `Chúng tôi` theo `B18-F02`), gọi lực lượng nổi dậy là `các người`."
+    pov_and_voice: "Giọng tuyên cáo pháp lý đanh thép, đúng quy trình công ước chiến tranh trên bộ."
+    modality_and_logic: "Bảo toàn đủ 3 câu: yêu cầu lập tức thả những người dân thường không thuộc phe nào -> tuyên bố chúng tôi không thể để các người tiếp tục tàn sát -> yêu cầu thả các công dân Đế quốc theo Điều 26, Khoản 3 của Quy tắc Chiến tranh trên bộ."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000555"
+    terms:
+      - "thường dân"
+      - "công dân Đế quốc"
+      - "Arene"
+      - "Cộng hòa"
+      - "binh lính"
+      - "nhân viên dân sự của quân đội"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya không dùng đại từ nhân xưng."
+    pov_and_voice: "Giọng nhận định thực tế, tỉnh táo về tính chất hình thức của lời yêu cầu."
+    modality_and_logic: "Bảo toàn đủ 2 câu và tình thái suy đoán: đó chỉ là yêu cầu thả thường dân trên danh nghĩa -> dù sao thì những công dân Đế quốc duy nhất có mặt ở Arene, thành phố trước đây thuộc Cộng hòa, hẳn là binh lính hoặc nhân viên dân sự của quân đội."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000556"
+    terms:
+      - "cuộc nổi dậy"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`, phân biệt rõ `họ` (các công dân/nhân viên Đế quốc bị kẹt lại) với `chúng` (đám dân quân nổi dậy)."
+    pov_and_voice: "Giọng phán đoán lạnh lùng về số phận của những người bị bắt giữ."
+    modality_and_logic: "Bảo toàn đủ 3 câu và cấp độ khả năng: có lẽ họ đã bị giết hoặc bị đám đông hành hình ngay khi cuộc nổi dậy bắt đầu -> dù còn người sống sót, mình cũng không nghĩ chúng sẽ ngoan ngoãn thả họ đi -> khả năng cao hơn là chúng sẽ giết nốt những người sống sót chỉ vì tức tối."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000557"
+    terms:
+      - "ngày tận thế hạt nhân"
+      - "tiểu thuyết khoa học viễn tưởng"
+      - "chiến tranh hạt nhân"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya lược chủ ngữ ngôi thứ nhất (`Không thể tin nổi...`) và quy chiếu đối phương là `họ`."
+    pov_and_voice: "Giọng châm biếm sự ngây thơ chiến lược bằng phép so sánh từ thế giới hiện đại."
+    modality_and_logic: "Bảo toàn đủ 2 câu: không thể tin nổi họ lại thật sự muốn kịch bản này xảy ra -> cứ như sự khác biệt khổng lồ giữa việc nói về ngày tận thế hạt nhân trong tiểu thuyết khoa học viễn tưởng và thực sự tiến hành chiến tranh hạt nhân."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000558"
+    terms: []
+    pronouns_and_address: "Câu hỏi ngắn qua liên lạc nội bộ lược đại từ ngôi thứ hai khi chưa định danh cụ thể người nghe."
+    pov_and_voice: "Giọng kiểm tra thông tin trinh sát hình ảnh ngắn gọn."
+    modality_and_logic: "Bảo toàn đủ 2 câu hỏi ngắn (`“Đang theo dõi chứ? Thấy gì không?”`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000559"
+    terms:
+      - "đoạn phim"
+    pronouns_and_address: "Lời báo cáo ngắn của cấp dưới/bộ phận quan sát, quy chiếu dân quân địch là `họ`."
+    pov_and_voice: "Giọng báo cáo thực tế ngay khi ghi nhận hành vi nổ súng của địch."
+    modality_and_logic: "Bảo toàn dấu ba chấm mở đầu và đủ 2 câu: xác nhận họ vừa bắn ai đó -> chuyển đoạn phim/video ghi hình."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000560"
+    terms:
+      - "dân quân"
+      - "quân đội chính quy"
+      - "những người đấu tranh vì tự do"
+      - "xung đột nội bộ"
+      - "hiểm họa môi trường"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya quy chiếu dân quân là `Đám này` / `Chúng`."
+    pov_and_voice: "Giọng phê phán gay gắt tình trạng vô kỷ luật của dân quân dưới góc nhìn trật tự và kinh tế."
+    modality_and_logic: "Bảo toàn đủ 6 câu: đúng như dự đoán, dân quân bắn chết một người rồi la hét những lời tục tĩu -> thời nào dân quân thiếu kỷ luật cũng dễ hành xử như vậy -> đó là lý do quân đội chính quy và dân quân là hai thứ khác nhau -> những người đấu tranh vì tự do thì tốt thôi, nhưng tự do không có trật tự sẽ dẫn đến xung đột nội bộ nghiêm trọng, chẳng khác nào một hiểm họa môi trường -> đám này hết thuốc chữa -> chúng có thể tự làm việc đó, vậy mà lại lôi cả những thường dân đang làm ăn lương thiện (hoặc những công dân đang tham gia hoạt động kinh tế lành mạnh) vào cuộc."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000561"
+    terms:
+      - "Đế quốc"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya quy chiếu đám dân quân là `họ`, kèm câu thoại giả định tiếng chửi của địch."
+    pov_and_voice: "Giọng suy đoán dửng dưng về lời lẽ kích động của dân quân."
+    modality_and_logic: "Bảo toàn đủ 2 câu và câu khẩu hiệu giả định trong ngoặc kép: trong tình cảnh đó có lẽ họ đang hét câu chửi rủa quân Đế quốc -> đại loại thế."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000562"
+    terms:
+      - "nguyên tắc"
+      - "huấn luyện"
+      - "tổ chức dân sự thiếu kỷ luật"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya quy chiếu những người chưa quen chiến tranh là `Họ` / `họ`."
+    pov_and_voice: "Giọng phân tích tâm lý đám đông vũ trang chưa qua rèn luyện quân sự."
+    modality_and_logic: "Bảo toàn đủ 3 câu: người chưa quen chiến tranh thường hành xử như vậy -> họ có thể tin vào một nguyên tắc cao đẹp nào đó, nhưng chừng nào chưa được huấn luyện thì vẫn bị cảm xúc chi phối -> vậy nên có lẽ đây là điều tất yếu khi một tổ chức dân sự thiếu kỷ luật được trang bị súng."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000563"
+    terms:
+      - "quân phục"
+      - "huấn luyện"
+      - "dân quân"
+      - "kinh tế học"
+      - "vốn con người"
+    pronouns_and_address: "Độc thoại nội tâm khái quát của Tanya không dùng đại từ cá nhân."
+    pov_and_voice: "Giọng quy chiếu mọi hiện tượng quân sự về lý thuyết vốn con người của kinh tế học."
+    modality_and_logic: "Bảo toàn đủ 2 câu và thuật ngữ `vốn con người` (`P03-human-capital`): cũng như một thành viên hữu ích của xã hội, người lính dù mặc quân phục vẫn vô dụng nếu không được huấn luyện, và rõ ràng chẳng thể trông mong điều đó ở dân quân -> nói cách khác, chuyện này củng cố luận điểm của kinh tế học rằng vốn con người quan trọng đến thế nào."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000564"
+    terms:
+      - "Sở chỉ huy"
+      - "video"
+      - "giải cứu"
+    pronouns_and_address: "Tanya gọi `Sở chỉ huy` và tự xưng `tôi` qua vô tuyến."
+    pov_and_voice: "Giọng báo cáo công vụ khẩn trương, xin phép mở chiến dịch giải cứu ngay lập tức."
+    modality_and_logic: "Bảo toàn đủ 2 câu: báo đang gửi video cho Sở chỉ huy -> xin phép lập tức bắt đầu giải cứu."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000565"
+    terms:
+      - "nghĩa vụ cảnh báo"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng `chúng ta` cho đơn vị/phe mình."
+    pov_and_voice: "Giọng nắm bắt thời cơ nhanh nhạy sau khi hoàn tất thủ tục pháp lý."
+    modality_and_logic: "Bảo toàn đủ 2 câu: đồng thời đây cũng là cơ hội lớn -> trên danh nghĩa, chúng ta đã hoàn thành nghĩa vụ cảnh báo."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000566"
+    terms:
+      - "cuộc tiêu diệt"
+      - "vị thế chính trị"
+      - "miễn trách nhiệm"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` nhất quán theo `DEC-P01-001`."
+    pov_and_voice: "Giọng tính toán đường lui chính trị để né tránh phần việc bẩn tay."
+    modality_and_logic: "Bảo toàn đủ 2 câu: giờ chỉ còn tham gia cuộc tiêu diệt, nhưng nếu có thể thì mình muốn tránh việc ấy vì nghĩ đến vị thế chính trị của mình sau này -> lý do rất đơn giản, ai cũng sẽ miễn trách nhiệm cho mình."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000567"
+    terms:
+      - "đồng bào"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng hồ hởi thực dụng khi tìm được lá chắn chính nghĩa hoàn hảo."
+    modality_and_logic: "Bảo toàn đủ 2 câu theo `B18-F01`: khẳng định đây là cơ hội hoàn hảo (`Đây là cơ hội hoàn hảo.`) -> nêu rõ ngay trước mắt mình là một lý do chính đáng tuyệt vời: bảo vệ đồng bào."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000568"
+    terms:
+      - "thường dân"
+      - "công dân Đế quốc"
+      - "giai đoạn tiêu diệt toàn bộ"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya dùng câu hỏi tu từ khái quát."
+    pov_and_voice: "Giọng lập luận sắc bén về lợi ích chính trị của hành động giải cứu con tin."
+    modality_and_logic: "Bảo toàn đủ 3 câu: câu hỏi tu từ quân đội nào có thể trách một người lính vì cứu thường dân của chính phe mình -> ít nhất, cứu các công dân/thần dân Đế quốc bị bắt là một hành động trong sạch về mặt chính trị -> có thể việc ấy không có nhiều ý nghĩa xét về quân sự, nhưng giờ chỉ còn giai đoạn tiêu diệt toàn bộ."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000569"
+    terms:
+      - "hành vi chính trị"
+      - "đồng bào"
+      - "tấm bùa miễn tội"
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng toan tính dùng nhiệm vụ giải cứu làm bằng chứng ngoại phạm trước lịch sử."
+    modality_and_logic: "Bảo toàn đủ 2 câu: vậy đây là giai đoạn mà hành vi chính trị trở nên quan trọng -> việc mình không trực tiếp tham chiến mà tham gia giải cứu đồng bào hẳn sẽ là tấm bùa miễn tội."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000570"
+    terms: []
+    pronouns_and_address: "Câu kết luận nội tâm ngắn gọn của Tanya."
+    pov_and_voice: "Giọng chốt lại mức bảo đảm tối thiểu của phương án tự vệ pháp lý."
+    modality_and_logic: "Bảo toàn tình thái dự đoán (`Ít nhất thì đó cũng hẳn là một lý do để biện minh.`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000571"
+    terms:
+      - "Sở chỉ huy"
+    pronouns_and_address: "Thông điệp vô tuyến từ `Sở chỉ huy` phê chuẩn đề xuất của Tanya."
+    pov_and_voice: "Giọng quân lệnh ngắn gọn, chuẩn y ngay lập tức."
+    modality_and_logic: "Bảo toàn đủ 2 câu ngắn (`“Sở chỉ huy, rõ. Cứ tiến hành.”`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000572"
+    terms:
+      - "Pixie 01"
+    pronouns_and_address: "Tanya dùng mã hiệu `Pixie 01` và tự xưng `Tôi` khi đáp lại Sở chỉ huy."
+    pov_and_voice: "Giọng nhận lệnh dứt khoát qua vô tuyến."
+    modality_and_logic: "Bảo toàn đủ 2 câu ngắn (`“Pixie 01, rõ. Tôi sẽ lập tức tiến hành.”`)."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000573"
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm của Tanya tự xưng `mình` theo `DEC-P01-001`."
+    pov_and_voice: "Giọng mỉa mai thực dụng khi bẻ câu cách ngôn hướng thiện thành lợi ích vị kỷ."
+    modality_and_logic: "Bảo toàn đủ 4 câu: được rồi, cứu người thôi -> làm một việc tốt nào -> vì chính mình -> khen người nói câu châm ngôn quả là biết cách dùng từ."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh câu châm ngôn `*Điều tốt mình làm cho người khác rồi sẽ quay lại với mình*` tương ứng thẻ `<html:em>`."
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000574"
+    terms:
+      - "Grantz"
+      - "Visha"
+      - "cuộc thảm sát"
+      - "màn truy quét"
+    pronouns_and_address: "Trần thuật ngôi thứ ba sau ngắt cảnh (`space-break`), quy chiếu `Visha` bằng đại từ `cô`."
+    pov_and_voice: "Giọng trần thuật đối chiếu phản ứng tâm lý của hai thuộc cấp trước cảnh tàn phá thành phố."
+    modality_and_logic: "Bảo toàn đủ 3 câu và ý tự hiệu chỉnh ở câu 2: với Grantz và Visha, đó là một cuộc thảm sát được tô vẽ thành màn truy quét -> không, Visha đón nhận chuyện ấy khá hơn một chút vì cô đã có kinh nghiệm -> ít ra cô cũng hiểu mối nguy khi chần chừ trên chiến trường."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000575"
+    terms:
+      - "Grantz"
+      - "luyện ngục"
+      - "địa ngục"
+    pronouns_and_address: "Trần thuật ngôi thứ ba gắn với điểm nhìn của `Grantz`."
+    pov_and_voice: "Giọng trần thuật khắc họa cú sốc tinh thần nặng nề của người lính trẻ."
+    modality_and_logic: "Bảo toàn hai hình ảnh tăng tiến: với Grantz, nơi ấy chẳng khác nào luyện ngục, hay có lẽ đơn giản là địa ngục."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000576"
+    terms:
+      - "Sở chỉ huy"
+      - "truy quét"
+      - "Quân đội Cộng hòa"
+    pronouns_and_address: "Mệnh lệnh vô tuyến từ `Sở chỉ huy` phát cho toàn bộ các đơn vị tham chiến."
+    pov_and_voice: "Giọng mệnh lệnh hành quân lạnh lùng, vô cảm."
+    modality_and_logic: "Bảo toàn đủ 3 câu mệnh lệnh: Sở chỉ huy gọi tất cả các đơn vị tham chiến -> chuyển sang truy quét -> xóa sổ Quân đội Cộng hòa."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000577"
+    terms:
+      - "sở chỉ huy"
+      - "vô tuyến"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Grantz bằng đại từ `anh`."
+    pov_and_voice: "Giọng miêu tả cảm giác bàng hoàng, tê liệt giác quan của Grantz giữa biển lửa."
+    modality_and_logic: "Bảo toàn đủ 4 câu: những ngọn lửa đỏ tô điểm cho thế giới đen xám -> rồi anh chỉ còn thấy ánh chớp nhạt nhòa -> ý thức lơ mơ ghi nhận âm thanh mệnh lệnh từ sở chỉ huy truyền khắp chiến trường -> giọng nói đều đều qua vô tuyến khiến anh sửng sốt vì nghe thật phi thực."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000578"
+    terms:
+      - "mệnh lệnh"
+      - "Grantz"
+    pronouns_and_address: "Trần thuật ngôi thứ ba bám sát dòng ý thức của `Grantz`."
+    pov_and_voice: "Giọng tự bấu víu vào khái niệm mệnh lệnh để giải thích sự hiện diện của bản thân."
+    modality_and_logic: "Bảo toàn đủ 3 câu và nhịp điệp từ `mệnh lệnh`: nhưng điều cốt yếu là mệnh lệnh -> đúng vậy, mệnh lệnh -> Grantz, với tư cách một cá nhân, có mặt ở nơi này theo lệnh."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000579"
+    terms: []
+    pronouns_and_address: "Độc thoại nội tâm trực tiếp của Grantz tự xưng `Mình` / `mình`."
+    pov_and_voice: "Giọng tự thú day dứt khi nhận ra đối tượng bị bắn hạ là một con người bằng xương bằng thịt."
+    modality_and_logic: "Bảo toàn đủ 2 câu và sự chuyển nhận thức từ `kẻ địch` sang `một con người`."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: bọc dấu `*...*` quanh toàn bộ đoạn độc thoại nội tâm tương ứng thẻ `<html:em>`."
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000580"
+    terms:
+      - "protein"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu Grantz bằng đại từ `Anh`."
+    pov_and_voice: "Giọng tả thực ám ảnh về mùi tử khí và thịt người cháy trên chiến trường."
+    modality_and_logic: "Bảo toàn đủ 5 câu: anh nhận ra cảm giác kích ứng/nhột lạ trong mũi đã bắt đầu từ lúc nào đó -> dù đã quen với mùi chiến trường, một mùi hôi đang kích ứng nơi ấy -> đó là mùi thịt người cháy -> một xác chết vừa bị thiêu cháy thành than, mùi khét chưa bị mùi thối rữa che lấp -> không khí quánh dính vì protein, hôi thối khủng khiếp."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000581"
+    terms:
+      - "axit"
+      - "Thiếu úy Grantz"
+    pronouns_and_address: "Trần thuật ngôi thứ ba quy chiếu `Thiếu úy Grantz` bằng đại từ `Anh` / `anh` và phản thân `mình`."
+    pov_and_voice: "Giọng ghi nhận nỗ lực kìm nén cơn buồn nôn và giữ sự tỉnh táo của người sĩ quan trẻ."
+    modality_and_logic: "Bảo toàn đủ 3 câu: anh chắc mình đã nôn hết những gì có thể nôn nhưng vẫn dốc sức ngăn dịch axit trào ra miệng -> có lẽ anh đang dần quen với chiến đấu thực sự -> việc Thiếu úy Grantz còn đủ khả năng cố hiểu tình hình cho thấy anh vẫn giữ được chút bình tĩnh."
+    emphasis: "none"
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000582"
+    terms:
+      - "Lời cảnh báo đầu hàng"
+      - "thường dân"
+      - "dân quân"
+      - "người không tham chiến"
+      - "Đế quốc"
+    pronouns_and_address: "Trần thuật ngôi thứ ba đan xen nhận định nội tâm của Grantz."
+    pov_and_voice: "Giọng nhận thức cay đắng về bản chất thủ tục của lời cảnh báo trước cuộc tấn công tàn khốc."
+    modality_and_logic: "Bảo toàn đủ 3 câu: lời cảnh báo đầu hàng và nỗ lực tách thường dân khỏi dân quân mới diễn ra cách đây không lâu -> câu nhận định nội tâm in nghiêng rằng về mặt thủ tục có lẽ đó là một bước để có thể coi thường dân là dân quân -> ngay khi không còn cần phân loại thường dân là người không tham chiến, Đế quốc đã bắt đầu tấn công thành phố không chút khoan nhượng."
+    emphasis: "Bảo toàn chính xác phạm vi nhấn mạnh theo `DEC-P01-002`: chỉ bọc dấu `*...*` quanh câu thứ hai (`*Xét về mặt thủ tục, có lẽ đó là một bước để có thể coi thường dân là dân quân.*`) tương ứng thẻ `<html:em>`."
+
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000583"
+    terms:
+      - "Lục quân Đế quốc"
+      - "Thiếu tá von Degurechaff"
+    pronouns_and_address: "Trần thuật ngôi thứ ba theo điểm nhìn của Grantz (`anh`), quy chiếu cấp trên `Thiếu tá von Degurechaff` bằng đại từ `cô` (khớp `pending-terms-index.yml`)."
+    pov_and_voice: "Giọng nhẹ nhõm phần nào của Grantz khi được giao nhiệm vụ giải cứu thay vì trực tiếp tàn sát."
+    modality_and_logic: "Bảo toàn đủ 3 câu: may thay anh đang tham gia nhiệm vụ giải cứu những người bị giam giữ của Lục quân Đế quốc -> anh thoáng thấy lạ khi Thiếu tá von Degurechaff quan tâm đến người phía mình hơn kẻ địch, nhưng cảm giác ấy vụt tan ngay -> có lẽ cô chỉ đang quyết định theo thứ tự ưu tiên."
+    emphasis: "none"
