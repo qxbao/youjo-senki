@@ -1,0 +1,190 @@
+task_id: "vol-04-ch-05-b20-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000295"
+    severity: "minor"
+    category: "terminology_and_pronouns"
+    issue: "Ở câu đầu, đại từ 'nó' được dùng để dịch đại từ vô nhân xưng chỉ pha lao lên của địch, ngay trước câu sau mở đầu bằng 'Nó' chỉ Tanya, dễ gây nhiễu quy chiếu với quy ước đại từ trần thuật 'nó' của Tanya. Ngoài ra, cách gọi lóng quân sự 'the package' (chỉ nhân sự/mục tiêu cần giải cứu trong nhiệm vụ CSAR) đang được diễn giải thẳng thành 'mục tiêu cần giải cứu', làm nhạt sắc thái thuật ngữ lóng của Tanya."
+    recommendation: "Đổi 'nó cũng gây nguy hiểm' ở câu đầu thành 'pha lao lên ấy cũng gây nguy hiểm' hoặc 'điều đó cũng gây nguy hiểm' để tách bạch với đại từ 'Nó' chỉ Tanya ở câu kế tiếp; cân nhắc dịch 'the package' là 'gói hàng' (hoặc giữ cách gọi lóng quân sự tương đương) để bảo toàn giọng điệu thực dụng của Tanya."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000297"
+    severity: "minor"
+    category: "tone"
+    issue: "Thán từ mở đầu câu thoại chỉ sự bực bội, chán ghét khi nhớ lại một trải nghiệm cận chiến tồi tệ nhưng đang dịch là 'Ái chà', vốn mang sắc thái ngạc nhiên thích thú hoặc bông đùa nhẹ nhàng, chưa khớp với tâm trạng cáu kỉnh của Tanya."
+    recommendation: "Đổi 'Ái chà' thành thán từ bực dọc như 'Gừ', 'Chết tiệt' hoặc 'Ác thật'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000303"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Tiếng rên đau đớn và tức thở của pháp sư địch khi bị thúc mạnh báng súng vào bụng (được đoạn p000304 gọi là 'groan') đang dịch là 'Ực…', dễ bị hiểu nhầm thành tiếng nuốt nước bọt thay vì tiếng kêu tức ngực/đau đớn."
+    recommendation: "Đổi 'Ực…' thành 'Hự…' hoặc 'Khự…' để khớp với tiếng rên khi trúng đòn vào vùng bụng ở đoạn tiếp theo."
+pending_term_recommendations:
+  - source_term: "magic officer"
+    proposed_vi: "sĩ quan ma pháp"
+    category: "quân hàm / chức danh"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000290"
+    rationale: "Thống nhất với cấu trúc 'sĩ quan ma pháp hải quân đánh bộ của Khối Thịnh vượng chung' đã dùng trong sổ pending của vol-04."
+    alternatives_vi:
+      - "sĩ quan pháp sư"
+  - source_term: "magic blade"
+    proposed_vi: "lưỡi kiếm ma pháp"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000294"
+      - "YS-LN04/Text/chapter001_t.xhtml/p000296"
+    rationale: "Diễn đạt sát nghĩa vũ khí cận chiến tạo bằng ma pháp trong ngữ cảnh giao tranh giáp lá cà và đối sánh với đấu kiếm/lưỡi lê."
+    alternatives_vi:
+      - "kiếm ma pháp"
+      - "lưỡi dao ma pháp"
+  - source_term: "the package"
+    proposed_vi: "gói hàng"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000295"
+    rationale: "Cách gọi lóng quân sự trong nhiệm vụ CSAR dùng để chỉ đối tượng cần giải cứu dưới góc nhìn thực dụng của Tanya; bản dịch hiện dùng phương án giải nghĩa 'mục tiêu cần giải cứu'."
+    alternatives_vi:
+      - "mục tiêu cần giải cứu"
+      - "kiện hàng"
+  - source_term: "marine mages / direct support duty"
+    proposed_vi: "pháp sư hải quân đánh bộ / nhiệm vụ yểm trợ trực tiếp"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000298"
+    rationale: "Nhất quán với thuật ngữ 'pháp sư hải quân đánh bộ' trong pending-terms-index.yml và thuật ngữ quân sự chuẩn cho 'direct support duty'."
+    alternatives_vi:
+      - "pháp sư thủy quân lục chiến / nhiệm vụ hỗ trợ trực tiếp"
+  - source_term: "Entente Alliance"
+    proposed_vi: "Liên minh Hiệp ước"
+    category: "tên gọi"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000298"
+    rationale: "Cách dịch chuẩn xác, nhất quán cho tên khối liên minh từng giao chiến với Đế quốc ở mặt trận phía bắc."
+    alternatives_vi: []
+  - source_term: "bayonet fight / bayonet drill"
+    proposed_vi: "đấu lưỡi lê / bài tập đâm lê"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000298"
+      - "YS-LN04/Text/chapter001_t.xhtml/p000301"
+    rationale: "Tự nhiên, đúng thuật ngữ huấn luyện và cận chiến bộ binh."
+    alternatives_vi:
+      - "cận chiến bằng lưỡi lê / bài huấn luyện lưỡi lê"
+  - source_term: "bloom problems"
+    proposed_vi: "nhược điểm tản mát đạn"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000315"
+    rationale: "Diễn đạt chính xác hiện tượng độ chụm đạn bị nở rộng (tản mát) khi bắn liên thanh bằng súng tiểu liên."
+    alternatives_vi:
+      - "vấn đề độ tản mát"
+  - source_term: "optical sniping formula"
+    proposed_vi: "thuật thức bắn tỉa quang học"
+    category: "thuật ngữ"
+    status: "proposed"
+    segment_ids:
+      - "YS-LN04/Text/chapter001_t.xhtml/p000323"
+    rationale: "Nhất quán với hệ thuật ngữ 'thuật thức bắn quang học' trong pending-terms-index.yml, bổ sung đúng sắc thái bắn tỉa ('sniping')."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000290"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó' theo DEC-P01-001; giữ tên riêng 'Tanya' ở vị trí nguồn nêu tên."
+      - "Thuật ngữ: 'sĩ quan ma pháp' (magic officer), 'lớp vỏ phòng thủ' (defensive shell), 'thuật thức' (formulas)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000291"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ nguyên quan hệ phủ định kép ('bắn bừa mà chẳng thực sự nhắm', 'không cần phải chủ động đối phó') và mệnh đề tương phản ('nhưng việc bắn trượt mục tiêu ban đầu vẫn là một sai lầm')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000293"
+    choices:
+      - "Giữ cách gọi trung tính về giới tính ('Mục tiêu', 'kẻ đó') cho đối thủ ở thời điểm Tanya chưa nhận ra đó là một cô gái."
+      - "Nhấn mạnh Markdown '*ám ảnh*' đúng phạm vi thẻ em của nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000294"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ thuật ngữ 'khẩu tiểu liên' (submachine gun) và 'lưỡi kiếm ma pháp' (magic blade)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000295"
+    choices:
+      - "Trần thuật gọi Tanya là 'Nó' (sau khi tách rõ đại từ chỉ pha lao lên ở câu trước); giữ tên 'Serebryakov'."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000296"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ thuật ngữ 'đánh giáp lá cà' (hand-to-hand fight) và 'lưỡi kiếm ma pháp' (magic blade)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000297"
+    choices:
+      - "Thoại tự nhủ của Tanya tự xưng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000298"
+    choices:
+      - "Nhấn mạnh Markdown câu hỏi nội tâm '*Là hồi nào nhỉ?*' đúng phạm vi thẻ em của nguồn theo DEC-P01-002."
+      - "Thuật ngữ: 'pháp sư hải quân đánh bộ' (marine mages), 'nhiệm vụ yểm trợ trực tiếp' (direct support duty), 'Liên minh Hiệp ước' (Entente Alliance), 'đấu lưỡi lê' (bayonet fight)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000299"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ phủ định ('chẳng gắn lưỡi lê', 'chẳng hào hứng gì') và lược đại từ ngôi thứ hai khái quát ('you') một cách tự nhiên."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000300"
+    choices:
+      - "Nhấn mạnh Markdown '*Trong trường hợp đó…*' và '*Ngươi tiêu rồi.*' đúng hai cụm in nghiêng trong nguồn theo DEC-P01-002."
+      - "Trần thuật gọi Tanya là 'nó'; giữ thuật ngữ 'băng đạn rỗng' (empty magazine) và 'tư thế phòng thủ bị động' (passive defensive position)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000301"
+    choices:
+      - "Giữ thuật ngữ 'báng súng bằng gỗ' (wooden butt of her gun) và 'bài tập đâm lê' (bayonet drill)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000302"
+    choices:
+      - "Trần thuật gọi Tanya là 'Nó'; giữ lối diễn đạt ẩn dụ mỉa mai về cú thúc báng súng vào vùng bụng đối thủ."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000304"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ giả định trái thực tế ('Người bình thường thì hẳn đã mất mạng ngay tại chỗ…') và thuật ngữ 'lớp vỏ phòng thủ' (defensive shell)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000305"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ chi tiết so sánh âm vực tiếng thở dốc cao hơn dự tính."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000306"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; chuyển cách quy chiếu đối thủ sang 'một cô gái trẻ, còn chưa đến tuổi trưởng thành' / 'cô gái ấy' từ thời điểm Tanya nhìn rõ mặt."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000308"
+    choices:
+      - "Nhấn mạnh Markdown '*Lẽ ra cô không nên đến nơi này.*' đúng phạm vi thẻ em của nguồn theo DEC-P01-002; dùng đại từ 'cô' cho câu thoại giả định hướng tới nữ pháp sư trẻ."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000310"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó', tự quy chiếu phản thân 'chính mình'; giữ nguyên cấu trúc điều kiện giả định ('nếu có điều khoản ưu tiên nào dành cho phụ nữ và trẻ em')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000311"
+    choices:
+      - "Nhấn mạnh Markdown toàn bộ câu độc thoại nội tâm đầu đoạn đúng phạm vi thẻ em của nguồn theo DEC-P01-002; nội tâm tự xưng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000312"
+    choices:
+      - "Quy chiếu đối thủ bằng 'Người lính địch' và đại từ 'cô ta' (her) để phân biệt rõ với Tanya."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000313"
+    choices:
+      - "Phân biệt nhất quán đại từ trong trần thuật: 'cô ta' / 'cô gái kia' chỉ nữ pháp sư địch, 'nó' chỉ Tanya."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000314"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ thuật ngữ 'băng đạn mới' (fresh magazine) và 'buồng đạn' (chamber)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000315"
+    choices:
+      - "Giữ thuật ngữ 'nhược điểm tản mát đạn' (bloom problems) và sắc thái phán đoán chắc chắn ('chắc chắn vẫn sẽ trúng đích' cho 'should connect')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000316"
+    choices:
+      - "Giữ sắc thái lửng lơ nghi vấn trong câu thoại kết liễu của Tanya ('“Tạm biệt nhé, chắc vậy nhỉ?”')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000317"
+    choices:
+      - "Giữ tật nói lắp vì sốc/căm phẫn và dấu gạch ngang ngắt câu ('“M-m-mày là—!”')."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000318"
+    choices:
+      - "Phân biệt rõ 'màn chắn bảo hộ' (protective film - bị xuyên thủng) và 'lớp vỏ phòng thủ' (defensive shell - cản đạn tiếp theo), đồng thời giữ phân biệt đại từ 'nó' (Tanya) và 'cô ta' (pháp sư địch)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000319"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ phủ định 'chưa chí mạng' (not fatal)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000321"
+    choices:
+      - "Nhấn mạnh Markdown toàn bộ ba câu độc thoại nội tâm đúng phạm vi thẻ em của nguồn theo DEC-P01-002; nội tâm tự xưng 'Mình'/'mình' và gọi đối thủ là 'cô ta'."
+      - "Giữ nguyên độ mở của hai câu hỏi tự vấn song song về nguyên nhân đòn bắn không gây thương tích chí mạng (do đánh giá thấp lớp vỏ phòng thủ hay do súng tiểu liên thiếu uy lực)."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000322"
+    choices:
+      - "Giữ mã gọi '01' và cách xưng hô 'của chỉ huy' trong lời cảnh báo của cấp dưới."
+  - segment_id: "YS-LN04/Text/chapter001_t.xhtml/p000323"
+    choices:
+      - "Trần thuật gọi Tanya là 'nó'; giữ thuật ngữ 'thuật thức bắn tỉa quang học' (optical sniping formula) và 'cơ động né tránh' (evasive maneuvers)."
