@@ -1,0 +1,215 @@
+task_id: vol-05-ch-05-b09-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 1
+  minor: 2
+findings:
+  - segment_id: YS-LN05/Text/part0025.html/p000346
+    severity: moderate
+    issue: "Ở câu thứ hai, cụm 'họ định đem cả một sư đoàn đi bảo vệ toàn bộ khu vực này hay không' làm lệch ý câu hỏi châm biếm của Tanya. Trong mạch văn nối từ p000343 (Kampfgruppe chỉ có quy mô tương đương cấp trung đoàn nhưng lại được bàn phương án bảo vệ khu vực rộng cỡ một sư đoàn mới bao quát xuể), động từ nguyên bản mang nghĩa tiếp nhận/đảm đương phần khu vực phân công của cả một sư đoàn (tức ôm đồm khu vực phòng thủ cấp sư đoàn và bảo vệ toàn bộ diện tích đó với lực lượng hiện có), chứ không phải Thon và Tospan có một sư đoàn trong tay để 'đem đi' bảo vệ."
+    recommendation: "Đổi 'họ định đem cả một sư đoàn đi bảo vệ toàn bộ khu vực này hay không' thành 'họ định ôm đồm luôn phạm vi của cả một sư đoàn rồi bảo vệ toàn bộ khu vực này hay không' hoặc 'họ định gánh vác phần việc của cả một sư đoàn để bảo vệ toàn bộ khu vực này hay sao'."
+  - segment_id: YS-LN05/Text/part0025.html/p000343
+    severity: minor
+    issue: "Câu thứ hai lược dịch chủ ngữ ngôi thứ hai đang hướng về phía những người đề xuất phương án (hoặc cấp dưới đang bàn luận), khiến cấu trúc phản vấn hơi khuyết đối tượng phát ngôn trong lời chất vấn của Tanya."
+    recommendation: "Có thể giữ cấu trúc hiện tại hoặc làm rõ nhẹ thành 'Với một lực lượng tương đương cấp trung đoàn gồm một tiểu đoàn pháp sư trên không, hai tiểu đoàn bộ binh, một tiểu đoàn pháo binh và một đại đội thiết giáp… mà các người lại bảo phải bảo vệ cả một khu vực vốn cần đến một sư đoàn mới bao quát xuể sao?'."
+  - segment_id: YS-LN05/Text/part0025.html/p000368
+    severity: minor
+    issue: "Trong phép so sánh ở câu thứ hai, cụm 'người chỉ huy phải đích thân dẫn đầu mũi xung kích' hơi nghiêng hẳn về sắc thái tấn công, trong khi hình ảnh nguyên bản chỉ người chỉ huy phải đích thân ra đứng ở tuyến đầu / trận tiền (tương ứng với việc chủ tiệm phải trực tiếp đứng quầy thu ngân suốt cả ngày thay vì giao cho nhân viên)."
+    recommendation: "Đổi 'người chỉ huy phải đích thân dẫn đầu mũi xung kích' thành 'người chỉ huy phải đích thân ra đứng ở tuyến đầu' hoặc 'người chỉ huy phải đích thân xông pha nơi tuyến đầu'."
+pending_term_recommendations:
+  - source_term: spider holes
+    proposed_vi: hố chiến đấu cá nhân
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Dịch chuẩn xác thuật ngữ công sự ngụy trang cá nhân đào sâu dùng để phục kích/cảnh giới phía trước phòng tuyến."
+    alternatives_vi:
+      - "hố phục kích cá nhân"
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000340
+  - source_term: Kampfgruppe
+    proposed_vi: Kampfgruppe
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Giữ nguyên thuật ngữ 'Kampfgruppe' theo sổ pending từ vol-04 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000343
+  - source_term: mobile warfare
+    proposed_vi: tác chiến cơ động
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thống nhất với thuật ngữ đã khóa ở batch ch-05-b08."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000343
+      - YS-LN05/Text/part0025.html/p000365
+  - source_term: aerial mage battalion
+    proposed_vi: tiểu đoàn pháp sư trên không
+    category: đơn vị quân sự
+    status: proposed
+    rationale: "Thống nhất với thuật ngữ đã khóa trong sổ pending từ vol-01 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000343
+  - source_term: Thon / Captain Thon
+    proposed_vi: "Thon / Đại úy Thon"
+    category: quân hàm / nhân vật
+    status: proposed
+    rationale: "Thống nhất với cấp bậc và tên nhân vật Đại úy Lienhart Thon đã khóa ở batch ch-05-b07."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000345
+      - YS-LN05/Text/part0025.html/p000362
+      - YS-LN05/Text/part0025.html/p000363
+  - source_term: Tospan
+    proposed_vi: Tospan
+    category: nhân vật
+    status: proposed
+    rationale: "Thống nhất với tên nhân vật Trung úy Klaus Tospan đã khóa ở batch ch-05-b07."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000345
+  - source_term: advance line
+    proposed_vi: tuyến tiền tiêu
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Dịch tự nhiên, chuẩn xác thuật ngữ quân sự chỉ tuyến bố trí phía trước phòng tuyến chính."
+    alternatives_vi:
+      - "tuyến cảnh giới tiền tiêu"
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000345
+  - source_term: elastic defense
+    proposed_vi: phòng ngự đàn hồi
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thống nhất với thuật ngữ chiến thuật 'phòng ngự đàn hồi' đã khóa ở batch ch-05-b08."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000349
+      - YS-LN05/Text/part0025.html/p000362
+      - YS-LN05/Text/part0025.html/p000365
+  - source_term: Colonel / ma’am
+    proposed_vi: "thưa Trung tá / Trung tá"
+    category: quân hàm / xưng hô
+    status: proposed
+    rationale: "Thống nhất cách Thiếu tá Weiss xưng hô với Trung tá Tanya von Degurechaff trong sổ pending của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000356
+      - YS-LN05/Text/part0025.html/p000358
+      - YS-LN05/Text/part0025.html/p000360
+  - source_term: Major Weiss / Weiss
+    proposed_vi: "Thiếu tá Weiss / Weiss"
+    category: quân hàm / nhân vật
+    status: proposed
+    rationale: "Thống nhất với cấp bậc và tên của Weiss trong sổ pending của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000357
+      - YS-LN05/Text/part0025.html/p000364
+      - YS-LN05/Text/part0025.html/p000371
+      - YS-LN05/Text/part0025.html/p000376
+  - source_term: Lieutenant Serebryakov
+    proposed_vi: Trung úy Serebryakov
+    category: quân hàm / nhân vật
+    status: proposed
+    rationale: "Thống nhất với cấp bậc và tên của Serebryakov trong sổ pending từ vol-04 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000358
+  - source_term: inspection / inspector
+    proposed_vi: "thanh tra / đợt thanh tra / thanh tra viên"
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thống nhất với thuật ngữ 'thanh tra' và 'thanh tra viên' trong sổ pending từ vol-01 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000359
+      - YS-LN05/Text/part0025.html/p000370
+      - YS-LN05/Text/part0025.html/p000374
+  - source_term: positional defense
+    proposed_vi: phòng ngự trận địa
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Dịch chuẩn xác thuật ngữ chiến thuật đối lập với 'phòng ngự đàn hồi' / 'tác chiến cơ động', tương ứng với 'tác chiến trận địa' (positional warfare) trong sổ pending."
+    alternatives_vi:
+      - "phòng thủ trận địa"
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000363
+      - YS-LN05/Text/part0025.html/p000365
+  - source_term: firing squad
+    proposed_vi: đội xử bắn
+    category: thuật ngữ quân sự
+    status: proposed
+    rationale: "Thống nhất với thuật ngữ đã khóa trong sổ pending của vol-04."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000369
+locked_choices:
+  - segment_ids:
+      - YS-LN05/Text/part0025.html/p000340
+      - YS-LN05/Text/part0025.html/p000342
+      - YS-LN05/Text/part0025.html/p000346
+      - YS-LN05/Text/part0025.html/p000347
+      - YS-LN05/Text/part0025.html/p000351
+      - YS-LN05/Text/part0025.html/p000352
+      - YS-LN05/Text/part0025.html/p000353
+      - YS-LN05/Text/part0025.html/p000354
+      - YS-LN05/Text/part0025.html/p000361
+      - YS-LN05/Text/part0025.html/p000364
+      - YS-LN05/Text/part0025.html/p000365
+      - YS-LN05/Text/part0025.html/p000367
+      - YS-LN05/Text/part0025.html/p000372
+      - YS-LN05/Text/part0025.html/p000376
+    category: điểm nhìn và đại từ trần thuật / nội tâm
+    choice: "Theo DEC-P01-001: trong độc thoại nội tâm ngôi thứ nhất số nhiều (p000354, p000367), Tanya tự quy chiếu nhóm bằng 'bọn mình'; trong trần thuật ngôi thứ ba (p000346, p000347, p000351, p000352, p000353, p000361, p000365, p000372, p000376), gọi Tanya là 'Tanya' hoặc 'nó' và gọi toàn đơn vị là 'họ'; gọi Weiss là 'Weiss' hoặc 'anh' (p000361, p000364, p000376); đại từ ngôi thứ hai khái quát trong lập luận chiến thuật được dịch là 'bạn' (p000340, p000342)."
+  - segment_ids:
+      - YS-LN05/Text/part0025.html/p000343
+      - YS-LN05/Text/part0025.html/p000344
+      - YS-LN05/Text/part0025.html/p000345
+      - YS-LN05/Text/part0025.html/p000348
+      - YS-LN05/Text/part0025.html/p000349
+      - YS-LN05/Text/part0025.html/p000350
+      - YS-LN05/Text/part0025.html/p000355
+      - YS-LN05/Text/part0025.html/p000356
+      - YS-LN05/Text/part0025.html/p000357
+      - YS-LN05/Text/part0025.html/p000358
+      - YS-LN05/Text/part0025.html/p000359
+      - YS-LN05/Text/part0025.html/p000360
+      - YS-LN05/Text/part0025.html/p000362
+      - YS-LN05/Text/part0025.html/p000363
+      - YS-LN05/Text/part0025.html/p000365
+      - YS-LN05/Text/part0025.html/p000369
+      - YS-LN05/Text/part0025.html/p000370
+      - YS-LN05/Text/part0025.html/p000371
+      - YS-LN05/Text/part0025.html/p000374
+      - YS-LN05/Text/part0025.html/p000375
+    category: đại từ và xưng hô trong hội thoại giữa Tanya và Weiss
+    choice: "Giữa Trung tá Tanya von Degurechaff và Thiếu tá Weiss: Tanya xưng 'tôi' – gọi Weiss là 'anh' hoặc 'Thiếu tá Weiss'; Weiss xưng 'tôi' – gọi Tanya là 'Trung tá' ('thưa Trung tá') hoặc 'ngài' (p000370) kèm tiểu từ lễ phép 'ạ'; cả hai dùng 'chúng ta' khi nói về đơn vị mình; gọi Đại úy Thon và Trung úy Tospan là 'họ', gọi riêng Thon là 'gã đầu gỗ Thon đó' / 'anh ta' (trong lời Tanya) hoặc 'Đại úy Thon' (trong lời Weiss)."
+  - segment_ids:
+      - YS-LN05/Text/part0025.html/p000345
+      - YS-LN05/Text/part0025.html/p000356
+      - YS-LN05/Text/part0025.html/p000357
+      - YS-LN05/Text/part0025.html/p000358
+      - YS-LN05/Text/part0025.html/p000360
+      - YS-LN05/Text/part0025.html/p000362
+      - YS-LN05/Text/part0025.html/p000363
+      - YS-LN05/Text/part0025.html/p000371
+      - YS-LN05/Text/part0025.html/p000376
+    category: quân hàm và nhân vật
+    choice: "Khóa tên và cấp bậc 'Thon' / 'Đại úy Thon' (p000345, p000362, p000363), 'Tospan' (p000345), 'Thiếu tá Weiss' / 'Weiss' (p000357, p000364, p000371, p000376), 'Trung úy Serebryakov' (p000358), và danh xưng 'Trung tá' dành cho Tanya (p000356, p000358, p000360, p000370, p000374)."
+  - segment_ids:
+      - YS-LN05/Text/part0025.html/p000372
+    category: nhấn mạnh Markdown
+    choice: "Theo DEC-P01-002: chỉ dùng *...* tại đúng 1 vị trí có thẻ em trong nguồn ('*Đó thực sự không phải là một ý tồi.*' ở p000372); không tự thêm dấu nhấn mạnh ở các đoạn khác."
+  - segment_ids:
+      - YS-LN05/Text/part0025.html/p000340
+      - YS-LN05/Text/part0025.html/p000354
+      - YS-LN05/Text/part0025.html/p000365
+      - YS-LN05/Text/part0025.html/p000367
+      - YS-LN05/Text/part0025.html/p000369
+      - YS-LN05/Text/part0025.html/p000370
+      - YS-LN05/Text/part0025.html/p000376
+    category: phủ định, giả định và tình thái
+    choice: "Giữ đúng phủ định mục đích trong lý thuyết phòng ngự đàn hồi ở p000340 ('không biến trận địa phòng ngự chính thành nơi trực tiếp giao chiến phòng ngự'), điều kiện tất yếu ở p000354 ('Nếu không thể chấp nhận viễn cảnh tương lai khi bọn mình bất ngờ bị bao vây, rốt cuộc bọn mình sẽ bị xóa sổ hoàn toàn'), giả định trái thực tế ở p000365 ('nếu chúng ta đang ở trong hoàn cảnh có thể áp dụng phòng ngự đàn hồi thì anh ta đã đúng') và p000367 ('Nếu bọn mình có một trưởng ca đáng tin cậy thì mọi chuyện có lẽ đã khác'), sự tiếc nuối mang tính mỉa mai về quy định xử bắn ở p000369, lời khuyên giả định ở quá khứ của Weiss ở p000370, và phủ định tuyệt đối ở câu kết p000376 ('Có nói thế nào cũng chẳng thể bảo rằng họ đã được chia cho những quân bài tốt')."
