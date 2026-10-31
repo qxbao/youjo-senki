@@ -1,0 +1,31 @@
+task_id: vol-02-ch-07-b09-translator-signoff
+role: translator
+batch: vol-02-ch-07-b09
+translation: translations/vol-02/ch-07-b09.jsonl
+source_package: work/vol-02/batches/ch-07-b09-source.jsonl
+source_package_sha256: a3e10c81115a39042b253e1196ead4c7f93c9397be3fb7ad6d457641cd7174b8
+argon_review: reviews/prose/vol-02/ch-07-b09-argon-review.yml
+argon_review_sha256: e52ea70ddf1339e5fc75daf3b31421260c88b36ca6baab5ece5ab1fd6da9e3ac
+baseline_sha256: c1b1ef3b046d28cef3d2b6bab9bee7af3506785291f7ed0bbf6d4eea6e94a229
+primary_handoff: handoffs/vol-02/ch-07-b09.yml
+constraints:
+- Read only B09 handoff, assigned local package, translation, self-check, Argon review,
+  relevant B09 ledger sections, named canon. No EPUB/PDF or another batch.
+- Argon verified all 30 IDs and zero unresolved findings. Do not change translation
+  strings or any metadata except set status draft -> reviewed for all 30 assigned
+  rows; retain approved if any. If substantive issue appears, make no edit and report
+  blocked.
+- Write only translations/vol-02/ch-07-b09.jsonl. Run assigned validator and git diff
+  --check. No commit.
+status: done
+lease:
+  holder: none
+  pane_id: w6:pP8
+  terminal_id: term_65dcce651ac6e2cc
+  agent_session_id: 2f75da60-f50c-40bb-b08a-7fcf2b158e05
+  checkpoint_generation: 1454
+  state: released_report_received
+  allowlist: []
+allowlist:
+- translations/vol-02/ch-07-b09.jsonl
+reviewed_baseline_sha256: 0d6d31d13838fcf7f037b92137520d12b7c6490d87fab35774a06e7566a48d82
