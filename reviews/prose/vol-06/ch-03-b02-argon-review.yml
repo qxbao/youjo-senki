@@ -1,0 +1,267 @@
+task_id: "vol-06-ch-03-b02-argon-review"
+parent_task_id: "vol-06-ch-03-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 3
+source_package: "work/vol-06/batches/ch-03-b02-source.jsonl"
+target_translation: "translations/vol-06/ch-03-b02.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN06/Text/part0015.html/p000035"
+    severity: "minor"
+    category: "formatting_punctuation"
+    issue: "Dư khoảng trắng và viết thường chữ cái đầu câu ngay sau dấu chấm lửng mở đầu lời thoại ('“… hẳn là')."
+    basis: "Các đoạn thoại mở đầu bằng dấu chấm lửng khác trong cùng batch (p000020, p000044) đều viết liền không khoảng trắng và viết hoa chữ cái đầu câu."
+    recommendation: "Sửa thành '“…Hẳn là mệnh lệnh đã được ban xuống. Các chi bộ từng bị báo cáo là đang gây rối đều đã ngừng hoạt động.”'"
+  - segment_id: "YS-LN06/Text/part0015.html/p000039"
+    severity: "minor"
+    category: "addition_nuance"
+    issue: "Tự thêm hô ngữ ', thưa Tướng quân' ở cuối câu thoại ngắn khi bản nguồn không có từ xưng hô tương ứng, đồng thời dịch tính từ chỉ trạng thái bị quất roi/răn đe thành 'Chó bị xích' nối theo p000038."
+    basis: "Theo hướng dẫn văn phong và DEC-P01-001, không tự thêm chi tiết hoặc hô ngữ không có trong nguồn; câu gốc chỉ là lời bình ngắn đối lập giữa trạng thái bị quất roi/thuần phục và nổi loạn."
+    recommendation: "Lược bỏ hô ngữ tự thêm thành '“Chó bị xích vẫn còn hơn là làm loạn.”' (hoặc chỉnh đồng bộ p000038–p000039 theo hướng 'bị quất roi cho ngoan / bị thuần phục')."
+pending_term_recommendations:
+  - source_term: "peace broker / intermediary / middleman"
+    proposed_vi: "người trung gian hòa giải / cầu nối trung gian / kẻ làm trung gian"
+    alternatives_vi:
+      - "người môi giới hòa bình"
+    rationale: "Phân biệt linh hoạt theo sắc thái ngữ cảnh từ danh xưng ngoại giao bề ngoài (p000013, p000015) sang vai trò môi giới kiếm lời thực dụng (p000019)."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000013"
+      - "YS-LN06/Text/part0015.html/p000015"
+      - "YS-LN06/Text/part0015.html/p000019"
+    status: "proposed"
+  - source_term: "General Igor Gassman / General / Gassman"
+    proposed_vi: "Tướng Igor Gassman / Thưa Tướng quân / Gassman"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán danh xưng 'Tướng Igor Gassman' từ sổ pending tập 6 và dùng 'Thưa Tướng quân' trong lời bẩm báo trực tiếp của cấp dưới ở p000016."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000014"
+      - "YS-LN06/Text/part0015.html/p000016"
+      - "YS-LN06/Text/part0015.html/p000018"
+      - "YS-LN06/Text/part0015.html/p000022"
+      - "YS-LN06/Text/part0015.html/p000023"
+      - "YS-LN06/Text/part0015.html/p000029"
+      - "YS-LN06/Text/part0015.html/p000036"
+      - "YS-LN06/Text/part0015.html/p000048"
+    status: "proposed"
+  - source_term: "the Empire / Imperial Army / imperials / Imperial Army General Staff"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / quân Đế quốc / Bộ Tổng tham mưu Lục quân Đế quốc"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán hệ thống tên gọi quốc gia, quân chủng và cơ quan tham mưu của Đế quốc từ sổ pending tập 1–6."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000015"
+      - "YS-LN06/Text/part0015.html/p000023"
+      - "YS-LN06/Text/part0015.html/p000025"
+      - "YS-LN06/Text/part0015.html/p000045"
+      - "YS-LN06/Text/part0015.html/p000047"
+      - "YS-LN06/Text/part0015.html/p000051"
+    status: "proposed"
+  - source_term: "Commonwealth / Unified States"
+    proposed_vi: "Khối Thịnh vượng chung / Hợp chúng quốc"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quốc danh 'Khối Thịnh vượng chung' và 'Hợp chúng quốc' từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000016"
+    status: "proposed"
+  - source_term: "Colonel Calandro / Colonel / Calandro"
+    proposed_vi: "Đại tá Calandro / Đại tá / Calandro"
+    alternatives_vi: []
+    rationale: "Dịch chuẩn xác quân hàm 'Colonel' của sĩ quan tình báo cấp dưới của Tướng Gassman là 'Đại tá Calandro' và giữ nguyên tên riêng."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000018"
+      - "YS-LN06/Text/part0015.html/p000032"
+      - "YS-LN06/Text/part0015.html/p000041"
+      - "YS-LN06/Text/part0015.html/p000044"
+      - "YS-LN06/Text/part0015.html/p000046"
+      - "YS-LN06/Text/part0015.html/p000049"
+    status: "proposed"
+  - source_term: "Kingdom of Ildoa / Ildoa / Ildoan radical left wing"
+    proposed_vi: "Vương quốc Ildoa / Ildoa / phe cực tả ở Ildoa"
+    alternatives_vi:
+      - "phe cực tả Ildoa"
+    rationale: "Kế thừa quốc danh 'Vương quốc Ildoa / Ildoa' từ sổ pending tập 6 và dịch sát nghĩa cụm chỉ lực lượng chính trị cực tả bản địa."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000022"
+      - "YS-LN06/Text/part0015.html/p000025"
+      - "YS-LN06/Text/part0015.html/p000028"
+      - "YS-LN06/Text/part0015.html/p000037"
+    status: "proposed"
+  - source_term: "reconciliation summit"
+    proposed_vi: "hội nghị thượng đỉnh hòa giải"
+    alternatives_vi: []
+    rationale: "Dịch sát nghĩa thuật ngữ ngoại giao chỉ hội nghị cấp cao nhằm hòa giải các bên tham chiến."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000028"
+    status: "proposed"
+  - source_term: "computation orbs"
+    proposed_vi: "quả cầu tính toán"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ khí cụ ma pháp 'quả cầu tính toán' xuyên suốt tập 1–6."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000028"
+    status: "proposed"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quốc danh 'Liên bang' từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000030"
+      - "YS-LN06/Text/part0015.html/p000037"
+    status: "proposed"
+  - source_term: "attaché"
+    proposed_vi: "tùy viên"
+    alternatives_vi:
+      - "tùy viên quân sự"
+    rationale: "Kế thừa phương án dịch sát 'tùy viên' từ sổ pending tập 6 mà không tự suy diễn thêm chuyên ngành khi nguồn chỉ ghi danh từ chung."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000031"
+    status: "proposed"
+  - source_term: "cells"
+    proposed_vi: "các chi bộ"
+    alternatives_vi:
+      - "các tổ cơ sở"
+    rationale: "Thuật ngữ chính trị – tình báo chuẩn xác để chỉ các tổ chức cơ sở bí mật của phe cực tả thân Liên bang tại Ildoa."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000035"
+    status: "proposed"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên cơ quan tham mưu quân sự từ sổ pending tập 1–6 (tại p000045 chỉ Bộ Tổng tham mưu của Ildoa)."
+    segment_ids:
+      - "YS-LN06/Text/part0015.html/p000045"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0015.html/p000011"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ: bọc toàn bộ câu '*Chúng ta đã chạm tới giới hạn rồi.*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; dùng đại từ 'Chúng ta' thể hiện tâm lý chung của các bên tham chiến."
+  - segment_id: "YS-LN06/Text/part0015.html/p000012"
+    choices:
+      - "Phủ định & cấu trúc đánh giá: giữ cấu trúc phủ định làm chủ ngữ 'Không nghe thấy ai thốt ra câu đó mới là chuyện lạ.'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000013"
+    choices:
+      - "Nhấn mạnh Markdown, tình thái & thuật ngữ: chỉ bọc cụm '*người trung gian hòa giải thiện chí và chân thành*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; giữ quan hệ nhân quả 'Bởi vậy' và nhận định lý trí về cơ hội mặc cả."
+  - segment_id: "YS-LN06/Text/part0015.html/p000014"
+    choices:
+      - "Quân hàm, tên riêng & đại từ: 'General Igor Gassman' -> 'Tướng Igor Gassman'; trần thuật ngôi thứ ba quy chiếu Gassman bằng 'ông'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000015"
+    choices:
+      - "Điều kiện, đại từ & thuật ngữ: giữ điều kiện 'Chừng nào thế cân bằng còn được duy trì', cấu trúc song hành 'vừa là... vừa là...' và 'kiêm'; 'the Empire' -> 'Đế quốc'; 'philanthropist' -> 'nhà bác ái'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000016"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: Calandro bẩm báo gọi 'Thưa Tướng quân' và dùng đại từ 'chúng ta'; 'Commonwealth' -> 'Khối Thịnh vượng chung'; 'Unified States' -> 'Hợp chúng quốc'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000017"
+    choices:
+      - "Thoại câu hỏi: giữ thán từ 'Ồ?' và câu hỏi nhấn mạnh mức độ 'Kể cả với những điều kiện đó ư?'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000018"
+    choices:
+      - "Quân hàm, tên riêng & chi tiết miêu tả: 'Colonel Calandro' -> 'Đại tá Calandro'; giữ sự tương phản giữa nụ cười niềm nở của viên cấp dưới và cái cau mày chán ngán của Gassman."
+  - segment_id: "YS-LN06/Text/part0015.html/p000019"
+    choices:
+      - "Giả định & sắc thái mỉa mai: giữ câu điều kiện 'Nếu việc chào bán hòa bình cho thế giới diễn ra quá đỗi suôn sẻ' và tình thái 'cũng có thể gây rắc rối cho kẻ làm trung gian'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000020"
+    choices:
+      - "Nhấn mạnh Markdown, thoại & đại từ: giữ dấu chấm lửng mở đầu; chỉ bọc từ '*đồng minh*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; Gassman dùng 'chúng ta' và xưng 'tôi'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000021"
+    choices:
+      - "Nhượng bộ & tình thái: giữ mệnh đề nhượng bộ 'Ngay cả với tư cách một đề xuất thăm dò', mức độ 'cắt cổ' và tình thái suy đoán hạn chế 'Cùng lắm người ta chỉ có thể nói rằng chúng họa may sẽ trở thành bước khởi đầu tiến tới đàm phán mà thôi.'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000022"
+    choices:
+      - "Phủ định, đối lập & địa danh: giữ phủ định 'không hề có ý định nề hà công sức', dấu chấm lửng trước mệnh đề đối lập 'Nhưng mong muốn thực sự của ông' và phủ định bị động 'để đảm bảo công lao của Ildoa không thể bị phủi sạch'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000023"
+    choices:
+      - "Thuật ngữ & nhân quả: 'Imperial Army' -> 'Lục quân Đế quốc'; giữ quan hệ nhân quả việc chiến đấu mãnh liệt đã lật nhào ước tính về khoảng cách thực lực và thổi bay mọi toan tính lợi ích của Gassman."
+  - segment_id: "YS-LN06/Text/part0015.html/p000024"
+    choices:
+      - "Điểm nhìn: giữ câu dẫn ngắn chuyển mạch bình luận 'Cứ nói thẳng với nhau đi.'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000025"
+    choices:
+      - "Nhượng bộ, giả định & thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc'; 'Kingdom of Ildoa' -> 'Vương quốc Ildoa'; giữ cấu trúc nhượng bộ kèm điều kiện giả định 'sẽ còn cảm kích hơn nhiều nếu họ chỉ chiến đấu vừa đủ mức cần thiết'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000026"
+    choices:
+      - "Thoại, đại từ & phủ định: dùng đại từ 'chúng ta' và giữ phủ định mức độ 'chẳng kiếm chác được bao nhiêu từ việc làm trung gian hòa giải rồi'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000027"
+    choices:
+      - "Đại từ & hình ảnh: quy chiếu Gassman bằng 'ông', giữ hình ảnh những toan tính cuộn xoáy cùng làn khói xì gà."
+  - segment_id: "YS-LN06/Text/part0015.html/p000028"
+    choices:
+      - "Thuật ngữ & phủ định: 'reconciliation summit' -> 'hội nghị thượng đỉnh hòa giải'; 'Kingdom of Ildoa' -> 'Vương quốc Ildoa'; 'computation orbs' -> 'quả cầu tính toán'; giữ cụm phủ định 'những khoản vay không lãi suất hay tài sản thế chấp'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000029"
+    choices:
+      - "Thoại, phủ định & lập luận: giữ câu lẩm bẩm của Gassman, nhận định phủ định 'Tham lam quá mức cũng chẳng hay ho gì.' và nguyên tắc giữ chừng mực để bảo đảm lợi ích vừa phải."
+  - segment_id: "YS-LN06/Text/part0015.html/p000030"
+    choices:
+      - "Thoại, nhượng bộ, ẩn dụ & thuật ngữ: Gassman xưng 'Tôi' và dùng 'chúng ta / ta'; giữ mệnh đề nhượng bộ 'ngay cả khi những điều kiện ta đưa ra lại ngông cuồng đến thế', ẩn dụ miệt thị 'đám linh cẩu ở Liên bang' và câu hỏi kết đoạn."
+  - segment_id: "YS-LN06/Text/part0015.html/p000031"
+    choices:
+      - "Thoại, đại từ, phủ định & thuật ngữ: Calandro xưng 'Tôi', dùng 'tùy viên của chúng ta' và giữ câu gián tiếp có phủ định 'cho biết phía họ không có vấn đề gì'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000032"
+    choices:
+      - "Nghĩa & thuật ngữ: giữ chi tiết sự tự tin của một thành viên thuộc 'cơ quan tình báo tinh nhuệ của họ'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000033"
+    choices:
+      - "Đại từ, đối lập & nhân quả: trần thuật quy chiếu Calandro bằng 'anh ta' để phân biệt với cấp trên Gassman ('ông'); giữ sự tương phản giữa vẻ ngoài hiền lành dễ mến với bản chất 'người theo chủ nghĩa hiện thực triệt để' và hệ quả về sức nặng của lời bảo đảm."
+  - segment_id: "YS-LN06/Text/part0015.html/p000034"
+    choices:
+      - "Thoại câu hỏi & xưng hô: giữ hai câu hỏi liên tiếp của Gassman với Calandro về việc đã có bằng chứng xác thực."
+  - segment_id: "YS-LN06/Text/part0015.html/p000035"
+    choices:
+      - "Tình thái suy đoán & thuật ngữ: giữ dấu chấm lửng mở đầu, tình thái suy đoán quá khứ 'Hẳn là mệnh lệnh đã được ban xuống.' và thuật ngữ 'Các chi bộ' cho các tổ chức cơ sở đang gây rối đã ngừng hoạt động (cần viết hoa chữ 'Hẳn' liền sau dấu chấm lửng theo finding)."
+  - segment_id: "YS-LN06/Text/part0015.html/p000036"
+    choices:
+      - "Thoại cảm thán: giữ tiếng ngân dài '“Ồồồ?”' và hành động bật ra tiếng cảm thán đầy hứng thú trong vô thức của Gassman."
+  - segment_id: "YS-LN06/Text/part0015.html/p000037"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: chỉ bọc toàn bộ mệnh đề yêu cầu sau dấu hai chấm '*Vương quốc Ildoa sẽ tình nguyện đứng ra làm trung gian hòa giải, vậy nên hãy bịt miệng phe cực tả ở Ildoa đi.*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; 'Federation' -> 'Liên bang'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000038"
+    choices:
+      - "Thoại & sắc thái khinh miệt: giữ lời nhận xét khinh miệt ngắn gọn về phe cực tả răm rắp nghe lệnh Liên bang."
+  - segment_id: "YS-LN06/Text/part0015.html/p000039"
+    choices:
+      - "Thoại so sánh: giữ cấu trúc so sánh ngắn gọn đối lập với việc 'làm loạn'; không tự thêm hô ngữ ngoài văn bản nguồn (theo finding)."
+  - segment_id: "YS-LN06/Text/part0015.html/p000040"
+    choices:
+      - "Thoại, đại từ & phủ định: giữ câu tán đồng mở đầu và cấu trúc phủ định so sánh 'Có điều bên chúng ta để đám chính khách điều hành quân đội thì cũng chẳng khá khẩm hơn là bao.'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000041"
+    choices:
+      - "Điểm nhìn & đại từ: quy chiếu Calandro bằng 'anh ta', giữ chi tiết chọn sự im lặng khéo léo và ánh mắt tự nhiên nhìn lên đồng hồ treo tường đúng mực cấp dưới."
+  - segment_id: "YS-LN06/Text/part0015.html/p000042"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn, đại từ & phủ định: bọc toàn bộ câu hỏi độc thoại nội tâm '*Giờ thì mình nên hiểu thái độ không đồng tình mà cũng chẳng phản đối đó thế nào đây?*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; nội tâm tự quy chiếu của Gassman dùng 'mình' và giữ phủ định kép 'không đồng tình mà cũng chẳng phản đối'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000043"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ: chỉ bọc từ '*Không*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; câu trần thuật sau để chữ thường và quy chiếu Gassman bằng 'ông'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000044"
+    choices:
+      - "Thoại, quân hàm & đại từ: giữ dấu chấm lửng mở đầu, Gassman gọi 'Đại tá' và dùng đại từ 'chúng ta'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000045"
+    choices:
+      - "Thoại, tình thái & thuật ngữ: Calandro xưng 'Tôi'; 'General Staff' -> 'Bộ Tổng tham mưu'; 'the Empire' -> 'Đế quốc'; giữ tình thái cảnh báo 'có thể sẽ phản ứng dữ dội'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000046"
+    choices:
+      - "Phủ định kép: giữ cấu trúc phủ định kép khẳng định tính hợp lý 'Nỗi lo âu của Calandro không phải là không có cơ sở.'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000047"
+    choices:
+      - "Nhấn mạnh Markdown, tình thái, giả định & thuật ngữ: chỉ bọc cụm '*Giờ thì các người đã đi quá giới hạn rồi đấy*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; giữ tình thái 'rất có khả năng sẽ', câu điều kiện 'nếu họ thua cược' và khả năng 'quân Đế quốc giận dữ rất có thể sẽ sớm tràn qua biên giới nước họ'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000048"
+    choices:
+      - "Phủ định & nhượng bộ điều kiện: giữ phủ định 'Gassman không thể gạt bỏ khả năng đó' và mệnh đề nhượng bộ 'dù xác suất xảy ra chỉ là một phần triệu đi chăng nữa'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000049"
+    choices:
+      - "Đối lập, thoại câu hỏi đuôi & quân hàm: giữ liên từ đối lập 'Thế nhưng', đại từ 'ông' và câu hỏi đuôi có phủ định '“Không có vấn đề gì đâu, phải không Đại tá?”'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000050"
+    choices:
+      - "Thoại bỏ lửng: giữ lời ngập ngừng '“Nhưng…”'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000051"
+    choices:
+      - "Thoại, mức độ chắc chắn & thuật ngữ: Gassman xưng 'Tôi' khẳng định 'chắc chắn'; 'Imperial Army General Staff' -> 'Bộ Tổng tham mưu Lục quân Đế quốc'; 'sneak attack' -> 'đòn tập kích bất ngờ'; giữ nhận định về năng lực và kinh nghiệm thực chiến dồi dào của đối phương."
+  - segment_id: "YS-LN06/Text/part0015.html/p000052"
+    choices:
+      - "Đại từ & phủ định: quy chiếu Gassman bằng 'Ông' và giữ phủ định nhấn mạnh 'không mảy may nghi ngờ điều đó'."
+  - segment_id: "YS-LN06/Text/part0015.html/p000053"
+    choices:
+      - "Đối lập cân xứng: giữ cấu trúc đối lập cân xứng giữa hai thái cực sai lầm ('Mặc định rằng những ý tưởng đã được kiểm chứng qua chiến trận luôn ưu việt hơn là điều nguy hiểm' và 'phủ nhận sạch trơn chúng cũng ngu xuẩn không kém')."
