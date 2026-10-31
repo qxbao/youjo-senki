@@ -1,0 +1,267 @@
+task_id: "vol-05-ch-03-b10-argon-review"
+parent_task_id: "vol-05-ch-03-b10"
+volume: "vol-05"
+chapter: 3
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-03-b10-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0018.html/p000358"
+    issue: "Trong câu trần thuật thứ hai của p000358 (và tương tự ở hai câu liền kề của p000353), đại từ 'nó' vừa được dùng để chỉ con tàu ('về sự khổng lồ của nó') vừa dùng để chỉ Tanya theo DEC-P01-001 ('tất cả những gì nó có thể làm là gật đầu'), tạo hiện tượng trùng lặp đại từ quy chiếu trong cùng một câu."
+    evidence: "Nguyên bản phân biệt đại từ trung tính chỉ vật (con tàu) và đại từ ngôi thứ ba giống cái chỉ Tanya; khi chuyển sang tiếng Việt, cả hai đều thành 'nó'."
+    recommendation: "Ở bước chuốt văn, có thể cân nhắc thay từ 'nó' chỉ vật bằng danh từ cụ thể như 'con tàu' hoặc 'mục tiêu đó' (ví dụ tại p000358: 'Khi nghe anh ta bình luận về sự khổng lồ của con tàu, tất cả những gì nó có thể làm là gật đầu') để đại từ 'nó' quy chiếu rõ ràng về Tanya."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0018.html/p000366"
+    issue: "Cụm sở hữu cách chỉ lực lượng tàu ngầm và không quân của Đế quốc được dịch là 'Các đơn vị tàu ngầm và không quân của Lục quân Đế quốc', dễ gây cảm giác mâu thuẫn quân chủng vì 'Lục quân' lại sở hữu 'tàu ngầm'."
+    evidence: "Nguyên bản tiếng Anh dùng danh từ thường dịch là 'Lục quân Đế quốc' nhưng trong ngữ cảnh bao hàm cả tàu ngầm và không quân thì danh từ này chỉ chung toàn bộ quân đội của Đế quốc."
+    recommendation: "Có thể cân nhắc dùng phương án thay thế đã có trong sổ pending là 'Quân đội Đế quốc' ('Các đơn vị tàu ngầm và không quân của Quân đội Đế quốc') ở bước chuốt văn để hợp lý hơn về mặt quân chủng."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0018.html/p000376"
+    issue: "Câu thoại tán đồng với Thiếu tá Weiss được dịch thêm cụm đại từ 'với anh' ('Tôi đồng ý với anh, Thiếu tá'), ngầm đóng khung người nói là cấp trên hoặc ngang hàng."
+    evidence: "Nguyên bản chỉ có động từ tán đồng kèm danh xưng cấp bậc mà không có tân ngữ ngôi thứ hai, đồng thời không nêu tên người nói (có thể là Tanya hoặc một sĩ quan cấp dưới như Grantz/Serebryakov)."
+    recommendation: "Có thể cân nhắc lược cụm 'với anh' thành 'Tôi đồng ý, Thiếu tá.' ở bước chuốt văn để giữ độ mở về chủ thể phát ngôn theo DEC-P01-001."
+pending_term_recommendations:
+  - source_term: "Lieutenant Grantz"
+    proposed_vi: "Trung úy Grantz"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Trung úy của Grantz theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000342"
+  - source_term: "Major / Major Weiss"
+    proposed_vi: "Thiếu tá / Thiếu tá Weiss"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với cấp bậc Thiếu tá của Weiss trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000343"
+      - "YS-LN05/Text/part0018.html/p000369"
+      - "YS-LN05/Text/part0018.html/p000376"
+  - source_term: "Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Trung úy của Serebryakov theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000346"
+      - "YS-LN05/Text/part0018.html/p000351"
+      - "YS-LN05/Text/part0018.html/p000361"
+  - source_term: "Colonel"
+    proposed_vi: "Trung tá"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Dịch đúng cấp bậc thực tế của Tanya (Trung tá) khi cấp dưới gọi tắt trong giao tiếp quân sự, khớp với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000347"
+      - "YS-LN05/Text/part0018.html/p000358"
+  - source_term: "magic officer"
+    proposed_vi: "sĩ quan ma pháp"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 4 và Tập 5 cho danh xưng chỉ sĩ quan pháp sư trong biên chế quân đội."
+    alternatives_vi:
+      - "sĩ quan pháp sư"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000348"
+  - source_term: "adjutant"
+    proposed_vi: "sĩ quan phụ tá"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 1, Tập 4 và Tập 5 khi chỉ chức vụ phụ tá của Serebryakov."
+    alternatives_vi:
+      - "phụ tá"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000352"
+  - source_term: "RMS Queen of Anjou"
+    proposed_vi: "RMS *Queen of Anjou*"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên tiền tố RMS và bọc nghiêng tên tàu theo đúng thẻ nhấn mạnh của nguồn và mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000355"
+  - source_term: "High Seas Fleet"
+    proposed_vi: "Hạm đội Biển khơi"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending từ Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000357"
+  - source_term: "Intelligence"
+    proposed_vi: "Bên Tình báo"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'intelligence agency / Intelligence' -> 'cơ quan tình báo / ngành Tình báo / bên Tình báo' trong sổ pending Tập 1 và Tập 5."
+    alternatives_vi:
+      - "Ngành Tình báo"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000360"
+  - source_term: "maritime guard / commerce raider"
+    proposed_vi: "lực lượng hộ tống hàng hải / tàu tập kích thương mại"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt rõ nghĩa cặp đối kháng trong chiến tranh bảo vệ và phá hoại giao thương trên biển, đồng bộ với mục 'commerce raids / commerce raiding' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "lực lượng hộ tống hàng hải / lực lượng tập kích tuyến thương mại"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000364"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Theo mục đã khóa trong sổ pending Tập 5; trong ngữ cảnh bao gồm cả tàu ngầm và không quân tại p000366 có thể cân nhắc phương án thay thế 'Quân đội Đế quốc'."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000366"
+  - source_term: "ocean liner / cargo-passenger ships"
+    proposed_vi: "tàu viễn dương / tàu chở khách kiêm chở hàng"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'ocean liner / cargo-passenger ship / luxury passenger ship' đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000370"
+      - "YS-LN05/Text/part0018.html/p000376"
+  - source_term: "maritime state"
+    proposed_vi: "quốc gia biển"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'continental state / maritime state (maritime nation)' -> 'quốc gia lục địa / quốc gia biển' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "cường quốc hàng hải"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000376"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0018.html/p000342"
+    choices:
+      - "Quân hàm, chức vụ và xưng hô trong lời trêu đùa của Weiss: gọi 'Trung úy Grantz', quy chiếu ngôi thứ hai bằng 'Cậu', giữ chức danh 'chỉ huy' và 'đại đội trưởng'"
+      - "Giữ nguyên chuỗi câu hỏi tu từ và cảm thán trêu chọc trước trận đánh"
+  - segment_id: "YS-LN05/Text/part0018.html/p000343"
+    choices:
+      - "Quân hàm và xưng hô của Grantz khi đáp lời Weiss: gọi 'Thiếu tá', tự xưng 'tôi'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000344"
+    choices:
+      - "Xưng hô của Tanya trước toàn đơn vị: tự xưng 'tôi'; giữ cấu trúc phủ định kèm ngoại lệ bông đùa ('tôi không nghĩ trong tiểu đoàn của tôi lại có ai đủ mong manh yếu đuối để thấy hồi hộp ngoài tôi ra đâu')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000345"
+    choices:
+      - "Xưng hô của Weiss với Tanya: gọi 'ngài'; giữ tình thái khẳng định chắc chắn trong lời đùa ('chắc chắn là ngài đang nói đùa rồi')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000346"
+    choices:
+      - "Xưng hô và quân hàm trong lời đáp của Tanya: gọi các sĩ quan nam là 'Các anh', tự xưng 'tôi', gọi 'Trung úy Serebryakov'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000347"
+    choices:
+      - "Quân hàm, tên riêng và xưng hô: tự xưng 'tôi' / 'Chúng tôi', gọi Tanya là 'thưa Trung tá' và 'ngài', gọi thân mật 'cô Visha thân mến' và quy chiếu bằng 'cô ấy'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000348"
+    choices:
+      - "Thuật ngữ và xưng hô: 'sĩ quan ma pháp'; Tanya tự xưng 'Tôi', gọi 'các anh', quy chiếu Visha bằng 'cô ấy'; giữ phủ định trong mệnh đề điều kiện lịch sự"
+  - segment_id: "YS-LN05/Text/part0018.html/p000349"
+    choices:
+      - "Điểm nhìn ngôi thứ nhất số nhiều chỉ ban chỉ huy tiểu đoàn: 'chúng tôi'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000350"
+    choices:
+      - "Xưng hô lễ phép của Serebryakov khi cắt ngang cuộc bông đùa: 'Được rồi ạ, xin hai vị dừng chuyện đó ở đây cho', tự xưng 'Tôi'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000351"
+    choices:
+      - "Đại từ ngôi thứ nhất số nhiều 'chúng tôi'; quân hàm và đại từ chỉ Serebryakov: 'Trung úy Serebryakov', 'cô ấy'; giữ động từ 'bồi dưỡng' liên kết trực tiếp với p000347"
+  - segment_id: "YS-LN05/Text/part0018.html/p000352"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'Tanya', 'nó'; chức danh: 'sĩ quan phụ tá'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000353"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'nó'; giữ cấu trúc điều kiện suy luận từ khoảng cách quan sát sang kích thước khổng lồ của mục tiêu"
+  - segment_id: "YS-LN05/Text/part0018.html/p000354"
+    choices:
+      - "Câu khẳng định ngắn: 'Không còn nghi ngờ gì nữa.'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000355"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc tên riêng '*Queen of Anjou*' trong '*...*' đúng phạm vi thẻ em trong nguồn (giữ chữ thường cho tiền tố 'RMS')"
+      - "Đại từ chỉ đơn vị của Tanya: 'họ'; giữ cấu trúc 'cả vũ khí lẫn binh lính'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000356"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya: tự xưng 'tôi', 'tàu vận tải'; giữ ý nhận xét về việc dùng từ ngữ làm sai lệch thực tế"
+  - segment_id: "YS-LN05/Text/part0018.html/p000357"
+    choices:
+      - "Thuật ngữ hải quân: 'tàu chủ lực', 'Hạm đội Biển khơi', 'bãi thủy lôi'; đại từ khái quát ngôi thứ hai: 'bạn'"
+      - "Giữ cấu trúc ngoại trừ ('ngoại trừ một bãi thủy lôi') và mệnh đề nhượng bộ ('dù không muốn')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000358"
+    choices:
+      - "Quân hàm và đại từ: Weiss gọi 'Thưa Trung tá'; trần thuật quy chiếu Weiss bằng 'anh ta' và Tanya bằng 'nó' theo DEC-P01-001"
+  - segment_id: "YS-LN05/Text/part0018.html/p000359"
+    choices:
+      - "Đại từ trần thuật của Tanya theo DEC-P01-001: 'Tanya', 'nó'; giữ tình thái quá khứ 'lẽ ra phải biết trước điều đó'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000360"
+    choices:
+      - "Thuật ngữ trong câu cảm thán của Tanya: 'Bên Tình báo ở quê nhà'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000361"
+    choices:
+      - "Quân hàm và đại từ: 'Trung úy Serebryakov', tự xưng 'Tôi' trong thoại và quy chiếu bằng 'cô' trong trần thuật; giữ tình thái suy đoán 'có lẽ một nửa là đang tự nhủ với chính mình'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000362"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*cung điện*' trong '*...*' đúng theo thẻ em trong nguồn để đối lập với 'tòa thành sắt nổi'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000363"
+    choices:
+      - "Điểm nhìn độc thoại nội tâm của Tanya theo DEC-P01-001: tự quy chiếu bằng 'mình'; không bọc '*...*' vì nguồn không in nghiêng (DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0018.html/p000364"
+    choices:
+      - "Thuật ngữ tác chiến trên biển: 'lực lượng hộ tống hàng hải', 'tàu tập kích thương mại'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000365"
+    choices:
+      - "Thuật ngữ: 'tàu mang quốc tịch trung lập', 'các nước tham chiến', 'tàu quân y', 'tàu trao đổi tù binh'; giữ cấu trúc đối lập 'không phải là kẻ liều mạng mà chỉ thuần túy là lũ điếc không sợ súng'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000366"
+    choices:
+      - "Thuật ngữ: 'tàu buôn không có hộ tống', 'Các đơn vị tàu ngầm và không quân của Lục quân Đế quốc' (hoặc 'Quân đội Đế quốc' ở bước chuốt văn)"
+  - segment_id: "YS-LN05/Text/part0018.html/p000367"
+    choices:
+      - "Xưng hô và đơn vị đo: tự xưng 'Tôi', quy chiếu thủy thủ đoàn đối phương bằng 'họ'; 'trên ba mươi hải lý một giờ'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000368"
+    choices:
+      - "Xưng hô và thuật ngữ: tự xưng 'Tôi', gộp 'chúng ta'; 'tàu buôn', 'tốc độ tối đa là hai mươi hải lý một giờ'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000369"
+    choices:
+      - "Quân hàm và tên riêng trong lời đáp của Tanya: 'Thiếu tá Weiss'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000370"
+    choices:
+      - "Thuật ngữ: 'tàu vận tải cao tốc', 'tàu viễn dương khổng lồ'; giữ cấu trúc đối lập 'không phải vì hiệu quả kinh tế mà vì niềm kiêu hãnh quốc gia'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000371"
+    choices:
+      - "Điểm nhìn độc thoại nội tâm của Tanya theo DEC-P01-001: tự xưng 'Mình / mình'; không bọc '*...*' theo DEC-P01-002; giữ đối lập giữa mong muốn chê cười và thực tế phũ phàng"
+  - segment_id: "YS-LN05/Text/part0018.html/p000372"
+    choices:
+      - "Xưng hô và thuật ngữ: tự xưng 'Tôi', 'tuyến phong tỏa của Đế quốc'; giữ phủ định có rào đón 'về cơ bản lại không phát huy tác dụng'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000373"
+    choices:
+      - "Giữ cấu trúc so sánh kép ('càng lớn thì càng phải hy sinh tốc độ', 'Càng nặng thì càng chậm') và đại từ ngôi thứ hai khái quát 'bạn'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000374"
+    choices:
+      - "Thuật ngữ: 'Các tàu vận tải cỡ lớn', 'trọng lượng hàng hóa'; giữ tình thái và phủ định 'có vẻ như những quy luật đó chẳng hề áp dụng được với con tàu này'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000375"
+    choices:
+      - "Xưng hô và địa danh: tự xưng 'Tôi', gộp 'chúng ta'; 'lục địa phía nam'"
+      - "Giữ đúng cấu trúc giả định trái thực tế ở quá khứ và phủ định toàn phần ('Giá mà chúng ta có một con tàu như thế khi đi tới lục địa phía nam thì đã chẳng một ai bị say sóng rồi')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000376"
+    choices:
+      - "Quân hàm và thuật ngữ: tự xưng 'Tôi', gọi 'Thiếu tá'; 'những chiếc tàu chở khách kiêm chở hàng của một quốc gia biển'; giữ phủ định kép 'Thật khó mà không ghen tị'"
+  - segment_id: "YS-LN05/Text/part0018.html/p000377"
+    choices:
+      - "Giữ cấu trúc đối lập và phủ định nhấn mạnh ('Biển đang động, vậy mà con tàu khổng lồ này chẳng hề chao đảo lấy một chút nào')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000378"
+    choices:
+      - "Giữ phép ẩn dụ nhân hóa con tàu ('Vị nữ hoàng này quả là một con ngựa cái bất kham') và phủ định mức độ ('không thể nào dưới ba mươi hải lý một giờ được')"
+  - segment_id: "YS-LN05/Text/part0018.html/p000379"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc chính xác 2 cụm '*tốc độ hành trình*' và '*tiết kiệm*' tương ứng với 2 thẻ em trong nguồn"
+      - "Điểm nhìn độc thoại nội tâm của Tanya theo DEC-P01-001 ở câu cuối: tự xưng 'Mình'"
