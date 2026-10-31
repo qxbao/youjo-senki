@@ -1,0 +1,182 @@
+task_id: "vol-05-ch-06-b04-argon-review"
+parent_task_id: "vol-05-ch-06-b04"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 6
+source_package: "work/vol-05/batches/ch-06-b04-source.jsonl"
+target_translation: "translations/vol-05/ch-06-b04.jsonl"
+review_path: "reviews/prose/vol-05/ch-06-b04-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0029.html/p000120"
+    issue: "Thuật ngữ chỉ quốc gia theo chế độ tư bản đang dịch là 'quốc gia tư sản', dễ lẫn với thuật ngữ đã dùng cho giai cấp/chủ nghĩa đế quốc tư sản trong cùng tập."
+    recommendation: "Đổi 'một quốc gia tư sản' thành 'một quốc gia tư bản'."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0029.html/p000126"
+    issue: "Cụm 'làm mọi giá' là lối kết hợp từ pha trộn giữa 'làm mọi cách' và 'bằng mọi giá'; đồng thời động từ 'nắm trùm' mang sắc thái khẩu ngữ, hơi lệch với văn phong phân tích chiến lược quốc phòng trong độc thoại của Loria."
+    recommendation: "Đổi 'phải làm mọi giá để tránh khỏi' thành 'phải làm mọi cách để tránh khỏi' (hoặc 'phải bằng mọi giá tránh khỏi'), và đổi 'nắm trùm vùng trung tâm lục địa' thành 'chế ngự vùng trung tâm lục địa' (hoặc 'kiểm soát vùng trung tâm lục địa')."
+pending_term_recommendations:
+  - source_term: "affirmative action"
+    proposed_vi: "chính sách ưu đãi nâng đỡ các nhóm yếu thế"
+    category: "thuật ngữ chính trị / xã hội"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000098"
+    rationale: "Diễn đạt rõ nội hàm chính sách ưu đãi trong khuôn khổ nhà nước đa sắc tộc của Liên bang."
+    alternatives_vi:
+      - "chính sách ưu đãi sắc tộc"
+      - "chính sách ưu đãi nâng đỡ"
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    category: "cơ quan chính trị / an ninh"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000101"
+    rationale: "Giữ thống nhất theo sổ pending của vol-04 và vol-05."
+    alternatives_vi: []
+  - source_term: "partisan unit / partisans"
+    proposed_vi: "đơn vị du kích / quân du kích"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000102"
+      - "YS-LN05/Text/part0029.html/p000105"
+    rationale: "Thuật ngữ chuẩn xác, nhất quán với các chương trước."
+    alternatives_vi: []
+  - source_term: "peacekeeping unit / local peacekeeping unit"
+    proposed_vi: "đơn vị trị an / đơn vị trị an bản địa"
+    category: "thuật ngữ quân sự / chiếm đóng"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000105"
+    rationale: "Phù hợp với lực lượng vũ trang bản địa làm nhiệm vụ duy trì trị an và tiễu trừ du kích dưới sự hậu thuẫn của Lục quân Đế quốc."
+    alternatives_vi:
+      - "đơn vị gìn giữ trật tự / đơn vị gìn giữ trật tự bản địa"
+  - source_term: "West Side / West Siders"
+    proposed_vi: "Phe Phương Tây / những kẻ thuộc Phe Phương Tây"
+    category: "thuật ngữ địa chính trị"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000118"
+      - "YS-LN05/Text/part0029.html/p000120"
+    rationale: "Khớp với mục pending đã dùng trong vol-05 và giữ đúng sắc thái lạnh nhạt, cảnh giác từ góc nhìn của Đảng Cộng sản Liên bang."
+    alternatives_vi:
+      - "Phe Phương Tây / phía Phương Tây"
+  - source_term: "Comrade General Secretary"
+    proposed_vi: "Đồng chí Tổng Bí thư"
+    category: "chức danh / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000125"
+    rationale: "Giữ thống nhất theo sổ pending của vol-05."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0029.html/p000098"
+    choices:
+      - "multiethnic state -> quốc gia đa sắc tộc; affirmative action -> chính sách ưu đãi nâng đỡ các nhóm yếu thế"
+      - "the Empire -> Đế quốc; nationalism -> chủ nghĩa dân tộc; the Federation -> Liên bang; the party -> đảng; Communism -> Chủ nghĩa Cộng sản"
+  - segment_id: "YS-LN05/Text/part0029.html/p000099"
+    choices:
+      - "Xưng hô của Tổng Bí thư với Loria: 'Đồng chí'; giữ câu hỏi xác minh độ tin cậy của nguồn tin"
+  - segment_id: "YS-LN05/Text/part0029.html/p000100"
+    choices:
+      - "undercover agent -> điệp viên nằm vùng; political officers -> các sĩ quan chính trị"
+      - "the Empire -> Đế quốc; the separatists -> những kẻ ly khai; political alliance -> liên minh chính trị"
+      - "Đại từ trần thuật chỉ Loria: 'gã'; nội tâm tự quy chiếu của Loria: 'Mình'"
+      - "Bảo toàn nhấn mạnh Markdown *Mình có đang giữ được giọng điệu bình tĩnh dù chỉ ở vẻ bề ngoài không đây?* đúng vị trí trong nguồn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000101"
+    choices:
+      - "Commissariat for Internal Affairs -> Bộ Dân ủy Nội vụ"
+  - segment_id: "YS-LN05/Text/part0029.html/p000102"
+    choices:
+      - "Loria -> Loria; partisan unit -> đơn vị du kích"
+  - segment_id: "YS-LN05/Text/part0029.html/p000103"
+    choices:
+      - "Giữ hình ảnh ẩn dụ về chiến tranh nhân dân ('bơi trong biển cả nhân dân') đối lập với thực tế đang bị xóa sổ"
+  - segment_id: "YS-LN05/Text/part0029.html/p000104"
+    choices:
+      - "follow-up investigation -> cuộc điều tra tiếp theo đó"
+  - segment_id: "YS-LN05/Text/part0029.html/p000105"
+    choices:
+      - "partisans -> quân du kích; Imperial Army -> Lục quân Đế quốc"
+      - "peacekeeping unit -> đơn vị trị an; local peacekeeping unit -> đơn vị trị an bản địa"
+  - segment_id: "YS-LN05/Text/part0029.html/p000106"
+    choices:
+      - "alliance -> liên minh; giữ nhịp thừa nhận thực tế không thể chối cãi"
+  - segment_id: "YS-LN05/Text/part0029.html/p000107"
+    choices:
+      - "Imperial Army -> Lục quân Đế quốc"
+  - segment_id: "YS-LN05/Text/part0029.html/p000108"
+    choices:
+      - "pure violence machine -> cỗ máy bạo lực thuần túy; political context comprehension -> biết thấu hiểu bối cảnh chính trị"
+  - segment_id: "YS-LN05/Text/part0029.html/p000109"
+    choices:
+      - "Giữ ẩn dụ cái rễ đã ăn quá sâu nên quá muộn để ngắt bỏ"
+  - segment_id: "YS-LN05/Text/part0029.html/p000110"
+    choices:
+      - "The Empire -> Đế quốc; hard-core military state -> nhà nước quân phiệt cốt cán; violence machine -> cỗ máy bạo lực; fifty reinforcement divisions -> năm mươi sư đoàn tăng viện"
+  - segment_id: "YS-LN05/Text/part0029.html/p000111"
+    choices:
+      - "qualitative changes -> các biến chuyển về chất; Loria -> Loria"
+  - segment_id: "YS-LN05/Text/part0029.html/p000112"
+    choices:
+      - "Imperial Army -> Lục quân Đế quốc; giữ câu hỏi phỏng đoán trong cuộc họp"
+  - segment_id: "YS-LN05/Text/part0029.html/p000113"
+    choices:
+      - "Moskva -> Moskva; Loria -> Loria"
+  - segment_id: "YS-LN05/Text/part0029.html/p000114"
+    choices:
+      - "legitimacy -> tính chính danh; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu độc thoại nội tâm của Loria theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000115"
+    choices:
+      - "the Empire -> Đế quốc; nationalists -> những kẻ theo chủ nghĩa dân tộc; Imperial Army -> Lục quân Đế quốc; the Federation -> Liên bang"
+      - "Đại từ trần thuật chỉ Loria: 'Gã'; third nation -> quốc gia thứ ba"
+  - segment_id: "YS-LN05/Text/part0029.html/p000116"
+    choices:
+      - "nationalists -> những kẻ theo chủ nghĩa dân tộc; the Empire -> Đế quốc"
+  - segment_id: "YS-LN05/Text/part0029.html/p000117"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *hình ảnh của chúng ta ở nước ngoài tệ hại vô cùng* đúng phạm vi trong câu độc thoại thành tiếng của Loria theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000118"
+    choices:
+      - "Communist Federation -> Liên bang Cộng sản; West Side -> Phe Phương Tây; đại từ trần thuật chỉ Loria: 'gã'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000119"
+    choices:
+      - "the Empire -> Đế quốc; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000120"
+    choices:
+      - "Communist Party -> Đảng Cộng sản; West Siders -> những kẻ thuộc Phe Phương Tây; capitalist nation -> quốc gia tư bản"
+  - segment_id: "YS-LN05/Text/part0029.html/p000121"
+    choices:
+      - "shared interests -> lợi ích chung; devil -> con ác quỷ"
+  - segment_id: "YS-LN05/Text/part0029.html/p000122"
+    choices:
+      - "the Empire -> Đế quốc; Loria độc thoại một mình trong xe tự xưng 'ta', gọi phía Phương Tây là 'bọn chúng'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000123"
+    choices:
+      - "Loria -> Loria; bảo toàn nhấn mạnh Markdown *Đồ khốn thật.* ở đầu đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000124"
+    choices:
+      - "the Empire -> Đế quốc; the Federation -> Liên bang"
+  - segment_id: "YS-LN05/Text/part0029.html/p000125"
+    choices:
+      - "Comrade General Secretary -> Đồng chí Tổng Bí thư; preventative measure -> biện pháp phòng ngừa"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu nội tâm theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000126"
+    choices:
+      - "national defense perspective -> phương diện quốc phòng; the Empire -> Đế quốc; martial power -> sức mạnh quân sự"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu nội tâm theo DEC-P01-002"
