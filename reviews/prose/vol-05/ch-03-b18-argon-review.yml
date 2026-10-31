@@ -1,0 +1,339 @@
+task_id: "vol-05-ch-03-b18-argon-review"
+parent_task_id: "vol-05-ch-03-b18"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+review_path: "reviews/prose/vol-05/ch-03-b18-argon-review.yml"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 5
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0020.html/p000323"
+    severity: "minor"
+    issue: "Lời xin phép mở đầu qua vô tuyến của 05 đang dịch là 'cho phép tôi đề xuất một việc được không?', tự bổ sung trước nét nghĩa 'đề xuất một việc' khi nhân vật mới chỉ xin phép lên tiếng."
+    evidence: "Ở p000323 nhân vật 05 mới hỏi xin phép ngắn gọn trước khi rút lui; đến p000325 mới nêu nội dung và p000326 trần thuật mới định danh đó là đề xuất của Grantz."
+    recommendation: "Đề xuất đổi thành 'cho phép tôi nói một chút được không?' hoặc 'cho tôi xin phép một chút được không?'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000329"
+    severity: "minor"
+    issue: "Trong câu 'Vậy thì bọn mình nên trao cho chúng cơ hội để bảo vệ thứ quý giá của mình', đại từ phản thân 'của mình' đứng cuối câu có chủ ngữ 'bọn mình' dễ gây nhập nhằng quy chiếu với phe Tanya thay vì lực lượng hộ tống địch."
+    evidence: "Câu trước vừa xác lập đối với lực lượng hộ tống thì con tàu này vô cùng quý giá, nên đối tượng cần bảo vệ là thứ quý giá đối với phía địch."
+    recommendation: "Đề xuất đổi 'thứ quý giá của mình' thành 'thứ quý giá của chúng' hoặc 'thứ quý giá đối với chúng'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000331"
+    severity: "minor"
+    issue: "Câu 'Nó là một nàng công chúa' dùng đại từ 'Nó' cho con tàu dễ trùng với đại từ trần thuật chỉ Tanya theo DEC-P01-001, đồng thời lượng từ bất định 'một' chưa khớp với danh hiệu xác định của con tàu."
+    evidence: "Ở các batch trước trong chương 3, chiếc RMS Queen of Anjou đã được gọi là nàng công chúa của biển cả, và câu kế tiếp nói ngay cả đám hiệp sĩ hải tặc này cũng không thể bỏ mặc công chúa của chúng."
+    recommendation: "Đề xuất đổi thành 'Con tàu đó chính là nàng công chúa.' hoặc 'Đó chính là nàng công chúa của chúng.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000356"
+    severity: "minor"
+    issue: "Trong câu thoại 'Mà sao cô ả lại dám chắc là tôi đã giết cha mình chứ?', đại từ phản thân 'mình' đặt sau chủ ngữ 'tôi' dễ bị đọc nhầm theo ngữ pháp tiếng Việt thành cha của người nói (Tanya)."
+    evidence: "Ở p000282 (batch 17), nữ pháp sư địch vừa lao vào tấn công Tanya để trả thù cho cha của cô ả."
+    recommendation: "Đề xuất đổi 'đã giết cha mình' thành 'đã giết cha cô ả' hoặc 'đã giết cha của ả'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000358"
+    severity: "minor"
+    issue: "Thành ngữ ở p000358 dịch thoát ý theo tục ngữ Việt là 'đừng trông mặt mà bắt hình dong', làm đứt mạch liên kết từ vựng trực tiếp với p000362 khi Tanya phân tích nghĩa đen của chính câu nói này ('đừng đánh giá cuốn sách qua trang bìa' và 'nội dung bên trong')."
+    evidence: "Ở p000362, độc thoại nội tâm của Tanya nhắc lại câu nói nổi tiếng vừa nêu ở p000358 dựa trên hình ảnh trang bìa cuốn sách và nội dung bên trong."
+    recommendation: "Đề xuất chỉnh p000358 thành '“Nhưng người ta vẫn bảo đừng đánh giá một cuốn sách qua trang bìa kia mà.”' để khớp mạch với p000362."
+pending_term_recommendations:
+  - source_term: "marine mages / Commonwealth marine mage"
+    proposed_vi: "pháp sư hải quân đánh bộ / pháp sư hải quân đánh bộ của Khối Thịnh vượng chung"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án đã dùng trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000311"
+      - "YS-LN05/Text/part0020.html/p000318"
+  - source_term: "thermic beam"
+    proposed_vi: "chùm tia nhiệt"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp với mục 'thermic beam / thermic beams' đã có trong pending-terms-index.yml."
+    alternatives_vi:
+      - "tia nhiệt"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000316"
+  - source_term: "long-range optical sniping formula / long-range explosion formulas / explosion formula"
+    proposed_vi: "thuật thức bắn tỉa quang học tầm xa / thuật thức phát nổ tầm xa / thuật thức phát nổ"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa hệ thống thuật ngữ thuật thức ma pháp trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000318"
+      - "YS-LN05/Text/part0020.html/p000330"
+      - "YS-LN05/Text/part0020.html/p000345"
+  - source_term: "05 / 01"
+    proposed_vi: "05 / 01"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ nguyên mã hô gọi vô tuyến nội bộ theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000323"
+  - source_term: "RMS Queen of Anjou"
+    proposed_vi: "RMS *Queen of Anjou*"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp với mục trong pending-terms-index.yml; ở p000329 đặt trong câu in nghiêng nên đảo kiểu chữ theo đúng thẻ <em> của nguồn."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000329"
+  - source_term: "Northern Sea"
+    proposed_vi: "Biển Bắc"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'Northern Sea' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000332"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'Imperial Army' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000339"
+  - source_term: "potato mashers"
+    proposed_vi: "lựu đạn chày"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Cách dịch tự nhiên, chuẩn xác cho biệt danh lựu đạn cán gỗ của Đế quốc trong ngữ cảnh gắn đạn thuật thức ở phần đầu."
+    alternatives_vi:
+      - "lựu đạn cán gỗ"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000339"
+  - source_term: "formula bullet"
+    proposed_vi: "đạn thuật thức"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp với mục 'formula bullet / formula bullets' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000340"
+      - "YS-LN05/Text/part0020.html/p000345"
+  - source_term: "protective film"
+    proposed_vi: "màn chắn bảo hộ"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'protective film' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "lớp màng bảo hộ"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000344"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / thưa Trung tá"
+    category: "quân hàm"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc Trung tá của Tanya ở Tập 5 và quy ước trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000357"
+      - "YS-LN05/Text/part0020.html/p000365"
+  - source_term: "officers’ club"
+    proposed_vi: "câu lạc bộ sĩ quan"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'officers’ club' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000364"
+  - source_term: "Major Weiss / Weiss"
+    proposed_vi: "Thiếu tá Weiss / Weiss"
+    category: "quân hàm"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'Major Weiss / Weiss' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000311"
+      - "YS-LN05/Text/part0020.html/p000366"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0020.html/p000310"
+    choices:
+      - "Thoại & tình thái: giữ '“Chậc! Xem ra chỉ chừng này thôi thì chưa đủ để cắt đuôi rồi.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000311"
+    choices:
+      - "Điểm nhìn nội tâm, tên nhân vật & thuật ngữ: khóa đại từ 'mình' theo DEC-P01-001, tên 'Weiss', phủ định kép và cụm 'trung đoàn pháp sư hải quân đánh bộ'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000312"
+    choices:
+      - "Thoại: giữ '“…Cứ đà này thì đường quay về sẽ chật vật lắm đây.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000313"
+    choices:
+      - "Điểm nhìn nội tâm & thuật ngữ: giữ đại từ 'Bọn mình / mình' và cụm 'chặng rút lui tồi tệ nhất'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000314"
+    choices:
+      - "Điểm nhìn nội tâm & cách gọi: giữ đại từ 'mình', cách gọi 'con nhỏ đầu đất' nhất quán với batch 17 và thành ngữ 'Đúng là họa vô đơn chí mà.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000315"
+    choices:
+      - "Thoại cảm thán: giữ '“Hự?!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000316"
+    choices:
+      - "Thuật ngữ & dấu câu: khóa 'Tanya', 'chùm tia nhiệt' (thermic beam) và dấu gạch ngang '—sững sờ.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000317"
+    choices:
+      - "Đại từ trần thuật & nhấn mạnh Markdown: khóa đại từ 'Nó' cho Tanya theo DEC-P01-001 và cụm '*Lại nữa hả?!*' theo đúng thẻ <em> của nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000318"
+    choices:
+      - "Thuật ngữ: khóa 'thuật thức bắn tỉa quang học tầm xa' và 'pháp sư hải quân đánh bộ của Khối Thịnh vượng chung'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000319"
+    choices:
+      - "Đại từ trần thuật & nghĩa: khóa đại từ 'nó' cho Tanya và chi tiết quân địch bắt đầu lấy lại kỷ luật."
+  - segment_id: "YS-LN05/Text/part0020.html/p000320"
+    choices:
+      - "Điểm nhìn nội tâm & phủ định: giữ đại từ 'Bọn mình', phủ định 'chẳng thể nào địch lại nổi' và hình ảnh 'làm bia tập bắn'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000321"
+    choices:
+      - "Điểm nhìn nội tâm: giữ nhận định 'Nán lại đây lâu hơn nữa cũng chỉ tổ phí thời gian.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000322"
+    choices:
+      - "Đại từ trần thuật & thuật ngữ: khóa đại từ 'nó / Nó' cho Tanya, cách gọi 'con nhỏ pháp sư địch đầu đất', 'các động tác cơ động né tránh ngẫu nhiên' và 'tiểu đoàn'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000323"
+    choices:
+      - "Mã hô gọi & xưng hô: khóa '05 gọi 01' và đại từ 'tôi' khi xin phép phát biểu trước khi rút đi."
+  - segment_id: "YS-LN05/Text/part0020.html/p000324"
+    choices:
+      - "Thoại ngắn: giữ '“Chuyện gì?”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000325"
+    choices:
+      - "Xưng hô & thuật ngữ: giữ xưng hô 'tôi - chúng ta', 'các thuật thức tầm xa' và mục đích phóng hỏa mặt boong tàu để cầm chân địch."
+  - segment_id: "YS-LN05/Text/part0020.html/p000326"
+    choices:
+      - "Tên nhân vật, thuật ngữ & nhấn mạnh Markdown: khóa 'tín hiệu liên lạc nội bộ đơn vị', 'Grantz', 'Tanya' và câu nội tâm in nghiêng '*Chà, không tệ chút nào.*' theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0020.html/p000327"
+    choices:
+      - "Nghĩa & thuật ngữ: giữ nhận định bắn tỉa hầu hết các mục tiêu di động khi đang tăng tốc bay ra xa là điều bất khả thi."
+  - segment_id: "YS-LN05/Text/part0020.html/p000328"
+    choices:
+      - "Quan hệ đối lập: giữ 'Nhưng một mục tiêu khổng lồ như con tàu này lại là chuyện khác.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000329"
+    choices:
+      - "Nhấn mạnh Markdown, tên tàu & điểm nhìn: khóa đúng phạm vi hai cặp '*...*' bao quanh tên tàu để chữ 'Queen of Anjou' hiển thị thường theo đúng cấu trúc thẻ <em> của nguồn; giữ 'lực lượng hộ tống' và đại từ 'bọn mình'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000330"
+    choices:
+      - "Khẩu lệnh & thuật ngữ: khóa 'thuật thức phát nổ tầm xa' và 'lược bỏ hiệu ứng nghiền ép'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000331"
+    choices:
+      - "Điểm nhìn nội tâm & cách gọi: giữ 'Bọn mình chỉ nhận lệnh chặn con tàu lại mà thôi', hình ảnh 'nàng công chúa' và 'đám hiệp sĩ hải tặc chướng mắt'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000332"
+    choices:
+      - "Khẩu lệnh & địa danh: khóa 'ma lực', 'hiển hiện thuật thức', 'Đồng loạt khai hỏa!' và địa danh 'Biển Bắc' (Northern Sea)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000333"
+    choices:
+      - "Thoại đáp lệnh: giữ '“Rõ! Cứ giao cho chúng tôi!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000334"
+    choices:
+      - "Đại từ trần thuật, cách gọi & nhấn mạnh Markdown: khóa đại từ 'nó' cho Tanya, 'Cô ả' cho pháp sư địch, cùng hai cụm in nghiêng '*Lên nào!*' và '*Cô ả nhất quyết không chịu bỏ cuộc!*' theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000335"
+    choices:
+      - "Thoại lắp bắp: giữ '“Đ-đợi đã!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000336"
+    choices:
+      - "Thoại mỉa mai & xưng hô: giữ xưng hô 'Tôi - cô' và dấu chấm hỏi lửng ở cuối câu."
+  - segment_id: "YS-LN05/Text/part0020.html/p000337"
+    choices:
+      - "Điểm nhìn nội tâm & phủ định: giữ đại từ 'Mình', phủ định 'không thể để bị cuốn vào dây dưa với kẻ bám đuôi nửa mùa ngoan cố này mà đánh mất cơ hội rút lui'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000338"
+    choices:
+      - "Thoại & phủ định: giữ '“Tôi không có núm vú giả đâu, nên ngậm tạm thứ này đi!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000339"
+    choices:
+      - "Điểm nhìn nội tâm & thuật ngữ: khóa đại từ 'mình', 'Lục quân Đế quốc' (Imperial Army) và 'lựu đạn chày' (potato mashers)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000340"
+    choices:
+      - "Số liệu & thuật ngữ: khóa 'đường kính mười mét' và 'viên đạn thuật thức ở phần đầu'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000341"
+    choices:
+      - "Thuật ngữ & hành động: giữ chi tiết nạp thuật thức vào và nén lại đến mức không tưởng trước khi Tanya thản nhiên ném quả lựu đạn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000342"
+    choices:
+      - "Đại từ trần thuật & nhấn mạnh Markdown: khóa đại từ 'nó' cho Tanya và từ in nghiêng '*trông*' theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000343"
+    choices:
+      - "Thoại ngắt quãng: khóa '“Trò—”' nối trực tiếp với phần tiếp theo ở p000344."
+  - segment_id: "YS-LN05/Text/part0020.html/p000344"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: khóa '*—vô ích thôi!*' theo đúng thẻ <em> của nguồn và thuật ngữ 'màn chắn bảo hộ' (protective film)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000345"
+    choices:
+      - "Thuật ngữ & kết quả: khóa 'viên đạn thuật thức', 'cự ly gần', 'thuật thức phát nổ' và chi tiết phần đầu quả lựu đạn vỡ tung tóe."
+  - segment_id: "YS-LN05/Text/part0020.html/p000346"
+    choices:
+      - "Thoại cảm thán: giữ '“Á…… Hự…!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000347"
+    choices:
+      - "Thoại: giữ '“Ha! Đáng đời lắm!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000348"
+    choices:
+      - "Thoại: giữ '“Hạ được một tên! Tuyệt vời!”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000349"
+    choices:
+      - "Đại từ trần thuật, cách gọi & nhấn mạnh Markdown: khóa đại từ 'nó' cho Tanya, 'Nữ pháp sư kia / cô ả' cho địch, cùng hai phần in nghiêng '*ừ*' và '*Chẳng lẽ điều đó có nghĩa là…*' theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000350"
+    choices:
+      - "Nhấn mạnh Markdown & câu hỏi nội tâm: khóa toàn câu trong '*...*' ('*…cô ả đã gượng dậy được sao?*') theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000351"
+    choices:
+      - "Thoại & thuật ngữ: giữ phủ định 'không đâu' và 'một mục tiêu chưa xác nhận'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000352"
+    choices:
+      - "Xưng hô cấp dưới - cấp trên: khóa cách gọi 'Trung tá' cho đại từ ngôi thứ hai khi cấp dưới nói với Tanya."
+  - segment_id: "YS-LN05/Text/part0020.html/p000353"
+    choices:
+      - "Thoại, tình thái & phủ định: giữ 'Có vẻ cô ả đã gượng lại được vào giây cuối cùng', lời dặn không tính chiến công chưa chắc chắn và so sánh 'khai khống thành tích'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000354"
+    choices:
+      - "Điểm nhìn nội tâm & tình thái: giữ đại từ 'mình', 'cô ả' và nhận định 'khả năng cao là sẽ được giải cứu'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000355"
+    choices:
+      - "Giả định & phủ định kép: giữ 'Ngay cả khi cô ả rơi xuống vùng biển giá buốt' và phủ định kép 'khả năng sống sót cũng không hề thấp'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000356"
+    choices:
+      - "Thoại & xưng hô: giữ ví von 'dai như gián', xưng hô 'tôi - chúng ta', cụm 'lính Đế quốc' và làm rõ quy chiếu người cha của nữ pháp sư địch."
+  - segment_id: "YS-LN05/Text/part0020.html/p000357"
+    choices:
+      - "Quân hàm & xưng hô: khóa 'Trung tá' / 'thưa Trung tá' (Colonel)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000358"
+    choices:
+      - "Thoại & liên kết nội văn bản: giữ ý thành ngữ không đánh giá qua vẻ bề ngoài/trang bìa đồng bộ với phân tích ở p000362."
+  - segment_id: "YS-LN05/Text/part0020.html/p000359"
+    choices:
+      - "Điểm nhìn nội tâm: giữ đại từ 'mình / Mình' và 'họ' (thuộc hạ của Tanya)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000360"
+    choices:
+      - "Thoại & phủ định: giữ đại từ 'tôi' và phủ định 'nhưng chuyện đang nói không phải là về cái đó'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000361"
+    choices:
+      - "Điểm nhìn nội tâm & câu hỏi tu từ: giữ đại từ 'mình', hình ảnh 'một bé gái' và 'đặc điểm nhận dạng'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000362"
+    choices:
+      - "Lập luận & thuật ngữ: giữ phân tích về câu nói 'đừng đánh giá cuốn sách qua trang bìa' và nhận định 'ngoại hình lại là dữ liệu vô cùng hữu ích' khi xét đến việc nhận diện."
+  - segment_id: "YS-LN05/Text/part0020.html/p000363"
+    choices:
+      - "Điểm nhìn nội tâm & phủ định: giữ đại từ 'Mình' và phủ định 'chẳng thích bị chú ý trên chiến trường chỉ vì thân hình nhỏ nhắn chút nào'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000364"
+    choices:
+      - "Thoại & thuật ngữ: khóa đại từ 'Tôi / tôi' và 'câu lạc bộ sĩ quan' (officers’ club)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000365"
+    choices:
+      - "Quân hàm & sắc thái: khóa 'Xin Trung tá thứ lỗi' (Colonel) và nét nghĩa 'buồn cười không chịu được'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000366"
+    choices:
+      - "Quân hàm & xưng hô: khóa cách gọi 'Trung tá' (you), đại từ 'tôi' và danh xưng 'Thiếu tá Weiss' (Major Weiss)."
