@@ -1,0 +1,234 @@
+task_id: vol-05-ch-03-b12-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - segment_id: YS-LN05/Text/part0020.html/p000059
+    severity: moderate
+    issue: "Cụm động từ bị động chỉ hành động đang bị hỏa lực địch nhắm bắn trong độc thoại nội tâm của Tanya bị dịch thành 'đang bị cả một trung đoàn bắn trả', làm lệch trình tự nhân quả của trận đánh (ngụ ý đơn vị của Tanya đã nổ súng trước nên đối phương mới bắn trả, mâu thuẫn với lệnh hủy tấn công ở p000044 và chi tiết địch tấn công phủ đầu ở p000060). Đồng thời, đại từ sở hữu ngôi thứ nhất số nhiều trong câu nghĩ thầm này đang dùng 'chúng ta', chưa đồng nhất với 'bọn mình' trong chuỗi độc thoại nội tâm cùng cảnh (p000040, p000041, p000054, p000060)."
+    recommendation: "Sửa 'bắn trả' thành 'nã đạn vào' hoặc 'bắn vào', đồng thời đổi 'chúng ta' thành 'bọn mình' trong phần in nghiêng: '*Tiểu đoàn tăng cường của bọn mình đang bị cả một trung đoàn nã đạn vào.*'"
+  - segment_id: YS-LN05/Text/part0020.html/p000077
+    severity: minor
+    issue: "Động từ chỉ việc kìm giữ/ẩn dấu tín hiệu ma lực để tránh bị phát hiện sớm được dịch là 'ém nhẹm tín hiệu ma lực', mang sắc thái khẩu ngữ chỉ hành vi bưng bít thông tin hoặc che đậy sai phạm hơn là thao tác kỹ thuật – tác chiến."
+    recommendation: "Đổi 'ém nhẹm' thành 'che giấu' hoặc 'kìm nén' ('Họ thậm chí đã che giấu tín hiệu ma lực của mình để không bị phát hiện từ trước.')."
+pending_term_recommendations:
+  - source_term: passenger ship
+    proposed_vi: tàu chở khách
+    category: thuật ngữ
+    status: proposed
+    rationale: "Cách dịch trực tiếp, chuẩn xác cho phân loại tàu mục tiêu được nhắc ở mở đầu cảnh."
+    alternatives_vi:
+      - tàu khách
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000040
+  - source_term: Intelligence
+    proposed_vi: bên Tình báo
+    category: thuật ngữ
+    status: proposed
+    rationale: "Phù hợp với giọng độc thoại và lời thoại bức xúc của Tanya khi quy chiếu bộ phận tình báo của Đế quốc; khớp với sổ pending hiện hành."
+    alternatives_vi:
+      - ngành Tình báo
+      - cục Tình báo
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000041
+      - YS-LN05/Text/part0020.html/p000061
+      - YS-LN05/Text/part0020.html/p000063
+  - source_term: Commonwealth
+    proposed_vi: Khối Thịnh vượng chung
+    category: tên gọi
+    status: proposed
+    rationale: "Giữ thống nhất với phương án tạm đã dùng xuyên suốt vol-04 và vol-05 trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000041
+      - YS-LN05/Text/part0020.html/p000066
+      - YS-LN05/Text/part0020.html/p000074
+  - source_term: 203rd Aerial Mage Battalion
+    proposed_vi: Tiểu đoàn Pháp sư Trên không số 203
+    category: tên đơn vị
+    status: proposed
+    rationale: "Giữ đúng tên phiên hiệu đơn vị đã dùng nhất quán từ vol-02 đến vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000047
+  - source_term: assault formation / attack formation
+    proposed_vi: "đội hình xung kích / đội hình tấn công"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Phân biệt hợp lý hai cách gọi đội hình tiến công trong trần thuật và khẩu lệnh chiến thuật."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000047
+      - YS-LN05/Text/part0020.html/p000048
+      - YS-LN05/Text/part0020.html/p000061
+  - source_term: Break!
+    proposed_vi: Break!
+    category: khẩu lệnh
+    status: proposed
+    rationale: "Giữ nguyên khẩu lệnh cơ động tách đội hình trong không chiến theo đúng phương án tạm ở các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000048
+  - source_term: mana signals / signatures
+    proposed_vi: "tín hiệu ma lực / dấu hiệu (dấu hiệu ma lực)"
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ nhất quán với thuật ngữ 'tín hiệu ma lực' trong sổ pending; phần 'signatures' dịch là 'dấu hiệu' (p000051) và làm rõ thành 'dấu hiệu ma lực' (p000080) giúp câu thoại tự nhiên và rõ nghĩa."
+    alternatives_vi:
+      - dấu vết ma lực
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000051
+      - YS-LN05/Text/part0020.html/p000056
+      - YS-LN05/Text/part0020.html/p000077
+      - YS-LN05/Text/part0020.html/p000080
+  - source_term: disciplined fire / discipline fire
+    proposed_vi: hỏa lực có kiểm soát
+    category: thuật ngữ
+    status: proposed
+    rationale: "Thống nhất với phương án tạm đã khóa ở các tập trước cho màn bắn tập trung theo trật tự chỉ huy."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000052
+      - YS-LN05/Text/part0020.html/p000070
+  - source_term: formula bullets
+    proposed_vi: đạn thuật thức
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với thuật ngữ tạm trong sổ pending để đối lập với đạn thường."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000053
+  - source_term: augmented battalion
+    proposed_vi: tiểu đoàn tăng cường
+    category: thuật ngữ
+    status: proposed
+    rationale: "Giữ nhất quán với phương án tạm trong sổ pending cho biên chế tăng cường của Tiểu đoàn 203."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000059
+  - source_term: General Staff
+    proposed_vi: Bộ Tổng tham mưu
+    category: tên cơ quan
+    status: proposed
+    rationale: "Thống nhất với cách gọi cơ quan tham mưu trung ương của Đế quốc trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000065
+  - source_term: Commonwealth marine mages
+    proposed_vi: pháp sư hải quân đánh bộ của Khối Thịnh vượng chung
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với phương án tạm từ vol-04 cho lực lượng dưới quyền Trung tá Drake."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000066
+      - YS-LN05/Text/part0020.html/p000074
+  - source_term: Major General Habergram
+    proposed_vi: Thiếu tướng Habergram
+    category: nhân vật / quân hàm
+    status: proposed
+    rationale: "Giữ đúng cấp bậc Thiếu tướng và tên nhân vật theo các batch trước của vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000073
+  - source_term: mole
+    proposed_vi: kẻ nội gián
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với phương án tạm trong sổ pending của vol-05."
+    alternatives_vi:
+      - nội gián
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000073
+  - source_term: Lieutenant Colonel Drake / Colonel Drake
+    proposed_vi: "Trung tá Drake / thưa Trung tá Drake"
+    category: nhân vật / quân hàm
+    status: proposed
+    rationale: "Giữ đúng cấp bậc thực tế là Trung tá trong cả trần thuật lẫn lời xưng hô của thuộc cấp (tương tự cách xử lý cấp bậc của Tanya và Lergen)."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000074
+      - YS-LN05/Text/part0020.html/p000079
+  - source_term: information war
+    proposed_vi: chiến tranh thông tin
+    category: thuật ngữ
+    status: proposed
+    rationale: "Khớp với phương án tạm trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000074
+  - source_term: screen of anti–air fire
+    proposed_vi: màn hỏa lực phòng không
+    category: thuật ngữ
+    status: proposed
+    rationale: "Diễn đạt chính xác hình ảnh lưới lửa phòng không chắn ngang đường bổ nhào của đối phương."
+    alternatives_vi:
+      - lưới lửa phòng không
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000076
+  - source_term: Named
+    proposed_vi: Pháp sư Định danh
+    category: thuật ngữ
+    status: proposed
+    rationale: "Thống nhất với phương án tạm đã khóa ở vol-04 và vol-05."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN05/Text/part0020.html/p000080
+locked_choices:
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000040
+      - YS-LN05/Text/part0020.html/p000041
+      - YS-LN05/Text/part0020.html/p000045
+      - YS-LN05/Text/part0020.html/p000046
+      - YS-LN05/Text/part0020.html/p000050
+      - YS-LN05/Text/part0020.html/p000054
+      - YS-LN05/Text/part0020.html/p000057
+      - YS-LN05/Text/part0020.html/p000059
+      - YS-LN05/Text/part0020.html/p000060
+      - YS-LN05/Text/part0020.html/p000061
+      - YS-LN05/Text/part0020.html/p000062
+      - YS-LN05/Text/part0020.html/p000063
+      - YS-LN05/Text/part0020.html/p000064
+      - YS-LN05/Text/part0020.html/p000065
+      - YS-LN05/Text/part0020.html/p000069
+      - YS-LN05/Text/part0020.html/p000070
+      - YS-LN05/Text/part0020.html/p000071
+    category: điểm nhìn và đại từ của Tanya
+    choice: "Theo DEC-P01-001: trần thuật ngôi thứ ba gọi Tanya là 'Tanya' hoặc 'nó' (p000046, p000050, p000059, p000061, p000062); độc thoại nội tâm dùng 'mình' (ngôi thứ nhất số ít) và 'bọn mình' (ngôi thứ nhất số nhiều, bao gồm sau khi đồng bộ p000059); lời thoại trực tiếp trước đơn vị dùng 'chúng ta' (p000061, p000071); chủ thể giả định khái quát ở p000060 dùng 'bạn'."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000049
+      - YS-LN05/Text/part0020.html/p000066
+      - YS-LN05/Text/part0020.html/p000079
+    category: quân hàm và xưng hô trong thoại
+    choice: "Thuộc cấp của Tanya đáp lời bằng 'thưa Trung tá' (p000049, p000066) và thuộc cấp của Drake gọi 'thưa Trung tá Drake' (p000079), phản ánh đúng quân hàm thực tế là Trung tá của cả hai chỉ huy trong giai đoạn này."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000073
+      - YS-LN05/Text/part0020.html/p000074
+      - YS-LN05/Text/part0020.html/p000075
+      - YS-LN05/Text/part0020.html/p000076
+      - YS-LN05/Text/part0020.html/p000077
+      - YS-LN05/Text/part0020.html/p000080
+    category: đại từ và xưng hô phía Khối Thịnh vượng chung
+    choice: "Trần thuật ngôi thứ ba quy chiếu Trung tá Drake bằng 'ông'; trong hồi tưởng và lời thoại, Habergram và Drake dùng 'chúng ta' cho phe mình, Drake tự xưng 'tôi' (p000080) và gọi quân địch là 'các người' khi thốt lên một mình (p000075) hoặc 'chúng' khi nhận định với thuộc cấp."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000040
+      - YS-LN05/Text/part0020.html/p000041
+      - YS-LN05/Text/part0020.html/p000059
+      - YS-LN05/Text/part0020.html/p000073
+      - YS-LN05/Text/part0020.html/p000074
+      - YS-LN05/Text/part0020.html/p000075
+    category: nhấn mạnh Markdown
+    choice: "Theo DEC-P01-002: giữ đúng dấu *...* cho 6 vị trí có thẻ em trong nguồn (p000040, p000041, p000059, p000073, p000074, p000075); không tự thêm in nghiêng ở các câu độc thoại nội tâm còn lại."
+  - segment_ids:
+      - YS-LN05/Text/part0020.html/p000041
+      - YS-LN05/Text/part0020.html/p000050
+      - YS-LN05/Text/part0020.html/p000054
+      - YS-LN05/Text/part0020.html/p000058
+      - YS-LN05/Text/part0020.html/p000060
+      - YS-LN05/Text/part0020.html/p000065
+      - YS-LN05/Text/part0020.html/p000069
+      - YS-LN05/Text/part0020.html/p000071
+    category: phủ định, giả định và tình thái
+    choice: "Giữ nguyên giả định trái thực tế ở quá khứ tại p000041, p000054 và p000065; cấu trúc phủ định kép ở p000050 ('không thắc mắc cũng chẳng tranh cãi') và p000060 ('khó mà không bị loạn nhịp'); sắc thái phỏng đoán/chưa chắc chắn ở p000058, p000060 ('có lẽ') và p000071 ('hẳn sẽ', 'vẫn chưa rõ liệu... hay không')."
