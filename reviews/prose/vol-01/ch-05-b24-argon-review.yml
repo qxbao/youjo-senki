@@ -1,0 +1,205 @@
+task_id: vol-01-ch-05-b24-argon-review
+parent_task_id: vol-01-ch-05-b24
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-01/ch-05-b24-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000606
+    severity: minor
+    category: lexical_precision
+    issue: "Cụm từ liệt kê người kể (Visha) và các thuộc cấp còn lại của vị đại úy được dịch là 'tôi cùng toàn bộ cấp dưới của cô ấy', lược mất sắc thái 'khác / còn lại' dù bản thân Visha cũng là cấp dưới của Tanya."
+    basis: "Trong mạch trần thuật ngôi thứ nhất của Visha, nguồn dùng từ bổ nghĩa chỉ những cấp dưới còn lại ngoài người kể để thể hiện Visha nằm trong nhóm thuộc cấp của vị đại úy."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ ở bước chuốt văn thành 'tôi cùng toàn bộ các cấp dưới khác của cô ấy' hoặc 'tôi cùng toàn bộ số cấp dưới còn lại của cô ấy'; không ảnh hưởng nghĩa cốt lõi."
+pending_term_recommendations:
+  - source_term: Alpen Mountains / Zugspitze Training Grounds / training ground B-113
+    proposed_vi: "dãy núi Alpen / Thao trường Zugspitze / thao trường B-113"
+    alternatives_vi:
+      - "vùng núi Alpen / Bãi tập Zugspitze / bãi tập B-113"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000590
+      - YS-LN01/Text/chapter011.xhtml/p000596
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Giữ nguyên tên riêng địa danh Alpen và Zugspitze, đồng bộ 'dãy núi Alpen' với work/run-state/pending-terms-index.yml (p000625, ch-05-b25) và thống nhất dịch 'training ground(s)' là 'thao trường'."
+  - source_term: O Lord / God
+    proposed_vi: "Hỡi Chúa / Thượng đế; ngài"
+    alternatives_vi:
+      - "Lạy Chúa / Chúa Trời; Ngài"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000591
+      - YS-LN01/Text/chapter011.xhtml/p000602
+      - YS-LN01/Text/chapter011.xhtml/p000603
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Kế thừa nhất quán phương án tạm trong work/run-state/pending-terms-index.yml: dùng 'Chúa' cho danh xưng trong lời cầu nguyện mở đầu của Tanya và 'Thượng đế' / 'ngài' (viết thường) trong độc thoại của Visha."
+  - source_term: Captain von Degurechaff / the captain
+    proposed_vi: "Đại úy von Degurechaff / vị đại úy"
+    alternatives_vi:
+      - "Đại úy von Degurechaff / đại úy"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000594
+      - YS-LN01/Text/chapter011.xhtml/p000595
+      - YS-LN01/Text/chapter011.xhtml/p000602
+      - YS-LN01/Text/chapter011.xhtml/p000606
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Phân biệt rõ danh xưng kèm họ ('Đại úy von Degurechaff') và danh từ chung chỉ chức vụ/cấp bậc trong trần thuật của Visha ('vị đại úy', viết thường), đồng bộ với ch-05-b25."
+  - source_term: Rhine lines / Rhine battle lines
+    proposed_vi: "phòng tuyến Rhine / chiến tuyến Rhine"
+    alternatives_vi:
+      - "tuyến phòng thủ Rhine / mặt trận Rhine"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000594
+      - YS-LN01/Text/chapter011.xhtml/p000599
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Kế thừa phương án tạm 'phòng tuyến Rhine' từ work/run-state/pending-terms-index.yml và phân biệt tự nhiên với biến thể có thêm từ 'battle' ('chiến tuyến Rhine') trong cùng đoạn p000594."
+  - source_term: orbs and trowels / defensive shells / computation orb / defensive formulas
+    proposed_vi: "quả cầu và xẻng con / lớp vỏ phòng thủ / quả cầu tính toán / thuật thức phòng ngự"
+    alternatives_vi:
+      - "quả cầu và xẻng cá nhân / màn chắn phòng thủ / bảo châu tính toán / công thức phòng thủ"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000592
+      - YS-LN01/Text/chapter011.xhtml/p000594
+      - YS-LN01/Text/chapter011.xhtml/p000595
+      - YS-LN01/Text/chapter011.xhtml/p000599
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ 'quả cầu', 'xẻng con', 'lớp vỏ phòng thủ' với work/run-state/pending-terms-index.yml và phần tiếp nối trực tiếp tại ch-05-b25 (p000610, p000615)."
+  - source_term: observer-assisted shelling / magically guided fire / guided fire / anti-artillery training
+    proposed_vi: "pháo kích có quan sát viên hiệu chỉnh / hỏa lực dẫn đường bằng ma pháp / hỏa lực dẫn đường / huấn luyện chống pháo binh"
+    alternatives_vi:
+      - "pháo kích có trinh sát viên chỉ điểm / hỏa lực điều khiển bằng ma pháp / huấn luyện đối phó pháo binh"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000598
+      - YS-LN01/Text/chapter011.xhtml/p000609
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Biểu đạt chuẩn xác thuật ngữ pháo binh và tác chiến ma pháp theo đúng cơ chế được mô tả trong bài tập."
+  - source_term: second waypoint / optical interception / training round(s)
+    proposed_vi: "điểm mốc thứ hai / đánh chặn quang học / đạn tập"
+    alternatives_vi:
+      - "điểm tập kết thứ hai / đánh chặn bằng quang học / đạn pháo huấn luyện"
+    segment_ids:
+      - YS-LN01/Text/chapter011.xhtml/p000600
+      - YS-LN01/Text/chapter011.xhtml/p000607
+      - YS-LN01/Text/chapter011.xhtml/p000609
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ 'điểm mốc' và 'đạn tập' với ch-05-b25 (p000612, p000617, p000624) và work/run-state/pending-terms-index.yml."
+locked_choices:
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000590
+    pov_and_pronouns: "Tiêu đề định vị bối cảnh khách quan, không có đại từ nhân xưng."
+    terms_and_ranks: "LÃNH THỔ ĐẾ QUỐC; DÃY NÚI ALPEN; THAO TRƯỜNG ZUGSPITZE."
+    modality_and_negation: "Giữ định dạng chữ in hoa toàn bộ cho dòng tiêu đề địa điểm."
+    emphasis: "Không dùng dấu *...* (nguồn không nhấn mạnh)."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000591
+    pov_and_pronouns: "Lời cầu nguyện mở đầu của Tanya: hô ngữ 'Hỡi Chúa', tự xưng 'con', sở hữu phản thân 'đàn chiên của mình'."
+    terms_and_ranks: "Chúa; đàn chiên."
+    modality_and_negation: "Giữ thức cầu khiến trang trọng 'xin hãy chỉ lối cho con...'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000592
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất của Visha (Viktoriya Ivanovna Serebryakov): tự xưng 'tôi' / 'mình' và số nhiều 'chúng tôi' (tuân thủ giới hạn chủ thể của DEC-P01-001, không áp đại từ 'nó' của Tanya sang Visha)."
+    terms_and_ranks: "Tám nghìn feet; pháp sư trên không; quả cầu."
+    modality_and_negation: "Giữ phủ định triệt để 'chẳng còn dám nghĩ tới', đính chính trực tiếp 'Không, chúng tôi bị buộc phải làm vậy' và mệnh đề điều kiện rào đón về trí nhớ thời gian 'nếu cảm nhận thời gian mơ hồ và chẳng mấy đáng tin cậy của tôi là đúng' với mốc 'khoảng năm ngày trước'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000593
+    pov_and_pronouns: "Thoại của Tanya trước nhóm học viên: tự xưng 'Tôi' / 'tôi', gọi tập thể học viên là 'tất cả mọi người', phản thân 'của mình'."
+    terms_and_ranks: "bắn hạ; khóa huấn luyện."
+    modality_and_negation: "Giữ cấu trúc lựa chọn tương hỗ 'Hoặc là..., hoặc là...'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000594
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất của Visha: 'chúng tôi' và 'tôi'; quy chiếu 'nụ cười đó' bằng 'nó'."
+    terms_and_ranks: "phòng tuyến Rhine; Đại úy von Degurechaff; cuộc tập kích ma pháp; khu doanh trại; quả cầu và xẻng con; lớp vỏ phòng thủ; chiến tuyến Rhine; Elya."
+    modality_and_negation: "Giữ giả định quá khứ 'Tôi từng nghĩ biết đâu đây là...' và hai phép so sánh hơn ('tốt hơn hồi tôi còn ở phòng tuyến Rhine', 'còn hại tim hơn cả mấy trò chơi khăm của Elya')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000595
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất của Visha; quy chiếu 'vị đại úy' ở ngôi thứ ba bằng 'cô ấy' và quy chiếu 'Lưỡi lê' bằng 'Nó' / 'nó'."
+    terms_and_ranks: "Lưỡi lê; súng trường; vị đại úy; pháp sư; ma lực; quả cầu tính toán."
+    modality_and_negation: "Giữ so sánh 'chẳng khác nào một con ma cà rồng đang đi săn', tình thái ngoại suy 'như thể đang sốt ruột chờ...', quan hệ nhượng bộ 'bất chấp màn đêm u tối' và mệnh đề điều kiện làm căn cứ suy đoán ở cuối đoạn."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000596
+    pov_and_pronouns: "Thoại của Tanya: tự xưng 'Tôi', gọi nhóm học viên là 'mọi người' / 'tất cả mọi người'."
+    terms_and_ranks: "các bài tập cơ động; thao trường B-113."
+    modality_and_negation: "Giữ câu hỏi mở đầu xác nhận sự chú ý và mốc thời gian 'Trong một tuần tới'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000597
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất số nhiều của nhóm học viên: 'chúng tôi'."
+    terms_and_ranks: "bản đồ; đề cương của bài tập; điểm đầu tiên; bốn mươi tám tiếng."
+    modality_and_negation: "Giữ yêu cầu tốc độ tối đa 'nhanh nhất có thể' và mốc giới hạn thời gian 48 tiếng."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000598
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất: 'Chúng tôi' / 'chúng tôi' và 'tôi' (lược chủ ngữ trong cấu trúc ước muốn 'Có điều giá mà...')."
+    terms_and_ranks: "Hành quân; Trường Thiếu sinh quân; pháo kích có quan sát viên hiệu chỉnh; hỏa lực dẫn đường bằng ma pháp; tín hiệu mana."
+    modality_and_negation: "Giữ cặp phủ định tương phản 'bằng cách nào không quan trọng—điều quan trọng là không được thất bại' và hàm ý ước muốn trái thực tế 'Có điều giá mà không có... thì tốt biết mấy'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000599
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất: 'Tôi' / 'tôi' và 'chúng tôi'."
+    terms_and_ranks: "hành quân; tín hiệu; pháp sư; phòng tuyến Rhine; khu doanh trại; thuật thức phòng ngự; ma pháp; trận thực chiến."
+    modality_and_negation: "Giữ phủ định 'Tôi cũng không phải ngoại lệ', phủ định mức độ 'thậm chí còn chẳng có nổi mấy giọt nước', câu hỏi tu từ kèm phủ định phương tiện 'mà không được dựa vào ma pháp ư?' và giả định so sánh 'Một trận thực chiến có khi còn dễ thở hơn'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000600
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất số nhiều: 'chúng tôi'."
+    terms_and_ranks: "điểm mốc thứ hai; đánh chặn quang học; bên pháo binh; chương trình huấn luyện."
+    modality_and_negation: "Giữ tình thái thông tin truyền miệng 'Nghe đồn...' và quan hệ nhân quả dẫn tới việc đổi chương trình huấn luyện."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000601
+    pov_and_pronouns: "Thoại của Tanya: gọi tập thể là 'Mọi người' / 'mọi người', tự xưng 'tôi'."
+    terms_and_ranks: "bỏ cuộc."
+    modality_and_negation: "Giữ phủ định toàn phần 'không có lấy một ai trong số mọi người bỏ cuộc'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000602
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất: 'tất cả chúng tôi' và 'Tôi'."
+    terms_and_ranks: "vị đại úy; Thượng đế."
+    modality_and_negation: "Giữ so sánh bậc hơn 'một điều còn tồi tệ hơn nữa sắp sửa ập đến' và câu cảm thán phủ định cuối đoạn."
+    emphasis: "Khóa chính xác 1 cụm nhấn mạnh Markdown '*Không, thôi nào!*' ở cuối đoạn, khớp 1:1 với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000603
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất của Visha: quy chiếu Tanya bằng 'cô ấy'; trong lời nói giả định trên nét mặt Tanya: tự xưng 'Tôi' / 'tôi', gọi học viên là 'Mọi người' / 'mọi người'; câu cuối Visha gọi 'Thượng đế' là 'ngài' (viết thường)."
+    terms_and_ranks: "Thượng đế; ngài."
+    modality_and_negation: "Giữ câu hỏi phủ định giả định '*Mọi người vẫn chưa thấy đủ sao?*' và phủ định nhận thức '*Tôi không ngờ...*'."
+    emphasis: "Khóa chính xác 2 cụm nhấn mạnh Markdown '*Mọi người vẫn chưa thấy đủ sao? Tôi không ngờ mọi người lại là một đám lì đòn đến thế đấy,*' và '*Có vẻ như tôi có thể tăng độ khó lên một chút nữa rồi.*', giữ liên từ 'hoặc' nằm ngoài dấu sao đúng theo cấu trúc <html:em> của nguồn (DEC-P01-002)."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000604
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất số nhiều 'Chúng tôi' / 'chúng tôi'; quy chiếu Tanya bằng 'cô ấy'."
+    terms_and_ranks: "cường độ huấn luyện; năng lực."
+    modality_and_negation: "Giữ cấu trúc phủ định ngoại trừ 'không còn lựa chọn nào khác ngoài việc phải chấp nhận sự thật rằng...' và dấu ngoặc kép mỉa mai '“tốt bụng”'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000605
+    pov_and_pronouns: "Thoại của Tanya: gọi học viên là 'Tất cả mọi người'."
+    terms_and_ranks: "bên pháo binh; đạn dược."
+    modality_and_negation: "Giữ quan hệ mức độ – hệ quả 'giỏi việc này đến mức khiến bên pháo binh còn dư cả đống đạn dược kìa'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000606
+    pov_and_pronouns: "Điểm nhìn ngôi thứ nhất của Visha: 'tôi'; quy chiếu 'Vị đại úy' bằng 'cô ấy'."
+    terms_and_ranks: "Vị đại úy; cấp dưới."
+    modality_and_negation: "Giữ thành ngữ phủ định 'Phần còn lại thì chẳng cần nói cũng rõ'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000607
+    pov_and_pronouns: "Thoại của Tanya ('Mọi người', 'Tôi', quy chiếu pháo binh bằng 'họ') và trần thuật ngôi thứ nhất số nhiều của Visha ('chúng tôi', quy chiếu Tanya bằng 'Cô ấy')."
+    terms_and_ranks: "bên pháo binh / phía pháo binh; thuật thức; chùm tia hồng ngoại; đạn tập; đường bắn; điểm tập kết."
+    modality_and_negation: "Giữ câu hỏi đuôi phủ định 'Mọi người đâu muốn họ cảm thấy bị bỏ rơi, phải không nào?' và tình thái đề nghị 'Tôi nghĩ mọi người nên...'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000608
+    pov_and_pronouns: "Trần thuật và độc thoại nội tâm của Visha; quy chiếu Tanya bằng 'cô ấy'; trong lời khen giả định/nhại lại của Tanya: 'Tất cả mọi người' / 'mọi người' và 'tôi'."
+    terms_and_ranks: "đợt pháo kích dồn dập; điểm cố định."
+    modality_and_negation: "Giữ cấu trúc phủ định kép 'không thể *không* trúng' và câu hỏi cảm thán hoài nghi cuối đoạn 'Sao cô ấy lại có thể thốt ra những lời như thế chứ…?'."
+    emphasis: "Khóa chính xác 2 cụm nhấn mạnh Markdown: từ phủ định thứ hai '*không*' và cụm '*Tất cả mọi người đều rất có năng lực. Ngay cả tôi cũng tự hào về mọi người.*', khớp 1:1 với 2 thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011.xhtml/p000609
+    pov_and_pronouns: "Thoại của Tanya trước toàn đội: tự xưng 'tôi' / 'Tôi', gọi học viên là 'mọi người' / 'Mọi người' (kết hợp phản thân 'của mình'), quy chiếu bên pháo binh bằng 'Họ' / 'họ'."
+    terms_and_ranks: "huấn luyện; hỏa lực dẫn đường của pháo binh; huấn luyện chống pháo binh; cuộc diễn tập phối hợp; các khẩu đội pháo; điểm chốt; trận chiến phòng ngự; mười lăm phút; đạn tập; ba mươi sáu tiếng."
+    modality_and_negation: "Giữ nhượng bộ 'Đành rằng đây chỉ là huấn luyện, nhưng...', câu hỏi đuôi phủ định kép 'sẽ chẳng ổn chút nào nếu mọi người không trải qua..., đúng không?', mệnh lệnh phủ định 'đừng bày ra vẻ mặt lo lắng thế chứ', phủ định mức độ 'không có quá nhiều đạn tập đâu' và phỏng đoán 'Tôi đoán họ sẽ bắn hết sạch sau khoảng ba mươi sáu tiếng thôi'."
+    emphasis: "Không dùng dấu *...*."
