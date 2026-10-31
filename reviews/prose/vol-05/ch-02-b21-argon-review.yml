@@ -1,0 +1,231 @@
+task_id: "vol-05-ch-02-b21-argon-review"
+parent_task_id: "vol-05-ch-02-b21"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 2
+source_package: "work/vol-05/batches/ch-02-b21-source.jsonl"
+target_translation: "translations/vol-05/ch-02-b21.jsonl"
+review_path: "reviews/prose/vol-05/ch-02-b21-argon-review.yml"
+state: "done"
+status: "completed"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0016.html/p000563"
+    severity: "minor"
+    category: "register_and_nuance"
+    issue: "Cụm thành ngữ chỉ những nhân vật có tầm ảnh hưởng lớn trên chính trường phương Tây đang được dịch là 'Những kẻ thao túng', thêm sắc thái miệt thị tiêu cực chưa có trực tiếp trong từ gốc (trong ngữ cảnh Loria đang đặt họ ngang hàng với tầng lớp tinh hoa như phía mình)."
+    basis: "Nguyên tắc tại canon/style-guide.md: không thêm sắc thái phán xét hoặc miệt thị không có trong nguồn."
+    recommendation: "Cân nhắc chỉnh thành 'Những nhân vật nắm quyền xoay chuyển trên chính trường' hoặc 'Những người có tầm ảnh hưởng lớn trên chính trường' ở bước chuốt văn."
+  - segment_id: "YS-LN05/Text/part0016.html/p000565"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Tính từ bổ nghĩa cho hệ triết lý, mục tiêu và nguyên tắc phổ quát đang dịch là 'hào nhoáng' (thường hàm ý bóng bẩy giả tạo), chưa thật ăn khớp với mạch lập luận ngay sau đó về việc giành được sự cảm thông vì ai cũng ngưỡng mộ sự chính trực."
+    basis: "Nguyên tắc tại canon/style-guide.md: giữ đúng bình diện đánh giá và quan hệ nhân quả theo ngữ cảnh."
+    recommendation: "Cân nhắc đổi 'hào nhoáng' thành 'chói lọi' hoặc 'rực rỡ' ở bước chuốt văn."
+  - segment_id: "YS-LN05/Text/part0016.html/p000581"
+    severity: "minor"
+    category: "address_and_hierarchy"
+    issue: "Trong lời thoại của Loria (Bộ trưởng Bộ Dân ủy Nội vụ) giáo huấn viên cấp dưới đang lúng túng trước mặt mình, hô ngữ đang dịch là 'thưa đồng chí' làm đảo ngược sắc thái thứ bậc cấp trên – cấp dưới."
+    basis: "Nguyên tắc tại canon/style-guide.md và DEC-P01-001: giữ giọng thoại nhất quán với vị thế và quan hệ nhân vật trong ngữ cảnh."
+    recommendation: "Cân nhắc bỏ từ 'thưa', chỉnh thành 'Và một chiến thắng, đồng chí ạ, phải là thứ mà chúng ta có thể chấp nhận được.' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000557"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh quốc gia đã dùng trong sổ pending từ vol-04 và vol-05."
+  - source_term: "Loria"
+    proposed_vi: "Loria"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000560"
+      - "YS-LN05/Text/part0016.html/p000573"
+      - "YS-LN05/Text/part0016.html/p000582"
+      - "YS-LN05/Text/part0016.html/p000584"
+      - "YS-LN05/Text/part0016.html/p000589"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên tên riêng nhân vật theo đúng sổ pending từ vol-04."
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000568"
+      - "YS-LN05/Text/part0016.html/p000569"
+      - "YS-LN05/Text/part0016.html/p000575"
+      - "YS-LN05/Text/part0016.html/p000581"
+      - "YS-LN05/Text/part0016.html/p000592"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh quốc gia trong sổ pending từ vol-04 và vol-05."
+  - source_term: "Communism / Communist"
+    proposed_vi: "Chủ nghĩa Cộng sản / Cộng sản"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000568"
+      - "YS-LN05/Text/part0016.html/p000583"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án tạm trong sổ pending từ vol-04 và vol-05."
+  - source_term: "civil-military relations"
+    proposed_vi: "quan hệ dân – quân"
+    alternatives_vi:
+      - "quan hệ quân – dân"
+      - "công tác dân vận – quân sự"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000576"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách dịch sát nghĩa và trung tính cho mảng công tác phối hợp dân sự – quân sự mà Loria đang đề cập."
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000577"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với phương án tạm đã khóa trong sổ pending ở vol-04."
+  - source_term: "gulag"
+    proposed_vi: "trại gulag"
+    alternatives_vi:
+      - "gulag"
+    segment_ids:
+      - "YS-LN05/Text/part0016.html/p000578"
+    volume: "vol-05"
+    chapter: 2
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thuật ngữ đặc thù của Liên bang kèm danh từ loại thể 'trại' giúp câu tiếng Việt rõ nghĩa và tự nhiên."
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0016.html/p000557"
+    choices:
+      - "Thuật ngữ & xưng hô: 'Commonwealth' -> 'Khối Thịnh vượng chung'; 'overseas officers' -> 'cán bộ được cử ra nước ngoài'; 'idealist' -> 'người theo chủ nghĩa lý tưởng'; 'the party' -> 'đảng'; Loria xưng 'tôi' / 'chúng ta'."
+      - "Quan hệ tăng tiến & đối lập: giữ cấu trúc 'không chỉ nói riêng chuyện đối với Khối Thịnh vượng chung', ưu tiên 'nhân cách hơn năng lực', và tiêu chí 'bất tài nhưng lại là người tốt thì hoàn hảo nhất'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000558"
+    choices:
+      - "Điểm nhìn & nghĩa: trần thuật ngôi thứ ba; giữ nhận định những đảng viên hết lòng vì lý tưởng thường rốt cuộc lại gây rắc rối cho đảng; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000559"
+    choices:
+      - "Thuật ngữ: 'humanitarians' -> 'những người theo chủ nghĩa nhân đạo'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000560"
+    choices:
+      - "Tên riêng & thuật ngữ: 'Loria' -> 'Loria'; 'the purges' -> 'các cuộc thanh trừng'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000561"
+    choices:
+      - "Phủ định & đối lập: giữ bộ ba tính từ 'trong sạch, vô tội và tận tụy', cụm phủ định 'chẳng có gì phải chột dạ', và mệnh đề nhượng bộ sau dấu gạch ngang về việc tận dụng/xử lý họ trong thời chiến; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000562"
+    choices:
+      - "Xưng hô & giọng thoại: cấp dưới gọi Loria là 'đồng chí', xưng 'tôi', giữ nét lắp bắp mở đầu '…Đ-đồng chí' và câu hỏi trực tiếp về việc bận tâm đến hình ảnh của 'chúng ta'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000563"
+    choices:
+      - "Thuật ngữ & so sánh: 'democracy' -> 'nền dân chủ'; 'western nations' -> 'các quốc gia phương Tây'; 'elites' -> 'tầng lớp tinh hoa'; 'public opinion' -> 'dư luận'; giữ so sánh hơn về lợi ích của việc dùng biện pháp hợp pháp lôi kéo quần chúng so với phạm pháp; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000564"
+    choices:
+      - "Đại từ & phủ định: trần thuật quy chiếu Loria bằng 'ông ta' và phía Liên bang/đảng bằng 'Họ'; giữ cấu trúc phủ định bộ phận 'Không phải là ông ta có ý xem nhẹ vai trò của các mưu đồ'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000565"
+    choices:
+      - "Phủ định & tình thái: giữ phủ định 'sẽ không bị chỉ trích', quan hệ đối lập 'Trái lại', và tình thái 'có lẽ họ còn giành được sự cảm thông'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000566"
+    choices:
+      - "Đại từ & phủ định: thoại của Loria dùng 'tôi' và 'chúng ta'; giữ phủ định 'ở trong nước chúng ta cũng chẳng có việc gì dùng đến họ' và mục đích truyền bá hình ảnh tốt đẹp ở nước ngoài; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000567"
+    choices:
+      - "Nhấn mạnh Markdown: bọc toàn bộ câu bằng '*...*' khớp chính xác với thẻ em trong XHTML (DEC-P01-002)."
+  - segment_id: "YS-LN05/Text/part0016.html/p000568"
+    choices:
+      - "Thuật ngữ, phủ định & giả định: 'Federation' -> 'Liên bang'; 'Communism' -> 'Chủ nghĩa Cộng sản'; '“real Communist”' -> '“Cộng sản thực thụ”' (giữ dấu ngoặc kép); giữ phủ định 'không thể có ấn tượng quá tồi tệ' và câu hỏi giả định ở câu thứ hai; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000569"
+    choices:
+      - "Tình thái & phủ định: giữ tình thái 'Có lẽ', cấu trúc so sánh bậc nhất phủ định 'chẳng có việc gì khó thực hiện hơn...', và phủ định ở câu sau về việc không bị căm ghét sẽ có lợi hơn về lâu dài; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000570"
+    choices:
+      - "Thuật ngữ & phủ định so sánh: 'fellow combatants' -> 'những người cùng sát cánh tham chiến'; 'common enemy' -> 'kẻ thù chung'; 'common purpose' -> 'mục đích chung'; giữ cấu trúc 'Không gì gắn kết con người ta lại với nhau hơn là...'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000571"
+    choices:
+      - "Thuật ngữ & đại từ: 'the Empire' -> 'Đế quốc'; thoại của Loria dùng 'chúng ta'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000572"
+    choices:
+      - "Giọng thoại: giữ câu thốt ngập ngừng kinh ngạc của viên cấp dưới '“C-cái gì cơ?!”'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000573"
+    choices:
+      - "Tên riêng, tình thái & phủ định: 'Loria' -> 'Loria', đại từ trần thuật 'ông ta'; giữ tình thái 'rất có thể sẽ định đoạt' và câu phủ định bị động 'Thất bại sẽ không được dung thứ'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000574"
+    choices:
+      - "Nhấn mạnh Markdown: bọc toàn bộ cụm '*Một kẻ thù chung.*' khớp chính xác với thẻ em trong XHTML (DEC-P01-002)."
+  - segment_id: "YS-LN05/Text/part0016.html/p000575"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc hai câu độc thoại nội tâm '*Chúng ta đang thuộc dòng chảy chính lưu của thế giới.*' và '*Hắn thật chẳng biết động não gì cả, cứ thế ngơ ngác nhìn lại mình.*' khớp thẻ em trong XHTML (DEC-P01-002); phần còn lại để chữ thường."
+      - "Điểm nhìn & đại từ: trần thuật dùng 'Ông ta', nội tâm Loria tự xưng 'mình' / 'Chúng ta' và gọi viên cấp dưới là 'Hắn'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000576"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: bọc toàn bộ câu hỏi nội tâm bằng '*...*' khớp thẻ em trong XHTML (DEC-P01-002); 'civil-military relations' -> 'quan hệ dân – quân'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000577"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: bọc toàn bộ hai câu độc thoại nội tâm bằng '*...*' khớp thẻ em trong XHTML (DEC-P01-002); 'Commissariat for Internal Affairs' -> 'Bộ Dân ủy Nội vụ'; tự quy chiếu nội tâm dùng 'chúng ta' và 'Mình'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000578"
+    choices:
+      - "Thuật ngữ, đại từ & tình thái: 'gulag' -> 'trại gulag'; trần thuật dùng 'Ông ta', phản thân suy nghĩ dùng 'mình'; giữ tình thái 'có lẽ'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000579"
+    choices:
+      - "Phủ định & điều kiện: giữ điều kiện phủ định 'Chiến tranh chẳng có ý nghĩa gì trừ phi chúng ta chiến thắng và chấm dứt nó' và 'hầu như chẳng ai biết làm thế nào để chiến thắng'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000580"
+    choices:
+      - "Xưng hô & tình thái: cấp dưới gọi Loria là 'đồng chí', giữ nét ngập ngừng và tình thái '…C-có lẽ đồng chí nói đúng.'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000581"
+    choices:
+      - "Thuật ngữ & xưng hô: 'Federation citizens' -> 'công dân Liên bang'; Loria dùng 'chúng ta' và gọi cấp dưới là 'đồng chí' (không dùng 'thưa'); không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000582"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc '*Nhưng*' và '*tại sao việc trở thành bằng hữu của kẻ chiến thắng để được cùng họ cắm răng vào trái ngọt chiến thắng lại là đòi hỏi quá đáng cơ chứ?*' khớp chính xác với hai thẻ em trong XHTML (DEC-P01-002); cụm dẫn trần thuật ở giữa để chữ thường."
+  - segment_id: "YS-LN05/Text/part0016.html/p000583"
+    choices:
+      - "Thuật ngữ & quan hệ nhân quả: 'Communism' -> 'Chủ nghĩa Cộng sản'; 'capitalism' -> 'chủ nghĩa tư bản'; 'the Empire' -> 'Đế quốc'; giữ đúng nguyên nhân ngoại giao do sự xuất hiện của Đế quốc với tư cách là kẻ thù; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000584"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc câu đầu '*…Vậy nên chúng ta phải trục lợi tối đa từ tình thế đó trong khả năng của mình.*' khớp thẻ em trong XHTML (DEC-P01-002); câu trần thuật về Loria và các quan chức trong đảng ở phía sau để chữ thường."
+  - segment_id: "YS-LN05/Text/part0016.html/p000585"
+    choices:
+      - "Nhấn mạnh Markdown & phủ định: chỉ bọc '*Đó*' ở đầu câu cuối khớp thẻ em trong XHTML (DEC-P01-002); giữ phủ định 'không thể tránh khỏi thương vong' lặp lại ở câu đầu và câu thứ ba."
+  - segment_id: "YS-LN05/Text/part0016.html/p000586"
+    choices:
+      - "Thuật ngữ: 'the party' -> 'đảng'; 'front line' -> 'tiền tuyến'; 'human attrition' -> 'sự tiêu hao nhân mạng'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000587"
+    choices:
+      - "Tình thái & đối lập: giữ tình thái 'có lẽ cần phải được tính gộp vào chiến thắng như một điều kiện tất yếu' và cấu trúc đối lập 'Thay vì khóc than trước cái giá phải trả, họ phải nghĩ cách tận dụng nó sao cho tốt nhất'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000588"
+    choices:
+      - "Điều kiện: giữ câu điều kiện về việc nếu thanh niên của tổ quốc đằng nào cũng phải bỏ mạng thì phải biến cái chết của họ trở nên hiệu quả nhất có thể; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000589"
+    choices:
+      - "Tên riêng, đại từ & thuật ngữ: 'Loria' -> 'Loria' ('ông ta'); thoại dùng 'Chúng ta'; 'martyrs' -> 'những người tử vì đạo'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000590"
+    choices:
+      - "Cấu trúc phủ định đối lập: giữ cấu trúc 'không phải bởi kết quả mà bởi tư tưởng'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0016.html/p000591"
+    choices:
+      - "Nhấn mạnh Markdown & phủ định: bọc toàn bộ đoạn bằng '*...*' khớp chính xác với thẻ em trong XHTML (DEC-P01-002); giữ cấu trúc đối lập 'tác động vào cảm xúc chứ đừng tác động vào lý trí' và phủ định 'không một ai có thể gièm pha'."
+  - segment_id: "YS-LN05/Text/part0016.html/p000592"
+    choices:
+      - "Thuật ngữ & phủ định: 'imperialism' -> 'chủ nghĩa đế quốc'; 'Federation' -> 'Liên bang'; giữ dấu chấm lửng trước câu hai và mệnh đề phủ định 'không một kẻ nào ở nước ngoài có thể lên án đạo đức của Liên bang'; không có chữ nghiêng."
