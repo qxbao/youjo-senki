@@ -1,0 +1,242 @@
+task_id: "vol-02-ch-06-b22-argon-review"
+parent_task_id: "vol-02-ch-06-b22"
+volume: "vol-02"
+chapter: 6
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-02/ch-06-b22-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 1
+  moderate: 3
+  minor: 4
+findings:
+  - severity: "serious"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000684"
+    category: "pronouns_and_speaker"
+    issue: "Nhầm chủ thể phát ngôn và đại từ ngôi thứ hai trong câu thoại ngắn. Sau khi Uger nói mình đi làm việc cho Tướng von Zettour và hỏi ngược lại Tanya ở p000682, Tanya suy đoán ở p000683 rồi chính Tanya là người hỏi Uger ở p000684 xem ông có biết thông tin gì không; nhờ vậy ở p000685 Uger mới ngập ngừng đáp rằng có thể kể cho cô và tiết lộ tin mật của ngành đường sắt ở p000688. Bản dịch hiện dùng đại từ 'Cô' ở p000684 khiến Uger vừa tự hỏi Tanya vừa tự trả lời ở câu kế tiếp."
+    recommendation: "Đổi đại từ ngôi thứ hai ở p000684 từ 'Cô' sang 'Ông' ('“Ông biết chuyện gì sao?”')."
+  - severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000674"
+    category: "pronouns_and_viewpoint"
+    issue: "Tại p000674, câu đầu p000675 và p000681, bản dịch dùng 'tôi'/'chúng tôi' cho phần tự thuật/độc thoại ngôi thứ nhất của Tanya, nhưng ngay câu thứ hai của p000675 và toàn bộ các đoạn nội tâm còn lại trong lô lại dùng 'mình' theo DEC-P01-001. Ngoài ra, ở p000674 gọi Uger là 'ông ta' mang sắc thái xa cách hơn so với 'ông ấy' ở các đoạn liền sau."
+    recommendation: "Thống nhất đại từ tự quy chiếu ngôi thứ nhất của Tanya ngoài thoại là 'mình' ở p000674, p000675 (ở p000681 dùng 'mình và ông ấy' hoặc 'hai chúng mình'), đồng thời đổi 'ông ta' ở p000674 thành 'ông ấy'."
+  - severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000681"
+    category: "omission"
+    issue: "Bản dịch lược mất danh từ giải thích nhấn mạnh ở cuối câu sau dấu gạch ngang dài (khái niệm chỉ mạng lưới quan hệ/mối dây liên hệ, tạo tiền đề trực tiếp cho p000687)."
+    recommendation: "Khôi phục thành phần giải thích sau dấu gạch ngang ở cuối câu, chẳng hạn: '...vẫn thúc đẩy các sĩ quan gắn kết với nhau—tạo thành những mối dây liên hệ.'"
+  - severity: "moderate"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000689"
+    category: "terminology_and_meaning"
+    issue: "Cụm danh từ chỉ các sĩ quan ngoài mặt trận/tác chiến (field officers) bị dịch rút gọn thành 'các sĩ quan', làm mất nét nghĩa đối lập giữa sĩ quan tác chiến ngoài tiền tuyến được vận chuyển (Tanya) và sĩ quan hậu phương lập kế hoạch vận chuyển (Uger)."
+    recommendation: "Bổ sung định ngữ thành 'các sĩ quan tác chiến được vận chuyển' hoặc 'các sĩ quan mặt trận được vận chuyển'."
+  - severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000682"
+    category: "pending_term_consistency"
+    issue: "Tại p000682 và p000707, 'General von Zettour' đang được dịch là 'Tướng quân von Zettour', chưa khớp với phương án tạm 'Tướng von Zettour' trong work/run-state/pending-terms-index.yml của vol-02."
+    recommendation: "Đổi 'Tướng quân von Zettour' thành 'Tướng von Zettour' tại p000682 và p000707."
+  - severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000676"
+    category: "terminology_consistency"
+    issue: "Tên cơ quan 'Railroad Department' tại p000676, p000688 và p000690 là danh từ riêng chỉ cơ quan thuộc quân đội (đặt song song với 'Logistics' và 'General Staff'), nhưng đang được viết thường là 'cơ quan đường sắt'."
+    recommendation: "Thống nhất viết hoa tên cơ quan là 'Cục Đường sắt' (hoặc 'Ban Đường sắt' / 'Cơ quan Đường sắt') tại p000676, p000688 và p000690."
+  - severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000677"
+    category: "meaning_and_logic"
+    issue: "Ở câu cuối p000677, giới từ chỉ tương quan đối chiếu ('for someone not serving on a battlefield') khi dịch là 'Với một người không phục vụ ở chiến trường, có lẽ ông ấy sẽ nhanh chóng lên đến trung tá' dễ bị đọc nhầm thành nguyên nhân thuận chiều thay vì sự tương phản (dù không phục vụ ngoài chiến trường nhưng vẫn thăng tiến khá nhanh)."
+    recommendation: "Chỉnh lại thành: 'So với một người không phục vụ ngoài chiến trường, có lẽ ông ấy sẽ lên đến trung tá khá nhanh.'"
+  - severity: "minor"
+    segment_id: "YS-LN02/Text/part0030.xhtml/p000703"
+    category: "pending_term_consistency"
+    issue: "Cụm 'economic, rational sensibilities' được dịch là 'óc kinh tế và lý trí', chưa tách bạch giữa 'sensibility' (khả năng cảm nhận/cảm quan) với 'lý trí' theo lưu ý tại P01-sensibility và P03-rationality trong canon/glossary-pending.yml."
+    recommendation: "Chỉnh thành 'cảm quan kinh tế và tính hợp lý của mình' (đồng bộ với cách dịch ở p000704)."
+pending_term_recommendations:
+  - source_term: "Major Uger"
+    proposed_vi: "Thiếu tá Uger"
+    category: "quân hàm / nhân vật"
+    status: "proposed"
+    rationale: "Giữ nguyên tên riêng Uger và dịch cấp bậc Major là Thiếu tá nhất quán với Thiếu tá von Degurechaff."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000675"
+      - "YS-LN02/Text/part0030.xhtml/p000676"
+      - "YS-LN02/Text/part0030.xhtml/p000686"
+  - source_term: "Railroad Department"
+    proposed_vi: "Cục Đường sắt"
+    category: "tổ chức quân sự"
+    status: "proposed"
+    rationale: "Tên cơ quan chuyên trách vận tải đường sắt của Lục quân Đế quốc, viết hoa tương ứng với cấp Cục/Ban trong hệ thống cơ quan quân sự."
+    alternatives_vi:
+      - "Ban Đường sắt"
+      - "Cơ quan Đường sắt"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000676"
+      - "YS-LN02/Text/part0030.xhtml/p000688"
+      - "YS-LN02/Text/part0030.xhtml/p000690"
+  - source_term: "Logistics"
+    proposed_vi: "ngành Hậu cần / Cục Hậu cần"
+    category: "tổ chức quân sự"
+    status: "proposed"
+    rationale: "Biểu thị bộ phận/ngành Hậu cần trong quân đội Đế quốc nơi Uger công tác."
+    alternatives_vi:
+      - "bộ phận Hậu cần"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000676"
+      - "YS-LN02/Text/part0030.xhtml/p000678"
+  - source_term: "war college"
+    proposed_vi: "trường đại học quân sự"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Dịch sát nghĩa cơ sở đào tạo sĩ quan tham mưu/chỉ huy nơi Tanya và Uger từng học cùng khóa; giữ đủ sắc thái 'college' để khớp với p000681."
+    alternatives_vi:
+      - "trường quân sự"
+      - "Học viện Quân sự"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000677"
+      - "YS-LN02/Text/part0030.xhtml/p000678"
+      - "YS-LN02/Text/part0030.xhtml/p000681"
+  - source_term: "interior lines strategy"
+    proposed_vi: "chiến lược nội tuyến"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Thuật ngữ quân sự chuẩn chỉ chiến lược tác chiến trên tuyến trong của Đế quốc dựa vào mạng lưới đường sắt."
+    alternatives_vi:
+      - "chiến lược tác chiến trên tuyến trong"
+    segment_ids:
+      - "YS-LN02/Text/part0030.xhtml/p000690"
+locked_choices:
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000673"
+    choices:
+      - "Quân hàm và tên: 'Thiếu tá von Degurechaff'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000674"
+    choices:
+      - "Điểm nhìn ngôi thứ nhất của Tanya ngoài thoại: thống nhất dùng 'mình'"
+      - "Đại từ chỉ Uger: 'ông ấy'"
+      - "Cấp bậc mô tả: 'sĩ quan cấp trung'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000675"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Uger: 'tôi' - 'ông', gọi 'Thiếu tá Uger'"
+      - "Tự quy chiếu ngoài thoại của Tanya: 'mình'"
+      - "Phủ định và phạm vi: giữ ý ở gần tiền tuyến không có quy định nào bị thực thi cứng nhắc đến thế"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000676"
+    choices:
+      - "Độc thoại nội tâm: 'mình'"
+      - "Tên nhân vật và quân hàm: 'Thiếu tá Uger'"
+      - "Tên cơ quan: 'Cục Đường sắt' (hoặc 'Cơ quan Đường sắt' viết hoa nhất quán) và 'Hậu cần'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000677"
+    choices:
+      - "Độc thoại nội tâm: 'mình', gọi Uger là 'ông ấy'"
+      - "Quân hàm: 'đại úy' (captain), 'nhóm sĩ quan cấp trung' (middle ranks), 'trung tá' (lieutenant colonel)"
+      - "Logic đối chiếu: giữ đúng ý thăng tiến khá nhanh so với một người không phục vụ ngoài chiến trường"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000678"
+    choices:
+      - "Cơ quan: 'Hậu cần' (Logistics), 'Bộ Tổng tham mưu' (General Staff)"
+      - "Độc thoại nội tâm: 'mình', gọi Uger là 'ông ấy'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000679"
+    choices:
+      - "Xưng hô trong thoại của Uger với Tanya: 'tôi' - 'cô'"
+      - "Địa danh: 'Arene'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000680"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'tôi'"
+      - "Phủ định: giữ nguyên lý do bí mật quân sự nên không thể kể chi tiết"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000681"
+    choices:
+      - "Điểm nhìn nội tâm: đồng bộ với mạch 'mình' (ví dụ 'mình và ông ấy')"
+      - "Cấu trúc nhấn mạnh cuối câu: giữ thành phần giải thích sau dấu gạch ngang chỉ các mối quan hệ/mối dây liên hệ"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000682"
+    choices:
+      - "Xưng hô trong thoại của Uger: 'tôi' - 'cô'"
+      - "Quân hàm và tên: 'Tướng von Zettour'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000683"
+    choices:
+      - "Nhấn mạnh Markdown: giữ '*À*' ở đầu câu tương ứng với thẻ em trong nguồn"
+      - "Đại từ chỉ Uger trong nội tâm: 'ông ấy'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000684"
+    choices:
+      - "Chủ thể thoại: Tanya hỏi Uger, dùng đại từ 'Ông' ('“Ông biết chuyện gì sao?”')"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000685"
+    choices:
+      - "Chủ thể thoại: Uger trả lời Tanya, xưng 'tôi' và gọi 'cô'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000686"
+    choices:
+      - "Độc thoại nội tâm của Tanya: tự xưng 'mình', gọi 'Thiếu tá Uger' / 'ông ấy'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000687"
+    choices:
+      - "Cấu trúc so sánh nhất với phủ định: giữ nguyên ba yếu tố quan hệ, ảnh hưởng và mạng lưới quen biết"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000688"
+    choices:
+      - "Xưng hô trong thoại của Uger: 'Tôi'"
+      - "Tên cơ quan: đồng bộ cách dịch 'Railroad Department' với p000676 và p000690"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000689"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'tôi'"
+      - "Thuật ngữ: dịch đủ 'các sĩ quan tác chiến' (hoặc 'các sĩ quan mặt trận') cho 'field officers'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000690"
+    choices:
+      - "Tên riêng và thuật ngữ: 'Đế quốc', 'chiến lược nội tuyến' (interior lines strategy)"
+      - "Đại từ tập thể trong lập luận quân sự: 'chúng ta' / 'ta'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000691"
+    choices:
+      - "Tình thái phỏng đoán: giữ 'hẳn thường xuyên được yêu cầu'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000692"
+    choices:
+      - "Giữ câu ngắn độc lập tương ứng với nguồn"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000693"
+    choices:
+      - "Độc thoại nội tâm: 'mình', giữ nguyên câu hỏi về sự trùng hợp với lý do được triệu tập"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000694"
+    choices:
+      - "Độc thoại nội tâm: 'mình'"
+      - "Chức vụ và vai trò: 'chỉ huy tiểu đoàn' / 'tiểu đoàn trưởng' — 'thành phần chiến thuật'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000695"
+    choices:
+      - "Độc thoại nội tâm: 'mình', giữ phủ định và tình thái về việc không có lý do gì phải triệu về tận thủ đô"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000696"
+    choices:
+      - "Thuật ngữ: 'cấp trên' (the higher-ups), 'phòng tuyến Rhine' (the Rhine lines)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000697"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Uger: 'ông' - 'chúng ta'"
+      - "Thuật ngữ: 'Phòng tuyến Rhine'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000698"
+    choices:
+      - "Điểm nhìn trần thuật ngôi thứ ba: giữ tên riêng 'Tanya' và 'Uger' đúng theo nguồn"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000699"
+    choices:
+      - "Câu hỏi nội tâm: giữ đại từ 'Chúng ta' và quan hệ tương phản giữa tiến quân vất vả với rút lui"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000700"
+    choices:
+      - "Tình thái trong thoại của Uger: giữ 'Có lẽ họ định lùi quân và khiến địch đổ máu'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000701"
+    choices:
+      - "Tên riêng lịch sử quân sự: 'Trận Cannae của Hannibal'"
+      - "Giữ dấu chấm hỏi chấm than '?!' ở cuối câu"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000702"
+    choices:
+      - "Thoại của Tanya: giữ tương phản 'Táo bạo đấy, nhưng là một ý tưởng thú vị'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000703"
+    choices:
+      - "Độc thoại nội tâm: 'mình', tên riêng 'Concorde'"
+      - "Thuật ngữ: 'cảm quan kinh tế và tính hợp lý' (economic, rational sensibilities)"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000704"
+    choices:
+      - "Tên thực thể: 'Being X', đại từ chỉ Being X: 'hắn'"
+      - "Độc thoại nội tâm: 'mình'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000705"
+    choices:
+      - "Độc thoại nội tâm: 'mình' / 'ta', giữ đối lập giữa chiến tranh bom đạn thật và 'chiến tranh kinh tế'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000706"
+    choices:
+      - "Thoại ngắn của Tanya: giữ dấu ba chấm và câu hỏi nghi vấn về việc rút lui"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000707"
+    choices:
+      - "Nhấn mạnh Markdown: giữ '*...*' cho toàn bộ mệnh đề suy nghĩ trước dấu phẩy tương ứng với thẻ em trong nguồn"
+      - "Điểm nhìn trần thuật ngôi thứ ba ở vế sau: giữ tên 'Tanya'"
+      - "Quân hàm và tên: 'Tướng von Zettour'"
+  - segment_id: "YS-LN02/Text/part0030.xhtml/p000708"
+    choices:
+      - "Độc thoại phân tích chiến thuật: giữ đại từ 'ta' và 'chúng' (chỉ quân địch), giữ điều kiện chỉnh đốn phòng tuyến lồi lõm để đối đầu trực diện"
