@@ -1,0 +1,311 @@
+task_id: "vol-05-ch-01-b11-argon-review"
+parent_task_id: "vol-05-ch-01-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b11-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b11.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b11-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000350"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Bản dịch thêm cụm 'gửi về' vào lời báo ngắn khi chuyển tiếp cuộc gọi/báo cáo từ thực địa, làm hẹp nhẹ khả năng đây là đầu dây liên lạc trực tiếp qua ống nghe."
+    rationale: "Ở các đoạn kế tiếp (p000352–p000377), Tanya trực tiếp đối đáp hai chiều rồi gác ống nghe; giữ cách diễn đạt mở sát với cụm giới từ chỉ nơi chốn của nguyên văn sẽ tự nhiên và khớp mạch hơn."
+    recommendation: "Có thể lược chữ 'gửi về' thành 'Từ ngoài thực địa, thưa Trung tá.' hoặc 'Từ hiện trường, thưa Trung tá.' trong bước chuốt văn."
+  - segment_id: "YS-LN05/Text/part0010.html/p000370"
+    severity: "minor"
+    category: "pronouns_reference"
+    issue: "Chủ thể 'Communism' ở vế đầu là danh từ số ít chỉ ý thức hệ nhưng sang vế hai lại được quy chiếu bằng đại từ số nhiều 'chúng'."
+    rationale: "Nguyên văn dùng đại từ ngôi thứ ba số ít ở vế phụ và lặp lại danh từ 'Communism' ở vế chính; dùng 'nó' hoặc giữ cấu trúc quy chiếu số ít sẽ khớp ngữ pháp và sắc thái châm biếm học thuyết hơn."
+    recommendation: "Có thể chỉnh nhẹ thành 'thì trong khoản đập phá, nó chắc chắn là rất cừ.' khi chuốt văn."
+pending_term_recommendations:
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Kế thừa nhất quán phương án tạm đã dùng trong sổ pending cho nhà nước đối địch ở mặt trận phía Đông."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000342"
+  - source_term: "Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung úy của Serebryakov ở giai đoạn Tập 4–5 theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000343"
+      - "YS-LN05/Text/part0010.html/p000379"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Trong tiếng Anh quân sự, 'Colonel' dùng để gọi tắt 'Lieutenant Colonel'; dịch đúng cấp bậc thực tế của Tanya là 'Trung tá' theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000345"
+      - "YS-LN05/Text/part0010.html/p000350"
+  - source_term: "command post / HQ"
+    proposed_vi: "sở chỉ huy / Sở chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phù hợp với ngữ cảnh tác chiến tại chỗ của đơn vị và nhất quán với các tập trước."
+    alternatives_vi:
+      - "trạm chỉ huy"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000347"
+      - "YS-LN05/Text/part0010.html/p000352"
+  - source_term: "Infantry Third Company / Third Company"
+    proposed_vi: "Đại đội Bộ binh số 3 / Đại đội 3"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Dịch sát phiên hiệu đại đội bộ binh trực thuộc cụm chiến đấu của Tanya, giữ phân biệt giữa tên đầy đủ và cách gọi rút gọn trong thoại."
+    alternatives_vi:
+      - "Đại đội Bộ binh 3"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000352"
+      - "YS-LN05/Text/part0010.html/p000375"
+      - "YS-LN05/Text/part0010.html/p000379"
+  - source_term: "armed commandos"
+    proposed_vi: "biệt kích có vũ trang"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chính xác toán lực lượng nhỏ đánh tập kích ban đêm."
+    alternatives_vi:
+      - "đặc công có vũ trang"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000352"
+  - source_term: "harassment attacks"
+    proposed_vi: "tấn công quấy rối"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn chỉ các đòn đánh nhỏ lẻ nhằm tiêu hao sức lực và phá giấc ngủ của đối phương."
+    alternatives_vi:
+      - "tập kích quấy rối"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000354"
+  - source_term: "Corporal Kurtz"
+    proposed_vi: "Hạ sĩ Kurtz"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Dịch chuẩn cấp bậc hạ sĩ quan chỉ huy tổ tuần tra."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000360"
+      - "YS-LN05/Text/part0010.html/p000379"
+  - source_term: "guerrilla units"
+    proposed_vi: "các đơn vị du kích"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phản ánh đúng bản chất lực lượng đánh quấy rối sau chiến tuyến."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000368"
+  - source_term: "scorched-earth campaign"
+    proposed_vi: "chiến dịch tiêu thổ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn mực cho chủ trương phá hủy triệt để cơ sở hạ tầng."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000369"
+  - source_term: "Communism"
+    proposed_vi: "Chủ nghĩa Cộng sản"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Nhất quán với mục đã có trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000370"
+  - source_term: "personnel management"
+    proposed_vi: "quản trị nhân sự"
+    category: "thuật ngữ quản trị"
+    status: "pending"
+    rationale: "Giữ đúng giọng điệu duy lý quản trị nhân lực quen thuộc của Tanya."
+    alternatives_vi:
+      - "quản lý nhân sự"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000377"
+  - source_term: "battalion treasury"
+    proposed_vi: "kho quỹ của tiểu đoàn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Cách dịch trung tính, sát nghĩa cho nơi cất giữ vật phẩm/ngân quỹ dự trữ của tiểu đoàn."
+    alternatives_vi:
+      - "kho dự trữ của tiểu đoàn"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000379"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000342"
+    choices:
+      - "Federation -> Liên bang"
+      - "the patrol -> Đội tuần tra"
+      - "regularly scheduled attackers -> toán quân tấn công định kỳ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000343"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "on duty -> đang trực ban"
+      - "POV/trần thuật -> giữ tên riêng Tanya, không dùng đại từ sai quy ước"
+      - "negation -> chẳng biết tận hưởng một buổi tối mùa thu cho ra hồn"
+  - segment_id: "YS-LN05/Text/part0010.html/p000344"
+    choices:
+      - "labor laws -> luật lao động"
+      - "rhetorical_negation -> Bộ họ không có khái niệm gì về luật lao động sao?"
+  - segment_id: "YS-LN05/Text/part0010.html/p000345"
+    choices:
+      - "Colonel -> thưa Trung tá"
+      - "pronouns -> chúng ta (Serebryakov nói với Tanya)"
+      - "modality -> Xem chừng là không đâu / Khéo rồi ... cũng quen dần"
+  - segment_id: "YS-LN05/Text/part0010.html/p000346"
+    choices:
+      - "pronouns -> Chúng ta / của mình"
+      - "modality -> nên than khóc ... mới phải"
+  - segment_id: "YS-LN05/Text/part0010.html/p000347"
+    choices:
+      - "command post -> sở chỉ huy"
+      - "POV -> ngôi thứ nhất trần thuật 'tôi'"
+      - "logic/caveat -> không còn khó khăn như trước nhưng khó lòng thực sự vui vẻ khi quen với nó"
+  - segment_id: "YS-LN05/Text/part0010.html/p000348"
+    choices:
+      - "negation -> chẳng mấy khó khăn"
+      - "logic -> xâu chuỗi tiếng súng cùng báo cáo từ từng đơn vị để nắm bắt tình hình"
+  - segment_id: "YS-LN05/Text/part0010.html/p000349"
+    choices:
+      - "condition/negation -> chừng nào chưa làm hỏng việc trong khâu đối phó với chúng thì cũng không đến nỗi tệ"
+      - "modality -> có thể dẫn đến sự chủ quan"
+  - segment_id: "YS-LN05/Text/part0010.html/p000350"
+    choices:
+      - "Colonel -> thưa Trung tá"
+  - segment_id: "YS-LN05/Text/part0010.html/p000351"
+    choices:
+      - "telegram -> bức điện báo"
+      - "POV -> tôi ... nhận thấy mọi chuyện đúng như mình dự đoán"
+  - segment_id: "YS-LN05/Text/part0010.html/p000352"
+    choices:
+      - "HQ -> Sở chỉ huy"
+      - "Infantry Third Company -> Đại đội Bộ binh số 3"
+      - "night raid -> cuộc tập kích ban đêm"
+      - "armed commandos -> biệt kích có vũ trang"
+      - "pronouns -> Chúng tôi (đơn vị báo cáo về Sở chỉ huy)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000353"
+    choices:
+      - "emphasis -> giữ đúng '*Xét cho cùng*' theo DEC-P01-002 (tương ứng <html:em>After all</html:em>)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000354"
+    choices:
+      - "harassment attacks -> tấn công quấy rối"
+      - "pronouns -> chúng tôi"
+      - "contrast -> nhắm vào việc phá giấc ngủ nhưng xét riêng từng đòn tập kích thì tương đối dễ xử lý"
+  - segment_id: "YS-LN05/Text/part0010.html/p000355"
+    choices:
+      - "sequence -> Phòng ngự, đẩy lùi, rồi khắc phục hậu quả"
+  - segment_id: "YS-LN05/Text/part0010.html/p000356"
+    choices:
+      - "question_target -> hỏi mức độ thiệt hại ('Thiệt hại thế nào?')"
+  - segment_id: "YS-LN05/Text/part0010.html/p000357"
+    choices:
+      - "negation/exception -> không có tổn thất nào lớn ngoài một tòa nhà bị cháy rụi"
+      - "causality -> nhờ đội tuần tra phát hiện từ sớm"
+  - segment_id: "YS-LN05/Text/part0010.html/p000358"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001"
+      - "letters of condolence -> thư chia buồn"
+  - segment_id: "YS-LN05/Text/part0010.html/p000359"
+    choices:
+      - "question_target -> hỏi người trực tuần tra ('Ai đã đi tuần tra vậy?')"
+  - segment_id: "YS-LN05/Text/part0010.html/p000360"
+    choices:
+      - "Corporal Kurtz -> Hạ sĩ Kurtz"
+      - "his men -> thuộc cấp của cậu ấy"
+  - segment_id: "YS-LN05/Text/part0010.html/p000361"
+    choices:
+      - "pronouns -> tôi - anh (Tanya nói với chỉ huy Đại đội 3)"
+      - "directives -> chuyển quà của Tanya, gửi chi tiết vụ việc khi có, nhắc đơn vị giữ cảnh giác"
+  - segment_id: "YS-LN05/Text/part0010.html/p000362"
+    choices:
+      - "pronouns -> chúng tôi"
+      - "logic/probability -> càng lặp lại nhiều lần thì khả năng xảy ra sai sót lại càng cao"
+  - segment_id: "YS-LN05/Text/part0010.html/p000363"
+    choices:
+      - "causality -> sai sót rốt cuộc sẽ dẫn đến thảm họa"
+  - segment_id: "YS-LN05/Text/part0010.html/p000364"
+    choices:
+      - "POV/trần thuật -> giữ tên Tanya và 'vị chỉ huy'"
+      - "dialogue_pronouns -> Chúng tôi"
+  - segment_id: "YS-LN05/Text/part0010.html/p000365"
+    choices:
+      - "POV/trần thuật -> giữ tên Tanya và đại từ 'anh ta' cho vị chỉ huy"
+  - segment_id: "YS-LN05/Text/part0010.html/p000366"
+    choices:
+      - "pronouns -> Tôi / chúng tôi - Trung tá (chỉ huy Đại đội 3 báo cáo Tanya)"
+      - "negation -> sẽ không phải đợi báo cáo chi tiết lâu"
+      - "detail -> phải đánh thức binh lính đang chợp mắt, hoạt động trong tình trạng thiếu ngủ"
+  - segment_id: "YS-LN05/Text/part0010.html/p000367"
+    choices:
+      - "dialogue_pronouns -> chúng ta"
+      - "negation -> chẳng làm gì hơn được"
+      - "POV/trần thuật -> giữ tên Tanya và đại từ 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0010.html/p000368"
+    choices:
+      - "guerrilla units -> các đơn vị du kích"
+      - "pronouns -> chúng tôi"
+  - segment_id: "YS-LN05/Text/part0010.html/p000369"
+    choices:
+      - "scorched-earth campaign -> chiến dịch tiêu thổ"
+      - "modality -> ắt hẳn đã bật đèn xanh"
+  - segment_id: "YS-LN05/Text/part0010.html/p000370"
+    choices:
+      - "Communism -> Chủ nghĩa Cộng sản"
+      - "pronouns -> Tôi (Tanya)"
+      - "contrast -> bất kể giỏi xây dựng đến đâu thì trong khoản đập phá chắc chắn rất cừ"
+  - segment_id: "YS-LN05/Text/part0010.html/p000371"
+    choices:
+      - "demolitionists -> đám chuyên đập phá"
+      - "pronouns -> chúng ta"
+  - segment_id: "YS-LN05/Text/part0010.html/p000372"
+    choices:
+      - "POV/pronouns -> Tôi cùng vị chỉ huy / chúng tôi"
+      - "negation -> khó lòng gọi là tán gẫu, mà gọi là nói đùa lại càng không phải"
+      - "condition -> chừng nào còn đủ dư dả tâm trí để nói năng tào lao thế này thì mọi chuyện vẫn ổn"
+  - segment_id: "YS-LN05/Text/part0010.html/p000373"
+    choices:
+      - "negation/comparison -> Chẳng ai mong manh dễ vỡ bằng một người lính nơi tiền tuyến hay dưới chiến hào đã đánh mất khả năng mỉm cười"
+  - segment_id: "YS-LN05/Text/part0010.html/p000374"
+    choices:
+      - "contrast -> thái độ nghiêm túc có thể là đức tính tốt nhưng mất khiếu hài hước lúc ngặt nghèo khiến người ta bất lực"
+  - segment_id: "YS-LN05/Text/part0010.html/p000375"
+    choices:
+      - "Infantry Third Company -> Đại đội Bộ binh số 3"
+      - "morale -> sĩ khí"
+      - "negation/temporal -> sẽ chẳng thể nghỉ ngơi tử tế cho đến khi hoàn tất việc chữa cháy và khắc phục hậu quả"
+      - "condition/modality -> đang là mùa thu nên miễn cưỡng cắm trại được nhưng nếu xoay xở được thì bộ binh vẫn nên ngủ dưới mái nhà"
+  - segment_id: "YS-LN05/Text/part0010.html/p000376"
+    choices:
+      - "refreshments -> đồ bồi dưỡng"
+      - "pronouns -> Tôi"
+  - segment_id: "YS-LN05/Text/part0010.html/p000377"
+    choices:
+      - "POV/trần thuật -> giữ tên Tanya và 'của mình'"
+      - "receiver -> ống nghe"
+      - "in the field -> ngoài thực địa"
+      - "personnel management -> quản trị nhân sự"
+  - segment_id: "YS-LN05/Text/part0010.html/p000378"
+    choices:
+      - "rewards and punishments -> thưởng phạt phân minh"
+      - "negation/causality -> khi không dồn đủ tâm sức vào nguyên tắc cốt lõi thì chỉ có sự sụp đổ hoàn toàn chờ đợi"
+  - segment_id: "YS-LN05/Text/part0010.html/p000379"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "Corporal Kurtz -> Hạ sĩ Kurtz"
+      - "Third Company -> Đại đội 3"
+      - "battalion treasury -> kho quỹ của tiểu đoàn"
+      - "pronouns -> Tôi - cô (Tanya nói với Trung úy Serebryakov)"
