@@ -1,0 +1,205 @@
+task_id: "vol-05-ch-06-b05-argon-review"
+parent_task_id: "vol-05-ch-06-b05"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 6
+source_package: "work/vol-05/batches/ch-06-b05-source.jsonl"
+target_translation: "translations/vol-05/ch-06-b05.jsonl"
+review_path: "reviews/prose/vol-05/ch-06-b05-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0029.html/p000137"
+    issue: "Từ chỉ những người theo chủ nghĩa lý tưởng trong đoạn này đang dịch là 'những kẻ theo chủ nghĩa lý tưởng', chưa đồng nhất với cách gọi 'những người theo chủ nghĩa lý tưởng' ở toàn bộ các đoạn còn lại trong cùng batch (p000141–p000144, p000148, p000159) và gây lặp từ 'những kẻ' với vế sau."
+    recommendation: "Đổi 'những kẻ theo chủ nghĩa lý tưởng' thành 'những người theo chủ nghĩa lý tưởng'."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0029.html/p000144"
+    issue: "Cụm 'các liệt sĩ tử vì đạo' ghép chung thuật ngữ thế tục ('liệt sĩ') và thuật ngữ tôn giáo ('tử vì đạo'), gây thừa từ và hơi lệch với phép ẩn dụ tôn giáo liền sau ('những vị thánh trong thần thoại Cộng sản')."
+    recommendation: "Đổi 'các liệt sĩ tử vì đạo' thành 'những người tử vì đạo' (hoặc 'những kẻ tử đạo' / 'các liệt sĩ')."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0029.html/p000159"
+    issue: "Từ thứ hai trong cặp danh từ ẩn dụ thị giác đang dịch là 'ảo vọng' (hy vọng hão huyền), làm lệch sắc thái hình ảnh hiện tượng quang học hư ảo đi cặp với 'ảo ảnh'."
+    recommendation: "Đổi 'những ảo ảnh và ảo vọng' thành 'những ảo ảnh và ảo cảnh'."
+pending_term_recommendations:
+  - source_term: "raison d’état"
+    proposed_vi: "lợi ích quốc gia tối thượng"
+    category: "thuật ngữ chính trị / ngoại giao"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000135"
+    rationale: "Diễn đạt chuẩn xác khái niệm lý tính nhà nước / lợi ích quốc gia tối thượng trong bối cảnh chính sách đối ngoại thực dụng của Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "lý tính nhà nước"
+  - source_term: "political officers / political commissars"
+    proposed_vi: "sĩ quan chính trị / chính ủy"
+    category: "chức danh quân sự / chính trị"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000141"
+      - "YS-LN05/Text/part0029.html/p000166"
+    rationale: "Giữ thống nhất theo sổ pending của vol-04 và vol-05."
+    alternatives_vi: []
+  - source_term: "West Side"
+    proposed_vi: "Phe Phương Tây"
+    category: "thuật ngữ địa chính trị"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000149"
+      - "YS-LN05/Text/part0029.html/p000150"
+    rationale: "Khớp với mục pending đã khóa ở các batch trước của vol-05."
+    alternatives_vi: []
+  - source_term: "Daddy-Long-Legs"
+    proposed_vi: "Ông bố Chân dài"
+    category: "tên gọi văn hóa / ẩn dụ"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0029.html/p000156"
+    rationale: "Dịch sát hình tượng nhà bảo trợ ẩn danh từ tác phẩm kinh điển cùng tên và khớp tự nhiên với danh xưng tự giễu 'Ông bố Loria' ở đoạn kế tiếp (p000157)."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0029.html/p000127"
+    choices:
+      - "Độc thoại của Loria đại diện cho Liên bang tự xưng 'Chúng ta'; bear the brunt -> gánh chịu mũi dùi chính"
+  - segment_id: "YS-LN05/Text/part0029.html/p000128"
+    choices:
+      - "multidirectional warmongers -> lũ hiếu chiến gây sự tứ phương; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000129"
+    choices:
+      - "Imperial Army -> Lục quân Đế quốc; Loria -> Loria; giữ tình thái giả định quá khứ 'vốn đáng lẽ phải áp đảo hoàn toàn'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000130"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *vào lúc này* đúng phạm vi ở cuối câu thoại theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000131"
+    choices:
+      - "international society -> xã hội quốc tế; the Federation -> Liên bang"
+  - segment_id: "YS-LN05/Text/part0029.html/p000132"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu độc thoại nội tâm theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000133"
+    choices:
+      - "Giữ cấu trúc phủ định kép 'không phải là điều không thể tưởng tượng nổi' và 'chưa phải là một sự việc vô vọng'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000134"
+    choices:
+      - "public opinion -> dư luận; democracy -> nền dân chủ"
+  - segment_id: "YS-LN05/Text/part0029.html/p000135"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'; logical government -> chính phủ duy lý; raison d’état -> lợi ích quốc gia tối thượng; lip service -> những lời đãi bôi"
+  - segment_id: "YS-LN05/Text/part0029.html/p000136"
+    choices:
+      - "Loria -> Loria; đại từ trần thuật chỉ Loria: 'gã'; bảo toàn nhấn mạnh Markdown *Thế nhưng…* ở đầu đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000137"
+    choices:
+      - "idealists -> những người theo chủ nghĩa lý tưởng; diplomats -> cánh ngoại giao; soldiers -> đám binh lính; amateurs -> những kẻ nghiệp dư"
+  - segment_id: "YS-LN05/Text/part0029.html/p000138"
+    choices:
+      - "the Federation -> Liên bang; soldiers and party members -> những người lính và đảng viên"
+  - segment_id: "YS-LN05/Text/part0029.html/p000139"
+    choices:
+      - "psychological gap -> khoảng chênh lệch tâm lý; propaganda strategy -> chiến lược tuyên truyền; the Federation -> Liên bang"
+  - segment_id: "YS-LN05/Text/part0029.html/p000140"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *mình đã mang định kiến* đúng phạm vi nhận thức tự quy chiếu của đối tượng theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000141"
+    choices:
+      - "idealists -> những người theo chủ nghĩa lý tưởng; political officers -> sĩ quan chính trị"
+  - segment_id: "YS-LN05/Text/part0029.html/p000142"
+    choices:
+      - "Idealists -> Những người theo chủ nghĩa lý tưởng; giữ tương phản 'không phải vì năng lực mà là vì nhân cách'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000143"
+    choices:
+      - "idealist -> người theo chủ nghĩa lý tưởng; holding their position -> bám trụ vị trí của mình"
+  - segment_id: "YS-LN05/Text/part0029.html/p000144"
+    choices:
+      - "the Federation -> Liên bang; idealists -> những người theo chủ nghĩa lý tưởng; martyrs -> những người tử vì đạo; saints of the Communist mythology -> những vị thánh trong thần thoại Cộng sản"
+  - segment_id: "YS-LN05/Text/part0029.html/p000145"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000146"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000147"
+    choices:
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000148"
+    choices:
+      - "Walking Federation PR machines -> Những cỗ máy PR di động của Liên bang; Loria -> Loria; idealists -> những người theo chủ nghĩa lý tưởng"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho riêng câu đầu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000149"
+    choices:
+      - "secret weapon -> thứ vũ khí bí mật; West Side -> Phe Phương Tây; public opinion -> dư luận; the Federation -> Liên bang"
+  - segment_id: "YS-LN05/Text/part0029.html/p000150"
+    choices:
+      - "the Empire -> Đế quốc; Federation separatists -> những kẻ ly khai của Liên bang; West Side -> Phe Phương Tây"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000151"
+    choices:
+      - "Giữ giọng điệu mỉa mai thích thú trong lời độc thoại của Loria"
+  - segment_id: "YS-LN05/Text/part0029.html/p000152"
+    choices:
+      - "swindlers -> những kẻ lừa đảo; empty fluff -> những lời hoa mỹ sáo rỗng; dirty intentions -> dã tâm bẩn thỉu"
+  - segment_id: "YS-LN05/Text/part0029.html/p000153"
+    choices:
+      - "popular support -> sự ủng hộ của quần chúng; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ đoạn độc thoại nội tâm theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000154"
+    choices:
+      - "Loria tự xưng 'Ta' và gọi đám đông/công chúng là 'các người' trong độc thoại nội tâm; illusions -> những ảo ảnh"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000155"
+    choices:
+      - "Loria tự xưng 'Ta'; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000156"
+    choices:
+      - "Loria tự xưng 'ta'; Daddy-Long-Legs -> Ông bố Chân dài"
+  - segment_id: "YS-LN05/Text/part0029.html/p000157"
+    choices:
+      - "Daddy Loria -> Ông bố Loria; buffoon -> gã hề; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000158"
+    choices:
+      - "Santa Claus -> Ông già Noel; Loria tự xưng 'ta'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000159"
+    choices:
+      - "Idealists -> Những người theo chủ nghĩa lý tưởng; illusions and mirages -> những ảo ảnh và ảo cảnh"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ câu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000160"
+    choices:
+      - "Loria tự xưng 'ta'; chief of the post office -> giám đốc bưu điện; Santa Claus of Hope -> Ông già Noel của Hy vọng"
+      - "Bảo toàn nhấn mạnh Markdown *...* cho toàn bộ đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000161"
+    choices:
+      - "Loria -> Loria; bảo toàn nhấn mạnh Markdown *Ồ…* ở đầu đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000162"
+    choices:
+      - "Giữ giọng đánh giá thực dụng trong lời độc thoại của Loria"
+  - segment_id: "YS-LN05/Text/part0029.html/p000163"
+    choices:
+      - "propaganda -> công tác tuyên truyền"
+  - segment_id: "YS-LN05/Text/part0029.html/p000164"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000165"
+    choices:
+      - "Loria tự xưng 'Ta' trong độc thoại nội tâm; đại từ trần thuật chỉ Loria: 'Gã'"
+      - "Bảo toàn nhấn mạnh Markdown *Ta tuyệt đối không nên xuất đầu lộ diện trước công chúng.* cho riêng câu đầu theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000166"
+    choices:
+      - "Loria tự xưng 'ta'; political commissars -> chính ủy; idealism -> chủ nghĩa lý tưởng"
+  - segment_id: "YS-LN05/Text/part0029.html/p000167"
+    choices:
+      - "rejuvenation -> hồi xuân; bảo toàn nhấn mạnh Markdown *...* cho toàn bộ đoạn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0029.html/p000168"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'; giữ cấu trúc phủ định kép 'chẳng ngại thừa nhận rằng không phải mọi thứ về chuyện đó đều tốt đẹp'"
+  - segment_id: "YS-LN05/Text/part0029.html/p000169"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'Gã'; giữ đúng sắc thái bản năng lệch lạc của nhân vật ở câu kết đoạn"
