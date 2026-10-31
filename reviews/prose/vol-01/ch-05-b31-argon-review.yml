@@ -1,0 +1,293 @@
+task_id: vol-01-ch-05-b31-argon-review
+parent_task_id: vol-01-ch-05-b31
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-01/ch-05-b31-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000133
+    severity: minor
+    category: pronoun_style
+    issue: "Ở câu 2 của p000133 (lời Tanya quát các học viên qua vô tuyến), câu hỏi 'Sao các người không nhận ra mình là những mục tiêu dễ xơi đến mức nào hả?!' dùng từ phản thân 'mình' quy chiếu cho chủ ngữ ngôi thứ hai số nhiều ('các người')."
+    basis: "Dù 'mình' làm đại từ phản thân trong lời thoại là tự nhiên trong tiếng Việt, quy ước DEC-P01-001 ưu tiên dành 'mình' cho độc thoại nội tâm tự quy chiếu ngôi thứ nhất của Tanya."
+    recommendation: "Không ảnh hưởng nghĩa hay điểm nhìn vì nằm trong lời thoại trực tiếp; ở bước chuốt văn có thể giữ nguyên hoặc cân nhắc đổi thành 'bản thân' / lặp lại 'các người' nếu muốn tách bạch tuyệt đối với đại từ nội tâm."
+pending_term_recommendations:
+  - source_term: 601st Formation Unit
+    proposed_vi: Đơn vị Thành lập 601
+    alternatives_vi:
+      - Đơn vị Biên thành 601
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000113
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ với thuật ngữ 'Ủy ban Thành lập Đơn vị 601' và 'mã phiên hiệu thành lập đơn vị' đã dùng trong Tập 1."
+  - source_term: oxygen tanks / pure oxygen
+    proposed_vi: bình dưỡng khí / oxy tinh khiết
+    alternatives_vi:
+      - bình oxy / dưỡng khí tinh khiết
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000118
+      - YS-LN01/Text/chapter011b.xhtml/p000120
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Dùng 'bình dưỡng khí' cho trang bị thở ở độ cao lớn và 'oxy tinh khiết' cho thành phần hóa học do thuật thức tạo ra, tự nhiên và chuẩn xác theo ngữ cảnh kỹ thuật quân sự."
+  - source_term: technology officers
+    proposed_vi: các sĩ quan công nghệ
+    alternatives_vi:
+      - các sĩ quan kỹ thuật
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000119
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ với 'Ban Công nghệ Trung ương' và 'Cục Công nghệ thuộc Quân đội Đế quốc' trong pending-terms-index.yml."
+  - source_term: perpetually active formulas / parallel sustained formulas / parallel formulas
+    proposed_vi: thuật thức kích hoạt liên tục / duy trì song song các thuật thức / các thuật thức song song
+    alternatives_vi:
+      - thuật thức duy trì thường trực / thuật thức vận hành song song
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000122
+      - YS-LN01/Text/chapter011b.xhtml/p000126
+      - YS-LN01/Text/chapter011b.xhtml/p000137
+      - YS-LN01/Text/chapter011b.xhtml/p000139
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Kế thừa thuật ngữ gốc 'thuật thức' và diễn đạt rõ cơ chế vận hành đồng thời nhiều thuật thức liên tục trên quả cầu tính toán."
+  - source_term: Elinium Arms / mass-production model
+    proposed_vi: Elinium Arms / mẫu sản xuất hàng loạt
+    alternatives_vi:
+      - hãng vũ khí Elinium / phiên bản sản xuất đại trà
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000130
+      - YS-LN01/Text/chapter011b.xhtml/p000132
+      - YS-LN01/Text/chapter011b.xhtml/p000144
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ tên riêng 'Elinium Arms' và cụm 'sản xuất hàng loạt' đã có trong pending-terms-index.yml."
+  - source_term: General Staff’s Procurement Department / Service Corps Division
+    proposed_vi: Cục Mua sắm thuộc Bộ Tổng Tham mưu / Cục Quân vụ
+    alternatives_vi:
+      - Ban Mua sắm thuộc Bộ Tổng Tham mưu / Cục Quân nhu
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000132
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ 'Bộ Tổng Tham mưu' và 'Cục Quân vụ' với pending-terms-index.yml; dịch 'Cục Mua sắm' trang trọng, đúng chức năng cung ứng quân giới."
+  - source_term: Named
+    proposed_vi: Pháp sư Định danh
+    alternatives_vi:
+      - Pháp sư Danh hiệu
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000134
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Đồng bộ hoàn toàn với thuật ngữ 'Pháp sư Định danh' trong pending-terms-index.yml."
+  - source_term: erratic evasive maneuvers / evasive maneuvers / combat maneuvers
+    proposed_vi: cơ động né tránh bất quy tắc / cơ động né tránh / cơ động thực chiến
+    alternatives_vi:
+      - cơ động tránh đạn bất quy tắc / cơ động tác chiến
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000136
+      - YS-LN01/Text/chapter011b.xhtml/p000137
+      - YS-LN01/Text/chapter011b.xhtml/p000139
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Giữ tính nhất quán xuyên suốt các đoạn p000136, p000137 và p000139 cho kỹ thuật bay cơ động của pháp sư."
+  - source_term: optical decoys / decoys
+    proposed_vi: mồi nhử quang học / mồi nhử
+    alternatives_vi:
+      - mồi bẫy quang học / ảo ảnh mồi nhử
+    segment_ids:
+      - YS-LN01/Text/chapter011b.xhtml/p000140
+      - YS-LN01/Text/chapter011b.xhtml/p000141
+      - YS-LN01/Text/chapter011b.xhtml/p000142
+      - YS-LN01/Text/chapter011b.xhtml/p000143
+    volume: vol-01
+    chapter: 5
+    status: pending
+    rationale: "Kế thừa từ 'mồi nhử' đã dùng ở các lô trước của chương 5 và kết hợp với định ngữ 'quang học' chuẩn xác."
+locked_choices:
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000112
+    pov_and_pronouns: "Thoại của một sĩ quan trong đoàn thanh tra hỏi Trung tá von Lergen: gọi 'Ngài' và 'Trung tá von Lergen'."
+    terms_and_ranks: "Trung tá von Lergen."
+    modality_and_negation: "Giữ câu hỏi trực tiếp mở đầu phân cảnh."
+    emphasis: "Không dùng dấu *...* (nguồn không có thẻ nhấn mạnh theo DEC-P01-002)."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000113
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn đoàn thanh tra: gọi đầy đủ chức danh 'Trung tá von Lergen' và 'Thiếu tá von Degurechaff'."
+    terms_and_ranks: "Trung tá von Lergen; thanh tra; Đơn vị Thành lập 601; Thiếu tá von Degurechaff."
+    modality_and_negation: "Giữ mệnh đề thời gian quá khứ hoàn thành và cấu trúc so sánh giả định mang phủ định 'cứ như thể muốn nói rằng chuyện đó chẳng có vấn đề gì cả'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000114
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: quy chiếu đoàn thanh tra bằng 'họ'."
+    terms_and_ranks: "huấn luyện; tiểu đoàn pháp sư."
+    modality_and_negation: "Giữ hai câu phủ định liên tiếp ('Và quả thực là không có vấn đề gì.', 'Ít nhất thì cho đến giờ vẫn chưa có ai thiệt mạng trong quá trình huấn luyện.') và khẳng định ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000115
+    pov_and_pronouns: "Thoại nhận xét ngắn gọn của Trung tá von Lergen."
+    terms_and_ranks: "Không có thuật ngữ mới."
+    modality_and_negation: "Giữ câu khẳng định ngắn 'Thật tuyệt vời.' đồng bộ từ vựng với p000116."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000116
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn đoàn thanh tra: quy chiếu Tanya bằng 'Cô' (tuân thủ giới hạn chủ thể của DEC-P01-001, không dùng 'nó' hay 'mình'), quy chiếu binh lính bằng 'họ'."
+    terms_and_ranks: "binh lính."
+    modality_and_negation: "Giữ khẳng định nhấn mạnh ở câu 1 và chuỗi hành động đẩy binh lính tới giới hạn sinh tử ở câu 2–3."
+    emphasis: "Bảo toàn chính xác nhấn mạnh Markdown '*tuyệt vời*' ở câu 1 tương ứng 1:1 với thẻ <html:em> trong xhtml nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000117
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: gọi 'Các thanh tra viên', quy chiếu Tanya bằng 'cô', dùng đại từ phiếm chỉ 'người ta' cho mệnh đề nhượng bộ cuối câu."
+    terms_and_ranks: "Các thanh tra viên; chương trình huấn luyện; binh lính; những người lính."
+    modality_and_negation: "Giữ thông tin nghe kể ở câu 1, nhận định hợp lý kèm mệnh đề nhượng bộ phủ định kép 'dù người ta không khỏi cảm thấy tội nghiệp cho những người lính bị hành hạ' ở câu 2."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000118
+    pov_and_pronouns: "Thoại của sĩ quan công nghệ: quy chiếu các pháp sư đang bay bằng 'họ'."
+    terms_and_ranks: "độ cao tám nghìn; bình dưỡng khí."
+    modality_and_negation: "Giữ câu hỏi về khả năng kèm điều kiện phủ định 'mà không có bình dưỡng khí?'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000119
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn các sĩ quan công nghệ: quy chiếu bằng 'họ', gọi 'Thiếu tá von Degurechaff' và quy chiếu Tanya bằng 'cô' ('binh lính của cô')."
+    terms_and_ranks: "Các sĩ quan công nghệ; huấn luyện; độ cao tám nghìn; Thiếu tá von Degurechaff; mười hai nghìn feet; binh lính."
+    modality_and_negation: "Giữ cấu trúc nhượng bộ 'Đành rằng... nhưng...' ở câu 2, suy đoán chắc chắn ở câu 3, giả định phủ định 'Họ sẽ chẳng lấy làm ngạc nhiên nếu...' ở câu 4 và sự đối lập ở câu 5."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000120
+    pov_and_pronouns: "Thoại và trần thuật về viên sĩ quan quân cảnh: trần thuật gọi 'viên sĩ quan quân cảnh' / 'anh ta', quy chiếu đoàn thanh tra bằng 'họ'; trong thoại viên sĩ quan tự xưng 'Tôi' và quy chiếu các pháp sư bằng 'họ'."
+    terms_and_ranks: "viên sĩ quan quân cảnh; người dẫn đường; thuật thức; oxy tinh khiết."
+    modality_and_negation: "Giữ giọng điệu bình thản trong trần thuật và thông tin gián tiếp 'Tôi nghe nói họ liên tục sử dụng...' trong thoại."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000121
+    pov_and_pronouns: "Trần thuật ngôi thứ ba kết hợp câu hỏi nội tâm của nhóm sĩ quan công nghệ: quy chiếu bằng 'họ'."
+    terms_and_ranks: "thuật thức."
+    modality_and_negation: "Giữ câu hỏi ngắn bày tỏ sự sửng sốt ở câu 2 và câu diễn giải khẳng định ở câu 3."
+    emphasis: "Bảo toàn chính xác nhấn mạnh Markdown '*Liên tục ư?*' ở câu 2 tương ứng 1:1 với thẻ <html:em> trong xhtml nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000122
+    pov_and_pronouns: "Thoại thốt lên của sĩ quan công nghệ."
+    terms_and_ranks: "thuật thức kích hoạt liên tục."
+    modality_and_negation: "Giữ câu hỏi ngắn kết thúc bằng dấu ba chấm và dấu chấm hỏi."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000123
+    pov_and_pronouns: "Thoại đáp của viên sĩ quan quân cảnh: mở đầu lễ phép bằng 'Vâng', quy chiếu các pháp sư bằng 'họ'."
+    terms_and_ranks: "mức tối thiểu tuyệt đối."
+    modality_and_negation: "Giữ sắc thái suy đoán ngoại hiện 'Có vẻ đó là mức tối thiểu tuyệt đối được yêu cầu ở họ.'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000124
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: gọi 'Viên quân cảnh' và quy chiếu bằng 'anh ta'."
+    terms_and_ranks: "Viên quân cảnh; kỹ sư; thực địa."
+    modality_and_negation: "Giữ quan hệ nhân quả giữa hai mệnh đề phủ định 'không phải là kỹ sư, nên anh ta không nhận ra...'."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000125
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: gọi 'các kỹ sư từ Văn phòng Bộ Tổng Tham mưu' và quy chiếu bằng 'đám họ' / 'vài người'."
+    terms_and_ranks: "kỹ sư; Văn phòng Bộ Tổng Tham mưu; thuật thức ma pháp."
+    modality_and_negation: "Giữ sự đối lập ở câu 1, phản ứng xôn xao ở câu 2, và nhận định giới hạn phạm vi 'về mặt lý thuyết, là khả thi' ở câu 4."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000126
+    pov_and_pronouns: "Trần thuật ngôi thứ ba kết hợp câu hỏi nội tâm tự do của các kỹ sư: quy chiếu Tanya bằng 'cô'."
+    terms_and_ranks: "Các nhà nghiên cứu; thí nghiệm; quả cầu tính toán; duy trì song song các thuật thức; tác chiến."
+    modality_and_negation: "Giữ sự đối lập giữa thành công trong thí nghiệm (câu 1) với độ khó khi chế tạo cho tác chiến (câu 2), cùng câu hỏi cảm thán ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000127
+    pov_and_pronouns: "Thoại cảm thán của một kỹ sư/sĩ quan: quy chiếu Tanya bằng 'cô ta'."
+    terms_and_ranks: "quả cầu tính toán; mức tải."
+    modality_and_negation: "Giữ câu hỏi cảm thán mạnh về nguồn gốc quả cầu tính toán."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000128
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn các kỹ sư: quy chiếu họ bằng 'Họ', quy chiếu Tanya bằng 'cô'."
+    terms_and_ranks: "quân đội; nguyên mẫu."
+    modality_and_negation: "Giữ phủ định ở câu 1 ('vẫn chưa được chính thức cấp phát cho quân đội'), phủ định đi kèm mệnh đề đối lập ở câu 2 ('Họ không biết ai đã chế tạo ra nguyên mẫu này, nhưng rõ ràng là...')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000129
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: quy chiếu Tanya bằng 'cô'."
+    terms_and_ranks: "quân nhân; nhà sản xuất vũ khí; thiết bị mới."
+    modality_and_negation: "Giữ giả định phủ định 'Sẽ chẳng có gì đáng ngạc nhiên nếu...' ở câu 2 và khẳng định quá khứ hoàn thành ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000130
+    pov_and_pronouns: "Thoại giải thích của sĩ quan nắm thông tin: quy chiếu Tanya bằng 'Cô ấy'."
+    terms_and_ranks: "trưng dụng; mẫu sản xuất hàng loạt; Elinium Arms."
+    modality_and_negation: "Giữ câu khẳng định nêu rõ việc trưng dụng lô đầu tiên của mẫu sản xuất hàng loạt."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000131
+    pov_and_pronouns: "Trần thuật ngôi thứ ba kết hợp suy nghĩ của người nghe: quy chiếu Tanya bằng 'Cô'."
+    terms_and_ranks: "phát triển công nghệ."
+    modality_and_negation: "Giữ sắc thái nhận ra vấn đề ở câu 1, sự kiện quá khứ ở câu 2 và suy luận 'Hẳn đó là một mối quan hệ từ hồi ấy.' ở câu 3."
+    emphasis: "Bảo toàn chính xác nhấn mạnh Markdown '*Ồ, phải rồi*' trước dấu gạch ngang dài ở câu 1 tương ứng 1:1 với thẻ <html:em> trong xhtml nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000132
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: quy chiếu Tanya bằng 'Cô' / 'cô', quy chiếu Elinium Arms bằng 'họ'."
+    terms_and_ranks: "Elinium Arms; dự án tuyệt mật; Cục Mua sắm thuộc Bộ Tổng Tham mưu; Cục Quân vụ; viên quân cảnh."
+    modality_and_negation: "Giữ giả định quá khứ phủ định kép 'Cô sẽ chẳng thể nào lấy được thứ gì từ họ nếu không có sự ngầm chấp thuận của...' ở câu 2 và giả định hệ quả đối lập 'Bằng không, viên quân cảnh có lẽ đã phải...' ở câu 3."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000133
+    pov_and_pronouns: "Thoại của Tanya qua vô tuyến với các học viên: tự xưng 'Tôi', gọi 'các người' (lưu ý gợi ý nhỏ ở findings về từ 'mình' ở câu 2)."
+    terms_and_ranks: "động tác cơ động; mục tiêu."
+    modality_and_negation: "Giữ lời nhắc mệnh lệnh phủ định ở câu 1 ('Tôi đã bảo các người đừng có thực hiện...') và câu hỏi trách mắng phủ định ở câu 2 ('Sao các người không nhận ra...?')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000134
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: gọi 'Thiếu tá von Degurechaff' và quy chiếu bằng 'cô'; quy chiếu các pháp sư trong tiểu đoàn bằng 'họ' và 'đám học viên'."
+    terms_and_ranks: "tiểu đoàn; tám nghìn feet; Thiếu tá von Degurechaff; Pháp sư Định danh; học viên."
+    modality_and_negation: "Giữ sự tương phản rõ nét giữa các thành viên tiểu đoàn đang chật vật bay chậm chạp với chuyển động mượt mà, nhanh nhẹn của Thiếu tá von Degurechaff."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000135
+    pov_and_pronouns: "Thoại của Tanya qua vô tuyến."
+    terms_and_ranks: "thực chiến."
+    modality_and_negation: "Giữ hai câu ngắn chuyển sang bước huấn luyện thực chiến."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000136
+    pov_and_pronouns: "Thoại hô lệnh khẩn cấp của một pháp sư trong tiểu đoàn."
+    terms_and_ranks: "cơ động né tránh bất quy tắc."
+    modality_and_negation: "Bảo toàn chi tiết nói lắp đầu câu 'C-cơ động né tránh bất quy tắc!' và mệnh lệnh khẩn cấp."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000137
+    pov_and_pronouns: "Thoại của sĩ quan/kỹ sư quan sát: tự xưng 'Tôi', quy chiếu các pháp sư bằng 'Họ'."
+    terms_and_ranks: "cơ động né tránh; duy trì song song các thuật thức."
+    modality_and_negation: "Giữ dấu ba chấm mở đầu, câu phủ định 'Tôi không thể tin nổi.' ở câu 1 và câu hỏi kinh ngạc ở câu 2."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000138
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: quy chiếu đoàn thanh tra bằng 'họ' (câu 1), các pháp sư bằng 'họ' (câu 2), và chủ thể quan sát phiếm chỉ bằng 'người ta'."
+    terms_and_ranks: "Bài diễn tập; pháp sư; tiểu đoàn."
+    modality_and_negation: "Giữ sự tương phản bề ngoài khi nhìn từ góc độ không chuyên ('Trông cứ như thể họ đang chơi trò đuổi bắt, và thoạt nhìn, người ta sẽ tự hỏi liệu có thể thảm hại đến mức đó được hay không.')."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000139
+    pov_and_pronouns: "Trần thuật ngôi thứ ba từ góc nhìn chuyên môn: quy chiếu các pháp sư bằng 'Họ'."
+    terms_and_ranks: "các thuật thức song song; quả cầu tính toán; cơ động né tránh bất quy tắc; cơ động thực chiến."
+    modality_and_negation: "Giữ sự đối lập ở câu 1, mệnh đề quan hệ giả định phủ định 'điều vốn dĩ phải là bất khả thi về mặt kỹ thuật' ở câu 2, và thành phần giải thích trong cặp dấu gạch ngang dài ở câu 3."
+    emphasis: "Bảo toàn chính xác nhấn mạnh Markdown '*lẫn*' ở câu 3 tương ứng 1:1 với thẻ <html:em> trong xhtml nguồn theo DEC-P01-002."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000140
+    pov_and_pronouns: "Trần thuật ngôi thứ ba."
+    terms_and_ranks: "pháp sư; triển khai; mồi nhử quang học; hỏa lực đối phương."
+    modality_and_negation: "Giữ câu chuyển ý tăng tiến ở câu 1 và hành động chủ động triển khai mồi nhử quang học ở câu 2."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000141
+    pov_and_pronouns: "Thoại kinh ngạc của người quan sát: quy chiếu các pháp sư bằng 'Họ'."
+    terms_and_ranks: "mồi nhử."
+    modality_and_negation: "Giữ câu cảm thán ngắn nhấn mạnh việc tạo thêm mồi nhử."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000142
+    pov_and_pronouns: "Trần thuật ngôi thứ ba: quy chiếu các pháp sư bằng 'họ'."
+    terms_and_ranks: "tài nguyên dư thừa; mồi nhử quang học; hành động né tránh."
+    modality_and_negation: "Giữ câu diễn giải làm rõ năng lực dư tải của quả cầu tính toán và pháp sư."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000143
+    pov_and_pronouns: "Trần thuật ngôi thứ ba."
+    terms_and_ranks: "mồi nhử; triển khai; hiệu năng; tiêu chuẩn hóa; sản xuất hàng loạt."
+    modality_and_negation: "Giữ sắc thái ngoại hiện 'trông khá giống thật' ở câu 1, 'thậm chí dường như còn đang tự động hành động' ở câu 2, và câu nhận định tổng kết ở câu 3–4."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000144
+    pov_and_pronouns: "Thoại của kỹ sư/sĩ quan Bộ Tổng Tham mưu: dùng đại từ 'chúng ta'."
+    terms_and_ranks: "Mẫu mới của Elinium."
+    modality_and_negation: "Giữ câu khẳng định mức độ vượt ngoài sức tưởng tượng của mẫu quả cầu mới."
+    emphasis: "Không dùng dấu *...*."
+  - segment_id: YS-LN01/Text/chapter011b.xhtml/p000145
+    pov_and_pronouns: "Trần thuật ngôi thứ ba kết hợp suy nghĩ chung của các kỹ sư/sĩ quan Bộ Tổng Tham mưu: dùng đại từ 'chúng ta'."
+    terms_and_ranks: "đưa vào trang bị; độ tin cậy; đơn vị; bài kiểm tra sức bền."
+    modality_and_negation: "Giữ tính bắt buộc ở câu 1, giả định phủ định 'Sẽ chẳng một ai nói khác đi khi được chứng kiến cảnh tượng này.' ở câu 2, và phủ định 'Chí ít thì độ tin cậy cũng không phải là vấn đề' ở câu 3."
+    emphasis: "Bảo toàn chính xác nhấn mạnh Markdown '*Đây nhất định phải là thứ tiếp theo chúng ta đưa vào trang bị.*' ở câu 1 tương ứng 1:1 với thẻ <html:em> trong xhtml nguồn theo DEC-P01-002."
