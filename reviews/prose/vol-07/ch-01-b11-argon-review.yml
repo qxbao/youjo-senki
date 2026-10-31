@@ -1,0 +1,232 @@
+task_id: "vol-07-ch-01-b11-argon-review"
+parent_task_id: "vol-07-ch-01-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 1
+source_package: "work/vol-07/batches/ch-01-b11-source.jsonl"
+target_translation: "translations/vol-07/ch-01-b11.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000426"
+    severity: "minor"
+    issue: "Cụm từ gốc 'War dogs' (ẩn dụ chỉ đám thuộc cấp hiếu chiến được quy chiếu bằng 'chúng' ở vế sau) đang được dịch là 'Khuyển chiến'. Trong cấu trúc từ Hán-Việt, hậu tố '-chiến' đứng sau danh từ thường chỉ hình thức giao chiến (như không chiến, hải chiến, khuyển chiến = dogfight), dễ gây nhầm thành tên một kiểu tác chiến thay vì danh từ chỉ loài chó chiến/chó săn chiến trường."
+    rationale: "Đổi sang 'Chiến khuyển' hoặc 'Chó săn chiến trường' để giữ đúng danh từ chỉ đối tượng ('war dogs') và khớp tự nhiên với đại từ 'chúng' trong cùng câu."
+    suggested_fix: "Đổi 'Khuyển chiến cốt là ở cách bạn sử dụng chúng.' thành 'Chiến khuyển cốt là ở cách người ta sử dụng chúng.' (hoặc 'Chó săn chiến trường cốt là ở cách bạn sử dụng chúng.')."
+pending_term_recommendations:
+  - source_term: "probing attack / spring counteroffensive"
+    proposed_vi: "đợt tiến công thăm dò / cuộc phản công mùa xuân"
+    alternatives_vi:
+      - "đợt tấn công thăm dò / cuộc phản công mùa xuân"
+    rationale: "Thuật ngữ quân sự chuẩn xác để chỉ đòn đánh thăm dò dọc toàn tuyến và kế hoạch phản công mùa xuân của sư đoàn."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000399"
+      - "YS-LN07/Text/chapter002.xhtml/p000401"
+      - "YS-LN07/Text/chapter002.xhtml/p000402"
+    status: "proposed"
+  - source_term: "patrol lines / Imperial Army / defensive positions"
+    proposed_vi: "các tuyến tuần tra / Lục quân Đế quốc / các trận địa phòng ngự"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán các thuật ngữ quân sự đã khóa trong sổ pending từ các tập trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000399"
+      - "YS-LN07/Text/chapter002.xhtml/p000404"
+    status: "proposed"
+  - source_term: "eastern front / trench works"
+    proposed_vi: "mặt trận phía đông / hệ thống công sự chiến hào"
+    alternatives_vi:
+      - "mặt trận phía đông / công sự chiến hào"
+    rationale: "Kế thừa 'mặt trận phía đông' từ sổ pending và dịch rõ nghĩa 'trench works' gắn với chức năng bảo đảm hậu cần, sửa chữa."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000405"
+    status: "proposed"
+  - source_term: "Colonel / Colonel Degurechaff (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / Trung tá Degurechaff"
+    alternatives_vi: []
+    rationale: "Kế thừa quy ước dịch cách gọi tắt 'Colonel' đối với cấp bậc Lieutenant Colonel của Tanya là 'Trung tá'."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000407"
+      - "YS-LN07/Text/chapter002.xhtml/p000414"
+      - "YS-LN07/Text/chapter002.xhtml/p000419"
+    status: "proposed"
+  - source_term: "Communists"
+    proposed_vi: "lũ Cộng sản / bọn Cộng sản"
+    alternatives_vi:
+      - "những người Cộng sản"
+    rationale: "Kế thừa sổ pending theo đúng sắc thái khinh miệt trong lời thoại của Dirichlet và thái độ của Tanya."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000407"
+      - "YS-LN07/Text/chapter002.xhtml/p000409"
+    status: "proposed"
+  - source_term: "rationality / Being X / moral dualism"
+    proposed_vi: "tính hợp lý / Being X / thuyết nhị nguyên đạo đức"
+    alternatives_vi: []
+    rationale: "Kế thừa 'tính hợp lý' (P03-rationality) và 'Being X' (P05-being-x) từ canon/glossary-pending.yml; dịch sát thuật ngữ triết học 'thuyết nhị nguyên đạo đức'."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000413"
+    status: "proposed"
+  - source_term: "the Rhine"
+    proposed_vi: "mặt trận Rhine"
+    alternatives_vi: []
+    rationale: "Kế thừa cách dịch 'the Rhine' khi chỉ chiến trường từng phục vụ là 'mặt trận Rhine' từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000417"
+      - "YS-LN07/Text/chapter002.xhtml/p000419"
+    status: "proposed"
+  - source_term: "provisional HQ / reconnaissance mission"
+    proposed_vi: "sở chỉ huy lâm thời / nhiệm vụ trinh sát"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ 'sở chỉ huy lâm thời' và 'nhiệm vụ trinh sát' từ các tập trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000414"
+      - "YS-LN07/Text/chapter002.xhtml/p000421"
+    status: "proposed"
+  - source_term: "aerial magic officers"
+    proposed_vi: "các sĩ quan ma pháp trên không"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ 'sĩ quan ma pháp trên không' đã dùng từ đầu chương."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000425"
+    status: "proposed"
+  - source_term: "Major Weiss / Grantz / artillery division"
+    proposed_vi: "Thiếu tá Weiss / Grantz / sư đoàn pháo binh"
+    alternatives_vi: []
+    rationale: "Giữ đúng cấp bậc Thiếu tá của Weiss từ tập 5–6 và thuật ngữ đơn vị 'sư đoàn pháo binh' từ các batch trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000422"
+      - "YS-LN07/Text/chapter002.xhtml/p000427"
+    status: "proposed"
+  - source_term: "field bakery company / supply company / Colonel Dirichlet"
+    proposed_vi: "đại đội lò bánh mì dã chiến / đại đội tiếp vận / Đại tá Dirichlet"
+    alternatives_vi:
+      - "đại đội làm bánh dã chiến / đại đội tiếp vận / Đại tá Dirichlet"
+    rationale: "Giữ đúng quân hàm Đại tá của trung đoàn trưởng Dirichlet và tên các đơn vị hậu cần cấp đại đội."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000430"
+      - "YS-LN07/Text/chapter002.xhtml/p000433"
+    status: "proposed"
+  - source_term: "scouting parties / operational area"
+    proposed_vi: "các toán trinh sát / khu vực tác chiến"
+    alternatives_vi: []
+    rationale: "Kế thừa 'khu vực tác chiến' từ sổ pending và dịch sát 'scouting parties' là 'các toán trinh sát'."
+    segment_ids:
+      - "YS-LN07/Text/chapter002.xhtml/p000435"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000398"
+    choices:
+      - "Xưng hô & tình thái: Tanya gọi Đại tá Dirichlet là 'ông'; giữ tình thái nhận định 'Xem ra lực lượng của ông đã bị đánh cho tan tác ngay cả trước khi kịp bắt đầu…'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000399"
+    choices:
+      - "Thuật ngữ, cấu trúc tăng tiến & dấu câu: 'standard-issue cigarette ration' -> 'điếu thuốc lá tiêu chuẩn được cấp phát theo khẩu phần'; 'probing attack' -> 'đợt tiến công thăm dò'; 'defensive positions' -> 'các trận địa phòng ngự'; giữ cấu trúc 'không chỉ trong trung đoàn của tôi mà còn khắp toàn sư đoàn' và cặp nháy đơn ‘đẩy lùi được địch’ (không in nghiêng vì nguồn không có thẻ em)."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000400"
+    choices:
+      - "Thoại ngắn: giữ câu hỏi lặp lại từ khóa 'Thiếu sót sao?' khớp với câu trước."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000401"
+    choices:
+      - "Thuật ngữ & so sánh: giữ cấu trúc đối chiếu mức độ 'không nằm ở bản thân phòng tuyến thực tế cho bằng nằm ở tâm thế của chúng tôi'; 'spring counteroffensive' -> 'cuộc phản công mùa xuân'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000402"
+    choices:
+      - "Thoại ngắn: giữ câu hỏi xác nhận 'Một cuộc phản công ư?' khớp với thuật ngữ đoạn trước."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000403"
+    choices:
+      - "Phủ định & sắc thái: giữ sắc thái cay đắng của Dirichlet và phủ định tuyệt đối 'Chẳng một ai mảy may bận tâm đến việc phòng thủ mảnh đất mà chúng tôi đang trấn giữ.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000404"
+    choices:
+      - "Thuật ngữ, phủ định & tình thái: 'patrol lines' -> 'Các tuyến tuần tra'; 'Imperial Army' -> 'Lục quân Đế quốc'; 'defensive positions' -> 'các trận địa phòng ngự'; giữ phủ định quá khứ 'đã không được gia cố hay đào công sự', suy đoán 'hẳn đã thất thủ quá đỗi chóng vánh' và 'chẳng có gì đáng ngạc nhiên khi không một ai ra lệnh...'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000405"
+    choices:
+      - "Thuật ngữ & đối lập: 'eastern front' -> 'mặt trận phía đông'; 'trench works' -> 'hệ thống công sự chiến hào'; giữ phép đối lập 'chống chọi với cái lạnh và bùn lầy, chứ không phải hỏa lực bắn tới'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000406"
+    choices:
+      - "Thoại & đại từ: giữ dấu chấm lửng mở đầu và đại từ bao gộp 'chúng ta' trong câu nhận định của Tanya."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000407"
+    choices:
+      - "Quân hàm & xưng hô: Dirichlet gọi Tanya là 'Trung tá' ('Colonel'), tự xưng 'Tôi'; 'the damn Communists' -> 'lũ Cộng sản khốn kiếp đó'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000408"
+    choices:
+      - "Trần thuật: giữ câu nhận định ngắn 'Nhận xét của Dirichlet rất hợp lý.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000409"
+    choices:
+      - "Đại từ, nhấn mạnh Markdown & tình thái: trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001; chỉ bọc chữ nghiêng '*Thì chúng là bọn Cộng sản mà*' theo DEC-P01-002; giữ tình thái suy đoán 'Hẳn chúng phải nắm rất vững cách làm chuyện đó'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000410"
+    choices:
+      - "Xưng hô & câu hỏi: Dirichlet gọi Tanya là 'cô', tự xưng 'tôi'; giữ câu hỏi tu từ cuối đoạn."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000411"
+    choices:
+      - "Thoại & nghĩa: giữ câu đáp ngắn gọn của Tanya ('Chúng ta đang có chiến tranh. Thứ đó là một món xa xỉ hiếm hoi đấy.')."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000412"
+    choices:
+      - "Cấu trúc sóng đôi: giữ phép đối 'Lẽ thường của thời chiến, sự phi lý của thời bình.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000413"
+    choices:
+      - "Thuật ngữ & phủ định: 'rationality' -> 'tính hợp lý'; 'market principles' -> 'các nguyên tắc thị trường'; 'Being X' -> 'Being X'; 'moral dualism of good and evil' -> 'thuyết nhị nguyên đạo đức về thiện và ác'; giữ các cấu trúc phủ định 'Chẳng có lý do gì...' và 'không từ bỏ thị trường'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000414"
+    choices:
+      - "Xưng hô, quân hàm & thuật ngữ: Dirichlet xưng 'Tôi' / 'chúng tôi', gọi Tanya là 'cô' và 'Trung tá'; 'recon mission' -> 'nhiệm vụ trinh sát'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000415"
+    choices:
+      - "Câu hỏi xác nhận & nghĩa: giữ đúng hai mục tiêu trong câu hỏi của Tanya ('Trinh sát khu vực và nhân tiện thu dung luôn tàn quân của những đơn vị bạn đã bại trận, đúng không?')."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000416"
+    choices:
+      - "Xưng hô: Dirichlet hỏi Tanya 'Cô sẽ nhận chứ?'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000417"
+    choices:
+      - "Thuật ngữ & đại từ: 'the Rhine' -> 'mặt trận Rhine'; Tanya đại diện đơn vị xưng 'Chúng tôi'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000418"
+    choices:
+      - "Điểm nhìn & đại từ: câu đầu là độc thoại nội tâm ngôi thứ nhất số nhiều dùng 'chúng tôi'; câu sau chuyển sang trần thuật ngôi thứ ba gọi tên 'Tanya' và 'Dirichlet'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000419"
+    choices:
+      - "Quân hàm, thuật ngữ & xưng hô: 'the Rhine' -> 'mặt trận Rhine'; 'Colonel Degurechaff' -> 'Trung tá Degurechaff'; Dirichlet gọi Tanya là 'cô' và xưng 'chúng tôi'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000420"
+    choices:
+      - "Phủ định kép: giữ cấu trúc phủ định 'Sự tin tưởng của họ đã không đặt nhầm chỗ.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000421"
+    choices:
+      - "Thuật ngữ: 'provisional HQ' -> 'sở chỉ huy lâm thời'; 'reconnaissance mission' -> 'nhiệm vụ trinh sát'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000422"
+    choices:
+      - "Thoại & tên nhân vật: Tanya nói với phụ tá dùng đại từ 'chúng ta', giữ nguyên tên 'Weiss' và 'Grantz'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000423"
+    choices:
+      - "Giọng thoại cấp dưới: giữ dấu chấm lửng mở đầu và tiểu từ lễ phép 'ạ' khi báo cáo với Tanya."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000424"
+    choices:
+      - "Thoại ngắn: giữ lời khen ngắn gọn 'Tuyệt vời.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000425"
+    choices:
+      - "Thuật ngữ & đại từ: 'aerial magic officers' -> 'các sĩ quan ma pháp trên không'; trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000426"
+    choices:
+      - "Điểm nhìn & thuật ngữ: độc thoại nội tâm của Tanya về thuộc cấp; chỉnh 'War dogs' thành 'Chiến khuyển' (hoặc 'Chó săn chiến trường') theo finding minor để khớp với đại từ 'chúng'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000427"
+    choices:
+      - "Quân hàm, xưng hô & thuật ngữ: 'Major Weiss' -> 'Thiếu tá Weiss'; Tanya gọi Weiss là 'anh', dùng 'chúng ta' cho đơn vị; 'artillery division' -> 'sư đoàn pháo binh'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000428"
+    choices:
+      - "Đại từ nội tâm, tình thái & phủ định: nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001 và 'chúng tôi' cho đơn vị; giữ tình thái khả năng 'có thể đang săn lùng mình' và phủ định 'Bằng không thì mình sẽ chẳng bao giờ ngủ yên được.'"
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000429"
+    choices:
+      - "Điểm nhìn: giữ cách tự nhắc tên ngôi thứ ba 'cái bụng rỗng của Tanya' trong dòng suy nghĩ và đại từ chung 'chúng ta' ở câu nhận định lịch sử."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000430"
+    choices:
+      - "Thuật ngữ & đại từ: Tanya tự xưng 'tôi' trong lời thoại; 'field bakery company' -> 'đại đội lò bánh mì dã chiến'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000431"
+    choices:
+      - "Xưng hô cấp dưới & phủ định: cấp dưới xưng 'Tôi', gọi Tanya là 'Trung tá' kèm 'ạ'; giữ phủ định 'không cần phải lo lắng về lương thực đâu ạ'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000432"
+    choices:
+      - "Thoại ngắn: giữ câu hỏi ngạc nhiên 'Hả?' của Tanya."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000433"
+    choices:
+      - "Quân hàm & thuật ngữ: 'Colonel Dirichlet' -> 'Đại tá Dirichlet' (phân biệt với Trung tá Tanya); 'supply company' -> 'đại đội tiếp vận'; 'calorie-dense meals' -> 'những suất ăn giàu năng lượng'."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000434"
+    choices:
+      - "Điểm nhìn & nghĩa: giữ nhịp chuyển từ câu cảm thán nội tâm ('Đúng là những người chuyên nghiệp mẫu mực.') sang câu trần thuật ('Tanya hài lòng gật đầu.') và các nhận định tiếp theo."
+  - segment_id: "YS-LN07/Text/chapter002.xhtml/p000435"
+    choices:
+      - "Thuật ngữ & chỉ dẫn: 'scouting parties' -> 'các toán trinh sát'; 'operational area' -> 'khu vực tác chiến'; giữ đúng thứ tự ưu tiên cử người đã ăn xong đi trước và kiểm tra hướng rủi ro nhất trước tiên."
