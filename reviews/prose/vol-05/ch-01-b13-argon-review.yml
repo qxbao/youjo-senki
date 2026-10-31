@@ -1,0 +1,387 @@
+task_id: "vol-05-ch-01-b13-argon-review"
+parent_task_id: "vol-05-ch-01-b13"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b13-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b13.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b13-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000428"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Cụm từ chỉ sự lựa chọn buộc phải chọn một trong hai vế đối lập đang được dịch thành 'được ăn cả ngã về không', làm lệch nhẹ sắc thái từ thế tiến thoái lưỡng nan (chọn phương án này thì mất phương án kia) sang sắc thái đánh cược may rủi."
+    rationale: "Ở lô trước (p000385, p000398) và các câu tiếp theo (p000429–p000434), Tanya đang cân nhắc giữa hai lựa chọn loại trừ lẫn nhau: hoặc để binh lính ngủ nhưng chịu rủi ro bị tập kích, hoặc đặt đơn vị vào trạng thái sẵn sàng chiến đấu nhưng làm hao tổn giấc ngủ."
+    recommendation: "Có thể chỉnh nhẹ thành '*Sao dạo gần đây lại có nhiều sự lựa chọn kiểu buộc phải chọn một trong hai thế này nhỉ…?*' hoặc '*Sao dạo gần đây lại có nhiều sự lựa chọn kiểu chỉ được chọn một trong hai thế này nhỉ…?*' ở bước chuốt văn."
+  - segment_id: "YS-LN05/Text/part0010.html/p000437"
+    severity: "minor"
+    category: "pronouns_consistency"
+    issue: "Đại từ quy chiếu Trung úy Grantz trong trần thuật ở p000437 đang dùng 'anh' ('đơn vị của anh'), hơi thiếu thống nhất và dễ tạo sắc thái thân mật so với cách gọi 'cậu ta' ở câu thoại ngay trước (p000436) và 'anh ta' khi trần thuật về Weiss (p000442–p000447)."
+    rationale: "Theo DEC-P01-001, trần thuật không nên dùng đại từ dễ gợi suy diễn quan hệ thân thuộc; dùng 'cậu ta' hoặc 'anh ta' sẽ giữ khoảng cách trần thuật khách quan và đồng bộ với ngữ cảnh."
+    recommendation: "Có thể chỉnh 'đơn vị của anh' thành 'đơn vị của cậu ta' hoặc 'đơn vị của anh ta' khi chuốt văn."
+pending_term_recommendations:
+  - source_term: "human capital"
+    proposed_vi: "vốn con người"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với mục P03-human-capital trong canon/glossary-pending.yml và sổ pending."
+    alternatives_vi:
+      - "nguồn vốn con người"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000425"
+  - source_term: "Lieutenant Grantz / First Lieutenant Grantz"
+    proposed_vi: "Trung úy Grantz"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Nhất quán với cấp bậc Trung úy của Grantz trong sổ pending từ Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000435"
+      - "YS-LN05/Text/part0010.html/p000437"
+  - source_term: "command post"
+    proposed_vi: "sở chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'command post / HQ -> sở chỉ huy / Sở chỉ huy' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000442"
+  - source_term: "vice commander"
+    proposed_vi: "phó chỉ huy"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Nhất quán với chức danh phó chỉ huy của Thiếu tá Weiss trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000450"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Trong tiếng Anh, cấp dưới gọi tắt Lieutenant Colonel là Colonel; dịch là 'Trung tá' để khớp đúng quân hàm hiện tại của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000452"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên quốc gia / thế lực"
+    status: "pending"
+    rationale: "Nhất quán với tên gọi Liên bang trong sổ pending từ Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000454"
+      - "YS-LN05/Text/part0010.html/p000464"
+  - source_term: "rapid response unit"
+    proposed_vi: "đơn vị phản ứng nhanh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác vai trò lực lượng trực chiến cơ động phản ứng nhanh khi phát hiện địch xâm nhập."
+    alternatives_vi:
+      - "đội phản ứng nhanh"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000454"
+  - source_term: "harassment attacks"
+    proposed_vi: "tấn công quấy rối"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với phương án đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000458"
+  - source_term: "Salamander Kampfgruppe / Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander / Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Nhất quán với tên đơn vị tác chiến hỗn hợp trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000464"
+  - source_term: "self-propelled artillery"
+    proposed_vi: "pháo tự hành"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn, đồng bộ với mục 'self-propelled guns -> pháo tự hành' trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000464"
+  - source_term: "aerial mages"
+    proposed_vi: "pháp sư trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với cách dịch binh chủng pháp sư trên không trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000464"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Nhất quán với quân hàm Thiếu tá của Weiss ở Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000466"
+  - source_term: "203rd"
+    proposed_vi: "Tiểu đoàn 203"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Cách gọi rút gọn tự nhiên và rõ nghĩa cho Tiểu đoàn Pháp sư Trên không số 203 trong lời thoại chỉ huy."
+    alternatives_vi:
+      - "Đơn vị 203"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000466"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000421"
+    choices:
+      - "assistant -> người trợ lý"
+      - "modality -> có thể nói là một phần trong bổn phận"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000422"
+    choices:
+      - "emphasis -> bọc '*...*' toàn câu theo DEC-P01-002"
+      - "negation -> Không thể nào duy trì hiệu suất ở mức 100 phần trăm chỉ bằng ý chí và sự gan lì được"
+  - segment_id: "YS-LN05/Text/part0010.html/p000423"
+    choices:
+      - "ma’am -> thưa Trung tá (Serebryakov đáp lời Tanya)"
+      - "pronouns -> tôi (Serebryakov tự xưng)"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000424"
+    choices:
+      - "POV/pronouns -> nội tâm ngôi thứ nhất của Tanya tự xưng 'mình' theo DEC-P01-001; quy chiếu Serebryakov bằng 'cô ấy'; gộp chung bằng 'cùng nhau'"
+      - "Serebryakov -> Serebryakov"
+      - "modality -> Có lẽ bảo rằng chính mình đã rèn giũa Serebryakov thành con người như hiện tại thì hơi tự phụ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000425"
+    choices:
+      - "POV/pronouns -> câu đầu nội tâm ngôi thứ nhất dùng 'Mình' và 'chúng ta'; câu cuối chuyển sang trần thuật góc nhìn Tanya giữ tên riêng 'Tanya'"
+      - "human capital -> vốn con người / nguồn vốn con người"
+      - "readiness, even if only level three -> trạng thái sẵn sàng chiến đấu, dù chỉ ở mức ba"
+      - "modality -> quả thực nghĩ rằng... có lẽ là hơi quá thận trọng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000426"
+    choices:
+      - "meaning -> đề phòng rủi ro ở mức độ thích hợp; sợ hãi quá mức lại tự chuốc lấy rắc rối riêng; cần có lương tri và sự cân bằng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000427"
+    choices:
+      - "idiom -> Nói thì dễ hơn làm"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000428"
+    choices:
+      - "emphasis -> chỉ bọc '*...*' ở câu hỏi nội tâm đầu đoạn theo DEC-P01-002; vế trần thuật sau để chữ thường"
+      - "POV -> giữ tên riêng 'Tanya'"
+  - segment_id: "YS-LN05/Text/part0010.html/p000429"
+    choices:
+      - "pronouns -> tôi - họ (Tanya nói với Weiss)"
+      - "condition_and_negation -> nếu đánh thức họ dậy mà chẳng vì lý do gì thì họ sẽ chẳng ưa tôi lắm đâu, đúng không?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000430"
+    choices:
+      - "lookouts -> lính cảnh giới"
+      - "combat-readiness order -> lệnh sẵn sàng chiến đấu"
+      - "pronouns -> Chúng ta (Weiss đề xuất với Tanya)"
+      - "question_target -> chỉ để lại lính cảnh giới và hủy lệnh sẵn sàng chiến đấu thì sao ạ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000431"
+    choices:
+      - "emphasis -> chỉ bọc '*Nếu chúng ta làm vậy…*' ở đầu đoạn theo DEC-P01-002; phần còn lại để ngoài dấu *"
+      - "POV/pronouns -> nội tâm dùng 'chúng ta'; trần thuật giữ tên riêng 'Tanya' và đại từ 'Họ' chỉ phía đơn vị/chỉ huy"
+      - "modality -> sẽ có thể chắt chiu được chút thời gian cho binh lính nghỉ ngơi trên giường, dù chỉ được vài tiếng đồng hồ"
+  - segment_id: "YS-LN05/Text/part0010.html/p000432"
+    choices:
+      - "negation -> Đó không phải là một đề xuất tồi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000433"
+    choices:
+      - "emphasis -> chỉ bọc '*Nhưng…*' ở đầu đoạn theo DEC-P01-002; phần trần thuật sau để ngoài dấu *"
+      - "POV/pronouns -> trần thuật ngôi thứ ba dùng 'nó' chỉ Tanya theo DEC-P01-001"
+      - "meaning -> làm vậy thì còn quá sớm"
+  - segment_id: "YS-LN05/Text/part0010.html/p000434"
+    choices:
+      - "pronouns -> chúng ta (Tanya nói với Weiss)"
+      - "meaning_and_time -> trời sắp rạng sáng; đêm khuya hoặc rạng sáng là những thời điểm để tung đòn tập kích; trong khung giờ này cần phải cẩn trọng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000435"
+    choices:
+      - "Lieutenant Grantz -> Trung úy Grantz"
+      - "pronouns -> Tôi (Weiss hỏi xin ý kiến Tanya)"
+      - "question_target -> Tôi có nên đánh thức Trung úy Grantz dậy không ạ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000436"
+    choices:
+      - "Grantz -> Grantz; cậu ta"
+      - "backup and scramble duty -> nhiệm vụ dự bị và trực xuất kích khẩn cấp"
+      - "scrambler -> người trực xuất kích khẩn cấp"
+      - "directive_and_causality -> Cứ để cậu ta ngủ đi; thiếu ngủ thì sẽ chỉ gây ra tai nạn thôi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000437"
+    choices:
+      - "POV/pronouns -> trần thuật ngôi thứ ba dùng 'Nó' chỉ Tanya theo DEC-P01-001"
+      - "First Lieutenant Grantz -> Trung úy Grantz"
+      - "meaning -> rất vui vì đơn vị của Grantz đã trở thành một lực lượng chiến đấu thực thụ; vô cùng tự hào vì đã đào tạo nên Trung úy Grantz"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000438"
+    choices:
+      - "meaning -> Bồi dưỡng con người là một công việc quan trọng trong một tổ chức"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000439"
+    choices:
+      - "POV/pronouns -> câu đầu nội tâm dùng 'mình'; phần dẫn trần thuật dùng tên riêng 'Tanya'; lời thoại lẩm bẩm thành tiếng dùng 'tôi'"
+      - "personnel -> phòng nhân sự"
+      - "negation_and_modality -> chưa từng bồi dưỡng ai cả; có khi lại thực sự có năng khiếu dạy dỗ người khác"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000440"
+    choices:
+      - "two first lieutenants -> hai vị trung úy"
+      - "pronouns -> Tôi - Trung tá - họ (Weiss nói với Tanya về Grantz và Serebryakov)"
+      - "idiom -> bị Trung tá quần cho tơi tả"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000441"
+    choices:
+      - "POV/pronouns -> nội tâm ngôi thứ nhất của Tanya dùng 'mình' theo DEC-P01-001; quy chiếu hai trung úy bằng 'họ'"
+      - "modality_and_negation -> Có thể mình đã là một người thầy nghiêm khắc, nhưng mình đã mang lại kết quả; chẳng kiêu ngạo đến mức bảo rằng họ có cảm ơn mình thì mình cũng chẳng lấy làm ngạc nhiên"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000442"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'nó' chỉ Tanya theo DEC-P01-001 và 'anh ta' chỉ Weiss; thoại Weiss xưng 'tôi'"
+      - "command post -> sở chỉ huy"
+      - "question_target -> Cho tôi xin thêm một tách cà phê nữa được không ạ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000443"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'Nó' chỉ Tanya và 'anh ta' chỉ Weiss"
+      - "arabica beans -> những hạt cà phê arabica"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000444"
+    choices:
+      - "pronouns -> tôi - anh (Tanya nói với Thiếu tá Weiss)"
+      - "past_counterfactual_modality -> lẽ ra tôi cũng nên bảo anh đi ngủ luôn mới phải"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000445"
+    choices:
+      - "pronouns -> Trung tá (Weiss đáp Tanya)"
+      - "condition -> Nếu Trung tá muốn vậy…"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000446"
+    choices:
+      - "pronouns -> Tôi / mình - Anh (Tanya nói với Weiss)"
+      - "negation -> chẳng còn lựa chọn nào khác"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000447"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'nó' và 'mình' (phản thân) chỉ Tanya theo DEC-P01-001; 'anh ta' chỉ Weiss"
+      - "private stock -> kho dự trữ riêng"
+      - "supply situation -> tình hình tiếp tế"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000448"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Weiss' và 'Tanya'; lời thoại Tanya tự xưng 'tôi'"
+      - "dawn attack -> cuộc tập kích lúc rạng sáng"
+      - "negation_and_modality -> có vẻ như sẽ chẳng có cuộc tập kích lúc rạng sáng nào đâu; chắc trực giác của tôi lục nghề rồi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000449"
+    choices:
+      - "hypothesis_and_time -> Nếu có một cuộc đột kích, hẳn nó phải đang diễn ra ngay vào khoảng thời gian này rồi"
+      - "negation -> nhưng giờ thì quân địch sẽ chẳng thể nào xoay xở kịp được nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000450"
+    choices:
+      - "emphasis -> bọc '*...*' toàn bộ đoạn độc thoại nội tâm theo DEC-P01-002"
+      - "POV/pronouns -> nội tâm ngôi thứ nhất của Tanya dùng 'mình' theo DEC-P01-001"
+      - "vice commander -> vị phó chỉ huy"
+      - "condition_and_negation -> nếu giờ này vẫn chưa thấy tăm hơi chúng đâu thì mọi sự chuẩn bị sẵn sàng chiến đấu đều công cốc; lấy làm mừng vì quân địch đã không tới"
+  - segment_id: "YS-LN05/Text/part0010.html/p000451"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'Tanya' và 'nó' theo DEC-P01-001"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000452"
+    choices:
+      - "Colonel -> Trung tá (gọi Trung tá Tanya)"
+      - "speech_detail -> giữ nét nói lắp khẩn cấp 'T-T-Trung tá'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000453"
+    choices:
+      - "sitrep -> Báo cáo tình hình"
+      - "directive -> Báo cáo tình hình đi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000454"
+    choices:
+      - "Federation forces -> Quân Liên bang"
+      - "battalion-strength units -> các đơn vị có quân số cấp tiểu đoàn"
+      - "patrol -> Đội tuần tra"
+      - "rapid response unit -> đơn vị phản ứng nhanh"
+      - "pronouns -> chúng ta - chúng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000455"
+    choices:
+      - "emphasis -> bọc '*...*' toàn câu hỏi nội tâm theo DEC-P01-002"
+      - "night raid -> tập kích ban đêm"
+      - "battalions -> các đơn vị cấp tiểu đoàn"
+  - segment_id: "YS-LN05/Text/part0010.html/p000456"
+    choices:
+      - "negation -> Không còn thời gian để nghĩ xem nước đi đó táo bạo đến mức nào nữa; không còn đơn thuần là hành động khiêu khích"
+      - "professional armies -> hai đội quân chuyên nghiệp"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000457"
+    choices:
+      - "directives -> Đánh thức tất cả dậy! Chúng tới rồi!"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000458"
+    choices:
+      - "POV/pronouns -> nội tâm Tanya dùng 'chúng ta' và 'chúng'"
+      - "harassment attacks -> những cuộc tấn công quấy rối"
+      - "question_target -> Phải chăng chúng nhắm đúng vào thời điểm chúng ta đã quen với những cuộc tấn công quấy rối của chúng?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000459"
+    choices:
+      - "reinforcements -> quân tiếp viện"
+      - "negation -> Không, giờ thì chẳng điều nào trong số đó còn quan trọng nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000460"
+    choices:
+      - "POV/pronouns -> nội tâm dùng 'Chúng ta' và 'chúng'"
+      - "meaning -> có thể điều tra động cơ của chúng sau"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000461"
+    choices:
+      - "POV/pronouns -> nội tâm dùng 'chúng ta' và 'mình'"
+      - "directive_and_time -> Ngay lúc này, chúng ta phải nghiền nát những kẻ địch đang đứng trước mặt mình"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000462"
+    choices:
+      - "dawn attack -> tập kích lúc rạng sáng"
+      - "question_and_directive -> tại sao chúng lại canh thời điểm tập kích lúc rạng sáng vào ngay lúc này chứ…? Khoan đã."
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000463"
+    choices:
+      - "dawn attack -> một cuộc tập kích lúc rạng sáng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000464"
+    choices:
+      - "Federation -> phía Liên bang"
+      - "Kampfgruppe -> Kampfgruppe"
+      - "Salamander Kampfgruppe -> Kampfgruppe Salamander"
+      - "ad hoc combat force -> lực lượng chiến đấu lâm thời"
+      - "armor, self-propelled artillery, infantry, and aerial mages -> thiết giáp, pháo tự hành, bộ binh cùng pháp sư trên không"
+      - "negation_and_logic -> chẳng mảy may đắn đo xem liệu hai tiểu đoàn có gặp khó khăn khi muốn đánh bại cả một Kampfgruppe hay không"
+      - "POV/pronouns -> dùng 'chúng ta' chỉ phía quân Đế quốc / Kampfgruppe Salamander và 'chúng' chỉ quân Liên bang"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000465"
+    choices:
+      - "pronouns -> Tôi (Weiss xung phong)"
+      - "intercept -> đánh chặn"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000466"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "The 203rd -> Tiểu đoàn 203"
+      - "reserve unit -> đơn vị dự bị"
+      - "directive -> Khoan đã, Thiếu tá Weiss!"
+      - "emphasis -> không dùng Markdown *...*"
