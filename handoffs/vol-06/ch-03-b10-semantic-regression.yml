@@ -1,0 +1,22 @@
+task_id: vol-06-ch-03-b10-semantic-regression
+parent_task_id: vol-06-ch-03-b10
+volume: vol-06
+chapter: 3
+expected_input_hashes:
+  source_package_sha256: 6f478f805ab500cc95cff52293ddfd96126a023a97d72cbf076957ba1e9d9f11
+  baseline_sha256: 417fc89360b290b95ab808b143a5198c2877e39b13d4fdd4cf7c79bb4abe621e
+  candidate_sha256: 950916d4ad675cadf05f57988f6144004af033fc0990283cebe57195ef62150a
+  locked_choices_sha256: 4e56cb9b39b32e68a53b8d8cb8da31f2a518f9a3616b55f1769b02bc550a1b7c
+  change_log_sha256: 6f2e0a1e5934afcfddb022906e3c3fb0cf3a5d9807e7ccf44b6b58e7cd3da059
+output_receipt: reviews/semantic/vol-06/ch-03-b10-gemini-regression.yml
+coordinator: ys-coord-stream-1
+status: in_progress
+lease:
+  holder: stream1-regression-vol-06-ch-03-b10
+  task_id: vol-06-ch-03-b10-semantic-regression
+  role: semantic_regression_luna
+  pane_id: w6:p3WZ
+  terminal_id: term_65f27672d0cb5502
+  state: active
+  allowlist:
+  - reviews/semantic/vol-06/ch-03-b10-gemini-regression.yml
