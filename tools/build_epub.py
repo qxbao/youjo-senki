@@ -40,6 +40,7 @@ VOLUME_TITLES_VI = {
 
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 ITALIC_RE = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
+CANONICAL_BATCH_RE = re.compile(r"^ch-\d{2}-b\d{2}\.jsonl$")
 
 
 def render_inline_markdown(text: str) -> str:
@@ -56,6 +57,8 @@ def load_volume_translations(vol: str) -> dict[str, dict]:
         return {}
     by_id: dict[str, dict] = {}
     for path in sorted(trans_dir.glob("*.jsonl")):
+        if not CANONICAL_BATCH_RE.fullmatch(path.name):
+            continue
         for line_no, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
             line = raw.strip()
             if not line:
