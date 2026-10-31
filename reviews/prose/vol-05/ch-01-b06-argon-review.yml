@@ -1,0 +1,335 @@
+task_id: "vol-05-ch-01-b06-argon-review"
+parent_task_id: "vol-05-ch-01-b06"
+volume: "vol-05"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-01-b06-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 2
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000166"
+    severity: "minor"
+    category: "tone_and_register"
+    issue: "Thán từ mở đầu đoạn p000166 được in nghiêng trong nguồn biểu thị tiếng rên bực dọc, ngao ngán của Tanya khi linh cảm chẳng lành thành sự thật, nhưng bản dịch hiện để là '*Ái chà.*' mang sắc thái ngạc nhiên thích thú hoặc cảm thán nhẹ nhàng, lệch với tâm trạng bức bối ở câu sau."
+    basis: "Nguyên tắc tại canon/style-guide.md: giữ đúng sắc thái và giọng kể theo ngữ cảnh; DEC-P01-002 về giữ nhấn mạnh chữ nghiêng."
+    recommendation: "Đổi '*Ái chà.*' thành '*Hự.*' hoặc '*Khốn thật.*' (giữ định dạng chữ nghiêng '*...*')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000174"
+    severity: "minor"
+    category: "pronouns_and_viewpoint"
+    issue: "Trong độc thoại nội tâm bức xúc của Tanya ở p000174 và p000175 khi nói về bản thân cùng đơn vị, đại từ ngôi thứ nhất số nhiều đang dịch là 'chúng mình', mang sắc thái thân mật đời thường không hợp với giọng độc thoại quân sự gay gắt của Tanya."
+    basis: "Nguyên tắc tại canon/style-guide.md và quy ước đại từ nội tâm trong pending-terms-index.yml: giữ giọng kể nhất quán theo ngữ cảnh, dùng 'chúng ta' (hoặc 'bọn mình') trong độc thoại nội tâm ngôi thứ nhất số nhiều của Tanya."
+    recommendation: "Đổi 'chúng mình' ở p000174 (hai lần) và 'Chúng mình' ở đầu p000175 thành 'chúng ta' / 'Chúng ta' (hoặc 'bọn mình' / 'Bọn mình')."
+pending_term_recommendations:
+  - source_term: "Colonel Uger"
+    proposed_vi: "Trung tá Uger"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000154"
+      - "YS-LN05/Text/part0010.html/p000162"
+      - "YS-LN05/Text/part0010.html/p000172"
+      - "YS-LN05/Text/part0010.html/p000179"
+      - "YS-LN05/Text/part0010.html/p000182"
+      - "YS-LN05/Text/part0010.html/p000184"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách gọi tắt trong tiếng Anh quân sự đối với cấp bậc Trung tá của Uger; dịch thống nhất là 'Trung tá Uger' theo đúng cấp bậc thực tế đã xác lập ở các batch trước."
+  - source_term: "General Staff / General Staff Office"
+    proposed_vi: "Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000156"
+      - "YS-LN05/Text/part0010.html/p000177"
+      - "YS-LN05/Text/part0010.html/p000179"
+      - "YS-LN05/Text/part0010.html/p000183"
+      - "YS-LN05/Text/part0010.html/p000188"
+      - "YS-LN05/Text/part0010.html/p000190"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án tạm đã khóa xuyên suốt các tập trước và các batch đầu của vol-05 trong pending-terms-index.yml."
+  - source_term: "Colonel von Degurechaff"
+    proposed_vi: "Trung tá von Degurechaff"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000161"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Tanya mang quân hàm Trung tá Pháp sư, được gọi tắt là Colonel trong hội thoại tiếng Anh; dịch thống nhất là 'Trung tá von Degurechaff' theo pending-terms-index.yml."
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000167"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên thuật ngữ biên chế tác chiến đặc thù theo phương án tạm đã thống nhất từ vol-04 và đầu vol-05."
+  - source_term: "recon-in-force"
+    proposed_vi: "trinh sát chiến đấu"
+    alternatives_vi:
+      - "trinh sát bằng vũ lực"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000168"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa phương án tạm 'trinh sát chiến đấu' đã dùng ổn định ở vol-02 trong pending-terms-index.yml."
+  - source_term: "salient"
+    proposed_vi: "mũi lồi"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000169"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ địa hình quân sự chỉ khu vực chiến tuyến nhô sâu vào trận địa địch; đồng bộ với phương án 'những mũi lồi' ở đầu vol-05 trong pending-terms-index.yml."
+  - source_term: "the brass"
+    proposed_vi: "đám cấp trên"
+    alternatives_vi:
+      - "cấp trên"
+      - "giới chóp bu"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000174"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phù hợp với sắc thái khẩu ngữ bức xúc trong độc thoại nội tâm của Tanya và tương thích với mục từ trong pending-terms-index.yml."
+  - source_term: "noblesse oblige"
+    proposed_vi: "*noblesse oblige*"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000180"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên thành ngữ tiếng Pháp in nghiêng trong nguồn vì ngay đoạn kế tiếp (p000181) bản thân văn bản đã diễn giải nghĩa tương ứng ('*Nghĩa vụ của giới tinh hoa*')."
+  - source_term: "Supreme High Command"
+    proposed_vi: "Bộ Tư lệnh Tối cao"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000188"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Đồng bộ với phương án tạm 'Bộ Tư lệnh Tối cao' đã dùng ở vol-04 và các batch trước của vol-05."
+  - source_term: "General von Zettour / General von Rudersdorf"
+    proposed_vi: "Tướng von Zettour / Tướng von Rudersdorf"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000190"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất danh xưng cấp tướng của Zettour và Rudersdorf như đã khóa ở các batch trước."
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000152"
+    locked:
+      pronouns: "chúng (kẻ địch) / phe ta - mình / chúng ta"
+      condition_and_logic: "Nếu kẻ địch không thể tận dụng hiệu quả thời gian của chúng… và nếu phe ta có thể tận dụng hiệu quả thời gian của mình… thì việc chúng ta tái tổ chức và xây dựng một nền tảng vững chắc hơn sẽ mang lại lợi ích"
+      emphasis: "*Nếu* / *không thể* / *nếu* / *có thể* (bọc đúng bốn vị trí nhấn mạnh theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000153"
+    locked:
+      meaning: "đúng là cả một tràng giả định nối đuôi nhau. Thật tình, có quá nhiều ẩn số."
+      emphasis: "*Nếu, nếu* (bọc đúng cụm từ nhấn mạnh đầu câu theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000154"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      pronouns: "tôi (Tanya xưng với Trung tá Uger)"
+      question: "“Trung tá Uger, tôi có thể nói đôi lời được không?”"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000155"
+    locked:
+      pronouns: "Anh ta (quy chiếu Uger) / cô - mình (quy chiếu Tanya trong trần thuật ngôi thứ ba)"
+      negation: "Cũng chẳng phải cô lấy làm vui vẻ gì khi thấy cái gật đầu đó trước lúc tung ra điều vẫn làm mình bận tâm bấy lâu nay"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000156"
+    locked:
+      pronouns: "tôi - anh (Tanya nói với Uger) / chúng tôi (đơn vị của Tanya, ngôi thứ nhất số nhiều loại trừ)"
+      terminology: "hộ tống đại quân chủ lực / Bộ Tổng tham mưu"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000157"
+    locked:
+      terminology: "điều chuyển khỏi tiền tuyến / người bạn đồng môn cũ"
+      negation: "Không tài nào xem chuyện bị điều chuyển khỏi tiền tuyến rồi lại đón một chuyến viếng thăm từ người bạn đồng môn cũ chỉ là sự trùng hợp đơn thuần được"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000158"
+    locked:
+      pronouns: "mình (độc thoại nội tâm của Tanya theo DEC-P01-001)"
+      negation_and_logic: "Suy diễn quá mức về các sự việc sẽ chỉ dụ mình thêu dệt nên một thuyết âm mưu lố bịch mà thôi. Nhưng nếu bảo ở đây chẳng có sự sắp đặt có chủ đích nào thì lại là nói dối."
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000159"
+    locked:
+      ranks_and_pronouns: "các vị tướng / Cả hai ông ấy"
+      terminology: "những người thực dụng / lý thuyết suông"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000160"
+    locked:
+      pronouns: "Tôi (Tanya)"
+      terminology: "quân nhân / chiến trường thực tế"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000161"
+    locked:
+      ranks_and_names: "Trung tá von Degurechaff"
+      pronouns: "tôi - cô (Uger nói với Tanya) / Họ - mình (hai vị tướng)"
+      negation_and_logic: "Họ không muốn một cuộc va chạm giữa các lý thuyết mà muốn kiểm chứng ý tưởng của mình ngay trên chiến trường"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000162"
+    locked:
+      ranks_and_names: "Tanya / Trung tá Uger"
+      emphasis: "*kiểm chứng* / *Không, khoan đã. Kiểm chứng mọi thứ trên chiến trường có nghĩa là…* (bọc đúng hai phần chữ nghiêng theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000163"
+    locked:
+      pronouns: "họ (hai vị tướng)"
+      terminology: "trinh sát quân địch"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000164"
+    locked:
+      pronouns: "chúng ta (trong lời thoại của Tanya) / họ (cấp trên)"
+      terminology_and_question: "đệ trình một kháng nghị chính thức / Chúng ta đào đâu ra thời gian cho việc đó chứ?"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000165"
+    locked:
+      pronouns: "cô (Uger gọi Tanya) / chúng ta"
+      terminology_and_logic: "dù chúng ta tiến công hay phòng ngự thì việc chuẩn bị binh lực cũng đều tốn thời gian… nghĩa là vẫn có thời gian cho một cuộc khảo sát"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000166"
+    locked:
+      pronouns: "cô (trần thuật ngôi thứ ba về Tanya)"
+      meaning: "Linh cảm chẳng lành của cô về chuyện này bắt đầu gióng lên hồi chuông cảnh báo, nhưng đã quá muộn rồi."
+      emphasis: "*Hự.* hoặc *Khốn thật.* (sửa từ '*Ái chà.*' để đúng sắc thái tiếng rên bực dọc và giữ chữ nghiêng theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000167"
+    locked:
+      pronouns: "họ (hai vị tướng) / của cô (Uger nói với Tanya)"
+      terminology: "vật tư tiếp tế đang được tích trữ / Kampfgruppe / thăm dò kẻ địch"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000168"
+    locked:
+      terminology_and_question: "“Trinh sát chiến đấu sao?”"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000169"
+    locked:
+      negation_and_terminology: "Không hẳn. Đó là một nhiệm vụ phòng ngự tại một mũi lồi."
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000170"
+    locked:
+      names: "Tanya"
+      meaning: "Tanya biết nhìn trừng trừng vào người khác là thiếu lịch sự."
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000171"
+    locked:
+      meaning: "Dù vậy…"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000172"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      pronouns: "cô - mình (quy chiếu Tanya) / anh ta (quy chiếu Uger)"
+      terminology: "bộ chỉ huy"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000173"
+    locked:
+      pronouns: "chúng ta (phe Đế quốc) / Chúng tôi - cô (Bộ Tổng tham mưu giao nhiệm vụ cho Tanya) / chúng (quân địch)"
+      terminology: "tập hợp lại lực lượng / giao chiến / cuộc thăm dò / cuộc thử nghiệm / mảnh đất không có tầm quan trọng chiến lược"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000174"
+    locked:
+      pronouns: "chúng ta hoặc bọn mình (độc thoại nội tâm ngôi thứ nhất số nhiều của Tanya, sửa từ 'chúng mình') / họ (đám cấp trên)"
+      terminology_and_metaphor: "Đám cấp trên / những con chim hoàng yến trong mỏ than / đo lường mức độ nguy hiểm"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000175"
+    locked:
+      pronouns: "Chúng ta hoặc Bọn mình (sửa từ 'Chúng mình' để đồng bộ với p000174)"
+      metaphor: "thấp kém hơn cả chuột bạch thí nghiệm!"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000176"
+    locked:
+      pronouns: "anh - tôi (Tanya hỏi Uger)"
+      question_and_logic: "có phải anh đang nói rằng đơn vị của tôi được lệnh đi chịu chết để xác định xem ai trong hai vị tướng là người đúng không?"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000177"
+    locked:
+      pronouns: "chúng ta (Uger gộp cả mình và Tanya trong tư cách sĩ quan Bộ Tổng tham mưu)"
+      terminology: "Bộ Tổng tham mưu / cánh sĩ quan Bộ Tổng tham mưu chúng ta"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000178"
+    locked:
+      names: "Tanya"
+      viewpoint: "chuyển nhịp từ quy chiếu ngôi thứ ba 'Tanya' sang giọng tự thuật nội tâm"
+      emphasis: "*Theo những gì Tanya được biết* (bọc đúng cụm từ nhấn mạnh theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000179"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      terminology: "Các sĩ quan Bộ Tổng tham mưu / ý thức trách nhiệm đối với chức vụ của mình"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000180"
+    locked:
+      terminology: "*noblesse oblige*"
+      emphasis: "*noblesse oblige* (bọc đúng cụm từ in nghiêng theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000181"
+    locked:
+      meaning: "nghe có vẻ ngạo mạn hơn nhưng cũng thực chất hơn."
+      emphasis: "*Nghĩa vụ của giới tinh hoa* (bọc đúng cụm từ nhấn mạnh đầu câu theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000182"
+    locked:
+      ranks_and_names: "Trung tá Uger / Uger"
+      negation_and_logic: "không phải mẫu người sẽ nói toạc kiểu suy nghĩ đó ra thành lời / thể hiện phẩm cách cao quý của mình qua hành động chứ không phải lời nói"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000183"
+    locked:
+      pronouns: "anh ta (quy chiếu Uger) / Mình (độc thoại nội tâm của Tanya theo DEC-P01-001)"
+      terminology_and_metaphor: "các sĩ quan Bộ Tổng tham mưu / một quả mìn khổng lồ chực chờ phía trước"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000184"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      pronouns: "anh (Tanya gọi Trung tá Uger)"
+      question_and_modality: "“Xin thứ lỗi, Trung tá Uger, nhưng qua cách anh nói thì nghe như thể có chuyện gì đó đã xảy ra phải không?”"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000185"
+    locked:
+      pronouns: "tôi - cô (Uger nói với Tanya)"
+      terminology: "chuyện tuyệt mật / trách nhiệm đạo đức"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000186"
+    locked:
+      pronouns: "Anh ta (quy chiếu Uger) / mình (điểm nhìn quan sát nội tâm của Tanya theo DEC-P01-001)"
+      negation_and_modality: "thậm chí chẳng buồn che giấu tiếng thở dài; hẳn anh ta đang ở trong một tình trạng vô cùng tệ hại / vẻ mệt mỏi vẫn chưa hoàn toàn tan biến khỏi đôi mắt anh ta"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000187"
+    locked:
+      meaning: "Chỉ mới một phút trước thôi, trong giọng nói ấy chí ít vẫn còn chút sinh khí, vậy mà giờ đây nó bỗng trở nên mệt mỏi rã rời."
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000188"
+    locked:
+      terminology: "Bộ Tư lệnh Tối cao / Chính phủ / Văn phòng Bộ Tổng tham mưu / triều đình"
+      tone: "rôm rả đáo để (giữ sắc thái mỉa mai tương ứng với câu nhận xét tiếp theo ở p000189)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000189"
+    locked:
+      pronouns: "anh ta (quy chiếu Uger)"
+      negation_and_meaning: "chắc chắn tình hình bên đó chẳng lấy gì làm vui vẻ cho cam. Đúng hơn là trông như thể anh ta đã mặc kệ tất cả rồi."
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000190"
+    locked:
+      ranks_and_names: "Tướng von Zettour / Tướng von Rudersdorf"
+      pronouns: "chúng ta / Anh ta (quy chiếu Uger) / tôi (Uger) / hai ông ấy (hai vị tướng)"
+      terminology: "dư luận / Đế quốc / Văn phòng Bộ Tổng tham mưu / nền chính trị nội bộ / Lập trường và chức trách"
+      emphasis: "none"
