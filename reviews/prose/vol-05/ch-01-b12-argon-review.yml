@@ -1,0 +1,374 @@
+task_id: "vol-05-ch-01-b12-argon-review"
+parent_task_id: "vol-05-ch-01-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b12-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b12.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b12-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000395"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Cụm từ chỉ phương án hành động thận trọng/ưu tiên an toàn đang được dịch là 'một phương án cầu toàn', làm lệch nhẹ sắc thái từ 'chọn giải pháp an toàn' sang 'đòi hỏi sự hoàn hảo toàn diện'."
+    rationale: "Mạch lập luận từ p000395 sang p000396–p000397 đang xét phương án thiên về an toàn (luôn nâng mức cảnh giới để đề phòng tập kích), nhưng về lâu dài lại khiến binh lính kiệt sức vì thiếu ngủ triền miên."
+    recommendation: "Có thể chỉnh thành '“…Ngay cả một phương án thiên về an toàn thì về lâu về dài cũng sẽ…”' hoặc '“…Ngay cả một phương án chọn hướng an toàn thì về lâu về dài cũng sẽ…”' ở bước chuốt văn."
+  - segment_id: "YS-LN05/Text/part0010.html/p000416"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Tính từ chỉ mức độ đủ tốt/ổn thỏa của khả năng phán đoán đang được dịch hơi cao thành 'nhạy bén' ('có khả năng phán đoán nhạy bén')."
+    rationale: "Trong ngữ cảnh Tanya chỉ yêu cầu sĩ quan phụ tá ngủ đủ giấc để không bị lơ mơ và đảm bảo mức phán đoán tỉnh táo, chuẩn mực thông thường, dùng từ chỉ mức độ hợp lý/đủ tỉnh táo sẽ sát giọng thực dụng của Tanya hơn."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ thành 'có khả năng phán đoán tỉnh táo' hoặc 'có khả năng phán đoán chuẩn xác' khi chuốt văn."
+pending_term_recommendations:
+  - source_term: "Third Company"
+    proposed_vi: "Đại đội 3"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán cách gọi rút gọn của Đại đội Bộ binh số 3 từ lô trước và sổ pending."
+    alternatives_vi:
+      - "Đại đội số 3"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000383"
+  - source_term: "Colonel Uger"
+    proposed_vi: "Trung tá Uger"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Trong bản tiếng Anh, quân hàm Lieutenant Colonel thường được rút gọn thành Colonel khi đi kèm họ; giữ 'Trung tá Uger' để khớp đúng cấp bậc Trung tá của Uger ở Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000388"
+      - "YS-LN05/Text/part0010.html/p000391"
+      - "YS-LN05/Text/part0010.html/p000410"
+  - source_term: "ersatz coffee"
+    proposed_vi: "cà phê thay thế"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với phương án tạm đã khóa trong sổ pending từ Tập 2."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000389"
+  - source_term: "no-man’s-land"
+    proposed_vi: "vùng đất không người"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác cho khu vực giải cách giữa hai chiến tuyến tiền tiêu."
+    alternatives_vi:
+      - "vùng trắng"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000394"
+  - source_term: "salients"
+    proposed_vi: "những mũi lồi"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ địa hình/chiến thuật quân sự chuẩn chỉ phần chiến tuyến nhô sâu vào khu vực đối phương."
+    alternatives_vi:
+      - "các khu vực nhô ra"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000394"
+  - source_term: "partisan"
+    proposed_vi: "quân du kích"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phù hợp với ngữ cảnh lực lượng vũ trang không chính quy hoạt động sau chiến tuyến tại mặt trận phía Đông và giữ nguyên ký hiệu chú thích ¹."
+    alternatives_vi:
+      - "du kích"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000394"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Nhất quán với quân hàm Thiếu tá của Weiss ở Tập 5 trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000399"
+      - "YS-LN05/Text/part0010.html/p000419"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tổ chức đơn vị tác chiến hỗn hợp theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000402"
+  - source_term: "combat readiness three"
+    proposed_vi: "sẵn sàng chiến đấu mức ba / trạng thái sẵn sàng chiến đấu mức ba"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt rõ cấp độ sẵn sàng chiến đấu theo ca trực trong khẩu lệnh và trần thuật."
+    alternatives_vi:
+      - "báo động chiến đấu cấp ba"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000404"
+      - "YS-LN05/Text/part0010.html/p000412"
+      - "YS-LN05/Text/part0010.html/p000414"
+  - source_term: "Labor Standards Bureau"
+    proposed_vi: "Cục Tiêu chuẩn Lao động"
+    category: "tên cơ quan / thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác cho cơ quan thanh tra/tiêu chuẩn lao động trong liên tưởng quản trị nhân sự của Tanya."
+    alternatives_vi:
+      - "Cục Thanh tra Lao động"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000408"
+  - source_term: "Lieutenant Serebryakov / Lieutenant"
+    proposed_vi: "Trung úy Serebryakov / Trung úy"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Nhất quán với cấp bậc Trung úy của Serebryakov trong Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000412"
+      - "YS-LN05/Text/part0010.html/p000415"
+      - "YS-LN05/Text/part0010.html/p000420"
+  - source_term: "HQ"
+    proposed_vi: "sở chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'command post / HQ -> sở chỉ huy / Sở chỉ huy' trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000414"
+  - source_term: "adjutant"
+    proposed_vi: "sĩ quan phụ tá"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Nhất quán với chức danh của Serebryakov đã dùng từ Tập 1–4 trong sổ pending."
+    alternatives_vi:
+      - "phụ tá"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000416"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000380"
+    choices:
+      - "ma’am -> thưa Trung tá (Serebryakov đáp lệnh Tanya)"
+      - "speech_detail -> giữ nét lắp bắp 'R-rõ'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000381"
+    choices:
+      - "POV/pronouns -> trần thuật ngôi thứ ba dùng 'Tanya', 'mình' (phản thân) và 'Nó' theo DEC-P01-001"
+      - "personnel manager -> nhà quản lý nhân sự"
+      - "commander -> người chỉ huy"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000382"
+    choices:
+      - "meaning -> Tình hình đã rõ ràng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000383"
+    choices:
+      - "Third Company -> Đại đội 3"
+      - "guerrilla raid -> cuộc tập kích của du kích"
+      - "question_target -> vấn đề là liệu đêm nay có thêm một đợt tấn công nữa hay không"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000384"
+    choices:
+      - "POV -> giữ tên riêng 'Tanya'"
+      - "units on patrol -> các đơn vị đang tuần tra"
+      - "alert level -> mức cảnh giới"
+      - "condition_and_negation -> nếu các đợt tập kích có khả năng tiếp diễn thì báo nâng mức cảnh giới; nếu quân địch không tới thì đồng nghĩa cắt xén thời gian ngủ quý giá một cách vô ích"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000385"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001"
+      - "emphasis -> bọc '*...*' đúng hai câu hỏi nội tâm đầu đoạn theo DEC-P01-002; hai câu nhận định sau để chữ thường"
+      - "logic -> hai lựa chọn xung đột trực tiếp với nhau và đằng nào cũng là quyết định khó khăn"
+  - segment_id: "YS-LN05/Text/part0010.html/p000386"
+    choices:
+      - "POV/pronouns -> lời tự hỏi của Tanya dùng 'mình'"
+      - "question_target -> mình nên làm gì đây?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000387"
+    choices:
+      - "POV/pronouns -> trần thuật ngôi thứ ba dùng 'nó' theo DEC-P01-001"
+      - "modality_and_negation -> có lẽ cũng bắt nguồn từ thực tế là bản thân nó đã không được ngủ đủ giấc"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000388"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'Tanya' và 'nó' theo DEC-P01-001"
+      - "Colonel Uger -> Trung tá Uger"
+      - "modality -> có lẽ vì đó là số hạt cà phê mà nó nhận được từ Trung tá Uger hôm nọ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000389"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'nó' và 'mình' (phản thân) theo DEC-P01-001"
+      - "frontline-issue ersatz coffee -> cà phê thay thế cấp phát ngoài tiền tuyến"
+      - "negation -> học được cách không hít mùi hương đó vào"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000390"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'nó' theo DEC-P01-001"
+      - "supply lines -> các tuyến tiếp tế"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000391"
+    choices:
+      - "Colonel Uger -> Trung tá Uger"
+      - "taste -> gu thưởng thức"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000392"
+    choices:
+      - "emphasis -> chỉ bọc '*Gu thưởng thức ư?*' ở câu đầu theo DEC-P01-002; phần còn lại để ngoài dấu *"
+      - "POV/pronouns -> trần thuật dùng 'Tanya' và 'nó' theo DEC-P01-001"
+      - "negation -> hoàn toàn chẳng hợp gu của nó chút nào"
+      - "hypothesis -> giả định nếu hành động đúng theo sách giáo khoa thì sẽ báo động cho tất cả các đơn vị và chuyển toàn bộ sang trạng thái sẵn sàng chiến đấu"
+  - segment_id: "YS-LN05/Text/part0010.html/p000393"
+    choices:
+      - "standard doctrine -> học thuyết tiêu chuẩn"
+      - "combat environment in the east -> môi trường tác chiến ở mặt trận phía đông"
+      - "negation -> không thực sự bao quát được"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000394"
+    choices:
+      - "forward-most line -> tuyến tiền tiêu xa nhất"
+      - "main lines -> các tuyến chính"
+      - "no-man’s-land -> vùng đất không người"
+      - "salients -> những mũi lồi"
+      - "partisan1 -> quân du kích¹ (giữ ký hiệu chú thích ¹)"
+      - "negation_and_causality -> thành thử các lý thuyết đó không còn đứng vững nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000395"
+    choices:
+      - "temporal_and_modality -> về lâu về dài cũng sẽ…"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000396"
+    choices:
+      - "meaning -> Việc luôn đề cao cảnh giác là rất quan trọng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000397"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'nó' và 'của mình' theo DEC-P01-001"
+      - "meaning -> cần tránh để binh lính rơi vào tình trạng thiếu ngủ hết đêm này qua đêm khác"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000398"
+    choices:
+      - "POV -> giữ tên riêng 'Tanya' và vai trò 'trên cương vị chỉ huy'"
+      - "negation_and_logic -> không thể thoát khỏi hai lựa chọn này được, buộc phải chọn một trong hai"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000399"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "forward patrol -> đội tuần tra tiền tiêu"
+      - "pronouns -> tôi / chúng ta (Tanya nói với Thiếu tá Weiss)"
+      - "negation_and_question -> tôi vẫn chưa chắc liệu chúng ta có nên phát cảnh báo hay không; chưa có cảnh báo nào từ đội tuần tra tiền tiêu gửi về, đúng chứ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000400"
+    choices:
+      - "negation -> Không có cảnh báo nào cả"
+      - "periodic reports -> Các báo cáo định kỳ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000401"
+    choices:
+      - "pronouns -> tôi ... mình nên... (Tanya nói thành tiếng trước khi ngập ngừng)"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000402"
+    choices:
+      - "emphasis -> chỉ bọc '*…để cho Kampfgruppe ngủ.*' ở đầu đoạn theo DEC-P01-002; phần còn lại để ngoài dấu *"
+      - "Kampfgruppe -> Kampfgruppe"
+      - "POV/pronouns -> trần thuật dùng 'Tanya' và 'nó' theo DEC-P01-001; chủ ngữ khái quát câu cuối dịch là 'Con người ta'"
+      - "condition -> chỉ có thể ghét việc thiếu ngủ khi còn sống mà thôi"
+  - segment_id: "YS-LN05/Text/part0010.html/p000403"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000404"
+    choices:
+      - "combat readiness three -> Sẵn sàng chiến đấu mức ba"
+      - "directives -> Đánh thức một số binh lính dậy; Sẵn sàng chiến đấu mức ba; Đặt họ vào trạng thái cảnh giới"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000405"
+    choices:
+      - "pronouns -> Trung tá (Weiss hỏi lại Tanya)"
+      - "question_target -> Trung tá chắc chứ ạ?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000406"
+    choices:
+      - "pronouns -> Chúng ta / Tôi (Tanya nói với Weiss)"
+      - "negation_and_modality -> không biết liệu quân địch có dừng lại sau một đợt tập kích hay không; việc quá quen với những cuộc tấn công hằng đêm có thể lại rất nguy hiểm"
+      - "comparison_and_time -> thà chấp nhận rủi ro bị lính tráng oán trách sau khi họ đã về đến quê nhà còn hơn cuối cùng phải hối hận vì để họ phơi mình trước quân địch trong một phút lơ là"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000407"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000408"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001"
+      - "Labor Standards Bureau -> Cục Tiêu chuẩn Lao động"
+      - "modality -> ắt hẳn… vẫn nằm trong giới hạn cho phép / Chắc chắn ngay cả Cục Tiêu chuẩn Lao động cũng sẽ tha thứ cho mình"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000409"
+    choices:
+      - "pronouns -> Trung tá - tôi (Weiss nói với Tanya)"
+      - "rhetorical_question -> Nếu đó là điều Trung tá muốn, thì tôi nào dám phản đối?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000410"
+    choices:
+      - "Colonel Uger -> Trung tá Uger"
+      - "pronouns -> tôi (Tanya nói với Weiss)"
+      - "good taste -> gu thưởng thức tinh tế"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000411"
+    choices:
+      - "pronouns -> anh ấy (chỉ Trung tá Uger) / Trung tá (chỉ Tanya)"
+      - "question_target -> Ồ, anh ấy là người đã tặng Trung tá chỗ cà phê đó sao?"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000412"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "combat readiness three -> trạng thái sẵn sàng chiến đấu mức ba"
+      - "pronouns_and_POV -> thoại Tanya xưng 'tôi'; phần dẫn trần thuật dùng tên riêng 'Tanya'"
+      - "negation_and_directives -> đảm bảo Trung úy Serebryakov không dùng lố; chuyển sang trạng thái sẵn sàng chiến đấu mức ba; bắt đầu phát thông báo"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000413"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'Weiss' và 'nó' (chỉ Tanya theo DEC-P01-001)"
+      - "modality_and_logic -> chắc chắn ai nấy đều hiểu sự cần thiết của công tác an ninh khi chiếc giường đang vẫy gọi họ, và sẽ chỉ thức dậy với đôi chút miễn cưỡng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000414"
+    choices:
+      - "Combat readiness three -> Trạng thái sẵn sàng chiến đấu mức ba"
+      - "HQ -> sở chỉ huy"
+      - "condition_and_causality -> nếu một số người thức dậy thì những người khác vẫn có thể ngủ tiếp vì áp dụng chế độ luân phiên theo ca, bao gồm cả các sĩ quan ở sở chỉ huy"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000415"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "pronouns -> Cô (Tanya nói với Trung úy Serebryakov)"
+      - "directive -> Cô cũng nên đi nghỉ đi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000416"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001; quy chiếu Serebryakov bằng 'cô ấy'"
+      - "adjutant -> sĩ quan phụ tá"
+      - "comparison -> thà để cô ấy được nghỉ ngơi đầy đủ và giữ đầu óc tỉnh táo còn hơn là thiếu ngủ rồi đâm ra lơ mơ"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000417"
+    choices:
+      - "cognitive ability -> năng lực nhận thức"
+      - "biological response -> phản ứng sinh học"
+      - "modality -> ắt hẳn là"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000418"
+    choices:
+      - "POV/pronouns -> 'chúng ta' cho con người nói chung và 'mình' cho tự quy chiếu nội tâm của Tanya theo DEC-P01-001"
+      - "condition_and_negation -> đảm bảo thời lượng nghỉ ngơi tối thiểu cần thiết mà không được phép sao nhãng; nếu không muốn tự coi mình là kẻ bất tài thì phải cho cấp dưới nghỉ ngơi nhiều nhất có thể"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000419"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "pronouns -> tôi - Trung tá (Serebryakov nói với Tanya)"
+      - "negation -> không muốn bỏ lại Trung tá và Thiếu tá Weiss"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000420"
+    choices:
+      - "Lieutenant -> Trung úy"
+      - "pronouns -> cô (Tanya nói với Trung úy Serebryakov)"
+      - "negation_and_directive -> Đó không phải là một lời đề nghị; đi nghỉ đi; đó là một phần bổn phận trên cương vị một người lính; cô nghe rõ mệnh lệnh rồi chứ, Trung úy?"
+      - "emphasis -> không dùng Markdown *...*"
