@@ -1,0 +1,254 @@
+task_id: "vol-06-ch-04-b14-argon-review"
+parent_task_id: "vol-06-ch-04-b14"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 4
+source_package: "work/vol-06/batches/ch-04-b14-source.jsonl"
+target_translation: "translations/vol-06/ch-04-b14.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN06/Text/part0019.html/p000483"
+    severity: "minor"
+    category: "pronouns_and_cohesion"
+    issue: "Trong câu thứ hai của thoại Tanya, đại từ 'chúng' vừa dùng để chỉ phía Khối Thịnh vượng chung ('Đám khách sạn nổi đắt đỏ trên biển của chúng') vừa dùng ngay sau đó để chỉ các chiến hạm ('sự tồn tại của chúng', 'bắt chúng làm chút việc'), trong khi chủ thể phía Khối Thịnh vượng chung ở vế sau lại đổi sang 'họ' ('hẳn họ cũng ngứa ngáy')."
+    evidence: "Quy chiếu trong cùng một câu có hai đối tượng số nhiều khác nhau (người của Khối Thịnh vượng chung và các khách sạn nổi trên biển); việc dùng chung đại từ 'chúng' rồi đổi sang 'họ' làm giảm tính nhất quán quy chiếu."
+    recommendation: "Có thể đổi 'của chúng' ở đầu câu thành 'của họ' (hoặc 'của mấy gã đó') để 'họ' quy chiếu nhất quán về người của Khối Thịnh vượng chung và 'chúng' quy chiếu nhất quán về các khách sạn nổi; không ảnh hưởng nghĩa cốt lõi."
+  - segment_id: "YS-LN06/Text/part0019.html/p000508"
+    severity: "minor"
+    category: "terminology_consistency"
+    issue: "Dịch 'wonderful personality' là 'nhân cách tuyệt vời' hơi nghiêng sang bình diện phẩm chất đạo đức thay vì đặc điểm tính cách."
+    evidence: "canon/glossary-pending.yml (P01-personality) lưu ý phân biệt đặc điểm tính cách với đánh giá đạo đức, và ở lô liền trước (p000471) từ này đang được dịch là 'tính cách'."
+    recommendation: "Có thể cân nhắc dùng 'tính cách tuyệt vời' để đồng bộ với P01-personality và các đoạn lân cận; tuy nhiên trong ngữ cảnh nhận xét ngoại giao ở p000508–p000510 thì 'nhân cách tuyệt vời' không làm sai lệch lập luận."
+pending_term_recommendations:
+  - source_term: "recon-in-force / large-scale recon-in-force"
+    proposed_vi: "trinh sát chiến đấu / đợt trinh sát chiến đấu quy mô lớn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp nhất quán với phương án tạm 'trinh sát chiến đấu' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "trinh sát bằng vũ lực quy mô lớn"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000482"
+  - source_term: "Commonwealth / Commonwealth Navy"
+    proposed_vi: "Khối Thịnh vượng chung / Hải quân Khối Thịnh vượng chung"
+    category: "tên quốc gia / quân chủng"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thống nhất hoàn toàn với work/run-state/pending-terms-index.yml ở các tập trước và tập 6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000483"
+      - "YS-LN06/Text/part0019.html/p000485"
+  - source_term: "Raid on Scarborough / Doolittle’s Tokyo Raid / Operation Overlord"
+    proposed_vi: "Cuộc đột kích Scarborough / Cuộc không kích Tokyo của Doolittle / Chiến dịch Overlord"
+    category: "thuật ngữ lịch sử quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách dịch chuẩn xác theo thuật ngữ lịch sử quân sự phổ thông tiếng Việt, giữ đúng số thứ tự chú thích ³ và ⁴."
+    alternatives_vi:
+      - "Vụ tập kích Scarborough"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000485"
+      - "YS-LN06/Text/part0019.html/p000486"
+      - "YS-LN06/Text/part0019.html/p000504"
+  - source_term: "Kingdom of Ildoa / Ildoa"
+    proposed_vi: "Vương quốc Ildoa / Ildoa"
+    category: "tên quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000490"
+      - "YS-LN06/Text/part0019.html/p000493"
+      - "YS-LN06/Text/part0019.html/p000507"
+      - "YS-LN06/Text/part0019.html/p000508"
+      - "YS-LN06/Text/part0019.html/p000516"
+      - "YS-LN06/Text/part0019.html/p000518"
+  - source_term: "Major Weiss / Weiss"
+    proposed_vi: "Thiếu tá Weiss / Weiss"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc hiện tại của Weiss trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000490"
+      - "YS-LN06/Text/part0019.html/p000492"
+      - "YS-LN06/Text/part0019.html/p000501"
+      - "YS-LN06/Text/part0019.html/p000508"
+      - "YS-LN06/Text/part0019.html/p000518"
+  - source_term: "Colonel / ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / thưa Trung tá (kèm tiểu từ lễ phép 'ạ')"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với quy ước cấp dưới (Weiss, Grantz) gọi Trung tá Tanya von Degurechaff trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000490"
+      - "YS-LN06/Text/part0019.html/p000508"
+      - "YS-LN06/Text/part0019.html/p000517"
+      - "YS-LN06/Text/part0019.html/p000519"
+  - source_term: "raison d’état"
+    proposed_vi: "lợi ích quốc gia tối thượng"
+    category: "thuật ngữ chính trị - ngoại giao"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Diễn đạt sát nghĩa khái niệm ngoại giao thực dụng của chủ nghĩa hiện thực chính trị và khớp mạch văn với 'ý thức về mục đích quốc gia' ở câu kế tiếp."
+    alternatives_vi:
+      - "lý tính nhà nước"
+      - "lợi ích tối cao của quốc gia"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000514"
+  - source_term: "First Lieutenant Grantz / Grantz"
+    proposed_vi: "Trung úy Grantz / Grantz"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc của Grantz trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Thượng úy Grantz"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000520"
+      - "YS-LN06/Text/part0019.html/p000523"
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    category: "tên đơn vị"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với phương án đã dùng xuyên suốt từ tập 2 đến tập 6 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000523"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0019.html/p000482"
+    choices:
+      - "Thoại Weiss nói với Tanya: tự xưng 'Tôi', câu hỏi suy đoán kết bằng 'ạ?'; thuật ngữ 'naval fleet' -> 'hạm đội hải quân', 'large-scale recon-in-force' -> 'đợt trinh sát chiến đấu quy mô lớn'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000483"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng đại từ 'nó'; giữ tình thái suy đoán quá khứ 'Ắt hẳn là vậy rồi' và 'hẳn họ cũng ngứa ngáy muốn bắt chúng làm chút việc'; giữ hình ảnh ẩn dụ 'khách sạn nổi đắt đỏ trên biển'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000484"
+    choices:
+      - "Nội tâm phân tích của Tanya: giữ 'tác động chiến lược' và tình thái suy đoán 'hẳn cũng là một trường hợp tương tự'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000485"
+    choices:
+      - "Thuật ngữ và chú thích: 'Commonwealth Navy' -> 'Hải quân Khối Thịnh vượng chung', 'imperial-occupied territories' -> 'các vùng lãnh thổ bị Đế quốc chiếm đóng', 'Raid on Scarborough.3' -> 'Cuộc đột kích Scarborough.³'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000486"
+    choices:
+      - "Thuật ngữ lịch sử: 'Doolittle’s Tokyo Raid' -> 'Cuộc không kích Tokyo của Doolittle'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000487"
+    choices:
+      - "Câu danh ngữ ngắn trong nội tâm: 'Quấy rối và tuyên truyền'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000488"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng đại từ 'mình'; giữ cấu trúc so sánh 'ít giống một trận đánh quy ước mà giống sự kiên trì đánh vào điểm yếu hơn'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000489"
+    choices:
+      - "Thoại Tanya: dùng 'Chúng ta' và tự xưng 'Tôi'; giữ tình thái dự báo 'Thậm chí có khi', 'Tôi cho là', 'Chưa rõ… nhưng có lẽ sẽ chẳng dễ chịu gì đâu'; đối lập rõ 'phía tây' và 'phía đông'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000490"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*tiêu cực*' đúng phạm vi từ in nghiêng trong nguồn; thoại Weiss với Tanya xưng 'tôi - chúng ta', gọi 'Trung tá' kèm 'ạ?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000491"
+    choices:
+      - "Thoại Tanya đáp Weiss: giữ chuẩn cấu trúc phủ định kép 'không thể dễ dàng cho rằng đó không phải là ý đồ của họ được'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000492"
+    choices:
+      - "Nhận định ngắn: giữ 'Weiss lo lắng cũng phải'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000493"
+    choices:
+      - "Nội tâm Tanya: giữ 'mối đe dọa tiềm tàng từ mặt biển và từ Ildoa'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000494"
+    choices:
+      - "Nội tâm Tanya: dùng ngôi gộp 'chúng ta'; giữ tình thái 'có lẽ' và mệnh đề nhượng bộ 'ngay cả khi phương tiện trong tay đang khan hiếm'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000495"
+    choices:
+      - "Thoại Tanya: giữ 'Chỉ riêng việc dọa được chúng ta thôi cũng đã là một thắng lợi của kẻ địch rồi'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000496"
+    choices:
+      - "Nội tâm Tanya: giữ phủ định và ẩn dụ 'Đế quốc đâu có một suối nguồn nhân lực vô tận'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000497"
+    choices:
+      - "Thuật ngữ: 'cost-effective move' -> 'nước đi đạt hiệu quả chi phí', 'Imperial Army' -> 'Lục quân Đế quốc', 'main front' -> 'mặt trận chính'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000498"
+    choices:
+      - "Nội tâm Tanya: giữ 'khoản đầu tư sinh lời tốt cho các quốc gia đang tham chiến chống lại Đế quốc'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000499"
+    choices:
+      - "Thoại Tanya: giữ 'chúng đã chứng minh được rằng chuyện đó hoàn toàn khả thi'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000500"
+    choices:
+      - "Cấu trúc tương phản trong nội tâm: 'Vấn đề không nằm ở ý định mà nằm ở năng lực thực hiện'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000501"
+    choices:
+      - "Nội tâm suy đoán: giữ tình thái 'Có lẽ đó cũng chính là điều mà Weiss đang lo ngại'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000502"
+    choices:
+      - "Thoại Weiss đồng tình với Tanya: mở đầu bằng 'Vâng', kết câu bằng 'ạ', dùng 'chúng ta' và giữ phủ định 'không thể làm ngơ trước mối đe dọa sau lưng mình'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000503"
+    choices:
+      - "Thoại Tanya: giữ điều kiện 'nếu chúng bắt đầu đổ bộ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000504"
+    choices:
+      - "Thuật ngữ và chú thích: giữ 'cuộc đổ bộ Normandy', 'Chiến dịch Overlord⁴', 'thế tiến thoái lưỡng nan về chiến lược'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000505"
+    choices:
+      - "Nội tâm Tanya: 'mặt trận phía đông' và nhận định 'Gánh nặng đè lên mặt trận phía đông là quá lớn'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000506"
+    choices:
+      - "Nội tâm Tanya: giữ phủ định 'chúng ta không thể cứ tiếp tục như thế này mãi được'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000507"
+    choices:
+      - "Trần thuật và thoại Tanya: giữ dấu gạch ngang chen hành động, tên 'Vương quốc Ildoa', và tình thái 'Có lẽ chúng ta có thể đặt chút hy vọng vào phía đó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000508"
+    choices:
+      - "Thoại Weiss hỏi Tanya: dịch 'Excuse me, ma’am' -> 'Thứ lỗi cho tôi, thưa Trung tá', gọi 'Trung tá' kèm 'ạ?'; trần thuật quy chiếu Tanya bằng 'nó' (DEC-P01-001); giữ phủ định bộ phận 'không nhất thiết phải có'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000509"
+    choices:
+      - "Giữ nguyên các tên riêng lịch sử 'Talleyrand, Palmerston hay Bismarck'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000510"
+    choices:
+      - "Nội tâm Tanya: ngôi thứ hai giả định chung dùng 'Bạn'; giữ giả định 'Phải đàm phán trên cương vị nhà ngoại giao với bất kỳ ai trong số mấy gã đó hẳn sẽ là một cơn ác mộng'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000511"
+    choices:
+      - "Nội tâm Tanya: giữ tương phản 'Nhưng nếu nhìn nhận họ như những tay chơi trên bàn cờ, thì tất cả đều là các bậc thầy lừng danh'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000512"
+    choices:
+      - "Thoại Weiss: giữ phủ định nhấn mạnh 'chẳng thể tin tưởng họ chút nào cả'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000513"
+    choices:
+      - "Nội tâm Tanya: giữ chuẩn mệnh đề triết lý ngoại giao 'cả đồng minh vĩnh viễn lẫn kẻ thù truyền kiếp đều là điều bất khả' và 'coi bản thân phương tiện chính là mục đích'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000514"
+    choices:
+      - "Nội tâm Tanya: 'cessation of thought' -> 'sự ngừng trệ tư duy'; 'a healthy raison d’état' -> 'một lợi ích quốc gia tối thượng lành mạnh'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000515"
+    choices:
+      - "Nội tâm Tanya: giữ cấu trúc nhượng bộ - điều kiện 'Ngay cả một nước đi bẩn thỉu, nếu được thực hiện với trí tuệ tối thiểu và ý thức về mục đích quốc gia… thì vẫn là vô cùng khôn ngoan'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000516"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Trái lại là đằng khác…*' đúng phạm vi cụm in nghiêng trong nguồn; giữ phủ định 'chưa phải là một chủ thể mà chúng ta cần loại bỏ ngay lúc này' và điều kiện 'Chừng nào lợi ích đôi bên còn song trùng'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000517"
+    choices:
+      - "Thoại Weiss hỏi Tanya: gọi 'Trung tá' kèm 'sao ạ?', giữ đối lập 'một kẻ địch có năng lực hơn là một đồng minh bất tài'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000518"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*đồng minh tuyệt vời của chúng ta*' đúng phạm vi in nghiêng trong nguồn; thoại Tanya gọi 'Thiếu tá Weiss', tự xưng 'Tôi'; trần thuật dùng 'nó' (DEC-P01-001)."
+  - segment_id: "YS-LN06/Text/part0019.html/p000519"
+    choices:
+      - "Thoại Grantz hỏi Tanya: dịch 'Colonel' -> 'Thưa Trung tá, Trung tá' kèm 'sao ạ?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000520"
+    choices:
+      - "Trần thuật và thoại Tanya: trần thuật dùng 'Nó' (DEC-P01-001); cấp bậc 'First Lieutenant Grantz' -> 'Trung úy Grantz'; giữ câu định nghĩa 'Bản chất của văn minh chính là ngôn ngữ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000521"
+    choices:
+      - "Thoại Grantz đáp Tanya: giữ sự đối lập 'Ngôn ngữ thì quá ư là thong dong. Chiến tranh trực diện hơn nhiều ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000522"
+    choices:
+      - "Nội tâm cảm thán của Tanya: giữ thức giả định 'Giá mà chuyện này có thể khép lại chỉ bằng vài tiếng thở than'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000523"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Các thành viên của Tiểu đoàn Pháp sư Trên không số 203 thích chiến tranh quá mức rồi.*' đúng phạm vi câu in nghiêng trong nguồn; trần thuật dùng 'Tanya' và 'nó' (DEC-P01-001); giữ thuật ngữ 'sĩ quan cấp trung', 'cá tính', 'Tiểu đoàn Pháp sư Trên không số 203'."
