@@ -1,0 +1,297 @@
+task_id: "vol-05-ch-03-b19-argon-review"
+parent_task_id: "vol-05-ch-03-b19"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+review_path: "reviews/prose/vol-05/ch-03-b19-argon-review.yml"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0020.html/p000375"
+    severity: "minor"
+    issue: "Câu thoại của Tanya lặp lại cùng một cụm tính từ chỉ trạng thái ngoài giờ làm nhiệm vụ cho cả người sống lẫn những người đã ngã xuống ở Valhalla, nhưng bản dịch tách thành 'ngoài giờ làm nhiệm vụ' ở vế đầu và 'đã hết ca trực' ở vế sau, làm giảm hiệu ứng điệp từ nói giảm nói tránh."
+    evidence: "Hai vế trong p000375 dùng cùng một cụm từ để tạo liên kết tu từ giữa việc không kìm kẹp lính đang nghỉ ngoài giờ với những tử sĩ đang nghỉ ngơi tại Valhalla."
+    recommendation: "Đề xuất đồng bộ vế sau thành 'Chắc hẳn những người đang ngoài giờ làm nhiệm vụ ở Valhalla giờ này cũng đang uống rượu như hũ chìm rồi.' hoặc 'những người đã hết giờ làm nhiệm vụ ở Valhalla'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000386"
+    severity: "minor"
+    issue: "Cách dịch 'những phần tử tinh nhuệ' (lặp lại ở p000390) dùng danh từ đơn vị 'phần tử' trong tiếng Việt thường mang sắc thái tiêu cực, chưa thật hợp với thái độ trân trọng của Tanya dành cho thuộc hạ ưu tú; đồng thời đại từ 'bạn' trong độc thoại nội tâm hơi lệch giọng sang hướng nói với người đọc."
+    evidence: "Ở p000386–p000390, Tanya đang ca ngợi trình độ và kinh nghiệm thực chiến hàng đầu Đế quốc của cấp dưới trong dòng suy nghĩ nội tâm."
+    recommendation: "Đề xuất đổi 'bạn' thành 'người ta' ('kiểu nhân sự mà người ta sẽ không bao giờ coi là con tốt thí') và đổi 'những phần tử tinh nhuệ' ở p000386, p000390 thành 'những quân nhân tinh nhuệ' hoặc 'những người lính tinh nhuệ'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000396"
+    severity: "minor"
+    issue: "Trong cùng một câu thoại của Weiss ('Chúng tôi đã nghĩ nếu có ai đó đối phó được với chúng, thì đó phải là chúng ta…'), đại từ ngôi thứ nhất số nhiều chuyển đột ngột từ 'chúng tôi' sang 'chúng ta' cho cùng một chủ thể."
+    evidence: "Hai mệnh đề trong câu có cùng chủ thể quy chiếu là tập thể đơn vị/cấp dưới mà Weiss đang đại diện phát biểu trước Tanya."
+    recommendation: "Đề xuất thống nhất đại từ trong câu, chẳng hạn: 'Chúng tôi đã nghĩ nếu có ai đó đối phó được với chúng, thì đó phải là đơn vị chúng ta…' hoặc giữ 'chúng tôi' cho cả hai vế."
+  - segment_id: "YS-LN05/Text/part0020.html/p000409"
+    severity: "minor"
+    issue: "Cụm 'đánh trúng động cơ của nó' ở cuối câu tự thêm đại từ sở hữu 'của nó' khi câu trước đang dùng 'chúng' để chỉ phía địch và đoạn văn không nhắc danh từ con tàu, dễ gây hẫng quy chiếu hoặc trùng với đại từ trần thuật 'nó' của Tanya."
+    evidence: "Nguồn chỉ dùng danh từ xác định chỉ bộ phận động cơ mà không có đại từ sở hữu đi kèm."
+    recommendation: "Đề xuất lược 'của nó' thành 'đánh trúng động cơ' hoặc làm rõ thành 'đánh trúng phần động cơ'."
+pending_term_recommendations:
+  - source_term: "vice commander / deputy commander"
+    proposed_vi: "phó chỉ huy"
+    category: "chức danh"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án đã dùng trong pending-terms-index.yml."
+    alternatives_vi:
+      - "tiểu đoàn phó"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000367"
+      - "YS-LN05/Text/part0020.html/p000369"
+  - source_term: "adjutant"
+    proposed_vi: "sĩ quan phụ tá"
+    category: "chức danh"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'adjutant' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "phụ tá"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000367"
+  - source_term: "Colonel / ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "thưa Trung tá / Trung tá"
+    category: "quân hàm"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc Trung tá của Tanya ở Tập 5 và quy ước trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000369"
+      - "YS-LN05/Text/part0020.html/p000380"
+      - "YS-LN05/Text/part0020.html/p000383"
+      - "YS-LN05/Text/part0020.html/p000396"
+      - "YS-LN05/Text/part0020.html/p000404"
+      - "YS-LN05/Text/part0020.html/p000409"
+  - source_term: "augmented 203rd Aerial Mage Battalion / 203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 tăng cường / Tiểu đoàn Pháp sư Trên không số 203"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán tên đơn vị và thuật ngữ 'augmented battalion' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000373"
+      - "YS-LN05/Text/part0020.html/p000395"
+  - source_term: "Valhalla"
+    proposed_vi: "Valhalla"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ nguyên danh từ riêng thần thoại Bắc Âu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000375"
+  - source_term: "Major / Major Weiss / Weiss"
+    proposed_vi: "Thiếu tá / Thiếu tá Weiss / Weiss"
+    category: "quân hàm"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'Major / Major Weiss / Weiss' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000375"
+      - "YS-LN05/Text/part0020.html/p000385"
+      - "YS-LN05/Text/part0020.html/p000397"
+      - "YS-LN05/Text/part0020.html/p000408"
+      - "YS-LN05/Text/part0020.html/p000410"
+  - source_term: "IMPERIAL ARMY BASE"
+    proposed_vi: "CĂN CỨ LỤC QUÂN ĐẾ QUỐC"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'IMPERIAL ARMY BASE' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000382"
+  - source_term: "aggressors"
+    proposed_vi: "quân địch giả định"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Diễn đạt chuẩn xác thuật ngữ quân sự chỉ lực lượng đóng vai đối phương trong huấn luyện chiến đấu."
+    alternatives_vi:
+      - "lực lượng quân xanh"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000387"
+  - source_term: "instructor unit"
+    proposed_vi: "đơn vị huấn luyện"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với mục 'instructor unit' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000387"
+  - source_term: "Julius Caesar"
+    proposed_vi: "Julius Caesar"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ nguyên tên nhân vật lịch sử."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000394"
+  - source_term: "Intelligence"
+    proposed_vi: "bên Tình báo"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Khớp với mục 'Intelligence' trong ngữ cảnh khẩu ngữ nội tâm đã có ở pending-terms-index.yml."
+    alternatives_vi:
+      - "ngành Tình báo"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000399"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0020.html/p000367"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & chức danh: khóa câu đầu trong '*...*' theo đúng thẻ <em> của nguồn (DEC-P01-002), đại từ nội tâm 'mình' (DEC-P01-001), 'Phó chỉ huy' và 'sĩ quan phụ tá'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000368"
+    choices:
+      - "Thoại & quan hệ nhượng bộ: giữ đại từ 'tôi', dấu gạch ngang dài và ý muốn giành lại quyền tự do hủy hoại sức khỏe tùy thích."
+  - segment_id: "YS-LN05/Text/part0020.html/p000369"
+    choices:
+      - "Quân hàm, chức danh & phủ định: khóa 'thưa Trung tá / Trung tá', 'phó chỉ huy của tiểu đoàn này' và phủ định 'không hề thiếu'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000370"
+    choices:
+      - "Đại từ trần thuật: khóa đại từ 'nó' chỉ Tanya theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000371"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn nội tâm: khóa toàn câu trong '*...*' ('*…Bọn mình đã chịu tổn thất khá nặng nề.*') theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000372"
+    choices:
+      - "Thuật ngữ & phủ định: khóa 'đơn vị pháp sư' và phủ định 'chẳng phải là một đại gia đình đông đúc gì'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000373"
+    choices:
+      - "Số liệu & tên đơn vị: khóa 'Một đại đội chỉ có mười hai người', 'Một tiểu đoàn là ba mươi sáu người', 'Tiểu đoàn Pháp sư Trên không số 203 tăng cường' và 'bốn mươi tám người'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000374"
+    choices:
+      - "Điểm nhìn & nghĩa: giữ cấu trúc khái quát 'Chỉ cần nhìn qua một lượt là biết ngay có bao nhiêu người đang vắng mặt.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000375"
+    choices:
+      - "Quân hàm, tên riêng & ẩn dụ: khóa 'Thiếu tá' (Major), 'Valhalla', đại từ 'Tôi / tôi' và phép nói giảm về những người lính ngoài giờ làm nhiệm vụ."
+  - segment_id: "YS-LN05/Text/part0020.html/p000376"
+    choices:
+      - "Thoại ngắn: giữ '“…Tôi dám cá là vậy.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000377"
+    choices:
+      - "Điểm nhìn nội tâm: giữ đại từ 'bọn mình' và hình ảnh so sánh quy mô cỡ một lớp học ở trường hoặc nhỉnh hơn đôi chút."
+  - segment_id: "YS-LN05/Text/part0020.html/p000378"
+    choices:
+      - "Thoại & xưng hô: giữ '“Chậc… Xem ra số người của chúng ta bị bắn hạ nhiều hơn tôi tưởng.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000379"
+    choices:
+      - "Đại từ trần thuật: khóa đại từ 'nó' chỉ Tanya ở cả hai mệnh đề theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000380"
+    choices:
+      - "Quân hàm & số liệu thương vong: khóa 'Vâng, thưa Trung tá. Bốn người tử trận, ba người mất khả năng bay, ba người bị thương nặng.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000381"
+    choices:
+      - "Thoại: khóa '“Thật là một tổn thất khủng khiếp.”' đồng bộ với p000385."
+  - segment_id: "YS-LN05/Text/part0020.html/p000382"
+    choices:
+      - "Mốc thời gian & địa điểm: khóa 'CHIỀU NGÀY 5 THÁNG 10 NĂM THỐNG NHẤT 1926, CĂN CỨ LỤC QUÂN ĐẾ QUỐC'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000383"
+    choices:
+      - "Quân hàm, xưng hô & thuật ngữ: khóa 'Thưa Trung tá', 'Chúng tôi', 'tuyến sau' và 'di vật của những người tử trận'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000384"
+    choices:
+      - "Tương phản thời gian: giữ 'Những người mới sáng nay còn khỏe mạnh, đến bữa tối đã chẳng còn nữa.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000385"
+    choices:
+      - "Tên nhân vật, quân hàm & thoại: khóa 'Thiếu tá Weiss', 'Tanya' và câu đáp '“…Đúng là một tổn thất khủng khiếp thật.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000386"
+    choices:
+      - "Số liệu, điểm nhìn & nhấn mạnh Markdown: khóa 'Biên chế đầy đủ là bốn mươi tám người', 'Bọn mình đã mất mười người' và cụm in nghiêng '*đã từng là*' theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000387"
+    choices:
+      - "Điểm nhìn nội tâm & thuật ngữ: khóa 'pháp sư trên không', 'cấp dưới của mình', 'quân địch giả định' (aggressors) và 'đơn vị huấn luyện' (instructor unit)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000388"
+    choices:
+      - "Điểm nhìn nội tâm & tên riêng: khóa 'cấp dưới của mình', 'kinh nghiệm thực chiến' và 'Đế quốc'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000389"
+    choices:
+      - "Thoại & thuật ngữ: khóa 'chúng ta', 'một đại đội' và 'bị tiêu diệt một phần'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000390"
+    choices:
+      - "Điểm nhìn nội tâm & thuật ngữ: khóa 'bọn mình', 'mất sức chiến đấu' và 'một đại đội'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000391"
+    choices:
+      - "Điểm nhìn nội tâm & thuật ngữ: khóa đại từ 'mình' và cụm 'tái tổ chức và bổ sung quân số'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000392"
+    choices:
+      - "Câu hỏi nội tâm & số liệu: khóa 'gần một phần tư', đại từ 'mình' và 'lính mới'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000393"
+    choices:
+      - "Quan hệ nhượng bộ: giữ 'Trong một thời gian tới, dù có cố gắng đến mấy thì việc phối hợp tác chiến cũng sẽ rất khó khăn.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000394"
+    choices:
+      - "Nhấn mạnh Markdown, tên riêng & điểm nhìn: khóa câu đầu trong '*...*' với tên 'Julius Caesar' theo đúng thẻ <em> của nguồn; giữ câu sau không in nghiêng với đại từ 'mình'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000395"
+    choices:
+      - "Thoại ngập ngừng & tên đơn vị: khóa đại từ 'tôi', dấu gạch ngang tự sửa lời và 'Tiểu đoàn Pháp sư Trên không số 203'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000396"
+    choices:
+      - "Quân hàm & phủ định: khóa 'Đó không phải là lỗi của Trung tá đâu ạ.' và nét nghĩa tự nhận trách nhiệm của Weiss."
+  - segment_id: "YS-LN05/Text/part0020.html/p000397"
+    choices:
+      - "Thoại ngắn & quân hàm: khóa '“Không đâu, Thiếu tá Weiss.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000398"
+    choices:
+      - "Điểm nhìn nội tâm & giả định: giữ đại từ 'mình' và cấu trúc điều kiện 'nếu đó không phải là lỗi của mình, thì…'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000399"
+    choices:
+      - "Điểm nhìn nội tâm & thuật ngữ: khóa 'lũ đần độn bên Tình báo' và đại từ 'mình'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000400"
+    choices:
+      - "Điểm nhìn nội tâm & phủ định: khóa đại từ 'mình', 'thông tin tình báo sai lệch' và phủ định 'không phải là lý do để miễn trừ trách nhiệm cho mình'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000401"
+    choices:
+      - "Nghĩa & sắc thái: giữ 'nguyên tắc tín nhiệm cơ bản của thời hiện đại…'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000402"
+    choices:
+      - "Điểm nhìn nội tâm & so sánh: giữ đại từ 'Mình / mình' và cấu trúc 'thà bị coi là kẻ bất tài còn hơn làm một kẻ suy đồi đê tiện'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000403"
+    choices:
+      - "Thoại: giữ '“Cứ cười nhạo tôi đi. Cứ giễu cợt đi. Đó là sai lầm của tôi.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000404"
+    choices:
+      - "Quân hàm & phủ định: khóa '“Đó là mệnh lệnh của quân đội… Không phải lỗi của Trung tá đâu ạ.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000405"
+    choices:
+      - "Thoại & thuật ngữ: giữ xưng hô 'Chúng ta - Tôi', 'đánh nhanh rút gọn', 'thua thiệt về quân số' và 'cẩm nang tác chiến'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000406"
+    choices:
+      - "Điểm nhìn nội tâm: giữ đại từ 'Mình / mình' và cụm 'một kẻ ngu xuẩn điển hình'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000407"
+    choices:
+      - "Thoại & phủ định kép: giữ '“Nhưng cũng đâu phải là chúng ta chẳng đạt được kết quả gì.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000408"
+    choices:
+      - "Quân hàm & phủ định: khóa '“Thiếu tá Weiss, chừng đó thì cũng chẳng khác nào con số không.”'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000409"
+    choices:
+      - "Thoại & xưng hô: khóa 'chúng ta', 'Trung tá' và chi tiết ảnh chụp cho thấy đã đánh trúng động cơ."
+  - segment_id: "YS-LN05/Text/part0020.html/p000410"
+    choices:
+      - "Điểm nhìn nội tâm & tên nhân vật: khóa đại từ 'Mình / mình' và tên 'Weiss'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000411"
+    choices:
+      - "Điểm nhìn nội tâm & đối lập: khóa đại từ 'anh ta' (Weiss), 'bọn mình' và cặp đối lập 'một cách khách quan chứ không phải chủ quan'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000412"
+    choices:
+      - "Điểm nhìn nội tâm & nhấn mạnh Markdown: khóa đại từ 'Mình' mở đầu chuỗi ba câu hỏi tu từ và cụm in nghiêng '*Thì sao chứ?*' ở cuối theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN05/Text/part0020.html/p000413"
+    choices:
+      - "Phủ định: giữ 'Bản thân những hành động đó chẳng mang ý nghĩa gì cả.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000414"
+    choices:
+      - "Phủ định: giữ 'Ý định thế nào không quan trọng.'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000415"
+    choices:
+      - "Đối lập & sắc thái: giữ 'Thiện chí hay ác ý—cứ để dành mấy cái sự thật chủ quan đó mà trình bày với thẩm phán trước tòa.'."
