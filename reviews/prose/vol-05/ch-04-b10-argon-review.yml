@@ -1,0 +1,309 @@
+task_id: "vol-05-ch-04-b10-argon-review"
+parent_task_id: "vol-05-ch-04-b10"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-04-b10-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000353"
+    issue: "Đại từ ngôi thứ nhất số nhiều trong câu độc thoại nội tâm của Đại tá Mikel khi nhớ về thời gian ở trại cải tạo được dịch là 'chúng mình', hơi lệch sắc thái từng trải của một sĩ quan cấp đại tá và chưa đồng nhất với 'chúng ta' trong độc thoại nội tâm cùng nhân vật ở p000366."
+    evidence: "Nguyên bản dùng cùng đại từ ngôi thứ nhất số nhiều trong các câu độc thoại nội tâm của Mikel ở p000353 và p000366; nhân vật là đại tá kỳ cựu kiêm tiểu đoàn trưởng."
+    recommendation: "Đề xuất đổi 'chúng mình' thành 'chúng ta' ở bước chuốt văn để thống nhất giọng nội tâm của Đại tá Mikel với p000366."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000368"
+    issue: "Trong lời của viên chính ủy, cách dịch 'cho đồng chí, thưa Đồng chí, cùng các đồng chí thuộc cấp của mình' thêm từ 'thưa' và 'thuộc cấp' chưa thật sát tương quan vị thế, đồng thời đại từ phản thân 'mình' đặt sau chủ ngữ 'ban lãnh đạo Đảng' dễ gây mơ hồ về đối tượng sở hữu."
+    evidence: "Nguyên bản chỉ dùng hô ngữ 'Đồng chí' xen giữa đại từ ngôi thứ hai và cụm chỉ những người đồng chí của Mikel, không có từ chỉ cấp dưới và viên chính ủy không dùng kính ngữ kiểu cấp dưới thưa gửi cấp trên."
+    recommendation: "Đề xuất chỉnh thành 'Đó là nhiệm vụ đặc biệt mà ban lãnh đạo Đảng giao phó cho đồng chí, người đồng chí ạ, cùng các đồng chí của đồng chí.' hoặc 'Đó là nhiệm vụ đặc biệt từ ban lãnh đạo Đảng dành cho đồng chí cùng các đồng chí trong đơn vị của đồng chí.'"
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000382"
+    issue: "Bản dịch thêm từ 'hết' trong cụm 'không truyền tải hết tới Đại tá Mikel', làm giảm mức độ phủ định từ hoàn toàn không nắm được ẩn ý thực sự thành chỉ nắm được một phần."
+    evidence: "Nguyên bản dùng phủ định hoàn toàn đối với việc hàm ý thực sự đằng sau lời dặn của viên chính ủy đến được với Mikel (ông hoàn toàn không biết bí mật về yếu nhân trên tàu hay cơn thịnh nộ của Loria, chỉ cảm nhận được tính chất nguy cấp)."
+    recommendation: "Đề xuất bỏ từ 'hết' ('không truyền tải được tới Đại tá Mikel' hoặc 'Đại tá Mikel không nắm được hàm ý thực sự...')."
+pending_term_recommendations:
+  - source_term: "aerial mage unit / mage battalion"
+    proposed_vi: "đơn vị pháp sư trên không / tiểu đoàn pháp sư"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán phương án đã khóa trong sổ pending Tập 1–5 cho các đơn vị và tiểu đoàn pháp sư."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000345"
+      - "YS-LN05/Text/part0022.html/p000370"
+  - source_term: "RMS Queen of Anjou"
+    proposed_vi: "tàu RMS *Queen of Anjou*"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên tiền tố RMS và tên riêng của tàu trong cặp dấu '*...*' theo DEC-P01-002 và sổ pending Tập 5."
+    alternatives_vi:
+      - "RMS *Queen of Anjou*"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000345"
+      - "YS-LN05/Text/part0022.html/p000346"
+      - "YS-LN05/Text/part0022.html/p000364"
+      - "YS-LN05/Text/part0022.html/p000370"
+  - source_term: "Queen of the Sea"
+    proposed_vi: "Nữ hoàng Biển cả"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Dịch nghĩa mật danh biểu trưng của con tàu một cách tự nhiên, trang trọng."
+    alternatives_vi:
+      - "Nữ hoàng Đại dương"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000345"
+  - source_term: "ocean liner"
+    proposed_vi: "tàu viễn dương"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với phương án đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000345"
+  - source_term: "maiden voyage"
+    proposed_vi: "chuyến hải trình đầu tiên"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thuật ngữ hàng hải chuẩn xác, tự nhiên trong cả lời thoại và độc thoại nội tâm."
+    alternatives_vi:
+      - "chuyến ra khơi đầu tiên"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000348"
+      - "YS-LN05/Text/part0022.html/p000352"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000348"
+  - source_term: "political commissar / Comrade Political Commissar"
+    proposed_vi: "chính ủy (viên chính ủy) / Đồng chí Chính ủy"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Thống nhất với sổ pending Tập 5 cho chức danh chính ủy trong Quân đội Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000351"
+      - "YS-LN05/Text/part0022.html/p000361"
+      - "YS-LN05/Text/part0022.html/p000362"
+      - "YS-LN05/Text/part0022.html/p000369"
+      - "YS-LN05/Text/part0022.html/p000372"
+      - "YS-LN05/Text/part0022.html/p000374"
+      - "YS-LN05/Text/part0022.html/p000382"
+  - source_term: "gulag"
+    proposed_vi: "trại gulag"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi:
+      - "gulag"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000353"
+  - source_term: "Colonel Mikel / Comrade Colonel"
+    proposed_vi: "Đại tá Mikel / Đồng chí Đại tá"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Đại tá của Mikel và cách xưng hô theo nghi thức Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000354"
+      - "YS-LN05/Text/part0022.html/p000360"
+      - "YS-LN05/Text/part0022.html/p000373"
+      - "YS-LN05/Text/part0022.html/p000381"
+      - "YS-LN05/Text/part0022.html/p000382"
+  - source_term: "Moskva"
+    proposed_vi: "Moskva"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên tên thủ đô Liên bang theo sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000356"
+      - "YS-LN05/Text/part0022.html/p000381"
+  - source_term: "the Lord"
+    proposed_vi: "Chúa"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 1 khi chỉ Chúa trong đức tin tôn giáo."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000362"
+  - source_term: "West Side"
+    proposed_vi: "Phe Phương Tây"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Biểu đạt rõ nghĩa định danh khối các nước phương Tây viện trợ cho Liên bang."
+    alternatives_vi:
+      - "Phía Tây"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000366"
+      - "YS-LN05/Text/part0022.html/p000370"
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp chính xác với phương án đã khóa trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000375"
+      - "YS-LN05/Text/part0022.html/p000377"
+      - "YS-LN05/Text/part0022.html/p000381"
+  - source_term: "Comrade Loria"
+    proposed_vi: "Đồng chí Loria"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000376"
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000380"
+  - source_term: "Comrade General Secretary Josef"
+    proposed_vi: "Đồng chí Tổng Bí thư Josef"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000381"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0022.html/p000345"
+    choices:
+      - "Thuật ngữ và tên gọi: 'đơn vị pháp sư trên không hùng mạnh của Đế quốc', 'tàu RMS *Queen of Anjou*', 'mật danh: Nữ hoàng Biển cả', 'tàu viễn dương'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Queen of Anjou*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000346"
+    choices:
+      - "Xưng hô của Đại tá Mikel trong thoại với chính ủy: tự xưng 'tôi'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Queen of Anjou*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000347"
+    choices:
+      - "Độc thoại nội tâm của Mikel: tự xưng 'mình'; giữ tình thái giả định 'đáng lẽ mình phải nghe nói đến nó rồi chứ, nếu đó là con tàu lớn nhất thế giới'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000348"
+    choices:
+      - "Thuật ngữ và địa danh: 'chuyến hải trình đầu tiên', 'Liên bang'; giữ tình thái suy đoán 'Có lẽ ở Liên bang vẫn chưa nhiều người biết đến nó'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000349"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu hỏi trong ngoặc kép '“*Vài năm trước ư?*”' đúng phạm vi thẻ em"
+  - segment_id: "YS-LN05/Text/part0022.html/p000350"
+    choices:
+      - "Xưng hô của chính ủy với Mikel: gọi 'đồng chí'; giữ sắc thái ngập ngừng 'Dù sao thì, chà, ờm. Sẽ rất tốt nếu đồng chí đừng bận tâm đến chuyện đó.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000351"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc từ cảm thán '*Ồ.*' ở đầu đoạn"
+      - "Thuật ngữ: 'viên chính ủy'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000352"
+    choices:
+      - "Thuật ngữ: 'Chuyến hải trình đầu tiên'; bọc toàn bộ câu cảm thán nội tâm bằng '*...*' theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0022.html/p000353"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc câu đầu bằng '*...*', giữ câu trần thuật thứ hai không in nghiêng"
+      - "Thuật ngữ và đại từ: 'trại gulag', đại từ nội tâm số nhiều 'chúng ta' (sau khi thống nhất theo finding), đại từ trần thuật chỉ Mikel 'Ông' và tập thể đơn vị 'họ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000354"
+    choices:
+      - "Quân hàm và đại từ trần thuật: 'Đại tá Mikel', 'ông'; giữ phủ định bộ phận 'không hẳn toàn là tin xấu'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000355"
+    choices:
+      - "Xưng hô của Mikel trong thoại: 'Tôi' – 'chúng tôi'; viết hoa 'Đảng'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000356"
+    choices:
+      - "Đại từ trần thuật chỉ Mikel: 'ông'; địa danh: 'Moskva'; giữ quan hệ điều kiện và phủ định 'sẽ chẳng thể thoát tội dễ dàng'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000357"
+    choices:
+      - "Đại từ trần thuật: 'ông' kết hợp phản thân 'mình'; giữ điệp cấu trúc giả định ở đầu đoạn và mệnh đề nhượng bộ ở câu cuối ('trại giam')"
+  - segment_id: "YS-LN05/Text/part0022.html/p000358"
+    choices:
+      - "Đại từ trần thuật: 'ông' (Mikel), 'họ' (gia đình); giữ câu giả định bỏ lửng với dấu chấm lửng"
+  - segment_id: "YS-LN05/Text/part0022.html/p000359"
+    choices:
+      - "Xưng hô của Mikel với chính ủy: 'tôi' – 'đồng chí'; giữ phủ định rào đón 'Không phải tôi muốn giục giã gì'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000360"
+    choices:
+      - "Xưng hô của chính ủy với Mikel: 'tôi' – 'đồng chí', hô ngữ 'Đồng chí Đại tá'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000361"
+    choices:
+      - "Đại từ trần thuật chỉ viên chính ủy theo điểm nhìn của Mikel: 'hắn'; giữ phủ định 'chẳng mấy hào hứng' và 'không nên tự chuốc lấy kẻ thù vô cớ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000362"
+    choices:
+      - "Đại từ trần thuật: 'Ông' (Mikel), 'hắn' (viên chính ủy / ác quỷ); thuật ngữ tôn giáo: 'ngày Chúa tái lâm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000363"
+    choices:
+      - "Đại từ trần thuật chỉ chính ủy: 'hắn'; trong thoại chính ủy dùng 'chúng ta', 'Các đồng chí của chúng ta'"
+      - "Thuật ngữ: 'căn cứ hải quân', 'đợt tập kích của quân Đế quốc', 'boong tàu và động cơ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000364"
+    choices:
+      - "Xưng hô của Mikel: 'Tôi', 'chúng ta'; tên tàu: 'tàu RMS *Queen of Anjou*' (in nghiêng tên riêng theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000365"
+    choices:
+      - "Lời đáp xác nhận ngắn gọn của viên chính ủy: '“Vâng, đúng vậy.”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000366"
+    choices:
+      - "Độc thoại nội tâm của Mikel: đại từ 'chúng ta'; thuật ngữ: 'Phe Phương Tây', 'quân trang, linh kiện công nghiệp cùng hàng đống vật tư y tế', 'các tuyến chính'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ đoạn bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000367"
+    choices:
+      - "Giữ tình thái và phủ định trong độc thoại nội tâm: 'có lẽ tốt nhất là không nên xem nhẹ những lời thì thầm nhỏ nhoi ấy'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng '*...*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000368"
+    choices:
+      - "Cụm từ then chốt: 'bảo vệ tuyệt đối' (liên kết trực tiếp với p000369 và p000371); xưng hô của chính ủy: 'chúng ta', 'đồng chí' và 'các đồng chí của đồng chí' (theo finding)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000369"
+    choices:
+      - "Xưng hô của Mikel: 'thưa Đồng chí Chính ủy'; giữ cụm trích dẫn trong ngoặc đơn '‘bảo vệ tuyệt đối’'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000370"
+    choices:
+      - "Đại từ trần thuật: 'ông' (Mikel), 'họ' (đơn vị); thuật ngữ: 'tiểu đoàn pháp sư', 'tàu RMS *Queen of Anjou*', 'Phe Phương Tây'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Queen of Anjou*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000371"
+    choices:
+      - "Đại từ trần thuật: 'ông'; nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc từ '*tuyệt đối*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000372"
+    choices:
+      - "Thuật ngữ và đại từ trần thuật: 'viên chính ủy', 'hắn'; giữ cấu trúc tương phản và phủ định 'không giải thích gì thêm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000373"
+    choices:
+      - "Xưng hô trong thoại của chính ủy: 'chúng ta' (tuyến tiếp vận chung), 'Đồng chí Đại tá', 'chúng tôi' (đại diện cấp trên) – 'đồng chí'"
+      - "Thuật ngữ: 'tuyến tiếp vận đường biển'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000374"
+    choices:
+      - "Thuật ngữ và đại từ: 'viên chính ủy', 'hắn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000375"
+    choices:
+      - "Tổ chức và đại từ: 'Bộ Dân ủy Nội vụ', 'hắn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000376"
+    choices:
+      - "Tên gọi và đại từ: 'Đồng chí Loria', 'Hắn'; giữ dấu chấm lửng mở đầu đoạn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000377"
+    choices:
+      - "Tổ chức: 'Bộ Dân ủy Nội vụ'; giữ nguyên lối nói ẩn dụ 'biến một người đang ở thì hiện tại thành một người ở thì quá khứ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000378"
+    choices:
+      - "Giữ cấu trúc câu nối tiếp bắt đầu bằng 'Và biết...' cùng cụm 'các nhân vật trọng yếu'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000379"
+    choices:
+      - "Giữ quan hệ nhân quả và thể bị động: 'Đó là lý do vì sao công việc này phải được thực hiện một cách hoàn hảo.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000380"
+    choices:
+      - "Địa danh: 'Khối Thịnh vượng chung'; giữ chuỗi ba câu ngắn dồn dập và phủ định 'không để nó chịu thêm một vết xước nào nữa'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000381"
+    choices:
+      - "Hô ngữ, địa danh, tổ chức và chức danh: 'Đồng chí Đại tá', 'Moskva', 'Bộ Dân ủy Nội vụ', 'Đồng chí Tổng Bí thư Josef'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000382"
+    choices:
+      - "Thuật ngữ và quân hàm: 'viên chính ủy', 'Đại tá Mikel', đại từ 'ông'; giữ phủ định hoàn toàn ở vế nhượng bộ (sau khi bỏ từ 'hết' theo finding)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000383"
+    choices:
+      - "Chuyển đại từ ngôi thứ hai khái quát thành cấu trúc khách quan tự nhiên: 'Ở một khía cạnh nào đó, có thể nói đây là lần đầu tiên hai người họ đồng tình với nhau về một chuyện.'"
