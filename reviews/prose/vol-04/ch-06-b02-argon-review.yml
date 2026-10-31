@@ -1,0 +1,258 @@
+task_id: "vol-04-ch-06-b02-argon-review"
+parent_task_id: "vol-04-ch-06-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-04"
+chapter: 6
+target_translation: "translations/vol-04/ch-06-b02.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000037"
+    severity: "minor"
+    category: "pronoun_clarity"
+    issue: "Đại từ 'nó' trong cụm 'Tanya rất thích nó' dùng để chỉ công việc, nằm ngay trước câu 'mỗi ngày nó đều được tan làm đúng giờ' dùng 'nó' để chỉ Tanya theo DEC-P01-001, dễ gây lặp và chuyển đổi quy chiếu đột ngột."
+    recommendation: "Có thể giữ nguyên vì ngữ cảnh vẫn hiểu được, hoặc ở bước chuốt văn chỉnh nhẹ vế đầu thành 'Tanya rất thích công việc này' / 'Tanya rất hứng thú' để dành đại từ 'nó' quy chiếu nhất quán về Tanya."
+pending_term_recommendations:
+  - source_term: "The Origins of Federation External Action"
+    proposed_vi: "*Nguồn gốc Hành động Đối ngoại của Liên bang*"
+    alternatives_vi:
+      - "*Nguồn gốc các Hành động Đối ngoại của Liên bang*"
+    rationale: "Dịch sát nghĩa tên tập chuyên luận phân tích đối ngoại của Tanya, thống nhất danh xưng 'Liên bang' (Federation) và giữ nguyên định dạng in nghiêng theo DEC-P01-002."
+    segment_ids:
+      - "YS-LN04/Text/chapter001_v.xhtml/p000040"
+    status: "proposed"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    alternatives_vi: []
+    rationale: "Cách dịch chuẩn xác và tự nhiên cho quốc danh đối phương gắn với hệ tư tưởng Cộng sản được đề cập ngay đoạn kế tiếp."
+    segment_ids:
+      - "YS-LN04/Text/chapter001_v.xhtml/p000040"
+    status: "proposed"
+  - source_term: "Communism"
+    proposed_vi: "Chủ nghĩa Cộng sản"
+    alternatives_vi:
+      - "chủ nghĩa cộng sản"
+    rationale: "Thuật ngữ chính trị chuẩn xác, giữ viết hoa tương ứng với cách nhấn mạnh tên hệ tư tưởng trong nguyên văn."
+    segment_ids:
+      - "YS-LN04/Text/chapter001_v.xhtml/p000041"
+    status: "proposed"
+  - source_term: "power politics"
+    proposed_vi: "chính trị cường quyền"
+    alternatives_vi:
+      - "chính trị thực lực"
+    rationale: "Thuật ngữ quan hệ quốc tế chuẩn xác để chỉ đường lối đặt sức mạnh và áp lực thực tế lên trên ý thức hệ trong phân tích ngoại giao-quân sự."
+    segment_ids:
+      - "YS-LN04/Text/chapter001_v.xhtml/p000041"
+    status: "proposed"
+  - source_term: "talent management"
+    proposed_vi: "quản trị nhân tài"
+    alternatives_vi:
+      - "quản lý nhân tài"
+    rationale: "Khớp với giọng điệu quản trị nhân sự hiện đại của Tanya khi bàn về việc bố trí nhân lực đúng sở trường trong tổ chức."
+    segment_ids:
+      - "YS-LN04/Text/chapter001_v.xhtml/p000043"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000023"
+    terms: []
+    ranks: []
+    pronouns:
+      - "họ (phía Đế quốc / Lục quân Đế quốc)"
+    pov: "Trần thuật ngôi thứ ba bám điểm nhìn của Tanya"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000024"
+    terms:
+      - "công ty lính đánh thuê"
+      - "vốn con người"
+      - "Lục quân Đế quốc"
+    ranks: []
+    pronouns:
+      - "mình (đại từ phản thân)"
+      - "nó (trần thuật chỉ Tanya theo DEC-P01-001)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000025"
+    terms:
+      - "Tiểu đoàn Pháp sư Trên không số 203"
+    ranks:
+      - "Đại úy Weiss"
+    pronouns:
+      - "nó (Tanya)"
+      - "anh ta (Đại úy Weiss)"
+    pov: "Trần thuật ngôi thứ ba pha suy đoán tình thái 'có lẽ'"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000026"
+    terms:
+      - "Lục quân Đế quốc"
+    ranks:
+      - "thiếu tá"
+    pronouns:
+      - "Anh ta / anh ta (Đại úy Weiss)"
+      - "họ (cơ quan có thẩm quyền trong Lục quân Đế quốc)"
+    pov: "Trần thuật ngôi thứ ba, giữ đúng giả định điều kiện 'sẽ phải được thăng lên thiếu tá'"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000027"
+    terms: []
+    ranks:
+      - "Tướng von Zettour"
+      - "thiếu tá"
+    pronouns:
+      - "nó (Tanya trong câu trần thuật ngôi thứ ba)"
+      - "Mình (chủ thể nội tâm ngôi thứ nhất của Tanya)"
+      - "họ (cấp trên / Bộ Tổng tham mưu)"
+    pov: "Chuyển từ trần thuật ngôi thứ ba sang nhận định nội tâm ngôi thứ nhất"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000028"
+    terms: []
+    ranks: []
+    pronouns:
+      - "Họ (cấp trên / hệ thống quân đội)"
+      - "Nó (Tanya)"
+    pov: "Đan xen độc thoại nội tâm trực tiếp in nghiêng và trần thuật ngôi thứ ba"
+    markdown_emphasis: "*Họ chẳng linh hoạt chút nào.* ... *Có quá nhiều kẻ cứ tìm cách ngáng đường người khác*"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000029"
+    terms:
+      - "tiểu đoàn trưởng"
+    ranks: []
+    pronouns:
+      - "mình (chủ thể nội tâm ngôi thứ nhất)"
+      - "anh ta (Weiss)"
+    pov: "Độc thoại nội tâm ngôi thứ nhất của Tanya"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000030"
+    terms: []
+    ranks: []
+    pronouns: []
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000031"
+    terms: []
+    ranks: []
+    pronouns: []
+    pov: "Nhận định nội tâm ngắn"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000032"
+    terms:
+      - "trận không chiến ở phía tây"
+      - "Tiểu đoàn Pháp sư Trên không số 203"
+      - "Bộ Tổng tham mưu"
+    ranks: []
+    pronouns: []
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000033"
+    terms:
+      - "Bộ Tổng tham mưu"
+      - "cơ sở điều dưỡng"
+      - "sĩ quan tham mưu"
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000034"
+    terms:
+      - "Bộ Tổng tham mưu"
+      - "*Sử dụng Đơn vị và Cơ động Chiến dịch trong Cuộc chiến Hiện tại*"
+      - "Phòng Nghiên cứu Chiến lược"
+      - "quyền tiếp cận mật"
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "*Sử dụng Đơn vị và Cơ động Chiến dịch trong Cuộc chiến Hiện tại*"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000035"
+    terms:
+      - "tài liệu mật"
+      - "tối mật, cần thận trọng khi xử lý"
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+    pov: "Bình luận khái quát kết hợp trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000036"
+    terms: []
+    ranks: []
+    pronouns:
+      - "Nó (Tanya)"
+      - "mình (đại từ phản thân)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000037"
+    terms:
+      - "Lục quân Đế quốc"
+      - "Bộ Tổng tham mưu"
+    ranks: []
+    pronouns:
+      - "nó (Tanya ở câu hai)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000038"
+    terms:
+      - "nhiệm vụ tuần tra đánh chặn ban đêm"
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000039"
+    terms: []
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000040"
+    terms:
+      - "*Nguồn gốc Hành động Đối ngoại của Liên bang*"
+      - "Liên bang"
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "*Nguồn gốc Hành động Đối ngoại của Liên bang*"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000041"
+    terms:
+      - "Chủ nghĩa Cộng sản"
+      - "chính trị cường quyền"
+      - "Lục quân Đế quốc"
+    ranks: []
+    pronouns:
+      - "họ (những kẻ bị tiêm nhiễm Chủ nghĩa Cộng sản)"
+      - "Mình / mình (chủ thể nội tâm ngôi thứ nhất của Tanya)"
+      - "nó (Chủ nghĩa Cộng sản ở câu đầu; tập tài liệu ở câu sau)"
+    pov: "Nhận định bình luận chuyển sang tự thuật nội tâm ngôi thứ nhất"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000042"
+    terms: []
+    ranks: []
+    pronouns:
+      - "nó (Tanya)"
+      - "mình (đại từ phản thân)"
+    pov: "Trần thuật ngôi thứ ba"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000043"
+    terms:
+      - "quản trị nhân tài"
+    ranks: []
+    pronouns:
+      - "mình (chủ thể nội tâm ngôi thứ nhất)"
+    pov: "Độc thoại nội tâm ngôi thứ nhất"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000044"
+    terms:
+      - "chiến tuyến phía tây"
+    ranks: []
+    pronouns:
+      - "mình (đại từ phản thân)"
+      - "nó (Tanya)"
+    pov: "Trần thuật ngôi thứ ba, giữ nguyên giả định điều kiện 'nếu thất bại là điều không thể tránh khỏi'"
+    markdown_emphasis: "none"
+  - segment_id: "YS-LN04/Text/chapter001_v.xhtml/p000045"
+    terms: []
+    ranks: []
+    pronouns: []
+    pov: "Nhận định nội tâm giữ nguyên tình thái dè dặt 'có lẽ', 'xem chừng'"
+    markdown_emphasis: "*Nhưng*"
