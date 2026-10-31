@@ -1,0 +1,257 @@
+task_id: "vol-06-ch-01-b14-argon-review"
+parent_task_id: "vol-06-ch-01-b14"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 1
+source_package: "work/vol-06/batches/ch-01-b14-source.jsonl"
+target_translation: "translations/vol-06/ch-01-b14.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 2
+findings:
+  - segment_id: "YS-LN06/Text/part0008.html/p000539"
+    severity: "moderate"
+    category: "pronoun_accuracy"
+    issue: "Cụm sở hữu ngôi thứ nhất số nhiều chỉ máy bay của phe Liên bang đang được dịch lệch sang ngôi thứ hai số nhiều ('máy bay của các đồng chí')."
+    basis: "Trong câu thoại phản biện tại p000539, vế đầu người nói dùng ngôi thứ hai gọi các quân nhân ('comrades'), nhưng ở vế sau khi nhắc tới số máy bay lạc hậu so với Không hạm đội Đế quốc thì dùng tính từ sở hữu ngôi thứ nhất số nhiều ('our planes') để chỉ trang bị chung của phe mình, chứ không quy riêng thành 'máy bay của các đồng chí'."
+    recommendation: "Sửa 'máy bay của các đồng chí' thành 'máy bay của chúng ta': '“Tôi hiểu các đồng chí đang làm những gì có thể, nhưng xin đừng phớt lờ thực tế là máy bay của chúng ta đã lỗi thời so với Không hạm đội Đế quốc.”'"
+  - segment_id: "YS-LN06/Text/part0008.html/p000534"
+    severity: "minor"
+    category: "referent_clarity"
+    issue: "Đại từ 'chúng' ở đầu đoạn p000534 đứng ngay sau cụm danh từ số nhiều 'lũ đầu gỗ ở Ủy ban Kháng chiến tại các Vùng lãnh thổ bị Chiếm đóng' ở cuối p000533 nên dễ gây nhập nhằng đối tượng quy chiếu."
+    basis: "Trong nguyên bản, đại từ chủ ngữ ở p000534 là ngôi thứ ba số ít, quy chiếu rõ về 'Lục quân Đế quốc' (số ít) chứ không phải nhóm 'lũ đầu gỗ' (số nhiều) ở cuối câu trước. Trong tiếng Việt, cả hai đều có thể được quy chiếu bằng 'chúng'."
+    recommendation: "Có thể nêu rõ chủ thể 'quân Đế quốc' thay cho 'chúng' để tránh mơ hồ: 'Chắc chắn là quân Đế quốc đang lâm vào cảnh khốn đốn.'"
+  - segment_id: "YS-LN06/Text/part0008.html/p000540"
+    severity: "minor"
+    category: "lexical_nuance"
+    issue: "Cụm 'smoothing over the truth' đang được dịch là 'tô hồng sự thật', hơi lệch sắc thái so với hành vi bao biện, lấp liếm ở p000539."
+    basis: "Ở p000539, người phản bác không vẽ ra viễn cảnh tươi đẹp ('tô hồng') mà viện cớ máy bay lạc hậu để chữa cháy và che đậy báo cáo thiếu căn cứ trước đó; do vậy nghĩa sát hơn là 'khỏa lấp sự thật' hoặc 'lấp liếm sự thật'."
+    recommendation: "Cân nhắc đổi 'thói tô hồng sự thật' thành 'thói khỏa lấp sự thật' hoặc 'thói lấp liếm sự thật'."
+pending_term_recommendations:
+  - source_term: "General Winter"
+    proposed_vi: "Tướng Mùa Đông"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm đã dùng trong sổ pending tập 5–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000526"
+    status: "proposed"
+  - source_term: "Comrade Commissar / Comrade Loria / Loria"
+    proposed_vi: "Đồng chí Dân ủy / Đồng chí Loria / Loria"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán cách xưng hô và tên riêng của Loria từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000524"
+      - "YS-LN06/Text/part0008.html/p000527"
+      - "YS-LN06/Text/part0008.html/p000528"
+      - "YS-LN06/Text/part0008.html/p000529"
+      - "YS-LN06/Text/part0008.html/p000536"
+      - "YS-LN06/Text/part0008.html/p000540"
+      - "YS-LN06/Text/part0008.html/p000544"
+      - "YS-LN06/Text/part0008.html/p000547"
+      - "YS-LN06/Text/part0008.html/p000549"
+      - "YS-LN06/Text/part0008.html/p000555"
+    status: "proposed"
+  - source_term: "Imperial Army / Federation Army / General Staff"
+    proposed_vi: "Lục quân Đế quốc / Quân đội Liên bang / Bộ Tổng tham mưu"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán các thuật ngữ quân chủng và cơ quan tham mưu từ sổ pending tập 1–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000527"
+      - "YS-LN06/Text/part0008.html/p000533"
+      - "YS-LN06/Text/part0008.html/p000542"
+      - "YS-LN06/Text/part0008.html/p000551"
+      - "YS-LN06/Text/part0008.html/p000552"
+      - "YS-LN06/Text/part0008.html/p000558"
+    status: "proposed"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    alternatives_vi:
+      - "Hội đồng Tự quản"
+    rationale: "Kế thừa nhất quán phương án tạm 'Hội đồng Tự trị' đã khóa trong chương 1 tập 6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000530"
+      - "YS-LN06/Text/part0008.html/p000532"
+    status: "proposed"
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm đã dùng trong sổ pending tập 4 cho cơ quan nội vụ của Liên bang."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000531"
+      - "YS-LN06/Text/part0008.html/p000551"
+    status: "proposed"
+  - source_term: "Committee for Resistance in Occupied Territories"
+    proposed_vi: "Ủy ban Kháng chiến tại các Vùng lãnh thổ bị Chiếm đóng"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên cơ quan đã khóa ở lô ch-01-b13 (p000506, p000519)."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000533"
+    status: "proposed"
+  - source_term: "Thirteenth Air Army"
+    proposed_vi: "Tập đoàn quân Không quân số 13"
+    alternatives_vi: []
+    rationale: "Dịch chuẩn xác theo biên chế cấp tập đoàn quân không quân của Liên bang/Liên Xô và khớp quy ước đánh số đơn vị."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000538"
+      - "YS-LN06/Text/part0008.html/p000541"
+    status: "proposed"
+  - source_term: "air superiority"
+    proposed_vi: "ưu thế trên không"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm trong sổ pending tập 4–5."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000538"
+    status: "proposed"
+  - source_term: "Imperial Air Fleet / imperial fleet"
+    proposed_vi: "Không hạm đội Đế quốc / không hạm đội của Đế quốc"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm trong sổ pending tập 4–5 ('imperial air fleet' / 'air fleet' -> 'không hạm đội')."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000539"
+      - "YS-LN06/Text/part0008.html/p000545"
+    status: "proposed"
+  - source_term: "matériel"
+    proposed_vi: "vật tư và trang bị quân sự"
+    alternatives_vi:
+      - "khí tài"
+    rationale: "Kế thừa nhất quán phương án tạm cho 'matériel' từ sổ pending tập 2."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000541"
+    status: "proposed"
+  - source_term: "general secretary"
+    proposed_vi: "Tổng Bí thư"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán chức danh lãnh đạo tối cao của Liên bang từ sổ pending tập 4–5."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000550"
+    status: "proposed"
+  - source_term: "wishful thinking"
+    proposed_vi: "suy nghĩ viển vông"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm từ sổ pending tập 1 và tập 5."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000551"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0008.html/p000520"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & đại từ: bọc chữ nghiêng toàn bộ hai câu độc thoại nội tâm trực tiếp của Loria theo DEC-P01-002; Loria tự quy chiếu bằng 'Mình' và gọi gã trưởng ủy ban là 'hắn'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000521"
+    choices:
+      - "Xưng hô & tình thái: người báo cáo xưng 'Chúng tôi', gọi lực lượng ngoài mặt trận là 'các đồng chí ngoài thực địa'; giữ tình thái ước đoán 'hoặc thậm chí có thể thấp hơn nữa'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000522"
+    choices:
+      - "Xưng hô & dấu câu: giữ dấu chấm lửng mở đầu và cách gọi 'đồng chí' trong câu hỏi xác nhận của Loria."
+  - segment_id: "YS-LN06/Text/part0008.html/p000523"
+    choices:
+      - "Xưng hô: người báo cáo xưng 'Chúng tôi' trong câu trả lời trấn an."
+  - segment_id: "YS-LN06/Text/part0008.html/p000524"
+    choices:
+      - "Điểm nhìn, đại từ & phủ định: quy chiếu người báo cáo bằng 'người đàn ông này / ông ta'; giữ phủ định 'dường như chẳng hiểu được điều đó' và 'Chẳng mất bao lâu'; giữ ẩn dụ 'làn đạn ánh mắt dồn dập từ mọi phía'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000525"
+    choices:
+      - "Giọng thoại lắp bắp & đại từ: giữ nét lắp bắp mở đầu 'N-nhưng', xưng 'chúng tôi' và quy chiếu quân Đế quốc bằng 'chúng'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000526"
+    choices:
+      - "Xưng hô, đại từ & thuật ngữ: Loria gọi người báo cáo là 'đồng chí', quy chiếu quân Đế quốc bằng 'chúng'; 'General Winter' -> 'Tướng Mùa Đông'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000527"
+    choices:
+      - "Chức danh, thuật ngữ & đại từ: 'Comrade Commissar' -> 'thưa Đồng chí Dân ủy'; 'Imperial Army' -> 'Lục quân Đế quốc'; người báo cáo xưng 'Tôi' và dùng 'chúng ta' ở vế kết."
+  - segment_id: "YS-LN06/Text/part0008.html/p000528"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & đại từ: bọc '*Ra vậy.*' khớp với thẻ em trong XHTML theo DEC-P01-002; trần thuật quy chiếu Loria bằng 'Loria / gã' và giữ sắc thái mỉa mai đối với bộ mặt ngớ ngẩn của người báo cáo."
+  - segment_id: "YS-LN06/Text/part0008.html/p000529"
+    choices:
+      - "Điểm nhìn & nhận định: giữ câu đánh giá ngắn từ góc nhìn của Loria ('Đối với Loria, đó là sự ngu xuẩn gây thất vọng tột cùng.')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000530"
+    choices:
+      - "Thuật ngữ, đại từ, phủ định & tình thái: 'Council for Self-Government' -> 'Hội đồng Tự trị'; chuyển cách quy chiếu người báo cáo sang 'gã đàn ông này / hắn' khi Loria coi hắn là 'thứ rác rưởi'; giữ phủ định 'chẳng có lấy một mẩu thông tin hữu ích nào' và tình thái suy đoán phủ định 'Hẳn hắn chẳng hề hiểu chút gì...'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000531"
+    choices:
+      - "Dấu câu & thuật ngữ: giữ dấu chấm lửng mở đầu; 'Commissariat for Internal Affairs' -> 'Bộ Dân ủy Nội vụ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000532"
+    choices:
+      - "Thuật ngữ & đại từ: quy chiếu Bộ Dân ủy Nội vụ bằng 'Họ'; 'Council for Self-Government' -> 'Hội đồng Tự trị'; 'the imperials' -> 'quân Đế quốc'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000533"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu Loria bằng 'gã' ('Tổ chức của gã'); 'Imperial Army' -> 'Lục quân Đế quốc'; 'blockheads' -> 'lũ đầu gỗ'; 'Committee for Resistance in Occupied Territories' -> 'Ủy ban Kháng chiến tại các Vùng lãnh thổ bị Chiếm đóng'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000534"
+    choices:
+      - "Tình thái & chủ thể quy chiếu: giữ tình thái khẳng định 'Chắc chắn là... đang lâm vào cảnh khốn đốn'; chủ thể bị khốn đốn là Lục quân Đế quốc (khuyến nghị nêu rõ 'quân Đế quốc' theo finding minor để tránh nhập nhằng với cụm cuối p000533)."
+  - segment_id: "YS-LN06/Text/part0008.html/p000535"
+    choices:
+      - "Nhấn mạnh Markdown & dấu câu: bọc chữ nghiêng toàn bộ câu chuyển ý nội tâm kèm dấu chấm lửng '*Nhưng nghĩ đi cũng phải nghĩ lại…*' theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0008.html/p000536"
+    choices:
+      - "Phủ định kép & điểm nhìn: giữ tên riêng 'Loria', từ miệt thị 'những tên đầu gỗ', và hai cấu trúc phủ định ('kẻ địch không phải là bên duy nhất phải chịu cảnh khốn khổ', 'Loria cũng chẳng phải là người duy nhất không thể chịu đựng nổi chuyện đó')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000537"
+    choices:
+      - "Trần thuật chuyển nhịp: giữ chi tiết những người mặc quân phục vốn giữ im lặng từ đầu buổi họp bỗng lên tiếng."
+  - segment_id: "YS-LN06/Text/part0008.html/p000538"
+    choices:
+      - "Xưng hô, thuật ngữ & cấu trúc phủ định tăng tiến: gọi người báo cáo là 'đồng chí', xưng 'chúng ta'; 'Thirteenth Air Army' -> 'Tập đoàn quân Không quân số 13'; 'air superiority' -> 'ưu thế trên không'; giữ cấu trúc 'Đừng nói tới chuyện..., ngay cả việc liệu... cũng còn chưa chắc chắn'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000539"
+    choices:
+      - "Xưng hô, đại từ sở hữu & thuật ngữ (cần sửa theo finding): người nói xưng 'Tôi', gọi phía quân đội là 'các đồng chí', nhưng phải giữ đúng sở hữu ngôi thứ nhất số nhiều 'máy bay của chúng ta' (thay vì 'máy bay của các đồng chí'); 'Imperial Air Fleet' -> 'Không hạm đội Đế quốc'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000540"
+    choices:
+      - "Điểm nhìn & so sánh: giữ điểm nhìn 'Từ góc nhìn của Loria' và hình ảnh so sánh gương mặt các quân nhân như 'bầy sói chực chờ xé xác con mồi' (cân nhắc chỉnh 'tô hồng sự thật' thành 'khỏa lấp/lấp liếm sự thật' theo finding minor)."
+  - segment_id: "YS-LN06/Text/part0008.html/p000541"
+    choices:
+      - "Nhấn mạnh Markdown, xưng hô & thuật ngữ: sĩ quan xưng 'Tôi', gọi đối phương tranh luận là 'đồng chí'; 'Thirteenth Air Army' -> 'Tập đoàn quân Không quân số 13'; bọc '*số lượng*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; 'matériel' -> 'vật tư và trang bị quân sự'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000542"
+    choices:
+      - "Thuật ngữ: 'Federation Army’s General Staff' -> 'Bộ Tổng tham mưu Quân đội Liên bang'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000543"
+    choices:
+      - "Dấu câu, tình thái & đại từ: giữ dấu chấm lửng sau mệnh đề đầu, tình thái suy đoán 'có lẽ đã làm tê liệt...' và đại từ 'họ' quy chiếu giới quân sự."
+  - segment_id: "YS-LN06/Text/part0008.html/p000544"
+    choices:
+      - "Điểm nhìn, phủ định & quan hệ nhượng bộ: giữ điểm nhìn của Loria, phủ định 'không còn khớp với thực tại' và cấu trúc nhượng bộ 'ngay cả khi... thì những suy nghĩ ấy vẫn rất đáng để lưu tâm'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000545"
+    choices:
+      - "Thuật ngữ, điều kiện & câu hỏi tu từ: 'imperial fleet' -> 'không hạm đội của Đế quốc'; xưng 'chúng tôi' trong câu hỏi tu từ mỉa mai báo cáo của phía ủy ban."
+  - segment_id: "YS-LN06/Text/part0008.html/p000546"
+    choices:
+      - "Xưng hô & dấu ngắt lời: gọi 'các đồng chí bên quân đội / Các đồng chí' và giữ dấu gạch ngang dài '—' ở cuối câu thoại bị cắt ngang."
+  - segment_id: "YS-LN06/Text/part0008.html/p000547"
+    choices:
+      - "Từ vựng & ẩn dụ: giữ cách gọi 'Đám đầu gỗ' và hình ảnh ẩn dụ Loria 'giáng chiếc búa sắt xuống'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000548"
+    choices:
+      - "Thoại mệnh lệnh ngắn: giữ câu can thiệp dứt khoát của Loria 'Đủ rồi đấy, các đồng chí.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000549"
+    choices:
+      - "Dấu ngoặc kép ba lớp & xưng hô: giữ nguyên ba lớp ngoặc kép '“““Đồng chí Loria?”””' biểu thị nhiều người đồng thanh gọi."
+  - segment_id: "YS-LN06/Text/part0008.html/p000550"
+    choices:
+      - "Đại từ & chức danh: quy chiếu Loria bằng 'Gã'; 'general secretary' -> 'Tổng Bí thư'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000551"
+    choices:
+      - "Thuật ngữ, đại từ, phủ định & tình thái: Loria xưng 'Tôi', gọi 'Thưa các đồng chí / chúng ta'; trần thuật quy chiếu Loria bằng 'gã / Gã'; 'Commissariat for Internal Affairs' -> 'Bộ Dân ủy Nội vụ'; 'partisan activities' -> 'hoạt động du kích'; 'Imperial Army' -> 'Lục quân Đế quốc'; 'wishful thinking' -> 'suy nghĩ viển vông'; giữ tình thái phủ định 'có lẽ không sai' và cặp đối lập 'Đó không phải là suy nghĩ viển vông mà là thực tế đơn thuần'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000552"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu Loria bằng 'Gã'; 'Imperial Army' -> 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000553"
+    choices:
+      - "Xưng hô & chỉ dẫn: Loria xưng 'Tôi', gọi 'các đồng chí' và nhắc đến 'câu hỏi của bên quân đội'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000554"
+    choices:
+      - "Dấu câu & thuật ngữ: giữ dấu chấm lửng mở đầu; 'repair facilities' -> 'các cơ sở sửa chữa'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000555"
+    choices:
+      - "Trần thuật & chỉ dẫn: giữ hành động Loria chờ phát xong tài liệu cho mọi người và câu chỉ dẫn 'Hãy chú ý đến toàn bộ số máy móc đó.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000556"
+    choices:
+      - "Quan hệ nhượng bộ & đại từ: giữ cấu trúc 'Dù bức ảnh khá mờ nhạt, một chuyên gia vẫn có thể dễ dàng đọc ra...' và quy chiếu các quân nhân bằng 'họ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000557"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu quân Đế quốc bằng 'chúng'; 'assets' -> 'khí tài'; 'rear' -> 'hậu phương'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000558"
+    choices:
+      - "Thuật ngữ, dấu câu & phủ định: 'Federation Army General Staff officers' -> 'các sĩ quan Bộ Tổng tham mưu Quân đội Liên bang'; 'Imperial Army' -> 'Lục quân Đế quốc'; giữ dấu gạch ngang giải thích và phủ định nhấn mạnh 'hầu như chẳng còn nghi ngờ gì nữa'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000559"
+    choices:
+      - "Nghĩa & thuật ngữ kết đoạn: giữ nguyên tắc hoạt động gián điệp về việc giấu kín nguồn tin ngay cả với đồng minh."
