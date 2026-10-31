@@ -1,0 +1,220 @@
+task_id: "vol-05-ch-03-b06-argon-review"
+parent_task_id: "vol-05-ch-03-b06"
+volume: "vol-05"
+chapter: 3
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-03-b06-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 2
+  minor: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0018.html/p000180"
+    severity: "moderate"
+    category: "terminology_and_rank"
+    issue: "Cụm 'Colonel von Lergen' trong lời thoại đang được dịch là 'Đại tá von Lergen', lệch với cấp bậc đã khóa trong sổ pending."
+    rationale: "Theo quy ước rút gọn quân hàm trong tiếng Anh của nguyên bản (tương tự 'Colonel von Degurechaff' -> 'Trung tá von Degurechaff' ở p000196 và 'Colonel Uger' -> 'Trung tá Uger' ở p000202) cùng mục đã khóa tại work/run-state/pending-terms-index.yml của Tập 1 và Tập 5 (ch-02-b07), cấp bậc của von Lergen ở thời điểm này là Trung tá ('Trung tá von Lergen')."
+    proposed_fix: "Đổi 'Đại tá von Lergen' thành 'Trung tá von Lergen'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000187"
+    severity: "moderate"
+    category: "terminology_and_rank"
+    issue: "Cụm 'Colonel von Lergen' trong câu độc thoại nội tâm đang được dịch là 'Đại tá von Lergen', chưa đồng bộ với cấp bậc đã khóa trong sổ pending."
+    rationale: "Giữ thống nhất quân hàm 'Trung tá von Lergen' với p000180 và mục 'Colonel von Lergen / Colonel / Lergen' -> 'Trung tá von Lergen / Trung tá / Lergen' trong work/run-state/pending-terms-index.yml của Tập 5."
+    proposed_fix: "Đổi 'Đại tá von Lergen' thành 'Trung tá von Lergen' (giữ nguyên phạm vi in nghiêng Markdown của câu)."
+pending_term_recommendations:
+  - source_term: "General Staff Office’s banquet hall / banquet hall"
+    proposed_vi: "sảnh yến tiệc của Văn phòng Bộ Tổng tham mưu / sảnh yến tiệc"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Kết hợp tên cơ quan đã thống nhất ('Văn phòng Bộ Tổng tham mưu') với cách dịch sát nghĩa cho không gian sảnh tiệc nơi Uger và Tanya dùng bữa."
+    alternatives_vi:
+      - "phòng yến tiệc của Văn phòng Bộ Tổng tham mưu / phòng yến tiệc"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000178"
+      - "YS-LN05/Text/part0018.html/p000183"
+  - source_term: "Colonel von Lergen"
+    proposed_vi: "Trung tá von Lergen"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán với mục 'Colonel von Lergen / Colonel / Lergen' -> 'Trung tá von Lergen / Trung tá / Lergen' đã khóa trong sổ pending Tập 1 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000180"
+      - "YS-LN05/Text/part0018.html/p000187"
+  - source_term: "search-and-destroy mission"
+    proposed_vi: "nhiệm vụ tìm và diệt"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự tiếng Việt chuẩn xác, tự nhiên để chỉ loại nhiệm vụ truy tìm và tiêu diệt mục tiêu."
+    alternatives_vi:
+      - "nhiệm vụ truy tìm và tiêu diệt"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000184"
+  - source_term: "commerce raiding"
+    proposed_vi: "tập kích tuyến thương mại"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với mục 'commerce raids' -> 'tập kích tuyến thương mại' đã có trong sổ pending Tập 5."
+    alternatives_vi:
+      - "phá hoại tuyến hàng hải thương mại"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000191"
+  - source_term: "Unified States Navy"
+    proposed_vi: "Hải quân Hợp chúng quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Kết hợp tên quốc gia 'Hợp chúng quốc' (Unified States) đã thống nhất từ Tập 4 với danh xưng quân chủng Hải quân."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000195"
+  - source_term: "Army Command / Navy Command / Army and Navy Commands"
+    proposed_vi: "Bộ Tư lệnh Lục quân / Bộ Tư lệnh Hải quân / Bộ Tư lệnh Lục quân và Hải quân"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Dịch rõ ràng, chuẩn xác hai cơ quan chỉ huy quân chủng Lục quân và Hải quân trong thế đối trọng với Bộ Tổng tham mưu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000199"
+      - "YS-LN05/Text/part0018.html/p000202"
+      - "YS-LN05/Text/part0018.html/p000204"
+  - source_term: "pseudo–ersatz coffee"
+    proposed_vi: "cà phê thay thế hàng nhái"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Phát triển trực tiếp từ thuật ngữ 'ersatz coffee' ('cà phê thay thế') trong sổ pending, làm rõ sắc thái châm biếm thứ đồ uống thậm chí còn kém hơn cả cà phê thay thế thông thường."
+    alternatives_vi:
+      - "cà phê thay thế kiểu giả cầy"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000201"
+  - source_term: "joint intelligence agency / joint intelligence department"
+    proposed_vi: "cơ quan tình báo liên hợp / bộ phận tình báo liên hợp"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa thiết chế tình báo phối hợp giữa Bộ Tư lệnh Lục quân và Hải quân, phân biệt rõ với 'Cục Tình báo Quân sự thuộc Bộ Tổng tham mưu'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000202"
+      - "YS-LN05/Text/part0018.html/p000204"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0018.html/p000178"
+    locked:
+      - "Đại từ nội tâm: Tanya tự xưng 'Mình' theo DEC-P01-001; không bọc '*...*' vì nguồn không in nghiêng (DEC-P01-002)."
+      - "Thuật ngữ: 'sảnh yến tiệc của Văn phòng Bộ Tổng tham mưu' (General Staff Office’s banquet hall)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000179"
+    locked:
+      - "Xưng hô thoại: Uger xưng 'tôi', gọi Tanya là 'cô'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000180"
+    locked:
+      - "Đại từ & xưng hô: trần thuật chỉ Tanya bằng 'Nó' (DEC-P01-001); trong thoại Tanya xưng 'Tôi'."
+      - "Quân hàm & tên riêng: 'Trung tá von Lergen' (Colonel von Lergen) sau khi sửa theo finding."
+  - segment_id: "YS-LN05/Text/part0018.html/p000181"
+    locked:
+      - "Đại từ trần thuật: 'Họ' / 'họ'; giữ dấu ngoặc kép mỉa mai quanh từ '“đồ ăn”'."
+      - "Thuật ngữ: 'nhà ăn' (mess hall), 'Bộ Tổng tham mưu' (General Staff)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000182"
+    locked:
+      - "Đại từ trần thuật: chỉ Tanya bằng 'nó' và đại từ phản thân 'mình' theo DEC-P01-001."
+      - "Thuật ngữ: 'phòng tuyến tiền tiêu xa nhất' (forward-most line), 'sĩ quan ma pháp' (magic officer), 'chế độ ăn giàu calo' (high-calorie diet)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000183"
+    locked:
+      - "Thuật ngữ & giả định trái thực tế: 'sảnh yến tiệc' (banquet hall); giữ cấu trúc điều kiện giả định 'Nếu chúng cũng có chất lượng tương tự như đồ ăn ở sảnh yến tiệc, hẳn sẽ rất khó tránh khỏi việc đánh mất ý chí chiến đấu'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000184"
+    locked:
+      - "Xưng hô & đại từ thoại: 'chúng ta', 'cô'."
+      - "Thuật ngữ: 'nhiệm vụ tìm và diệt' (search-and-destroy mission)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000185"
+    locked:
+      - "Đại từ trần thuật & phủ định: chỉ Uger bằng 'anh ta', giữ đối lập 'nhưng thực chất anh ta chẳng hề cười'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000186"
+    locked:
+      - "Nhấn mạnh Markdown: bọc toàn bộ câu độc thoại nội tâm '*Ồ, ra vậy.*' trong '*...*' theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0018.html/p000187"
+    locked:
+      - "Nhấn mạnh Markdown & đại từ: giữ cấu trúc tách chữ thường cho từ 'thế' giữa hai cụm bọc '*...*' khớp với thẻ em trong nguồn (DEC-P01-002); đại từ nội tâm 'mình' (DEC-P01-001) và 'anh ta' (Uger)."
+      - "Quân hàm & tên riêng: 'Trung tá von Lergen' (Colonel von Lergen) sau khi sửa theo finding."
+  - segment_id: "YS-LN05/Text/part0018.html/p000188"
+    locked:
+      - "Đại từ thoại & thuật ngữ: Tanya dùng 'chúng tôi' (đơn vị của mình); 'đơn vị rảnh rỗi' (free unit), 'thị sát tại chỗ' (on-the-spot inspection), 'tàu dân sự' (civilian ships)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000189"
+    locked:
+      - "Xưng hô & thuật ngữ: Uger gọi đơn vị/cá nhân Tanya là 'các cô' / 'cô', xưng 'chúng tôi'; 'Cục Quân vụ' (Service Corps), 'tiền án' (record), 'các đồng nghiệp bên pháp chế' (colleagues in legal)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000190"
+    locked:
+      - "Điểm nhìn kép & đại từ: phân biệt ngôi thứ nhất nội tâm 'Mình' / 'mình' với tên riêng trần thuật 'Tanya' trong cùng đoạn theo DEC-P01-001; giữ dấu ngoặc kép quanh '“tiền án”'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000191"
+    locked:
+      - "Địa danh & thuật ngữ: 'Biển Bắc' (Northern Sea), 'Tập kích tuyến thương mại' (Commerce raiding)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000192"
+    locked:
+      - "Đại từ thoại: 'chúng ta' (phía Đế quốc); giữ câu hỏi phỏng đoán pha sắc thái mỉa mai."
+  - segment_id: "YS-LN05/Text/part0018.html/p000193"
+    locked:
+      - "Địa danh & thuật ngữ: 'Biển Bắc' (Northern Sea), 'thị sát tại chỗ' (on-the-spot inspection), 'Hợp chúng quốc' (Unified States)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000194"
+    locked:
+      - "Phủ định & thuật ngữ: 'chẳng có lý do gì', 'con tàu dân sự' (civilian ship)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000195"
+    locked:
+      - "Phủ định, tình thái & thuật ngữ: 'Không, lẽ ra chẳng có lý do nào cả', 'hình như' (apparently); 'Hải quân Hợp chúng quốc' (Unified States Navy), 'các tàu dân sự' (civilian ships), 'Biển Bắc' (Northern Sea)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000196"
+    locked:
+      - "Xưng hô, quân hàm & phủ định kép: Uger xưng 'tôi', dùng 'chúng ta', gọi 'Trung tá von Degurechaff' (Colonel von Degurechaff); giữ phủ định kép 'tôi cũng chẳng thể bảo rằng chúng ta không nên thực hiện việc này tới cùng'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000197"
+    locked:
+      - "Tên nhân vật trần thuật: 'Tanya'; giữ cụm 'nụ cười gượng gạo' (wry smile)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000198"
+    locked:
+      - "Xưng hô: Tanya đáp lời Uger bằng 'tôi - anh', giữ từ 'Không' ở đầu câu để phủ định câu hỏi 'Tôi nói có sai không?' của Uger."
+  - segment_id: "YS-LN05/Text/part0018.html/p000199"
+    locked:
+      - "Tên cơ quan & thuật ngữ: 'Bộ Tổng tham mưu' (General Staff), 'Bộ Tư lệnh Lục quân' (Army Command), 'Quân đội Liên bang' (Federation Army), 'Bộ Tư lệnh Hải quân' (Navy Command), 'Bộ Ngoại giao' (Foreign Office), 'những người trực tiếp làm việc ngoài thực địa' (the ones in the field)."
+      - "Tình thái suy đoán: 'hẳn Bộ Ngoại giao đã can thiệp' (the Foreign Office must have stepped in)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000200"
+    locked:
+      - "Đại từ ngôi thứ hai khái quát: 'bạn'; giữ nhịp câu danh từ ngắn thể hiện sự ngán ngẩm."
+  - segment_id: "YS-LN05/Text/part0018.html/p000201"
+    locked:
+      - "Nhấn mạnh Markdown, tên riêng & thuật ngữ: chỉ bọc '*Thiệt tình.*' trong '*...*' theo DEC-P01-002; 'Tanya', phản thân 'mình', 'cà phê thay thế hàng nhái' (pseudo–ersatz coffee)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000202"
+    locked:
+      - "Quân hàm, xưng hô & thuật ngữ: 'Trung tá Uger' (Colonel Uger), 'tôi - cô'; 'Biển Bắc' (Northern Sea), 'cơ quan tình báo liên hợp thuộc Bộ Tư lệnh Lục quân và Hải quân' (joint intelligence agency of the Army and Navy Commands)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000203"
+    locked:
+      - "Tên nhân vật trần thuật: 'Tanya'; giữ sắc thái phản xạ 'bất giác nghiêng đầu'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000204"
+    locked:
+      - "Đại từ trần thuật & thuật ngữ: 'Nó' (Tanya, theo DEC-P01-001), 'Họ' / 'họ'; 'Cục Tình báo Quân sự thuộc Bộ Tổng tham mưu' (General Staff Military Intelligence Division), 'bộ phận tình báo liên hợp của Bộ Tư lệnh Lục quân và Hải quân' (joint intelligence department of the Army and Navy Commands), 'tôn ti theo chiều dọc' (vertical hierarchy), 'phân bổ ngân sách' (budget allocation), 'thẩm quyền' (authority), 'hợp nhất' (integration)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000205"
+    locked:
+      - "Đại từ nội tâm & thuật ngữ: 'mình' (DEC-P01-001), không in nghiêng (DEC-P01-002); 'Đại Thập tự Sắt Cánh Trắng' (White Wings Grand Iron Cross)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000206"
+    locked:
+      - "Xưng hô & thuật ngữ: 'tôi - cô'; 'Kampfgruppe', 'cấp trên' (higher-ups), 'đơn vị huấn luyện' (instructor unit), 'nghiên cứu kỹ năng tác chiến' (combat skill research)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000207"
+    locked:
+      - "Nhấn mạnh Markdown & đại từ: nội tâm tự xưng 'mình' (DEC-P01-001); chỉ bọc câu hỏi lặp lại cuối đoạn '*Lại nữa sao?*' trong '*...*' đúng theo thẻ em trong nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000208"
+    locked:
+      - "Thuật ngữ: 'Bên Tình báo' (Intelligence), 'Cục Tình báo Quân sự' (Military Intelligence Division)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000209"
+    locked:
+      - "Tên riêng & đại từ: 'Họ' (Lục quân và Hải quân / bộ phận tình báo liên hợp); 'Liên minh Hiệp ước' (Entente Alliance), 'Cộng hòa' (the Republic), 'Dacia'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000210"
+    locked:
+      - "Thuật ngữ & tình thái: 'Bộ Tổng tham mưu' (General Staff), 'lục quân và hải quân' (the army and navy); giữ tình thái suy đoán 'hẳn ... đang nhắm tới'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000211"
+    locked:
+      - "Đại từ: 'họ'; giữ hình ảnh ẩn dụ 'hạ gục một con mồi thật lớn' (bring down something big)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000212"
+    locked:
+      - "Giữ câu hỏi nối tiếp trực tiếp ẩn dụ ở p000211: 'Và con mồi đó là gì?'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000213"
+    locked:
+      - "Xưng hô & phủ định tình thái: Uger xưng 'Tôi'; 'Trông có vẻ như họ chẳng lên kế hoạch cho bất kỳ chiến dịch lớn nào cả'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000214"
+    locked:
+      - "Thuật ngữ & cấu trúc điều kiện phủ định: 'Cục Quân vụ' (Service Corps); giữ nguyên lập luận suy diễn hậu cần ở cả hai câu."
