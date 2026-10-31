@@ -1,0 +1,191 @@
+task_id: vol-05-ch-05-b12-argon-review
+parent_task_id: vol-05-ch-05-b12
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 5
+source_package: work/vol-05/batches/ch-05-b12-source.jsonl
+target_translation: translations/vol-05/ch-05-b12.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: minor
+    segment_id: YS-LN05/Text/part0025.html/p000469
+    issue: "Đại từ ngôi thứ ba chỉ Đại úy Meybert trong độc thoại nội tâm của Tanya đang dịch là \"hắn\", hơi nặng và lệch sắc thái so với cách gọi trung tính \"anh ta\" dùng cho các sĩ quan thuộc quyền ở các đoạn lân cận (p000453, p000481, p000490) trước khi nguồn chuyển sang cụm cảm thán ở p000470."
+    evidence: "Ở p000469 nguồn chỉ dùng đại từ ngôi thứ ba trung tính để chỉ Đại úy Meybert, sang p000470 mới dùng danh ngữ mang sắc thái ngán ngẩm (đã dịch là \"cái gã này\")."
+    recommendation: "Đổi \"hắn\" thành \"anh ta\" ở p000469 để giữ mạch đại từ nhất quán và làm rõ bước chuyển sắc thái sang p000470."
+pending_term_recommendations:
+  - source_term: staff officer track
+    proposed_vi: ngạch sĩ quan tham mưu
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000458
+    rationale: "Diễn đạt chính xác lộ trình phân ngạch và bồi dưỡng sĩ quan tham mưu trong quân đội Đế quốc, khớp tự nhiên với ngữ cảnh tiến cử Serebryakov."
+    alternatives_vi:
+      - lộ trình sĩ quan tham mưu
+  - source_term: regular course at the academy
+    proposed_vi: khóa chính quy tại học viện
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000459
+    rationale: "Dịch sát nghĩa, phân biệt rõ với các khóa đào tạo sĩ quan cấp tốc hoặc tình nguyện."
+    alternatives_vi:
+      - chương trình chính quy tại học viện quân sự
+  - source_term: human capital optimization
+    proposed_vi: tối ưu hóa vốn con người
+    category: thuật ngữ
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000462
+    rationale: "Kế thừa nhất quán mục pending P03-human-capital (\"vốn con người\") trong canon/glossary-pending.yml."
+    alternatives_vi: []
+  - source_term: patrol line
+    proposed_vi: tuyến tuần tra
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000478
+    rationale: "Thuật ngữ chuẩn xác, tương thích với cách dịch \"maritime patrol line\" (\"tuyến tuần tra hàng hải\") và \"warning line\" (\"tuyến cảnh giới\") trong sổ pending."
+    alternatives_vi: []
+  - source_term: defensive support / defense support
+    proposed_vi: yểm trợ phòng ngự
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000489
+      - YS-LN05/Text/part0025.html/p000491
+    rationale: "Chuẩn thuật ngữ tác chiến, đồng bộ với \"direct support\" (\"yểm trợ trực tiếp\") đã dùng trong tập 4 và tập 5."
+    alternatives_vi:
+      - hỗ trợ phòng ngự
+locked_choices:
+  - segment_id: YS-LN05/Text/part0025.html/p000453
+    choices:
+      - "Thoại chỉ huy của Tanya: tự xưng \"tôi\" / \"mình\", gọi sĩ quan thuộc quyền vắng mặt là \"anh ta\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000454
+    choices:
+      - "Đáp lệnh ngắn của cấp dưới: \"Rõ ạ.\""
+  - segment_id: YS-LN05/Text/part0025.html/p000455
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Đúng là nhức đầu thật đấy*\"."
+      - "Điểm nhìn & đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\", nội tâm tự quy chiếu dùng \"mình\"."
+      - "Cấp bậc & xưng hô: \"Trung úy Serebryakov\", gọi \"cô\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000456
+    choices:
+      - "Xưng hô của Serebryakov với Tanya: \"Rõ, thưa Trung tá!\", tự xưng \"tôi\", ngôi thứ nhất số nhiều \"chúng ta\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000457
+    choices:
+      - "Độc thoại nội tâm của Tanya gọi Serebryakov là \"cô ấy\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000458
+    choices:
+      - "Độc thoại nội tâm của Tanya: tự xưng \"mình\", số nhiều \"bọn mình\", gọi Serebryakov là \"cô ấy\"."
+      - "Thuật ngữ: \"sĩ quan phụ tá\" (adjutant), \"ngạch sĩ quan tham mưu\" (staff officer track)."
+  - segment_id: YS-LN05/Text/part0025.html/p000459
+    choices:
+      - "Thuật ngữ & phủ định: \"chưa tốt nghiệp khóa chính quy tại học viện\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000460
+    choices:
+      - "Tên gọi & cấp bậc: \"Tướng von Zettour\" (General von Zettour)."
+      - "Tình thái nội tâm: \"Mình cảm thấy họ nên hạ thấp rào cản xuống để việc tốt nghiệp học viện không còn là điều kiện tiên quyết nữa.\""
+  - segment_id: YS-LN05/Text/part0025.html/p000461
+    choices:
+      - "Thuật ngữ & tự quy chiếu: \"mình\", \"sĩ quan phụ tá\" (adjutant)."
+  - segment_id: YS-LN05/Text/part0025.html/p000462
+    choices:
+      - "Thuật ngữ quản trị: \"nhà quản lý\" (manager), \"xung đột lợi ích căn bản\" (fundamental conflict of interest), \"tối ưu hóa vốn con người\" (human capital optimization), \"nguồn nhân lực\" (human resources)."
+  - segment_id: YS-LN05/Text/part0025.html/p000463
+    choices:
+      - "Quan hệ nhân quả & phủ định: bị rút khỏi đơn vị để đi học thì không thể tích lũy được kinh nghiệm cần thiết."
+  - segment_id: YS-LN05/Text/part0025.html/p000464
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Ồ*\" và \"*Mình cũng phải cân nhắc xem liệu Lục quân Đế quốc có đủ khả năng thong thả đào tạo các sĩ quan tiền tuyến tại trường đại học quân sự hay không nữa.*\""
+      - "Thuật ngữ: \"Lục quân Đế quốc\" (Imperial Army), \"các sĩ quan tiền tuyến\" (frontline officers), \"trường đại học quân sự\" (war college)."
+  - segment_id: YS-LN05/Text/part0025.html/p000465
+    choices:
+      - "Thuật ngữ: \"Quân đội Liên bang\" (Federation Army), \"các phòng tuyến chính\" (main lines), \"các bức điện mật\" (ciphers), \"mật mã\" (code)."
+  - segment_id: YS-LN05/Text/part0025.html/p000466
+    choices:
+      - "Câu hỏi của Meybert: giữ nguyên tính khả thể \"có thể phải đụng độ với cả các đơn vị của quân địch hiện tại lẫn lực lượng mới này\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000467
+    choices:
+      - "Cấp bậc & xưng hô của Serebryakov với Meybert: \"Vâng, thưa Đại úy Meybert. Đúng là như vậy ạ.\""
+  - segment_id: YS-LN05/Text/part0025.html/p000468
+    choices:
+      - "Thuật ngữ: \"đạn pháo\" (shells)."
+  - segment_id: YS-LN05/Text/part0025.html/p000469
+    choices:
+      - "Tên riêng & cấp bậc: \"Weiss\", \"Đại úy Meybert\"."
+      - "Đại từ: tự xưng \"mình\", khuyến nghị dùng \"anh ta\" để chỉ Đại úy Meybert."
+  - segment_id: YS-LN05/Text/part0025.html/p000470
+    choices:
+      - "Đại từ & sắc thái nội tâm: \"cái gã này\" (this guy), \"bọn mình\"."
+      - "Thuật ngữ: \"sĩ quan tham mưu\" (staff officers)."
+  - segment_id: YS-LN05/Text/part0025.html/p000471
+    choices:
+      - "Cụm khái niệm: \"thế tiến thoái lưỡng nan không có hồi kết\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000472
+    choices:
+      - "Thuật ngữ: \"sĩ quan tham mưu cấp cao\" (high-level staffers), \"các sĩ quan cấp thấp\" (lower-level officers), \"tiền tuyến\" (front lines)."
+  - segment_id: YS-LN05/Text/part0025.html/p000473
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Dù sao thì.*\" và giữ câu trần thuật bên ngoài dấu sao."
+  - segment_id: YS-LN05/Text/part0025.html/p000474
+    choices:
+      - "Thuật ngữ: \"Đội tiên phong của địch\" (enemy vanguard)."
+  - segment_id: YS-LN05/Text/part0025.html/p000475
+    choices:
+      - "Thuật ngữ & nội tâm: \"sĩ quan phụ tá của mình\" (my adjutant), \"ca ngủ luân phiên\" (sleep rotation), \"hai lữ đoàn\" (two brigades)."
+  - segment_id: YS-LN05/Text/part0025.html/p000476
+    choices:
+      - "Giữ giọng bình luận ngắn gọn: \"Đúng là một cách để tỉnh ngủ.\""
+  - segment_id: YS-LN05/Text/part0025.html/p000477
+    choices:
+      - "Trần thuật: giữ tên \"Tanya\" và đại từ \"họ\" cho nhóm sĩ quan."
+  - segment_id: YS-LN05/Text/part0025.html/p000478
+    choices:
+      - "Thuật ngữ: \"tuyến tuần tra\" (patrol line), \"hai lữ đoàn\" (two brigades)."
+  - segment_id: YS-LN05/Text/part0025.html/p000479
+    choices:
+      - "Cấp bậc & tên riêng: \"Trung úy Tospan\" (Lieutenant Tospan)."
+  - segment_id: YS-LN05/Text/part0025.html/p000480
+    choices:
+      - "Thuật ngữ: \"lính cần vụ\" (orderlies)."
+  - segment_id: YS-LN05/Text/part0025.html/p000481
+    choices:
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"Nó\", gọi Tospan là \"anh ta\"."
+      - "Thuật ngữ: \"sức mạnh vật tư và trang bị quân sự\" (matériel power), \"Quân đội Liên bang\" (Federation Army)."
+  - segment_id: YS-LN05/Text/part0025.html/p000482
+    choices:
+      - "Đại từ theo DEC-P01-001: \"nó\" trong mệnh đề trần thuật và \"mình\" trong mệnh đề tự quy chiếu."
+  - segment_id: YS-LN05/Text/part0025.html/p000483
+    choices:
+      - "Thoại cảm thán: \"Khốn kiếp, lại nữa à?\""
+  - segment_id: YS-LN05/Text/part0025.html/p000484
+    choices:
+      - "Xưng hô trong thoại: \"Bọn Liên bang này\" (these Federation guys)."
+  - segment_id: YS-LN05/Text/part0025.html/p000485
+    choices:
+      - "Cấp bậc & địa danh: \"Trung úy Grantz\" (Lieutenant Grantz), \"Đại úy Ahrens\" (Captain Ahrens), \"mặt trận phía đông\" (eastern front)."
+  - segment_id: YS-LN05/Text/part0025.html/p000486
+    choices:
+      - "Thuật ngữ: \"các đòn tấn công đường không\" (aerial attacks), \"cuộc đụng độ ban đêm\" (night skirmish), \"đơn vị pháp sư\" (mages), \"đơn vị thiết giáp\" (armored units)."
+  - segment_id: YS-LN05/Text/part0025.html/p000487
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*đánh giáp lá cà*\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000488
+    choices:
+      - "Cấp bậc & xưng hô của Grantz với Ahrens: \"Anh nói chí phải, Đại úy Ahrens.\", tự xưng \"chúng tôi\" khi đại diện cho đơn vị pháp sư trên không."
+      - "Thuật ngữ: \"pháp sư trên không\" (aerial mages)."
+  - segment_id: YS-LN05/Text/part0025.html/p000489
+    choices:
+      - "Cấp bậc & xưng hô của Ahrens với Grantz: \"Trung úy Grantz\", tự xưng \"Chúng tôi\" khi đại diện cho đơn vị thiết giáp."
+      - "Thuật ngữ: \"đơn vị thiết giáp\" (armored unit), \"phản kích quy mô lớn\" (large-scale counterattack), \"yểm trợ phòng ngự\" (defensive support)."
+  - segment_id: YS-LN05/Text/part0025.html/p000490
+    choices:
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\", gọi Đại úy Ahrens là \"anh ta\"."
+      - "Thuật ngữ: \"vị chỉ huy đơn vị thiết giáp\" (leader of the armored unit), \"miền đông\" (the east)."
+  - segment_id: YS-LN05/Text/part0025.html/p000491
+    choices:
+      - "Thuật ngữ: \"Các chỉ huy đơn vị thiết giáp\" (Armored unit commanders), \"yểm trợ phòng ngự\" (defense support), \"tiêu hao\" (attrition), \"lực lượng dự bị\" (reserves), \"cuộc phản kích\" (counterattack)."
