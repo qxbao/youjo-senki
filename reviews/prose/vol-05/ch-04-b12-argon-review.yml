@@ -1,0 +1,303 @@
+task_id: "vol-05-ch-04-b12-argon-review"
+parent_task_id: "vol-05-ch-04-b12"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-04-b12-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000430"
+    issue: "Trong câu thứ hai thuộc lời thoại của Tanya, đại từ ngôi thứ hai dùng nghĩa khái quát được dịch là 'anh' ('nhưng chính vì thế mà anh biết chắc là nó hiệu quả'), hơi lệch thành chỉ đích danh người đối thoại."
+    evidence: "Nguyên bản dùng đại từ ngôi thứ hai mang nghĩa phiếm chỉ/khái quát (tương đương 'người ta' hoặc 'chúng ta') để giải thích tính hiệu quả hiển nhiên của một chiêu thức kinh điển."
+    recommendation: "Đề xuất ở bước chuốt văn đổi 'anh' thành 'người ta' hoặc 'chúng ta' ('nhưng chính vì thế mà người ta biết chắc là nó hiệu quả')."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000464"
+    issue: "Chủ thể của mệnh đề ở p000464 được dịch là 'họ' ('Tình trạng như thế thì làm sao họ có thể thực hiện một cuộc đánh lén được.'), dễ làm người đọc hiểu sang thủy thủ đoàn tàu ngầm nói chung thay vì quy chiếu trực tiếp về các quả thủy lôi (hoặc các tàu ngầm khi dùng loại thủy lôi đó)."
+    evidence: "Ở p000459–p000461 và p000466, nguyên bản dùng đại từ ngôi thứ ba số nhiều để chỉ cả các ngòi nổ/thủy lôi lẫn các tàu ngầm; việc dịch câu suy nghĩ nhận xét ở p000464 với chữ 'chúng' sẽ giữ được sự linh hoạt quy chiếu (vừa khớp với 'chúng' chỉ thủy lôi ở p000459, vừa hợp ngữ cảnh vũ khí phục kích bị lộ vị trí do tự nổ)."
+    recommendation: "Đề xuất ở bước chuốt văn đổi 'họ' thành 'chúng' ('Cứ như thế thì làm sao chúng có thể thực hiện một cuộc đánh lén được.')."
+pending_term_recommendations:
+  - source_term: "Luftwaffe"
+    proposed_vi: "Không quân Đức (Luftwaffe)⁷"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên tên lịch sử kèm giải nghĩa ngắn gọn và chỉ số chú thích ⁷ theo đúng văn cảnh liên tưởng tiền kiếp của Tanya."
+    alternatives_vi:
+      - "Luftwaffe⁷"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000427"
+  - source_term: "Communists"
+    proposed_vi: "những người Cộng sản"
+    category: "tổ chức chính trị"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000428"
+  - source_term: "Red Square International Airport Incident"
+    proposed_vi: "Sự kiện Sân bay Quốc tế Quảng trường Đỏ"
+    category: "sự kiện lịch sử"
+    status: "pending"
+    rationale: "Dịch chuẩn xác tên sự kiện lịch sử thế giới thực được Tanya viện dẫn trong nội tâm."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000429"
+  - source_term: "Moskva"
+    proposed_vi: "Moskva"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000429"
+  - source_term: "Inchon"
+    proposed_vi: "Inchon"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên tên địa danh lịch sử trong liên tưởng của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000429"
+  - source_term: "Captain von Schraft"
+    proposed_vi: "Thuyền trưởng von Schraft"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Kế thừa phương án đã khóa từ lô ch-04-b11 cho chức danh chỉ huy tàu ngầm U-152."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000433"
+      - "YS-LN05/Text/part0022.html/p000450"
+      - "YS-LN05/Text/part0022.html/p000462"
+  - source_term: "wolf-pack attack"
+    proposed_vi: "tấn công theo chiến thuật bầy sói"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ tác chiến tàu ngầm chuẩn xác và thông dụng trong tiếng Việt."
+    alternatives_vi:
+      - "đòn tấn công bầy sói"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000436"
+  - source_term: "U-152"
+    proposed_vi: "chiếc U-152 / tàu U-152"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000438"
+      - "YS-LN05/Text/part0022.html/p000466"
+  - source_term: "commerce raid operation"
+    proposed_vi: "chiến dịch tập kích tuyến thương mại"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với cụm 'tập kích tuyến thương mại' (commerce raiding) trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000441"
+  - source_term: "Northern Sea"
+    proposed_vi: "Biển Bắc"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000448"
+      - "YS-LN05/Text/part0022.html/p000451"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000448"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "thưa Trung tá"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5 khi gọi tắt quân hàm Trung tá của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000449"
+  - source_term: "mine warfare"
+    proposed_vi: "tác chiến thủy lôi"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ hải quân chuẩn xác, nhất quán giữa p000450 và p000451."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000450"
+      - "YS-LN05/Text/part0022.html/p000451"
+  - source_term: "magnetic mines / magnetic signature(s)"
+    proposed_vi: "thủy lôi từ tính / dấu hiệu từ tính"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ kỹ thuật quân sự chuẩn xác, nhất quán với cách dịch 'signatures' là 'dấu hiệu' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "thủy lôi từ tính / đặc trưng từ tính"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000452"
+      - "YS-LN05/Text/part0022.html/p000466"
+      - "YS-LN05/Text/part0022.html/p000467"
+  - source_term: "Entente Alliance"
+    proposed_vi: "Liên minh Hiệp ước"
+    category: "tổ chức chính trị"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000457"
+  - source_term: "Commonwealth Intelligence"
+    proposed_vi: "Tình báo Khối Thịnh vượng chung"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với 'Khối Thịnh vượng chung' và 'ngành Tình báo' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000466"
+  - source_term: "underwater explosives development department"
+    proposed_vi: "bộ phận phát triển chất nổ dưới nước"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Dịch sát nghĩa mô tả tên bộ phận kỹ thuật viết thường trong lời thoại."
+    alternatives_vi:
+      - "bộ phận phát triển vũ khí nổ dưới nước"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000466"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0022.html/p000427"
+    choices:
+      - "Tổ chức, địa danh và chú thích: 'Không quân Đức (Luftwaffe)⁷', 'các đơn vị máy bay ném bom của Anh', 'màn chắn phòng không của Đức Quốc xã', 'Berlin'"
+      - "Thuật ngữ tác chiến: 'ném bom quấy rối'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000428"
+    choices:
+      - "Đại từ nội tâm tự quy chiếu của Tanya theo DEC-P01-001: 'mình'; tổ chức: 'những người Cộng sản'; giữ cấu trúc phủ định kép 'chẳng ngại công nhận'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000429"
+    choices:
+      - "Sự kiện và địa danh: 'Sự kiện Sân bay Quốc tế Quảng trường Đỏ', 'Moskva', 'Inchon'"
+      - "Thuật ngữ: 'sai lầm mang tính cấu trúc', 'đầu mối giao thông chiến lược'; đại từ: 'Chúng ta' (quân Đế quốc), 'Họ' / 'họ' (phía Cộng sản)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000430"
+    choices:
+      - "Xưng hô của Tanya trong thoại: 'Chúng ta', 'tôi'; giữ phủ định 'tôi không có ý xem nhẹ các phương pháp bài bản, chính thống đâu'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000431"
+    choices:
+      - "Xưng hô của von Schraft với Tanya: 'Tôi' – 'cô'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*nếu điều đó khả thi*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000432"
+    choices:
+      - "Đại từ chỉ von Schraft: 'anh ta'; xưng hô trong thoại của Tanya: 'Tôi' – 'anh'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000433"
+    choices:
+      - "Chức danh và đại từ trần thuật: 'Thuyền trưởng von Schraft', 'anh ta', chỉ Tanya là 'nó' theo DEC-P01-001"
+  - segment_id: "YS-LN05/Text/part0022.html/p000434"
+    choices:
+      - "Đơn vị đo và thuật ngữ: 'Ba mươi hải lý một giờ', 'tác chiến hải quân', 'các đơn vị tàu ngầm', 'bên hải quân'; giữ câu hỏi phủ định ở cuối đoạn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000435"
+    choices:
+      - "Xưng hô trong thoại của Tanya với phía tàu ngầm: 'các anh'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000436"
+    choices:
+      - "Đại từ trong thoại của von Schraft: 'chúng tôi'; thuật ngữ: 'phục kích', 'tấn công theo chiến thuật bầy sói', 'chiến dịch rải thủy lôi', 'bãi lôi', 'hải trình dự kiến'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000437"
+    choices:
+      - "Giữ phủ định đánh giá trong thoại của Tanya: 'chẳng có phương pháp nào trong số đó là tệ cả'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000438"
+    choices:
+      - "Thuật ngữ và tên gọi: 'phương pháp chính thống', 'Các tàu ngầm Đế quốc', 'chiếc U-152'; giữ tình thái 'đáng lý phải thực hiện được'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000439"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*nếu chúng khả thi*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000440"
+    choices:
+      - "Giữ câu hỏi lặp lại giả định không in nghiêng: '“Nếu chúng khả thi ư?”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000441"
+    choices:
+      - "Đại từ nội tâm/trần thuật: 'chúng ta'; thuật ngữ: 'chiến dịch tập kích tuyến thương mại'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000442"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000443"
+    choices:
+      - "Giữ câu hỏi tu từ phủ định: 'Chẳng phải tàu ngầm vốn được thiết kế chuyên biệt để làm những việc đó hay sao?'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000444"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'anh' – 'tôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000445"
+    choices:
+      - "Thuật ngữ: 'màn chắn thủy lôi'; giữ chi tiết 'khi một đơn vị suýt bị đánh chìm lên tiếng phản đối kịch liệt'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000446"
+    choices:
+      - "Giữ câu hỏi ngạc nhiên: '“Rốt cuộc đã xảy ra chuyện gì vậy?”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000447"
+    choices:
+      - "Giữ sự đối lập số lượng trong nội tâm: 'Một chiếc thì còn hiểu được, đằng này cả đơn vị đều suýt chìm ư?'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000448"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc câu thứ hai '*Không… lẽ ra họ không thể có đủ binh lực để lập một bãi thủy lôi có khả năng chặn đứng toàn bộ tàu ngầm đi lại trên Biển Bắc được.*'"
+      - "Đại từ trần thuật chỉ Tanya: 'nó', tự xưng trong thoại: 'tôi'; địa danh và thuật ngữ: 'Biển Bắc', 'Liên bang', 'bãi thủy lôi', 'tác chiến bằng thủy lôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000449"
+    choices:
+      - "Hô ngữ quân hàm của von Schraft với Tanya: 'thưa Trung tá'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000450"
+    choices:
+      - "Chức danh và đại từ trần thuật: 'Thuyền trưởng von Schraft', 'anh ta', chỉ Tanya là 'nó'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc câu cuối '*Vậy thì, vấn đề của việc tiến hành tác chiến thủy lôi nằm ở đâu?*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000451"
+    choices:
+      - "Xưng hô trong thoại của von Schraft: 'tôi', 'chúng ta'; thuật ngữ và địa danh: 'tác chiến thủy lôi', 'Biển Bắc'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000452"
+    choices:
+      - "Xưng hô trong thoại của von Schraft: 'Cô', 'Chúng ta'; thuật ngữ: 'người lính tàu ngầm', 'Cảm biến của loại thủy lôi từ tính mới', 'khiếm khuyết chí mạng', 'ngòi nổ rác rưởi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000453"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'anh', quy chiếu thủy lôi là 'chúng'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000454"
+    choices:
+      - "Đại từ và danh xưng chỉ von Schraft: 'anh ta', 'vị thuyền trưởng tàu ngầm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000455"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc câu đầu '*Đã xảy ra chuyện gì vậy?*'"
+      - "Đại từ trần thuật chỉ Tanya: 'Nó'; giữ logic so sánh trong thoại giữa 'phát nổ / nổ sớm' và 'tịt ngòi / hỏng hoàn toàn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000456"
+    choices:
+      - "Giữ điều kiện phủ định và điệp từ nhấn mạnh trong thoại của von Schraft: 'nếu như chúng không phát nổ vào những lúc thực sự, thực sự không được phép nổ'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000457"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*…Hừm.*' ở đầu đoạn"
+      - "Đại từ trần thuật chỉ Tanya: 'Nó' / 'nó' kết hợp tự quy chiếu 'mình'; tổ chức và thuật ngữ: 'hạm đội của Liên minh Hiệp ước', 'ngư lôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000458"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'anh', quy chiếu thủy lôi là 'chúng'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000459"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Nein, nein, nein!*' ở đầu câu thoại"
+      - "Thuật ngữ: 'ngòi nổ', 'tàu ngầm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000460"
+    choices:
+      - "Giữ câu hỏi sững sờ ngắn gọn: '“Hả? Với tàu ngầm ư…?”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000461"
+    choices:
+      - "Đại từ trong thoại của von Schraft: 'Họ' (đơn vị tàu ngầm rải lôi), 'chúng tôi' (lực lượng tàu ngầm); giữ tình thái hối tiếc quá khứ 'Lẽ ra ngay từ đầu chúng tôi không bao giờ nên thử tác chiến bằng thủy lôi mới phải.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000462"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya: 'nó'; chức danh: 'Thuyền trưởng von Schraft'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000463"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya: 'Nó'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000464"
+    choices:
+      - "Thuật ngữ: 'cuộc đánh lén' (cân nhắc đổi chủ ngữ 'họ' thành 'chúng' theo finding)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000465"
+    choices:
+      - "Giữ nguyên dấu câu và thán từ: '“…Hả?!”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000466"
+    choices:
+      - "Xưng hô trong thoại của von Schraft: 'tôi', 'chúng ta'; tên gọi, thuật ngữ và tổ chức: 'dấu hiệu từ tính của tàu U-152', 'Tình báo Khối Thịnh vượng chung', 'bộ phận phát triển chất nổ dưới nước'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000467"
+    choices:
+      - "Thuật ngữ kỹ thuật: 'Thủy lôi từ tính', 'dấu hiệu từ tính', 'tàu ngầm'"
