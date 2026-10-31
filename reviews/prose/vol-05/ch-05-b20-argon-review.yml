@@ -1,0 +1,332 @@
+task_id: "vol-05-ch-05-b20-argon-review"
+parent_task_id: "vol-05-ch-05-b20"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 5
+source_package: "work/vol-05/batches/ch-05-b20-source.jsonl"
+target_translation: "translations/vol-05/ch-05-b20.jsonl"
+review_path: "reviews/prose/vol-05/ch-05-b20-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0025.html/p000837"
+    issue: "Câu hỏi xác nhận ý chỉ huy của Grantz mang cấu trúc câu trần thuật lên giọng để hỏi xác nhận kết luận ('Vậy là tôi sẽ tham gia... phải không ạ?'), nhưng bản dịch dùng 'Vậy tôi có nên tham gia cuộc phản kích không ạ?' nghe như câu hỏi xin lời khuyên mở, làm câu đáp 'Ừ, đúng thế.' ngay ở p000838 hơi kém khớp."
+    recommendation: "Đổi 'Vậy tôi có nên tham gia cuộc phản kích không ạ?' thành 'Vậy là tôi sẽ tham gia cuộc phản kích phải không ạ?' (hoặc 'Vậy tôi sẽ tham gia cuộc phản kích chứ ạ?') để khớp sắc thái xác nhận mệnh lệnh và nối mượt với câu đáp 'Ừ, đúng thế.' ở p000838."
+pending_term_recommendations:
+  - source_term: "HQ"
+    proposed_vi: "sở chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000804"
+    rationale: "Khớp với phương án tạm đã khóa trong sổ pending của vol-05 cho sở chỉ huy Kampfgruppe."
+    alternatives_vi:
+      - "ban chỉ huy"
+  - source_term: "Colonel"
+    proposed_vi: "Trung tá / thưa Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000805"
+      - "YS-LN05/Text/part0025.html/p000807"
+      - "YS-LN05/Text/part0025.html/p000809"
+      - "YS-LN05/Text/part0025.html/p000814"
+      - "YS-LN05/Text/part0025.html/p000831"
+    rationale: "Cách gọi tắt trong hội thoại dành cho Trung tá Tanya von Degurechaff; khớp với hồ sơ pending đã dùng xuyên suốt vol-05."
+    alternatives_vi:
+      - "Đại tá"
+  - source_term: "Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000806"
+      - "YS-LN05/Text/part0025.html/p000820"
+    rationale: "Serebryakov mang quân hàm First Lieutenant (Trung úy) trong vol-05; giữ thống nhất 'Trung úy Serebryakov'."
+    alternatives_vi: []
+  - source_term: "Rhine front"
+    proposed_vi: "mặt trận Rhine"
+    category: "địa danh / thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000808"
+    rationale: "Khớp với phương án tạm đã khóa từ các tập trước và trong vol-05."
+    alternatives_vi:
+      - "chiến tuyến Rhine"
+  - source_term: "Lieutenant Grantz / Grantz"
+    proposed_vi: "Trung úy Grantz / Grantz"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000815"
+      - "YS-LN05/Text/part0025.html/p000816"
+      - "YS-LN05/Text/part0025.html/p000821"
+      - "YS-LN05/Text/part0025.html/p000822"
+      - "YS-LN05/Text/part0025.html/p000826"
+      - "YS-LN05/Text/part0025.html/p000828"
+      - "YS-LN05/Text/part0025.html/p000829"
+      - "YS-LN05/Text/part0025.html/p000846"
+    rationale: "Grantz mang quân hàm First Lieutenant (Trung úy) trong vol-05; giữ thống nhất 'Trung úy Grantz' và tên riêng 'Grantz'."
+    alternatives_vi: []
+  - source_term: "pursuit battle"
+    proposed_vi: "trận truy kích"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000817"
+    rationale: "Khớp với phương án tạm đã khóa ở lô ch-05-b19 cho giai đoạn chuyển sang truy kích quân địch."
+    alternatives_vi:
+      - "tác chiến truy kích"
+  - source_term: "Captain Ahrens"
+    proposed_vi: "Đại úy Ahrens"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000818"
+    rationale: "Giữ thống nhất cấp bậc Đại úy của chỉ huy thiết giáp Ahrens theo sổ pending vol-05."
+    alternatives_vi: []
+  - source_term: "Captain Meybert"
+    proposed_vi: "Đại úy Meybert"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000819"
+      - "YS-LN05/Text/part0025.html/p000844"
+    rationale: "Giữ thống nhất cấp bậc Đại úy của chỉ huy pháo binh Meybert theo sổ pending vol-05."
+    alternatives_vi: []
+  - source_term: "Captain Thon"
+    proposed_vi: "Đại úy Thon"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000824"
+      - "YS-LN05/Text/part0025.html/p000838"
+      - "YS-LN05/Text/part0025.html/p000842"
+    rationale: "Giữ thống nhất cấp bậc Đại úy của Thon theo sổ pending vol-05."
+    alternatives_vi: []
+  - source_term: "perimeter"
+    proposed_vi: "vành đai phòng ngự"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000829"
+    rationale: "Khớp với mục 'defensive perimeter / perimeter -> vành đai phòng ngự' trong sổ pending vol-05."
+    alternatives_vi:
+      - "tuyến vành đai"
+  - source_term: "Lieutenant Tospan"
+    proposed_vi: "Trung úy Tospan"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000832"
+      - "YS-LN05/Text/part0025.html/p000838"
+      - "YS-LN05/Text/part0025.html/p000842"
+    rationale: "Tospan mang quân hàm First Lieutenant (Trung úy) trong vol-05; giữ thống nhất 'Trung úy Tospan'."
+    alternatives_vi: []
+  - source_term: "Communists / Communism"
+    proposed_vi: "những người Cộng sản / Chủ nghĩa Cộng sản"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000835"
+    rationale: "Khớp với phương án tạm đã khóa xuyên suốt vol-04 và vol-05."
+    alternatives_vi: []
+  - source_term: "ma’am"
+    proposed_vi: "thưa Trung tá"
+    category: "xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000837"
+    rationale: "Cách đáp lễ điều lệnh của cấp dưới đối với Tanya theo cấp bậc Trung tá hiện tại."
+    alternatives_vi:
+      - "thưa chỉ huy"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000842"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức chỉ cụm tác chiến theo quy ước xuyên suốt."
+    alternatives_vi:
+      - "cụm tác chiến"
+  - source_term: "Weiss"
+    proposed_vi: "Weiss"
+    category: "nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000848"
+    rationale: "Giữ nguyên họ nhân vật Weiss theo sổ pending."
+    alternatives_vi: []
+  - source_term: "Dacia"
+    proposed_vi: "Dacia"
+    category: "địa danh / quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN05/Text/part0025.html/p000848"
+    rationale: "Giữ nguyên tên quốc gia Dacia theo sổ pending."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0025.html/p000803"
+    choices:
+      - "Trần thuật về Tanya dùng đại từ 'nó' theo DEC-P01-001; giữ giọng lẩm bẩm tự trách ngắn gọn"
+  - segment_id: "YS-LN05/Text/part0025.html/p000804"
+    choices:
+      - "Trần thuật về Tanya dùng 'nó' theo DEC-P01-001; HQ -> sở chỉ huy"
+  - segment_id: "YS-LN05/Text/part0025.html/p000805"
+    choices:
+      - "Colonel? -> Thưa Trung tá?"
+  - segment_id: "YS-LN05/Text/part0025.html/p000806"
+    choices:
+      - "Tanya nói với các sĩ quan tại sở chỉ huy tự xưng 'tôi' (và 'mình' phản thân), gọi Lieutenant Serebryakov là 'Trung úy Serebryakov' và 'cô ấy'"
+      - "Trần thuật nêu tên 'Tanya', giữ phủ định 'chẳng thể xin thêm tách nào nữa cho tới khi trận đánh kết thúc'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000807"
+    choices:
+      - "Nhân sự sở chỉ huy gọi Tanya là 'Trung tá' và 'thưa Trung tá', gọi Serebryakov là 'cô ấy'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000808"
+    choices:
+      - "Tanya dùng 'chúng tôi' khi nói về mình và Serebryakov; Rhine front -> mặt trận Rhine"
+  - segment_id: "YS-LN05/Text/part0025.html/p000809"
+    choices:
+      - "Giữ cấu trúc giả định trái thực tế 'Nếu Trung tá mà là..., thì câu đó nghe chẳng khác nào...'; Colonel -> thưa Trung tá"
+  - segment_id: "YS-LN05/Text/part0025.html/p000810"
+    choices:
+      - "Tanya tự xưng 'Tôi' trong thoại; free class of singles -> tầng lớp độc thân tự do"
+  - segment_id: "YS-LN05/Text/part0025.html/p000811"
+    choices:
+      - "social contract -> khế ước xã hội; mentally homosexual or physically homosexual -> đồng tính về mặt tinh thần hay đồng tính về mặt thể xác"
+  - segment_id: "YS-LN05/Text/part0025.html/p000812"
+    choices:
+      - "Trần thuật nêu tên 'Tanya', giữ điển cố triết học 'im lặng bỏ qua những điều không sao lý giải nổi'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000813"
+    choices:
+      - "Trần thuật về Tanya dùng 'nó' theo DEC-P01-001; wry smile -> nụ cười gượng gạo"
+  - segment_id: "YS-LN05/Text/part0025.html/p000814"
+    choices:
+      - "Colonel -> thưa Trung tá; giữ phủ định 'Chẳng còn ai căng thẳng nữa rồi'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000815"
+    choices:
+      - "Lieutenant Grantz -> Trung úy Grantz; Tanya gọi Grantz là 'anh'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000816"
+    choices:
+      - "Trần thuật gọi Grantz là 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000817"
+    choices:
+      - "Grantz tự xưng 'Tôi', gọi Tanya là 'Trung tá' kèm 'ạ'; pursuit battle -> trận truy kích"
+  - segment_id: "YS-LN05/Text/part0025.html/p000818"
+    choices:
+      - "Captain Ahrens’s armored unit -> đơn vị thiết giáp của Đại úy Ahrens; gọi phía bộ binh của Grantz là 'các anh'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000819"
+    choices:
+      - "Grantz tự xưng 'Tôi'; Captain Meybert’s barrage -> màn pháo kích của Đại úy Meybert"
+  - segment_id: "YS-LN05/Text/part0025.html/p000820"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov; Tanya tự xưng 'tôi', gọi Meybert là 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000821"
+    choices:
+      - "Lieutenant Grantz -> Trung úy Grantz; infantry commander -> chỉ huy bộ binh; gọi Grantz là 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000822"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001; gọi Grantz là 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000823"
+    choices:
+      - "Trần thuật về Tanya dùng 'nó' và 'Tanya' theo DEC-P01-001; giữ phủ định 'vẫn chưa hề có bất kỳ báo cáo tiếp theo nào'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000824"
+    choices:
+      - "Tanya tự xưng 'tôi'; Captain Thon -> Đại úy Thon; gọi Thon bằng đại từ 'hắn' thể hiện thái độ bực dọc"
+  - segment_id: "YS-LN05/Text/part0025.html/p000825"
+    choices:
+      - "Grantz đáp lễ có 'ạ' cuối câu"
+  - segment_id: "YS-LN05/Text/part0025.html/p000826"
+    choices:
+      - "Lieutenant Grantz -> Trung úy Grantz; Tanya gọi Grantz là 'anh'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000827"
+    choices:
+      - "Grantz bật thốt ngơ ngác 'Dạ?'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000828"
+    choices:
+      - "Trần thuật về Tanya dùng 'nó' và 'Tanya' theo DEC-P01-001; gọi Grantz là 'anh ta'"
+      - "Bảo toàn nhấn mạnh Markdown *Nào, thôi đi chứ.* đúng phạm vi nguồn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0025.html/p000829"
+    choices:
+      - "perimeter -> vành đai phòng ngự; gọi Grantz là 'Anh ta'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000830"
+    choices:
+      - "Tanya tự xưng 'tôi', gọi Thon là 'hắn'; giữ câu hỏi phủ định 'chẳng lẽ không một ai nhìn thấy hắn sao?'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000831"
+    choices:
+      - "Grantz tự xưng 'tôi', gọi Tanya là 'Trung tá' / 'thưa Trung tá', gọi Thon là 'anh ta'"
+      - "Giữ rõ phân biệt hai vế phủ định: chưa nhận được liên lạc từ anh ta và chưa nghe thấy tin tức gì về anh ta"
+  - segment_id: "YS-LN05/Text/part0025.html/p000832"
+    choices:
+      - "Lieutenant Tospan -> Trung úy Tospan; Tanya tự xưng 'Tôi', gọi Thon là 'hắn'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000833"
+    choices:
+      - "Grantz tự xưng 'tôi'; search party -> đội tìm kiếm"
+  - segment_id: "YS-LN05/Text/part0025.html/p000834"
+    choices:
+      - "Trần thuật về Tanya dùng 'Tanya' và 'nó' theo DEC-P01-001; đại từ phản thân dùng 'mình'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000835"
+    choices:
+      - "Communists -> những người Cộng sản; Communism -> Chủ nghĩa Cộng sản; giữ đúng tình thái 'chắc chắn sẽ' và 'Có lẽ ... sẽ'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000836"
+    choices:
+      - "Tanya tự xưng 'tôi', gọi Grantz là 'anh', gọi quân địch là 'chúng'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000837"
+    choices:
+      - "Yes, ma’am -> Rõ, thưa Trung tá; Grantz tự xưng 'tôi', dùng câu hỏi xác nhận mệnh lệnh tham gia cuộc phản kích"
+  - segment_id: "YS-LN05/Text/part0025.html/p000838"
+    choices:
+      - "Tanya tự xưng 'Tôi', gọi Grantz là 'anh'; Lieutenant Tospan -> Trung úy Tospan; Captain Thon -> Đại úy Thon"
+  - segment_id: "YS-LN05/Text/part0025.html/p000839"
+    choices:
+      - "Grantz tự xưng 'Tôi', gọi Thon là 'anh ta'; giữ phủ định 'không nghĩ anh ta là hạng người bỏ bê nhiệm vụ'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000840"
+    choices:
+      - "Tanya dùng đại từ 'chúng ta' chỉ đơn vị"
+  - segment_id: "YS-LN05/Text/part0025.html/p000841"
+    choices:
+      - "Nội tâm Tanya tự xưng 'mình' theo DEC-P01-001, gọi Thon là 'hắn'; execute him by firing squad -> xử bắn"
+  - segment_id: "YS-LN05/Text/part0025.html/p000842"
+    choices:
+      - "Nội tâm Tanya tự xưng 'mình' theo DEC-P01-001; Kampfgruppe giữ nguyên; Lieutenant Tospan -> Trung úy Tospan; Captain Thon -> Đại úy Thon"
+  - segment_id: "YS-LN05/Text/part0025.html/p000843"
+    choices:
+      - "Grantz gọi Tanya là 'Trung tá' kèm 'ạ'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000844"
+    choices:
+      - "Captain Meybert -> Đại úy Meybert; our -> của chúng ta"
+  - segment_id: "YS-LN05/Text/part0025.html/p000845"
+    choices:
+      - "Grantz tự xưng 'tôi' kèm 'ạ'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000846"
+    choices:
+      - "Trần thuật nêu tên 'Grantz', 'Tanya', gọi Grantz là 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000847"
+    choices:
+      - "Giữ mức độ tình thái 'chỉ là một khả năng mà thôi'"
+  - segment_id: "YS-LN05/Text/part0025.html/p000848"
+    choices:
+      - "Giữ nguyên tên 'Tanya', 'Weiss', 'Dacia' và dấu ngoặc kép cho cụm “hỏa lực phòng không”"
