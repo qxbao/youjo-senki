@@ -1,0 +1,264 @@
+task_id: "vol-05-ch-03-b11-argon-review"
+parent_task_id: "vol-05-ch-03-b11"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-03-b11-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0020.html/p000023"
+    issue: "Cụm danh từ chỉ lực lượng mặt đất được dịch hẹp thành 'bộ binh mặt đất', vừa thu hẹp phạm vi binh chủng vừa hơi trùng nghĩa ('bộ binh' vốn đã là lực lượng tác chiến trên bộ)."
+    evidence: "Thuật ngữ nguyên bản chỉ chung các lực lượng mặt đất được không quân chiến thuật yểm trợ (bao gồm bộ binh, thiết giáp, pháo binh...), đối lập với tác chiến trên không và trên biển."
+    recommendation: "Có thể chỉnh nhẹ thành 'quân mặt đất' hoặc 'lực lượng mặt đất' ở bước chuốt văn để chuẩn xác hơn về thuật ngữ quân sự."
+pending_term_recommendations:
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ nhất quán theo sổ pending Tập 5 khi chỉ quân chủng lục quân của Đế quốc."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000009"
+  - source_term: "commerce raiding operations"
+    proposed_vi: "các hoạt động tập kích tuyến thương mại"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'tập kích tuyến thương mại' đã dùng cho 'commerce raids / commerce raiding' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "các chiến dịch phá hoại tuyến hàng hải thương mại"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000009"
+  - source_term: "RMS Queen of Anjou"
+    proposed_vi: "RMS *Queen of Anjou*"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên tiền tố tàu bưu chính Hoàng gia RMS và in nghiêng tên riêng con tàu đúng theo sổ pending Tập 5 và định dạng nhấn mạnh của nguồn."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000009"
+      - "YS-LN05/Text/part0020.html/p000010"
+  - source_term: "explosion formulas"
+    proposed_vi: "thuật thức phát nổ"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 2, Tập 4 và Tập 5."
+    alternatives_vi:
+      - "thuật thức nổ"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000013"
+  - source_term: "joint intelligence agency"
+    proposed_vi: "cơ quan tình báo liên hợp"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi:
+      - "cục tình báo liên hợp"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000015"
+  - source_term: "Operations"
+    proposed_vi: "Cục Tác chiến"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ nhất quán theo sổ pending Tập 1, Tập 4 và Tập 5 khi chỉ cơ quan tác chiến thuộc Bộ Tổng tham mưu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000015"
+  - source_term: "paradigm"
+    proposed_vi: "mô thức tư duy"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã khóa trong sổ pending Tập 5 cho ngữ cảnh nhận thức và học thuyết quân sự."
+    alternatives_vi:
+      - "mô thức"
+      - "hệ hình"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000016"
+  - source_term: "Blue Riband"
+    proposed_vi: "giải Dải Băng Xanh"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Dịch nghĩa sát danh hiệu lịch sử dành cho tàu chở khách vượt Đại Tây Dương có tốc độ kỷ lục, giúp người đọc nắm bắt ngay ngữ cảnh so sánh tốc độ hàng hải."
+    alternatives_vi:
+      - "danh hiệu Dải Băng Xanh"
+      - "Blue Riband"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000017"
+  - source_term: "tactical air force / maritime aerial power"
+    proposed_vi: "lực lượng không quân chiến thuật / sức mạnh không quân hàng hải"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác sự đối lập về học thuyết và phạm vi nhiệm vụ giữa không quân lục địa hỗ trợ mặt đất và không quân tác chiến trên biển."
+    alternatives_vi:
+      - "không quân chiến thuật / năng lực không quân trên biển"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000023"
+  - source_term: "horizontal bombing"
+    proposed_vi: "ném bom bay bằng"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thuật ngữ kỹ thuật không quân chính xác để chỉ phương thức cắt bom ở độ cao ổn định theo đường bay ngang (đối lập với ném bom bổ nhào)."
+    alternatives_vi:
+      - "ném bom ngang"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000024"
+  - source_term: "aerial mages"
+    proposed_vi: "pháp sư trên không"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp nhất quán với sổ pending Tập 1–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000024"
+      - "YS-LN05/Text/part0020.html/p000031"
+  - source_term: "Intelligence"
+    proposed_vi: "bên Tình báo"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 1 và Tập 5 cho cách gọi bộ phận tình báo trong lời thoại."
+    alternatives_vi:
+      - "ngành Tình báo"
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000037"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán quân hàm mới của Weiss trong Tập 5 theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000039"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0020.html/p000001"
+    choices:
+      - "Xưng hô trong thoại: tự xưng 'tôi'; giữ quan hệ nguyên nhân – hệ quả ('Đó là trong khi đang chở lượng hàng của một chiếc tàu vận tải thông thường đấy, nên tôi thật sự hết sức kinh ngạc')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000002"
+    choices:
+      - "Giữ nguyên giả định trái thực tế và sự đối lập với thực tại ('Nếu nó đơn thuần chỉ là một chiếc tàu vận tải cao tốc thì vẫn còn dễ đối phó... Vấn đề là nó lại quá khổng lồ')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000003"
+    choices:
+      - "Giữ mốc thời gian quá khứ trước chiến tranh ('Nó vốn được đóng trước chiến tranh làm tàu chở khách…') và thuật ngữ 'vùng biển khơi'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000004"
+    choices:
+      - "Đại từ khái quát ngôi thứ hai: 'bạn'; giữ phép loại trừ ('phương thức di chuyển nhanh nhất ngoài máy bay')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000005"
+    choices:
+      - "Đại từ độc thoại nội tâm của Tanya theo DEC-P01-001: 'mình'; đại từ khái quát: 'bạn'"
+      - "Thuật ngữ: 'sư đoàn', 'ba mươi hải lý một giờ'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000006"
+    choices:
+      - "Thuật ngữ: 'căn cứ hậu cần hàng hải di động'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc '*cung điện*' đúng phạm vi thẻ em trong nguồn (liên kết với p000362 của lô trước)"
+  - segment_id: "YS-LN05/Text/part0020.html/p000007"
+    choices:
+      - "Hô lệnh cho đơn vị: 'toàn tiểu đoàn'; đại từ ngôi thứ nhất số nhiều: 'chúng ta'; giữ phủ định 'không thể cứ để yên cho thứ đó được'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000008"
+    choices:
+      - "Giữ câu đáp lời phủ định dứt khoát của cấp dưới: 'Chắc chắn là không thể rồi!'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000009"
+    choices:
+      - "Thuật ngữ và tên riêng: 'Lục quân Đế quốc', 'cơn ác mộng chiến lược', 'các hoạt động tập kích tuyến thương mại', 'RMS *Queen of Anjou*'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc '*Queen of Anjou*' đúng theo thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0020.html/p000010"
+    choices:
+      - "Đại từ tập thể trong nội tâm của Tanya: 'chúng ta'; giữ câu hỏi tu từ ('thì chúng ta còn biết đặt mặt mũi vào đâu?') và tình thái bắt buộc ('buộc phải đánh chìm')"
+      - "Thuật ngữ và nhấn mạnh theo DEC-P01-002: 'nhiệm vụ phong tỏa', 'các đơn vị tàu ngầm', 'RMS *Queen of Anjou*'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000011"
+    choices:
+      - "Đại từ trong thoại chỉ huy: 'chúng ta'; mệnh lệnh: 'Toàn tiểu đoàn, chuẩn bị tấn công.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000012"
+    choices:
+      - "Đáp lệnh và truyền lệnh quân sự: 'Rõ! Toàn tiểu đoàn, chuẩn bị tấn công!'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000013"
+    choices:
+      - "Giữ nguyên chi tiết lỡ lời rồi tự sửa trong thoại ('chiếc chiến hạm… à không, chiếc tàu của địch')"
+      - "Thuật ngữ: 'thuật thức phát nổ', 'động cơ', 'bánh lái'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000014"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+      - "Giữ lối nhân hóa con tàu theo tên gọi ('chặn bước Nữ hoàng khi bà ta đang ung dung băng qua đại dương mênh mông')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000015"
+    choices:
+      - "Đại từ nội tâm của Tanya theo DEC-P01-001: 'Mình / mình', 'bọn mình' (đơn vị), 'chúng ta' (phe Đế quốc)"
+      - "Thuật ngữ cơ quan: 'cơ quan tình báo liên hợp', 'Cục Tác chiến'; giữ giả định nhượng bộ ('Ngay cả khi phục kích được đi nữa, cũng sẽ rất khó để bắt giữ được nó...')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000016"
+    choices:
+      - "Đại từ trong thoại: 'chúng ta'; thuật ngữ: 'mô thức tư duy và công nghệ hiện có'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000017"
+    choices:
+      - "Đại từ nội tâm của Tanya theo DEC-P01-001: 'Mình' kết hợp phản thân 'bản thân'"
+      - "Thuật ngữ: 'giải Dải Băng Xanh'; giữ phủ định tuyệt đối ('không đời nào một chiếc tàu ngầm có thể đuổi kịp...')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000018"
+    choices:
+      - "Giữ cấu trúc phủ định giảm nhẹ: 'Cũng không phải là tàu ngầm của Đế quốc kém chất lượng.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000019"
+    choices:
+      - "Giữ đúng thông số tốc độ tương đối ('tầm ngoài hai mươi hải lý một giờ') và phủ định ('hoàn toàn không thể cạnh tranh nổi', 'chưa bao giờ ngờ rằng')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000020"
+    choices:
+      - "Thuật ngữ: 'các tàu ngầm của Đế quốc', 'không quân mà Đế quốc hằng tự hào'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000021"
+    choices:
+      - "Giữ câu chuyển đoạn ngắn: 'Nhưng đáng buồn thay…'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000022"
+    choices:
+      - "Thuật ngữ: 'tấn công chống hạm'; giữ mức độ 'bị hạn chế nghiêm trọng'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000023"
+    choices:
+      - "Thuật ngữ: 'lực lượng không quân chiến thuật', 'sức mạnh không quân hàng hải'; giữ nguyên câu hỏi mở ở cuối đoạn"
+  - segment_id: "YS-LN05/Text/part0020.html/p000024"
+    choices:
+      - "Thuật ngữ: 'ném bom bay bằng', 'pháp sư trên không—lực lượng không quân còn lại'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000025"
+    choices:
+      - "Đại từ: 'chúng ta'; giữ cấu trúc đảo nhấn mạnh phạm vi khả năng"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu '*Nếu chỉ là đánh trúng con tàu thì chúng ta làm được.*' đúng theo thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0020.html/p000026"
+    choices:
+      - "Đại từ nội tâm của Tanya theo DEC-P01-001: 'Mình'; thuật ngữ: 'tàu phóng lôi'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000027"
+    choices:
+      - "Xưng hô trong thoại: 'Tôi / tôi'; giữ tình thái dè dặt ('sẽ khá là gay go đấy…')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000028"
+    choices:
+      - "Giữ tình thái phỏng đoán ('Nội riêng phần động cơ thôi có lẽ cũng đã được chế tạo vô cùng kiên cố rồi.')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000029"
+    choices:
+      - "Đại từ trong thoại: 'chúng ta' kết hợp phản thân 'mình'; giữ phủ định ('không thể phớt lờ câu hỏi liệu hỏa lực của mình có xuyên thủng được nó hay không')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000030"
+    choices:
+      - "Điểm nhìn trần thuật ngôi thứ ba: 'Tanya'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000031"
+    choices:
+      - "Đại từ nội tâm tập thể của Tanya: 'bọn mình'; thuật ngữ: 'pháp sư trên không', 'các vụ nổ thứ cấp'; giữ phủ định 'chẳng có hỏa lực vô hạn'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000032"
+    choices:
+      - "Đại từ trong thoại: 'chúng ta'; thuật ngữ hàng hải: 'hai bên mạn tàu', 'bị tràn nước', 'chân vịt'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000033"
+    choices:
+      - "Đại từ nội tâm tập thể ('bọn mình') chuyển sang trần thuật ngôi thứ ba ('Tanya'); thuật ngữ: 'sức đẩy', 'phần đuôi tàu'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc '*Nhưng mà.*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0020.html/p000034"
+    choices:
+      - "Giữ câu hỏi phản biện dạng phủ định: 'Nhưng chẳng phải họ cũng đã tính đến một số biện pháp đề phòng việc đó rồi sao?'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000035"
+    choices:
+      - "Xưng hô trong thoại của Weiss: 'tôi', 'chúng ta'; thuật ngữ: 'sức nổi dự phòng', 'bánh lái dự phòng'; giữ câu điều kiện phủ định ở cuối đoạn"
+  - segment_id: "YS-LN05/Text/part0020.html/p000036"
+    choices:
+      - "Trần thuật ngôi thứ ba: 'Tanya', 'Weiss'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000037"
+    choices:
+      - "Đại từ trong thoại: 'chúng ta'; thuật ngữ: 'bên Tình báo', 'sơ đồ cấu trúc tàu'; giữ cấu trúc ước muốn trái thực tế ('Giá mà...')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000038"
+    choices:
+      - "Thuật ngữ: 'tàu hộ tống'; giữ tình thái nghe truyền lại ('Nghe đâu ít nhất họ cũng nắm được rằng không có nhiều tàu hộ tống đi kèm.')"
+  - segment_id: "YS-LN05/Text/part0020.html/p000039"
+    choices:
+      - "Xưng hô và cấp bậc: 'Thiếu tá Weiss', 'chúng ta'; thuật ngữ: 'cứ điểm di động', 'nguồn tin tình báo'; giữ cấu trúc giả định trái thực tế ở câu cuối"
