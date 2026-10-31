@@ -1,0 +1,152 @@
+task_id: "vol-05-ch-02-b01-argon-review"
+parent_task_id: "vol-05-ch-02-b01"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-02-b01-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0014.html/p000001"
+    issue: "Bản dịch thêm cụm chỉ niên lịch 'NĂM THỐNG NHẤT' trước năm 1926 dù mốc thời gian trong nguyên bản chỉ nêu ngày, tháng và số năm."
+    evidence: "Nguyên bản chỉ có số năm đi sau ngày tháng, không có thuật ngữ 'Unified Year' ở dòng tiêu đề thời gian này."
+    recommendation: "Có thể rút gọn thành 'NGÀY 15 THÁNG 9 NĂM 1926' để sát mức thông tin của nguyên bản ở lượt chuốt câu tiếp theo."
+pending_term_recommendations:
+  - source_term: "Imperial Capital Berun"
+    proposed_vi: "Thủ đô Đế quốc Berun"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Dịch trực tiếp cấu trúc danh ngữ địa danh hành chính trong dòng mở đầu cảnh, giữ nguyên tên riêng Berun nhất quán với các tập trước."
+    alternatives_vi:
+      - "Đế đô Berun"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000001"
+  - source_term: "Imperial Army General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Thống nhất với sổ pending của Tập 2 và Tập 5 cho thuật ngữ 'Imperial Army' (Lục quân Đế quốc) kết hợp với 'General Staff Office' (Văn phòng Bộ Tổng tham mưu)."
+    alternatives_vi:
+      - "Văn phòng Bộ Tổng Tham mưu Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000001"
+      - "YS-LN05/Text/part0014.html/p000002"
+  - source_term: "Colonel Tanya von Degurechaff"
+    proposed_vi: "Trung tá Tanya von Degurechaff"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Trong bản tiếng Anh của Yen Press, 'Colonel' đứng trước họ tên thường dùng làm cách gọi rút gọn cho cấp bậc thực tế của Tanya ở giai đoạn này là 'Lieutenant Colonel' (Trung tá), khớp với mục đã ghi nhận ở Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000002"
+      - "YS-LN05/Text/part0014.html/p000010"
+  - source_term: "Lieutenant General von Zettour"
+    proposed_vi: "Trung tướng von Zettour"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc và họ nhân vật với sổ pending đã khóa từ Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000002"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên định danh 'Being X' và đại từ quy chiếu 'hắn' trong độc thoại nội tâm của Tanya theo canon/glossary-pending.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000005"
+  - source_term: "oversize garbage"
+    proposed_vi: "thứ rác rưởi cồng kềnh"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch sát nghĩa đen của ẩn dụ tự miệt thị (bắt nguồn từ cách gọi rác cồng kềnh trong đời sống đô thị Nhật Bản), phù hợp giọng độc thoại tự trách gay gắt của nhân vật."
+    alternatives_vi:
+      - "đống phế thải cồng kềnh"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000012"
+  - source_term: "execution by firing squad"
+    proposed_vi: "đem ra xử bắn"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách diễn đạt tự nhiên và đúng nghĩa quân pháp cho hình thức xử tử bằng đội xử bắn trong độc thoại nội tâm."
+    alternatives_vi:
+      - "xử tử bằng đội xử bắn"
+    segment_ids:
+      - "YS-LN05/Text/part0014.html/p000012"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0005.html/p000001"
+    choices:
+      - "Nhan đề bộ sách: 'Tanya Chiến Ký, Tập 5' (nhất quán với mẫu nhan đề ở các tập trước và mục p000025)"
+  - segment_id: "YS-LN05/Text/part0005.html/p000006"
+    choices:
+      - "Giữ nguyên phụ đề tiếng Latinh: 'Abyssus Abyssum Invocat'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000005"
+    choices:
+      - "Tên chương mục lục: 'Chương O: Lá thư gửi về nhà'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000006"
+    choices:
+      - "Tên chương mục lục: 'Chương I: Thần tốc tiến quân'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000007"
+    choices:
+      - "Tên chương mục lục: 'Chương II: Tình bạn kỳ lạ'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000008"
+    choices:
+      - "Tên chương mục lục: 'Chương III: Chiến dịch phương Bắc'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000009"
+    choices:
+      - "Tên chương mục lục: 'Chương IV: Chiến dịch Xung kích Tầm xa'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000010"
+    choices:
+      - "Tên chương mục lục: 'Chương V: Cạn kiệt thời gian'"
+  - segment_id: "YS-LN05/Text/part0006.html/p000011"
+    choices:
+      - "Tên chương mục lục giữ dấu ngoặc kép: 'Chương VI: “Người giải phóng”'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000001"
+    choices:
+      - "Địa danh và cơ quan: 'THỦ ĐÔ ĐẾ QUỐC BERUN, VĂN PHÒNG BỘ TỔNG THAM MƯU LỤC QUÂN ĐẾ QUỐC'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000002"
+    choices:
+      - "Quân hàm và tên nhân vật: 'Trung tá Tanya von Degurechaff', 'Trung tướng von Zettour'"
+      - "Đại từ trần thuật ngôi thứ ba của Tanya theo DEC-P01-001: 'nó'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000003"
+    choices:
+      - "Đại từ trần thuật ngôi thứ ba của Tanya theo DEC-P01-001: 'nó'"
+      - "Giữ nguyên cấu trúc nhượng bộ và so sánh mức độ mệt mỏi thể xác với sự rệu rã tinh thần"
+  - segment_id: "YS-LN05/Text/part0014.html/p000005"
+    choices:
+      - "Tên gọi và đại từ: 'Being X' / 'hắn'; đại từ ngôi thứ nhất số nhiều chỉ phe Đế quốc/đơn vị của Tanya: 'chúng ta'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000006"
+    choices:
+      - "Điểm nhìn nội tâm tự quy chiếu của Tanya theo DEC-P01-001: 'mình'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000007"
+    choices:
+      - "Điểm nhìn nội tâm tự quy chiếu: 'mình'; giữ nguyên câu hỏi giả định hướng về tương lai"
+  - segment_id: "YS-LN05/Text/part0014.html/p000009"
+    choices:
+      - "Điểm nhìn nội tâm: 'mình'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc toàn bộ câu bằng dấu sao '*...*' đúng theo thẻ em của nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000010"
+    choices:
+      - "Quân hàm: 'Trung tá Tanya von Degurechaff'; điểm nhìn trần thuật khách quan hóa bản thân bằng ngôi thứ ba: 'nó'"
+      - "Giữ đúng sắc thái tình thái ở vế sau: dù là thất sách nhục nhã nhưng vẫn ngần ngại việc che giấu"
+  - segment_id: "YS-LN05/Text/part0014.html/p000012"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc đúng ba câu đầu trong '*...*' và để câu thứ tư ở dạng chữ thường không in nghiêng"
+      - "Điểm nhìn nội tâm ở câu thứ tư: 'mình'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000015"
+    choices:
+      - "Đại từ khái quát ngôi thứ hai trong mệnh đề điều kiện: 'bạn'"
+  - segment_id: "YS-LN05/Text/part0014.html/p000016"
+    choices:
+      - "Điểm nhìn nội tâm: 'Mình'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ đánh dấu '*muốn*' và '*ắt phải*' tương ứng với hai động từ tình thái được in nghiêng tương phản trong nguồn"
+  - segment_id: "YS-LN05/Text/part0014.html/p000019"
+    choices:
+      - "Điểm nhìn nội tâm tự quy chiếu: 'mình'"
+      - "Giữ đúng thế đối lập giữa kẻ vụng về che giấu sai lầm và kẻ vụng về đứng ra báo cáo sai lầm"
