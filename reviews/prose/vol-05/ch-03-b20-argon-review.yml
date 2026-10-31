@@ -1,0 +1,290 @@
+task_id: "vol-05-ch-03-b20-argon-review"
+parent_task_id: "vol-05-ch-03-b20"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 3
+source_package: "work/vol-05/batches/ch-03-b20-source.jsonl"
+target_translation: "translations/vol-05/ch-03-b20.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 5
+findings:
+  - segment_id: "YS-LN05/Text/part0020.html/p000424"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Cụm phân từ mô tả việc Thiếu tá Weiss đang gặp khó khăn trong việc đưa ra câu trả lời (thực tế anh ta mới chỉ thốt được một chữ mở đầu bỏ lửng trước khi Tanya chuyển sang hỏi hai trung úy ở p000426) đang được dịch là 'khó khăn lắm mới mở lời được', dễ gợi hiểu nhầm là anh ta đã trả lời xong."
+    recommendation: "Đề xuất chỉnh thành 'Anh ta cau mày, lúng túng khó trả lời.' hoặc 'Anh ta cau mày, khó lòng trả lời nổi.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000438"
+    severity: "minor"
+    category: "pronouns_consistency"
+    issue: "Trong mạch tự thuật nội tâm phân tích tổn thất quân sự nghiêm trọng, đại từ sở hữu ngôi thứ nhất số nhiều chỉ lực lượng đơn vị đang được dịch là 'bọn mình' ('quân số áp đảo bọn mình'), mang sắc thái khẩu ngữ chưa thật hợp với giọng điệu quân sự trầm nặng của đoạn."
+    recommendation: "Đề xuất đổi 'bọn mình' thành 'quân ta' hoặc 'chúng tôi' ('với kẻ địch có quân số áp đảo quân ta')."
+  - segment_id: "YS-LN05/Text/part0020.html/p000444"
+    severity: "minor"
+    category: "pronouns_consistency"
+    issue: "Trong phần trần thuật ngôi thứ ba, cách quy chiếu những binh sĩ tử trận chuyển đột ngột từ 'họ' ('bỏ họ lại') sang 'các anh' ('mang các anh về') rồi lại quay về 'họ' ở câu sau ('di vật cùng thư từ của họ'), đồng thời việc dùng 'các anh' tự gán giới tính cho toàn bộ người ngã xuống khi đoạn nguồn chỉ dùng đại từ trung tính số nhiều (cần giới hạn suy luận theo DEC-P01-001)."
+    recommendation: "Đề xuất đổi 'mang các anh về' thành 'đưa họ về' hoặc 'mang thi hài đồng đội về'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000445"
+    severity: "minor"
+    category: "pronouns_consistency"
+    issue: "Câu nói đặt trong dấu ngoặc kép của Tanya trước mặt binh sĩ đang dùng đại từ tự xưng 'Mình' ('Mình còn phải viết những lá thư đó nữa…!'), chưa đồng bộ với đại từ 'Tôi / tôi' trong các câu thoại thành tiếng khác của Tanya ở cùng cảnh (p000435, p000439, p000442, p000447)."
+    recommendation: "Đề xuất đổi 'Mình' thành 'Tôi' để nhất quán đại từ trong lời thoại có dấu ngoặc kép."
+  - segment_id: "YS-LN05/Text/part0020.html/p000458"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Có ba chi tiết nhỏ cần lưu ý: (1) Tên bài hát trong nguồn dùng chủ từ ngôi thứ nhất số nhiều ('We Had a Comrade') nhưng bản dịch đang đổi thành ngôi thứ nhất số ít ('Tôi Đã Có Một Người Đồng Chí'); (2) tính từ mô tả giọng hát khàn đục/nghẹn đặc hoặc thô kệch của binh sĩ (nối mạch với giọng khàn đặc và run rẩy ở p000459) đang dịch là 'Chất giọng đặc sệt' (dễ hiểu nhầm thành giọng vùng miền); (3) cách gọi 'của các anh chị' ở p000458 chưa đồng bộ với cách gọi 'Các anh' ở p000460."
+    recommendation: "Đề xuất chỉnh tên bài hát thành 'Chúng Ta Đã Có Một Người Đồng Chí', đổi 'Chất giọng đặc sệt, lệch tông của các anh chị' thành 'Chất giọng khàn đục, lệch tông của mọi người' (hoặc 'Chất giọng thô kệch, lệch tông của mọi người'), và ở p000460 cân nhắc dùng 'Các đồng chí' thay cho 'Các anh' để đồng bộ và tránh suy diễn giới tính theo DEC-P01-001."
+pending_term_recommendations:
+  - source_term: "vice commander"
+    proposed_vi: "phó chỉ huy"
+    alternatives_vi:
+      - "tiểu đoàn phó"
+    rationale: "Kế thừa nhất quán phương án tạm đã dùng trong sổ pending từ tập 4 cho chức vụ của Weiss trong đơn vị."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000422"
+    status: "proposed"
+  - source_term: "Major Weiss / Weiss"
+    proposed_vi: "Thiếu tá Weiss / Weiss"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm mới của Weiss trong tập 5 theo sổ pending."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000423"
+      - "YS-LN05/Text/part0020.html/p000456"
+    status: "proposed"
+  - source_term: "wishful thinking"
+    proposed_vi: "suy nghĩ viển vông"
+    alternatives_vi:
+      - "tư duy duy ý chí"
+    rationale: "Kế thừa nhất quán phương án tạm đã có trong sổ pending từ tập 1 và tập 5."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000425"
+    status: "proposed"
+  - source_term: "Lieutenant Serebryakov / Lieutenant Grantz"
+    proposed_vi: "Trung úy Serebryakov / Trung úy Grantz"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm Trung úy của Serebryakov và Grantz theo sổ pending tập 4–5."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000426"
+    status: "proposed"
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên đơn vị đã dùng trong sổ pending từ tập 2–5."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000434"
+    status: "proposed"
+  - source_term: "Intelligence"
+    proposed_vi: "bên Tình báo"
+    alternatives_vi:
+      - "ngành Tình báo"
+      - "Cục Tình báo"
+    rationale: "Phù hợp với giọng thoại và độc thoại nội tâm bực dọc của Tanya khi quy trách nhiệm cho bộ phận tình báo; đồng bộ với sổ pending tập 1 và tập 5."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000442"
+      - "YS-LN05/Text/part0020.html/p000463"
+    status: "proposed"
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff / Colonel"
+    proposed_vi: "Trung tá Tanya von Degurechaff / Trung tá"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm Trung tá của Tanya trong trần thuật và cách gọi tắt Colonel trong hội thoại quân sự theo sổ pending tập 4–5."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000442"
+      - "YS-LN05/Text/part0020.html/p000448"
+    status: "proposed"
+  - source_term: "battlefield cross"
+    proposed_vi: "cây thập tự chiến trường"
+    alternatives_vi:
+      - "thập tự giá chiến trường"
+    rationale: "Cách dịch sát nghĩa và trang trọng cho biểu tượng tưởng niệm binh sĩ tử trận dựng từ súng và mũ sắt trên chiến trường."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000443"
+      - "YS-LN05/Text/part0020.html/p000446"
+    status: "proposed"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán mục P05-being-x trong canon/glossary-pending.yml."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000451"
+    status: "proposed"
+  - source_term: "God"
+    proposed_vi: "Thượng đế"
+    alternatives_vi:
+      - "Chúa"
+    rationale: "Kế thừa nhất quán phương án tạm trong sổ pending tập 1–5."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000453"
+      - "YS-LN05/Text/part0020.html/p000455"
+    status: "proposed"
+  - source_term: "We Had a Comrade"
+    proposed_vi: "Chúng Ta Đã Có Một Người Đồng Chí"
+    alternatives_vi:
+      - "Tôi Đã Có Một Người Đồng Chí"
+    rationale: "Dịch sát nghĩa tên bài hát quân ca tiễn biệt theo đúng đại từ ngôi thứ nhất số nhiều trong văn bản nguồn tiếng Anh."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000458"
+    status: "proposed"
+  - source_term: "three-volley salute"
+    proposed_vi: "ba loạt súng tiễn biệt"
+    alternatives_vi:
+      - "nghi thức bắn ba loạt súng chào tiễn biệt"
+    rationale: "Thuật ngữ nghi thức tang lễ quân đội tự nhiên, súc tích, khớp với nhịp câu ngắn của đoạn."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000461"
+    status: "proposed"
+  - source_term: "White Wings Grand Iron Cross"
+    proposed_vi: "Đại Thập tự Sắt Cánh Trắng"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán phương án tạm đã khóa trong sổ pending tập 5 cho huân chương của Đế quốc."
+    segment_ids:
+      - "YS-LN05/Text/part0020.html/p000461"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0020.html/p000416"
+    choices:
+      - "Điểm nhìn & cấu trúc: câu khẳng định ngắn trong độc thoại nội tâm 'Là kết quả.'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000417"
+    choices:
+      - "Phủ định & dấu câu: giữ dấu hai chấm và dấu chấm lửng 'Kết quả: Không có nó… thì tất cả chỉ là công cốc.'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000418"
+    choices:
+      - "Thuật ngữ & phân biệt khái niệm: phân biệt 'good sense' ('lương tri') với 'conscience' ('lương tâm'); 'rational' -> 'hợp lý'; 'goodwill' -> 'thiện chí'; 'ego' -> 'cái tôi'."
+      - "Điểm nhìn & đại từ: độc thoại nội tâm của Tanya dùng đại từ tự quy chiếu 'mình' theo DEC-P01-001; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000419"
+    choices:
+      - "Nghĩa & sắc thái: giữ đánh giá gay gắt 'Đúng là rác rưởi.' và ẩn dụ 'Đắm chìm trong sự tự mãn rồi tự liếm láp vết thương chỉ là bằng chứng cho sự bất tài mà thôi.'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000420"
+    choices:
+      - "Giọng thoại & đối tượng câu hỏi: giữ dấu chấm lửng mở đầu và câu hỏi truy vấn của Tanya về báo cáo tàu ngầm quân ta chặn con tàu địch; dùng 'quân ta'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000421"
+    choices:
+      - "Điểm nhìn & đại từ: tự thuật nội tâm dùng 'mình' theo DEC-P01-001; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000422"
+    choices:
+      - "Thuật ngữ & đại từ: 'vice commander' -> 'phó chỉ huy'; tự thuật nội tâm dùng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000423"
+    choices:
+      - "Cấp bậc & tên riêng: 'Major Weiss' -> 'Thiếu tá Weiss'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000424"
+    choices:
+      - "Điểm nhìn, đại từ & nghĩa: giữ câu thoại bỏ lửng '“Chuyện là…”', quy chiếu Weiss bằng 'Anh ta', tự thuật của Tanya dùng 'Mình'; diễn đạt chính xác trạng thái Weiss lúng túng gặp khó khăn khi trả lời."
+  - segment_id: "YS-LN05/Text/part0020.html/p000425"
+    choices:
+      - "Thuật ngữ & tình thái: 'wishful thinking' -> 'suy nghĩ viển vông'; giữ cấu trúc nhượng bộ khẳng định kết quả sẽ rất tệ."
+  - segment_id: "YS-LN05/Text/part0020.html/p000426"
+    choices:
+      - "Cấp bậc & xưng hô: 'Lieutenant Serebryakov, Lieutenant Grantz' -> 'Trung úy Serebryakov, Trung úy Grantz'; trong thoại Tanya xưng 'tôi', gọi hai trung úy là 'hai người', dùng 'quân ta' cho phía Đế quốc."
+  - segment_id: "YS-LN05/Text/part0020.html/p000427"
+    choices:
+      - "Điểm nhìn & đại từ: tự thuật nội tâm dùng 'Mình / mình' và 'họ'; giữ quan hệ đối lập 'nhưng đáp lại mình vẫn là sự im lặng thẳng thừng của họ'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000428"
+    choices:
+      - "Nghĩa & phủ định: giữ chi tiết hai sĩ quan lịch sự giả vờ nghễnh ngãng ngoảnh mặt đi để né câu trả lời và câu phủ định tuyệt đối 'Đời nào đó lại là tin tốt cho được.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000429"
+    choices:
+      - "Giọng thoại & phủ định: dùng 'chúng ta' trong lời kết luận của Tanya trước cấp dưới; giữ phủ định 'Hành động của chúng ta đã không mang lại kết quả.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000430"
+    choices:
+      - "Điểm nhìn & phủ định: giữ phủ định 'Một lời an ủi nửa vời chẳng giải quyết được gì cả.'; chuyển sang tên riêng 'Tanya' và đại từ phản thân 'mình' ở câu hai."
+  - segment_id: "YS-LN05/Text/part0020.html/p000431"
+    choices:
+      - "Điểm nhìn & tình thái bắt buộc: độc thoại nội tâm dùng 'Mình' theo DEC-P01-001; giữ mức độ bắt buộc 'buộc phải chấp nhận nó'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000432"
+    choices:
+      - "Điểm nhìn, đại từ & phủ định: trong thoại dùng 'Tôi' và 'Đơn vị chúng ta'; phần dẫn trần thuật ngôi thứ ba quy chiếu Tanya bằng 'Nó' theo DEC-P01-001; giữ đủ ba mệnh đề phủ định trong lời thoại."
+  - segment_id: "YS-LN05/Text/part0020.html/p000433"
+    choices:
+      - "Nghĩa & mục đích: giữ quan hệ mục đích 'Những lời này là cần thiết để có thể chấp nhận sự thật.'; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000434"
+    choices:
+      - "Thuật ngữ & đại từ: 'veterans' -> 'những cựu binh'; '203rd Aerial Mage Battalion' -> 'Tiểu đoàn Pháp sư Trên không số 203'; 'the Empire’s main lines' -> 'các chiến tuyến chính của Đế quốc'; độc thoại nội tâm dùng 'Mình / mình' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000435"
+    choices:
+      - "Giọng thoại & từ vựng: lời thoại thành tiếng dùng 'Tôi / của tôi'; 'brothers-in-arms' -> 'những người chiến hữu'; giữ điệp ý mất mát ở câu cuối."
+  - segment_id: "YS-LN05/Text/part0020.html/p000436"
+    choices:
+      - "Thuật ngữ & so sánh bậc nhất: 'veterans' -> 'những cựu binh'; giữ so sánh bậc nhất 'kiểu người hiếm hoi bậc nhất trong thời chiến'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000437"
+    choices:
+      - "Cấu trúc & dấu câu: giữ câu cảm thán bỏ lửng 'Ấy vậy mà trong tất cả mọi người, chính họ lại…'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000438"
+    choices:
+      - "Thuật ngữ & đại từ: 'a company' -> 'một đại đội'; tự thuật nội tâm dùng 'mình' cho ngôi thứ nhất số ít và dùng 'quân ta' / 'chúng tôi' cho tập thể đơn vị."
+  - segment_id: "YS-LN05/Text/part0020.html/p000439"
+    choices:
+      - "Nhấn mạnh Markdown & giọng thoại: chỉ bọc dấu sao cho hai cụm '*Nếu có ai đó để cùng sát cánh thực hiện, thì chính là họ, nên…*' và '*Nếu có họ đảm nhận công việc, thì…*' khớp chính xác với hai thẻ em trong XHTML (DEC-P01-002); từ nối 'hoặc' ở giữa để chữ thường; thoại dùng đại từ 'Tôi'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000440"
+    choices:
+      - "Điểm nhìn, đại từ & phủ định: độc thoại nội tâm dùng 'mình' theo DEC-P01-001; giữ phủ định khả năng 'mình không tài nào giữ nổi sự điềm tĩnh'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000441"
+    choices:
+      - "Đại từ khái quát & phủ định: dùng đại từ khái quát 'bạn' cho chủ thể giả định chung; giữ dấu chấm lửng và phủ định nghiêm cấm 'chuyện đó tuyệt đối không thể bỏ qua'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000442"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc '*chết*' ở câu thoại cuối khớp chính xác với thẻ em trong XHTML (DEC-P01-002)."
+      - "Thuật ngữ, cấp bậc & đại từ: 'Intelligence' -> 'bên Tình báo'; 'Lieutenant Colonel Tanya von Degurechaff' -> 'Trung tá Tanya von Degurechaff'; trong thoại dùng 'Tôi / của tôi', phần dẫn trần thuật dùng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000443"
+    choices:
+      - "Thuật ngữ & đại từ: 'battlefield cross' -> 'cây thập tự chiến trường'; trần thuật quy chiếu Tanya bằng 'Nó' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000444"
+    choices:
+      - "Điểm nhìn, đại từ & phủ định: trần thuật dùng 'nó / Nó' cho Tanya và thống nhất dùng 'họ' (hoặc 'những người đã ngã xuống / đồng đội', tránh gán giới tính 'các anh' theo DEC-P01-001) cho các binh sĩ tử trận; giữ phủ định 'chẳng một ai đành lòng ruồng bỏ những người đã ngã xuống'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000445"
+    choices:
+      - "Giọng thoại & dấu câu: giữ dấu chấm lửng kết hợp chấm than '…!' và thống nhất đại từ tự xưng trong lời thoại có dấu ngoặc kép."
+  - segment_id: "YS-LN05/Text/part0020.html/p000446"
+    choices:
+      - "Thuật ngữ, đại từ & phủ định: 'battlefield cross' -> 'cây thập tự chiến trường'; trần thuật dùng 'Nó / nó' theo DEC-P01-001; giữ phủ định tuyệt đối ở câu cuối 'Một vết đạn bắn xuyên đầu thì không cách nào cứu chữa được.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000447"
+    choices:
+      - "Xưng hô & giọng thoại: Tanya gọi binh sĩ là 'toàn quân', xưng 'tôi' và 'Chúng ta'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000448"
+    choices:
+      - "Cấp bậc trong thoại: 'Colonel?' -> '“Thưa Trung tá?”' (giữ đúng quân hàm Trung tá của Tanya)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000449"
+    choices:
+      - "Giọng thoại, đại từ & giới hạn thời gian: trong lời phát biểu trước đơn vị, Tanya dùng 'chúng ta' và 'Hỡi những người đồng đội của tôi', giữ điều kiện hạn định mỉa mai '—nhưng chỉ sau khi chúng ta đã khuất bóng mà thôi'; phần dẫn trần thuật dùng 'Nó' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0020.html/p000450"
+    choices:
+      - "Tên riêng & phủ định: giữ nguyên tên đầy đủ 'Tanya von Degurechaff' và phủ định 'không tin vào thần thánh'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000451"
+    choices:
+      - "Thuật ngữ & phủ định: giữ nguyên định danh 'Being X' (theo P05-being-x); giữ cấu trúc điều kiện 'Chừng nào... còn...' và phủ định khả năng 'một đấng thiêng liêng tuyệt đối không thể nào tồn tại trên thế gian này'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000452"
+    choices:
+      - "Điểm nhìn & tình thái: dùng tên riêng 'Tanya'; giữ mức độ hạn định 'gần như là một tiên đề hiển nhiên'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000453"
+    choices:
+      - "Thuật ngữ & đại từ: 'God' -> 'Thượng đế'; dùng đại từ khái quát 'bạn' ở vế điều kiện giả định."
+  - segment_id: "YS-LN05/Text/part0020.html/p000454"
+    choices:
+      - "Quan hệ điều kiện & phủ định: giữ hai vế điều kiện đối lập ('Nếu được cứu... Còn nếu không...'), đại từ khái quát 'bạn', và phủ định kết câu 'Đằng nào thì bạn cũng chẳng mất gì cả.'"
+  - segment_id: "YS-LN05/Text/part0020.html/p000455"
+    choices:
+      - "Thuật ngữ & phủ định: 'God' -> 'Thượng đế'; giữ phủ định trong lời hưởng ứng 'vốn chẳng phải phong cách của chúng ta!'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000456"
+    choices:
+      - "Tên riêng & giọng thoại: giữ lời tán đồng ngắn gọn của Tanya với 'Weiss'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000457"
+    choices:
+      - "Giọng thoại: giữ câu rủ/đề nghị của Weiss dùng đại từ 'chúng ta'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000458"
+    choices:
+      - "Tên bài hát & xưng hô: giữ dấu nháy đơn quanh tên bài hát ('Chúng Ta Đã Có Một Người Đồng Chí'), gọi đơn vị là 'toàn quân' và 'mọi người', dùng 'chúng ta' ở vế rủ hát tiễn biệt."
+  - segment_id: "YS-LN05/Text/part0020.html/p000459"
+    choices:
+      - "Điểm nhìn & sắc thái: giữ mô tả trần thuật ngôi thứ ba về giọng hát khàn đặc, run rẩy của những người lính; không có chữ nghiêng."
+  - segment_id: "YS-LN05/Text/part0020.html/p000460"
+    choices:
+      - "Điểm nhìn & lời ca tiễn biệt: trần thuật dùng tên riêng 'Tanya'; lời hát tưởng niệm dùng 'chúng tôi' và gọi những người ngã xuống là 'những người đồng chí / các đồng chí' (hoặc phương án trung tính không suy diễn giới tính theo DEC-P01-001)."
+  - segment_id: "YS-LN05/Text/part0020.html/p000461"
+    choices:
+      - "Thuật ngữ quân sự: 'Pistols' -> 'Súng ngắn'; 'Blanks' -> 'Đạn mã tử'; 'three-volley salute' -> 'Ba loạt súng tiễn biệt'; 'live bullet' -> 'đạn thật'; 'White Wings Grand Iron Cross' -> 'Đại Thập tự Sắt Cánh Trắng'; giữ nhịp câu ngắn dồn dập ở ba câu đầu."
+  - segment_id: "YS-LN05/Text/part0020.html/p000462"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: bọc toàn bộ câu bằng dấu sao '*...*' khớp chính xác với thẻ em trong XHTML (DEC-P01-002); 'sectionalism' -> 'thói cục bộ'."
+  - segment_id: "YS-LN05/Text/part0020.html/p000463"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: bọc toàn bộ câu bằng dấu sao '*...*' khớp chính xác với thẻ em trong XHTML (DEC-P01-002); 'Intelligence' -> 'bên Tình báo'."
