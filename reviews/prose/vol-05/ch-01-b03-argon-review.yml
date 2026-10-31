@@ -1,0 +1,328 @@
+task_id: "vol-05-ch-01-b03-argon-review"
+parent_task_id: "vol-05-ch-01-b03"
+volume: "vol-05"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-01-b03-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 5
+unresolved_findings: 5
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000063"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Cụm động từ 'tô hồng và khỏa lấp những khiếm khuyết' đã thêm sắc thái 'tô hồng' ngoài nghĩa gốc vốn chỉ nêu việc làm phẳng hoặc khỏa lấp các khiếm khuyết."
+    basis: "Nguyên tắc tại canon/style-guide.md: giữ đúng nghĩa và sắc thái của bản gốc, không tự thêm giải thích."
+    recommendation: "Lược 'tô hồng và', giữ 'Các tác phẩm nghệ thuật thường khỏa lấp những khiếm khuyết.' (hoặc 'thường làm dịu đi những khiếm khuyết')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000074"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Từ 'tin nhắn' mang sắc thái hiện đại và khẩu ngữ, chưa thật khớp với ngữ cảnh quân sự khi thứ được chuyển qua nhà ga (nêu tại p000075) là một phong bì thư niêm phong dày từ Bộ Tổng tham mưu."
+    basis: "Ngữ cảnh liên kết trực tiếp với p000075 và yêu cầu giữ giọng thoại quân sự tự nhiên trong canon/style-guide.md."
+    recommendation: "Đổi 'tin nhắn' thành 'tin' (hoặc 'thông báo / thư tín'): 'Chúng ta vừa nhận được tin từ quê nhà gửi qua nhà ga ạ.' (hoặc 'Chúng tôi vừa nhận được tin từ quê nhà gửi qua nhà ga ạ.')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000077"
+    severity: "minor"
+    category: "pronouns_viewpoint"
+    issue: "Trong cùng một lượt thoại của Trung úy Serebryakov với Tanya, câu đầu gọi cấp trên là 'thưa Trung tá' nhưng cuối câu thứ ba lại quy chiếu ngôi thứ hai bằng 'ngài' ('để gặp ngài'), làm lệch sự nhất quán về xưng hô quân hàm."
+    basis: "Quy tắc giữ giọng thoại nhất quán theo ngữ cảnh tại canon/style-guide.md và cách gọi cấp bậc 'Trung tá' ở p000072, p000074."
+    recommendation: "Đổi 'để gặp ngài' thành 'để gặp Trung tá' (hoặc 'để gặp Trung tá ạ')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000088"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Bản dịch cụ thể hóa đại từ chỉ định thành 'chút quà này' ('Tôi hy vọng chút quà này sẽ đủ để đền bù...'), tự thêm danh từ 'quà' khi câu thoại gốc chỉ dùng đại từ chỉ định chung."
+    basis: "Nguyên tắc tại canon/style-guide.md: không tự thêm giải thích hay chi tiết chưa được nêu ở đoạn hiện tại."
+    recommendation: "Đổi 'chút quà này' thành 'thứ này' hoặc 'món này' ('Tôi hy vọng thứ này sẽ đủ để đền bù...')."
+  - segment_id: "YS-LN05/Text/part0010.html/p000090"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Câu nghi vấn thứ hai trong phần chữ nghiêng dịch đại từ thay thế số ít là 'một câu đùa' ('*Dù đó có là một câu đùa dở tệ đi chăng nữa?*'), trong khi về ngữ pháp đại từ này quy chiếu về danh ngữ số ít chỉ 'khiếu hài hước' ở câu ngay trước (danh từ chỉ trò đùa ở câu trước ở dạng số nhiều)."
+    basis: "Quan hệ quy chiếu ngữ pháp trong câu nội tâm tại p000090."
+    recommendation: "Chỉnh thành '*Dù đó có là thứ khiếu hài hước dở tệ đi chăng nữa?*' hoặc '*Dù nó có dở tệ đi chăng nữa?*'."
+pending_term_recommendations:
+  - source_term: "fog of war"
+    proposed_vi: "sương mù chiến tranh"
+    alternatives_vi:
+      - "màn sương chiến tranh"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000057"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ lý luận quân sự kinh điển của Clausewitz; dịch là 'sương mù chiến tranh' chuẩn xác và tự nhiên trong tiếng Việt."
+  - source_term: "snow country / muddy snow country"
+    proposed_vi: "xứ tuyết / xứ tuyết lầy lội"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000062"
+      - "YS-LN05/Text/part0010.html/p000063"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Liên văn bản tới tác phẩm văn học 'Xứ tuyết' (Yukiguni) của Kawabata Yasunari khi nói về cảnh bước ra khỏi đường hầm; giữ 'xứ tuyết' và biến thể 'xứ tuyết lầy lội' bảo toàn trọn vẹn điển cố văn học."
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000064"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với phương án tạm đã khóa ở các batch trước của vol-05 trong pending-terms-index.yml."
+  - source_term: "Railroad Department"
+    proposed_vi: "Cục Đường sắt"
+    alternatives_vi:
+      - "Ban Đường sắt"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000066"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án tạm 'Cục Đường sắt' từ vol-02 và vol-05 ch-01-b01 trong pending-terms-index.yml."
+  - source_term: "First Lieutenant Serebryakov / Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000072"
+      - "YS-LN05/Text/part0010.html/p000075"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với cấp bậc của Serebryakov từ vol-04 và vol-05 trong pending-terms-index.yml."
+  - source_term: "Colonel / Colonel von Degurechaff (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / Trung tá von Degurechaff"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000074"
+      - "YS-LN05/Text/part0010.html/p000077"
+      - "YS-LN05/Text/part0010.html/p000079"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Trong tiếng Anh quân sự, cấp bậc Lieutenant Colonel được gọi tắt là Colonel trong giao tiếp; dịch là 'Trung tá' để giữ đúng quân hàm thực tế của Tanya."
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000075"
+      - "YS-LN05/Text/part0010.html/p000077"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với phương án tạm xuyên suốt vol-01 đến vol-05 trong pending-terms-index.yml."
+  - source_term: "home country"
+    proposed_vi: "quê nhà"
+    alternatives_vi:
+      - "chính quốc"
+      - "trong nước"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000074"
+      - "YS-LN05/Text/part0010.html/p000076"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách gọi lãnh thổ Đế quốc từ góc nhìn lực lượng viễn chinh ở mặt trận phía đông; 'quê nhà' tự nhiên trong hội thoại và thống nhất giữa p000074 với p000076."
+  - source_term: "Lieutenant Colonel Uger / Colonel Uger"
+    proposed_vi: "Trung tá Uger"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000083"
+      - "YS-LN05/Text/part0010.html/p000086"
+      - "YS-LN05/Text/part0010.html/p000087"
+    volume: "vol-05"
+    chapter: 1
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Đoạn p000083 xác lập rõ quân hàm đầy đủ của Uger ở thời điểm tập 5 là 'Lieutenant Colonel Uger' (đồng cấp với Tanya, thăng từ Thiếu tá ở tập 2); cách viết 'Colonel Uger' ở p000086–p000087 là lối gọi tắt tiếng Anh cho Lieutenant Colonel tương tự trường hợp của Tanya, nên cần dịch thống nhất là 'Trung tá Uger'."
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000055"
+    locked:
+      pronouns: "chúng ta (độc thoại nội tâm ngôi thứ nhất số nhiều của Tanya)"
+      modality: "vẫn có cơ hội chiến thắng rõ rệt / cũng có thể thua"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000056"
+    locked:
+      pronouns: "mình (thoại lầm bầm một mình của Tanya theo DEC-P01-001)"
+      negation_and_modality: "Chắc mình đành phải thừa nhận là mình không biết vậy"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000057"
+    locked:
+      pronouns: "chúng ta / mình (độc thoại nội tâm của Tanya theo DEC-P01-001)"
+      terminology: "Sương mù chiến tranh"
+      negation: "mình thực sự không thích cái viễn cảnh bấp bênh này chút nào"
+      emphasis: "*Chà, chiến tranh vốn là thế* / *Sương mù chiến tranh* (theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000058"
+    locked:
+      pronouns: "mình (độc thoại nội tâm của Tanya theo DEC-P01-001)"
+      modality: "ắt hẳn đã nguyền rủa màn sương mù này dữ lắm"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000059"
+    locked:
+      pronouns: "mình (độc thoại nội tâm của Tanya theo DEC-P01-001)"
+      condition_and_modality: "giá mà mình có thể nhìn xuyên qua nó thì tốt biết mấy"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000060"
+    locked:
+      pronouns: "mình (đại từ tự quy chiếu khái quát trong độc thoại nội tâm)"
+      questions: "giữ nguyên hai câu hỏi về con đường phía trước và cuối đường hầm tăm tối"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000061"
+    locked:
+      terminology: "xứ sở Cộng sản"
+      modality: "Nghe đâu... lại bảo rằng phía bên kia bóng tối là những ước mơ và hy vọng"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000062"
+    locked:
+      names_and_pronouns: "Tanya (trần thuật) / bạn (chủ thể giả định chung)"
+      terminology: "miền đông / xứ tuyết"
+      condition_and_modality: "Nếu đây là một tác phẩm văn học giàu chất thơ nào đó, hẳn đó sẽ là một khám phá đầy thú vị"
+      emphasis: "*xứ tuyết* (theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000063"
+    locked:
+      negation: "hiện thực đâu có đẹp đẽ như thế / chẳng có khung cảnh kỳ diệu nào để chiêm ngưỡng cả"
+      terminology: "xứ tuyết lầy lội"
+      emphasis: "*xứ tuyết lầy lội* (theo DEC-P01-002)"
+  - segment_id: "YS-LN05/Text/part0010.html/p000064"
+    locked:
+      terminology: "bãi lầy / Lục quân Đế quốc"
+      logic: "đang vô thức lao đầu vào"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000065"
+    locked:
+      pronouns: "chúng ta (độc thoại nội tâm ngôi thứ nhất số nhiều)"
+      condition_and_negation: "Nếu biết được con đường phía trước, chúng ta đã chẳng phải khổ sở đến nhường này / khó lòng biết trước điều gì đang chờ đợi"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000066"
+    locked:
+      pronouns: "chúng ta (Tanya tự nhủ về hành trình đoàn tàu)"
+      terminology: "mặt trận phía đông / Cục Đường sắt"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000067"
+    locked:
+      names: "Tanya"
+      modality_and_negation: "Có lẽ do cuộc chiến hiện tại nên chất lượng giấy có vẻ cực kỳ thấp, nhưng vẫn chưa tệ bằng nội dung bên trong"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000068"
+    locked:
+      names_and_pronouns: "Tanya (trần thuật đầu đoạn) / mình (chuyển sang độc thoại nội tâm cuối đoạn theo DEC-P01-001)"
+      modality_and_negation: "có lẽ cũng không phải là một cách tồi để gia tăng cảm giác gắn kết với tập thể của họ"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000069"
+    locked:
+      terminology: "truyền thông nước ngoài / “các buổi hòa nhạc ở Đế quốc” / “những hội nghị của người yêu nước”"
+      negation: "chứ chẳng phải nơi để thưởng thức âm nhạc"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000070"
+    locked:
+      pronouns: "Mình (Tanya lầm bầm một mình theo DEC-P01-001)"
+      negation: "không ở vị trí có thể bình phẩm về chính sách văn hóa"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000071"
+    locked:
+      names_and_pronouns: "Tanya / của mình (đại từ phản thân sở hữu)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000072"
+    locked:
+      ranks_and_names: "Trung úy Serebryakov / thưa Trung tá"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000073"
+    locked:
+      viewpoint: "thoại ngắn gọn của cấp trên (Tanya) cho phép cấp dưới vào phòng"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000074"
+    locked:
+      ranks_and_pronouns: "tôi — thưa Trung tá (Serebryakov báo cáo với Tanya)"
+      terminology: "quê nhà / nhà ga"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000075"
+    locked:
+      ranks_and_names: "Trung úy Serebryakov"
+      pronouns: "cô ấy (trần thuật ngôi thứ ba chỉ Serebryakov)"
+      terminology: "Bộ Tổng tham mưu / thư niêm phong"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000076"
+    locked:
+      terminology: "quê nhà"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000077"
+    locked:
+      ranks_and_pronouns: "thưa Trung tá / để gặp Trung tá (sửa từ 'ngài' để thống nhất xưng hô cấp bậc)"
+      terminology: "Bộ Tổng tham mưu"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000078"
+    locked:
+      pronouns: "tôi (Tanya hỏi lại Serebryakov trong hội thoại)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000079"
+    locked:
+      ranks_and_names: "Trung tá von Degurechaff"
+      terminology: "người bạn đồng môn cũ"
+      negation: "như thế là không được đâu nhé"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000080"
+    locked:
+      names: "Tanya (giữ ở cả hai mệnh đề)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000081"
+    locked:
+      viewpoint: "câu cảm thán nội tâm đầu đoạn + trần thuật ngôi thứ ba câu sau"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000082"
+    locked:
+      pronouns: "Tôi — cô (Uger xưng hô lịch thiệp với đồng môn Tanya)"
+      terminology: "khoang giường nằm của một quý cô"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000083"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      pronouns: "Tôi — anh — chị ấy (Tanya xưng hô với Uger và nhắc tới vợ của Uger)"
+      condition_and_negation: "Tôi không ngờ... / Anh không biết là có những phép lịch sự cần tuân thủ khi ghé thăm phòng của một người phụ nữ sao? / Nếu vợ anh mà biết anh thiếu lịch thiệp như vậy, chắc chắn chị ấy sẽ thất vọng lắm đấy"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000084"
+    locked:
+      pronouns: "tôi / của mình (Uger tự quy chiếu trong thoại)"
+      modality_and_logic: "Nhưng mệnh lệnh thì vẫn phải tuân theo—tôi đành phải nguyền rủa vận rủi của mình thôi"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000085"
+    locked:
+      pronouns: "Chúng tôi (ngôi thứ nhất số nhiều loại trừ, chỉ Tanya và Uger chào nhau)"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000086"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      pronouns: "anh ta (trần thuật nội tâm của Tanya về Uger)"
+      modality_and_negation: "đáng lẽ anh ta phải bật cười sảng khoái / dường như không được trang bị một khiếu hài hước đúng nghĩa / Có lẽ anh ta chưa phục vụ đủ lâu ngoài tiền tuyến"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000087"
+    locked:
+      ranks_and_names: "Trung tá Uger"
+      pronouns: "anh ta"
+      negation_and_modality: "vốn không phải mẫu người biết tung hứng hay pha trò một cách tự nhiên, và xem chừng anh ta đã bỏ lỡ cơ hội trau dồi khả năng cảm thụ sự hài hước tốt hơn trên chiến trường"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000088"
+    locked:
+      pronouns: "Tôi — cô (Uger nói với Tanya)"
+      meaning: "giữ đại từ chỉ định chung ('thứ này' / 'món này') thay vì tự thêm 'chút quà này'"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000089"
+    locked:
+      names: "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN05/Text/part0010.html/p000090"
+    locked:
+      negation: "vốn chẳng bao giờ biết pha trò / Đó hoàn toàn chẳng phải là một dấu hiệu tốt lành gì"
+      emphasis: "*…Một người vốn chẳng bao giờ biết pha trò mà nay lại học được khiếu hài hước ư? Dù đó có là thứ khiếu hài hước dở tệ đi chăng nữa?* (theo DEC-P01-002, câu cuối ngoài dấu *...*)"
