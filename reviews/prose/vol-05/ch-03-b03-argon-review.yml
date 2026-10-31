@@ -1,0 +1,214 @@
+task_id: "vol-05-ch-03-b03-argon-review"
+parent_task_id: "vol-05-ch-03-b03"
+volume: "vol-05"
+chapter: 3
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-05/ch-03-b03-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN05/Text/part0018.html/p000058"
+    severity: "minor"
+    category: "tone_and_diction"
+    issue: "Thán từ mở đầu dịch là 'À à' dễ gợi sắc thái gật gù đã hiểu hơn là tiếng thở dài cảm thán đi với động từ 'lament' (buông tiếng than thở) khi nghe tin bàn ăn mất hẳn món cà phê."
+    rationale: "Trong ngữ cảnh Tanya tiếc nuối vì lệnh phong tỏa đường biển làm cạn kiệt cà phê, thán từ kéo dài mang sắc thái thở dài/than vãn; nên chỉnh lại thành âm cảm thán kéo dài tự nhiên để khớp với hành động than thở ở vế trần thuật."
+    proposed_fix: "Đổi '“À à,”' thành '“Aaa,”' hoặc '“À…”'."
+pending_term_recommendations:
+  - source_term: "rutabagas"
+    proposed_vi: "củ cải Thụy Điển"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nhất quán với mục đã ghi trong sổ pending của vol-05 cho loại củ được đưa vào khẩu phần định lượng."
+    alternatives_vi:
+      - "củ cải rutabaga"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000054"
+  - source_term: "ration system / ration list"
+    proposed_vi: "hệ thống phân phối theo định lượng / danh mục phân phối theo định lượng"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt rõ cơ chế phân phối lương thực thời chiến ở hậu phương mà không suy diễn thêm hình thức tem phiếu cụ thể."
+    alternatives_vi:
+      - "hệ thống khẩu phần định lượng / danh mục khẩu phần định lượng"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000054"
+      - "YS-LN05/Text/part0018.html/p000055"
+  - source_term: "Service Corps desk"
+    proposed_vi: "bàn làm việc của Cục Quân vụ"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Kết hợp tên cơ quan đã dùng ổn định trong sổ pending ('Cục Quân vụ') với cách dịch sát nghĩa cho bộ phận/bàn trực tại Bộ Tổng tham mưu."
+    alternatives_vi:
+      - "bộ phận thường trực của Cục Quân vụ"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000062"
+  - source_term: "war planner"
+    proposed_vi: "nhà hoạch định chiến tranh"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch sát nghĩa và tự nhiên để chỉ sĩ quan tham mưu cấp cao phụ trách hoạch định tác chiến như Tướng von Rudersdorf."
+    alternatives_vi:
+      - "người hoạch định chiến tranh"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000068"
+  - source_term: "White Wings Grand Iron Cross"
+    proposed_vi: "Đại Thập tự Sắt Cánh Trắng"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Dịch trực tiếp, chuẩn xác cấu trúc tên huân chương của Đế quốc và cho phép giữ đúng từ 'Đại' ('Grand') khi tách nhấn mạnh chữ đứng ở p000090."
+    alternatives_vi:
+      - "Huân chương Đại Thập tự Sắt Cánh Trắng"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000088"
+      - "YS-LN05/Text/part0018.html/p000090"
+  - source_term: "General Staff Military Intelligence Division"
+    proposed_vi: "Cục Tình báo Quân sự thuộc Bộ Tổng tham mưu"
+    category: "tên cơ quan"
+    status: "pending"
+    rationale: "Giữ sự đồng bộ với cách dịch 'Cục Tác chiến' ('Operations Division'), 'Cục Quân vụ' ('Service Corps') và 'Bộ Tổng tham mưu' ('General Staff') trong toàn bộ lô."
+    alternatives_vi:
+      - "Cục Tình báo Quân đội thuộc Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN05/Text/part0018.html/p000088"
+      - "YS-LN05/Text/part0018.html/p000090"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0018.html/p000053"
+    locked:
+      - "Trần thuật quy chiếu Uger bằng 'anh ta', giữ đúng giọng điệu mệt mỏi nói lên tất cả."
+  - segment_id: "YS-LN05/Text/part0018.html/p000054"
+    locked:
+      - "Thuật ngữ: 'hệ thống phân phối theo định lượng' (ration system), 'củ cải Thụy Điển' (rutabagas), 'củ cải' (turnip)."
+      - "Logic giới hạn: 'chỉ dừng lại ở mức đảm bảo lượng dinh dưỡng nạp vào' và phủ định 'chẳng có tiếng tăm gì về mặt hương vị'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000055"
+    locked:
+      - "Điểm nhìn & đại từ: nội tâm Tanya tự xưng 'Mình' theo DEC-P01-001; giữ giả định điều kiện 'Nếu một thứ như vậy mà cũng lọt vào danh mục phân phối theo định lượng…'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000056"
+    locked:
+      - "Thuật ngữ: 'các mặt hàng xa xỉ' (luxury items); giữ đúng câu hỏi trực diện của Tanya."
+  - segment_id: "YS-LN05/Text/part0018.html/p000057"
+    locked:
+      - "Thuật ngữ: 'Khối Thịnh vượng chung' (Commonwealth), 'cuộc phong tỏa đường biển' (naval blockade)."
+      - "Đại từ & tình thái: ngôi thứ nhất số nhiều 'chúng ta'; mức phỏng đoán 'Chắc chúng ta chẳng thể trông mong có nhiều'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000058"
+    locked:
+      - "Đại từ trần thuật chỉ Tanya: 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0018.html/p000059"
+    locked:
+      - "Đại từ nội tâm: 'Mình' theo DEC-P01-001."
+      - "Nhấn mạnh Markdown & phủ định: 'không đến mức *ghét*' khớp với nhấn mạnh một phần trong nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0018.html/p000060"
+    locked:
+      - "Giữ nhận định nội tâm về khía cạnh tàn nhẫn khác của chiến tranh, không gắn dấu nghiêng khi nguồn không in nghiêng."
+  - segment_id: "YS-LN05/Text/part0018.html/p000061"
+    locked:
+      - "Đại từ thoại: 'chúng ta'; giữ kỳ vọng trả đũa từ 'lực lượng tàu ngầm' (submarines)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000062"
+    locked:
+      - "Quân hàm & xưng hô: Uger gọi Tanya là 'Trung tá von Degurechaff' (Colonel von Degurechaff), xưng 'tôi - cô'."
+      - "Thuật ngữ: 'bàn làm việc của Cục Quân vụ' (Service Corps desk)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000063"
+    locked:
+      - "Xưng hô: Tanya xưng 'Tôi' với Uger; giữ câu hỏi xác nhận thời gian ở cuối lời thoại."
+  - segment_id: "YS-LN05/Text/part0018.html/p000064"
+    locked:
+      - "Đại từ trần thuật chỉ Tanya: 'nó' và sở hữu phản thân 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0018.html/p000065"
+    locked:
+      - "Xưng hô: Tanya gọi Uger là 'anh' (ngang cấp Trung tá, đồng nghiệp thân quen), giữ điều kiện 'nếu mọi chuyện suôn sẻ'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000066"
+    locked:
+      - "Đại từ trần thuật chỉ Tanya: 'nó' theo DEC-P01-001."
+      - "Thuật ngữ: 'hậu phương' (home front), 'Văn phòng Bộ Tổng tham mưu' (General Staff Office), 'Cục Tác chiến' (Operations Division)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000067"
+    locked:
+      - "Tên & quân hàm: 'Tanya', 'Tướng von Rudersdorf' (General von Rudersdorf)."
+      - "Đại từ trần thuật: 'mình' (phản thân) và 'nó' (sở hữu của Tanya) theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0018.html/p000068"
+    locked:
+      - "Thuật ngữ: 'nhà hoạch định chiến tranh' (war planner)."
+      - "Đại từ: 'ông ta' chỉ Rudersdorf; 'bạn' cho ngôi thứ hai khái quát giả định."
+  - segment_id: "YS-LN05/Text/part0018.html/p000069"
+    locked:
+      - "Quân hàm trong thoại: Rudersdorf gọi Tanya là 'Trung tá von Degurechaff' (Colonel von Degurechaff)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000070"
+    locked:
+      - "Xưng hô & thuật ngữ: Tanya đáp 'thưa Tướng quân' (sir), xưng 'tôi / chúng tôi'; giữ nguyên 'Kampfgruppe'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000071"
+    locked:
+      - "Xưng hô: Rudersdorf xưng 'tôi', gọi Tanya là 'cô', dùng 'chúng ta' khi nói về chủ trương chung đối với binh lính."
+  - segment_id: "YS-LN05/Text/part0018.html/p000072"
+    locked:
+      - "Xưng hô: Tanya xưng 'Tôi', gọi Rudersdorf là 'ngài, thưa Tướng quân'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000073"
+    locked:
+      - "Đại từ trần thuật: 'họ' chỉ hai người; giữ sắc thái tình thái 'dường như cho thấy' (seems to indicate)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000074"
+    locked:
+      - "Giữ câu nhận xét ngắn không in nghiêng theo đúng nguồn."
+  - segment_id: "YS-LN05/Text/part0018.html/p000075"
+    locked:
+      - "Tên & quân hàm: 'Tanya', 'Tướng von Rudersdorf'."
+      - "Nhấn mạnh Markdown: chỉ bọc '*...*' ở câu thứ hai theo đúng nguồn (DEC-P01-002)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000076"
+    locked:
+      - "Giữ câu hỏi nội tâm hòa giọng trần thuật không bọc '*...*' theo nguồn."
+  - segment_id: "YS-LN05/Text/part0018.html/p000077"
+    locked:
+      - "Quân hàm & xưng hô: 'Trung tá von Degurechaff', 'cô'."
+      - "Thuật ngữ: 'đạo quân chủ lực' (main army), 'mặt trận phía Đông' (eastern front), 'Kampfgruppe thử nghiệm' (experimental Kampfgruppe)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000078"
+    locked:
+      - "Nhấn mạnh Markdown: bọc toàn bộ câu cảm thán nội tâm trong '*...*' theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0018.html/p000079"
+    locked:
+      - "Đại từ trần thuật: 'nó' (Tanya), 'ông ta' (Rudersdorf)."
+      - "Giả định trái thực tế & tình thái: 'Nếu không biết tính cách thường ngày của ông ta ra sao, có lẽ nó đã cảm động rồi'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000080"
+    locked:
+      - "Nhấn mạnh Markdown & đại từ: bọc toàn bộ đoạn nội tâm trong '*...*' (DEC-P01-002); dùng 'Ông ta' và tự xưng 'mình' (DEC-P01-001)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000081"
+    locked:
+      - "Xưng hô: Tanya xưng 'Tôi', 'thưa Tướng quân'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000082"
+    locked:
+      - "Quân hàm & xưng hô: 'cô' (Tanya), 'Tướng von Zettour' (General von Zettour)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000083"
+    locked:
+      - "Đại từ trần thuật chỉ Tanya: 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN05/Text/part0018.html/p000084"
+    locked:
+      - "Giữ lời dặn của Rudersdorf yêu cầu Tanya nhận lấy chiếc hộp mà không từ chối/phản đối."
+  - segment_id: "YS-LN05/Text/part0018.html/p000085"
+    locked:
+      - "Xưng hô: 'Cảm ơn ngài, thưa Tướng quân'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000086"
+    locked:
+      - "Đại từ trần thuật: 'Ông ta' và 'nó'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000087"
+    locked:
+      - "Đại từ trần thuật: 'mình' (trong mệnh đề tự hỏi) và 'nó' (chủ ngữ trần thuật) theo DEC-P01-001; giữ câu hỏi bất ngờ ở cuối câu."
+  - segment_id: "YS-LN05/Text/part0018.html/p000088"
+    locked:
+      - "Thuật ngữ: 'Đại Thập tự Sắt Cánh Trắng' (White Wings Grand Iron Cross), 'Kampfgruppe', 'Cục Tình báo Quân sự thuộc Bộ Tổng tham mưu' (General Staff Military Intelligence Division)."
+      - "Xưng hô: 'của cô'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000089"
+    locked:
+      - "Xưng hô: Tanya tự xưng 'tôi', giữ nhịp ngập ngừng và cảm thán lễ phép."
+  - segment_id: "YS-LN05/Text/part0018.html/p000090"
+    locked:
+      - "Nhấn mạnh Markdown & thuật ngữ: giữ đúng cấu trúc tách chữ thường (reverse-italic emphasis) cho 'Cục Tình báo Quân sự thuộc Bộ Tổng tham mưu' và từ 'Đại' giữa các cụm bọc '*...*' theo DEC-P01-002."
+  - segment_id: "YS-LN05/Text/part0018.html/p000091"
+    locked:
+      - "Đại từ trần thuật: 'nó'; giữ cấu trúc giả định so sánh 'thà được tặng một quả lựu đạn cầm tay còn khiến nó cảm thấy yên tâm hơn'."
+  - segment_id: "YS-LN05/Text/part0018.html/p000092"
+    locked:
+      - "Thuật ngữ: 'Cục Tác chiến' (Operations Division), 'Văn phòng Bộ Tổng tham mưu' (General Staff Office)."
+  - segment_id: "YS-LN05/Text/part0018.html/p000093"
+    locked:
+      - "Nhấn mạnh Markdown: chỉ bọc '*Nhưng mà.*' ở câu đầu theo DEC-P01-002."
+      - "Đại từ & thuật ngữ: 'Tanya' / 'Nó'; 'tiền tuyến' (front lines), 'vùng đất không người' (no-man’s-land), 'mặt trận Rhine' (Rhine front)."
