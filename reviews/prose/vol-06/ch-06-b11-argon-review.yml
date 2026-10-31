@@ -1,0 +1,298 @@
+task_id: "vol-06-ch-06-b11-argon-review"
+parent_task_id: "vol-06-ch-06-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 6
+source_package: "work/vol-06/batches/ch-06-b11-source.jsonl"
+target_translation: "translations/vol-06/ch-06-b11.jsonl"
+output_review: "reviews/prose/vol-06/ch-06-b11-argon-review.yml"
+status: "completed"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 1
+  minor: 2
+findings:
+  - segment_id: "YS-LN06/Text/part0027.html/p000402"
+    severity: "moderate"
+    category: "nghĩa / cấu trúc mệnh đề quan hệ"
+    issue: "Ở câu thứ hai của lời thoại, bản dịch dịch thành ngữ nhận định về tính cách quen thuộc của người đối thoại ('you we’re talking about') thành 'Dù sao người đang nói chuyện đây cũng là ông cơ mà'. Cách dịch này biến tân ngữ của giới từ ('người mà chúng ta đang nói tới / tính cách của ông') thành chủ thể đang phát ngôn ('người đang nói chuyện đây'), làm lệch ý nhận xét của Rudersdorf về sự kỹ lưỡng vốn có của Zettour."
+    evidence: "Đối chiếu cấu trúc mệnh đề quan hệ rút gọn ở câu thứ hai trong p000402 và mạch lập luận tiếp nối sang điều kiện về nguồn quân tiếp viện."
+    recommendation: "Sửa lại cho đúng nghĩa nhận định về con người Zettour, chẳng hạn: '“Nhưng ông không tán thành nó. Dù sao đây cũng là ông cơ mà. Chắc hẳn còn kèm theo điều kiện *miễn là ông biết quân tiếp viện sẽ lấy từ đâu ra*, đúng không?”' hoặc '“…Dù sao người đang được nhắc tới ở đây cũng là ông cơ mà…”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000396"
+    severity: "minor"
+    category: "đại từ / liên kết quy chiếu"
+    issue: "Hai câu trong đoạn cùng quy chiếu một chủ thể nam ngôi thứ ba số ít ('he' và 'him'), nhưng bản dịch chuyển câu đầu thành đại từ phiếm chỉ 'người ta' còn câu sau dùng 'ông ta'. Do đoạn p000394 ngay trước đó đang dùng 'ông' để chỉ Zettour còn Rudersdorf ('ông ta') đã cách xa từ p000392, việc tách 'người ta' và 'ông ta' làm mạch quy chiếu trong đoạn hơi lỏng và dễ gây phân vân chủ thể."
+    evidence: "Đối chiếu cặp đại từ ngôi thứ ba trong hai câu của p000396 với mạch điểm nhìn từ p000394 đến p000397."
+    recommendation: "Giữ thống nhất đại từ quy chiếu ở cả hai câu trong p000396 (dùng 'ông' ở cả hai câu nếu hiểu theo điểm nhìn nội tâm của Zettour từ p000394–p000397, hoặc dùng 'ông ta' ở cả hai câu nếu quy chiếu Rudersdorf với tư cách chuyên gia tác chiến)."
+  - segment_id: "YS-LN06/Text/part0027.html/p000407"
+    severity: "minor"
+    category: "độ trung thành / thêm chi tiết giải thích"
+    issue: "Bản dịch thêm cụm 'mở hộp ra' ('chừng nào chưa mở hộp ra kiểm tra xem con mèo đã chết hay chưa') khi dịch ẩn dụ con mèo của Schrödinger, trong khi nguyên tác chỉ nêu hành động kiểm tra xem con mèo đã chết hay chưa."
+    evidence: "Đối chiếu mệnh đề trạng ngữ chỉ thời gian ở câu thứ tư của p000407 với quy tắc không tự thêm giải thích trong canon/style-guide.md."
+    recommendation: "Lược cụm giải thích thêm để bám sát nguyên tác: '“…Nhưng trong mọi chuyện, chừng nào chúng ta chưa kiểm tra xem con mèo đã chết hay chưa thì tương lai vẫn còn bất định…”'."
+pending_term_recommendations:
+  - source_term: "Zettour / Rudersdorf"
+    proposed_vi: "Zettour / Rudersdorf"
+    category: "nhân vật"
+    status: "proposed"
+    rationale: "Giữ nguyên tên riêng hai tướng lĩnh Zettour và Rudersdorf nhất quán với toàn bộ các batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000374"
+      - "YS-LN06/Text/part0027.html/p000375"
+      - "YS-LN06/Text/part0027.html/p000380"
+      - "YS-LN06/Text/part0027.html/p000381"
+      - "YS-LN06/Text/part0027.html/p000390"
+      - "YS-LN06/Text/part0027.html/p000391"
+      - "YS-LN06/Text/part0027.html/p000392"
+      - "YS-LN06/Text/part0027.html/p000394"
+      - "YS-LN06/Text/part0027.html/p000397"
+      - "YS-LN06/Text/part0027.html/p000401"
+      - "YS-LN06/Text/part0027.html/p000403"
+      - "YS-LN06/Text/part0027.html/p000407"
+      - "YS-LN06/Text/part0027.html/p000410"
+      - "YS-LN06/Text/part0027.html/p000412"
+      - "YS-LN06/Text/part0027.html/p000417"
+      - "YS-LN06/Text/part0027.html/p000419"
+  - source_term: "escaping forward / salient / bridgehead"
+    proposed_vi: "đào thoát về phía trước / mũi nhô / đầu cầu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Dịch sát nghĩa thuật ngữ chiến thuật 'escaping forward' (Flucht nach vorn) là 'đào thoát về phía trước', cùng các thuật ngữ địa hình tác chiến chuẩn 'salient' ('mũi nhô') và 'bridgehead' ('đầu cầu')."
+    alternatives_vi:
+      - "tiến công thoát hiểm"
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000376"
+      - "YS-LN06/Text/part0027.html/p000378"
+      - "YS-LN06/Text/part0027.html/p000380"
+  - source_term: "the Republic"
+    proposed_vi: "Cộng hòa"
+    category: "quốc gia"
+    status: "proposed"
+    rationale: "Kế thừa nhất quán 'Cộng hòa' từ sổ pending tập 1–6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000378"
+  - source_term: "Kingdom of Ildoa / Ildoa"
+    proposed_vi: "Vương quốc Ildoa / Ildoa"
+    category: "quốc gia"
+    status: "proposed"
+    rationale: "Kế thừa nhất quán 'Vương quốc Ildoa' và 'Ildoa' từ sổ pending tập 6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000379"
+      - "YS-LN06/Text/part0027.html/p000380"
+      - "YS-LN06/Text/part0027.html/p000384"
+      - "YS-LN06/Text/part0027.html/p000385"
+  - source_term: "Imperial Army / the Empire / Great Army"
+    proposed_vi: "Lục quân Đế quốc / Đế quốc / Đại Quân"
+    category: "quốc gia / tổ chức quân sự"
+    status: "proposed"
+    rationale: "Kế thừa nhất quán 'Lục quân Đế quốc', 'Đế quốc' và 'Đại Quân' từ sổ pending tập 1–6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000383"
+      - "YS-LN06/Text/part0027.html/p000384"
+      - "YS-LN06/Text/part0027.html/p000386"
+      - "YS-LN06/Text/part0027.html/p000393"
+      - "YS-LN06/Text/part0027.html/p000394"
+      - "YS-LN06/Text/part0027.html/p000413"
+  - source_term: "interior lines strategy / limited offensive"
+    proposed_vi: "chiến lược nội tuyến / cuộc tiến công giới hạn"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Kế thừa nhất quán 'chiến lược nội tuyến' và 'cuộc tiến công giới hạn' từ sổ pending tập 2–6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000386"
+      - "YS-LN06/Text/part0027.html/p000404"
+  - source_term: "Operations / operations specialist"
+    proposed_vi: "Cục Tác chiến / chuyên gia tác chiến"
+    category: "tổ chức quân sự / chức danh"
+    status: "proposed"
+    rationale: "Kế thừa 'Cục Tác chiến' từ sổ pending tập 1–6 và dịch tự nhiên 'operations specialist' là 'chuyên gia tác chiến'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000388"
+      - "YS-LN06/Text/part0027.html/p000390"
+      - "YS-LN06/Text/part0027.html/p000396"
+  - source_term: "Council for Self-Government / separatists / buffering state / buffer state"
+    proposed_vi: "Hội đồng Tự trị / phe ly khai / vùng đệm"
+    category: "tổ chức chính trị / thuật ngữ địa chính trị"
+    status: "proposed"
+    rationale: "Kế thừa 'Hội đồng Tự trị' và 'phe ly khai' từ sổ pending tập 6; 'buffering state / buffer state' dịch thống nhất ở p000405 và p000409 là 'vùng đệm' (có thể dùng 'quốc gia đệm / nhà nước đệm')."
+    alternatives_vi:
+      - "quốc gia đệm"
+      - "nhà nước đệm"
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000405"
+      - "YS-LN06/Text/part0027.html/p000408"
+      - "YS-LN06/Text/part0027.html/p000409"
+  - source_term: "the Communists / Communist Party / the party / Federation / Federation Army"
+    proposed_vi: "phía Cộng sản / Đảng Cộng sản / Đảng / Liên bang / Quân đội Liên bang"
+    category: "quốc gia / tổ chức chính trị – quân sự"
+    status: "proposed"
+    rationale: "Kế thừa nhất quán các định danh của Liên bang và Đảng Cộng sản từ sổ pending tập 4–6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000408"
+      - "YS-LN06/Text/part0027.html/p000410"
+      - "YS-LN06/Text/part0027.html/p000412"
+      - "YS-LN06/Text/part0027.html/p000413"
+      - "YS-LN06/Text/part0027.html/p000414"
+      - "YS-LN06/Text/part0027.html/p000418"
+  - source_term: "fatherland / Heimat / mother earth"
+    proposed_vi: "tổ quốc / quê hương bản quán / đất mẹ"
+    category: "thuật ngữ chính trị – văn hóa"
+    status: "proposed"
+    rationale: "Kế thừa 'tổ quốc' ('fatherland') và 'quê hương bản quán' ('Heimat') từ sổ pending tập 6; phân biệt rõ ba sắc thái 'tổ quốc', 'quê hương bản quán' và 'đất mẹ' trong p000415–p000416."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0027.html/p000415"
+      - "YS-LN06/Text/part0027.html/p000416"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0027.html/p000374"
+    choices:
+      - "Nhấn mạnh Markdown & nghĩa: chỉ bọc '*chỉ*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; giữ cấu trúc đối lập giữa hai câu ('rất hợp lý về mặt quân sự' / 'nó *chỉ* hợp lý về mặt quân sự mà thôi')."
+  - segment_id: "YS-LN06/Text/part0027.html/p000375"
+    choices:
+      - "Điểm nhìn, đại từ trần thuật & phủ định: dùng 'Ông / mình' chỉ Zettour và 'người bạn đáng kính này / ông ta' chỉ Rudersdorf; giữ phủ định giảm nhẹ 'dù thực ra không hẳn là cần thiết' và phủ định 'không sao rũ bỏ được cảm giác rằng đôi khi ông ta hơi quá táo bạo'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000376"
+    choices:
+      - "Thuật ngữ, đại từ thoại & điều kiện: Zettour xưng 'Tôi', gộp chung 'chúng ta'; 'Escaping forward' -> 'Đào thoát về phía trước'; 'impulsive salient' -> 'một mũi nhô liều lĩnh'; giữ hai mệnh đề điều kiện đối lập và hệ quả tình thái 'khéo chúng ta sẽ vì nỗi sợ hãi mà tự đẩy mình đến chỗ chết sớm mất'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000377"
+    choices:
+      - "Xưng hô trong thoại: Rudersdorf xưng 'Tôi', gọi Zettour là 'ông' ('“Tôi hiểu nỗi lo của ông.”')."
+  - segment_id: "YS-LN06/Text/part0027.html/p000378"
+    choices:
+      - "Thuật ngữ & quan hệ nhân quả: 'initiative' -> 'quyền chủ động'; 'the Republic' -> 'Cộng hòa'; 'escaping forward' -> 'kế sách đào thoát về phía trước'; giữ lý do 'phát huy tác dụng là nhờ yếu tố bất ngờ'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000379"
+    choices:
+      - "Thuật ngữ, tình thái & cách chơi chữ: 'Kingdom of Ildoa' -> 'Vương quốc Ildoa'; 'preemptive attack' -> 'đòn tấn công phủ đầu'; giữ tình thái 'có lẽ đã chuẩn bị sẵn sàng' và cách chơi chữ 'một cuộc tập kích bất ngờ đã mất đi chữ “bất ngờ” là một canh bạc'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000380"
+    choices:
+      - "Thuật ngữ, điều kiện & tình thái: 'Ildoa' -> 'Ildoa'; 'bridgehead' -> 'đầu cầu'; giữ thái độ 'bực bội nói' và điều kiện 'nếu chúng ta cứ mặc kệ Ildoa, nơi đó có thể biến thành một đầu cầu mất'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000381"
+    choices:
+      - "Trần thuật: giữ 'Sau một thoáng trầm ngâm suy nghĩ, Zettour bất giác gật đầu.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000382"
+    choices:
+      - "Điều kiện phủ định & thuật ngữ: giữ điều kiện 'trừ phi nắm thóp được điểm yếu của kẻ địch' và hệ quả 'cái giá phải trả cho những đòn tấn công chính diện sẽ là quá đắt'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000383"
+    choices:
+      - "Thuật ngữ & tình thái: 'Imperial Army’s southern area' -> 'Khu vực phía nam của Lục quân Đế quốc'; giữ tình thái 'có thể coi là điểm yếu ở đây'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000384"
+    choices:
+      - "Thuật ngữ & phủ định: giữ 'Đế quốc và Ildoa' và câu phủ định 'Nói thẳng ra là chẳng có mối đe dọa xâm lấn nào.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000385"
+    choices:
+      - "Nghĩa: giữ 'Phòng tuyến đối diện với Ildoa rất mỏng manh.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000386"
+    choices:
+      - "Thuật ngữ & giới hạn mục tiêu: 'prewar interior lines strategy' -> 'chiến lược nội tuyến thời tiền chiến'; 'Great Army' -> 'Đại Quân'; giữ giới hạn 'tất cả những gì lực lượng dưới đó cần làm là cầm cự cho đến khi Đại Quân kịp tới nơi'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000387"
+    choices:
+      - "Phủ định quá khứ: giữ 'Người ta chưa bao giờ kỳ vọng họ sẽ tự mình đẩy lùi được quân địch.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000388"
+    choices:
+      - "Thuật ngữ: 'Operations' -> 'Cục Tác chiến'; giữ dự báo 'quân tiếp viện nước ngoài sẽ ồ ạt đổ tới qua đường biển'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000389"
+    choices:
+      - "Nhấn mạnh Markdown & độc thoại đáp trả: bọc toàn câu '*Tôi biết chuyện đó.*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0027.html/p000390"
+    choices:
+      - "Phủ định, thuật ngữ & đại từ: 'Operations' -> 'Cục Tác chiến'; dùng 'mình / ông' chỉ Zettour; giữ phủ định 'Zettour chẳng cần một người bên Cục Tác chiến phải vênh váo chỉ ra dự báo đó cho mình'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000391"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & câu hỏi ánh mắt: dùng 'Ông' chỉ Zettour; chỉ bọc '*Các ông không có ý kiến nào hay hơn sao?*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0027.html/p000392"
+    choices:
+      - "Đại từ & phủ định kép: dùng 'ông' chỉ Zettour; giữ 'niềm hy vọng viển vông' và cấu trúc phủ định kép 'không thể tiếp tục chịu đựng nếu không nhét một điếu xì gà vào miệng để nuốt ngược những lời chửi thề vào trong'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000393"
+    choices:
+      - "Điều kiện phủ định & câu hỏi đuôi: giữ '“Nếu chúng ta không làm gì cả, Đế quốc sẽ suy yếu dần như thể mắc bệnh ung thư, hử?”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000394"
+    choices:
+      - "Thuật ngữ, điều kiện & phủ định: giữ 'miền nam Đế quốc', 'Lục quân Đế quốc' và mệnh đề phủ định 'những chiến dịch viễn chinh chưa từng được lên kế hoạch trước trên nhiều mặt trận'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000395"
+    choices:
+      - "Phủ định & khả năng: giữ 'Họ phải chấp nhận rằng mình sẽ không thể giữ vững phòng tuyến được bao lâu và nguy cơ sụp đổ là hoàn toàn có thật.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000396"
+    choices:
+      - "Thuật ngữ & phủ định (lưu ý thống nhất đại từ theo finding minor): giữ 'các biện pháp phòng ngừa', 'chuyên gia tác chiến' và 'ra tay ngay lập tức không chút chậm trễ'; thống nhất đại từ giữa hai câu."
+  - segment_id: "YS-LN06/Text/part0027.html/p000397"
+    choices:
+      - "Phủ định kép: giữ 'Zettour không thể phủ nhận rằng sự do dự của mình thật yếu đuối.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000398"
+    choices:
+      - "Đại từ khái quát & nhượng bộ phủ định: dùng 'ta' cho ngôi khái quát trong lời Zettour; giữ 'buộc phải chọn phương án ít tồi tệ nhất dù biết rõ nó chẳng phải là tối ưu'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000399"
+    choices:
+      - "Câu hỏi ngắn: giữ '“Nói cách khác là?”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000400"
+    choices:
+      - "Phủ định & đối lập mục đích: Zettour xưng 'Tôi'; giữ '“Tôi không thể từ chối một kế hoạch mang tính tiến công nhằm mục đích phòng ngự.”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000401"
+    choices:
+      - "Điểm nhìn & trần thuật: dùng 'ông' chỉ Zettour; giữ 'Qua khóe mắt, ông thấy Rudersdorf đang nở một nụ cười chua chát.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000402"
+    choices:
+      - "Nhấn mạnh Markdown, phủ định & xưng hô (cần sửa câu thứ hai theo finding moderate): Rudersdorf gọi Zettour là 'ông'; giữ phủ định 'Nhưng ông không tán thành nó', sửa câu thứ hai thành 'Dù sao đây cũng là ông cơ mà', và chỉ bọc '*miễn là ông biết quân tiếp viện sẽ lấy từ đâu ra*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002."
+  - segment_id: "YS-LN06/Text/part0027.html/p000403"
+    choices:
+      - "Thoại xác nhận: giữ '“Đúng vậy.” Zettour gật đầu.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000404"
+    choices:
+      - "Thuật ngữ & điều kiện giới hạn: 'limited offensive' -> 'cuộc tiến công giới hạn'; giữ điều kiện 'chỉ có thể tiến hành... khi nó gắn kết được với những bước tiếp theo'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000405"
+    choices:
+      - "Thuật ngữ & tình thái: 'Council for Self-Government' -> 'Hội đồng Tự trị'; 'buffering state' -> 'vùng đệm'; giữ tình thái 'cũng có thể là các phương án'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000406"
+    choices:
+      - "Phủ định thẳng thừng: giữ '“Không, không thể nào đâu.”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000407"
+    choices:
+      - "Xưng hô, ẩn dụ & phủ định (lưu ý lược cụm thêm theo finding minor): Zettour xưng 'tôi', gộp chung 'chúng ta / ta'; giữ ẩn dụ con mèo và mệnh đề phủ định cuối câu 'số phương án thay thế mà ta không tự tay loại bỏ mà thôi'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000408"
+    choices:
+      - "Thuật ngữ, xưng hô & câu hỏi: Rudersdorf gọi Zettour là 'ông'; 'the Communists' -> 'phía Cộng sản'; 'the separatists' -> 'phe ly khai'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000409"
+    choices:
+      - "Thuật ngữ & xưng hô: 'buffer state' -> 'vùng đệm' (thống nhất với p000405); Zettour gọi Rudersdorf là 'ông'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000410"
+    choices:
+      - "Thuật ngữ & câu hỏi nghi vấn: 'Federation’s nationalism' -> 'chủ nghĩa dân tộc của Liên bang'; giữ câu hỏi '“…Liệu chủ nghĩa dân tộc của Liên bang có cho phép chuyện đó không?”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000411"
+    choices:
+      - "Trần thuật đánh giá: giữ 'Đó là một nhận xét rất sắc bén.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000412"
+    choices:
+      - "Nhấn mạnh Markdown, tình thái & phủ định: chỉ bọc '*Người dân Liên bang*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; giữ hai lần tình thái 'Có lẽ' và phủ định 'sẽ không cho phép chuyện đó đâu'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000413"
+    choices:
+      - "Thuật ngữ, đại từ & ẩn dụ: dùng 'ông' chỉ Zettour; giữ ẩn dụ 'con quái vật mang tên chủ nghĩa dân tộc' và các định danh 'Đảng Cộng sản', 'Quân đội Liên bang', 'quân Đế quốc xâm lược'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000414"
+    choices:
+      - "Thuật ngữ: giữ 'Sự dung hợp giữa tuyên truyền và chủ nghĩa dân tộc', 'phe chống đối chế độ' và 'dưới ngọn cờ của Đảng'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000415"
+    choices:
+      - "Thuật ngữ & phủ định: 'fatherland' -> 'tổ quốc'; giữ phủ định 'Lòng yêu tổ quốc vốn chẳng hề tuân theo logic.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000416"
+    choices:
+      - "Thuật ngữ & nhượng bộ: 'Heimat' -> 'quê hương bản quán'; 'mother earth' -> 'đất mẹ'; giữ cấu trúc nhượng bộ 'Dù có bao nhiêu máu phải đổ xuống đất mẹ đi chăng nữa, chắc chắn họ vẫn sẽ kiên quyết bám trụ lấy mảnh đất ấy.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000417"
+    choices:
+      - "Trần thuật & thoại ngắt quãng: giữ 'Rudersdorf vừa định phản bác—“Vậy thì”—Zettour đã nói tiếp thêm một câu.'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000418"
+    choices:
+      - "Nhấn mạnh Markdown & tình thái đối lập: chỉ bọc '*Đảng Cộng sản thì có thể đấy*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002, tạo thế đối lập trực tiếp với '*Người dân Liên bang*' ở p000412."
+  - segment_id: "YS-LN06/Text/part0027.html/p000419"
+    choices:
+      - "Xưng hô & câu hỏi cảm thán: giữ '“Hả? Ông điên rồi sao, Zettour?”'."
+  - segment_id: "YS-LN06/Text/part0027.html/p000420"
+    choices:
+      - "Đại từ thoại & khẳng định: giữ '“Ồ, tôi hoàn toàn tỉnh táo đấy chứ.”'."
