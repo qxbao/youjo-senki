@@ -27,8 +27,8 @@ canon_references:
 source_manifest: segments/vol-06/manifest.yml
 source_package: work/vol-06/batches/ch-08-b01-source.jsonl
 source_package_sha256: c790636669c2f4716f274f1562f37e02ed706796e20633e5c990a3818e67b7c6
-translation_editor: codex-coordinator
-status: ready
+translation_editor: ys-coord-stream-3
+status: polished
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -44,3 +44,17 @@ planning:
   boundary_after: chapter_end
   word_count_exception: Giữ ranh giới cấu trúc hoặc kết thúc chương khi không có cách
     chia toàn chương đạt ngưỡng mà vẫn giữ ngữ cảnh pilot.
+lease:
+  holder: ys-coord-stream-3
+  task_id: vol-06-ch-08-b01
+  role: coordinator
+  state: completed
+  allowlist:
+  - translations/vol-06/ch-08-b01.jsonl
+polish_promotion:
+  result: promoted
+  task_id: vol-06-ch-08-b01
+  segment_count: 13
+  baseline_sha256: 3ccc5a888161e7aa8e3782c190b2756b7ac9e9a545eb939cb5d33a84c00b9d2b
+  candidate_sha256: aa87fd5f21c77a4256434cbe8daff8cd49affae66d9811b0004b55d9e0bdf3b1
+  receipt_sha256: 620abeb3581d5762890cd4859cf793af5186c04fd8f3e6032eff3e43a64c25a0

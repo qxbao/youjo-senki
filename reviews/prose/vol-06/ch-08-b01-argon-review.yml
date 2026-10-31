@@ -1,0 +1,108 @@
+task_id: "vol-06-ch-08-b01-argon-review"
+parent_task_id: "vol-06-ch-08-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 8
+source_package: "work/vol-06/batches/ch-08-b01-source.jsonl"
+target_translation: "translations/vol-06/ch-08-b01.jsonl"
+review_path: "reviews/prose/vol-06/ch-08-b01-argon-review.yml"
+status: "completed"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "Carlo Zen"
+    proposed_vi: "Carlo Zen"
+    category: "tên riêng"
+    status: "proposed"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN06/Text/part0032.html/p000001"
+      - "YS-LN06/Text/part0032.html/p000013"
+    rationale: "Kế thừa nhất quán bút danh tác giả từ lời bạt các tập trước."
+    alternatives_vi: []
+  - source_term: "Kadokawa Enterbrain / Enterbrain"
+    proposed_vi: "Kadokawa Enterbrain / Enterbrain"
+    category: "tên tổ chức / nhà xuất bản"
+    status: "proposed"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN06/Text/part0032.html/p000002"
+      - "YS-LN06/Text/part0032.html/p000007"
+    rationale: "Giữ nguyên tên nhà xuất bản theo sổ pending từ tập 5."
+    alternatives_vi: []
+  - source_term: "hallucination / mass hallucination"
+    proposed_vi: "ảo giác / cơn ảo giác tập thể"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN06/Text/part0032.html/p000003"
+    rationale: "Kế thừa phương án tạm 'ảo giác' cho 'hallucination' trong canon/glossary-pending.yml (P05-hallucination), kết hợp thành 'cơn ảo giác tập thể' tự nhiên trong ngữ cảnh lời bạt."
+    alternatives_vi: []
+  - source_term: "Tojo"
+    proposed_vi: "Tojo"
+    category: "tên riêng"
+    status: "proposed"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN06/Text/part0032.html/p000006"
+    rationale: "Giữ nguyên họ của họa sĩ chuyển thể manga (Chika Tojo) thống nhất với lời bạt tập 5."
+    alternatives_vi: []
+  - source_term: "Tsubakiya Design / Tokyo Publishing Service Center / Fujita / Shinotsuki"
+    proposed_vi: "Tsubakiya Design / Tokyo Publishing Service Center / Fujita / Shinotsuki"
+    category: "tên riêng / đơn vị xuất bản"
+    status: "proposed"
+    uncertainty: "low"
+    segment_ids:
+      - "YS-LN06/Text/part0032.html/p000004"
+      - "YS-LN06/Text/part0032.html/p000005"
+      - "YS-LN06/Text/part0032.html/p000010"
+    rationale: "Giữ nguyên tên các đơn vị thiết kế, hiệu đính, biên tập viên Fujita và họa sĩ minh họa Shinotsuki trong lời bạt như ở tập 5."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0032.html/p000001"
+    choices:
+      - "Điểm nhìn & xưng hô: tác giả Carlo Zen tự xưng 'Tôi' và gọi độc giả là 'các bạn'; 'Volume 6' -> 'Tập 6'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000002"
+    choices:
+      - "Xưng hô, phủ định & tên riêng: giữ phủ định 'không chờ đợi mà mua một lèo toàn bộ các tập tính đến Tập 6'; 'heroes among heroes at Kadokawa Enterbrain' -> 'những anh hùng trong các bậc anh hùng tại Kadokawa Enterbrain'; tác giả xưng 'tôi'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000003"
+    choices:
+      - "Thuật ngữ, tình thái & đại từ: 'probably' -> 'chắc là'; 'mass hallucination' -> 'cơn ảo giác tập thể' (khớp P05-hallucination); đại từ gộp tác giả và độc giả dùng 'tất cả chúng ta'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000004"
+    choices:
+      - "Cấu trúc song hành & chức danh: giữ cấu trúc điệp 'yêu caffeine hơn tất thảy... yêu thịt hơn tất thảy... yêu gyoza hơn tất thảy'; 'my editor Fujita' -> 'biên tập viên Fujita của tôi'; 'illustrator Shinotsuki' -> 'họa sĩ minh họa Shinotsuki'; 'gyoza joint' -> 'quán gyoza'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000005"
+    choices:
+      - "Thoại, xưng hô & phủ định: câu hỏi của Shinotsuki với biên tập viên dùng đại từ lịch sự 'Anh'; 'asked incisively' -> 'hỏi xoáy vào trọng tâm'; câu đáp phủ định dứt khoát của Fujita dịch là 'Tiếc là không đâu!'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000006"
+    choices:
+      - "Quan hệ đối lập, tình thái & thuật ngữ: giữ quan hệ chuyển ý 'Ấy vậy mà giờ đây'; 'seems like a fait accompli' -> 'xem chừng đã là chuyện ván đã đóng thuyền'; 'Tojo' -> 'Tojo'; 'serializing a wonderful manga' -> 'đăng dài kỳ một bộ manga tuyệt vời'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000007"
+    choices:
+      - "Câu hỏi phỏng đoán & tên riêng: giữ sắc thái nghi vấn hài hước 'Phải chăng vị anh hùng Enterbrain đã trở nên mạnh mẽ hơn nữa rồi?'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000008"
+    choices:
+      - "Phủ định, đại từ & điển cố: tác giả xưng 'tôi' và tự quy chiếu bằng 'mình' ở mệnh đề phụ; giữ phủ định 'chưa bao giờ tưởng tượng nổi'; dịch chú thích trong ngoặc đơn là '(Biết đâu đây chỉ là giấc mộng hồ điệp.)'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000009"
+    choices:
+      - "Phủ định, tình thái & đại từ: 'fiction’s greatest rival' -> 'kỳ phùng địch thủ lớn nhất của hư cấu'; giữ phủ định 'không còn bất ngờ trước bất cứ điều gì nữa' và tình thái 'có lẽ' cùng đại từ 'chúng ta'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000010"
+    choices:
+      - "Chức danh & tên riêng: 'designers at Tsubakiya Design' -> 'các nhà thiết kế tại Tsubakiya Design'; 'proofreaders at Tokyo Publishing Service Center' -> 'đội ngũ hiệu đính tại Tokyo Publishing Service Center'; 'my editor Fujita' -> 'biên tập viên Fujita của tôi'; 'illustrator Shinotsuki' -> 'họa sĩ minh họa Shinotsuki'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000011"
+    choices:
+      - "Đại từ & mức độ: tác giả xưng 'tôi' và dùng 'chúng tôi' cho tập thể thực hiện tác phẩm; giữ quan hệ mức độ 'đến mức tác phẩm có thể được chuyển thể thành anime!'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000012"
+    choices:
+      - "Xưng hô kết lời bạt: dịch thống nhất với các tập trước 'Hy vọng sẽ được gặp lại các bạn vào lần tới.'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN06/Text/part0032.html/p000013"
+    choices:
+      - "Định dạng ngày tháng & ký tên: dịch thống nhất với các tập trước 'Tháng 7 năm 2016 Carlo Zen'; không có nhấn mạnh Markdown."
