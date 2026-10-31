@@ -1,0 +1,328 @@
+task_id: "vol-05-ch-01-b16-argon-review"
+parent_task_id: "vol-05-ch-01-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b16-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b16.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b16-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000543"
+    severity: "minor"
+    category: "pronouns_voice"
+    issue: "Lời thoại mở đầu bằng 'Mình hiểu chúng ta đang ở trên lãnh thổ địch...' khiến câu nói thành tiếng hơi giống độc thoại nội tâm (do DEC-P01-001 quy ước 'mình' cho nội tâm tự quy chiếu của Tanya)."
+    rationale: "Ở đoạn p000541–p000543, Tanya đang càu nhàu thành tiếng sau cuộc tập kích vào sở chỉ huy trước khi ra lệnh trực tiếp cho binh lính ở p000548; trong lời nói thành tiếng, lược chủ ngữ hoặc dùng 'Tôi' sẽ tách bạch rõ hơn với dòng độc thoại nội tâm ở p000542 và p000544."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'Tôi hiểu là chúng ta đang ở trên lãnh thổ địch...' hoặc 'Biết là chúng ta đang ở trên lãnh thổ địch...'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000544"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Cụm 'đã nghĩ ra hai chữ *khu vực phi chiến sự* và *vùng hậu phương*' dùng 'hai chữ' để chỉ hai cụm thuật ngữ dài nhiều âm tiết."
+    rationale: "Trong tiếng Việt, 'hai chữ' thường chỉ một từ ghép hai âm tiết; khi đi kèm hai cụm từ dài ('khu vực phi chiến sự' và 'vùng hậu phương'), cách gọi 'hai cụm từ' hoặc 'hai khái niệm' sẽ tự nhiên và chuẩn xác hơn."
+    recommendation: "Đổi 'hai chữ' thành 'hai cụm từ' hoặc 'hai khái niệm' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "Rhine front"
+    proposed_vi: "mặt trận Rhine"
+    category: "địa danh / chiến trường"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Rhine lines / Rhine front -> phòng tuyến Rhine / mặt trận Rhine' trong sổ pending từ Tập 2–5."
+    alternatives_vi:
+      - "chiến tuyến Rhine"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000539"
+  - source_term: "headquarters / HQ"
+    proposed_vi: "sở chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'headquarters / HQ / command post -> sở chỉ huy' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "ban chỉ huy"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000542"
+      - "YS-LN05/Text/part0010.html/p000562"
+      - "YS-LN05/Text/part0010.html/p000575"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía Đông"
+    category: "địa danh / chiến trường"
+    status: "pending"
+    rationale: "Nhất quán với mục 'eastern front / western front -> mặt trận phía Đông / mặt trận phía Tây' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000544"
+  - source_term: "Federation / Federation Army"
+    proposed_vi: "Liên bang / Quân đội Liên bang"
+    category: "tên quốc gia / tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Federation -> Liên bang' và 'Federation Army -> Quân đội Liên bang' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000544"
+      - "YS-LN05/Text/part0010.html/p000570"
+  - source_term: "noncombat zone / rear area"
+    proposed_vi: "khu vực phi chiến sự / vùng hậu phương"
+    category: "thuật ngữ quân sự – pháp lý"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác hai khái niệm pháp lý – quân sự được nhấn mạnh trong câu mỉa mai của Tanya."
+    alternatives_vi:
+      - "vùng phi chiến sự / khu vực hậu phương"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000544"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Cấp dưới gọi tắt quân hàm Lieutenant Colonel là Colonel; dịch là 'Trung tá' để khớp đúng quân hàm hiện tại của Tanya trong Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000551"
+      - "YS-LN05/Text/part0010.html/p000557"
+  - source_term: "battle of attrition"
+    proposed_vi: "trận chiến tiêu hao"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với mục 'war of attrition -> cuộc chiến tiêu hao' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "cuộc chiến tiêu hao"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000554"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Salamander Kampfgruppe / Kampfgruppe' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000555"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Major Weiss -> Thiếu tá Weiss' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000565"
+      - "YS-LN05/Text/part0010.html/p000574"
+  - source_term: "vice commander"
+    proposed_vi: "phó chỉ huy"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'deputy commander / vice commander -> phó chỉ huy' trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000569"
+  - source_term: "salient"
+    proposed_vi: "mũi lồi"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'salients -> những mũi lồi' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000573"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000539"
+    choices:
+      - "Rhine front -> mặt trận Rhine"
+      - "close-quarters combat -> giao chiến tầm gần"
+      - "charging trenches -> xung phong đánh chiếm chiến hào"
+      - "POV/pronouns -> nội tâm dùng 'chúng ta' cho phía Đế quốc; lược đại từ ở 'Nói một cách cực đoan thì...'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000540"
+    choices:
+      - "barbarization of warfare -> sự man rợ hóa chiến tranh"
+      - "violence at close quarters -> Bạo lực ở cự ly gần"
+      - "condition -> Nếu đây là sự man rợ hóa chiến tranh thì… thật đáng tiếc"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000541"
+    choices:
+      - "tone -> lời than thở cảm thán 'Trời đất… lần này tệ thật đấy.'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000542"
+    choices:
+      - "POV/pronouns -> câu đầu trần thuật giữ tên riêng 'Tanya'; câu sau chuyển sang độc thoại nội tâm tự quy chiếu dùng 'Mình'/'mình' theo DEC-P01-001"
+      - "headquarters / enemy HQ -> sở chỉ huy / sở chỉ huy của địch"
+      - "negation -> hoàn toàn không có hứng thú trở thành bên phải hứng chịu chuyện đó"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000543"
+    choices:
+      - "pronouns -> chúng ta (chỉ đơn vị Đế quốc trên lãnh thổ địch)"
+      - "enemy territory -> lãnh thổ địch"
+      - "negation_and_prediction -> thực sự chẳng tài nào nghỉ ngơi được chút nào cả; Cứ đà này thì chúng ta sẽ gục ngã vì kiệt sức mất"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000544"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001 và 'chúng ta' cho quân Đế quốc"
+      - "eastern front -> mặt trận phía Đông"
+      - "Federation soil -> đất Liên bang"
+      - "emphasis -> chỉ bọc '*khu vực phi chiến sự*' và '*vùng hậu phương*' đúng theo chữ nghiêng của nguồn và DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0010.html/p000545"
+    choices:
+      - "pronouns -> chúng ta"
+      - "reports or stats -> các báo cáo hay số liệu thống kê"
+      - "contrast -> có thể không hiện rõ trên các báo cáo hay số liệu thống kê của chúng ta, nhưng nó vẫn từng chút một bào mòn khả năng tiếp tục chiến đấu của binh lính"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000546"
+    choices:
+      - "negation_and_logic -> Không, chẳng riêng gì quân đội; sẽ chẳng còn dư địa nào để bọc lót cho lỗi lầm của từng cá nhân nữa"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000547"
+    choices:
+      - "causality -> Một khi đã đến mức đó, thứ duy nhất chờ đợi phía trước là sự diệt vong"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000548"
+    choices:
+      - "directives -> Hãy quay lại nghỉ ngơi càng sớm càng tốt. Tất cả những ai không trong ca trực đều phải khẩn trương đi nghỉ ngay"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000549"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000550"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'Cô' cho Tanya và 'Họ' cho con người/binh lính"
+      - "negation_and_condition -> Con người không phải là cỗ máy; nếu sức khỏe của binh lính không được chăm lo chu đáo, thảm họa sẽ là điều không thể tránh khỏi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000551"
+    choices:
+      - "Colonel -> Trung tá"
+      - "lookouts -> người cảnh giới"
+      - "question_target -> câu hỏi đề xuất tăng cường cảnh giới của sĩ quan thuộc cấp"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000552"
+    choices:
+      - "pronouns -> Tôi - chúng ta"
+      - "guards -> lính gác"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000553"
+    choices:
+      - "tone -> câu lưỡng lự 'Mới chỉ có vài ngày thôi mà…'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000554"
+    choices:
+      - "Gentlemen -> Thưa các vị"
+      - "battle of attrition -> trận chiến tiêu hao"
+      - "concession -> dù mới chỉ vài ngày trôi qua, chúng ta vẫn đang đánh một trận chiến tiêu hao đấy"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000555"
+    choices:
+      - "POV/pronouns -> nội tâm tự quy chiếu của Tanya dùng 'mình'/'Mình' theo DEC-P01-001"
+      - "Kampfgruppe’s human attrition -> mức độ tiêu hao nhân lực của Kampfgruppe"
+      - "frontline service -> phục vụ ở tiền tuyến"
+      - "question_target -> giữ hai câu hỏi nội tâm: 'Đó là nghiên cứu của Mỹ phải không nhỉ?' và '...ai mà biết được mọi chuyện sẽ ra sao nếu trận chiến này cứ thế kéo dài?'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000556"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'; lời thoại dùng 'các anh' - 'mình'"
+      - "sense of crisis -> ý thức khủng hoảng"
+      - "pay grade -> bậc lương"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000557"
+    choices:
+      - "Understood, Colonel -> Rõ, thưa Trung tá"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000558"
+    choices:
+      - "POV/pronouns -> trần thuật dùng 'Cô' cho Tanya và 'họ' cho các sĩ quan"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000559"
+    choices:
+      - "emphasis -> bọc '*Nói thì nói vậy…*' cho toàn bộ đoạn in nghiêng theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0010.html/p000560"
+    choices:
+      - "Commanders—officers -> Cấp chỉ huy—tức các sĩ quan"
+      - "negation -> chẳng phải là câu chuyện lấy gì làm vui vẻ cho cam"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000561"
+    choices:
+      - "sound sleep -> giấc ngủ ngon"
+      - "repelling an attack -> đẩy lùi một đợt tập kích"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000562"
+    choices:
+      - "HQ -> sở chỉ huy"
+      - "concession -> rà soát lại tình hình bất chấp vẻ tiều tụy hiện rõ trên gương mặt"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000563"
+    choices:
+      - "parallel_structure -> Một căn phòng nhỏ, một chiếc bàn chật hẹp và ánh sáng tù mù"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000564"
+    choices:
+      - "career soldier -> quân nhân chuyên nghiệp"
+      - "war room -> phòng họp tác chiến"
+      - "negation_and_condition -> điều quan trọng đối với một quân nhân chuyên nghiệp không phải là một phòng họp tác chiến tiện nghi. Chỉ cần dùng được là ổn rồi"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000565"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000566"
+    choices:
+      - "evaluation -> Đợt tấn công này quá cẩu thả"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000567"
+    choices:
+      - "dawn attack -> cuộc tập kích lúc rạng đông"
+      - "single regiment -> một trung đoàn đơn lẻ"
+      - "counterattack -> cuộc phản kích"
+      - "pronouns -> chúng (quân địch) - chúng ta (quân Đế quốc)"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000568"
+    choices:
+      - "counterattack -> đợt phản kích"
+      - "contrast_and_negation -> quân địch có ý định mở một đợt phản kích nghiêm túc… nhưng chúng lại chẳng mấy gắn kết"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000569"
+    choices:
+      - "pronouns -> Tôi (Weiss phát biểu) - anh ta (trần thuật/nội tâm nhắc tới Weiss)"
+      - "Tanya’s vice commander -> Vị phó chỉ huy của Tanya"
+      - "hastily assembled unit -> đơn vị được tập hợp vội vã"
+      - "modality -> Tôi phỏng đoán... và có lẽ anh ta nói đúng"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000570"
+    choices:
+      - "Federation Army -> Quân đội Liên bang"
+      - "attack at dawn -> cuộc tập kích hiệu quả lúc rạng đông"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000571"
+    choices:
+      - "modality -> Thông thường thì đó sẽ là một tin tốt"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000572"
+    choices:
+      - "POV/pronouns -> trần thuật giữ tên riêng 'Tanya'"
+      - "youthful voice -> chất giọng non nớt"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000573"
+    choices:
+      - "pronouns -> chúng ta - đám người này / Chúng"
+      - "crops raised out of season -> hoa màu trồng trái vụ"
+      - "salient -> mũi lồi"
+      - "condition_and_negation -> Nếu chỉ riêng một mũi lồi này đã khó nhằn đến thế thì chúng ta sẽ chẳng thể quá tự tin vào những gì sắp tới được đâu"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000574"
+    choices:
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "pronouns -> chúng ta"
+      - "modality_and_contrast -> Nhận xét ban nãy của Thiếu tá Weiss có thể đúng, nhưng… có lẽ quân địch đã cố tình dàn dựng sự yếu kém bề ngoài trong khâu phối hợp đó để đánh lừa chúng ta"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000575"
+    choices:
+      - "impromptu force -> lực lượng ứng thời"
+      - "two battalions -> hai tiểu đoàn"
+      - "headquarters -> sở chỉ huy"
+      - "negation -> mà không cần phải trau chuốt từng chi tiết"
+      - "emphasis -> không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000576"
+    choices:
+      - "enemy commander -> Vị chỉ huy quân địch"
+      - "planning stages -> giai đoạn lập kế hoạch"
+      - "redundancy -> mức độ dự phòng"
+      - "emphasis -> không dùng Markdown *...*"
