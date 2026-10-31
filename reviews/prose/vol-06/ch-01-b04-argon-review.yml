@@ -1,0 +1,277 @@
+task_id: "vol-06-ch-01-b04-argon-review"
+parent_task_id: "vol-06-ch-01-b04"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 1
+source_package: "work/vol-06/batches/ch-01-b04-source.jsonl"
+target_translation: "translations/vol-06/ch-01-b04.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - segment_id: "YS-LN06/Text/part0008.html/p000136"
+    severity: "moderate"
+    category: "meaning_logic"
+    issue: "Trật tự từ 'mua lại quân trang Liên bang bị đánh cắp từ Hội đồng Tự trị' gây nhập nhằng cú pháp tiếng Việt, dễ khiến người đọc hiểu cụm 'từ Hội đồng Tự trị' bổ nghĩa cho 'bị đánh cắp' (tức quân trang bị đánh cắp khỏi Hội đồng Tự trị), làm đảo ngược vai trò của Hội đồng Tự trị từ bên bán sang bên bị mất cắp."
+    basis: "Trong cấu trúc nguồn, cụm giới từ chỉ nguồn cung ứng bổ nghĩa cho động từ mua, còn phân từ đứng trước chỉ trạng thái số quân trang Liên bang bị đánh cắp; các đoạn p000140 và p000142 kế tiếp cũng xác nhận Hội đồng Tự trị là đầu mối nắm giữ và bán lại số quân trang này."
+    recommendation: "Đưa cụm chỉ nguồn bán lên ngay sau động từ mua, chẳng hạn: 'Chủ yếu chúng tôi mua lại từ Hội đồng Tự trị số quân trang Liên bang bị đánh cắp, nhưng họ cũng chẳng có dư dả bao nhiêu.'"
+  - segment_id: "YS-LN06/Text/part0008.html/p000142"
+    severity: "minor"
+    category: "pronouns_pov"
+    issue: "Dùng đại từ 'mình' trong 'lời họ nói rằng mình không có nguồn dự trữ đáng kể' để quy chiếu ngôi thứ ba số nhiều (Hội đồng Tự trị) ngay giữa mạch độc thoại nội tâm của Tanya gây giao thoa với đại từ tự quy chiếu 'mình / Mình' của Tanya theo DEC-P01-001 (xuất hiện ngay đầu câu p000143)."
+    basis: "Theo DEC-P01-001, 'mình' được khóa cho nội tâm tự quy chiếu của Tanya; chủ thể được quy chiếu trong mệnh đề phụ ở p000142 là Hội đồng Tự trị."
+    recommendation: "Lược đại từ dễ gây nhầm hoặc thay bằng 'họ', chẳng hạn: 'Xét tới đủ mọi cuộc xung đột nổ ra khắp nơi trong thời chiến, lời họ nói rằng không có nguồn dự trữ đáng kể hẳn cũng có phần đúng sự thật.'"
+pending_term_recommendations:
+  - source_term: "ma’am / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "thưa Trung tá"
+    alternatives_vi:
+      - "Trung tá"
+    rationale: "Kế thừa nhất quán cách Serebryakov xưng hô lễ phép với Tanya theo đúng quân hàm Trung tá từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000116"
+      - "YS-LN06/Text/part0008.html/p000150"
+    status: "proposed"
+  - source_term: "cold-weather gear / cold-weather and other gear"
+    proposed_vi: "trang bị chống rét / trang bị chống rét và các quân trang khác"
+    alternatives_vi:
+      - "quân trang chống rét"
+    rationale: "Kế thừa phương án tạm trong sổ pending tập 5–6 cho quân trang mùa đông tại mặt trận phía đông."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000120"
+      - "YS-LN06/Text/part0008.html/p000124"
+      - "YS-LN06/Text/part0008.html/p000126"
+      - "YS-LN06/Text/part0008.html/p000135"
+      - "YS-LN06/Text/part0008.html/p000140"
+    status: "proposed"
+  - source_term: "Lieutenant Serebryakov / Serebryakov / adjutant"
+    proposed_vi: "Trung úy Serebryakov / Serebryakov / sĩ quan phụ tá"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm và chức vụ của Serebryakov từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000122"
+      - "YS-LN06/Text/part0008.html/p000124"
+      - "YS-LN06/Text/part0008.html/p000138"
+      - "YS-LN06/Text/part0008.html/p000150"
+      - "YS-LN06/Text/part0008.html/p000158"
+      - "YS-LN06/Text/part0008.html/p000162"
+    status: "proposed"
+  - source_term: "Federation / Federation territory / the Empire"
+    proposed_vi: "Liên bang / lãnh thổ Liên bang / Đế quốc"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán định danh hai quốc gia tham chiến trên mặt trận phía đông từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000124"
+      - "YS-LN06/Text/part0008.html/p000126"
+      - "YS-LN06/Text/part0008.html/p000136"
+      - "YS-LN06/Text/part0008.html/p000140"
+      - "YS-LN06/Text/part0008.html/p000144"
+      - "YS-LN06/Text/part0008.html/p000156"
+      - "YS-LN06/Text/part0008.html/p000162"
+    status: "proposed"
+  - source_term: "Service Corps / General von Zettour"
+    proposed_vi: "Cục Quân vụ / Tướng von Zettour"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên cơ quan hậu cần và danh xưng của Zettour từ sổ pending tập 1–5."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000124"
+      - "YS-LN06/Text/part0008.html/p000129"
+    status: "proposed"
+  - source_term: "home country"
+    proposed_vi: "quê nhà"
+    alternatives_vi:
+      - "hậu phương trong nước"
+    rationale: "Kế thừa cách dịch 'quê nhà' từ sổ pending tập 5 để chỉ hậu phương Đế quốc khi đối lập với thực địa tiền tuyến."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000126"
+      - "YS-LN06/Text/part0008.html/p000144"
+    status: "proposed"
+  - source_term: "classified funds"
+    proposed_vi: "quỹ mật phí"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ 'quỹ mật phí' từ sổ pending tập 5 cho khoản kinh phí mật dùng để thu mua tại chỗ."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000136"
+    status: "proposed"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    alternatives_vi: []
+    rationale: "Cách dịch sát nghĩa và chuẩn xác cho tổ chức tự trị địa phương được dựng lên trên lãnh thổ Liên bang."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000136"
+      - "YS-LN06/Text/part0008.html/p000140"
+    status: "proposed"
+  - source_term: "General Winter / General Mud"
+    proposed_vi: "Tướng Mùa Đông / Tướng Bùn Lầy"
+    alternatives_vi: []
+    rationale: "Kế thừa 'Tướng Mùa Đông' từ tập 5 và batch trước, đồng thời dịch đối xứng 'Tướng Bùn Lầy' cho hình ảnh nhân cách hóa mùa bùn lầy khi tuyết tan."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000146"
+      - "YS-LN06/Text/part0008.html/p000150"
+      - "YS-LN06/Text/part0008.html/p000152"
+      - "YS-LN06/Text/part0008.html/p000156"
+    status: "proposed"
+  - source_term: "frostbite"
+    proposed_vi: "chứng bỏng lạnh"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ từ các batch trước của chương 1."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000147"
+    status: "proposed"
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff"
+    proposed_vi: "Trung tá Tanya von Degurechaff"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm và họ tên đầy đủ của Tanya từ sổ pending tập 4–6."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000148"
+    status: "proposed"
+  - source_term: "German-Soviet lines in the east"
+    proposed_vi: "chiến tuyến Đức – Xô ở phía đông"
+    alternatives_vi: []
+    rationale: "Giữ đúng liên hệ lịch sử thế giới thực trong ký ức kiếp trước của Tanya về mặt trận Xô – Đức."
+    segment_ids:
+      - "YS-LN06/Text/part0008.html/p000157"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0008.html/p000116"
+    choices:
+      - "Xưng hô, quân hàm & phủ định: Serebryakov xưng 'tôi', gọi Tanya là 'thưa Trung tá' kèm tiểu từ 'ạ'; giữ cấu trúc nhượng bộ 'dù làm theo cách đó có thể giúp chúng ta không bị đói' và danh động từ phủ định 'việc không có cơ hội... cũng sẽ gây ra vấn đề'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000117"
+    choices:
+      - "Xưng hô & câu hỏi suy luận trong thoại: Tanya gọi Serebryakov là 'cô', quy chiếu binh lính bằng 'họ'; giữ câu hỏi xác nhận 'Vậy ý cô là sẽ tốt hơn nếu cho họ ra ngoài vận động rèn luyện?'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000118"
+    choices:
+      - "Xưng hô & đối lập mùa: Serebryakov xưng 'tôi', dùng 'chúng ta' và 'ạ'; giữ tương phản giữa mùa hè và mùa đông ('không thể tránh khỏi')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000119"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: chỉ bọc '*Cô ấy nói đúng*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002; phần dẫn trần thuật dùng tên riêng 'Tanya'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000120"
+    choices:
+      - "Thuật ngữ: 'cold-weather and other gear' -> 'trang bị chống rét và các quân trang khác'; 'winter battle' -> 'trận chiến mùa đông'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000121"
+    choices:
+      - "Đại từ & phủ định: dùng 'chúng ta' cho đơn vị trong suy nghĩ của Tanya; giữ phủ định kèm trạng từ thời gian 'vẫn chưa việc gì phải tuyệt vọng'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000122"
+    choices:
+      - "Xưng hô, quân hàm & câu hỏi: Tanya dùng 'chúng ta', gọi 'Trung úy Serebryakov / cô'; giữ câu hỏi đánh giá mức độ đủ của các biện pháp đã thực hiện."
+  - segment_id: "YS-LN06/Text/part0008.html/p000123"
+    choices:
+      - "Xưng hô & tình thái dự báo: Serebryakov xưng 'Tôi' kèm 'ạ'; giữ sắc thái dự đoán thận trọng ('có lẽ sẽ rất gay go', 'Tôi hình dung tình hình sẽ trở nên nguy ngập vào tháng Một và tháng Hai')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000124"
+    choices:
+      - "Điểm nhìn, đại từ & thuật ngữ: trần thuật quy chiếu Tanya bằng 'Tanya / nó' theo DEC-P01-001; 'adjutant' -> 'sĩ quan phụ tá'; trong thoại Tanya xưng 'Tôi', dùng 'chúng ta'; 'Federation territory' -> 'lãnh thổ Liên bang'; 'Service Corps' -> 'Cục Quân vụ'; 'General von Zettour' -> 'Tướng von Zettour'; 'cold-weather gear' -> 'trang bị chống rét'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000125"
+    choices:
+      - "Thuật ngữ & phủ định: 'headquarters' -> 'sở chỉ huy'; giữ phủ định 'không hiểu điều kiện ngoài chiến trường thực tế ra sao'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000126"
+    choices:
+      - "Quan hệ nhân quả, phủ định & thuật ngữ: giữ nguyên nhân phủ định 'Vì chẳng có nghiên cứu nào được thực hiện...'; 'Federation' -> 'Liên bang'; 'cold-weather gear' -> 'trang bị chống rét'; 'home country' -> 'quê nhà' đối lập với 'thực tế tại hiện trường'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000127"
+    choices:
+      - "Điểm nhìn & đại từ: độc thoại nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001; giữ so sánh phủ định 'Vẫn còn hơn là chẳng nhận được gì'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000128"
+    choices:
+      - "Thành ngữ: dịch thành ngữ tương đương tự nhiên 'Có còn hơn không.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000129"
+    choices:
+      - "Xưng hô, thuật ngữ & cấu trúc phân vân: Tanya xưng 'Tôi', dùng 'chúng ta'; 'Service Corps' -> 'Cục Quân vụ'; giữ cấu trúc lựa chọn 'không rõ đây là sơ suất... hay chúng ta nên thở phào nhẹ nhõm vì ít nhất họ cũng xoay xở được mức tối thiểu'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000130"
+    choices:
+      - "Đại từ nội tâm & thuật ngữ: độc thoại nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001; 'supply lines' -> 'các tuyến tiếp tế'; 'higher-ups' -> 'cấp trên'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000131"
+    choices:
+      - "Điểm nhìn: câu dẫn chuyển ý dùng tên riêng 'Tanya'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000132"
+    choices:
+      - "Phủ định trong thoại: giữ câu nhận định ngắn gọn 'Bấy nhiêu vẫn là chưa đủ.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000133"
+    choices:
+      - "Phủ định & đối lập: giữ hai câu phủ định chỉ sự bất cập của chiếc áo khoác mỏng và kết quả thực tế bất chấp nỗ lực của giới lãnh đạo."
+  - segment_id: "YS-LN06/Text/part0008.html/p000134"
+    choices:
+      - "Điều kiện giả định & phủ định: giữ câu phủ định về thiết kế quần áo, giả định 'Có lẽ nếu mặc chồng nhiều lớp lên nhau, rốt cuộc chúng ta mới có thể tự bảo vệ mình' và mệnh đề điều kiện phủ định cuối đoạn."
+  - segment_id: "YS-LN06/Text/part0008.html/p000135"
+    choices:
+      - "Câu hỏi đề xuất & thuật ngữ: 'cold-weather gear' -> 'trang bị chống rét'; giữ đại từ 'chúng ta'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000136"
+    choices:
+      - "Xưng hô, thuật ngữ & trật tự bổ ngữ (cần sửa theo finding): Serebryakov dùng 'Chúng tôi / chúng tôi' kèm 'ạ'; 'classified funds' -> 'quỹ mật phí'; 'Federation gear' -> 'quân trang Liên bang'; 'Council for Self-Government' -> 'Hội đồng Tự trị'; đặt 'từ Hội đồng Tự trị' ngay sau 'mua lại' để làm rõ Hội đồng Tự trị là bên bán chứ không phải bên bị đánh cắp."
+  - segment_id: "YS-LN06/Text/part0008.html/p000137"
+    choices:
+      - "Câu hỏi xác nhận: giữ cấu trúc nhượng bộ và câu hỏi 'Vậy là dù có tiền thì cũng chẳng có gì để mua hả?'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000138"
+    choices:
+      - "Phủ định trong câu đáp & trần thuật: dịch 'No.' đáp lại câu hỏi phủ định thành 'Dạ không có ạ.' để rõ nghĩa không có hàng để mua; giữ 'Trung úy Serebryakov'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000139"
+    choices:
+      - "Điểm nhìn & xưng hô: trần thuật dùng 'Tanya', quy chiếu Serebryakov bằng 'cô'; giữ câu thoại 'Đó không phải lỗi của cô.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000140"
+    choices:
+      - "Thuật ngữ & tình thái: 'Council for Self-Government' -> 'Hội đồng Tự trị'; 'Federation territory' -> 'lãnh thổ Liên bang'; 'cold-weather gear' -> 'trang bị chống rét'; giữ tình thái 'đáng lẽ phải có' để khớp với câu tự vấn ở p000141."
+  - segment_id: "YS-LN06/Text/part0008.html/p000141"
+    choices:
+      - "Nhấn mạnh Markdown: bọc '*Đáng lẽ…?*' khớp chính xác với thẻ em trong XHTML theo DEC-P01-002 và liên kết trực tiếp với p000140."
+  - segment_id: "YS-LN06/Text/part0008.html/p000142"
+    choices:
+      - "Đại từ & tình thái suy đoán (cần sửa nhẹ theo finding): giữ tình thái suy luận 'hẳn cũng có phần đúng sự thật'; tránh dùng 'mình' để quy chiếu ngôi thứ ba 'họ' (Hội đồng Tự trị) nhằm không trùng với đại từ nội tâm 'Mình' của Tanya ở p000143."
+  - segment_id: "YS-LN06/Text/part0008.html/p000143"
+    choices:
+      - "Điểm nhìn & đại từ nội tâm: độc thoại nội tâm của Tanya dùng 'Mình' và 'chúng ta' theo DEC-P01-001."
+  - segment_id: "YS-LN06/Text/part0008.html/p000144"
+    choices:
+      - "Điều kiện phủ định & thuật ngữ: giữ điều kiện 'Nếu hàng không tồn tại thì chúng ta không thu mua được cũng chẳng có gì lạ…'; 'home country' -> 'quê nhà'; 'Federation' -> 'Liên bang'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000145"
+    choices:
+      - "Điểm nhìn & đại từ nội tâm: tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN06/Text/part0008.html/p000146"
+    choices:
+      - "Thuật ngữ & điểm nhìn: 'General Winter' -> 'Tướng Mùa Đông'; trần thuật dùng tên riêng 'Tanya'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000147"
+    choices:
+      - "Thuật ngữ: 'Frostbite' -> 'Chứng bỏng lạnh'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000148"
+    choices:
+      - "Quân hàm, định danh & thành ngữ: 'Lieutenant Colonel Tanya von Degurechaff' -> 'Trung tá Tanya von Degurechaff'; dịch thành ngữ ở vế sau thành 'nhưng trăm nghe vẫn không bằng một thấy' khớp mạch với câu nói về việc đọc sách ở p000149."
+  - segment_id: "YS-LN06/Text/part0008.html/p000149"
+    choices:
+      - "Xưng hô & phủ định trong thoại: Tanya xưng 'Tôi / tôi'; giữ phủ định 'Tôi không tài nào hình dung nổi thực tế sẽ ra sao nếu chỉ đọc qua sách vở'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000150"
+    choices:
+      - "Điểm nhìn, đại từ, thuật ngữ & quân hàm: trần thuật quy chiếu Tanya bằng 'Nó' theo DEC-P01-001, quy chiếu Serebryakov bằng 'Serebryakov / cô'; trong thoại Serebryakov gọi 'General Mud' -> 'Tướng Bùn Lầy' và 'Colonel' -> 'thưa Trung tá'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000151"
+    choices:
+      - "Điểm nhìn: câu trần thuật ngắn dùng tên riêng 'Tanya'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000152"
+    choices:
+      - "Thuật ngữ & xưng hô: 'General Mud' -> 'Tướng Bùn Lầy'; Tanya xưng 'tôi'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000153"
+    choices:
+      - "Điểm nhìn, đại từ & phủ định: trần thuật quy chiếu Tanya bằng 'Nó' theo DEC-P01-001; giữ phủ định 'thậm chí chẳng cần phải nhìn ra ngoài cửa sổ'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000154"
+    choices:
+      - "Nghĩa: giữ câu nhận định khách quan 'Tuyết là sự kết tinh của hơi ẩm.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000155"
+    choices:
+      - "So sánh giả định: giữ cấu trúc 'Một khi trời ấm lên, kết quả sẽ chẳng khác mấy so với việc có ai đó hất nước ra khắp mặt đất.'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000156"
+    choices:
+      - "Đại từ nhân cách hóa, xưng hô & thuật ngữ: quy chiếu 'General Mud' bằng 'Ông ta' và dịch là 'Tướng Bùn Lầy'; Serebryakov xưng 'tôi' kèm 'ạ'; 'the Empire' -> 'Đế quốc'; 'General Winter' -> 'Tướng Mùa Đông'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000157"
+    choices:
+      - "Điểm nhìn, đại từ & thuật ngữ: trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001; 'German-Soviet lines in the east' -> 'chiến tuyến Đức – Xô ở phía đông'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000158"
+    choices:
+      - "Điểm nhìn & đại từ nội tâm: độc thoại nội tâm của Tanya dùng 'mình' và 'chúng ta' theo DEC-P01-001; giữ nguyên tên 'Serebryakov' và 'quân Đức'."
+  - segment_id: "YS-LN06/Text/part0008.html/p000159"
+    choices:
+      - "Xưng hô & lập luận trong thoại: Tanya gọi Serebryakov là 'Cô', xưng 'Tôi', dùng 'chúng ta' cho đơn vị."
+  - segment_id: "YS-LN06/Text/part0008.html/p000160"
+    choices:
+      - "Xưng hô & phủ định lễ phép: Serebryakov xưng 'tôi' kèm 'ạ' ('Với tất cả sự kính trọng, tôi không đồng ý ạ.')."
+  - segment_id: "YS-LN06/Text/part0008.html/p000161"
+    choices:
+      - "Xưng hô & chỉ dẫn trong thoại: Tanya gọi Serebryakov là 'cô', yêu cầu trình bày rõ hơn quan điểm."
+  - segment_id: "YS-LN06/Text/part0008.html/p000162"
+    choices:
+      - "Điểm nhìn, đại từ & thuật ngữ: trần thuật phân biệt rõ 'nó' (quy chiếu Tanya theo DEC-P01-001) và 'cô' (quy chiếu Serebryakov); 'adjutant' -> 'sĩ quan phụ tá'; 'Federation' -> 'Liên bang'; giữ cấu trúc tăng tiến 'và hơn thế nữa, cô còn là...'."
