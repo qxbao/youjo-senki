@@ -1,0 +1,280 @@
+task_id: "vol-06-ch-04-b16-argon-review"
+parent_task_id: "vol-06-ch-04-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-06"
+chapter: 4
+source_package: "work/vol-06/batches/ch-04-b16-source.jsonl"
+target_translation: "translations/vol-06/ch-04-b16.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN06/Text/part0019.html/p000573"
+    severity: "minor"
+    category: "terminology_and_worldbuilding"
+    issue: "Từ lóng 'Limeys' được dịch thoát nghĩa thành 'đám người Anh', dùng trực tiếp quốc danh thế giới thực thay vì giữ sắc thái biệt danh lóng hoặc đối chiếu với bối cảnh Khối Thịnh vượng chung."
+    evidence: "Trong độc thoại nội tâm của Tanya đôi khi vẫn xuất hiện địa danh/khái niệm thực tế từ ký ức tiền kiếp (như truyền thống cấp phát rượu rum của Hải quân Hoàng gia Anh), nhưng ở các tập trước các biệt danh chỉ người thuộc Khối Thịnh vượng chung/Hợp chúng quốc thường được giữ dạng biệt danh như 'đám John Bull' hoặc 'đám Yankee'."
+    recommendation: "Có thể giữ tạm 'đám người Anh' vì đây là liên tưởng trong nội tâm của Tanya và vẫn truyền tải rõ phép so sánh, hoặc cân nhắc 'đám Limey' khi tổng hợp canon về từ lóng các nước."
+pending_term_recommendations:
+  - source_term: "ersatz"
+    proposed_vi: "đồ thay thế"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp nhất quán với hệ thống thuật ngữ 'cà phê thay thế' (ersatz coffee), 'đồ ăn thay thế' (ersatz food) và 'các sản phẩm thay thế' (ersatz products) trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "hàng thay thế"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000567"
+  - source_term: "the Empire / Imperial Army"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc"
+    category: "tên quốc gia / quân đội"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với phương án xuyên suốt trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000572"
+      - "YS-LN06/Text/part0019.html/p000573"
+      - "YS-LN06/Text/part0019.html/p000574"
+      - "YS-LN06/Text/part0019.html/p000585"
+      - "YS-LN06/Text/part0019.html/p000617"
+  - source_term: "Limeys"
+    proposed_vi: "đám người Anh"
+    category: "từ lóng / tên gọi"
+    status: "pending"
+    uncertainty: "medium"
+    rationale: "Từ lóng chỉ người/thủy thủ Anh (gắn với khẩu phần rượu rum truyền thống); bản dịch hiện dùng 'đám người Anh' theo liên tưởng tiền kiếp của Tanya, dễ hiểu trong ngữ cảnh nhưng cần lưu ý đối chiếu với cách giữ biệt danh như 'đám John Bull' ở tập 5."
+    alternatives_vi:
+      - "đám Limey"
+      - "đám lính thủy Anh"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000573"
+  - source_term: "MPs"
+    proposed_vi: "quân cảnh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với phương án dịch military police / MPs trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000578"
+  - source_term: "the rear / the front line"
+    proposed_vi: "hậu phương / ngoài tiền tuyến"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với các mục 'the rear' (hậu phương) và 'the front lines' (ngoài tiền tuyến) trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000579"
+      - "YS-LN06/Text/part0019.html/p000581"
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff / Colonel"
+    proposed_vi: "Trung tá Tanya von Degurechaff / Thưa Trung tá"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc và cách xưng hô đối với Tanya trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000588"
+      - "YS-LN06/Text/part0019.html/p000615"
+  - source_term: "Federation commandos"
+    proposed_vi: "đám biệt kích Liên bang"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cách dịch 'Federation' (Liên bang) và 'commandos' (biệt kích) trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "lực lượng biệt kích Liên bang"
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000591"
+  - source_term: "Lieutenant Colonel Uger / Colonel Uger / Uger"
+    proposed_vi: "Trung tá Uger / Uger"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với cấp bậc Lieutenant Colonel của Uger (được nêu trực tiếp tại p000592 và nhất quán với work/run-state/pending-terms-index.yml)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000592"
+      - "YS-LN06/Text/part0019.html/p000593"
+      - "YS-LN06/Text/part0019.html/p000594"
+      - "YS-LN06/Text/part0019.html/p000607"
+  - source_term: "Ildoa"
+    proposed_vi: "Ildoa"
+    category: "tên quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với phương án trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000602"
+      - "YS-LN06/Text/part0019.html/p000604"
+  - source_term: "Railroad Department"
+    proposed_vi: "Cục Đường sắt"
+    category: "tên cơ quan quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với phương án dịch Railroad Department từ tập 2 và tập 5 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN06/Text/part0019.html/p000605"
+locked_choices:
+  - segment_id: "YS-LN06/Text/part0019.html/p000566"
+    choices:
+      - "Thoại Tanya: giữ nhận định '…Đúng là một vấn đề hết thuốc chữa'; trần thuật giữ tên 'Tanya' và trạng thái 'chỉ còn biết thốt ra một câu nhận xét như vậy trong tiếng thở hắt'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000567"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng đại từ 'nó'; thoại Tanya giữ câu hỏi cảm thán 'Trời đất, vậy là cà phê toàn đồ thay thế hết sao?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000568"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'Nó / nó'; giữ dấu gạch ngang giải thích và phủ định đánh giá 'Thật khó mà gọi việc uống thứ nước bùn không mùi là văn minh cho được'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000569"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó' và đại từ phản thân 'mình'; giữ tương phản 'chẳng có lựa chọn nào khác nên đành nhấp một ngụm, dù nét mặt vẫn khiến nó trông như phát ốm'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000570"
+    choices:
+      - "Thoại độc thoại của Tanya: giữ nhận xét nhượng bộ 'À thì, vị của nó cũng đỡ hơn một chút…'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000571"
+    choices:
+      - "Nhận định ngắn trong nội tâm: 'Cà phê là một mặt hàng xa xỉ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000572"
+    choices:
+      - "Trần thuật gián tiếp tự do: giữ tên 'Tanya', phủ định 'cà phê lại không được xem là nhu yếu phẩm' và quan hệ đối lập 'Ấy vậy mà niềm yêu thích cà phê gần như cuồng nhiệt đã trở thành thứ bệnh lý khắp toàn Đế quốc'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000573"
+    choices:
+      - "Nội tâm Tanya: giữ phép so sánh giữa 'Lục quân Đế quốc mà thiếu cà phê' với 'đám người Anh thiếu rượu rum của họ' và phủ định nhấn mạnh 'Còn lâu mới có thể gọi đó là một cuộc sống lành mạnh'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000574"
+    choices:
+      - "Nội tâm Tanya: dịch đại từ khái quát thành 'người ta', giữ hình ảnh ẩn dụ 'chiếc phong vũ biểu cho biết tình trạng của Đế quốc', giả định tương lai 'chẳng mấy chốc người ta sẽ thực sự lấy nước bùn thay cho cà phê mất' và ngôi gộp 'chúng ta không có nhiều lựa chọn'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000575"
+    choices:
+      - "Kết luận ngắn trong nội tâm: 'Phải là hòa bình'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000576"
+    choices:
+      - "Thoại lẩm bẩm bỏ lửng của Tanya: dùng ngôi gộp 'Chúng ta', giữ điệp ngữ và câu hỏi đuôi 'Chúng ta nên làm thế. Chúng ta nên làm thế, phải không? Nhưng mà…'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000577"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó'; nhấn mạnh Markdown theo DEC-P01-002: giữ '*giảng hòa*' đúng phạm vi cụm in nghiêng trong nguồn."
+  - segment_id: "YS-LN06/Text/part0019.html/p000578"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó'; giữ các phủ định 'không bắt gặp ai có vẻ đang lộ liễu nghe lén', 'Ngay cả khi quân cảnh không nghe lén, nó cũng chẳng có chút hứng thú nào' và cụm 'những người yêu nước có thiện ý'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000579"
+    choices:
+      - "Trần thuật: giữ tên 'Tanya' và so sánh 'dân thường ở hậu phương có xu hướng ủng hộ những quan điểm cực đoan hơn cả binh lính'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000580"
+    choices:
+      - "Nội tâm Tanya: giữ cấu trúc đối xứng 'Không biết thì không biết xấu hổ—có lẽ là đại loại như thế'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000581"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng 'chúng ta' và 'mình'; nhấn mạnh Markdown theo DEC-P01-002: giữ '*Tôi đến giúp các vị đây!*' đúng phạm vi câu in nghiêng trong nguồn; giữ ngoặc kép quanh chữ 'chiến thắng'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000582"
+    choices:
+      - "Nhận định khái quát: giữ cấu trúc phủ định đi kèm điều kiện loại trừ 'chẳng rút ra được bài học gì trừ khi tự mình trải qua chuyện đó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000583"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'Tanya' và 'nó'; giữ cấu trúc phủ định kép song hành 'không phản đối… nhưng nó cũng chẳng thể phủ nhận…'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000584"
+    choices:
+      - "Thoại Tanya: giữ nhận xét 'Trời đất. Hiểu theo nghĩa đó thì hương vị này chính là hiện thực đấy'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000585"
+    choices:
+      - "Nội tâm Tanya: giữ ẩn dụ 'Vị đắng của tách cà phê này là sự thật của Đế quốc' và câu hỏi tu từ về 'các lực lượng tác chiến của quốc gia'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000586"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Đa phần là không rồi*' đúng phạm vi cụm in nghiêng ở đầu câu; trần thuật về Tanya theo DEC-P01-001: dùng 'nó' và phản thân 'mình'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000587"
+    choices:
+      - "Câu hỏi nội tâm gián tiếp tự do theo DEC-P01-001: dùng 'nó' ('Phải chăng việc nó vạ miệng đã gây ra rắc rối gì rồi?')."
+  - segment_id: "YS-LN06/Text/part0019.html/p000588"
+    choices:
+      - "Thoại người bồi bàn hỏi Tanya: gọi 'cô', chức danh đầy đủ 'Trung tá Tanya von Degurechaff' và tiểu từ lễ phép 'ạ?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000589"
+    choices:
+      - "Thoại Tanya đáp và hỏi lại người bồi bàn: gọi đối phương là 'anh', giữ nhịp ngập ngừng 'Đúng vậy… Nhưng khoan đã, xin lỗi, anh là…?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000590"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'Nó' và phản thân 'mình', quy chiếu người bồi bàn là 'anh ta'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000591"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó'; câu hỏi nội tâm trực tiếp chen giữa hai dấu gạch ngang dùng 'Hắn - mình' và bọc Markdown '*Hắn đã tóm gọn mình vào tròng rồi ư?*' theo DEC-P01-002; giữ cụm 'đám biệt kích Liên bang ngoài mặt trận'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000592"
+    choices:
+      - "Thoại người bồi bàn: tự xưng 'tôi', kèm 'ạ…', giữ cấp bậc và tên 'Trung tá Uger'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000593"
+    choices:
+      - "Thoại Tanya: giữ cách gọi 'Trung tá Uger' và câu cảm thán 'Đúng là trái đất tròn thật'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000594"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: giữ tên 'Tanya', 'Uger', đại từ 'nó' (cho Tanya) và 'anh ta' (cho người bồi bàn)."
+  - segment_id: "YS-LN06/Text/part0019.html/p000595"
+    choices:
+      - "Thoại người bồi bàn thuật lời Uger: quy chiếu Uger bằng 'Ngài ấy', tự xưng 'tôi', quy chiếu Tanya theo lời dặn là 'một cô bé / cô ấy', giữ dấu nháy đơn quanh cụm '‘hàng để dành’'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000596"
+    choices:
+      - "Thoại Tanya hỏi lại: giữ dấu nháy đơn quanh '‘Hàng để dành’ ư?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000597"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Gì thế này?*' đúng phạm vi câu in nghiêng trong nguồn; trần thuật về Tanya theo DEC-P01-001: dùng 'Nó' và phản thân 'mình'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000598"
+    choices:
+      - "Thoại Tanya: giữ câu cảm thán bỏ lửng '…Hửm? Mùi này là…'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000599"
+    choices:
+      - "Thoại người bồi bàn mời Tanya: gọi 'cô' kèm 'ạ', giữ sắc thái khiêm tốn 'Chẳng phải thứ gì cao sang đâu, nhưng xin mời cô dùng một tách ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000600"
+    choices:
+      - "Thoại cảm thán 'Ồ!'; trần thuật về Tanya theo DEC-P01-001 dùng 'Nó'; giữ miêu tả 'sắc đen trong trẻo và, hơn hết thảy, qua hương thơm ngào ngạt của nó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000601"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'nó', giữ khẳng định 'quả thực chính là món hàng thật mà nó hằng mong mỏi bấy lâu'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000602"
+    choices:
+      - "Thoại người bồi bàn: tự xưng 'chúng tôi' (đại diện quán) kèm 'ạ', giữ thông tin 'hàng thật được nhập khẩu qua ngả Ildoa' và mệnh đề nhượng bộ 'dù dạo gần đây chúng tôi cũng không lấy về được nhiều'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000603"
+    choices:
+      - "Thoại Tanya 'Tuyệt vời'; trần thuật về Tanya theo DEC-P01-001 dùng 'nó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000604"
+    choices:
+      - "Nội tâm phân tích của Tanya: giữ 'quốc gia thứ ba', 'Ildoa đang tỏ ra hữu ích trong vai trò một quốc gia trung lập, ít nhất là ở khoản để cho hàng xa xỉ đi qua'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000605"
+    choices:
+      - "Thoại Tanya hỏi dí dỏm: giữ tên cơ quan 'Cục Đường sắt' và câu hỏi đuôi 'phải không?'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000606"
+    choices:
+      - "Thoại người bồi bàn đáp khéo: 'Trong phạm vi pháp luật cho phép thôi ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000607"
+    choices:
+      - "Thoại Tanya nói về Uger: gọi 'Trung tá Uger', quy chiếu bằng 'Anh ấy / anh ấy', tự xưng 'tôi'; giữ dấu gạch ngang và phủ định 'cẩn thận không mang về vượt quá mức quy định cho phép'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000608"
+    choices:
+      - "Thoại người bồi bàn: gọi Tanya là 'Cô', quy chiếu Uger là 'ngài ấy' kèm 'ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000609"
+    choices:
+      - "Nhận xét trong nội tâm Tanya: 'Đúng là một cuộc trò chuyện dễ chịu với người bồi bàn đang mỉm cười này'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000610"
+    choices:
+      - "Thoại người bồi bàn chào lui: xưng 'tôi - cô' kèm 'ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000611"
+    choices:
+      - "Câu danh ngữ trong nội tâm Tanya: 'Mùi hương của trí tuệ, văn minh và văn hóa'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000612"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ '*Chính là đây—giờ nghỉ ngơi của một con người văn minh*' đúng phạm vi phần in nghiêng trong nguồn; trần thuật về Tanya theo DEC-P01-001 dùng 'Nó'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000613"
+    choices:
+      - "Thoại thuộc cấp nói với Tanya: tự xưng 'Tôi' kèm 'ạ', giữ vẻ trịnh trọng pha chút láu cá 'Tôi lấy làm vinh dự được thưởng thức phần của mình ạ'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000614"
+    choices:
+      - "Thoại Tanya đáp lại nhóm thuộc cấp: dùng từ cảm thán 'Chậc' và đại từ số nhiều trung tính 'mấy người' (bao quát cả nhóm sĩ quan nam lẫn Serebryakov)."
+  - segment_id: "YS-LN06/Text/part0019.html/p000615"
+    choices:
+      - "Thoại thuộc cấp than thở với Tanya: gọi 'Thưa Trung tá' kèm 'ạ!' ('Thưa Trung tá, thế là bất công quá ạ!')."
+  - segment_id: "YS-LN06/Text/part0019.html/p000616"
+    choices:
+      - "Trần thuật về Tanya theo DEC-P01-001: dùng 'Tanya' và 'nó', quy chiếu nhóm thuộc cấp là 'họ / đám người này'; giữ dấu chấm phẩy và nhận xét 'tinh thần của đám người này đúng là lì lợm thật'."
+  - segment_id: "YS-LN06/Text/part0019.html/p000617"
+    choices:
+      - "Nội tâm tự quy chiếu của Tanya theo DEC-P01-001: dùng đại từ 'mình', quy chiếu thuộc cấp là 'họ'; giữ 'Lục quân Đế quốc' và cấu trúc nhượng bộ – đối lập 'Có thể mình không được phép nói ra những suy nghĩ như thế, nhưng thầm nghĩ vậy với vẻ chán ghét là đặc quyền của mình'."
