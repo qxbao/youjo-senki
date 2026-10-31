@@ -1,0 +1,308 @@
+task_id: "vol-05-ch-04-b11-argon-review"
+parent_task_id: "vol-05-ch-04-b11"
+reviewer: "gemini-4-argon-medium"
+state: "done"
+review_path: "reviews/prose/vol-05/ch-04-b11-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000391"
+    issue: "Trong dòng tiêu đề chuyển cảnh, cụm chỉ đơn vị tàu ngầm với soái hạm U-152 được dịch là 'ĐƠN VỊ TÀU NGẦM CỦA LỤC QUÂN ĐẾ QUỐC', dễ gây mâu thuẫn ngữ cảnh với các đoạn p000403, p000408 và p000419 vốn xác định rõ tàu U-152 và thuyền trưởng thuộc Hải quân Đế quốc."
+    evidence: "Bản tiếng Anh dùng từ 'IMPERIAL ARMY SUBMARINE UNIT' theo thói quen dịch chữ 'Đế quốc quân' (toàn quân Đế quốc) trong nguyên tác, nhưng ở p000403, p000408 và p000419 đều nêu rõ đơn vị và sĩ quan tàu U-152 thuộc Hải quân Đế quốc; trong sổ pending Tập 1, cụm 'Imperial Army' cũng đã có tiền lệ dịch là 'Quân đội Đế quốc' khi chỉ chung quân đội."
+    recommendation: "Đề xuất cân nhắc đổi 'LỤC QUÂN ĐẾ QUỐC' thành 'QUÂN ĐỘI ĐẾ QUỐC' ở bước chuốt văn ('ĐƠN VỊ TÀU NGẦM CỦA QUÂN ĐỘI ĐẾ QUỐC ĐƯỢC PHÁI TỚI BIỂN BẮC') để vừa sát chữ bản nguồn tiếng Anh vừa tránh mâu thuẫn quân chủng."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000407"
+    issue: "Danh từ chỉ vật dụng bằng gỗ mà Thuyền trưởng von Schraft đẩy vào trước kính tiềm vọng cho Tanya đứng lên được dịch là 'chiếc bục gỗ' (tương tự ở p000415), làm giảm sắc thái tạm bợ khiến Tanya cảm thấy tự ái ở p000415."
+    evidence: "Nguyên bản ở p000407 và p000415 dùng danh từ chỉ một chiếc thùng/hộp gỗ thông thường được tận dụng làm đồ kê chân tạm thời cho một đứa trẻ đứng nhìn qua kính tiềm vọng, không phải một chiếc bục chuyên dụng."
+    recommendation: "Đề xuất đổi 'chiếc bục gỗ' thành 'chiếc thùng gỗ' hoặc 'chiếc hộp gỗ' ở cả p000407 và p000415 trong bước chuốt văn."
+  - severity: "minor"
+    segment_id: "YS-LN05/Text/part0022.html/p000414"
+    issue: "Đại từ 'nó' được dùng ở hai câu liên tiếp cho hai chủ thể khác nhau (câu thứ hai chỉ chiếc kính tiềm vọng, câu thứ ba chỉ Tanya), dễ gây thoáng ngập ngừng khi đọc."
+    evidence: "Câu thứ hai trong nguyên bản dùng đại từ vô nhân xưng quy chiếu về kính tiềm vọng của tàu U-152, còn câu thứ ba dùng đại từ ngôi thứ ba số ít chỉ Tanya."
+    recommendation: "Đề xuất ở bước chuốt văn đổi từ 'nó' ở câu thứ hai thành 'khí cụ này' hoặc 'thiết bị này' ('Chỉ là những gì thiết bị này có thể làm được có một giới hạn căn bản mà thôi.'), giữ nguyên 'nó' cho Tanya ở câu thứ ba theo DEC-P01-001."
+pending_term_recommendations:
+  - source_term: "Moskva"
+    proposed_vi: "Moskva"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên tên thủ đô Liên bang nhất quán với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000384"
+      - "YS-LN05/Text/part0022.html/p000386"
+  - source_term: "political commissar"
+    proposed_vi: "chính ủy (viên chính ủy)"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Kế thừa phương án đã khóa trong sổ pending Tập 5 cho chức danh chính ủy trong Quân đội Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000385"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000385"
+      - "YS-LN05/Text/part0022.html/p000391"
+  - source_term: "Comrade General Secretary Josef"
+    proposed_vi: "Đồng chí Tổng Bí thư Josef"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Khớp chính xác với phương án đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000386"
+  - source_term: "Colonel Mikel"
+    proposed_vi: "Đại tá Mikel"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc và tên của Đại tá Mikel theo lô trước (ch-04-b10)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000389"
+  - source_term: "Northern Sea"
+    proposed_vi: "Biển Bắc"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000391"
+      - "YS-LN05/Text/part0022.html/p000411"
+  - source_term: "flagship U-152 / U-152"
+    proposed_vi: "soái hạm U-152 / tàu U-152 (chiếc U-152)"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên số hiệu tàu ngầm U-152 và dịch chuẩn xác thuật ngữ hải quân 'flagship' là 'soái hạm'."
+    alternatives_vi:
+      - "kỳ hạm U-152"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000391"
+      - "YS-LN05/Text/part0022.html/p000394"
+      - "YS-LN05/Text/part0022.html/p000407"
+      - "YS-LN05/Text/part0022.html/p000414"
+  - source_term: "Colonel von Degurechaff / Lieutenant Colonel Tanya von Degurechaff / Colonel"
+    proposed_vi: "Trung tá von Degurechaff / Trung tá Tanya von Degurechaff / Trung tá"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác với sổ pending Tập 4 và Tập 5 cho quân hàm Trung tá của Tanya (kể cả khi được gọi tắt là Colonel trong thoại)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000392"
+      - "YS-LN05/Text/part0022.html/p000393"
+      - "YS-LN05/Text/part0022.html/p000398"
+      - "YS-LN05/Text/part0022.html/p000409"
+  - source_term: "Captain von Schraft / Captain"
+    proposed_vi: "Thuyền trưởng von Schraft / Thuyền trưởng"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Ở p000403 xác nhận rõ von Schraft là sĩ quan hải quân ngang cấp với Tanya (Trung tá), nên từ 'Captain' ở đây chỉ chức vụ chỉ huy tàu ngầm U-152 chứ không phải quân hàm Đại tá hay Đại úy; dịch là 'Thuyền trưởng' giữ đúng chức danh và tránh mâu thuẫn cấp bậc."
+    alternatives_vi:
+      - "Hạm trưởng von Schraft / Hạm trưởng"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000396"
+      - "YS-LN05/Text/part0022.html/p000402"
+      - "YS-LN05/Text/part0022.html/p000406"
+      - "YS-LN05/Text/part0022.html/p000415"
+  - source_term: "Supreme High Command / General Staff"
+    proposed_vi: "Bộ Tư lệnh Tối cao / Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục đã khóa trong sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000406"
+  - source_term: "princess of the sea"
+    proposed_vi: "nàng công chúa của biển cả"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Dịch sát nghĩa cách gọi ẩn dụ viết thường trong lời Thuyền trưởng von Schraft khi ám chỉ mục tiêu trong căn cứ."
+    alternatives_vi:
+      - "công chúa của biển cả"
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000418"
+  - source_term: "Imperial Navy"
+    proposed_vi: "Hải quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Tên gọi chuẩn xác cho quân chủng hải quân của Đế quốc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000419"
+  - source_term: "air fleet"
+    proposed_vi: "không hạm đội"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với sổ pending Tập 4 và Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000423"
+  - source_term: "joint intelligence agency of the Army and Navy Commands"
+    proposed_vi: "cơ quan tình báo liên hợp của Bộ Tư lệnh Lục quân và Hải quân"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000423"
+  - source_term: "Pearl Harbor"
+    proposed_vi: "Trân Châu Cảng"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Cách dịch tiếng Việt thông dụng và chuẩn xác cho địa danh lịch sử có chú thích."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000426"
+  - source_term: "Scapa Flow"
+    proposed_vi: "Scapa Flow"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng của căn cứ hải quân lịch sử trong chú thích."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0022.html/p000426"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0022.html/p000384"
+    choices:
+      - "Xưng hô của Đại tá Mikel trong thoại với chính ủy: tự xưng 'Tôi'; địa danh: 'Moskva'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000385"
+    choices:
+      - "Thuật ngữ và địa danh: 'viên chính ủy', 'Liên bang'; giữ câu hỏi tu từ chỉ sự không còn lựa chọn nào khác của Mikel"
+  - segment_id: "YS-LN05/Text/part0022.html/p000386"
+    choices:
+      - "Tổ chức, địa danh và chức danh: 'Đảng', 'Moskva', 'Đồng chí Tổng Bí thư Josef'"
+      - "Đại từ trần thuật chỉ Mikel: 'ông'; giữ phủ định và tình thái suy đoán 'Ít nhất thì ông cũng chưa bị bảo phải đi chết, nên có lẽ ông chẳng được phép phàn nàn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000387"
+    choices:
+      - "Giữ câu chuyển đoạn ngắn: 'Và thế là.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000388"
+    choices:
+      - "Giữ câu chuyển cảnh ngắn: 'Vào ngày hôm đó.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000389"
+    choices:
+      - "Quân hàm và xưng hô trước tiểu đoàn: 'Đại tá Mikel', hô ngữ 'Các đồng chí', đại từ 'các đồng chí' – 'chúng ta'"
+      - "Hình ảnh ẩn dụ và mệnh lệnh: 'chó canh gác', 'Hãy bám sát con tàu cho đến khi nó về nhà an toàn!'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000390"
+    choices:
+      - "Giữ nguyên ba lớp dấu ngoặc kép biểu thị tiếng đồng thanh đáp lệnh: '“““Rõ!”””'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000391"
+    choices:
+      - "Dòng tiêu đề chuyển cảnh viết hoa toàn bộ: 'LÃNH THỔ LIÊN BANG', 'BIỂN BẮC', 'SOÁI HẠM U-152' (cân nhắc chỉnh 'LỤC QUÂN ĐẾ QUỐC' thành 'QUÂN ĐỘI ĐẾ QUỐC' theo finding)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000392"
+    choices:
+      - "Cách gọi và xưng hô của Thuyền trưởng von Schraft với Tanya: 'Trung tá von Degurechaff', 'tôi' – 'cô'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000393"
+    choices:
+      - "Quân hàm và tên đầy đủ trong trần thuật: 'Trung tá Tanya von Degurechaff'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000394"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'Nó' / 'nó'; thuật ngữ: 'chiếc U-152', 'đơn vị pháp sư', 'ba đại đội'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000395"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'Nó'; thuật ngữ: 'thủy thủ đoàn tàu ngầm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000396"
+    choices:
+      - "Xưng hô của Tanya trong thoại với von Schraft: 'Tôi' – 'anh', gọi chức danh 'Thuyền trưởng von Schraft'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000397"
+    choices:
+      - "Độc thoại nội tâm của Tanya theo DEC-P01-001: tự quy chiếu bằng 'mình'; giữ cấu trúc so sánh nhất phủ định 'Chẳng có gì chướng tai gai mắt hơn...'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000398"
+    choices:
+      - "Quân hàm và đại từ trần thuật: 'Trung tá Tanya von Degurechaff', 'nó'; giữ mệnh đề nhượng bộ giả định 'dù cho có là một vị thần khủng khiếp chắn ngang đường'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000399"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: bọc chính xác '*Không.*' và câu cuối '*Nếu một vị thần khủng khiếp chắn ngang đường mình, mình sẽ rất lấy làm hân hạnh được thổi bay hắn thành từng mảnh.*'"
+      - "Phân biệt đại từ theo DEC-P01-001: câu trần thuật ở giữa dùng 'nó', câu nội tâm trực tiếp ở cuối dùng 'mình', gọi thực thể thần thánh đối địch là 'hắn'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000400"
+    choices:
+      - "Xưng hô của von Schraft với Tanya: 'Cô'; thuật ngữ: 'căn cứ hải quân'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000401"
+    choices:
+      - "Xưng hô của Tanya trong thoại: 'tôi'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000402"
+    choices:
+      - "Độc thoại nội tâm của Tanya theo DEC-P01-001: tự xưng 'mình', gọi 'Thuyền trưởng von Schraft' và quy chiếu ngôi thứ ba là 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000403"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya: 'nó' kết hợp từ phản thân 'mình', gọi von Schraft là 'anh ta'; giữ chi tiết xác định cấp bậc 'một sĩ quan hải quân ngang cấp với mình'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000404"
+    choices:
+      - "Khái niệm: 'tinh thần tự do'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000405"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Nhưng.*' ở đầu đoạn; đại từ trần thuật chỉ Tanya: 'nó'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000406"
+    choices:
+      - "Hô ngữ và xưng hô trong thoại của Tanya: 'thưa Thuyền trưởng', 'Tôi', 'chúng ta'; tổ chức: 'Bộ Tư lệnh Tối cao', 'Bộ Tổng tham mưu'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000407"
+    choices:
+      - "Xưng hô trong thoại của von Schraft: 'Cô' – 'tôi'; đại từ trần thuật chỉ von Schraft: 'Anh ta'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc câu cuối '*Ôi, những thủy thủ tuyệt vời của tàu U-152, khi cuộc chiến này kết thúc, các anh nên chuyển sang làm ngành dịch vụ đi là vừa.*'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000408"
+    choices:
+      - "Điểm nhìn nội tâm của Tanya: tự xưng 'mình', gọi von Schraft là 'anh ta', gọi 'bên hải quân' là 'họ'; giữ tình thái suy đoán 'Hẳn anh ta đã nhận ra'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000409"
+    choices:
+      - "Xưng hô của von Schraft với Tanya: 'Cô', 'thưa Trung tá'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000410"
+    choices:
+      - "Giữ dấu chấm lửng mở đầu câu đáp: '“…Được thôi.”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000411"
+    choices:
+      - "Thuật ngữ và địa danh: 'Công nghệ quang học của Đế quốc', 'Biển Bắc'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000412"
+    choices:
+      - "Thuật ngữ: 'kính tiềm vọng'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000413"
+    choices:
+      - "Xưng hô của von Schraft trong thoại: 'Cô' – 'tôi'; giữ phủ định trong lời đoán 'tôi đoán là cô không thấy gì cả'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000414"
+    choices:
+      - "Thuật ngữ: 'kính tiềm vọng của tàu U-152'; đại từ trần thuật chỉ Tanya ở câu cuối: 'nó' (khử trùng lặp đại từ 'nó' ở câu thứ hai theo finding)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000415"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'Anh' – 'tôi' (kết hợp tự quy chiếu 'mình' trong mệnh đề phụ); đại từ trần thuật chỉ Tanya: 'nó'"
+      - "Chức danh và thuật ngữ: 'Thuyền trưởng von Schraft', 'thủy thủ đoàn', 'người lính tàu ngầm'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000416"
+    choices:
+      - "Xưng hô của von Schraft trong thoại: 'tôi' – 'cô'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000417"
+    choices:
+      - "Giữ dấu chấm lửng mở đầu câu hỏi ngắn: '“…Vậy tức là sao?”'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000418"
+    choices:
+      - "Trong thoại của von Schraft: đại từ 'chúng ta', cụm ẩn dụ 'nàng công chúa của biển cả'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: chỉ bọc '*Chắc là họ cắt đuôi được chúng ta rồi.*' đúng phạm vi thẻ em trong nguồn"
+  - segment_id: "YS-LN05/Text/part0022.html/p000419"
+    choices:
+      - "Tổ chức và thuật ngữ: 'Hải quân Đế quốc', 'đơn vị tàu ngầm'; đại từ chỉ von Schraft: 'anh ta'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000420"
+    choices:
+      - "Thuật ngữ: 'lính tàu ngầm'; giữ phủ định khái quát 'nhìn chung thường không bị trói buộc bởi các quy ước thông thường'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000421"
+    choices:
+      - "Giữ quan hệ điều kiện và phủ định: 'Chỉ cần họ tuân thủ những quy tắc tối thiểu, một người ngoài cuộc cũng chẳng thực sự có quyền phàn nàn.'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000422"
+    choices:
+      - "Phân biệt đại từ ngôi thứ nhất số nhiều trong thoại của von Schraft: 'chúng ta' (hai bên trên tàu hiện tại) và 'Lính tàu ngầm chúng tôi' / 'chúng tôi' (giới lính tàu ngầm)"
+  - segment_id: "YS-LN05/Text/part0022.html/p000423"
+    choices:
+      - "Xưng hô trong thoại của Tanya: 'anh', 'chúng ta'; thuật ngữ và tổ chức: 'không hạm đội', 'cơ quan tình báo liên hợp của Bộ Tư lệnh Lục quân và Hải quân'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000424"
+    choices:
+      - "Xưng hô của von Schraft: 'Tôi'; giữ tình thái suy đoán 'nhưng có lẽ phía bên kia đang canh phòng rất nghiêm ngặt'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000425"
+    choices:
+      - "Thuật ngữ: 'các pháp sư', 'tàu ngầm', 'Tập kích bất ngờ'; giữ tình thái và phủ định nhấn mạnh 'Có lẽ họ nằm mơ cũng chẳng ngờ tới...'"
+  - segment_id: "YS-LN05/Text/part0022.html/p000426"
+    choices:
+      - "Địa danh và ký hiệu chú thích: 'Trân Châu Cảng⁵', 'Scapa Flow⁶'; giữ tình thái giả định quá khứ 'đáng lý không bao giờ có thể thành công'"
