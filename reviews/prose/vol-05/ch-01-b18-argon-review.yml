@@ -1,0 +1,422 @@
+task_id: "vol-05-ch-01-b18-argon-review"
+parent_task_id: "vol-05-ch-01-b18"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-05"
+chapter: 1
+source_package: "work/vol-05/batches/ch-01-b18-source.jsonl"
+target_translation: "translations/vol-05/ch-01-b18.jsonl"
+review_path: "reviews/prose/vol-05/ch-01-b18-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN05/Text/part0010.html/p000613"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Cụm 'những kẻ có cảm tình cốt cán với Cộng sản' có trật tự bổ nghĩa hơi ngược trong tiếng Việt."
+    rationale: "Tính từ chỉ mức độ kiên trung/cốt cán bổ nghĩa cho cả cụm danh từ chỉ người có cảm tình với Cộng sản, còn 'cảm tình cốt cán' không phải kết hợp từ tự nhiên."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'những phần tử cốt cán có cảm tình với Cộng sản' hoặc 'những kẻ có cảm tình sâu sắc/cuồng nhiệt với Cộng sản'."
+  - segment_id: "YS-LN05/Text/part0010.html/p000636"
+    severity: "minor"
+    category: "context_nuance"
+    issue: "Câu thoại 'Của Trung tá đây ạ' dễ tạo cảm giác Serebryakov đang trả lại tập báo cáo của Tanya thay vì đưa một mảnh ghi chép mới."
+    rationale: "Ở đoạn tiếp theo (p000637), Tanya nhận lấy một mảnh ghi chép viết tay do chính Serebryakov thực hiện. Cách dịch trung tính chỉ hành động đưa vật sẽ nối mạch tự nhiên hơn với sự ngạc nhiên của Tanya."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'Đây ạ, thưa Trung tá.' hoặc 'Mời Trung tá xem cái này ạ.'"
+  - segment_id: "YS-LN05/Text/part0010.html/p000643"
+    severity: "minor"
+    category: "pronouns_voice"
+    issue: "Lặp từ 'mình' với hai chủ thể quy chiếu khác nhau trong cùng một câu ('Mình đã đinh ninh rằng tất cả bọn họ đều một lòng tận tụy với hệ tư tưởng của mình')."
+    rationale: "Từ 'Mình' đầu câu là đại từ tự quy chiếu của Tanya trong độc thoại nội tâm theo DEC-P01-001, còn 'của mình' thứ hai là đại từ phản thân quy chiếu về 'tất cả bọn họ'. Đổi từ thứ hai sẽ giúp câu văn rõ nghĩa và tránh lặp từ."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành '...tất cả bọn họ đều một lòng tận tụy với hệ tư tưởng của họ' hoặc '...với hệ tư tưởng đó'."
+pending_term_recommendations:
+  - source_term: "Communists / Communist"
+    proposed_vi: "những người Cộng sản / Cộng sản"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Communists / Communism -> những người Cộng sản / Chủ nghĩa Cộng sản' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000613"
+      - "YS-LN05/Text/part0010.html/p000621"
+      - "YS-LN05/Text/part0010.html/p000643"
+      - "YS-LN05/Text/part0010.html/p000644"
+      - "YS-LN05/Text/part0010.html/p000652"
+  - source_term: "Feldgendarmerie"
+    proposed_vi: "lực lượng Feldgendarmerie"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Feldgendarmerie -> lực lượng Feldgendarmerie' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "quân cảnh dã chiến Feldgendarmerie"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000614"
+      - "YS-LN05/Text/part0010.html/p000616"
+      - "YS-LN05/Text/part0010.html/p000628"
+      - "YS-LN05/Text/part0010.html/p000629"
+      - "YS-LN05/Text/part0010.html/p000632"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên quốc gia"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Federation -> Liên bang' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000616"
+      - "YS-LN05/Text/part0010.html/p000625"
+      - "YS-LN05/Text/part0010.html/p000626"
+  - source_term: "MPs / MP"
+    proposed_vi: "quân cảnh / bên quân cảnh"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'military police / MPs -> quân cảnh' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000616"
+      - "YS-LN05/Text/part0010.html/p000637"
+      - "YS-LN05/Text/part0010.html/p000639"
+      - "YS-LN05/Text/part0010.html/p000642"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Major Weiss -> Thiếu tá Weiss' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000618"
+  - source_term: "vice commander"
+    proposed_vi: "phó chỉ huy"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'deputy commander / vice commander -> phó chỉ huy' trong sổ pending Tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000619"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Trong tiếng Anh, cấp Lieutenant Colonel khi gọi tắt trong hội thoại là 'Colonel'; Tanya ở Tập 5 mang quân hàm Trung tá nên dịch là 'Trung tá' nhất quán với sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000622"
+      - "YS-LN05/Text/part0010.html/p000632"
+      - "YS-LN05/Text/part0010.html/p000636"
+  - source_term: "Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Serebryakov mang quân hàm First Lieutenant (Trung úy) từ Tập 4–5; nhất quán với mục 'First Lieutenant Serebryakov / Lieutenant Serebryakov -> Trung úy Serebryakov' trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000622"
+      - "YS-LN05/Text/part0010.html/p000626"
+      - "YS-LN05/Text/part0010.html/p000631"
+      - "YS-LN05/Text/part0010.html/p000635"
+      - "YS-LN05/Text/part0010.html/p000650"
+  - source_term: "multiethnic state"
+    proposed_vi: "quốc gia đa sắc tộc"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Nhất quán với mục 'multiethnic state -> quốc gia đa sắc tộc' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000625"
+  - source_term: "Federation language / official Federation language"
+    proposed_vi: "tiếng Liên bang / ngôn ngữ Liên bang chính thức"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Federation language -> tiếng Liên bang' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "tiếng Liên bang chính thức"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000625"
+      - "YS-LN05/Text/part0010.html/p000626"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Imperial Army -> Lục quân Đế quốc' trong sổ pending Tập 5."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000627"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'Kampfgruppe -> Kampfgruppe' trong sổ pending Tập 4–5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000638"
+  - source_term: "resistance to interrogation training"
+    proposed_vi: "huấn luyện kháng thẩm vấn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với mục 'resistance to interrogation training -> huấn luyện kháng thẩm vấn' trong sổ pending Tập 1."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000648"
+  - source_term: "noncommissioned officers"
+    proposed_vi: "các hạ sĩ quan"
+    category: "quân hàm / chức danh"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác tương ứng với noncommissioned officers (NCOs)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000651"
+  - source_term: "political commissars"
+    proposed_vi: "các chính ủy"
+    category: "chức danh quân sự – chính trị"
+    status: "pending"
+    rationale: "Nhất quán với mục 'political commissars -> chính ủy' trong sổ pending Tập 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN05/Text/part0010.html/p000652"
+locked_choices:
+  - segment_id: "YS-LN05/Text/part0010.html/p000611"
+    choices:
+      - "POV/pronouns: trần thuật ngôi thứ ba dùng 'cô' cho Tanya"
+      - "naive fantasy -> sự ảo tưởng ngây thơ"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000612"
+    choices:
+      - "utterly atrocious -> thật sự thảm hại vô cùng"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000613"
+    choices:
+      - "POV/pronouns: dùng 'chúng ta' cho phía Đế quốc"
+      - "prisoners -> đám tù binh"
+      - "interrogators -> những người thẩm vấn"
+      - "cookie-cutter responses -> mấy câu đáp trả đóng khuôn"
+      - "propaganda -> kiểu tuyên truyền"
+      - "intel -> thông tin tình báo"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000614"
+    choices:
+      - "POV/pronouns: độc thoại nội tâm tự quy chiếu dùng 'mình' theo DEC-P01-001; dùng 'chúng ta' cho phía Đế quốc"
+      - "Feldgendarmerie -> Lực lượng Feldgendarmerie"
+      - "short-term results -> kết quả ngắn hạn"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000615"
+    choices:
+      - "transition: 'Thực tế thì…'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000616"
+    choices:
+      - "POV/pronouns: nội tâm dùng 'chúng ta' và 'mình' theo DEC-P01-001"
+      - "Federation soldiers -> binh lính Liên bang"
+      - "the MPs -> bên quân cảnh"
+      - "Feldgendarmerie -> lực lượng Feldgendarmerie"
+      - "throw in the towel -> bỏ cuộc"
+      - "rhetorical_question: giữ câu hỏi tu từ ở cuối câu"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000617"
+    choices:
+      - "dialogue: 'Nhưng chuyện này thật kỳ lạ.'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000618"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Tanya' và 'anh' (Thiếu tá Weiss)"
+      - "clockwork attack -> đợt tấn công đều đặn như máy móc"
+      - "enemy commando unit -> đơn vị biệt kích địch"
+      - "Major Weiss -> Thiếu tá Weiss"
+      - "question_target: 'Chuyện gì cơ?'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000619"
+    choices:
+      - "POV/pronouns: trần thuật ngôi thứ ba dùng 'anh' (Weiss) và 'cô / Tanya'"
+      - "vice commander -> phó chỉ huy"
+      - "negation: sẽ không phải là lời than vãn vô nghĩa"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000620"
+    choices:
+      - "pronouns: Thiếu tá Weiss xưng 'Tôi', gọi Tanya là 'chỉ huy' kèm kính ngữ 'ạ'"
+      - "reckless offensives -> các cuộc tiến công liều lĩnh"
+      - "question_target: câu hỏi về lý do binh lính địch răm rắp nghe theo các cuộc tiến công liều lĩnh"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000621"
+    choices:
+      - "POV/pronouns: lời thoại của Tanya dùng 'Tôi' và 'chúng ta'; trần thuật dùng 'cô'"
+      - "Communists -> những người Cộng sản"
+      - "double_negation: 'không phải là bất khả thi'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000622"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "Colonel -> Trung tá"
+      - "POV/pronouns: trần thuật dùng 'Cô' cho Serebryakov; lời thoại Serebryakov gọi Tanya là 'Trung tá' kèm 'ạ'"
+      - "question_and_condition: 'Nếu… Trung tá có thắc mắc, vậy thì thử trực tiếp hỏi họ xem sao ạ?'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000623"
+    choices:
+      - "intelligence source -> nguồn tin tình báo"
+      - "prisoner -> tù binh"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000624"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'"
+      - "language barrier -> rào cản ngôn ngữ"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000625"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'cô'"
+      - "the Federation -> Liên bang"
+      - "multiethnic state -> quốc gia đa sắc tộc"
+      - "official Federation language -> ngôn ngữ Liên bang chính thức"
+      - "dialect -> phương ngữ"
+      - "condition_and_modality: giả định vượt qua rào cản về lý thuyết và nhận định gần như bất khả thi khi chỉ được đào tạo ngôn ngữ cơ bản"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000626"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Tanya' và 'cô' (Serebryakov)"
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "the Empire -> Đế quốc"
+      - "refugees -> người tị nạn"
+      - "Federation language -> tiếng Liên bang"
+      - "emphasis: chỉ bọc '*Ngôn ngữ đúng là một vấn đề phiền phức thật…*' đúng phạm vi in nghiêng của nguồn theo DEC-P01-002"
+  - segment_id: "YS-LN05/Text/part0010.html/p000627"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Tanya' và 'cô' (Serebryakov)"
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000628"
+    choices:
+      - "Feldgendarmerie -> Lực lượng Feldgendarmerie"
+      - "negation: không hề lơ là về khoản đó"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000629"
+    choices:
+      - "pronouns: Tanya xưng 'Tôi'"
+      - "Feldgendarmerie -> Lực lượng Feldgendarmerie"
+      - "surveying -> tiến hành khảo sát"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000630"
+    choices:
+      - "question_target: 'Vậy họ chiến đấu vì điều gì ạ?'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000631"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "pronouns: Tanya xưng 'Tôi' và dùng 'chúng ta'"
+      - "negation: hóa ra chúng ta chẳng biết gì cả"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000632"
+    choices:
+      - "Feldgendarmerie -> lực lượng Feldgendarmerie"
+      - "Colonel -> Trung tá"
+      - "pronouns: Serebryakov xưng 'tôi', gọi Tanya là 'Trung tá' kèm 'ạ'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000633"
+    choices:
+      - "pronouns: lời thoại Tanya xưng 'tôi'; trần thuật giữ tên riêng 'Tanya' và 'Serebryakov'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000634"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'cô' (Serebryakov)"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000635"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000636"
+    choices:
+      - "Colonel -> Trung tá"
+      - "tone: giữ kính ngữ 'ạ' của Serebryakov đối với Tanya"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000637"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Tanya / cô'"
+      - "handwritten note -> mảnh ghi chép viết tay"
+      - "the MPs -> bên quân cảnh"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000638"
+    choices:
+      - "Kampfgruppe -> Kampfgruppe"
+      - "tone: giữ kính ngữ 'ạ' của Serebryakov"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000639"
+    choices:
+      - "POV/pronouns: Tanya gọi Serebryakov là 'cô'; trần thuật dùng 'Tanya / cô'"
+      - "the MPs -> bên quân cảnh"
+      - "eye drops -> thuốc nhỏ mắt"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000640"
+    choices:
+      - "normal, natural voices -> giọng điệu bình thường, tự nhiên của chính họ"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000641"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'"
+      - "negation: chưa từng đọc thứ gì như thế này bao giờ"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000642"
+    choices:
+      - "POV/pronouns: trần thuật dùng 'Cô'"
+      - "MP reports -> báo cáo của quân cảnh"
+      - "normal soldiers -> người lính bình thường"
+      - "negation: chẳng nhớ mình từng thấy bất kỳ bản báo cáo nào"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000643"
+    choices:
+      - "POV/pronouns: độc thoại nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001"
+      - "Communists -> những người Cộng sản"
+      - "ideology -> hệ tư tưởng"
+      - "contrast: đối lập giữa định kiến của Tanya và nội dung ghi chép của Serebryakov"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000644"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'"
+      - "Communists -> những người Cộng sản"
+      - "negation: Chẳng hề thấy bóng dáng “những người Cộng sản” nào ở đây cả"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000645"
+    choices:
+      - "Just people -> Chỉ là con người mà thôi"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000646"
+    choices:
+      - "Just raw soldiers -> Chỉ là những người lính bằng xương bằng thịt"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000647"
+    choices:
+      - "individuals -> những cá nhân riêng biệt"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000648"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya' và 'Serebryakov'"
+      - "resistance to interrogation training -> huấn luyện kháng thẩm vấn"
+      - "question_target: câu hỏi cảm thán về sự thay đổi thái độ khi tù binh nói chuyện với Serebryakov"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000649"
+    choices:
+      - "from robots into humans -> từ người máy thành con người"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000650"
+    choices:
+      - "Lieutenant Serebryakov -> Trung úy Serebryakov"
+      - "pronouns: Tanya xưng 'tôi', gọi Serebryakov là 'cô'"
+      - "negation_and_question: 'Không phải là tôi nghi ngờ cô đâu, nhưng ý cô là chính cô đã trực tiếp thẩm vấn những tù binh này sao?'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000651"
+    choices:
+      - "pronouns: Serebryakov xưng 'chúng tôi' kèm kính ngữ 'ạ'"
+      - "noncommissioned officers -> các hạ sĩ quan"
+      - "intelligence -> thông tin tình báo"
+      - "small talk -> những câu chuyện phiếm"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000652"
+    choices:
+      - "POV/pronouns: trần thuật giữ tên riêng 'Tanya'; lời thoại Tanya gọi Serebryakov là 'cô'"
+      - "political commissars -> các chính ủy"
+      - "Communists -> những người Cộng sản"
+      - "question_target: câu hỏi xác nhận việc binh lính (trừ các chính ủy) đều giữ khoảng cách với 'những người Cộng sản'"
+      - "emphasis: không dùng Markdown *...*"
+  - segment_id: "YS-LN05/Text/part0010.html/p000653"
+    choices:
+      - "negation: họ không ủng hộ đảng hiện tại ạ"
+      - "emphasis: không dùng Markdown *...*"
