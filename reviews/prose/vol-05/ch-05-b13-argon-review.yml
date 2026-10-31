@@ -1,0 +1,229 @@
+task_id: vol-05-ch-05-b13-argon-review
+parent_task_id: vol-05-ch-05-b13
+reviewer: gemini-4-argon-medium
+volume: vol-05
+chapter: 5
+source_package: work/vol-05/batches/ch-05-b13-source.jsonl
+target_translation: translations/vol-05/ch-05-b13.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: minor
+    segment_id: YS-LN05/Text/part0025.html/p000505
+    issue: "Đại từ ngôi thứ ba chỉ Trung úy Tospan trong nhận định nội tâm của Tanya đang dịch là \"hắn\", hơi nặng so với mạch gọi \"anh ta\" ở đoạn lân cận (p000481, p000503) khi Tospan mới chỉ lắp bắp lặp lại lý do cũ chứ chưa tiết lộ việc Đại úy Thon tự ý bỏ vị trí."
+    evidence: "Nguồn tại p000505 dùng đại từ ngôi thứ ba trung tính quy chiếu về câu trả lời của Tospan ở p000504; ở p000481 đại từ chỉ Tospan đã được khóa là \"anh ta\"."
+    recommendation: "Đổi \"hắn\" thành \"anh ta\" ở p000505 để giữ mạch đại từ nhất quán và phân biệt rõ với sắc thái tức giận sau khi sự việc vỡ lở."
+  - severity: minor
+    segment_id: YS-LN05/Text/part0025.html/p000518
+    issue: "Trong câu trần thuật ngôi thứ ba trước khi Tospan báo tin ở p000519, đại từ chỉ Trung úy Tospan đang dịch là \"hắn\" (hai lần), chưa đồng bộ với giọng trần thuật trung tính \"anh ta\" đã dùng cho nhân vật này ở p000481."
+    evidence: "Phần sau lời thoại ở p000518 là lời người kể chuyện mô tả hành động Tanya thúc giục Tospan nói tiếp trước khi nghe tin bất ngờ ở p000519."
+    recommendation: "Đổi hai từ \"hắn\" thành \"anh ta\" trong phần trần thuật của p000518 để giữ giọng kể khách quan và làm nổi bật bước chuyển sang cơn thịnh nộ của Tanya từ p000527–p000529."
+pending_term_recommendations:
+  - source_term: delaying attack
+    proposed_vi: đánh trì hoãn
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000494
+    rationale: "Đồng bộ với các mục pending \"delaying action\" và \"delaying combat\" (\"đánh trì hoãn\") đã dùng trong các tập trước."
+    alternatives_vi:
+      - tấn công trì hoãn
+  - source_term: officer reconnaissance
+    proposed_vi: trinh sát sĩ quan
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000526
+    rationale: "Dịch sát thuật ngữ quân sự chỉ hoạt động trinh sát do sĩ quan trực tiếp thực hiện để nắm tình hình chiến thuật tại thực địa."
+    alternatives_vi:
+      - tuần tra trinh sát cấp sĩ quan
+  - source_term: officer aptitude eval
+    proposed_vi: kỳ đánh giá năng lực sĩ quan
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000528
+    rationale: "Diễn đạt rõ nghĩa, tự nhiên và khớp với bối cảnh sát hạch phẩm chất, năng lực chỉ huy của sĩ quan trong quân đội Đế quốc."
+    alternatives_vi:
+      - đợt sát hạch tố chất sĩ quan
+  - source_term: command authority
+    proposed_vi: quyền chỉ huy
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000529
+    rationale: "Thuật ngữ quân sự tiêu chuẩn, chính xác trong ngữ cảnh Tanya hối hận vì đã tôn trọng thẩm quyền chỉ huy đơn vị bộ binh của Thon."
+    alternatives_vi:
+      - thẩm quyền chỉ huy
+  - source_term: blocking unit
+    proposed_vi: đội đốc chiến
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000529
+    rationale: "Kế thừa nhất quán mục pending \"blocking units\" (\"các đội đốc chiến\") đã xác lập ở tập 4."
+    alternatives_vi: []
+  - source_term: trench-war and defensive-combat
+    proposed_vi: chiến tranh chiến hào và tác chiến phòng ngự
+    category: thuật ngữ quân sự
+    status: proposed
+    segment_ids:
+      - YS-LN05/Text/part0025.html/p000534
+    rationale: "Kết hợp nhất quán với \"trench warfare\" (\"chiến tranh chiến hào\") ở các lô trước của chương 5 và chuẩn thuật ngữ tác chiến."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: YS-LN05/Text/part0025.html/p000492
+    choices:
+      - "Thuật ngữ: \"yểm trợ phòng ngự\" (defense support)."
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Chà, mình rất cảm kích lời đề nghị đó đấy*\", giữ phần dẫn trần thuật bên ngoài dấu sao."
+      - "Đại từ theo DEC-P01-001: nội tâm tự quy chiếu của Tanya dùng \"mình\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000493
+    choices:
+      - "Tình thái & phạm vi: \"có vẻ như mới chỉ có bộ binh địch đang tiến về phía phòng tuyến của họ\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000494
+    choices:
+      - "Cấp bậc & đại từ trong báo cáo của cấp dưới: \"Thiếu tá Weiss\" (Major Weiss), gọi \"Anh ấy\"."
+      - "Thuật ngữ: \"tiểu đoàn\" (battalion), \"đánh trì hoãn\" (conduct a delaying attack), \"bộ binh địch\" (enemy infantry)."
+  - segment_id: YS-LN05/Text/part0025.html/p000495
+    choices:
+      - "Thoại chỉ huy của Tanya: tự xưng \"tôi\", gọi Thiếu tá Weiss là \"anh ấy\", số nhiều \"tổn thất của ta\"."
+      - "Chỉ dẫn tác chiến & phủ định: \"cầm chân và bào mỏng quân số của chúng\", \"hạn chế tổn thất của ta là ưu tiên hàng đầu\", \"không thể để anh ấy vắt kiệt tiểu đoàn pháp sư một cách vô cớ\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000496
+    choices:
+      - "Xưng hô của cấp dưới với Tanya: tự xưng \"Tôi\", gọi Weiss là \"anh ấy\", hô đáp \"thưa Trung tá\" (ma’am)."
+  - segment_id: YS-LN05/Text/part0025.html/p000497
+    choices:
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\"."
+      - "Thuật ngữ: \"phó chỉ huy\" (vice commander)."
+  - segment_id: YS-LN05/Text/part0025.html/p000498
+    choices:
+      - "Thuật ngữ: \"Các đòn tấn công mặt đất\" (Anti-surface attacks), \"đơn vị pháp sư\" (mage units), \"những người lính dày dạn kinh nghiệm\" (veterans), \"Bộ binh địch\" (enemy infantry)."
+      - "Đại từ chỉ Weiss trong trần thuật/nhận định: \"anh ta\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000499
+    choices:
+      - "Độc thoại nội tâm của Tanya theo DEC-P01-001: tự xưng \"Mình\", số nhiều \"bọn mình\", không tự thêm dấu sao khi nguồn không in nghiêng."
+      - "Thuật ngữ: \"vành đai trận địa\" (position’s perimeter)."
+  - segment_id: YS-LN05/Text/part0025.html/p000500
+    choices:
+      - "Độc thoại nội tâm của Tanya: \"mình\", \"bọn mình\"."
+      - "Thuật ngữ: \"bộ binh\" (infantry), \"đơn vị thiết giáp\" (armored unit), \"đạn pháo\" (shells)."
+  - segment_id: YS-LN05/Text/part0025.html/p000501
+    choices:
+      - "Trần thuật: giữ tên \"Meybert\", \"Tanya\" và thuật ngữ \"đạn pháo\" (shells)."
+  - segment_id: YS-LN05/Text/part0025.html/p000502
+    choices:
+      - "Cấp bậc & tên riêng: \"Trung úy Tospan\" (Lieutenant Tospan), \"Đại úy Thon\" (Captain Thon)."
+  - segment_id: YS-LN05/Text/part0025.html/p000503
+    choices:
+      - "Tình thái & đại từ chỉ Đại úy Thon: \"giờ này lẽ ra anh ta phải có mặt rồi chứ\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000504
+    choices:
+      - "Xưng hô của Trung úy Tospan với Tanya: \"Thưa Trung tá\" (Ma’am), gọi cấp trên trực tiếp Đại úy Thon là \"anh ấy\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000505
+    choices:
+      - "Khuyến nghị dùng đại từ \"anh ta\" để chỉ Trung úy Tospan cho nhất quán với p000481."
+  - segment_id: YS-LN05/Text/part0025.html/p000506
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Nhưng mà…*\" và giữ phần còn lại ngoài dấu sao."
+  - segment_id: YS-LN05/Text/part0025.html/p000507
+    choices:
+      - "Phủ định & đối chiếu trạng thái: \"chẳng hề di chuyển giống với những người lính bộ binh đang cần phải vào vị trí và chuẩn bị đón đánh cuộc tấn công của địch\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000508
+    choices:
+      - "Giữ nguyên độ mở câu hỏi nội tâm và phủ định: \"Phải chăng họ vẫn chưa nhận được chỉ thị đàng hoàng?\""
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000509
+    choices:
+      - "Cấp bậc & tên riêng: \"Trung úy Serebryakov\" (Lieutenant Serebryakov)."
+  - segment_id: YS-LN05/Text/part0025.html/p000510
+    choices:
+      - "Thuật ngữ: \"Những tuyến phòng ngự\" (defensive lines), \"nhân lực\" (manpower), \"tân binh\" (newbies)."
+  - segment_id: YS-LN05/Text/part0025.html/p000511
+    choices:
+      - "Độc thoại nội tâm của Tanya: tự xưng \"mình\"."
+      - "Cấp bậc & chức danh: \"chỉ huy bộ binh là Đại úy Thon\" (infantry commander Captain Thon), \"cuộc họp các chỉ huy\" (commander’s meeting)."
+  - segment_id: YS-LN05/Text/part0025.html/p000512
+    choices:
+      - "Tình thái quá khứ: \"Ít nhất cũng phải có lời nhắn báo lại chứ.\""
+  - segment_id: YS-LN05/Text/part0025.html/p000513
+    choices:
+      - "Sắc thái nội tâm khi bực bội với năng lực chỉ huy của Thon: gọi \"hắn\", dịch \"discharged\" là \"giải ngũ\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000514
+    choices:
+      - "Xưng hô của Tanya với Trung úy Tospan: gọi \"Anh\", tự xưng \"Tôi\"."
+      - "Thuật ngữ: \"rải đường dây điện thoại\" (laid the phone lines), \"ban chỉ huy của Đại úy Thon\" (Captain Thon’s command)."
+  - segment_id: YS-LN05/Text/part0025.html/p000515
+    choices:
+      - "Thoại ngập ngừng của Tospan: \"Về chuyện đó…\""
+  - segment_id: YS-LN05/Text/part0025.html/p000516
+    choices:
+      - "Xưng hô & phủ định trong mệnh lệnh của Tanya với Tospan: \"Trung úy Tospan, đó không phải là một lời thỉnh cầu. Đó là mệnh lệnh.\", tự xưng \"Tôi\" / \"mình\", gọi \"anh\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000517
+    choices:
+      - "Xưng hô lắp bắp của Tospan với Tanya: \"Th-thực ra thì, thưa Trung tá…\""
+  - segment_id: YS-LN05/Text/part0025.html/p000518
+    choices:
+      - "Thoại của Tanya: tự xưng \"Tôi\"."
+      - "Khuyến nghị dùng \"anh ta\" để chỉ Trung úy Tospan trong phần trần thuật."
+  - segment_id: YS-LN05/Text/part0025.html/p000519
+    choices:
+      - "Cấp bậc & thuật ngữ: \"Đại úy Thon\" (Captain Thon), \"đi trinh sát\" (scouting)."
+  - segment_id: YS-LN05/Text/part0025.html/p000520
+    choices:
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\"."
+      - "Nhấn mạnh Markdown theo DEC-P01-002: giữ đúng hai vùng nhấn mạnh tách quanh cụm không in nghiêng \"*Chỉ huy bộ binh lại ra ngoài — ngay giữa lúc quân địch đang tấn công không hơn không kém — để* đi trinh sát *ư?*\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000521
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Rời khỏi đơn vị của mình ư?!*\""
+  - segment_id: YS-LN05/Text/part0025.html/p000522
+    choices:
+      - "Thoại của Tanya: gọi Thon là \"anh ta\", \"rời bỏ vị trí của mình\" (leave his post)."
+  - segment_id: YS-LN05/Text/part0025.html/p000523
+    choices:
+      - "Thoại của Tospan: gọi Đại úy Thon là \"anh ấy\", \"Thiếu tá Weiss\" (Major Weiss), \"tiền tuyến\" (front lines), \"tuần tra\" (patrolling)."
+  - segment_id: YS-LN05/Text/part0025.html/p000524
+    choices:
+      - "Giả định nội tâm của Tanya: tự xưng \"bọn mình\", giữ đúng tình thái giả định \"Nếu định triển khai phòng ngự đàn hồi thì đúng là bọn mình cũng có thể áp dụng thêm biện pháp đó.\""
+      - "Thuật ngữ: \"phòng ngự đàn hồi\" (elastic defense), \"tác chiến cơ động\" (mobile warfare)."
+  - segment_id: YS-LN05/Text/part0025.html/p000525
+    choices:
+      - "Thoại của Tanya: số nhiều \"ta\" / \"chúng ta\", gọi Thon là \"anh ta\", giữ phủ định và câu hỏi tu từ."
+  - segment_id: YS-LN05/Text/part0025.html/p000526
+    choices:
+      - "Thoại của Tospan: lắp bắp \"A-anh ấy\", số nhiều \"chúng ta\"."
+      - "Thuật ngữ: \"trinh sát sĩ quan\" (officer reconnaissance), \"Thiếu tá Weiss\" (Major Weiss), \"thông tin tình báo\" (intel)."
+  - segment_id: YS-LN05/Text/part0025.html/p000527
+    choices:
+      - "Thoại quát mắng của Tanya với Tospan: gọi \"anh\", \"Tospan, đồ đần độn này\", \"Đại úy Thon\"."
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\"."
+  - segment_id: YS-LN05/Text/part0025.html/p000528
+    choices:
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\", gọi Thon là \"cái gã này\" (this guy)."
+      - "Thuật ngữ: \"kỳ đánh giá năng lực sĩ quan\" (officer aptitude eval)."
+  - segment_id: YS-LN05/Text/part0025.html/p000529
+    choices:
+      - "Độc thoại nội tâm của Tanya: tự xưng \"mình\", gọi Thon là \"hắn\", giữ đúng tình thái giả định quá khứ \"Lẽ ra mình phải bố trí kèm một đội đốc chiến để bất kỳ kẻ làm việc bất tài nào cũng có thể bị xử bắn ngay lập tức.\""
+      - "Thuật ngữ: \"quyền chỉ huy\" (command authority), \"đội đốc chiến\" (blocking unit)."
+  - segment_id: YS-LN05/Text/part0025.html/p000530
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: \"*Trong trường hợp đó…*\" và giữ câu trần thuật ngoài dấu sao."
+      - "Thuật ngữ: \"khắc phục hậu quả\" (damage control)."
+  - segment_id: YS-LN05/Text/part0025.html/p000531
+    choices:
+      - "Cấp bậc & tên riêng: \"Trung úy Grantz!\" (Lieutenant Grantz!)."
+  - segment_id: YS-LN05/Text/part0025.html/p000532
+    choices:
+      - "Hô đáp của Grantz với Tanya: \"Có tôi, thưa Trung tá!\" (Yes, ma’am!)."
+  - segment_id: YS-LN05/Text/part0025.html/p000533
+    choices:
+      - "Thuật ngữ: \"các phòng tuyến\" (defensive line)."
+  - segment_id: YS-LN05/Text/part0025.html/p000534
+    choices:
+      - "Đại từ theo DEC-P01-001: trần thuật gọi Tanya là \"nó\", gọi Grantz là \"anh ta\"."
+      - "Thuật ngữ: \"chiến tranh chiến hào và tác chiến phòng ngự\" (trench-war and defensive-combat), \"mặt trận Rhine\" (Rhine front)."
+  - segment_id: YS-LN05/Text/part0025.html/p000535
+    choices:
+      - "Đại từ chỉ Grantz: \"Anh ta\", giữ phủ định \"sẽ không suy sụp\"."
+      - "Thuật ngữ: \"đạn pháo\" (shells), \"đợt tấn công ban đêm của bộ binh\" (infantry attack by night)."
