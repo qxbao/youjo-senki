@@ -1,0 +1,234 @@
+task_id: "vol-07-ch-04-b04-argon-review"
+parent_task_id: "vol-07-ch-04-b04"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b04-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b04.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b04-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000009"
+    issue: "Thán từ thở dài ở đầu đoạn được dịch là 'Haizz', mang sắc thái khẩu ngữ mạng hiện đại, hơi lệch tông trang trọng của cuộc đối thoại giữa hai Trung tướng tại Phòng Tác chiến Bộ Tổng tham mưu."
+    evidence: "Nhân vật phát ngôn là Trung tướng von Zettour đang thảo luận căng thẳng về rủi ro chiến lược của Chiến dịch Búa Sắt."
+    recommendation: "Có thể chỉnh thành 'Haa...' hoặc 'Phù...' ở bước chuốt văn của Flash polisher để hợp văn cảnh quân sự cổ điển hơn; không ảnh hưởng nghĩa nên không chặn signoff."
+pending_term_recommendations:
+  - source_term: "Lieutenant General von Zettour / Zettour / Rudersdorf / General von Rudersdorf"
+    proposed_vi: "Trung tướng von Zettour / Zettour / Rudersdorf / Tướng von Rudersdorf"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán quân hàm và danh xưng của hai tướng lĩnh Bộ Tổng tham mưu theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000001"
+      - "YS-LN07/Text/chapter016.xhtml/p000002"
+      - "YS-LN07/Text/chapter016.xhtml/p000003"
+      - "YS-LN07/Text/chapter016.xhtml/p000005"
+      - "YS-LN07/Text/chapter016.xhtml/p000009"
+      - "YS-LN07/Text/chapter016.xhtml/p000013"
+      - "YS-LN07/Text/chapter016.xhtml/p000016"
+      - "YS-LN07/Text/chapter016.xhtml/p000018"
+      - "YS-LN07/Text/chapter016.xhtml/p000020"
+      - "YS-LN07/Text/chapter016.xhtml/p000022"
+      - "YS-LN07/Text/chapter016.xhtml/p000026"
+  - source_term: "staff officers / staff officer / staff curriculum"
+    proposed_vi: "sĩ quan tham mưu / chương trình đào tạo tham mưu"
+    category: "chức danh / thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với thuật ngữ 'sĩ quan tham mưu' trong sổ pending và diễn đạt rõ chương trình huấn luyện tham mưu ở p000013."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000001"
+      - "YS-LN07/Text/chapter016.xhtml/p000013"
+  - source_term: "Operation Iron Hammer"
+    proposed_vi: "Chiến dịch Búa Sắt"
+    category: "tên chiến dịch"
+    status: "pending"
+    rationale: "Giữ thống nhất tên chiến dịch phản công của Đế quốc tiếp nối từ batch ch-04-b03."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000004"
+  - source_term: "ranger paratroopers / rangers / reserve ranger paratroopers"
+    proposed_vi: "lực lượng biệt kích dù / biệt kích / lực lượng biệt kích dù dự bị"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ nhất quán thuật ngữ chỉ lực lượng biệt kích nhảy dù làm nhiệm vụ đánh chiếm và chốt giữ cầu vượt sông."
+    alternatives_vi:
+      - "lính dù biệt kích / biệt kích / lính dù biệt kích dự bị"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000004"
+      - "YS-LN07/Text/chapter016.xhtml/p000006"
+      - "YS-LN07/Text/chapter016.xhtml/p000007"
+      - "YS-LN07/Text/chapter016.xhtml/p000023"
+  - source_term: "air supremacy"
+    proposed_vi: "quyền làm chủ bầu trời"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã ghi nhận trong sổ pending cho cấp độ làm chủ không phận."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000004"
+  - source_term: "Federation river crossing"
+    proposed_vi: "điểm vượt sông của Liên bang"
+    category: "thuật ngữ quân sự / địa danh"
+    status: "pending"
+    rationale: "Đồng bộ cách dịch 'Liên bang' và 'điểm vượt sông' với batch ch-04-b03."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000006"
+  - source_term: "long-range airborne operation"
+    proposed_vi: "chiến dịch đổ bộ đường không tầm xa"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ tác chiến chuẩn xác, đồng bộ với 'đơn vị đổ bộ đường không' ở batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000023"
+  - source_term: "secret negotiations / Ildoa / cease-fire"
+    proposed_vi: "các cuộc đàm phán bí mật / Ildoa / lệnh ngừng bắn"
+    category: "ngoại giao / địa danh"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với sổ pending tập 7 cho tuyến ngoại giao trung gian qua Ildoa."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000024"
+  - source_term: "maneuver battle / enemy military district"
+    proposed_vi: "trận đánh cơ động / quân khu địch"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với sổ pending tập 7 và đồng bộ trực tiếp với batch ch-04-b03."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000026"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000001"
+    choices:
+      - "Nhân vật & cấp bậc: 'Lieutenant General von Zettour' -> 'Trung tướng von Zettour'; 'Rudersdorf' -> 'Rudersdorf'"
+      - "Thuật ngữ: 'staff officers' -> 'sĩ quan tham mưu'"
+      - "Xưng hô đồng cấp giữa Zettour và Rudersdorf: 'tôi' - 'ông', ngôi thứ nhất số nhiều 'chúng ta'"
+      - "Phủ định & đối lập: 'không phải là cầu nguyện phép màu, mà là tạo ra chúng'; 'tôi không có ý kiến phản đối nào'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000002"
+    choices:
+      - "Đại từ ngôi thứ nhất số nhiều trong lời Rudersdorf: 'chúng ta'"
+      - "Phủ định: 'chẳng có gì phải băn khoăn cả'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000003"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Nếu đã hiểu rồi thì thôi than vãn đi*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ trần thuật chỉ Zettour: 'ông'; đại từ trong thoại của Zettour: 'Chúng ta' / 'mình'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000004"
+    choices:
+      - "Thuật ngữ: 'Operation Iron Hammer' -> 'Chiến dịch Búa Sắt'; 'the drop' -> 'đợt thả dù'; 'ranger paratroopers' -> 'lực lượng biệt kích dù'; 'air supremacy' -> 'quyền làm chủ bầu trời'; 'imperial military' -> 'Quân đội Đế quốc'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000005"
+    choices:
+      - "Xưng hô của Zettour với Rudersdorf: gọi tên 'Rudersdorf', xưng 'tôi' - 'ông', đại từ chung 'chúng ta'"
+      - "Ẩn dụ: 'một sợi dây thun đã bị kéo căng đến tột cùng' / 'sắp sửa đứt phựt tới nơi rồi'"
+      - "Phủ định: 'không còn bất kỳ dư địa nào để vươn xa hơn nữa'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000006"
+    choices:
+      - "Thuật ngữ: 'air force' -> 'không quân'; 'second strike' -> 'đợt tấn công thứ hai'; 'transport plane' -> 'máy bay vận tải'; 'rangers' -> 'số biệt kích'; 'Federation river crossing' -> 'điểm vượt sông của Liên bang'"
+      - "Phủ định: 'không thể trông cậy...', 'chẳng thể tiếp tế đầy đủ...'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000007"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông'"
+      - "Thuật ngữ: 'lightly outfitted rangers' -> 'lực lượng biệt kích với trang bị hạng nhẹ'"
+      - "Giả định điều kiện: 'Nếu kéo dài quá lâu, thiệt hại sẽ không thể cứu vãn nổi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000008"
+    choices:
+      - "Đại từ ngôi thứ nhất số nhiều trong lời Rudersdorf: 'Chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000009"
+    choices:
+      - "Đại từ trần thuật: 'Ông' (Zettour), 'người bạn của mình' / 'ông ấy' (Rudersdorf)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000010"
+    choices:
+      - "Xưng hô của Zettour với Rudersdorf: 'Ông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000011"
+    choices:
+      - "Câu hỏi ngắn của Rudersdorf: 'Thế này là thế nào?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000012"
+    choices:
+      - "Xưng hô của Zettour với Rudersdorf: 'Tôi' - 'ông'"
+      - "Phủ định: 'Tôi không tài nào tự tin đến mức ấy được'"
+      - "Ẩn dụ: 'bước đi trên lớp băng mỏng'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000013"
+    choices:
+      - "Đại từ trần thuật chỉ Rudersdorf: 'ông'"
+      - "Thuật ngữ: 'staff officer' -> 'sĩ quan tham mưu'; 'high-ranking officer' -> 'sĩ quan cấp cao'; 'staff curriculum' -> 'chương trình đào tạo tham mưu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000014"
+    choices:
+      - "Đại từ trần thuật chỉ Rudersdorf: 'Ông' / 'mình' / 'bản thân'"
+      - "Thuật ngữ: 'specialist' -> 'chuyên gia'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000015"
+    choices:
+      - "Châm ngôn ngắn của Rudersdorf: 'Không mạo hiểm thì chẳng có thành quả.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000016"
+    choices:
+      - "Xưng hô của Zettour với Rudersdorf: 'Tôi' - 'ông, Rudersdorf'"
+      - "Cụm từ: 'reservation' -> 'điều bảo lưu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000017"
+    choices:
+      - "Câu hỏi ngắn của Rudersdorf: 'Bảo lưu điều gì?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000018"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông'; chỉ Rudersdorf: 'bạn mình'"
+      - "Logic điều kiện: 'rủi ro chỉ được chấp nhận sau khi đã loại bỏ mọi rủi ro có thể loại bỏ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000019"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'Ông'"
+      - "Câu hỏi đuôi phủ định: 'Ông đúng là chẳng biết khi nào nên chịu nhượng bộ nhỉ?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000020"
+    choices:
+      - "Danh xưng trang trọng trong lời đáp của Zettour: 'General von Rudersdorf' -> 'Tướng von Rudersdorf'; xưng 'tôi'"
+      - "Phủ định & giả định trái thực tế: 'Chẳng người tỉnh táo nào lại tán thành canh bạc này cả'; 'Nếu đây là thời trước chiến tranh, kẻ nào nghĩ ra nó ắt sẽ bị tống vào viện điều dưỡng!'"
+      - "Thuật ngữ: 'sanatorium' -> 'viện điều dưỡng'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000021"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'ông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000022"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Rõ ràng là vậy.*' tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000023"
+    choices:
+      - "Thuật ngữ: 'long-range airborne operation' -> 'chiến dịch đổ bộ đường không tầm xa'; 'rangers' -> 'số biệt kích'; 'reserve ranger paratroopers' -> 'lực lượng biệt kích dù dự bị'; 'eastern defensive lines' -> 'các tuyến phòng ngự phía đông'"
+      - "Giả định điều kiện: 'Nếu kế hoạch này thất bại, họ sẽ đánh mất lực lượng biệt kích dù dự bị vô giá của mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000024"
+    choices:
+      - "Thuật ngữ: 'imperial units' -> 'các đơn vị Đế quốc'; 'secret negotiations' -> 'các cuộc đàm phán bí mật'; 'Ildoa' -> 'Ildoa'; 'cease-fire and peace' -> 'một lệnh ngừng bắn và hòa bình'"
+      - "Đối lập giả định thắng - thua: 'Nếu thua vụ cá cược này, các đơn vị Đế quốc có thể sụp đổ trên toàn tuyến… Dù đúng là nếu thắng, đó sẽ là một chiến công vĩ đại.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000025"
+    choices:
+      - "Thuật ngữ & ẩn dụ: 'military operation' -> 'chiến dịch quân sự'; 'gamble' -> 'canh bạc'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000026"
+    choices:
+      - "Thuật ngữ: 'maneuver battle' -> 'trận đánh cơ động'; 'enemy military district' -> 'quân khu địch'"
+      - "Đại từ trần thuật chỉ Zettour: 'ông' / 'của mình'"
+      - "Không dùng nhấn mạnh Markdown"
