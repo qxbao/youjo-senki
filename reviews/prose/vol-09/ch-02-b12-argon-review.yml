@@ -1,0 +1,381 @@
+task_id: "vol-09-ch-02-b12-argon-review"
+parent_task_id: "vol-09-ch-02-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-09"
+chapter: 2
+source_package: "work/vol-09/batches/ch-02-b12-source.jsonl"
+target_translation: "translations/vol-09/ch-02-b12.jsonl"
+status: "approved"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000473"
+    severity: "minor"
+    category: "diction"
+    issue: "Động từ 'Sập bẫy' khi đứng đầu câu làm vị ngữ ngoại động ('Sập bẫy thành công một người...') hơi kém tự nhiên trong tiếng Việt vì 'sập bẫy' thường dùng như nội động từ chỉ phía trúng bẫy, trong khi ngữ cảnh là Uger chủ động giăng bẫy/cho đối phương sập bẫy."
+    recommendation: "Có thể giữ nguyên hoặc chỉnh nhẹ ở bước chuốt văn thành 'Giăng bẫy thành công một người từng nhận Huy hiệu Xung kích Cánh Bạc...' hoặc 'Cho một người từng nhận Huy hiệu Xung kích Cánh Bạc sập bẫy thành công...'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000490"
+    severity: "minor"
+    category: "modality"
+    issue: "Cấu trúc 'Chẳng phải... sao?' mang sắc thái câu hỏi tu từ khẳng định, trong khi câu hỏi ở nguồn là nghi vấn trực tiếp khi Tanya vừa nếm thử đồ ăn và hỏi Uger xem tình hình có phải đã tệ đi hơn trước không."
+    recommendation: "Có thể giữ nguyên hoặc chỉnh nhẹ ở bước chuốt văn thành '“…Nó còn tệ hơn trước sao?”' hoặc '“…Mọi thứ còn tệ đi hơn trước sao?”'."
+pending_term_recommendations:
+  - source_term: "JULY 1, UNIFIED YEAR 1927, IMPERIAL CAPITAL, ZOLKA CAFË / Zolka Café"
+    proposed_vi: "NGÀY 1 THÁNG 7 NĂM THỐNG NHẤT 1927, ĐẾ ĐÔ, QUÁN CÀ PHÊ ZOLKA / quán cà phê Zolka"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000459"
+      - "YS-LN09/Text/chapter006.xhtml/p000463"
+      - "YS-LN09/Text/chapter006.xhtml/p000465"
+      - "YS-LN09/Text/chapter006.xhtml/p000485"
+      - "YS-LN09/Text/chapter006.xhtml/p000487"
+      - "YS-LN09/Text/chapter006.xhtml/p000495"
+    rationale: "Kế thừa nhất quán định danh 'Đế đô' ('Imperial Capital') và 'quán cà phê Zolka' ('Zolka Café') từ các batch trước của tập 9; chuẩn hóa lỗi in 'CAFË' ở tiêu đề nguồn về cùng cách viết."
+    status: "proposed"
+  - source_term: "Colonel Uger / Uger"
+    proposed_vi: "Trung tá Uger / Uger"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000460"
+      - "YS-LN09/Text/chapter006.xhtml/p000461"
+      - "YS-LN09/Text/chapter006.xhtml/p000463"
+      - "YS-LN09/Text/chapter006.xhtml/p000467"
+      - "YS-LN09/Text/chapter006.xhtml/p000471"
+      - "YS-LN09/Text/chapter006.xhtml/p000476"
+      - "YS-LN09/Text/chapter006.xhtml/p000485"
+      - "YS-LN09/Text/chapter006.xhtml/p000494"
+    rationale: "Dịch đúng quân hàm thực tế Trung tá (Lieutenant Colonel) của Uger ở thời điểm tập 8–9 khi nguồn gọi tắt là Colonel."
+    status: "proposed"
+  - source_term: "rail administration"
+    proposed_vi: "ngành quản lý đường sắt"
+    alternatives_vi:
+      - "cơ quan quản lý đường sắt"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000461"
+    rationale: "Diễn đạt tự nhiên, sát nghĩa lĩnh vực công tác đường sắt của Trung tá Uger."
+    status: "proposed"
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff / Colonel Degurechaff / Colonel / Tanya"
+    proposed_vi: "Trung tá Tanya von Degurechaff / Trung tá Degurechaff / Trung tá / Tanya"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000460"
+      - "YS-LN09/Text/chapter006.xhtml/p000461"
+      - "YS-LN09/Text/chapter006.xhtml/p000462"
+      - "YS-LN09/Text/chapter006.xhtml/p000467"
+      - "YS-LN09/Text/chapter006.xhtml/p000468"
+      - "YS-LN09/Text/chapter006.xhtml/p000484"
+      - "YS-LN09/Text/chapter006.xhtml/p000489"
+      - "YS-LN09/Text/chapter006.xhtml/p000494"
+      - "YS-LN09/Text/chapter006.xhtml/p000496"
+    rationale: "Khớp hoàn toàn với quy ước dịch quân hàm và định danh của Tanya xuyên suốt tập 9."
+    status: "proposed"
+  - source_term: "ersatz / food substitutes / K-Brot / KK-Brot / De De-Fleisch"
+    proposed_vi: "đồ thay thế / thực phẩm thay thế / K-Brot / KK-Brot / De De-Fleisch"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000466"
+      - "YS-LN09/Text/chapter006.xhtml/p000476"
+      - "YS-LN09/Text/chapter006.xhtml/p000478"
+      - "YS-LN09/Text/chapter006.xhtml/p000480"
+      - "YS-LN09/Text/chapter006.xhtml/p000481"
+      - "YS-LN09/Text/chapter006.xhtml/p000482"
+      - "YS-LN09/Text/chapter006.xhtml/p000483"
+      - "YS-LN09/Text/chapter006.xhtml/p000484"
+      - "YS-LN09/Text/chapter006.xhtml/p000486"
+    rationale: "Giữ nguyên các tên gọi khẩu phần thời chiến tiếng Đức ('K-Brot', cách chơi chữ tăng cấp 'KK-Brot', và 'De De-Fleisch') theo đúng quy ước từ tập 1; dịch rõ 'ersatz' / 'food substitutes' thành 'đồ thay thế' / 'thực phẩm thay thế'."
+    status: "proposed"
+  - source_term: "home-country feast / home country / the rear / home front / front lines / the capital"
+    proposed_vi: "bữa đại tiệc nơi chính quốc / chính quốc / hậu phương / tiền tuyến / thủ đô"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000467"
+      - "YS-LN09/Text/chapter006.xhtml/p000476"
+      - "YS-LN09/Text/chapter006.xhtml/p000480"
+      - "YS-LN09/Text/chapter006.xhtml/p000481"
+      - "YS-LN09/Text/chapter006.xhtml/p000482"
+      - "YS-LN09/Text/chapter006.xhtml/p000487"
+      - "YS-LN09/Text/chapter006.xhtml/p000491"
+    rationale: "Thống nhất hệ thống thuật ngữ không gian hậu phương – tiền tuyến – chính quốc – thủ đô với các batch trước trong tập 9."
+    status: "proposed"
+  - source_term: "General von Zettour / war college"
+    proposed_vi: "Tướng von Zettour / trường đại học quân sự"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000470"
+    rationale: "Khớp hoàn toàn với sổ thuật ngữ tạm từ tập 2 đến tập 9."
+    status: "proposed"
+  - source_term: "Silver Wings Assault Badge"
+    proposed_vi: "Huy hiệu Xung kích Cánh Bạc"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000473"
+    rationale: "Kế thừa chính xác tên huy chương đã dùng ở tập 5 trong sổ thuật ngữ tạm."
+    status: "proposed"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000496"
+    rationale: "Giữ nguyên thuật ngữ biên chế đơn vị chiến thuật theo quy ước toàn dự án."
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000457"
+    locked:
+      pov: "Trần thuật ngôi thứ ba theo điểm nhìn Drake (tiếp nối cuối batch ch-02-b11)"
+      modality: "Giữ sắc thái suy đoán 'dường như đang đi đúng hướng'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000458"
+    locked:
+      speaker: "Drake nói với thuộc cấp trong nhà ăn sĩ quan"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000459"
+    locked:
+      terms:
+        - "NGÀY 1 THÁNG 7 NĂM THỐNG NHẤT 1927"
+        - "ĐẾ ĐÔ"
+        - "QUÁN CÀ PHÊ ZOLKA"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000460"
+    locked:
+      names_and_terms:
+        - "Trung tá Uger"
+        - "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000461"
+    locked:
+      names_and_terms:
+        - "ngành quản lý đường sắt"
+        - "Tanya"
+        - "Uger"
+      pronouns: "anh (Uger trong trần thuật)"
+      modality: "Phủ định 'chẳng thiệt hại gì' và cấu trúc 'chẳng còn lựa chọn nào khác ngoài việc phải góp mặt'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000462"
+    locked:
+      names_and_terms:
+        - "Trung tá Tanya von Degurechaff"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000463"
+    locked:
+      names_and_terms:
+        - "quán cà phê Zolka"
+        - "Uger"
+      pronouns: "cô (Tanya trong trần thuật)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000464"
+    locked:
+      pronouns: "mình (nội tâm tự quy chiếu của Tanya theo DEC-P01-001)"
+      modality: "Cấu trúc nhấn mạnh mốc thời gian nhận thức 'Phải đến tận lúc... mình mới nhận ra...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000465"
+    locked:
+      terms:
+        - "quán cà phê Zolka"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000466"
+    locked:
+      terms:
+        - "đồ thay thế"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000467"
+    locked:
+      speaker: "Uger nói với Tanya"
+      names_and_terms:
+        - "Trung tá Degurechaff"
+        - "chính quốc"
+        - "Uger"
+      pronouns: "tôi (Uger) — cô (Tanya); anh (Uger trong trần thuật)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000468"
+    locked:
+      speaker: "Tanya (câu thoại cuối đoạn)"
+      names_and_terms:
+        - "Tanya"
+      pronouns: "mình (nội tâm câu đầu) — Anh ta (Uger trong nội tâm)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000469"
+    locked:
+      speaker: "Uger"
+      pronouns: "cô (Tanya)"
+      modality: "Giả định trách móc vui 'đáng lẽ phải có thêm một đôi mắt ở sau gáy chứ'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000470"
+    locked:
+      speaker: "Tanya"
+      pronouns: "tôi / mình"
+      terms:
+        - "Tướng von Zettour"
+        - "trường đại học quân sự"
+      modality: "Giả định đối lập 'Nếu người mời tôi ra ngoài là... thì có lẽ thế thật, nhưng tôi cứ ngỡ...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000471"
+    locked:
+      speaker: "Uger"
+      names_and_terms:
+        - "Uger"
+      pronouns: "tôi (Uger) — cô (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000472"
+    locked:
+      speaker: "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000473"
+    locked:
+      speaker: "Uger"
+      pronouns: "tôi / mình"
+      terms:
+        - "Huy hiệu Xung kích Cánh Bạc"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000474"
+    locked:
+      speaker: "Tanya"
+      pronouns: "anh (Uger) — con bé (con gái Uger)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000475"
+    locked:
+      speaker: "Uger"
+      pronouns: "cô (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000476"
+    locked:
+      names_and_terms:
+        - "Uger"
+        - "hậu phương"
+        - "K-Brot"
+      pronouns: "mình (Tanya trong nội tâm) — anh ta (Uger trong nội tâm)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000477"
+    locked:
+      speaker: "Tanya"
+      pronouns: "tôi / mình"
+      modality: "Phủ định dự đoán 'tôi không nghĩ lưỡi của mình sẽ chịu hợp tác đâu'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000478"
+    locked:
+      speaker: "Uger"
+      pronouns: "Nó (lưỡi của Tanya)"
+      terms:
+        - "K-Brot"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000479"
+    locked:
+      speaker: "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000480"
+    locked:
+      terms:
+        - "K-Brot"
+        - "hậu phương"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000481"
+    locked:
+      terms:
+        - "tiền tuyến"
+        - "bánh mì lúa mạch đen"
+        - "K-Brot"
+      modality: "Phủ định kép 'rất khó để nuôi ăn tất cả mọi người mà không có ai đó ở đâu đó phải ăn cầm cự bằng K-Brot'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000482"
+    locked:
+      pronouns: "mình (Tanya)"
+      terms:
+        - "chính quốc"
+        - "K-Brot"
+        - "KK-Brot"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000483"
+    locked:
+      speaker: "Tanya"
+      pronouns: "Tôi / mình"
+      terms:
+        - "K-Brot"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000484"
+    locked:
+      speaker: "Uger"
+      pronouns: "Tôi (Uger) — cô / Trung tá (Tanya)"
+      terms:
+        - "thực phẩm thay thế"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000485"
+    locked:
+      names_and_terms:
+        - "Uger"
+        - "quán cà phê Zolka"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000486"
+    locked:
+      terms:
+        - "khẩu phần bảo quản dài ngày"
+        - "De De-Fleisch"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000487"
+    locked:
+      terms:
+        - "hậu phương"
+        - "quán cà phê Zolka"
+        - "thủ đô"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000488"
+    locked:
+      pronouns: "mình (Tanya)"
+      modality: "Điều kiện giả định trái thực tế 'nếu mình không biết nơi này trước kia từng ra sao, mình thực sự sẽ phải đau đầu tự hỏi...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000489"
+    locked:
+      names_and_terms:
+        - "Tanya"
+      pronouns: "cô (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000490"
+    locked:
+      speaker: "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000491"
+    locked:
+      speaker: "Uger"
+      pronouns: "cô (Tanya)"
+      terms:
+        - "thủ đô"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000492"
+    locked:
+      speaker: "Tanya"
+      pronouns: "Tôi"
+      terms:
+        - "tình hình hậu cần"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000493"
+    locked:
+      speaker: "Uger"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000494"
+    locked:
+      names_and_terms:
+        - "Tanya"
+        - "Uger"
+      emphasis: "Bọc *...* đúng hai phần nội tâm '*Hừm?*' và '*Chẳng phải chất lượng đồ ăn được cải thiện là chuyện tốt sao?*' theo <html:em>, giữ phần trần thuật ở giữa không in nghiêng"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000495"
+    locked:
+      speaker: "Uger"
+      terms:
+        - "Quán cà phê Zolka"
+        - "phân phối theo định lượng"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000496"
+    locked:
+      names_and_terms:
+        - "Tanya"
+        - "Kampfgruppe"
+      pronouns: "anh (Uger trong trần thuật) — Mình (Tanya trong nội tâm)"
+      emphasis: "Chỉ bọc *...* cho thán từ nội tâm đầu đoạn '*Ààà.*' theo <html:em>, phần còn lại để thường"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000497"
+    locked:
+      pronouns: "cô (Tanya)"
+      emphasis: "none"
