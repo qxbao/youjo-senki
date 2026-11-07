@@ -1,0 +1,220 @@
+task_id: vol-08-ch-03-b15-argon-review
+parent_task_id: vol-08-ch-03-b15
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-08/ch-03-b15-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000209
+    issue: "Trong các đoạn độc thoại nội tâm không tách chủ thể trực tiếp với tên Tanya (p000209, p000210, p000212, p000219, p000230, p000238), đại từ ngôi thứ nhất đang dùng 'tôi' thay vì 'mình' như ở câu độc thoại p000214 và các lô liền trước."
+    rationale: "Tại p000208 câu văn đặt song song chủ thể cái tôi tiền kiếp làm nhân sự ('tôi') với 'Tanya' nên mạch đoạn sau tiếp nối bằng 'tôi' vẫn giữ rõ điểm nhìn và không gây nhầm chủ thể; chỉ ghi nhận ở mức minor."
+    recommendation: "Có thể giữ nguyên để liền mạch với cấu trúc phân tách chủ thể từ p000208, hoặc cân nhắc chuyển sang 'mình' ở các câu tự vấn nội tâm (như p000238) trong bước chuốt văn theo DEC-P01-001."
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000239
+    issue: "Thán từ biểu thị sự bực tức 'Argh' trong lời thoại của Tanya đang dịch là 'Ác thật', hơi lệch nhẹ sang nghĩa nhận xét tính chất thay vì tiếng gầm gừ/rên tức giận thuần túy."
+    rationale: "Không ảnh hưởng đến nghĩa cốt lõi của câu thoại phía sau nên chỉ ghi nhận ở mức minor."
+    recommendation: "Cân nhắc đổi 'Ác thật' thành 'Gừ' hoặc 'Chết tiệt' ở bước chuốt văn để sát sắc thái cảm thán."
+pending_term_recommendations:
+  - source_term: "on-the-job training"
+    proposed_vi: "đào tạo tại chỗ"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000205
+    rationale: "Khớp với sổ thuật ngữ tạm đã dùng ở các lô trước của tập 8."
+    alternatives_vi: []
+  - source_term: "Wüstemann"
+    proposed_vi: "Wüstemann"
+    category: "tên nhân vật"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000205
+    rationale: "Giữ nguyên tên riêng sĩ quan thuộc quyền trong đơn vị của Tanya."
+    alternatives_vi: []
+  - source_term: "Federation’s aerial mage forces / Federation aerial mage forces / the Federation / Federation military / Federation troops / Federation Army"
+    proposed_vi: "lực lượng pháp sư trên không thuộc Liên bang / lực lượng pháp sư trên không của Liên bang / Liên bang / quân đội Liên bang / quân Liên bang / Quân đội Liên bang"
+    category: "tên gọi / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000209
+      - YS-LN08/Text/chapter012.xhtml/p000212
+      - YS-LN08/Text/chapter012.xhtml/p000214
+      - YS-LN08/Text/chapter012.xhtml/p000215
+      - YS-LN08/Text/chapter012.xhtml/p000217
+      - YS-LN08/Text/chapter012.xhtml/p000222
+      - YS-LN08/Text/chapter012.xhtml/p000231
+      - YS-LN08/Text/chapter012.xhtml/p000236
+    rationale: "Nhất quán với hệ thống định danh phe Liên bang và binh chủng pháp sư trên không trong tập 8."
+    alternatives_vi: []
+  - source_term: "mid-career hires / mid-career human resources"
+    proposed_vi: "tuyển dụng nhân sự đã có kinh nghiệm / nguồn nhân lực đã có kinh nghiệm"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000221
+      - YS-LN08/Text/chapter012.xhtml/p000230
+      - YS-LN08/Text/chapter012.xhtml/p000236
+    rationale: "Diễn đạt tự nhiên, chuẩn xác thuật ngữ quản trị nhân sự chỉ nhóm lao động tuyển ngang đã có thâm niên nghề nghiệp đối lập với sinh viên mới ra trường."
+    alternatives_vi:
+      - "tuyển dụng nhân sự có thâm niên"
+  - source_term: "Commonwealth / Unified States / former Republic / Entente Alliance"
+    proposed_vi: "Khối Thịnh vượng chung / Hợp chúng quốc / cựu Cộng hòa / Liên minh Hiệp ước"
+    category: "tên quốc gia / tổ chức"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000222
+      - YS-LN08/Text/chapter012.xhtml/p000223
+    rationale: "Thống nhất với sổ thuật ngữ tạm xuyên suốt các tập."
+    alternatives_vi: []
+  - source_term: "Federation Commies / Red / the Empire / Communist Party / Commies / Communists"
+    proposed_vi: "Đám Cộng sản Liên bang / Đỏ / Đế quốc / Đảng Cộng sản / đám Cộng sản / một tên Cộng sản / lũ Cộng sản / đám người Cộng sản"
+    category: "tên gọi / chính trị"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000225
+      - YS-LN08/Text/chapter012.xhtml/p000227
+      - YS-LN08/Text/chapter012.xhtml/p000233
+      - YS-LN08/Text/chapter012.xhtml/p000238
+      - YS-LN08/Text/chapter012.xhtml/p000239
+      - YS-LN08/Text/chapter012.xhtml/p000240
+    rationale: "Phân biệt đúng sắc thái khẩu ngữ miệt thị ('Commies') và từ trung tính/chính danh ('Communists', 'Communist Party') theo sổ pending tập 8."
+    alternatives_vi: []
+  - source_term: "Soviet / lageri"
+    proposed_vi: "Liên Xô / *lageri*"
+    category: "tên gọi / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000233
+      - YS-LN08/Text/chapter012.xhtml/p000239
+    rationale: "Giữ nguyên thuật ngữ trại cải tạo lao động '*lageri*' (có in nghiêng theo nguồn) và cách gọi 'Liên Xô' trong liên tưởng tiền kiếp của Tanya."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000204
+    choices:
+      - "phủ định so sánh: không đơn giản như việc hâm nóng đồ ăn liền"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000205
+    choices:
+      - "thuật ngữ và tên riêng: nhân lực; đào tạo tại chỗ; người hướng dẫn; Wüstemann"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000206
+    choices:
+      - "tình thái tương phản: có thể đỡ tốn công sức hơn, nhưng hẳn phải mất một khoảng thời gian dài đến phát ngốc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000207
+    choices:
+      - "độc thoại thành tiếng và đại từ chỉ địch: chúng; tiến bộ vượt bậc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000208
+    choices:
+      - "phân tách chủ thể song hành: tôi (kinh nghiệm ngành nhân sự); Tanya"
+      - "phủ định kép: không tài nào không nảy sinh nghi ngờ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000209
+    choices:
+      - "thuật ngữ và điểm nhìn: lực lượng pháp sư trên không thuộc Liên bang; tôi (hoặc mình)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000210
+    choices:
+      - "thuật ngữ và điểm nhìn: Chuyện tuyển dụng; tôi (hoặc mình)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000211
+    choices:
+      - "giả định điều kiện và đại từ chỉ địch: Nếu chỉ đơn thuần là ... có lẽ chúng có thể đạt chỉ tiêu quân số; diện trưng binh"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000212
+    choices:
+      - "thuật ngữ nhân sự: Liên bang; đội ngũ giảng dạy; Tuyển dụng, đào tạo và quản lý; ba trụ cột của công tác nhân sự"
+      - "phủ định kép: chưa từng thấy một tân binh nào lại không cần qua huấn luyện cả"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000213
+    choices:
+      - "mệnh đề đánh giá: đi ngược lại xác suất thống kê—nói cách khác là ngu xuẩn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000214
+    choices:
+      - "độc thoại thành tiếng của Tanya: Mình; Liên bang; huấn luyện viên; quân đội của chúng; nhân sự chủ chốt"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000215
+    choices:
+      - "thuật ngữ: lực lượng pháp sư trên không của Liên bang; các binh chủng khác trong quân đội Liên bang; nguồn nhân lực"
+      - "tình thái suy luận: Hẳn ngay lúc này đây; Nếu phần nền tảng đã mong manh, thì lẽ tự nhiên phải suy ra rằng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000216
+    choices:
+      - "độc thoại thành tiếng: Chẳng phải thế là mâu thuẫn sao? Cơ mà nó vẫn nhất quán…"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000217
+    choices:
+      - "ẩn dụ doanh nghiệp: quân đội Liên bang; chúng; thổi phồng quy mô nhân sự bằng cách tuyển ồ ạt sinh viên mới ra trường; độc quyền sáng chế"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000218
+    choices:
+      - "mệnh đề khái quát: trải nghiệm thực tế là một người thầy tuyệt vời"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000219
+    choices:
+      - "thuật ngữ và ẩn dụ: tiền tuyến; bí quyết thực chiến; chú chim non có tự mổ vỡ vỏ trứng; mặt bằng kỹ năng ban đầu; ngạch huấn luyện viên"
+      - "giả định nhượng bộ: Ngay cả khi ... gần như là điều bất khả thi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000220
+    choices:
+      - "trần thuật ngôi thứ ba: căn phòng ngầm dưới đất; Tanya; cô; của mình"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000221
+    choices:
+      - "thuật ngữ: tuyển dụng nhân sự đã có kinh nghiệm từ bên ngoài công ty; dịch vụ cung cấp đào tạo hay huấn luyện viên; vế sau"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000222
+    choices:
+      - "thuật ngữ và tên gọi: thuê ngoài khâu đào tạo; Khối Thịnh vượng chung; Hợp chúng quốc; lợi ích thiết thân; quân Liên bang"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000223
+    choices:
+      - "tên gọi và đại từ: chúng; cựu Cộng hòa; Liên minh Hiệp ước; huấn luyện viên"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000224
+    choices:
+      - "thuật ngữ kinh tế trong thoại: Có cầu, và có cung; sự giao thoa hoàn hảo về mặt mong muốn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000225
+    choices:
+      - "thuật ngữ chính trị: chủ nghĩa tư bản; Đám Cộng sản Liên bang; bản chất Đỏ; Đế quốc; chủ nghĩa dân tộc; ý thức hệ; Đảng Cộng sản"
+      - "giả định trái thực tế: nếu người ta có cơ hội thoát hẳn khỏi thứ ý thức hệ ấy, thì rất có khả năng ngay cả Đảng Cộng sản cũng chẳng còn tồn tại"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000226
+    choices:
+      - "câu hỏi nội tâm: cái đảng đó; quân đội của mình; sĩ quan từ các quốc gia tư bản"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000227
+    choices:
+      - "giả định nhượng bộ và thuật ngữ: Ngay cả khi đám Cộng sản vượt qua được xung đột lợi ích đó; học thuyết riêng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000228
+    choices:
+      - "giả định tăng tiến: cho dù chúng có giải quyết xong xuôi hết mọi vấn đề ấy đi chăng nữa"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000229
+    choices:
+      - "độc thoại bác bỏ: Không, chuyện đó thực sự là bất khả thi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000230
+    choices:
+      - "nhấn mạnh Markdown: *thực tế* (theo DEC-P01-002)"
+      - "thuật ngữ: kẻ địch; tuyển dụng nhân sự đã có kinh nghiệm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000231
+    choices:
+      - "thuật ngữ chính trị - kinh tế: Liên bang; Nhà nước nắm độc quyền về bạo lực; xí nghiệp độc quyền tồi tệ nhất"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000232
+    choices:
+      - "trần thuật và thoại: Chúng; Tanya"
+      - "nhấn mạnh Markdown: *Đùa nhau chắc* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000233
+    choices:
+      - "thuật ngữ và tên gọi: đám Cộng sản; cấp độ dân sự; hàng tiêu dùng Liên Xô; lượng nhân sự dư thừa"
+      - "nhấn mạnh Markdown: *lageri* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000234
+    choices:
+      - "nhấn mạnh Markdown: *……Khoan đã.* (theo DEC-P01-002)"
+      - "trần thuật ngôi thứ ba: Tanya"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000235
+    choices:
+      - "câu hỏi phỏng đoán: giả thuyết; phỏng đoán hết sức hoang đường; chúng; đám người đó"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000236
+    choices:
+      - "thuật ngữ: Quân đội Liên bang; quân đội của đảng; nguồn nhân lực đã có kinh nghiệm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000237
+    choices:
+      - "độc thoại cảm thán của Tanya: Khốn kiếp, khốn kiếp, khốn kiếp!; chúng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000238
+    choices:
+      - "độc thoại tự trách: xử bắn; suy nghĩ giáo điều; một tên Cộng sản"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000239
+    choices:
+      - "nhấn mạnh Markdown: *lageri* (theo DEC-P01-002)"
+      - "xưng hô và đại từ trong lời rủa: lũ Cộng sản khốn kiếp; các người (chỉ phe Cộng sản); bọn họ (chỉ tù nhân trong trại giam)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000240
+    choices:
+      - "nhận định kết đoạn: đám người Cộng sản này; có biệt tài giữ lại mọi thứ một cách kỳ lạ"
