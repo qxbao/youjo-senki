@@ -1,0 +1,387 @@
+task_id: "vol-09-ch-02-b15-argon-review"
+parent_task_id: "vol-09-ch-02-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-09"
+chapter: 2
+source_package: "work/vol-09/batches/ch-02-b15-source.jsonl"
+target_translation: "translations/vol-09/ch-02-b15.jsonl"
+status: "approved"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000593"
+    severity: "minor"
+    category: "diction"
+    issue: "Cụm 'bạo lực thô bạo' bị lặp âm 'bạo' hơi nặng nhịp câu."
+    recommendation: "Có thể giữ nguyên hoặc chỉnh nhẹ ở bước chuốt văn thành 'vũ lực thô bạo' hoặc 'sức mạnh thô bạo'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000602"
+    severity: "minor"
+    category: "terminology"
+    issue: "Thuật ngữ 'field officer' trong văn cảnh đối lập với sĩ quan tham mưu ở hậu phương (p000603, p000621) và gắn với quyết định sinh tử trên chiến trường (p000599) có thể hiểu theo nghĩa 'sĩ quan thực địa / sĩ quan chiến trường' thay vì nghĩa phân nhóm quân hàm 'sĩ quan cấp tá' (do bản thân Uger cũng mang quân hàm Trung tá)."
+    recommendation: "Có thể cân nhắc chỉnh ở bước chuốt văn thành 'bất kỳ sĩ quan chiến trường nào' hoặc 'bất kỳ sĩ quan thực địa nào' để làm nổi bật thế đối lập giữa tiền tuyến và hậu phương."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000606"
+    severity: "minor"
+    category: "diction"
+    issue: "Cụm 'bức tường bất khả xâm phạm' nghiêng về nét nghĩa không được phép xâm phạm, chưa thật sát với tính chất vật lý 'không thể phá hủy' kết hợp với động từ 'sụp đổ' phía sau."
+    recommendation: "Có thể giữ nguyên hoặc chỉnh nhẹ ở bước chuốt văn thành 'một bức tường không thể phá hủy đột ngột sụp đổ' hoặc 'một bức tường kiên cố không gì phá nổi đột ngột sụp đổ'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000609"
+    severity: "minor"
+    category: "pronouns"
+    issue: "Trong chuỗi độc thoại nội tâm của Tanya đang trách cứ Uger (p000607–p000610), p000607 và p000610 dùng đại từ 'anh ta' nhưng p000609 lại chuyển sang 'Anh ấy' hơi lệch sắc thái."
+    recommendation: "Có thể chỉnh nhẹ ở bước chuốt văn thành 'Anh ta đã nhận được...' hoặc 'Anh đã nhận được...' để đồng bộ mạch điểm nhìn."
+pending_term_recommendations:
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000589"
+    rationale: "Giữ nguyên định danh Being X theo canon/glossary-pending.yml (P05-being-x)."
+    status: "proposed"
+  - source_term: "the Reich"
+    proposed_vi: "Đế quốc"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000589"
+    rationale: "Thống nhất với cách dịch định danh Đế quốc trong tập 9."
+    status: "proposed"
+  - source_term: "Gordian knot"
+    proposed_vi: "nút thắt Gordian"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000590"
+    rationale: "Cách dịch chuẩn xác, phổ biến cho điển tích lịch sử phương Tây."
+    status: "proposed"
+  - source_term: "doctrine of nuclear mutually assured destruction / mutual assured destruction"
+    proposed_vi: "học thuyết hủy diệt lẫn nhau chắc chắn bằng hạt nhân / hủy diệt lẫn nhau chắc chắn"
+    alternatives_vi:
+      - "học thuyết đảm bảo hủy diệt lẫn nhau bằng hạt nhân / đảm bảo hủy diệt lẫn nhau"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000593"
+      - "YS-LN09/Text/chapter006.xhtml/p000595"
+    rationale: "Dịch rõ nghĩa và nhất quán khái niệm chiến lược hạt nhân MAD ở cả hai đoạn."
+    status: "proposed"
+  - source_term: "the Commies"
+    proposed_vi: "lũ Cộng sản"
+    alternatives_vi:
+      - "đám Cộng sản"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000594"
+    rationale: "Giữ đúng sắc thái khẩu ngữ trong độc thoại nội tâm của Tanya, thống nhất với các batch trước."
+    status: "proposed"
+  - source_term: "rationality / reason"
+    proposed_vi: "tính hợp lý (mức độ hợp lý) / lý trí"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000594"
+      - "YS-LN09/Text/chapter006.xhtml/p000596"
+      - "YS-LN09/Text/chapter006.xhtml/p000597"
+    rationale: "Phân biệt rõ hai khái niệm theo canon/glossary-pending.yml (P03-rationality) và sổ thuật ngữ tạm tập 9."
+    status: "proposed"
+  - source_term: "Cold War"
+    proposed_vi: "Chiến tranh Lạnh"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000595"
+    rationale: "Thuật ngữ lịch sử chuẩn."
+    status: "proposed"
+  - source_term: "biological competition / market competition / opportunity cost"
+    proposed_vi: "cạnh tranh sinh học / cạnh tranh thị trường / chi phí cơ hội"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000599"
+      - "YS-LN09/Text/chapter006.xhtml/p000600"
+    rationale: "Thuật ngữ kinh tế - sinh học chuẩn xác, phù hợp với phong cách lập luận của Tanya."
+    status: "proposed"
+  - source_term: "Uger / Colonel Uger / Colonel (addressing Lieutenant Colonel Uger)"
+    proposed_vi: "Uger / Trung tá Uger / Thưa Trung tá"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000602"
+      - "YS-LN09/Text/chapter006.xhtml/p000608"
+      - "YS-LN09/Text/chapter006.xhtml/p000613"
+      - "YS-LN09/Text/chapter006.xhtml/p000620"
+    rationale: "Khớp với quân hàm Trung tá (Lieutenant Colonel) của Uger trong tập 8–9."
+    status: "proposed"
+  - source_term: "Tanya / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Tanya / Thưa Trung tá"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000587"
+      - "YS-LN09/Text/chapter006.xhtml/p000602"
+      - "YS-LN09/Text/chapter006.xhtml/p000605"
+    rationale: "Khớp với định danh và quân hàm Trung tá của Tanya trong tập 9."
+    status: "proposed"
+  - source_term: "General Staff officer / staff officer"
+    proposed_vi: "sĩ quan Bộ Tổng tham mưu / sĩ quan tham mưu"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000603"
+      - "YS-LN09/Text/chapter006.xhtml/p000608"
+      - "YS-LN09/Text/chapter006.xhtml/p000609"
+      - "YS-LN09/Text/chapter006.xhtml/p000610"
+      - "YS-LN09/Text/chapter006.xhtml/p000611"
+      - "YS-LN09/Text/chapter006.xhtml/p000614"
+      - "YS-LN09/Text/chapter006.xhtml/p000617"
+      - "YS-LN09/Text/chapter006.xhtml/p000618"
+    rationale: "Nhất quán với hệ thống thuật ngữ quân sự xuyên suốt dự án."
+    status: "proposed"
+  - source_term: "war college"
+    proposed_vi: "trường đại học quân sự"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000609"
+      - "YS-LN09/Text/chapter006.xhtml/p000617"
+    rationale: "Thống nhất với sổ thuật ngữ tạm từ tập 2 và tập 9."
+    status: "proposed"
+  - source_term: "the rear"
+    proposed_vi: "hậu phương"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000621"
+    rationale: "Thống nhất với các batch trước trong chương 2 tập 9."
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000585"
+    locked:
+      speaker: "Tanya"
+      pronouns: "Tôi — mình (Tanya tự quy chiếu trong mệnh đề phụ của lời thoại)"
+      modality: "Phủ định kép 'Tôi không thể nói là mình không hiểu…'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000586"
+    locked:
+      speaker: "Uger"
+      pronouns: "cô (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000587"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000588"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      pronouns: "Mình (Tanya theo DEC-P01-001)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000589"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "Being X"
+        - "Đế quốc"
+      pronouns: "bạn (ngôi thứ hai khái quát) — mình (Tanya)"
+      modality: "Câu hỏi tu từ kết đoạn 'Ai có thể hiểu rõ điều đó hơn một nạn nhân của nó như mình chứ?'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000590"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "nút thắt Gordian"
+      modality: "Câu hỏi tu từ phủ định 'Chẳng phải nút thắt Gordian đã được tháo gỡ theo cách đó sao?'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000591"
+    locked:
+      speaker: "Tanya"
+      pronouns: "Chúng ta"
+      modality: "Phủ định 'Chúng ta đâu phải lũ trẻ con...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000592"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000593"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "học thuyết hủy diệt lẫn nhau chắc chắn bằng hạt nhân"
+      modality: "Hai câu điều kiện giả định trái thực tế trong quá khứ 'Nếu... có lẽ... đã chẳng bao giờ... / Nếu... hẳn đã chẳng bao giờ...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000594"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "lũ Cộng sản"
+        - "mức độ hợp lý"
+        - "lý trí"
+      pronouns: "Mình (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000595"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "hủy diệt lẫn nhau chắc chắn"
+        - "Chiến tranh Lạnh"
+      modality: "Phủ định 'vậy mà Chiến tranh Lạnh chưa bao giờ biến thành chiến tranh nóng'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000596"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "Tính hợp lý"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000597"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "Sự cần thiết"
+        - "lý trí"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000598"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      pronouns: "mình (Tanya)"
+      modality: "Phủ định 'Đây không phải là... mà đơn thuần là...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000599"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "cạnh tranh sinh học"
+        - "cạnh tranh thị trường"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000600"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "Chi phí cơ hội"
+      pronouns: "chúng ta — chính mình (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000601"
+    locked:
+      speaker: "Uger"
+      pronouns: "tôi (Uger)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000602"
+    locked:
+      names_and_terms:
+        - "Uger"
+        - "Tanya"
+      pronouns: "anh (Uger) — cô (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000603"
+    locked:
+      speaker: "Uger"
+      names_and_terms:
+        - "sĩ quan Bộ Tổng tham mưu"
+      pronouns: "Tôi (Uger trong thoại) — anh (Uger trong trần thuật)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000604"
+    locked:
+      speaker: "Tanya"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000605"
+    locked:
+      speaker: "Uger"
+      names_and_terms:
+        - "Thưa Trung tá"
+      pronouns: "tôi (Uger) — cô (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000606"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      pronouns: "mình (Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000607"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      pronouns: "Anh ta (Uger trong nội tâm của Tanya)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000608"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "sĩ quan Bộ Tổng tham mưu"
+        - "thưa Trung tá"
+      pronouns: "anh (Uger)"
+      emphasis: "*đúng là* (tương ứng với <html:em>are</html:em> trong nguồn theo DEC-P01-002)"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000609"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "trường đại học quân sự"
+        - "sĩ quan tham mưu"
+        - "mô thức"
+      pronouns: "bạn (ngôi thứ hai khái quát)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000610"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "sĩ quan tham mưu"
+      pronouns: "anh ta (Uger)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000611"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "sĩ quan tham mưu"
+      pronouns: "Chúng ta"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000612"
+    locked:
+      speaker: "Uger"
+      pronouns: "cô (Tanya) — tôi (Uger)"
+      modality: "Câu hỏi phủ định kép 'Ý cô là đáng lẽ không thể có chuyện tôi không hiểu được sao?'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000613"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "Trung tá Uger"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000614"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "sĩ quan tham mưu"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000615"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "sự cần thiết"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000616"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      pronouns: "chúng ta"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000617"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "trường đại học quân sự"
+        - "sĩ quan tham mưu"
+      pronouns: "chúng ta"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000618"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      names_and_terms:
+        - "sĩ quan tham mưu"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000619"
+    locked:
+      pov: "Độc thoại nội tâm của Tanya"
+      pronouns: "Họ — bọn mình"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000620"
+    locked:
+      speaker: "Tanya"
+      names_and_terms:
+        - "thưa Trung tá"
+      pronouns: "Anh (Uger)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000621"
+    locked:
+      speaker: "Uger"
+      names_and_terms:
+        - "hậu phương"
+      pronouns: "cô (Tanya) — tôi (Uger trong thoại) — anh (Uger trong trần thuật)"
+      emphasis: "none"
