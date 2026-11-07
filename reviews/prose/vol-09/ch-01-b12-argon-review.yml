@@ -1,0 +1,163 @@
+task_id: vol-09-ch-01-b12-argon-review
+parent_task_id: vol-09-ch-01-b12
+reviewer: gemini-4-argon-medium
+volume: vol-09
+chapter: 1
+source_package: work/vol-09/batches/ch-01-b12-source.jsonl
+target_translation: translations/vol-09/ch-01-b12.jsonl
+review_path: reviews/prose/vol-09/ch-01-b12-argon-review.yml
+state: done
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+unresolved_findings: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "the Federation / Communists"
+    proposed_vi: "Liên bang / những người Cộng sản"
+    category: "tên gọi / thuật ngữ"
+    status: proposed
+    rationale: "Giữ thống nhất với sổ pending các tập trước; trong thoại xã giao với cấp trên dùng 'những người Cộng sản' thay vì từ miệt thị."
+    alternatives_vi:
+      - "Liên bang / phe Cộng sản"
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000305
+      - YS-LN09/Text/chapter004.xhtml/p000306
+  - source_term: "aerial mages"
+    proposed_vi: "các pháp sư trên không"
+    category: "thuật ngữ"
+    status: proposed
+    rationale: "Khớp với phương án tạm đã dùng xuyên suốt từ vol-01 đến vol-09."
+    alternatives_vi:
+      - "pháp sư hàng không"
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000306
+  - source_term: "Supreme Command / General Staff"
+    proposed_vi: "Bộ Tư lệnh Tối cao / Bộ Tổng tham mưu"
+    category: "tổ chức"
+    status: proposed
+    rationale: "Phân biệt rõ cơ quan chỉ huy tối cao (Supreme Command) và cơ quan tham mưu (General Staff) theo đúng hệ thống thuật ngữ đã khóa."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000309
+      - YS-LN09/Text/chapter004.xhtml/p000332
+      - YS-LN09/Text/chapter004.xhtml/p000339
+  - source_term: "Colonel Lergen"
+    proposed_vi: "Đại tá Lergen"
+    category: "quân hàm / nhân vật"
+    status: proposed
+    rationale: "Ở thời điểm tập 8–9, Lergen đã mang quân hàm Đại tá (Colonel); cần phân biệt với cách gọi rút gọn dành cho Tanya (Lieutenant Colonel -> Trung tá)."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000309
+      - YS-LN09/Text/chapter004.xhtml/p000319
+      - YS-LN09/Text/chapter004.xhtml/p000320
+      - YS-LN09/Text/chapter004.xhtml/p000331
+  - source_term: "glass ceiling"
+    proposed_vi: "bức trần vô hình"
+    category: "thuật ngữ"
+    status: proposed
+    rationale: "Diễn đạt tự nhiên, rõ nghĩa ẩn dụ về rào cản thăng tiến vô hình trong tổ chức."
+    alternatives_vi:
+      - "trần kính"
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000317
+  - source_term: "Ildoa / Ildoan"
+    proposed_vi: "Ildoa / người Ildoa"
+    category: "tên gọi"
+    status: proposed
+    rationale: "Giữ nguyên tên quốc gia đồng minh Ildoa và cách gọi người nước này thống nhất với tập 8."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000319
+      - YS-LN09/Text/chapter004.xhtml/p000324
+      - YS-LN09/Text/chapter004.xhtml/p000327
+      - YS-LN09/Text/chapter004.xhtml/p000328
+  - source_term: "deputy director of Operations"
+    proposed_vi: "Cục phó Cục Tác chiến"
+    category: "chức danh / tổ chức"
+    status: proposed
+    rationale: "Nhất quán với cấu trúc dịch chức danh trong Bộ Tổng tham mưu ('Operations' -> 'Cục Tác chiến', 'deputy director' -> 'Cục phó')."
+    alternatives_vi:
+      - "Phó Cục trưởng Cục Tác chiến"
+    segment_ids:
+      - YS-LN09/Text/chapter004.xhtml/p000339
+locked_choices:
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000304
+    choice: "Thoại Tanya với Rudersdorf: xưng 'tôi', gọi 'thưa Tướng quân' (sir); giữ sắc thái nói mát lịch sự ('Xin phép để tôi nói rõ hơn ạ', 'chẳng buồn ăn uống gì suốt mấy ngày liền')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000305
+    choice: "Thoại Rudersdorf: 'the mud' -> 'thứ bùn đó', 'the Federation' -> 'Liên bang', 'loath to share' -> 'tiếc của chẳng muốn chia sẻ'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000306
+    choice: "Xưng hô và thuật ngữ: 'sir' -> 'thưa Tướng quân', 'Communists' -> 'những người Cộng sản', 'aerial mages' -> 'các pháp sư trên không', 'superior' -> 'vị cấp trên'; giữ đại từ gộp 'chúng ta' (we/us)."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000307
+    choice: "Thoại Rudersdorf: giữ tên 'Zettour', 'the east' -> 'miền đông', 'coming back fat' -> 'phát phì trở về'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000308
+    choice: "Điểm nhìn nội tâm Tanya: 'we' -> 'chúng ta'; giữ cấu trúc giả định trái thực tế ở hiện tại ('nếu chúng ta không đang trong thời chiến, thì cuộc trò chuyện này hẳn sẽ mang phong thái công việc vô cùng dễ chịu')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000309
+    choice: "Trần thuật dùng 'Tanya'; thoại dùng 'tôi'; khóa thuật ngữ 'Supreme Command' -> 'Bộ Tư lệnh Tối cao' và quân hàm 'Colonel Lergen' -> 'Đại tá Lergen'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000310
+    choice: "Trần thuật ngôi thứ ba: 'Tanya' / 'cô' (her), 'ông' (he - Rudersdorf); giữ đúng quan hệ mục đích–phương tiện ('Vờ như không biết gì chỉ là một cách để lấy được lời xác nhận')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000311
+    choice: "Độc thoại nội tâm Tanya: tự xưng 'mình' (I) theo DEC-P01-001; giữ phủ định so sánh bậc nhất ('chẳng ai gây ra nhiều tai họa hơn kẻ làm việc kém cỏi mà không chịu trao đổi qua các kênh chính thống')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000312
+    choice: "Trần thuật: giữ tên 'Tanya' và mức độ tình thái 'phần nào nằm trong dự kiến' (somewhat expected)."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000313
+    choice: "Thoại Rudersdorf với Tanya: xưng 'ta', gọi 'cô'; khóa nhấn mạnh Markdown '*ta*' và '*Ta sao?*' khớp chính xác với hai thẻ em trong XHTML gốc."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000314
+    choice: "Trần thuật: 'The senior officer' -> 'Vị sĩ quan cấp cao'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000315
+    choice: "Nhận định nội tâm: giữ câu ngắn gọn 'Nhưng giả vờ sốc thì ai mà chẳng làm được'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000316
+    choice: "Độc thoại nội tâm khái quát: 'Humans' -> 'Con người', 'Họ' (They); giữ lập luận nhân quả ('khi tình thế bắt buộc... cũng là lẽ dĩ nhiên')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000317
+    choice: "Độc thoại nội tâm khái quát: đại từ chung 'you' -> 'bạn'; khóa 'glass ceiling' -> 'bức trần vô hình', 'promotion ladder' -> 'nấc thang thăng tiến'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000318
+    choice: "Thoại Tanya: xưng 'Tôi'; giữ cấu trúc bị động khách quan nhằm giảm nhẹ trách nhiệm ('Tôi được nghe úp mở rằng có một kế hoạch như vậy tồn tại…')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000319
+    choice: "Thoại Rudersdorf: khóa 'Colonel Lergen' -> 'Đại tá Lergen', 'Ildoa' -> 'Ildoa', 'the east' -> 'miền đông'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000320
+    choice: "Thoại Tanya: giữ câu hỏi cảm thán lịch sự ('sao ạ?!', 'Từ Đại tá Lergen ư?!')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000321
+    choice: "Thoại Rudersdorf: gọi Tanya là 'Cô', gọi Lergen là 'anh ta', 'we' -> 'chúng ta', 'uptight staffers' -> 'đám sĩ quan tham mưu cứng nhắc'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000322
+    choice: "Trần thuật/nội tâm: giữ tên 'Rudersdorf', đại từ 'ông'; giữ tương phản logic giữa sự mập mờ đáng sợ và việc xác nhận tỉnh bơ."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000323
+    choice: "Nhận định khái quát: 'you' -> 'người ta'; không thêm nhấn mạnh Markdown."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000324
+    choice: "Thoại Tanya: xưng 'tôi', 'Ildoa' -> 'Ildoa', 'an Ildoan' -> 'một người Ildoa', 'eastern front' -> 'mặt trận phía đông', gọi sĩ quan Ildoa là 'ông ta'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000325
+    choice: "Thoại Rudersdorf: gọi sĩ quan Ildoa là 'ông ta', gọi Tanya là 'cô', 'Our allies' -> 'các đồng minh của chúng ta'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000326
+    choice: "Trần thuật và thoại Tanya: xưng 'Tôi', gọi Rudersdorf là 'ngài' / 'thưa Tướng quân' (General); giữ phủ định 'chưa từng nghĩ'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000327
+    choice: "Độc thoại nội tâm mỉa mai của Tanya: giữ câu hỏi tu từ, 'our friends' -> 'bằng hữu của chúng ta'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000328
+    choice: "Độc thoại nội tâm mỉa mai: 'we' -> 'chúng ta', 'mediator' -> 'người trung gian hòa giải'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000329
+    choice: "Thoại Rudersdorf gọi Tanya: 'Colonel' -> 'Trung tá' (cách gọi rút gọn đối với cấp bậc Lieutenant Colonel của Tanya)."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000330
+    choice: "Nội tâm Tanya: 'His' -> 'của ông', 'my main concern' -> 'mối bận tâm chính của mình' theo DEC-P01-001."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000331
+    choice: "Thoại Tanya: xưng 'tôi', khóa 'Colonel Lergen' -> 'Đại tá Lergen'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000332
+    choice: "Thoại Rudersdorf: xưng 'ta', gọi 'cô'; khóa 'not yet' -> 'chưa phải lúc', 'General Staff' -> 'Bộ Tổng tham mưu', giữ phủ định nhấn mạnh ở câu cuối."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000333
+    choice: "Thoại và trần thuật: Tanya xưng 'tôi', gọi Lergen là 'ngài ấy' khi nói trước mặt Rudersdorf; trần thuật giữ tên 'Tanya' và 'Rudersdorf'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000334
+    choice: "Trần thuật/nội tâm: đại từ 'ông' cho Rudersdorf; khóa nhấn mạnh Markdown '*rõ ràng*' khớp với thẻ em ('clear') trong nguồn."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000335
+    choice: "Nội tâm đối chiếu: khóa trích dẫn 'chưa phải lúc' đồng nhất với p000332."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000336
+    choice: "Trần thuật: giữ tên 'Tanya', 'Rudersdorf', đại từ 'Ông'; giữ phủ định 'không lập tức bác bỏ ý tưởng đó'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000337
+    choice: "Nội tâm/trần thuật: khóa quân hàm 'lieutenant general' -> 'trung tướng', đại từ 'ông'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000338
+    choice: "Nội tâm phân tích: giữ nguyên hình ảnh ẩn dụ ('Đến một con khỉ cũng hiểu...', 'đọc vị được ẩn ý giữa những dòng chữ') và quan hệ đối lập ('phủi bỏ trách nhiệm... mà vẫn truyền đạt được ý đồ tối quan trọng')."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000339
+    choice: "Nội tâm phân tích: khóa 'General Staff' -> 'Bộ Tổng tham mưu', 'deputy director of Operations' -> 'Cục phó Cục Tác chiến', 'the people he answers to' -> 'những người mà mình phải chịu trách nhiệm báo cáo'."
+  - segment_id: YS-LN09/Text/chapter004.xhtml/p000340
+    choice: "Trần thuật kết đoạn: giữ tên 'Tanya' và hình ảnh 'Một lớp mồ hôi lạnh toát ra ướt đẫm tấm lưng Tanya'."
