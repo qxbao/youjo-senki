@@ -1,0 +1,285 @@
+task_id: "vol-07-ch-04-b11-argon-review"
+parent_task_id: "vol-07-ch-04-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b11-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b11.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b11-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000266"
+    issue: "Cách kết hợp từ 'sự khâm phục không tiếc lời' hơi lệch chuẩn vì 'không tiếc lời' thường bổ nghĩa cho hành động phát ngôn như khen ngợi, tán thưởng hơn là danh từ chỉ tâm trạng/thái độ 'khâm phục'."
+    evidence: "Nguyên bản dùng tính từ chỉ mức độ hào phóng, không giữ lại chút nào bổ nghĩa cho danh từ chỉ sự ngưỡng mộ/khâm phục của các sĩ quan tham mưu dành cho Rudersdorf."
+    recommendation: "Có thể chỉnh thành 'sự khâm phục hết mực' (hoặc 'những lời tán thưởng không tiếc lời')."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000273"
+    issue: "Cụm 'kết liễu nó' trong lời của Zettour nghe hơi cứng và đại từ 'nó' chưa thật tự nhiên khi quy chiếu về toàn bộ chiến dịch/thế trận bao vây đang diễn ra."
+    evidence: "Nguyên bản dùng cụm động từ mang nghĩa giải quyết dứt điểm, hoàn tất nốt phần việc cuối cùng sau khi đã tạo lập được thế trận."
+    recommendation: "Đổi 'kết liễu nó' thành 'dứt điểm chuyện này' (hoặc 'hoàn tất nốt phần việc còn lại')."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000277"
+    issue: "Cụm khẩu ngữ 'ngon tuyệt cú mèo' mang sắc thái trẻ trung hiện đại, hơi lệch với phong thái của một tướng lĩnh cấp cao trong Bộ Tổng tham mưu như Trung tướng von Rudersdorf dù đang nói đùa với bạn đồng niên."
+    evidence: "Nguyên bản chỉ dùng tính từ thông dụng chỉ hương vị thơm ngon trong lời bông đùa đáp lại Zettour."
+    recommendation: "Đổi 'ngon tuyệt cú mèo rồi' thành 'ngon tuyệt hảo rồi' (hoặc 'ngon tuyệt rồi')."
+pending_term_recommendations:
+  - source_term: "airborne unit’s command / airborne unit / Sixth Paratrooper Ranger Regiment / paratroopers"
+    proposed_vi: "bộ chỉ huy đơn vị đổ bộ đường không / đơn vị đổ bộ đường không / Trung đoàn Biệt kích Dù số 6 / lính dù"
+    category: "thuật ngữ quân sự / đơn vị"
+    status: "pending"
+    rationale: "Kế thừa thống nhất thuật ngữ 'đơn vị đổ bộ đường không' từ sổ pending tập 7 và dịch chuẩn phiên hiệu 'Trung đoàn Biệt kích Dù số 6' tương ứng với 'biệt kích dù' ở các lô trước."
+    alternatives_vi:
+      - "bộ chỉ huy đơn vị không vận / đơn vị không vận / Trung đoàn Biệt kích Nhảy dù số 6 / lính nhảy dù"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000248"
+      - "YS-LN07/Text/chapter016.xhtml/p000254"
+      - "YS-LN07/Text/chapter016.xhtml/p000268"
+      - "YS-LN07/Text/chapter016.xhtml/p000274"
+  - source_term: "Lergen Kampfgruppe / Salamander Kampfgruppe"
+    proposed_vi: "Kampfgruppe Lergen / Kampfgruppe Salamander"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất định danh hai cách gọi của đơn vị hỗn hợp theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000248"
+      - "YS-LN07/Text/chapter016.xhtml/p000249"
+      - "YS-LN07/Text/chapter016.xhtml/p000250"
+  - source_term: "staff officers / staffers / high-ranking staff officers"
+    proposed_vi: "sĩ quan tham mưu / các sĩ quan tham mưu / các sĩ quan tham mưu cấp cao"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất cách gọi các sĩ quan làm việc tại phòng tác chiến Bộ Tổng tham mưu trong toàn bộ phân cảnh."
+    alternatives_vi:
+      - "sĩ quan tham mưu / các nhân viên tham mưu / các sĩ quan tham mưu cấp cao"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000250"
+      - "YS-LN07/Text/chapter016.xhtml/p000258"
+      - "YS-LN07/Text/chapter016.xhtml/p000264"
+      - "YS-LN07/Text/chapter016.xhtml/p000266"
+      - "YS-LN07/Text/chapter016.xhtml/p000270"
+  - source_term: "Operations / Service Corps"
+    proposed_vi: "Cục Tác chiến / Cục Quân vụ"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Kế thừa thống nhất tên gọi hai cơ quan thuộc Bộ Tổng tham mưu theo sổ pending từ tập 1 đến tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000250"
+      - "YS-LN07/Text/chapter016.xhtml/p000260"
+      - "YS-LN07/Text/chapter016.xhtml/p000276"
+      - "YS-LN07/Text/chapter016.xhtml/p000282"
+  - source_term: "communications technician / telegraph / wireless contact"
+    proposed_vi: "kỹ thuật viên thông tin / máy điện báo / liên lạc vô tuyến"
+    category: "thuật ngữ quân sự / thông tin"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác chức danh chuyên môn và phương tiện thông tin liên lạc tại Bộ Tổng tham mưu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000257"
+  - source_term: "Lieutenant Generals von Rudersdorf and von Zettour / General von Rudersdorf / General von Zettour / Rudersdorf / Zettour"
+    proposed_vi: "hai Trung tướng von Rudersdorf và von Zettour / Tướng von Rudersdorf / Tướng von Zettour / Rudersdorf / Zettour"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tướng và cách gọi Tướng + họ trong lời thoại theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000260"
+      - "YS-LN07/Text/chapter016.xhtml/p000262"
+      - "YS-LN07/Text/chapter016.xhtml/p000264"
+      - "YS-LN07/Text/chapter016.xhtml/p000265"
+      - "YS-LN07/Text/chapter016.xhtml/p000266"
+      - "YS-LN07/Text/chapter016.xhtml/p000268"
+      - "YS-LN07/Text/chapter016.xhtml/p000273"
+      - "YS-LN07/Text/chapter016.xhtml/p000275"
+      - "YS-LN07/Text/chapter016.xhtml/p000276"
+      - "YS-LN07/Text/chapter016.xhtml/p000278"
+  - source_term: "pocket / encircle and annihilate / enemy military districts / the Rhine"
+    proposed_vi: "túi vây / bao vây và tiêu diệt hoàn toàn / các quân khu địch / mặt trận Rhine"
+    category: "thuật ngữ quân sự / địa danh"
+    status: "pending"
+    rationale: "Đồng bộ các thuật ngữ tác chiến bao vây tiêu diệt, phân chia quân khu địch và mặt trận Rhine đã thiết lập trong chương 4 tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000260"
+      - "YS-LN07/Text/chapter016.xhtml/p000273"
+      - "YS-LN07/Text/chapter016.xhtml/p000274"
+  - source_term: "Colonel Uger / Lieutenant Colonel Uger / rear-area specialist"
+    proposed_vi: "Trung tá Uger / chuyên gia hậu phương"
+    category: "nhân vật / quân hàm / chức danh"
+    status: "pending"
+    rationale: "Kế thừa thống nhất quân hàm thực tế 'Trung tá Uger' (kể cả khi được gọi tắt là Colonel trong thoại) theo sổ pending tập 7 và dịch rõ nghĩa 'chuyên gia hậu phương'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000279"
+      - "YS-LN07/Text/chapter016.xhtml/p000281"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000248"
+    choices:
+      - "Thuật ngữ & đơn vị: 'airborne unit’s command' -> 'bộ chỉ huy đơn vị đổ bộ đường không'; 'Sixth Paratrooper Ranger Regiment' -> 'Trung đoàn Biệt kích Dù số 6'; 'Lergen Kampfgruppe' -> 'Kampfgruppe Lergen'"
+      - "Đại từ chỉ các đơn vị ngoài tiền tuyến: 'Họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000249"
+    choices:
+      - "Câu hỏi ngắn lặp lại tên đơn vị: '“…Kampfgruppe Lergen ư?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000250"
+    choices:
+      - "Đơn vị & tổ chức: 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; 'staff officers' -> 'sĩ quan tham mưu'; 'Operations' -> 'Cục Tác chiến'"
+      - "Đại từ tự xưng của thành viên Cục Tác chiến: 'chúng tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000251"
+    choices:
+      - "Câu hỏi xác nhận thế trận chia cắt địch ở chính giữa: '“Và họ đã xoay xở làm được phần khó nhất là cắt đôi đội hình địch ở ngay chính giữa ư?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000252"
+    choices:
+      - "Câu đáp xác nhận ngắn gọn: '“Đã xác nhận rồi.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000253"
+    choices:
+      - "Lời cảm thán nhẹ nhõm: '“…Họ thực sự làm được rồi nhỉ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000254"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho đúng câu nội tâm có thẻ em: '*Vậy là chúng ta đã sang được bờ bên kia rồi sao?*'"
+      - "Thuật ngữ: 'airborne unit' -> 'đơn vị đổ bộ đường không'"
+      - "Giữ đúng sắc thái chắc chắn và giả định: 'chắc chắn đã được đẩy lùi, và nếu mọi chuyện tiến triển thuận lợi, họ thậm chí còn có thể thu về những kết quả tuyệt vời.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000255"
+    choices:
+      - "Đại từ chỉ tập thể sĩ quan trong phòng: 'Ai nấy' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000256"
+    choices:
+      - "Câu hỏi về hai cánh sườn: '“Còn hai bên sườn thì sao?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000257"
+    choices:
+      - "Thuật ngữ: 'communications technician' -> 'Kỹ thuật viên thông tin'; 'telegraph' -> 'máy điện báo'; 'wireless contact' -> 'liên lạc vô tuyến'; 'both flanks' -> 'cả hai cánh sườn'"
+      - "Đại từ chỉ kỹ thuật viên thông tin: 'anh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000258"
+    choices:
+      - "Thuật ngữ: 'staffers' -> 'các sĩ quan tham mưu'"
+      - "Đại từ chỉ các sĩ quan tham mưu: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000259"
+    choices:
+      - "Đại từ chỉ các sĩ quan tham mưu: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000260"
+    choices:
+      - "Tổ chức & nhân vật: 'Operations man' -> 'nhân viên Cục Tác chiến'; 'Lieutenant Generals von Rudersdorf and von Zettour' -> 'hai Trung tướng von Rudersdorf và von Zettour'"
+      - "Thuật ngữ: 'forming a pocket' -> 'việc hình thành túi vây'"
+      - "Kính ngữ báo cáo cấp trên ở cuối câu: 'ạ!'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000261"
+    choices:
+      - "Câu hỏi xác nhận của Rudersdorf: '“Ta tóm được bọn chúng rồi sao?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000262"
+    choices:
+      - "Xưng hô và kính ngữ với cấp trên: '“Vâng, thưa Tướng von Rudersdorf! Chúng ta đã tóm được bọn chúng rồi ạ!”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000263"
+    choices:
+      - "Danh xưng trần thuật và lời độc thoại của Rudersdorf: 'Vị tướng' - '“…Vậy là ta tóm được chúng rồi…”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000264"
+    choices:
+      - "Nhân vật & thuật ngữ: 'Zettour'; 'high-ranking staff officers' -> 'các sĩ quan tham mưu cấp cao'"
+      - "Đại từ trần thuật chỉ Rudersdorf: 'ông'"
+      - "Tình thái suy đoán quá khứ: 'Hẳn là ông đã cố gắng hết sức để không cho cấp dưới nhìn thấy nỗi lo lắng của mình.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000265"
+    choices:
+      - "Nhân vật: 'Rudersdorf' và 'Zettour'"
+      - "Giữ dấu ngoặc kép đôi biểu thị lời reo đồng thanh: '““Hoan hô!””'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000266"
+    choices:
+      - "Nhân vật & chức danh: 'the plan’s architect, Rudersdorf' -> 'kiến trúc sư của bản kế hoạch, Rudersdorf'; 'staffers' -> 'các sĩ quan tham mưu'"
+      - "Nên cân nhắc chỉnh nhẹ kết hợp từ 'sự khâm phục không tiếc lời' thành 'sự khâm phục hết mực'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000267"
+    choices:
+      - "Lời chúc mừng của cấp dưới với Rudersdorf: '“Xin chúc mừng ngài!”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000268"
+    choices:
+      - "Nhân vật & thuật ngữ: 'Rudersdorf'; 'airborne unit' -> 'đơn vị đổ bộ đường không'; 'mages' -> 'các pháp sư'; 'decorations applications' -> 'hồ sơ đề nghị trao thưởng huân chương'"
+      - "Xưng hô của Rudersdorf: 'Tôi' / 'chúng ta' - 'ông' (trần thuật)"
+      - "Giả định trái thực tế ở quá khứ: 'Sẽ chẳng thể nào làm được điều đó nếu họ không cầm cự suốt ba ngày ba đêm trong lòng địch.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000269"
+    choices:
+      - "Lời tuân lệnh của cấp dưới: '“Rõ, thưa ngài.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000270"
+    choices:
+      - "Đại từ trần thuật chỉ Rudersdorf: 'ông'; đại từ trong câu nói của sĩ quan tham mưu: 'tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000271"
+    choices:
+      - "Ẩn dụ ăn mừng chiến thắng: 'nâng cốc chúc mừng bằng mật ngọt của chiến thắng.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000272"
+    choices:
+      - "Câu chuyển ý đối lập: 'Nhưng trong bất kỳ cuộc tụ họp nào cũng luôn có một người giữ được cái đầu tỉnh táo.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000273"
+    choices:
+      - "Nhân vật & địa danh: 'Zettour' - 'ông'; 'on the Rhine' -> 'ở mặt trận Rhine'"
+      - "Phủ định nhấn mạnh: 'Ông vui mừng, nhưng không hề ngây ngất. Đời nào ông quên được...'"
+      - "Nên cân nhắc đổi 'kết liễu nó' thành 'dứt điểm chuyện này' để tự nhiên hơn"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000274"
+    choices:
+      - "Thuật ngữ: 'encircle and annihilate' -> 'bao vây và tiêu diệt hoàn toàn'; 'Paratroopers' -> 'Lính dù'; 'enemy military districts' -> 'các quân khu địch'; 'pocket' -> 'túi vây'"
+      - "Xưng hô của Zettour: 'chúng ta' - 'tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000275"
+    choices:
+      - "Nhân vật & xưng hô giữa Rudersdorf và Zettour: 'Tướng von Zettour' - 'tôi' - 'ông' - 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000276"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng cụm có thẻ em: '*Rudersdorf, ông thắng rồi*'"
+      - "Tổ chức: 'Service Corps' -> 'Cục Quân vụ'"
+      - "Xưng hô giữa Zettour và Rudersdorf: 'tôi' - 'ông'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000277"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'tôi' - 'ông'"
+      - "Nên cân nhắc chỉnh cụm khẩu ngữ 'ngon tuyệt cú mèo rồi' thành 'ngon tuyệt hảo rồi' để hợp phong thái tướng lĩnh"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000278"
+    choices:
+      - "Nhân vật & thuật ngữ: 'Zettour' - 'ông'; 'mobilizing matériel' -> 'huy động vật tư quân sự'"
+      - "Lời đáp của Zettour với Rudersdorf: '“Ông cứ chờ mà xem.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000279"
+    choices:
+      - "Quân hàm và xưng hô của Trung tướng Zettour với Trung tá Uger: 'Trung tá Uger' - 'anh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000280"
+    choices:
+      - "Lời nhận lệnh ngắn gọn của Uger: '“Đã rõ.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000281"
+    choices:
+      - "Nhân vật & thuật ngữ: 'Lieutenant Colonel Uger' -> 'Trung tá Uger'; 'rear-area specialist' -> 'chuyên gia hậu phương'"
+      - "Đại từ trần thuật chỉ Uger: 'anh'"
+      - "Cấu trúc tăng tiến cùng chủ thể: 'không chỉ là một chuyên gia hậu phương mà còn là một người khá sành rượu vang.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000282"
+    choices:
+      - "Tổ chức: 'Service Corps' -> 'Cục Quân vụ'"
+      - "Đại từ trần thuật chỉ Uger: 'Anh'"
+      - "Không dùng nhấn mạnh Markdown"
