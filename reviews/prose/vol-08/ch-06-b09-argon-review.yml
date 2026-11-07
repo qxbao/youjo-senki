@@ -1,0 +1,281 @@
+task_id: "vol-08-ch-06-b09-argon-review"
+parent_task_id: "vol-08-ch-06-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 6
+target_translation: "translations/vol-08/ch-06-b09.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000329"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Dịch tính từ chỉ mùi hương hồng trà đã lâu không được thưởng thức thành 'đã thất truyền từ lâu' làm lệch nghĩa sang một bí quyết hoặc kỹ nghệ bị mai một vĩnh viễn."
+    basis: "Theo ngữ cảnh ở p000333 và canon/style-guide.md, nguồn hồng trà chỉ bị gián đoạn do cuộc phong tỏa đường biển của Khối Thịnh vượng chung nên vắng bóng suốt thời gian dài ở Đế quốc, chứ không phải bị thất truyền."
+    recommendation: "Đổi 'mùi hương đã thất truyền từ lâu của hồng trà' thành 'mùi hương hồng trà vốn đã vắng bóng từ lâu' hoặc 'mùi hương hồng trà đã lâu không được ngửi thấy'."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000346"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Dịch danh từ khẩu ngữ chỉ kẻ ăn chực/hưởng lợi chùa ('mooch') thành 'kẻ chỉ biết ăn không ngồi rồi' làm lệch trọng tâm sang sự lười biếng thay vì việc uống trà chùa mà không đóng góp ý kiến tương xứng."
+    basis: "Trong ngữ cảnh Tanya vừa được Zettour mời uống hồng trà quý hiếm (p000331–p000334) rồi được hỏi ý kiến, Tanya tự nhủ nếu không tận dụng cơ hội đóng góp hoặc nói ra suy nghĩ của mình thì chẳng khác nào kẻ đến uống trà chùa/ăn chực."
+    recommendation: "Đổi 'một kẻ chỉ biết ăn không ngồi rồi' thành 'một kẻ ăn chực' hoặc 'một kẻ chỉ biết uống trà chùa'."
+pending_term_recommendations:
+  - source_term: "Operation Andromeda"
+    proposed_vi: "Chiến dịch Andromeda"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Đồng bộ với mục đề xuất đã dùng trong work/run-state/pending-terms-index.yml của vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000310"
+  - source_term: "scientific Communism"
+    proposed_vi: "Chủ nghĩa Cộng sản khoa học"
+    category: "thuật ngữ chính trị"
+    status: "proposed"
+    rationale: "Phù hợp với thuật ngữ lý luận chính trị của Liên bang và nhất quán với 'Chủ nghĩa Cộng sản' trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000312"
+  - source_term: "Comrade Colonel / General Staff / Devil of the Rhine"
+    proposed_vi: "Đồng chí Đại tá / Bộ Tổng tham mưu / Ác quỷ sông Rhine"
+    category: "chức danh / tổ chức / biệt danh"
+    status: "proposed"
+    rationale: "Thống nhất hoàn toàn với work/run-state/pending-terms-index.yml của các tập và các batch trước trong vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000315"
+      - "YS-LN08/Text/chapter022.xhtml/p000317"
+  - source_term: "Federation / Commissariat for Internal Affairs"
+    proposed_vi: "Liên bang / Bộ Dân ủy Nội vụ"
+    category: "tổ chức"
+    status: "proposed"
+    rationale: "Chuẩn thuật ngữ cơ quan nội vụ của Liên bang, đồng bộ với chức danh 'ủy viên dân ủy nội vụ' của Loria trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Liên bang / Ủy ban Nhân dân Nội vụ"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000326"
+  - source_term: "B GROUP ON THE EASTERN LINES, PROVISIONAL FORWARD COMMAND POST, THE POSITION PREVIOUSLY KNOWN AS SOLDIM 528"
+    proposed_vi: "CỤM B TRÊN PHÒNG TUYẾN PHÍA ĐÔNG, SỞ CHỈ HUY TIỀN PHƯƠNG LÂM THỜI, VỊ TRÍ TRƯỚC ĐÂY ĐƯỢC BIẾT ĐẾN VỚI TÊN GỌI SOLDIM 528"
+    category: "tiêu đề cảnh / địa danh quân sự"
+    status: "proposed"
+    rationale: "Đồng bộ các thành tố 'Cụm B', 'phòng tuyến phía đông', 'sở chỉ huy tiền phương' và 'Soldim 528' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000327"
+  - source_term: "Lieutenant Colonel von Degurechaff / Colonel von Degurechaff / Colonel / Tanya"
+    proposed_vi: "Trung tá von Degurechaff / Trung tá / Tanya"
+    category: "quân hàm / tên nhân vật"
+    status: "proposed"
+    rationale: "Giữ chuẩn quân hàm Trung tá của Tanya trong vol-08 theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000328"
+      - "YS-LN08/Text/chapter022.xhtml/p000329"
+      - "YS-LN08/Text/chapter022.xhtml/p000331"
+      - "YS-LN08/Text/chapter022.xhtml/p000333"
+      - "YS-LN08/Text/chapter022.xhtml/p000334"
+      - "YS-LN08/Text/chapter022.xhtml/p000345"
+      - "YS-LN08/Text/chapter022.xhtml/p000351"
+  - source_term: "the John Bulls / Lieutenant General von Zettour / Zettour"
+    proposed_vi: "đám John Bull / Trung tướng von Zettour / Zettour"
+    category: "tên gọi / quân hàm"
+    status: "proposed"
+    rationale: "Đồng bộ với các mục tương ứng trong work/run-state/pending-terms-index.yml của vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000333"
+      - "YS-LN08/Text/chapter022.xhtml/p000347"
+      - "YS-LN08/Text/chapter022.xhtml/p000351"
+  - source_term: "augmented mage battalion / Imperial Army / qualitative superiority / the Commies / the Empire"
+    proposed_vi: "tiểu đoàn pháp sư tăng cường / Lục quân Đế quốc / ưu thế về chất lượng / đám Cộng sản / Đế quốc"
+    category: "thuật ngữ quân sự / tên gọi"
+    status: "proposed"
+    rationale: "Nhất quán với hệ thống thuật ngữ quân sự Đế quốc trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000337"
+      - "YS-LN08/Text/chapter022.xhtml/p000338"
+      - "YS-LN08/Text/chapter022.xhtml/p000347"
+  - source_term: "enemy field army / battle of attrition / Service Corps"
+    proposed_vi: "đạo quân dã chiến của địch / cuộc chiến tiêu hao / Cục Quân vụ"
+    category: "thuật ngữ quân sự / tổ chức"
+    status: "proposed"
+    rationale: "Khớp với các mục 'đạo quân dã chiến của địch', 'trận đánh tiêu hao' và 'Cục Quân vụ' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000347"
+      - "YS-LN08/Text/chapter022.xhtml/p000353"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000308"
+    locks:
+      pronouns: "we -> chúng ta (Loria nói với vị đại tá Liên bang)"
+      modality: "can recover -> vẫn có thể hồi phục được"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000309"
+    locks:
+      pronouns: "they -> họ; He / his -> Ông ta / của mình (trần thuật góc nhìn Loria)"
+      logic: "Quan hệ điều kiện giả định 'nếu vấp phải thất bại trong công việc thì ông ta sẽ chẳng còn thời gian đâu mà chăm chút cho mối tình của mình nữa'"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000310"
+    locks:
+      terms: "Operation Andromeda -> Chiến dịch Andromeda"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000311"
+    locks:
+      tone: "Yes -> Vâng (đại tá Liên bang đáp lời Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000312"
+    locks:
+      terms: "scientific Communism -> Chủ nghĩa Cộng sản khoa học"
+      pronouns: "We -> Chúng ta; them -> bọn chúng"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000313"
+    locks:
+      tone: "Yes, sir! -> Rõ, thưa đồng chí!"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000314"
+    locks:
+      ranks_and_names: "colonel -> vị đại tá; Loria -> Loria; comrades -> những người đồng chí"
+      pronouns: "he -> ông ta (vị đại tá); his -> của ông ta (Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000315"
+    locks:
+      ranks_and_names: "Comrade Colonel -> Đồng chí Đại tá"
+      terms: "General Staff -> Bộ Tổng tham mưu"
+      pronouns: "I -> tôi; you -> đồng chí; them -> họ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000316"
+    locks:
+      pronouns: "I -> Tôi; them -> họ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000317"
+    locks:
+      terms: "Devil of the Rhine -> Ác quỷ sông Rhine"
+      pronouns: "That Devil of the Rhine -> Con bé Ác quỷ sông Rhine đó; you -> Đồng chí"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000318"
+    locks:
+      pronouns: "she -> nó (đại tá Liên bang gọi Tanya)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000319"
+    locks:
+      ranks_and_names: "Loria -> Loria"
+      pronouns: "she -> con bé"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000320"
+    locks:
+      pov_pronouns: "devilish fairy -> Nàng tiên mang dáng dấp ác quỷ; his -> ông ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000321"
+    locks:
+      pov_pronouns: "him / he -> ông ta; her -> của nàng (sắc thái si mê trong tâm trí Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000322"
+    locks:
+      pronouns: "He -> Ông ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000323"
+    locks:
+      pov: "Câu cảm thán nội tâm không in nghiêng của Loria, không dùng dấu sao Markdown theo DEC-P01-002"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000324"
+    locks:
+      pronouns: "I -> tôi; you -> đồng chí; her -> của nó (Loria quay lại giọng công vụ trước mặt cấp dưới)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000325"
+    locks:
+      tone: "sir -> thưa đồng chí"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000326"
+    locks:
+      terms: "Federation citizen -> công dân Liên bang; Commissariat for Internal Affairs -> Bộ Dân ủy Nội vụ"
+      pronouns: "I -> tôi; you -> các đồng chí / bên đồng chí; her -> nó"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000327"
+    locks:
+      terms: "B GROUP -> CỤM B; EASTERN LINES -> PHÒNG TUYẾN PHÍA ĐÔNG; PROVISIONAL FORWARD COMMAND POST -> SỞ CHỈ HUY TIỀN PHƯƠNG LÂM THỜI; SOLDIM 528 -> SOLDIM 528"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000328"
+    locks:
+      ranks_and_names: "Lieutenant Colonel von Degurechaff -> Trung tá von Degurechaff"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000329"
+    locks:
+      ranks_and_names: "Tanya -> Tanya"
+      pronouns: "she / her -> cô (trần thuật vol-08)"
+      terms: "black tea -> hồng trà"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000330"
+    locks:
+      pov: "Độc thoại nội tâm của Tanya không có thẻ nghiêng trong nguồn, không đánh dấu *...* theo DEC-P01-002"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000331"
+    locks:
+      ranks_and_names: "Colonel -> Trung tá (Zettour gọi tắt cấp bậc Trung tá của Tanya)"
+      pronouns: "I -> tôi; us -> chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000332"
+    locks:
+      pronouns: "Thank you -> Cảm ơn ngài (Tanya nói với Zettour)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000333"
+    locks:
+      ranks_and_names: "Tanya -> Tanya; Lieutenant General von Zettour -> Trung tướng von Zettour"
+      terms: "the John Bulls -> đám John Bull; maritime blockade -> cuộc phong tỏa đường biển"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000334"
+    locks:
+      ranks_and_names: "orderly -> Lính cần vụ; Colonel von Degurechaff -> Trung tá von Degurechaff"
+      terms: "pursuit battle -> trận truy kích"
+      pronouns: "we -> chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000335"
+    locks:
+      pronouns: "she / her -> cô; his -> của ông (Zettour)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000336"
+    locks:
+      pronouns: "We -> Chúng tôi; my -> của riêng tôi; them -> chúng"
+      negation_modality: "weren't able to -> đã không thể; not possible -> là điều bất khả thi"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000337"
+    locks:
+      terms: "augmented mage battalion -> tiểu đoàn pháp sư tăng cường"
+      modality: "Maybe it would be possible -> Có lẽ sẽ khả thi... chăng? (câu hỏi nội tâm của Tanya không in nghiêng trong nguồn)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000338"
+    locks:
+      terms: "Imperial Army -> Lục quân Đế quốc; qualitative superiority -> ưu thế về chất lượng; the Commies -> đám Cộng sản; the Empire -> Đế quốc"
+      pronouns: "We / us -> Chúng ta (nội tâm Tanya)"
+      negation_modality: "can no longer guarantee -> không còn có thể đảm bảo... được nữa"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000339"
+    locks:
+      terms: "manpower -> nhân lực"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000340"
+    locks:
+      terms: "reserves -> lực lượng dự bị; follow-up attack -> đợt tấn công tiếp nối"
+      pronouns: "we / our -> chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000341"
+    locks:
+      pronouns: "we -> chúng ta / ta"
+      negation_modality: "Can we even say we've won... where we're unable to -> Liệu chúng ta có thể gọi đây là chiến thắng trong một tình thế mà ta thậm chí không thể..."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000342"
+    locks:
+      pronouns: "we -> chúng ta; them -> chúng (nội tâm đánh giá chiến thuật của Tanya)"
+      logic: "Đối lập bề ngoài ('có vẻ như đã chiếm lĩnh trận địa hoặc phá vỡ vòng vây thành công') với bản chất thất bại vì không thể truy kích địch rút lui"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000343"
+    locks:
+      pronouns: "you -> Cô (Zettour hỏi Tanya)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000344"
+    locks:
+      pronouns: "You -> Ngài; my -> của tôi; sir -> thưa ngài"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000345"
+    locks:
+      ranks_and_names: "Tanya -> Tanya"
+      pov_pronouns: "he / him -> ông (Zettour); She / she -> Cô (trần thuật); her -> mình (nội tâm gián tiếp của Tanya theo DEC-P01-001)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000346"
+    locks:
+      pov_pronouns: "he -> ông; she -> cô (trần thuật) / mình (nội tâm gián tiếp)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000347"
+    locks:
+      ranks_and_names: "Zettour -> Zettour"
+      terms: "enemy field army -> đạo quân dã chiến của địch; battle of attrition -> cuộc chiến tiêu hao; Imperial Army -> Lục quân Đế quốc"
+      pov_pronouns: "We -> Chúng ta; I -> tôi (thoại với Zettour); she -> cô (trần thuật) / mình (suy nghĩ gián tiếp)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000348"
+    locks:
+      pronouns: "I -> Tôi; your -> của cô"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000349"
+    locks:
+      tone: "Sir? -> Thưa ngài?"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000350"
+    locks:
+      pronouns: "We -> Chúng ta"
+      negation_modality: "not 'getting' trapped—we're in up to our necks -> không phải ‘đang’ sa bẫy—mà đã lún sâu đến tận cổ rồi"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000351"
+    locks:
+      ranks_and_names: "Zettour -> Zettour; Tanya -> Tanya"
+      pronouns: "He -> Ông"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000352"
+    locks:
+      tone: "sir -> thưa ngài"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000353"
+    locks:
+      terms: "Service Corps -> Cục Quân vụ; front lines -> tiền tuyến"
+      pronouns: "I -> Tôi; you -> cô"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000354"
+    locks:
+      terms: "rear echelon -> hậu phương; the field -> chiến trường"
+      pronouns: "he -> ông"
+      modality: "should have the best understanding -> hẳn phải là người nắm rõ... hơn bất kỳ ai khác"
