@@ -1,0 +1,316 @@
+task_id: "vol-09-ch-06-b15-argon-review"
+parent_task_id: "vol-09-ch-06-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-09"
+chapter: 6
+source_package: "work/vol-09/batches/ch-06-b15-source.jsonl"
+target_translation: "translations/vol-09/ch-06-b15.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000562"
+    severity: "minor"
+    issue: "Bản dịch thêm hình ảnh 'nằm trên giấy' khi diễn đạt ý giữ nguyên Plan B chỉ là Plan B; dù hợp ngữ cảnh nhưng hơi mở rộng so với lối diễn đạt cô đọng của nguyên bản."
+    rationale: "Nguyên bản lặp lại trực tiếp danh xưng Plan B để nhấn mạnh mong muốn nó mãi chỉ dừng ở phương án dự phòng không bao giờ phải kích hoạt."
+    recommendation: "Có thể cân nhắc rút gọn thành 'Anh chỉ muốn cứ để Kế hoạch B mãi mãi là Kế hoạch B' khi chuốt văn, hoặc giữ nguyên nếu muốn làm rõ sắc thái dự phòng."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000575"
+    severity: "minor"
+    issue: "Câu hỏi tu từ ở giữa đoạn về thực tại khó chịu đang được chuyển thành câu cảm thán kết thúc bằng dấu chấm than."
+    rationale: "Nguyên bản đặt câu hỏi tu từ mang giọng tự trào chua chát của Lergen trước thực tại chiến tranh."
+    recommendation: "Có thể cân nhắc giữ hình thức câu hỏi tu từ như 'Thực tại này mới khó chịu làm sao chứ?' hoặc giữ câu cảm thán hiện tại nếu ưu tiên nhịp văn tiếng Việt."
+pending_term_recommendations:
+  - source_term: "Plan A / Plan B"
+    proposed_vi: "Kế hoạch A / Kế hoạch B"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Dịch trực tiếp, rõ nghĩa và nhất quán với mạch đối thoại trước đó giữa Lergen và Rudersdorf."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000561"
+      - "YS-LN09/Text/chapter022.xhtml/p000562"
+    alternatives_vi:
+      - "Phương án A / Phương án B"
+  - source_term: "Open sesame"
+    proposed_vi: "Vừng ơi mở ra"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với khẩu lệnh ẩn dụ trong Chiến dịch Cạy Khóa (Operation Lock Pick) trên mặt trận Rhine đã ghi nhận ở sổ pending."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000565"
+    alternatives_vi: []
+  - source_term: "Rhine front / enemy field army"
+    proposed_vi: "mặt trận Rhine / đạo quân dã chiến của địch"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thống nhất với thuật ngữ đã dùng xuyên suốt các tập và chương trước."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000566"
+      - "YS-LN09/Text/chapter022.xhtml/p000567"
+    alternatives_vi: []
+  - source_term: "eastern front / total war / Iron and blood"
+    proposed_vi: "mặt trận phía đông / chiến tranh tổng lực / Sắt và máu"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ đúng các thuật ngữ lịch sử - quân sự đã dùng nhất quán trong tập 9."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000571"
+      - "YS-LN09/Text/chapter022.xhtml/p000572"
+    alternatives_vi: []
+  - source_term: "fatherland / Federation / Heimat / Norden conflict"
+    proposed_vi: "Tổ quốc / Liên bang / Heimat / cuộc xung đột Norden"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Phân biệt rõ 'fatherland' (Tổ quốc) và từ tiếng Đức 'Heimat' được giữ nguyên theo thông lệ các lô trước; giữ nguyên địa danh Norden và Liên bang."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000573"
+      - "YS-LN09/Text/chapter022.xhtml/p000575"
+      - "YS-LN09/Text/chapter022.xhtml/p000577"
+      - "YS-LN09/Text/chapter022.xhtml/p000578"
+    alternatives_vi: []
+  - source_term: "aiguillette / staff officer / staffer curriculum"
+    proposed_vi: "dây biểu chương tham mưu / sĩ quan tham mưu / chương trình đào tạo sĩ quan tham mưu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Biểu đạt chính xác phụ kiện quân trang đặc trưng của sĩ quan tham mưu (aiguillette) và chương trình huấn luyện tham mưu."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000582"
+      - "YS-LN09/Text/chapter022.xhtml/p000601"
+    alternatives_vi:
+      - "dây tua tham mưu / sĩ quan tham mưu / giáo trình tham mưu"
+  - source_term: "Omnes una Manet Nox"
+    proposed_vi: "Omnes una Manet Nox"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên phụ đề tiếng Latinh của Tập 9 ở dòng kết tập."
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000604"
+    alternatives_vi: []
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000561"
+    locks:
+      terms:
+        - "Plan B -> Kế hoạch B"
+      perspective: "Lời độc thoại thầm thì của Lergen; không in nghiêng."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000562"
+    locks:
+      terms:
+        - "Plan A -> Kế hoạch A"
+        - "Plan B -> Kế hoạch B"
+      pronouns:
+        - "He (Lergen, trần thuật) -> Anh"
+      logic: "Giữ quan hệ nhân quả: vì cảm thấy khốn khổ khi thất bại ở Kế hoạch A và muốn Kế hoạch B mãi chỉ là phương án dự phòng nên anh vẫn thấy còn chút hy vọng theo hướng đó."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000563"
+    locks:
+      terms:
+        - "God -> Chúa"
+      pronouns:
+        - "We (Lergen độc thoại tự vấn về Đế quốc) -> Chúng ta"
+        - "he (God) -> ngài"
+      logic: "Giữ chuỗi câu hỏi tự vấn chua chát: không nhận ra cơ hội tốt nhất đã qua, cứ tin sẽ được ban một cái kết thỏa đáng, để rồi nhận lại kết cục này."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000564"
+    locks:
+      modality: "Giữ tình thái giả định tiếc nuối trong quá khứ 'Đáng lẽ phải có một lối thoát'."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000565"
+    locks:
+      terms:
+        - "Open sesame -> Vừng ơi mở ra"
+      emphasis: "Không dùng *...* vì nguồn không có thẻ nhấn mạnh."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000566"
+    locks:
+      terms:
+        - "art of war -> nghệ thuật quân sự"
+        - "Rhine front -> mặt trận Rhine"
+        - "enemy field army -> đạo quân dã chiến của địch"
+      logic: "Giữ chi tiết nhử đạo quân dã chiến của địch vào tròng và nhổ tận gốc theo đúng nghĩa đen."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000567"
+    locks:
+      terms:
+        - "enemy field army -> đạo quân dã chiến của địch"
+        - "the Empire -> Đế quốc"
+      logic: "Giữ ý nền hòa bình sau khi vô hiệu hóa đạo quân dã chiến của địch—điều Đế quốc hằng mơ ước, khắc khoải và khao khát từ buổi lập quốc—từng chỉ còn cách một bước chân."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000568"
+    locks:
+      names:
+        - "Lergen -> Lergen"
+      logic: "Giữ cảm giác chuyện đó giờ như đã lùi vào dĩ vãng xa xôi."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000569"
+    locks:
+      pronouns:
+        - "He (Lergen) -> Anh"
+        - "they -> họ"
+      modality: "Giữ thời quá khứ hoàn thành 'từng tin rằng họ có thể thắng cuộc chiến này'."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000570"
+    locks:
+      emphasis: "Chỉ dùng *...* cho câu hỏi nội tâm thứ hai theo đúng thẻ <em> của nguồn; câu đầu để chữ thường."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000571"
+    locks:
+      terms:
+        - "eastern front -> mặt trận phía đông"
+        - "total war -> chiến tranh tổng lực"
+      pronouns:
+        - "We -> Chúng ta"
+      logic: "Giữ ẩn dụ 'Địa ngục đẻ ra địa ngục' và 'mắc kẹt trong việc gặt lấy những hạt giống do chính mình gieo xuống'."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000572"
+    locks:
+      terms:
+        - "Iron and blood -> Sắt và máu"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000573"
+    locks:
+      terms:
+        - "the fatherland -> Tổ quốc"
+        - "great war -> cuộc đại chiến"
+        - "the Federation -> Liên bang"
+      logic: "Giữ ý sắt và máu bắt nguồn từ thuở lập quốc nhưng quá ít ỏi để cứu Tổ quốc; người trẻ bị biến thành con số thống kê và thương vong; dốc quốc lực vào cuộc xung đột này ngu xuẩn như ném thẳng xuống vùng đất lầy lội của Liên bang."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000574"
+    locks:
+      negation: "Giữ phủ định 'vẫn chưa đủ'."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000575"
+    locks:
+      terms:
+        - "Heimat -> Heimat"
+      logic: "Giữ phép nhân hóa chiến tranh là con quái vật tham lam nuốt chửng đến người thanh niên cuối cùng của Heimat mà vẫn gào thét chưa thỏa mãn, cùng chuỗi 3 danh ngữ ở câu cuối."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000576"
+    locks:
+      logic: "Giữ cấu trúc lặp nhấn mạnh sự bàng hoàng trước thời đại mà thế giới bước vào."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000577"
+    locks:
+      terms:
+        - "Norden conflict -> cuộc xung đột Norden"
+        - "one little girl -> một cô bé"
+      logic: "Giữ đúng 3 câu hỏi tu từ liên tiếp và chi tiết ngoài một cô bé ra thì không ai bận tâm suy nghĩ quá một thoáng trong cuộc xung đột Norden."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000578"
+    locks:
+      terms:
+        - "the fatherland and the emperor -> Tổ quốc và Hoàng đế"
+      pronouns:
+        - "I (Lergen độc thoại) -> Mình / mình"
+      logic: "Giữ lời tự nhủ về lời tuyên thệ với Tổ quốc và Hoàng đế và bổn phận người lính."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000579"
+    locks:
+      terms:
+        - "officer -> sĩ quan"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000580"
+    locks:
+      names:
+        - "Lergen -> Lergen"
+      pronouns:
+        - "his -> của anh"
+      logic: "Giữ ẩn dụ 'bánh răng xuất sắc—và chẳng là gì ngoài một bánh răng' đối lập với câu hỏi khi việc chỉ làm một chi tiết trong cỗ máy là không thể tha thứ thì đòi hỏi trong bổn phận có thay đổi không."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000581"
+    locks:
+      pronouns:
+        - "I / my -> mình / của mình"
+        - "our -> của chúng ta"
+      logic: "Giữ nhịp tự sửa lời 'bổn phận của mình—không, của chúng ta'."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000582"
+    locks:
+      terms:
+        - "aiguillette -> dây biểu chương tham mưu"
+        - "staff officer -> sĩ quan tham mưu"
+      pronouns:
+        - "he / him / his -> anh / của mình / của anh"
+      logic: "Giữ thế lưỡng nan giữa việc dự phần vào chính trị và giữ im lặng như một sĩ quan tham mưu 'đơn thuần'."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000583"
+    locks:
+      pronouns:
+        - "he / him -> anh / mình"
+      logic: "Giữ đối lập giữa việc dễ dàng viện cớ hoàn cảnh thay đổi với việc bổn phận và trách nhiệm vẫn giày vò anh dù chưa biết phải làm gì."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000584"
+    locks:
+      emphasis: "Bọc toàn bộ câu nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000585"
+    locks:
+      pronouns:
+        - "I -> Mình / mình"
+      emphasis: "Bọc toàn bộ hai câu hỏi nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000586"
+    locks:
+      negation: "Giữ phủ định 'Không phải cái tệ nhất với cái tệ nhì' và sắc thái mạnh ở câu cuối."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000587"
+    locks:
+      pronouns:
+        - "I -> Mình"
+      logic: "Giữ dấu chấm lửng ngập ngừng ở câu hỏi thứ hai."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000588"
+    locks:
+      pronouns:
+        - "he -> anh / mình"
+      logic: "Giữ chi tiết gương mặt chua chát, đầy ám ảnh phản chiếu trên cửa sổ đang cau mày như kẻ bất hạnh nhất thế gian."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000589"
+    locks:
+      pronouns:
+        - "his / he -> của chính anh / anh"
+      logic: "Giữ ý dù biết đó là bóng phản chiếu của chính mình trên mặt kính nhưng anh vẫn thấy thật đáng hổ thẹn."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000590"
+    locks:
+      terms:
+        - "officer -> sĩ quan"
+      pronouns:
+        - "I -> mình"
+      emphasis: "Bọc toàn bộ đoạn độc thoại nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+      negation: "Giữ ý phủ định ở cuối câu: không thể vắt ra thứ vốn dĩ không tồn tại."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000591"
+    locks:
+      emphasis: "Bọc từ mệnh lệnh tự nhủ trong *...* theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000592"
+    locks:
+      pronouns:
+        - "He / his -> Anh / của mình"
+      negation: "Giữ phủ định: dù muốn cũng không còn sức lực để bật cười trước sự lố bịch này."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000593"
+    locks:
+      logic: "Giữ hình ảnh ẩn dụ về con đường dẫn tới việc ngày mai mặt trời lại mọc."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000594"
+    locks:
+      pronouns:
+        - "He / his -> Anh / mình"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000595"
+    locks:
+      logic: "Giữ câu hỏi tỉnh lược hoài nghi trực tiếp khả năng mặt trời mọc ở p000593."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000596"
+    locks:
+      pronouns:
+        - "He / his -> Anh / của chính mình"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000597"
+    locks:
+      pronouns:
+        - "We -> chúng ta"
+      emphasis: "Bọc toàn bộ đoạn nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+      modality: "Giữ phủ định kép ở câu đầu ('Chẳng một ai lại không hy vọng bình minh sẽ tới') và cấp độ chắc chắn giảm dần ở các mốc ngày mai, tháng sau, một năm nữa."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000598"
+    locks:
+      emphasis: "Bọc toàn bộ câu hỏi nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000599"
+    locks:
+      terms:
+        - "the Empire -> Đế quốc"
+      emphasis: "Bọc toàn bộ câu hỏi nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000600"
+    locks:
+      pronouns:
+        - "we / us -> Chúng ta / mình"
+      emphasis: "Bọc toàn bộ câu hỏi nội tâm trong *...* theo đúng thẻ <em> của nguồn."
+      negation: "Giữ cấu trúc câu hỏi phủ định về việc thứ đang chờ phía trước có phải là màn đêm hay không."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000601"
+    locks:
+      terms:
+        - "staffer curriculum -> chương trình đào tạo sĩ quan tham mưu"
+      pronouns:
+        - "us -> chúng ta"
+      logic: "Giữ ý sự bi quan là điều cấm kỵ được nhồi vào đầu trong chương trình đào tạo sĩ quan tham mưu."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000602"
+    locks:
+      pronouns:
+        - "he / him -> anh"
+      logic: "Giữ hình ảnh gương mặt tiều tụy thảm hại trong kính cửa sổ và nỗi bất an khi tiến về phía màn đêm."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000603"
+    locks:
+      pronouns:
+        - "us -> chúng ta"
+      logic: "Giữ câu hỏi kết luận vang vọng chủ đề tập sách: ai trong chúng ta có thể thoát khỏi màn đêm."
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000604"
+    locks:
+      terms:
+        - "Omnes una Manet Nox -> Omnes una Manet Nox"
+      emphasis: "Bọc toàn bộ dòng kết tập trong *...* theo đúng thẻ <em> của nguồn."
