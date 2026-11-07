@@ -1,0 +1,222 @@
+task_id: vol-08-ch-03-b18-argon-review
+parent_task_id: vol-08-ch-03-b18
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-08/ch-03-b18-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000328
+    issue: "Danh từ 'the colors' đang được dịch cụ thể hóa thành 'màu sơn', trong khi đặt nối tiếp với p000326–p000327 (Zettour đang nhìn bức không ảnh và nhận xét 'Màu sắc bạc đi tệ thật') thì từ gốc có thể chỉ màu sắc/sắc độ trên ảnh chụp do chất lượng vật tư ghi hình kém khi ưu tiên dồn cho phụ tùng máy bay."
+    rationale: "Ý chính về việc ưu tiên kiếm phụ tùng máy bay, chất lượng vật tư kém và việc Hội đồng Tự trị gấp rút thu mua trang bị cũ của Quân đội Liên bang vẫn được bảo toàn nên chỉ ghi nhận ở mức minor."
+    recommendation: "Ở bước chuốt văn, cân nhắc đổi 'màu sơn' thành 'màu sắc' để giữ đúng độ mở của từ gốc và liên kết mạch lạc với nhận xét về bức không ảnh ở p000327."
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000336
+    issue: "Cụm 'The maneuvers via Ildoa' đang được dịch tường minh hóa thành 'Các bước đi ngoại giao thông qua Ildoa' (thêm chữ 'ngoại giao' so với mặt chữ gốc)."
+    rationale: "Ngữ cảnh nối tiếp ngay ở p000337 xác nhận đây là các động thái trung gian hòa giải thông qua Đại tá Calandro của Ildoa nên không làm sai lệch nội dung hay điểm nhìn; chỉ ghi nhận ở mức minor."
+    recommendation: "Có thể giữ nguyên hoặc cân nhắc dịch sát mặt chữ hơn thành 'Các bước đi vận động thông qua Ildoa' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "air superiority / control of the sky / operational tempo"
+    proposed_vi: "ưu thế trên không / quyền kiểm soát bầu trời / nhịp độ tác chiến"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000320
+      - YS-LN08/Text/chapter012.xhtml/p000321
+    rationale: "Thống nhất với sổ thuật ngữ tạm đã dùng xuyên suốt các tập và tập 8."
+    alternatives_vi: []
+  - source_term: "eastern army / the front / front lines / the rear / B Group"
+    proposed_vi: "đạo quân phía đông / tiền tuyến / hậu phương / Cụm B"
+    category: "tên đơn vị / chiến trường"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000321
+      - YS-LN08/Text/chapter012.xhtml/p000330
+      - YS-LN08/Text/chapter012.xhtml/p000331
+      - YS-LN08/Text/chapter012.xhtml/p000332
+      - YS-LN08/Text/chapter012.xhtml/p000333
+      - YS-LN08/Text/chapter012.xhtml/p000335
+      - YS-LN08/Text/chapter012.xhtml/p000336
+      - YS-LN08/Text/chapter012.xhtml/p000338
+    rationale: "Khớp hoàn toàn với hệ thống thuật ngữ của mặt trận phía đông trong tập 8."
+    alternatives_vi: []
+  - source_term: "Operation Iron Hammer / Federation’s air force / imperial air force / gun camera / Unified States"
+    proposed_vi: "Chiến dịch Búa Sắt / không quân Liên bang / không quân Đế quốc / máy ảnh gắn theo súng / Hợp chúng quốc"
+    category: "tên chiến dịch / tên tổ chức / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000322
+      - YS-LN08/Text/chapter012.xhtml/p000323
+    rationale: "Nhất quán với tên Chiến dịch Búa Sắt, Hợp chúng quốc trong sổ thuật ngữ tạm và dịch sát nghĩa thiết bị 'gun camera' trên máy bay tiêm kích."
+    alternatives_vi:
+      - "camera gắn trên súng máy"
+  - source_term: "Council for Self-Government / former Federation Army gear"
+    proposed_vi: "Hội đồng Tự trị / trang bị cũ của Quân đội Liên bang"
+    category: "tên tổ chức / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000328
+    rationale: "Khớp với cách gọi Hội đồng Tự trị và Quân đội Liên bang trong tập 7–8."
+    alternatives_vi: []
+  - source_term: "Colonel von Lergen / staff officers"
+    proposed_vi: "Đại tá von Lergen / các sĩ quan tham mưu"
+    category: "quân hàm / tên nhân vật / chức danh"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000330
+      - YS-LN08/Text/chapter012.xhtml/p000331
+    rationale: "Thống nhất với cấp bậc Đại tá của von Lergen trong tập 8."
+    alternatives_vi: []
+  - source_term: "Ildoa / Colonel Calandro / the Empire / Imperial Army"
+    proposed_vi: "Ildoa / Đại tá Calandro / Đế quốc / Lục quân Đế quốc"
+    category: "tên quốc gia / quân hàm / tên nhân vật"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000336
+      - YS-LN08/Text/chapter012.xhtml/p000337
+      - YS-LN08/Text/chapter012.xhtml/p000342
+      - YS-LN08/Text/chapter012.xhtml/p000346
+    rationale: "Nhất quán với định danh Đại tá Calandro và Ildoa từ tập 7."
+    alternatives_vi: []
+  - source_term: "Supreme Command / General Staff / strategic level / grand strategy"
+    proposed_vi: "Bộ Tư lệnh Tối cao / Bộ Tổng tham mưu / cấp độ chiến lược / đại chiến lược"
+    category: "tên tổ chức / thuật ngữ chiến lược"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000339
+    rationale: "Phân biệt chuẩn xác hai tầng khái niệm 'strategic level' và 'grand strategy' cùng tên các cơ quan đầu não của Đế quốc."
+    alternatives_vi: []
+  - source_term: "THE SAME DAY, THE GENERAL STAFF OFFICE"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, VĂN PHÒNG BỘ TỔNG THAM MƯU"
+    category: "tiêu đề thời gian - địa điểm"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000345
+      - YS-LN08/Text/chapter012.xhtml/p000346
+    rationale: "Khớp với quy ước dịch dòng chuyển cảnh và tên Văn phòng Bộ Tổng tham mưu trong tập 8."
+    alternatives_vi: []
+  - source_term: "Lieutenant General von Rudersdorf / General von Rudersdorf / Rudersdorf / Lieutenant Colonel Uger / Uger / the lieutenant colonel"
+    proposed_vi: "Trung tướng von Rudersdorf / Tướng von Rudersdorf / Rudersdorf / Trung tá Uger / Uger / vị trung tá"
+    category: "quân hàm / tên nhân vật"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000347
+      - YS-LN08/Text/chapter012.xhtml/p000348
+      - YS-LN08/Text/chapter012.xhtml/p000350
+      - YS-LN08/Text/chapter012.xhtml/p000351
+    rationale: "Thống nhất với cấp bậc Trung tướng của Rudersdorf và Trung tá của Uger trong tập 7–8."
+    alternatives_vi: []
+  - source_term: "lowland industrial zone"
+    proposed_vi: "khu công nghiệp vùng trũng"
+    category: "địa danh / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000350
+    rationale: "Dịch sát nghĩa cụm từ chỉ vùng công nghiệp ở địa hình vùng trũng/vùng thấp phía tây Đế quốc."
+    alternatives_vi:
+      - "khu công nghiệp vùng thấp"
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000320
+    choices:
+      - "độc thoại đọc báo cáo và thuật ngữ: Sự tiêu hao của lực lượng không quân; tốc độ gấp ba lần dự kiến; Nhịp độ tác chiến sụt giảm; chúng ta; chẳng thể duy trì ưu thế trên không được bao lâu nữa"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000321
+    choices:
+      - "trần thuật ngôi thứ ba và thuật ngữ: quyền kiểm soát bầu trời; đạo quân phía đông; các trận không chiến; mặt bằng ở đây cũng chỉ có thể mô tả là nghèo nàn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000322
+    choices:
+      - "độc thoại thành tiếng của Zettour và trần thuật: Mình; chúng ta; không quân Liên bang; Chiến dịch Búa Sắt; Ông; máy ảnh gắn theo súng của không quân Đế quốc; máy bay tiêm kích; Hợp chúng quốc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000323
+    choices:
+      - "trần thuật ngôi thứ ba và lập luận nhân quả: sở dĩ chiếc máy bay địch là thứ đang bốc lửa chỉ bởi đây là tấm ảnh nằm trong tay ông; Vô số máy bay của Đế quốc; những chiếc máy ảnh gắn theo súng của địch; Hợp chúng quốc; cảnh tượng ngược lại"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000324
+    choices:
+      - "thoại độc thoại cảm thán: Đúng là phiền phức hết chỗ nói"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000325
+    choices:
+      - "cụm danh từ trần thuật: Một tiếng lẩm bẩm đầy bối rối"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000326
+    choices:
+      - "trần thuật ngôi thứ ba: Lý trí ông thì hiểu; ông; Zettour; bức không ảnh"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000327
+    choices:
+      - "độc thoại thành tiếng của Zettour: …Màu sắc bạc đi tệ thật"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000328
+    choices:
+      - "trần thuật ngôi thứ ba và tên tổ chức: Việc kiếm phụ tùng máy bay là ưu tiên cao nhất; Hội đồng Tự trị; trang bị cũ của Quân đội Liên bang"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000329
+    choices:
+      - "độc thoại thành tiếng của Zettour: Tích cực sử dụng trang bị thu giữ được ư…?; không được nhấn mạnh trong các bản báo cáo; Mình; chuyện những đôi tất"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000330
+    choices:
+      - "trần thuật ngôi thứ ba và quân hàm: Ông; Đại tá von Lergen; chuyến thị sát tiền tuyến; vấn đề những đôi tất"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000331
+    choices:
+      - "trần thuật theo điểm nhìn Zettour: Anh ta (chỉ Lergen); ngoài tiền tuyến; những đôi tất; các sĩ quan tham mưu; họ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000332
+    choices:
+      - "độc thoại thành tiếng của Zettour: chúng ta; tiền tuyến; chẳng đáng nhắc tới; hậu phương; Thật đáng lo ngại…"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000333
+    choices:
+      - "trần thuật ngôi thứ ba: Bộ máy hành chính; tiền tuyến; Zettour; mọi thành viên trong tổ chức"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000334
+    choices:
+      - "thuật ngữ nhận thức và đại từ khái quát: sự khác biệt về ý thức hoặc độ vênh trong nhận thức; các rào cản văn hóa; những mô thức tư duy cũ; bạn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000335
+    choices:
+      - "độc thoại thành tiếng của Zettour: Mình; tiền tuyến; mình; mọi chuyện không thể cứ tiếp diễn thế này được"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000336
+    choices:
+      - "trần thuật ngôi thứ ba và câu hỏi nội tâm: Tiền tuyến; hậu phương; Ông; sự miễn cưỡng của Cụm B; họ; Ildoa; tình hình chẳng còn là trò đùa nữa"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000337
+    choices:
+      - "trần thuật ngôi thứ ba và tên riêng: ông; Đại tá Calandro; Đế quốc; những nỗ lực làm trung gian hòa giải của Ildoa"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000338
+    choices:
+      - "trần thuật ngôi thứ ba và phủ định: Zettour; tiền tuyến; chẳng một ai nắm bắt được trọn vẹn những gì đang diễn ra ngoài này"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000339
+    choices:
+      - "tên tổ chức và phân tầng thuật ngữ: Bộ Tư lệnh Tối cao; Bộ Tổng tham mưu; quân đội; chính phủ; những nhà chiến lược; cấp độ chiến lược; nền tảng đại chiến lược lẽ ra phải bao trùm lên nó thì vẫn chưa hề thành hình"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000340
+    choices:
+      - "nhấn mạnh Markdown: *Làm sao cái chuyện ngu xuẩn đến thế lại có thể xảy ra được?* (theo DEC-P01-002)"
+      - "độc thoại thành tiếng và giả định quá khứ: những nguyên tắc chỉ đạo; Trước chiến tranh, hẳn mình đã cười thẳng vào mặt ý nghĩ đó"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000341
+    choices:
+      - "trần thuật ngôi thứ ba: đỉnh cao của sự ngu xuẩn; ông; làm ông phát ốm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000342
+    choices:
+      - "nhấn mạnh Markdown toàn đoạn nội tâm: *Lục quân Đế quốc rất có thể không có đủ các đơn vị tác chiến. Liệu Đế quốc có thực sự đương đầu nổi với cả thế giới trong tình cảnh này không?* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000343
+    choices:
+      - "trần thuật ngôi thứ ba và phủ định: không phải là phận sự của ông"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000344
+    choices:
+      - "độc thoại thành tiếng của Zettour: …Quả thực rất đáng lo ngại"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000345
+    choices:
+      - "tiêu đề thời gian - địa điểm: CÙNG NGÀY HÔM ĐÓ, VĂN PHÒNG BỘ TỔNG THAM MƯU"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000346
+    choices:
+      - "trần thuật ngôi thứ ba và thuật ngữ: việc tắt đèn phòng không triệt để; Văn phòng Bộ Tổng tham mưu; pháo đài không bao giờ ngủ; trái tim hành chính đang đập của Đế quốc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000347
+    choices:
+      - "trần thuật ngôi thứ ba và quân hàm: Trung tướng von Rudersdorf; tiếng chuông điện thoại inh ỏi đánh thức khỏi giấc ngủ gà ngủ gật"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000348
+    choices:
+      - "xưng hô thoại Uger -> Rudersdorf: Thưa Tướng von Rudersdorf; tôi; Trung tá Uger; ngài; báo cáo ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000349
+    choices:
+      - "thoại của Rudersdorf và trần thuật: Cảm ơn. Có chuyện gì thế?; Ông; giấc ngủ chập chờn của mình"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000350
+    choices:
+      - "trần thuật và thoại báo cáo của Uger: Rudersdorf; Uger; vị trung tá; cuộc tập kích ban đêm nhằm vào khu công nghiệp vùng trũng ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000351
+    choices:
+      - "trần thuật ngôi thứ ba: Cuộc chiến trên không ở phía tây đang trong khoảng lắng; cả hai phe; cuộc xung đột đầy cay cú; Rudersdorf"
