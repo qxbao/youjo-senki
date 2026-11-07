@@ -1,0 +1,196 @@
+task_id: "vol-09-ch-03-b17-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000662"
+    severity: "minor"
+    category: "terminology_consistency"
+    issue: "Từ chỉ chỉ huy tàu ngầm trong p000662 được dịch là 'hạm trưởng', trong khi ở các lô trước của cùng chương (như ch-03-b14, ch-03-b15) thuật ngữ tương ứng cho chỉ huy tàu ngầm và tàu khu trục được dịch là 'thuyền trưởng'."
+    recommendation: "Cách dịch 'hạm trưởng' hoàn toàn chuẩn xác về mặt thuật ngữ hải quân; ở bước chuốt văn Flash hoặc khi ghép chương, điều phối viên có thể giữ nguyên hoặc đồng bộ với 'thuyền trưởng' tùy theo lựa chọn thống nhất toàn chương."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000671"
+    severity: "minor"
+    category: "pronouns"
+    issue: "Đại từ trần thuật ngôi thứ ba quy chiếu Tanya trong lô ch-03-b17 (tại p000671, p000674, p000687) tiếp tục dùng 'nó' theo DEC-P01-001 (nhất quán với chuỗi lô ch-03-b12 đến ch-03-b16 liền trước), trong khi một số lô đầu của tập 9 dùng 'cô'."
+    recommendation: "Nội bộ lô ch-03-b17 đã phân tách nhất quán giữa trần thuật ('nó') và độc thoại/tự thuật ngôi thứ nhất ('mình' / 'bọn mình' tại p000669, p000671, p000672, p000676, p000677, p000679, p000681, p000685); ở bước chuốt văn hoặc ghép chương có thể giữ nguyên theo DEC-P01-001 hoặc đồng bộ thành 'cô' nếu muốn thống nhất toàn chương 3."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000675"
+    severity: "minor"
+    category: "style_redundancy"
+    issue: "Cụm mở đầu 'Điều gây hoang mang nhất hơn cả là' kết hợp cả hai dấu hiệu so sánh bậc nhất ('nhất' và 'hơn cả') liền nhau khiến câu hơi thừa từ."
+    recommendation: "Ở bước chuốt văn Flash, có thể tinh giản thành 'Điều gây hoang mang hơn cả là' hoặc 'Điều gây hoang mang nhất là' để câu văn tự nhiên hơn."
+pending_term_recommendations:
+  - source_term: "dry-dock crews / special modifications / attachments"
+    proposed_vi: "các đội thợ ụ khô / cải hoán đặc biệt / thiết bị phụ trợ (bộ phận phụ trợ)"
+    rationale: "Sử dụng thuật ngữ đóng và sửa chữa tàu hải quân chính xác ('ụ khô', 'cải hoán đặc biệt', 'thiết bị/bộ phận phụ trợ') phù hợp với ngữ cảnh lắp đặt hệ thống mang phóng ngư lôi lên tàu ngầm."
+    alternatives_vi:
+      - "các đội công nhân ụ khô / cải tạo đặc biệt / thiết bị gắn ngoài"
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000661"
+      - "YS-LN09/Text/chapter010.xhtml/p000664"
+      - "YS-LN09/Text/chapter010.xhtml/p000667"
+  - source_term: "mother ship submarine / V-2"
+    proposed_vi: "tàu ngầm mẹ / V-2"
+    rationale: "Kế thừa nhất quán các thuật ngữ 'tàu ngầm mẹ' và 'V-2' đã dùng ở các lô trước của chương 3."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000664"
+  - source_term: "aerial mages / aerial mage"
+    proposed_vi: "các pháp sư trên không / pháp sư trên không"
+    rationale: "Kế thừa nhất quán thuật ngữ 'pháp sư trên không' trong sổ thuật ngữ tạm của dự án."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000665"
+      - "YS-LN09/Text/chapter010.xhtml/p000673"
+  - source_term: "Chief Engineer Schugel / Technical Arsenal"
+    proposed_vi: "Kỹ sư trưởng Schugel / Xưởng Kỹ thuật"
+    rationale: "Kế thừa nhất quán chức danh 'Kỹ sư trưởng Schugel' (từ tập 1) và tên cơ quan 'Xưởng Kỹ thuật' (từ lô ch-03-b12 đến ch-03-b16)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000665"
+      - "YS-LN09/Text/chapter010.xhtml/p000667"
+  - source_term: "Commonwealth Jabos / Commonwealth fleet"
+    proposed_vi: "những chiếc Jabo của Khối Thịnh vượng chung / hạm đội của Khối Thịnh vượng chung"
+    rationale: "Giữ nguyên thuật ngữ quân sự Jabo (tiêm kích – bom) và tên riêng 'Khối Thịnh vượng chung' nhất quán toàn dự án."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000669"
+      - "YS-LN09/Text/chapter010.xhtml/p000681"
+  - source_term: "knots"
+    proposed_vi: "hải lý mỗi giờ"
+    rationale: "Dịch rõ đơn vị vận tốc hàng hải giúp người đọc dễ đối chiếu với vận tốc bay của pháp sư trên không ở câu sau."
+    alternatives_vi:
+      - "nút"
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000673"
+  - source_term: "Commies / the east / eastern front / Inner Sea"
+    proposed_vi: "lũ Cộng sản / miền đông / mặt trận phía đông / Nội hải"
+    rationale: "Kế thừa nhất quán cách gọi khẩu ngữ 'lũ Cộng sản' trong độc thoại của Tanya và các địa danh chiến trường từ các lô trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000678"
+      - "YS-LN09/Text/chapter010.xhtml/p000680"
+  - source_term: "search and destroy submarine missions / search and destroy"
+    proposed_vi: "các nhiệm vụ tàu ngầm tìm và diệt / tìm và diệt"
+    rationale: "Sử dụng thuật ngữ quân sự quen thuộc 'tìm và diệt' cho loại hình nhiệm vụ truy lùng và tiêu diệt hạm đội địch."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000680"
+      - "YS-LN09/Text/chapter010.xhtml/p000685"
+  - source_term: "Aals"
+    proposed_vi: "*Aal*"
+    rationale: "Giữ nguyên chữ nghiêng '*Aal*' (tiếng lóng của Đức chỉ ngư lôi, nghĩa đen là con lươn) theo DEC-P01-002 và nhất quán với ch-03-b12."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000681"
+  - source_term: "Imperial Japanese Navy / fleet subs / submariners / interdiction strategy"
+    proposed_vi: "Hải quân Đế quốc Nhật Bản / tàu ngầm hạm đội / lính tàu ngầm / chiến lược đánh chặn"
+    rationale: "Diễn đạt chính xác các thuật ngữ lịch sử hải quân Nhật Bản (tàu ngầm hạm đội *Kaidai*/*Junsen* và học thuyết đón lõng tiêu hao hạm đội đối phương)."
+    alternatives_vi:
+      - "Hải quân Đế quốc Nhật Bản / tàu ngầm hạm đội / thủy thủ tàu ngầm / chiến lược ngăn chặn"
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000682"
+      - "YS-LN09/Text/chapter010.xhtml/p000684"
+  - source_term: "aerial and armored divisions / General Staff Office / General Staff / mobile strike force"
+    proposed_vi: "các sư đoàn không quân và thiết giáp / Văn phòng Bộ Tổng tham mưu / Bộ Tổng tham mưu / lực lượng xung kích cơ động"
+    rationale: "Kế thừa nhất quán tên cơ quan 'Văn phòng Bộ Tổng tham mưu' / 'Bộ Tổng tham mưu' và các thuật ngữ biên chế lục quân – không quân."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000683"
+      - "YS-LN09/Text/chapter010.xhtml/p000685"
+  - source_term: "staff officers / land war / sea power / land power"
+    proposed_vi: "các sĩ quan tham mưu / tác chiến trên bộ / sức mạnh hải quân / sức mạnh lục quân"
+    rationale: "Dịch chuẩn xác cặp khái niệm lý luận chiến lược 'sức mạnh hải quân' – 'sức mạnh lục quân' và thuật ngữ 'tác chiến trên bộ'."
+    alternatives_vi:
+      - "các sĩ quan tham mưu / chiến tranh trên bộ / cường quyền trên biển / cường quyền trên bộ"
+    segment_ids:
+      - "YS-LN09/Text/chapter010.xhtml/p000686"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000660"
+    choices:
+      - "Trần thuật & ngoặc kép: giữ đại từ 'họ', cụm 'những mệnh lệnh kỳ lạ từ cấp trên' và dấu ngoặc kép quanh từ '“sửa chữa”'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000661"
+    choices:
+      - "Trần thuật & thuật ngữ kỹ thuật tàu ngầm: giữ 'thiết bị phụ trợ khổng lồ, đầy bí ẩn', lý do phản đối 'làm ảnh hưởng đến tốc độ lặn dưới nước', chủ thể 'các đội thợ ụ khô' và cụm trong ngoặc kép '“cải hoán đặc biệt”'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000662"
+    choices:
+      - "Quan hệ nhượng bộ & ngoặc kép: giữ sự đối lập giữa thái độ phản đối kịch liệt của các chỉ huy tàu với việc 'các đơn vị tàu ngầm, trong một động thái hiếm hoi, đã bị buộc phải răm rắp tuân theo mà không nhận được bất kỳ lời giải thích nào ngoài lý do duy nhất rằng đó là “mệnh lệnh”'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000663"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ bọc câu cảm thán '*Cái quái gì thế này?*' bằng dấu sao theo DEC-P01-002."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000664"
+    choices:
+      - "Thuật ngữ & nhấn mạnh Markdown: giữ 'những hành khách đi nhờ và thủy thủ đoàn trên chiếc tàu ngầm mẹ', mục đích 'phục vụ cho thứ vũ khí mới', 'mang theo V-2', chỉ bọc '*Mấy gã này mất trí cả rồi*' bằng dấu sao theo DEC-P01-002 và không thêm nhấn mạnh tại vị trí thẻ neo trang page-152."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000665"
+    choices:
+      - "Trần thuật tăng tiến & thuật ngữ: giữ 'Các pháp sư trên không sắp bị nhét vào trong những thứ đó cũng hoàn toàn tán đồng' và 'ngay cả các kỹ sư của Xưởng Kỹ thuật cũng phải bán tín bán nghi'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000666"
+    choices:
+      - "Trần thuật khẳng định duy nhất: giữ 'Người duy nhất tràn trề tự tin chính là nhà phát minh ra nó.'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000667"
+    choices:
+      - "Nhấn mạnh Markdown, chức danh & sắc thái mỉa mai: chỉ bọc '*Các người định làm trò này thật đấy à?*' bằng dấu sao theo DEC-P01-002, giữ 'Kỹ sư trưởng Schugel vẫn dẫn đầu Xưởng Kỹ thuật' và chi tiết tiễn đưa 'với ba tiếng hô vạn tuế, đinh ninh rằng chúng sẽ hoạt động y hệt như thiết kế'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000668"
+    choices:
+      - "Nhấn mạnh Markdown & phủ định: chỉ bọc '*thực sự*' bằng dấu sao theo DEC-P01-002 và giữ ý 'khiến người ta muốn bỏ quách công việc cho xong'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000669"
+    choices:
+      - "Giả định trái thực tế quá khứ, đại từ & nhấn mạnh Markdown: giữ cấu trúc điều kiện quá khứ ('Nếu ngay khoảnh khắc ấy… chắc mình đã… rồi'), thuật ngữ 'những chiếc Jabo của Khối Thịnh vượng chung', đại từ tự quy chiếu 'mình' theo DEC-P01-001 và chỉ bọc '*chúng nó*' bằng dấu sao theo DEC-P01-002."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000670"
+    choices:
+      - "Trần thuật & quan hệ nhân quả: giữ nhận xét 'Giấc mộng tưởng ấy có phần hơi thiên vị quân địch quá mức đối với một người đang đứng trên tàu chiến' và hệ quả cho thấy 'Tanya phải chịu áp lực tinh thần lớn đến nhường nào vào thời điểm xuất phát'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000671"
+    choices:
+      - "Chuyển đổi điểm nhìn ngôi thứ ba – ngôi thứ nhất theo DEC-P01-001: giữ đại từ trần thuật 'Nó' ở vế đầu ('Nó đã bị phân tâm, cứ nhìn đăm đăm đầy ủ dột về phía cầu cảng') và đại từ tự quy chiếu 'mình' ở vế sau ('đến chính mình cũng phải ngạc nhiên không hiểu sao lúc ấy mình lại đãng trí đến thế')."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000672"
+    choices:
+      - "Độc thoại nội tâm: giữ đại từ 'mình' trong 'Ý mình là, tàu ngầm đi chậm thật đấy.'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000673"
+    choices:
+      - "So sánh vận tốc & thuật ngữ: giữ 'chẳng nhanh hơn mười hải lý mỗi giờ là bao', sự tương phản với 'một pháp sư trên không thường xuyên di chuyển ở vận tốc nhiều hơn thế cả một chữ số' và hệ quả 'Phải mất một lúc khá lâu mới ra xa bờ đủ để cảnh vật xung quanh thay đổi'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000674"
+    choices:
+      - "Trần thuật & phủ định: giữ đại từ 'nó' và câu 'Nhưng đó không phải là điều duy nhất làm nó bận tâm.'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000675"
+    choices:
+      - "Trần thuật tình huống: giữ sự đối lập 'dù chiến dịch mới chỉ vừa bắt đầu, mọi thứ lại đang diễn ra đúng theo lịch trình' và chi tiết 'Binh lính hòa vào cùng các nhân sự trực ban để hỗ trợ việc cảnh giới'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000676"
+    choices:
+      - "Thoại độc bạch & dấu câu: giữ dấu chấm lửng mở đầu, đại từ 'Mình' – 'chúng ta' và phủ định 'không nghĩ là chúng ta từng có lần nào đi đúng lịch trình đến mức này đâu'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000677"
+    choices:
+      - "Điểm nhìn ngôi thứ nhất: giữ đại từ 'mình', hành động 'Nở một nụ cười chua chát, mình phóng tầm mắt ra vùng biển rộng' và chi tiết 'ngắm nhìn bọt nước tung trắng xóa trên vệt sóng rẻ quạt phía sau đuôi tàu ngầm'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000678"
+    choices:
+      - "Liên hệ chiến trường cũ & không thêm nhấn mạnh: giữ sắc thái mỉa mai 'những buổi hẹn chơi bất thường với lũ Cộng sản trên vùng đồng bằng mênh mông ở miền đông' và không thêm nhấn mạnh Markdown tại vị trí thẻ neo trang page-153."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000679"
+    choices:
+      - "Thoại độc bạch & ẩn dụ: giữ đại từ 'Chúng ta' – 'mình', phép so sánh 'một hạt cát giữa đại dương xanh thẳm bao la' chuyển sang 'một nhúm cát' vì đi theo đội tàu ngầm, và câu kết 'Biển cả đúng là quá đỗi mênh mông.'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000680"
+    choices:
+      - "So sánh địa bàn & thuật ngữ tác chiến: giữ đối sánh 'Mặt trận phía đông' với 'Nội hải', thuật ngữ 'Các nhiệm vụ tàu ngầm tìm và diệt' và nhận định của Tanya rằng 'ý tưởng đi lùng kiếm kẻ địch bằng tàu ngầm nghe có phần hơi khôi hài'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000681"
+    choices:
+      - "Phủ định, nhấn mạnh Markdown & thuật ngữ: giữ câu phủ định mở đầu 'Không phải là có ai đang chê bai tàu ngầm đâu.', đại từ 'Mình', chỉ bọc '*Aal*' bằng dấu sao theo DEC-P01-002 và giữ nhận định tàu ngầm Đế quốc là 'một mối đe dọa thực thụ đối với hạm đội của Khối Thịnh vượng chung'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000682"
+    choices:
+      - "Liên hệ lịch sử hải quân & quan hệ thời gian: giữ 'gánh vác phần lớn trọng trách tiêu diệt tàu địch', chủ thể 'Hải quân Đế quốc Nhật Bản, vốn bị ám ảnh bởi tàu ngầm hạm đội' và mệnh đề giới hạn thời gian 'không cố ép buộc những kỳ vọng kiểu đó lên đầu các lính tàu ngầm của họ cho đến khi chính họ phải chịu áp lực nặng nề đến mức đầu óc có nổ tung ra cũng chẳng có gì lạ'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000683"
+    choices:
+      - "Phủ định, dấu câu & thuật ngữ: giữ phủ định 'Tàu ngầm không thể được sử dụng giống như các sư đoàn không quân và thiết giáp', dấu chấm lửng sau 'thế nhưng…', cụm 'Văn phòng Bộ Tổng tham mưu vốn mang nặng tư duy bộ binh' và 'lực lượng xung kích cơ động'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000684"
+    choices:
+      - "Phân biệt mục tiêu chiến lược & phủ định: giữ 'Chiến lược đánh chặn của Hải quân Đế quốc Nhật Bản, dù thường bị chỉ trích là giáo điều', sự đối lập 'nhằm làm suy yếu lực lượng hải quân của đối phương chứ không phải tiêu diệt hoàn toàn bất cứ thứ gì' và phủ định 'Họ chưa bao giờ tuyên bố rằng mình sẽ giành lấy quyền kiểm soát tuyệt đối trên mặt biển.'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000685"
+    choices:
+      - "Câu điều kiện & tình thái: giữ 'Bộ Tổng tham mưu', đại từ 'bọn mình', thuật ngữ 'tìm và diệt lực lượng hải quân địch' và câu lửng 'Hoặc có lẽ là không.'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000686"
+    choices:
+      - "Nhận định chuyên môn & câu điều kiện: giữ 'Các sĩ quan tham mưu vốn chuyên môn hóa quá mức vào tác chiến trên bộ', 'những gã lục quân cực kỳ thông minh' và hệ quả khi 'đánh đồng sức mạnh hải quân với sức mạnh lục quân'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000687"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & quan hệ nhượng bộ: chỉ bọc '*Các người bị ngu à?*' bằng dấu sao theo DEC-P01-002, giữ đại từ 'nó' và ý 'dù nói ra điều đó thì thật xấc xược, nhưng nó vẫn không sao tránh khỏi cảm giác bất mãn'."
+  - segment_id: "YS-LN09/Text/chapter010.xhtml/p000688"
+    choices:
+      - "Nhận định kết lô: giữ 'Đất liền và biển cả tuy nối liền với nhau, nhưng lại là hai thế giới hoàn toàn khác biệt.'."
