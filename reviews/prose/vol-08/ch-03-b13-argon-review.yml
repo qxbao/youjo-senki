@@ -1,0 +1,207 @@
+task_id: vol-08-ch-03-b13-argon-review
+parent_task_id: vol-08-ch-03-b13
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-08/ch-03-b13-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000154
+    issue: "Cụm 'common sense' trong độc thoại nội tâm của Tanya được dịch là 'lương tri thông thường', hơi nghiêng sang sắc thái đạo đức so với bình diện đánh giá thực dụng/duy lý trong ngữ cảnh (so sánh với p000167 dịch là 'nhận thức chung')."
+    rationale: "Câu dịch hiện tại vẫn giữ được ý phê phán sự phi lý của việc tự bỏ tiền túi đi đánh trận ở nơi hẻo lánh, không làm sai lệch cốt truyện nên chỉ ghi nhận ở mức minor."
+    recommendation: "Có thể giữ nguyên hoặc cân nhắc chỉnh thành 'lẽ thường' hoặc 'nhận thức thông thường' ở bước chuốt văn để tránh sắc thái đạo đức theo style-guide."
+pending_term_recommendations:
+  - source_term: "adjutant / vice commander"
+    proposed_vi: "sĩ quan phụ tá / phó chỉ huy"
+    category: "chức danh"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000138
+      - YS-LN08/Text/chapter012.xhtml/p000146
+      - YS-LN08/Text/chapter012.xhtml/p000148
+    rationale: "Nhất quán với hệ thống chức danh của Serebryakov và Weiss trong đơn vị của Tanya xuyên suốt các tập."
+    alternatives_vi: []
+  - source_term: "the Rhine"
+    proposed_vi: "mặt trận Rhine"
+    category: "địa danh / chiến trường"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000139
+    rationale: "Khớp với sổ thuật ngữ tạm khi nhắc lại thời kỳ tác chiến ở chiến trường Rhine."
+    alternatives_vi:
+      - "chiến tuyến Rhine"
+  - source_term: "Federation Army / Federation unit / Federation’s mages / Federation troops / Federation aerial mages"
+    proposed_vi: "Quân đội Liên bang / đơn vị của Liên bang / các pháp sư Liên bang / binh lính Liên bang / các pháp sư trên không của Liên bang"
+    category: "tên gọi / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000139
+      - YS-LN08/Text/chapter012.xhtml/p000147
+      - YS-LN08/Text/chapter012.xhtml/p000158
+      - YS-LN08/Text/chapter012.xhtml/p000162
+      - YS-LN08/Text/chapter012.xhtml/p000164
+      - YS-LN08/Text/chapter012.xhtml/p000168
+    rationale: "Đúng chuẩn định danh phe Liên bang và binh chủng pháp sư trên không trong tập 8."
+    alternatives_vi: []
+  - source_term: "Commonwealth / Entente Alliance"
+    proposed_vi: "Khối Thịnh vượng chung / Liên minh Hiệp ước"
+    category: "tên gọi"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000149
+      - YS-LN08/Text/chapter012.xhtml/p000151
+    rationale: "Nhất quán với các lô trước của chương 3 tập 8."
+    alternatives_vi: []
+  - source_term: "voluntary army / remnants of the regular army"
+    proposed_vi: "đội quân tình nguyện / tàn dư của quân chính quy"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000153
+    rationale: "Khớp với thuật ngữ chỉ lực lượng đa quốc gia và tàn quân Liên minh Hiệp ước."
+    alternatives_vi: []
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "địa danh / chiến trường"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000153
+    rationale: "Thống nhất trong toàn tập 8."
+    alternatives_vi: []
+  - source_term: "Imperial Army / the Empire"
+    proposed_vi: "Lục quân Đế quốc / Đế quốc"
+    category: "tên gọi"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000160
+      - YS-LN08/Text/chapter012.xhtml/p000162
+      - YS-LN08/Text/chapter012.xhtml/p000164
+    rationale: "Thống nhất với sổ pending của tập 8."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000138
+    choices:
+      - "trần thuật ngôi thứ ba: viên sĩ quan phụ tá táo bạo của cô; họ"
+      - "thoại Serebryakov -> Tanya và Weiss: họ (chỉ các pháp sư Liên bang); hay sao ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000139
+    choices:
+      - "chuyển điểm nhìn đan xen: trần thuật (Serebryakov, Tanya) và độc thoại nội tâm ngôi thứ nhất (mình, cô nàng)"
+      - "xưng hô thoại Tanya -> Weiss và Serebryakov: Này hai người; Chúng ta"
+      - "thuật ngữ và địa danh: mặt trận Rhine; Quân đội Liên bang"
+      - "phủ định kép và nhấn mạnh logic: không một ai ngoại lệ; chẳng có gì đảm bảo chuyện đó sẽ không xảy ra ngay lúc này đâu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000140
+    choices:
+      - "trần thuật và nội tâm số nhiều: Cả ba sĩ quan; chúng tôi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000141
+    choices:
+      - "xưng hô thoại Tanya -> Weiss: Tôi; anh; chúng (chỉ pháp sư địch)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000142
+    choices:
+      - "xưng hô thoại Weiss -> Tanya: Tôi; ngài; chúng ta; chúng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000143
+    choices:
+      - "thuật ngữ: mẫu quả cầu mới"
+      - "xưng hô thoại Tanya: chúng ta"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000144
+    choices:
+      - "quân hàm và xưng hô thoại Weiss -> Tanya: Trung tá; ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000145
+    choices:
+      - "trần thuật ngôi thứ ba: Tanya; một số kẻ địch"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000146
+    choices:
+      - "trần thuật ngôi thứ ba: cô; của mình; chúng"
+      - "chức danh: viên phó chỉ huy; sĩ quan phụ tá"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000147
+    choices:
+      - "thuật ngữ: Tín hiệu; thư viện dữ liệu; đơn vị của Liên bang"
+      - "đại từ chỉ địch trong thoại: chúng; đám đó; Chúng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000148
+    choices:
+      - "trần thuật ngôi thứ ba: viên phó chỉ huy; anh; cả Weiss lẫn Tanya; Serebryakov; hai người; viên sĩ quan phụ tá"
+      - "phủ định hai chủ thể: cả Weiss lẫn Tanya đều chẳng thể sánh kịp"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000149
+    choices:
+      - "xưng hô thoại Serebryakov -> Tanya: Tôi; ạ; họ"
+      - "thuật ngữ: Khối Thịnh vượng chung; chặn thu tín hiệu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000150
+    choices:
+      - "xưng hô thoại Tanya -> Serebryakov: Cô"
+      - "trần thuật ngôi thứ ba: Tanya; cô nàng (phân biệt Serebryakov với Tanya)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000151
+    choices:
+      - "trần thuật ngôi thứ ba: cô nàng"
+      - "thuật ngữ và tên gọi: ngôn ngữ chính thức của Khối Thịnh vượng chung và Liên minh Hiệp ước; ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000152
+    choices:
+      - "nhấn mạnh Markdown: *Ààà.* (theo DEC-P01-002)"
+      - "trần thuật ngôi thứ ba: Tanya; Cô"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000153
+    choices:
+      - "xưng hô thoại Tanya: tôi; chúng"
+      - "thuật ngữ: Đội quân tình nguyện; tàn dư của quân chính quy; mặt trận phía đông"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000154
+    choices:
+      - "độc thoại nội tâm: người ta (ngôi thứ hai khái quát); chúng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000155
+    choices:
+      - "ẩn dụ lao động của Tanya: làm thêm giờ không lương cho cả thể xác lẫn tinh thần"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000156
+    choices:
+      - "xưng hô thoại Tanya -> đơn vị: chúng ta; rút lui theo từng tốp"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000157
+    choices:
+      - "trần thuật ngôi thứ ba: Tanya; kẻ địch"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000158
+    choices:
+      - "điểm nhìn nội tâm số nhiều: chúng tôi"
+      - "thuật ngữ và đại từ: thế gườm nhau; kẻ địch; chúng; phía Liên bang nghiệp dư"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000159
+    choices:
+      - "trần thuật ngôi thứ ba: Tanya; căn phòng nửa ngầm dưới đất"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000160
+    choices:
+      - "trần thuật ngôi thứ ba: họ; Lục quân Đế quốc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000161
+    choices:
+      - "điểm nhìn nội tâm ngôi thứ nhất: mình (theo DEC-P01-001)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000162
+    choices:
+      - "thuật ngữ: Sự cải thiện về chất lượng; các pháp sư Liên bang; Lục quân Đế quốc; Đế quốc; lĩnh vực pháp sư trên không"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000163
+    choices:
+      - "trần thuật ngôi thứ ba: Tanya"
+      - "phủ định trong thoại: chẳng có gì đảm bảo"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000164
+    choices:
+      - "điểm nhìn nội tâm ngôi thứ nhất: mình"
+      - "thuật ngữ: Lục quân Đế quốc; học thuyết; binh lính Liên bang"
+      - "quan hệ phủ định nhân quả: Chỉ vì ... không có nghĩa là ..."
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000165
+    choices:
+      - "thuật ngữ và tình thái suy đoán: Cấp trên; có lẽ sẽ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000166
+    choices:
+      - "điểm nhìn nội tâm ngôi thứ nhất: mình; họ (chỉ cấp trên)"
+      - "nhấn mạnh Markdown: *cảm nhận* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000167
+    choices:
+      - "trần thuật ngôi thứ ba: Báo cáo của Tanya; nhận thức chung đang thịnh hành"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000168
+    choices:
+      - "chuyển điểm nhìn đan xen: nội tâm (mình) và trần thuật (đích thân Tanya, cô)"
+      - "thuật ngữ: các pháp sư trên không của Liên bang"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000169
+    choices:
+      - "thoại độc thoại của Tanya: Gừ, biết giải thích thế nào cho xuôi đây?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000170
+    choices:
+      - "đại từ ngôi thứ hai khái quát trong nội tâm: Bạn; của mình"
+      - "thuật ngữ: bản báo cáo thực tế"
