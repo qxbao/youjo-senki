@@ -1,0 +1,194 @@
+task_id: vol-09-ch-05-b02-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000037
+    related_segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000038
+    severity: minor
+    category: terminology
+    issue: "Thuật ngữ 'U-boat' ở p000037 ('U-boat bunkers') và p000038 ('U-boat') đang được dịch kèm từ giải thích là 'tàu ngầm U-boat' ('boong-ke tàu ngầm U-boat', 'bằng tàu ngầm U-boat'), vừa thêm yếu tố giải thích ngoài nguồn vừa gây lặp từ với 'submarine' ('tàu ngầm') ở câu thứ hai của p000038."
+    evidence: "Trong work/run-state/pending-terms-index.yml của vol-09, 'U-boat' có phương án tạm là 'U-boat'; theo canon/style-guide.md, không tự thêm giải thích ngoài văn bản nguồn."
+    recommendation: "Đổi thành 'boong-ke U-boat' ở p000037 và 'bằng U-boat' (hoặc 'bằng chiếc U-boat') ở p000038 để giữ phân biệt bề mặt từ vựng với 'tàu ngầm' ('submarine') ở câu sau."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000041
+    related_segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000044
+    severity: minor
+    category: style_register
+    issue: "Danh ngữ chỉ phái đoàn đón tiếp ở p000041 và 'the Ildoan military personnel' ở p000044 đang dùng từ chỉ loại 'đám' ('đám người mà mình đoán là phái đoàn đón tiếp bên quân đội', 'đám quân nhân Ildoa'), thêm sắc thái miệt thị vào chủ thể trong khi danh ngữ gốc mang sắc thái trung tính."
+    evidence: "Theo canon/style-guide.md, không thêm sắc thái phán xét hoặc miệt thị không có trong nguồn; ở p000044 sắc thái tiêu cực nằm ở cụm 'rude stares' ('những ánh nhìn khiếm nhã') chứ không nằm ở danh ngữ chỉ nhân sự quân đội Ildoa."
+    recommendation: "Đổi 'đám người mà mình đoán là phái đoàn đón tiếp bên quân đội' ở p000041 thành 'những người mà mình đoán là phái đoàn đón tiếp bên quân đội' và đổi 'đám quân nhân Ildoa' ở p000044 thành 'các quân nhân Ildoa'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000051
+    related_segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000054
+      - YS-LN09/Text/chapter018.xhtml/p000064
+    severity: minor
+    category: meaning_nuance
+    issue: "Cụm 'sense of incongruity' ở p000051 đang được dịch là 'cảm giác lạc lõng', làm lệch nghĩa sang tâm trạng cô đơn/xa lạ thay vì trực giác nhận thấy sự bất thường/sai khác của ngoại cảnh (vốn được giải mã ở p000054–p000064 là do đoàn tàu chạy quá êm và bình nước thủy tinh hầu như không rung lắc)."
+    evidence: "Theo canon/style-guide.md, cần giữ đúng nghĩa và quan hệ nhân quả trong mạch suy luận của Tanya từ p000051 qua câu hỏi ở p000054 đến nhận xét về 'discrepancies' ('sự chênh lệch') ở p000064."
+    recommendation: "Đổi 'một cảm giác lạc lõng khó tả' thành 'một cảm giác bất thường khó tả' hoặc 'một cảm giác sai khác khó tả'."
+pending_term_recommendations:
+  - source_term: "military black boxes"
+    proposed_vi: "những hộp đen quân sự"
+    category: "thuật ngữ"
+    status: proposed
+    uncertainty: low
+    rationale: "Dịch sát ẩn dụ chỉ các quân cảng Đế quốc được bảo mật kín kẽ tuyệt đối."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000034
+  - source_term: "U-boat bunkers / U-boat / submarine"
+    proposed_vi: "boong-ke U-boat / U-boat / tàu ngầm"
+    category: "thuật ngữ hải quân"
+    status: proposed
+    uncertainty: low
+    rationale: "Kế thừa phương án tạm 'U-boat' trong work/run-state/pending-terms-index.yml của vol-09 và phân biệt rõ với 'submarine' ('tàu ngầm')."
+    alternatives_vi:
+      - "boong-ke tàu ngầm U-boat / chiếc U-boat / tàu ngầm"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000037
+      - YS-LN09/Text/chapter018.xhtml/p000038
+  - source_term: "Colonel Calandro"
+    proposed_vi: "Đại tá Calandro"
+    category: "tên gọi / quân hàm"
+    status: proposed
+    uncertainty: low
+    rationale: "Nhất quán với phương án tạm 'Đại tá Calandro của Ildoa / Calandro' đã có trong work/run-state/pending-terms-index.yml của vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000046
+      - YS-LN09/Text/chapter018.xhtml/p000053
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    category: "tên đơn vị"
+    status: proposed
+    uncertainty: low
+    rationale: "Nhất quán với phương án tạm xuyên suốt các tập trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000047
+  - source_term: "THE SAME DAY, AFTERNOON, THE CROSS-ILDOA RAILWAY, THE DINING CAR"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, BUỔI CHIỀU, TUYẾN ĐƯỜNG SẮT XUYÊN ILDOA, TOA ĂN"
+    category: "tiêu đề cảnh / địa danh"
+    status: proposed
+    uncertainty: low
+    rationale: "Kết hợp nhất quán mẫu 'CÙNG NGÀY HÔM ĐÓ, BUỔI CHIỀU' trong ledger với cách dịch sát nghĩa tên tuyến đường sắt và toa ăn."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000049
+  - source_term: "Lieutenant Colonel Uger / Railroad Department"
+    proposed_vi: "Trung tá Uger / Cục Đường sắt"
+    category: "tên gọi / quân hàm / tên cơ quan"
+    status: proposed
+    uncertainty: low
+    rationale: "Kế thừa chính xác quân hàm hiện tại của Uger ('Trung tá Uger') và tên cơ quan ('Cục Đường sắt') trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000064
+locked_choices:
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000034
+    choices:
+      - "Khóa đại từ nội tâm của Tanya là 'mình'."
+      - "Khóa ẩn dụ 'những hộp đen quân sự' (military black boxes) và tên gọi 'Đế quốc' (imperial)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000035
+    choices:
+      - "Khóa nhấn mạnh Markdown '*thanh bình*' tương ứng với thẻ em trong nguồn."
+      - "Khóa đối chiếu giữa 'Ildoa' và 'Đế quốc' (the Empire)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000036
+    choices:
+      - "Khóa câu hỏi phỏng đoán mở đầu 'Có lẽ là vì thế chăng?' và đại từ nội tâm 'Mình' / 'mình'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000037
+    choices:
+      - "Khóa cấu trúc phủ định toàn phần và thuật ngữ 'boong-ke U-boat bằng bê tông' (sau khi bỏ từ giải thích 'tàu ngầm')."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000038
+    choices:
+      - "Khóa sự phân biệt từ vựng giữa 'U-boat' ở câu đầu và 'tàu ngầm' (submarine) ở câu sau, cùng các thuật ngữ 'boong-ke' (bunker), 'cầu tàu' (pier)."
+      - "Khóa đại từ nội tâm 'chúng ta' (ngôi thứ nhất số nhiều) và 'mình' (ngôi thứ nhất số ít)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000039
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và chi tiết cảm xúc bực bội vô cớ khi nhìn bầu trời xanh thẫm của Ildoa."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000040
+    choices:
+      - "Khóa cụm 'máy bay tiêm kích do Khối Thịnh vượng chung chế tạo' (Commonwealth-made fighter plane) và sắc thái phỏng đoán 'Chắc hẳn là vì...'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000041
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và chi tiết 'những bộ quân phục hồ phẳng phiu' (crisply starched uniforms); dùng danh ngữ trung tính 'những người mà mình đoán là phái đoàn đón tiếp bên quân đội'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000042
+    choices:
+      - "Khóa cụm 'phía Đế quốc' (the imperial side) và 'học viện' (the academy)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000043
+    choices:
+      - "Khóa định danh 'Elm', cụm 'các sĩ quan cấp cao đến thăm xã giao' (high-ranking officers who came for a courtesy visit) và đại từ nội tâm 'mình'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000044
+    choices:
+      - "Khóa đại từ nội tâm 'mình', danh ngữ trung tính 'các quân nhân Ildoa' (the Ildoan military personnel) và cụm 'những ánh nhìn khiếm nhã đầy kinh ngạc' (rude stares filled with surprise)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000045
+    choices:
+      - "Khóa hai câu hỏi nội tâm liên tiếp và đại từ 'Mình'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000046
+    choices:
+      - "Khóa đại từ nội tâm 'mình', cụm 'nhân viên đại sứ quán' (embassy personnel), quân hàm và tên 'Đại tá Calandro' (Colonel Calandro), cùng sắc thái tình thái 'có lẽ' (perhaps) và 'chắc chắn' (definitely)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000047
+    choices:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba với các định danh 'Tanya', 'Tiểu đoàn Pháp sư Trên không số 203' (203rd Aerial Mage Battalion), 'Elm' và 'các lính tàu ngầm' (submariners)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000048
+    choices:
+      - "Khóa giọng giễu nhại quảng cáo du lịch với đại từ ngôi thứ hai phiếm chỉ 'bạn' (your), đại từ ngôi thứ nhất số nhiều 'chúng ta' (our) và tên cơ quan 'Bộ Tổng tham mưu' (General Staff)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000049
+    choices:
+      - "Khóa nguyên văn dòng tiêu đề cảnh viết hoa: 'CÙNG NGÀY HÔM ĐÓ, BUỔI CHIỀU, TUYẾN ĐƯỜNG SẮT XUYÊN ILDOA, TOA ĂN'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000050
+    choices:
+      - "Khóa nhấn mạnh Markdown toàn bộ câu tượng thanh '*Xình xịch, xình xịch. Xình xịch, xình xịch.*' theo đúng thẻ em trong nguồn."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000051
+    choices:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('Tanya') và sắc thái cảm nhận sự bất thường/sai khác khó tả ('một cảm giác bất thường khó tả' / 'một cảm giác sai khác khó tả') kể từ lúc rời ga."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000052
+    choices:
+      - "Khóa đại từ trần thuật ngôi thứ ba của Tanya là 'Cô' và từ 'toa ăn' (dining car) đồng nhất với p000049."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000053
+    choices:
+      - "Khóa định danh 'Đại tá Calandro' và sự chuyển dịch điểm nhìn sang ngôi thứ nhất tại cụm 'các cấp dưới của mình' (my subordinates)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000054
+    choices:
+      - "Khóa câu hỏi nội tâm ngắn giữ nguyên độ mở về 'cảm giác kỳ lạ'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000055
+    choices:
+      - "Khóa cặp thuật ngữ 'tiền tuyến' (front lines) và 'hậu phương' (the rear) cùng sắc thái phỏng đoán dè dặt 'Có lẽ... —đại loại như vậy chăng?'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000056
+    choices:
+      - "Khóa đại từ nội tâm 'Mình' / 'mình' và chi tiết 'bình nước trên bàn' (the carafe of water on the table)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000057
+    choices:
+      - "Khóa câu hỏi đặt trong dấu ngoặc kép về việc chiếc bình nước làm bằng thủy tinh."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000058
+    choices:
+      - "Khóa phủ định 'chẳng hề được cố định chắc chắn' (not securely stowed) và câu giả định 'Nếu cứ để nguyên như vậy mà toa tàu rung lắc thì nó sẽ vỡ mất'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000059
+    choices:
+      - "Khóa nhấn mạnh Markdown '*xình xịch, xình xịch*' (đồng nhất với p000050) và mức độ 'chao đảo nhẹ đến mức gần như không nhận ra' (wobbled almost imperceptibly)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000060
+    choices:
+      - "Khóa lời cảm thán ngắn trong ngoặc kép '“Ồ, ra vậy.”'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000061
+    choices:
+      - "Khóa nhận định nội tâm về nguyên nhân thực sự khá đơn giản sau khi đã nhận ra."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000062
+    choices:
+      - "Khóa câu cảm thán bỏ lửng trong ngoặc kép '“…Chà, chuyện này đúng là…”'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000063
+    choices:
+      - "Khóa hai câu nhận xét ngắn gọn làm rõ lý do: đoàn tàu quá êm ả và độ rung lắc rất nhẹ."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000064
+    choices:
+      - "Khóa cấu trúc giả định trái thực tế ở hiện tại 'Nếu Trung tá Uger bên Cục Đường sắt có mặt ở đây, hẳn anh ta sẽ giảng giải tường tận...'."
+      - "Khóa quân hàm và tên 'Trung tá Uger' (Lieutenant Colonel Uger), tên cơ quan 'Cục Đường sắt' (Railroad Department), đại từ 'anh ta' và cách tự quy chiếu ngôi thứ ba 'một kẻ ngoại đạo như Tanya'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000065
+    choices:
+      - "Khóa đại từ nội tâm 'mình', các định danh 'Người Ildoa' (The Ildoans), 'Lục quân Đế quốc' (Imperial Army) và 'mặt trận phía đông' (eastern front)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000066
+    choices:
+      - "Khóa đại từ nội tâm 'mình', ẩn dụ 'những hiện thân di động của hòa bình' (rolling embodiments of peace) và chi tiết đường ray chạy thẳng tắp không chút cong vênh."
