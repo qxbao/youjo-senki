@@ -1,0 +1,299 @@
+task_id: "vol-07-ch-04-b12-argon-review"
+parent_task_id: "vol-07-ch-04-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b12-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b12.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b12-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 2
+  minor: 1
+findings:
+  - severity: "moderate"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000300"
+    issue: "Đại từ nhân xưng ở câu cuối dịch thành 'Cả anh lẫn Rudersdorf' làm lệch chủ thể quy chiếu sang Trung tá Uger ('anh'), trong khi xét theo mạch điểm nhìn của Zettour và cặp bài trùng tại Bộ Tổng tham mưu thì chủ thể cùng Rudersdorf sắp sửa nhìn xa xăm vì ngán ngẩm trước bài toán cân bằng giữa quyết đoán và thận trọng chính là Zettour ('ông'). Ngoài ra, cụm 'phóng ánh mắt thất thần' hơi nặng nề so với sắc thái đưa mắt nhìn xa xăm đầy ngẫm ngợi."
+    evidence: "Mệnh đề đầu câu cuối đặt nhân vật trong thế song hành với Rudersdorf trước khi chuyển sang mệnh đề đối lập nêu đích danh Zettour mỉm cười nhạt; trong toàn cảnh, Zettour được quy chiếu bằng đại từ 'ông' còn Uger là 'anh'."
+    recommendation: "Đổi 'Cả anh lẫn Rudersdorf trông đều như sắp sửa phóng ánh mắt thất thần nhìn vào khoảng không xa xăm' thành 'Cả ông lẫn Rudersdorf trông đều như sắp sửa đưa ánh mắt trống rỗng nhìn vào khoảng không xa xăm' (hoặc 'đưa mắt nhìn xa xăm')."
+  - severity: "moderate"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000312"
+    issue: "Từ 'ngụy trang' ở cả hai vế ('bày trò ngụy trang, vả lại ngụy trang cũng là phạm quy') dễ gây hiểu lầm thành hoạt động ngụy trang quân sự trên chiến trường (vốn không hề phạm quy), trong khi văn cảnh đang nối tiếp ý định bông đùa của Tanya ở p000310 là mạo danh/đóng giả Đại tá von Lergen để từ chối yêu cầu."
+    evidence: "Ở p000310, Tanya nửa đùa nửa thật rằng muốn lấy danh nghĩa Đại tá von Lergen để trả lời khước từ; p000312 giải thích lý do nó bỏ qua ý định đó vì không có thời gian, sức lực để đóng giả/mạo danh và hành vi ấy vi phạm quy tắc."
+    recommendation: "Đổi hai từ 'ngụy trang' thành 'giả dạng' (hoặc 'mạo danh'): 'Dẫu vậy, nó chẳng có thời gian hay sức lực đâu mà bày trò giả dạng, vả lại giả dạng cũng là phạm quy.'"
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000302"
+    issue: "Thán từ '“Hả?”' của Trung tá Uger khi đáp lại Trung tướng von Zettour nghe hơi suồng sã so với thái độ lễ phép, chuẩn mực của Uger đối với cấp trên ở p000298 và p000300."
+    evidence: "Nguyên bản là thán từ ngắn biểu thị sự ngạc nhiên của cấp dưới khi chưa bắt kịp ý của vị tướng cấp trên."
+    recommendation: "Đổi '“Hả?”' thành '“Dạ?”' (hoặc '“Sao cơ ạ?”')."
+pending_term_recommendations:
+  - source_term: "Imperial Army / Federation forces / encirclement / annihilation"
+    proposed_vi: "Lục quân Đế quốc / quân Liên bang (đám quân Liên bang) / vòng vây / đòn tiêu diệt hoàn toàn"
+    category: "thuật ngữ quân sự / tổ chức"
+    status: "pending"
+    rationale: "Giữ thống nhất tên gọi hai quân đội và các thuật ngữ tác chiến bao vây tiêu diệt theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000287"
+      - "YS-LN07/Text/chapter016.xhtml/p000290"
+      - "YS-LN07/Text/chapter016.xhtml/p000293"
+      - "YS-LN07/Text/chapter016.xhtml/p000316"
+  - source_term: "officer academy"
+    proposed_vi: "học viện sĩ quan"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Cách dịch trực tiếp, chuẩn xác cho cơ sở đào tạo sĩ quan được Zettour nhắc tới."
+    alternatives_vi:
+      - "trường sĩ quan"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000289"
+  - source_term: "decapitation tactics / enemy headquarters / enemy HQ / chain of command"
+    proposed_vi: "chiến thuật chặt đầu chỉ huy / sở chỉ huy địch / hệ thống chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kế thừa thống nhất 'chiến thuật chặt đầu chỉ huy', 'sở chỉ huy địch' và 'hệ thống chỉ huy' từ các tập trước và các lô trước của chương 4 tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000293"
+      - "YS-LN07/Text/chapter016.xhtml/p000294"
+      - "YS-LN07/Text/chapter016.xhtml/p000299"
+      - "YS-LN07/Text/chapter016.xhtml/p000307"
+  - source_term: "aerial mage battalion / air superiority / aerial magic officers"
+    proposed_vi: "tiểu đoàn pháp sư trên không / ưu thế trên không / các sĩ quan ma pháp trên không"
+    category: "thuật ngữ quân sự / binh chủng"
+    status: "pending"
+    rationale: "Đồng bộ với hệ thống thuật ngữ tác chiến ma pháp đường không đã khóa xuyên suốt từ tập 1 đến tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000294"
+      - "YS-LN07/Text/chapter016.xhtml/p000296"
+  - source_term: "the Rhine / Dacia / southern continent / eastern front"
+    proposed_vi: "mặt trận Rhine / Dacia / lục địa phía nam / mặt trận phía đông"
+    category: "địa danh / chiến trường"
+    status: "pending"
+    rationale: "Giữ thống nhất tên gọi các chiến trường theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000294"
+      - "YS-LN07/Text/chapter016.xhtml/p000306"
+  - source_term: "Colonel Uger / Uger / staffer / performance evaluation"
+    proposed_vi: "Trung tá Uger / Uger / sĩ quan tham mưu / bản đánh giá năng lực"
+    category: "nhân vật / quân hàm / thuật ngữ"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc thực tế 'Trung tá Uger' khi Zettour gọi tắt trong thoại và thuật ngữ 'đánh giá năng lực' theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000297"
+      - "YS-LN07/Text/chapter016.xhtml/p000300"
+      - "YS-LN07/Text/chapter016.xhtml/p000301"
+      - "YS-LN07/Text/chapter016.xhtml/p000304"
+  - source_term: "Salamander / Salamander Kampfgruppe / Lergen Kampfgruppe"
+    proposed_vi: "Salamander / Kampfgruppe Salamander / Kampfgruppe Lergen"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Kế thừa thống nhất tên gọi chính thức và tên gọi nội bộ của đơn vị theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000299"
+      - "YS-LN07/Text/chapter016.xhtml/p000306"
+      - "YS-LN07/Text/chapter016.xhtml/p000308"
+  - source_term: "regional command / regional army headquarters / eastern army group / Operations / General Staff"
+    proposed_vi: "bộ tư lệnh khu vực / sở chỉ huy đạo quân khu vực / Cụm tập đoàn quân phía Đông / Cục Tác chiến / Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Đồng bộ hệ thống danh xưng chỉ huy cấp khu vực, cụm tập đoàn quân và cơ quan tham mưu theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000300"
+      - "YS-LN07/Text/chapter016.xhtml/p000303"
+      - "YS-LN07/Text/chapter016.xhtml/p000305"
+      - "YS-LN07/Text/chapter016.xhtml/p000315"
+  - source_term: "Colonel von Degurechaff / Colonel von Lergen / General von Zettour / adjutant / ma’am"
+    proposed_vi: "Trung tá von Degurechaff / Đại tá von Lergen / Tướng von Zettour / viên sĩ quan phụ tá / thưa Trung tá"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Giữ chuẩn phân biệt cấp bậc thực tế của Trung tá von Degurechaff và Đại tá von Lergen cũng như cách xưng hô của phụ tá Visha theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000303"
+      - "YS-LN07/Text/chapter016.xhtml/p000307"
+      - "YS-LN07/Text/chapter016.xhtml/p000309"
+      - "YS-LN07/Text/chapter016.xhtml/p000310"
+      - "YS-LN07/Text/chapter016.xhtml/p000314"
+  - source_term: "additional acceleration apparatus"
+    proposed_vi: "khí cụ gia tốc bổ sung"
+    category: "thuật ngữ kỹ thuật quân sự"
+    status: "pending"
+    rationale: "Phương án dịch sát nghĩa, đúng sắc thái tên gọi kỹ thuật chính thức của thiết bị tên lửa đẩy tăng tốc từng xuất hiện ở các tập trước."
+    alternatives_vi:
+      - "thiết bị gia tốc bổ sung"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000317"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000283"
+    choices:
+      - "Nghĩa & ẩn dụ: 'trust' -> 'sự tín nhiệm'; 'rare commodity' -> 'của hiếm'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000284"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng câu nội tâm có thẻ em: '*Đúng là phong cách của mình rồi.*'"
+      - "Đại từ nội tâm tự quy chiếu của Zettour: 'mình'"
+      - "Giữ câu hỏi tự vấn và liên hệ với việc chọn quà tặng ở lô trước: 'Khi chỉ xét riêng chuyện tặng một món quà, điều đó thật khó lòng phủ nhận.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000285"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Dù sao thì…*'"
+      - "Đại từ trần thuật chỉ Zettour: 'Ông'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000286"
+    choices:
+      - "Nhân vật & chuỗi hành động tham mưu: 'Zettour'; 'Suy luận, dự đoán rồi hành động—đó chính là bổn phận của Zettour.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000287"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc'; 'Federation forces' -> 'quân Liên bang'; 'encirclement' -> 'vòng vây'; 'annihilation' -> 'đòn tiêu diệt hoàn toàn'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000288"
+    choices:
+      - "Đại từ chung và giả định: 'nếu người ta thực hiện trót lọt.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000289"
+    choices:
+      - "Thuật ngữ: 'officer academy' -> 'học viện sĩ quan'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng câu có thẻ em: '*Nhưng cảm giác ấy mới dễ chịu làm sao.*'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000290"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở hai mệnh đề nội tâm có thẻ em: '*Dẫu vậy, chẳng điều gì có ý nghĩa cho tới khi nắm chắc trong tay*' và '*Có lẽ chúng ta vẫn chưa thể lơ là cảnh giác được.*'"
+      - "Đại từ nội tâm của Zettour: 'chúng ta'"
+      - "Giữ giả định về nguy cơ địch phá vây: 'Sẽ đặc biệt rắc rối nếu quân địch quyết định tìm cách cưỡng bức chọc thủng vòng vây để mở đường máu thoát thân.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000291"
+    choices:
+      - "Thuật ngữ & đại từ trần thuật: 'enemy command' -> 'bộ chỉ huy địch'; 'ông' (Zettour); 'họ' (phía Đế quốc)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000292"
+    choices:
+      - "Lời quyết định ngắn gọn của Zettour: '“Được rồi, nghiền nát bọn chúng thôi.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000293"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc'; 'decapitation tactics' -> 'chiến thuật chặt đầu chỉ huy'; 'enemy headquarters' -> 'sở chỉ huy địch'; 'chain of command' -> 'hệ thống chỉ huy'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000294"
+    choices:
+      - "Thuật ngữ & địa danh: 'aerial mage battalion' -> 'tiểu đoàn pháp sư trên không'; 'enemy headquarters' -> 'sở chỉ huy địch'; 'on the Rhine' -> 'ở mặt trận Rhine'; 'Dacia' -> 'Dacia'; 'southern continent' -> 'lục địa phía nam'; 'eastern front' -> 'mặt trận phía đông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000295"
+    choices:
+      - "Nhận định ngắn gọn: 'Về cơ bản, đó là một giải pháp tối ưu.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000296"
+    choices:
+      - "Thuật ngữ: 'air superiority' -> 'ưu thế trên không'; 'aerial magic officers' -> 'các sĩ quan ma pháp trên không'; 'veterans' -> 'những cựu binh dày dạn'"
+      - "Cấu trúc nhượng bộ – điều kiện: 'Dẫu đó là một chiến dịch đầy rủi ro... nhưng một khi các điều kiện hội tụ đủ, sức tác động của nó là vô song.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000297"
+    choices:
+      - "Quân hàm & xưng hô của Zettour với Uger: 'Trung tá Uger' - 'tôi' - 'anh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000298"
+    choices:
+      - "Kính ngữ của Uger với Trung tướng Zettour: '“Vâng, thưa Trung tướng, ngài cứ sai bảo ạ.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000299"
+    choices:
+      - "Đơn vị & thuật ngữ: 'Salamander' -> 'Salamander'; 'Lergen Kampfgruppe' -> 'Kampfgruppe Lergen'; 'enemy HQ' -> 'sở chỉ huy địch'"
+      - "Giữ nét ngập ngừng tự sửa lời của Zettour: 'Salamander—à ừm, Kampfgruppe Lergen.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000300"
+    choices:
+      - "Tổ chức: 'regional command' -> 'bộ tư lệnh khu vực'; 'regional army headquarters' -> 'sở chỉ huy đạo quân khu vực'"
+      - "Xưng hô của Uger với Zettour: 'Ngài' - 'Tôi' - 'chúng ta'"
+      - "Cần sửa đại từ ở câu cuối từ 'Cả anh lẫn Rudersdorf' thành 'Cả ông lẫn Rudersdorf' để quy chiếu đúng về Zettour thay vì Uger, và giảm nhẹ 'phóng ánh mắt thất thần' thành 'đưa ánh mắt trống rỗng'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000301"
+    choices:
+      - "Quân hàm & thuật ngữ: 'Colonel Uger' -> 'Trung tá Uger'; 'field officers' -> 'các sĩ quan ngoài chiến trường'"
+      - "Xưng hô của Zettour với Uger: 'Anh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000302"
+    choices:
+      - "Nên chỉnh thán từ ngạc nhiên của Uger từ '“Hả?”' thành '“Dạ?”' (hoặc '“Sao cơ ạ?”') để giữ sự lễ phép với Trung tướng Zettour"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000303"
+    choices:
+      - "Nhân vật, đơn vị & thuật ngữ: 'front lines' -> 'tiền tuyến'; 'Colonel von Degurechaff' -> 'Trung tá von Degurechaff'; 'hunting dog' -> 'chó săn'; 'eastern army group' -> 'Cụm tập đoàn quân phía Đông'"
+      - "Đại từ tự xưng của Zettour: 'Tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000304"
+    choices:
+      - "Nhân vật & thuật ngữ: 'Uger'; 'staffer' -> 'sĩ quan tham mưu'; 'performance evaluation' -> 'bản đánh giá năng lực'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng câu nội tâm có thẻ em: '*Sau này mình sẽ ghi chú thêm vào bản đánh giá năng lực của cậu ta mới được.*'"
+      - "Đại từ trong nội tâm của Zettour: 'mình' - 'cậu ta'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000305"
+    choices:
+      - "Tổ chức: 'Operations' -> 'Cục Tác chiến'"
+      - "Đại từ tự xưng: 'Tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000306"
+    choices:
+      - "Tiêu đề thời gian – địa điểm viết hoa toàn bộ: 'NGÀY 8 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, SỞ CHỈ HUY KAMPFGRUPPE SALAMANDER'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000307"
+    choices:
+      - "Nhân vật & thuật ngữ: 'General von Zettour' -> 'Tướng von Zettour'; 'enemy HQ' -> 'sở chỉ huy địch'"
+      - "Đại từ trong thoại của Tanya: 'ông ấy' (Zettour) - 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000308"
+    choices:
+      - "Đơn vị: 'Lergen Kampfgruppe' -> 'Kampfgruppe Lergen'"
+      - "Giọng thoại lễ phép của phụ tá Visha với Tanya có tiểu từ 'ạ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000309"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng câu có thẻ em: '*Đó là vở kịch dựng lên cho người ngoài xem.*'"
+      - "Nhân vật & chức danh: 'Tanya'; 'adjutant' -> 'viên sĩ quan phụ tá'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000310"
+    choices:
+      - "Nhân vật: 'Colonel von Lergen' -> 'Đại tá von Lergen'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng cụm có thẻ em: '*Không làm được đâu*'"
+      - "Xưng hô và đại từ trong thoại của Tanya: 'Tôi' / 'tôi' - 'ông ấy' (Lergen)"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000311"
+    choices:
+      - "Câu trần thuật ngắn: 'Tanya nửa đùa nửa thật.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000312"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+      - "Cần sửa hai từ 'ngụy trang' thành 'giả dạng' (hoặc 'mạo danh') cho khớp ngữ cảnh đóng giả Đại tá von Lergen ở p000310"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000313"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng câu nội tâm có thẻ em: '*Xem ra mình chẳng còn lựa chọn nào khác rồi…*'"
+      - "Phân biệt chuẩn đại từ của Tanya theo DEC-P01-001: 'mình' (nội tâm) - 'Nó' (trần thuật) - 'tôi' (lời thoại)"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000314"
+    choices:
+      - "Xưng hô của Visha với Tanya: 'Tôi' - 'thưa Trung tá' - 'chúng ta' - 'ạ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000315"
+    choices:
+      - "Tổ chức & ẩn dụ tác chiến: 'General Staff' -> 'Bộ Tổng tham mưu'; 'a quick surgical procedure' -> 'một ca phẫu thuật chớp nhoáng'"
+      - "Xưng hô của Tanya: 'Chúng ta' - 'Tôi'"
+      - "Giữ đúng phủ định: 'nhưng điều đó không có nghĩa là kho dự trữ của chúng đã cạn.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000316"
+    choices:
+      - "Nhân vật & lực lượng: 'Tanya'; 'Federation forces' -> 'đám quân Liên bang'"
+      - "Ẩn dụ: 'cornered rat' -> 'chuột cùng đường'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000317"
+    choices:
+      - "Thuật ngữ kỹ thuật: 'additional acceleration apparatus' -> 'khí cụ gia tốc bổ sung'"
+      - "Đại từ tự xưng: 'tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000318"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+      - "Giả định trái thực tế ở hiện tại: 'Có mấy thứ đó thì chuyện này đã dễ dàng hơn nhiều rồi.'"
+      - "Thành ngữ so sánh: 'struck by a bolt from the blue' -> 'bị sét đánh ngang tai'"
+      - "Không dùng nhấn mạnh Markdown"
