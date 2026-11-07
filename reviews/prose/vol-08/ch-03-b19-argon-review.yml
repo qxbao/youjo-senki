@@ -1,0 +1,199 @@
+task_id: vol-08-ch-03-b19-argon-review
+parent_task_id: vol-08-ch-03-b19
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-08/ch-03-b19-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000366
+    issue: "Thành ngữ biến tấu chỉ lối nói năng hai lời/tráo trở đang được dịch thành 'ba phải lươn lẹo'; trong tiếng Việt, 'ba phải' mang nghĩa ai nói sao cũng gật chứ không phải ăn nói hai lời, tráo trở."
+    rationale: "Từ 'lươn lẹo' ngay sau đó cùng câu tiếp theo đã truyền tải đúng thái độ bất mãn của Rudersdorf trước sự tráo trở của đối phương, không làm lệch mạch nghĩa chung nên chỉ ghi nhận ở mức minor."
+    recommendation: "Ở bước chuốt văn, có thể đổi 'lũ ba phải lươn lẹo' thành 'lũ ăn nói tráo trở, một lưỡi uốn ba tấc' hoặc 'lũ lươn lẹo tráo trở'."
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000376
+    issue: "Tính từ vị ngữ nhận xét về kế hoạch tiếp tế cho Chiến dịch Andromeda đang dịch là 'có phần đáng ngờ', dễ gợi sắc thái nghi ngờ có âm mưu/gian dối hơn là tính khả thi bấp bênh, chưa lấy gì làm chắc chắn."
+    rationale: "Đặt trong câu hỏi xác nhận ngay sau đó về năng lực vận tải đường sắt, người đọc vẫn hiểu Rudersdorf đang băn khoăn về tính khả thi của kế hoạch tiếp tế nên chỉ ghi nhận ở mức minor."
+    recommendation: "Ở bước chuốt văn, cân nhắc đổi 'có phần đáng ngờ' thành 'có phần bấp bênh' hoặc 'chưa lấy gì làm chắc chắn'."
+pending_term_recommendations:
+  - source_term: "Colonel Uger / General von Zettour / Zettour / Rudersdorf / Colonel von Lergen"
+    proposed_vi: "Trung tá Uger / Tướng von Zettour / Zettour / Rudersdorf / Đại tá von Lergen"
+    category: "quân hàm / tên nhân vật"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000354
+      - YS-LN08/Text/chapter012.xhtml/p000368
+      - YS-LN08/Text/chapter012.xhtml/p000369
+      - YS-LN08/Text/chapter012.xhtml/p000373
+      - YS-LN08/Text/chapter012.xhtml/p000374
+      - YS-LN08/Text/chapter012.xhtml/p000376
+      - YS-LN08/Text/chapter012.xhtml/p000384
+    rationale: "Thống nhất với cấp bậc đã khóa trong tập 8: Uger mang hàm Trung tá (Lieutenant Colonel, khi gọi tắt trong thoại là Colonel vẫn dịch là Trung tá), còn von Lergen đã thăng hàm Đại tá (Colonel)."
+    alternatives_vi: []
+  - source_term: "Foreign Office / law of war / Service Corps"
+    proposed_vi: "Bộ Ngoại giao / luật chiến tranh / Cục Quân vụ"
+    category: "tên tổ chức / thuật ngữ pháp lý"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000355
+      - YS-LN08/Text/chapter012.xhtml/p000357
+    rationale: "Khớp với hệ thống thuật ngữ cơ quan nhà nước, quân sự và pháp lý quốc tế đã dùng xuyên suốt các tập."
+    alternatives_vi: []
+  - source_term: "Commonwealth / Federation / Federation air units / Federation air force / the Empire"
+    proposed_vi: "Khối Thịnh vượng chung / Liên bang / các đơn vị không quân Liên bang / không quân Liên bang / Đế quốc"
+    category: "tên quốc gia / tổ chức quân sự"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000362
+      - YS-LN08/Text/chapter012.xhtml/p000364
+      - YS-LN08/Text/chapter012.xhtml/p000365
+      - YS-LN08/Text/chapter012.xhtml/p000382
+      - YS-LN08/Text/chapter012.xhtml/p000383
+    rationale: "Nhất quán với sổ thuật ngữ tạm của tập 8."
+    alternatives_vi: []
+  - source_term: "matériel mobilization officer / matériel mobilization / Operation Andromeda"
+    proposed_vi: "sĩ quan động viên vật tư / công tác động viên vật tư / Chiến dịch Andromeda"
+    category: "chức danh / thuật ngữ quân sự / tên chiến dịch"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000376
+      - YS-LN08/Text/chapter012.xhtml/p000384
+    rationale: "Khớp với tên Chiến dịch Andromeda và chức trách của Uger trong ngành hậu cần - đường sắt ở tập 8."
+    alternatives_vi: []
+  - source_term: "public safety operation / Council for Self-Government / track standards / rolling stock"
+    proposed_vi: "chiến dịch trị an / Hội đồng Tự trị / tiêu chuẩn khổ đường ray / đầu máy và toa xe"
+    category: "tên tổ chức / thuật ngữ quân sự - vận tải"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000377
+    rationale: "Thống nhất với cách dịch Hội đồng Tự trị trong tập 7–8 và thuật ngữ vận tải đường sắt chuẩn xác."
+    alternatives_vi: []
+  - source_term: "blackout policy / blackout / mandatory blackout"
+    proposed_vi: "chính sách tắt đèn phòng không / việc tắt đèn phòng không / lệnh tắt đèn phòng không bắt buộc"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000379
+      - YS-LN08/Text/chapter012.xhtml/p000380
+      - YS-LN08/Text/chapter012.xhtml/p000381
+    rationale: "Thống nhất với cách dịch 'blackout' ở lô b18 (p000346)."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000352
+    choices:
+      - "câu hỏi phủ định trong thoại của Rudersdorf: ...Không chặn được máy bay địch sao?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000353
+    choices:
+      - "thoại báo cáo của Uger và thuật ngữ: Không quân; đánh chặn; báo cáo chiến công; Tỷ lệ bắn hạ được cũng không tệ; chặn đứng toàn bộ quân địch; ta; ưu thế về quân số"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000354
+    choices:
+      - "nhấn mạnh Markdown nội tâm: *Cậu ta nói thật đấy* (theo DEC-P01-002)"
+      - "trần thuật, quân hàm và tên nhân vật: Rudersdorf; họ; Trung tá Uger; Zettour"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000355
+    choices:
+      - "thoại của Uger và thuật ngữ: ngài ấy (chỉ Zettour); Bộ Ngoại giao; luật chiến tranh; các trung tâm dân cư; không hề có cảnh báo trước; các bên thứ ba"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000356
+    choices:
+      - "nhấn mạnh Markdown nội tâm: *Ấy, khoan đã nào.* (theo DEC-P01-002)"
+      - "trần thuật ngôi thứ ba: Rudersdorf há hốc mồm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000357
+    choices:
+      - "thoại của Rudersdorf và tên tổ chức: Tôi; Cục Quân vụ; không bị thiếu nhân lực sao?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000358
+    choices:
+      - "thoại của Uger: chúng tôi; tổng hợp các báo cáo thiệt hại thôi ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000359
+    choices:
+      - "trần thuật theo điểm nhìn Rudersdorf: Không thể quên lời Zettour từng cảnh báo ông rằng đừng bắt cấp dưới làm việc quá sức khi họ vốn đã thiếu người trầm trọng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000360
+    choices:
+      - "trần thuật ngôi thứ ba: ông; Uger; Rudersdorf; mình; cẩn trọng trong cách giao việc cho con người này"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000361
+    choices:
+      - "xưng hô thoại Rudersdorf -> Uger và thuật ngữ: Tôi; anh; Cuộc chiến kháng nghị và tuyên truyền của chúng ta"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000362
+    choices:
+      - "nhấn mạnh Markdown: *các đơn vị không quân Liên bang*; *chúng tôi thuộc Khối Thịnh vượng chung* (theo DEC-P01-002)"
+      - "thoại của Uger và tên quốc gia: Về mặt chính thức thì hoàn toàn không ạ; chúng ta; Khối Thịnh vượng chung; đại sứ quán của một quốc gia trung lập; không hề liên quan"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000363
+    choices:
+      - "trần thuật ngôi thứ ba: Rudersdorf bất giác thở dài"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000364
+    choices:
+      - "câu hỏi phủ định trong thoại của Rudersdorf: Các anh không bắt được tù binh Khối Thịnh vượng chung nào từ những chiếc máy bay bị bắn rơi ư?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000365
+    choices:
+      - "thoại của Uger: Họ; người của Khối Thịnh vượng chung; rời quê hương để đầu quân cho không quân Liên bang"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000366
+    choices:
+      - "nhấn mạnh Markdown nội tâm: *Chết dở.* (theo DEC-P01-002)"
+      - "thoại cảm thán của Rudersdorf và trần thuật: Đám người này; chúng; Ông vốn không định quát tháo; mình đã lỡ lớn tiếng lúc nào không hay"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000367
+    choices:
+      - "trần thuật ngôi thứ ba và phủ định kép: Không phải ông không hiểu logic của cuộc tranh luận pháp lý; ông; mình; chẳng bao giờ ưa nổi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000368
+    choices:
+      - "xưng hô thoại và phân biệt quân hàm: Trung tá Uger; anh; tôi; Đại tá von Lergen"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000369
+    choices:
+      - "xưng hô thoại Uger -> Rudersdorf và thuật ngữ: Không đâu ạ; Tướng von Zettour; tôi; ngài; tiền tuyến; hậu phương"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000370
+    choices:
+      - "trần thuật theo điểm nhìn Rudersdorf: quan điểm mẫu mực; anh (chỉ Uger); khi đang trực đêm; thực sự đáng kinh ngạc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000371
+    choices:
+      - "thoại của Rudersdorf: Anh đúng là một người nghiêm túc hết mực nhỉ?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000372
+    choices:
+      - "thoại đáp ngắn của Uger: Dạ?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000373
+    choices:
+      - "trần thuật ngôi thứ ba và quân hàm: Rudersdorf; họ; Ông; vị trung tá"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000374
+    choices:
+      - "thoại của Rudersdorf: Tôi; anh; Tướng von Zettour; Ông ấy đòi hỏi ở người khác quá nhiều"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000375
+    choices:
+      - "thoại của Uger: tôi; ngoài tiền tuyến; mình; trên chiến trường của riêng mình; họ; Một sĩ quan ngồi ấm chỗ nơi hậu phương thì không có quyền phàn nàn ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000376
+    choices:
+      - "thuật ngữ, quân hàm và câu hỏi xác nhận: sĩ quan động viên vật tư; ông; mình; Trung tá Uger; Chiến dịch Andromeda; Tướng von Zettour; đường sắt là chiếc chìa khóa vạn năng; tôi; Hiện tại bản thân việc vận tải không gặp vấn đề gì chứ?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000377
+    choices:
+      - "thoại của Uger, trần thuật và thuật ngữ: Chiến dịch trị an; Hội đồng Tự trị; thổ phỉ; tiêu chuẩn khổ đường ray; không phải mùa đông cũng chẳng phải mùa bùn lầy; chúng ta; đầu máy và toa xe thu hồi được; sửa chữa đường ray tại chỗ; Uger; mình; anh; các tuyến tiếp tế; nguồn cung; khu vực sản xuất công nghiệp; những cuộc không kích hàng đêm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000378
+    choices:
+      - "thoại câu hỏi ngắn của Rudersdorf: Cụ thể thì sao?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000379
+    choices:
+      - "thoại của Uger và thuật ngữ: chính sách tắt đèn phòng không; tác động tiêu cực; các nhà máy phải vận hành suốt ngày đêm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000380
+    choices:
+      - "trần thuật theo điểm nhìn Rudersdorf: Điều đó chẳng khó tin chút nào; Việc tắt đèn phòng không; hoạt động sản xuất liên tục giữa đêm khuya; lệnh tắt đèn phòng không bắt buộc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000381
+    choices:
+      - "nhấn mạnh Markdown: *lẫn* (theo DEC-P01-002)"
+      - "quan hệ điều kiện và thuật ngữ: Nhưng nếu không duy trì việc tắt đèn phòng không *lẫn* hoạt động vận hành liên tục, ngành hậu cần sẽ sụp đổ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000382
+    choices:
+      - "thoại của Rudersdorf: đặt nền tảng công nghiệp ở phía tây; tử huyệt của Đế quốc"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000383
+    choices:
+      - "trần thuật ngôi thứ ba và tên tổ chức: ngành sản xuất của Đế quốc; không quân Khối Thịnh vượng chung; các cuộc không kích ban đêm; Rudersdorf"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000384
+    choices:
+      - "thoại của Rudersdorf và thuật ngữ: Chúng ta; kế hoạch phòng không; anh; Trung tá Uger; công tác động viên vật tư"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000385
+    choices:
+      - "thoại đáp mệnh lệnh của Uger: Rõ, thưa ngài!"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000386
+    choices:
+      - "nhấn mạnh Markdown: *cạch* (theo DEC-P01-002)"
+      - "trần thuật ngôi thứ ba: Rudersdorf; một điếu xì gà; cố vực dậy tinh thần"
