@@ -1,0 +1,291 @@
+task_id: "vol-07-ch-04-b06-argon-review"
+parent_task_id: "vol-07-ch-04-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b06-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b06.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b06-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - severity: "moderate"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000060"
+    issue: "Dịch nhầm đại từ chủ ngữ ở đầu câu hỏi từ ngôi thứ hai sang ngôi thứ nhất ('Ý tôi là' thay vì 'Ý ông là'), làm đảo chiều người phát ngôn mà Zettour đang quy chiếu."
+    evidence: "Đoạn p000060 nối tiếp trực tiếp mạch đối thoại cuối batch ch-04-b05 (p000057–p000059) giữa Zettour và Rudersdorf tại Phòng Tác chiến. Sau khi Rudersdorf khuyên Cục Quân vụ nên tin tưởng các đồng nghiệp lập kế hoạch đáng tin cậy bên Cục Tác chiến, Zettour bật cười rồi hỏi vặn lại ý của Rudersdorf trước khi Rudersdorf thừa nhận ở p000061 rằng họ buộc phải gieo xúc xắc."
+    recommendation: "Sửa 'Ý tôi là những kẻ lúc nào cũng đánh cược vào kết cục ấy sao?' thành 'Ý ông là những kẻ lúc nào cũng đánh cược vào kết cục ấy sao?'."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000089"
+    issue: "Trong cùng một câu trần thuật ngôi thứ ba dùng đại từ 'nó' chỉ Tanya, tân ngữ chỉ phía đơn vị lại được dịch là 'chúng tôi' ('dò hỏi chúng tôi về chuyện đó, nó đã đề nghị...'), gây pha trộn điểm nhìn giữa ngôi thứ nhất số nhiều (vốn dùng trong thoại) và ngôi thứ ba trần thuật."
+    evidence: "Nguồn có sự trượt điểm nhìn nhẹ giữa ngôi thứ nhất số nhiều ở vế phụ và ngôi thứ ba số ít/số nhiều ở vế chính và câu trước đó."
+    recommendation: "Nên chỉnh 'dò hỏi chúng tôi' thành 'dò hỏi họ' để thống nhất điểm nhìn trần thuật ngôi thứ ba với 'cấp dưới của nó' và 'nó' trong cùng đoạn."
+pending_term_recommendations:
+  - source_term: "MAY 5, UNIFIED YEAR 1927, EASTERN FRONT, SALAMANDER KAMPFGRUPPE COMMAND"
+    proposed_vi: "NGÀY 5 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, BỘ CHỈ HUY KAMPFGRUPPE SALAMANDER"
+    category: "tiêu đề cảnh / địa danh / đơn vị"
+    status: "pending"
+    rationale: "Giữ định dạng tiêu đề thời gian - địa điểm in hoa và đồng bộ tên đơn vị 'Kampfgruppe Salamander' cùng địa danh 'Mặt trận phía Đông' theo sổ pending tập 7."
+    alternatives_vi:
+      - "NGÀY 5 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, SỞ CHỈ HUY KAMPFGRUPPE SALAMANDER"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000063"
+  - source_term: "Imperial Army / Operation Iron Hammer / Iron Hammer / counteroffensive"
+    proposed_vi: "Lục quân Đế quốc / Chiến dịch Búa Sắt / Búa Sắt / cuộc phản công"
+    category: "tổ chức / tên chiến dịch / thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán tên quân chủng, tên chiến dịch và thuật ngữ chỉ cuộc phản công quy mô lớn đã khóa ở các batch trước của chương 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000065"
+      - "YS-LN07/Text/chapter016.xhtml/p000069"
+      - "YS-LN07/Text/chapter016.xhtml/p000078"
+      - "YS-LN07/Text/chapter016.xhtml/p000092"
+  - source_term: "HQ / command post"
+    proposed_vi: "sở chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã ghi nhận trong sổ pending tập 7 cho sở chỉ huy đơn vị tại chiến trường."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000067"
+      - "YS-LN07/Text/chapter016.xhtml/p000074"
+      - "YS-LN07/Text/chapter016.xhtml/p000087"
+  - source_term: "Salamander Kampfgruppe / Lergen Kampfgruppe / eastern front / home country"
+    proposed_vi: "Kampfgruppe Salamander / Kampfgruppe Lergen / mặt trận phía đông / bản quốc"
+    category: "đơn vị / địa danh / thuật ngữ"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống tên gọi đơn vị lâm thời và thuật ngữ trong sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000066"
+      - "YS-LN07/Text/chapter016.xhtml/p000068"
+      - "YS-LN07/Text/chapter016.xhtml/p000089"
+      - "YS-LN07/Text/chapter016.xhtml/p000093"
+  - source_term: "Major Weiss / Major / Weiss"
+    proposed_vi: "Thiếu tá Weiss / Thưa Thiếu tá / Weiss"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán quân hàm Thiếu tá của Weiss ở tập 7 trong trần thuật và lời gọi của cấp dưới."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000070"
+      - "YS-LN07/Text/chapter016.xhtml/p000077"
+      - "YS-LN07/Text/chapter016.xhtml/p000078"
+      - "YS-LN07/Text/chapter016.xhtml/p000081"
+      - "YS-LN07/Text/chapter016.xhtml/p000087"
+  - source_term: "First Lieutenant Tospan / First Lieutenant Serebryakov / First Lieutenant Grantz / Captain Meybert / First Lieutenant Wüstemann / Lieutenant"
+    proposed_vi: "Trung úy Tospan / Trung úy Serebryakov / Trung úy Grantz / Đại úy Meybert / Trung úy Wüstemann / Trung úy"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Đồng bộ hoàn toàn cấp bậc và tên riêng của các sĩ quan thuộc quyền trong Kampfgruppe Salamander theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000073"
+      - "YS-LN07/Text/chapter016.xhtml/p000075"
+      - "YS-LN07/Text/chapter016.xhtml/p000076"
+      - "YS-LN07/Text/chapter016.xhtml/p000077"
+      - "YS-LN07/Text/chapter016.xhtml/p000081"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tên cơ quan tham mưu trung ương xuyên suốt các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000075"
+      - "YS-LN07/Text/chapter016.xhtml/p000079"
+  - source_term: "ma’am / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "thưa Trung tá / Thưa Trung tá"
+    category: "xưng hô / quân hàm"
+    status: "pending"
+    rationale: "Khớp với quy ước dịch danh xưng cấp dưới gọi Trung tá Tanya von Degurechaff trong sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000084"
+      - "YS-LN07/Text/chapter016.xhtml/p000086"
+  - source_term: "Ildoan colonel / Kingdom of Ildoa / military observer / Colonel Calandro / Ildoa"
+    proposed_vi: "vị đại tá người Ildoa / Vương quốc Ildoa / quan sát viên quân sự / Đại tá Calandro / Ildoa"
+    category: "nhân vật / quân hàm / địa danh"
+    status: "pending"
+    rationale: "Kế thừa nhất quán tên quốc gia, chức danh quan sát viên quân sự và cấp bậc của Đại tá Calandro từ sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000086"
+      - "YS-LN07/Text/chapter016.xhtml/p000087"
+      - "YS-LN07/Text/chapter016.xhtml/p000088"
+      - "YS-LN07/Text/chapter016.xhtml/p000090"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000060"
+    choices:
+      - "Xưng hô của Zettour khi hỏi vặn lại Rudersdorf: 'Ý ông là...' (sửa từ 'Ý tôi là...')"
+      - "Giữ cấu trúc câu hỏi nghi vấn hướng về nhóm sĩ quan tham mưu Cục Tác chiến: 'những kẻ lúc nào cũng đánh cược vào kết cục ấy sao?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000061"
+    choices:
+      - "Đại từ trong lời đáp của Rudersdorf: 'Chúng ta' - 'Tôi'"
+      - "Phủ định & câu hỏi tu từ: 'Chúng ta không còn lựa chọn nào khác ngoài việc gieo xúc xắc. Tôi nói sai sao?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000062"
+    choices:
+      - "Lời thừa nhận miễn cưỡng có phủ định của Zettour: '…Dù bực mình thật đấy, nhưng không sai.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000063"
+    choices:
+      - "Tiêu đề cảnh in hoa: 'NGÀY 5 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, BỘ CHỈ HUY KAMPFGRUPPE SALAMANDER'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000064"
+    choices:
+      - "Thuật ngữ: 'military history' -> 'lịch sử quân sự'"
+      - "Đối lập & phủ định: 'nhiệm vụ đã được phê chuẩn triển khai, nhưng lại chẳng hề ghi lại chút gì về cảnh hỗn loạn dẫn tới cuộc hành quân đó'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000065"
+    choices:
+      - "Tổ chức & tên chiến dịch: 'Imperial Army' -> 'Lục quân Đế quốc'; 'Operation Iron Hammer' -> 'Chiến dịch Búa Sắt'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000066"
+    choices:
+      - "Địa danh & ẩn dụ: 'in the east' -> 'ở miền đông'; 'precision war machine' -> 'cỗ máy chiến tranh chính xác'"
+      - "Đại từ chỉ các chỉ huy: 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000067"
+    choices:
+      - "Thuật ngữ: 'message' -> 'điện báo'; 'HQ' -> 'sở chỉ huy'; 'Officers' -> 'Các sĩ quan'"
+      - "Giữ nguyên ba câu cảm thán/mệnh lệnh ngắn"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000068"
+    choices:
+      - "Đơn vị & địa danh: 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; 'eastern front' -> 'mặt trận phía đông'; 'Lergen Kampfgruppe' -> 'Kampfgruppe Lergen'; 'home country' -> 'bản quốc'"
+      - "Phủ định kép khẳng định: 'cũng không phải ngoại lệ'"
+      - "Đại từ trần thuật chỉ đơn vị: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000069"
+    choices:
+      - "Xưng hô trong lời Weiss: 'Tôi' - 'chúng ta'"
+      - "Tên chiến dịch rút gọn: 'Iron Hammer' -> 'Búa Sắt'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000070"
+    choices:
+      - "Nhân vật & cấp bậc: 'Major Weiss' -> 'Thiếu tá Weiss'; đại từ trần thuật: 'anh ta'"
+      - "Thuật ngữ: 'mental capacity' -> 'dư địa tinh thần'; 'Acclimated officers' -> 'Các sĩ quan đã dày dạn thích nghi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000071"
+    choices:
+      - "Thuật ngữ & quan hệ nhân quả nhượng bộ: 'Old hands' -> 'Những người kỳ cựu'; 'bởi lẽ ngay cả khi cuộc chơi thay đổi, họ vẫn nhận diện được các quy tắc chung và tối ưu hóa bằng cách vận dụng vốn kiến thức sẵn có của mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000072"
+    choices:
+      - "Đại từ chỉ cấp trên/Bộ Tổng tham mưu trong lời phàn nàn của Tospan: 'Họ'"
+      - "Câu hỏi tu từ chất vấn: 'Họ nghĩ quân lính có thể tấn công khi đang rối loạn đến mức này sao?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000073"
+    choices:
+      - "Nhân vật & cấp bậc: 'First Lieutenant Tospan' -> 'Trung úy Tospan'"
+      - "Thành ngữ: 'make a mountain out of a molehill' -> 'chuyện bé xé ra to'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000074"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Đây là một cơ hội tốt*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ: 'command post' -> 'sở chỉ huy'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000075"
+    choices:
+      - "Nhân vật, cấp bậc & cơ quan: 'First Lieutenant Serebryakov' -> 'Trung úy Serebryakov'; 'General Staff' -> 'Bộ Tổng tham mưu'"
+      - "Đại từ chỉ Serebryakov: 'cô'; chỉ đơn vị: 'họ'"
+      - "Phủ định & tình thái: 'có lẽ không nên được tính vào'; 'cô không phải là một mốc tham chiếu tốt'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000076"
+    choices:
+      - "Nhân vật & cấp bậc: 'First Lieutenant Grantz' -> 'Trung úy Grantz'"
+      - "Đại từ theo DEC-P01-001: độc thoại nội tâm tự quy chiếu của Tanya dùng 'mình'; chỉ Grantz dùng 'anh ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000077"
+    choices:
+      - "Nhân vật & cấp bậc: 'Captain Meybert' -> 'Đại úy Meybert'; 'First Lieutenant Wüstemann' -> 'Trung úy Wüstemann'; 'Weiss' -> 'Weiss'"
+      - "Thuật ngữ: 'artillery' -> 'pháo binh'"
+      - "Đại từ theo DEC-P01-001: nội tâm tự quy chiếu của Tanya dùng 'mình'; chỉ Meybert và Wüstemann dùng 'anh ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000078"
+    choices:
+      - "Xưng hô của Wüstemann với Weiss: 'Thưa Thiếu tá' ('Major')"
+      - "Thuật ngữ: 'Operation Iron Hammer' -> 'Chiến dịch Búa Sắt'; 'preliminary plan' -> 'kế hoạch sơ bộ'"
+      - "Câu hỏi phủ định: 'không có kế hoạch sơ bộ nào sao ạ?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000079"
+    choices:
+      - "Cơ quan: 'General Staff' -> 'Bộ Tổng tham mưu'"
+      - "Xưng hô của Weiss với Wüstemann: 'cậu' - 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000080"
+    choices:
+      - "Xưng hô của Wüstemann với Weiss: 'tôi' + kính ngữ 'ạ'"
+      - "Giữ nguyên câu hỏi mở của cấp dưới xin chỉ thị: 'tôi nên làm gì đây ạ?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000081"
+    choices:
+      - "Xưng hô của Weiss với Wüstemann trong thoại: 'Cậu' / 'cậu', gọi cấp bậc 'Trung úy' ('Lieutenant'); trần thuật chỉ Weiss: 'anh ta'"
+      - "Thuật ngữ: 'frontline syndrome' -> 'hội chứng tiền tuyến'"
+      - "Phủ định & câu hỏi nghi vấn cuối đoạn: 'Cậu không cần phải nghĩ ngợi sâu xa thế đâu'; '...hẳn là triệu chứng của cái hội chứng tiền tuyến mà những sĩ quan đã chai sạn vì chiến trường hay mắc phải chăng?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000082"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Không phải.*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật: 'Tanya'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000083"
+    choices:
+      - "Xưng hô của Tanya với các sĩ quan thuộc quyền: 'thưa các sĩ quan' ('Officers'), 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000084"
+    choices:
+      - "Lời đáp đồng thanh của các sĩ quan với Tanya: '““““Vâng, thưa Trung tá.””””' (giữ đủ bốn lớp dấu ngoặc kép)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000085"
+    choices:
+      - "Đại từ trần thuật chỉ các sĩ quan: 'họ' / 'tất cả'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000086"
+    choices:
+      - "Xưng hô của Weiss với Tanya: 'Thưa Trung tá' ('Colonel'), xưng 'tôi'"
+      - "Danh xưng chỉ Calandro: 'the Ildoan colonel' -> 'vị đại tá người Ildoa'"
+      - "Phủ định: 'tôi không thấy vị đại tá người Ildoa đâu…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000087"
+    choices:
+      - "Đại từ trần thuật theo DEC-P01-001: 'nó' (Tanya), 'ông' (quan sát viên quân sự Ildoa)"
+      - "Thuật ngữ & địa danh: 'Kingdom of Ildoa’s military observer' -> 'Vị quan sát viên quân sự của Vương quốc Ildoa'; 'command post' -> 'sở chỉ huy'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000088"
+    choices:
+      - "Xưng hô của Tanya với các sĩ quan trong thoại: 'Tôi' - 'chúng ta' - 'các vị'"
+      - "Nhân vật & cấp bậc: 'Colonel Calandro' -> 'Đại tá Calandro'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000089"
+    choices:
+      - "Đại từ trần thuật theo DEC-P01-001: 'nó' (Tanya), 'ông' (Calandro), 'họ' (thay cho 'chúng tôi' để đồng bộ điểm nhìn ngôi thứ ba với 'cấp dưới của nó' và 'nó')"
+      - "Thuật ngữ: 'home country' -> 'bản quốc'"
+      - "Giả định phủ định: 'với tâm thế cho rằng ông sẽ chẳng đồng ý đâu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000090"
+    choices:
+      - "Đại từ theo DEC-P01-001: nội tâm tự quy chiếu của Tanya dùng 'Mình'; chỉ Calandro dùng 'ông' / 'ông ấy'"
+      - "Địa danh: 'Ildoa' -> 'Ildoa'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000091"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*nhưng mình đi lạc đề quá rồi*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ nội tâm tự quy chiếu của Tanya theo DEC-P01-001: 'Mình' / 'mình'; đại từ số nhiều chỉ đơn vị: 'chúng ta'"
+      - "Giả định điều kiện phủ định: 'Nếu bảo không có chút ghen tị nào thì hẳn là nói dối'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000092"
+    choices:
+      - "Đại từ trong lời phổ biến mệnh lệnh của Tanya: 'ta' / 'Chúng ta'"
+      - "Thuật ngữ & tên chiến dịch: 'Operation Iron Hammer' -> 'Chiến dịch Búa Sắt'; 'major counteroffensive' -> 'một cuộc phản công quy mô lớn'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000093"
+    choices:
+      - "Đại từ trong lời nhận xét của sĩ quan thuộc quyền: 'Tôi', 'họ' (cấp trên ở bản quốc)"
+      - "Thuật ngữ: 'frontline troops' -> 'các đơn vị tiền tuyến'; 'home country' -> 'bản quốc'"
+      - "Phủ định mở đầu câu hỏi đuôi: 'Chẳng hề có dấu hiệu nào báo trước chuyện này cả nhỉ?'"
+      - "Không dùng nhấn mạnh Markdown"
