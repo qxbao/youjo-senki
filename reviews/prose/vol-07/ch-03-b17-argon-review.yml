@@ -1,0 +1,284 @@
+task_id: "vol-07-ch-03-b17-argon-review"
+parent_task_id: "vol-07-ch-03-b17"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 3
+source_package: "work/vol-07/batches/ch-03-b17-source.jsonl"
+target_translation: "translations/vol-07/ch-03-b17.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000272"
+    severity: "minor"
+    category: "meaning_and_naturalness"
+    issue: "Động từ chỉ việc hiểu được lý lẽ của chuyện bị quân địch bắn (đặt trong thế đối lập với việc bị pháo binh phe mình bắn nhầm ở p000274) đang được dịch là 'thông cảm' ('Mình có thể thông cảm chuyện bị quân địch bắn.'), làm lệch sang sắc thái cảm thông cho đối phương."
+    recommendation: "Đổi 'thông cảm' thành 'hiểu được' ('Mình có thể hiểu được chuyện bị quân địch bắn.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000286"
+    severity: "minor"
+    category: "meaning_and_naturalness"
+    issue: "Cụm vị ngữ hoán dụ chỉ việc mọi người trong sở chỉ huy trút bỏ căng thẳng đang dịch sát chữ thành 'Sở chỉ huy đang giãn ra ngay trước mắt nó', dễ gợi nghĩa vật lý (không gian giãn nở) trong tiếng Việt."
+    recommendation: "Đổi 'đang giãn ra' thành 'đang dần thả lỏng' hoặc 'đang dịu lại' ('Sở chỉ huy đang dần thả lỏng ngay trước mắt nó, bầu không khí dần ấm áp trở lại.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000295"
+    severity: "minor"
+    category: "pronoun_and_coreference"
+    issue: "Trong lời khen của Đại tá Calandro dành cho Tanya và đơn vị dưới quyền, đại từ ngôi thứ hai chỉ tập thể đơn vị ở câu thứ hai và thứ ba đang dịch là 'các cô' ('nên các cô đã tìm chỗ trú ẩn', 'Khả năng phòng ngự trước hỏa lực pháo binh của các cô'). Trong tiếng Việt, 'các cô' là đại từ số nhiều giống cái, không phù hợp để quy chiếu một đơn vị quân sự có đa số quân nhân là nam giới (ngay câu cuối đoạn cũng nhắc tới 'quân lính dưới quyền')."
+    recommendation: "Đổi 'các cô' thành 'bên cô' hoặc 'đơn vị cô' (ví dụ: 'Lo ngại đạn bắn tiêu diệt thực sự ập tới nên bên cô đã tìm chỗ trú ẩn... Khả năng phòng ngự trước hỏa lực pháo binh của bên cô thật ấn tượng.')."
+pending_term_recommendations:
+  - source_term: "observer mages / observer mage / Observer"
+    proposed_vi: "các pháp sư quan sát / pháp sư quan sát / quan sát viên"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán thuật ngữ 'pháp sư quan sát' và 'quan sát viên' đã dùng trong sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000271"
+      - "YS-LN07/Text/chapter012.xhtml/p000300"
+      - "YS-LN07/Text/chapter012.xhtml/p000316"
+  - source_term: "rolling barrage / defensive position / firing for effect / friendly fire"
+    proposed_vi: "màn hỏa lực di động / trận địa phòng ngự / bắn tiêu diệt / đạn quân mình bắn nhầm"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa 'bắn tiêu diệt' và 'quân mình bắn nhầm' từ các batch trước của chương 3; 'rolling barrage' dịch chuẩn thuật ngữ pháo binh là 'màn hỏa lực di động', 'defensive position' là 'trận địa phòng ngự'."
+    alternatives_vi:
+      - "hỏa lực pháo kích di động"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000275"
+      - "YS-LN07/Text/chapter012.xhtml/p000277"
+      - "YS-LN07/Text/chapter012.xhtml/p000289"
+      - "YS-LN07/Text/chapter012.xhtml/p000295"
+      - "YS-LN07/Text/chapter012.xhtml/p000303"
+  - source_term: "Major Weiss / vice commander / adjutant"
+    proposed_vi: "Thiếu tá Weiss / vị phó chỉ huy (phó chỉ huy) / sĩ quan phụ tá"
+    category: "quân hàm - chức danh"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán quân hàm Thiếu tá của Weiss cùng chức danh phó chỉ huy và sĩ quan phụ tá trong Tiểu đoàn 203 / Kampfgruppe Salamander."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000278"
+      - "YS-LN07/Text/chapter012.xhtml/p000280"
+      - "YS-LN07/Text/chapter012.xhtml/p000298"
+  - source_term: "Colonel / ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "thưa Trung tá / Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Tanya mang quân hàm Trung tá; cấp dưới (Weiss) gọi là 'thưa Trung tá', còn Đại tá Calandro (cấp bậc cao hơn) gọi xã giao là 'Trung tá'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000279"
+      - "YS-LN07/Text/chapter012.xhtml/p000284"
+      - "YS-LN07/Text/chapter012.xhtml/p000288"
+      - "YS-LN07/Text/chapter012.xhtml/p000303"
+  - source_term: "command post"
+    proposed_vi: "sở chỉ huy"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán từ sổ pending tập 4–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000286"
+  - source_term: "Colonel Calandro / Calandro / military observer"
+    proposed_vi: "Đại tá Calandro / Calandro / quan sát viên quân sự"
+    category: "quân hàm - chức danh"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh, cấp bậc Đại tá và chức trách quan sát viên quân sự của Calandro trong tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000289"
+      - "YS-LN07/Text/chapter012.xhtml/p000290"
+      - "YS-LN07/Text/chapter012.xhtml/p000300"
+      - "YS-LN07/Text/chapter012.xhtml/p000302"
+      - "YS-LN07/Text/chapter012.xhtml/p000307"
+      - "YS-LN07/Text/chapter012.xhtml/p000314"
+  - source_term: "Rhine front / Federation troops / Imperial Army"
+    proposed_vi: "mặt trận Rhine / quân Liên bang / Lục quân Đế quốc"
+    category: "tên gọi - đơn vị"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán tên mặt trận và lực lượng quân sự từ sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000296"
+      - "YS-LN07/Text/chapter012.xhtml/p000300"
+      - "YS-LN07/Text/chapter012.xhtml/p000316"
+  - source_term: "fog of war"
+    proposed_vi: "sương mù chiến tranh"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Thuật ngữ lý luận quân sự kinh điển của Clausewitz chỉ trạng thái bất định thông tin trên chiến trường."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000301"
+  - source_term: "cipher / friend-or-foe identification signal"
+    proposed_vi: "mật mã liên lạc / tín hiệu nhận dạng địch–ta"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán với cụm mật mã liên lạc và tín hiệu nhận dạng ở batch 16."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000304"
+      - "YS-LN07/Text/chapter012.xhtml/p000313"
+  - source_term: "God"
+    proposed_vi: "Thượng đế"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa cách dịch 'Thượng đế' trong sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000313"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000270"
+    choices:
+      - "Điểm nhìn, đại từ & nhấn mạnh Markdown: câu đầu là độc thoại nội tâm tự quy chiếu bằng 'mình' theo DEC-P01-001; câu thứ hai bọc chính xác '*Đây là một sự cố nghiêm trọng đặt tính mạng con người vào vòng nguy hiểm—họ đang nghĩ cái quái gì vậy?*' khớp thẻ em nguồn theo DEC-P01-002; câu thứ ba chuyển sang trần thuật ngôi thứ ba gọi tên 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000271"
+    choices:
+      - "Thuật ngữ & giọng thoại: giữ 'các pháp sư quan sát' cùng hai câu hỏi tu từ cảm thán liên tiếp của Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000272"
+    choices:
+      - "Điểm nhìn nội tâm & nghĩa: dùng đại từ tự quy chiếu 'Mình' theo DEC-P01-001; chỉnh động từ thành 'hiểu được' theo finding ('Mình có thể hiểu được chuyện bị quân địch bắn.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000273"
+    choices:
+      - "Đại từ nội tâm: dùng 'Chúng ta' bao gộp đơn vị và giữ câu nhận định ngắn 'Thế mới công bằng.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000274"
+    choices:
+      - "Phủ định & đối lập: giữ đối lập trực tiếp 'Bị chính pháo binh quân mình bắn thì chẳng công bằng chút nào.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000275"
+    choices:
+      - "Điểm nhìn nội tâm, thuật ngữ & phủ định: dùng 'Mình' theo DEC-P01-001; giữ thuật ngữ 'màn hỏa lực di động' và cấu trúc phủ định bộ phận 'Đâu phải cứ lên lịch pháo kích là có thể tính toán quỹ đạo đạn chính xác 100 phần trăm được.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000276"
+    choices:
+      - "Mệnh lệnh: giữ câu lệnh ngắn 'Cho tôi báo cáo thương vong!'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000277"
+    choices:
+      - "Thoại cấp dưới, phủ định & thuật ngữ: giữ kính ngữ 'ạ', hai mệnh đề phủ định về tổn thất/thương vong và thuật ngữ 'trận địa phòng ngự'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000278"
+    choices:
+      - "Quân hàm & xưng hô: giữ 'Thiếu tá Weiss', tên 'Tanya' và cách Tanya gọi Weiss là 'Anh' trong câu hỏi xác nhận."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000279"
+    choices:
+      - "Quân hàm & xưng hô: Weiss đáp 'Vâng, thưa Trung tá.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000280"
+    choices:
+      - "Đại từ trần thuật & chức danh: quy chiếu Tanya bằng 'nó' theo DEC-P01-001, quy chiếu Weiss bằng 'Vị phó chỉ huy của nó' và 'anh'; giữ phủ định 'sẽ không bao giờ đưa ra một báo cáo chưa được xác nhận'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000281"
+    choices:
+      - "Thoại ngập ngừng: giữ dấu ba chấm ngắt nhịp '…Tôi… thực sự rất mừng khi nghe điều đó.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000282"
+    choices:
+      - "Đại từ trần thuật & quan hệ tương phản: quy chiếu Tanya bằng 'nó', đơn vị bằng 'họ'; giữ tương phản giữa sự điên tiết vì bị nã pháo và thực tế không chịu tổn thất làm dịu cái đầu đang bốc hỏa."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000283"
+    choices:
+      - "Câu hỏi xác nhận: giữ 'Chỉ để xác nhận lại thôi, xe tăng và pháo không bị hư hại gì chứ?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000284"
+    choices:
+      - "Quân hàm, xưng hô & điều kiện: Weiss đáp 'Không đâu, thưa Trung tá. Nếu cần, chúng tôi đã sẵn sàng khai hỏa vào phía pháo binh rồi ạ.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000285"
+    choices:
+      - "Thoại & tình thái phủ định: Tanya xưng 'tôi', giữ tình thái 'xem ra không cần phải làm thế nữa'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000286"
+    choices:
+      - "Thuật ngữ & đại từ trần thuật: giữ 'Sở chỉ huy', đại từ 'nó' cho Tanya và thành ngữ 'cái may trong cái rủi này'; chỉnh động từ câu đầu thành 'đang dần thả lỏng' (hoặc 'đang dịu lại') theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000287"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ trần thuật: chỉ bọc '*Thiệt tình*' khớp thẻ em nguồn theo DEC-P01-002; trần thuật gọi 'Tanya' và quy chiếu bằng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000288"
+    choices:
+      - "Tôn ti quân hàm: Đại tá Calandro gọi xã giao Tanya là 'Trung tá' ('Xin thứ lỗi, Trung tá.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000289"
+    choices:
+      - "Quân hàm, xưng hô & thuật ngữ: Tanya gọi 'Đại tá Calandro' và 'ngài', tự xưng 'Tôi' kèm 'ạ'; giữ 'sự cố ngoại giao quốc tế' và 'đạn quân mình bắn nhầm'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000290"
+    choices:
+      - "Trần thuật: giữ tên 'Calandro' và nét miêu tả trạng thái khỏe khoắn lành lặn khi bước vào."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000291"
+    choices:
+      - "Xưng hô thoại: Calandro xưng 'tôi', gọi phía Tanya là 'bên cô' ('Các đơn vị pháo binh bên cô')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000292"
+    choices:
+      - "Xưng hô & tình thái: Tanya dùng 'chúng ta' bao gộp, tự xưng 'Tôi' / 'mình', quy chiếu pháo binh là 'họ' và giữ tình thái phỏng đoán 'có lẽ chính vì họ cẩu thả nên ngay từ đầu chúng ta mới bị nã pháo'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000293"
+    choices:
+      - "Dấu thoại kép: giữ nguyên cặp dấu ngoặc kép đôi '““Ha-ha-ha.””' biểu thị tiếng cười đồng thanh của hai người."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000294"
+    choices:
+      - "Nhận định khái quát: giữ hai câu nhận định ngắn gọn về quy luật tự nhiên."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000295"
+    choices:
+      - "Xưng hô, thuật ngữ & quy chiếu đơn vị: Calandro xưng 'tôi', gọi Tanya là 'cô'; giữ thuật ngữ 'bắn tiêu diệt', 'hỏa lực pháo binh'; đổi 'các cô' (chỉ tập thể đơn vị) thành 'bên cô' hoặc 'đơn vị cô' theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000296"
+    choices:
+      - "Xưng hô & thuật ngữ: Tanya xưng 'tôi - Ngài ... ạ'; giữ 'trận đấu pháo' và 'mặt trận Rhine'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000297"
+    choices:
+      - "Tình thái & phủ định: Calandro xưng 'tôi', giữ tình thái 'Có lẽ tôi không tài nào thấu hiểu nổi, vì bản thân tôi chưa từng trải qua nỗi kinh hoàng đó.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000298"
+    choices:
+      - "Chức danh & đại từ: trong thoại Tanya xưng 'tôi ... ạ', nhắc tới 'sĩ quan phụ tá, phó chỉ huy của tôi'; trong trần thuật quy chiếu Tanya bằng 'Nó' theo DEC-P01-001 và nhóm ba người bằng 'họ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000299"
+    choices:
+      - "Xưng hô thoại: Calandro xưng 'tôi - cô', giữ câu hỏi lịch sự đề nghị giải thích sự việc."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000300"
+    choices:
+      - "Đại từ, xưng hô & thuật ngữ: trần thuật gọi 'Calandro', 'Tanya' và quy chiếu Calandro bằng 'ông'; trong thoại Tanya dùng 'ngài - chúng tôi ... ạ'; giữ 'pháp sư quan sát' và 'quân Liên bang'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000301"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: chỉ bọc '*sương mù chiến tranh*' bên trong cặp dấu nháy đơn khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000302"
+    choices:
+      - "Điểm nhìn & đại từ: trong thoại dùng 'chúng tôi ... ạ'; trong trần thuật gọi 'Tanya', 'Calandro' và quy chiếu Tanya bằng 'nó' theo DEC-P01-001; giữ thành ngữ 'cái may trong cái rủi này' nhất quán với p000286."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000303"
+    choices:
+      - "Quân hàm, xưng hô & thuật ngữ: Calandro gọi Tanya là 'Trung tá' và 'cô', xưng 'tôi'; giữ thuật ngữ 'bắn tiêu diệt'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000304"
+    choices:
+      - "Xưng hô & thuật ngữ: Tanya xưng 'Tôi ... ạ', quy chiếu phía pháo binh bằng 'họ'; giữ 'mật mã liên lạc' và 'ngừng bắn'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000305"
+    choices:
+      - "Xưng hô & thuật ngữ: Calandro xưng 'tôi - cô'; giữ 'hiệp đồng tác chiến' và đối lập giữa lý thuyết với chi tiết thực tế."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000306"
+    choices:
+      - "Xưng hô & thuật ngữ: Tanya dùng 'Chúng tôi - ngài ... ạ'; giữ 'cơ chế an toàn'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000307"
+    choices:
+      - "Xưng hô & thuật ngữ: Calandro xưng 'tôi - cô'; giữ chức trách 'quan sát viên quân sự'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000308"
+    choices:
+      - "Điểm nhìn, đại từ & nhấn mạnh Markdown: trần thuật quy chiếu Tanya bằng 'nó' và tên 'Tanya' theo DEC-P01-001; bọc chính xác câu độc thoại nội tâm cuối đoạn '*Không đời nào có chuyện đó đâu*.' khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000309"
+    choices:
+      - "Đại từ trần thuật & phủ định: quy chiếu Calandro bằng 'ông', Tanya bằng 'nó', phía pháo binh bằng 'họ'; giữ cấu trúc nhượng bộ 'Cho dù ông có cố gặng hỏi đến đâu đi nữa, nó cũng không thể nói cho ông biết...'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000310"
+    choices:
+      - "Điểm nhìn nội tâm, giả định & thuật ngữ: độc thoại nội tâm dùng đại từ tự quy chiếu 'mình' theo DEC-P01-001; giữ 'hồ sơ chính thức', 'CV' và câu điều kiện giả định về nguy cơ để lại vết nhơ trong hồ sơ."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000311"
+    choices:
+      - "Đại từ khái quát: dùng 'bạn' cho chủ thể khái quát trong suy nghĩ về việc tự bảo toàn bản thân lâu dài và giữ gìn thể diện bề ngoài."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000312"
+    choices:
+      - "Cấu trúc điệp: giữ nhịp điệp ba danh ngữ 'Sơ yếu lý lịch hoàn hảo, sự nghiệp hoàn hảo, tương lai hoàn hảo.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000313"
+    choices:
+      - "Thuật ngữ & xưng hô: giữ 'tín hiệu nhận dạng địch–ta', 'ân sủng của Thượng đế' và xưng hô 'tôi ... ạ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000314"
+    choices:
+      - "Điểm nhìn, đại từ & cấu trúc lựa chọn: điểm nhìn ngôi thứ nhất của Tanya dùng 'mình' cho bản thân và 'ông' cho Calandro; giữ cặp liên từ lựa chọn 'hoặc là vì... hoặc là vì...'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000315"
+    choices:
+      - "Điểm nhìn nội tâm & đại từ: giữ đại từ 'mình' (Tanya) và 'ông' (Calandro)."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000316"
+    choices:
+      - "Xưng hô & thuật ngữ: trong lời than phiền thành tiếng, Tanya xưng 'Tôi' / 'mình'; giữ 'huấn luyện viên', 'tiền tuyến', 'quan sát viên' và 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000317"
+    choices:
+      - "Đại từ & điều kiện: dùng 'chúng ta' trong câu điều kiện khép lại đoạn."
