@@ -1,0 +1,394 @@
+task_id: "vol-09-ch-02-b11-argon-review"
+parent_task_id: "vol-09-ch-02-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-09"
+chapter: 2
+source_package: "work/vol-09/batches/ch-02-b11-source.jsonl"
+target_translation: "translations/vol-09/ch-02-b11.jsonl"
+status: "approved"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000415"
+    severity: "minor"
+    category: "diction"
+    issue: "Từ 'thương vong' bao gồm cả bị thương lẫn thiệt mạng, rộng hơn một chút so với danh từ chỉ số ca tử vong trong nguồn."
+    recommendation: "Có thể giữ nguyên vì vẫn thuận ngữ cảnh chiến trường, hoặc cân nhắc chỉnh nhẹ ở bước chuốt văn thành 'Ít người thiệt mạng còn số vụ va chạm thì ngày một giảm.'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000424"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Cấu trúc 'Tay Zettour đó quá đỗi bất an' trong tiếng Việt dễ được hiểu thành bản thân Zettour đang cảm thấy bất an, trong khi tính từ ở nguồn mang nghĩa gây bất an / đáng lo ngại cho phía Drake (như được giải thích tiếp ở p000425)."
+    recommendation: "Nên làm rõ sắc thái gây bất an ở bước chuốt văn, chẳng hạn: 'Tay Zettour đó thật khiến người ta quá đỗi bất an.' hoặc 'Tay Zettour đó quá đỗi đáng ngại.'."
+pending_term_recommendations:
+  - source_term: "Lergen Kampfgruppe"
+    proposed_vi: "Kampfgruppe Lergen"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000415"
+      - "YS-LN09/Text/chapter006.xhtml/p000420"
+    rationale: "Giữ thống nhất tuyệt đối với sổ thuật ngữ tạm của tập 9 cho đơn vị chiến thuật do Đại tá Lergen chỉ huy."
+    status: "proposed"
+  - source_term: "the Lord / the imperials / imperial forces"
+    proposed_vi: "Chúa / quân Đế quốc"
+    alternatives_vi:
+      - "lực lượng Đế quốc"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000416"
+      - "YS-LN09/Text/chapter006.xhtml/p000428"
+    rationale: "Nhất quán với các batch trước trong chương 2 tập 9 và sổ pending từ các tập trước."
+    status: "proposed"
+  - source_term: "Mr. John"
+    proposed_vi: "ông John"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000417"
+    rationale: "Dịch trung tính, sát chữ và không suy diễn thêm thông tin ngoài văn cảnh."
+    status: "proposed"
+  - source_term: "chain of command / command authority"
+    proposed_vi: "hệ thống chỉ huy / quyền chỉ huy"
+    alternatives_vi:
+      - "chuỗi chỉ huy / thẩm quyền chỉ huy"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000419"
+      - "YS-LN09/Text/chapter006.xhtml/p000421"
+    rationale: "Khớp với sổ pending từ tập 1 cho hệ thống chỉ huy và diễn đạt chuẩn xác vấn đề chia sẻ quyền chỉ huy giữa sĩ quan quân sự với sĩ quan chính trị."
+    status: "proposed"
+  - source_term: "Sue / Mikel / Tanechka / Zettour"
+    proposed_vi: "Sue / Mikel / Tanechka / Zettour"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000420"
+      - "YS-LN09/Text/chapter006.xhtml/p000421"
+      - "YS-LN09/Text/chapter006.xhtml/p000424"
+    rationale: "Giữ nguyên tên riêng nhân vật nhất quán với các batch ch-02-b08, ch-02-b09 và ch-02-b10."
+    status: "proposed"
+  - source_term: "multinational voluntary army"
+    proposed_vi: "đội quân tình nguyện đa quốc gia"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000421"
+    rationale: "Khớp hoàn toàn với phương án đã khóa ở batch ch-02-b07 trong sổ pending."
+    status: "proposed"
+  - source_term: "Federation leadership / the Federation / the Communists / Communists"
+    proposed_vi: "giới lãnh đạo Liên bang / Liên bang / đám Cộng sản"
+    alternatives_vi:
+      - "những người Cộng sản"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000428"
+      - "YS-LN09/Text/chapter006.xhtml/p000445"
+      - "YS-LN09/Text/chapter006.xhtml/p000452"
+    rationale: "Giữ đúng định danh Liên bang và sắc thái ác cảm trong điểm nhìn của Trung tá Drake đối với phía Cộng sản."
+    status: "proposed"
+  - source_term: "decapitation strike"
+    proposed_vi: "đòn tập kích chặt đầu chỉ huy"
+    alternatives_vi:
+      - "đòn tấn công chặt đầu chỉ huy"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000430"
+    rationale: "Đồng bộ với thuật ngữ 'chiến thuật chặt đầu chỉ huy' (decapitation tactics) đã dùng xuyên suốt tập 4, tập 8 và tập 9."
+    status: "proposed"
+  - source_term: "the officer’s dilemma"
+    proposed_vi: "*thế tiến thoái lưỡng nan của người sĩ quan*"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000432"
+    rationale: "Diễn đạt tự nhiên, chuẩn xác thuật ngữ tâm lý chỉ huy và giữ nguyên nhấn mạnh chữ nghiêng theo DEC-P01-002."
+    status: "proposed"
+  - source_term: "Colonel…sir? / Colonel (addressing Lieutenant Colonel Drake)"
+    proposed_vi: "Trung tá… thưa ngài? / thưa Trung tá"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000435"
+      - "YS-LN09/Text/chapter006.xhtml/p000448"
+    rationale: "Dịch đúng quân hàm thực tế Trung tá (Lieutenant Colonel) của Drake theo quy ước xuyên suốt bộ truyện."
+    status: "proposed"
+  - source_term: "orderly"
+    proposed_vi: "người lính cần vụ"
+    alternatives_vi:
+      - "lính cần vụ"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000436"
+    rationale: "Khớp với phương án tạm trong sổ pending tập 9 (orderly on duty -> người lính cần vụ đang trực)."
+    status: "proposed"
+  - source_term: "officers’ mess"
+    proposed_vi: "nhà ăn sĩ quan"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000444"
+      - "YS-LN09/Text/chapter006.xhtml/p000446"
+    rationale: "Thuật ngữ sinh hoạt quân sự chuẩn xác, tự nhiên."
+    status: "proposed"
+  - source_term: "the Federation’s language / Commonwealth / colonies / colonists"
+    proposed_vi: "ngôn ngữ của Liên bang / Khối Thịnh vượng chung / các thuộc địa / dân thuộc địa"
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000442"
+      - "YS-LN09/Text/chapter006.xhtml/p000445"
+      - "YS-LN09/Text/chapter006.xhtml/p000447"
+      - "YS-LN09/Text/chapter006.xhtml/p000449"
+    rationale: "Thống nhất với sổ thuật ngữ tạm ở batch ch-02-b08, ch-02-b10 và toàn bộ dự án."
+    status: "proposed"
+  - source_term: "scones / hardtack"
+    proposed_vi: "bánh nướng scone / lương khô"
+    alternatives_vi:
+      - "bánh scone"
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000454"
+    rationale: "Phân biệt rõ món bánh truyền thống kiểu Anh với khẩu phần lương khô cứng nơi chiến trường."
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000415"
+    locked:
+      speaker: "Drake (độc thoại thành tiếng)"
+      terms:
+        - "Kampfgruppe Lergen"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000416"
+    locked:
+      pronouns: "ông (Drake)"
+      terms:
+        - "Chúa"
+        - "quân Đế quốc"
+      modality: "Phủ định 'Cũng chẳng phải ông thực sự biết ơn kẻ thù hay gì cả' và song đề suy đoán 'Có lẽ... hoặc biết đâu...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000417"
+    locked:
+      speaker: "Drake (độc thoại thành tiếng)"
+      terms:
+        - "ông John"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000418"
+    locked:
+      pov: "Trần thuật ngôi thứ ba theo điểm nhìn Drake"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000419"
+    locked:
+      speaker: "Drake (độc thoại thành tiếng)"
+      pronouns: "chúng ta / tôi"
+      terms:
+        - "hệ thống chỉ huy"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000420"
+    locked:
+      terms:
+        - "Kampfgruppe Lergen"
+        - "Sue"
+      pronouns: "họ (đơn vị của Drake)"
+      modality: "Giữ sắc thái 'dường như đang nghiêng về phía có lợi cho họ'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000421"
+    locked:
+      terms:
+        - "Mikel"
+        - "Tanechka"
+        - "quyền chỉ huy"
+        - "đội quân tình nguyện đa quốc gia"
+      modality: "Câu hỏi giả định tương lai ở cuối đoạn"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000422"
+    locked:
+      speaker: "Drake (độc thoại thành tiếng)"
+      pronouns: "chúng ta / mình"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000423"
+    locked:
+      names_and_terms:
+        - "Drake"
+      emphasis: "Chỉ in nghiêng từ đầu '*Không.*' theo đúng <html:em>, phần trần thuật sau để thường"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000424"
+    locked:
+      speaker: "Drake (độc thoại thành tiếng)"
+      terms:
+        - "Zettour"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000425"
+    locked:
+      pronouns: "viên tướng địch / ông ta (Zettour)"
+      modality: "Giữ cấu trúc đối lập hai thái cực hành động và câu giả định ước muốn 'Giá mà...'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000426"
+    locked:
+      pronouns: "ông ta (Zettour)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000427"
+    locked:
+      names_and_terms:
+        - "Drake"
+        - "máu và sắt"
+      pronouns: "ông ta (Zettour)"
+      modality: "Phủ định kép khẳng định chắc chắn 'không chút nghi ngờ rằng ông ta đang mưu tính chuyện chẳng lành'"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000428"
+    locked:
+      pronouns: "ông (Drake)"
+      terms:
+        - "quân Đế quốc"
+        - "giới lãnh đạo Liên bang"
+        - "đám Cộng sản"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000429"
+    locked:
+      pronouns: "ông (Drake)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000430"
+    locked:
+      terms:
+        - "đòn tập kích chặt đầu chỉ huy"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000431"
+    locked:
+      names_and_terms:
+        - "Drake"
+        - "chỉ huy đơn vị"
+        - "chiến thuật và chiến lược"
+      pronouns: "ông (Drake)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000432"
+    locked:
+      terms:
+        - "*thế tiến thoái lưỡng nan của người sĩ quan*"
+      emphasis: "Bọc *...* đúng cụm '*thế tiến thoái lưỡng nan của người sĩ quan*' theo <html:em>"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000433"
+    locked:
+      pronouns: "Ông (Drake)"
+      emphasis: "Chỉ bọc *...* cho câu hỏi nội tâm '*Phải làm sao đây?*' theo <html:em>"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000434"
+    locked:
+      pronouns: "Ông (Drake)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000435"
+    locked:
+      speaker: "Người lính cần vụ gọi Drake"
+      pronouns: "Trung tá… thưa ngài (gọi Drake, có tiểu từ lễ phép ạ)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000436"
+    locked:
+      names_and_terms:
+        - "người lính cần vụ"
+        - "Drake"
+      pronouns: "ông / Ông (Drake)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000437"
+    locked:
+      speaker: "Drake"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000438"
+    locked:
+      names_and_terms:
+        - "Drake"
+      pronouns: "mình (trong câu nội tâm trực tiếp) / ông (trong trần thuật)"
+      modality: "Giữ giả định quá khứ tiếc nuối ở câu nội tâm thứ hai và cấu trúc phủ định ngoại trừ ('chẳng tài nào... trừ khi...') ở câu cuối"
+      emphasis: "Bọc *...* đúng hai câu nội tâm '*Đúng là phí thời gian.*' và '*Đáng lẽ nếu đã bỏ ra ngần ấy thời gian suy nghĩ thì mình phải nảy ra được một hay ba ý kiến hay ho rồi mới phải…*' theo <html:em>"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000439"
+    locked:
+      pronouns: "ông (Drake)"
+      terms:
+        - "cánh phóng viên"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000440"
+    locked:
+      pronouns: "ông (Drake) / họ (cánh phóng viên)"
+      modality: "Điều kiện giả định ở vế đầu và tự phủ định bác bỏ ở vế sau ('Không được, sĩ quan không thể cứ thế đi la cà say xỉn được.')"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000441"
+    locked:
+      speaker: "Drake hỏi người lính cần vụ"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000442"
+    locked:
+      speaker: "Người lính cần vụ trả lời Drake"
+      pronouns: "chúng ta (có tiểu từ lễ phép ạ)"
+      terms:
+        - "thuộc địa"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000443"
+    locked:
+      speaker: "Drake"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000444"
+    locked:
+      pronouns: "ông (Drake)"
+      terms:
+        - "nhà ăn sĩ quan"
+      emphasis: "Chỉ bọc *...* cho mệnh đề nội tâm đầu câu '*Đáng để mong chờ đấy*' theo <html:em>"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000445"
+    locked:
+      terms:
+        - "ngôn ngữ của Liên bang"
+        - "Khối Thịnh vượng chung"
+        - "các thuộc địa"
+        - "dân thuộc địa"
+      modality: "Giữ phủ định 'không được viết bằng ngôn ngữ của Liên bang' và khẳng định duy nhất ở câu cuối"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000446"
+    locked:
+      pronouns: "ông (Drake)"
+      terms:
+        - "nhà ăn sĩ quan"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000447"
+    locked:
+      pronouns: "ông (Drake)"
+      terms:
+        - "Khối Thịnh vượng chung"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000448"
+    locked:
+      speaker: "Thuộc cấp mời Drake"
+      pronouns: "Ngài / thưa Trung tá (gọi Drake)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000449"
+    locked:
+      speaker: "Drake"
+      pronouns: "tôi"
+      terms:
+        - "dân thuộc địa"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000450"
+    locked:
+      speaker: "Thuộc cấp trêu Drake"
+      terms:
+        - "tà đạo"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000451"
+    locked:
+      pronouns: "họ (phía Drake)"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000452"
+    locked:
+      speaker: "Drake"
+      pronouns: "tôi / chúng ta — họ (phía Cộng sản)"
+      terms:
+        - "Nhập gia tùy tục"
+        - "Đám Cộng sản"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000453"
+    locked:
+      pronouns: "ông (Drake)"
+      emphasis: "Chỉ bọc *...* cho phần nội tâm sau dấu gạch ngang '*Ồ, hôm nay là mứt việt quất*' theo <html:em>"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000454"
+    locked:
+      terms:
+        - "Bánh quy"
+        - "bánh nướng scone"
+        - "bánh mì trắng"
+        - "lương khô"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000455"
+    locked:
+      pronouns: "họ (phía đơn vị của Drake)"
+      terms:
+        - "bữa ăn đủ món"
+      emphasis: "none"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000456"
+    locked:
+      pronouns: "họ (phía đơn vị của Drake)"
+      terms:
+        - "tiền tuyến"
+      emphasis: "none"
