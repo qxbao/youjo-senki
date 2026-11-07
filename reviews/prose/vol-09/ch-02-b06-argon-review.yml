@@ -1,0 +1,260 @@
+task_id: "vol-09-ch-02-b06-argon-review"
+parent_task_id: "vol-09-ch-02-b06"
+volume: "vol-09"
+chapter: 2
+reviewer: "gemini-4-argon-medium"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000204"
+    severity: "minor"
+    category: "tone_and_diction"
+    issue: "Cụm động từ 'moi được' và danh xưng 'một kẻ' mang sắc thái hơi suồng sã so với ngữ cảnh mô tả tài đàm phán mềm mỏng, lịch thiệp của Trung tá Uger (đối chiếu p000206)."
+    recommendation: "Có thể giữ nguyên hoặc cân nhắc làm mềm ở bước chuốt văn thành 'khéo léo thuyết phục để lấy được số vật tư cần thiết từ một người...' nhằm đồng bộ với sắc thái lịch thiệp ở p000206."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000210"
+    severity: "minor"
+    category: "pronouns_and_address"
+    issue: "Đại từ ngôi thứ hai 'ông' trong câu thoại giữa Lergen và Rudersdorf hơi trung tính so với hệ quy chiếu cấp bậc (Đại tá Lergen thưa Trung tướng Rudersdorf là 'Tướng quân'/'ngài' ở p000199, còn Rudersdorf gọi cấp dưới là 'anh'/'các anh')."
+    recommendation: "Theo nhịp đối thoại (p000209 Rudersdorf nêu nghịch lý thiếu người, p000210 Lergen đáp lời dè dặt, p000211 Rudersdorf chốt lệnh chọn người), có thể cân nhắc đổi 'ông' thành 'ngài' ('…Tôi chắc là ngài cũng hiểu việc đó khó khăn đến mức nào.') để nhất quán tôn ti quân hàm."
+pending_term_recommendations:
+  - source_term: "tactical commander"
+    proposed_vi: "chỉ huy chiến thuật"
+    alternatives_vi:
+      - "tư lệnh chiến thuật"
+    rationale: "Phù hợp để chỉ năng lực chỉ huy tác chiến cấp chiến thuật ở tiền tuyến đối lập với công tác hành chính quân sự - dân sự ở hậu phương."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000200"
+    status: "pending"
+  - source_term: "Lieutenant Colonel Uger / Uger"
+    proposed_vi: "Trung tá Uger / Uger"
+    alternatives_vi: []
+    rationale: "Khớp với cấp bậc đã cập nhật từ tập 8 trong sổ thuật ngữ tạm."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000201"
+      - "YS-LN09/Text/chapter006.xhtml/p000203"
+    status: "pending"
+  - source_term: "military administration"
+    proposed_vi: "hành chính quân sự"
+    alternatives_vi:
+      - "quản trị quân sự"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng ở tập 8 để chỉ bộ máy quản lý hành chính tại vùng lãnh thổ do quân đội tiếp quản."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000207"
+    status: "pending"
+  - source_term: "THE SAME DAY, THE EASTERN FRONT"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, MẶT TRẬN PHÍA ĐÔNG"
+    alternatives_vi: []
+    rationale: "Theo đúng mẫu tiêu đề chuyển cảnh và thuật ngữ mặt trận phía đông đã ổn định."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000212"
+    status: "pending"
+  - source_term: "multinational unit"
+    proposed_vi: "đơn vị đa quốc gia"
+    alternatives_vi: []
+    rationale: "Nhất quán với thuật ngữ tạm chỉ đơn vị pháp sư tình nguyện đa quốc gia ở mặt trận phía đông."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000216"
+    status: "pending"
+  - source_term: "Hofen salient / salient"
+    proposed_vi: "mấu lồi Hofen / mấu lồi"
+    alternatives_vi:
+      - "vùng lồi Hofen"
+    rationale: "Thuật ngữ địa hình quân sự chuẩn xác chỉ phần chiến tuyến nhô sâu vào khu vực địch kiểm soát, dùng làm bàn đạp tiến công."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000217"
+      - "YS-LN09/Text/chapter006.xhtml/p000223"
+      - "YS-LN09/Text/chapter006.xhtml/p000235"
+    status: "pending"
+  - source_term: "301st Division"
+    proposed_vi: "Sư đoàn 301"
+    alternatives_vi:
+      - "Sư đoàn số 301"
+    rationale: "Cách gọi phiên hiệu sư đoàn ngắn gọn, tự nhiên trong thoại báo cáo chiến sự."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000217"
+    status: "pending"
+  - source_term: "Eastern Army Group / army group"
+    proposed_vi: "Cụm tập đoàn quân phía Đông / cụm tập đoàn quân"
+    alternatives_vi: []
+    rationale: "Đối xứng hoàn toàn với 'Cụm tập đoàn quân phía Tây' (Western Army Group) và thuật ngữ 'cụm tập đoàn quân' (army group) trong sổ pending."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000219"
+      - "YS-LN09/Text/chapter006.xhtml/p000221"
+      - "YS-LN09/Text/chapter006.xhtml/p000237"
+    status: "pending"
+  - source_term: "strategic reserves"
+    proposed_vi: "lực lượng dự bị chiến lược"
+    alternatives_vi:
+      - "quân dự bị chiến lược"
+    rationale: "Thuật ngữ quân sự chuẩn xác, dùng xuyên suốt cuộc tranh luận học thuật và tác chiến của Zettour."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000220"
+      - "YS-LN09/Text/chapter006.xhtml/p000221"
+      - "YS-LN09/Text/chapter006.xhtml/p000223"
+      - "YS-LN09/Text/chapter006.xhtml/p000226"
+      - "YS-LN09/Text/chapter006.xhtml/p000230"
+    status: "pending"
+  - source_term: "armored division / mechanized division / aerial mage battalion / depleted infantry divisions"
+    proposed_vi: "sư đoàn thiết giáp / sư đoàn cơ giới / tiểu đoàn pháp sư trên không / vài sư đoàn bộ binh đã hao hụt nặng nề"
+    alternatives_vi: []
+    rationale: "Chuẩn xác về biên chế binh chủng và tình trạng hao hụt quân số."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000220"
+      - "YS-LN09/Text/chapter006.xhtml/p000223"
+    status: "pending"
+  - source_term: "general retreat"
+    proposed_vi: "tổng rút lui"
+    alternatives_vi:
+      - "tổng triệt thoái"
+    rationale: "Diễn đạt rõ quy mô rút lui toàn tuyến theo giáo trình quân sự."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000222"
+    status: "pending"
+  - source_term: "key terrain"
+    proposed_vi: "địa hình trọng yếu"
+    alternatives_vi:
+      - "địa bàn trọng yếu"
+    rationale: "Thuật ngữ chuẩn trong lý luận quân sự khi đặt đối lập với tính linh hoạt của lực lượng dự bị chiến lược."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000226"
+    status: "pending"
+  - source_term: "operations staff officer"
+    proposed_vi: "sĩ quan tham mưu tác chiến"
+    alternatives_vi: []
+    rationale: "Phân biệt rõ chuyên ngành tham mưu tác chiến trong bộ tham mưu Cụm tập đoàn quân phía Đông."
+    segment_ids:
+      - "YS-LN09/Text/chapter006.xhtml/p000237"
+    status: "pending"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000198"
+    locked:
+      - "Giữ đại từ 'Ông ấy' chỉ ứng viên chỉ huy đang được bàn tới và nhấn mạnh Markdown '*sẽ*' theo đúng DEC-P01-002."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000199"
+    locked:
+      - "Giữ lời thưa 'Vâng, thưa Tướng quân', đại từ 'ông ấy', địa danh 'miền tây' và ý 'Xét về mặt nhân sự, ông ấy là một lựa chọn rất thuận tiện'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000200"
+    locked:
+      - "Giữ thuật ngữ 'chỉ huy chiến thuật', 'những vấn đề giao thoa giữa dân sự và quân sự', cùng câu hỏi tình thái về nguy cơ làm mai một tài năng."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000201"
+    locked:
+      - "Giữ tên riêng 'Lergen', cấp bậc 'Trung tá Uger', logic 'Nếu một người là chưa đủ tốt, vậy thì hai người sẽ ổn' và câu đề xuất hỗ trợ."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000202"
+    locked:
+      - "Giữ tên 'Rudersdorf', đại từ 'Tôi', phủ định 'không cử quá một người' và thuật ngữ 'Các sĩ quan tham mưu dùng được'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000203"
+    locked:
+      - "Giữ quan hệ thời gian - nhận thức ('Vào thời điểm phương án của mình bị bác bỏ, Lergen không hề biết rằng...') và việc Uger được trọng dụng nhờ năng lực đàm phán."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000204"
+    locked:
+      - "Giữ thuật ngữ 'vật tư cần thiết', 'các sĩ quan tham mưu' và phủ định quá khứ 'xưa nay chưa từng được coi trọng'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000205"
+    locked:
+      - "Giữ quan hệ hệ quả và ý nhu cầu dành cho người biết dàn xếp thỏa hiệp cao không có giới hạn."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000206"
+    locked:
+      - "Giữ cụm trong ngoặc kép chỉ biệt danh của Uger bên ngành đường sắt, thuật ngữ 'giới dân sự ở hậu phương' và hệ quả vấp phải phản đối bất chấp thể diện."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000207"
+    locked:
+      - "Giữ các thuật ngữ 'sư đoàn', 'Bộ Tổng tham mưu', 'hành chính quân sự', 'Zettour', 'Bộ Tư lệnh Tối cao', 'miền đông' và sự đối lập giữa đáp ứng nhân sự trên giấy tờ với tìm người thực sự làm được việc."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000208"
+    locked:
+      - "Giữ thuật ngữ 'các sĩ quan tham mưu', tình thái 'Có lẽ' và hành động ôm đầu trước nhận xét của Rudersdorf."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000209"
+    locked:
+      - "Giữ đại từ 'Chúng ta' và thế đối lập giữa việc không đủ người với việc vẫn buộc phải cử người đi."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000210"
+    locked:
+      - "Giữ đại từ tự xưng 'Tôi' và ý nhận thức về mức độ khó khăn của việc chọn nhân sự (lưu ý khuyến nghị minor về đại từ ngôi thứ hai 'ngài')."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000211"
+    locked:
+      - "Giữ mệnh lệnh chọn người, địa danh 'miền tây', 'hậu phương', điều kiện phủ định 'Nếu không giữ lại...' và rủi ro 'không tiếp thu đồng đều được các bài học từ hai mặt trận phía tây và phía đông'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000212"
+    locked:
+      - "Giữ nguyên dòng tiêu đề chuyển cảnh viết hoa 'CÙNG NGÀY HÔM ĐÓ, MẶT TRẬN PHÍA ĐÔNG'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000213"
+    locked:
+      - "Giữ thuật ngữ 'chính quốc', đối lập với 'ngoài chiến trường', và giữ nguyên phạm vi nhấn mạnh Markdown '*Tại sao các người không thể cấp thêm binh lính cho chúng tôi?*' theo DEC-P01-002."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000214"
+    locked:
+      - "Giữ thuật ngữ 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000215"
+    locked:
+      - "Giữ cấp bậc 'Trung tướng Zettour', vai trò cố vấn tại 'mặt trận phía đông', đại từ 'ông' và chi tiết rít một trong vài điếu thuốc lá quý giá cuối cùng còn sót lại."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000216"
+    locked:
+      - "Giữ câu hỏi về 'đơn vị đa quốc gia'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000217"
+    locked:
+      - "Giữ đại từ 'Chúng' (chỉ quân địch), địa danh 'mấu lồi Hofen', phiên hiệu 'Sư đoàn 301', đại từ 'họ' (chỉ quân bạn) và dự báo không cầm cự được lâu."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000218"
+    locked:
+      - "Giữ nhịp câu ngắn mô tả thực trạng 'Lực lượng bị kéo căng mỏng. Quân dự bị hạn chế.'"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000219"
+    locked:
+      - "Giữ sự đối lập giữa lý thuyết với thực tế, tên đơn vị 'Cụm tập đoàn quân phía Đông' và thuật ngữ 'tỷ lệ tiêu hao'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000220"
+    locked:
+      - "Giữ chính xác các thuật ngữ 'Lực lượng dự bị chiến lược', 'một sư đoàn thiết giáp', 'một sư đoàn cơ giới', 'một tiểu đoàn pháp sư trên không' và 'vài sư đoàn bộ binh đã hao hụt nặng nề'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000221"
+    locked:
+      - "Giữ thuật ngữ 'lực lượng dự bị chiến lược' và 'cụm tập đoàn quân'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000222"
+    locked:
+      - "Giữ thuật ngữ 'tổng rút lui', 'trường đại học quân sự', giả định quá khứ về việc Zettour hướng dẫn rút quân, và cấu trúc tăng tiến phủ định 'chẳng có lính bổ sung nào đang chờ sẵn, huống hồ là quân tiếp viện'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000223"
+    locked:
+      - "Giữ đề xuất điều động 'tiểu đoàn pháp sư trên không' từ 'lực lượng dự bị chiến lược', địa danh 'mấu lồi Hofen' và mục tiêu 'tiêu diệt hoàn toàn quân địch'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000224"
+    locked:
+      - "Giữ câu bác bỏ ngắn gọn 'Đừng làm thế.'"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000225"
+    locked:
+      - "Giữ lời gọi 'Thưa Tướng quân?'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000226"
+    locked:
+      - "Giữ đại từ 'Các anh' khi Zettour nói với các sĩ quan, cùng hai vế đối lập 'địa hình trọng yếu' và 'tính linh hoạt của lực lượng dự bị chiến lược'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000227"
+    locked:
+      - "Giữ đại từ 'Ông' và thuật ngữ 'trường đại học quân sự'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000228"
+    locked:
+      - "Giữ thuật ngữ 'hoàng gia', 'Tổ quốc', đại từ 'ông' và câu hỏi nội tâm gián tiếp tự do 'Phải chăng ông đã già rồi?'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000229"
+    locked:
+      - "Giữ đại từ 'Các anh', 'chúng ta' và lập luận chất vấn về việc có đủ nhân lực để khai thác vị trí đó ngay cả khi nó có ích về lý thuyết hay không."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000230"
+    locked:
+      - "Giữ ba yếu tố 'Thời gian, không gian, và lực lượng dự bị chiến lược.'"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000231"
+    locked:
+      - "Giữ nhận định 'Một sĩ quan phải luôn biết tính toán.'"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000232"
+    locked:
+      - "Giữ cách xưng hô 'Xin phép ngài, thưa Tướng quân.'"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000233"
+    locked:
+      - "Giữ đại từ 'Tôi' của Zettour."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000234"
+    locked:
+      - "Giữ đại từ 'ngài' và nội dung hỏi xác nhận về phương án rút quân."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000235"
+    locked:
+      - "Giữ câu trần thuật mở đầu không in nghiêng và giữ đúng phạm vi nhấn mạnh Markdown '*Ra vậy—... hoàn toàn hợp lý.*' ở câu nội tâm theo DEC-P01-002, cùng thuật ngữ 'mấu lồi' và 'bàn đạp tiến công trọng yếu'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000236"
+    locked:
+      - "Giữ câu 'Nhưng Zettour chỉ mỉm cười.'"
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000237"
+    locked:
+      - "Giữ thuật ngữ 'sĩ quan tham mưu tác chiến', dấu nháy đơn quanh từ 'nghe' và tên đơn vị 'Cụm tập đoàn quân phía Đông'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000238"
+    locked:
+      - "Giữ câu cảm thán ngập ngừng 'Ơ kìa, chuyện đó…!'."
+  - segment_id: "YS-LN09/Text/chapter006.xhtml/p000239"
+    locked:
+      - "Giữ cấu trúc phủ định kép khẳng định năng lực 'Mấy gã này hoàn toàn không phải hạng bất tài.'"
