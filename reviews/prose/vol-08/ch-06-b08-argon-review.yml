@@ -1,0 +1,266 @@
+task_id: "vol-08-ch-06-b08-argon-review"
+parent_task_id: "vol-08-ch-06-b08"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 6
+target_translation: "translations/vol-08/ch-06-b08.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000269"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Cụm 'phải vắt kiệt sức mới thốt ra được' làm quá mức độ của động từ nguyên bản khi mô tả việc vị đại tá cố ép giọng nói thoát ra khỏi cổ họng đang nghẹn lại vì sợ hãi."
+    basis: "Theo canon/style-guide.md, cần giữ đúng sắc thái và mức độ của bản gốc; nguyên bản chỉ diễn tả sự khó nhọc khi rặn/nặn ra từng lời vì căng thẳng chứ không phải vắt kiệt thể lực."
+    recommendation: "Đổi 'phải vắt kiệt sức mới thốt ra được' thành 'phải khó nhọc lắm mới thốt ra được' hoặc 'phải cố nặn ra từng tiếng'."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000287"
+    severity: "minor"
+    category: "addition"
+    issue: "Bản dịch tự thêm cụm giải thích 'để giữ thành' ('cam kết dốc toàn bộ mọi thứ hiện có để giữ thành') không có trong nguyên bản."
+    basis: "Theo canon/style-guide.md, không tự thêm giải thích thu hẹp phạm vi nghĩa khi nguồn chỉ nói chung về cam kết huy động mọi nguồn lực hiện có."
+    recommendation: "Lược bỏ cụm 'để giữ thành', giữ là 'cam kết dốc toàn bộ mọi thứ hiện có giờ đã là chuyện của quá khứ xa xôi rồi'."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000306"
+    severity: "minor"
+    category: "style_naturalness"
+    issue: "Cụm 'nhóm nhà báo giới hạn kia' bám sát máy móc cấu trúc tiếng Anh và lược mất ý mệnh đề quan hệ phụ thuộc chỉ số lượng nhà báo hạn chế mà phía Liên bang đã tiếp nhận."
+    basis: "Theo canon/style-guide.md, viết tiếng Việt tự nhiên, rõ ràng và giữ đủ chi tiết của bản gốc."
+    recommendation: "Đổi 'ngay cả nhóm nhà báo giới hạn kia đặt chân vào' thành 'ngay cả nhóm nhỏ nhà báo được phép vào một cách hạn chế như vừa qua đặt chân tới'."
+pending_term_recommendations:
+  - source_term: "Imperial Army / B Group"
+    proposed_vi: "Lục quân Đế quốc / Cụm B"
+    category: "tên gọi / phiên hiệu"
+    status: "proposed"
+    rationale: "Đồng bộ với hệ thống thuật ngữ đã dùng xuyên suốt vol-08 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000267"
+      - "YS-LN08/Text/chapter022.xhtml/p000278"
+      - "YS-LN08/Text/chapter022.xhtml/p000291"
+  - source_term: "commissar / Comrade Colonel / comrades-in-arms"
+    proposed_vi: "dân ủy / Đồng chí Đại tá / các đồng chí chiến hữu"
+    category: "chức danh / xưng hô"
+    status: "proposed"
+    rationale: "Phù hợp văn phong chính trị – quân sự của Liên bang và đồng bộ với chức danh của Loria ở batch trước."
+    alternatives_vi:
+      - "ủy viên dân ủy / Đồng chí Đại tá / các chiến hữu"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000269"
+      - "YS-LN08/Text/chapter022.xhtml/p000272"
+      - "YS-LN08/Text/chapter022.xhtml/p000274"
+  - source_term: "tyranny of distance / nationalism"
+    proposed_vi: "sự bạo ngược của khoảng cách / chủ nghĩa dân tộc"
+    category: "thuật ngữ"
+    status: "proposed"
+    rationale: "Giữ đúng ẩn dụ địa chiến lược quen thuộc về khoảng cách tiếp vận và khái niệm chính trị học."
+    alternatives_vi:
+      - "sự khắc nghiệt của khoảng cách địa lý / chủ nghĩa dân tộc"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000278"
+  - source_term: "party leadership / general secretary / comrade general secretary / Josefgrad"
+    proposed_vi: "ban lãnh đạo Đảng / Tổng Bí thư / đồng chí Tổng Bí thư / Josefgrad"
+    category: "chức danh / địa danh"
+    status: "proposed"
+    rationale: "Chuẩn thuật ngữ tổ chức Đảng của Liên bang và giữ nguyên tên riêng thành phố Josefgrad."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000280"
+      - "YS-LN08/Text/chapter022.xhtml/p000282"
+      - "YS-LN08/Text/chapter022.xhtml/p000283"
+      - "YS-LN08/Text/chapter022.xhtml/p000286"
+      - "YS-LN08/Text/chapter022.xhtml/p000287"
+      - "YS-LN08/Text/chapter022.xhtml/p000288"
+  - source_term: "checking attack"
+    proposed_vi: "đòn tấn công kiềm chế"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Diễn đạt chuẩn xác khái niệm tác chiến nhằm kìm chân và tiêu hao sinh lực địch ở tuyến giữa."
+    alternatives_vi:
+      - "đợt công kích kiềm chế"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000292"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh"
+    status: "proposed"
+    rationale: "Khớp với mục đề xuất trong work/run-state/pending-terms-index.yml từ các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000295"
+  - source_term: "multinational unit / Comrade Colonel Mikel / Colonel Mikel / magic marine / Drake / Commonwealth"
+    proposed_vi: "đơn vị đa quốc gia / Đồng chí Đại tá Mikel / Đại tá Mikel / pháp sư hải quân đánh bộ / Drake / Khối Thịnh vượng chung"
+    category: "phiên hiệu / quân hàm / tên nhân vật"
+    status: "proposed"
+    rationale: "Đồng bộ hoàn toàn với work/run-state/pending-terms-index.yml của vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000302"
+      - "YS-LN08/Text/chapter022.xhtml/p000303"
+      - "YS-LN08/Text/chapter022.xhtml/p000304"
+      - "YS-LN08/Text/chapter022.xhtml/p000305"
+  - source_term: "Communism / Commonwealth Army"
+    proposed_vi: "Chủ nghĩa Cộng sản / Quân đội Khối Thịnh vượng chung"
+    category: "thuật ngữ / tổ chức"
+    status: "proposed"
+    rationale: "Thống nhất với các mục tương ứng trong sổ pending vol-04 và vol-08."
+    alternatives_vi:
+      - "Chủ nghĩa Cộng sản / Lục quân Khối Thịnh vượng chung"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000306"
+      - "YS-LN08/Text/chapter022.xhtml/p000307"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000267"
+    locks:
+      terms: "Imperial Army -> Lục quân Đế quốc; B Group -> Cụm B"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000268"
+    locks:
+      tone: "Yes -> Vâng (đại tá Liên bang đáp lời Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000269"
+    locks:
+      ranks_and_names: "colonel -> đại tá; Loria -> Loria; commissar -> dân ủy"
+      pronouns: "he -> ông ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000270"
+    locks:
+      pronouns: "I -> tôi; We -> Chúng ta (Loria nói với vị đại tá)"
+      negation_modality: "don't mind -> không bận tâm đâu"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000271"
+    locks:
+      pronouns: "You -> Đồng chí (đại tá hỏi lại Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000272"
+    locks:
+      ranks_and_names: "Comrade Colonel -> Đồng chí Đại tá"
+      pronouns: "I -> tôi; You -> Đồng chí; we -> chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000273"
+    locks:
+      logic: "So sánh nhượng bộ giữa việc khiến người ta sợ hãi với việc chỉ dùng mỗi nỗi sợ để trói buộc con người"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000274"
+    locks:
+      terms: "Comrade -> Đồng chí; comrades-in-arms -> các đồng chí chiến hữu"
+      pronouns: "I -> tôi; Our -> của chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000275"
+    locks:
+      logic: "Đối lập giữa liều lượng nỗi sợ vừa đủ và tác dụng phụ khi quá liều"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000276"
+    locks:
+      tone: "But... -> Nhưng mà..."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000277"
+    locks:
+      terms: "Federation Army officer -> Vị sĩ quan Quân đội Liên bang"
+      pronouns: "We -> Chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000278"
+    locks:
+      terms: "Imperial Army -> Lục quân Đế quốc; tyranny of distance -> sự bạo ngược của khoảng cách; nationalism -> chủ nghĩa dân tộc"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000279"
+    locks:
+      emphasis: "Giữ đúng 2 cụm nhấn mạnh Markdown *Đúng vậy.* và *thiết thực* tương ứng với 2 thẻ em trong nguồn"
+      terms: "material support -> viện trợ vật chất; capitalists -> đám tư bản"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000280"
+    locks:
+      terms: "party leadership -> ban lãnh đạo Đảng; the Empire -> Đế quốc; the Federation -> Liên bang"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000281"
+    locks:
+      logic: "Cấu trúc 'không những... mà đồng thời còn...' cùng chủ ngữ 'Chúng ta'"
+      terms: "armored forces -> lực lượng thiết giáp"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000282"
+    locks:
+      ranks_and_names: "general secretary -> Tổng Bí thư"
+      pronouns: "they / their -> họ / của họ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000283"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown *không còn tồn tại nữa* tương ứng với thẻ em cuối câu trong nguồn"
+      terms: "party leadership -> Ban lãnh đạo Đảng; southern resource area -> vùng tài nguyên phía nam"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000284"
+    locks:
+      terms: "the party -> Đảng"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000285"
+    locks:
+      terms: "comrade generals -> những đồng chí tướng lĩnh"
+      pronouns: "I -> Tôi"
+      negation_modality: "wouldn't be able to -> không thể; not about to go back on -> không định nuốt lời"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000286"
+    locks:
+      terms: "Josefgrad -> Josefgrad"
+      pronouns: "we -> chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000287"
+    locks:
+      ranks_and_names: "general secretary -> Tổng Bí thư"
+      logic: "Không tự chèn cụm 'để giữ thành' vào sau cam kết huy động mọi thứ hiện có"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000288"
+    locks:
+      ranks_and_names: "comrade general secretary -> đồng chí Tổng Bí thư"
+      pronouns: "I -> tôi; our -> của chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000289"
+    locks:
+      pronouns: "I -> Tôi (đại tá cảm ơn Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000290"
+    locks:
+      ranks_and_names: "colonel -> đại tá; Loria -> Loria"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000291"
+    locks:
+      terms: "B Group -> Cụm B"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000292"
+    locks:
+      terms: "central lines -> Tuyến trung tâm; checking attack -> đòn tấn công kiềm chế"
+      modality: "should have performed -> lẽ ra phải thực hiện"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000293"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown *ít nhất đối với Liên bang* tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000294"
+    locks:
+      ranks_and_names: "Loria -> Loria"
+      pronouns: "he -> ông ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000295"
+    locks:
+      terms: "Devil of the Rhine -> Ác quỷ sông Rhine"
+      pronouns: "I -> Tôi; she -> con bé / nó (Loria giả vờ thờ ơ khi nhắc tới Tanya trước mặt cấp dưới)"
+      negation_modality: "There aren't any further details? -> Không có thêm thông tin chi tiết nào sao?"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000296"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown *Nàng...* cho toàn bộ câu độc thoại nội tâm"
+      pov_pronouns: "Her -> Nàng (độc thoại nội tâm si mê của Loria)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000297"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown cho toàn bộ câu độc thoại nội tâm của Loria"
+      pov_pronouns: "My -> của ta; fairy -> nàng tiên nhỏ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000298"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown cho toàn bộ câu độc thoại nội tâm của Loria"
+      pov_pronouns: "My -> của ta; little devil -> Tiểu ác quỷ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000299"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown cho toàn bộ câu độc thoại nội tâm của Loria"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000300"
+    locks:
+      emphasis: "Giữ đúng nhấn mạnh Markdown cho toàn bộ câu độc thoại nội tâm của Loria"
+      pov_pronouns: "I / my -> ta / của ta; fairy -> nàng tiên"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000301"
+    locks:
+      terms: "Moskva -> Moskva"
+      pronouns: "We -> Chúng ta; her -> của nó (thoại giả vờ dửng dưng của Loria); his / him -> ông ta (trần thuật)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000302"
+    locks:
+      terms: "multinational unit -> đơn vị đa quốc gia; the Empire -> Đế quốc"
+      pronouns: "we -> chúng ta"
+      negation_modality: "nothing is certain -> chưa có gì chắc chắn cả; unconfirmed report -> báo cáo chưa xác nhận"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000303"
+    locks:
+      ranks_and_names: "Comrade Colonel Mikel -> Đồng chí Đại tá Mikel"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000304"
+    locks:
+      ranks_and_names: "Colonel Mikel -> Đại tá Mikel; magic marine -> pháp sư hải quân đánh bộ; Drake -> Drake; lieutenant colonel -> trung tá"
+      terms: "Commonwealth -> Khối Thịnh vượng chung; intelligence agency -> cơ quan tình báo"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000305"
+    locks:
+      terms: "Commonwealth -> Khối Thịnh vượng chung"
+      pronouns: "We -> Chúng ta"
+      negation_modality: "don't need to worry -> không cần phải bận tâm; nothing we need to hide -> chẳng có gì phải giấu giếm cả"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000306"
+    locks:
+      terms: "the West -> phương Tây; Communism -> Chủ nghĩa Cộng sản"
+      negation_modality: "If there were, they would never have let in -> Nếu có, họ đã chẳng bao giờ cho phép... đặt chân tới (giả định trái thực tế trong quá khứ)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000307"
+    locks:
+      terms: "Commonwealth Army's intelligence agency -> cơ quan tình báo của Quân đội Khối Thịnh vượng chung"
+      pronouns: "They -> Họ; he -> ông ta (Loria)"
+      negation_modality: "weren't about to show -> không đời nào để lộ"
