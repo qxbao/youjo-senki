@@ -1,0 +1,202 @@
+task_id: "vol-07-ch-06-b07-argon-review"
+parent_task_id: "vol-07-ch-06-b07"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 6
+source_package: "work/vol-07/batches/ch-06-b07-source.jsonl"
+target_translation: "translations/vol-07/ch-06-b07.jsonl"
+review_path: "reviews/prose/vol-07/ch-06-b07-argon-review.yml"
+status: "completed"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter022.xhtml/p000239"
+    issue: "Cụm 'thực thi năng lực của mình' trong câu thứ hai diễn đạt hơi sát chữ phần nói về việc Bộ Tư lệnh Tối cao vận dụng thẩm quyền/chức năng của cơ quan này để đưa ra yêu cầu đối với chiến lược quốc gia."
+    evidence: "Đối chiếu ngữ cảnh thể chế và thẩm quyền của Bộ Tư lệnh Tối cao ở p000239 và p000245."
+    recommendation: "Ở lượt chuốt văn có thể cân nhắc chỉnh nhẹ thành 'vận dụng thẩm quyền của mình' hoặc 'sử dụng quyền năng của mình' để tự nhiên hơn trong văn phong hành chính – quân sự."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter022.xhtml/p000259"
+    issue: "Cụm 'trông coi chẳng ra làm sao' ở câu cuối ghép 'trông' và 'coi' liền nhau dễ gợi nghĩa 'trông coi / giám sát', làm câu hơi vấp khi đọc."
+    evidence: "Đối chiếu câu cuối p000259 mô tả việc mất kiểm soát trước mặt người khác bị đánh giá là khó coi."
+    recommendation: "Ở lượt chuốt văn nên tách chọn một từ như 'trông chẳng ra làm sao' hoặc 'coi chẳng ra làm sao'."
+pending_term_recommendations:
+  - source_term: "Ministry of the Interior / Foreign Office / the administration / civil servants"
+    proposed_vi: "Bộ Nội vụ / Bộ Ngoại giao / chính quyền / đám công chức dân sự"
+    alternatives_vi:
+      - "chính phủ"
+      - "công chức nhà nước"
+    rationale: "Phân biệt rõ tên hai bộ thuộc nhánh hành pháp trong cuộc họp Bộ Tư lệnh Tối cao và giữ thống nhất cách gọi nhóm công chức dân sự từ các lô trước của chương 6."
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000224"
+      - "YS-LN07/Text/chapter022.xhtml/p000226"
+      - "YS-LN07/Text/chapter022.xhtml/p000227"
+      - "YS-LN07/Text/chapter022.xhtml/p000243"
+      - "YS-LN07/Text/chapter022.xhtml/p000252"
+    status: "proposed"
+  - source_term: "Supreme Command / General Staff / the army / national strategy"
+    proposed_vi: "Bộ Tư lệnh Tối cao / Bộ Tổng tham mưu / quân đội / chiến lược quốc gia"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán hệ thống thuật ngữ cơ quan chỉ huy và chiến lược từ sổ pending tập 1–7."
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000227"
+      - "YS-LN07/Text/chapter022.xhtml/p000237"
+      - "YS-LN07/Text/chapter022.xhtml/p000239"
+      - "YS-LN07/Text/chapter022.xhtml/p000242"
+      - "YS-LN07/Text/chapter022.xhtml/p000244"
+      - "YS-LN07/Text/chapter022.xhtml/p000245"
+      - "YS-LN07/Text/chapter022.xhtml/p000251"
+    status: "proposed"
+  - source_term: "cease-fire / peace talks / reparations"
+    proposed_vi: "ngừng bắn / đàm phán hòa bình / những khoản bồi thường chiến phí"
+    alternatives_vi:
+      - "lệnh ngừng bắn"
+      - "bồi thường chiến tranh"
+    rationale: "Kế thừa nhất quán các thuật ngữ ngoại giao – đình chiến đã xác lập trong chương 3 và chương 6 của tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000225"
+      - "YS-LN07/Text/chapter022.xhtml/p000227"
+      - "YS-LN07/Text/chapter022.xhtml/p000232"
+    status: "proposed"
+  - source_term: "THE SAME DAY, IMPERIAL EMBASSY IN ILDOA / military attaché to Ildoa / Colonel von Lergen / the Empire / imperial family / imperial subjects / Ildoa"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, ĐẠI SỨ QUÁN ĐẾ QUỐC TẠI ILDOA / Tùy viên quân sự tại Ildoa / Đại tá von Lergen / Đế quốc / hoàng gia / thần dân Đế quốc / Ildoa"
+    alternatives_vi:
+      - "hoàng tộc"
+    rationale: "Kế thừa nhất quán tiêu đề chuyển cảnh, chức danh tùy viên quân sự, cấp bậc Đại tá của von Lergen ở tập 7 và các danh xưng quốc gia/chính trị."
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000225"
+      - "YS-LN07/Text/chapter022.xhtml/p000236"
+      - "YS-LN07/Text/chapter022.xhtml/p000237"
+      - "YS-LN07/Text/chapter022.xhtml/p000244"
+      - "YS-LN07/Text/chapter022.xhtml/p000254"
+      - "YS-LN07/Text/chapter022.xhtml/p000257"
+      - "YS-LN07/Text/chapter022.xhtml/p000258"
+      - "YS-LN07/Text/chapter022.xhtml/p000262"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000224"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & thuật ngữ: chỉ bọc '*Người của Bộ Nội vụ chăng?*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; 'Ministry of the Interior' -> 'Bộ Nội vụ'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000225"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: viên chức xưng 'Tôi', gọi phía tướng lĩnh là 'Các ngài', dùng 'Chúng ta' cho phía Đế quốc; 'cease-fire' -> 'ngừng bắn'; 'Ildoa' -> 'Ildoa'; giữ câu hỏi nghi vấn 'liệu nó có dẫn tới hòa bình được hay không!'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000226"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & thuật ngữ: chỉ bọc '*Lại một gã làm màu bên Bộ Ngoại giao ư?*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; 'Foreign Office' -> 'Bộ Ngoại giao'; giữ sắc thái đánh giá nội tâm của Zettour."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000227"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: đại diện ngoại giao tự xưng 'những người thuộc Bộ Ngoại giao chúng tôi', gọi phía quân đội là 'các ngài'; 'the army' -> 'quân đội'; 'Foreign Office' -> 'Bộ Ngoại giao'; giữ câu hỏi tu từ chất vấn việc vượt quá thẩm quyền."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000228"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ: chỉ bọc '*Sao ngài lại không hiểu nổi một chuyện đơn giản đến thế cơ chứ?*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; quy chiếu Zettour bằng 'ngài' trong ý nghĩ giả định của cử tọa và bằng 'ông' trong lời kể."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000229"
+    choices:
+      - "Trần thuật cảm thán & đại từ: quy chiếu Zettour bằng 'ông'; giữ câu cảm thán về những ánh mắt nghiêm khắc đang đổ dồn vào ông."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000230"
+    choices:
+      - "Trần thuật & đại từ: quy chiếu Zettour bằng 'Ông' - 'mình'; đại từ khái quát dịch là 'người ta'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000231"
+    choices:
+      - "Nhấn mạnh Markdown & liên kết mạch: chỉ bọc '*kiểu*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002 và khớp trực tiếp với 'kiểu trừng mắt' ở p000230."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000232"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: viên chức xưng 'Chúng tôi', gọi các tướng là 'các ngài'; 'reparations' -> 'những khoản bồi thường chiến phí'; giữ điều kiện phủ định 'Nếu công lý không được thực thi… lòng dân sẽ không thể nào thỏa mãn.'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000233"
+    choices:
+      - "Thoại, nhấn mạnh Markdown & độc thoại nội tâm: chỉ bọc '*Các vị đùa đấy chắc!*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; Zettour gọi các công chức là 'Các vị' trong cả lời thoại lẫn tiếng quát nội tâm bị chặn lại."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000234"
+    choices:
+      - "Thoại: giữ nguyên thông điệp bác bỏ việc ưu tiên một nền hòa bình bất công kể từ khi chiến tranh nổ ra."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000235"
+    choices:
+      - "Thoại: giữ yêu cầu những hy sinh phải được đền đáp thỏa đáng."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000236"
+    choices:
+      - "Thoại & thuật ngữ: dùng 'Chúng ta'; 'The Ildoan proposal' -> 'Đề xuất của phía Ildoa'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000237"
+    choices:
+      - "Trần thuật, giả định trái thực tế & thuật ngữ: quy chiếu Zettour bằng 'ông'; giữ cấu trúc giả định trái thực tế 'hẳn ông đã muốn... nếu như đây không phải là...'; 'Supreme Command' -> 'Bộ Tư lệnh Tối cao'; 'the Empire' -> 'Đế quốc'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000238"
+    choices:
+      - "Trần thuật & quan hệ nhân quả: giữ dấu chấm lửng đầu câu và tính tất yếu khi không thể cười xòa cho qua."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000239"
+    choices:
+      - "Thoại & thuật ngữ: 'Supreme Command' -> 'Bộ Tư lệnh Tối cao'; 'military orders' -> 'các mệnh lệnh quân sự'; 'national strategy' -> 'chiến lược quốc gia'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000240"
+    choices:
+      - "Thoại ngắn: giữ dấu chấm lửng đầu câu và câu hỏi xác nhận yêu cầu của Zettour."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000241"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & đại từ: chỉ bọc '*Làm ơn đừng nói nữa!*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; quy chiếu Zettour bằng 'Ông' - 'mình'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000242"
+    choices:
+      - "Thoại & thuật ngữ: công chức xưng 'chúng tôi'; 'the army' -> 'quân đội'; giữ yêu cầu giành về những điều khoản tốt hơn."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000243"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: giữ dấu chấm lửng đầu câu; Zettour xưng 'Tôi'; 'the administration' -> 'chính quyền'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000244"
+    choices:
+      - "Thoại & thuật ngữ: công chức xưng 'chúng tôi'; 'imperial family' -> 'hoàng gia'; 'the army' -> 'quân đội'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000245"
+    choices:
+      - "Trần thuật, đối lập góc nhìn & thuật ngữ: quy chiếu phía công chức bằng 'họ'; 'Supreme Command' -> 'Bộ Tư lệnh Tối cao'; 'General Staff' -> 'Bộ Tổng tham mưu'; giữ đối lập giữa thông lệ phê chuẩn và thẩm quyền quyết định thực sự."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000246"
+    choices:
+      - "Trần thuật & điều kiện: quy chiếu Zettour bằng 'ông' - 'mình'; giữ cấu trúc điều kiện dẫn tới việc phải giữ im lặng."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000247"
+    choices:
+      - "Nhấn mạnh Markdown & độc thoại nội tâm: chỉ bọc '*Nhưng sự im lặng của một người thì có ý nghĩa gì cơ chứ?*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; quy chiếu Zettour bằng 'ông'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000248"
+    choices:
+      - "Thoại & xưng hô: giữ dấu chấm lửng đầu câu; Rudersdorf gọi các công chức là 'Các vị', xưng 'chúng tôi'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000249"
+    choices:
+      - "Nhấn mạnh Markdown & độc thoại nội tâm: chỉ bọc '*Ngậm cái miệng lại ngay, Rudersdorf!!*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; quy chiếu Zettour bằng 'ông'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000250"
+    choices:
+      - "Trần thuật, tình thái & phân biệt đại từ: giữ tình thái tiếc nuối quá khứ 'Có lẽ đáng ra ông nên làm thế.'; phân biệt rõ Zettour ('ông') và Rudersdorf ('ông ấy')."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000251"
+    choices:
+      - "Thoại, điều kiện & thuật ngữ: Rudersdorf xưng 'Chúng tôi' / 'chúng tôi', gọi các công chức là 'các vị'; 'the army' -> 'quân đội'; giữ điều kiện 'Chỉ cần các vị cung cấp những thứ chúng tôi cần...'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000252"
+    choices:
+      - "Trần thuật, đại từ & thuật ngữ: quy chiếu Rudersdorf bằng 'ông ấy'; 'the civil servants' -> 'đám công chức dân sự'; giữ tương phản giữa không khí mãn nguyện của đám công chức và nỗi u uất của riêng Zettour."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000253"
+    choices:
+      - "Nhấn mạnh Markdown & độc thoại nội tâm: bọc toàn bộ '*Làm sao lại thế? Tại sao chứ?*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000254"
+    choices:
+      - "Tiêu đề chuyển cảnh: giữ chữ in hoa không in nghiêng 'CÙNG NGÀY HÔM ĐÓ, ĐẠI SỨ QUÁN ĐẾ QUỐC TẠI ILDOA'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000255"
+    choices:
+      - "Trần thuật & so sánh: giữ phép so sánh tin chiến thắng vào thời điểm lý tưởng với cảm giác ấm áp, dễ chịu của rượu."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000256"
+    choices:
+      - "Trần thuật: giữ nguyên tên hai loại rượu 'tequila' và 'scotch'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000257"
+    choices:
+      - "Trần thuật & thuật ngữ: 'the Empire' -> 'Đế quốc'; 'imperial subjects' -> 'thần dân Đế quốc'; 'embassy in Ildoa' -> 'đại sứ quán ở Ildoa'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000258"
+    choices:
+      - "Trần thuật, chức danh & cấp bậc: 'The military attaché to Ildoa, Colonel von Lergen' -> 'Tùy viên quân sự tại Ildoa, Đại tá von Lergen'; quy chiếu các nhà ngoại giao tại đại sứ quán bằng 'họ'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000259"
+    choices:
+      - "Trần thuật, phủ định kép & nhấn mạnh Markdown: giữ phủ định kép 'Không phải là họ không có ý thức tự tiết chế bản thân.'; chỉ bọc '*kiềm chế*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002; quy chiếu nhóm nhân sự ngoại giao bằng 'Họ' / 'họ'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000260"
+    choices:
+      - "Trần thuật: quy chiếu nhóm nhân sự ngoại giao bằng 'họ'; giữ sắc thái đối lập 'Ấy thế mà giờ đây họ lại say bí tỉ.'."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000261"
+    choices:
+      - "Trần thuật: giữ câu nhận xét ngắn gọn giải thích lý do quá chén."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000262"
+    choices:
+      - "Trần thuật & thuật ngữ: 'Ildoa' -> 'Ildoa'; 'The representatives from the Empire' -> 'Các đại diện từ Đế quốc'; giữ sự tương phản giữa ý định ban đầu chỉ uống giao lưu và kết cục quá chén cả về tinh thần lẫn thể xác."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000263"
+    choices:
+      - "Trần thuật & quan hệ hệ quả: quy chiếu các đại diện Đế quốc bằng 'Họ' - 'mình'; giữ cấu trúc mức độ – hệ quả 'tin chắc... đến mức mở tiệc ăn mừng'."
