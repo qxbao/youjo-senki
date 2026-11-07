@@ -1,0 +1,282 @@
+task_id: vol-08-ch-05-b13-argon-review
+parent_task_id: vol-08-ch-05-b13
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b13-source.jsonl
+target_translation: translations/vol-08/ch-05-b13.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000440
+    severity: minor
+    category: meaning_and_precision
+    issue: "Cụm 'thọc sườn hậu phương địch' ghép nhầm khái niệm đánh vào sườn với đánh vào hậu phương; đồng thời câu đầu bổ sung sớm từ 'ma lực' khi nguyên văn ở p000440 chỉ mới nêu 'signals' (sang p000441 mới định danh rõ 'mana signals')."
+    recommendation: "Sửa 'thọc sườn hậu phương địch' thành 'đánh úp vào hậu phương địch' (hoặc 'giáng một đòn vào hậu phương địch') và chỉ dịch 'signals' ở p000440 là 'tín hiệu'."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000441
+    severity: minor
+    category: terminology_consistency
+    issue: "Tại p000441 và p000480, 'aerial mage officers' / 'aerial mages' đang được dịch là 'sĩ quan pháp sư hàng không' / 'pháp sư hàng không'; tại p000441, p000444 và p000459, 'mana signals' đang dịch là 'tín hiệu ma lực', chưa đồng bộ với phương án tạm đã dùng xuyên suốt tập 8 ('pháp sư trên không', 'tín hiệu ma năng')."
+    recommendation: "Đồng bộ thành 'sĩ quan pháp sư trên không' (p000441), 'pháp sư trên không' (p000480) và 'tín hiệu ma năng' (p000441, p000444, p000459) để khớp với các lô trước của chương 5."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel von Degurechaff / Degurechaff / Tanya"
+    proposed_vi: "Trung tá von Degurechaff / Degurechaff / Tanya"
+    alternatives_vi: []
+    rationale: "Giữ thống nhất cấp bậc và định danh của Tanya trong trần thuật theo sổ pending tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000440
+      - YS-LN08/Text/chapter018.xhtml/p000441
+      - YS-LN08/Text/chapter018.xhtml/p000445
+    status: pending
+  - source_term: "aerial mage officers / aerial mages / mage battalion / mage units"
+    proposed_vi: "các sĩ quan pháp sư trên không / pháp sư trên không / tiểu đoàn pháp sư / các đơn vị pháp sư"
+    alternatives_vi:
+      - "các sĩ quan pháp sư hàng không / pháp sư hàng không / tiểu đoàn pháp sư / các đơn vị pháp sư"
+    rationale: "Đồng bộ định danh lực lượng pháp sư trên không và các đơn vị pháp sư với các lô trước của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000441
+      - YS-LN08/Text/chapter018.xhtml/p000463
+      - YS-LN08/Text/chapter018.xhtml/p000478
+      - YS-LN08/Text/chapter018.xhtml/p000480
+    status: pending
+  - source_term: "signals / mana signals / suppressing mana signals"
+    proposed_vi: "tín hiệu / tín hiệu ma năng / chế áp tín hiệu ma năng"
+    alternatives_vi:
+      - "tín hiệu / tín hiệu ma năng / ém tín hiệu ma năng"
+      - "tín hiệu / tín hiệu ma lực / chế áp tín hiệu ma lực"
+    rationale: "Giữ nhất quán thuật ngữ tín hiệu ma năng và hành động ém/chế áp tín hiệu khi cơ động bí mật."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000440
+      - YS-LN08/Text/chapter018.xhtml/p000441
+      - YS-LN08/Text/chapter018.xhtml/p000444
+      - YS-LN08/Text/chapter018.xhtml/p000445
+      - YS-LN08/Text/chapter018.xhtml/p000459
+      - YS-LN08/Text/chapter018.xhtml/p000461
+      - YS-LN08/Text/chapter018.xhtml/p000464
+    status: pending
+  - source_term: "Soldim 528 / Imperial Army / Commonwealth / Federation Army / Arene / multinational unit / HQ"
+    proposed_vi: "Soldim 528 / Quân đội Đế quốc (hoặc Lục quân Đế quốc) / Khối Thịnh vượng chung / Quân đội Liên bang / Arene / đơn vị đa quốc gia / sở chỉ huy"
+    alternatives_vi: []
+    rationale: "Khớp địa danh, quốc danh và phiên hiệu tổ chức quân sự đã dùng trong chương 5."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000443
+      - YS-LN08/Text/chapter018.xhtml/p000447
+      - YS-LN08/Text/chapter018.xhtml/p000471
+      - YS-LN08/Text/chapter018.xhtml/p000472
+      - YS-LN08/Text/chapter018.xhtml/p000480
+    status: pending
+  - source_term: "marine magic officer / Drake / Colonel Drake / Comrade Colonel / political officer / Lieutenant Tanechka / Colonel Mikel"
+    proposed_vi: "sĩ quan ma pháp hải quân đánh bộ / Drake / Trung tá Drake / Đồng chí Trung tá / sĩ quan chính trị / Trung úy Tanechka / Đại tá Mikel"
+    alternatives_vi: []
+    rationale: "Giữ đúng cấp bậc thực tế của Trung tá Drake khi được gọi tắt trong thoại tiếng Anh, cùng cấp bậc và chức danh của Trung úy chính trị Tanechka và Đại tá Mikel."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000447
+      - YS-LN08/Text/chapter018.xhtml/p000451
+      - YS-LN08/Text/chapter018.xhtml/p000465
+      - YS-LN08/Text/chapter018.xhtml/p000471
+      - YS-LN08/Text/chapter018.xhtml/p000472
+      - YS-LN08/Text/chapter018.xhtml/p000473
+      - YS-LN08/Text/chapter018.xhtml/p000474
+      - YS-LN08/Text/chapter018.xhtml/p000475
+      - YS-LN08/Text/chapter018.xhtml/p000476
+      - YS-LN08/Text/chapter018.xhtml/p000477
+    status: pending
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000439
+    choices:
+      - "modality: Giữ câu dẫn ngắn 'Nhưng số phận thật kỳ lạ.'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000440
+    choices:
+      - "ranks_and_names: Trung tá von Degurechaff (Lieutenant Colonel von Degurechaff)"
+      - "terms: tín hiệu (signals), cuộc tách đội (breakaway), cuộc tập kích lén (sneak attack), hậu phương địch (the rear)"
+      - "modality: Giữ nhịp tăng tiến 'Không, còn hơn cả bình thường… đó thuần túy là lý thuyết cơ bản.'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000441
+    choices:
+      - "ranks_and_names: Degurechaff"
+      - "terms: giáo phạm (manual), quy định (rules), sĩ quan pháp sư trên không (aerial mage officers), tín hiệu ma năng (mana signals), hành động bí mật (stealth action)"
+      - "modality: Giữ phủ định 'chẳng có gì là sai lầm cả'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000442
+    choices:
+      - "terms: phản ứng ngoài dự kiến (unanticipated reaction)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000443
+    choices:
+      - "terms: Soldim 528, năng lực tác chiến (combat capabilities), lực lượng đồn trú (garrison)"
+      - "pronouns: Gọi phía đồn trú tại Soldim 528 là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000444
+    choices:
+      - "terms: các pháp sư (mages), tín hiệu ma năng (mana signals)"
+      - "modality: Giữ phủ định 'không thể che giấu... suốt hai mươi bốn trên hai mươi bốn giờ được'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000445
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: ngắt tín hiệu (cut signals), hành động ẩn mình (stealth action), pháp sư nhạy bén (sensitive mage)"
+      - "pronouns: Gọi phía pháp sư Đế quốc là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000446
+    choices:
+      - "emphasis: Chỉ bọc '*Vậy thì…*' theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000447
+    choices:
+      - "ranks_and_names: Drake"
+      - "terms: sĩ quan ma pháp hải quân đánh bộ (marine magic officer), tuyến đầu (first line), trận địa Quân đội Đế quốc / Lục quân Đế quốc (Imperial Army’s position)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000448
+    choices:
+      - "terms: đường sắt (railways), trận địa phòng ngự hiệp đồng (coordinated defensive positions), bộ binh (infantry), pháo binh (artillery), thiết giáp (armored troops)"
+      - "pronouns: Độc thoại thành tiếng của Drake tự xưng 'mình'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000449
+    choices:
+      - "terms: tác chiến đô thị (urban combat), pháo binh (artillery), lính thiết giáp (armored troops)"
+      - "pronouns: Gọi lính Đế quốc là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000450
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000451
+    choices:
+      - "ranks_and_names: Drake"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000452
+    choices:
+      - "terms: Trận địa phòng ngự hiệp đồng (Coordinated defensive positions)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000453
+    choices:
+      - "terms: Bộ binh (Infantry), pháo binh (artillery), lực lượng thiết giáp địch (enemy armored forces), mũi xung kích (strike axis), trận địa phòng ngự (defense positions)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000454
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000455
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000456
+    choices:
+      - "terms: bộ binh (infantry), pháo binh (artillery), xe tăng (tanks), pháp sư (mages)"
+      - "modality: Giữ hai câu hỏi ngắn liên tiếp"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000457
+    choices:
+      - "terms: pháp sư địch (enemy mages), bộ binh phe mình (their infantry)"
+      - "pronouns: Trần thuật gọi Drake là 'anh', gọi pháp sư địch là 'chúng'"
+      - "modality: Giữ mức độ 'hầu như không nhận thấy sự hiện diện của chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000458
+    choices:
+      - "pronouns: Trần thuật gọi Drake là 'anh'"
+      - "emphasis: Chỉ bọc '*Tại sao nhỉ?*' theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000459
+    choices:
+      - "terms: tín hiệu ma năng của quân địch (enemy mana signals)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000460
+    choices:
+      - "pronouns: Gọi pháp sư địch là 'Chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000461
+    choices:
+      - "terms: tín hiệu (signals), tàn dư của mối đe dọa (residue of the threat)"
+      - "pronouns: Trần thuật gọi Drake là 'Anh / anh'"
+      - "modality: Giữ phủ định kép 'Không phải là hoàn toàn không còn bóng dáng nào'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000462
+    choices:
+      - "pronouns: Trần thuật gọi Drake là 'anh'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000463
+    choices:
+      - "terms: tiểu đoàn pháp sư (mage battalion)"
+      - "pronouns: Gọi tiểu đoàn pháp sư địch là 'bọn chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000464
+    choices:
+      - "terms: chế áp tín hiệu (suppressing their signal), phục kích (ambushes), Lính Đế quốc (Imperial soldiers)"
+      - "modality: Giữ tính chất giả định cần cân nhắc và kết luận 'tuyệt đối không thể lơ là cảnh giác'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000465
+    choices:
+      - "ranks_and_names: Drake"
+      - "terms: trực giác (intuitively)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000466
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000467
+    choices:
+      - "terms: bản năng (instinct), trực giác (intuition)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000468
+    choices:
+      - "terms: Bản năng sinh tồn (Survival instincts), trực giác (intuition), tiền tuyến (front lines)"
+      - "modality: Giữ cấu trúc phân loại 'hoặc là... hoặc là...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000469
+    choices:
+      - "terms: trận địa địch đang bị bao vây (enemy position under siege)"
+      - "pronouns: Trần thuật gọi Drake là 'anh'"
+      - "modality: Giữ giả định 'lẽ ra anh phải cảm nhận được' và 'Nếu phải mô tả, có lẽ anh sẽ gọi đó là...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000470
+    choices:
+      - "terms: cuộc phục kích (ambush), con quái vật đó (that monster)"
+      - "pronouns: Gọi lực lượng pháp sư Đế quốc là 'Bọn chúng'"
+      - "modality: Giữ phủ định dứt khoát 'Đây không phải là một cuộc phục kích.'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000471
+    choices:
+      - "ranks_and_names: Drake"
+      - "terms: đơn vị đa quốc gia (multinational unit)"
+      - "pronouns: Trần thuật gọi Drake là 'anh'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000472
+    choices:
+      - "ranks_and_names: Drake"
+      - "terms: quân Khối Thịnh vượng chung (Commonwealth troops), sở chỉ huy (HQ), Quân đội Liên bang (Federation Army)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000473
+    choices:
+      - "ranks_and_names: Trung tá Drake (Colonel Drake)"
+      - "pronouns: Sĩ quan Liên bang xưng 'tôi', gọi Drake là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000474
+    choices:
+      - "terms: sĩ quan chính trị (political officer / political officers), thói quan liêu (bureaucracy)"
+      - "pronouns: Trần thuật gọi Drake là 'anh'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000475
+    choices:
+      - "ranks_and_names: Trung úy Tanechka (Lieutenant Tanechka), Đại tá Mikel (Colonel Mikel)"
+      - "pronouns: Drake xưng 'tôi' với Trung úy Tanechka"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000476
+    choices:
+      - "ranks_and_names: Đồng chí Trung tá (Comrade Colonel)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000477
+    choices:
+      - "terms: sĩ quan chính trị (political officer)"
+      - "pronouns: Trần thuật gọi Drake là 'anh', gọi Tanechka là 'cô ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000478
+    choices:
+      - "terms: các đơn vị pháp sư (mage units)"
+      - "pronouns: Gọi quân Đế quốc là 'Chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000479
+    choices:
+      - "terms: các pháp sư (mages), trận địa địch (enemy position)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000480
+    choices:
+      - "terms: Bộ binh địch (enemy infantry), pháo binh (artillery), các đơn vị xe tăng (tank units), tác chiến đô thị (urban warfare), pháp sư trên không (aerial mages), Arene"
+      - "pronouns: Trần thuật gọi Drake là 'anh'"
+      - "emphasis: Không dùng *...*"
