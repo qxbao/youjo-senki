@@ -1,0 +1,228 @@
+task_id: vol-09-ch-04-b11-argon-review
+parent_task_id: vol-09-ch-04-b11
+reviewer: gemini-4-argon-medium
+volume: vol-09
+chapter: 4
+segment_id_start: YS-LN09/Text/chapter016.xhtml/p000205
+segment_id_end: YS-LN09/Text/chapter016.xhtml/p000249
+target_translation: translations/vol-09/ch-04-b11.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000205
+    severity: minor
+    category: pronouns_and_addressing
+    issue: "Trong cùng một lượt thoại của Thuyền trưởng Barchet nói với Trung tá Tanya von Degurechaff, câu đầu gọi 'Trung tá' nhưng câu thứ hai lại chuyển sang đại từ 'cô' ('để cô tự mình xem qua'), hơi lệch so với sắc thái xưng hô quân sự chuẩn mực mà nhân vật này duy trì ở các câu thoại tiếp theo."
+    evidence: "Xuyên suốt cuộc trao đổi tại p000207, p000217 và p000223, vị thuyền trưởng tàu ngầm luôn gọi Tanya bằng quân hàm 'Colonel' ('Trung tá' / 'thưa Trung tá')."
+    recommendation: "Đề xuất đổi 'để cô tự mình xem qua' thành 'để Trung tá tự mình xem qua' ở bước chuốt văn nhằm giữ nhất quán sắc thái xưng hô."
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000216
+    severity: minor
+    category: word_choice
+    issue: "Thuật ngữ nhấn mạnh '*challenge*' được đặt song song với danh từ '*strange request*' để chỉ những từ ngữ định danh nhiệm vụ; bản dịch dùng tính từ '*nan giải*' vẫn truyền tải được ý nhưng chưa thật cân xứng về từ loại khi đặt cạnh cụm danh từ '*yêu cầu kỳ quặc*'."
+    evidence: "Cấu trúc nguồn đặt hai danh từ/cụm danh từ được in nghiêng làm ví dụ cho các từ không đủ sức mô tả nhiệm vụ."
+    recommendation: "Có thể cân nhắc đổi '*nan giải*' thành '*thử thách*' ở bước chuốt văn để hai vế song hành tự nhiên hơn."
+pending_term_recommendations:
+  - source_term: Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)
+    proposed_vi: "Trung tá / thưa Trung tá"
+    status: pending
+    rationale: "Giữ nhất quán cách dịch cách gọi tắt cấp bậc Lieutenant Colonel trong hội thoại quân sự theo ngữ cảnh các tập và sổ pending hiện hành."
+    alternatives_vi:
+      - "Đại tá"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000205
+      - YS-LN09/Text/chapter016.xhtml/p000207
+      - YS-LN09/Text/chapter016.xhtml/p000209
+      - YS-LN09/Text/chapter016.xhtml/p000217
+      - YS-LN09/Text/chapter016.xhtml/p000223
+      - YS-LN09/Text/chapter016.xhtml/p000225
+      - YS-LN09/Text/chapter016.xhtml/p000232
+  - source_term: home country
+    proposed_vi: "chính quốc"
+    status: pending
+    rationale: "Phù hợp với ngữ cảnh liên lạc và mệnh lệnh gửi từ bản thổ Đế quốc ra đơn vị đang tác chiến xa bờ, đồng nhất với sổ pending của vol-09."
+    alternatives_vi:
+      - "trong nước"
+      - "bản quốc"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000207
+      - YS-LN09/Text/chapter016.xhtml/p000227
+  - source_term: General Staff / General Staff Office
+    proposed_vi: "Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu"
+    status: pending
+    rationale: "Giữ thống nhất tên cơ quan tham mưu trung ương của Đế quốc theo sổ pending hiện hành."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000215
+      - YS-LN09/Text/chapter016.xhtml/p000218
+  - source_term: 203rd Aerial Mage Battalion / aerial mage
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 / pháp sư trên không"
+    status: pending
+    rationale: "Giữ thống nhất phiên hiệu đơn vị của Tanya và danh xưng binh chủng theo sổ pending xuyên suốt các tập."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000216
+      - YS-LN09/Text/chapter016.xhtml/p000231
+      - YS-LN09/Text/chapter016.xhtml/p000242
+  - source_term: Commonwealth
+    proposed_vi: "Khối Thịnh vượng chung"
+    status: pending
+    rationale: "Tên quốc gia đối địch trên biển đã dùng ổn định trong sổ pending từ vol-04 và vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000218
+      - YS-LN09/Text/chapter016.xhtml/p000228
+  - source_term: magic officer
+    proposed_vi: "sĩ quan ma pháp"
+    status: pending
+    rationale: "Thuật ngữ chỉ ngạch sĩ quan của Tanya, đã dùng nhất quán trong sổ pending."
+    alternatives_vi:
+      - "sĩ quan pháp sư"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000220
+  - source_term: Captain (submarine commander)
+    proposed_vi: "Thuyền trưởng"
+    status: pending
+    rationale: "Trong ngữ cảnh trên tàu ngầm, 'Captain' chỉ chức danh chỉ huy tàu (Thuyền trưởng Barchet), phân biệt với quân hàm Đại úy lục quân."
+    alternatives_vi:
+      - "Hạm trưởng"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000222
+  - source_term: bridge (submarine)
+    proposed_vi: "đài chỉ huy"
+    status: pending
+    rationale: "Chỉ khu vực đài chỉ huy lộ thiên phía trên tháp chỉ huy tàu ngầm nơi sĩ quan đứng canh gác bằng ống nhòm, khớp với sổ pending vol-09."
+    alternatives_vi:
+      - "cầu tàu"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000224
+  - source_term: Major Weiss / Weiss / vice commander
+    proposed_vi: "Thiếu tá Weiss / Weiss / phó chỉ huy"
+    status: pending
+    rationale: "Giữ đúng quân hàm Thiếu tá và chức vụ phó chỉ huy Tiểu đoàn 203 của Weiss trong vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000224
+      - YS-LN09/Text/chapter016.xhtml/p000230
+      - YS-LN09/Text/chapter016.xhtml/p000234
+      - YS-LN09/Text/chapter016.xhtml/p000241
+      - YS-LN09/Text/chapter016.xhtml/p000249
+  - source_term: V-2
+    proposed_vi: "V-2 / quả V-2"
+    status: pending
+    rationale: "Giữ nguyên ký hiệu khí tài tên lửa cải hoán có người lái theo sổ pending vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000228
+      - YS-LN09/Text/chapter016.xhtml/p000247
+  - source_term: Ildoa / Ildoan state rail
+    proposed_vi: "Ildoa / đường sắt quốc gia của Ildoa"
+    status: pending
+    rationale: "Giữ nguyên tên quốc gia đồng minh Ildoa và dịch sát nghĩa hệ thống đường sắt quốc gia theo ngữ cảnh mệnh lệnh."
+    alternatives_vi:
+      - "Ildoa / tuyến đường sắt quốc doanh Ildoa"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000229
+      - YS-LN09/Text/chapter016.xhtml/p000243
+  - source_term: Major Elm / U-091 / semiformal dress
+    proposed_vi: "Thiếu tá Elm / U-091 / bán lễ phục"
+    status: pending
+    rationale: "Giữ nguyên số hiệu tàu ngầm U-091, cấp bậc Thiếu tá của Elm và dịch sát cấp độ trang phục nghi lễ 'semiformal dress' là 'bán lễ phục'."
+    alternatives_vi:
+      - "trang phục bán trang trọng"
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000236
+  - source_term: attaché / embassy
+    proposed_vi: "tùy viên / đại sứ quán"
+    status: pending
+    rationale: "Thuật ngữ ngoại giao chuẩn xác, khớp với sổ pending vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter016.xhtml/p000238
+      - YS-LN09/Text/chapter016.xhtml/p000244
+locked_choices:
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000205
+    choices:
+      - "Xưng hô của Thuyền trưởng tàu ngầm với Tanya: gọi 'Trung tá' (cần đồng bộ câu thứ hai từ 'cô' sang 'Trung tá')"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000206
+    choices:
+      - "Điểm nhìn trần thuật ngôi thứ ba kết hợp câu cảm thán nội tâm: quy chiếu Tanya bằng 'cô', Thuyền trưởng bằng 'anh ta'"
+      - "communications envelope -> phong bì công văn"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000207
+    choices:
+      - "the home country -> chính quốc"
+      - "Colonel -> thưa Trung tá"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000208
+    choices:
+      - "Tanya tự xưng 'tôi' trong thoại công vụ với thuyền trưởng tàu ngầm"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000210
+    choices:
+      - "Nội tâm tự quy chiếu ngôi thứ nhất của Tanya: 'I' -> 'mình'"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000212
+    choices:
+      - "Giữ nguyên quan hệ nhượng bộ - đối lập và thời gian của ý định quá khứ ('had planned to at least try' -> 'đã định thử cố giữ kín')"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000215
+    choices:
+      - "General Staff -> Bộ Tổng tham mưu"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000216
+    choices:
+      - "203rd Aerial Mage Battalion -> Tiểu đoàn Pháp sư Trên không số 203"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*cái chuyện đó*', '*nan giải*' (hoặc '*thử thách*'), '*yêu cầu kỳ quặc*'"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000218
+    choices:
+      - "General Staff -> Bộ Tổng tham mưu"
+      - "Commonwealth -> Khối Thịnh vượng chung"
+      - "General Staff Office’s dining room -> nhà ăn của Văn phòng Bộ Tổng tham mưu"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000220
+    choices:
+      - "Điểm nhìn trần thuật ngôi thứ ba: 'Tanya', 'magic officer Tanya' -> 'sĩ quan ma pháp như Tanya'"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000221
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho đúng mệnh đề suy nghĩ in nghiêng trong nguồn; đại từ nội tâm 'we' / 'I' -> 'chúng mình' / 'mình'"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000222
+    choices:
+      - "Captain -> Thuyền trưởng"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000224
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Hự*'"
+      - "bridge -> đài chỉ huy"
+      - "Major Weiss -> Thiếu tá Weiss; xưng hô của Tanya với Weiss: 'tôi' - 'anh'"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000225
+    choices:
+      - "Yes, ma’am -> Vâng, thưa Trung tá"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000228
+    choices:
+      - "Commonwealth fleet -> hạm đội Khối Thịnh vượng chung"
+      - "V-2 -> quả V-2"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000229
+    choices:
+      - "sightseeing -> 'tham quan'"
+      - "Ildoa -> Ildoa"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000230
+    choices:
+      - "vice commander -> phó chỉ huy; đại từ quy chiếu Weiss trong nội tâm của Tanya: 'anh ta'"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000231
+    choices:
+      - "aerial mage -> pháp sư trên không"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000236
+    choices:
+      - "Major Elm -> Thiếu tá Elm"
+      - "U-091’s crew -> thủy thủ đoàn tàu U-091"
+      - "semiformal dress -> bán lễ phục"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000238
+    choices:
+      - "attaché at the embassy -> tùy viên tại đại sứ quán"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000242
+    choices:
+      - "203rd Aerial Mage Battalion -> Tiểu đoàn Pháp sư Trên không số 203"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000243
+    choices:
+      - "Empire -> Đế quốc"
+      - "Ildoan state rail -> đường sắt quốc gia của Ildoa"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000247
+    choices:
+      - "V-2 -> quả V-2"
+  - segment_id: YS-LN09/Text/chapter016.xhtml/p000249
+    choices:
+      - "Chuyển điểm nhìn sang trần thuật ngôi thứ ba ở câu cuối: 'Tanya', 'cô', 'Weiss'"
