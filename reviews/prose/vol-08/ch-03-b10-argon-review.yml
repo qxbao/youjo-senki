@@ -1,0 +1,229 @@
+task_id: "vol-08-ch-03-b10-argon-review"
+parent_task_id: "vol-08-ch-03-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 3
+target_translation: "translations/vol-08/ch-03-b10.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000051"
+    severity: "minor"
+    issue: "Đại từ ngôi thứ nhất số nhiều trong mạch điểm nhìn ngôi thứ nhất/độc thoại nội tâm của Tanya đang chuyển đổi giữa 'chúng tôi' (p000045, p000046, p000051) và 'chúng ta' (p000049, p000068) ở các đoạn liền kề."
+    evidence: "Ở p000049 dùng 'chúng ta', sang p000051 ngay sau đó lại dùng 'chúng tôi' cho cùng chủ thể đơn vị của Tanya trong suy nghĩ/tự thuật."
+    recommendation: "Có thể cân nhắc thống nhất dùng 'chúng ta' ở p000051 (và p000045, p000046 nếu muốn đồng bộ hoàn toàn giọng độc thoại nội tâm dùng 'mình / chúng ta'), hoặc giữ nếu chủ ý tách câu trần thuật ngôi thứ nhất với câu cảm thán nội tâm trực tiếp."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000059"
+    severity: "minor"
+    issue: "Từ 'miserable' trong cụm tính từ chê bai nhà khoa học điên (Schugel) mang sắc thái rủa xả/tệ hại ('khốn kiếp', 'tệ hại') hơn là đáng thương/cơ cực ('khốn khổ')."
+    evidence: "Cụm danh từ chỉ vị kỹ sư trưởng đi kèm thái độ bực dọc của Tanya đối với người thiết kế Type 97."
+    recommendation: "Đề xuất đổi 'khốn khổ' thành 'khốn kiếp' hoặc 'tệ hại' để khớp sắc thái phàn nàn của Tanya."
+pending_term_recommendations:
+  - source_term: "Type 97 Assault Computation Orb / assault computation orb / Type 97"
+    proposed_vi: "Quả cầu Tính toán Xung kích Type 97 / quả cầu tính toán xung kích / Type 97"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án tạm đã dùng trong sổ pending cho dòng khí tài của Elinium Arms."
+    alternatives_vi:
+      - " Bảo châu Tính toán Xung kích Type 97"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000044"
+      - "YS-LN08/Text/chapter012.xhtml/p000055"
+      - "YS-LN08/Text/chapter012.xhtml/p000059"
+  - source_term: "trapper"
+    proposed_vi: "kẻ giăng bẫy"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Diễn đạt sát nghĩa vai trò pháp sư địch phục kích/dụ mồi trong không chiến mà không suy diễn thêm thuật ngữ chuyên ngành hẹp."
+    alternatives_vi:
+      - "pháp sư phục kích"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000050"
+  - source_term: "guard unit"
+    proposed_vi: "đơn vị Cận vệ"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Phù hợp với biên chế đơn vị tinh nhuệ (Cận vệ) của quân đội Liên bang trong ngữ cảnh Tanya đối chiếu quân phục và phù hiệu."
+    alternatives_vi:
+      - "đơn vị cận vệ"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000066"
+  - source_term: "wingman"
+    proposed_vi: "người bay yểm trợ"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Rõ nghĩa vai trò phối hợp trong biên đội/tổ hai người của pháp sư hàng không, tự nhiên trong tiếng Việt."
+    alternatives_vi:
+      - "đồng đội bay kèm"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000073"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000044"
+    locked:
+      terms:
+        - "Type 97 -> Type 97"
+        - "assault computation orb -> quả cầu tính toán xung kích"
+        - "Elinium Arms -> Elinium Arms"
+      negation_modality: "Giữ cấu trúc phủ định kép 'Không phải vô cớ mà...' và quan hệ đối lập 'nhưng lạ thay'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000045"
+    locked:
+      names_ranks:
+        - "Weiss -> Weiss"
+      pov_pronouns: "Giữ điểm nhìn ngôi thứ nhất số nhiều chỉ đơn vị của Tanya ('chúng tôi' hoặc 'chúng ta') và ngôi thứ ba chỉ địch ('chúng')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000046"
+    locked:
+      pov_pronouns: "Giữ đối lập chủ thể đơn vị Tanya và pháp sư địch ('chúng')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000047"
+    locked:
+      tone: "Giữ câu thoại ngắn, sắc thái khinh thường ('Hừ, chậm đấy.')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000048"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "formula -> thuật thức"
+        - "defensive shell -> lớp vỏ phòng thủ"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô', tự quy chiếu sở hữu 'của mình'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000049"
+    locked:
+      terms:
+        - "Commies -> Đám Cộng sản"
+      pov_pronouns: "Câu hỏi nội tâm trực tiếp dùng 'chúng ta'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000050"
+    locked:
+      terms:
+        - "trapper -> kẻ giăng bẫy"
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000051"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+        - "Serebryakov -> Serebryakov"
+      terms:
+        - "suppressive fire -> hỏa lực chế áp"
+      pov_pronouns: "Giữ sự chuyển dịch điểm nhìn đặc trưng của nguyên tác từ câu đầu ngôi thứ ba ('Tanya') sang câu sau ngôi thứ nhất số nhiều."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000052"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      negation_modality: "Giữ phủ định kép ở cả hai vế ('sẽ không đến kịp, nhưng Tanya cũng chẳng ở vào thế có thể rút lui')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000053"
+    locked:
+      tone: "Giữ lời chửi thề cảm thán ngắn gọn ('Khốn kiếp thật!')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000054"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "submachine gun -> khẩu tiểu liên"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000055"
+    locked:
+      terms:
+        - "Type 97 Assault Computation Orb -> Quả cầu Tính toán Xung kích Type 97"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000056"
+    locked:
+      names_ranks:
+        - "Colonel -> Trung tá"
+      pov_pronouns: "Thuộc hạ gọi Tanya là 'Trung tá', xưng hô kính trọng 'Ngài ... ạ'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000057"
+    locked:
+      tone: "Thoại trấn an dứt khoát của chỉ huy ('Không có gì phải lo!')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000058"
+    locked:
+      terms:
+        - "Type 95 -> Type 95"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+      negation_modality: "Giữ mức độ 'suýt bị bắn trúng đến hai lần' và phủ định 'chưa tệ đến mức phải lôi Type 95 ra dùng'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000059"
+    locked:
+      terms:
+        - "Type 97 -> mẫu Type 97"
+        - "defensive shell -> lớp vỏ phòng thủ"
+        - "Federation Army -> Quân đội Liên bang"
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000060"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "orbs -> những quả cầu"
+      pov_pronouns: "Thoại dùng 'chúng ta'; trần thuật ngôi thứ ba dùng 'Tanya / cô'."
+      emphasis: "Giữ nhấn mạnh Markdown '*đó*' ứng với thẻ em trong nguyên tác."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000061"
+    locked:
+      negation_modality: "Giữ khẳng định tuyệt đối thông qua cấu trúc phủ định ('Chẳng có cách nào che giấu nổi...')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000062"
+    locked:
+      terms:
+        - "Federation mage -> pháp sư Liên bang"
+        - "paradigm shift -> chuyển đổi mô thức"
+      pov_pronouns: "Giữ nguyên sự pha trộn điểm nhìn trong cùng một câu của bản gốc: 'cô' (her) và 'mình' (me)."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000063"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "submachine gun -> khẩu tiểu liên"
+      pov_pronouns: "Trần thuật/câu hỏi nội tâm ngôi thứ ba dùng 'Tanya / cô'."
+      negation_modality: "Giữ đúng giả định trái thực tế trong quá khứ gần ('vừa rồi sẽ làm gì Tanya nếu cô không có...')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000064"
+    locked:
+      pov_pronouns: "Độc thoại của Tanya tự xưng 'mình', gọi địch là 'lũ này'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000065"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000066"
+    locked:
+      terms:
+        - "interlocking fire -> các làn hỏa lực đan chéo"
+        - "guard unit -> đơn vị Cận vệ"
+        - "Federation mages -> pháp sư Liên bang"
+      pov_pronouns: "Độc thoại nội tâm của Tanya tự xưng 'mình'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000067"
+    locked:
+      terms:
+        - "The Federation -> Liên bang"
+      pov_pronouns: "Độc thoại nội tâm của Tanya tự xưng 'mình', chỉ các pháp sư lớn tuổi là 'họ'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000068"
+    locked:
+      names_ranks:
+        - "Zettour -> Zettour"
+      terms:
+        - "instructors -> huấn luyện viên"
+        - "Communists -> đám Cộng sản"
+      pov_pronouns: "Nội tâm dùng 'chúng ta' cho phía Đế quốc."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000069"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "defensive shell -> lớp vỏ phòng thủ"
+        - "optical sniping formula -> thuật thức bắn tỉa quang học"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000070"
+    locked:
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+      negation_modality: "Giữ cấu trúc tăng tiến 'Không chỉ có vậy, bất cứ khi nào...' và câu hỏi tu từ cuối đoạn."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000071"
+    locked:
+      pov_pronouns: "Thoại gọi quân địch là 'Chúng'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000072"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "two-man cells -> các tổ hai người"
+        - "Federation’s troops -> lính của Liên bang"
+      pov_pronouns: "Trần thuật ngôi thứ ba dùng 'Tanya / cô / mình'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000073"
+    locked:
+      terms:
+        - "wingman -> người bay yểm trợ"
+        - "instructors -> huấn luyện viên"
+      pov_pronouns: "Độc thoại nội tâm của Tanya tự xưng 'mình', gọi cặp pháp sư cựu binh là 'họ / hai người bọn họ'."
