@@ -1,0 +1,277 @@
+task_id: "vol-07-ch-03-b14-argon-review"
+parent_task_id: "vol-07-ch-03-b14"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 3
+source_package: "work/vol-07/batches/ch-03-b14-source.jsonl"
+target_translation: "translations/vol-07/ch-03-b14.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000170"
+    severity: "minor"
+    category: "pronoun_and_coreference"
+    issue: "Trong hai câu liên tiếp của lời thoại Thiếu tá Weiss, đại từ ngôi thứ ba số nhiều ở câu đầu (quy chiếu các ngôi mộ bị đào bới và đồ tùy táng ở p000168) được dịch là 'chúng', trong khi đại từ ngôi thứ ba số nhiều ở câu sau (quy chiếu 'phía Cộng sản') lại dịch là 'họ'. Dùng 'chúng' cho đối tượng vô tri ngay trước cụm 'phía Cộng sản' rồi đổi sang 'họ' cho quân địch dễ gây nhầm lẫn quy chiếu giữa hai câu và lệch sắc thái với mạch p000172–p000182 (đều dùng 'chúng' để chỉ quân Liên bang/Cộng sản)."
+    evidence: "Đối chiếu quy chiếu của hai đại từ ngôi thứ ba số nhiều trong p000170 với danh ngữ ở p000168 và cách gọi đối phương ở p000172–p000182."
+    recommendation: "Rõ hóa chủ ngữ câu đầu thành 'Có lẽ chỗ đó đã bị phía Cộng sản càn quét trước khi chúng ta tới chăng?' (hoặc 'Có lẽ những ngôi mộ đó đã bị phía Cộng sản lục soát trước khi chúng ta tới chăng?') và đổi đại từ ở câu sau thành 'Xem chừng chúng đã chuyển bất cứ thứ gì có giá trị về hậu phương rồi.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000180"
+    severity: "minor"
+    category: "terminology_precision"
+    issue: "Thuật ngữ 'human engineering' đang được dịch thành 'công thái học hành vi con người', tự ghép thêm cụm 'hành vi con người' không có trong nguyên bản và tạo ra tổ hợp thuật ngữ lai ghép kém tự nhiên."
+    evidence: "Đối chiếu cụm danh từ chuyên môn ở cuối câu thứ ba của đoạn p000180."
+    recommendation: "Dịch gọn và chuẩn xác là 'kỹ thuật yếu tố con người' hoặc 'công thái học'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000186"
+    severity: "minor"
+    category: "hierarchy_and_register"
+    issue: "Trong lời thoại của Tanya đáp lại cấp dưới trực tiếp là Thiếu tá Weiss, bản dịch thêm tiểu từ kính ngữ 'ạ' ('Tôi cũng vậy, Thiếu tá ạ.'), làm ngược tôn ti quân hàm (Trung tá chỉ huy nói với Thiếu tá phó chỉ huy) và không nhất quán với cách Tanya gọi Weiss ở p000163, p000184."
+    evidence: "Đối chiếu câu thoại đầu đoạn p000186 với quan hệ cấp bậc giữa Trung tá Tanya và Thiếu tá Weiss tại p000163, p000164, p000184."
+    recommendation: "Lược bỏ tiểu từ 'ạ', sửa thành 'Tôi cũng vậy, Thiếu tá.'"
+pending_term_recommendations:
+  - source_term: "adjutant / ma’am / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "viên sĩ quan phụ tá / thưa Trung tá"
+    category: "quân hàm - chức danh"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán cách dịch chức danh sĩ quan phụ tá (Serebryakov) và cách gọi cấp bậc Trung tá của Tanya trong giao tiếp quân sự ở tập 7."
+    alternatives_vi:
+      - "sĩ quan phụ tá / Trung tá"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000152"
+      - "YS-LN07/Text/chapter012.xhtml/p000153"
+      - "YS-LN07/Text/chapter012.xhtml/p000158"
+      - "YS-LN07/Text/chapter012.xhtml/p000162"
+  - source_term: "search and pursuit / search and destroy / mop-up operation"
+    proposed_vi: "lùng sục và truy kích / tìm và diệt / quá trình truy quét"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa 'tìm và diệt' từ sổ pending tập 7; phân biệt rõ hoạt động truy quét tàn quân tại chỗ với nhiệm vụ tìm diệt hoặc truy kích làm phân tán đội hình."
+    alternatives_vi:
+      - "truy lùng và truy kích / tìm diệt / chiến dịch truy quét"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000156"
+      - "YS-LN07/Text/chapter012.xhtml/p000157"
+      - "YS-LN07/Text/chapter012.xhtml/p000160"
+      - "YS-LN07/Text/chapter012.xhtml/p000165"
+  - source_term: "provisional HQ / headquarters"
+    proposed_vi: "sở chỉ huy lâm thời / sở chỉ huy"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán từ sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000161"
+      - "YS-LN07/Text/chapter012.xhtml/p000192"
+  - source_term: "Major Weiss / Weiss / Major / vice commander"
+    proposed_vi: "Thiếu tá Weiss / Weiss / Thiếu tá / vị phó chỉ huy"
+    category: "quân hàm - chức danh"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán cấp bậc và chức danh của Weiss trong Tiểu đoàn 203 và Kampfgruppe Salamander ở tập 7."
+    alternatives_vi:
+      - "phó chỉ huy"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000163"
+      - "YS-LN07/Text/chapter012.xhtml/p000164"
+      - "YS-LN07/Text/chapter012.xhtml/p000166"
+      - "YS-LN07/Text/chapter012.xhtml/p000184"
+      - "YS-LN07/Text/chapter012.xhtml/p000186"
+  - source_term: "Captain Meybert / Lieutenant Tospan"
+    proposed_vi: "Đại úy Meybert / Trung úy Tospan"
+    category: "quân hàm - tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán tên và cấp bậc của chỉ huy pháo binh Meybert và chỉ huy bộ binh Tospan từ các batch trước trong tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000163"
+  - source_term: "Colonel Calandro / Calandro"
+    proposed_vi: "Đại tá Calandro / Calandro"
+    category: "quân hàm - tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán định danh và quân hàm Đại tá của quan sát viên quân sự Ildoa Virginio Calandro."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000164"
+      - "YS-LN07/Text/chapter012.xhtml/p000182"
+      - "YS-LN07/Text/chapter012.xhtml/p000188"
+  - source_term: "the Communists / Commies / Federation troops / Federation / Imperial Army"
+    proposed_vi: "phía Cộng sản / lũ Cộng sản / đám quân Liên bang / Liên bang / Lục quân Đế quốc"
+    category: "tên gọi - tổ chức"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ phân biệt sắc thái giữa cách gọi 'phía Cộng sản' trong thoại với 'lũ Cộng sản' trong độc thoại nội tâm của Tanya, đồng thời kế thừa 'Liên bang' và 'Lục quân Đế quốc' từ sổ pending."
+    alternatives_vi:
+      - "phe Cộng sản / quân Liên bang"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000170"
+      - "YS-LN07/Text/chapter012.xhtml/p000172"
+      - "YS-LN07/Text/chapter012.xhtml/p000174"
+      - "YS-LN07/Text/chapter012.xhtml/p000176"
+      - "YS-LN07/Text/chapter012.xhtml/p000180"
+      - "YS-LN07/Text/chapter012.xhtml/p000181"
+  - source_term: "human engineering"
+    proposed_vi: "kỹ thuật yếu tố con người"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Thuật ngữ chỉ nguyên lý thiết kế hệ thống và tổ chức dựa trên đặc tính thực tế của con người (luôn tính trước khả năng xảy ra sai sót), phù hợp trực tiếp với lập luận coi thất bại là điều hiển nhiên của Tanya."
+    alternatives_vi:
+      - "công thái học"
+      - "kỹ thuật con người"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000180"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ nguyên định danh theo canon/glossary-pending.yml (P05-being-x)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000180"
+  - source_term: "MAY 3, UNIFIED YEAR 1927, EASTERN FRONT, NEAR THE FRONT LINE, KAMPFGRUPPE GARRISON"
+    proposed_vi: "NGÀY 3 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, GẦN TIỀN TUYẾN, NƠI ĐỒN TRÚ CỦA KAMPFGRUPPE"
+    category: "tiêu đề thời gian - địa điểm"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa định dạng tiêu đề ngày tháng, Mặt trận phía Đông, tiền tuyến và Kampfgruppe trong tập 7."
+    alternatives_vi:
+      - "NGÀY 3 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, GẦN TIỀN TUYẾN, KHU ĐỒN TRÚ CỦA KAMPFGRUPPE"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000190"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000150"
+    choices:
+      - "Điểm nhìn & đại từ: độc thoại nội tâm ngôi thứ nhất của Tanya dùng 'Mình' / 'mình' theo DEC-P01-001; giữ nguyên đối lập giữa vẻ ngoài thảnh thơi của 'người chỉ huy' và thực tế chống chọi căng thẳng đè nặng lên 'đường tiêu hóa'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000151"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: chỉ bọc '*Làm ơn đi*' khớp thẻ em nguồn theo DEC-P01-002; trần thuật gọi tên 'Tanya'; giữ mệnh lệnh ngắn 'Báo cáo thiệt hại!'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000152"
+    choices:
+      - "Xưng hô & quân hàm: sĩ quan phụ tá báo cáo với Tanya bằng 'thưa Trung tá'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000153"
+    choices:
+      - "Đại từ trần thuật & chức danh: quy chiếu Tanya bằng 'Nó' theo DEC-P01-001; 'her adjutant' -> 'viên sĩ quan phụ tá'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000154"
+    choices:
+      - "Thoại khen ngợi ngắn: giữ 'Làm tốt lắm!'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000155"
+    choices:
+      - "Đại từ khái quát & trần thuật: dùng 'bạn' cho chủ thể khái quát ở câu đầu và 'Nó' cho Tanya ở câu sau theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000156"
+    choices:
+      - "Xưng hô & thuật ngữ: sĩ quan phụ tá xưng 'chúng tôi ... ạ'; giữ hai hành động song song 'truy quét nốt số tàn quân địch' và 'tái thiết lại chiến tuyến'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000157"
+    choices:
+      - "Phủ định, giả định & chỉ dẫn: giữ phủ định 'Không cần phải bắt gọn đến tên cuối cùng đâu', điều kiện giả định 'nếu chúng ta lùng sục và truy kích triệt để, các đơn vị của ta sẽ bị xé lẻ mất' và chỉ dẫn 'Kệ cho đám bỏ chạy cứ chạy đi.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000158"
+    choices:
+      - "Xưng hô trong câu hỏi: sĩ quan phụ tá hỏi lại 'Trung tá chắc chứ ạ?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000159"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & quan hệ mục đích: chỉ bọc '*Chúng ta còn lựa chọn nào khác đâu?*' khớp thẻ em nguồn theo DEC-P01-002; trần thuật gọi 'Tanya' và quy chiếu bằng 'nó' theo DEC-P01-001; giữ ẩn dụ 'phóng ra mũi tên tiếp theo' và mục đích bảo đảm khả năng cơ động của binh lính."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000160"
+    choices:
+      - "Thuật ngữ & phủ định: 'search and destroy' -> 'tìm và diệt'; giữ hai mệnh đề phủ định giải thích lý do không phân tán đơn vị."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000161"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & thuật ngữ: chỉ bọc '*do đó*' khớp thẻ em nguồn theo DEC-P01-002; quy chiếu Tanya bằng 'nó'; 'provisional HQ' -> 'sở chỉ huy lâm thời'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000162"
+    choices:
+      - "Xưng hô & quân hàm: Weiss báo cáo với Tanya bằng 'thưa Trung tá'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000163"
+    choices:
+      - "Xưng hô, quân hàm & tình thái phủ định: Tanya gọi Weiss là 'Thiếu tá' và 'Anh'; giữ đúng tên và cấp bậc 'Đại úy Meybert', 'Trung úy Tospan'; giữ suy đoán phủ định 'hẳn đã không phải vấp phải nhiều gạch đá đổ nát đâu nhỉ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000164"
+    choices:
+      - "Đại từ, chức danh & quân hàm: 'vice commander' -> 'vị phó chỉ huy', quy chiếu Weiss bằng 'anh ta', Tanya bằng 'nó' / 'Nó'; giữ 'Đại tá Calandro' và câu chuyển chủ đề 'Nhân tiện, về chuyện nhà thờ…'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000165"
+    choices:
+      - "Xưng hô, tình thái & phủ định: Weiss gọi Tanya là 'Trung tá ... ạ', xưng 'Tôi'; giữ chi tiết 'tự mình quyết định xác nhận trong quá trình truy quét' và nhận định 'Xem chừng ở đó thực sự không có ai cả.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000166"
+    choices:
+      - "Điểm nhìn, phủ định & câu hỏi nội tâm: trần thuật gọi 'Tanya' và 'Thiếu tá Weiss'; giữ phủ định ở vế đầu và câu hỏi hoài nghi 'nhưng… có thật là ở đó không có ai không?' ở vế sau."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000167"
+    choices:
+      - "Xưng hô & tình thái: Tanya xưng 'Tôi' / 'mình', giữ sắc thái ngạc nhiên 'Ồ? Tôi cứ tưởng mình đã thấy có chút động tĩnh chứ.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000168"
+    choices:
+      - "Nghĩa & sắc thái: giữ cụm danh từ trả lời trực tiếp 'Những ngôi mộ bị đào bới và hiện trường sau khi đồ tùy táng bị đánh cắp đấy ạ.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000169"
+    choices:
+      - "Thoại hỏi lại ngắn: giữ 'Sao cơ?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000170"
+    choices:
+      - "Tình thái, thuật ngữ & quy chiếu: giữ tình thái phỏng đoán ở cả hai câu, 'the Communists' -> 'phía Cộng sản', 'the rear' -> 'hậu phương'; sửa đại từ quy chiếu theo finding để phân biệt rõ đối tượng bị đào bới/lục soát ở câu đầu và chủ thể 'chúng' (phía Cộng sản) chuyển đồ có giá trị về hậu phương ở câu sau."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000171"
+    choices:
+      - "Thoại & trần thuật: giữ 'Hợp lý đấy.' và 'Tanya gật đầu.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000172"
+    choices:
+      - "Tên gọi & phủ định: 'Federation troops' -> 'đám quân Liên bang' (quy chiếu bằng 'chúng'), 'Imperial Army' -> 'Lục quân Đế quốc'; giữ phủ định nhấn mạnh 'không muốn để sót lại dù chỉ một mảy may thứ gì có giá trị'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000173"
+    choices:
+      - "Nghĩa & cấu trúc: giữ bộ ba danh từ 'lòng nhân từ, sự bác ái và tâm tính thiện lương'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000174"
+    choices:
+      - "Tên gọi & xưng hô: 'the Communists' -> 'phía Cộng sản'; dùng 'chúng ta' trong lời cảm thán của Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000175"
+    choices:
+      - "Thoại cảm thán nghi vấn: giữ 'Hả?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000176"
+    choices:
+      - "Đại từ, tình thái & tên gọi: quy chiếu Tanya bằng 'nó' trong phần dẫn thoại, đối phương bằng 'chúng' và 'đám người Liên bang đó'; giữ tình thái nghe nói ('Nghe đâu', 'xem ra') và câu kết châm biếm."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000177"
+    choices:
+      - "Xưng hô & sắc thái: Weiss đáp 'Ha-ha-ha. Trung tá khéo đùa thật.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000178"
+    choices:
+      - "Đại từ & phủ định kép: trần thuật quy chiếu Tanya bằng 'nó', trong thoại xưng 'tôi'; giữ phủ định kép 'Thực chất nó chẳng hề ngại thừa nhận sự hợp lý của chúng trong chuyện này.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000179"
+    choices:
+      - "Đại từ & phủ định: quy chiếu quân Liên bang bằng 'Chúng'; giữ câu nhận định 'Ngay cả những nhà tư bản cũng đâu có hoàn hảo.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000180"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & thuật ngữ: chỉ bọc '*Nhưng…*' khớp thẻ em nguồn theo DEC-P01-002; trần thuật gọi 'Tanya' và quy chiếu bằng 'Nó' theo DEC-P01-001; 'the Commies' -> 'lũ Cộng sản', 'Being X' -> 'Being X'; sửa thuật ngữ 'human engineering' thành 'kỹ thuật yếu tố con người' (hoặc 'công thái học') theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000181"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ nội tâm & phủ định kép: chỉ bọc '*nên*' khớp thẻ em nguồn theo DEC-P01-002; nội tâm tự quy chiếu của Tanya dùng 'mình' theo DEC-P01-001; giữ cấu trúc phủ định kép 'Sẽ thật thiếu công bằng nếu không khen ngợi chúng vì đã có dũng khí tiến sát tới tận mép vực thẳm.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000182"
+    choices:
+      - "Xưng hô, quân hàm & sắc thái: Tanya xưng 'tôi', gọi 'Đại tá Calandro' và quy chiếu bằng 'ngài ấy' với sắc thái mỉa mai lịch sự ('trái tim thượng tôn pháp luật của ngài ấy')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000183"
+    choices:
+      - "Sắc thái khẩu ngữ: giữ cách gọi 'của nợ đó' và đại từ 'chúng ta' trong câu nói riêng của Weiss."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000184"
+    choices:
+      - "Quân hàm, xưng hô & tình thái: Tanya gọi 'Thiếu tá Weiss' và 'Anh'; giữ tình thái cảnh báo 'Anh có thể gây ra sự cố ngoại giao quốc tế đấy.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000185"
+    choices:
+      - "Xưng hô & thuật ngữ: Weiss xưng 'tôi'; 'the front line and the rear' -> 'tiền tuyến và hậu phương'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000186"
+    choices:
+      - "Nhấn mạnh Markdown, tôn ti xưng hô & đại từ: lược bỏ tiểu từ 'ạ' trong câu Tanya nói với cấp dưới ('Tôi cũng vậy, Thiếu tá.') theo finding; chỉ bọc '*Nhưng mà nói thật đấy.*' khớp thẻ em nguồn theo DEC-P01-002; giữ cách quy chiếu Calandro là 'ngài ấy' trong thoại của Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000187"
+    choices:
+      - "Xưng hô & thuật ngữ: Weiss dùng 'ạ' và xưng 'tôi'; 'international laws and standards' -> 'luật pháp và các quy chuẩn quốc tế'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000188"
+    choices:
+      - "Nhấn mạnh Markdown, đại từ & phủ định: chỉ bọc '*Chính xác*' khớp thẻ em nguồn theo DEC-P01-002; quy chiếu Calandro bằng 'ông', Tanya bằng 'nó' theo DEC-P01-001; giữ phủ định 'và nó chẳng ưa chuyện đó chút nào'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000189"
+    choices:
+      - "Xưng hô & quan hệ nhân quả: Tanya xưng 'Tôi' / 'tôi', giữ quan hệ nhân quả 'Tôi hiểu biết rất rõ về luật pháp, nên tôi chẳng muốn bị gọi là kẻ man rợ đâu.'"
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000190"
+    choices:
+      - "Tiêu đề thời gian - địa điểm: giữ nguyên chữ in hoa 'NGÀY 3 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, GẦN TIỀN TUYẾN, NƠI ĐỒN TRÚ CỦA KAMPFGRUPPE'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000191"
+    choices:
+      - "Nhấn mạnh Markdown & tình thái: chỉ bọc '*một giấc ngủ mừng chiến thắng trong tòa nhà vừa chiếm được*' khớp thẻ em nguồn theo DEC-P01-002; giữ đối lập 'Nếu gọi đó là... thì nghe có vẻ ngầu đấy. Nhưng thực tế...'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000192"
+    choices:
+      - "Đại từ trần thuật & thuật ngữ: gọi tên 'Tanya' và quy chiếu bằng 'nó' theo DEC-P01-001; 'headquarters' -> 'sở chỉ huy'; giữ cấu trúc thời gian 'đúng lúc Tanya đang... thì nó nhận được...'."
