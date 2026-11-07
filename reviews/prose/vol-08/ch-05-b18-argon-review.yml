@@ -1,0 +1,167 @@
+task_id: vol-08-ch-05-b18-argon-review
+parent_task_id: vol-08-ch-05-b18
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b18-source.jsonl
+target_translation: translations/vol-08/ch-05-b18.jsonl
+review_path: reviews/prose/vol-08/ch-05-b18-argon-review.yml
+state: done
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+unresolved_findings: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "adjutant / Lieutenant Serebryakov / Serebryakov / Visha / Weiss"
+    proposed_vi: "sĩ quan phụ tá / Trung úy Serebryakov / Serebryakov / Visha / Weiss"
+    category: "nhân vật / quân hàm / chức danh"
+    status: pending
+    rationale: "Giữ nhất quán cấp bậc Trung úy (First Lieutenant) của Serebryakov, chức danh sĩ quan phụ tá và tên riêng Visha, Weiss theo sổ pending của vol-08."
+    alternatives_vi:
+      - "phụ tá"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000638
+      - YS-LN08/Text/chapter018.xhtml/p000640
+      - YS-LN08/Text/chapter018.xhtml/p000643
+      - YS-LN08/Text/chapter018.xhtml/p000647
+      - YS-LN08/Text/chapter018.xhtml/p000651
+      - YS-LN08/Text/chapter018.xhtml/p000666
+      - YS-LN08/Text/chapter018.xhtml/p000670
+      - YS-LN08/Text/chapter018.xhtml/p000671
+      - YS-LN08/Text/chapter018.xhtml/p000673
+      - YS-LN08/Text/chapter018.xhtml/p000678
+      - YS-LN08/Text/chapter018.xhtml/p000680
+      - YS-LN08/Text/chapter018.xhtml/p000681
+      - YS-LN08/Text/chapter018.xhtml/p000688
+      - YS-LN08/Text/chapter018.xhtml/p000689
+  - source_term: "supporting fire / explosion formulas / optical sniping formula / sniper formula / anti-mana sniping round"
+    proposed_vi: "hỏa lực yểm trợ / thuật thức phát nổ / thuật thức bắn tỉa quang học / thuật thức bắn tỉa / đạn bắn tỉa kháng ma năng"
+    category: "thuật ngữ tác chiến / ma pháp"
+    status: pending
+    rationale: "Khớp hệ thống thuật ngữ ma pháp quân sự đã dùng xuyên suốt các tập trước và trong vol-08."
+    alternatives_vi:
+      - "hỏa lực chi viện"
+      - "đạn bắn tỉa chống ma năng"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000640
+      - YS-LN08/Text/chapter018.xhtml/p000643
+      - YS-LN08/Text/chapter018.xhtml/p000653
+      - YS-LN08/Text/chapter018.xhtml/p000664
+      - YS-LN08/Text/chapter018.xhtml/p000674
+      - YS-LN08/Text/chapter018.xhtml/p000677
+      - YS-LN08/Text/chapter018.xhtml/p000682
+  - source_term: "defensive shell / protective film / Elinium Type 95 / Type 97"
+    proposed_vi: "lớp vỏ phòng thủ / màn chắn bảo hộ / Elinium Type 95 / Type 97"
+    category: "thuật ngữ trang bị / ma pháp"
+    status: pending
+    rationale: "Phân biệt rõ hai lớp phòng ngự (defensive shell và protective film) và giữ nguyên định danh mẫu quả cầu tính toán."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000646
+      - YS-LN08/Text/chapter018.xhtml/p000648
+      - YS-LN08/Text/chapter018.xhtml/p000656
+      - YS-LN08/Text/chapter018.xhtml/p000664
+      - YS-LN08/Text/chapter018.xhtml/p000665
+  - source_term: "human resources / communications costs / aftercare"
+    proposed_vi: "nguồn nhân lực / chi phí giao tiếp điều phối / chăm sóc hậu kỳ"
+    category: "thuật ngữ quản trị"
+    status: pending
+    rationale: "Giữ giọng văn quản trị doanh nghiệp đặc trưng trong độc thoại và lập luận của Tanya."
+    alternatives_vi:
+      - "chi phí giao tiếp"
+      - "chăm sóc hậu sự kiện"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000649
+      - YS-LN08/Text/chapter018.xhtml/p000651
+      - YS-LN08/Text/chapter018.xhtml/p000680
+  - source_term: "O Lord / your"
+    proposed_vi: "Hỡi Chúa / ngài"
+    category: "tôn giáo / xưng hô"
+    status: pending
+    rationale: "Giữ cách gọi 'Hỡi Chúa' và đại từ 'ngài' viết thường theo quy ước pending khi Tanya miễn cưỡng đọc lời cầu nguyện kích hoạt Type 95."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000652
+      - YS-LN08/Text/chapter018.xhtml/p000657
+  - source_term: "saturation attack / spatial detonation / carbon monoxide poisoning / smoke screen"
+    proposed_vi: "tấn công bão hòa / kích nổ không gian / ngộ độc khí carbon monoxide / màn khói ngụy trang"
+    category: "thuật ngữ tác chiến"
+    status: pending
+    rationale: "Diễn đạt chính xác cơ chế chiến thuật đốt cháy dưỡng khí trong không gian và tạo màn khói che mắt địch."
+    alternatives_vi:
+      - "vụ nổ không gian"
+      - "màn khói che chắn"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000668
+      - YS-LN08/Text/chapter018.xhtml/p000682
+  - source_term: "ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: pending
+    rationale: "Phù hợp với quân hàm Trung tá của Tanya ở thời điểm vol-08 và cách dịch thống nhất trong chương."
+    alternatives_vi:
+      - "thưa Trung tá"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000690
+locked_choices:
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000636
+      - YS-LN08/Text/chapter018.xhtml/p000638
+      - YS-LN08/Text/chapter018.xhtml/p000639
+      - YS-LN08/Text/chapter018.xhtml/p000647
+      - YS-LN08/Text/chapter018.xhtml/p000648
+      - YS-LN08/Text/chapter018.xhtml/p000655
+      - YS-LN08/Text/chapter018.xhtml/p000656
+      - YS-LN08/Text/chapter018.xhtml/p000663
+      - YS-LN08/Text/chapter018.xhtml/p000680
+      - YS-LN08/Text/chapter018.xhtml/p000684
+    category: "điểm nhìn & đại từ nhân xưng"
+    locked_choice: "Trần thuật ngôi thứ ba quy chiếu Tanya là 'cô' và Serebryakov là 'cô ấy' (p000636, p000669); độc thoại nội tâm và lời tự nhủ của Tanya tự xưng 'mình' (p000647, p000648, p000655); khi mắng nhiếc quả cầu Elinium Type 95 trong tâm tưởng dùng cặp 'ta - ngươi' (p000656)."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000637
+      - YS-LN08/Text/chapter018.xhtml/p000642
+      - YS-LN08/Text/chapter018.xhtml/p000645
+      - YS-LN08/Text/chapter018.xhtml/p000646
+      - YS-LN08/Text/chapter018.xhtml/p000647
+      - YS-LN08/Text/chapter018.xhtml/p000655
+      - YS-LN08/Text/chapter018.xhtml/p000666
+      - YS-LN08/Text/chapter018.xhtml/p000682
+      - YS-LN08/Text/chapter018.xhtml/p000684
+    category: "đại từ chỉ pháp sư địch chưa rõ danh tính"
+    locked_choice: "Dùng 'kẻ này', 'kẻ đó', 'tên địch', 'hắn' cho đại từ trung tính số ít (singular they) và 'ngươi' khi Tanya gằn giọng trực tiếp (p000666), giữ đúng điểm nhìn của phía Đế quốc khi chưa biết danh tính hay giới tính của đối phương."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000640
+      - YS-LN08/Text/chapter018.xhtml/p000643
+      - YS-LN08/Text/chapter018.xhtml/p000652
+      - YS-LN08/Text/chapter018.xhtml/p000657
+      - YS-LN08/Text/chapter018.xhtml/p000669
+      - YS-LN08/Text/chapter018.xhtml/p000671
+      - YS-LN08/Text/chapter018.xhtml/p000678
+      - YS-LN08/Text/chapter018.xhtml/p000679
+      - YS-LN08/Text/chapter018.xhtml/p000685
+      - YS-LN08/Text/chapter018.xhtml/p000689
+      - YS-LN08/Text/chapter018.xhtml/p000690
+    category: "xưng hô trong thoại và lời cầu nguyện"
+    locked_choice: "Tanya gọi Serebryakov là 'Trung úy Serebryakov' / 'Trung úy' / 'Visha' và xưng 'tôi - cô'; Serebryakov và Weiss xưng 'tôi' / 'chúng ta', gọi Tanya là 'Trung tá' / 'ngài' kèm kính ngữ 'ạ'; lời cầu nguyện bắt buộc khi kích hoạt Type 95 xưng 'con' và gọi Chúa là 'Hỡi Chúa' / 'ngài'."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000647
+      - YS-LN08/Text/chapter018.xhtml/p000648
+      - YS-LN08/Text/chapter018.xhtml/p000656
+    category: "nhấn mạnh Markdown (DEC-P01-002)"
+    locked_choice: "Chỉ bọc '*...*' ở câu cảm thán nội tâm mắng Elinium Type 95 trong p000656 đúng theo thẻ '<em>' của XHTML nguồn; giữ văn bản phẳng không in nghiêng ở p000647 và p000648."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000653
+      - YS-LN08/Text/chapter018.xhtml/p000654
+      - YS-LN08/Text/chapter018.xhtml/p000660
+      - YS-LN08/Text/chapter018.xhtml/p000663
+      - YS-LN08/Text/chapter018.xhtml/p000664
+      - YS-LN08/Text/chapter018.xhtml/p000665
+      - YS-LN08/Text/chapter018.xhtml/p000674
+      - YS-LN08/Text/chapter018.xhtml/p000684
+    category: "tình thái, giả định & nhân quả chiến thuật"
+    locked_choice: "Giữ chuẩn xác chuỗi tình thái phản thực tế ('tưởng chừng đã nắm chắc phần thắng... lại trượt', 'đáng lý ra phải là như thế', 'lẽ ra nó phải xuyên qua...'), cơ chế giảm uy lực để mở rộng diện tích đốt sạch dưỡng khí gây ngộ độc CO, và hàm ý hồi cố tương lai ở p000684 ('Một thời gian sau, Tanya sẽ phải hối hận...')."
