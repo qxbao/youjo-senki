@@ -1,0 +1,320 @@
+task_id: "vol-07-ch-05-b04-argon-review"
+parent_task_id: "vol-07-ch-05-b04"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 5
+source_package: "work/vol-07/batches/ch-05-b04-source.jsonl"
+target_translation: "translations/vol-07/ch-05-b04.jsonl"
+review_path: "reviews/prose/vol-07/ch-05-b04-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000114"
+    issue: "Danh từ chỉ chức danh của Loria ('the commissar') đang được dịch là 'vị ủy viên dân ủy', bị trùng lặp yếu tố nghĩa ('dân ủy' vốn đã là từ rút gọn của 'ủy viên nhân dân') và chưa đồng bộ với cách gọi 'Đồng chí Dân ủy' đã khóa ở lô trước (p000070)."
+    evidence: "Trong nguyên bản, danh từ chức danh đi kèm mạo từ xác định chỉ Loria (người đứng đầu Bộ Dân ủy Nội vụ); ở p000070 cùng chương đã thống nhất dùng 'Dân ủy'."
+    recommendation: "Đổi 'vị ủy viên dân ủy' thành 'vị dân ủy' (hoặc 'vị ủy viên nhân dân')."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000137"
+    issue: "Cụm từ chỉ thời kỳ quân chủ trước cách mạng ('during the czarist period') đang được dịch là 'dưới thời Nga hoàng', vô tình đưa quốc danh thế giới thực ('Nga') vào bối cảnh giả tưởng của tác phẩm (nơi quốc gia tiền thân của Liên bang được gọi là Russy)."
+    evidence: "Trong hệ thống thuật ngữ của tác phẩm, các quốc danh thực tế đều được thay bằng tên giả tưởng (Đế quốc, Cộng hòa, Khối Thịnh vượng chung, Hợp chúng quốc, Liên bang / Russy); tính từ phái sinh từ tước hiệu quân chủ ở p000137 không gắn với chữ 'Nga'."
+    recommendation: "Đổi 'dưới thời Nga hoàng' thành 'dưới thời Sa hoàng'."
+pending_term_recommendations:
+  - source_term: "Loria / the commissar"
+    proposed_vi: "Loria / vị dân ủy"
+    category: "nhân vật / chức danh"
+    status: "pending"
+    rationale: "Giữ thống nhất tên riêng Loria và chức danh 'dân ủy' đồng bộ với 'Đồng chí Dân ủy' và 'Bộ Dân ủy Nội vụ' ở các lô trước."
+    alternatives_vi:
+      - "Loria / vị ủy viên nhân dân"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000108"
+      - "YS-LN07/Text/chapter018.xhtml/p000110"
+      - "YS-LN07/Text/chapter018.xhtml/p000114"
+      - "YS-LN07/Text/chapter018.xhtml/p000120"
+      - "YS-LN07/Text/chapter018.xhtml/p000130"
+      - "YS-LN07/Text/chapter018.xhtml/p000138"
+      - "YS-LN07/Text/chapter018.xhtml/p000139"
+      - "YS-LN07/Text/chapter018.xhtml/p000143"
+      - "YS-LN07/Text/chapter018.xhtml/p000147"
+  - source_term: "Comrade Colonel / comrade / the colonel"
+    proposed_vi: "Đồng chí Đại tá / đồng chí (thưa đồng chí) / vị đại tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Đồng bộ hoàn toàn với các lô ch-05-b02 và ch-05-b03 đối với cách gọi ghép 'Đồng chí Đại tá' trong thoại và 'vị đại tá' trong trần thuật."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000114"
+      - "YS-LN07/Text/chapter018.xhtml/p000121"
+      - "YS-LN07/Text/chapter018.xhtml/p000129"
+      - "YS-LN07/Text/chapter018.xhtml/p000132"
+      - "YS-LN07/Text/chapter018.xhtml/p000134"
+      - "YS-LN07/Text/chapter018.xhtml/p000140"
+  - source_term: "anti-air firing nest"
+    proposed_vi: "ổ hỏa lực phòng không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác thuật ngữ quân sự chỉ chốt/ổ bắn phòng không được thiết lập tức thời trên mặt đất."
+    alternatives_vi:
+      - "ổ bắn phòng không"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000115"
+  - source_term: "infantry firepower / Anti-tank rifles / bolt-action models"
+    proposed_vi: "hỏa lực bộ binh / Súng trường chống tăng / các mẫu súng lên đạn từng viên bằng khóa nòng trượt"
+    category: "thuật ngữ vũ khí - quân sự"
+    status: "pending"
+    rationale: "Phản ánh rõ đặc trưng kỹ thuật của súng trường chống tăng cơ cấu khóa nòng trượt khi đối đầu với mục tiêu cơ động như pháp sư."
+    alternatives_vi:
+      - "hỏa lực bộ binh / Súng trường chống tăng / các mẫu súng khóa nòng trượt"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000117"
+  - source_term: "the Empire / Imperial Army / aerial mage units / magic army"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / các đơn vị pháp sư trên không / Đội quân ma pháp"
+    category: "quốc gia / tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với hệ thống thuật ngữ chỉ Đế quốc, Lục quân Đế quốc và các đơn vị pháp sư trên không trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000124"
+      - "YS-LN07/Text/chapter018.xhtml/p000125"
+      - "YS-LN07/Text/chapter018.xhtml/p000147"
+  - source_term: "Western Army"
+    proposed_vi: "Tập đoàn quân phía Tây"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Tương ứng nhất quán với 'Tập đoàn quân phía Đông' ('Eastern Army') đã có trong sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000129"
+  - source_term: "lageri"
+    proposed_vi: "*lageri*"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ ngoại lai in nghiêng '*lageri*' chỉ trại cải tạo lao động của Liên bang theo đúng lô ch-05-b02 và sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000131"
+  - source_term: "nomenklatura / Federation nomenklaturas"
+    proposed_vi: "*nomenklatura* / giới *nomenklatura* Liên bang"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ chính trị đặc thù in nghiêng '*nomenklatura*' (kèm ký hiệu chú thích ⁹ ở p000136) để chỉ tầng lớp cán bộ lãnh đạo cấp cao thuộc danh mục quản lý của Đảng tại Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000136"
+      - "YS-LN07/Text/chapter018.xhtml/p000137"
+  - source_term: "czarist period / revolutionary administration / counterrevolutionary war"
+    proposed_vi: "thời Sa hoàng / chính quyền cách mạng / cuộc chiến tranh phản cách mạng"
+    category: "thuật ngữ lịch sử - chính trị"
+    status: "pending"
+    rationale: "Dùng 'thời Sa hoàng' thay cho 'thời Nga hoàng' để tránh gắn với quốc danh Nga ngoài đời thực, đồng thời dịch chuẩn xác các thuật ngữ lịch sử cách mạng của Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000137"
+      - "YS-LN07/Text/chapter018.xhtml/p000139"
+  - source_term: "Comrade General Secretary"
+    proposed_vi: "Đồng chí Tổng Bí thư"
+    category: "chức danh chính trị"
+    status: "pending"
+    rationale: "Đồng bộ hoàn toàn với lô ch-05-b03 và sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000139"
+  - source_term: "magic aptitude tests"
+    proposed_vi: "các đợt kiểm tra tố chất ma pháp"
+    category: "thuật ngữ ma pháp"
+    status: "pending"
+    rationale: "Diễn đạt tự nhiên, rõ nghĩa đối với quy trình sàng lọc và kiểm tra năng khiếu/tố chất ma pháp của nhà nước."
+    alternatives_vi:
+      - "các kỳ kiểm tra năng khiếu ma pháp"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000148"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000108"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*thông số kỹ thuật*' tương ứng với thẻ em trong nguồn (đồng bộ với p000107)"
+      - "Tên nhân vật & đại từ: 'anh ta' (vị đại tá); 'Loria'"
+      - "Phủ định & phỏng đoán: 'ngay cả một người không phải chuyên gia quân sự... Đoán chừng đó hẳn chỉ là lý thuyết suông...'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000109"
+    choices:
+      - "Đại từ & phủ định nhấn mạnh trong lời vị đại tá: '“Chúng ta thậm chí còn chẳng giao chiến nổi.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000110"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Giờ mình mới nghe thấy chuyện này đấy…*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & phân tách đại từ: 'Loria' - 'gã' (trần thuật) - 'mình' (nội tâm)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000111"
+    choices:
+      - "Đại từ chỉ phía tuyên truyền công khai của Liên bang: 'họ'"
+      - "Thuật ngữ: 'planes' -> 'máy bay'; 'mages' -> 'pháp sư'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000112"
+    choices:
+      - "Câu hỏi ngắn phủ định của Loria: '“Tại sao lại không?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000113"
+    choices:
+      - "Quan hệ đối lập giữa 'Máy bay cần phải hạ cánh xuống đường băng' và 'trong khi pháp sư có thể đáp xuống bất cứ đâu tùy theo yêu cầu của nhiệm vụ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000114"
+    choices:
+      - "Tên nhân vật & danh xưng: 'Loria'; 'vị đại tá'; 'the commissar' nên chỉnh thành 'vị dân ủy' (hoặc 'vị ủy viên nhân dân') thay vì 'vị ủy viên dân ủy'"
+      - "Phủ định quá khứ hoàn thành: 'một điều mà Loria chưa từng nghe thấy bao giờ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000115"
+    choices:
+      - "Thuật ngữ: 'anti-air firing nest' -> 'ổ hỏa lực phòng không'"
+      - "Đại từ chỉ pháp sư: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000116"
+    choices:
+      - "Thuật ngữ & đại từ: 'infantry' -> 'bộ binh'; 'họ' (pháp sư)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000117"
+    choices:
+      - "Thuật ngữ: 'infantry firepower' -> 'hỏa lực bộ binh'; 'Anti-tank rifles' -> 'Súng trường chống tăng'; 'bolt-action models' -> 'các mẫu súng lên đạn từng viên bằng khóa nòng trượt' (hoặc 'các mẫu súng khóa nòng trượt')"
+      - "Mức độ hạn chế & đối lập: 'chỉ miễn cưỡng phát huy tác dụng, nhưng lại quá khó để nhắm bắn họ...'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000118"
+    choices:
+      - "Phủ định khả năng dưới góc độ tác chiến: 'xét dưới góc độ tác chiến, việc sử dụng bộ binh cho nhiệm vụ này là bất khả thi.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000119"
+    choices:
+      - "Đại từ trong lời Loria: 'Tôi' - 'chúng ta' - 'họ' (pháp sư)"
+      - "Cụm trích dẫn trong dấu nháy đơn: '‘những tàn tích phản động’ chậm hơn máy bay, yếu hơn xe tăng và ít hơn bộ binh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000120"
+    choices:
+      - "Tên nhân vật & đại từ: 'người đàn ông kia' (vị đại tá); 'Loria' - 'mình' - 'gã'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000121"
+    choices:
+      - "Danh xưng & xưng hô của Loria với vị đại tá: '“Tôi đùa thôi, Đồng chí Đại tá.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000122"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã' - 'mình'"
+      - "Cách gọi Tanya từ góc nhìn lệch lạc của Loria: 'his precious fairy' -> 'nàng tiên yêu dấu của mình'; 'little filly' -> 'con ngựa non bất kham'; 'her' -> 'cô bé ấy'"
+      - "Phủ định kép ở câu đầu & cảm thán giả định ở câu cuối: 'Không phải là gã không hiểu... Nếu khuất phục được cô bé ấy thì sẽ thỏa mãn biết bao.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000123"
+    choices:
+      - "Đại từ: 'Họ' (pháp sư); 'tôi' - 'mình' (Loria)"
+      - "Thuật ngữ: 'service' -> 'binh chủng'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000124"
+    choices:
+      - "Thuật ngữ: 'the Empire' -> 'Đế quốc'; 'Imperial Army' -> 'Lục quân Đế quốc'; 'aerial mage units' -> 'các đơn vị pháp sư trên không'; 'anachronistic reactionaries' -> 'những kẻ phản động lỗi thời'"
+      - "Phủ định ở câu sau: 'Không thể cười nhạo họ như những kẻ phản động lỗi thời cứ khư khư bấu víu lấy ma pháp được.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000125"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'Gã'; chỉ pháp sư Đế quốc: 'họ'"
+      - "Cấu trúc tăng tiến & đối lập: 'không chỉ một mà tới hai, ba đạo quân. Đội quân ma pháp của Đế quốc chẳng phải là biểu hiện của sự phản động về mặt ý thức hệ—mà là sự tiến bộ.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000126"
+    choices:
+      - "Thuật ngữ: 'aerial mages' -> 'pháp sư trên không'"
+      - "Câu hỏi nhận định & chuyển ý trong lời Loria"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000127"
+    choices:
+      - "Thán từ ngơ ngác của vị đại tá: '“Hả?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000128"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Phải rồi, suy cho cùng thì mấy tay này cũng là quân nhân mà.*' tương ứng với thẻ em trong nguồn"
+      - "Cách gọi nội tâm của Loria: 'these guys' -> 'mấy tay này'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000129"
+    choices:
+      - "Thuật ngữ & danh xưng: 'Western Army' -> 'Tập đoàn quân phía Tây'; 'aerial mages' -> 'các pháp sư trên không'; 'Comrade Colonel' -> 'Đồng chí Đại tá'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000130"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Mấy tay này chậm hiểu thật đấy*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & đại từ: 'Loria' - 'Gã'; 'họ' (quân nhân)"
+      - "Phủ định ở câu cuối: 'Gã không thể để họ xem nhẹ lý luận và chính trị được.'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000131"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*lageri*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ phân biệt trong lời Loria: 'các đồng chí' (phía quân đội) - 'chúng tôi' (phía cơ quan an ninh / lãnh đạo chính trị) - 'họ' (những người thuộc Tập đoàn quân phía Tây / pháp sư)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000132"
+    choices:
+      - "Câu hỏi & xưng hô của vị đại tá: '“Tại sao lại thế, thưa đồng chí?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000133"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*một cái cớ*' tương ứng với thẻ em trong nguồn"
+      - "Câu hỏi tu từ phủ định của Loria: '“Nghe chẳng giống như *một cái cớ* hay sao?”'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000134"
+    choices:
+      - "Danh xưng & đại từ: 'vị đại tá' - 'anh ta' - 'mình'; 'họ' (các sĩ quan quân đội có mặt) - 'gã' (Loria)"
+      - "Tình thái suy đoán: 'Tầm nhìn của họ ắt hẳn đã bị che mờ khi họ kinh ngạc thấy gã thực sự nói toẹt điều đó ra.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000135"
+    choices:
+      - "Đại từ trong lời vị đại tá: 'họ' (Tập đoàn quân phía Tây) - 'các đồng chí' (phía Loria / lãnh đạo chính trị)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000136"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 và giữ ký hiệu chú thích: '*nomenklatura*⁹' tương ứng với thẻ em và sup 9 trong nguồn"
+      - "Đại từ & phủ định trong lời Loria: 'đồng chí' - 'tôi'; 'vốn chẳng hề được thông báo bất cứ điều gì về chuyện này'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000137"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*nomenklatura*' và '*Ma pháp ư? Chúng ta sẽ dùng khoa học để đánh đuổi nó.*' tương ứng với hai thẻ em trong nguồn"
+      - "Thuật ngữ: 'magic officers' -> 'Các sĩ quan ma pháp'; 'czarist period' nên chỉnh thành 'thời Sa hoàng' (thay vì 'thời Nga hoàng'); 'revolutionary administration' -> 'chính quyền cách mạng'; 'Federation' -> 'Liên bang'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000138"
+    choices:
+      - "Phủ định trong lời người lính: '“…Không thể biện minh về mặt chính trị được.”'"
+      - "Tên nhân vật: 'Loria'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000139"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Vậy chuyện đó là thật sao?*' tương ứng với thẻ em trong nguồn"
+      - "Xưng hô, chức danh & thuật ngữ: 'Tôi' - 'đồng chí'; 'Comrade General Secretary' -> 'Đồng chí Tổng Bí thư'; 'aerial mages' -> 'các pháp sư trên không'; 'counterrevolutionary war' -> 'cuộc chiến tranh phản cách mạng'"
+      - "Câu hỏi tu từ phủ định kèm điều kiện ở cuối đoạn"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000140"
+    choices:
+      - "Lời đồng tình của vị đại tá: '“Vâng, đồng chí nói phải, thưa đồng chí.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000141"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Mặc xác nó đi*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ & phủ định trong lời Loria: 'chúng ta không thể làm ngơ trước thực tế chiến trường được. Chúng ta phải có thể nói *Mặc xác nó đi* và tăng cường mạnh mẽ cho các đơn vị pháp sư của mình.'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000142"
+    choices:
+      - "Câu hỏi ngắn lặp lại từ khóa của vị đại tá: '“Tăng cường ư…?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000143"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria' - 'gã'"
+      - "Quan hệ đối lập & định ngữ phủ định: 'từ những người lính tỉnh táo chưa bị ý thức hệ làm cho mụ mị lại khiến ngay cả gã cũng phải đỏ mặt.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000144"
+    choices:
+      - "Đại từ trong lời Loria: 'Chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000145"
+    choices:
+      - "Thuật ngữ & cách gọi Tanya của Loria: 'aerial mages' -> 'pháp sư trên không'; 'the fairy, his precious one' -> 'nàng tiên, báu vật yêu dấu của gã'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000146"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Chúng ta có thể sử dụng pháp sư trên không.*' tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000147"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria' - 'gã'; 'họ' (các pháp sư trên không)"
+      - "Thuật ngữ: 'previous establishment' -> 'chế độ cũ'; 'heroism' -> 'chủ nghĩa anh hùng'; 'magic theory' -> 'lý thuyết ma pháp'; 'aerial mage units' -> 'các đơn vị pháp sư trên không'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000148"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'"
+      - "Thuật ngữ: 'magic aptitude tests' -> 'các đợt kiểm tra tố chất ma pháp'"
+      - "Phủ định nguyên nhân tiếc nuối trong tương lai: 'nhà nước sẽ phải hối hận vì đã không tiến hành các đợt kiểm tra tố chất ma pháp bài bản cho mà xem.'"
+      - "Không dùng nhấn mạnh Markdown"
