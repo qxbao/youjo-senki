@@ -1,0 +1,273 @@
+task_id: "vol-07-ch-05-b05-argon-review"
+parent_task_id: "vol-07-ch-05-b05"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 5
+source_package: "work/vol-07/batches/ch-05-b05-source.jsonl"
+target_translation: "translations/vol-07/ch-05-b05.jsonl"
+review_path: "reviews/prose/vol-07/ch-05-b05-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000149"
+    issue: "Cụm từ chỉ thời kỳ quân chủ trước cách mạng ('the czarist era') đang được dịch là 'thời Nga hoàng', vô tình gắn quốc danh thế giới thực ('Nga') vào bối cảnh giả tưởng của tác phẩm (nơi quốc gia tiền thân của Liên bang được gọi là Russy) và chưa đồng bộ với phương án 'thời Sa hoàng' đã khóa ở lô ch-05-b04 (p000137)."
+    evidence: "Trong sổ pending tập 7 (p000137), thuật ngữ tương đương đã được thống nhất dịch là 'thời Sa hoàng' để tránh đưa quốc danh thực tế vào thế giới giả tưởng."
+    recommendation: "Đổi 'dưới thời Nga hoàng' thành 'dưới thời Sa hoàng'."
+pending_term_recommendations:
+  - source_term: "czarist era / enemies of their class"
+    proposed_vi: "thời Sa hoàng / kẻ thù giai cấp"
+    category: "thuật ngữ lịch sử - chính trị"
+    status: "pending"
+    rationale: "Đồng bộ 'thời Sa hoàng' với lô ch-05-b04 (p000137) để tránh gắn với quốc danh Nga ngoài đời thực; dịch chuẩn xác khái niệm ý thức hệ 'kẻ thù giai cấp'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000149"
+  - source_term: "the Federation / Federation’s Communist Party / Federation Army"
+    proposed_vi: "Liên bang / Đảng Cộng sản Liên bang / Quân đội Liên bang"
+    category: "quốc gia / tổ chức chính trị - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với hệ thống thuật ngữ chỉ Liên bang và các cơ quan, lực lượng của Liên bang trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000150"
+      - "YS-LN07/Text/chapter018.xhtml/p000151"
+      - "YS-LN07/Text/chapter018.xhtml/p000158"
+  - source_term: "lageri / modern witch hunt"
+    proposed_vi: "*lageri* / cuộc săn phù thủy thời hiện đại"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ in nghiêng '*lageri*' chỉ trại cải tạo lao động của Liên bang như các lô trước và dịch tự nhiên, sát nghĩa cụm ẩn dụ 'cuộc săn phù thủy thời hiện đại'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000151"
+  - source_term: "Loria"
+    proposed_vi: "Loria"
+    category: "nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng nhân vật Loria nhất quán xuyên suốt chương."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000152"
+      - "YS-LN07/Text/chapter018.xhtml/p000157"
+      - "YS-LN07/Text/chapter018.xhtml/p000159"
+      - "YS-LN07/Text/chapter018.xhtml/p000170"
+      - "YS-LN07/Text/chapter018.xhtml/p000173"
+      - "YS-LN07/Text/chapter018.xhtml/p000178"
+      - "YS-LN07/Text/chapter018.xhtml/p000181"
+  - source_term: "politburo / party members / reactionary influences"
+    proposed_vi: "Bộ Chính trị / đảng viên / các thế lực phản động"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Sử dụng chuẩn xác hệ thuật ngữ tổ chức Đảng và chính trị của Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000156"
+  - source_term: "the Empire / Imperial Army"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc"
+    category: "quốc gia / tổ chức quân sự"
+    status: "pending"
+    rationale: "Đồng bộ hoàn toàn với toàn bộ các lô trước trong tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000156"
+      - "YS-LN07/Text/chapter018.xhtml/p000158"
+      - "YS-LN07/Text/chapter018.xhtml/p000164"
+      - "YS-LN07/Text/chapter018.xhtml/p000166"
+      - "YS-LN07/Text/chapter018.xhtml/p000170"
+      - "YS-LN07/Text/chapter018.xhtml/p000172"
+      - "YS-LN07/Text/chapter018.xhtml/p000173"
+      - "YS-LN07/Text/chapter018.xhtml/p000175"
+      - "YS-LN07/Text/chapter018.xhtml/p000177"
+  - source_term: "cease-fire / cease-fire agreement / reparations"
+    proposed_vi: "lệnh ngừng bắn / thỏa thuận ngừng bắn / bồi thường chiến phí"
+    category: "thuật ngữ ngoại giao - quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với các lô trước của chương 5 và sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000156"
+      - "YS-LN07/Text/chapter018.xhtml/p000157"
+      - "YS-LN07/Text/chapter018.xhtml/p000159"
+      - "YS-LN07/Text/chapter018.xhtml/p000171"
+      - "YS-LN07/Text/chapter018.xhtml/p000172"
+  - source_term: "EIC / new world order / censor"
+    proposed_vi: "tổng biên tập / trật tự thế giới mới / kiểm duyệt viên"
+    category: "thuật ngữ báo chí - chính trị"
+    status: "pending"
+    rationale: "Giải nghĩa chuẩn xác từ viết tắt 'EIC' (Editor-in-Chief) trong văn cảnh báo chí/xã luận và dịch tự nhiên các khái niệm kiểm duyệt, chính trị quốc tế."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000172"
+      - "YS-LN07/Text/chapter018.xhtml/p000175"
+  - source_term: "information warfare"
+    proposed_vi: "chiến tranh thông tin"
+    category: "thuật ngữ quân sự - tình báo"
+    status: "pending"
+    rationale: "Đồng bộ với sổ pending từ các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000180"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000149"
+    choices:
+      - "Thuật ngữ: 'mages' -> 'Pháp sư'; 'czarist era' nên chỉnh thành 'thời Sa hoàng' (thay vì 'thời Nga hoàng' để đồng bộ với p000137); 'enemies of their class' -> 'kẻ thù giai cấp'"
+      - "Đại từ chỉ pháp sư: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000150"
+    choices:
+      - "Thuật ngữ: 'Federation' -> 'Liên bang'; 'original sin' -> 'tội tổ tông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000151"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*lageri*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ: 'Federation’s Communist Party' -> 'Đảng Cộng sản Liên bang'; '“reeducation”' -> '“cải tạo”'; 'test for magic aptitude' -> 'kiểm tra tố chất ma pháp'; 'antiestablishment factions' -> 'các phe phái chống đối chế độ'; '“modern witch hunt”' -> '“cuộc săn phù thủy thời hiện đại”'"
+      - "Phủ định kép ở câu cuối: 'Chẳng phải vô cớ mà người ta gọi đó là một “cuộc săn phù thủy thời hiện đại”.'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000152"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Thật tình.*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật: 'Loria'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000153"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'; đại từ phiếm chỉ: 'mình'"
+      - "Cấu trúc đối lập & ẩn dụ: 'Chuyên môn của gã là chính trị chứ không phải quân sự... cứ giao cho một chuyên gia có xích buộc cổ sẽ tốt hơn.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000154"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Mình không hợp với việc này.*' tương ứng với thẻ em trong nguồn"
+      - "Phân tách đại từ: 'Gã' (trần thuật) - 'Mình' (độc thoại nội tâm của Loria)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000155"
+    choices:
+      - "Lời lẩm bẩm một mình của Loria (lược chủ ngữ tự nhiên): '“Nào, giờ thì phải đọc mấy kết quả này đây…”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000156"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Chẳng phải nếu Đế quốc biết điều thì lệnh ngừng bắn và hòa bình sẽ diễn ra sao?*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ: 'the Empire' -> 'Đế quốc'; 'politburo' -> 'Bộ Chính trị'; 'reactionary influences' -> 'các thế lực phản động'; 'cease-fire' -> 'lệnh ngừng bắn'; 'party members' -> 'đảng viên'"
+      - "Đại từ chỉ phía Liên bang: 'Họ'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000157"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria'; 'họ' (phía Liên bang)"
+      - "Cấu trúc tăng tiến phủ định: 'ngay cả chuyện họ có đạt được một lệnh ngừng bắn hay không còn chưa rõ, huống hồ là hòa bình.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000158"
+    choices:
+      - "Thuật ngữ: 'Federation Army' -> 'Quân đội Liên bang'; 'Imperial Army' -> 'Lục quân Đế quốc'"
+      - "Giả định điều kiện phủ định: 'Nếu không ai đánh bại nổi Lục quân Đế quốc, thì hòa bình chỉ là một thứ lý thuyết. Và chỉ thuần túy là lý thuyết mà thôi.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000159"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria'; 'họ' (phía Liên bang)"
+      - "Thuật ngữ: 'cease-fire' -> 'lệnh ngừng bắn'; 'cease-fire agreement' -> 'thỏa thuận ngừng bắn'; 'civil war' -> 'nội chiến'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000160"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*có lẽ*' tương ứng với thẻ em trong nguồn"
+      - "Giữ dấu ngoặc kép cho từ '“lẽ ra phải”'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000161"
+    choices:
+      - "Tình thái giả định: 'Việc biên soạn một bộ bách khoa toàn thư về sự ngu xuẩn của con người hẳn sẽ là một đại dự án mang tầm cỡ quốc gia.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000162"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*có lẽ*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ trần thuật chỉ Loria: 'gã'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000163"
+    choices:
+      - "Thán từ ngạc nhiên của Loria: '“…Ồ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000164"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'"
+      - "Thuật ngữ: 'the Empire' -> 'Đế quốc'; 'highly classified document' -> 'tài liệu tối mật'; 'public opinion' -> 'dư luận'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000165"
+    choices:
+      - "Thuật ngữ: 'spirit of the age' -> 'tinh thần thời đại'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000166"
+    choices:
+      - "Đại từ trong lời độc thoại thành tiếng của Loria: 'Ta' (Loria) - 'họ' (Đế quốc)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000167"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu nội tâm: '*Đó cũng là một khả năng, nhưng theo những gì mình thấy qua bài xã luận này… Bộ họ thậm chí còn chẳng nhận ra mình đang rỉ ra thứ lòng tham này sao?*'"
+      - "Đại từ nội tâm của Loria: 'mình' (Loria) - 'họ' (phía Đế quốc)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000168"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'Gã'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000169"
+    choices:
+      - "Thán từ thích thú của Loria: '“Ồ, ồ, ồ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000170"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria' - 'gã'; 'họ' (Đế quốc)"
+      - "Giữ dấu ngoặc kép cho '“xứng đáng”' và '“chiến thắng”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000171"
+    choices:
+      - "Thuật ngữ & đại từ trong lời Loria: 'reparations' -> 'bồi thường chiến phí'; 'You' -> 'Các người' (hướng về phía Đế quốc)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000172"
+    choices:
+      - "Thuật ngữ: 'EIC' -> 'tổng biên tập'; 'the Empire' -> 'Đế quốc'; 'new world order' -> 'trật tự thế giới mới'; 'reparations' -> 'bồi thường chiến phí'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000173"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Nhưng…*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & đại từ: 'Loria'; 'họ' (phía Đế quốc)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000174"
+    choices:
+      - "Đại từ trong lời cảm thán mỉa mai của Loria: 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000175"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'Gã'; giữ dấu ngoặc kép cho '“họ”' (xã hội Đế quốc)"
+      - "Thuật ngữ: 'inspections' -> 'khâu kiểm duyệt'; 'censor' -> 'kiểm duyệt viên'; 'latent consciousness' -> 'tâm thức ngầm'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000176"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*…thú vị.*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ: 'Ta' - 'chúng ta' (trong lời Loria); 'Gã' (trần thuật); 'họ' (những người hiểu biết chính trị ở Đế quốc)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000177"
+    choices:
+      - "Thuật ngữ & đại từ: 'The Empire' -> 'Đế quốc' - 'Họ'; 'military secrets' -> 'bí mật quân sự'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000178"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria' - 'mình'; 'họ' (Đế quốc)"
+      - "Phủ định nhấn mạnh: 'vốn chẳng hề thấp chút nào'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000179"
+    choices:
+      - "Đại từ & dấu ngoặc kép: 'Họ đề phòng “gián điệp”.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000180"
+    choices:
+      - "Thuật ngữ: 'information warfare' -> 'chiến tranh thông tin'"
+      - "Đại từ chỉ phía Đế quốc: 'Họ' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000181"
+    choices:
+      - "Tên nhân vật: 'Loria'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000182"
+    choices:
+      - "Đại từ phiếm chỉ tự quy chiếu trong lời độc thoại của Loria: 'người ta' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000183"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'Gã' - 'mình'"
+      - "Cách gọi Tanya trong suy nghĩ lệch lạc của Loria: 'his sweet little fairy' -> 'nàng tiên bé nhỏ ngọt ngào ấy'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000184"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu nội tâm: '*Cuộc chiến sẽ còn kéo dài đủ lâu để mình hái được em ấy.*'"
+      - "Đại từ trong nội tâm Loria: 'mình' (Loria) - 'em ấy' (Tanya / nàng tiên bé nhỏ)"
