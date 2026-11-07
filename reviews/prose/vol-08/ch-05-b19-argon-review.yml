@@ -1,0 +1,141 @@
+task_id: vol-08-ch-05-b19-argon-review
+parent_task_id: vol-08-ch-05-b19
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b19-source.jsonl
+target_translation: translations/vol-08/ch-05-b19.jsonl
+review_path: reviews/prose/vol-08/ch-05-b19-argon-review.yml
+state: done
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+unresolved_findings: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "Serebryakov / Lieutenant / adjutant / First Lieutenant Grantz / Major Weiss / Weiss / vice commander"
+    proposed_vi: "Serebryakov / Trung úy / sĩ quan phụ tá / Trung úy Grantz / Thiếu tá Weiss / Weiss / phó chỉ huy"
+    category: "nhân vật / quân hàm / chức danh"
+    status: pending
+    rationale: "Giữ nhất quán cấp bậc và chức danh của Serebryakov (Trung úy, sĩ quan phụ tá), Grantz (Trung úy) và Weiss (Thiếu tá, phó chỉ huy) theo sổ pending của vol-08."
+    alternatives_vi:
+      - "phụ tá"
+      - "tiểu đoàn phó"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000692
+      - YS-LN08/Text/chapter018.xhtml/p000693
+      - YS-LN08/Text/chapter018.xhtml/p000694
+      - YS-LN08/Text/chapter018.xhtml/p000695
+      - YS-LN08/Text/chapter018.xhtml/p000698
+      - YS-LN08/Text/chapter018.xhtml/p000700
+      - YS-LN08/Text/chapter018.xhtml/p000701
+      - YS-LN08/Text/chapter018.xhtml/p000703
+      - YS-LN08/Text/chapter018.xhtml/p000709
+      - YS-LN08/Text/chapter018.xhtml/p000712
+  - source_term: "defensive shell / optical sniper formulas / mana signals"
+    proposed_vi: "lớp vỏ phòng thủ / thuật thức bắn tỉa quang học / tín hiệu ma năng"
+    category: "thuật ngữ ma pháp / tác chiến"
+    status: pending
+    rationale: "Khớp hệ thống thuật ngữ ma pháp quân sự đã dùng xuyên suốt các tập trước và trong vol-08."
+    alternatives_vi:
+      - "thuật thức bắn tỉa hệ quang học"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000696
+      - YS-LN08/Text/chapter018.xhtml/p000706
+      - YS-LN08/Text/chapter018.xhtml/p000733
+  - source_term: "Federation / Commonwealth / multinational unit"
+    proposed_vi: "Liên bang / Khối Thịnh vượng chung / đơn vị đa quốc gia"
+    category: "quốc gia / tổ chức quân sự"
+    status: pending
+    rationale: "Giữ thống nhất định danh các quốc gia và đơn vị liên quân trên chiến trường miền Đông."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000696
+      - YS-LN08/Text/chapter018.xhtml/p000707
+      - YS-LN08/Text/chapter018.xhtml/p000719
+  - source_term: "communication cost / communication costs / chain of command"
+    proposed_vi: "chi phí giao tiếp điều phối / hệ thống chỉ huy"
+    category: "thuật ngữ quản trị / tổ chức quân sự"
+    status: pending
+    rationale: "Giữ chuẩn thuật ngữ quản trị doanh nghiệp và chỉ huy quân sự trong lập luận phân tích tổ chức của Tanya."
+    alternatives_vi:
+      - "chi phí giao tiếp"
+      - "chuỗi chỉ huy"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000722
+      - YS-LN08/Text/chapter018.xhtml/p000723
+      - YS-LN08/Text/chapter018.xhtml/p000725
+  - source_term: "203rd Aerial Mage Battalion / friendly HQ"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 / sở chỉ huy của quân bạn"
+    category: "đơn vị / thuật ngữ tác chiến"
+    status: pending
+    rationale: "Thống nhất tên gọi chính thức của Tiểu đoàn 203 và cụm từ chỉ sở chỉ huy quân nhà trong vol-08."
+    alternatives_vi:
+      - "sở chỉ huy quân ta"
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000730
+      - YS-LN08/Text/chapter018.xhtml/p000732
+locked_choices:
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000692
+      - YS-LN08/Text/chapter018.xhtml/p000698
+      - YS-LN08/Text/chapter018.xhtml/p000699
+      - YS-LN08/Text/chapter018.xhtml/p000701
+      - YS-LN08/Text/chapter018.xhtml/p000702
+      - YS-LN08/Text/chapter018.xhtml/p000709
+      - YS-LN08/Text/chapter018.xhtml/p000723
+      - YS-LN08/Text/chapter018.xhtml/p000731
+      - YS-LN08/Text/chapter018.xhtml/p000732
+      - YS-LN08/Text/chapter018.xhtml/p000733
+    category: "điểm nhìn & đại từ nhân xưng (DEC-P01-001)"
+    locked_choice: "Trần thuật ngôi thứ ba quy chiếu Tanya là 'cô', Serebryakov là 'cô ấy', Weiss là 'anh' / 'anh ta' và cả đơn vị là 'họ'; độc thoại nội tâm hồi tưởng kiếp trước của Tanya tự xưng 'mình' (p000723); nhận định bao quát toàn đơn vị ở ngôi thứ nhất số nhiều dùng 'chúng tôi' (p000731)."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000691
+      - YS-LN08/Text/chapter018.xhtml/p000692
+      - YS-LN08/Text/chapter018.xhtml/p000694
+      - YS-LN08/Text/chapter018.xhtml/p000695
+      - YS-LN08/Text/chapter018.xhtml/p000696
+      - YS-LN08/Text/chapter018.xhtml/p000700
+      - YS-LN08/Text/chapter018.xhtml/p000704
+      - YS-LN08/Text/chapter018.xhtml/p000705
+      - YS-LN08/Text/chapter018.xhtml/p000710
+      - YS-LN08/Text/chapter018.xhtml/p000712
+      - YS-LN08/Text/chapter018.xhtml/p000713
+      - YS-LN08/Text/chapter018.xhtml/p000717
+      - YS-LN08/Text/chapter018.xhtml/p000718
+      - YS-LN08/Text/chapter018.xhtml/p000727
+      - YS-LN08/Text/chapter018.xhtml/p000728
+      - YS-LN08/Text/chapter018.xhtml/p000729
+    category: "xưng hô và cấp bậc trong thoại"
+    locked_choice: "Tanya gọi Weiss là 'Thiếu tá Weiss' / 'anh', xưng 'tôi' / 'chúng ta'; Weiss gọi Tanya là 'Trung tá' / 'ngài', gọi Serebryakov là 'Trung úy', xưng 'tôi' / 'chúng ta'; Serebryakov gọi Tanya là 'ngài' kèm 'ạ', gọi Weiss là 'ngài... thưa Thiếu tá'."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000695
+      - YS-LN08/Text/chapter018.xhtml/p000696
+      - YS-LN08/Text/chapter018.xhtml/p000700
+      - YS-LN08/Text/chapter018.xhtml/p000701
+      - YS-LN08/Text/chapter018.xhtml/p000704
+      - YS-LN08/Text/chapter018.xhtml/p000705
+      - YS-LN08/Text/chapter018.xhtml/p000706
+    category: "đại từ chỉ pháp sư địch đơn lẻ (singular they)"
+    locked_choice: "Dịch đại từ số ít trung tính chỉ pháp sư địch (Mary Sue, khi phía Đế quốc chưa rõ danh tính/giới tính) là 'tên địch đó', 'kẻ đó', 'thứ đó', 'tên pháp sư kia', 'tên đó', 'đối phương', đảm bảo không lộ thông tin ngoài điểm nhìn nhân vật."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000699
+    category: "nhấn mạnh Markdown (DEC-P01-002)"
+    locked_choice: "Chỉ bọc '*Được rồi, được rồi.*' ở đầu đoạn p000699 đúng với thẻ '<html:em>' trong XHTML nguồn; toàn bộ 42 đoạn còn lại trong batch không có nhấn mạnh trong nguồn nên giữ văn bản phẳng."
+  - segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000698
+      - YS-LN08/Text/chapter018.xhtml/p000706
+      - YS-LN08/Text/chapter018.xhtml/p000714
+      - YS-LN08/Text/chapter018.xhtml/p000715
+      - YS-LN08/Text/chapter018.xhtml/p000716
+      - YS-LN08/Text/chapter018.xhtml/p000719
+      - YS-LN08/Text/chapter018.xhtml/p000721
+      - YS-LN08/Text/chapter018.xhtml/p000725
+      - YS-LN08/Text/chapter018.xhtml/p000726
+      - YS-LN08/Text/chapter018.xhtml/p000727
+    category: "lập luận nhân quả, tình thái & ẩn dụ chiến thuật"
+    locked_choice: "Giữ chuẩn giả định phản thực tế ở p000698 ('Giá mà giờ có thể trêu chọc Trung úy Grantz nữa thì...'), ẩn dụ 'trò đọ gan' (game of chicken) ở p000706, phép đối lập 'chó giữ nhà' (guard dogs) với 'chó săn / khuyển chiến' (hunting dogs / war hounds) ở p000714-p000716, và chuỗi lập luận về chi phí giao tiếp điều phối khiến đơn vị đa quốc gia của địch buộc phải cứng nhắc lao theo kế hoạch truy kích."
