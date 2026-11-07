@@ -1,0 +1,233 @@
+task_id: "vol-07-ch-04-b16-argon-review"
+parent_task_id: "vol-07-ch-04-b16"
+volume: "vol-07"
+chapter: 4
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-07/ch-04-b16-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 1
+  minor: 3
+unresolved_findings: 1
+findings:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000443"
+    severity: "moderate"
+    category: "meaning_and_syntax"
+    issue: "Câu thứ hai hiểu nhầm cấu trúc tỉnh lược đối xứng giữa 'the former' (nhân viên thông tin liên lạc) và 'the latter' (các sĩ quan tham mưu, tức 'the staff'). Nguyên văn đối lập hai nỗi bức bối: nhóm trước muốn thoát khỏi sự hiện diện đầy áp lực của các sĩ quan tham mưu, còn nhóm sau muốn thoát khỏi sự hồi hộp căng thẳng chờ tin ('the suspense'); nhưng việc phải chờ đợi mà cứ ngỡ mỗi giây dài bằng cả một giờ đồng hồ lại là điều cả hai bên đều cùng trải qua. Bản dịch hiện ghép 'và nhóm sau' vào cùng cụm với 'các sĩ quan tham mưu' ('thoát khỏi sự hiện diện đầy áp lực của các sĩ quan tham mưu và nhóm sau'), khiến câu tự mâu thuẫn vì 'các sĩ quan tham mưu' và 'nhóm sau' là cùng một đối tượng."
+    rationale: "Khôi phục đúng cấu trúc tỉnh lược và quan hệ đối chiếu giữa hai nhóm nhân sự trong phòng liên lạc theo style-guide.md."
+    suggested_fix: "Sửa câu thứ hai thành: 'Ngay cả khi nhóm trước muốn thoát khỏi sự hiện diện đầy áp lực của các sĩ quan tham mưu còn nhóm sau muốn thoát khỏi nỗi hồi hộp chờ tin, thì cảnh chờ đợi mà cứ ngỡ mỗi giây dài bằng cả một giờ đồng hồ vẫn là điều không thể chối cãi mà cả hai bên đều đang cùng chia sẻ.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000434"
+    severity: "minor"
+    category: "terminology_and_register"
+    issue: "Cụm 'war dog' trong lời nói đùa của Tanya đang được dịch là 'chó nghiệp vụ chiến tranh'. Cách gọi 'chó nghiệp vụ' mang sắc thái hành chính hiện đại, hơi lệch với bối cảnh quân sự năm 1927 và câu hỏi của Grantz về chiếc mũi thính ở p000433."
+    rationale: "Chọn từ tự nhiên hơn với văn phong quân sự và ăn khớp với chi tiết đánh hơi tìm ra căn cứ địch."
+    suggested_fix: "Đổi 'chó nghiệp vụ chiến tranh' thành 'quân khuyển' hoặc 'chó săn chiến tranh' (ví dụ: '“Anh đang cố mớm lời để tôi nói rằng chẳng phải ngẫu nhiên mà người ta gọi tôi là quân khuyển đấy à?”')."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000442"
+    severity: "minor"
+    category: "style_guide_compliance"
+    issue: "Bản dịch thêm từ giải thích trừu tượng 'áp lực' trong cụm 'đè nặng áp lực lên đôi vai của người kỹ thuật viên', làm mờ hình ảnh vật lý cụ thể trong căn phòng chật kín người khi các sĩ quan tham mưu vây quanh và tì nặng lên vai người kỹ thuật viên đang bám lấy máy liên lạc."
+    rationale: "Theo hướng dẫn văn phong, không tự thêm từ giải thích làm mất chi tiết miêu tả trực quan của nguyên bản."
+    suggested_fix: "Đổi 'họ cứ đè nặng áp lực lên đôi vai của người kỹ thuật viên' thành 'họ cứ tì nặng lên đôi vai của người kỹ thuật viên' hoặc 'họ cứ đè nặng lên đôi vai của người kỹ thuật viên'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000445"
+    severity: "minor"
+    category: "lexical_nuance"
+    issue: "Tính từ 'incoherent' bổ nghĩa cho 'voice' đang được dịch là 'một giọng vô thanh hỗn loạn'. Từ nguyên gốc chỉ tiếng gào thét hỗn loạn, không thành lời rõ ràng chứ không mang nghĩa 'vô thanh'."
+    rationale: "Giữ sát nghĩa từ vựng của nguyên bản, tránh tự thêm nét nghĩa không có trong từ gốc."
+    suggested_fix: "Đổi 'gào thét bằng một giọng vô thanh hỗn loạn' thành 'gào thét bằng một giọng hỗn loạn không thành lời'."
+pending_term_recommendations:
+  - source_term: "home country / enemy HQ / Moskva raid / decapitation tactics"
+    proposed_vi: "bản quốc / sở chỉ huy địch / cuộc tập kích Moskva / chiến thuật chặt đầu chỉ huy"
+    alternatives_vi:
+      - "quê nhà / tổng hành dinh địch / đợt đột kích Moskva / chiến thuật trảm thủ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp nhất quán với hệ thuật ngữ tác chiến và chỉ huy đã sử dụng ở các batch trước của Tập 7 và trong work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000426"
+      - "YS-LN07/Text/chapter016.xhtml/p000427"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff) / Lieutenant Grantz / Grantz"
+    proposed_vi: "Trung tá (Thưa Trung tá) / Trung úy Grantz / Grantz"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ đúng cấp bậc thực tế của Tanya (Trung tá) và Grantz (Trung úy) ở Tập 7 theo sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000430"
+      - "YS-LN07/Text/chapter016.xhtml/p000433"
+      - "YS-LN07/Text/chapter016.xhtml/p000435"
+      - "YS-LN07/Text/chapter016.xhtml/p000437"
+  - source_term: "war dog / hunting dog"
+    proposed_vi: "quân khuyển (hoặc chó săn chiến tranh) / chó săn"
+    alternatives_vi:
+      - "chó chiến / khuyển binh"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phân biệt sắc thái giữa cách gọi 'war dog' trong lời đối đáp của Tanya với Grantz ở p000434 và 'hunting dog' trong nhận xét của Tướng Zettour ở p000455, đồng thời giữ liên kết hình ảnh đánh hơi tìm ra sở chỉ huy địch."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000434"
+      - "YS-LN07/Text/chapter016.xhtml/p000455"
+  - source_term: "IMPERIAL CAPITAL BERUN, IMPERIAL ARMY GENERAL STAFF OFFICE / Imperial Army / Salamander Kampfgruppe / Lergen Kampfgruppe / Kampfgruppe"
+    proposed_vi: "THỦ ĐÔ ĐẾ QUỐC BERUN, VĂN PHÒNG BỘ TỔNG THAM MƯU LỤC QUÂN ĐẾ QUỐC / Lục quân Đế quốc / Kampfgruppe Salamander / Kampfgruppe Lergen / Kampfgruppe"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thống nhất tên cơ quan đầu não và phiên hiệu đơn vị theo chuẩn tạm trong work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000439"
+      - "YS-LN07/Text/chapter016.xhtml/p000440"
+      - "YS-LN07/Text/chapter016.xhtml/p000449"
+      - "YS-LN07/Text/chapter016.xhtml/p000451"
+      - "YS-LN07/Text/chapter016.xhtml/p000457"
+      - "YS-LN07/Text/chapter016.xhtml/p000459"
+  - source_term: "Federation Army group headquarters / Eastern Army Group / General Staff / Southern Continent Expeditionary Army Corps / eastern army"
+    proposed_vi: "sở chỉ huy cụm tập đoàn quân của Quân đội Liên bang / Cụm tập đoàn quân phía Đông / Bộ Tổng tham mưu / Quân đoàn Viễn chinh Lục địa Phía nam / Đạo quân phía đông"
+    alternatives_vi:
+      - "Tập đoàn quân phía Đông (cho eastern army)"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thống nhất hệ thống phiên hiệu cấp chiến dịch – chiến lược của Đế quốc và Liên bang theo work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000440"
+      - "YS-LN07/Text/chapter016.xhtml/p000446"
+      - "YS-LN07/Text/chapter016.xhtml/p000451"
+      - "YS-LN07/Text/chapter016.xhtml/p000453"
+  - source_term: "duty officer / officer-messenger mail / Lieutenant General von Zettour / Colonel Uger"
+    proposed_vi: "sĩ quan trực ban / đường công văn giao liên sĩ quan / Trung tướng von Zettour / Trung tá Uger"
+    alternatives_vi:
+      - "bưu phẩm giao liên sĩ quan"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp chức danh sĩ quan trực ban, phương thức chuyển công văn nội bộ và quân hàm thực tế của Trung tướng von Zettour cùng Trung tá Uger (nguyên văn gọi tắt là Colonel Uger) trong Tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000445"
+      - "YS-LN07/Text/chapter016.xhtml/p000447"
+      - "YS-LN07/Text/chapter016.xhtml/p000454"
+      - "YS-LN07/Text/chapter016.xhtml/p000456"
+  - source_term: "JOINT DEFENSIVE POSITION OF THE RIVER AIRBORNE UNIT AND THE KAMPFGRUPPE / Theater warning"
+    proposed_vi: "TRẬN ĐỊA PHÒNG NGỰ LIÊN HỢP CỦA ĐƠN VỊ ĐỔ BỘ ĐƯỜNG KHÔNG BỜ SÔNG VÀ KAMPFGRUPPE / Cảnh báo toàn chiến trường"
+    alternatives_vi:
+      - "Báo động toàn chiến khu"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ cách dịch trung tính, sát nghĩa cho tiêu đề địa điểm hội quân giữa đơn vị đổ bộ đường không tại điểm vượt sông với Kampfgruppe và hiệu lệnh cảnh báo cấp chiến trường."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000457"
+      - "YS-LN07/Text/chapter016.xhtml/p000458"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000426"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ đại từ 'chúng ta', 'bản quốc' (home country), 'cuộc tập kích Moskva' (Moskva raid), và giữ đúng phạm vi nhấn mạnh Markdown '*“tấn công trực tiếp sở chỉ huy địch”*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000427"
+    choices:
+      - "Nhận định nội tâm của Tanya: giữ 'Chiến thuật chặt đầu chỉ huy' (Decapitation tactics) và quan hệ bất kể thành bại vẫn đạt thành quả."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000428"
+    choices:
+      - "Trần thuật từ điểm nhìn Tanya: giữ tên riêng 'Tanya', đại từ 'Nó' / 'nó' theo DEC-P01-001, và đại từ 'họ' chỉ đơn vị."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000429"
+    choices:
+      - "Thoại báo cáo của Grantz với Tanya: giữ đại từ 'Chúng tôi' và tiểu từ lễ phép 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000430"
+    choices:
+      - "Trần thuật kết hợp nội tâm Tanya: giữ tên riêng 'Grantz', đại từ 'nó' cho Tanya theo DEC-P01-001, 'anh ta' cho Grantz, và giữ đúng phạm vi nhấn mạnh Markdown '*Sao anh ta lại có thể vui mừng trên chiến trường được chứ?*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000431"
+    choices:
+      - "Trần thuật và thoại của Tanya: giữ tên riêng 'Tanya', đại từ 'Nó' theo DEC-P01-001, và câu hỏi xác nhận 'Các anh tìm thấy chúng rồi ư?!'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000432"
+    choices:
+      - "Trần thuật pha nội tâm Tanya: giữ 'Người cấp dưới này của nó' (This subordinate of hers) với đại từ 'nó' theo DEC-P01-001, 'họ' (they), và 'căn cứ ẩn giấu' (hidden base)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000433"
+    choices:
+      - "Thoại của Grantz với Tanya: giữ danh xưng cấp bậc thực tế 'Thưa Trung tá' / 'Trung tá' (Colonel) và tiểu từ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000434"
+    choices:
+      - "Thoại của Tanya với Grantz: giữ xưng hô 'Anh' – 'tôi' và cấu trúc câu hỏi phản vấn sau khi chỉnh thuật ngữ 'war dog'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000435"
+    choices:
+      - "Thoại lắp bắp của Grantz: giữ 'Tr-Trung tá?!' (C-Colonel?!)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000436"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ đại từ tự xưng 'Mình' theo DEC-P01-001 và ý nghĩa lời nói dối vô tình biến thành sự thật."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000437"
+    choices:
+      - "Thoại chỉnh đốn cấp dưới của Tanya: giữ 'Trung úy Grantz' (Lieutenant Grantz), đại từ 'anh', và 'chúng ta'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000438"
+    choices:
+      - "Trần thuật: giữ tên riêng 'Tanya' và phủ định 'không sao hiểu nổi'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000439"
+    choices:
+      - "Tiêu đề chuyển cảnh viết hoa toàn bộ: giữ 'CÙNG NGÀY HÔM ĐÓ, VÀO BUỔI CHIỀU, THỦ ĐÔ ĐẾ QUỐC BERUN, VĂN PHÒNG BỘ TỔNG THAM MƯU LỤC QUÂN ĐẾ QUỐC'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000440"
+    choices:
+      - "Trần thuật: giữ 'Kampfgruppe Salamander của Lục quân Đế quốc', 'sở chỉ huy cụm tập đoàn quân của Quân đội Liên bang', 'Cụm tập đoàn quân phía Đông', và 'Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000441"
+    choices:
+      - "Trần thuật: giữ 'các sĩ quan tham mưu' (staffers) và phủ định 'dù chẳng phải quá nhỏ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000442"
+    choices:
+      - "Nội tâm tập thể và trần thuật: giữ đúng phạm vi nhấn mạnh Markdown '*Đã có tin chưa? Giờ thì sao?*' theo DEC-P01-002, 'người kỹ thuật viên' (technician), và 'bộ thiết bị liên lạc' (communications set)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000443"
+    choices:
+      - "Trần thuật: giữ đối lập giữa 'nhóm trước' (nhân viên thông tin liên lạc) và 'nhóm sau' (các sĩ quan tham mưu) sau khi sửa lỗi cú pháp tỉnh lược."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000444"
+    choices:
+      - "Nội tâm mong ngóng: giữ đúng phạm vi nhấn mạnh Markdown '*Vẫn chưa có gì sao? Đến giờ vẫn chưa có ư?*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000445"
+    choices:
+      - "Trần thuật: giữ 'tiền tuyến' (front lines), 'viên sĩ quan trực ban' (duty officer), tình thái 'có lẽ' (perhaps), và 'đường công văn giao liên sĩ quan' (officer-messenger mail)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000446"
+    choices:
+      - "Trần thuật: giữ 'lực lượng chiếm đóng ở phương bắc', 'Quân đoàn Viễn chinh Lục địa Phía nam' (Southern Continent Expeditionary Army Corps), và 'các trận không chiến ở phía tây'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000447"
+    choices:
+      - "Trần thuật: giữ 'Các sĩ quan tham mưu' (staffers), 'viên sĩ quan trực ban' (duty officer), và đại từ 'anh'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000448"
+    choices:
+      - "Trần thuật: giữ ẩn dụ 'làn hỏa lực chế áp bằng ánh mắt' (suppressive fire of looks) và đại từ 'anh'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000449"
+    choices:
+      - "Thoại báo tin của sĩ quan trực ban: giữ 'Kampfgruppe' và tiểu từ lễ phép 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000450"
+    choices:
+      - "Thoại hỏi dồn: giữ 'Trong đó nói gì?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000451"
+    choices:
+      - "Trần thuật và nội dung bức điện: giữ 'Kampfgruppe Lergen', 'mặt trận phía đông', 'Bộ Tổng tham mưu', và câu điệp 'Chúng tôi đã tấn công trực tiếp bọn chúng. Tôi nhắc lại, chúng tôi đã tấn công trực tiếp bọn chúng.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000452"
+    choices:
+      - "Trần thuật: giữ nhịp cảm thán 'Một đòn tấn công trực tiếp! Họ đã lao vào tập kích và tung một đòn tấn công trực tiếp!'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000453"
+    choices:
+      - "Thoại đọc tóm tắt báo cáo của sĩ quan trực ban: giữ 'cuộc không kích' (air raid), 'nhân sự chỉ huy của địch' (enemy command personnel), 'nhân viên thông tin liên lạc' (communications personnel), và 'Đạo quân phía đông' (eastern army)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000454"
+    choices:
+      - "Trần thuật: giữ 'Trung tướng von Zettour' (Lieutenant General von Zettour), 'Trung tá Uger' (Colonel Uger), và phủ định kép 'không lấy làm phật ý' (not-dissatisfied)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000455"
+    choices:
+      - "Thoại của Trung tướng von Zettour: giữ xưng hô 'tôi', đại từ 'cô ta' chỉ Tanya, và 'chó săn' (hunting dog)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000456"
+    choices:
+      - "Thoại của Trung tá Uger với Zettour: giữ xưng hô tôn kính 'ngài ... ạ, thưa Trung tướng' (sir) và đại từ 'Cô ấy' chỉ Tanya."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000457"
+    choices:
+      - "Tiêu đề chuyển cảnh viết hoa toàn bộ: giữ 'NGÀY 11 THÁNG 5 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, TRẬN ĐỊA PHÒNG NGỰ LIÊN HỢP CỦA ĐƠN VỊ ĐỔ BỘ ĐƯỜNG KHÔNG BỜ SÔNG VÀ KAMPFGRUPPE'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000458"
+    choices:
+      - "Thoại cảnh báo và trần thuật: giữ 'Cảnh báo toàn chiến trường!' (Theater warning!), 'Quân Liên bang' (Federation troops), 'chọc thủng vòng vây' (punch through the encirclement), và 'mặt trận phía đông'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000459"
+    choices:
+      - "Trần thuật: giữ 'Lục quân Đế quốc' (Imperial Army) và nhận định chủ quan của họ về chiến thắng tưởng đã nắm chắc."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000460"
+    choices:
+      - "Thoại sững sờ tại tiền tuyến: giữ 'khả năng cơ động có tổ chức' (organized maneuvers)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000461"
+    choices:
+      - "Thoại phản ứng tại tiền tuyến: giữ tự xưng 'Tôi', 'khả năng kháng cự có tổ chức' (ability to resist in an organized way)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000462"
+    choices:
+      - "Nội tâm và trần thuật: giữ đúng phạm vi nhấn mạnh Markdown '*Cái quái gì thế này…*' theo DEC-P01-002, 'quân Liên bang' (the Federation), và phủ định 'không còn là một lựa chọn nữa'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000463"
+    choices:
+      - "Trần thuật: giữ 'mặt trận phía đông' (eastern front), 'ngoài ca trực' (off duty), và phủ định 'không phải là ngoại lệ'."
