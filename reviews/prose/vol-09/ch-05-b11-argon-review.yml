@@ -1,0 +1,243 @@
+task_id: "vol-09-ch-05-b11-argon-review"
+parent_task_id: "vol-09-ch-05-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-09"
+chapter: 5
+source_package: "work/vol-09/batches/ch-05-b11-source.jsonl"
+target_translation: "translations/vol-09/ch-05-b11.jsonl"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 2
+findings:
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000300"
+    severity: "moderate"
+    category: "modality_and_tense"
+    issue: "Biến giả định trái thực tế (would have been able to) thành dự đoán tương lai (sẽ giải quyết ... đây), làm lệch thời gian và tính giả định theo canon/style-guide.md."
+    rationale: "Trong ngữ cảnh p000300, Trung úy Serebryakov không có mặt tại đơn vị đồn trú để làm hộ giấy tờ cho Meybert; Meybert chỉ đang nhớ lại năng lực của một sĩ quan phụ tá và giả định nếu là cô ấy thì hẳn đã giải quyết xong rất nhanh. Dùng 'sẽ giải quyết ... đây' khiến người đọc hiểu nhầm Serebryakov sắp sửa bắt tay vào xử lý đống giấy tờ này."
+    recommendation: "Đổi 'Tôi cá là cô ấy sẽ giải quyết êm đẹp mớ này nhanh gọn lắm đây.' thành 'Tôi cá là cô ấy hẳn đã có thể giải quyết êm đẹp mớ này nhanh gọn lắm rồi.' (hoặc 'Tôi cá là nếu có cô ấy thì hẳn cô ấy đã giải quyết êm đẹp mớ này nhanh gọn lắm rồi.')."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000284"
+    severity: "minor"
+    category: "ellipsis_and_nuance"
+    issue: "Khôi phục động từ khuyết thiếu tỉnh lược 'can' thành 'lại tin nổi đấy' và tăng mức độ 'just different' thành 'hoàn toàn khác chúng ta'."
+    rationale: "Trong phạm vi gói nguồn của batch b11 không có câu thoại p000283 phía trước để xác nhận động từ được tỉnh lược sau 'can' có phải là 'believe' hay không; dịch trung tính theo trợ động từ khuyết thiếu giúp tránh rủi ro lệch động từ nếu câu trước nói về hành động hay đòi hỏi khác. Ngoài ra, 'just different' chỉ nhấn nhẹ sự khác biệt về thường thức chứ không có trạng từ chỉ mức độ tuyệt đối 'hoàn toàn'."
+    recommendation: "Cân nhắc chỉnh thành: 'À thì, các sĩ quan hành chính ở đây thì có thể đấy. Thường thức của họ vốn dĩ đã khác rồi.' (hoặc đối chiếu p000283 nếu giữ động từ cụ thể)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000294"
+    severity: "minor"
+    category: "lexical_precision"
+    issue: "Diễn đạt 'multiple checks of the construction plans' thành 'kiểm tra chéo bản vẽ thi công qua nhiều khâu' hơi suy diễn thêm yếu tố 'chéo'."
+    rationale: "Nguồn chỉ nêu việc kiểm tra bản vẽ/phương án thi công nhiều lần (multiple checks), không nêu rõ hình thức 'kiểm tra chéo' (cross-check)."
+    recommendation: "Cân nhắc chỉnh thành 'kiểm tra bản vẽ thi công nhiều lần?' hoặc 'kiểm tra bản vẽ thi công qua nhiều vòng?'."
+pending_term_recommendations:
+  - source_term: "administrative officers"
+    proposed_vi: "sĩ quan hành chính"
+    alternatives_vi:
+      - "sĩ quan quản trị hành chính"
+    category: "chức danh"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Dịch sát nghĩa và tự nhiên cho các sĩ quan phụ trách thủ tục hành chính tại hậu phương/căn cứ."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000284"
+  - source_term: "Captain / Meybert / artilleryman"
+    proposed_vi: "Đại úy / Meybert / người lính pháo binh"
+    alternatives_vi:
+      - "sĩ quan pháo binh"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nhất quán quân hàm Đại úy và xuất thân pháo binh của Meybert theo sổ pending vol-09."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000286"
+      - "YS-LN09/Text/chapter020.xhtml/p000288"
+      - "YS-LN09/Text/chapter020.xhtml/p000297"
+      - "YS-LN09/Text/chapter020.xhtml/p000300"
+      - "YS-LN09/Text/chapter020.xhtml/p000305"
+      - "YS-LN09/Text/chapter020.xhtml/p000311"
+      - "YS-LN09/Text/chapter020.xhtml/p000313"
+      - "YS-LN09/Text/chapter020.xhtml/p000316"
+      - "YS-LN09/Text/chapter020.xhtml/p000319"
+      - "YS-LN09/Text/chapter020.xhtml/p000320"
+  - source_term: "Lieutenant Tospan / Tospan / lieutenant"
+    proposed_vi: "Trung úy Tospan / Tospan / viên trung úy"
+    alternatives_vi: []
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nhất quán quân hàm Trung úy của Tospan theo sổ pending vol-09."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000285"
+      - "YS-LN09/Text/chapter020.xhtml/p000297"
+      - "YS-LN09/Text/chapter020.xhtml/p000302"
+      - "YS-LN09/Text/chapter020.xhtml/p000313"
+      - "YS-LN09/Text/chapter020.xhtml/p000318"
+      - "YS-LN09/Text/chapter020.xhtml/p000319"
+      - "YS-LN09/Text/chapter020.xhtml/p000320"
+  - source_term: "Federation Army"
+    proposed_vi: "Lục quân Liên bang"
+    alternatives_vi:
+      - "Quân đội Liên bang"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thống nhất cách gọi lực lượng lục quân của Liên bang trong bối cảnh tác chiến trên bộ ở mặt trận phía đông."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000287"
+  - source_term: "Lieutenant Serebryakov / adjutant / Colonel Degurechaff"
+    proposed_vi: "Trung úy Serebryakov / sĩ quan phụ tá / Trung tá Degurechaff"
+    alternatives_vi: []
+    category: "nhân vật / quân hàm / chức danh"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp hoàn toàn với hệ thống cấp bậc và chức danh đã dùng xuyên suốt vol-04 đến vol-09 (Tanya mang hàm Trung tá Pháp sư, được gọi tắt là Colonel trong tiếng Anh nhưng dịch chuẩn là Trung tá)."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000300"
+  - source_term: "command post"
+    proposed_vi: "sở chỉ huy"
+    alternatives_vi:
+      - "trạm chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ quân sự tiêu chuẩn chỉ nơi làm việc và chỉ huy của đơn vị."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000307"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    alternatives_vi: []
+    category: "địa danh quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất theo sổ pending vol-09."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000313"
+      - "YS-LN09/Text/chapter020.xhtml/p000315"
+  - source_term: "field engineer"
+    proposed_vi: "công binh dã chiến"
+    alternatives_vi:
+      - "kỹ sư công binh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Trong cụm 'field engineer stuff' gắn với việc đào công sự, đắp bao cát và rải mìn, 'công binh dã chiến' phản ánh chính xác tính chất chuyên môn quân sự."
+    segment_ids:
+      - "YS-LN09/Text/chapter020.xhtml/p000320"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000284"
+    locks:
+      - "Giữ xưng hô của Đại úy Meybert với Trung úy Tospan: gọi 'cậu', giọng điềm tĩnh của cấp trên trực tiếp."
+      - "Giữ thuật ngữ 'sĩ quan hành chính' (administrative officers) và 'doanh trại' (barracks)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000285"
+    locks:
+      - "Giữ câu đáp lễ quân ngũ của cấp dưới: 'Rõ ạ' (Understood) và tên riêng 'Tospan'."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000286"
+    locks:
+      - "Giữ chính xác phạm vi nhấn mạnh Markdown '*Mình cứ làm cho xong quách đi vậy. Mình muốn binh lính quay lại làm việc càng sớm càng tốt…*' theo DEC-P01-002."
+      - "Giữ đại từ tự quy chiếu 'Mình' trong độc thoại nội tâm và 'Anh' trong trần thuật ngôi thứ ba về Meybert."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000287"
+    locks:
+      - "Giữ phép so sánh ngang bằng giữa 'Bộ máy quan liêu' (Bureaucracy) và 'Lục quân Liên bang' (Federation Army)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000288"
+    locks:
+      - "Giữ tên 'Meybert' và các hạng mục bắt buộc trên đơn: đề cương tổng quát của công việc, chi phí vận hành, vật tư."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000289"
+    locks:
+      - "Giữ cấu trúc phủ định liệt kê ba hạng mục không làm: xây công sự bê tông, thiết lập trận địa nhiều tuyến tinh vi, rải mìn."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000290"
+    locks:
+      - "Giữ chuỗi chi tiết thực tế đối lập với thủ tục: chỉ chất bao cát, vật tư duy nhất là bao vải, xúc đất cát có sẵn gần đó nhồi vào và xếp chồng, lính đã có sẵn xẻng."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000291"
+    locks:
+      - "Giữ ý khả thể 'gói gọn trên một trang sổ tay'."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000292"
+    locks:
+      - "Giữ sự tương phản giữa 'một trang sổ tay' và 'mười biểu mẫu khác nhau' với quy cách điền riêng biệt."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000293"
+    locks:
+      - "Giữ từ 'hậu phương' (the rear) và dấu ngoặc kép biểu thị sắc thái mỉa mai của từ 'formal'."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000294"
+    locks:
+      - "Giữ hình thức câu hỏi liệt kê bốn yêu cầu: nguồn gốc số đất, xác nhận quyền sở hữu, kế hoạch phòng thủ hiện hành, kiểm tra bản vẽ thi công."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000295"
+    locks:
+      - "Giữ chính xác phạm vi nhấn mạnh Markdown '*Có khi nhồi đống giấy tờ này vào bao còn nhanh hơn là xúc đất ấy chứ!*' theo DEC-P01-002."
+      - "Giữ đại từ trần thuật 'anh' chỉ Meybert và ý muốn 'nổi loạn' (mutiny)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000296"
+    locks:
+      - "Giữ hai mệnh đề tăng tiến về sự chậm trễ: thời gian trôi qua nhiều hơn dự kiến và công việc chậm tiến độ hơn tính toán."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000297"
+    locks:
+      - "Giữ cấp bậc và xưng hô trong thoại của Tospan với Meybert: tự xưng 'Tôi là Trung úy Tospan', gọi 'thưa Đại úy', có tiểu từ kính ngữ 'ạ'."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000298"
+    locks:
+      - "Giữ câu trả lời phủ định ngắn gọn và đại từ 'Tôi' trong thoại của Meybert với cấp dưới."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000299"
+    locks:
+      - "Giữ đại từ 'tôi', sắc thái kính ngữ 'ạ' và ý tự nhận không giỏi chuyện giấy tờ của Tospan."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000300"
+    locks:
+      - "Giữ đúng các danh xưng và thuật ngữ: 'Trung úy Serebryakov', 'sĩ quan phụ tá' (adjutant), 'Trung tá Degurechaff' (Colonel Degurechaff), đại từ 'cô ấy'."
+      - "Giữ tình thái giả định trái thực tế đối với nhận định về Serebryakov sau khi áp dụng sửa lỗi."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000301"
+    locks:
+      - "Giữ điểm nhìn hồi tưởng của Meybert ('anh') về Serebryakov ('cô') và thuật ngữ 'pháp sư' (mage)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000302"
+    locks:
+      - "Giữ cụm 'mối đe dọa cấp chiến thuật' (tactical threat) và cách gọi 'Trung úy Tospan', xưng 'tôi' - 'cậu'."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000303"
+    locks:
+      - "Giữ câu đáp 'Rõ ạ.' nhất quán với p000285."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000304"
+    locks:
+      - "Giữ quan hệ nhượng bộ: miệng cằn nhằn nhưng không còn lựa chọn nào khác ngoài tiếp tục làm."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000305"
+    locks:
+      - "Giữ đại từ khái quát ở câu đầu, quân hàm 'đại úy' (captain) và chuyên ngành 'lính pháo binh' (artilleryman) của Meybert."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000306"
+    locks:
+      - "Giữ phép đối lập giữa sức nặng của đạn pháo (p000305) và sự nhẹ bẫng của cây bút nhưng không nhích được tiến độ vì không quen tay."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000307"
+    locks:
+      - "Giữ thuật ngữ 'sở chỉ huy' (command post) và chi tiết vị trí hướng ra biển."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000308"
+    locks:
+      - "Giữ hai thao tác gây kiệt sức: lập kế hoạch thi công đúng quy định và chép thành văn bản lên đủ loại biểu mẫu để nộp xét duyệt."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000309"
+    locks:
+      - "Giữ câu hỏi tu từ phàn nàn về 'cuốn sổ quy tắc' (rule book) và 'bản đề xuất thi công' (construction proposal)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000310"
+    locks:
+      - "Giữ sự đối lập giữa lời lẩm bẩm và đôi tay vẫn tiếp tục viết của Meybert."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000311"
+    locks:
+      - "Giữ thuật ngữ 'hệ thống phân loại' (classification system), con số 'mười hai loại bao cát khác nhau' và yêu cầu phải chỉ định chính xác loại sử dụng."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000312"
+    locks:
+      - "Giữ độc thoại tự than của Meybert ('mình') và sự đối lập hài hước đen giữa 'tử trận nơi sa trường' (killed in action) với bị giấy tờ lấy mạng trước."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000313"
+    locks:
+      - "Giữ thuật ngữ 'mặt trận phía đông' (eastern front) và phạm vi nhấn mạnh Markdown '*Tử thủ trận địa đến cùng*' theo DEC-P01-002."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000314"
+    locks:
+      - "Giữ so sánh nghịch lý: lệnh đào công sự bám trụ và giữ vững trận địa bằng mọi giá trở nên chẳng đến nỗi tệ khi đặt cạnh việc điền vô số giấy tờ chi tiết theo sách quy tắc."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000315"
+    locks:
+      - "Giữ thuật ngữ 'mặt trận phía đông' (eastern front) và ý đối lập giữa quyền tự quyết ngoài thực địa (chỉ kèm một tờ mệnh lệnh bằng văn bản duy nhất) với mớ việc vặt rườm rà hiện tại."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000316"
+    locks:
+      - "Giữ chi tiết uống nước sạch thỏa thích, sự xa xỉ chỉ có ở 'nơi đồn trú' (garrison) và câu cảm thán về 'hệ thống nước máy' (running water)."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000317"
+    locks:
+      - "Giữ nhận định chung về tác dụng của nước mát đối với tâm trí rã rời."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000318"
+    locks:
+      - "Giữ cách gọi 'Trung úy Tospan' và đại từ 'cậu' trong câu hỏi thăm tiến độ của Meybert."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000319"
+    locks:
+      - "Giữ trần thuật gián tiếp về câu trả lời của viên trung úy và hành động Meybert đưa bình nước để cả hai cùng rót uống."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000320"
+    locks:
+      - "Giữ đại từ 'Tôi - mình' trong lời thoại của Tospan, thuật ngữ 'công binh dã chiến' (field engineer), và chính xác phạm vi nhấn mạnh Markdown '*Thế mà ở đây cái gì cũng khác.*' theo DEC-P01-002."
+  - segment_id: "YS-LN09/Text/chapter020.xhtml/p000321"
+    locks:
+      - "Giữ phép chơi chữ đối lập giữa cử động tay chân và cách 'múa bút' (the way pens move), cùng chi tiết vẽ sơ đồ khi đi rải mìn."
