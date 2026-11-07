@@ -1,0 +1,286 @@
+task_id: "vol-07-ch-05-b02-argon-review"
+parent_task_id: "vol-07-ch-05-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 5
+source_package: "work/vol-07/batches/ch-05-b02-source.jsonl"
+target_translation: "translations/vol-07/ch-05-b02.jsonl"
+review_path: "reviews/prose/vol-07/ch-05-b02-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000036"
+    issue: "Danh từ chỉ việc hỏi han, tìm hiểu thông tin trong lời trấn an của Loria đang được dịch là 'Cuộc thẩm vấn này' ('Cuộc thẩm vấn này không nhằm mục đích buộc tội'), mang sắc thái tra khảo hình sự nặng nề và chưa thật ăn khớp với ngữ điệu Loria đang cố làm dịu sự căng thẳng của viên đại tá liên lạc."
+    evidence: "Trong nguyên bản, danh từ chủ ngữ ở câu thứ hai chỉ việc tìm hiểu hoặc điều tra làm rõ vấn đề, đi liền sau câu khẳng định không đổ lỗi cho ai nhằm thuyết phục viên đại tá nói thật về tình hình thực địa."
+    recommendation: "Đổi 'Cuộc thẩm vấn này' thành 'Cuộc tìm hiểu này' hoặc 'Việc tìm hiểu này' (hoặc 'Cuộc điều tra này')."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000044"
+    issue: "Cụm 'một thứ thuốc phiện giả cầy' dùng từ khẩu ngữ 'giả cầy' vừa lệch thanh điệu chính luận trong suy ngẫm lý luận cách mạng của Loria, vừa dễ làm người đọc hiểu nhầm thành thuốc phiện hàng giả thay vì một thứ mang tính chất giống như thuốc phiện (thuốc phiện trá hình) đặt đối lập với 'liều thuốc vạn năng'."
+    evidence: "Nguyên bản ghép yếu tố chỉ tính chất giả tạo/tương tự với danh từ chỉ thuốc phiện để liên hệ tới luận điểm kinh điển về tư tưởng mê hoặc, hàm ý tư tưởng cách mạng không phải thuốc tiên chữa bách bệnh mà chỉ như một thứ thuốc phiện trá hình."
+    recommendation: "Đổi 'một thứ thuốc phiện giả cầy' thành 'một thứ thuốc phiện trá hình' hoặc 'một thứ thuốc phiện giả tạo'."
+pending_term_recommendations:
+  - source_term: "Loria / Comrade Loria"
+    proposed_vi: "Loria / Đồng chí Loria"
+    category: "nhân vật / xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất tên riêng Loria và cách gọi 'Đồng chí Loria' theo hệ thống danh xưng Liên bang trong sổ pending tập 6 và tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000033"
+      - "YS-LN07/Text/chapter018.xhtml/p000036"
+      - "YS-LN07/Text/chapter018.xhtml/p000047"
+      - "YS-LN07/Text/chapter018.xhtml/p000048"
+      - "YS-LN07/Text/chapter018.xhtml/p000051"
+      - "YS-LN07/Text/chapter018.xhtml/p000053"
+      - "YS-LN07/Text/chapter018.xhtml/p000054"
+      - "YS-LN07/Text/chapter018.xhtml/p000057"
+      - "YS-LN07/Text/chapter018.xhtml/p000060"
+      - "YS-LN07/Text/chapter018.xhtml/p000061"
+      - "YS-LN07/Text/chapter018.xhtml/p000062"
+  - source_term: "Comrade Colonel / Comrade / comrade / the colonel"
+    proposed_vi: "Đồng chí Đại tá / Đồng chí / đồng chí / vị đại tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Phản ánh chuẩn xác cách gọi ghép 'Đồng chí + Cấp bậc' trong Quân đội Liên bang và cách gọi ngôi thứ ba 'vị đại tá' trong trần thuật."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000036"
+      - "YS-LN07/Text/chapter018.xhtml/p000038"
+      - "YS-LN07/Text/chapter018.xhtml/p000039"
+      - "YS-LN07/Text/chapter018.xhtml/p000042"
+      - "YS-LN07/Text/chapter018.xhtml/p000046"
+      - "YS-LN07/Text/chapter018.xhtml/p000049"
+      - "YS-LN07/Text/chapter018.xhtml/p000051"
+      - "YS-LN07/Text/chapter018.xhtml/p000053"
+      - "YS-LN07/Text/chapter018.xhtml/p000054"
+      - "YS-LN07/Text/chapter018.xhtml/p000055"
+      - "YS-LN07/Text/chapter018.xhtml/p000057"
+      - "YS-LN07/Text/chapter018.xhtml/p000061"
+  - source_term: "political commissars"
+    proposed_vi: "các chính ủy"
+    category: "chức danh quân sự - chính trị"
+    status: "pending"
+    rationale: "Kế thừa phương án 'chính ủy' từ sổ pending tập 6 để chỉ chức danh đại diện chính trị của Đảng tại các đơn vị Quân đội Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000035"
+  - source_term: "Commissariat for Internal Affairs"
+    proposed_vi: "Bộ Dân ủy Nội vụ"
+    category: "cơ quan nhà nước"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với thuật ngữ 'Bộ Dân ủy Nội vụ' đã ghi nhận trong sổ pending tập 6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000037"
+  - source_term: "General Staff / Federation Army’s General Staff / General Staff Office"
+    proposed_vi: "Bộ Tổng tham mưu / Bộ Tổng tham mưu Quân đội Liên bang / Văn phòng Bộ Tổng tham mưu"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất hệ thống tên gọi Bộ Tổng tham mưu Quân đội Liên bang và Văn phòng Bộ Tổng tham mưu theo sổ pending các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000039"
+      - "YS-LN07/Text/chapter018.xhtml/p000046"
+      - "YS-LN07/Text/chapter018.xhtml/p000051"
+      - "YS-LN07/Text/chapter018.xhtml/p000052"
+      - "YS-LN07/Text/chapter018.xhtml/p000057"
+  - source_term: "liaison officer assistants / liaison officer"
+    proposed_vi: "các trợ lý sĩ quan liên lạc / sĩ quan liên lạc"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với thuật ngữ 'sĩ quan liên lạc' trong sổ pending các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000039"
+      - "YS-LN07/Text/chapter018.xhtml/p000051"
+  - source_term: "partial tactical withdrawal"
+    proposed_vi: "cuộc rút lui chiến thuật cục bộ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kế thừa thuật ngữ 'rút lui chiến thuật' trong sổ pending và bổ sung tính từ định ngữ 'cục bộ'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000040"
+  - source_term: "revolutionary ideology / socialism / bourgeoisie revolution"
+    proposed_vi: "tư tưởng cách mạng / chủ nghĩa xã hội / cách mạng tư sản"
+    category: "thuật ngữ chính trị - triết học"
+    status: "pending"
+    rationale: "Sử dụng bộ thuật ngữ lý luận chính trị chuẩn xác trong tiếng Việt tương ứng với ngữ cảnh Liên bang Cộng sản."
+    alternatives_vi:
+      - "ý thức hệ cách mạng / chủ nghĩa xã hội / cách mạng tư sản"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000044"
+  - source_term: "lageri"
+    proposed_vi: "*lageri*"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ ngoại lai in nghiêng '*lageri*' chỉ trại cải tạo lao động của Liên bang theo đúng sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000054"
+  - source_term: "the party / the motherland"
+    proposed_vi: "Đảng / tổ quốc"
+    category: "tổ chức / thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với cách dịch 'Đảng' và 'tổ quốc' đã dùng thống nhất trong sổ pending tập 6 và tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000054"
+  - source_term: "whistleblowers and informers"
+    proposed_vi: "người tố giác và mật báo viên"
+    category: "thuật ngữ tình báo - an ninh"
+    status: "pending"
+    rationale: "Phân biệt rõ hai vai trò người tố giác sai phạm và người mật báo ngầm của cơ quan an ninh nội vụ trong Bộ Tổng tham mưu."
+    alternatives_vi:
+      - "kẻ tố giác và người chỉ điểm"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000057"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000033"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria' - 'mình' (tự quy chiếu về Loria) - 'anh ta' (viên đại tá liên lạc)"
+      - "Quan hệ nhân quả: 'đó chính là lý do Loria chọn anh ta về làm việc dưới trướng mình.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000034"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*về cơ bản*' tương ứng với thẻ em trong nguồn"
+      - "Xưng hô của Loria với viên đại tá: 'đồng chí'"
+      - "Câu hỏi xác nhận hàm ý có ngoại lệ"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000035"
+    choices:
+      - "Thuật ngữ: 'political commissars' -> 'các chính ủy'; 'in the field' -> 'ngoài thực địa'"
+      - "Tình thái dè dặt trong lời đáp của viên đại tá: 'Hình như đã có một số bàn bạc... nhằm diễn giải lại mệnh lệnh sao cho phù hợp với nhận định của họ.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000036"
+    choices:
+      - "Danh xưng & xưng hô: 'Đồng chí Đại tá' ('Comrade Colonel'); 'tôi' (Loria) - 'đồng chí' (viên đại tá)"
+      - "Thuật ngữ: 'doctrine' -> 'học thuyết'; 'purging' -> 'thanh trừng'; 'commanders in the field' -> 'Các chỉ huy ngoài thực địa'"
+      - "Phủ định & giả định: 'tôi không đổ lỗi cho ai cả. Cuộc tìm hiểu này (hoặc Việc tìm hiểu này) không nhằm mục đích buộc tội... Nếu tôi muốn thanh trừng một ai đó, tôi thừa sức bịa ra vô số lý do.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000037"
+    choices:
+      - "Xưng hô & cơ quan: 'Tôi' (viên đại tá); 'Commissariat for Internal Affairs' -> 'Bộ Dân ủy Nội vụ'"
+      - "Phủ định dè dặt có dấu ba chấm đầu và cuối câu: '“…Tôi không nghĩ đó là kiểu chuyện đáng phải báo cáo lên Bộ Dân ủy Nội vụ…”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000038"
+    choices:
+      - "Xưng hô trong lời Loria: 'Đồng chí, tôi cứ tưởng đồng chí đã hiểu ý tôi rồi chứ.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000039"
+    choices:
+      - "Cơ quan & chức danh: 'General Staff' -> 'Bộ Tổng tham mưu'; 'liaison officer assistants' -> 'các trợ lý sĩ quan liên lạc'; 'vị đại tá này'"
+      - "Đại từ trần thuật chỉ Loria: 'gã'"
+      - "Phủ định: 'mà không co rúm người lại'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000040"
+    choices:
+      - "Thuật ngữ: 'slight tactical improvements' -> 'những cải tiến chiến thuật nhỏ'; 'partial tactical withdrawal' -> 'cuộc rút lui chiến thuật cục bộ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000041"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Nhỏ*' tương ứng với thẻ em trong nguồn"
+      - "Câu hỏi ngắn chất vấn lại của Loria"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000042"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*nhỏ*' tương ứng với thẻ em trong nguồn"
+      - "Xưng hô van nài dè dặt của viên đại tá: '…Đồng chí, xin đồng chí cứ tạm chấp nhận chữ *nhỏ* được không…?'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000043"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'; chỉ giới sĩ quan: 'họ'"
+      - "Giữ sát nghĩa mặt chữ nguồn ở vế đầu ('trong việc khuất phục nó theo ý chí của quân đội') và quan hệ nhượng bộ 'Mặc dù... nhưng xét về mặt..., xem ra người tiền nhiệm của gã đã đi hơi quá đà.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000044"
+    choices:
+      - "Thuật ngữ: 'revolutionary ideology' -> 'tư tưởng cách mạng'; 'socialism' -> 'chủ nghĩa xã hội'; 'bourgeoisie revolution' -> 'cách mạng tư sản'"
+      - "Nên chỉnh 'một thứ thuốc phiện giả cầy' thành 'một thứ thuốc phiện trá hình' (hoặc 'một thứ thuốc phiện giả tạo') để giữ đúng nghĩa và thanh điệu chính luận"
+      - "Đại từ chỉ phía lãnh đạo Liên bang/Đảng: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000045"
+    choices:
+      - "Đại từ trong lời Loria: 'tôi' - 'Quân đội của chúng ta'"
+      - "Câu hỏi trực diện về nhu cầu thay đổi lớn ngoài thực địa"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000046"
+    choices:
+      - "Danh xưng, đại từ & cơ quan: 'Vị đại tá' - 'anh ta'; 'Bộ Tổng tham mưu Quân đội Liên bang'"
+      - "Phủ định dẫn tới kết luận: 'ngay khoảnh khắc anh ta không buột miệng phủ nhận, tâm tư thực sự của anh ta đã lộ rõ.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000047"
+    choices:
+      - "Tên nhân vật & đại từ phản thân: 'Loria' - 'mình'"
+      - "Thuật ngữ: 'doctrine' -> 'học thuyết tác chiến'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000048"
+    choices:
+      - "Xưng hô của viên đại tá với Loria: 'Đồng chí Loria, tôi xin phép nói một điều được không?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000049"
+    choices:
+      - "Đại từ trần thuật chỉ Loria: 'gã'; trong thoại dùng 'chúng ta' và 'Tôi'"
+      - "Thuật ngữ: 'comrade forerunners' -> 'Các đồng chí tiền bối'; 'counterattack' -> 'đợt phản công'; 'stalemate' -> 'thế giằng co'; 'firefight' -> 'trận đấu hỏa lực'"
+      - "Câu hỏi tu từ phủ định và mệnh đề điều kiện giả định ở câu cuối"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000050"
+    choices:
+      - "Xưng hô lịch sự, thoái thác của viên đại tá: 'Xin đồng chí thứ lỗi, nhưng có lẽ đồng chí nên trao đổi với một người có cấp bậc cao hơn…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000051"
+    choices:
+      - "Tên nhân vật, đại từ & cơ quan: 'Loria' - 'gã' - 'mình'; 'vị đại tá'; 'sĩ quan liên lạc'; 'Bộ Tổng tham mưu'"
+      - "Quan hệ đối lập giữa vẻ mặt mỉm cười hiền hòa và phản ứng lùi bước của các sĩ quan liên lạc"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000052"
+    choices:
+      - "Xưng hô & cơ quan trong câu hỏi của Loria: 'Tôi'; 'Bộ Tổng tham mưu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000053"
+    choices:
+      - "Tên nhân vật & đại từ: 'vị đại tá' - 'người đàn ông kia'; 'Loria' - 'mình' - 'gã'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000054"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*lageri*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật, đại từ & thuật ngữ: 'Vị đại tá' - 'anh ta'; 'Loria'; 'Đảng và tổ quốc'"
+      - "Giả định & đối lập: 'Nếu Loria tống anh ta tới *lageri*, anh ta sẽ là một nguồn lao động khá tốt. Nhưng những chuyên gia như anh ta phải được tận dụng để đóng góp kiến thức chuyên môn của mình.'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000055"
+    choices:
+      - "Lời gọi của Loria: '“Này, đồng chí.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000056"
+    choices:
+      - "Lời đáp lắp bắp của viên đại tá: '“V-vâng?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000057"
+    choices:
+      - "Xưng hô trong thoại của Loria: 'Tôi' - 'đồng chí' / 'Đồng chí'; trong trần thuật: 'Loria' - 'gã' - 'vị đại tá này'"
+      - "Thuật ngữ & cơ quan: 'whistleblowers and informers' -> 'người tố giác và mật báo viên'; 'Bộ Tổng tham mưu'; 'Văn phòng Bộ Tổng tham mưu'"
+      - "Cấu trúc phủ định và đối lập 'không phải là... mà là...': 'Thứ gã cần không phải là báo cáo từ một mật vụ mà là quan điểm chủ đạo của một chuyên gia người trong cuộc.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000058"
+    choices:
+      - "Lời nhận định thẳng thắn của viên đại tá về tâm lý hoảng sợ trước cú sốc vừa qua"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000059"
+    choices:
+      - "Đại từ & xưng hô trong lời Loria: 'Họ' (Bộ Tổng tham mưu) - 'đồng chí' (viên đại tá)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000060"
+    choices:
+      - "Tên nhân vật: 'Loria'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000061"
+    choices:
+      - "Tên nhân vật & danh xưng: 'Loria'; 'vị đại tá' - 'người đàn ông kia'"
+      - "Giả định trái thực tế: 'Nếu Loria chỉ cần nhăn mũi một cái thôi, chắc chắn gương mặt người đàn ông kia sẽ còn căng cứng hơn nữa.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000062"
+    choices:
+      - "Tên nhân vật & đại từ: 'Loria' - 'gã'; 'anh ta' (viên đại tá)"
+      - "Phủ định: 'dọa anh ta sợ thì cũng chẳng giải quyết được gì.'"
+      - "Không dùng nhấn mạnh Markdown"
