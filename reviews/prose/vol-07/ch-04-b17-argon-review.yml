@@ -1,0 +1,189 @@
+task_id: "vol-07-ch-04-b17-argon-review"
+parent_task_id: "vol-07-ch-04-b17"
+volume: "vol-07"
+chapter: 4
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-07/ch-04-b17-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000472"
+    severity: "minor"
+    category: "clarity_and_meaning"
+    issue: "Cụm 'khi bạn nằm ở vế một trong phương trình ấy' ở câu thứ hai dùng từ 'vế một' dễ khiến người đọc hiểu nhầm thành 'vế thứ nhất' của một phương trình toán học, trong khi ý nghĩa thực tế đang quy chiếu về con số '1' trong tỷ lệ tương quan lực lượng một chọi ba đã nêu ở câu trước (phe bao vây tại trận Dyrrhachium chỉ có quân số bằng một phần ba đối phương)."
+    rationale: "Làm rõ mối liên hệ quy chiếu với tỷ lệ một chọi ba để người đọc nắm bắt ngay logic lịch sử quân sự mà không bị nhiễu nghĩa toán học."
+    suggested_fix: "Đổi câu thứ hai thành: 'Rất khó để đánh một trận vây hãm khi bạn là bên chỉ có một phần quân số trong bài toán ấy.' hoặc 'Rất khó để đánh một trận vây hãm khi bạn nằm ở phía con số một trong tương quan ấy.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000474"
+    severity: "minor"
+    category: "modality_and_nuance"
+    issue: "Ở câu đầu tiên, mức độ tình thái chỉ khả năng cao ('likely to win') đang được dịch đẩy lên mức khẳng định tuyệt đối ('là phe nắm chắc phần thắng'), làm trùng lặp và xóa nhòa sự chuyển tiếp sang khẳng định chắc chắn ở câu thứ hai ('là cách làm đơn giản nhưng chắc ăn')."
+    rationale: "Giữ đúng mức độ chắc chắn của từng nhận định trong lập luận theo canon/style-guide.md."
+    suggested_fix: "Đổi 'là phe nắm chắc phần thắng' ở câu đầu thành 'là phe nắm phần thắng cao' hoặc 'nhiều khả năng sẽ giành chiến thắng'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000481"
+    severity: "minor"
+    category: "orthography_and_register"
+    issue: "Cách lặp chữ có dấu thanh 'Ồồồ' trong lời thoại của Tanya trông thiếu tự nhiên theo chuẩn chính tả tiếng Việt."
+    rationale: "Viết tiếng Việt tự nhiên, chuẩn xác trong lời thoại chỉ huy khi Tanya chợt đổi ý."
+    suggested_fix: "Đổi 'Ồồồ, không, khoan đã.' thành 'Ồ, không, khoan đã.' hoặc 'À, không, khoan đã.'"
+pending_term_recommendations:
+  - source_term: "eastern front / command post / officers on duty / left flank / airborne unit / defensive lines"
+    proposed_vi: "mặt trận phía đông / sở chỉ huy / các sĩ quan trực ban / sườn trái / đơn vị đổ bộ đường không / các tuyến phòng ngự"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp nhất quán với hệ thuật ngữ tác chiến và chỉ huy đã sử dụng ở các batch trước của Tập 7 và trong work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000464"
+      - "YS-LN07/Text/chapter016.xhtml/p000465"
+      - "YS-LN07/Text/chapter016.xhtml/p000466"
+      - "YS-LN07/Text/chapter016.xhtml/p000476"
+      - "YS-LN07/Text/chapter016.xhtml/p000477"
+      - "YS-LN07/Text/chapter016.xhtml/p000485"
+  - source_term: "Major Weiss / Lieutenant Grantz / Lieutenant Serebryakov / Lieutenant Tospan / Captain Meybert / Colonel / ma’am"
+    proposed_vi: "Thiếu tá Weiss / Trung úy Grantz / Trung úy Serebryakov / Trung úy Tospan / Đại úy Meybert / Trung tá (Thưa Trung tá) / thưa Trung tá"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ đúng cấp bậc thực tế của Tanya (Trung tá), Weiss (Thiếu tá), Meybert (Đại úy), và các Trung úy Grantz, Serebryakov, Tospan trong Tập 7 theo sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000464"
+      - "YS-LN07/Text/chapter016.xhtml/p000465"
+      - "YS-LN07/Text/chapter016.xhtml/p000482"
+      - "YS-LN07/Text/chapter016.xhtml/p000483"
+      - "YS-LN07/Text/chapter016.xhtml/p000484"
+      - "YS-LN07/Text/chapter016.xhtml/p000485"
+      - "YS-LN07/Text/chapter016.xhtml/p000487"
+      - "YS-LN07/Text/chapter016.xhtml/p000488"
+      - "YS-LN07/Text/chapter016.xhtml/p000493"
+      - "YS-LN07/Text/chapter016.xhtml/p000495"
+  - source_term: "Cannae / Dyrrhachium / Chipyong-ni / Austerlitz / Tannenberg / elite heavy infantry / air supremacy"
+    proposed_vi: "Cannae / trận Dyrrhachium⁸ / trận Chipyong-ni / Austerlitz / Tannenberg / lực lượng bộ binh nặng tinh nhuệ / quyền làm chủ bầu trời"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên địa danh lịch sử quân sự, bảo toàn ký hiệu chú thích ⁸ tại Dyrrhachium và khớp thuật ngữ 'quyền làm chủ bầu trời' (air supremacy) với work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000471"
+      - "YS-LN07/Text/chapter016.xhtml/p000472"
+      - "YS-LN07/Text/chapter016.xhtml/p000473"
+      - "YS-LN07/Text/chapter016.xhtml/p000474"
+  - source_term: "bombardment zone / artillery barrage / self-propelled / precision-guided munitions / indirect shelling / direct fire"
+    proposed_vi: "khu vực pháo kích / màn pháo kích / pháo tự hành / đạn dẫn đường chính xác / pháo kích gián tiếp / hỏa lực bắn thẳng"
+    alternatives_vi:
+      - "bắn gián tiếp / bắn trực tiếp"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Chuẩn hóa rõ ràng cặp thuật ngữ đối lập giữa pháo kích gián tiếp (indirect shelling) và hỏa lực bắn thẳng (direct fire) cùng các trang bị pháo binh hiện đại trong ngữ cảnh."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000488"
+      - "YS-LN07/Text/chapter016.xhtml/p000489"
+      - "YS-LN07/Text/chapter016.xhtml/p000490"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000464"
+    choices:
+      - "Trần thuật và thoại của Tanya: giữ 'các chỉ huy' (commanders), 'các sĩ quan trực ban' (officers on duty), 'mặt trận phía đông' (eastern front), 'sở chỉ huy' (command post), 'Thiếu tá Weiss' (Major Weiss), đại từ 'nó' cho Tanya theo DEC-P01-001, và câu hỏi cảm thán của Tanya."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000465"
+    choices:
+      - "Thoại báo cáo của Thiếu tá Weiss với Tanya: giữ danh xưng 'Vâng, thưa Trung tá…' (Yes, ma’am…), 'sườn trái' (left flank), 'đơn vị đổ bộ đường không' (airborne unit), và tiểu từ lễ phép 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000466"
+    choices:
+      - "Trần thuật từ điểm nhìn Tanya: giữ đại từ 'Nó' theo DEC-P01-001, 'bị bao vây hoàn toàn' (completely encircled), và 'bên sườn trái' (left flank)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000467"
+    choices:
+      - "Nhận định nội tâm của Tanya: giữ cấu trúc tăng tiến từ đang chịu áp lực lớn sang sắp vỡ tung tới nơi."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000468"
+    choices:
+      - "Thoại của Tanya: giữ cảm thán 'Đột ngột quá… Thật là một cảnh tượng không thể tin nổi.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000469"
+    choices:
+      - "Trần thuật kết hợp nội tâm Tanya: giữ đại từ 'nó' và tự quy chiếu 'mình' theo DEC-P01-001, tên riêng 'Tanya', và giữ đúng phạm vi nhấn mạnh Markdown '*Thật hết sức vô lý—!*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000470"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ câu hỏi tu từ mở đầu, đối lập giữa 'về mặt lý thuyết' và 'trên thực tế', cùng phạm vi 'lịch sử quân sự ở bất kỳ thời đại hay nơi chốn nào'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000471"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ địa danh 'Cannae', tỷ lệ 'chỉ bằng phân nửa quân số của mình', và 'lực lượng bộ binh nặng tinh nhuệ' (elite heavy infantry)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000472"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ phủ định kép 'Cũng không phải là không có', 'trận Dyrrhachium,⁸' kèm chú thích số 8, tỷ lệ 'một chọi ba', và đại từ giả định khái quát 'bạn'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000473"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ phủ định kép 'không phải là không tồn tại', 'trận Chipyong-ni', đại từ nội tâm 'mình' theo DEC-P01-001, 'trung đoàn' (regiment), 'quyền làm chủ bầu trời' (air supremacy), và 'quy mô của cả một đạo quân' (the scale of a whole army)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000474"
+    choices:
+      - "Trần thuật pha nội tâm Tanya: giữ địa danh 'Austerlitz' và 'Tannenberg', tên riêng 'Tanya', và phủ định 'chẳng bao giờ nghi ngờ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000475"
+    choices:
+      - "Câu hỏi nội tâm của Tanya: giữ 'Ấy thế mà giờ đây vòng vây lại đang bị phá vỡ ư?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000476"
+    choices:
+      - "Thoại của Tanya: giữ 'cơ động một cách có tổ chức' (maneuver in an organized way), 'các tuyến phòng ngự' (defensive lines), và các câu hỏi truy vấn tình hình quân ta."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000477"
+    choices:
+      - "Nhận định nội tâm của Tanya: giữ 'đơn vị đổ bộ đường không' (airborne unit), 'chế áp điểm vượt sông' (suppressed the crossing), 'cả hai bên sườn' (both flanks), 'đơn vị tiếp viện' (reinforcing units), và 'lực lượng thiết giáp' (armor)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000478"
+    choices:
+      - "Nội tâm và trần thuật: giữ chuỗi ba câu hỏi nội tâm mở đầu, giữ đúng phạm vi nhấn mạnh Markdown '*Không.*' theo DEC-P01-002, tên riêng 'Tanya', tự quy chiếu 'mình', và 'biện pháp khắc phục' (remedial measures)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000479"
+    choices:
+      - "Thoại mệnh lệnh của Tanya: giữ 'Khốn kiếp! Mau tập hợp tất cả mọi người lại đây!'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000480"
+    choices:
+      - "Thoại của Thiếu tá Weiss với Tanya: giữ tự xưng 'Tôi', 'quán xuyến trận địa', 'chi viện cho công tác phòng ngự', và tiểu từ lễ phép 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000481"
+    choices:
+      - "Thoại của Tanya với Weiss: giữ nhịp đồng ý rồi lập tức bảo khoan đã."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000482"
+    choices:
+      - "Trần thuật: giữ đại từ 'Nó' cho Tanya theo DEC-P01-001, 'Thiếu tá Weiss' (Major Weiss), và 'người sĩ quan trẻ tuổi dễ sai bảo nhất'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000483"
+    choices:
+      - "Thoại giao việc của Tanya cho Grantz: giữ 'Trung úy Grantz!' (Lieutenant Grantz!) và xưng hô 'tôi' – 'anh'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000484"
+    choices:
+      - "Thoại tuân lệnh của Grantz: giữ 'Rõ, thưa Trung tá! Tôi đi ngay đây ạ!' (Yes, ma’am! Right away!)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000485"
+    choices:
+      - "Trần thuật và thoại ra lệnh của Tanya: giữ 'Tanya', 'Trung úy Serebryakov' (Lieutenant Serebryakov), xưng hô 'cô' với Serebryakov, 'đơn vị đổ bộ đường không' (airborne unit), và 'lực lượng bộ binh của Trung úy Tospan' (Lieutenant Tospan’s infantry)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000486"
+    choices:
+      - "Thoại nhận lệnh của Serebryakov: giữ 'Tôi làm ngay ạ!' (On it!)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000487"
+    choices:
+      - "Thoại của Tanya với Weiss: giữ 'Thiếu tá Weiss' (Major Weiss), xưng hô 'tôi' – 'anh' / 'chúng ta', 'ứng trực chờ lệnh' (stand by), và giả định 'một cuộc đào thoát có tổ chức' (an organized escape)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000488"
+    choices:
+      - "Trần thuật và thoại của Đại úy Meybert: giữ đại từ 'nó' cho Tanya theo DEC-P01-001, 'Thưa Trung tá!' / 'xin Trung tá' (Colonel!), 'Đại úy Meybert' (Captain Meybert), 'khu vực pháo kích' (bombardment zone), 'pháo binh' (artillery), và 'màn pháo kích' (artillery barrage)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000489"
+    choices:
+      - "Thoại của Tanya và trần thuật phân tích: giữ xưng hô 'Anh' với Meybert, tên riêng 'Tanya' và 'Meybert', 'pháo tự hành' (self-propelled), 'đạn dẫn đường chính xác' (precision-guided munitions), và 'pháo kích gián tiếp' (indirect shelling)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000490"
+    choices:
+      - "Thoại của Đại úy Meybert: giữ tự xưng 'chúng tôi', 'hỏa lực bắn thẳng' (direct fire), 'chướng ngại vật tạm thời' (temporary obstruction), và tiểu từ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000491"
+    choices:
+      - "Thoại hỏi lại của Tanya: giữ 'Các anh bắn trúng nó được à?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000492"
+    choices:
+      - "Thoại của Đại úy Meybert: giữ 'Chỉ cần Trung tá ra lệnh cho chúng tôi ạ.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000493"
+    choices:
+      - "Trần thuật và thoại của Tanya: giữ tên riêng 'Meybert' và 'Tanya', đại từ 'anh ta', tình thái 'có lẽ' (probably), 'tạm thời chấp thuận' (tentatively accepts), và 'Đại úy Meybert' (Captain Meybert)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000494"
+    choices:
+      - "Thoại của Đại úy Meybert: giữ cặp câu hỏi 'Ai sẽ là người quyết định việc chúng ta có phá hủy nó hay không ạ? Tôi quyết định được chứ?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000495"
+    choices:
+      - "Thoại kìm lại của Tanya: giữ 'Đừng vội manh động, Đại úy.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000496"
+    choices:
+      - "Trần thuật nội tâm của Tanya: giữ đại từ 'nó' cho Tanya theo DEC-P01-001, 'anh ta' cho Meybert, và ba khả năng song hành trong suy đoán của Tanya."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000497"
+    choices:
+      - "Thoại và trần thuật của Tanya: giữ xưng hô 'Tôi' – 'Anh' / 'chúng ta', đại từ 'Nó' trong trần thuật theo DEC-P01-001, và giữ đủ các cấu trúc phủ định ('không được quên', 'không phải là phương án tối ưu', 'không quên nhấn mạnh')."
