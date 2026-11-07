@@ -1,0 +1,209 @@
+task_id: vol-08-ch-03-b16-argon-review
+parent_task_id: vol-08-ch-03-b16
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-08/ch-03-b16-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000261
+    issue: "Từ 'labor' lặp lại ở hai câu cảm thán liên tiếp trong lời độc thoại của Tanya đang được tách thành 'nhân công' ở câu đầu và 'lao dịch' ở câu sau, làm giảm nhẹ hiệu ứng điệp từ chỉ khối lượng công việc tay chân nặng nhọc khi phải lục tìm hồ sơ."
+    rationale: "Cả hai cách dịch đều bám nghĩa của từ gốc và giữ đúng giọng than thở của Tanya nên không làm sai lệch nội dung cốt lõi; chỉ ghi nhận ở mức minor."
+    recommendation: "Có thể giữ nguyên hoặc cân nhắc thống nhất điệp từ ở bước chuốt văn (chẳng hạn 'công sức' / 'việc chân tay' hoặc 'lao dịch') để giữ nhịp lặp của câu thoại."
+pending_term_recommendations:
+  - source_term: "lageri"
+    proposed_vi: "*lageri*"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000241
+    rationale: "Giữ nguyên thuật ngữ trại cải tạo lao động '*lageri*' có in nghiêng theo nguồn, thống nhất với các lô trước của tập 8."
+    alternatives_vi: []
+  - source_term: "Federation Army mage units / the Federation / Federation Army magic units / Federation Army"
+    proposed_vi: "các đơn vị pháp sư của Quân đội Liên bang / Liên bang / các đơn vị ma pháp của Quân đội Liên bang / Quân đội Liên bang"
+    category: "tên gọi / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000243
+      - YS-LN08/Text/chapter012.xhtml/p000244
+      - YS-LN08/Text/chapter012.xhtml/p000254
+      - YS-LN08/Text/chapter012.xhtml/p000275
+    rationale: "Nhất quán với hệ thống định danh Quân đội Liên bang và phân biệt sát từ gốc giữa 'mage units' với 'magic units'."
+    alternatives_vi: []
+  - source_term: "institutional memory"
+    proposed_vi: "ký ức của một tổ chức"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000244
+    rationale: "Diễn đạt tự nhiên, rõ nghĩa khái niệm tri thức và kinh nghiệm tích lũy trong một tổ chức qua các thế hệ."
+    alternatives_vi:
+      - "ký ức tổ chức"
+  - source_term: "information asymmetry"
+    proposed_vi: "bất đối xứng thông tin"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000245
+    rationale: "Thuật ngữ kinh tế học chuẩn xác, đúng giọng suy tư học thuật của Tanya."
+    alternatives_vi: []
+  - source_term: "General Staff Office / General Staff / Operations"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / Bộ Tổng tham mưu / Cục Tác chiến"
+    category: "tên tổ chức"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000268
+      - YS-LN08/Text/chapter012.xhtml/p000273
+      - YS-LN08/Text/chapter012.xhtml/p000278
+    rationale: "Khớp với sổ thuật ngữ tạm đã dùng xuyên suốt các tập và tập 8."
+    alternatives_vi: []
+  - source_term: "Colonel von Lergen"
+    proposed_vi: "Đại tá von Lergen"
+    category: "quân hàm / tên nhân vật"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000269
+      - YS-LN08/Text/chapter012.xhtml/p000275
+    rationale: "Thống nhất với cấp bậc Đại tá của von Lergen trong tập 8."
+    alternatives_vi: []
+  - source_term: "duty officer’s post / Serebryakov / Lieutenant Serebryakov / ma’am / crypto personnel / adjutant"
+    proposed_vi: "trạm của sĩ quan trực ban / Serebryakov / Trung úy Serebryakov / thưa Trung tá / nhân sự mật mã / sĩ quan phụ tá"
+    category: "quân hàm / chức danh / xưng hô"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000271
+      - YS-LN08/Text/chapter012.xhtml/p000272
+      - YS-LN08/Text/chapter012.xhtml/p000273
+      - YS-LN08/Text/chapter012.xhtml/p000274
+      - YS-LN08/Text/chapter012.xhtml/p000277
+    rationale: "Nhất quán với hệ thống cấp bậc, chức danh và cách xưng hô của cấp dưới với Tanya (Trung tá) trong tập 8."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000241
+    choices:
+      - "nhấn mạnh Markdown: *lageri* (theo DEC-P01-002)"
+      - "thuật ngữ chính trị và đại từ: tù nhân chính trị; kẻ thù của nhà nước; kẻ thù giai cấp; bọn phản động; tàn tích của quá khứ đáng ghê tởm; chúng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000242
+    choices:
+      - "trần thuật ngôi thứ ba và giả định trái thực tế: Tanya; đám người đó; họ; Nếu họ là lũ ngu xuẩn vô dụng thì lại là chuyện khác; có bản lĩnh"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000243
+    choices:
+      - "câu hỏi độc thoại thành tiếng: các đơn vị pháp sư của Quân đội Liên bang từ thời trước đây"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000244
+    choices:
+      - "nhấn mạnh Markdown: *tương xứng với độ tuổi của cô* (theo DEC-P01-002)"
+      - "trần thuật và thuật ngữ: Tanya; cô; Liên bang; một đế quốc như trước kia; ký ức của một tổ chức"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000245
+    choices:
+      - "thuật ngữ trong thoại: bất đối xứng thông tin; kế thừa và truyền lại tri thức"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000246
+    choices:
+      - "nhấn mạnh Markdown và độc thoại nội tâm: *Mình không biết.* (theo DEC-P01-001, DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000247
+    choices:
+      - "mệnh đề định danh ngắn: sự thiếu hiểu biết"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000248
+    choices:
+      - "nhấn mạnh Markdown: *Chẳng ai nói cho bạn biết ư? Thế thì sao nào?* (theo DEC-P01-002)"
+      - "đại từ khái quát: bạn; tiền đề cốt lõi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000249
+    choices:
+      - "thuật ngữ và mệnh đề lập luận: Những người ôn hòa theo chủ nghĩa bình đẳng; tri thức chính là sức mạnh; vận dụng nhiều sức mạnh hơn một ngôi trường"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000250
+    choices:
+      - "đại từ khái quát và ẩn dụ: bạn; những cuộc ẩu đả thời tiền Đồ Đá—ở cấp độ người vượn nếu có thể"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000251
+    choices:
+      - "độc thoại nội tâm: mình; tự hỏi bản thân (theo DEC-P01-001)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000252
+    choices:
+      - "nhấn mạnh Markdown và câu tự vấn: *Mày có biết rõ kẻ địch của mình không?* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000253
+    choices:
+      - "phủ định trong thoại tự đáp: Không, chẳng biết chút nào cả"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000254
+    choices:
+      - "độc thoại nội tâm và thuật ngữ: Mình; thông tin tình báo hiện có; các đơn vị ma pháp của Quân đội Liên bang thời trước cách mạng; hồ sơ chính thức"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000255
+    choices:
+      - "câu hỏi nội tâm: Họ được giảng dạy ra sao?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000256
+    choices:
+      - "câu hỏi nội tâm và thuật ngữ: Học thuyết của họ là gì?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000257
+    choices:
+      - "phủ định nội tâm: Mình chẳng biết lấy một điều về họ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000258
+    choices:
+      - "trần thuật kết hợp bình luận khái quát: Tanya; chẳng một ai trong quân đội; Internet; bạn; thất lạc vĩnh viễn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000259
+    choices:
+      - "độc thoại nội tâm: Chúng ta; mình; lỗ hổng khổng lồ này trong hiểu biết của chúng ta; chí ít chúng ta cũng phải giành chiến thắng—gừ!"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000260
+    choices:
+      - "song hành điểm nhìn: chúng ta; mình; Tanya; họ; bộ máy quan liêu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000261
+    choices:
+      - "độc thoại thành tiếng của Tanya: mình; nhân công / lao dịch"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000262
+    choices:
+      - "cụm danh từ mở đoạn: Những dữ liệu chưa được sắp xếp…"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000263
+    choices:
+      - "ẩn dụ hành chính: dữ liệu chưa được sắp xếp; một núi hóa đơn chưa phân loại; một tài liệu quan trọng trong một nhà kho"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000264
+    choices:
+      - "đại từ khái quát và giả định: bạn; nếu bạn còn biết được nó nằm ở nhà kho nào"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000265
+    choices:
+      - "phủ định kép và đại từ khái quát: bạn; không được bàn giao tử tế; khó mà không bị thất lạc giữa một đống phế liệu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000266
+    choices:
+      - "cấu trúc phủ định - khẳng định: không phải là ác ý, sự bất tài hay tính lười biếng, mà đơn thuần chỉ là thực tế rằng những thứ không dùng đến sẽ bị lãng quên"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000267
+    choices:
+      - "trần thuật ngôi thứ ba và giả định nhượng bộ: Ngay cả khi Tanya gửi yêu cầu đi; cô; làm hoa cả mắt"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000268
+    choices:
+      - "độc thoại thành tiếng và tên tổ chức: Văn phòng Bộ Tổng tham mưu; Mình; họ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000269
+    choices:
+      - "độc thoại nội tâm, tên riêng và thành ngữ ẩn dụ: Mình; Đại tá von Lergen; ông ấy; con lừa có thể mượn tấm da sư tử"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000270
+    choices:
+      - "nhấn mạnh Markdown: *Mình phải bảo họ bắt tay vào việc đó ngay lập tức.* (theo DEC-P01-002)"
+      - "trần thuật ngôi thứ ba: Tanya xốc lại tinh thần"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000271
+    choices:
+      - "trần thuật ngôi thứ ba và thuật ngữ: Cô; trạm của sĩ quan trực ban; cô nàng kia rồi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000272
+    choices:
+      - "trần thuật ngôi thứ ba: Serebryakov; chào nghiêm như thể có gắn lò xo; Tanya"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000273
+    choices:
+      - "trần thuật và lời ra lệnh: Cô; đúng điều lệnh; Trung úy Serebryakov; Văn phòng Bộ Tổng tham mưu; tôi; bộ mật mã mạnh nhất có thể"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000274
+    choices:
+      - "xưng hô cấp dưới - cấp trên và thuật ngữ: Rõ, thưa Trung tá!; Tôi; nhân sự mật mã; ngài"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000275
+    choices:
+      - "tên riêng, tổ chức và xưng hô trong thoại: Đại tá von Lergen; chúng ta; Quân đội Liên bang; tôi; họ; mức độ ưu tiên cao nhất"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000276
+    choices:
+      - "thán từ nghi vấn lễ phép của cấp dưới: Dạ?"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000277
+    choices:
+      - "trần thuật và thoại giải thích: Tanya; viên sĩ quan phụ tá; Kẻ địch; Tôi; thay vì huấn luyện tân binh; chúng; một lực lượng tác chiến tức thời"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000278
+    choices:
+      - "trần thuật ngôi thứ ba và tên tổ chức: cô; Cục Tác chiến; Bộ Tổng tham mưu; yêu cầu nội bộ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000279
+    choices:
+      - "nhận định kết đoạn: thứ bậc ưu tiên; thực tế của bộ máy quan liêu"
