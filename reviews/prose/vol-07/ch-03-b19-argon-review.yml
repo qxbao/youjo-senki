@@ -1,0 +1,236 @@
+task_id: "vol-07-ch-03-b19-argon-review"
+parent_task_id: "vol-07-ch-03-b19"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 3
+source_package: "work/vol-07/batches/ch-03-b19-source.jsonl"
+target_translation: "translations/vol-07/ch-03-b19.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 3
+findings:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000360"
+    severity: "moderate"
+    category: "pronoun_and_coreference"
+    issue: "Đại từ ngôi thứ hai trong lời trêu của Tanya đang dịch bất nhất thành 'các người' ở vế đầu rồi chuyển sang 'hai người' ở vế sau. Xét mạch ngữ cảnh nối tiếp từ p000350–p000359 (Tanya, Ahrens và Weiss trêu Trung úy Serebryakov vì sự 'tàn nhẫn', 'không biết nương tay' khi thắng bài đồng đội) và tiếng kêu 'Trung tá?! Thiếu tá?!' của Serebryakov ngay ở p000361, đối tượng được Tanya trực tiếp nhắc nhở là một mình Serebryakov ('cô'). Cách dịch 'các người ... hai người' vừa sai đối tượng quy chiếu vừa mâu thuẫn số lượng ngay trong cùng một câu."
+    recommendation: "Đổi cả 'các người' và 'hai người' thành 'cô' ('“…Tôi sẽ không bảo cô phải nương tay với kẻ địch đâu, nhưng có lẽ cô nên xem xét lại việc đối xử quá đỗi nhẫn tâm với bạn bè và đồng đội của mình đấy.”')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000372"
+    severity: "minor"
+    category: "meaning_and_naturalness"
+    issue: "Cụm danh từ chỉ nụ cười nửa miệng mang nét hóm hỉnh, đắc ý của Tanya khi nhìn sang Weiss (ngay sau khi Grantz giơ tay xin hàng và Tanya thầm khen '*Tốt lắm*') đang được dịch là 'nụ cười gượng gạo', làm lệch sắc thái biểu cảm sang miễn cưỡng, bối rối."
+    recommendation: "Đổi 'nụ cười gượng gạo' thành 'nụ cười nửa miệng' (hoặc 'nụ cười hóm hỉnh') ('*Tốt lắm*, Tanya nghĩ thầm, nở một nụ cười nửa miệng về phía Weiss.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000389"
+    severity: "minor"
+    category: "register_and_address"
+    issue: "Trong câu Tanya hỏi ý Weiss ngay trước mặt Grantz (người vừa được Tanya khen ở p000387 và được Weiss gọi là 'cậu' / 'cậu ấy' ở p000388, p000390), đại từ ngôi thứ ba chỉ Grantz đang dịch là 'cậu ta', mang sắc thái hơi xa cách so với mạch khích lệ thân tình của đoạn đối thoại."
+    recommendation: "Đổi 'cậu ta' thành 'cậu ấy' ('“Một bài kiểm tra ư? Chúng ta nên bảo cậu ấy làm gì đây?” Tanya hỏi, bắt đầu thấy hứng thú.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000397"
+    severity: "minor"
+    category: "meaning_and_naturalness"
+    issue: "Cụm động từ chỉ việc điều chuyển, bố trí lại binh lực từ nơi này sang nơi khác đang được dịch là 'điều chuyển binh lực quanh đây', biến ý dịch chuyển qua lại trên toàn tuyến thành phạm vi không gian cục bộ ('quanh đây'), làm hẹp tầm nhìn chiến dịch trong phán đoán của Tanya về cuộc phản công quy mô lớn từ bản quốc."
+    recommendation: "Đổi 'Cách họ điều chuyển binh lực quanh đây' thành 'Cách họ điều chuyển binh lực qua lại' (hoặc 'Cách họ điều động binh lực khắp nơi')."
+pending_term_recommendations:
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff) / ma’am / Major / Major Weiss / Weiss"
+    proposed_vi: "Trung tá (thưa Trung tá) / Thiếu tá / Thiếu tá Weiss / Weiss"
+    category: "quân hàm - nhân vật"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán quân hàm Trung tá của Tanya và Thiếu tá của Weiss trong tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000361"
+      - "YS-LN07/Text/chapter012.xhtml/p000363"
+      - "YS-LN07/Text/chapter012.xhtml/p000366"
+      - "YS-LN07/Text/chapter012.xhtml/p000368"
+      - "YS-LN07/Text/chapter012.xhtml/p000372"
+      - "YS-LN07/Text/chapter012.xhtml/p000376"
+      - "YS-LN07/Text/chapter012.xhtml/p000377"
+      - "YS-LN07/Text/chapter012.xhtml/p000381"
+      - "YS-LN07/Text/chapter012.xhtml/p000386"
+      - "YS-LN07/Text/chapter012.xhtml/p000388"
+      - "YS-LN07/Text/chapter012.xhtml/p000392"
+      - "YS-LN07/Text/chapter012.xhtml/p000394"
+      - "YS-LN07/Text/chapter012.xhtml/p000396"
+  - source_term: "Kampfgruppe HQ / headquarters / the rear / front lines / defense lines"
+    proposed_vi: "sở chỉ huy Kampfgruppe / sở chỉ huy / hậu phương / tiền tuyến / các tuyến phòng ngự"
+    category: "đơn vị - thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán từ sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000362"
+      - "YS-LN07/Text/chapter012.xhtml/p000376"
+      - "YS-LN07/Text/chapter012.xhtml/p000377"
+      - "YS-LN07/Text/chapter012.xhtml/p000392"
+      - "YS-LN07/Text/chapter012.xhtml/p000397"
+  - source_term: "Lieutenant Serebryakov / Serebryakov / adjutant / Captain Ahrens / Lieutenant Tospan / Captain Meybert / Colonel Calandro / Lieutenant Grantz / Grantz"
+    proposed_vi: "Trung úy Serebryakov / Serebryakov / viên sĩ quan phụ tá (phụ tá) / Đại úy Ahrens / Trung úy Tospan / Đại úy Meybert / Đại tá Calandro / Trung úy Grantz / Grantz"
+    category: "quân hàm - nhân vật"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán quân hàm, chức danh và tên các sĩ quan trong Kampfgruppe Salamander cùng quan sát viên quân sự Calandro."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000363"
+      - "YS-LN07/Text/chapter012.xhtml/p000365"
+      - "YS-LN07/Text/chapter012.xhtml/p000366"
+      - "YS-LN07/Text/chapter012.xhtml/p000368"
+      - "YS-LN07/Text/chapter012.xhtml/p000372"
+      - "YS-LN07/Text/chapter012.xhtml/p000387"
+      - "YS-LN07/Text/chapter012.xhtml/p000388"
+      - "YS-LN07/Text/chapter012.xhtml/p000391"
+      - "YS-LN07/Text/chapter012.xhtml/p000392"
+  - source_term: "rear guard / aerial mage battalion / armored forces / artillery / aerial mage"
+    proposed_vi: "lực lượng đoạn hậu / tiểu đoàn pháp sư trên không / lực lượng thiết giáp / pháo binh / pháp sư trên không"
+    category: "đơn vị - thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán các thuật ngữ binh chủng và nhiệm vụ tác chiến từ sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000363"
+      - "YS-LN07/Text/chapter012.xhtml/p000370"
+  - source_term: "Legal and General Affairs / general staffer / war college / military administration / academy"
+    proposed_vi: "bên Pháp chế và Tổng vụ / sĩ quan Bộ Tổng tham mưu / trường đại học quân sự / hành chính quân sự / học viện"
+    category: "tổ chức - thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán các thuật ngữ cơ quan tham mưu, đào tạo và hành chính quân sự trong tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000368"
+      - "YS-LN07/Text/chapter012.xhtml/p000373"
+      - "YS-LN07/Text/chapter012.xhtml/p000391"
+  - source_term: "homeland / home country / Norden / Being X / counteroffensive"
+    proposed_vi: "quê nhà / bản quốc / Norden / Being X / cuộc phản công"
+    category: "địa danh - tên gọi - thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán từ sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000371"
+      - "YS-LN07/Text/chapter012.xhtml/p000382"
+      - "YS-LN07/Text/chapter012.xhtml/p000383"
+      - "YS-LN07/Text/chapter012.xhtml/p000397"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000360"
+    choices:
+      - "Xưng hô, quy chiếu & phủ định: Tanya xưng 'Tôi'; giữ cấu trúc phủ định rào đón 'Tôi sẽ không bảo ... phải nương tay với kẻ địch đâu, nhưng có lẽ ... nên xem xét lại...'; đổi cả 'các người' và 'hai người' thành 'cô' (quy chiếu Trung úy Serebryakov) theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000361"
+    choices:
+      - "Quân hàm trong thoại: giữ câu cảm thán '“Trung tá?! Thiếu tá?!”' của Serebryakov khi phản ứng trước lời trêu của Tanya và Weiss."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000362"
+    choices:
+      - "Dấu thoại ba lớp & thuật ngữ: giữ nguyên cặp ngoặc kép ba lớp '“““Ha-ha-ha!”””' và cụm 'sở chỉ huy Kampfgruppe'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000363"
+    choices:
+      - "Quân hàm, thuật ngữ, đại từ trần thuật & tôn ti chỉ huy: giữ 'Trung úy Serebryakov' ('cô'), 'Thiếu tá Weiss' ('anh'), 'lực lượng đoạn hậu', 'Đại úy Ahrens' ('anh'), 'tiểu đoàn pháp sư trên không', 'lực lượng thiết giáp', 'Trung úy Tospan', 'Đại úy Meybert', 'pháo binh', 'Đại tá Calandro'; trần thuật gọi tên 'Tanya' và quy chiếu bằng 'nó' / 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000364"
+    choices:
+      - "Thoại quân lệnh: giữ câu đáp ngắn gọn '“Rõ!”'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000365"
+    choices:
+      - "Đại từ trần thuật, chức danh & nhấn mạnh Markdown: quy chiếu Tanya bằng 'nó' / 'Nó' theo DEC-P01-001; giữ 'viên sĩ quan phụ tá' / 'phụ tá' và tên 'Serebryakov'; chỉ bọc '*Chẳng phải ở đâu cũng tìm được sự hỗ trợ như thế.*' khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000366"
+    choices:
+      - "Quân hàm, đại từ & ẩn dụ công sở: giữ 'Thiếu tá Weiss', 'Trung úy Grantz', đại từ bao gộp 'Chúng ta' và 'cấp quản lý không được trả lương làm thêm giờ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000367"
+    choices:
+      - "Thoại cấp dưới: Grantz xưng 'tôi' và dùng kính ngữ 'ạ' khi đáp lời Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000368"
+    choices:
+      - "Đại từ trần thuật, nhấn mạnh Markdown, thuật ngữ & xưng hô: quy chiếu Tanya bằng 'nó' theo DEC-P01-001; chỉ bọc '*Đúng rồi, Weiss là cấp trung, nhưng Grantz thì vẫn ở cấp thấp hơn.*' khớp thẻ em nguồn theo DEC-P01-002; trong thoại Tanya xưng 'tôi', gọi Grantz là 'anh', giữ 'trung úy' và 'bên Pháp chế và Tổng vụ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000369"
+    choices:
+      - "Xưng hô cấp dưới: Grantz gọi Tanya là 'Trung tá', xưng 'tôi' và dùng kính ngữ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000370"
+    choices:
+      - "Thuật ngữ & xưng hô: giữ 'pháp sư trên không', 'xuất kích khẩn cấp', 'phụ cấp bay', 'phụ cấp phản ứng nhanh', 'trợ cấp làm thêm giờ'; Tanya gọi Grantz là 'anh'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000371"
+    choices:
+      - "Thoại cấp dưới & thuật ngữ: Grantz xưng 'tôi ... ạ', giữ 'nhà quản lý đến từ quê nhà'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000372"
+    choices:
+      - "Nhấn mạnh Markdown, tình thái & nghĩa: giữ tên 'Grantz', 'Tanya', 'Weiss' và tình thái suy đoán 'hẳn Grantz đã...'; chỉ bọc '*Tốt lắm*' khớp thẻ em nguồn theo DEC-P01-002; đổi 'nụ cười gượng gạo' thành 'nụ cười nửa miệng' (hoặc 'nụ cười hóm hỉnh') theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000373"
+    choices:
+      - "Thuật ngữ & xưng hô: Tanya xưng 'tôi', giữ 'sĩ quan Bộ Tổng tham mưu', 'trường đại học quân sự' và 'hành chính quân sự'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000374"
+    choices:
+      - "Thoại cấp dưới: giữ câu hỏi ngắn '“Vậy thì sao ạ?”'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000375"
+    choices:
+      - "Giả định trái thực tế: giữ cấu trúc điều kiện 'Nếu có thể, tôi đã kiếm lấy...'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000376"
+    choices:
+      - "Quân hàm, thuật ngữ & đại từ: trần thuật gọi tên 'Weiss' và quy chiếu bằng 'anh'; trong thoại Weiss gọi Tanya là 'Trung tá', dùng 'hậu phương' và kính ngữ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000377"
+    choices:
+      - "Quân hàm, xưng hô & phủ định: Tanya gọi Weiss là 'Thiếu tá' và 'anh', xưng 'tôi'; giữ câu phủ định 'Đâu phải tôi từng mong mỏi được phục vụ ngoài tiền tuyến đâu.'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000378"
+    choices:
+      - "Thoại cấp dưới: giữ kính ngữ 'ạ' khi Weiss bày tỏ sự ngạc nhiên với Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000379"
+    choices:
+      - "Xưng hô chỉ huy: Tanya hỏi Weiss bằng đại từ 'anh' (không dùng 'ạ')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000380"
+    choices:
+      - "Phủ định & thoại cấp dưới: giữ cấu trúc phủ định 'chẳng giống điều mà một vị sĩ quan từng đặt chân lên hầu khắp mọi mặt trận sẽ nói chút nào ạ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000381"
+    choices:
+      - "Đại từ trần thuật & tình thái: quy chiếu Tanya bằng 'Nó' / 'nó' / 'mình' theo DEC-P01-001; giữ tên 'Weiss', tình thái 'Có lẽ' và cụm 'sự cân bằng giữa công việc và cuộc sống'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000382"
+    choices:
+      - "Giả định quá khứ, đại từ trần thuật & địa danh: giữ câu cảm thán giả định trái thực tế 'Giá mà chuyện đó không phải sự thật thì đã tốt biết bao—tốt hơn biết nhường nào!', đại từ trần thuật 'Nó', địa danh 'Norden' và tình thái 'dường như'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000383"
+    choices:
+      - "Điểm nhìn nội tâm & quy ước nhấn mạnh: câu độc thoại nội tâm của Tanya dùng đại từ tự quy chiếu 'mình' theo DEC-P01-001, giữ định danh 'Being X' và không tự thêm dấu *...* khi nguồn không in nghiêng theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000384"
+    choices:
+      - "Tình thái & kính ngữ: giữ tình thái 'Có lẽ' và tiểu từ 'ạ' trong lời Weiss nói với Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000385"
+    choices:
+      - "Nhấn mạnh Markdown, giả định & đại từ: chỉ bọc '*Nein!*' khớp thẻ em nguồn theo DEC-P01-002; giữ giả định 'Anh không tưởng tượng nổi tôi sẽ nhẹ nhõm đến nhường nào nếu có thể...', đại từ trần thuật 'Nó', và xưng hô 'tôi' – 'anh' / 'chúng ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000386"
+    choices:
+      - "Quân hàm & kính ngữ: Grantz gọi Tanya là 'thưa Trung tá', xưng 'tôi' và dùng 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000387"
+    choices:
+      - "Quân hàm & xưng hô: Tanya gọi 'Trung úy Grantz' bằng 'anh'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000388"
+    choices:
+      - "Quân hàm, tình thái & phân tầng xưng hô: giữ 'Thiếu tá Weiss', 'Grantz', 'Tanya' và tình thái 'Hẳn anh cũng có đôi điều suy nghĩ trong lòng'; trong thoại Weiss xưng 'Tôi' và gọi Grantz là 'cậu'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000389"
+    choices:
+      - "Trần thuật & đại từ ngôi thứ ba: gọi tên 'Tanya'; đổi 'cậu ta' thành 'cậu ấy' (chỉ Grantz) theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000390"
+    choices:
+      - "Xưng hô & kính ngữ: Weiss gọi Grantz là 'cậu ấy' và dùng kính ngữ 'ạ' khi đề xuất với Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000391"
+    choices:
+      - "Quân hàm, xưng hô & thuật ngữ: Tanya gọi 'Trung úy Grantz' bằng 'anh', xưng 'tôi', giữ 'học viện' và yêu cầu giải thích mệnh lệnh rút lui cùng bối cảnh đằng sau."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000392"
+    choices:
+      - "Quân hàm, kính ngữ & thuật ngữ: Grantz đáp 'Rõ, thưa Trung tá.', giữ 'tái tổ chức các tuyến phòng ngự' và tiểu từ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000393"
+    choices:
+      - "Thoại chỉ huy: giữ câu hỏi ngắn '“Kỳ lạ thế nào?”'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000394"
+    choices:
+      - "Quân hàm, câu hỏi tu từ & quan hệ đối lập thời gian: giữ 'thưa Trung tá', cấu trúc câu hỏi 'Chẳng phải rất kỳ lạ khi ... trong lúc ... thay vì đợi sau khi ... sao ạ?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000395"
+    choices:
+      - "Xưng hô chỉ huy: Tanya hỏi Grantz bằng đại từ 'Anh'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000396"
+    choices:
+      - "Quân hàm & kính ngữ: Grantz đáp 'Vâng… Trung tá cũng nghĩ giống vậy sao ạ?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000397"
+    choices:
+      - "Tình thái suy đoán, thuật ngữ & đại từ trần thuật: giữ tình thái dè dặt 'Tôi có cảm giác rằng biết đâu chừng, chỉ là biết đâu thôi…', thuật ngữ 'bản quốc', 'cuộc phản công quy mô lớn', 'hậu phương', 'sở chỉ huy', đại từ trần thuật 'Nó' theo DEC-P01-001; đổi 'điều chuyển binh lực quanh đây' thành 'điều chuyển binh lực qua lại' (hoặc 'điều động binh lực khắp nơi') theo finding."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000398"
+    choices:
+      - "Dấu thoại ba lớp: giữ nguyên cặp ngoặc kép ba lớp '“““Rõ!”””'."
