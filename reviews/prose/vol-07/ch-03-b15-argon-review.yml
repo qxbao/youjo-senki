@@ -1,0 +1,244 @@
+task_id: "vol-07-ch-03-b15-argon-review"
+parent_task_id: "vol-07-ch-03-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 3
+source_package: "work/vol-07/batches/ch-03-b15-source.jsonl"
+target_translation: "translations/vol-07/ch-03-b15.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000218"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Trong lời đáp khô khan của Đại úy Meybert, cụm vị ngữ chỉ việc chịu trách nhiệm đối với cự ly bắn đang được dịch thêm cụm giải thích 'bảo đảm an toàn' ('chịu trách nhiệm bảo đảm an toàn được'), làm lộ sớm ý hàm ngôn vốn được bồi thêm bằng lối nói mỉa mai ở câu kế tiếp (trừ phi có lệnh thổi bay luôn Trung úy Tospan cùng quân địch)."
+    recommendation: "Lược bỏ cụm tự thêm 'bảo đảm an toàn', sửa thành: '…Đó không phải là cự ly mà chúng tôi có thể chịu trách nhiệm được. Chừng nào chưa có lệnh thổi bay luôn cả Trung úy Tospan cùng với quân địch…'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000223"
+    severity: "minor"
+    category: "tone_and_meaning"
+    issue: "Câu hỏi ngắn được nhấn mạnh ở đầu đoạn (vốn là lời Tanya suýt thốt ra thành tiếng trước mặt các sĩ quan tại sở chỉ huy) đang được thêm từ đệm khẩu ngữ 'quái' ('*Chuyện quái gì đang diễn ra thế này?*'), làm giọng điệu trở nên suồng sã hơn sắc thái trung tính trong nguyên bản."
+    recommendation: "Lược từ 'quái', đổi thành '*Chuyện gì đang diễn ra thế này?*' để giữ đúng sắc thái của nguyên văn."
+pending_term_recommendations:
+  - source_term: "Kampfgruppe / aerial mage battalion / magic officers / aerial mage"
+    proposed_vi: "Kampfgruppe / tiểu đoàn pháp sư trên không / sĩ quan ma pháp / pháp sư trên không"
+    category: "thuật ngữ - đơn vị"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán các thuật ngữ biên chế và binh chủng đã dùng ổn định trong sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000194"
+      - "YS-LN07/Text/chapter012.xhtml/p000195"
+      - "YS-LN07/Text/chapter012.xhtml/p000210"
+      - "YS-LN07/Text/chapter012.xhtml/p000212"
+  - source_term: "home country"
+    proposed_vi: "bản quốc"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa cách dịch 'bản quốc' đã dùng trong sổ pending tập 7 để chỉ chính quốc/hậu phương Đế quốc."
+    alternatives_vi:
+      - "chính quốc"
+      - "trong nước"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000195"
+  - source_term: "Captains Meybert and Ahrens / First Lieutenant Wüstemann / Captain Meybert / Meybert / Ahrens"
+    proposed_vi: "Hai Đại úy Meybert và Ahrens / Trung úy Wüstemann / Đại úy Meybert / Meybert / Ahrens"
+    category: "quân hàm - tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Giữ đúng cấp bậc quân hàm và tên riêng của các sĩ quan chỉ huy trực thuộc Kampfgruppe theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000195"
+      - "YS-LN07/Text/chapter012.xhtml/p000212"
+      - "YS-LN07/Text/chapter012.xhtml/p000219"
+      - "YS-LN07/Text/chapter012.xhtml/p000223"
+      - "YS-LN07/Text/chapter012.xhtml/p000225"
+      - "YS-LN07/Text/chapter012.xhtml/p000226"
+  - source_term: "First Lieutenant Tospan / Lieutenant Tospan / Lieutenant / Tospan"
+    proposed_vi: "Trung úy Tospan / Trung úy / Tospan"
+    category: "quân hàm - tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Nhất quán với sổ pending tập 7: 'First Lieutenant' và cách gọi tắt 'Lieutenant' đối với Tospan đều dịch là 'Trung úy'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000196"
+      - "YS-LN07/Text/chapter012.xhtml/p000198"
+      - "YS-LN07/Text/chapter012.xhtml/p000200"
+      - "YS-LN07/Text/chapter012.xhtml/p000205"
+      - "YS-LN07/Text/chapter012.xhtml/p000207"
+      - "YS-LN07/Text/chapter012.xhtml/p000210"
+      - "YS-LN07/Text/chapter012.xhtml/p000212"
+      - "YS-LN07/Text/chapter012.xhtml/p000217"
+      - "YS-LN07/Text/chapter012.xhtml/p000218"
+  - source_term: "Colonel / ma’am (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "thưa Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Tanya mang quân hàm Trung tá (Lieutenant Colonel); trong giao tiếp quân sự tiếng Anh, cấp dưới gọi 'Colonel' hoặc 'ma’am', dịch chuẩn sang tiếng Việt là 'thưa Trung tá'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000201"
+      - "YS-LN07/Text/chapter012.xhtml/p000216"
+  - source_term: "front lines / foothold / encounter battle / Federation Army"
+    proposed_vi: "tiền tuyến / bàn đạp / trận tao ngộ chiến / Quân đội Liên bang"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán bộ thuật ngữ tác chiến và tên gọi Quân đội Liên bang từ sổ pending tập 4–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000199"
+      - "YS-LN07/Text/chapter012.xhtml/p000201"
+  - source_term: "Major Weiss"
+    proposed_vi: "Thiếu tá Weiss"
+    category: "quân hàm - tên gọi"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa nhất quán quân hàm Thiếu tá của Weiss ở tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000210"
+  - source_term: "Peter Principle"
+    proposed_vi: "Nguyên lý Peter⁶"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Thuật ngữ quản trị học phổ biến (Peter Principle) kèm ký hiệu chú thích số 6 của nguyên tác."
+    alternatives_vi:
+      - "Định luật Peter⁶"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000214"
+  - source_term: "artillery support / friendly fire / Rhine front"
+    proposed_vi: "pháo binh chi viện / quân mình bắn nhầm / mặt trận Rhine"
+    category: "thuật ngữ"
+    status: "proposed"
+    uncertainty: "low"
+    rationale: "Kế thừa 'pháo binh chi viện' và 'mặt trận Rhine' từ sổ pending; 'accidental friendly fire' diễn đạt tự nhiên, rõ nghĩa là 'quân mình bắn nhầm'."
+    alternatives_vi:
+      - "hỏa lực đồng đội bắn nhầm"
+    segment_ids:
+      - "YS-LN07/Text/chapter012.xhtml/p000217"
+      - "YS-LN07/Text/chapter012.xhtml/p000227"
+      - "YS-LN07/Text/chapter012.xhtml/p000229"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000193"
+    choices:
+      - "Điểm nhìn & đại từ: trần thuật quy chiếu Tanya bằng 'nó' theo DEC-P01-001; 'The higher-ups' -> 'Cấp trên'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000194"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu Tanya bằng 'Nó', các sĩ quan thuộc 'Kampfgruppe' bằng 'họ'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000195"
+    choices:
+      - "Nhấn mạnh Markdown, quân hàm & thuật ngữ: chỉ bọc '*đáng ngạc nhiên thay*' khớp thẻ em nguồn theo DEC-P01-002; 'aerial mage battalion' -> 'tiểu đoàn pháp sư trên không'; 'home country' -> 'bản quốc'; 'Hai Đại úy Meybert và Ahrens cùng Trung úy Wüstemann'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000196"
+    choices:
+      - "Câu hỏi & quân hàm: giữ câu hỏi nhận định về 'Trung úy Tospan'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000197"
+    choices:
+      - "Xưng hô & dấu ngắt câu: Tospan xưng 'tôi' / 'chúng ta', có từ kính ngữ 'ạ'; giữ dấu gạch ngang lửng câu 'Tôi không thấy có lý do gì phải—'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000198"
+    choices:
+      - "Xưng hô & quân hàm: Tanya xưng 'tôi', gọi 'Trung úy Tospan' là 'anh'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000199"
+    choices:
+      - "Xưng hô, phủ định & câu hỏi phản vấn: Tospan dùng 'Chúng ta' / 'mình' (ngôi thứ nhất số nhiều bao gộp trong thoại) và 'Tôi', gọi địch là 'quân địch' / 'chúng'; giữ câu hỏi phản vấn với 'Chẳng phải tình huống tệ nhất là... hay sao ạ?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000200"
+    choices:
+      - "Điểm nhìn & đại từ: trong thoại Tanya gọi 'Trung úy Tospan' là 'Anh'; trong trần thuật quy chiếu Tanya bằng 'nó' và Tospan bằng 'anh ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000201"
+    choices:
+      - "Quân hàm, thuật ngữ & câu hỏi phản vấn: 'Yes, Colonel' -> 'Vâng, thưa Trung tá'; 'front lines' -> 'tiền tuyến'; 'foothold' -> 'bàn đạp'; 'encounter battle' -> 'trận tao ngộ chiến'; 'Federation Army' -> 'Quân đội Liên bang'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000202"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ: bọc chính xác '*Chà!*' khớp thẻ em nguồn theo DEC-P01-002; trần thuật quy chiếu Tanya bằng 'nó' và Tospan bằng 'anh ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000203"
+    choices:
+      - "Đại từ trần thuật: quy chiếu Tanya bằng 'nó', Tospan bằng 'anh ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000204"
+    choices:
+      - "Tình thái: giữ tình thái 'có lẽ đúng là trông như vậy thật'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000205"
+    choices:
+      - "Xưng hô & đại từ khái quát: trong thoại Tospan hỏi 'Ý Trung tá là…?'; trong trần thuật quy chiếu Tospan bằng 'anh ta' và chủ thể giả định chung bằng 'bạn'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000206"
+    choices:
+      - "Đại từ trần thuật: quy chiếu Tospan bằng 'anh ta', giữ tên 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000207"
+    choices:
+      - "Điểm nhìn nội tâm & không tự thêm chữ nghiêng: độc thoại nội tâm ngôi thứ nhất của Tanya dùng đại từ tự quy chiếu 'mình' theo DEC-P01-001; không bọc chữ nghiêng vì nguồn không có thẻ nhấn mạnh theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000208"
+    choices:
+      - "Xưng hô & đối lập khái niệm: Tanya gọi Tospan là 'Anh'; giữ đối lập 'không gian hai chiều cổ điển' và 'tác chiến ba chiều'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000209"
+    choices:
+      - "Thoại cảm thán: giữ 'Hả?'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000210"
+    choices:
+      - "Thuật ngữ & quân hàm: 'aerial mage' -> 'pháp sư trên không'; 'Major Weiss' -> 'Thiếu tá Weiss'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000211"
+    choices:
+      - "Thoại cấp dưới: giữ câu đáp của Weiss có 'ạ' cuối câu ('Chúng đan cài vào nhau quá mức rối rắm ạ.')."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000212"
+    choices:
+      - "Thuật ngữ, tình thái & đại từ: 'magic officers' -> 'sĩ quan ma pháp'; quy chiếu Meybert và Ahrens bằng 'họ', Tospan bằng 'anh ta'; giữ tình thái suy luận 'hẳn có nghĩa là'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000213"
+    choices:
+      - "Nhượng bộ & đại từ: giữ cấu trúc nhượng bộ 'cho dù anh ta không thể nghe một hiểu mười đi chăng nữa, thì cũng còn quá sớm để trách cứ anh ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000214"
+    choices:
+      - "Điểm nhìn nội tâm, thuật ngữ & chú thích: giữ 'Nguyên lý Peter⁶' kèm số chú thích; dùng đại từ nội tâm 'mình' cho Tanya và 'anh ta' cho Tospan theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000215"
+    choices:
+      - "Xưng hô thoại: Tanya gọi Tospan là 'anh', dùng 'chúng ta' và gọi quân địch là 'bọn chúng'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000216"
+    choices:
+      - "Xưng hô & quân hàm: 'Yes, ma’am' -> 'Vâng, thưa Trung tá'; Tospan xưng 'tôi'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000217"
+    choices:
+      - "Đại từ, giả định & thuật ngữ: trong thoại Tanya xưng 'tôi' - 'anh' và gọi 'Trung úy'; trong trần thuật quy chiếu Tanya bằng 'Nó'; 'artillery support' -> 'pháo binh chi viện'; 'the artilleryman' -> 'vị sĩ quan pháo binh'; giữ đầy đủ chuỗi giả định và câu hỏi đuôi."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000218"
+    choices:
+      - "Phủ định, điều kiện & quân hàm: Meybert xưng 'chúng tôi', nhắc tới 'Trung úy Tospan'; lược bỏ cụm tự thêm 'bảo đảm an toàn' theo finding để giữ nguyên nét hàm ngôn khô khan của câu thoại."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000219"
+    choices:
+      - "Quân hàm & tên gọi: 'Captain Meybert' -> 'Đại úy Meybert'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000220"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ: dùng 'bạn' cho câu giả định chung và 'chúng ta' ở câu kết; chỉ bọc '*đúng là*' khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000221"
+    choices:
+      - "Thuật ngữ: 'bombardment' -> 'Pháo kích'; 'HQ' -> 'sở chỉ huy'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000222"
+    choices:
+      - "Thoại đứt quãng: giữ nguyên cấu trúc cảm thán đứt quãng 'Quân địch tấn công ư?! Thật là—!'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000223"
+    choices:
+      - "Nhấn mạnh Markdown & sắc thái: bọc câu hỏi đầu đoạn bằng '*...*' khớp thẻ em nguồn theo DEC-P01-002 và chỉnh thành '*Chuyện gì đang diễn ra thế này?*' theo finding; giữ lời hét của Meybert."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000224"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu Meybert bằng 'anh ta'; 'the rear' -> 'phía hậu phương'; giữ câu phủ định cảm thán 'Không thể có chuyện đó được!'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000225"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: chỉ bọc câu thứ hai '*Chẳng lẽ chúng ta thực sự là một lũ đần độn đến mức đó sao?*' khớp thẻ em nguồn theo DEC-P01-002; dùng 'chúng ta' trong suy nghĩ nội tâm của Tanya."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000226"
+    choices:
+      - "Thuật ngữ: 'professional artilleryman' -> 'pháo thủ chuyên nghiệp'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000227"
+    choices:
+      - "Tình thái & thuật ngữ: giữ tình thái 'Tôi khá chắc'; 'our guns' -> 'pháo của quân ta'; 'accidental friendly fire' -> 'bị quân mình bắn nhầm'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000228"
+    choices:
+      - "Nhấn mạnh Markdown, tình thái & đại từ: bọc '*Cái—?!*' khớp thẻ em nguồn theo DEC-P01-002; giữ tình thái 'có lẽ' và quy chiếu Meybert bằng 'anh ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000229"
+    choices:
+      - "Nhấn mạnh Markdown & thuật ngữ: bọc '*đúng là*' khớp thẻ em nguồn theo DEC-P01-002; 'Rhine front' -> 'mặt trận Rhine'; dùng đại từ 'chúng ta'."
+  - segment_id: "YS-LN07/Text/chapter012.xhtml/p000230"
+    choices:
+      - "Nghĩa & nhịp câu: giữ hai câu ngắn dồn dập kết đoạn."
