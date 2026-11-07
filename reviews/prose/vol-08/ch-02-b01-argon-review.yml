@@ -1,0 +1,206 @@
+task_id: "vol-08-ch-02-b01-argon-review"
+parent_task_id: "vol-08-ch-02-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 2
+source_package: "work/vol-08/batches/ch-02-b01-source.jsonl"
+target_translation: "translations/vol-08/ch-02-b01.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000002"
+    severity: "moderate"
+    category: "meaning"
+    issue: "Nhầm lẫn từ vựng ở câu cuối: tính từ 'superstitious' (mê tín) bị dịch nhầm thành 'đa nghi' (vốn ứng với 'suspicious'), làm lệch nghĩa đen và sắc thái châm biếm của người kể chuyện khi vừa ví dân bản xứ Liên bang như một 'bộ tộc' ở câu trước."
+    evidence: "Trong cụm danh từ vị ngữ 'a superstitious lot', tính từ gốc là 'superstitious' (tin vào sự mê tín/dị đoan), không phải 'suspicious' (đa nghi)."
+    recommendation: "Sửa 'một lũ đa nghi' thành 'một lũ mê tín' (hoặc 'một đám người mê tín')."
+pending_term_recommendations:
+  - source_term: "MAY 26, UNIFIED YEAR 1927, FEDERATION TERRITORY, CENTRAL MILITARY DISTRICT, MULTINATIONAL UNIT GARRISON"
+    proposed_vi: "NGÀY 26 THÁNG 5 NĂM THỐNG NHẤT 1927, LÃNH THỔ LIÊN BANG, QUÂN KHU TRUNG TÂM, DOANH TRẠI ĐỒN TRÚ CỦA ĐƠN VỊ ĐA QUỐC GIA"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán cách dịch tiêu đề thời gian – địa điểm và các thuật ngữ 'Lãnh thổ Liên bang', 'Quân khu Trung tâm', 'Doanh trại đồn trú của Đơn vị Đa quốc gia'."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000001"
+    status: "proposed"
+  - source_term: "Federation / Commonwealth / the Empire"
+    proposed_vi: "Liên bang / Khối Thịnh vượng chung / Đế quốc"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán định danh các quốc gia từ sổ pending các tập trước."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000002"
+      - "YS-LN08/Text/chapter006.xhtml/p000004"
+      - "YS-LN08/Text/chapter006.xhtml/p000006"
+      - "YS-LN08/Text/chapter006.xhtml/p000011"
+      - "YS-LN08/Text/chapter006.xhtml/p000012"
+      - "YS-LN08/Text/chapter006.xhtml/p000020"
+      - "YS-LN08/Text/chapter006.xhtml/p000026"
+      - "YS-LN08/Text/chapter006.xhtml/p000031"
+    status: "proposed"
+  - source_term: "Communists / Commies / Communism"
+    proposed_vi: "đám người Cộng sản (hoặc đám Cộng sản) / đám Cộng sản / Chủ nghĩa Cộng sản"
+    alternatives_vi:
+      - "những người Cộng sản / bọn Cộng sản / Chủ nghĩa Cộng sản"
+    rationale: "Kế thừa cách dịch 'Chủ nghĩa Cộng sản' và giữ sắc thái mỉa mai trong điểm nhìn của điệp viên Khối Thịnh vượng chung đối với 'Communists' / 'Commies'."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000002"
+      - "YS-LN08/Text/chapter006.xhtml/p000004"
+      - "YS-LN08/Text/chapter006.xhtml/p000019"
+      - "YS-LN08/Text/chapter006.xhtml/p000028"
+      - "YS-LN08/Text/chapter006.xhtml/p000030"
+    status: "proposed"
+  - source_term: "John Doe / Mr. John / Mr. Johnson"
+    proposed_vi: "John Doe / ông John / ông Johnson"
+    alternatives_vi:
+      - "ngài John / ngài Johnson"
+    rationale: "Giữ nguyên tên riêng tiếng Anh và dùng danh xưng 'ông' tự nhiên, nhất quán với cách gọi 'ông Johnson' ở chương 1 tập 8."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000003"
+      - "YS-LN08/Text/chapter006.xhtml/p000009"
+    status: "proposed"
+  - source_term: "visa issuer"
+    proposed_vi: "viên chức cấp thị thực"
+    alternatives_vi:
+      - "nhân viên cấp thị thực"
+    rationale: "Biểu đạt chuẩn xác vỏ bọc hành chính ngoại giao của nhân vật."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000004"
+      - "YS-LN08/Text/chapter006.xhtml/p000011"
+    status: "proposed"
+  - source_term: "Colonel Drake / Lieutenant Colonel Drake / Drake"
+    proposed_vi: "Trung tá Drake / Drake"
+    alternatives_vi: []
+    rationale: "Kế thừa cấp bậc thực tế 'Trung tá Drake' đã khóa ở các tập 4–8 (trong tiếng Anh, 'Colonel' được dùng làm cách gọi tắt xã giao cho 'Lieutenant Colonel', đối chiếu trực tiếp với p000017)."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000008"
+      - "YS-LN08/Text/chapter006.xhtml/p000013"
+      - "YS-LN08/Text/chapter006.xhtml/p000017"
+      - "YS-LN08/Text/chapter006.xhtml/p000020"
+      - "YS-LN08/Text/chapter006.xhtml/p000032"
+    status: "proposed"
+  - source_term: "Federation’s secret police / Federation’s Communist Party’s secret police"
+    proposed_vi: "cảnh sát mật Liên bang / Cảnh sát mật của Đảng Cộng sản Liên bang"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên gọi lực lượng cảnh sát mật và Đảng Cộng sản Liên bang từ tập 7."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000011"
+      - "YS-LN08/Text/chapter006.xhtml/p000021"
+    status: "proposed"
+  - source_term: "General Habergram / eastern front / Intelligence agency"
+    proposed_vi: "Tướng Habergram / mặt trận phía đông / cơ quan Tình báo"
+    alternatives_vi:
+      - "cục Tình báo"
+    rationale: "Kế thừa tên gọi 'Tướng Habergram' và 'mặt trận phía đông' từ chương 1 tập 8; dịch sát nghĩa 'Intelligence agency' là 'cơ quan Tình báo'."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000015"
+      - "YS-LN08/Text/chapter006.xhtml/p000017"
+    status: "proposed"
+  - source_term: "home country / colonials"
+    proposed_vi: "chính quốc / dân thuộc địa"
+    alternatives_vi:
+      - "bản quốc / người dân thuộc địa"
+    rationale: "Trong ngữ cảnh Khối Thịnh vượng chung đặt đối lập giữa 'home country' và 'colonials' (p000031), cặp thuật ngữ 'chính quốc' và 'dân thuộc địa' phản ánh chuẩn xác nhất quan hệ mẫu quốc – thuộc địa."
+    segment_ids:
+      - "YS-LN08/Text/chapter006.xhtml/p000026"
+      - "YS-LN08/Text/chapter006.xhtml/p000027"
+      - "YS-LN08/Text/chapter006.xhtml/p000031"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000001"
+    choices:
+      - "Tiêu đề cảnh & thuật ngữ: giữ định dạng viết hoa toàn bộ 'NGÀY 26 THÁNG 5 NĂM THỐNG NHẤT 1927, LÃNH THỔ LIÊN BANG, QUÂN KHU TRUNG TÂM, DOANH TRẠI ĐỒN TRÚ CỦA ĐƠN VỊ ĐA QUỐC GIA'; không có chữ nghiêng."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000002"
+    choices:
+      - "Thuật ngữ & nghĩa: 'Federation' -> 'Liên bang'; 'Commonwealth' -> 'Khối Thịnh vượng chung'; 'the tribe' -> 'bộ tộc'; 'Communists' -> 'đám người Cộng sản'; cần sửa 'superstitious' thành 'mê tín' (thay vì 'đa nghi')."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000003"
+    choices:
+      - "Điểm nhìn, đại từ & tên gọi: người kể chuyện ngôi thứ nhất John Doe tự xưng 'tôi' (DEC-P01-001 chỉ áp dụng cho Tanya); 'the man without a name' -> 'kẻ vô danh'; 'Mr. John' -> 'ông John'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000004"
+    choices:
+      - "Đại từ, thuật ngữ & tình thái: John Doe xưng 'tôi'; 'Commies' -> 'đám Cộng sản'; 'visa issuer' -> 'viên chức cấp thị thực'; 'Commonwealth' -> 'Khối Thịnh vượng chung'; giữ tình thái 'có vẻ lại tưởng' và cấu trúc giới hạn 'chẳng qua chỉ là'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000005"
+    choices:
+      - "Đại từ & tình thái: John Doe xưng 'tôi'; 'gentleman' -> 'quý ông'; giữ tình thái 'có lẽ tôi nên'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000006"
+    choices:
+      - "Đại từ, thuật ngữ & so sánh: John Doe xưng 'tôi' / 'mình'; 'Federation' -> 'Liên bang'; 'messenger' -> 'người đưa tin'; giữ cấu trúc nhượng bộ 'Ngay cả khi chỉ là...' và so sánh hơn 'căng thẳng hơn bất kỳ lúc nào kể từ sau nhiệm vụ đầu tiên của mình'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000007"
+    choices:
+      - "Đại từ & nghĩa: John Doe xưng 'tôi' / 'mình'; giữ quan hệ mức độ 'Tệ đến mức tôi thực sự cảm thấy nhẹ nhõm...' và nhận định 'Dạo gần đây hiếm khi nào tôi lại như vậy'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000008"
+    choices:
+      - "Cấp bậc & xưng hô: 'Colonel Drake' -> 'Trung tá Drake' (theo cấp bậc thực tế của Drake); John Doe (lớn tuổi hơn) gọi Drake là 'anh'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000009"
+    choices:
+      - "Tên gọi, xưng hô & câu hỏi đuôi phủ định: 'Mr. Johnson' -> 'ông Johnson'; Drake gọi Johnson là 'ông'; 'savages' -> 'đám mọi rợ'; giữ câu hỏi đuôi phủ định 'ông không bị đám mọi rợ nào tấn công đấy chứ?'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000010"
+    choices:
+      - "Đại từ & từ vựng: Johnson tự xưng 'tôi'; giữ sự lặp lại cụm 'đám mọi rợ' để nối tiếp lời thoại của Drake."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000011"
+    choices:
+      - "Thuật ngữ & dấu câu: 'Federation officials' -> 'giới chức Liên bang'; 'diplomatic envoys' -> 'các phái viên ngoại giao'; '“visa issuer”' -> '“viên chức cấp thị thực”' (giữ ngoặc kép); 'Federation’s secret police' -> 'cảnh sát mật Liên bang'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000012"
+    choices:
+      - "Dấu câu & thuật ngữ: giữ dấu chấm lửng mở đầu '…Hóa ra'; 'the Empire' -> 'Đế quốc'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000013"
+    choices:
+      - "Cấp bậc & đại từ: 'Colonel Drake' -> 'Trung tá Drake'; Johnson tự xưng 'tôi'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000014"
+    choices:
+      - "Đại từ, thuật ngữ & thành ngữ: quy chiếu Drake bằng 'Anh ta' trong lời kể của Johnson; 'front lines' -> 'tiền tuyến'; 'never say never' -> 'chẳng nói trước được điều gì'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000015"
+    choices:
+      - "Tên gọi, thuật ngữ & tự xưng: 'General Habergram' -> 'Tướng Habergram'; 'eastern front' -> 'mặt trận phía đông'; Johnson tự xưng 'tôi' và tự ví mình là 'một lão già như tôi'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000016"
+    choices:
+      - "Xưng hô: Drake tự xưng 'Tôi' và gọi Johnson là 'ông'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000017"
+    choices:
+      - "Cấp bậc, thuật ngữ & đại từ: 'Lieutenant Colonel Drake' -> 'Trung tá Drake'; 'Intelligence agency' -> 'cơ quan Tình báo'; Johnson tự xưng 'tôi' / 'mình' và quy chiếu Drake bằng 'anh ta'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000018"
+    choices:
+      - "Tình thái giả định quá khứ & đại từ: giữ cấu trúc tiếc nuối 'Ước gì tôi đã mang cho anh ta một chai gì đó'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000019"
+    choices:
+      - "Đại từ, phủ định & thuật ngữ: tự xưng 'Tôi' / 'tôi'; giữ cấu trúc phủ định 'chẳng có gì ngoài phiền phức cả', 'Tôi không biết'; 'evil nest of Communists' -> 'hang ổ tà ác của đám Cộng sản'; 'liaison' -> 'người liên lạc'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000020"
+    choices:
+      - "Thuật ngữ, tình thái & phủ định: 'Federation' -> 'Liên bang'; giữ chuỗi tình thái và phủ định ('chẳng có lý do gì phải lo lắng cả', 'có lẽ đang được khoản đãi', 'Tôi sẽ chẳng ngạc nhiên nếu...', 'Trái lại, nếu nghĩ rằng toàn bộ nơi này không bị cài thiết bị nghe lén thì mới là lạ', 'Đấy vốn chẳng phải vấn đề thuộc về lẽ thường tình')."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000021"
+    choices:
+      - "Thuật ngữ & đại từ: 'Federation’s Communist Party’s secret police' -> 'Cảnh sát mật của Đảng Cộng sản Liên bang'; quy chiếu bằng 'chúng'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000022"
+    choices:
+      - "Xưng hô, thuật ngữ & câu hỏi: Johnson gọi Drake là 'Anh'; 'the higher-ups' -> 'cấp trên'; giữ câu hỏi gợi mở."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000023"
+    choices:
+      - "Xưng hô & câu hỏi: Drake gọi Johnson là 'Ông' và tự xưng 'tôi'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000024"
+    choices:
+      - "Đại từ & phủ định: Johnson tự xưng 'Tôi', dùng 'chúng ta' cho 'we' (hai người đang đối thoại); giữ tình thái phủ định 'nên sẽ chẳng thành vấn đề đâu'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000025"
+    choices:
+      - "Quan hệ điều kiện & đại từ: giữ câu điều kiện 'Nếu đằng nào chuyện cũng đã phơi bày ra đấy rồi, thì cứ làm tới luôn đi' và đại từ 'Tôi'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000026"
+    choices:
+      - "Thuật ngữ: 'the home country' -> 'chính quốc'; 'Federation' -> 'Liên bang'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000027"
+    choices:
+      - "Đại từ & thuật ngữ: Drake xưng 'Tôi'; 'the home country' -> 'chính quốc'; 'conservative' -> 'có tư tưởng bảo thủ'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000028"
+    choices:
+      - "Thuật ngữ, phủ định & dấu câu: giữ phủ định giảm nhẹ 'Cũng chẳng thay đổi mấy đâu'; 'Communism' -> 'Chủ nghĩa Cộng sản'; 'the party' -> 'Đảng'; 'agricultural policy' -> 'chính sách nông nghiệp'; giữ dấu chấm phẩy và dấu gạch ngang dài."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000029"
+    choices:
+      - "Câu hỏi ngắn: giữ nguyên '“Nói cách khác là?”'."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000030"
+    choices:
+      - "Thuật ngữ & dấu câu: 'Communism' -> 'Chủ nghĩa Cộng sản'; giữ dấu nháy đơn quanh '‘kỳ thú’' để biểu thị sự mỉa mai."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000031"
+    choices:
+      - "Thuật ngữ & nghĩa: 'Commonwealth' -> 'Khối Thịnh vượng chung'; 'colonials' -> 'dân thuộc địa'; 'the home country' -> 'chính quốc'; 'bona fide gentleman' -> 'quý ông chính hiệu'; giữ phép đối lập giữa 'dân thuộc địa' và 'người nào đến từ chính quốc' cùng sắc thái mỉa mai chua cay."
+  - segment_id: "YS-LN08/Text/chapter006.xhtml/p000032"
+    choices:
+      - "Đại từ & tình thái: Johnson tự xưng 'tôi', gọi Drake là 'anh ta'; giữ tình thái 'có vẻ đang cố nhịn cười'."
