@@ -1,0 +1,236 @@
+task_id: vol-09-ch-05-b01-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000008
+    related_segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000012
+    severity: minor
+    category: terminology
+    issue: "Thuật ngữ 'torpedo squadron' ở p000008 và p000012 đang được dịch là 'hải đội khu trục – phóng lôi', tức tự bổ sung yếu tố giải thích 'khu trục –' dựa trên chi tiết 'destroyer' ở p000014."
+    evidence: "Theo canon/style-guide.md, không tự thêm giải thích ngoài văn bản nguồn; trong pending-terms-index.yml, 'squadron' đã có phương án tạm là 'hải đội' và 'torpedo' là 'phóng lôi / ngư lôi'."
+    recommendation: "Đổi 'hải đội khu trục – phóng lôi' thành 'hải đội phóng lôi' (giữ nhấn mạnh Markdown '*hải đội phóng lôi*' tại p000008)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000010
+    related_segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000011
+      - YS-LN09/Text/chapter018.xhtml/p000016
+      - YS-LN09/Text/chapter018.xhtml/p000018
+    severity: minor
+    category: pronouns_pov
+    issue: "Đại từ ngôi thứ nhất số nhiều trong độc thoại nội tâm của Tanya (chỉ đơn vị/tàu của phe mình) ở p000010, p000011, p000016, p000018 đang dịch là 'chúng mình', mang sắc thái thân mật đời thường và chưa đồng nhất với 'chúng ta' ở p000029."
+    evidence: "Quy ước tạm trong work/run-state/pending-terms-index.yml cho nội tâm của Tanya là 'mình / chúng ta (nội tâm)'."
+    recommendation: "Đổi 'chúng mình' thành 'chúng ta' tại p000010, p000011, p000016 và p000018 để nhất quán với p000029 và giữ đúng giọng nội tâm quân sự của Tanya."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000019
+    severity: minor
+    category: pronouns_address
+    issue: "Trong câu thoại của Trung tá Tanya hỏi Thiếu tá Otto von Elm (thuyền trưởng tàu U-091), bản dịch dùng đại từ 'Ông' ('Ông có thấy ấn tượng không, Thuyền trưởng?'), hàm ý suy đoán tuổi tác của Elm lớn hơn trong khi quân hàm của Elm là Thiếu tá (thấp hơn Trung tá Tanya)."
+    evidence: "Theo DEC-P01-001 trong canon/decisions.md, tránh suy diễn thông tin cá nhân/quan hệ khi văn cảnh chưa nêu tuổi của Elm."
+    recommendation: "Dùng danh xưng chức vụ làm đại từ ('Thuyền trưởng có thấy ấn tượng không?') hoặc đại từ xã giao trung tính ('Ngài có thấy ấn tượng không, Thuyền trưởng?')."
+pending_term_recommendations:
+  - source_term: "U-091 / Major Otto von Elm / Elm / Captain"
+    proposed_vi: "U-091 (chiếc U-091) / Thiếu tá Otto von Elm / Elm / Thuyền trưởng"
+    category: "tên gọi / quân hàm / chức danh"
+    status: proposed
+    uncertainty: low
+    rationale: "Giữ nguyên số hiệu tàu ngầm U-091; dịch sát cấp bậc 'Major' là 'Thiếu tá' và chức danh chỉ huy tàu 'Captain' trong thoại là 'Thuyền trưởng' đồng nhất với các chương trước của vol-09."
+    alternatives_vi:
+      - "Hạm trưởng"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000002
+      - YS-LN09/Text/chapter018.xhtml/p000009
+      - YS-LN09/Text/chapter018.xhtml/p000010
+      - YS-LN09/Text/chapter018.xhtml/p000016
+      - YS-LN09/Text/chapter018.xhtml/p000019
+  - source_term: "standard fleet submarine"
+    proposed_vi: "tàu ngầm hạm đội tiêu chuẩn"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Kế thừa phương án tạm 'tàu ngầm hạm đội' (fleet subs) đã có trong work/run-state/pending-terms-index.yml của vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000002
+  - source_term: "Ildoan Navy HQ"
+    proposed_vi: "Bộ Tư lệnh Hải quân Ildoa"
+    category: "tên cơ quan quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Diễn đạt chuẩn xác cơ quan chỉ huy đầu não của Hải quân Ildoa phát lệnh trên các kênh liên lạc."
+    alternatives_vi:
+      - "Tổng hành dinh Hải quân Ildoa"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000006
+  - source_term: "torpedo squadron"
+    proposed_vi: "hải đội phóng lôi"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Dịch sát nghĩa từ gốc, kết hợp nhất quán với phương án tạm 'hải đội' (squadron) trong ledger, tránh tự thêm từ giải thích."
+    alternatives_vi:
+      - "hải đội khu trục – phóng lôi"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000008
+      - YS-LN09/Text/chapter018.xhtml/p000012
+  - source_term: "gun salute"
+    proposed_vi: "những loạt đại bác chào mừng"
+    category: "thuật ngữ quân sự / nghi lễ"
+    status: proposed
+    uncertainty: low
+    rationale: "Diễn đạt tự nhiên, đúng nghi thức pháo lễ hải quân trong ngữ cảnh chào xã giao khi vào vùng biển nước ngoài."
+    alternatives_vi:
+      - "pháo lễ chào mừng"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000009
+  - source_term: "ring formation"
+    proposed_vi: "đội hình vòng tròn"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Dịch sát nghĩa mô tả đội hình tàu hộ tống vây quanh tàu ngầm U-091 ở tâm."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000010
+  - source_term: "ceremonial dress"
+    proposed_vi: "trang phục lễ nghi"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Sát nghĩa và phù hợp với bối cảnh đơn vị xếp hàng trên mặt boong khi tiến vào cảng ngoại giao."
+    alternatives_vi:
+      - "lễ phục"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000014
+  - source_term: "cockade / Ildoan insignia"
+    proposed_vi: "phù hiệu tròn / phù hiệu của Ildoa"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Phân biệt rõ 'cockade' (phù hiệu tròn sơn trên máy bay kiểu Khối Thịnh vượng chung) và 'insignia' (phù hiệu nhận diện của Ildoa)."
+    alternatives_vi:
+      - "huy hiệu tròn / phù hiệu Ildoa"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000015
+  - source_term: "emergency dive bell"
+    proposed_vi: "chuông lặn khẩn cấp"
+    category: "thuật ngữ hải quân"
+    status: proposed
+    uncertainty: low
+    rationale: "Dịch sát nghĩa thiết bị báo động lặn khẩn cấp trên tàu ngầm."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000020
+locked_choices:
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000001
+    choices:
+      - "Giữ nguyên cấu trúc tiêu đề thời gian – địa điểm viết hoa: 'NGÀY 17 THÁNG 7 NĂM THỐNG NHẤT 1927, HƯỚNG TỚI ILDOA'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000002
+    choices:
+      - "Khóa định danh 'U-091', quân hàm và tên 'Thiếu tá Otto von Elm', thuật ngữ 'tàu ngầm hạm đội tiêu chuẩn'."
+      - "Giữ quan hệ đối lập 'Mặc dù... nhưng hiện tại nó lại đang công khai di chuyển nổi trên mặt biển'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000003
+    choices:
+      - "Giữ cấu trúc danh ngữ ngắn nhấn mạnh nghịch lý của một chiếc tàu ngầm tự nguyện phơi lộ bản thân."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000004
+    choices:
+      - "Giữ sắc thái tình thái 'có lẽ' (probably) và mục đích tạo ấn tượng chỉ vô hại đi ngang qua khi tiến vào vùng biển của Ildoa."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000005
+    choices:
+      - "Giữ giả định quá khứ 'Bất kể chuyện sẽ ra sao nếu là vào ban đêm' và tính bắt buộc 'Ildoa buộc phải có động thái phản hồi dù muốn hay không'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000006
+    choices:
+      - "Khóa tên gọi 'Bộ Tư lệnh Hải quân Ildoa' (Ildoan Navy HQ)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000007
+    choices:
+      - "Khóa đúng 3 cụm nhấn mạnh Markdown theo nguồn: '*dẫn đường*', '*những vị khách thiện chí*', '*quốc gia hữu hảo*'."
+      - "Giữ giọng mỉa mai về việc phát điện không mã hóa lặp đi lặp lại trên mọi kênh."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000008
+    choices:
+      - "Khóa nhấn mạnh Markdown tại thuật ngữ '*hải đội phóng lôi*' (sau khi lược bỏ phần giải thích thêm 'khu trục –')."
+      - "Khóa đại từ trần thuật ngôi thứ ba của Tanya là 'cô' ('Tanya cùng đơn vị của cô')."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000009
+    choices:
+      - "Khóa đúng 2 cụm nhấn mạnh Markdown theo nguồn: '*sự tiếp đón nồng hậu*' và '*quốc gia trung lập hữu hảo*'."
+      - "Khóa địa danh 'Nội hải' (Inner Sea) và 'Đế quốc' (the Empire)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000010
+    choices:
+      - "Khóa đúng 2 cụm nhấn mạnh Markdown theo nguồn: '*hộ tống*' và '*Hải quân Khối Thịnh vượng chung*'."
+      - "Khóa thuật ngữ 'đội hình vòng tròn' (ring formation) và 'tàu chủ lực' (capital ship)."
+      - "Khóa đại từ nội tâm ngôi thứ nhất số nhiều là 'chúng ta'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000011
+    choices:
+      - "Khóa đại từ nội tâm của Tanya: 'Mình' (ngôi thứ nhất số ít) và 'chúng ta' (ngôi thứ nhất số nhiều)."
+      - "Giữ câu hỏi phỏng đoán pha mỉa mai ở cuối đoạn."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000012
+    choices:
+      - "Khóa thuật ngữ 'hải đội phóng lôi' (đồng nhất với p000008) và cụm nhấn mạnh Markdown '*tình hữu nghị tươi đẹp*'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000013
+    choices:
+      - "Giữ nhịp điệp câu mỉa mai của độc thoại nội tâm về 'người bạn tuyệt vời'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000014
+    choices:
+      - "Khóa nhấn mạnh Markdown '*Nếu cần thiết*' (If necessary)."
+      - "Khóa các thuật ngữ 'trang phục lễ nghi' (ceremonial dress), 'tàu khu trục' (destroyer), 'thuật thức phát nổ' (explosion formulas), 'những vụ nổ thứ cấp' (secondary explosions)."
+      - "Khóa đại từ nội tâm 'mình'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000015
+    choices:
+      - "Khóa cụm nhấn mạnh Markdown '*Chiếc máy bay tiêm kích này được chế tạo tại Khối Thịnh vượng chung*'."
+      - "Khóa sự phân biệt giữa 'phù hiệu tròn' (cockade) và 'phù hiệu của Ildoa' (Ildoan insignia) cùng mạch chuyển cảm xúc từ kinh hãi sang nhận ra máy bay Ildoa."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000016
+    choices:
+      - "Khóa định danh 'Elm' và đại từ nội tâm 'mình' / 'chúng ta'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000017
+    choices:
+      - "Giữ nhận định khái quát về tình huống tồi tệ nhất đối với một chiếc tàu ngầm khi có máy bay địch ở ngay trên đầu."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000018
+    choices:
+      - "Giữ cấu trúc giả định trái thực tế 'Mình sẽ thấy dễ chịu hơn biết bao nếu chúng ta có thể bắn rụng...' và sắc thái thô ráp của 'wing-waving shitbirds'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000019
+    choices:
+      - "Khóa cách gọi chức danh 'Thuyền trưởng' (Captain) dành cho Thiếu tá Elm trong thoại của Tanya; tránh dùng đại từ 'Ông' hàm ý suy đoán tuổi tác."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000020
+    choices:
+      - "Khóa cách xưng hô của Thiếu tá Elm với Trung tá Tanya: xưng 'Tôi', gọi 'thưa Trung tá' (Colonel)."
+      - "Khóa thuật ngữ 'chuông lặn khẩn cấp' (emergency dive bell)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000021
+    choices:
+      - "Khóa cách xưng hô trong thoại của Tanya ('Tôi' / 'chúng ta') và tên cơ quan 'Bộ Tổng tham mưu' (General Staff)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000022
+    choices:
+      - "Giữ sự phân tách đại từ: 'Mình' trong câu dẫn trần thuật ngôi thứ nhất ('Mình khẽ nhăn mặt') và 'Tôi' trong lời thoại trực tiếp với Elm."
+      - "Khóa cách dịch 'lũ Cộng sản ở ngoài miền đông' (the Commies out east)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000023
+    choices:
+      - "Giữ câu hỏi ngắn lặp lại từ khóa 'Một cái xẻng ư?'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000024
+    choices:
+      - "Khóa thuật ngữ 'mặt trận phía đông' (eastern front) và 'lũ Cộng sản' (Commies), giữ giọng hài đen về màn giao lưu bằng xẻng."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000025
+    choices:
+      - "Khóa cách dịch 'theo kiểu mặt trận Rhine' (Rhine-style)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000026
+    choices:
+      - "Khóa đại từ nội tâm 'Mình' / 'mình' trong phần độc thoại sau câu thoại."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000027
+    choices:
+      - "Giữ nguyên cấu trúc phủ định kép 'chẳng có gì đảm bảo rằng bản thân mình không bị ảnh hưởng cả' (no guarantee that I haven’t been affected as well) và đại từ nội tâm 'Mình' / 'mình'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000028
+    choices:
+      - "Giữ điểm nhìn trần thuật khách quan ngôi thứ ba: 'Tanya nhăn mặt.'"
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000029
+    choices:
+      - "Khóa đại từ tự nhủ của Tanya: 'Mình' và 'chúng ta' trong câu độc thoại về cách hành xử thời bình."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000030
+    choices:
+      - "Khóa đại từ trần thuật ngôi thứ ba của Tanya là 'cô', tên tổ chức 'Lục quân Đế quốc' (Imperial Army) và đại từ phiếm chỉ 'bạn' trong câu hỏi tu từ cuối đoạn."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000031
+    choices:
+      - "Giữ cấu trúc đối chiếu giữa tình trạng một quốc gia đang có chiến tranh và việc tiến vào cảng nước ngoài trong hòa bình."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000032
+    choices:
+      - "Giữ đầy đủ các chi tiết nghi lễ đón tiếp tại cảng: đoàn quân nhạc Ildoa cử hành quốc ca hai nước, cờ Đế quốc và cờ Ildoa tung bay, trẻ em ôm sẵn bó hoa."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000033
+    choices:
+      - "Giữ phủ định 'Không hề có cánh phóng viên lăm lăm máy ảnh' và quan hệ tương phản 'Dẫu vậy, bầu không khí vẫn thật thư thái'."
