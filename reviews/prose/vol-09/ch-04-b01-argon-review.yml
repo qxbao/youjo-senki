@@ -1,0 +1,244 @@
+task_id: "vol-09-ch-04-b01-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000003"
+    severity: "minor"
+    category: "style_pronoun_agreement"
+    issue: "Ở câu cuối, cụm danh từ số nhiều chỉ chiến thuật đánh theo bầy trong nguyên tác được dịch sang danh từ số ít 'Chiến thuật bầy sói này', nhưng mệnh đề sau vẫn dùng đại từ số nhiều 'chúng' ('nhưng chúng vẫn phát huy tác dụng rất tốt') để quy chiếu lại."
+    recommendation: "Ở bước chuốt văn Flash, có thể đổi 'chúng' thành 'nó' ('nhưng nó vẫn phát huy tác dụng rất tốt') hoặc đổi chủ ngữ vế đầu thành 'Các chiến thuật bầy sói này' để thống nhất số ít/số nhiều giữa hai vế."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000029"
+    severity: "minor"
+    category: "pronouns"
+    issue: "Đại từ trần thuật ngôi thứ ba quy chiếu Tanya trong lô ch-04-b01 (tại p000029, p000037) dùng 'nó' theo sát DEC-P01-001 (nhất quán với chuỗi lô từ ch-03-b11 trở đi), trong khi một số lô đầu của tập 9 dùng 'cô'."
+    recommendation: "Nội bộ lô ch-04-b01 đã phân tách nhất quán giữa trần thuật ('nó' / 'Tanya'), độc thoại nội tâm ('mình' / 'bọn mình' tại p000023, p000029, p000031) và thoại công vụ ('tôi' / 'chúng ta'); ở bước chuốt văn hoặc ghép chương có thể giữ nguyên theo DEC-P01-001 hoặc đồng bộ thành 'cô' tùy quyết định của điều phối viên."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000031"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Câu thứ hai trong nguyên tác lấy danh từ chỉ 'sự cấp thiết' làm chủ ngữ chung cho chuỗi ba vị ngữ đẳng lập ('là mẹ đẻ của phát minh', 'là người bảo trợ của sự đổi mới bắt buộc', và 'suy cho cùng là cái thứ cực kỳ gai góc mang tên mệnh lệnh từ sĩ quan cấp trên'). Khi vế đầu được Việt hóa thành câu thành ngữ trọn vẹn 'cái khó ló cái khôn', hai vị ngữ phía sau ('là bà đỡ của sự đổi mới bắt buộc, và suy cho cùng, chính là cái thứ cực kỳ gai góc...') bị khuyết chủ ngữ danh từ hoặc dễ bị hiểu nhầm chủ ngữ là 'cái khôn'."
+    recommendation: "Ở bước chuốt văn Flash, nên khôi phục chủ ngữ danh từ để giữ mạch cấu trúc ba vị ngữ nối tiếp, chẳng hạn: 'Nhưng sự cấp thiết vốn là mẹ đẻ của phát minh, là người bảo trợ cho sự đổi mới bắt buộc, và suy cho cùng, chính là cái thứ cực kỳ gai góc mang tên mệnh lệnh từ sĩ quan cấp trên.'"
+pending_term_recommendations:
+  - source_term: "JULY 15, UNIFIED YEAR 1927, THE INNER SEA FRONT / Inner Sea"
+    proposed_vi: "NGÀY 15 THÁNG 7 NĂM THỐNG NHẤT 1927, MẶT TRẬN NỘI HẢI"
+    alternatives_vi: []
+    category: "tiêu đề chuyển cảnh / địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên định dạng chữ in hoa và thống nhất hoàn toàn cách dịch 'MẶT TRẬN NỘI HẢI' với tiêu đề ở chương 3 (p000652)."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000001"
+  - source_term: "pack tactics / merchant shipping / battleships / convoy"
+    proposed_vi: "chiến thuật bầy sói / tàu buôn / thiết giáp hạm / đoàn tàu có hộ tống"
+    alternatives_vi:
+      - "chiến thuật đánh theo bầy / tàu buôn / thiết giáp hạm / đoàn tàu vận tải hộ tống"
+    category: "thuật ngữ hải quân"
+    status: "pending"
+    rationale: "Sử dụng thuật ngữ tác chiến tàu ngầm quen thuộc ('chiến thuật bầy sói', 'đoàn tàu có hộ tống') và kế thừa nhất quán 'tàu buôn', 'thiết giáp hạm' từ sổ thuật ngữ tạm của tập 9."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000002"
+      - "YS-LN09/Text/chapter014.xhtml/p000003"
+      - "YS-LN09/Text/chapter014.xhtml/p000010"
+  - source_term: "squadron / squadron mate / sonar / propeller / torpedoes / control room / submariners"
+    proposed_vi: "hải đội / tàu bạn trong hải đội / sonar / chân vịt / ngư lôi / phòng điều khiển / những người lính tàu ngầm"
+    alternatives_vi: []
+    category: "thuật ngữ hải quân - tàu ngầm"
+    status: "pending"
+    rationale: "Kế thừa nhất quán các thuật ngữ 'hải đội', 'sonar', 'chân vịt', 'ngư lôi', 'lính tàu ngầm' từ chương 3 tập 9 và dịch chuẩn xác 'phòng điều khiển', 'tàu bạn trong hải đội'."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000005"
+      - "YS-LN09/Text/chapter014.xhtml/p000006"
+      - "YS-LN09/Text/chapter014.xhtml/p000007"
+      - "YS-LN09/Text/chapter014.xhtml/p000009"
+      - "YS-LN09/Text/chapter014.xhtml/p000011"
+      - "YS-LN09/Text/chapter014.xhtml/p000012"
+      - "YS-LN09/Text/chapter014.xhtml/p000014"
+  - source_term: "Captain Barchet / Barchet / the captain / Captain"
+    proposed_vi: "Thuyền trưởng Barchet / Barchet / vị thuyền trưởng / Thuyền trưởng"
+    alternatives_vi: []
+    category: "nhân vật / chức danh"
+    status: "pending"
+    rationale: "Kế thừa nhất quán danh xưng 'Thuyền trưởng Barchet' và 'vị thuyền trưởng' đã khóa ở chương 3 tập 9."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000013"
+      - "YS-LN09/Text/chapter014.xhtml/p000015"
+      - "YS-LN09/Text/chapter014.xhtml/p000023"
+      - "YS-LN09/Text/chapter014.xhtml/p000026"
+      - "YS-LN09/Text/chapter014.xhtml/p000029"
+      - "YS-LN09/Text/chapter014.xhtml/p000032"
+      - "YS-LN09/Text/chapter014.xhtml/p000034"
+  - source_term: "Colonel Degurechaff / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá Degurechaff / thưa Trung tá"
+    alternatives_vi: []
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Giữ đúng quân hàm thực tế Trung tá (Lieutenant Colonel) của Tanya ở tập 9 khi được gọi tắt trong đối thoại."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000016"
+      - "YS-LN09/Text/chapter014.xhtml/p000035"
+  - source_term: "V-2 / V-1s"
+    proposed_vi: "V-2 / mẫu V-1"
+    alternatives_vi: []
+    category: "khí tài quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán định danh 'V-2' và 'mẫu V-1' trong sổ thuật ngữ tạm của tập 9."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000018"
+      - "YS-LN09/Text/chapter014.xhtml/p000037"
+  - source_term: "Norden"
+    proposed_vi: "Norden"
+    alternatives_vi: []
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên địa danh 'Norden' nhất quán từ tập 1 đến tập 9."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000026"
+  - source_term: "magic officer"
+    proposed_vi: "sĩ quan ma pháp"
+    alternatives_vi: []
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán thuật ngữ 'sĩ quan ma pháp' trong sổ thuật ngữ tạm của dự án."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000029"
+  - source_term: "Lady Luck"
+    proposed_vi: "Nữ thần May mắn"
+    alternatives_vi: []
+    category: "ẩn dụ / điển tích"
+    status: "pending"
+    rationale: "Cách dịch tự nhiên, chuẩn xác cho hình ảnh nhân cách hóa nữ thần Fortuna/Occasio có lọn tóc phía trước trán trong lời thoại của Tanya."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000032"
+  - source_term: "Southern Continent Expeditionary Corps"
+    proposed_vi: "Quân đoàn Viễn chinh Lục địa Phía nam"
+    alternatives_vi: []
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với tên đơn vị đã dùng ở chương 3 tập 9 trong sổ thuật ngữ tạm."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000033"
+  - source_term: "First Lieutenant Serebryakov / Lieutenant"
+    proposed_vi: "Trung úy Serebryakov / Trung úy"
+    alternatives_vi: []
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    rationale: "Kế thừa nhất quán quân hàm và tên của Trung úy Serebryakov từ tập 4 đến tập 9."
+    segment_ids:
+      - "YS-LN09/Text/chapter014.xhtml/p000034"
+      - "YS-LN09/Text/chapter014.xhtml/p000036"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000001"
+    choices:
+      - "Tiêu đề thời gian – địa điểm: giữ nguyên chữ in hoa 'NGÀY 15 THÁNG 7 NĂM THỐNG NHẤT 1927, MẶT TRẬN NỘI HẢI'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000002"
+    choices:
+      - "Trần thuật mở đầu: giữ 'Hiện tại, các tàu ngầm của Đế quốc thường hoạt động theo bầy.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000003"
+    choices:
+      - "So sánh tăng tiến & thuật ngữ: giữ chuỗi 'Hai chiếc tàu ngầm tốt hơn một chiếc. Ba chiếc lại tốt hơn hai chiếc. Cốt lõi nằm ở ưu thế số lượng.' cùng các thuật ngữ 'chiến thuật bầy sói', 'đánh chặn tàu buôn' và 'thiết giáp hạm'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000004"
+    choices:
+      - "Trần thuật: giữ 'Khi có báo cáo phát hiện mục tiêu, cuộc săn đuổi liền bắt đầu.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000005"
+    choices:
+      - "Thuật ngữ hải quân: giữ 'Hải đội đã tiếp cận mục tiêu thành công.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000006"
+    choices:
+      - "Thoại báo cáo: giữ '“Có điện từ tàu bạn trong hải đội. Đã phát hiện tàu địch!”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000007"
+    choices:
+      - "Thoại báo cáo sonar: giữ '“Bắt được tín hiệu trên sonar rồi!”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000008"
+    choices:
+      - "Câu hỏi trong thoại: giữ '“Nguồn phát ra âm thanh là gì?”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000009"
+    choices:
+      - "Thoại xác nhận & thuật ngữ: giữ mức khẳng định 'Chắc chắn là chân vịt tàu địch.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000010"
+    choices:
+      - "Dấu chấm lửng, câu hỏi & thuật ngữ trong thoại: giữ đủ các dấu chấm lửng ngập ngừng, phủ định tăng tiến 'Không chỉ có một chiếc…', câu hỏi phân loại 'Tàu thuộc lớp nào thế này?' và kết luận 'đó chắc chắn là một đoàn tàu có hộ tống'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000011"
+    choices:
+      - "Mệnh lệnh & phủ định trong thoại: giữ '“Chuẩn bị phóng ngư lôi! Đừng để tụt lại phía sau các tàu khác!”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000012"
+    choices:
+      - "Trần thuật & thuật ngữ: giữ 'phòng điều khiển' và trạng thái 'tập trung cao độ và hết sức cảnh giác'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000013"
+    choices:
+      - "Chức danh & trần thuật: giữ 'Từ Thuyền trưởng Barchet trở xuống, toàn bộ thủy thủ đoàn đều đang làm việc vô cùng ấn tượng.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000014"
+    choices:
+      - "Điểm nhìn trần thuật & thuật ngữ: giữ tên riêng 'Tanya', chi tiết 'người chỉ ngồi dự thính cho có lệ' và 'những người lính tàu ngầm này hết sức nhạy bén'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000015"
+    choices:
+      - "Tình thái phỏng đoán & đại từ trần thuật: giữ tình thái 'hẳn công việc đã tạm ổn thỏa', tên riêng 'Barchet' và đại từ 'ông'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000016"
+    choices:
+      - "Quân hàm & giọng ngập ngừng trong thoại: giữ '“Trung tá Degurechaff này, ờm… mặt trời sắp lặn rồi.”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000017"
+    choices:
+      - "Dấu gạch ngang & xưng hô trong thoại: giữ dấu gạch ngang dài và đại từ 'tôi' trong '“Ngay trước lúc hoàng hôn—theo tôi thì đó là thời điểm hoàn hảo để tấn công đấy.”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000018"
+    choices:
+      - "Cấu trúc chêm xen, khí tài & câu hỏi trong thoại: giữ phần dẫn chêm giữa cặp gạch ngang dài '—ông có vẻ đang suy tính rồi nói ra mối băn khoăn của mình—', tên khí tài 'V-2', nhận định 'tầm nhìn hạn chế vào lúc chập choạng tối hoàn toàn không mấy lý tưởng' và câu hỏi xin ý kiến 'Chúng ta có nên tránh giao chiến không?'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000019"
+    choices:
+      - "Nhận định ngắn: giữ 'Ông ấy nói có lý.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000020"
+    choices:
+      - "Nhận định đối lập: giữ 'Mặt khác, đó cũng chỉ là một khía cạnh mà thôi.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000021"
+    choices:
+      - "Xưng hô, câu điều kiện, phủ định & không thêm nhấn mạnh: giữ cặp xưng hô lịch thiệp 'ngài' – 'tôi' / 'chúng ta' khi Tanya nói với Thuyền trưởng Barchet, câu điều kiện phủ định 'Nếu chúng ta rút lui bây giờ thì chẳng có gì đảm bảo sẽ tiếp cận lại được mục tiêu', và không thêm nhấn mạnh Markdown tại vị trí thẻ neo trang page-162."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000022"
+    choices:
+      - "Đại từ số nhiều loại trừ trong thoại: giữ 'chúng tôi' (chỉ riêng thủy thủ đoàn tàu ngầm) trong '“Đó là phần việc của chúng tôi.”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000023"
+    choices:
+      - "Độc thoại nội tâm & phủ định theo DEC-P01-001: giữ đại từ nội tâm 'bọn mình' – 'mình', danh xưng 'vị thuyền trưởng', đại từ 'ông ấy' và phủ định kép 'mình chẳng phải hạng gà mờ trên cạn hoàn toàn mù tịt về cách thức hoạt động của tàu ngầm'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000024"
+    choices:
+      - "Thoại khẳng định của Tanya: giữ '“Tôi đang nói dựa trên kinh nghiệm đấy.”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000025"
+    choices:
+      - "Thoại ngắn: giữ '“Ồ?”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000026"
+    choices:
+      - "Địa danh, trần thuật & yêu cầu tác chiến trong thoại: giữ tên riêng 'Tanya', địa danh 'Norden', danh xưng 'vị thuyền trưởng', nhận định giới hạn vật lý 'Tốc độ di chuyển dưới mặt nước của tàu ngầm có giới hạn' và lời đề nghị 'Tôi biết yêu cầu thế này là đòi hỏi nhiều, nhưng tôi muốn ngài cứ tiếp tục đẩy mạnh đợt tấn công.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000027"
+    choices:
+      - "Đại từ & hình ảnh so sánh trong thoại: giữ '“Xin đừng nói như thể chúng tôi là loài rùa chậm chạp vậy chứ.”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000028"
+    choices:
+      - "Xưng hô, phủ định & dấu chấm lửng trong thoại: giữ cặp đại từ 'Tôi' – 'ngài', phủ định 'Tôi không có ý chê trách ngài hay thủy thủ đoàn' và dấu chấm lửng trong 'Vấn đề về độ cơ động không phải… chuyện có thể giải quyết bằng cách nỗ lực hết sức.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000029"
+    choices:
+      - "Điểm nhìn trần thuật, tình thái & thuật ngữ: giữ đại từ 'nó' – 'mình', danh xưng 'vị thuyền trưởng', đại từ 'ông', tình thái phỏng đoán phủ định 'Hẳn ông không ngờ mình lại phải nghe thuyết giảng về chiến thuật tàu ngầm' và thuật ngữ 'một sĩ quan ma pháp đơn thuần'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000030"
+    choices:
+      - "Nhận định trần thuật: giữ 'Mà quả thật họ cũng là dân chuyên nghiệp.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000031"
+    choices:
+      - "Độc thoại nội tâm & chuỗi định nghĩa tăng tiến: giữ tự quy chiếu 'Mình' theo DEC-P01-001, nhận xét 'kiểu nói chuyện ra vẻ biết tuốt là chẳng lịch sự chút nào' và chuỗi ba vị ngữ dẫn tới 'cái thứ cực kỳ gai góc mang tên mệnh lệnh từ sĩ quan cấp trên'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000032"
+    choices:
+      - "Ẩn dụ điển tích, phủ định & xưng hô trong thoại: giữ tên riêng 'Tanya', ẩn dụ 'Nữ thần May mắn', phủ định 'Chẳng có gì đảm bảo Nữ thần May mắn sẽ để yên cho chúng ta túm tóc bà ta từ phía sau đâu', hành động 'táng thẳng vào mặt bà ta rồi vơ lấy bất cứ thứ gì nắm được trong lúc còn cơ hội' và câu hỏi kết 'Ngài có đồng ý không, Thuyền trưởng?'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000033"
+    choices:
+      - "Xưng hô, dấu chấm lửng & tên đơn vị trong thoại: giữ đại từ 'cô' (Barchet gọi Tanya), 'chúng ta', dấu chấm lửng sau 'bất cứ giá nào…' và tên đơn vị 'Quân đoàn Viễn chinh Lục địa Phía nam'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000034"
+    choices:
+      - "Trần thuật & nhân vật: giữ tên riêng 'Barchet', 'Tanya', 'Trung úy Serebryakov' và chi tiết 'buông một tiếng thở dài ngao ngán'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000035"
+    choices:
+      - "Quân hàm & câu hỏi trong thoại: giữ '“Có tin tức gì mới không, thưa Trung tá?”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000036"
+    choices:
+      - "Mệnh lệnh & quân hàm trong thoại: giữ '“Chuẩn bị xuất kích đi, Trung úy. Đến giờ cho tiết mục chính của mọi chiến dịch tàu ngầm rồi.”'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000037"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & so sánh khí tài: không thêm nhấn mạnh tại vị trí thẻ neo trang page-163, chỉ bọc '*Và đó là lý do…*' bằng dấu sao theo DEC-P01-002, giữ đại từ trần thuật 'Nó', so sánh phủ định 'Lần này sẽ không xóc nảy dữ dội như hồi dùng mẫu V-1 đâu' và khẳng định 'Chúng ta sẽ có thể điều khiển hướng đi đôi chút.'."
+  - segment_id: "YS-LN09/Text/chapter014.xhtml/p000038"
+    choices:
+      - "Trần thuật kết lô: giữ 'Giữa những tiếng cười ồn ào, Tanya quay về phía một người lính liên lạc đang chạy tới.'."
