@@ -1,0 +1,289 @@
+task_id: vol-08-ch-05-b10-argon-review
+parent_task_id: vol-08-ch-05-b10
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b10-source.jsonl
+target_translation: translations/vol-08/ch-05-b10.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000344
+    severity: minor
+    category: tone_nuance
+    issue: "Thán từ đầu câu cuối thể hiện tiếng cười khan tự giễu của Zettour (hô ứng với suy nghĩ 'bật cười' ở p000331), nhưng bản dịch dùng 'Hừm' thiên về sắc thái trầm ngâm suy tư."
+    recommendation: "Có thể cân nhắc đổi 'Hừm,' thành 'Hơ,' hoặc 'Hừ,' để giữ rõ sắc thái cười tự giễu."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000363
+    severity: minor
+    category: style_fidelity
+    issue: "Ở p000362, câu cuối dùng đại từ 'chúng' ('Nghe hiểu được chúng khó khăn đến mức ấy đấy') dễ gây nhập nhằng với 'bọn chúng' (quân địch) ở các câu trước dù nguồn không có tân ngữ đại từ; ở p000363, bản dịch tự thêm danh xưng 'Trung tá' sau lời xin lỗi khi nguồn không nêu trực tiếp."
+    recommendation: "Có thể chỉnh câu cuối p000362 thành 'Nghe hiểu được thôi cũng đã khó khăn đến mức ấy đấy.' và lược từ gọi 'Trung tá' ở p000363 ('Xin lỗi, vừa do sự hỗn loạn...') để bám sát độ mở của nguyên tác."
+pending_term_recommendations:
+  - source_term: "high-ranking officers / lower- and mid-ranking officers / noncoms / generals"
+    proposed_vi: "các sĩ quan cao cấp / các sĩ quan cấp thấp và cấp trung / hàng ngũ hạ sĩ quan / các tướng lĩnh"
+    alternatives_vi: []
+    rationale: "Phân tầng rõ hệ thống cấp bậc từ tướng lĩnh, sĩ quan cao cấp, sĩ quan cấp trung/thấp đến hạ sĩ quan, đồng bộ với pending-terms-index.yml của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000332
+      - YS-LN08/Text/chapter018.xhtml/p000333
+    status: pending
+  - source_term: "Zettour / Lieutenant General von Zettour / General von Zettour"
+    proposed_vi: "Zettour / Trung tướng von Zettour / Tướng von Zettour"
+    alternatives_vi: []
+    rationale: "Giữ thống nhất định danh và quân hàm của Trung tướng von Zettour đã khóa xuyên suốt các batch trước."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000341
+      - YS-LN08/Text/chapter018.xhtml/p000351
+      - YS-LN08/Text/chapter018.xhtml/p000366
+    status: pending
+  - source_term: "battle of attrition / battle standards / operation-level intelligence"
+    proposed_vi: "trận đánh tiêu hao / quân kỳ chiến trận / trí tuệ ở cấp độ chiến dịch"
+    alternatives_vi:
+      - "cuộc chiến tiêu hao / cờ hiệu chiến trận / tư duy ở cấp độ chiến dịch"
+    rationale: "Diễn đạt chính xác thuật ngữ quân sự và giữ sự liên kết từ vựng về 'trí tuệ' giữa p000335 và p000341."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000335
+      - YS-LN08/Text/chapter018.xhtml/p000337
+      - YS-LN08/Text/chapter018.xhtml/p000341
+    status: pending
+  - source_term: "THE SAME DAY, SOLDIM 528 / Soldim 528"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, SOLDIM 528 / Soldim 528"
+    alternatives_vi: []
+    rationale: "Đồng bộ hoàn toàn với tiêu đề chuyển cảnh và địa danh đã khóa trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000347
+      - YS-LN08/Text/chapter018.xhtml/p000349
+    status: pending
+  - source_term: "the rear / eastern front / front line / HQ / friendly HQ"
+    proposed_vi: "hậu phương / mặt trận phía đông / tiền tuyến / sở chỉ huy / sở chỉ huy của quân bạn"
+    alternatives_vi: []
+    rationale: "Đồng bộ với hệ thuật ngữ không gian chiến trường và sở chỉ huy trong tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000332
+      - YS-LN08/Text/chapter018.xhtml/p000343
+      - YS-LN08/Text/chapter018.xhtml/p000349
+      - YS-LN08/Text/chapter018.xhtml/p000351
+      - YS-LN08/Text/chapter018.xhtml/p000355
+      - YS-LN08/Text/chapter018.xhtml/p000365
+    status: pending
+  - source_term: "crunch period / labor-management agreement / public servants / mid-level labor manager / rapid response preparedness"
+    proposed_vi: "giai đoạn cao điểm / thỏa thuận giữa người lao động và ban quản lý / công chức nhà nước / nhà quản lý lao động cấp trung / trạng thái sẵn sàng phản ứng nhanh"
+    alternatives_vi: []
+    rationale: "Giữ đúng giọng điệu ví von quản trị nhân sự – lao động đặc trưng trong góc nhìn của Tanya."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000349
+      - YS-LN08/Text/chapter018.xhtml/p000350
+    status: pending
+  - source_term: "First Lieutenant Tospan / First Lieutenant Wüstemann / Captain Meybert / Captain Ahrens / Lieutenant Serebryakov / adjutant"
+    proposed_vi: "Trung úy Tospan / Trung úy Wüstemann / Đại úy Meybert / Đại úy Ahrens / Trung úy Serebryakov / viên sĩ quan phụ tá"
+    alternatives_vi: []
+    rationale: "Khớp hoàn toàn với cấp bậc và tên gọi các sĩ quan thuộc quyền Tanya trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000351
+      - YS-LN08/Text/chapter018.xhtml/p000358
+      - YS-LN08/Text/chapter018.xhtml/p000362
+      - YS-LN08/Text/chapter018.xhtml/p000364
+    status: pending
+  - source_term: "command and control / joint breakout / mages of the siege-breaking squad / decoy unit"
+    proposed_vi: "chỉ huy và kiểm soát / đợt đột phá phối hợp / các pháp sư của đội phá vây / đơn vị nghi binh"
+    alternatives_vi: []
+    rationale: "Phản ánh chuẩn xác các thuật ngữ tác chiến và nhiệm vụ giải vây tại Soldim 528."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000351
+      - YS-LN08/Text/chapter018.xhtml/p000366
+    status: pending
+  - source_term: "Federation Army / Federation language / Dacian Army"
+    proposed_vi: "Quân đội Liên bang / tiếng Liên bang / Quân đội Dacia"
+    alternatives_vi: []
+    rationale: "Đồng bộ với định danh các quốc gia và quân đội trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000354
+      - YS-LN08/Text/chapter018.xhtml/p000358
+      - YS-LN08/Text/chapter018.xhtml/p000361
+      - YS-LN08/Text/chapter018.xhtml/p000366
+    status: pending
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000330
+    choices:
+      - "pronouns: Trần thuật dùng 'họ' chỉ quân Đế quốc trên mặt trận phía đông"
+      - "modality: Giữ giả định nhượng bộ 'Ngay cả khi... họ vẫn buộc phải bước qua—nếu không làm được...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000331
+    choices:
+      - "pronouns: Độc thoại nội tâm của Zettour dùng 'chúng ta'"
+      - "emphasis: Bọc toàn bộ câu nội tâm '*…Chúng ta đang ở trong thời chiến. Nếu số phận là điều không thể tránh khỏi, thì tất cả những gì chúng ta có thể làm là bật cười.*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000332
+    choices:
+      - "terms: Các sĩ quan cao cấp (High-ranking officers), hậu phương (the rear)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000333
+    choices:
+      - "terms: các sĩ quan cấp thấp và cấp trung (lower- and mid-ranking officers), hàng ngũ hạ sĩ quan (noncoms), các tướng lĩnh (the generals)"
+      - "pronouns: Tự quy chiếu 'mình'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000334
+    choices:
+      - "terms: chiến thuật (tactic)"
+      - "pronouns: Đại từ khái quát dịch là 'Người ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000335
+    choices:
+      - "terms: trận đánh tiêu hao (battle of attrition), hỏa lực (firepower), đồ tiếp tế (supplies)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông', đại từ khái quát dịch là 'người ta'"
+      - "modality: Giữ đúng giả định trái thực tế trong quá khứ 'Chỉ vài năm trước thôi, hẳn ông đã cười khẩy...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000336
+    choices:
+      - "emphasis: Bọc toàn bộ câu nội tâm '*…Đó quả là một mức độ ngu xuẩn đáng kinh ngạc.*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000337
+    choices:
+      - "terms: quân kỳ chiến trận (battle standards)"
+      - "pronouns: Zettour xưng 'ta', gọi quân địch là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000338
+    choices:
+      - "pronouns: Cấp dưới gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000339
+    choices:
+      - "pronouns: Zettour xưng 'Ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000340
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000341
+    choices:
+      - "ranks_and_names: Zettour"
+      - "terms: trí tuệ ở cấp độ chiến dịch (operation-level intelligence)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông', đại từ khái quát dịch là 'Người ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000342
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "modality: Giữ giả định 'ngay cả khi ông bỏ mạng, cái chết ấy cũng sẽ không vô ích'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000343
+    choices:
+      - "terms: hậu phương (the rear), mặt trận phía đông (eastern front)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "modality: Giữ câu điều kiện bỏ lửng ở cuối câu"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000344
+    choices:
+      - "pronouns: Zettour tự nhủ xưng 'ta', dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000345
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000346
+    choices:
+      - "modality: Câu mệnh lệnh trực tiếp trên chiến trường"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000347
+    choices:
+      - "terms: CÙNG NGÀY HÔM ĐÓ, SOLDIM 528 (THE SAME DAY, SOLDIM 528)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000348
+    choices:
+      - "pronouns: Đại từ khái quát dịch là 'bạn'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000349
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: mặt trận phía đông (eastern front), Soldim 528, giai đoạn cao điểm (crunch period), thỏa thuận giữa người lao động và ban quản lý (labor-management agreement), binh lính Đế quốc (imperial soldiers), “công chức nhà nước” (“public servants”)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô', tự quy chiếu 'mình', các binh lính là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000350
+    choices:
+      - "terms: trạng thái sẵn sàng phản ứng nhanh (rapid response preparedness), nhà quản lý lao động cấp trung (mid-level labor manager)"
+      - "modality: Giữ giả định trái thực tế 'Giá như không có chiến tranh thì mọi chuyện đã thật hoàn hảo'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000351
+    choices:
+      - "ranks_and_names: Trung úy Tospan (First Lieutenant Tospan), Trung úy Wüstemann (First Lieutenant Wüstemann), Đại úy Meybert (Captain Meybert), Đại úy Ahrens (Captain Ahrens), Tanya, Trung tướng von Zettour (Lieutenant General von Zettour)"
+      - "terms: tiền tuyến (front line), sở chỉ huy (HQ), chỉ huy và kiểm soát (command and control), đợt đột phá phối hợp (joint breakout), các pháp sư của đội phá vây (mages of the siege-breaking squad)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô', tự quy chiếu 'mình'"
+      - "modality: Giữ phủ định bộ phận 'không nhất thiết đồng nghĩa với việc cô sẽ thoát thân thành công'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000352
+    choices:
+      - "terms: chiến dịch giải cứu (rescue operations)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000353
+    choices:
+      - "pronouns: Trần thuật gọi Tanya là 'cô', tự quy chiếu 'mình'"
+      - "modality: Giữ phủ định 'không bỏ sót bất cứ điều gì' và 'không hề có ý định'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000354
+    choices:
+      - "terms: Quân đội Liên bang (Federation Army)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000355
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: nhân viên thông tin liên lạc (communications personnel), sở chỉ huy (HQ)"
+      - "pronouns: Nội tâm Tanya dùng 'chúng ta'"
+      - "emphasis: Chỉ bọc '*Đây chính là điều chúng ta đang chờ đợi!*' theo đúng phạm vi thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000356
+    choices:
+      - "ranks_and_names: Tanya"
+      - "pronouns: Tự quy chiếu 'mình', gọi phía Liên bang là 'chúng'"
+      - "modality: Giữ cấu trúc tăng tiến 'không chỉ... mà còn...' trong câu nội tâm và cấu trúc so sánh bác bỏ 'không phải là do... mà đúng hơn là...' ở câu sau"
+      - "emphasis: Chỉ bọc '*À há, không chỉ mật độ liên lạc tăng vọt, mà còn có cả đống tin tức được phát đi không hề mã hóa.*' theo đúng phạm vi thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000357
+    choices:
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000358
+    choices:
+      - "ranks_and_names: Trung úy Serebryakov (Lieutenant Serebryakov)"
+      - "terms: tiếng Liên bang (Federation language)"
+      - "pronouns: Tanya xưng 'tôi', gọi quân Liên bang là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000359
+    choices:
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000360
+    choices:
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "modality: Giữ câu hỏi tu từ cuối đoạn"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000361
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: tiếng Liên bang (Federation language)"
+      - "pronouns: Trần thuật gọi nhóm Tanya là 'Họ'"
+      - "modality: Giữ cấu trúc 'Không chỉ riêng Tanya mà bất kỳ người nào... cũng đều thấy bất khả thi...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000362
+    choices:
+      - "terms: viên sĩ quan phụ tá (adjutant)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000363
+    choices:
+      - "pronouns: Serebryakov xưng 'tôi'"
+      - "modality: Giữ hai cụm câu hỏi nghi vấn ngắn ở đầu thoại và phủ định 'không nắm được gì rõ ràng cả'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000364
+    choices:
+      - "terms: viên sĩ quan phụ tá (adjutant)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô', cả nhóm là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000365
+    choices:
+      - "terms: sở chỉ huy của quân bạn (friendly HQ)"
+      - "modality: Giữ mức độ suy đoán 'có khả năng là'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000366
+    choices:
+      - "ranks_and_names: Tướng von Zettour (General von Zettour)"
+      - "terms: Quân đội Dacia (Dacian Army), đơn vị nghi binh (decoy unit)"
+      - "pronouns: Tanya dùng 'Chúng ta', gọi quân địch là 'chúng'"
+      - "modality: Giữ chuỗi câu hỏi suy đoán của Tanya về khả năng tin giả và đơn vị nghi binh"
+      - "emphasis: Không dùng *...*"
