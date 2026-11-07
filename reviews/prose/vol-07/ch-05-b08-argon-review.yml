@@ -1,0 +1,278 @@
+task_id: "vol-07-ch-05-b08-argon-review"
+parent_task_id: "vol-07-ch-05-b08"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 5
+source_package: "work/vol-07/batches/ch-05-b08-source.jsonl"
+target_translation: "translations/vol-07/ch-05-b08.jsonl"
+review_path: "reviews/prose/vol-07/ch-05-b08-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000274"
+    issue: "Đại từ ngôi thứ ba chỉ Ác quỷ sông Rhine trong lời báo cáo của Trung tá Drake ('Có dấu hiệu cho thấy ả đang hoạt động ở mặt trận phía đông.') dùng từ 'ả' mang sắc thái miệt thị khá nặng, chưa thật khớp với giọng điệu điềm đạm, chuẩn mực của một sĩ quan Khối Thịnh vượng chung khi trao đổi công việc và nguyên bản chỉ dùng đại từ trung tính."
+    evidence: "Theo canon/style-guide.md về việc không tự thêm sắc thái miệt thị không có trong nguồn và giữ giọng thoại nhất quán với nhân vật Drake."
+    recommendation: "Đổi 'ả' thành 'cô ta' (hoặc 'kẻ đó'): 'Có dấu hiệu cho thấy cô ta đang hoạt động ở mặt trận phía đông.'"
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000299"
+    issue: "Quan hệ cú pháp trong mệnh đề điều kiện ('Nếu quân du kích và các pháp sư cố thủ ngay tại gốc rễ của các tuyến giao thông liên lạc hoặc một bàn đạp kháng cự có tổ chức...') đang biến cụm động từ chỉ hành động kháng cự có tổ chức thành định ngữ của 'một bàn đạp', làm mờ hành động phát động kháng cự có tổ chức sau khi cố thủ tại huyết mạch giao thông hoặc cứ điểm bàn đạp."
+    evidence: "Theo canon/style-guide.md về việc giữ đúng quan hệ logic và điều kiện giữa các vế câu; đối chiếu tiền đề về sự kiện Arene ở p000290–p000292."
+    recommendation: "Tách rõ cụm trạng ngữ vị trí cố thủ và hành động kháng cự có tổ chức: 'Nếu quân du kích và các pháp sư cố thủ ngay tại gốc rễ của các tuyến giao thông liên lạc hoặc một cứ điểm bàn đạp rồi tiến hành kháng cự có tổ chức, một đơn vị vũ trang hạng nặng sẽ xuất hiện.'"
+pending_term_recommendations:
+  - source_term: "decapitation tactics / direct support / anti-air gun / aerial mages"
+    proposed_vi: "chiến thuật chặt đầu chỉ huy / yểm trợ trực tiếp / pháo phòng không / các pháp sư trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với hệ thuật ngữ quân sự đã khóa ở các lô trước của chương 5 và sổ pending tập 4–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000271"
+      - "YS-LN07/Text/chapter018.xhtml/p000272"
+      - "YS-LN07/Text/chapter018.xhtml/p000291"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh"
+    status: "pending"
+    rationale: "Đồng bộ với phương án đã dùng xuyên suốt từ tập 4 đến tập 7 (bao gồm lô ch-05-b07 ngay trước đó)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000273"
+  - source_term: "eastern front / Rhine front / Arene / Entente Alliance"
+    proposed_vi: "mặt trận phía đông / mặt trận Rhine / Arene / Liên minh Hiệp ước"
+    category: "địa danh / chiến trường / quốc gia"
+    status: "pending"
+    rationale: "Đồng bộ hoàn toàn với tên gọi địa danh, mặt trận và quốc gia trong sổ pending từ tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000274"
+      - "YS-LN07/Text/chapter018.xhtml/p000277"
+      - "YS-LN07/Text/chapter018.xhtml/p000279"
+      - "YS-LN07/Text/chapter018.xhtml/p000281"
+      - "YS-LN07/Text/chapter018.xhtml/p000290"
+      - "YS-LN07/Text/chapter018.xhtml/p000296"
+  - source_term: "joint HQ / the higher-ups"
+    proposed_vi: "Sở chỉ huy liên hợp / cấp trên"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Đồng bộ 'sở chỉ huy' cho HQ và 'liên hợp' cho joint (như 'joint operations' -> 'tác chiến liên hợp' ở tập 4); giữ 'cấp trên' cho 'the higher-ups' theo sổ pending tập 7."
+    alternatives_vi:
+      - "sở chỉ huy liên hợp"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000274"
+      - "YS-LN07/Text/chapter018.xhtml/p000282"
+  - source_term: "marine magic officer of the Commonwealth"
+    proposed_vi: "sĩ quan ma pháp hải quân đánh bộ của Khối Thịnh vượng chung"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với mục 'Commonwealth marine magic officer' trong sổ pending tập 4."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000275"
+  - source_term: "front lines / forward-most line / main lines / communication lines"
+    proposed_vi: "tiền tuyến / tuyến tiền tiêu / các chiến tuyến chính / các tuyến giao thông liên lạc"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ 'tuyến tiền tiêu' (forward-most line), 'tiền tuyến' (front lines) và 'các tuyến giao thông liên lạc' (communication lines) với các lô trước của chương 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000276"
+      - "YS-LN07/Text/chapter018.xhtml/p000286"
+      - "YS-LN07/Text/chapter018.xhtml/p000299"
+      - "YS-LN07/Text/chapter018.xhtml/p000300"
+  - source_term: "Mary / Mary Sue / Sue / Lieutenant"
+    proposed_vi: "Mary / Mary Sue / Sue / Trung úy"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Đồng bộ cách gọi Mary Sue và quân hàm Trung úy (First Lieutenant, đã xác nhận tại p000243 lô ch-05-b07)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000273"
+      - "YS-LN07/Text/chapter018.xhtml/p000278"
+      - "YS-LN07/Text/chapter018.xhtml/p000281"
+      - "YS-LN07/Text/chapter018.xhtml/p000295"
+  - source_term: "Drake / Colonel Mikel / Mikel"
+    proposed_vi: "Drake / Đại tá Mikel / Mikel"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Đồng bộ tên gọi và cấp bậc của Trung tá Drake và Đại tá Mikel với các lô ch-05-b06 và ch-05-b07."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000276"
+      - "YS-LN07/Text/chapter018.xhtml/p000281"
+      - "YS-LN07/Text/chapter018.xhtml/p000282"
+      - "YS-LN07/Text/chapter018.xhtml/p000286"
+      - "YS-LN07/Text/chapter018.xhtml/p000298"
+  - source_term: "partisans / guerrillas / militia"
+    proposed_vi: "quân du kích / lực lượng du kích / dân quân"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ 'quân du kích' (partisans), 'lực lượng du kích' (guerrillas) và 'dân quân' (militia tại Arene) theo đúng ngữ cảnh chiến trường."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000282"
+      - "YS-LN07/Text/chapter018.xhtml/p000283"
+      - "YS-LN07/Text/chapter018.xhtml/p000287"
+      - "YS-LN07/Text/chapter018.xhtml/p000290"
+      - "YS-LN07/Text/chapter018.xhtml/p000291"
+      - "YS-LN07/Text/chapter018.xhtml/p000295"
+      - "YS-LN07/Text/chapter018.xhtml/p000296"
+      - "YS-LN07/Text/chapter018.xhtml/p000299"
+  - source_term: "raison d’état"
+    proposed_vi: "lý trí quốc gia"
+    category: "thuật ngữ chính trị - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với phương án 'lý trí quốc gia' đã khóa cho 'raison d’état' trong sổ pending tập 7."
+    alternatives_vi:
+      - "lợi ích quốc gia tối thượng"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000299"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000271"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Chiến thuật chặt đầu chỉ huy.*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ: 'Imperial Army mage units' -> 'các đơn vị pháp sư thuộc Lục quân Đế quốc'; 'traditional performing art' -> 'môn nghệ thuật biểu diễn truyền thống'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000272"
+    choices:
+      - "Thuật ngữ: 'direct support' -> 'yểm trợ trực tiếp'; 'anti-air gun' -> 'pháo phòng không'; 'imperial aerial mages' -> 'các pháp sư trên không của Đế quốc'"
+      - "Tình thái & nhượng bộ: 'Nghe nói, ngay cả khi chống trả bằng cách... bằng cách nào đó vẫn sẽ tìm được đường chọc thủng.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000273"
+    choices:
+      - "Tên nhân vật & biệt danh: 'Mary' - 'cô'; 'Devil of the Rhine' -> 'Ác quỷ sông Rhine'"
+      - "Giọng thoại lễ phép của cấp dưới hỏi cấp trên: 'không ạ?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000274"
+    choices:
+      - "Thuật ngữ & địa danh: 'eastern front' -> 'mặt trận phía đông'; 'joint HQ' -> 'Sở chỉ huy liên hợp'"
+      - "Đại từ: 'ông' (Drake trong trần thuật); 'cô' - 'chúng ta' (trong thoại của Drake); chỉnh 'ả' thành 'cô ta' cho trung tính khi Drake nói về Ác quỷ sông Rhine"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000275"
+    choices:
+      - "Thuật ngữ: 'marine magic officer of the Commonwealth' -> 'sĩ quan ma pháp hải quân đánh bộ của Khối Thịnh vượng chung'; 'volunteer' -> 'quân tình nguyện'; 'short, accelerated training program' -> 'chương trình huấn luyện cấp tốc ngắn hạn'"
+      - "Đại từ trần thuật: 'Cô' (Mary) - 'ông' (Drake)"
+      - "Giả định trái thực tế: 'Nếu đây là..., hẳn ông đã bảo cô đừng có khúm núm như thế, phải có lòng tự trọng của một sĩ quan, nhưng…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000276"
+    choices:
+      - "Thuật ngữ: 'front lines' -> 'Tiền tuyến'; 'Federation units' -> 'các đơn vị Liên bang'; 'forward-most line' -> 'tuyến tiền tiêu'; 'international united front' -> 'mặt trận thống nhất quốc tế'"
+      - "Tên nhân vật & đại từ: 'Drake' - 'mình' - 'ông'; 'cô' (Mary); 'chúng ta' (trong thoại)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000277"
+    choices:
+      - "Xưng hô trong thoại của Mary với Drake: 'ngài' - 'tôi'"
+      - "Thuật ngữ & ngập ngừng đầu câu: 'V-vậy...'; 'Entente Alliance' -> 'Liên minh Hiệp ước'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000278"
+    choices:
+      - "Quân hàm & đại từ trong thoại của Drake: 'Lieutenant' -> 'Trung úy'; 'tôi'"
+      - "Phủ định dứt khoát: 'Đừng hiểu lầm, Trung úy. Ý tôi tuyệt đối không phải vậy.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000279"
+    choices:
+      - "Thuật ngữ: 'the Empire' -> 'Đế quốc'; 'operations on multiple fronts' -> 'tác chiến trên nhiều mặt trận'; 'strategic value' -> 'Giá trị chiến lược'; 'the Federation' -> 'Liên bang'; 'eastern front' -> 'mặt trận phía đông'"
+      - "Đại từ chỉ Đế quốc: 'chúng'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000280"
+    choices:
+      - "Phủ định kép & câu hỏi tu từ: 'Chẳng có người lính nào lại vô cảm trước quê hương mình.'; 'ai mà chẳng nặng lòng với quê nhà?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000281"
+    choices:
+      - "Tên nhân vật & đại từ: 'Drake' - 'ông'; 'cô gái người Liên minh Hiệp ước Mary Sue này' - 'cô'"
+      - "Quan hệ nhượng bộ: 'Cho dù cô có điên rồ, đáng xấu hổ đến đâu, hay việc cô nắm bắt các ý niệm bằng cảm tính còn nhiều chỗ phải bàn đi nữa, thì trong thâm tâm, ông vẫn tôn trọng cảm xúc của cô.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000282"
+    choices:
+      - "Thuật ngữ & nhân vật: 'the higher-ups' -> 'cấp trên'; 'Colonel Mikel' -> 'Đại tá Mikel'; 'the Federation' -> 'Liên bang' / 'phía Liên bang'; 'guerrillas' -> 'lực lượng du kích'; 'northern part of the Empire' -> 'khu vực phía bắc của Đế quốc'"
+      - "Đại từ: 'Tôi' - 'cô' (trong thoại); 'ông' (trần thuật)"
+      - "Phủ định: 'cấp trên cũng không hề có ý định bỏ rơi nơi này đâu.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000283"
+    choices:
+      - "Thuật ngữ: 'Weapons aid' -> 'Viện trợ vũ khí'; 'intel support' -> 'hỗ trợ tình báo'; 'Federation Army' -> 'Quân đội Liên bang'; 'partisan support' -> 'hỗ trợ quân du kích'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000284"
+    choices:
+      - "Câu hỏi phủ định tu từ của Mary: '“Nhưng chẳng phải hỗ trợ thực sự có nghĩa là phải ở lại sao?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000285"
+    choices:
+      - "Đại từ & mức độ không chắc chắn trong lời đáp của Drake: '“…Thành thật mà nói, tôi cũng không chắc lắm.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000286"
+    choices:
+      - "Tên nhân vật & thuật ngữ: 'ông' (Drake) và 'Mikel'; 'mages' -> 'pháp sư'; 'main lines' -> 'các chiến tuyến chính'"
+      - "Phủ định: 'phương án ở lại không hề được nhắc tới'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000287"
+    choices:
+      - "Đại từ & thuật ngữ trong thoại của Mary: 'Tôi' - 'chúng ta'; 'partisans' -> 'quân du kích'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000288"
+    choices:
+      - "Phủ định kép trong lời Drake: '“…Đúng là không phải chúng ta chẳng mang lại hiệu quả gì.'"
+      - "Từ khóa đối chiếu với câu sau: 'disjointed and limited' -> 'rời rạc và hạn chế'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000289"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*hạn chế*' tương ứng với thẻ em trong nguồn và khớp trực tiếp với từ dùng ở p000288"
+      - "Xưng hô của Mary với Drake: 'ngài' - 'ạ'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000290"
+    choices:
+      - "Thuật ngữ & địa danh: 'Republican Army' -> 'Quân đội Cộng hòa'; 'long-range mage-unit advances' -> 'cho đơn vị pháp sư thọc sâu tầm xa'; 'militia support' -> 'hỗ trợ dân quân'; 'Rhine front' -> 'mặt trận Rhine'; 'Arene' -> 'Arene'"
+      - "Cách nói giảm nhẹ: 'Nói giảm nói tránh thì những gì xảy ra ở Arene là không lấy gì làm tốt đẹp.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000291"
+    choices:
+      - "Thuật ngữ: 'mass uprising of militia' -> 'dân quân nổi dậy đồng loạt'; 'aerial mages' -> 'các pháp sư trên không'; 'regular army' -> 'đội quân chính quy'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000292"
+    choices:
+      - "Thuật ngữ & điều kiện phủ định: 'besieged troops' -> 'Quân bị vây'; 'nếu không thể vô hiệu hóa pháo binh địch, rốt cuộc họ cũng chỉ biến thành những tấm bia tập bắn.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000293"
+    choices:
+      - "Lời thoại bỏ lửng của Mary: '“Nhưng ở đây chúng ta—”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000294"
+    choices:
+      - "Đại từ trong thoại của Drake: 'Cô' (Mary); 'chúng' (quân địch)"
+      - "Quan hệ nhân quả: 'vì quân địch đang phân tán nên chúng có phần dè dặt hơn chứ gì?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000295"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*bất ngờ thay*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & thuật ngữ: 'Sue' - 'cô'; 'Imperial Army' -> 'Lục quân Đế quốc'; 'partisans' -> 'quân du kích'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000296"
+    choices:
+      - "Đại từ & thuật ngữ trong lời Drake: 'Tôi' - 'chúng ta'; 'chúng' (quân Đế quốc); 'eastern front' -> 'mặt trận phía đông'; 'partisans' -> 'quân du kích'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000297"
+    choices:
+      - "Câu hỏi ngắn của Mary: '“Chúng… học được ư?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000298"
+    choices:
+      - "Tên nhân vật & đại từ: 'Drake'; 'Chúng' (quân Đế quốc)"
+      - "Thuật ngữ: 'sporadic attacks' -> 'những cuộc tấn công lẻ tẻ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000299"
+    choices:
+      - "Thuật ngữ: 'raison d’état' -> 'lý trí quốc gia'; 'partisans' -> 'quân du kích'; 'communication lines' -> 'các tuyến giao thông liên lạc'; 'heavily armed unit' -> 'đơn vị vũ trang hạng nặng'"
+      - "Cấu trúc mệnh đề điều kiện: cần chỉnh để tách rõ vị trí cố thủ ('ngay tại gốc rễ của các tuyến giao thông liên lạc hoặc một cứ điểm bàn đạp') và hành động ('tiến hành kháng cự có tổ chức')"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000300"
+    choices:
+      - "Đại từ & câu hỏi phủ định tu từ trong lời Drake: 'chúng ta' - 'cô'; 'Vậy cô không nghĩ thay vào đó, sẽ tốt hơn nếu chúng ta làm điều gì đó hơn cả việc quấy rối ở ngoài tiền tuyến sao?'"
+      - "Thuật ngữ: 'harassment' -> 'hoạt động quấy rối' / 'việc quấy rối'; 'front lines' -> 'tiền tuyến'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000301"
+    choices:
+      - "Xưng hô & câu điều kiện phủ định bỏ lửng của Mary với Drake: '“Nhưng nếu ngài không thể rời khỏi đơn vị, thì tôi có thể…”'"
+      - "Không dùng nhấn mạnh Markdown"
