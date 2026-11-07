@@ -1,0 +1,53 @@
+# Báo cáo tự kiểm (Self-Check): `vol-09-ch-03-b11`
+
+- **Task ID**: `vol-09-ch-03-b11`
+- **Translator**: `argon-low`
+- **Handoff**: `handoffs/vol-09/ch-03-b11.yml`
+- **Tệp dịch**: `translations/vol-09/ch-03-b11.jsonl`
+- **Phạm vi**: `YS-LN09/Text/chapter010.xhtml/p000401` → `YS-LN09/Text/chapter010.xhtml/p000447` (47 đoạn)
+- **Trạng thái mỗi dòng**: `reviewed` (đã hoàn tất sign-off theo `reviews/prose/vol-09/ch-03-b11-argon-review.yml`)
+
+## 1. Kiểm tra tính đầy đủ và nghĩa gốc
+- Đã dịch đầy đủ 47/47 đoạn từ `p000401` đến `p000447` theo đúng thứ tự, không gộp dòng, không tách dòng, không bỏ sót bất kỳ mệnh đề hay chi tiết nào.
+- Tuyệt đối không sao chép câu hoặc cụm từ nguồn tiếng Anh vào báo cáo tự kiểm.
+- Giữ nguyên nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic nhân quả và thời gian của giả định:
+  - **Màn phủ nhận bất lực của Tanya trước sự cuồng tín của kỹ sư trưởng Schugel (`p000401`–`p000406`)**: Schugel trấn an Trung tá Degurechaff rằng ông đời nào lại đi cướp mất hào quang của người từng kề vai cầu nguyện cùng mình, vì cả hai đều là những người đồng đạo cầu xin vinh quang của Chúa nên cô có thể tin ở ông (`p000401`); lời ông ta chẳng đem lại nổi lấy một mảy may nhẹ nhõm và Tanya thầm gắt trong bụng rằng đừng nhìn mình bằng nụ cười bệnh hoạn như thể ông thấu hiểu mọi chuyện (`p000402`); Tanya đáp rằng mình chỉ là một sĩ quan của Lục quân Đế quốc mà thôi (`p000403`); đó là một lời phủ nhận vòng vo, nhưng đáng buồn là hạng người này có nói gì cũng chẳng chịu hiểu ẩn ý, bởi kỹ sư Schugel ngày trước—người hẳn sẽ hiểu ý nó muốn nói mình là một quân nhân chứ không phải một con chiên—giờ không còn ở đây với chúng ta nữa (`p000404`); vị tiến sĩ đã bị tẩy não đến mức sùng đạo vô song sẽ chẳng lọt tai lời bất kỳ ai nói (`p000405`); Tanya lắc đầu và thầm nghĩ ngay từ đầu ông ta vốn đã chẳng chịu nghe lời ai rồi (`p000406`).
+  - **Cơ chế hoạt động như ngư lôi sống của khí tài mới và nỗi tuyệt vọng của Tanya (`p000407`–`p000417`)**: Schugel giải thích rằng giống hệt như V-1, tất cả những gì họ cần làm là đâm thứ này vào quân địch rồi thoát thân, và sẽ được chiêm ngưỡng cảnh tượng tuyệt đẹp khi lượng thuốc nổ dồi dào trên khoang thổi tung bất cứ rắc rối nào ngáng đường (`p000407`); Tanya nhận ra ý ông ta là bọn mình sẽ làm ngư lôi sống, và việc ông ta học hỏi từ người Ý để trang bị hệ thống thoát hiểm thì miễn cưỡng tính là chút điểm cộng cỏn con, nhưng vẫn tự hỏi cái quái gì đang diễn ra thế này (`p000408`–`p000410`); Tanya buông lời cảm thán rằng xem chừng sắp chẳng còn việc gì cho đơn vị của mình làm nữa (`p000411`); Schugel hào hứng đáp rằng khí tài này sẽ tung ra hỏa lực tập trung dưới hình thức các pháp sư và hẳn là phương án tối ưu để giải quyết vấn đề của cô (`p000412`); dù rã rời vì toàn bộ chuyện này, Tanya vẫn nêu một tia hy vọng nhỏ nhoi khi hỏi lấy gì bảo đảm họ sẽ không bị thổi bay theo (`p000413`); Schugel thản nhiên đáp phần đó hoàn toàn phụ thuộc vào tâm ý của Chúa nên chắc chắn cô có thể kê cao gối mà ngủ (`p000414`); Tanya phẫn nộ trong tâm tưởng trước việc phải phó mặc số phận cho hiện thân của ác ý mang tên Being X, thầm mắng chuyện đó chẳng vui chút nào và tuôn ra đủ mọi lời nguyền rủa trong đầu vì quá bất công (`p000415`); Schugel tiếp tục trấn an rằng Chúa đang che chở cho cô, khuyên cô hãy tin vào chính mình và khẳng định bản thân ông với tư cách một người đồng đạo luôn đặt đức tin nơi cô, khiến Tanya sững sờ hỏi lại (`p000416`–`p000417`).
+  - **Sự ngộ nhận của Schugel về "dự án chung" và "đứa con chung" (`p000418`–`p000433`)**: Schugel mỉm cười cuốn hút giải thích rằng ông phát triển thứ này vì đã lắng nghe những đề xuất của cô, nên có thể coi đây là dự án chung được hiện thực hóa nhờ đức tin của những người đồng đạo và nhờ hồng ân của Chúa, rồi bảo cô hãy tự hào lên (`p000418`); vị tiến sĩ dang rộng hai tay như ban phước, giơ tay lên trời ngước nhìn trần nhà với nụ cười rạng rỡ và lẩm bẩm tạ ơn Chúa, sau đó tự gật gù rồi quay lại nhìn Tanya đầy hân hoan (`p000419`–`p000420`); ông ta tuyên bố thứ này về cơ bản là con của hai người, một quả ngư lôi tuyệt hảo (`p000421`); khi Tanya lắp bắp hỏi lại về chuyện đứa con, Schugel bảo đó là một đứa trẻ xinh đẹp do ông sinh ra nhưng chính cô là người gieo hạt giống, thậm chí nếu không vướng mấy quy định đặt tên cứng nhắc vô vị thì ông đã nhờ Tướng Zettour làm cha đỡ đầu (`p000422`–`p000423`); Tanya kinh ngạc thầm mắng phải chăng ông ta định bảo mình làm bố còn ông ta làm mẹ, rồi rủa thầm tên điên hãy mù quách đi khi thấy mắt ông ta ánh lên niềm tự hào lúc vỗ nhẹ vào quả ngư lôi (`p000424`–`p000425`); Schugel tự hào khẳng định thứ này khác hẳn mấy con lươn do lũ đần bên hải quân phát triển vì ông đã dồn sự tỉ mỉ tột bậc vào toàn bộ linh kiện cho đến từng ngòi nổ (`p000426`); Tanya hỏi lại ý ông là sao, thầm nghĩ ông ta chẳng hề biết hay có ý định tìm hiểu cảm nhận của nó và mong ông ta tự nhìn lại những "thành tựu" của mình một chút (`p000427`–`p000428`); Schugel tuyên bố đây là ngư lôi của ông—tức một quả ngư lôi hoạt động đàng hoàng—khiến Tanya lắp bắp hỏi lại (`p000429`–`p000430`); Tanya bộc bạch trong nội tâm rằng cảm nhận thẳng thắn của mình về bất kỳ quả ngư lôi nào do vị tiến sĩ này phát triển chỉ là nỗi kinh hoàng tột độ vì đó đúng nghĩa đen là ngư lôi do một gã tiến sĩ điên chế tạo, ai mà chẳng sợ đến hồn xiêu phách lạc, nghĩa là chỉ có mình vị tiến sĩ đang hiểu lầm (`p000431`–`p000433`).
+  - **Màn quỳ gối tạ tội kỳ quặc của Schugel (`p000434`–`p000447`)**: Schugel khoanh tay im lặng một thoáng rồi bật dậy với vẻ mặt chân thành khiến Tanya cảnh giác muốn lùi ra xa phòng khi con người bất ổn cảm xúc này bùng nổ (`p000434`); vừa định lùi lại thì vị tiến sĩ cao lêu nghêu đã sấn sát tới trước mặt nó, lẩm bẩm rằng ông cứ ngỡ mình đã hiểu rõ điều đó về mặt lý trí và thừa nhận chính miệng mình đã nói đây là một dự án chung khi Tanya hỏi lại (`p000435`–`p000438`); đôi bàn tay ông ta lại bấu chặt lấy hai vai Tanya, ông ta xin phép được tạ lỗi từ tận đáy lòng, khuỵu người xuống nhìn thẳng vào mắt nó với vẻ hối lỗi chân thành đáng kinh ngạc (`p000439`–`p000441`); trong lúc Tanya còn đang ngơ ngác tự hỏi có chuyện gì, Schugel nhấn mạnh đó là quả ngư lôi của *chúng ta* chứ ông không cố ý nhận vơ của riêng mình, rồi với gương mặt tái mét như kẻ phạm tội, ông ta quỳ sụp và phủ phục xuống đất trước mặt nó như đang xưng thú một trọng tội và nói lời xin lỗi (`p000442`–`p000445`); Tanya lập tức đính chính trong đầu rằng mình muốn biết *chính xác* tại sao ông ta lại nghĩ thế (`p000446`); Schugel cầu xin Trung tá thứ lỗi vì ông suýt sa vào thói ngạo mạn, tự phụ mà quên mất rằng chính tình đoàn kết gắn bó, khiêm nhường và sự hợp tác giữa hai người mới có thể làm nên phép màu (`p000447`).
+
+## 2. Kiểm tra đại từ, xưng hô và giọng văn (`DEC-P01-001`)
+- **Trần thuật ngôi thứ ba về Tanya**: dùng `nó` / `Tanya` nhất quán (`p000404`, `p000406`, `p000413`, `p000415`, `p000419`, `p000420`, `p000428`, `p000435`, `p000439`, `p000441`, `p000444`).
+- **Độc thoại nội tâm / trần thuật ngôi thứ nhất của Tanya**: tự xưng `mình` (số ít) và `bọn mình` (số nhiều khi gộp bản thân cùng các pháp sư dưới quyền ở `p000408`), gọi Schugel là `ông ta` / `vị tiến sĩ` / `nhà khoa học rợn người kia` / `gã tiến sĩ điên`, và gọi trực tiếp ngôi thứ hai trong suy nghĩ là `ông` / `Tiến sĩ` (`p000402`, `p000424`, `p000442`, `p000446`).
+- **Đối thoại giữa Tanya và Schugel**:
+  - **Tanya → Schugel**: xưng `tôi` (hoặc `chúng tôi` khi đại diện cho đơn vị pháp sư ở `p000411`, `p000413`) – gọi `ông` / `thưa Tiến sĩ` (`p000427`, `p000430`, `p000437`), giữ đúng thái độ lịch sự công vụ nhưng kiệt sức và bất an của một sĩ quan.
+  - **Schugel → Tanya**: xưng `tôi` / `mình` (hoặc `chúng ta` khi gộp hai người) – gọi `Trung tá Degurechaff` / `Trung tá` / `cô` / `các cô`, thể hiện đúng giọng điệu cuồng tín, thân mật thái quá và tự biên tự diễn của Schugel.
+
+## 3. Kiểm tra bảo toàn nhấn mạnh (`DEC-P01-002`)
+- Đã đối chiếu toàn bộ 47 đoạn với thẻ `<html:em>` trong gói nguồn XHTML:
+  - `chapter010.xhtml/p000415`: câu cảm thán trong độc thoại có thẻ `<html:em>` -> bảo toàn chính xác bằng `*Chuyện này chẳng vui chút nào!*`.
+  - `chapter010.xhtml/p000425`: từ cuối câu rủa thầm có thẻ `<html:em>` -> bảo toàn chính xác bằng `đồ *điên*!`.
+  - `chapter010.xhtml/p000443`: đại từ sở hữu ngôi thứ nhất số nhiều có thẻ `<html:em>` -> bảo toàn chính xác bằng `*chúng ta*`.
+  - `chapter010.xhtml/p000446`: trạng từ bổ nghĩa trong độc thoại có thẻ `<html:em>` -> bảo toàn chính xác bằng `*chính xác*`.
+- Lưu ý: `p000416` có thẻ `<html:a id="page-137" />` và `p000434` có thẻ `<html:a id="page-138" />` là mốc phân trang, không phải thẻ nhấn mạnh. Toàn bộ 43 đoạn còn lại không có thẻ `<html:em>` trong XHTML và bản dịch không tự ý thêm dấu `*...*`.
+
+## 4. Kiểm tra thuật ngữ và tính nhất quán (`canon/` & `pending-terms-index.yml`)
+- Đã tra cứu và áp dụng nhất quán các thuật ngữ canon và pending:
+  - `Trung tá Degurechaff` / `Trung tá` (`p000401`, `p000416`, `p000418`, `p000447` — Tanya mang quân hàm Trung tá Pháp sư)
+  - `Lục quân Đế quốc` (`p000403`)
+  - `kỹ sư Schugel` (`p000404`)
+  - `Tiến sĩ` / `vị tiến sĩ` (`p000405`, `p000419`, `p000427`, `p000430`, `p000431`, `p000433`, `p000435`, `p000442`)
+  - `V-1` (`p000407`)
+  - `ngư lôi sống` (`p000408`)
+  - `người Ý` (`p000409` — giữ sát cách gọi trong văn bản gốc, không tự ý đổi thành Ildoa)
+  - `Chúa` (`p000401`, `p000414`, `p000416`, `p000418`, `p000419`)
+  - `Being X` (`p000415`)
+  - `Tướng Zettour` (`p000423`).
+
+## 5. Kiểm tra định dạng, xử lý Argon review và công cụ xác thực
+- Đã rà soát toàn bộ `findings`, `pending_term_recommendations` và `locked_choices` trong `reviews/prose/vol-09/ch-03-b11-argon-review.yml`:
+  - `p000404` (`minor`, `pronouns`): giữ nguyên đại từ trần thuật ngôi thứ ba `nó` theo đúng `DEC-P01-001` và khuyến nghị giữ nhất quán nội bộ lô của reviewer.
+  - `p000413` (`minor`, `meaning_nuance`): tiếp nhận khuyến nghị của reviewer, chỉnh câu thoại từ `“Thế còn sự bảo đảm nào cho việc chúng tôi sẽ không bị thổi bay theo chứ?”` thành `“Thế còn sự bảo đảm cho việc chúng tôi sẽ không bị thổi bay theo là gì?”` để thể hiện rõ sắc thái hỏi về cơ chế bảo đảm an toàn của một tia hy vọng nhỏ nhoi và khớp tự nhiên với lời đáp ở `p000414`.
+  - Bảo đảm tuân thủ đầy đủ toàn bộ `pending_term_recommendations` và 47 mục `locked_choices`.
+- Tệp `translations/vol-09/ch-03-b11.jsonl` gồm đúng 47 dòng JSONL hợp lệ, đầy đủ các trường bắt buộc (`segment_id`, `translation`, `status: "reviewed"`, `translator: "argon-low"`, `glossary_version`, `source_sha256`, `notes: []`).
+- Chạy `python3 tools/validate_translation.py --handoff handoffs/vol-09/ch-03-b11.yml --source work/vol-09/batches/ch-03-b11-source.jsonl --translation translations/vol-09/ch-03-b11.jsonl` để xác nhận `PASS`.
