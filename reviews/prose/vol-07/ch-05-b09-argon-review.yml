@@ -1,0 +1,325 @@
+task_id: "vol-07-ch-05-b09-argon-review"
+parent_task_id: "vol-07-ch-05-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 5
+source_package: "work/vol-07/batches/ch-05-b09-source.jsonl"
+target_translation: "translations/vol-07/ch-05-b09.jsonl"
+review_path: "reviews/prose/vol-07/ch-05-b09-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000304"
+    issue: "Cụm 'mới miễn cưỡng duy trì được xã hội loài người' dễ gợi nét nghĩa thực hiện một cách bất đắc dĩ, không tự nguyện (trùng với từ 'miễn cưỡng' dịch cho trạng thái tâm lý ở p000316), trong khi nguyên bản nhấn mạnh mức độ chật vật, suýt soát mới gìn giữ được trật tự xã hội loài người nhờ các quy tắc chiến tranh."
+    evidence: "Theo canon/style-guide.md về việc giữ đúng sắc thái nghĩa của trạng từ chỉ mức độ trong lập luận của Trung tá Drake."
+    recommendation: "Đổi 'mới miễn cưỡng duy trì được' thành 'mới gắng gượng duy trì được' (hoặc 'mới chật vật duy trì được'): 'nhưng chính nhờ những quy tắc vô lý đó mà chúng ta mới gắng gượng duy trì được xã hội loài người đấy.'"
+pending_term_recommendations:
+  - source_term: "Drake / Lieutenant Colonel Drake / Colonel Drake / Colonel"
+    proposed_vi: "Drake / Trung tá Drake / thưa Trung tá"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối tên gọi và cấp bậc Trung tá (Lieutenant Colonel) của Drake theo sổ pending tập 4–7; trong thoại tiếng Anh khi cấp dưới hoặc thông dịch viên gọi tắt 'Colonel' hay 'Colonel Drake' vẫn dịch là 'Trung tá' / 'Trung tá Drake' để không lệch cấp bậc thực tế."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000302"
+      - "YS-LN07/Text/chapter018.xhtml/p000308"
+      - "YS-LN07/Text/chapter018.xhtml/p000312"
+      - "YS-LN07/Text/chapter018.xhtml/p000321"
+      - "YS-LN07/Text/chapter018.xhtml/p000332"
+      - "YS-LN07/Text/chapter018.xhtml/p000338"
+      - "YS-LN07/Text/chapter018.xhtml/p000341"
+      - "YS-LN07/Text/chapter018.xhtml/p000344"
+      - "YS-LN07/Text/chapter018.xhtml/p000345"
+      - "YS-LN07/Text/chapter018.xhtml/p000350"
+  - source_term: "Lieutenant / Sue / Lieutenant Sue / First Lieutenant Mary Sue"
+    proposed_vi: "Trung úy / Sue / Trung úy Sue / Trung úy Mary Sue"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Đồng bộ tên gọi và cấp bậc Trung úy (First Lieutenant) của Mary Sue xuyên suốt chương 5 tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000306"
+      - "YS-LN07/Text/chapter018.xhtml/p000311"
+      - "YS-LN07/Text/chapter018.xhtml/p000327"
+      - "YS-LN07/Text/chapter018.xhtml/p000329"
+      - "YS-LN07/Text/chapter018.xhtml/p000333"
+      - "YS-LN07/Text/chapter018.xhtml/p000349"
+  - source_term: "aerial mage unit / solo mage / single combatant"
+    proposed_vi: "đơn vị pháp sư trên không / pháp sư đơn lẻ / chiến binh đơn lẻ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ 'đơn vị pháp sư trên không' với sổ pending tập 1–7; phân biệt rõ 'đơn vị' (unit) với 'pháp sư đơn lẻ' (solo mage) và 'chiến binh đơn lẻ' (single combatant) trong lập luận về quy tắc chiến tranh."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000302"
+      - "YS-LN07/Text/chapter018.xhtml/p000306"
+  - source_term: "the Empire / Norden / the Federation / Commonwealth / partisan"
+    proposed_vi: "Đế quốc / Norden / Liên bang / Khối Thịnh vượng chung / quân du kích"
+    category: "quốc gia / địa danh / lực lượng"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối tên các quốc gia, địa danh và lực lượng quân du kích với sổ pending tập 1–7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000307"
+      - "YS-LN07/Text/chapter018.xhtml/p000343"
+      - "YS-LN07/Text/chapter018.xhtml/p000348"
+      - "YS-LN07/Text/chapter018.xhtml/p000350"
+  - source_term: "cleanup unit / fighting retreat / naval artillery shells / officer manual"
+    proposed_vi: "đơn vị truy quét / vừa đánh vừa rút lui / đạn hải pháo / cẩm nang sĩ quan"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ 'vừa đánh vừa rút lui' (fighting retreat) và 'truy quét' (cleanup) với sổ pending tập 4–7; dùng thuật ngữ quân sự chuẩn xác cho 'đạn hải pháo' và 'cẩm nang sĩ quan'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000307"
+      - "YS-LN07/Text/chapter018.xhtml/p000311"
+      - "YS-LN07/Text/chapter018.xhtml/p000322"
+      - "YS-LN07/Text/chapter018.xhtml/p000327"
+  - source_term: "absent without leave"
+    proposed_vi: "tự ý đào ngũ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt tự nhiên, rõ sức nặng kỷ luật quân đội trong câu hỏi chất vấn trực diện của Drake khi Sue có ý định tự ý ở lại không theo lệnh rút quân."
+    alternatives_vi:
+      - "vắng mặt không phép"
+      - "tự ý rời đơn vị"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000337"
+  - source_term: "Federation-side HQ / interpreter / Colonel Mikel / political officers / political officer"
+    proposed_vi: "sở chỉ huy phía Liên bang / người thông dịch / Đại tá Mikel / các sĩ quan chính trị / sĩ quan chính trị"
+    category: "tổ chức / chức danh / nhân vật"
+    status: "pending"
+    rationale: "Đồng bộ 'sở chỉ huy' (HQ) và 'Đại tá Mikel' với các lô trước của chương 5; dịch chuẩn xác chức danh 'sĩ quan chính trị' (political officer) và 'người thông dịch' (interpreter)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000343"
+      - "YS-LN07/Text/chapter018.xhtml/p000344"
+      - "YS-LN07/Text/chapter018.xhtml/p000348"
+      - "YS-LN07/Text/chapter018.xhtml/p000350"
+  - source_term: "First Lieutenant Liliya Ivanova Tanechka"
+    proposed_vi: "Trung úy Liliya Ivanova Tanechka"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ nguyên tên phiên âm nhân vật Liên bang và dịch cấp bậc 'First Lieutenant' là 'Trung úy' thống nhất toàn bộ tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000349"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000302"
+    choices:
+      - "Đại từ trần thuật: 'Ông' (Drake) - 'cô' (Mary Sue); đại từ thoại của Drake: 'chúng ta' - 'tôi'"
+      - "Thuật ngữ: 'clean war according to the rules' -> 'cuộc chiến đường hoàng theo đúng quy tắc'; 'solo mage' -> 'pháp sư đơn lẻ'; 'combat mission' -> 'nhiệm vụ chiến đấu'; 'single combatant' -> 'chiến binh đơn lẻ'"
+      - "Tình thái & đối lập: 'Bất kể cách diễn giải đối với hoạt động tác chiến của một đơn vị ra sao, thì các cách diễn giải đối với một chiến binh đơn lẻ vẫn còn nhiều ý kiến trái chiều.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000303"
+    choices:
+      - "Đại từ & câu thoại bị ngắt của Mary: '“Thật vô lý. Tôi—”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000304"
+    choices:
+      - "Đại từ trong thoại của Drake: 'tôi' - 'cô' - 'chúng ta'"
+      - "Phủ định kép: 'Không phải là tôi không đồng tình với cô'"
+      - "Mức độ trạng từ: chỉnh 'mới miễn cưỡng duy trì được' thành 'mới gắng gượng duy trì được' (hoặc 'mới chật vật duy trì được') để tránh trùng nghĩa bất đắc dĩ"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000305"
+    choices:
+      - "Xưng hô & câu hỏi bỏ lửng của Mary với Drake: '“Sao ngài có thể—?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000306"
+    choices:
+      - "Quân hàm & đại từ: 'Lieutenant' -> 'Trung úy'; 'chúng ta' (trong thoại); 'Ông' - 'cô' (trần thuật)"
+      - "Thuật ngữ: 'political factors' -> 'các yếu tố chính trị'; 'military strategy' -> 'chiến lược quân sự'; 'large aerial mage unit' -> 'đơn vị pháp sư trên không quy mô lớn'"
+      - "Phủ định kép: 'Không thể phủ nhận rằng...'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000307"
+    choices:
+      - "Thuật ngữ & tên riêng: 'the Empire' -> 'Đế quốc'; 'cleanup unit' -> 'đơn vị truy quét'; 'Norden' -> 'Norden'; 'partisan' -> 'quân du kích'; 'the Federation' -> 'Liên bang'; 'Commonwealth' -> 'Khối Thịnh vượng chung'"
+      - "Giả định nhân quả: 'Nếu họ bị kẹt lại trong lúc tìm cách rút lui sau khi..., lòng tin của quân du kích dành cho Liên bang và Khối Thịnh vượng chung sẽ bị tổn hại.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000308"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Mình có nên nói toạc ra luôn không nhỉ?*' và '*Cô hiểu chứ hả?*' tương ứng với hai cụm thẻ em trong nguồn"
+      - "Điểm nhìn & đại từ: 'Mình' - 'Cô' (độc thoại nội tâm của Drake); 'Drake' - 'Ông' - 'cô' (trần thuật); 'chúng ta' (thoại)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000309"
+    choices:
+      - "Phủ định: 'Rút lui chẳng phải là lựa chọn khiến bất kỳ ai cảm thấy dễ chịu.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000310"
+    choices:
+      - "Nhấn mạnh thời điểm & tình thái khả năng: 'Nhưng chỉ ngay lúc này, và duy nhất lúc này, họ mới có thể rút quân với ít va chạm nhất. Ở thời điểm hiện tại, tất cả các bên liên quan vẫn còn khả năng tìm được tiếng nói chung.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000311"
+    choices:
+      - "Quân hàm & đại từ trong thoại của Drake: 'Lieutenant' -> 'Trung úy'; 'Tôi' - 'chúng ta' - 'cô'"
+      - "Thuật ngữ: 'fighting retreat' -> 'vừa đánh vừa rút lui'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000312"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Mọi chuyện sẽ dễ dàng biết bao nếu cô ấy chịu hiểu cho.*' tương ứng với thẻ em trong nguồn"
+      - "Điểm nhìn & đại từ: 'Ông' - 'cô' (trần thuật); 'cô ấy' (nội tâm của Drake về Sue)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000313"
+    choices:
+      - "Mệnh lệnh của Drake: '“Chúng ta sẽ lên đường. Hãy cho binh lính thu dọn đồ đạc đi.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000314"
+    choices:
+      - "Đáp lời lễ phép của cấp dưới: '“…Vâng, thưa ngài.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000315"
+    choices:
+      - "Câu hỏi xác nhận của Drake: '“Cô hiểu chứ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000316"
+    choices:
+      - "Giả định mong mỏi bỏ lửng của Drake: 'Chỉ cần cô chịu hiểu, dù là miễn cưỡng đi chăng nữa… Chỉ cần một phần nào đó trong tâm trí cô chịu hiểu trên cương vị một sĩ quan, một người lính…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000317"
+    choices:
+      - "Đại từ & sự tự sửa trong câu hỏi ngập ngừng của Mary: '“…Liệu chúng ta… hay tôi… có thể quay lại đây lần nữa không ạ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000318"
+    choices:
+      - "Lời đáp của Drake: '“Hãy cùng hy vọng như vậy.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000319"
+    choices:
+      - "Từ khóa lặp lại & đại từ của Mary: '“Hy vọng ư? …Tôi hiểu rồi.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000320"
+    choices:
+      - "Đại từ trong lời đáp của Drake: '“Cô hiểu thật chứ? Cảm ơn cô.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000321"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Cô ấy vừa mới khẽ gật đầu!*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & đại từ: 'Cô ấy' (nội tâm); 'Drake' - 'ông' (trần thuật)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000322"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Đến đạn hải pháo cũng còn nhẹ hơn chuyện này!*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ & đại từ: 'naval artillery shells' -> 'đạn hải pháo'; 'ông' (trần thuật)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000323"
+    choices:
+      - "Giả định mong ước: '“Nếu có thể, gặp lại được mọi người thì thật tuyệt.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000324"
+    choices:
+      - "Đại từ & tình thái: '“Phải, sẽ thật tuyệt nếu trong tương lai tất cả chúng ta đều có thể bình an gặp lại nhau.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000325"
+    choices:
+      - "Đại từ trong thoại của Mary: 'tôi' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000326"
+    choices:
+      - "Lời đáp lịch sự của Drake: '“Phiền cô nhé.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000327"
+    choices:
+      - "Tên nhân vật & đại từ: 'Sue' - 'cô'; 'ông' (Drake)"
+      - "Thuật ngữ: 'officer manual' -> 'cẩm nang sĩ quan'; 'novice soldier' -> 'người lính mới vào nghề'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000328"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: toàn bộ câu độc thoại nội tâm '*Cô ấy đã bớt được phần nào cái thói vô lý trong cách hành xử rồi chăng?*' được bọc *...* tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000329"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*…Không, cái gì thế nhỉ? Có nét gì đó xa cách ư? Khoan đã.*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & đại từ: 'Ông' (Drake); 'Sue' - 'cô' (trần thuật và thoại)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000330"
+    choices:
+      - "Đại từ trần thuật: 'ông' (Drake)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000331"
+    choices:
+      - "Câu trần thuật ngắn: 'Chỉ có vậy thôi.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000332"
+    choices:
+      - "Tên nhân vật & đại từ: 'Drake' - 'ông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000333"
+    choices:
+      - "Quân hàm & đại từ trong thoại của Drake: 'Lieutenant Sue' -> 'Trung úy Sue'; 'tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000334"
+    choices:
+      - "Câu hỏi đáp lời của Mary: '“Thưa ngài?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000335"
+    choices:
+      - "Đại từ & phủ định bỏ lửng trong thoại của Drake: 'tôi' - 'cô' - 'chúng ta'; 'chúng ta không thể để cô ở lại phía sau, nhưng…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000336"
+    choices:
+      - "Thán từ & lời đáp của Mary: '“…Hự. Vâng, thưa ngài.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000337"
+    choices:
+      - "Đại từ & thuật ngữ trong câu hỏi của Drake: 'Cô'; 'go absent without leave' -> 'tự ý đào ngũ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000338"
+    choices:
+      - "Quân hàm & xưng hô của Mary với Drake: 'Colonel Drake' -> 'Trung tá Drake'; 'xin ngài…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000339"
+    choices:
+      - "Phủ định dứt khoát của Drake: '“Tôi không thể để cô làm chuyện đó được.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000340"
+    choices:
+      - "Câu hỏi phủ định của Mary: '“…Không còn cách nào khác sao ạ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000341"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Chúng ta biết phải làm sao với cô ấy đây?*' tương ứng với thẻ em trong nguồn"
+      - "Điểm nhìn & đại từ: 'cô' (trần thuật); 'Chúng ta' - 'cô ấy' (nội tâm của Drake); 'Drake' - 'mình' (trần thuật)"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000342"
+    choices:
+      - "Đại từ & phủ định: 'Ông' - 'mình' (Drake); 'cô' - 'con người này' (Sue); 'sẽ chẳng đời nào lay chuyển chỉ vì mấy thứ đơn giản như thế.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000343"
+    choices:
+      - "Đại từ & thuật ngữ: 'ông' (Drake); 'Federation-side HQ' -> 'sở chỉ huy phía Liên bang'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000344"
+    choices:
+      - "Nhân vật, quân hàm & chức danh: 'interpreter' -> 'người thông dịch'; 'Lieutenant Colonel Drake' -> 'Trung tá Drake'; 'Colonel Mikel' -> 'Đại tá Mikel'; 'political officers' -> 'các sĩ quan chính trị'"
+      - "Đại từ trong thoại của Drake với thông dịch viên: 'Tôi' - 'Anh' - 'ông ấy' (Đại tá Mikel)"
+      - "Từ khóa khớp với p000345 và p000348: 'convincing' -> 'thuyết phục'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000345"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*thuyết phục*' tương ứng với thẻ em trong nguồn và khớp từ khóa với p000344, p000348"
+      - "Xưng hô của người thông dịch với Drake: 'Colonel' -> 'thưa Trung tá'; 'sir' -> 'thưa ngài'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000346"
+    choices:
+      - "Phủ định & đại từ chỉ người thông dịch: 'rõ ràng là người đàn ông kia chẳng hiểu chuyện gì đang xảy ra.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000347"
+    choices:
+      - "Phủ định & đại từ: 'Chà, dĩ nhiên là anh ta không hiểu rồi.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000348"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*thuyết phục*' tương ứng với thẻ em trong nguồn và khớp từ khóa với p000344, p000345"
+      - "Thuật ngữ: 'interpreter' -> 'người thông dịch'; 'Commonwealth soldier' -> 'quân nhân Khối Thịnh vượng chung'; 'political officer' -> 'sĩ quan chính trị'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000349"
+    choices:
+      - "Nhân vật & quân hàm: 'First Lieutenant Liliya Ivanova Tanechka' -> 'Trung úy Liliya Ivanova Tanechka'; 'First Lieutenant Mary Sue' -> 'Trung úy Mary Sue'"
+      - "Đại từ trong thoại của Drake: 'Ông ấy' (Đại tá Mikel) - 'anh' (người thông dịch) - 'tôi' (Drake) - 'cô ấy' (Mary Sue)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000350"
+    choices:
+      - "Thuật ngữ & quân hàm: 'interpreter' -> 'người thông dịch'; 'Federation language' -> 'tiếng Liên bang'; 'Colonel Drake' -> 'thưa Trung tá Drake'"
+      - "Đại từ trần thuật chỉ thông dịch viên: 'anh ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000351"
+    choices:
+      - "Lời kết cuộc gọi của Drake: '“Cảm ơn. Chỉ có vậy thôi. Tôi rất cảm kích.”'"
+      - "Không dùng nhấn mạnh Markdown"
