@@ -1,0 +1,221 @@
+task_id: vol-08-ch-03-b17-argon-review
+parent_task_id: vol-08-ch-03-b17
+reviewer: gemini-4-argon-medium
+state: done
+review_path: reviews/prose/vol-08/ch-03-b17-argon-review.yml
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000281
+    issue: "Cụm 'veteran aces' trong lời cảnh báo của Tanya đang được dịch cụ thể hóa thành 'phi công át chủ bài kỳ cựu', trong khi mạch ngữ cảnh từ các đoạn trước đang bàn về lực lượng pháp sư trên không của Liên bang (hoặc các tay súng/pháp sư át chủ bài nói chung) chứ không giới hạn ở phi công lái máy bay."
+    rationale: "Ý cốt lõi về việc đối phương trộn lẫn những cá nhân thiện chiến dày dạn kinh nghiệm từ thời tiền cách mạng vẫn rõ ràng nên chỉ ghi nhận ở mức minor."
+    recommendation: "Ở bước chuốt văn, cân nhắc lược chữ 'phi công' thành 'những át chủ bài kỳ cựu' để giữ đúng độ mở của từ gốc trong ngữ cảnh tác chiến pháp sư trên không."
+  - severity: minor
+    segment_id: YS-LN08/Text/chapter012.xhtml/p000285
+    issue: "Trong lời thoại của Tanya (Trung tá, chỉ huy trưởng) nói với Serebryakov (Trung úy, sĩ quan phụ tá thuộc quyền), cách gọi 'Trung úy ạ' có tiểu từ kính ngữ 'ạ' hơi lệch chuẩn tôn ti quân đội dù câu thoại mang sắc thái lịch sự."
+    rationale: "Ngôi xưng 'tôi - cô' và cấp bậc 'Trung úy' trong câu vẫn phân định rõ người nói và người nghe nên không gây nhầm chủ thể; chỉ ghi nhận ở mức minor."
+    recommendation: "Ở bước chuốt văn, cân nhắc bỏ tiểu từ 'ạ' (chỉ giữ ', Trung úy;' hoặc ', thưa Trung úy;' theo lối khách sáo xã giao không dùng 'ạ') để chuẩn vị thế cấp trên nói với cấp dưới."
+pending_term_recommendations:
+  - source_term: "Commie / lageri / Federation / Communists / Commies"
+    proposed_vi: "Cộng sản / *lageri* / Liên bang / đám Cộng sản"
+    category: "tên gọi / thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000281
+      - YS-LN08/Text/chapter012.xhtml/p000282
+      - YS-LN08/Text/chapter012.xhtml/p000284
+      - YS-LN08/Text/chapter012.xhtml/p000287
+      - YS-LN08/Text/chapter012.xhtml/p000288
+      - YS-LN08/Text/chapter012.xhtml/p000289
+    rationale: "Nhất quán với sổ thuật ngữ tạm của tập 8; giữ nguyên chữ nghiêng '*lageri*' theo nguồn để chỉ hệ thống trại cải tạo lao động."
+    alternatives_vi: []
+  - source_term: "Lieutenant Serebryakov / Lieutenant / Serebryakov"
+    proposed_vi: "Trung úy Serebryakov / Trung úy / Serebryakov"
+    category: "quân hàm / tên nhân vật"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000283
+      - YS-LN08/Text/chapter012.xhtml/p000285
+      - YS-LN08/Text/chapter012.xhtml/p000286
+    rationale: "Thống nhất với quân hàm Trung úy của Serebryakov trong tập 8."
+    alternatives_vi: []
+  - source_term: "Heimat"
+    proposed_vi: "Heimat"
+    category: "thuật ngữ"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000295
+    rationale: "Giữ nguyên từ tiếng Đức 'Heimat' (quê hương/tổ quốc) được dùng nguyên bản trong văn bản nguồn."
+    alternatives_vi:
+      - "quê hương"
+  - source_term: "JUNE 16, UNIFIED YEAR 1927, B GROUP HEADQUARTERS ON THE EASTERN FRONT, OFFICE FOR HIGH-RANKING OFFICERS"
+    proposed_vi: "NGÀY 16 THÁNG 6 NĂM THỐNG NHẤT 1927, SỞ CHỈ HUY CỤM B TRÊN MẶT TRẬN PHÍA ĐÔNG, VĂN PHÒNG DÀNH CHO SĨ QUAN CẤP CAO"
+    category: "tiêu đề thời gian - địa điểm"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000304
+    rationale: "Khớp với quy ước dịch dòng định danh ngày tháng, Sở chỉ huy Cụm B và mặt trận phía đông trong tập 8."
+    alternatives_vi: []
+  - source_term: "inspector / deputy chief of the Service Corps / General Staff Office"
+    proposed_vi: "thanh tra viên / Cục phó Cục Quân vụ / Văn phòng Bộ Tổng tham mưu"
+    category: "chức danh / tổ chức"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000305
+      - YS-LN08/Text/chapter012.xhtml/p000306
+      - YS-LN08/Text/chapter012.xhtml/p000307
+    rationale: "Thống nhất với các lô trước của chương 3 tập 8 khi nhắc tới chức vụ chính thức và vai trò thanh tra của Zettour."
+    alternatives_vi: []
+  - source_term: "Zettour / mid-ranking officers / Lergen / Uger / Degurechaff / Lieutenant General von Zettour / Lieutenant Colonel von Degurechaff’s Lergen Kampfgruppe"
+    proposed_vi: "Zettour / các sĩ quan cấp tá / Lergen / Uger / Degurechaff / Trung tướng von Zettour / Kampfgruppe Lergen của Trung tá von Degurechaff"
+    category: "quân hàm / tên nhân vật / tên đơn vị"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000308
+      - YS-LN08/Text/chapter012.xhtml/p000311
+      - YS-LN08/Text/chapter012.xhtml/p000316
+      - YS-LN08/Text/chapter012.xhtml/p000318
+    rationale: "Nhất quán với hệ thống cấp bậc, tên nhân vật và tên đơn vị Kampfgruppe Lergen trong sổ thuật ngữ tạm của tập 8."
+    alternatives_vi:
+      - "các sĩ quan cấp trung"
+  - source_term: "eastern front / B Front / B Group staffers / Rhine front / Federation Army"
+    proposed_vi: "mặt trận phía đông / Mặt trận B / các sĩ quan tham mưu Cụm B / mặt trận Rhine / Quân đội Liên bang"
+    category: "địa danh / chiến trường / tổ chức"
+    status: proposed
+    segment_ids:
+      - YS-LN08/Text/chapter012.xhtml/p000307
+      - YS-LN08/Text/chapter012.xhtml/p000313
+      - YS-LN08/Text/chapter012.xhtml/p000315
+      - YS-LN08/Text/chapter012.xhtml/p000319
+    rationale: "Khớp hoàn toàn với sổ thuật ngữ tạm đã dùng xuyên suốt tập 8."
+    alternatives_vi: []
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000280
+    choices:
+      - "trần thuật ngôi thứ ba và ẩn dụ: Để đốt lửa thúc vào mông họ; Tanya; tận dụng mọi mánh khóe có thể"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000281
+    choices:
+      - "thoại của Tanya và đại từ chỉ địch: Tôi; chúng; trước khi quân đội đó hóa thành Cộng sản; át chủ bài kỳ cựu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000282
+    choices:
+      - "nhấn mạnh Markdown: *lageri* (theo DEC-P01-002)"
+      - "xưng hô thoại Serebryakov -> Tanya và thuật ngữ: tôi; Những kẻ thù giai cấp; Chúng ta; Liên bang; đấy ạ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000283
+    choices:
+      - "xưng hô thoại Tanya -> Serebryakov: Trung úy Serebryakov; tôi; cô; Nhãn quan và sự nhạy bén"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000284
+    choices:
+      - "mệnh đề nhận định và xác suất: Liên bang; những người từng có kinh nghiệm; xác suất thực tế đi ngược lại các xu hướng lịch sử vẫn khác không"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000285
+    choices:
+      - "xưng hô thoại Tanya -> Serebryakov: tôi; cô; Trung úy; hoàn toàn tự tin đưa ra lời cảnh báo này"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000286
+    choices:
+      - "trần thuật ngôi thứ ba và lập luận: những định kiến có sẵn; quân đội; thứ được cho là lẽ thường; Tanya; sự hiểu lầm của Serebryakov"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000287
+    choices:
+      - "nhấn mạnh Markdown: *lageri* (theo DEC-P01-002)"
+      - "đại từ khái quát và đại từ chỉ địch: bạn; hệ tư tưởng Cộng sản; chúng; vẫn thừa sức làm thế đấy"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000288
+    choices:
+      - "thoại của Tanya xen trần thuật: lập trường chính thức của đám Cộng sản; Chúng; những kẻ cuồng tín tôn giáo; Tanya; Đám Cộng sản này; nhu cầu trước mắt hơn là hệ tư tưởng; Những kẻ độc tài đội lốt nhà cách mạng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000289
+    choices:
+      - "điệp từ cảm thán nội tâm: Cộng sản, Cộng sản, lúc nào cũng Cộng sản"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000290
+    choices:
+      - "đại từ khái quát và thuật ngữ: Bạn; chúng; một phản ứng xã hội tồi tệ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000291
+    choices:
+      - "trần thuật ngôi thứ ba và phủ định kép: chúng; Tanya; Cô; không tài nào không hiểu cho được"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000292
+    choices:
+      - "thoại cảnh báo của Tanya: Lũ khốn này; đánh cắp các lý tưởng chính nghĩa; chúng; Hãy lường trước tình huống tồi tệ nhất đi"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000293
+    choices:
+      - "thoại đáp lời của Serebryakov: …Tôi đã rõ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000294
+    choices:
+      - "thoại của Tanya và tương phản đối tượng: Tôi; Những kẻ giáo điều ngạo mạn; những người yêu nước; Họ thực sự rất ngáng đường"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000295
+    choices:
+      - "cấu trúc phủ định - khẳng định và thuật ngữ: họ; không phải theo logic mà theo tình yêu dành cho Heimat của mình; một cấu trúc chung được gọi là nhà nước"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000296
+    choices:
+      - "cụm danh từ định danh: Tình yêu mù quáng"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000297
+    choices:
+      - "ẩn dụ nghịch ngữ: một thứ thuốc độc ấm lòng, ngọt ngào đến phát điên và đầy tao nhã"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000298
+    choices:
+      - "thoại độc thoại cảm thán: Thực sự là cái gai trong mắt mà"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000299
+    choices:
+      - "trần thuật ngôi thứ ba và lập luận: ngôn ngữ của Tanya; một mớ hỗn độn của những điều phi lý và phi lý trí"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000300
+    choices:
+      - "mệnh đề dẫn nhập: Nhưng nếu có một điều rõ ràng, thì đó là:"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000301
+    choices:
+      - "nhấn mạnh Markdown: *Tình yêu vượt lên trên logic.* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000302
+    choices:
+      - "đại từ khái quát và mệnh đề nhượng bộ: bạn; lời rào đón “đối với một số kiểu người nhất định”; một mối đe dọa lớn; những kẻ sẵn sàng thách thức logic"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000303
+    choices:
+      - "trần thuật ngôi thứ ba: thế giới của Tanya; đáng buồn thay, nó vẫn tồn tại"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000304
+    choices:
+      - "tiêu đề thời gian - địa điểm: NGÀY 16 THÁNG 6 NĂM THỐNG NHẤT 1927; SỞ CHỈ HUY CỤM B TRÊN MẶT TRẬN PHÍA ĐÔNG; VĂN PHÒNG DÀNH CHO SĨ QUAN CẤP CAO"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000305
+    choices:
+      - "trần thuật điểm nhìn Zettour và chức danh: công việc thanh tra viên chỉ mang tính danh nghĩa; trực tiếp quan sát tình hình ngoài thực địa"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000306
+    choices:
+      - "trần thuật ngôi thứ ba và chức danh: ông; mình; Cục phó Cục Quân vụ ở hậu phương tại Văn phòng Bộ Tổng tham mưu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000307
+    choices:
+      - "thuật ngữ và tên tổ chức: bộ máy quan liêu Đế quốc; mặt trận phía đông; các kênh quy định; Văn phòng Bộ Tổng tham mưu"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000308
+    choices:
+      - "tên nhân vật và cấp bậc: Zettour; các sĩ quan cấp tá; Lergen; Uger; Degurechaff"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000309
+    choices:
+      - "thành ngữ tương đương: trăm nghe không bằng một thấy"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000310
+    choices:
+      - "độc thoại thành tiếng của Zettour: Ta; quân tiếp viện; Chắc chắn là vậy"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000311
+    choices:
+      - "trần thuật ngôi thứ ba và quân hàm: Ông; Trung tướng von Zettour; nỗi dằn vặt nội tâm"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000312
+    choices:
+      - "nhấn mạnh Markdown trong nội tâm Zettour: *Thế này thì tồi tệ quá mức rồi.* (theo DEC-P01-002)"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000313
+    choices:
+      - "trần thuật ngôi thứ ba và thuật ngữ: Ông; họ; trên giấy tờ; Các tuyến phòng thủ của Mặt trận B đúng nghĩa chỉ tồn tại trên lý thuyết; các sĩ quan tham mưu Cụm B"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000314
+    choices:
+      - "tương phản bình diện đánh giá: Xét về mặt logic ... không chính xác; xét về mặt cảm xúc, ông hiểu được nguyên cớ khiến họ hoang mang"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000315
+    choices:
+      - "thuật ngữ và cấu trúc so sánh: mặt trận Rhine; các chiến tuyến; chẳng giống các đơn vị đóng quân tại nhiều điểm dọc theo một mặt trận liền mạch, mà giống như thể họ chỉ đơn thuần đang tự cố thủ tại vị trí riêng lẻ của mình hơn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000316
+    choices:
+      - "quân hàm và tên đơn vị: Trận chiến giải vây cho Kampfgruppe Lergen của Trung tá von Degurechaff"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000317
+    choices:
+      - "ẩn dụ chiến thuật và phủ định: mà không làm hở sườn quá mức hay đánh mất tính sắc bén; trước khi quá muộn"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000318
+    choices:
+      - "trần thuật ngôi thứ ba và giả định trái thực tế quá khứ: Zettour; ông; Degurechaff; mồi nhử; Nếu kẻ địch không cắn miếng mồi tẩm độc ấy, hẳn họ đã buộc phải chặn đứng một đạo quân thực thụ bằng những tuyến phòng thủ chỉ tồn tại trên giấy tờ"
+  - segment_id: YS-LN08/Text/chapter012.xhtml/p000319
+    choices:
+      - "nhấn mạnh Markdown và tên tổ chức: *Tạ ơn Chúa và tổ quốc là Quân đội Liên bang đã không liều lĩnh phát động một đợt tổng xung phong.* (theo DEC-P01-002)"
