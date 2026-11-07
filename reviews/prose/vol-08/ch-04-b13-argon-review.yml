@@ -1,0 +1,255 @@
+task_id: "vol-08-ch-04-b13-argon-review"
+parent_task_id: "vol-08-ch-04-b13"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 4
+source_package: "work/vol-08/batches/ch-04-b13-source.jsonl"
+target_translation: "translations/vol-08/ch-04-b13.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000482"
+    severity: "moderate"
+    issue: "Thuật ngữ 'field officers' đang được dịch là 'những sĩ quan cấp tá', gây lệch nghĩa trong văn cảnh đang nói về Thiếu tướng Cramm (tư lệnh sư đoàn ở p000479–p000480) và làm mờ thế đối lập trực tiếp giữa sĩ quan chiến trường/thực địa (liên kết với 'officer in the field' ở p000483) với 'sĩ quan Bộ Tổng tham mưu' ở p000484."
+    evidence: "Ở p000479–p000480, Cramm là tư lệnh sư đoàn mang hàm thiếu tướng ('major general'); ngay sau p000482, đoạn p000483 nối tiếp bằng cụm 'officer in the field' ('sĩ quan ngoài chiến trường') và p000484 đối lập với 'General Staff officer' ('sĩ quan Bộ Tổng tham mưu'). Do đó 'field officers' tại p000482 chỉ các sĩ quan chiến trường/thực địa chứ không phải cấp bậc tá."
+    recommendation: "Sửa 'những sĩ quan cấp tá nghiêm túc' thành 'những sĩ quan chiến trường nghiêm túc' (hoặc 'những sĩ quan thực địa nghiêm túc') để khớp cấp bậc của Cramm và giữ mạch liên kết với p000483–p000484."
+pending_term_recommendations:
+  - source_term: "tank desant"
+    proposed_vi: "chiến thuật tùng thiết trên xe tăng"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kế thừa thuật ngữ quân sự chỉ phương thức bộ binh/pháp sư cơ động bám trên thân xe tăng đã dùng ở các tập trước."
+    alternatives_vi:
+      - "đổ bộ trên xe tăng"
+      - "hành quân tùng thiết trên xe tăng"
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000445"
+  - source_term: "General / General von Zettour / Zettour"
+    proposed_vi: "Tướng quân (thưa Tướng quân) / Tướng von Zettour / Zettour"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Kế thừa nhất quán tên riêng Zettour, cách gọi 'Tướng von Zettour' trong trần thuật và cách cấp dưới xưng hô 'Tướng quân' / 'thưa Tướng quân' trong thoại."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000444"
+      - "YS-LN08/Text/chapter014.xhtml/p000447"
+      - "YS-LN08/Text/chapter014.xhtml/p000452"
+      - "YS-LN08/Text/chapter014.xhtml/p000455"
+      - "YS-LN08/Text/chapter014.xhtml/p000459"
+      - "YS-LN08/Text/chapter014.xhtml/p000461"
+      - "YS-LN08/Text/chapter014.xhtml/p000463"
+      - "YS-LN08/Text/chapter014.xhtml/p000469"
+      - "YS-LN08/Text/chapter014.xhtml/p000472"
+      - "YS-LN08/Text/chapter014.xhtml/p000474"
+      - "YS-LN08/Text/chapter014.xhtml/p000476"
+      - "YS-LN08/Text/chapter014.xhtml/p000477"
+      - "YS-LN08/Text/chapter014.xhtml/p000478"
+      - "YS-LN08/Text/chapter014.xhtml/p000479"
+      - "YS-LN08/Text/chapter014.xhtml/p000480"
+      - "YS-LN08/Text/chapter014.xhtml/p000481"
+      - "YS-LN08/Text/chapter014.xhtml/p000482"
+  - source_term: "Lieutenant / Lieutenant Grantz / Grantz"
+    proposed_vi: "Trung úy / Trung úy Grantz / Grantz"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Kế thừa nhất quán quân hàm Trung úy của Grantz khi gọi tắt là Lieutenant hoặc gọi đầy đủ."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000449"
+      - "YS-LN08/Text/chapter014.xhtml/p000454"
+      - "YS-LN08/Text/chapter014.xhtml/p000456"
+      - "YS-LN08/Text/chapter014.xhtml/p000459"
+      - "YS-LN08/Text/chapter014.xhtml/p000468"
+      - "YS-LN08/Text/chapter014.xhtml/p000472"
+  - source_term: "eastern army / B Group"
+    proposed_vi: "đạo quân phía đông / Cụm B"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán cách dịch 'đạo quân phía đông' và định danh 'Cụm B' đã khóa ở chương 4 tập 8."
+    alternatives_vi:
+      - "Cụm tập đoàn quân B"
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000452"
+      - "YS-LN08/Text/chapter014.xhtml/p000463"
+      - "YS-LN08/Text/chapter014.xhtml/p000478"
+  - source_term: "Soldim 528 / Lergen Kampfgruppe"
+    proposed_vi: "Soldim 528 / Kampfgruppe Lergen"
+    category: "địa danh / đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên định danh khu vực Soldim 528 và cấu trúc 'Kampfgruppe Lergen' đã khóa."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000459"
+  - source_term: "blocking action"
+    proposed_vi: "trận đánh ngăn chặn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Dịch rõ nghĩa tác chiến chốt chặn/ngăn chặn đường rút hoặc mũi tiến của đối phương trong ngữ cảnh."
+    alternatives_vi:
+      - "hoạt động chốt chặn"
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000465"
+  - source_term: "deputy director of the Service Corps in the General Staff / General Staff / General Staff officer"
+    proposed_vi: "Cục phó Cục Quân vụ thuộc Bộ Tổng tham mưu / Bộ Tổng tham mưu / sĩ quan Bộ Tổng tham mưu"
+    category: "chức danh quân sự / cơ quan quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán chức danh Cục phó Cục Quân vụ thuộc Bộ Tổng tham mưu của Zettour và thuật ngữ Bộ Tổng tham mưu xuyên suốt bộ truyện."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000469"
+      - "YS-LN08/Text/chapter014.xhtml/p000478"
+      - "YS-LN08/Text/chapter014.xhtml/p000484"
+  - source_term: "Commander Cramm / Commander / division commander / divisional headquarters / major general"
+    proposed_vi: "Chỉ huy Cramm / Chỉ huy / tư lệnh sư đoàn / sở chỉ huy sư đoàn / thiếu tướng"
+    category: "nhân vật / chức danh / quân hàm / cơ quan quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán cách gọi 'Chỉ huy Cramm' trong thoại, chức danh 'tư lệnh sư đoàn', 'sở chỉ huy sư đoàn' và quân hàm 'thiếu tướng'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000463"
+      - "YS-LN08/Text/chapter014.xhtml/p000471"
+      - "YS-LN08/Text/chapter014.xhtml/p000472"
+      - "YS-LN08/Text/chapter014.xhtml/p000473"
+      - "YS-LN08/Text/chapter014.xhtml/p000475"
+      - "YS-LN08/Text/chapter014.xhtml/p000477"
+      - "YS-LN08/Text/chapter014.xhtml/p000479"
+      - "YS-LN08/Text/chapter014.xhtml/p000480"
+      - "YS-LN08/Text/chapter014.xhtml/p000481"
+      - "YS-LN08/Text/chapter014.xhtml/p000482"
+  - source_term: "field officers / officer in the field"
+    proposed_vi: "những sĩ quan chiến trường / sĩ quan ngoài chiến trường"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phân biệt sĩ quan trực tiếp chỉ huy ngoài chiến trường/thực địa (như Thiếu tướng Cramm) với sĩ quan Bộ Tổng tham mưu ở p000482–p000484; tránh dịch nhầm thành cấp bậc tá."
+    alternatives_vi:
+      - "những sĩ quan thực địa"
+    segment_ids:
+      - "YS-LN08/Text/chapter014.xhtml/p000482"
+      - "YS-LN08/Text/chapter014.xhtml/p000483"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000444"
+    choices:
+      - "Xưng hô & thoại đáp quân sự: Grantz đáp '“Rõ, thưa Tướng quân!”' nhất quán với batch trước."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000445"
+    choices:
+      - "Đại từ, xưng hô & thuật ngữ: quy chiếu Zettour bằng 'Ông'; Zettour xưng 'Tôi' và gọi Grantz là 'cậu'; 'tank desant' -> 'chiến thuật tùng thiết trên xe tăng'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000446"
+    choices:
+      - "Xưng hô: dịch câu hỏi ngắn '“Dạ, thưa ngài?”' thể hiện sự ngạc nhiên lễ phép của Grantz."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000447"
+    choices:
+      - "Nhấn mạnh Markdown & điểm nhìn: giữ nguyên câu nội tâm in nghiêng '*Ra là khả năng ứng biến của họ cũng có giới hạn.*' theo DEC-P01-002; quy chiếu nhóm của Grantz bằng 'họ'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000448"
+    choices:
+      - "Nhấn mạnh Markdown & đại từ nội tâm: in nghiêng toàn đoạn '*Không sao cả. Mình chỉ cần giải thích thôi.*'; Zettour tự quy chiếu trong nội tâm bằng 'Mình'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000449"
+    choices:
+      - "Quân hàm & xưng hô: 'Lieutenant' -> 'Trung úy'; Zettour dùng đại từ gộp 'Chúng ta'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000450"
+    choices:
+      - "Lắp bắp & kính ngữ: giữ nét lắp bắp và kính ngữ trong câu hỏi '“M-một cuộc chiến sao ạ?”'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000451"
+    choices:
+      - "Nhấn mạnh Markdown & xưng hô: Zettour xưng 'tôi' / 'mình', gộp bằng 'chúng ta'; chỉ in nghiêng cụm '*của chúng ta*' khớp đúng thẻ em trong nguồn."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000452"
+    choices:
+      - "Thuật ngữ, tên riêng & nhấn mạnh Markdown: 'eastern army' -> 'đạo quân phía đông'; giữ tên 'Tanya' và 'Zettour'; giữ phủ định 'Chẳng cần phải làm bộ làm tịch gì' và chữ nghiêng '*của chúng ta*'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000453"
+    choices:
+      - "Cấu trúc câu danh ngữ: giữ nhịp câu ngắn 'Một điều gì đó thiêng liêng, hay có lẽ là một thoáng cô đơn.'; không tự thêm chữ nghiêng."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000454"
+    choices:
+      - "Đại từ, quân hàm & câu hỏi tu từ: quy chiếu Zettour bằng 'Ông' / 'ông'; 'Lieutenant Grantz' -> 'Trung úy Grantz'; Zettour gọi Grantz là 'cậu' và giữ câu hỏi tu từ khích lệ."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000455"
+    choices:
+      - "Xưng hô & dấu câu: giữ nguyên câu hỏi ngập ngừng '“Thưa Tướng quân…?”'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000456"
+    choices:
+      - "Quân hàm, xưng hô & phủ định khuyên nhủ: 'Lieutenant' -> 'Trung úy'; Zettour gọi Grantz là 'cậu'; giữ câu khuyên phủ định 'Không nên kìm nén những thắc mắc trong lòng'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000457"
+    choices:
+      - "Xưng hô & câu hỏi xác nhận: Grantz dùng 'chúng ta' kèm tiểu từ kính ngữ 'ạ'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000458"
+    choices:
+      - "Nhấn mạnh Markdown & phân tách đại từ điểm nhìn: in nghiêng câu đầu '*Cậu ta có trực giác nhạy bén đấy.*' (nội tâm Zettour gọi Grantz là 'Cậu ta'); phần trần thuật tiếp theo quy chiếu Grantz bằng 'Anh'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000459"
+    choices:
+      - "Quân hàm, địa danh & đơn vị: 'Lieutenant' -> 'Trung úy'; 'Soldim 528' -> 'Soldim 528'; 'Lergen Kampfgruppe' -> 'Kampfgruppe Lergen'; Zettour gọi Grantz là 'Cậu' và gộp bằng 'chúng ta'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000460"
+    choices:
+      - "Thán từ: giữ câu cảm thán ngắn '“Ồ!”'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000461"
+    choices:
+      - "Tên riêng & tình thái: giữ tên 'Zettour' và sắc thái phỏng đoán 'hoặc có lẽ nó xuất phát từ cảm nhận rằng lời nói của cấp trên là đáng tin cậy'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000462"
+    choices:
+      - "Phủ định & giọng chiêm nghiệm: giữ mệnh đề định ngữ phủ định 'Tuổi trẻ chưa biết đến sự hoài nghi lại rạng rỡ như thế đấy.'; không in nghiêng."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000463"
+    choices:
+      - "Thuật ngữ, đơn vị & xưng hô: 'eastern army' -> 'đạo quân phía đông'; 'B Group' -> 'Cụm B'; 'division commander' -> 'tư lệnh sư đoàn'; Zettour xưng 'Tôi' và 'Chúng ta', quy chiếu trần thuật bằng 'ông'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000464"
+    choices:
+      - "Nhấn mạnh Markdown: chỉ in nghiêng cụm '*điều đúng đắn*' trong câu 'Hãy nói rằng đó là *điều đúng đắn* phải làm.' theo DEC-P01-002."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000465"
+    choices:
+      - "Phủ định, khẩu ngữ & thuật ngữ: giữ phủ định 'Họ không có ý thức đúng đắn về tính cấp bách của tình hình'; dịch khẩu ngữ 'đá vào mông họ một cú'; 'blocking action' -> 'trận đánh ngăn chặn'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000466"
+    choices:
+      - "Thoại đáp quân sự: khóa câu đáp '“Rõ, thưa ngài!”'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000467"
+    choices:
+      - "Liên từ chuyển đoạn: giữ nguyên 'Tuy nhiên…'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000468"
+    choices:
+      - "Tình thái & đại từ: giữ tình thái suy đoán 'Có lẽ Grantz đã được huấn luyện quá kỹ càng'; quy chiếu Grantz bằng 'anh'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000469"
+    choices:
+      - "Chức danh, cơ quan & phủ định: 'deputy director of the Service Corps in the General Staff' -> 'Cục phó Cục Quân vụ thuộc Bộ Tổng tham mưu'; 'the forward-most line' -> 'tuyến tiền tiêu xa nhất'; giữ nhận định phủ định 'không ai khuyến khích ông ngồi xe quân sự lao ra tận tuyến tiền tiêu xa nhất'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000470"
+    choices:
+      - "Phủ định kép & logic: giữ nguyên nghĩa phủ định kép 'khoác súng trường và mang lựu đạn mà không gây chú ý là điều hoàn toàn bất khả thi' và nhận định 'chắc chắn chỉ là số ít ngoại lệ'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000471"
+    choices:
+      - "Tình thái & chức danh: giữ tình thái 'có vẻ những người bình thường đương nhiên sẽ có sự dè dặt trước chuyện đó'; 'Commander Cramm' -> 'Chỉ huy Cramm'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000472"
+    choices:
+      - "Thuật ngữ & tên riêng: 'divisional headquarters' -> 'sở chỉ huy sư đoàn'; giữ tên 'Zettour', 'Grantz', 'Cramm' và dấu ba chấm biểu thị sự ngập ngừng."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000473"
+    choices:
+      - "Xưng hô & chức danh: Zettour gọi Cramm là 'anh' và 'Chỉ huy Cramm'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000474"
+    choices:
+      - "Xưng hô & kính ngữ: Cramm gọi Zettour là 'Thưa Tướng quân' / 'ngài', xưng 'Tôi' kèm 'ạ'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000475"
+    choices:
+      - "Xưng hô & chức danh: Zettour xưng 'Tôi' – 'anh', gọi Cramm là 'Chỉ huy'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000476"
+    choices:
+      - "Đại từ trần thuật & xưng hô: phân biệt Cramm ('ông ta') với Zettour; trong thoại Cramm xưng 'Chúng tôi' / 'tôi', gọi Zettour là 'Thưa Tướng quân' / 'ngài'; giữ nguyên giọng khẩn cầu ở lại tuyến sau."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000477"
+    choices:
+      - "Nhấn mạnh Markdown & phủ định nội tâm: giữ câu nội tâm in nghiêng phủ định '*Nhưng cứ thế thì chúng ta sẽ chẳng đi đến đâu cả…*' theo DEC-P01-002."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000478"
+    choices:
+      - "Thuật ngữ, đơn vị & quân hàm: 'General Staff' -> 'Bộ Tổng tham mưu'; 'B Group' -> 'Cụm B'; 'General von Zettour' -> 'Tướng von Zettour'; giữ ẩn dụ 'đám thỏ đế ở Cụm B'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000479"
+    choices:
+      - "Chức danh, tổ chức & xưng hô: 'Commander Cramm' -> 'Chỉ huy Cramm'; 'division commander' -> 'tư lệnh sư đoàn'; 'Imperial Army' -> 'Lục quân Đế quốc'; Zettour xưng 'Tôi' – 'anh', quy chiếu trần thuật bằng 'mình'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000480"
+    choices:
+      - "Quân hàm & tên riêng: 'major general' -> 'thiếu tướng' (quy chiếu Cramm); giữ tên 'Zettour'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000481"
+    choices:
+      - "Xưng hô & phủ định: Cramm gọi Zettour là 'Thưa Tướng quân' / 'Ngài', xưng 'chúng tôi'; giữ câu can ngăn phủ định bỏ lửng 'Ngài đâu cần phải làm đến mức đó—chúng tôi có thể…'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000482"
+    choices:
+      - "Nhấn mạnh Markdown, thuật ngữ & phủ định kép: in nghiêng '*Nghe này, Chỉ huy Cramm*'; dịch 'straitlaced field officers' là 'những sĩ quan chiến trường nghiêm túc' (hoặc 'những sĩ quan thực địa nghiêm túc', không dịch là 'sĩ quan cấp tá'); giữ phủ định kép 'chẳng thể khẳng định rằng mình sẽ không giở mánh khóe nào'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000483"
+    choices:
+      - "Đại từ & thuật ngữ: quy chiếu Zettour bằng 'ông'; 'officer in the field' -> 'sĩ quan ngoài chiến trường'."
+  - segment_id: "YS-LN08/Text/chapter014.xhtml/p000484"
+    choices:
+      - "Xưng hô, thuật ngữ & đính chính: Zettour xưng 'tôi' – 'Anh'; giữ nhịp tự đính chính 'nhưng tôi—không, một sĩ quan Bộ Tổng tham mưu—mới phải là người nắm bắt cơ hội này để bao vây một trong các cánh quân của địch' và câu hỏi tu từ cuối đoạn."
