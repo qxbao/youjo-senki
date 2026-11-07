@@ -1,0 +1,174 @@
+task_id: "vol-09-ch-03-b18-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000003"
+    severity: "minor"
+    category: "pronouns"
+    issue: "Đại từ trần thuật ngôi thứ ba quy chiếu Tanya trong lô ch-03-b18 (tại p000003, p000004, p000012, p000014, p000027) tiếp tục dùng 'nó' theo DEC-P01-001 (nhất quán với chuỗi lô ch-03-b12 đến ch-03-b17 liền trước), trong khi một số lô đầu của tập 9 dùng 'cô'."
+    recommendation: "Nội bộ lô ch-03-b18 đã phân tách nhất quán giữa trần thuật ('nó'), độc thoại/tự thuật ngôi thứ nhất ('mình' / 'bọn mình' tại p000002, p000005–p000007, p000009, p000017, p000020, p000021, p000028, p000030) và thoại công vụ ('tôi' tại p000019, p000022, p000025, p000031); ở bước chuốt văn hoặc ghép chương có thể giữ nguyên theo DEC-P01-001 hoặc đồng bộ thành 'cô' nếu muốn thống nhất toàn chương 3."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000004"
+    severity: "minor"
+    category: "style_repetition"
+    issue: "Trong cụm 'nó *lẽ ra phải* truyền đạt cho nó', đại từ 'nó' được dùng hai lần liên tiếp cho hai chủ thể khác nhau (từ 'nó' thứ nhất chỉ chương trình học, từ 'nó' thứ hai chỉ Tanya) khiến câu hơi lặp từ."
+    recommendation: "Ở bước chuốt văn Flash, có thể đổi từ 'nó' đầu thành 'chương trình ấy' ('chương trình ấy *lẽ ra phải* truyền đạt cho nó') để tránh lặp đại từ khác quy chiếu mà vẫn giữ nguyên nhấn mạnh Markdown."
+pending_term_recommendations:
+  - source_term: "General Staff HQ / war academy / the academy / war college"
+    proposed_vi: "Tổng hành dinh Bộ Tổng tham mưu / học viện quân sự / học viện / trường đại học quân sự"
+    rationale: "Kế thừa nhất quán tên cơ quan 'Tổng hành dinh Bộ Tổng tham mưu' (từ ch-03-b10), 'trường đại học quân sự' (từ tập 2 và tập 9) và phân biệt rõ với cấp học viện sĩ quan."
+    alternatives_vi:
+      - "Tổng hành dinh Bộ Tổng tham mưu / học viện chiến tranh / học viện / đại học quân sự"
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000002"
+      - "YS-LN09/Text/chapter012.xhtml/p000003"
+  - source_term: "joint operations / Imperial Navy / naval doctrine"
+    proposed_vi: "tác chiến liên hợp / Hải quân Đế quốc / học thuyết hải quân"
+    rationale: "Kế thừa nhất quán các thuật ngữ 'tác chiến liên hợp' (từ tập 4), 'Hải quân Đế quốc' (từ các lô trước của tập 9) và dịch chuẩn xác 'học thuyết hải quân'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000005"
+      - "YS-LN09/Text/chapter012.xhtml/p000006"
+  - source_term: "staff trips / staff or magic officers"
+    proposed_vi: "các chuyến khảo sát thực địa của bộ tham mưu / sĩ quan tham mưu hay sĩ quan ma pháp"
+    rationale: "Kế thừa cách dịch 'chuyến khảo sát thực địa' (từ tập 1) và cặp chức danh 'sĩ quan tham mưu', 'sĩ quan ma pháp' trong sổ thuật ngữ tạm."
+    alternatives_vi:
+      - "các chuyến đi thực địa tham mưu / sĩ quan tham mưu hay sĩ quan ma pháp"
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000007"
+  - source_term: "Sixteenth Air Fleet / scout planes"
+    proposed_vi: "Không hạm đội 16 / máy bay trinh sát"
+    rationale: "Sử dụng thuật ngữ biên chế không quân 'Không hạm đội 16' tương ứng với đơn vị cấp hạm đội không quân của Đế quốc và thuật ngữ chuẩn 'máy bay trinh sát'."
+    alternatives_vi:
+      - "Không hạm đội số 16 / máy bay trinh sát"
+      - "Hạm đội Không quân 16 / máy bay trinh sát"
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000013"
+  - source_term: "Colonel / Colonel Degurechaff (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Thưa Trung tá / Trung tá / Trung tá Degurechaff"
+    rationale: "Kế thừa nhất quán quy ước dịch cách gọi rút gọn trong tiếng Anh đối với quân hàm Trung tá của Tanya trong toàn bộ tập 9."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000018"
+      - "YS-LN09/Text/chapter012.xhtml/p000023"
+      - "YS-LN09/Text/chapter012.xhtml/p000026"
+  - source_term: "Captain Barchet / the captain / Captain"
+    proposed_vi: "Thuyền trưởng Barchet / vị thuyền trưởng / Thưa Thuyền trưởng (thuyền trưởng)"
+    rationale: "Kế thừa nhất quán danh xưng 'Thuyền trưởng Barchet' từ lô ch-03-b11 và phù hợp với lời giải thích ở p000024 rằng ông mang quân hàm thiếu tá nhưng giữ chức chỉ huy tàu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000018"
+      - "YS-LN09/Text/chapter012.xhtml/p000021"
+      - "YS-LN09/Text/chapter012.xhtml/p000022"
+      - "YS-LN09/Text/chapter012.xhtml/p000024"
+      - "YS-LN09/Text/chapter012.xhtml/p000025"
+  - source_term: "squadron / capital ships / cruisers / heavy cruisers / destroyers / light cruisers / aircraft carriers"
+    proposed_vi: "hải đội / tàu chủ lực / tàu tuần dương / tàu tuần dương hạng nặng / tàu khu trục / tàu tuần dương hạng nhẹ / tàu sân bay"
+    rationale: "Dịch chuẩn xác và nhất quán hệ thống phân loại tàu chiến hải quân với các lô trước của chương 3."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000028"
+      - "YS-LN09/Text/chapter012.xhtml/p000029"
+      - "YS-LN09/Text/chapter012.xhtml/p000031"
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    rationale: "Kế thừa nhất quán tên quốc gia 'Khối Thịnh vượng chung' trong toàn bộ dự án."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter012.xhtml/p000031"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000001"
+    choices:
+      - "Mệnh đề giới hạn duy nhất & không thêm nhấn mạnh: giữ ý chỉ các vị đô đốc đã thấu hiểu tường tận tình hình ngoài khơi xa mới có thể đứng trên đất liền nhìn ra biển mà hạ lệnh, và không thêm nhấn mạnh Markdown tại vị trí thẻ neo trang page-155."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000002"
+    choices:
+      - "Phủ định, dấu câu, đại từ & thuật ngữ: giữ 'Tổng hành dinh Bộ Tổng tham mưu chẳng biết chút gì về biển cả', dấu chấm lửng sau 'nhưng…', đại từ tự quy chiếu 'mình' theo DEC-P01-001 và phủ định 'chiến thuật hải quân thậm chí còn chẳng được giảng dạy ở học viện quân sự'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000003"
+    choices:
+      - "Trần thuật, tình thái & thuật ngữ: giữ tên riêng 'Tanya', cụm 'học viện và trường đại học quân sự', giới hạn 'chỉ tính riêng trong phạm vi Đế quốc', tình thái 'có lẽ vẫn công bằng khi nói rằng' và đại từ trần thuật 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000004"
+    choices:
+      - "Nhấn mạnh Markdown & tình thái quá khứ: chỉ bọc '*lẽ ra phải*' bằng dấu sao theo DEC-P01-002 và giữ ý chương trình học cấp tốc đáng lẽ phải truyền đạt mọi thứ mà quân đội cho rằng một quân nhân chuyên nghiệp cần biết."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000005"
+    choices:
+      - "Độc thoại nội tâm & thuật ngữ: giữ đại từ 'mình' theo DEC-P01-001, hai nguồn kiến thức hải chiến hạn hẹp ('chút ký ức sót lại của kiếp trước từng sống ở nước Nhật hiện đại hòa bình' và 'chút ít kiến thức lượm lặt được trong các chiến dịch tác chiến liên hợp với Hải quân Đế quốc')."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000006"
+    choices:
+      - "Phủ định & thuật ngữ trong độc thoại: giữ đại từ 'Mình', phủ định 'chưa từng được đào tạo bài bản có hệ thống' và thuật ngữ 'học thuyết hải quân'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000007"
+    choices:
+      - "Thoại độc bạch, dấu câu & thuật ngữ: giữ các dấu chấm lửng ('“…Ngay cả', 'nhiều hơn…', 'Cái quái gì thế này…?'), đại từ 'mình', các thuật ngữ 'chuyến khảo sát thực địa của bộ tham mưu', 'sĩ quan tham mưu hay sĩ quan ma pháp' và phủ định 'chẳng mang lại niềm vui vẻ gì cho cam'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000008"
+    choices:
+      - "Nhận định khái quát: giữ sự tương phản giữa 'điểm mạnh đáng giá' và 'có những lúc sở trường của bạn lại biến thành một lời nguyền. Chẳng hạn như ngay lúc này đây.'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000009"
+    choices:
+      - "Chuyển đổi thoại độc bạch – trần thuật – nội tâm: giữ đại từ 'Mình' – 'mình' trong câu lầu bầu mở đầu, tên riêng 'Tanya' cùng chi tiết 'hạ thấp giọng để đám thủy thủ xung quanh không nghe thấy rồi rên rỉ với vẻ mặt ủ dột', và chuyển về ngôi thứ nhất 'tâm trí mình vẫn tràn ngập nỗi tuyệt vọng' ở câu cuối."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000010"
+    choices:
+      - "Câu hỏi nội tâm: giữ đúng đối tượng và độ mở của câu hỏi 'Tại sao chuyện này lại xảy ra chứ?'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000011"
+    choices:
+      - "Câu hỏi nội tâm: giữ đúng câu hỏi 'Làm thế nào mà sự tình lại ra nông nỗi này?'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000012"
+    choices:
+      - "Thoại thở dài & trần thuật: giữ tiếng thở dài '“Haaa.”', đại từ trần thuật 'nó' và hình ảnh 'tan biến vào bầu trời xanh thẫm'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000013"
+    choices:
+      - "Thoại báo cáo & thuật ngữ: giữ câu hô '“Điện báo!”', tình thái 'Có vẻ' và cụm 'một máy bay trinh sát thuộc Không hạm đội 16 đã phát hiện ra quân địch!'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000014"
+    choices:
+      - "Trần thuật & hai vế phân vân: giữ đại từ 'Nó' – 'mình' và sự giằng xé 'chẳng thể phân định nổi liệu mình đã luôn ngóng chờ tin tức này hay thầm cầu mong nó sẽ chẳng bao giờ tới'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000015"
+    choices:
+      - "Trần thuật: giữ đại từ 'họ' trong 'tin tình báo về con mồi của họ' và phản ứng 'Thủy thủ đoàn trên chiếc tàu ngầm bỗng trở nên phấn chấn hơn đôi chút.'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000016"
+    choices:
+      - "Thoại lặp & không thêm nhấn mạnh: giữ nguyên hai câu hô lặp lại '“Đã phát hiện hạm đội địch! Đã phát hiện hạm đội địch!”' và không thêm nhấn mạnh Markdown tại vị trí thẻ neo trang page-156."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000017"
+    choices:
+      - "Độc thoại nội tâm: giữ đại từ 'mình' và ý 'một khi đã bước vào công việc thì mình có thể chuyển đổi trạng thái dễ dàng thôi'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000018"
+    choices:
+      - "Xưng hô & chức danh trong thoại: giữ '“Thưa Trung tá, Thuyền trưởng Barchet đang cho gọi cô ạ.”'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000019"
+    choices:
+      - "Xưng hô trong thoại đáp: giữ đại từ 'ngài ấy' (chỉ Thuyền trưởng Barchet) và 'tôi' trong '“Báo với ngài ấy là tôi sẽ tới ngay!”'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000020"
+    choices:
+      - "Tự thuật ngôi thứ nhất & phủ định: giữ đại từ 'mình' và sự đối lập giữa 'những hành lang tàu ngầm chật hẹp vốn sẽ làm bước chân của một người đàn ông trưởng thành bị chậm lại' với 'chẳng hề gây chút cản trở nào cho mình cả'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000021"
+    choices:
+      - "Tự thuật ngôi thứ nhất: giữ đại từ 'Mình' và danh xưng 'vị thuyền trưởng'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000022"
+    choices:
+      - "Xưng hô trong thoại: giữ '“Thưa Thuyền trưởng, tôi đã nghe báo về bức điện tín.”'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000023"
+    choices:
+      - "Xưng hô trong thoại của Barchet: giữ đại từ 'cô' và cách gọi 'Trung tá' trong '“Thứ lỗi vì đã triệu cô tới thế này, Trung tá.”'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000024"
+    choices:
+      - "Giải thích quân hàm & chức vụ: giữ đại từ 'ông ta', sự phân biệt giữa quân hàm 'thiếu tá' và chức vụ 'nắm quyền chỉ huy con tàu với tư cách thuyền trưởng' thuộc 'bên hải quân', cùng nhận định về sự phức tạp của thứ bậc quân hàm."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000025"
+    choices:
+      - "Xưng hô & sắc thái lịch thiệp trong thoại: giữ danh xưng 'Thuyền trưởng Barchet', cặp đại từ 'tôi' – 'ngài', hình ảnh 'người đi nhờ tàu' – 'chủ nhà' và lời trấn an 'Xin ngài đừng bận tâm.'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000026"
+    choices:
+      - "Xưng hô & định danh trong thoại: giữ đại từ 'cô' và danh xưng 'Trung tá Degurechaff'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000027"
+    choices:
+      - "Trần thuật: giữ đại từ 'ông ta', đại từ 'nó' và cụm 'bản chép lại nội dung bức điện'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000028"
+    choices:
+      - "Chuyển đổi trần thuật – độc thoại nội tâm & dấu gạch ngang: giữ tên riêng 'Tanya', thuật ngữ 'Một hải đội tàu địch', đại từ 'bọn mình' và câu khẳng định có dấu gạch ngang 'Chắc hẳn là chúng rồi—không nhầm đi đâu được.'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000029"
+    choices:
+      - "Thuật ngữ tàu chiến, số lượng & phủ định trong thoại: giữ dấu chấm lửng mở đầu, tình thái 'Ít nhất là', 'có khả năng là', các thuật ngữ 'tàu chủ lực hoặc tàu tuần dương', 'Hai chiếc có khả năng là tàu tuần dương hạng nặng, bốn chiếc là tàu khu trục hoặc tàu tuần dương hạng nhẹ' và câu phủ định 'Không có tàu sân bay.'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000030"
+    choices:
+      - "Độc thoại nội tâm, câu điều kiện & dấu câu: giữ đại từ 'mình', cảm giác 'hơi sai sai' và câu điều kiện bỏ lửng 'Nếu đây là đội hình của quân địch thì thật kỳ lạ…'."
+  - segment_id: "YS-LN09/Text/chapter012.xhtml/p000031"
+    choices:
+      - "Thoại nghi vấn, thuật ngữ & tình thái: giữ câu hỏi 'Không có tàu sân bay sao?', tên riêng 'Khối Thịnh vượng chung', đại từ 'tôi', kỳ vọng 'phải có một chiếc tàu sân bay ở khu vực lân cận chứ' và câu hỏi kết 'Liệu có sự nhầm lẫn nào chăng?'."
