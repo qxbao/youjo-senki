@@ -1,0 +1,338 @@
+task_id: vol-08-ch-05-b08-argon-review
+parent_task_id: vol-08-ch-05-b08
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b08-source.jsonl
+target_translation: translations/vol-08/ch-05-b08.jsonl
+summary:
+  serious: 0
+  moderate: 1
+  minor: 4
+findings:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000264
+    severity: moderate
+    category: pronouns_and_addressee
+    issue: "Trong chuỗi thoại p000261–p000263, Trung úy Grantz là người giật mình lắp bắp trước cụm từ của Zettour, được Zettour hỏi thăm đích danh ở p000262 và xin thứ lỗi ở p000263. Lời giải thích ở p000264 là câu Zettour nói tiếp với Grantz về điều cậu đang lo sợ (trước khi Chỉ huy Cramm lên tiếng hỏi ở p000265 và Zettour gọi lại danh xưng Chỉ huy Cramm ở p000268). Bản dịch hiện dùng đại từ 'anh' (cách Zettour gọi Cramm) thay vì 'cậu' (cách Zettour gọi Grantz ở p000242), làm lệch đối tượng tiếp nhận lời thoại."
+    recommendation: "Đổi 'điều mà anh đang lo sợ' thành 'điều mà cậu đang lo sợ'."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000249
+    severity: minor
+    category: terminology
+    issue: "Thuật ngữ 'Federation Army' đang dịch là 'Lục quân Liên bang', chưa đồng nhất với phương án tạm đã khóa xuyên suốt tập 8 trong pending-terms-index.yml là 'Quân đội Liên bang'."
+    recommendation: "Đổi 'Các đơn vị Lục quân Liên bang' thành 'Các đơn vị Quân đội Liên bang'."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000253
+    severity: minor
+    category: terminology
+    issue: "Các thuật ngữ 'General Staff Office', 'front lines' và 'Supreme Command' đang dịch là 'Bộ Tổng tham mưu', 'Chiến tuyến' và 'Bộ Tổng Tư lệnh', chưa đồng nhất với phương án tạm trong pending-terms-index.yml ('General Staff Office': 'Văn phòng Bộ Tổng tham mưu' để phân biệt với 'General Staff' ở p000276; 'front lines': 'tiền tuyến'; 'Supreme Command': 'Bộ Tư lệnh Tối cao')."
+    recommendation: "Đổi 'ở Bộ Tổng tham mưu' thành 'ở Văn phòng Bộ Tổng tham mưu', 'Chiến tuyến' thành 'Tiền tuyến', và 'Bộ Tổng Tư lệnh' thành 'Bộ Tư lệnh Tối cao'."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000268
+    severity: minor
+    category: register_and_hierarchy
+    issue: "Trung tướng Zettour (cấp trên, xưng 'ta' – gọi 'anh' với Cramm) đang trực tiếp giao nhiệm vụ cho Chỉ huy Cramm; việc thêm tiểu từ kính ngữ 'ạ' ở cuối câu ('Chỉ huy Cramm ạ') không phù hợp tương quan quân hàm cấp trên – cấp dưới. Thái độ tôn trọng nêu ở p000267 được thể hiện qua việc nói thẳng, nghiêm túc thay vì dùng kính ngữ của cấp dưới."
+    recommendation: "Bỏ tiểu từ 'ạ', sửa thành: '“Chúng ta cần mồi nhử, Chỉ huy Cramm.”'."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000279
+    severity: minor
+    category: terminology
+    issue: "Danh từ chung 'war college' không viết hoa trong nguồn và có phương án tạm trong pending-terms-index.yml là 'trường đại học quân sự', nhưng bản dịch đang viết hoa như tên riêng ('Đại học Quân sự')."
+    recommendation: "Đổi 'ở Đại học Quân sự' thành 'ở trường đại học quân sự'."
+pending_term_recommendations:
+  - source_term: "kill ratio"
+    proposed_vi: "tỷ lệ tiêu diệt"
+    alternatives_vi:
+      - "tỷ lệ hạ địch"
+    rationale: "Phương án sát nghĩa quân sự cho tỷ lệ đổi quân/tiêu diệt một đổi một giữa hai bên, khớp chú thích số 4 trong đoạn."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000241
+    status: pending
+  - source_term: "aerial mage unit ground attack / aerial mage tactics"
+    proposed_vi: "đợt tấn công mặt đất của đơn vị pháp sư trên không / chiến thuật pháp sư trên không"
+    alternatives_vi:
+      - "đòn công kích mặt đất của đơn vị pháp sư trên không"
+    rationale: "Nhất quán với hệ thuật ngữ 'pháp sư trên không' và 'tấn công mặt đất' trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000243
+      - YS-LN08/Text/chapter018.xhtml/p000245
+    status: pending
+  - source_term: "anti-tank position / armored groups / encirclement maneuver"
+    proposed_vi: "trận địa chống tăng / các cụm thiết giáp / mũi cơ động bao vây"
+    alternatives_vi:
+      - "chốt chống tăng / các cụm thiết giáp / đòn cơ động bao vây"
+    rationale: "Phản ánh chính xác các thành tố chiến thuật và hình thái cơ động bao vây tại thực địa."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000245
+      - YS-LN08/Text/chapter018.xhtml/p000246
+    status: pending
+  - source_term: "General von Zettour / General / Commander Cramm / Lieutenant Grantz / Colonel von Lergen"
+    proposed_vi: "Tướng von Zettour / Tướng quân / Chỉ huy Cramm / Trung úy Grantz / Đại tá von Lergen"
+    alternatives_vi: []
+    rationale: "Giữ thống nhất hệ cấp bậc và định danh nhân vật đã khóa ở các batch trước của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000242
+      - YS-LN08/Text/chapter018.xhtml/p000247
+      - YS-LN08/Text/chapter018.xhtml/p000249
+      - YS-LN08/Text/chapter018.xhtml/p000251
+      - YS-LN08/Text/chapter018.xhtml/p000254
+      - YS-LN08/Text/chapter018.xhtml/p000262
+      - YS-LN08/Text/chapter018.xhtml/p000268
+      - YS-LN08/Text/chapter018.xhtml/p000271
+    status: pending
+  - source_term: "aerial fleet / Federation Army / the Empire / the Federation"
+    proposed_vi: "không hạm đội / Quân đội Liên bang / Đế quốc / Liên bang"
+    alternatives_vi: []
+    rationale: "Đồng bộ với pending-terms-index.yml của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000241
+      - YS-LN08/Text/chapter018.xhtml/p000249
+    status: pending
+  - source_term: "General Staff Office / General Staff / Supreme Command"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / Bộ Tổng tham mưu / Bộ Tư lệnh Tối cao"
+    alternatives_vi: []
+    rationale: "Phân biệt rõ cơ quan Văn phòng Bộ Tổng tham mưu, Bộ Tổng tham mưu và Bộ Tư lệnh Tối cao theo pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000253
+      - YS-LN08/Text/chapter018.xhtml/p000276
+    status: pending
+  - source_term: "Lergen Kampfgruppe / pincer attack / pincer operation / envelopment"
+    proposed_vi: "Kampfgruppe Lergen / thế gọng kìm / chiến dịch gọng kìm / mũi bao vây"
+    alternatives_vi:
+      - "đòn tấn công gọng kìm / thế bao vây"
+    rationale: "Giữ nguyên thuật ngữ Kampfgruppe Lergen và diễn đạt tự nhiên các thuật ngữ tác chiến hợp vây, gọng kìm."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000258
+      - YS-LN08/Text/chapter018.xhtml/p000259
+      - YS-LN08/Text/chapter018.xhtml/p000264
+      - YS-LN08/Text/chapter018.xhtml/p000271
+      - YS-LN08/Text/chapter018.xhtml/p000274
+      - YS-LN08/Text/chapter018.xhtml/p000275
+      - YS-LN08/Text/chapter018.xhtml/p000276
+      - YS-LN08/Text/chapter018.xhtml/p000286
+    status: pending
+  - source_term: "Twelve Knights / war college"
+    proposed_vi: "Thập Nhị Hiệp Sĩ / trường đại học quân sự"
+    alternatives_vi:
+      - "Mười hai Hiệp sĩ / trường đại học quân sự"
+    rationale: "'Twelve Knights' là danh hiệu riêng của mười hai học viên xuất sắc nên viết hoa 'Thập Nhị Hiệp Sĩ'; 'war college' là danh từ chung chỉ trường đại học quân sự theo pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000279
+    status: pending
+  - source_term: "Heimat"
+    proposed_vi: "Heimat"
+    alternatives_vi: []
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức trong văn bản gốc, không in nghiêng vì nguồn không có thẻ nhấn mạnh."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000284
+    status: pending
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000241
+    choices:
+      - "terms: Đế quốc (the Empire), Liên bang (the Federation), tỷ lệ tiêu diệt⁴ một đổi một (a kill ratio4 of one to one)"
+      - "pov_and_modality: Trần thuật theo điểm nhìn Zettour; giữ nguyên ký hiệu chú thích ⁴ và giả định tương lai ('ngay cả sau khi Đế quốc đã hoàn toàn tan rã, Liên bang vẫn sẽ còn dư lại các đơn vị')"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000242
+    choices:
+      - "ranks_and_names: Trung úy (Lieutenant - chỉ Grantz)"
+      - "pronouns: Zettour xưng 'ta', gọi Trung úy Grantz là 'cậu'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000243
+    choices:
+      - "terms: Đợt tấn công mặt đất của đơn vị pháp sư trên không (aerial mage unit ground attack), miền đông (the east), “đào tạo cấp tốc” (“accelerated”)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông', nhóm quan sát là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000244
+    choices:
+      - "pronouns: Nội tâm tự quy chiếu của Zettour dùng 'mình' và 'quân ta'; trần thuật dùng 'Ông'"
+      - "emphasis: Bọc đúng câu độc thoại nội tâm '*Vậy là giờ mình đã thành một lão già rồi. Ngay cả chuyện mình có đang theo kịp bước tiến của quân ta hay không thôi cũng đã cực kỳ đáng ngờ*.' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000245
+    choices:
+      - "terms: trận địa chống tăng (anti-tank position), chiến thuật pháp sư trên không (aerial mage tactics), hai cụm thiết giáp (both armored groups)"
+      - "pronouns: Trần thuật dùng 'Ông'; thoại Zettour dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000246
+    choices:
+      - "terms: mũi cơ động bao vây (encirclement maneuver)"
+      - "pronouns: Trần thuật dùng 'ông' (Zettour) và 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000247
+    choices:
+      - "ranks_and_names: Tướng von Zettour (General von Zettour), Chỉ huy Cramm (Commander Cramm)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000248
+    choices:
+      - "pronouns: Zettour xưng 'ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000249
+    choices:
+      - "ranks_and_names: Tướng von Zettour (General von Zettour)"
+      - "terms: không hạm đội (aerial fleet), Các đơn vị Quân đội Liên bang (The Federation Army units)"
+      - "pronouns: Cramm dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000250
+    choices:
+      - "pronouns: Zettour dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000251
+    choices:
+      - "ranks_and_names: Tướng quân (General)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000252
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'Ông'"
+      - "emphasis: Bọc đúng câu nội tâm '*Đúng là rắc rối thật.*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000253
+    choices:
+      - "terms: Văn phòng Bộ Tổng tham mưu (General Staff Office), thực địa (the field), Tiền tuyến (The front lines), Bộ Tư lệnh Tối cao (Supreme Command)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000254
+    choices:
+      - "ranks_and_names: Chỉ huy Cramm (Commander Cramm)"
+      - "pronouns: Zettour xưng 'ta', gọi Cramm là 'anh'; giữ phủ định kép 'không thể phủ nhận là ta đang thấy phấn khích'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000255
+    choices:
+      - "modality: Câu hỏi ngắn lặp lại từ 'Một thời cơ ư?'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000256
+    choices:
+      - "terms: tuyến Rhine (Rhine lines)"
+      - "pronouns: Zettour dùng 'chúng ta', gọi quân địch là 'đám lính địch / bọn chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000257
+    choices:
+      - "modality: Giữ cấp độ so sánh hơn 'Mà lần này lại còn mạo hiểm hơn thế nữa'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000258
+    choices:
+      - "terms: Kampfgruppe Lergen (Lergen Kampfgruppe), đợt tiến công (offensive), thế gọng kìm (pincer attack)"
+      - "pronouns: Zettour gọi Cramm là 'anh', dùng 'chúng ta'; giữ điều kiện giả định 'nếu Kampfgruppe Lergen phối hợp đồng bộ...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000259
+    choices:
+      - "terms: mũi bao vây (envelopment)"
+      - "pronouns: Cramm gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000260
+    choices:
+      - "pronouns: Zettour dùng 'Chúng ta'"
+      - "modality: Giữ rõ mức độ 'mới chỉ vừa giành được khả năng để điều đó xảy ra thôi'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000261
+    choices:
+      - "modality: Giữ nét lắp bắp 'X-xoay xở sáng tạo ạ?' của Trung úy Grantz"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000262
+    choices:
+      - "ranks_and_names: Trung úy Grantz (Lieutenant Grantz)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000263
+    choices:
+      - "pronouns: Grantz xưng 'tôi' và dùng 'ạ' với Zettour"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000264
+    choices:
+      - "terms: Kampfgruppe Lergen (Lergen Kampfgruppe), sự lãng phí về mặt chiến thuật (tactical waste)"
+      - "pronouns: Zettour xưng 'ta', gọi Grantz là 'cậu' ('điều mà cậu đang lo sợ')"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000265
+    choices:
+      - "pronouns: Cramm xưng 'tôi', gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000266
+    choices:
+      - "pronouns: Trần thuật gọi Cramm là 'ông ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000267
+    choices:
+      - "pronouns: Trần thuật phân biệt 'ông' (Zettour) và 'ông ta' (Cramm)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000268
+    choices:
+      - "ranks_and_names: Chỉ huy Cramm (Commander Cramm)"
+      - "pronouns: Zettour dùng 'Chúng ta', không dùng tiểu từ 'ạ' với cấp dưới"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000269
+    choices:
+      - "pronouns: Cramm xưng 'tôi'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000270
+    choices:
+      - "modality: Giữ cấu trúc phủ định 'Zettour không kiêu ngạo hay xấc xược đến mức từ chối lắng nghe...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000271
+    choices:
+      - "ranks_and_names: Đại tá von Lergen (Colonel von Lergen)"
+      - "terms: chiến dịch gọng kìm (pincer operation)"
+      - "pronouns: Cramm gọi Zettour là 'ngài', xưng 'chúng tôi'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000272
+    choices:
+      - "pronouns: Zettour xưng 'Ta'; giữ phủ định ngắn gọn 'Ta đâu có bàn trước.'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000273
+    choices:
+      - "formatting: Giữ nguyên ba lớp ngoặc kép '“““Hả?”””'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000274
+    choices:
+      - "terms: Kampfgruppe Lergen (Lergen Kampfgruppe)"
+      - "pronouns: Zettour xưng 'Ta'; trần thuật gọi nhóm sĩ quan là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000275
+    choices:
+      - "terms: thế gọng kìm (a pincer)"
+      - "modality: Giữ nét lắp bắp 'Nh-nhưng còn thế gọng kìm…'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000276
+    choices:
+      - "terms: Bộ Tổng tham mưu (General Staff), Chúa (God), Tổ quốc (fatherland), sĩ quan tham mưu (staffer)"
+      - "pronouns: Zettour xưng 'Ta', dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000277
+    choices:
+      - "pronouns: Vị chỉ huy (Cramm) gọi Zettour là 'ngài', xưng hô 'thưa ngài'; trần thuật gọi Cramm là 'ông ta'"
+      - "emphasis: Bọc đúng câu nội tâm '*Chuyện đó quá rõ ràng rồi.*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000278
+    choices:
+      - "terms: sĩ quan tham mưu (staff officer)"
+      - "pronouns: Zettour xưng 'ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000279
+    choices:
+      - "terms: hệ tư duy (paradigm), Thập Nhị Hiệp Sĩ (Twelve Knights), trường đại học quân sự (war college)"
+      - "pronouns: Trần thuật dùng 'Họ' (các sĩ quan tham mưu) và 'cô' (chỉ Tanya von Degurechaff)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000280
+    choices:
+      - "modality: Khẳng định độ chắc chắn 'chuyện đó là cầm chắc rồi'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000281
+    choices:
+      - "modality: Giữ nét lắp bắp 'Th-thế còn bức điện lúc trước thì sao ạ?'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000282
+    choices:
+      - "terms: đòn nghi binh tâm lý (psychological pretense)"
+      - "pronouns: Zettour dùng 'quân ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000283
+    choices:
+      - "ranks_and_names: Degurechaff, sĩ quan (officer)"
+      - "modality: Giữ đúng tương phản 'con người của Degurechaff có lẽ đã hỏng rồi, nhưng với tư cách một sĩ quan thì không'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000284
+    choices:
+      - "terms: Heimat (giữ nguyên, không in nghiêng)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000285
+    choices:
+      - "pronouns: Zettour xưng 'ta', gọi thuộc cấp tại sở chỉ huy là 'các binh sĩ / các vị'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000286
+    choices:
+      - "terms: thế gọng kìm (the pincer), chiến thuật (tactics), cuộc tấn công trực diện (frontal attack)"
+      - "pronouns: Nội tâm Zettour dùng 'chúng ta', gọi địch là 'bọn chúng'; trần thuật dùng 'họ'"
+      - "emphasis: Bọc đúng câu nội tâm '*Đó là một đòi hỏi rất khắc nghiệt, nhưng hãy cứ tin rằng nếu chúng ta nhử được bọn chúng vào đây, thế gọng kìm sẽ thành hình.*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000287
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'Ông'"
+      - "emphasis: Không dùng *...*"
