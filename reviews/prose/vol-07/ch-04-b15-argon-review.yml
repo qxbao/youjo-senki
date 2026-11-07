@@ -1,0 +1,206 @@
+task_id: "vol-07-ch-04-b15-argon-review"
+parent_task_id: "vol-07-ch-04-b15"
+volume: "vol-07"
+chapter: 4
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-07/ch-04-b15-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000390"
+    severity: "minor"
+    category: "lexical_nuance"
+    issue: "Từ 'conveniently' trong câu hỏi đầu đoạn đang được dịch là 'tiện thể' ('tiện thể hiểu lầm'). Trong tiếng Việt, 'tiện thể' chỉ việc nhân tiện làm việc này thì làm luôn việc khác, chưa phản ánh đúng sắc thái hiểu lầm một cách vừa khéo hoặc theo hướng thuận lợi cho suy nghĩ chủ quan của đối phương."
+    rationale: "Giữ đúng sắc thái đánh giá mỉa mai của Tanya về việc pháp sư Liên bang tự hiểu lầm động tác quay đầu của Tiểu đoàn 203 theo hướng có lợi cho chúng."
+    suggested_fix: "Đổi 'Hay chúng tiện thể hiểu lầm' thành 'Hay chúng vừa khéo hiểu lầm' hoặc 'Hay chúng tự hiểu lầm theo hướng thuận lợi cho mình rằng động tác quay đầu của Tanya và đơn vị nó là đang “tháo chạy” khỏi chúng?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000410"
+    severity: "minor"
+    category: "style_guide_compliance"
+    issue: "Bản dịch thêm cụm giải thích 'lỗ chỗ đạn' đi kèm ẩn dụ 'miếng phô mai Thụy Sĩ' ('Swiss cheese')."
+    rationale: "Theo hướng dẫn văn phong, không tự thêm từ ngữ giải thích khi hình ảnh ẩn dụ trong nguyên tác vốn ngắn gọn và đã đủ rõ trong ngữ cảnh tác chiến."
+    suggested_fix: "Rút gọn thành: 'Chúng ta có thể biến thành miếng phô mai Thụy Sĩ mất.'."
+pending_term_recommendations:
+  - source_term: "tank / defensive shells / explosion formula"
+    proposed_vi: "kẻ giữ vai trò đỡ đòn như xe tăng / lớp vỏ phòng thủ / thuật thức phát nổ"
+    alternatives_vi:
+      - "vai trò xe tăng đỡ đòn / lớp vỏ phòng ngự / công thức nổ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ tính liên kết với phép ẩn dụ ví các pháp sư Liên bang thiên về phòng ngự như xe tăng ở các batch trước và thống nhất các thuật ngữ tác chiến ma pháp theo sổ pending."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000390"
+      - "YS-LN07/Text/chapter016.xhtml/p000394"
+      - "YS-LN07/Text/chapter016.xhtml/p000397"
+  - source_term: "203rd Aerial Mage Battalion / the Reich / Federation Army / Federation mages / Federation soldiers"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 / Đế quốc / Quân đội Liên bang / pháp sư Liên bang / binh lính Liên bang"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thống nhất cách gọi tên đơn vị, quốc gia và lực lượng hai phe theo chuẩn tạm thời trong work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000390"
+      - "YS-LN07/Text/chapter016.xhtml/p000391"
+      - "YS-LN07/Text/chapter016.xhtml/p000392"
+      - "YS-LN07/Text/chapter016.xhtml/p000393"
+      - "YS-LN07/Text/chapter016.xhtml/p000395"
+      - "YS-LN07/Text/chapter016.xhtml/p000399"
+      - "YS-LN07/Text/chapter016.xhtml/p000400"
+      - "YS-LN07/Text/chapter016.xhtml/p000408"
+  - source_term: "Major Weiss / Major / vice commander / second-in-command / Colonel / ma’am"
+    proposed_vi: "Thiếu tá Weiss / Thiếu tá / phó chỉ huy / Trung tá / thưa Trung tá"
+    alternatives_vi:
+      - "bậc phó chỉ huy"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp cấp bậc hiện tại của Tanya (Trung tá) và Weiss (Thiếu tá, phó chỉ huy tiểu đoàn) ở Tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000396"
+      - "YS-LN07/Text/chapter016.xhtml/p000403"
+      - "YS-LN07/Text/chapter016.xhtml/p000411"
+      - "YS-LN07/Text/chapter016.xhtml/p000413"
+      - "YS-LN07/Text/chapter016.xhtml/p000414"
+      - "YS-LN07/Text/chapter016.xhtml/p000415"
+      - "YS-LN07/Text/chapter016.xhtml/p000417"
+      - "YS-LN07/Text/chapter016.xhtml/p000423"
+  - source_term: "limited air superiority / anti-mage combat / paratrooper rangers / river crossing"
+    proposed_vi: "ưu thế trên không cục bộ / tác chiến chống pháp sư / lực lượng biệt kích dù / điểm vượt sông"
+    alternatives_vi:
+      - "quyền làm chủ bầu trời hạn chế / lính dù biệt kích / bến vượt sông"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất các thuật ngữ quân sự của Chiến dịch Búa Sắt tại mặt trận phía đông trong Chương 4 Tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000402"
+      - "YS-LN07/Text/chapter016.xhtml/p000408"
+      - "YS-LN07/Text/chapter016.xhtml/p000409"
+  - source_term: "enemy HQ / headquarters / HQ / deception / assault formation / search and destroy"
+    proposed_vi: "sở chỉ huy địch / sở chỉ huy / trò nghi binh (nghi binh) / đội hình tập kích / tìm và diệt"
+    alternatives_vi:
+      - "tổng hành dinh địch / kế nghi binh / đội hình xung kích / lùng và diệt"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp với hệ thuật ngữ chỉ huy và chiến thuật đã khóa ở các batch trước của Tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000403"
+      - "YS-LN07/Text/chapter016.xhtml/p000404"
+      - "YS-LN07/Text/chapter016.xhtml/p000408"
+      - "YS-LN07/Text/chapter016.xhtml/p000412"
+      - "YS-LN07/Text/chapter016.xhtml/p000414"
+      - "YS-LN07/Text/chapter016.xhtml/p000416"
+      - "YS-LN07/Text/chapter016.xhtml/p000421"
+      - "YS-LN07/Text/chapter016.xhtml/p000425"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000390"
+    choices:
+      - "Trần thuật pha điểm nhìn Tanya: giữ tên riêng 'Tanya', đại từ 'nó' theo DEC-P01-001, ẩn dụ 'vai trò đỡ đòn như xe tăng trong một tổ đội' (party's tank), và 'đám pháp sư Liên bang' (Federation mages)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000391"
+    choices:
+      - "Trần thuật: giữ 'Tiểu đoàn Pháp sư Trên không số 203' (203rd Aerial Mage Battalion) và chuỗi hành động vờ tản ra rồi lập tức vòng ngược lại tập kích."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000392"
+    choices:
+      - "Trần thuật: giữ 'Binh lính Liên bang' (Federation soldiers), 'lực lượng tinh nhuệ của Đế quốc' (the elites of the Reich), và quan hệ nhân quả khi cục diện xoay chuyển đột ngột."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000393"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ đại từ tự xưng 'mình' theo DEC-P01-001 và 'binh lính Liên bang' (Federation soldiers)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000394"
+    choices:
+      - "Trần thuật từ điểm nhìn Tanya: giữ tên riêng 'Tanya', đại từ 'nó' theo DEC-P01-001, 'những lớp vỏ phòng thủ bền chắc' (durable defensive shells), và nhận định thực lực không tỷ lệ thuận với ý chí."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000395"
+    choices:
+      - "Trần thuật: giữ 'Tiểu đoàn Pháp sư Trên không số 203' (203rd Aerial Mage Battalion)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000396"
+    choices:
+      - "Thoại của Tanya với cấp dưới: giữ đại từ 'Chúng ta' / 'chúng ta', 'pháp sư trên không của địch' (enemy aerial mages), và danh xưng 'Thiếu tá Weiss' (Major Weiss)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000397"
+    choices:
+      - "Thoại báo cáo của Thiếu tá Weiss: giữ 'thuật thức phát nổ' (explosion formula), 'đại đội' (companies), 'chúng ta' (we), và tiểu từ lễ phép 'ạ' khi báo cáo với cấp trên."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000398"
+    choices:
+      - "Thoại của Tanya: giữ câu hỏi xác nhận tỷ lệ thương vong 'một phần tư quân số của chúng ta' (a quarter of our members)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000399"
+    choices:
+      - "Trần thuật kết hợp nội tâm Tanya: giữ đại từ 'Nó' / 'nó' cho Tanya theo DEC-P01-001, 'Họ' cho đơn vị, 'đám pháp sư Liên bang' (Federation mages), và giữ đúng phạm vi nhấn mạnh Markdown '*Cảm giác chẳng giống như chúng ta đang giao chiến với Quân đội Liên bang chút nào…*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000400"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ đại từ tự xưng 'mình' theo DEC-P01-001, 'Quân đội Liên bang' (Federation Army), 'sức kháng cự có tổ chức của Liên bang' (the Federation's organized resistance), và phủ định 'chẳng hề lộ dấu hiệu sụp đổ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000401"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ giả định trái thực tế 'hẳn đã phải rệu rã' và đại từ tự xưng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000402"
+    choices:
+      - "Thoại chỉ huy của Tanya: giữ đại từ 'chúng ta', 'ưu thế trên không cục bộ' (limited air superiority), 'viện binh địch' (enemy reinforcements)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000403"
+    choices:
+      - "Thoại của Weiss và trần thuật: giữ cách đáp 'Rõ, thưa Trung tá!' (Yes, ma'am!), 'sở chỉ huy địch' (enemy HQ), đại từ 'Anh' cho Weiss, 'vị phó chỉ huy' (vice commander), và giữ đúng phạm vi nhấn mạnh Markdown '*được xác định*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000404"
+    choices:
+      - "Thoại của Tanya: giữ mức độ phán đoán 'khả năng rất cao' (a very good chance) và 'trò nghi binh' (deception)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000405"
+    choices:
+      - "Thoại hỏi lại của Weiss: giữ sắc thái lễ phép 'Sao cơ ạ?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000406"
+    choices:
+      - "Thoại của Tanya với Weiss: giữ tình thái phỏng đoán 'Có lẽ' (probably), đại từ 'chúng ta' và tự xưng 'Tôi'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000407"
+    choices:
+      - "Trần thuật về Tanya: giữ đại từ 'Nó' / 'nó' theo DEC-P01-001 và phủ định 'thực sự không muốn'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000408"
+    choices:
+      - "Trần thuật: giữ tên riêng 'Tanya', 'sở chỉ huy của Quân đội Liên bang' (Federation Army headquarters), 'Moskva', 'tác chiến chống pháp sư' (anti-mage combat), và đại từ 'họ' chỉ tiểu đoàn."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000409"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ 'nhiệm vụ phụ trội' (additional task), 'lực lượng biệt kích dù' (paratrooper rangers), 'điểm vượt sông' (river crossing), đại từ 'chúng ta' và phủ định 'Chẳng có lý do gì'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000410"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ đại từ 'Chúng ta' và tình thái khả năng 'có thể' (could)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000411"
+    choices:
+      - "Thoại của Weiss gọi Tanya: giữ danh xưng cấp bậc thực tế 'Thưa Trung tá?' (Colonel?)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000412"
+    choices:
+      - "Thoại của Tanya: giữ 'Sức kháng cự của Liên bang' (Federation resistance), đại từ 'chúng ta', và 'Sở chỉ huy của chúng' (The headquarters)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000413"
+    choices:
+      - "Thoại của Weiss tán đồng Tanya: giữ cách xưng hô tôn kính '…Vâng, Trung tá nói đúng ạ.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000414"
+    choices:
+      - "Thoại của Tanya và trần thuật: giữ 'vị phó chỉ huy' (second-in-command), 'lá cờ đỏ của phe Cộng sản' (the Communists' red flag), danh xưng 'Thiếu tá' (Major), 'Nghi binh' (Deception), 'sở chỉ huy địch' (enemy HQ), và 'suy nghĩ quá đỗi viển vông' (thinking too wishfully)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000415"
+    choices:
+      - "Thoại của Weiss hỏi lại Tanya: giữ xưng hô 'Trung tá', đại từ 'chúng ta' và tiểu từ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000416"
+    choices:
+      - "Thoại của Tanya và trần thuật: giữ tên riêng 'Tanya', đại từ 'nó' theo DEC-P01-001, 'sở chỉ huy' (HQ), và giữ đúng phạm vi nhấn mạnh Markdown '*Chắc chắn là không rồi*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000417"
+    choices:
+      - "Trần thuật về Tanya: giữ đại từ 'Nó' / 'nó' theo DEC-P01-001, tên riêng 'Weiss', và độ bất định 'chẳng chắc chắn về sự thật'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000418"
+    choices:
+      - "Bình luận nội tâm của Tanya: giữ cấu trúc điều kiện 'Nếu người chỉ huy trong một cuộc tập kích thất bại' và 'một cái cớ hợp lý' (a plausible excuse)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000419"
+    choices:
+      - "Thoại nhận xét về đối phương: giữ thành ngữ khuyết 'lũ ngốc và cái thứ gì đó rất mê chỗ cao' và 'đám Cộng sản' (Communists)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000420"
+    choices:
+      - "Thoại của Weiss với Tanya: giữ tự xưng 'Tôi' kèm 'ạ' ('Tôi hiểu rồi ạ.') và đại từ 'chúng ta'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000421"
+    choices:
+      - "Trần thuật và thoại mệnh lệnh của Tanya: giữ đúng phạm vi nhấn mạnh Markdown '*Đành chịu vậy thôi*' theo DEC-P01-002, 'đội hình tập kích' (assault formation), và 'tìm và diệt' (search and destroy)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000422"
+    choices:
+      - "Thoại nhận lệnh của Weiss: giữ 'Đã rõ ạ.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000423"
+    choices:
+      - "Trần thuật từ điểm nhìn Tanya: giữ 'Vị phó chỉ huy của nó' (her second-in-command), đại từ 'Nó' / 'nó' và 'mình' cho Tanya theo DEC-P01-001, đại từ 'anh' cho Weiss, và 'các đồng đội của nó' (her friends)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000424"
+    choices:
+      - "Độc thoại nội tâm của Tanya về thị trường lao động: giữ lập luận về mức đãi ngộ tương xứng và ví dụ về các cầu thủ bóng chày chuyên nghiệp tầm cỡ át chủ bài."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000425"
+    choices:
+      - "Trần thuật pha nội tâm Tanya: giữ đại từ 'chúng ta', tên riêng 'Tanya', đại từ 'nó' theo DEC-P01-001, 'mệnh lệnh phụ trội' (additional order), và 'sở chỉ huy địch' (enemy HQ)."
