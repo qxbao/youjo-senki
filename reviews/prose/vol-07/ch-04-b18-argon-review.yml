@@ -1,0 +1,187 @@
+task_id: "vol-07-ch-04-b18-argon-review"
+parent_task_id: "vol-07-ch-04-b18"
+volume: "vol-07"
+chapter: 4
+reviewer: "gemini-4-argon-medium"
+review_path: "reviews/prose/vol-07/ch-04-b18-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+unresolved_findings: 0
+findings:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000503"
+    severity: "minor"
+    category: "pronoun_clarity"
+    issue: "Ở mệnh đề 'và Tanya lên tiếng hỏi ngay khi cô giơ tay chào', đại từ 'cô' dùng để quy chiếu về Trung úy Serebryakov nhưng lại đứng ngay sau chủ ngữ 'Tanya', dễ gây nhập nhằng chủ thể hành động chào hoặc tạo cảm giác lẫn đại từ trần thuật của Tanya (vốn dùng 'nó' theo DEC-P01-001)."
+    rationale: "Làm rõ đối tượng quy chiếu là Serebryakov và giữ ranh giới đại từ trần thuật thật mạch lạc."
+    suggested_fix: "Đổi 'ngay khi cô giơ tay chào' thành 'ngay khi cô ấy giơ tay chào' hoặc 'ngay khi vị trung úy giơ tay chào'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000516"
+    severity: "minor"
+    category: "register_and_precision"
+    issue: "Trong lời thoại của Tanya nói với hai sĩ quan cấp dưới (Thiếu tá Weiss và Trung úy Serebryakov), cụm tự quy chiếu nhóm ở hiện trường ('us in the field') được dịch thành 'đám lính ngoài thực địa chúng ta', hơi lệch vì cả ba đều là sĩ quan chỉ huy và tham mưu chứ không phải binh lính."
+    rationale: "Giữ đúng vị thế sĩ quan ngoài thực địa và không tự thu hẹp nghĩa sang 'đám lính'."
+    suggested_fix: "Đổi 'lại là đám lính ngoài thực địa chúng ta' thành 'lại là những người ở ngoài thực địa như chúng ta' hoặc 'lại là cánh quân nhân ngoài thực địa chúng ta'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000517"
+    severity: "minor"
+    category: "style_and_naturalness"
+    issue: "Cụm 'là bí mật tuyệt mật' ở cuối đoạn bị lặp yếu tố nghĩa 'mật' khi diễn đạt tính chất bảo mật ('top secret')."
+    rationale: "Giúp câu văn tiếng Việt tự nhiên, gọn và chuẩn thuật ngữ bảo mật hơn."
+    suggested_fix: "Đổi 'là bí mật tuyệt mật' thành 'là tuyệt mật' hoặc 'thuộc diện tuyệt mật'."
+pending_term_recommendations:
+  - source_term: "airborne troops / paratrooper rangers / the airborne guys / 203rd Aerial Mage Battalion / aerial mage forces"
+    proposed_vi: "quân đổ bộ đường không / lực lượng biệt kích dù / mấy anh lính đổ bộ đường không / Tiểu đoàn Pháp sư Trên không số 203 / lực lượng pháp sư trên không"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp nhất quán với hệ thuật ngữ đơn vị đổ bộ đường không, biệt kích dù và pháp sư trên không đã dùng trong Tập 7 và work/run-state/pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000499"
+      - "YS-LN07/Text/chapter016.xhtml/p000506"
+      - "YS-LN07/Text/chapter016.xhtml/p000525"
+      - "YS-LN07/Text/chapter016.xhtml/p000527"
+      - "YS-LN07/Text/chapter016.xhtml/p000528"
+  - source_term: "vice commander / Major Weiss / adjutant / Lieutenant Serebryakov / Colonel / ma’am / Captain Meybert / Captain Ahrens / Lieutenant Tospan"
+    proposed_vi: "phó chỉ huy (vị phó chỉ huy) / Thiếu tá Weiss / viên sĩ quan phụ tá / Trung úy Serebryakov / thưa Trung tá / Đại úy Meybert / Đại úy Ahrens / Trung úy Tospan"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ đúng cấp bậc, chức vụ và danh xưng của các sĩ quan trong Kampfgruppe Salamander theo các batch trước của Tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000501"
+      - "YS-LN07/Text/chapter016.xhtml/p000503"
+      - "YS-LN07/Text/chapter016.xhtml/p000505"
+      - "YS-LN07/Text/chapter016.xhtml/p000509"
+      - "YS-LN07/Text/chapter016.xhtml/p000512"
+      - "YS-LN07/Text/chapter016.xhtml/p000519"
+      - "YS-LN07/Text/chapter016.xhtml/p000520"
+      - "YS-LN07/Text/chapter016.xhtml/p000522"
+      - "YS-LN07/Text/chapter016.xhtml/p000524"
+      - "YS-LN07/Text/chapter016.xhtml/p000525"
+  - source_term: "Federation Army / General Staff / staff officer / map maneuvers / supply route / Ildoa / home country / armored unit / the Rhine"
+    proposed_vi: "Quân đội Liên bang / Bộ Tổng tham mưu / sĩ quan tham mưu / diễn tập sa bàn / tuyến tiếp vận / Ildoa / bản quốc / đơn vị thiết giáp / mặt trận Rhine"
+    alternatives_vi: []
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất hệ thuật ngữ tham mưu, hậu cần, địa danh và thiết chế quân sự trong Tập 7."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000506"
+      - "YS-LN07/Text/chapter016.xhtml/p000510"
+      - "YS-LN07/Text/chapter016.xhtml/p000512"
+      - "YS-LN07/Text/chapter016.xhtml/p000513"
+      - "YS-LN07/Text/chapter016.xhtml/p000517"
+      - "YS-LN07/Text/chapter016.xhtml/p000524"
+      - "YS-LN07/Text/chapter016.xhtml/p000528"
+      - "YS-LN07/Text/chapter016.xhtml/p000529"
+  - source_term: "air fleet / battle of annihilation / operating rate"
+    proposed_vi: "không hạm đội / trận đánh tiêu diệt / tỷ lệ hoạt động"
+    alternatives_vi:
+      - "hạm đội không quân / trận tiêu diệt chiến / tỷ lệ xuất kích hoạt động"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Khớp 'không hạm đội' với mục pending đã ghi nhận trong Tập 7 và diễn đạt chính xác thuật ngữ tác chiến không quân."
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000530"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000498"
+    choices:
+      - "Thoại của Đại úy Meybert với Tanya: giữ tự xưng 'tôi' và tiểu từ lễ phép 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000499"
+    choices:
+      - "Thoại mệnh lệnh của Tanya với Meybert: giữ xưng hô 'tôi' – 'anh' / 'chúng ta', phủ định 'không cao lắm', 'quân đổ bộ đường không' (airborne troops), và giữ đúng phạm vi nhấn mạnh Markdown '*Đừng*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000500"
+    choices:
+      - "Trần thuật pha nhận định nội tâm của Tanya: giữ 'Viên sĩ quan pháo binh' (The artillery officer) và cấu trúc đối lập 'đáng được khích lệ chứ không phải trách cứ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000501"
+    choices:
+      - "Trần thuật và thoại của Tanya: giữ 'Tanya', 'phó chỉ huy' (vice commander), 'Thiếu tá Weiss' (Major Weiss), và nhịp bỏ lửng 'chúng ta… Hửm?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000502"
+    choices:
+      - "Thoại báo cáo khi quay về của Trung úy Serebryakov: giữ 'Tôi đã quay về rồi ạ.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000503"
+    choices:
+      - "Trần thuật và thoại của Tanya: giữ 'viên sĩ quan phụ tá' (adjutant), 'Weiss', 'Tanya', 'Trung úy Serebryakov' (Lieutenant Serebryakov), xưng hô 'cô' trong thoại, và câu hỏi kiểm tra việc phá hủy cầu của các đơn vị khác."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000504"
+    choices:
+      - "Thoại báo cáo của Serebryakov: giữ tình thái 'Hình như' (Apparently), phủ định 'không được phép làm vậy', và tiểu từ 'ạ'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000505"
+    choices:
+      - "Thoại và trần thuật: giữ cặp câu hỏi ngắn của Tanya, đại từ 'nó' cho Tanya theo DEC-P01-001, và 'viên sĩ quan phụ tá' (adjutant)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000506"
+    choices:
+      - "Thoại của Serebryakov và nhận định của Tanya: giữ 'Lực lượng biệt kích dù' (paratrooper rangers), phủ định 'không được làm hư hại nó', 'quân ta' (our control), và 'Quân đội Liên bang' (Federation Army)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000507"
+    choices:
+      - "Nội tâm và trần thuật: giữ đúng phạm vi nhấn mạnh Markdown '*Chuyện quái gì thế này…?*' theo DEC-P01-002 và tên riêng 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000508"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ hai cấu trúc điều kiện 'Nếu...' / 'Chỉ cần... thì...' và phủ định kép 'không thể phủ nhận'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000509"
+    choices:
+      - "Thoại của Weiss và trần thuật: giữ phủ định 'không thể phá hủy chúng', danh xưng 'thưa Trung tá' (Colonel), và tên riêng 'Weiss', 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000510"
+    choices:
+      - "Thoại của Tanya: giữ 'Bộ Tổng tham mưu tham lam thật.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000511"
+    choices:
+      - "Thoại hỏi lại của Weiss: giữ 'Tham lam ạ?'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000512"
+    choices:
+      - "Thoại và độc thoại phân tích của Tanya: giữ đại từ 'nó' cho Tanya theo DEC-P01-001, 'vị phó chỉ huy' (the vice commander), 'sĩ quan tham mưu' (staff officer), 'diễn tập sa bàn' (map maneuvers), và 'tuyến tiếp vận' (supply route)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000513"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ tình thái 'có lẽ' (perhaps), 'Bộ Tổng tham mưu' (General Staff), 'Quân đội Liên bang' (Federation Army), và giữ đúng phạm vi nhấn mạnh Markdown '*Nếu các người không chấp nhận các điều khoản của chúng tôi trong cuộc đàm phán này, chúng tôi sẽ tiến quân xâm lược.*' theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000514"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ 'đường tiến công' (route to attack), phủ định 'Chẳng còn mấy cách nào khác', và đại từ tự quy chiếu nội tâm 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000515"
+    choices:
+      - "Độc thoại nội tâm của Tanya: giữ tương phản 'Nhưng dù có thể... lại đang...', điều kiện phủ định 'Nếu không thể...', và tình thái phản bác 'đáng lẽ phải là một phương án được tính đến chứ!'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000516"
+    choices:
+      - "Thoại của Tanya: giữ tự xưng 'Tôi' / 'chúng ta', tình thái 'xem chừng' (apparently), và 'cấp trên' (the higher-ups)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000517"
+    choices:
+      - "Thoại của Serebryakov và trần thuật điểm nhìn Tanya: giữ câu hỏi lễ phép có 'Trung tá' / 'ạ', tên riêng 'Serebryakov', 'Tanya', và địa danh 'Ildoa'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000518"
+    choices:
+      - "Thoại chữa lời của Tanya: giữ 'Ồ, không có gì đâu. Đừng bận tâm. Cả hai người cứ quên chuyện đó đi.'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000519"
+    choices:
+      - "Thoại tuân lệnh của cấp dưới: giữ 'Rõ, thưa Trung tá.' (Yes, ma’am.)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000520"
+    choices:
+      - "Trần thuật: giữ 'Viên sĩ quan phụ tá' (adjutant), 'phó chỉ huy' (vice commander), đại từ sở hữu 'của nó' theo DEC-P01-001, và tên riêng 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000521"
+    choices:
+      - "Trần thuật nội tâm của Tanya: giữ tên riêng 'Tanya' và đại từ 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000522"
+    choices:
+      - "Trần thuật và thoại của Tanya với Meybert: giữ đại từ 'Nó' theo DEC-P01-001, 'Đại úy Meybert' (Captain Meybert), và xưng hô 'Tôi' – 'anh' cùng 'cô ấy' (quy chiếu Serebryakov)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000523"
+    choices:
+      - "Thoại tiếc nuối của Đại úy Meybert: giữ '…Tôi muốn hành động theo thẩm quyền riêng của mình ạ…'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000524"
+    choices:
+      - "Thoại và trần thuật của Tanya: giữ 'Đại úy' (Captain), 'bản quốc' (home country), xưng hô 'tôi' – 'anh', đại từ trần thuật 'Nó' theo DEC-P01-001, giữ đúng phạm vi nhấn mạnh Markdown '*Tôi không thể cho phép chuyện đó. Chắc chắn là anh hiểu mà*' theo DEC-P01-002, 'Đại úy Ahrens' (Captain Ahrens), và 'đơn vị thiết giáp' (armored unit)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000525"
+    choices:
+      - "Thoại nhận nhiệm vụ của Đại úy Ahrens: giữ tự xưng 'chúng tôi' kèm 'ạ', 'bộ binh của Trung úy Tospan' (Lieutenant Tospan’s infantry), và 'mấy anh lính đổ bộ đường không' (the airborne guys)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000526"
+    choices:
+      - "Thoại chỉ huy của Tanya: giữ đại từ 'Chúng ta' và mệnh lệnh khẩn trương lên đường chi viện cho các đơn vị khác."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000527"
+    choices:
+      - "Trần thuật pha hiệu lệnh nội tâm: giữ tên riêng 'Tanya', giữ đúng phạm vi nhấn mạnh Markdown '*Lên đường thôi!*' theo DEC-P01-002, và 'Tiểu đoàn Pháp sư Trên không số 203' (203rd Aerial Mage Battalion)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000528"
+    choices:
+      - "Trần thuật: giữ 'lực lượng pháp sư trên không' (aerial mage forces) và 'mặt trận Rhine' (the Rhine)."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000529"
+    choices:
+      - "Trần thuật: giữ 'mặt trận Rhine' (the Rhine) và tên riêng 'Tanya'."
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000530"
+    choices:
+      - "Trần thuật: giữ 'không hạm đội' (air fleet / the fleet), 'trận đánh tiêu diệt' (battle of annihilation), 'bầu trời phía đông' (eastern skies), và 'tỷ lệ hoạt động' (operating rate)."
