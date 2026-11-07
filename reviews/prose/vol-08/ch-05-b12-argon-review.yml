@@ -1,0 +1,248 @@
+task_id: vol-08-ch-05-b12-argon-review
+parent_task_id: vol-08-ch-05-b12
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b12-source.jsonl
+target_translation: translations/vol-08/ch-05-b12.jsonl
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000416
+    severity: moderate
+    category: pronouns_and_address
+    issue: "Trong lời thoại trực tiếp của sĩ quan cấp dưới (Đại úy Meybert) hỏi Trung tá Tanya, bản dịch viết 'Ý Trung tá là cô định rút...' khiến cấp dưới gọi thẳng cấp trên bằng đại từ ngôi thứ hai 'cô' ngay sau danh xưng 'Trung tá', lệch chuẩn tôn ti quân đội."
+    recommendation: "Sửa lại đại từ/cách hô gọi ngôi thứ hai cho đúng tôn ti cấp dưới nói với cấp trên: '“Tr-Trung tá! Ý Trung tá là định rút Tiểu đoàn Pháp sư Trên không số 203 khỏi trận địa khi chúng ta vẫn đang bị bao vây sao?!”' (hoặc lặp lại 'Trung tá định rút')."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000411
+    severity: minor
+    category: register_and_vocative
+    issue: "Ở p000411 và p000434, Tanya là chỉ huy trưởng đang lên lớp và hạ lệnh trực tiếp cho thuộc cấp nhưng bản dịch lại thêm từ kính ngữ 'thưa' ('thưa các vị'), làm giọng điệu hơi khách sáo quá mức so với khẩu khí mệnh lệnh suồng sã trong đoạn (như câu lệnh ở p000434)."
+    recommendation: "Có thể lược chữ 'thưa', chỉ giữ hô ngữ 'các vị' ở p000411 ('“*Ở đây*, các vị.”') và p000434 ('“Rõ cả chưa, các vị?”') để thể hiện đúng vị thế chỉ huy của Tanya."
+pending_term_recommendations:
+  - source_term: "eastern army / B Group / Lergen Kampfgruppe / Kampfgruppe / Soldim 528"
+    proposed_vi: "đạo quân phía đông / Cụm B / Kampfgruppe Lergen / Kampfgruppe / Soldim 528"
+    alternatives_vi: []
+    rationale: "Giữ thống nhất định danh các đơn vị, cụm quân và cứ điểm tại mặt trận phía đông theo sổ pending của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000405
+      - YS-LN08/Text/chapter018.xhtml/p000409
+      - YS-LN08/Text/chapter018.xhtml/p000412
+      - YS-LN08/Text/chapter018.xhtml/p000418
+      - YS-LN08/Text/chapter018.xhtml/p000436
+      - YS-LN08/Text/chapter018.xhtml/p000438
+    status: pending
+  - source_term: "203rd Aerial Mage battalion / aerial mage battalion / mage battalion / Wüstemann’s replacement unit / Wüstemann’s replacement mages"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 / tiểu đoàn pháp sư trên không / tiểu đoàn pháp sư / đơn vị pháp sư bổ sung của Wüstemann / số pháp sư bổ sung của Wüstemann"
+    alternatives_vi:
+      - "Tiểu đoàn Pháp sư Trên không số 203 / tiểu đoàn pháp sư trên không / tiểu đoàn pháp sư / đơn vị bổ sung của Wüstemann / số pháp sư bổ sung của Wüstemann"
+    rationale: "Đồng bộ định danh Tiểu đoàn Pháp sư Trên không số 203 và lực lượng bổ sung của Trung úy Wüstemann."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000412
+      - YS-LN08/Text/chapter018.xhtml/p000416
+      - YS-LN08/Text/chapter018.xhtml/p000419
+      - YS-LN08/Text/chapter018.xhtml/p000427
+    status: pending
+  - source_term: "Captain Meybert / Meybert / Captain Ahrens / Tospan / Major Weiss / Zettour / Lieutenant Colonel Drake / Drake / Colonel / ma’am"
+    proposed_vi: "Đại úy Meybert / Meybert / Đại úy Ahrens / Tospan / Thiếu tá Weiss / Zettour / Trung tá Drake / Drake / Trung tá / thưa Trung tá"
+    alternatives_vi: []
+    rationale: "Khớp cấp bậc và định danh nhân vật đã khóa xuyên suốt tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000412
+      - YS-LN08/Text/chapter018.xhtml/p000416
+      - YS-LN08/Text/chapter018.xhtml/p000418
+      - YS-LN08/Text/chapter018.xhtml/p000419
+      - YS-LN08/Text/chapter018.xhtml/p000420
+      - YS-LN08/Text/chapter018.xhtml/p000425
+      - YS-LN08/Text/chapter018.xhtml/p000426
+      - YS-LN08/Text/chapter018.xhtml/p000431
+      - YS-LN08/Text/chapter018.xhtml/p000436
+      - YS-LN08/Text/chapter018.xhtml/p000438
+    status: pending
+  - source_term: "static point / isolated, salient stronghold / isolated stronghold / mana signals"
+    proposed_vi: "chốt tĩnh / cứ điểm lồi bị cô lập / cứ điểm bị cô lập / tín hiệu ma năng"
+    alternatives_vi:
+      - "điểm chốt tĩnh / cứ điểm nhô ra bị cô lập / cứ điểm bị cô lập / tín hiệu ma năng"
+    rationale: "Giữ chuẩn xác thuật ngữ địa hình tác chiến và kỹ thuật ém tín hiệu ma năng của pháp sư."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000412
+      - YS-LN08/Text/chapter018.xhtml/p000418
+      - YS-LN08/Text/chapter018.xhtml/p000429
+      - YS-LN08/Text/chapter018.xhtml/p000438
+    status: pending
+  - source_term: "THE DAY SAME, IN THE VICINITY OF FEDERATION ARMY SIEGE LINE ONE"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, Ở VÙNG LÂN CẬN TUYẾN BAO VÂY SỐ MỘT CỦA QUÂN ĐỘI LIÊN BANG"
+    alternatives_vi: []
+    rationale: "Dịch chuẩn dòng tiêu đề chuyển cảnh theo quy ước viết hoa của chương."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000435
+    status: pending
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000405
+    choices:
+      - "terms: Cụm B (B Group), đạo quân phía đông (eastern army)"
+      - "pronouns: Nội tâm Tanya tự quy chiếu 'mình' và 'chúng ta'"
+      - "modality: Giữ giả định 'Xét đến kịch bản tồi tệ nhất, ngây thơ ngồi chờ được giải cứu sẽ là một hành động ngu xuẩn không thể tha thứ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000406
+    choices:
+      - "ranks_and_names: Tanya"
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "modality: Giữ đối sánh hai kịch bản 'trường hợp tốt nhất' và 'trường hợp tồi tệ nhất'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000407
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000408
+    choices:
+      - "pronouns: Tanya gọi các sĩ quan thuộc cấp là 'Các vị', gọi quân địch là 'chúng'"
+      - "emphasis: Chỉ bọc '*Có*' theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000409
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: nhân viên thông tin liên lạc (communications personnel), hàng ngũ hạ sĩ quan (noncoms), các sĩ quan của Kampfgruppe (Kampfgruppe officers), trường sĩ quan (academy)"
+      - "pronouns: Trần thuật gọi Tanya là 'Cô'"
+      - "emphasis: Chỉ bọc '*Ở đâu cơ?*' theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000410
+    choices:
+      - "pronouns: Độc thoại nội tâm Tanya tự quy chiếu 'mình', gọi các sĩ quan là 'họ'"
+      - "emphasis: Bọc toàn bộ đoạn bằng *...* theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000411
+    choices:
+      - "ranks_and_names: Tanya"
+      - "pronouns: Trần thuật gọi Tanya là 'Cô'; thoại dùng 'các vị' và 'chúng ta'"
+      - "emphasis: Chỉ bọc '*Ở đây*' và '*Cộp-cộp.*' theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000412
+    choices:
+      - "ranks_and_names: Wüstemann"
+      - "terms: Soldim 528, Quân đội Liên bang (Federation Army), chốt tĩnh (static point), chốt bị cô lập (isolated point), hậu phương (rear), tiểu đoàn pháp sư trên không (aerial mage battalion)"
+      - "pronouns: Gọi phía Quân đội Liên bang là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000413
+    choices:
+      - "terms: lực lượng bổ sung (replacements), đại đội (companies)"
+      - "modality: Giữ mức độ đánh giá 'xem chừng lại hoàn toàn có thể biện minh được một cách đáng ngạc nhiên'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000414
+    choices:
+      - "terms: đám Cộng sản (Commies), tiểu đoàn (battalion)"
+      - "pronouns: Tanya gọi các sĩ quan là 'Các vị', tự quy chiếu 'chúng ta', gọi quân Liên bang là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000415
+    choices:
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000416
+    choices:
+      - "ranks_and_names: Tr-Trung tá (C-Colonel)"
+      - "terms: Tiểu đoàn Pháp sư Trên không số 203 (203rd Aerial Mage battalion), trận địa (position)"
+      - "pronouns: Cấp dưới gọi Tanya là 'Trung tá' (không dùng 'cô' ở ngôi thứ hai), dùng 'chúng ta' cho lực lượng đang bị bao vây"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000417
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000418
+    choices:
+      - "ranks_and_names: Meybert"
+      - "terms: Soldim 528, cứ điểm lồi bị cô lập (isolated, salient stronghold), Kampfgruppe thiếu hụt quân số (understaffed Kampfgruppe)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000419
+    choices:
+      - "ranks_and_names: Tanya, Tospan, Wüstemann"
+      - "terms: tiểu đoàn pháp sư (mage battalion), bộ binh của Tospan (Tospan’s infantry), số pháp sư bổ sung của Wüstemann (Wüstemann’s replacement mages)"
+      - "modality: Giữ giả định 'Nếu... Ngay cả khi... hẳn vẫn rất khó hình dung...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000420
+    choices:
+      - "ranks_and_names: Đại úy Meybert (Captain Meybert), Đại úy Ahrens (Captain Ahrens)"
+      - "terms: lực lượng thiết giáp (armored forces), lực lượng dự bị (on reserve)"
+      - "pronouns: Tanya gọi Đại úy Meybert là 'Anh'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000421
+    choices:
+      - "modality: Giữ câu cảm thán giả định 'Sẽ thật đáng tiếc nếu để mất những binh sĩ này'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000422
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: quân bạn (friendly troops)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000423
+    choices:
+      - "pronouns: Trần thuật gọi Tanya là 'cô'"
+      - "modality: Giữ điều kiện 'Nếu cô làm vậy và mọi chuyện diễn ra suôn sẻ, tất cả mọi người sẽ được cứu'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000424
+    choices:
+      - "pronouns: Giữ sự chuyển điểm nhìn từ ngôi thứ ba 'cô' sang ngôi thứ nhất nội tâm 'mình' theo sát cấu trúc gốc"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000425
+    choices:
+      - "ranks_and_names: Trung tá (ma’am)"
+      - "pronouns: Thiếu tá Weiss dùng kính ngữ 'Xin Trung tá ra lệnh ạ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000426
+    choices:
+      - "ranks_and_names: Thiếu tá Weiss (Major Weiss), Tanya"
+      - "pronouns: Gọi Weiss là 'anh ấy / anh'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000427
+    choices:
+      - "terms: Tiểu đoàn pháp sư trên không (aerial mage battalion), cuộc tiến công tầm xa (long-range advance), tín hiệu (signals), đợt xuất kích (sortie)"
+      - "pronouns: Tanya dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000428
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000429
+    choices:
+      - "terms: ém tín hiệu ma năng (suppressing our mana signals)"
+      - "pronouns: Tanya dùng 'Chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000430
+    choices:
+      - "terms: mồi nhử (bait), trận địa (position), các pháp sư (mages)"
+      - "pronouns: Trần thuật gọi Tanya là 'Cô', gọi đơn vị là 'Họ'"
+      - "modality: Giữ phủ định và điều kiện 'không thể bỏ chạy...', 'bằng không số binh sĩ còn lại sẽ chẳng thể cầm cự được bao lâu'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000431
+    choices:
+      - "ranks_and_names: Zettour"
+      - "pronouns: Trần thuật gọi Tanya là 'Cô / cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000432
+    choices:
+      - "terms: Quân đội Liên bang (Federation Army), Cấp trên (higher-ups)"
+      - "pronouns: Tanya dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000433
+    choices:
+      - "modality: Giữ điều kiện 'Nếu chuyện này diễn ra suôn sẻ, những kết quả thực sự tuyệt vời chắc chắn sẽ nằm trong tầm tay'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000434
+    choices:
+      - "pronouns: Tanya xưng 'Tôi', gọi thuộc cấp là 'các vị', gọi địch là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000435
+    choices:
+      - "terms: CÙNG NGÀY HÔM ĐÓ, Ở VÙNG LÂN CẬN TUYẾN BAO VÂY SỐ MỘT CỦA QUÂN ĐỘI LIÊN BANG"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000436
+    choices:
+      - "ranks_and_names: Trung tá Drake (Lieutenant Colonel Drake)"
+      - "terms: Kampfgruppe Lergen (Lergen Kampfgruppe), lực lượng bộ binh (infantry)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000437
+    choices:
+      - "pronouns: Trần thuật gọi Drake là 'anh', gọi phía Kampfgruppe Lergen là 'họ'"
+      - "modality: Giữ phủ định 'chẳng bao giờ có lấy một lỗ hổng đáng gọi là sơ hở'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000438
+    choices:
+      - "ranks_and_names: Tanya, Drake"
+      - "terms: Quân đội Liên bang (Federation Army), Soldim 528, cứ điểm bị cô lập (isolated stronghold), chốt tĩnh (static point)"
+      - "pronouns: Trần thuật gọi Drake là 'Anh'"
+      - "modality: Giữ phủ định 'chưa từng nằm mơ tới chuyện quân địch có thể lẻn ra ngoài trong khi đang bị bao vây'"
+      - "emphasis: Không dùng *...*"
