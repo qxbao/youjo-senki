@@ -1,0 +1,256 @@
+task_id: "vol-08-ch-06-b12-argon-review"
+parent_task_id: "vol-08-ch-06-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 6
+target_translation: "translations/vol-08/ch-06-b12.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000451"
+    severity: "minor"
+    category: "meaning_nuance"
+    issue: "Dịch tính từ chỉ điểm yếu/dễ tổn thương ('vulnerable') thành 'xung yếu' có nguy cơ gây hiểu nhầm sang nghĩa Hán-Việt là vị trí trọng yếu/quan trọng về mặt chiến lược."
+    basis: "Trong tiếng Việt chuẩn, 'xung yếu' (衝要) chỉ nơi có vị trí quan trọng về quân sự, còn tính từ nguồn chỉ đoạn phòng tuyến mỏng yếu, dễ bị chọc thủng (tương tự 'vulnerable flank -> mạn sườn sơ hở' ở p000409)."
+    recommendation: "Có thể cân nhắc đổi 'phần xung yếu' thành 'phần mỏng yếu' hoặc 'phần dễ tổn thương' ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "Sir / Zettour / the general"
+    proposed_vi: "Thưa Tướng quân / Zettour / vị tướng ấy"
+    category: "quân hàm / xưng hô / tên nhân vật"
+    status: "proposed"
+    rationale: "Đồng bộ với cách gọi Trung tướng von Zettour trong thoại và trần thuật ở work/run-state/pending-terms-index.yml của vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000449"
+      - "YS-LN08/Text/chapter022.xhtml/p000450"
+      - "YS-LN08/Text/chapter022.xhtml/p000454"
+  - source_term: "Imperial Army / eastern lines / the Empire / fatherland"
+    proposed_vi: "Lục quân Đế quốc / phòng tuyến phía đông / Đế quốc / Tổ quốc"
+    category: "thuật ngữ quân sự / địa chính trị"
+    status: "proposed"
+    rationale: "Thống nhất hoàn toàn với các mục tương ứng trong work/run-state/pending-terms-index.yml của vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000451"
+      - "YS-LN08/Text/chapter022.xhtml/p000452"
+      - "YS-LN08/Text/chapter022.xhtml/p000463"
+      - "YS-LN08/Text/chapter022.xhtml/p000465"
+      - "YS-LN08/Text/chapter022.xhtml/p000467"
+      - "YS-LN08/Text/chapter022.xhtml/p000471"
+      - "YS-LN08/Text/chapter022.xhtml/p000478"
+      - "YS-LN08/Text/chapter022.xhtml/p000482"
+  - source_term: "Moskva / Ildoa"
+    proposed_vi: "Moskva / Ildoa"
+    category: "địa danh / quốc gia"
+    status: "proposed"
+    rationale: "Giữ nguyên tên riêng Moskva và Ildoa nhất quán với work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000456"
+      - "YS-LN08/Text/chapter022.xhtml/p000459"
+  - source_term: "General Staff / Supreme Command"
+    proposed_vi: "Bộ Tổng tham mưu / Bộ Tư lệnh Tối cao"
+    category: "tổ chức quân sự"
+    status: "proposed"
+    rationale: "Đồng bộ với chuẩn cơ quan chỉ huy Đế quốc trong work/run-state/pending-terms-index.yml của vol-08."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000457"
+      - "YS-LN08/Text/chapter022.xhtml/p000462"
+  - source_term: "Tanya / Tanya von Degurechaff / Colonel von Degurechaff / Colonel"
+    proposed_vi: "Tanya / Tanya von Degurechaff / Trung tá von Degurechaff / Trung tá"
+    category: "quân hàm / tên nhân vật"
+    status: "proposed"
+    rationale: "Giữ chuẩn quân hàm Trung tá của Tanya trong vol-08 theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000458"
+      - "YS-LN08/Text/chapter022.xhtml/p000460"
+      - "YS-LN08/Text/chapter022.xhtml/p000463"
+      - "YS-LN08/Text/chapter022.xhtml/p000467"
+      - "YS-LN08/Text/chapter022.xhtml/p000472"
+      - "YS-LN08/Text/chapter022.xhtml/p000477"
+      - "YS-LN08/Text/chapter022.xhtml/p000478"
+      - "YS-LN08/Text/chapter022.xhtml/p000481"
+  - source_term: "utilitarian pacifist"
+    proposed_vi: "người theo chủ nghĩa hòa bình vị lợi"
+    category: "thuật ngữ triết học / chính trị"
+    status: "proposed"
+    rationale: "Phản ánh chính xác lập trường hòa bình dựa trên tính toán lợi ích - chi phí (utilitarian pacifism) của Tanya."
+    alternatives_vi:
+      - "người theo chủ nghĩa hòa bình thực dụng"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000472"
+  - source_term: "high-ranking officer / military regulations"
+    proposed_vi: "sĩ quan cao cấp / quân quy"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Nhất quán với mục 'high-ranking officers -> các sĩ quan cao cấp' trong work/run-state/pending-terms-index.yml và thuật ngữ điều lệnh/quân quy."
+    alternatives_vi:
+      - "sĩ quan cao cấp / điều lệnh quân đội"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000479"
+      - "YS-LN08/Text/chapter022.xhtml/p000483"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000447"
+    locks:
+      pronouns: "I -> Tôi (Tanya nói với Zettour); it -> kết luận đó"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000448"
+    locks:
+      pronouns: "our -> của chúng ta (Zettour)"
+      negation_modality: "is no good -> không ổn chút nào"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000449"
+    locks:
+      ranks_and_names: "Sir? -> Thưa Tướng quân? (Tanya hỏi Zettour)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000450"
+    locks:
+      ranks_and_names: "Zettour -> Zettour"
+      pronouns: "I / my -> tôi / thâm tâm; we -> chúng ta; he -> lắc cái đầu (lược đại từ tự nhiên gắn với chủ ngữ Zettour)"
+      modality: "it's possible that I…thought that maybe if we kept following this path, we might find -> có thể tôi... đã nghĩ rằng biết đâu nếu chúng ta cứ tiếp tục đi theo con đường này, chúng ta sẽ tìm ra (giữ đầy đủ tầng bậc giả định và hồi tưởng)"
+      terms: "fleeting dream -> giấc mộng phù du"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000451"
+    locks:
+      terms: "Imperial Army -> Lục quân Đế quốc; eastern lines -> phòng tuyến phía đông; offensive's setback in the south -> bước lùi của cuộc tiến công ở phía nam"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000452"
+    locks:
+      terms: "the Empire -> Đế quốc"
+      pronouns: "you -> người ta (chủ thể khái quát)"
+      negation_modality: "Even if you don't want ... can't help it -> Dù không muốn nhìn, người ta cũng chẳng thể làm ngơ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000453"
+    locks:
+      pov_pronouns: "We / our -> Chúng ta / mình (nội tâm Tanya tự quy chiếu về phía Đế quốc)"
+      negation_modality: "don't reach anything -> chẳng chạm tới được bất cứ thứ gì"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000454"
+    locks:
+      ranks_and_names: "the general -> vị tướng ấy (Zettour)"
+      pov: "Câu hỏi nội tâm của Tanya không in nghiêng trong nguồn, không đánh dấu *...* theo DEC-P01-002"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000455"
+    locks:
+      terms: "setback in the southeast -> bước lùi ở phía đông nam; fatal -> mang tính chí mạng"
+      pronouns: "our / We -> của chúng ta / Chúng ta; I -> tôi (Zettour); your unit -> đơn vị của cô (Tanya)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000456"
+    locks:
+      terms: "delicate balance -> thế cân bằng mong manh; direct attack -> đòn tấn công trực diện; Moskva -> Moskva"
+      pronouns: "We / our -> Chúng ta; me -> tôi (Tanya)"
+      negation_modality: "doesn't sound sane -> Nghe chẳng tỉnh táo chút nào; would be more realistic -> nghe còn thực tế hơn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000457"
+    locks:
+      terms: "The General Staff -> Bộ Tổng tham mưu"
+      pronouns: "your -> của cô (Tanya)"
+      emphasis: "*Bộ Tổng tham mưu* (giữ đúng phạm vi nhấn mạnh <html:em>The General Staff</html:em> theo DEC-P01-002)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000458"
+    locks:
+      ranks_and_names: "Tanya -> Tanya"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000459"
+    locks:
+      terms: "Ildoa -> Ildoa"
+      pronouns: "I -> tôi; our -> chúng ta"
+      negation_modality: "didn't go so well -> đã diễn ra không mấy suôn sẻ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000460"
+    locks:
+      ranks_and_names: "Colonel -> Trung tá (Zettour gọi Tanya)"
+      pronouns: "you -> cô"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000461"
+    locks:
+      pronouns: "She -> Cô (Tanya); him -> ông (Zettour)"
+      emphasis: "*Theo mệnh lệnh của quân đội ư?* (giữ đúng phạm vi in nghiêng <html:em>On the army’s orders?</html:em> và không in nghiêng câu hỏi kế tiếp theo DEC-P01-002)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000462"
+    locks:
+      terms: "Supreme Command -> Bộ Tư lệnh Tối cao; formal rubber-stamping gone wild -> cơ chế đóng dấu phê duyệt hình thức đã vượt khỏi tầm kiểm soát; public opinion -> dư luận"
+      emphasis: "*Chẳng lẽ điều đó có nghĩa là...?* (giữ đúng phạm vi in nghiêng <html:em>Does that mean…?</html:em> theo DEC-P01-002)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000463"
+    locks:
+      ranks_and_names: "Colonel -> Trung tá"
+      terms: "The fatherland -> Tổ quốc; dependent -> lệ thuộc"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000464"
+    locks:
+      terms: "Dependent on victory -> Lệ thuộc vào chiến thắng"
+      tone: "Câu hỏi lễ phép của Tanya với cấp trên ('sao ạ?')"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000465"
+    locks:
+      terms: "fatherland -> Tổ quốc; great Empire -> Đế quốc vĩ đại"
+      pronouns: "He / his -> Ông / đuôi mắt; our / we -> của chúng ta / chúng ta"
+      negation_modality: "If we can't envision tomorrow without a victory, we're simply doomed -> Nếu không có chiến thắng mà không thể hình dung nổi ngày mai, thì đơn giản là chúng ta đã cầm chắc kết cục diệt vong"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000466"
+    locks:
+      pronouns: "our / We -> của chúng ta / Chúng ta; their -> của họ; these idiots -> lũ ngu xuẩn đó"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000467"
+    locks:
+      ranks_and_names: "Colonel -> Trung tá"
+      terms: "treason -> lời phản quốc; fatherland -> Tổ quốc"
+      pronouns: "you -> Cô"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000468"
+    locks:
+      terms: "academy -> học viện"
+      pronouns: "I -> tôi (Tanya)"
+      negation_modality: "can't see reality for what it is -> không thể nhìn nhận hiện thực đúng như bản chất của nó"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000469"
+    locks:
+      negation_modality: "can't face reality -> không dám đối diện với hiện thực"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000470"
+    locks:
+      pronouns: "you -> bạn (chủ thể khái quát)"
+      negation_modality: "not have to say things in a roundabout way -> không phải nói năng vòng vo tam quốc"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000471"
+    locks:
+      terms: "fatherland -> Tổ quốc; blind, reckless patriots -> lũ yêu nước mù quáng, liều lĩnh; real patriots -> những người yêu nước thực thụ"
+      pronouns: "she -> cô; I -> tôi; them -> chúng; We -> Chúng ta"
+      negation_modality: "can't even consider them -> thậm chí còn chẳng thể coi chúng là"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000472"
+    locks:
+      ranks_and_names: "Tanya von Degurechaff -> Tanya von Degurechaff"
+      terms: "utilitarian pacifist -> người theo chủ nghĩa hòa bình vị lợi; in the black -> cán cân tài chính có lãi"
+      pronouns: "She / her -> Cô (trần thuật vol-08)"
+      negation_modality: "isn't an easy win and won't end ... in the black -> không dễ thắng và không kết thúc với cán cân tài chính có lãi"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000473"
+    locks:
+      terms: "low-cost war -> cuộc chiến... với chi phí thấp; guaranteed returns -> khoản lợi nhuận đảm bảo; viable investment -> khoản đầu tư khả thi"
+      pronouns: "she -> cô"
+      negation_modality: "If it isn't ... there's no way she counts it -> Nếu đó không phải là ... thì đời nào cô lại tính đó là"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000474"
+    locks:
+      terms: "venture -> phi vụ mạo hiểm; crook -> kẻ lừa đảo; numbskull -> kẻ đần độn; criminally inept -> bất tài đến mức đáng tội"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000475"
+    locks:
+      terms: "Patriotism -> Lòng yêu nước; patriot's duty -> bổn phận của một người yêu nước"
+      pronouns: "you / your / their -> người ta / của mình / của đất nước mình (chủ thể khái quát trong lời lập luận của Tanya)"
+      negation_modality: "nothing to do with -> chẳng liên quan gì đến"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000476"
+    locks:
+      terms: "true patriot -> người yêu nước chân chính"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000477"
+    locks:
+      ranks_and_names: "Tanya -> Tanya"
+      pov_pronouns: "His -> của ông (Zettour); their -> giữa họ; I -> Mình (độc thoại nội tâm trực tiếp của Tanya theo DEC-P01-001); he -> ông ấy"
+      emphasis: "*Mình đâu có ý định tỏ ra yêu nước đến thế... Sao ông ấy lại hiểu theo kiểu đó nhỉ?* (giữ đúng phạm vi in nghiêng theo DEC-P01-002)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000478"
+    locks:
+      ranks_and_names: "Colonel von Degurechaff -> Trung tá von Degurechaff"
+      terms: "the Empire -> Đế quốc"
+      pronouns: "you -> cô"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000479"
+    locks:
+      terms: "numbskull -> kẻ đần độn; high-ranking officer -> sĩ quan cao cấp"
+      pronouns: "She / she -> Cô / cô; him -> ông (Zettour); they / their -> mình"
+      negation_modality: "not really a patriot -> thực chất chẳng phải người yêu nước; haven't got so much as a milligram -> chẳng có lấy nổi một miligam"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000480"
+    locks:
+      logic: "Giữ mạch ẩn dụ dầu bôi trơn và phương sách giảm thiểu ma sát cho toàn xã hội"
+      negation_modality: "Not saying things that don't need to be said -> Không nói ra những điều không cần nói"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000481"
+    locks:
+      ranks_and_names: "Tanya -> Tanya"
+      terms: "patriot -> người yêu nước"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000482"
+    locks:
+      terms: "the Empire -> Đế quốc; life and assets -> tính mạng và tài sản"
+      pov_pronouns: "I / my -> Mình / mình (độc thoại nội tâm trực tiếp của Tanya theo DEC-P01-001); it -> nó (Đế quốc)"
+      negation_modality: "It's not as if I intend ... don't really care ... if ... aren't protected -> Mình đâu có ý định ... nên thực tình mình chẳng mấy bận tâm ... nhưng nếu ... không được bảo vệ"
+      emphasis: "Không in nghiêng trong nguồn, không đánh dấu *...* theo DEC-P01-002"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000483"
+    locks:
+      terms: "the former and the latter -> vế trước và vế sau; Military regulations -> Quân quy"
+      pronouns: "I -> Tôi / tôi (Tanya)"
+      negation_modality: "don't acknowledge any difference ... don't allow it -> không thừa nhận bất kỳ sự khác biệt nào ... không cho phép điều đó"
