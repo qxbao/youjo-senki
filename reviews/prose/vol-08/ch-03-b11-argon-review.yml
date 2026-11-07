@@ -1,0 +1,275 @@
+task_id: "vol-08-ch-03-b11-argon-review"
+parent_task_id: "vol-08-ch-03-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 3
+target_translation: "translations/vol-08/ch-03-b11.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000079"
+    severity: "minor"
+    issue: "Cụm tình thái phủ định ở câu đầu đang dịch là 'không đời nào có thể' (sắc thái phủ định khả năng tuyệt đối), trong khi thực tế các pháp sư Liên bang đang tác chiến ở trình độ đó ngay trước mắt Tanya và nguồn dùng cấu trúc mang nghĩa trái với kỳ vọng/chuẩn mực ('đáng lẽ không thể' / 'lẽ ra không thể')."
+    evidence: "Ở p000077–p000078 Tanya vừa chứng kiến pháp sư Liên bang đánh ngang ngửa với Tiểu đoàn 203 nên tại p000079 cô nhận định theo chuẩn thông thường thì họ đáng lẽ không thể đạt tới trình độ này."
+    recommendation: "Đề xuất đổi 'không đời nào có thể' thành 'đáng lẽ không thể' hoặc 'lẽ ra không thể' để khớp chính xác sắc thái tình thái của nguồn."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000098"
+    severity: "minor"
+    issue: "Đại từ ngôi thứ nhất số nhiều trong mạch độc thoại nội tâm của Tanya dùng 'chúng tôi' ở p000098 nhưng dùng 'chúng ta' ở p000111."
+    evidence: "Cả p000098 và p000111 đều là suy nghĩ nội tâm của Tanya về đơn vị/quân Đế quốc (tương tự p000078 và p000080 dùng 'mình' cho ngôi thứ nhất số ít)."
+    recommendation: "Cân nhắc đổi 'chúng tôi' ở p000098 thành 'chúng ta' để đồng bộ với quy ước độc thoại nội tâm ('mình / chúng ta') và thống nhất với p000111."
+pending_term_recommendations:
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    category: "tên gọi"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Kế thừa nhất quán phương án tạm đã có trong sổ pending từ các tập trước."
+    alternatives_vi:
+      - "Tiểu đoàn Pháp sư Hàng không 203"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000077"
+  - source_term: "protective film / defensive shell"
+    proposed_vi: "màn chắn bảo hộ / lớp vỏ phòng thủ"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Phân biệt rõ hai lớp phòng ngự ma pháp theo đúng phương án tạm đã thiết lập trong sổ pending."
+    alternatives_vi:
+      - "màng bảo hộ / vỏ chắn phòng ngự"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000084"
+      - "YS-LN08/Text/chapter012.xhtml/p000087"
+      - "YS-LN08/Text/chapter012.xhtml/p000093"
+      - "YS-LN08/Text/chapter012.xhtml/p000097"
+      - "YS-LN08/Text/chapter012.xhtml/p000101"
+      - "YS-LN08/Text/chapter012.xhtml/p000110"
+  - source_term: "piercing formulas / area suppression"
+    proposed_vi: "thuật thức xuyên phá / chế áp diện rộng"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Diễn đạt chính xác sự đối lập giữa đòn bắn tập trung xuyên giáp/vỏ chắn và hỏa lực nổ chế áp trên phạm vi rộng."
+    alternatives_vi:
+      - "thuật thức xuyên giáp / chế áp khu vực"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000088"
+      - "YS-LN08/Text/chapter012.xhtml/p000095"
+  - source_term: "qualitative superiority"
+    proposed_vi: "ưu thế về chất lượng"
+    category: "thuật ngữ"
+    status: "pending"
+    Uncertainty: "low"
+    rationale: "Thuật ngữ quân sự tiêu chuẩn chỉ sự vượt trội về chất lượng khí tài và nhân sự so với ưu thế số lượng."
+    alternatives_vi:
+      - "ưu thế chất lượng"
+    segment_ids:
+      - "YS-LN08/Text/chapter012.xhtml/p000111"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000074"
+    locked:
+      pov_pronouns: "Giữ đại từ 'chúng' chỉ các pháp sư địch."
+      negation_modality: "Giữ cấu trúc 'chẳng còn lựa chọn nào khác ngoài việc...'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000075"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "magic blade -> lưỡi kiếm ma pháp"
+      pov_pronouns: "Trần thuật ngôi thứ ba dùng 'Tanya', sở hữu phản thân 'của mình', chỉ địch là 'chúng / đối phương / một tên'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000076"
+    locked:
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+      tone: "Giữ giọng gắt gỏng và câu hỏi cảm thán trong thoại."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000077"
+    locked:
+      names_ranks:
+        - "203rd Aerial Mage Battalion -> Tiểu đoàn Pháp sư Trên không số 203"
+        - "Imperial Army -> Lục quân Đế quốc"
+      terms:
+        - "mage operations -> tác chiến pháp sư"
+        - "Federation mages -> pháp sư Liên bang"
+      negation_modality: "Giữ sắc thái đối lập giữa vị thế tinh nhuệ của Tiểu đoàn 203 và việc ngang sức với kẻ địch 'đáng lẽ phải kém cỏi hơn'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000078"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      pov_pronouns: "Giữ sự chuyển dịch điểm nhìn của bản gốc: câu hỏi nội tâm đầu dùng 'đơn vị của mình', câu sau trần thuật ngôi thứ ba dùng 'Tanya ... mình đang chứng kiến'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000079"
+    locked:
+      terms:
+        - "Federation mages -> Các pháp sư Liên bang"
+        - "veteran battalion -> tiểu đoàn thiện chiến"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô', gọi đơn vị của Tanya là 'quân mình'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000080"
+    locked:
+      pov_pronouns: "Độc thoại nội tâm của Tanya tự xưng 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000081"
+    locked:
+      pov_pronouns: "Thoại Tanya gọi quân địch là 'lũ các ngươi'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000082"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+        - "Serebryakov -> Serebryakov"
+      terms:
+        - "explosion formula -> thuật thức phát nổ"
+        - "smoke screen -> màn khói che khuất"
+      pov_pronouns: "Trần thuật ngôi thứ ba dùng 'Tanya / cô / mình'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000083"
+    locked:
+      names_ranks:
+        - "Visha -> Visha"
+      pov_pronouns: "Tanya gọi Visha là 'Cô' trong thoại."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000084"
+    locked:
+      names_ranks:
+        - "Colonel -> Trung tá"
+      terms:
+        - "defensive shells -> lớp vỏ phòng thủ"
+      pov_pronouns: "Visha gọi Tanya là 'Trung tá', dùng tiểu từ kính trọng 'ạ'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000085"
+    locked:
+      pov_pronouns: "Tanya hỏi ngắn gọn, chỉ lớp vỏ phòng thủ bằng 'Chúng'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000086"
+    locked:
+      terms:
+        - "explosion formula -> Thuật thức phát nổ"
+      pov_pronouns: "Visha gọi Tanya là 'ngài' và thêm 'ạ' cuối câu."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000087"
+    locked:
+      names_ranks:
+        - "Serebryakov -> Serebryakov"
+        - "Tanya -> Tanya"
+      terms:
+        - "melee -> trận hỗn chiến"
+        - "shells -> lớp vỏ phòng thủ"
+      pov_pronouns: "Trần thuật ngôi thứ ba dùng 'Tanya / cô', chỉ đơn vị là 'họ'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000088"
+    locked:
+      terms:
+        - "area suppression -> chế áp diện rộng"
+      negation_modality: "Giữ cấu trúc giả định điều kiện 'Nếu ... vẫn còn hiệu quả trước chúng thì...'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000089"
+    locked:
+      tone: "Giữ câu thoại quyết đoán ngắn gọn ('Thử một phen xem sao!')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000090"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "formulas -> thuật thức"
+      negation_modality: "Giữ mức độ 'phần nào theo kịp' và tương quan 'ưu tiên phạm vi hơn uy lực'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000091"
+    locked:
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+      negation_modality: "Giữ mốc thời gian 'Đúng lúc cô định tặc lưỡi thất vọng vì đòn đánh không có tác dụng'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000092"
+    locked:
+      pov_pronouns: "Thoại dùng 'chúng' (địch) và 'chúng ta' (phe mình)."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000093"
+    locked:
+      terms:
+        - "protective film -> màn chắn bảo hộ"
+        - "defensive shell -> lớp vỏ phòng thủ"
+        - "orb -> quả cầu"
+      pov_pronouns: "Trần thuật ngôi thứ ba gọi Tanya là 'cô'."
+      negation_modality: "Giữ mệnh đề nhượng bộ 'dù chỉ là đôi chút' và kết luận 'kém xa so với những gì cô dự tính'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000094"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000095"
+    locked:
+      names_ranks:
+        - "Weiss -> Weiss"
+        - "Wüstemann -> Wüstemann"
+      terms:
+        - "piercing formulas -> thuật thức xuyên phá"
+        - "area suppression -> chế áp diện rộng"
+      negation_modality: "Giữ phủ định 'không dùng mẫu mới đâu' và mệnh lệnh 'Đừng bận tâm tới ... nữa—tập trung ... đi!'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000096"
+    locked:
+      tone: "Giữ dấu ngoặc kép đôi biểu thị lời đồng thanh của hai sĩ quan."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000097"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "defensive shells -> lớp vỏ phòng thủ"
+      negation_modality: "Giữ cấu trúc phủ định 'không phải là người duy nhất...'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000098"
+    locked:
+      terms:
+        - "rule of thumb -> quy tắc kinh nghiệm"
+        - "Federation mages -> pháp sư Liên bang"
+      pov_pronouns: "Giữ điểm nhìn ngôi thứ nhất số nhiều ('chúng ta' hoặc 'chúng tôi')."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000099"
+    locked:
+      terms:
+        - "explosion formulas -> thuật thức phát nổ"
+      negation_modality: "Giữ mệnh lệnh cấm đoán tuyệt đối 'trong bất kỳ hoàn cảnh nào cũng tuyệt đối không được bắn nhầm vào quân ta ở bên dưới!'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000100"
+    locked:
+      tone: "Giữ dấu ngoặc kép đôi và nét lắp bắp 'R-rõ!'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000101"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+      terms:
+        - "01 -> 01"
+        - "defensive shells -> lớp vỏ phòng thủ"
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000102"
+    locked:
+      terms:
+        - "explosion formulas -> các thuật thức phát nổ"
+      pov_pronouns: "Trần thuật ngôi thứ ba số nhiều dùng 'họ'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000103"
+    locked:
+      terms:
+        - "Federation anti-air positions -> các trận địa phòng không của Liên bang"
+      emphasis: "Giữ đúng hai cụm nhấn mạnh Markdown '*khả năng*' và '*tiềm lực*' theo DEC-P01-002."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000104"
+    locked:
+      names_ranks:
+        - "Imperial Army -> Lục quân Đế quốc"
+      terms:
+        - "Federation mages -> Các pháp sư Liên bang"
+      negation_modality: "Giữ phỏng đoán phủ định quá khứ 'ắt hẳn không ngờ...'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000105"
+    locked:
+      pov_pronouns: "Chỉ quân địch là 'chúng'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000106"
+    locked:
+      pov_pronouns: "Thoại Tanya gọi quân địch là 'lũ này'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000107"
+    locked:
+      terms:
+        - "Federation mages -> pháp sư Liên bang"
+      pov_pronouns: "Chỉ quân địch là 'chúng'."
+      negation_modality: "Giữ suy đoán quá khứ 'hẳn là chúng đã bay dạt ra khỏi luồng xung kích thay vì cố gồng mình chống chịu' và phủ định 'chẳng hao hụt đi bao nhiêu'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000108"
+    locked:
+      terms:
+        - "friendly fire -> đạn quân mình bắn nhầm"
+      pov_pronouns: "Thoại Tanya dùng 'chúng ta / bên ta / quân mình'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000109"
+    locked:
+      pov_pronouns: "Báo cáo của Serebryakov có tiểu từ kính trọng 'ạ'."
+      negation_modality: "Giữ phủ định tuyệt đối 'Không một ai phải rời vòng chiến ạ!'."
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000110"
+    locked:
+      names_ranks:
+        - "Tanya -> Tanya"
+        - "Serebryakov -> Serebryakov"
+      terms:
+        - "Type 97s -> những chiếc Type 97"
+        - "defensive shell -> lớp vỏ phòng thủ"
+  - segment_id: "YS-LN08/Text/chapter012.xhtml/p000111"
+    locked:
+      terms:
+        - "orbs -> những quả cầu"
+        - "qualitative superiority -> ưu thế về chất lượng"
+      pov_pronouns: "Nội tâm của Tanya dùng 'chúng ta' cho phía Đế quốc."
+      negation_modality: "Giữ điều kiện hạn định ở cuối câu 'tất nhiên là nếu chúng ta tìm được đủ pháp sư có khả năng vận hành chúng'."
