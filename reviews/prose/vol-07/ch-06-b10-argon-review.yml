@@ -1,0 +1,145 @@
+task_id: "vol-07-ch-06-b10-argon-review"
+parent_task_id: "vol-07-ch-06-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 6
+source_package: "work/vol-07/batches/ch-06-b10-source.jsonl"
+target_translation: "translations/vol-07/ch-06-b10.jsonl"
+review_path: "reviews/prose/vol-07/ch-06-b10-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter024.xhtml/p000017"
+    issue: "Cụm từ chỉ sự phán đoán theo lẽ thường ở p000017 được dịch là 'lương tri', hơi nghiêng sang sắc thái đạo đức/lương tâm trong khi mạch lập luận của Lergen ở đoạn này và p000031 nhấn mạnh vào óc phán đoán thực tế và phép tính nguồn lực."
+    evidence: "Đối chiếu văn cảnh hao tổn sinh mạng, nguồn lực tư bản ở p000017 và lập luận tính toán số học đơn giản ở p000030-p000031 theo quy tắc giữ đúng bình diện đánh giá trong canon/style-guide.md."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ thành 'lẽ thường' hoặc 'óc phán đoán thông thường' ở bước chuốt văn để bám sát bình diện lý tính thực dụng; bản dịch hiện tại vẫn tự nhiên và không làm sai lệch ý chính."
+pending_term_recommendations:
+  - source_term: "Colonel von Degurechaff"
+    proposed_vi: "Trung tá von Degurechaff"
+    category: "quân hàm / tên gọi"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nhất quán cấp bậc Trung tá của Tanya ở tập 7 khi tiếng Anh gọi tắt bằng Colonel trong lời thoại/độc thoại của Lergen."
+    alternatives_vi:
+      - "Đại tá von Degurechaff"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000007"
+  - source_term: "magic officer"
+    proposed_vi: "sĩ quan ma pháp"
+    category: "chức danh quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với phương án tạm đã sử dụng xuyên suốt các tập trước và tập 7."
+    alternatives_vi:
+      - "sĩ quan pháp sư"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000009"
+  - source_term: "forward-most line"
+    proposed_vi: "tuyến tiền tiêu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Diễn đạt chuẩn xác, tự nhiên và khớp với phương án tạm đã khóa trong cùng chương."
+    alternatives_vi:
+      - "tuyến đầu cực nam/đông"
+      - "chiến tuyến ngoài cùng"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000020"
+  - source_term: "home country"
+    proposed_vi: "bản quốc"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phù hợp với điểm nhìn của sĩ quan tham mưu Đế quốc đang công tác ngoại giao tại quốc gia trung lập Ildoa."
+    alternatives_vi:
+      - "quê nhà"
+      - "trong nước"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000021"
+  - source_term: "Heimat"
+    proposed_vi: "quê hương bản quán"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Đặt sóng đôi tự nhiên với 'tổ quốc' (fatherland) để chuyển tải sắc thái gắn bó máu thịt với quê nhà trong suy nghĩ của Lergen mà không cần giữ nguyên từ tiếng Đức khi nguồn không in nghiêng."
+    alternatives_vi:
+      - "quê nhà"
+      - "Heimat"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000024"
+  - source_term: "tactical and operational victory / strategic victory"
+    proposed_vi: "thắng lợi cả về mặt chiến thuật lẫn chiến dịch / chiến thắng mang tầm chiến lược"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phân biệt chuẩn xác ba cấp độ nghệ thuật quân sự: chiến thuật (tactical), chiến dịch (operational) và chiến lược (strategic)."
+    alternatives_vi:
+      - "chiến thắng chiến thuật và chiến dịch / chiến thắng chiến lược"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000027"
+  - source_term: "military districts"
+    proposed_vi: "quân khu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với thuật ngữ hành chính – quân sự đã dùng trong tập 7."
+    alternatives_vi:
+      - "khu vực quân sự"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000032"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    category: "tổ chức"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách dịch trực tiếp, chuẩn xác cho tổ chức an ninh/hành chính địa phương tiếp quản một số vùng chiếm đóng."
+    alternatives_vi:
+      - "Hội đồng Tự quản"
+    segment_ids:
+      - "YS-LN07/Text/chapter024.xhtml/p000032"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter024.xhtml/p000001-p000011"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "Colonel von Degurechaff -> Trung tá von Degurechaff"
+      - "magic officer -> sĩ quan ma pháp"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba: Lergen -> anh; Tanya -> cô"
+      - "Độc thoại và lời tự nhủ của Lergen (p000006, p000007): mình / bản thân - các người (hướng về cấp trên ở bản quốc)"
+    pov_and_modality:
+      - "Giữ đúng nhấn mạnh Markdown *...* cho toàn bộ các câu độc thoại nội tâm ở p000001, p000002, p000005, p000006 theo DEC-P01-002."
+      - "Giữ cấu trúc nhượng bộ ở p000010 (dẫu bản tính lệch lạc nhưng vẫn không thể phủ nhận sự tôn trọng) và sự bàng hoàng của Lergen khi nhận ra mình đồng cảm với Tanya ở p000011."
+  - segment_id: "YS-LN07/Text/chapter024.xhtml/p000012-p000025"
+    names_and_ranks:
+      - "the Empire -> Đế quốc"
+      - "Ildoa -> Ildoa"
+      - "home country -> bản quốc"
+      - "the Federation -> Liên bang"
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba về Lergen: anh"
+      - "Lời than độc thoại của Lergen (p000012, p000016, p000019): mình - họ"
+    pov_and_modality:
+      - "Giữ nguyên các câu hỏi tu từ nối tiếp ở p000012, p000016, p000019, p000022, p000023, p000024 thể hiện nỗi tuyệt vọng của Lergen trước yêu sách phi thực tế từ bản quốc."
+      - "Không thêm đánh dấu nghiêng ngoài nguồn cho các đoạn trần thuật và lời thoại trực tiếp."
+  - segment_id: "YS-LN07/Text/chapter024.xhtml/p000026-p000034"
+    names_and_ranks:
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "eastern front -> mặt trận phía đông"
+      - "the Federation -> Liên bang"
+      - "Lergen -> Lergen"
+      - "Council for Self-Government -> Hội đồng Tự trị"
+      - "the Empire -> Đế quốc"
+    pronouns_and_address:
+      - "Tự quy chiếu tập thể trong suy nghĩ của Lergen trên tư cách người của Lục quân Đế quốc (p000027): chúng ta"
+      - "Trần thuật ngôi thứ ba: Lergen -> Lergen; phía Đế quốc / Lục quân -> họ"
+    pov_and_modality:
+      - "Khóa chính xác phạm vi nhấn mạnh Markdown *...* cho toàn bộ p000027, toàn bộ p000028, câu đầu tiên của p000029 và câu thứ hai của p000032 theo đúng thẻ em của nguồn."
+      - "Giữ sắc thái tình thái có độ dè dặt ở câu cuối p000027 ('có lẽ nó cũng có thể được ca tụng') và cấu trúc tăng tiến 'không chỉ... mà bất kỳ ai...' ở p000029."
