@@ -1,0 +1,227 @@
+task_id: "vol-08-ch-01-b03-argon-review"
+parent_task_id: "vol-08-ch-01-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 1
+source_package: "work/vol-08/batches/ch-01-b03-source.jsonl"
+target_translation: "translations/vol-08/ch-01-b03.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "Intelligence"
+    proposed_vi: "bên Tình báo"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Giữ nhất quán với cách dịch cơ quan tình báo trong lời thoại ở các tập trước và sổ pending."
+    alternatives_vi:
+      - "ngành Tình báo"
+      - "Cơ quan Tình báo"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000002"
+  - source_term: "marine mage unit / marine magic officer"
+    proposed_vi: "đơn vị pháp sư hải quân đánh bộ / sĩ quan ma pháp hải quân đánh bộ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với thuật ngữ pending đã dùng cho đơn vị và chức danh của Drake ở các tập trước."
+    alternatives_vi:
+      - "đơn vị pháp sư thủy quân lục chiến / sĩ quan ma pháp thủy quân lục chiến"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000002"
+      - "YS-LN08/Text/chapter004.xhtml/p000009"
+  - source_term: "comprehensive officer education curriculum"
+    proposed_vi: "chương trình đào tạo sĩ quan toàn diện"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa và tự nhiên cho chương trình đào tạo sĩ quan do Drake định hình sau chiến tranh."
+    alternatives_vi:
+      - "khung chương trình giáo dục sĩ quan toàn diện"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000005"
+  - source_term: "Colonel Mikel"
+    proposed_vi: "Đại tá Mikel"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Khớp với cấp bậc đại tá của Mikel ở mặt trận phía đông trong các tập 5, 6, 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000013"
+  - source_term: "MULTINATIONAL FORCES HQ"
+    proposed_vi: "SỞ CHỈ HUY LỰC LƯỢNG ĐA QUỐC GIA"
+    category: "địa danh / đơn vị"
+    status: "pending"
+    rationale: "Thống nhất với cách dịch tiêu đề địa điểm của đơn vị đa quốc gia trong sổ pending (tập 6)."
+    alternatives_vi:
+      - "TỔNG HÀNH DINH LỰC LƯỢNG ĐA QUỐC GIA"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000019"
+  - source_term: "WTN correspondent"
+    proposed_vi: "phóng viên của *WTN*"
+    category: "chức danh / tổ chức"
+    status: "pending"
+    rationale: "Giữ nguyên tên viết tắt đài truyền hình/hãng tin WTN in nghiêng theo nguồn và khớp với các tập trước."
+    alternatives_vi:
+      - "phóng viên đài *WTN*"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000020"
+  - source_term: "Commies and Limeys"
+    proposed_vi: "Lũ Cộng sản và đám Ăng-lê"
+    category: "thuật ngữ / khẩu ngữ"
+    status: "pending"
+    rationale: "Truyền tải đúng sắc thái khẩu ngữ giễu cợt của phía Đế quốc khi ghép cặp phe Cộng sản Liên bang và người Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "Lũ Cộng sản và đám người Anh"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000024"
+  - source_term: "expeditionary force"
+    proposed_vi: "lực lượng viễn chinh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác chỉ cánh quân Khối Thịnh vượng chung phái sang lãnh thổ Liên bang."
+    alternatives_vi:
+      - "đạo quân viễn chinh"
+    segment_ids:
+      - "YS-LN08/Text/chapter004.xhtml/p000025"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000001"
+    speaker: "General Drake"
+    pronouns_and_address: "tôi (Drake tự xưng với Andrew)"
+    locked_elements:
+      - "Phủ định: giữ nguyên lời từ chối không biết kèm sắc thái lịch sự xã giao."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000002"
+    pov: "Andrew (ngôi thứ nhất 'tôi')"
+    speaker: "Andrew"
+    pronouns_and_address: "tôi - ngài / Tướng quân (Andrew gọi Tướng Drake); chúng ta (Andrew và Drake)"
+    locked_elements:
+      - "Thuật ngữ: bên Tình báo, đơn vị pháp sư hải quân đánh bộ, bằng chứng gián tiếp, lãnh thổ Liên bang, Tướng quân."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000003"
+    speaker: "General Drake"
+    pronouns_and_address: "tôi - cậu (Drake xưng hô với Andrew)"
+    locked_elements:
+      - "Phủ định kép: không hiểu Andrew đang nói gì, không phải mẫu người học giỏi ở trường và hoàn toàn mù tịt về những gì giới học giả đang viết."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000004"
+    pov: "Andrew (ngôi thứ nhất 'tôi')"
+    pronouns_and_address: "Tôi (Andrew); ông ấy / Drake / mình (quy chiếu Drake)"
+    locked_elements:
+      - "Mức độ chắc chắn: khẳng định chắc chắn việc Drake nói ghét trường lớp là một lời nói dối trắng trợn."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000005"
+    speaker: "Andrew"
+    pronouns_and_address: "Tôi (Andrew)"
+    locked_elements:
+      - "Thuật ngữ: chương trình đào tạo sĩ quan toàn diện."
+      - "Nhấn mạnh Markdown: giữ '*câu đó*' ứng với thẻ in nghiêng trong nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000006"
+    speaker: "General Drake"
+    pronouns_and_address: "Tôi / mình (Drake)"
+    locked_elements:
+      - "Phủ định và tình thái: chỉ tuân theo mệnh lệnh và làm tròn bổn phận, đâu phải tự chọn làm công tác giáo dục."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000007"
+    speaker: "Andrew"
+    pronouns_and_address: "tôi - ngài (Andrew - Drake)"
+    locked_elements:
+      - "Thuật ngữ: chiến dịch bí mật."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000008"
+    speaker: "General Drake"
+    pronouns_and_address: "Cậu - tôi (Drake - Andrew)"
+    locked_elements:
+      - "Quân hàm thời chiến của Drake: trung tá."
+      - "Câu hỏi tu từ bác bỏ khả năng được tiếp cận thông tin mật ở cấp trung tá."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000009"
+    pov: "Andrew (ngôi thứ nhất 'tôi')"
+    pronouns_and_address: "tôi (Andrew); ông ấy / vị sĩ quan ma pháp hải quân đánh bộ hào hoa này (Drake)"
+    locked_elements:
+      - "Thuật ngữ: sĩ quan ma pháp hải quân đánh bộ."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000010"
+    pov: "Andrew (ngôi thứ nhất 'tôi')"
+    pronouns_and_address: "tôi (Andrew)"
+    locked_elements:
+      - "Phủ định: không mắc lại sai lầm tương tự."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000011"
+    speaker: "Andrew"
+    pronouns_and_address: "Ngài - tôi (Andrew - Drake)"
+    locked_elements:
+      - "Quân hàm trích dẫn lại lời Drake: 'mới chỉ là một trung tá'."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000012"
+    speaker: "General Drake"
+    pronouns_and_address: "Tôi (Drake)"
+    locked_elements:
+      - "Thuật ngữ: mặt trận phía đông."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000013"
+    speaker: "Andrew"
+    pronouns_and_address: "tôi (Andrew)"
+    locked_elements:
+      - "Nhân vật và quân hàm: Đại tá Mikel."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000014"
+    pov: "Andrew (ngôi thứ nhất 'tôi')"
+    speaker: "General Drake"
+    pronouns_and_address: "tôi (Andrew trần thuật), vị tướng / ông ấy (Drake trong trần thuật); tôi - Cậu / Chúng ta (Drake nói với Andrew)"
+    locked_elements:
+      - "Thuật ngữ: binh lính Liên bang, đồng minh."
+      - "Phủ định trong thoại: cái tên đã lâu lắm rồi mới lại được nghe."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000015"
+    speaker: "Andrew"
+    pronouns_and_address: "Ngài / mình (Andrew hỏi Drake)"
+    locked_elements:
+      - "Câu hỏi phủ định gợi mở: 'Ngài không muốn để lại điều gì đó khi mình vẫn còn sống sao?'"
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000016"
+    speaker: "General Drake"
+    pronouns_and_address: "Tôi / mình - Cậu (Drake - Andrew)"
+    locked_elements:
+      - "Phủ định: không thể nói về những gì mình không biết."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000017"
+    speaker: "Andrew"
+    pronouns_and_address: "Lược đại từ, dùng tiểu từ lễ phép 'ạ'"
+    locked_elements:
+      - "Phủ định lịch sự khi cho phép hút thuốc: 'Không phiền chút nào ạ.'"
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000018"
+    pov: "Andrew (ngôi thứ nhất)"
+    speaker: "General Drake"
+    pronouns_and_address: "ông ấy (Drake trong trần thuật); Andrew (Drake gọi tên)"
+    locked_elements:
+      - "Từ vựng: điếu xì gà nhỏ, Andrew."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000019"
+    pov: "Tiêu đề thời gian - địa điểm"
+    locked_elements:
+      - "Định dạng và thuật ngữ: 'NGÀY 8 THÁNG 6 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, SỞ CHỈ HUY LỰC LƯỢNG ĐA QUỐC GIA'."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000020"
+    pov: "Andrew (ngôi thứ nhất 'tôi' thời điểm năm 1927)"
+    speaker: "Andrew"
+    pronouns_and_address: "mình (lẩm bẩm tự nhủ); tôi (trần thuật ngôi thứ nhất)"
+    locked_elements:
+      - "Thuật ngữ: phóng viên của *WTN*, phòng tuyến Rhine, Liên bang."
+      - "Nhấn mạnh Markdown: giữ '*WTN*' theo DEC-P01-002."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000021"
+    pov: "Andrew (ngôi thứ nhất 'tôi')"
+    pronouns_and_address: "tôi / mình (Andrew)"
+    locked_elements:
+      - "Thuật ngữ: Đế quốc, Đảng Cộng sản, 'hang ổ của lũ phản động cố chấp'."
+      - "Phủ định: lý lịch và tư cách tác nghiệp không trở thành rào cản."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000022"
+    pov: "Andrew (ngôi thứ nhất)"
+    locked_elements:
+      - "Thuật ngữ: hồng ân của Thượng đế, quốc gia tư bản."
+      - "Tình thái quá khứ: 'Chỉ có ... mới cứu vãn nổi'."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000023"
+    pov: "Andrew (ngôi thứ nhất)"
+    locked_elements:
+      - "Quan hệ nhân quả: hệ quả từ những điều kỳ quặc của con quái vật mang tên chính trị dẫn tới một phép màu."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000024"
+    pov: "Andrew (ngôi thứ nhất)"
+    locked_elements:
+      - "Nhấn mạnh Markdown: giữ '*Lũ Cộng sản và đám Ăng-lê rốt cuộc cũng về chung một giuộc*' theo DEC-P01-002."
+      - "Thuật ngữ: phía Đế quốc, phe Cộng sản và phe tư bản."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000025"
+    pov: "Andrew (ngôi thứ nhất)"
+    locked_elements:
+      - "Thuật ngữ: Liên bang, Khối Thịnh vượng chung, Đảng Cộng sản, phóng viên Khối Thịnh vượng chung, lực lượng viễn chinh."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000026"
+    pov: "Andrew (ngôi thứ nhất)"
+    locked_elements:
+      - "Thuật ngữ: Liên bang, báo chí nước ngoài."
+  - segment_id: "YS-LN08/Text/chapter004.xhtml/p000027"
+    pov: "Andrew (ngôi thứ nhất)"
+    locked_elements:
+      - "Thuật ngữ: tiếng Liên bang."
+      - "Phủ định và hệ quả: không kỹ năng nào đạt được chỉ sau một đêm, nên một nhà báo quèn rất khó cạnh tranh."
