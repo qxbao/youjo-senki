@@ -1,0 +1,262 @@
+task_id: "vol-08-ch-06-b07-argon-review"
+parent_task_id: "vol-08-ch-06-b07"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-08"
+chapter: 6
+target_translation: "translations/vol-08/ch-06-b07.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000227"
+    severity: "minor"
+    category: "tone_nuance"
+    issue: "Cách dịch 'giở trò này' thêm sắc thái miệt thị/mánh khóe không có trong động từ nguyên bản khi nói về việc Grantz lại nài nỉ xin truy kích vì thương bộ binh."
+    basis: "Theo canon/style-guide.md, không thêm sắc thái phán xét hoặc miệt thị không có trong nguồn; tại đây người nói chỉ chất vấn việc Grantz lại hành xử như vậy một lần nữa."
+    recommendation: "Đổi 'lại định giở trò này nữa đấy à?!' thành 'lại thế này nữa đấy à?!' hoặc 'lại làm chuyện này nữa đấy à?!'."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000228"
+    severity: "minor"
+    category: "pronouns_address"
+    issue: "Thêm đại từ xưng hô 'ngài' ('Xin ngài đấy!') khi Grantz cầu xin cấp trên trực tiếp (Trung tá Tanya von Degurechaff), trong khi nguồn chỉ dùng thán từ cầu khẩn ngắn và chuẩn xưng hô với Tanya trong tập là 'Trung tá'."
+    basis: "Theo DEC-P01-001 và hệ thống xưng hô trong vol-08, cấp dưới gọi Tanya bằng quân hàm 'Trung tá' thay vì 'ngài', hoặc giữ lời cầu khẩn trực tiếp không tự gán danh xưng 'ngài'."
+    recommendation: "Đổi 'Xin ngài đấy!' thành 'Xin Trung tá đấy!' hoặc 'Làm ơn đi mà!'."
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000251"
+    severity: "minor"
+    category: "pov_pronouns"
+    issue: "Đại từ ngôi thứ nhất số nhiều trong độc thoại nội tâm của Tanya đang dịch là 'chúng tôi', lệch giọng với 'mình' (p000250, p000258) và 'chúng ta' (p000259) trong cùng chuỗi suy nghĩ."
+    basis: "Quy ước điểm nhìn nội tâm của Tanya dùng 'mình' (số ít) và 'chúng ta' (số nhiều) khi tự suy ngẫm, tránh dùng 'chúng tôi' vốn mang sắc thái hướng tới người nghe bên ngoài."
+    recommendation: "Đổi 'chúng tôi từng thấy' thành 'chúng ta từng thấy' hoặc 'mình cùng đơn vị từng thấy'."
+pending_term_recommendations:
+  - source_term: "cost-effectiveness / kill ratio"
+    proposed_vi: "hiệu quả chi phí / tỷ lệ tiêu diệt"
+    category: "thuật ngữ"
+    status: "proposed"
+    rationale: "Phù hợp ngữ cảnh phân tích hiệu suất chiến đấu theo lăng kính kinh tế của Tanya và đồng bộ với sổ pending vol-08."
+    alternatives_vi:
+      - "tương quan chi phí – hiệu quả / tỷ lệ tiêu diệt"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000230"
+  - source_term: "trust funds / day trading / human capital"
+    proposed_vi: "quỹ tín thác / giao dịch lướt sóng trong ngày / vốn con người"
+    category: "thuật ngữ"
+    status: "proposed"
+    rationale: "Chuẩn thuật ngữ tài chính – kinh tế học và khớp với đề xuất P03-human-capital trong canon/glossary-pending.yml."
+    alternatives_vi:
+      - "quỹ ủy thác đầu tư / giao dịch trong ngày / vốn nhân lực"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000231"
+  - source_term: "human resource"
+    proposed_vi: "nguồn nhân lực"
+    category: "thuật ngữ"
+    status: "proposed"
+    rationale: "Giữ nhất quán với thuật ngữ quản trị nhân sự mà Tanya sử dụng xuyên suốt tập 8."
+    alternatives_vi:
+      - "nhân sự"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000241"
+  - source_term: "rout"
+    proposed_vi: "cuộc tháo chạy tán loạn"
+    category: "thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Diễn đạt rõ trạng thái vỡ trận và rút chạy mất kiểm soát của bộ binh địch."
+    alternatives_vi:
+      - "cảnh vỡ trận tháo chạy"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000250"
+  - source_term: "François Republic / revolving door"
+    proposed_vi: "Cộng hòa François / cánh cửa xoay"
+    category: "tên gọi / thuật ngữ quân sự"
+    status: "proposed"
+    rationale: "Giữ nguyên tên riêng François và hình ảnh ẩn dụ chiến dịch bao vây tại mặt trận Rhine."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000251"
+  - source_term: "discoverer’s fee / procurement channels / supply process"
+    proposed_vi: "phí phát hiện / kênh thu mua / quy trình tiếp vận"
+    category: "thuật ngữ"
+    status: "proposed"
+    rationale: "Giữ đúng giọng điệu thương mại hóa hoạt động hậu cần quân sự của Tanya."
+    alternatives_vi:
+      - "thưởng phát hiện / kênh mua sắm vật tư / quy trình tiếp tế"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000255"
+      - "YS-LN08/Text/chapter022.xhtml/p000257"
+  - source_term: "The Art of War / Sun Tzu / the homeland / plunder economy"
+    proposed_vi: "*Binh pháp Tôn Tử* / Tôn Tử / bản quốc / nền kinh tế cướp bóc"
+    category: "tên gọi / thuật ngữ"
+    status: "proposed"
+    rationale: "Tên tác phẩm kinh điển giữ chữ nghiêng theo nguồn; 'bản quốc' đồng bộ với ledger vol-08; 'nền kinh tế cướp bóc' sát nghĩa học thuật quân sự."
+    alternatives_vi:
+      - "*Binh pháp Tôn Tử* / Tôn Tử / chính quốc / kinh tế cướp đoạt"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000258"
+  - source_term: "seizure / American Empire"
+    proposed_vi: "thu giữ chiến lợi phẩm / Đế quốc Mỹ"
+    category: "thuật ngữ / tên gọi"
+    status: "proposed"
+    rationale: "Phân biệt rõ hành vi thu giữ hợp pháp theo luật chiến tranh với cướp bóc; giữ nguyên cách gọi 'Đế quốc Mỹ' trong liên tưởng kiếp trước của Tanya."
+    alternatives_vi:
+      - "trưng thu chiến lợi phẩm / Đế quốc Mỹ"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000259"
+  - source_term: "THE FEDERATION, SOMEWHERE IN MOSKVA, OFFICE OF THE COMMISSARIAT FOR INTERNAL AFFAIRS, WHICH EXISTS TO SERVE THE PEOPLE"
+    proposed_vi: "LIÊN BANG, MỘT NƠI NÀO ĐÓ TẠI MOSKVA, VĂN PHÒNG BỘ DÂN ỦY NỘI VỤ, CƠ QUAN TỒN TẠI ĐỂ PHỤC VỤ NHÂN DÂN"
+    category: "địa danh / cơ quan"
+    status: "proposed"
+    rationale: "Dịch chuẩn thuật ngữ hành chính kiểu Liên Xô cho Bộ Dân ủy Nội vụ (NKVD) và giữ sắc thái châm biếm chính trị của dòng tiêu đề chuyển cảnh."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000263"
+  - source_term: "commissar of internal affairs / Loria / colonel"
+    proposed_vi: "ủy viên dân ủy nội vụ / Loria / đại tá"
+    category: "chức danh / tên nhân vật / quân hàm"
+    status: "proposed"
+    rationale: "Đồng bộ chức danh của Loria với cơ quan Bộ Dân ủy Nội vụ; sĩ quan Liên bang mang quân hàm 'colonel' dịch chuẩn là 'đại tá'."
+    alternatives_vi:
+      - "dân ủy nội vụ / Loria / đại tá"
+    segment_ids:
+      - "YS-LN08/Text/chapter022.xhtml/p000264"
+      - "YS-LN08/Text/chapter022.xhtml/p000266"
+locked_choices:
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000227"
+    locks:
+      ranks_and_names: "Lieutenant Grantz -> Trung úy Grantz"
+      pronouns: "you -> anh"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000228"
+    locks:
+      terms: "ground troops -> lực lượng mặt đất"
+      address: "Tránh dùng 'ngài' khi Grantz cầu khẩn Tanya; ưu tiên 'Xin Trung tá đấy!' hoặc 'Làm ơn đi mà!'"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000229"
+    locks:
+      pronouns: "We -> Chúng ta"
+      negation_modality: "can't -> không thể"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000230"
+    locks:
+      pov_pronouns: "She -> Cô (trần thuật về Tanya)"
+      terms: "cost-effectiveness -> hiệu quả chi phí; kill ratio -> tỷ lệ tiêu diệt"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000231"
+    locks:
+      pov_pronouns: "Tanya / cô"
+      terms: "trust funds -> quỹ tín thác; day trading -> giao dịch lướt sóng trong ngày; human capital -> vốn con người"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000232"
+    locks:
+      pov_pronouns: "Tanya / cô"
+      negation_modality: "isn't a bad choice -> không phải là một lựa chọn tồi; shouldn't be desperately short of that -> hẳn không thiếu thốn thứ đó đến mức tuyệt vọng"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000233"
+    locks:
+      pronouns: "we -> chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000234"
+    locks:
+      terms: "safety -> sự an toàn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000235"
+    locks:
+      terms: "Safety, peace, and certainty -> An toàn, yên ổn và chắc chắn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000236"
+    locks:
+      pronouns: "I -> tôi (Tanya phát biểu trước cấp dưới); my troops -> binh sĩ của mình"
+      negation_modality: "won't ever back down -> sẽ không bao giờ nhượng bộ; won't let -> sẽ không để"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000237"
+    locks:
+      terms: "Understood -> Đã rõ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000238"
+    locks:
+      pov_pronouns: "Tanya / cô"
+      logic: "So sánh đòi hỏi 70 phần trăm chắc chắn hơn cố đòi 100 phần trăm"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000239"
+    locks:
+      pov_pronouns: "my -> của mình (nội tâm tự quy chiếu); Tanya / cô (trần thuật đan xen); Grantz / he -> anh ta"
+      modality: "seems to have recognized -> dường như đã nhận ra; It may well be -> Rất có thể"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000240"
+    locks:
+      negation_modality: "not surprising -> chẳng có gì đáng ngạc nhiên"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000241"
+    locks:
+      pov_pronouns: "Tanya; he -> anh ta (Grantz)"
+      terms: "human resource -> nguồn nhân lực"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000242"
+    locks:
+      pronouns: "I -> tôi (Tanya nói với Weiss)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000243"
+    locks:
+      ranks_and_names: "Colonel (gọi Trung tá Tanya von Degurechaff) -> thưa Trung tá / Trung tá"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000244"
+    locks:
+      pronouns: "I / me -> tôi / mình (Tanya đáp lời Weiss)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000245"
+    locks:
+      pov_pronouns: "she -> cô"
+      emphasis: "Giữ đúng Markdown *Đó là về tầm quan trọng của việc thay đổi góc nhìn* khớp với thẻ em trong nguồn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000246"
+    locks:
+      emphasis: "Giữ đúng 3 cụm nhấn mạnh Markdown *bỏ lỡ*, *bên dưới*, *nhìn xuống mà bỏ sót* tương ứng với 3 thẻ em trong nguồn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000247"
+    locks:
+      ranks_and_names: "Major -> Thiếu tá (Weiss)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000248"
+    locks:
+      tone: "Hmm? -> Hửm?"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000249"
+    locks:
+      pronouns: "Our enemies -> Kẻ địch của chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000250"
+    locks:
+      pov_pronouns: "I -> mình (độc thoại nội tâm của Tanya)"
+      terms: "rout -> cuộc tháo chạy tán loạn"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000251"
+    locks:
+      pov_pronouns: "we -> chúng ta (thống nhất đại từ nội tâm với p000250, p000258, p000259)"
+      terms: "François Republic -> Cộng hòa François; revolving door -> cánh cửa xoay"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000252"
+    locks:
+      terms: "enemy ground troops -> lực lượng mặt đất của địch"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000253"
+    locks:
+      terms: "organized retreat -> cuộc rút lui có tổ chức"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000254"
+    locks:
+      pronouns: "they -> bọn chúng (bộ binh địch tháo chạy)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000255"
+    locks:
+      terms: "Federation artillery gear -> khí tài pháo binh của Liên bang; discoverer's fee -> phí phát hiện"
+      pronouns: "our -> của chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000256"
+    locks:
+      pronouns: "I -> tôi (Weiss nói với Tanya); we -> chúng ta"
+      ranks_and_names: "Grantz -> Grantz"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000257"
+    locks:
+      terms: "procurement channels -> các kênh thu mua; supply process -> quy trình tiếp vận"
+      pronouns: "you -> anh (Tanya gọi Thiếu tá Weiss)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000258"
+    locks:
+      emphasis: "Giữ đúng Markdown *Binh pháp Tôn Tử* cho tên tác phẩm trong thẻ em"
+      pov_pronouns: "my / I -> mình (nội tâm hồi tưởng thời ở Nhật Bản); he -> ông ấy (Tôn Tử)"
+      terms: "the homeland -> bản quốc; plunder economy -> nền kinh tế cướp bóc"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000259"
+    locks:
+      pov_pronouns: "We / we -> Chúng ta / chúng ta"
+      terms: "seizure -> thu giữ chiến lợi phẩm; the homeland -> bản quốc; American Empire -> Đế quốc Mỹ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000260"
+    locks:
+      pov_pronouns: "she -> cô (trần thuật về Tanya); we -> chúng ta (thoại)"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000261"
+    locks:
+      ranks_and_names: "Weiss -> Weiss; Tanya -> Tanya"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000262"
+    locks:
+      ranks_and_names: "Major -> Thiếu tá (Weiss)"
+      pronouns: "you -> anh"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000263"
+    locks:
+      terms: "THE FEDERATION -> LIÊN BANG; MOSKVA -> MOSKVA; OFFICE OF THE COMMISSARIAT FOR INTERNAL AFFAIRS -> VĂN PHÒNG BỘ DÂN ỦY NỘI VỤ"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000264"
+    locks:
+      ranks_and_names: "commissar of internal affairs -> ủy viên dân ủy nội vụ; Loria -> Loria"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000265"
+    locks:
+      pronouns: "We -> Chúng ta"
+  - segment_id: "YS-LN08/Text/chapter022.xhtml/p000266"
+    locks:
+      ranks_and_names: "colonel -> đại tá (sĩ quan Liên bang)"
+      pronouns: "his / he -> ông ta"
