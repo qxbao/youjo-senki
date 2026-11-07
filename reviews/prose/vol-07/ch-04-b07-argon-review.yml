@@ -1,0 +1,331 @@
+task_id: "vol-07-ch-04-b07-argon-review"
+parent_task_id: "vol-07-ch-04-b07"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b07-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b07.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b07-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000108"
+    issue: "Dùng chung động từ 'bắn nhầm' cho cả hai chủ thể 'pháo binh địch' và 'vài kẻ đần độn bên phe mình' ('bị pháo binh địch và thậm chí là vài kẻ đần độn bên phe mình bắn nhầm') làm phát sinh nét nghĩa phi lý là pháo binh địch cũng bắn nhầm."
+    evidence: "Trong nguyên bản, cụm động từ chỉ hành động nã đạn/bắn vào đơn vị của Tanya được dùng chung cho cả pháo binh địch lẫn quân mình; sắc thái bắn nhầm chỉ nằm ở vế quân mình."
+    recommendation: "Đổi 'bắn nhầm' thành 'nã đạn vào' hoặc tách rõ: 'bị pháo binh địch nã đạn và thậm chí bị vài kẻ đần độn bên phe mình bắn nhầm'."
+pending_term_recommendations:
+  - source_term: "Captain Meybert / Meybert / General Staff"
+    proposed_vi: "Đại úy Meybert / Meybert / Bộ Tổng tham mưu"
+    category: "nhân vật / quân hàm / cơ quan quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất danh xưng Đại úy Meybert và cơ quan Bộ Tổng tham mưu theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000094"
+      - "YS-LN07/Text/chapter016.xhtml/p000120"
+  - source_term: "corps-scale maneuver battle / maneuver battle / vertical envelopment"
+    proposed_vi: "trận đánh cơ động quy mô quân đoàn / trận đánh cơ động (trận cơ động) / bao vây chiều thẳng đứng"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kế thừa thuật ngữ 'trận đánh cơ động' từ các batch trước của chương 4 và diễn đạt sát nghĩa học thuyết quân sự cho hình thái bao vây đường không 'bao vây chiều thẳng đứng'."
+    alternatives_vi:
+      - "bao vây thẳng đứng"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000095"
+      - "YS-LN07/Text/chapter016.xhtml/p000103"
+      - "YS-LN07/Text/chapter016.xhtml/p000104"
+      - "YS-LN07/Text/chapter016.xhtml/p000105"
+      - "YS-LN07/Text/chapter016.xhtml/p000107"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff) / Major / Weiss"
+    proposed_vi: "Trung tá (Thưa Trung tá) / Thiếu tá / Weiss"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Đồng bộ cách gọi cấp bậc Trung tá của Tanya và Thiếu tá của Weiss trong đối thoại tại sở chỉ huy Kampfgruppe Salamander."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000096"
+      - "YS-LN07/Text/chapter016.xhtml/p000100"
+      - "YS-LN07/Text/chapter016.xhtml/p000101"
+      - "YS-LN07/Text/chapter016.xhtml/p000103"
+      - "YS-LN07/Text/chapter016.xhtml/p000118"
+  - source_term: "home country / Operation Iron Hammer"
+    proposed_vi: "bản quốc / Chiến dịch Búa Sắt"
+    category: "thuật ngữ / tên chiến dịch"
+    status: "pending"
+    rationale: "Kế thừa nhất quán cách dịch 'bản quốc' và 'Chiến dịch Búa Sắt' trong sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000101"
+      - "YS-LN07/Text/chapter016.xhtml/p000103"
+  - source_term: "armored-forces man / armored officer / Captain Ahrens"
+    proposed_vi: "tay sĩ quan bên lực lượng thiết giáp / sĩ quan thiết giáp / Đại úy Ahrens"
+    category: "nhân vật / quân hàm / binh chủng"
+    status: "pending"
+    rationale: "Khớp với định danh Đại úy Ahrens là sĩ quan thiết giáp trong Kampfgruppe Salamander ở sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000104"
+      - "YS-LN07/Text/chapter016.xhtml/p000106"
+      - "YS-LN07/Text/chapter016.xhtml/p000110"
+  - source_term: "air superiority / control of the sky / control of the airspace / Jabos"
+    proposed_vi: "ưu thế trên không / quyền kiểm soát bầu trời / quyền kiểm soát vùng trời / những chiếc Jabo"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất các thuật ngữ tác chiến không quân theo sổ pending và bảo toàn thuật ngữ lóng quân sự Đức 'Jabo' (tiêm kích - bom)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000105"
+      - "YS-LN07/Text/chapter016.xhtml/p000107"
+      - "YS-LN07/Text/chapter016.xhtml/p000111"
+      - "YS-LN07/Text/chapter016.xhtml/p000114"
+  - source_term: "ranger paratroopers / rangers / airborne units / airborne operation / aerial mages"
+    proposed_vi: "lực lượng biệt kích dù / lực lượng biệt kích / các đơn vị đổ bộ đường không / chiến dịch đổ bộ đường không / các pháp sư trên không"
+    category: "đơn vị / thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống thuật ngữ lực lượng đổ bộ đường không và biệt kích dù đã ghi nhận ở các batch trước của chương 4 tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000116"
+      - "YS-LN07/Text/chapter016.xhtml/p000117"
+      - "YS-LN07/Text/chapter016.xhtml/p000119"
+      - "YS-LN07/Text/chapter016.xhtml/p000121"
+      - "YS-LN07/Text/chapter016.xhtml/p000127"
+      - "YS-LN07/Text/chapter016.xhtml/p000130"
+  - source_term: "Imperial Army / Federation’s Communist Party / Federation"
+    proposed_vi: "Lục quân Đế quốc / Đảng Cộng sản Liên bang / Liên bang"
+    category: "tổ chức / quốc gia"
+    status: "pending"
+    rationale: "Khớp với tên gọi chuẩn hóa tạm trong sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000095"
+      - "YS-LN07/Text/chapter016.xhtml/p000113"
+      - "YS-LN07/Text/chapter016.xhtml/p000123"
+      - "YS-LN07/Text/chapter016.xhtml/p000133"
+  - source_term: "central penetrating group / vanguard group"
+    proposed_vi: "cụm đột kích xuyên thủng trung tâm / cụm tiên phong"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt rõ vai trò đội hình mũi nhọn thọc sâu ở trung tâm và lực lượng tiên phong trong chiến dịch cơ động."
+    alternatives_vi:
+      - "cụm đột phá trung tâm / thê đội tiên phong"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000124"
+      - "YS-LN07/Text/chapter016.xhtml/p000132"
+  - source_term: "Salamander Kampfgruppe / Mobile Kampfgruppe"
+    proposed_vi: "Kampfgruppe Salamander / Kampfgruppe Cơ động"
+    category: "đơn vị"
+    status: "pending"
+    rationale: "Giữ nguyên cấu trúc danh từ riêng 'Kampfgruppe Salamander' và dịch nghĩa tính từ mô tả ở 'Kampfgruppe Cơ động' để phân biệt định danh với tính chất đơn vị."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000130"
+      - "YS-LN07/Text/chapter016.xhtml/p000132"
+  - source_term: "Second Armored Division / Fifteenth Division / Third Composite Mechanized Infantry Division / self-propelled divisions"
+    proposed_vi: "Sư đoàn Thiết giáp số 2 / Sư đoàn 15 / Sư đoàn Bộ binh Cơ giới Hỗn hợp số 3 / ba sư đoàn tự hành"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Dịch chuẩn xác tên phiên hiệu các sư đoàn cơ giới/thiết giáp của Lục quân Đế quốc tham gia mũi đột kích."
+    alternatives_vi:
+      - "Sư đoàn Thiết giáp số 2 / Sư đoàn số 15 / Sư đoàn Bộ binh Cơ giới Hỗn hợp số 3 / ba sư đoàn cơ động tự hành"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000132"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000094"
+    choices:
+      - "Nhân vật, cấp bậc & cơ quan: 'Captain Meybert' -> 'Đại úy Meybert'; 'General Staff' -> 'Bộ Tổng tham mưu'; 'higher-ups' -> 'cấp trên'"
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'Nó'"
+      - "Tình thái & đối lập: 'Có lẽ là để giữ bí mật thôi... Nó bênh vực cấp trên đôi chút nhưng thừa biết có lẽ Meybert nói đúng.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000095"
+    choices:
+      - "Thuật ngữ: 'front-wide advance' -> 'tiến công trên toàn mặt trận'; 'fighting power' -> 'sức chiến đấu'; 'corps-scale maneuver battle' -> 'trận đánh cơ động quy mô quân đoàn'; 'Federation’s offensive' -> 'đợt tiến công của Liên bang'"
+      - "Tình thái dự đoán & quan hệ đối lập: 'có lẽ đây sẽ là... Đề xuất việc... thì dễ đấy, nhưng để thực hiện trót lọt lại là chuyện khó ở một tầm hoàn toàn khác.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000096"
+    choices:
+      - "Xưng hô của lính thông tin với Tanya: 'Có điện báo ạ. Của Trung tá đây.' ('Colonel' -> 'Trung tá')"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000097"
+    choices:
+      - "Lời đáp ngắn của Tanya: '“Cảm ơn.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000098"
+    choices:
+      - "Thuật ngữ: 'signaler' -> 'người lính thông tin'"
+      - "Tên nhân vật & đại từ phản thân: 'Tanya' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000099"
+    choices:
+      - "Câu cảm thán bỏ lửng của Tanya: '“Hả? Thật không thể tin nổi là lại…”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000100"
+    choices:
+      - "Xưng hô của Weiss với Tanya: 'Thưa Trung tá? Có chuyện gì vậy ạ?' ('Colonel' -> 'Thưa Trung tá')"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000101"
+    choices:
+      - "Xưng hô của Tanya với Weiss: 'tôi' - 'Thiếu tá' ('Major'); đại từ chỉ cấp trên ở bản quốc: 'Họ'"
+      - "Thuật ngữ: 'home country' -> 'bản quốc'; 'gamble' -> 'canh bạc'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000102"
+    choices:
+      - "Câu hỏi lại lễ phép của Weiss: '“Một canh bạc sao ạ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000103"
+    choices:
+      - "Tên nhân vật & đại từ trong thoại của Tanya: 'Tanya', 'Weiss', xưng 'tôi'"
+      - "Tên chiến dịch & thuật ngữ: 'Operation Iron Hammer' -> 'Chiến dịch Búa Sắt'; 'vertical envelopment' -> 'bao vây chiều thẳng đứng'; 'quintessential maneuver battle' -> 'một trận đánh cơ động điển hình nhất'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000104"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*trận đánh cơ động*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ: 'armored-forces man' -> 'tay sĩ quan bên lực lượng thiết giáp'; 'armored officer' -> 'sĩ quan thiết giáp'"
+      - "Phủ định: 'không bao giờ ngần ngại đặt câu hỏi'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000105"
+    choices:
+      - "Đại từ & kính ngữ trong câu hỏi của Đại úy Ahrens: 'Chúng ta... chưa ạ?'"
+      - "Thuật ngữ: 'air superiority' -> 'ưu thế trên không'; 'maneuver battle' -> 'trận cơ động'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000106"
+    choices:
+      - "Nhân vật & cấp bậc: 'Tanya'; 'Captain Ahrens' -> 'Đại úy Ahrens'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000107"
+    choices:
+      - "Đại từ số nhiều trong nhận định nội tâm của Tanya: 'chúng ta'"
+      - "Thuật ngữ: 'ground units' -> 'Các đơn vị mặt đất'; 'control of the sky' -> 'quyền kiểm soát bầu trời'; 'maneuver battle' -> 'trận cơ động'; 'Jabos' -> 'những chiếc Jabo'"
+      - "Phủ định & điều kiện: 'chẳng thể tiến xa được nếu chúng ta không nắm quyền kiểm soát bầu trời'; 'Chẳng ai muốn hành quân dưới làn đạn của những chiếc Jabo cả'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000108"
+    choices:
+      - "Đại từ trong lời Tanya: 'chúng ta' / 'Chúng ta' / 'phe mình'"
+      - "Thuật ngữ: 'air force' -> 'Không quân'; 'enemy artillery' -> 'pháo binh địch'; 'enemy planes' -> 'máy bay địch'"
+      - "Tách hoặc dùng động từ chung chuẩn xác cho cả pháo binh địch và quân mình: 'bị pháo binh địch nã đạn và thậm chí bị vài kẻ đần độn bên phe mình bắn nhầm' (hoặc 'bị pháo binh địch và thậm chí là vài kẻ đần độn bên phe mình nã đạn vào')"
+      - "Phủ định & câu hỏi đuôi: 'nhưng vẫn chưa hề bị máy bay địch quấy rối lần nào, đúng chứ?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000109"
+    choices:
+      - "Xưng hô của Đại úy Ahrens với Tanya: 'Tôi' + 'ạ'"
+      - "Câu hỏi phủ định & tôn giáo: '…Vậy đó không chỉ là sự trùng hợp thôi sao ạ? Tôi cứ tưởng đó là nhờ sự che chở của Chúa…'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000110"
+    choices:
+      - "Cấu trúc mệnh lệnh phủ định – khẳng định: 'Đừng tin vào Chúa mà hãy tin vào những người đồng đội của mình ấy, Đại úy Ahrens.'"
+      - "Đại từ & danh xưng: 'Đại úy Ahrens', 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000111"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Hiệu quả thật đáng kinh ngạc*' tương ứng với thẻ em trong nguồn"
+      - "Tên nhân vật & thuật ngữ: 'Tanya'; 'control of the airspace' -> 'quyền kiểm soát vùng trời'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000112"
+    choices:
+      - "Câu hỏi ngắn của cấp dưới: '“Nhưng bằng cách nào ạ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000113"
+    choices:
+      - "Thuật ngữ: 'Federation air force' -> 'không quân Liên bang'; 'advancing infantry' -> 'bộ binh đang tiến quân'"
+      - "Đại từ: 'chúng' (quân Liên bang), 'Chúng ta' (phe Đế quốc)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000114"
+    choices:
+      - "Thuật ngữ: 'air forces' -> 'Lực lượng không quân'; 'air superiority' -> 'ưu thế trên không'; 'the Empire' -> 'Đế quốc'"
+      - "Mệnh đề nhượng bộ chêm xen: 'dù chỉ là tạm thời'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000115"
+    choices:
+      - "Giữ nguyên mốc thời gian vừa mới xảy ra: 'Chiến quả cuối cùng ấy chỉ vừa mới được báo cáo cách đây ít phút.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000116"
+    choices:
+      - "Đại từ trong lời Tanya: 'Tôi' - 'chúng ta' - 'họ' (các đơn vị đổ bộ đường không)"
+      - "Thuật ngữ: 'ranger paratroopers' -> 'lực lượng biệt kích dù'; 'Airborne units' -> 'Các đơn vị đổ bộ đường không'; 'enemy’s rear area' -> 'hậu phương địch'; 'crossing point' -> 'điểm vượt sông'; 'aerial mages' -> 'các pháp sư trên không'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000117"
+    choices:
+      - "Thuật ngữ trong câu hỏi của Weiss: 'airborne operation' -> 'chiến dịch đổ bộ đường không'; 'crossing in the enemy’s rear' -> 'điểm vượt sông ở hậu phương địch'"
+      - "Giữ kính ngữ 'ạ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000118"
+    choices:
+      - "Đại từ trần thuật theo DEC-P01-001: 'Nó' (Tanya), 'Weiss'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000119"
+    choices:
+      - "Đại từ: 'họ' (Bộ Tổng tham mưu/cấp trên), 'chúng ta' (lực lượng thực thi chiến dịch)"
+      - "Thuật ngữ & điều kiện giả định: 'classic operation' -> 'chiến dịch kinh điển'; 'Nếu chúng ta thất bại, các đơn vị đổ bộ đường không trấn giữ điểm vượt sông sẽ bị xóa sổ… Đó là một rủi ro khổng lồ.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000120"
+    choices:
+      - "Cơ quan: 'General Staff' -> 'Bộ Tổng tham mưu'"
+      - "Phủ định kép hàm ý khẳng định trong nội tâm Tanya: 'Chắc chắn ngay cả Bộ Tổng tham mưu... cũng sẽ không cho phép một canh bạc như thế nếu không có hy vọng thành công.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000121"
+    choices:
+      - "Địa danh & thuật ngữ: 'Arene' -> 'Arene'; 'aerial mages' -> 'các pháp sư trên không'; 'ranger paratroopers' -> 'lực lượng biệt kích dù'; 'firepower' -> 'hỏa lực'"
+      - "Giả định & tình thái: 'Chỉ thả mỗi các pháp sư trên không xuống thôi thì sẽ không đủ, nhưng nếu bắt cặp với lực lượng biệt kích dù, có lẽ họ tính rằng chúng ta sẽ có đủ quân số và hỏa lực để chế áp quân địch.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000122"
+    choices:
+      - "Đại từ khái quát tự quy chiếu: 'chính mình'"
+      - "Thuật ngữ: 'taking the initiative' -> 'giành thế chủ động'; 'cliché' -> 'lối mòn sáo rỗng'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000123"
+    choices:
+      - "Tổ chức: 'Imperial Army' -> 'Lục quân Đế quốc'; 'Federation’s Communist Party' -> 'Đảng Cộng sản Liên bang'"
+      - "Phủ định kép khẳng định: 'chẳng thể nào là một ý tồi được'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000124"
+    choices:
+      - "Đại từ trong lời Tanya: 'chúng ta'"
+      - "Thuật ngữ: 'lead the charge' -> 'dẫn đầu mũi xung kích'; 'central penetrating group' -> 'cụm đột kích xuyên thủng trung tâm'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000125"
+    choices:
+      - "Câu hỏi ngắn của cấp dưới: '“Vậy tức là sao ạ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000126"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+      - "Quan hệ đối lập trong câu: 'Các sĩ quan của nó hơi quá háo hức giao chiến, nhưng đáp lại sự kỳ vọng của cấp dưới cũng là một phần công việc của một người sếp tốt.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000127"
+    choices:
+      - "Đại từ trong lời Tanya: 'chúng ta'"
+      - "Thuật ngữ: 'communication line' -> 'tuyến liên lạc'; 'enemy rear area' -> 'khu vực hậu phương địch'; 'ranger paratroopers' -> 'lực lượng biệt kích dù'"
+      - "Giả định cảnh báo: 'Không cần phải nói cũng biết, nếu chúng ta đến muộn, lực lượng biệt kích dù có thể sẽ bị tiêu diệt hoàn toàn.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000128"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000129"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*rất xa*' tương ứng với thẻ em trong nguồn"
+      - "Thuật ngữ: 'enemy rear area' -> 'khu vực hậu phương địch'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000130"
+    choices:
+      - "Thuật ngữ & tên đơn vị: 'rangers' -> 'lực lượng biệt kích'; 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; 'mechanized' -> 'cơ giới hóa'"
+      - "Đại từ: 'họ' (lực lượng biệt kích), 'chúng ta' (đơn vị của Tanya)"
+      - "Phủ định & điều kiện: 'mà không được tiếp tế, trừ phi chúng ta đẩy tốc độ lên thật cao'; 'chẳng có mấy cơ hội tác chiến đúng tiến độ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000131"
+    choices:
+      - "Câu hỏi của cấp dưới về biên chế khu vực tác chiến: '“Những đơn vị nào được phân công vào khu vực này vậy ạ?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000132"
+    choices:
+      - "Đại từ trong lời Tanya: 'Chúng ta'"
+      - "Tên đơn vị & thuật ngữ: 'Second Armored Division' -> 'Sư đoàn Thiết giáp số 2'; 'Fifteenth Division' -> 'Sư đoàn 15'; 'Third Composite Mechanized Infantry Division' -> 'Sư đoàn Bộ binh Cơ giới Hỗn hợp số 3'; 'self-propelled divisions' -> 'ba sư đoàn tự hành'; 'Mobile Kampfgruppe' -> 'Kampfgruppe Cơ động'; 'vanguard group' -> 'cụm tiên phong'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000133"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc'; 'mechanized troops' -> 'các đơn vị cơ giới'; 'chains of command' -> 'hệ thống chỉ huy'"
+      - "Phủ định: 'nhưng… chẳng đời nào các đơn vị này có thể phối hợp hiệu quả khi hệ thống chỉ huy của họ trước nay hầu như chưa từng làm việc cùng nhau.'"
+      - "Không dùng nhấn mạnh Markdown"
