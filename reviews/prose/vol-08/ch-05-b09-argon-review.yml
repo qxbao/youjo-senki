@@ -1,0 +1,308 @@
+task_id: vol-08-ch-05-b09-argon-review
+parent_task_id: vol-08-ch-05-b09
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b09-source.jsonl
+target_translation: translations/vol-08/ch-05-b09.jsonl
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000299
+    severity: minor
+    category: metaphor_cohesion
+    issue: "Chuỗi đoạn p000297–p000299 xây dựng ẩn dụ liền mạch từ hình ảnh 'cả một núi việc' ở p000297 sang hành động phá nhỏ ở p000298 và biến ngọn núi đó thành đống đá vụn ở p000299. Cách dịch 'bóc tách được nó ra' (p000298) và 'đập vụn nó thành đống gạch đá' (p000299) hơi lệch chất liệu hình ảnh của ngọn núi (đất đá thay vì gạch đá)."
+    recommendation: "Có thể cân nhắc chỉnh p000298 thành 'Nhưng ông đã xoay xở phá nhỏ được nó ra.' và p000299 thành 'Việc đập vụn nó thành đống đá vụn không còn chỉ là một giấc mơ nữa.' để giữ trọn mạch ẩn dụ."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000306
+    severity: minor
+    category: style_fidelity
+    issue: "Bản dịch thêm cụm giải thích 'sự ngang bướng' ('chịu đựng sự ngang bướng của ông') ở p000306 và các từ bổ nghĩa 'xương máu', 'thay thế' ở p000318 dù văn bản gốc chỉ diễn đạt trực tiếp ('chịu đựng ông', 'những bài học', 'nòng súng'). Tuy không làm lệch nghĩa cốt lõi nhưng theo style-guide.md nên hạn chế tự thêm từ giải thích."
+    recommendation: "Có thể rút gọn thành 'chịu đựng ông' (p000306), 'những bài học trên mặt trận Rhine' và 'thiếu hụt đạn dược và nòng súng kinh niên' (p000318)."
+pending_term_recommendations:
+  - source_term: "General / marshal and general / Lieutenant General von Rudersdorf"
+    proposed_vi: "Tướng quân (thưa Tướng quân) / nguyên soái và đại tướng / Trung tướng von Rudersdorf"
+    alternatives_vi: []
+    rationale: "Giữ thống nhất cách xưng hô 'Tướng quân' dành cho Zettour và cấp bậc 'Trung tướng von Rudersdorf' đã khóa ở các batch trước; trong lời nói đùa ở p000293, 'nguyên soái và đại tướng' thể hiện rõ hai bậc quân hàm cao nhất khi cùng xông vào điện Valhalla."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000288
+      - YS-LN08/Text/chapter018.xhtml/p000293
+      - YS-LN08/Text/chapter018.xhtml/p000303
+      - YS-LN08/Text/chapter018.xhtml/p000305
+      - YS-LN08/Text/chapter018.xhtml/p000310
+      - YS-LN08/Text/chapter018.xhtml/p000312
+      - YS-LN08/Text/chapter018.xhtml/p000315
+      - YS-LN08/Text/chapter018.xhtml/p000321
+      - YS-LN08/Text/chapter018.xhtml/p000324
+      - YS-LN08/Text/chapter018.xhtml/p000326
+    status: pending
+  - source_term: "first lieutenant / Lieutenant Grantz / Lieutenant / the lieutenant"
+    proposed_vi: "trung úy / Trung úy Grantz / Trung úy / vị trung úy"
+    alternatives_vi: []
+    rationale: "Đồng bộ với định danh và quân hàm của Trung úy Grantz trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000302
+      - YS-LN08/Text/chapter018.xhtml/p000304
+      - YS-LN08/Text/chapter018.xhtml/p000306
+      - YS-LN08/Text/chapter018.xhtml/p000309
+      - YS-LN08/Text/chapter018.xhtml/p000327
+    status: pending
+  - source_term: "Colonel von Degurechaff / Lieutenant Colonel Uger"
+    proposed_vi: "Trung tá von Degurechaff / Trung tá Uger"
+    alternatives_vi: []
+    rationale: "Đồng bộ với cấp bậc Trung tá đã khóa cho Tanya von Degurechaff và Uger trong tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000310
+      - YS-LN08/Text/chapter018.xhtml/p000321
+    status: pending
+  - source_term: "Commander Cramm / Brigadier General Schulz / Deputy Commander Schulz / regimental commanders"
+    proposed_vi: "Chỉ huy Cramm / Chuẩn tướng Schulz / Phó chỉ huy Schulz / trung đoàn trưởng"
+    alternatives_vi: []
+    rationale: "Giữ nhất quán danh xưng 'Chỉ huy Cramm', 'Phó chỉ huy' và 'trung đoàn trưởng' theo pending-terms-index.yml; dịch sát cấp bậc 'Chuẩn tướng Schulz' khi tiếp quản chỉ huy sư đoàn."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000315
+      - YS-LN08/Text/chapter018.xhtml/p000316
+      - YS-LN08/Text/chapter018.xhtml/p000324
+      - YS-LN08/Text/chapter018.xhtml/p000326
+    status: pending
+  - source_term: "forward-most line / front line / front lines / the rear"
+    proposed_vi: "tuyến đầu tiên / tiền tuyến / hậu phương"
+    alternatives_vi: []
+    rationale: "Đồng bộ hoàn toàn với hệ thuật ngữ vị trí chiến trường đã khóa trong tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000315
+      - YS-LN08/Text/chapter018.xhtml/p000316
+      - YS-LN08/Text/chapter018.xhtml/p000317
+      - YS-LN08/Text/chapter018.xhtml/p000318
+      - YS-LN08/Text/chapter018.xhtml/p000323
+    status: pending
+  - source_term: "the Rhine / Rhine front / eastern front / the east / B Group"
+    proposed_vi: "mặt trận Rhine / mặt trận phía đông / miền đông / Cụm B"
+    alternatives_vi: []
+    rationale: "Đồng bộ với pending-terms-index.yml của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000318
+      - YS-LN08/Text/chapter018.xhtml/p000319
+      - YS-LN08/Text/chapter018.xhtml/p000322
+      - YS-LN08/Text/chapter018.xhtml/p000327
+      - YS-LN08/Text/chapter018.xhtml/p000328
+    status: pending
+  - source_term: "supply network / communication lines / maneuver battle / general offensive / Andromeda"
+    proposed_vi: "mạng lưới tiếp vận / tuyến giao thông liên lạc / trận đánh cơ động / cuộc tổng tấn công / Andromeda"
+    alternatives_vi: []
+    rationale: "Khớp hệ thuật ngữ hậu cần và chiến dịch trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000318
+      - YS-LN08/Text/chapter018.xhtml/p000320
+      - YS-LN08/Text/chapter018.xhtml/p000321
+    status: pending
+  - source_term: "timetable masters / railway timetable"
+    proposed_vi: "những bậc thầy lập biểu đồ chạy tàu / lịch trình chạy tàu đường sắt"
+    alternatives_vi:
+      - "những chuyên gia lập lịch trình chạy tàu / biểu đồ chạy tàu đường sắt"
+    rationale: "Diễn đạt rõ đặc thù kỹ thuật điều độ đường sắt quân sự của Đế quốc."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000322
+      - YS-LN08/Text/chapter018.xhtml/p000328
+    status: pending
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000288
+    choices:
+      - "ranks_and_names: thưa Tướng quân (General)"
+      - "pronouns: Chỉ huy Cramm xưng 'tôi / chúng tôi', gọi Zettour là 'ngài'"
+      - "modality: Giữ nguyên câu trả lời chính thức trong ngoặc đơn ‘Chúng tôi sẽ phản kích. Tôi xin nhắc lại, chúng tôi sẽ phản kích.’"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000289
+    choices:
+      - "pov_and_modality: Trần thuật theo điểm nhìn đánh giá của Zettour"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000290
+    choices:
+      - "terms: hệ thống chỉ huy (chain of command)"
+      - "ranks_and_names: Zettour"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000291
+    choices:
+      - "pronouns: Độc thoại nội tâm của Zettour gọi Cramm là 'anh ta'"
+      - "emphasis: Bọc toàn bộ câu nội tâm '*Vậy là anh ta cũng đã chuẩn bị tinh thần cho tình huống xấu nhất rồi.*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000292
+    choices:
+      - "pronouns: Zettour gọi Cramm là 'anh'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000293
+    choices:
+      - "ranks_and_names: thưa Tướng quân (General), nguyên soái và đại tướng (marshal and general)"
+      - "terms: điện Valhalla (Valhalla)"
+      - "pronouns: Cramm xưng 'tôi', gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000294
+    choices:
+      - "pronouns: Zettour xưng 'ta', dùng 'hai chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000295
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông', tự quy chiếu 'mình', gọi nhóm Cramm là 'họ'"
+      - "modality: Giữ cấu trúc phủ định – suy đoán 'Không phải ông đang buông lỏng cảnh giác; có lẽ...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000296
+    choices:
+      - "pronouns: Zettour độc thoại thành tiếng tự xưng 'ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000297
+    choices:
+      - "modality: Trần thuật theo điểm nhìn Zettour"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000298
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000299
+    choices:
+      - "modality: Giữ phủ định 'không còn chỉ là một giấc mơ nữa'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000300
+    choices:
+      - "pronouns: Câu cảm thán nội tâm nhân cách hóa 'phương kế thoát thân' dùng cặp 'Ngươi – ta'"
+      - "emphasis: Bọc toàn bộ câu nội tâm '*Ngươi đang ở đâu, phương kế thoát thân của ta?*' theo thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000301
+    choices:
+      - "pronouns: Zettour tự nhủ xưng 'ta', tự quy chiếu 'mình', gọi nhóm thuộc cấp vừa rời đi là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000302
+    choices:
+      - "ranks_and_names: Zettour, một trung úy (a first lieutenant)"
+      - "terms: bộ binh (infantry), trận chiến phòng ngự (defensive battle)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000303
+    choices:
+      - "ranks_and_names: Thưa Tướng quân (General)"
+      - "pronouns: Grantz gọi Zettour là 'ngài'"
+      - "modality: Giữ câu bỏ lửng 'Tiến thêm nữa là—' khớp với lời nối câu ở p000304"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000304
+    choices:
+      - "ranks_and_names: Trung úy Grantz (Lieutenant Grantz)"
+      - "terms: trận đánh bộ binh (infantry battle)"
+      - "pronouns: Zettour xưng 'ta', gọi Grantz là 'cậu', dùng 'Chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000305
+    choices:
+      - "ranks_and_names: thưa Tướng quân (General)"
+      - "pronouns: Grantz gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000306
+    choices:
+      - "ranks_and_names: Grantz, Zettour, vị trung úy (the lieutenant)"
+      - "terms: sĩ quan hộ tống (escort)"
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000307
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông'"
+      - "modality: Giữ phủ định 'là điều ông không thể làm'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000308
+    choices:
+      - "pronouns: Trần thuật gọi Zettour là 'ông', cả đơn vị là 'họ'"
+      - "modality: Câu hỏi tu từ nội tâm gián tiếp của Zettour"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000309
+    choices:
+      - "ranks_and_names: Trung úy (Lieutenant)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000310
+    choices:
+      - "ranks_and_names: thưa Tướng quân (General), Trung tá von Degurechaff (Colonel von Degurechaff)"
+      - "pronouns: Grantz xưng 'tôi / chúng tôi', gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000311
+    choices:
+      - "terms: sư đoàn (the division)"
+      - "pronouns: Zettour gọi Grantz là 'Cậu', phần còn lại của sư đoàn là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000312
+    choices:
+      - "ranks_and_names: Thưa Tướng quân (General)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000313
+    choices:
+      - "pronouns: Zettour xưng 'ta'"
+      - "modality: Giữ đúng nghĩa bị động 'khi còn chưa bị bắn trúng phát nào' để liên kết logic với việc Cramm bị thương ở p000315–p000316"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000314
+    choices:
+      - "ranks_and_names: Grantz"
+      - "pronouns: Tự quy chiếu 'mình'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000315
+    choices:
+      - "ranks_and_names: Chỉ huy Cramm (Commander Cramm), Chuẩn tướng Schulz (Brigadier General Schulz), Thưa Tướng quân (General)"
+      - "terms: hậu phương (the rear)"
+      - "pronouns: Grantz gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000316
+    choices:
+      - "ranks_and_names: Chỉ huy Cramm (Commander Cramm)"
+      - "terms: hậu phương (the rear)"
+      - "pronouns: Zettour gọi Grantz là 'Cậu'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000317
+    choices:
+      - "ranks_and_names: Zettour"
+      - "terms: tuyến đầu tiên (forward-most line), súng máy hạng nhẹ (light machine guns)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000318
+    choices:
+      - "terms: mặt trận Rhine (the Rhine), Lục quân Đế quốc (Imperial Army), pháo binh (artillery), súng máy (machine guns), mạng lưới tiếp vận (supply network), mặt trận phía đông (eastern front), tiền tuyến (front line), súng máy hạng nhẹ (light machine guns)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000319
+    choices:
+      - "terms: Đế quốc (the Empire), miền đông (the east), Lục quân Đế quốc (Imperial Army), mật độ hỏa lực bộ binh (density of infantry fire), các đơn vị bộ binh Đế quốc (imperial infantry units)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000320
+    choices:
+      - "terms: các sĩ quan cao cấp của Đế quốc (high-ranking imperial officers), tuyến giao thông liên lạc của địch (enemy communication lines), vu hồi (circumvention), trận đánh cơ động (maneuver battle)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000321
+    choices:
+      - "ranks_and_names: Trung tướng von Rudersdorf (Lieutenant General von Rudersdorf), Trung tá Uger (Lieutenant Colonel Uger)"
+      - "terms: Andromeda, các mỏ tài nguyên ở phía nam (resource fields to the south), trận đánh cơ động (maneuver battle), cuộc tổng tấn công (general offensive), Đế quốc (the Empire)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000322
+    choices:
+      - "terms: Cụm B (B Group), những bậc thầy lập biểu đồ chạy tàu (timetable masters), Đế quốc (the Empire)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000323
+    choices:
+      - "terms: tiền tuyến (front lines)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000324
+    choices:
+      - "ranks_and_names: Phó chỉ huy Schulz (Deputy Commander Schulz), Thưa Tướng quân (General)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000325
+    choices:
+      - "pronouns: Zettour dùng 'chúng ta', chỉ các đơn vị đang tác chiến là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000326
+    choices:
+      - "ranks_and_names: trung đoàn trưởng (regimental commanders), Thưa Tướng quân (General)"
+      - "pronouns: Grantz dùng 'Chúng ta', gọi Zettour là 'ngài'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000327
+    choices:
+      - "ranks_and_names: Trung úy Grantz (Lieutenant Grantz)"
+      - "terms: mặt trận Rhine (Rhine front)"
+      - "modality: Giữ giả định hệ quả 'Giờ mà thử rút lui xem—toàn bộ đội quân này sẽ sụp đổ ngay.'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000328
+    choices:
+      - "terms: kho dự trữ vật tư (stockpile), lịch trình chạy tàu đường sắt (railway timetable), lực lượng dự bị (forces in reserve), mặt trận phía đông (eastern front)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000329
+    choices:
+      - "terms: cuộc cơ động (the maneuver), Lục quân Đế quốc (Imperial Army)"
+      - "pronouns: Trần thuật dùng 'họ'"
+      - "emphasis: Không dùng *...*"
