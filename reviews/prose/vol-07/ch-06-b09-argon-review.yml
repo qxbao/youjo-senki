@@ -1,0 +1,140 @@
+task_id: "vol-07-ch-06-b09-argon-review"
+parent_task_id: "vol-07-ch-06-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 6
+source_package: "work/vol-07/batches/ch-06-b09-source.jsonl"
+target_translation: "translations/vol-07/ch-06-b09.jsonl"
+review_path: "reviews/prose/vol-07/ch-06-b09-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+unresolved_findings: 0
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter022.xhtml/p000340"
+    issue: "Câu hỏi tỉnh lược ở p000340 nối tiếp danh từ chỉ việc đọc nhầm ở cuối p000339 để diễn tả lời van nài mong rằng đây thực sự là một sự đọc nhầm; bản dịch hiện tại lặp lại cấu trúc phủ định bổ ngữ của p000339 thay vì hỏi mở về khả năng đó là nhầm lẫn."
+    evidence: "Đối chiếu mạch câu hỏi nội tâm liên tiếp giữa p000339 và p000340 cùng lời cầu khẩn ngay sau đó."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ thành câu hỏi mong cầu khả năng đọc nhầm (ví dụ hỏi liệu có thể nào là do đọc nhầm hay không) ở lượt chuốt văn để phân tách rõ sắc thái với p000339; hiện không làm sai lệch mạch tâm lý chung của Lergen."
+pending_term_recommendations:
+  - source_term: "duty officer"
+    proposed_vi: "sĩ quan trực ban"
+    category: "chức danh quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phù hợp với vai trò sĩ quan trực tiếp nhận và chuyển điện báo mật từ Bộ Tổng tham mưu cho Lergen."
+    alternatives_vi:
+      - "sĩ quan trực nhật"
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000311"
+      - "YS-LN07/Text/chapter022.xhtml/p000316"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với phương án đang dùng trong sổ thuật ngữ tạm của dự án."
+    alternatives_vi:
+      - "Bộ Tổng Tham mưu"
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000313"
+      - "YS-LN07/Text/chapter022.xhtml/p000324"
+  - source_term: "Supreme Command"
+    proposed_vi: "Bộ Tư lệnh Tối cao"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Nhất quán với phương án tạm đã thiết lập ở các tập trước và trong tập 7."
+    alternatives_vi:
+      - "Bộ Thống soái Tối cao"
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000314"
+      - "YS-LN07/Text/chapter022.xhtml/p000355"
+  - source_term: "home country"
+    proposed_vi: "bản quốc"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ âm hưởng trang trọng, công vụ theo điểm nhìn của sĩ quan tham mưu Đế quốc đang làm nhiệm vụ ngoại giao ở nước ngoài."
+    alternatives_vi:
+      - "trong nước"
+      - "chính quốc"
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000317"
+      - "YS-LN07/Text/chapter022.xhtml/p000320"
+      - "YS-LN07/Text/chapter022.xhtml/p000350"
+      - "YS-LN07/Text/chapter022.xhtml/p000355"
+  - source_term: "codebook / cipher"
+    proposed_vi: "sổ mật mã / bản mật mã"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phân biệt hợp lý giữa quyển sổ tra cứu mật mã cất trong két sắt và hệ mật mã đối chiếu chuyên biệt của Lergen với Bộ Tổng tham mưu."
+    alternatives_vi:
+      - "cuốn mật mã / khóa mật mã"
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000324"
+      - "YS-LN07/Text/chapter022.xhtml/p000326"
+      - "YS-LN07/Text/chapter022.xhtml/p000330"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Diễn đạt chuẩn xác, tự nhiên và nhất quán trong văn cảnh chiến sự với Liên bang."
+    alternatives_vi:
+      - "Mặt trận phía Đông"
+    segment_ids:
+      - "YS-LN07/Text/chapter022.xhtml/p000330"
+      - "YS-LN07/Text/chapter022.xhtml/p000344"
+      - "YS-LN07/Text/chapter022.xhtml/p000349"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000311-p000319"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "duty officer -> sĩ quan trực ban"
+      - "General Staff -> Bộ Tổng tham mưu"
+      - "Supreme Command -> Bộ Tư lệnh Tối cao"
+    pronouns_and_address:
+      - "Lergen với sĩ quan trực ban: tôi - anh"
+      - "Sĩ quan trực ban với Lergen: tôi/mình - ngài (kèm tiểu từ kính ngữ ạ)"
+      - "Trần thuật ngôi thứ ba: Lergen -> anh; sĩ quan trực ban -> anh ta"
+    pov_and_modality:
+      - "Giữ điểm nhìn giới hạn theo Lergen; câu độc thoại nội tâm ngắn ở p000318 bọc đúng Markdown *...* theo thẻ em của nguồn."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000320-p000330"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "General Staff -> Bộ Tổng tham mưu"
+      - "home country -> bản quốc"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba về Lergen: anh"
+      - "Độc thoại nội tâm và lời tự nhủ một mình của Lergen (p000321, p000322, p000325, p000329): mình"
+    pov_and_modality:
+      - "Giữ đúng phạm vi nhấn mạnh Markdown *...* ở p000321, p000322, p000325 theo DEC-P01-002; không tự đánh dấu nghiêng cho toàn bộ câu văn trần thuật hay lời nói thành tiếng."
+      - "Giữ nguyên cụm trích dẫn giải mã 'chiến thắng ở mặt trận phía đông' ở p000330 để khớp với toàn văn bức điện ở p000344 và p000349."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000331-p000348"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "Trần thuật ngôi thứ ba về Lergen: anh"
+      - "Độc thoại nội tâm / tự nhủ (p000333, p000341): mình"
+      - "Chủ thể phát ngôn trong văn bản điện báo công vụ (p000344): chúng tôi"
+    pov_and_modality:
+      - "Khóa phạm vi nhấn mạnh Markdown *...* cho các câu độc thoại nội tâm ở p000339, p000340, p000341 đúng theo nguồn."
+      - "Giữ nguyên quan hệ đối lập giữa việc hiểu chữ nghĩa và việc tâm trí từ chối chấp nhận sự thật ở p000346-p000348."
+  - segment_id: "YS-LN07/Text/chapter022.xhtml/p000349-p000357"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "home country -> bản quốc"
+      - "Supreme Command -> Bộ Tư lệnh Tối cao"
+      - "the Empire -> Đế quốc"
+    pronouns_and_address:
+      - "Lời Lergen thốt lên phản kháng hướng về mệnh lệnh từ cấp trên (p000352): tôi"
+      - "Tự quy chiếu tập thể của Lergen và đoàn đàm phán trong độc thoại nội tâm (p000355): chúng ta"
+    pov_and_modality:
+      - "Khóa chính xác 2 cụm nhấn mạnh Markdown *đàm phán lại* và *những nhượng bộ lớn hơn nhiều* trong lời đọc lại bức điện ở p000349, cụm *những điều này* ở p000352, cùng toàn bộ đoạn độc thoại nội tâm ở p000355 và p000357 theo DEC-P01-002."
+      - "Giữ nguyên hiệu ứng lắp bắp trong thoại ở p000349, p000352 và p000354."
