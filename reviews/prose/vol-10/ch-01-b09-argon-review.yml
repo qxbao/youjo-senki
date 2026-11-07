@@ -1,0 +1,393 @@
+task_id: vol-10-ch-01-b09-argon-review
+parent_task_id: vol-10-ch-01-b09
+reviewer: gemini-4-argon-medium
+volume: vol-10
+chapter: 1
+source_package: work/vol-10/batches/ch-01-b09-source.jsonl
+target_translation: translations/vol-10/ch-01-b09.jsonl
+status: approved_with_minor_notes
+validator: not_run
+diff_check: not_run
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000073
+    severity: minor
+    category: pronouns
+    issue: "Trong cùng một lượt thoại của Trung tướng Rudersdorf, hai lần quy chiếu ngôi thứ nhất số nhiều cho phía Văn phòng Bộ Tổng tham mưu ('us' / 'We') đang chuyển từ 'chúng ta' ở câu thứ hai sang 'Chúng tôi' ở câu thứ ba."
+    evidence: "Đối chiếu cụm nguyên gốc ngắn 'for us in the east' và 'We’re having her deliver... for us' tại p000073."
+    recommendation: "Khi chuốt văn ở bước sau, có thể thống nhất cả hai thành 'chúng tôi' để giữ ranh giới ngôi xưng của cơ quan tham mưu trung ương khi nói với tư lệnh chiến trường."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000076
+    severity: minor
+    category: modality
+    issue: "Cụm 'đoán chắc mười mươi' đẩy mức độ chắc chắn lên tuyệt đối, hơi lệch nhẹ so với sắc thái phỏng đoán có căn cứ đi kèm tình thái bất định ở vế sau."
+    evidence: "Đối chiếu cụm nguyên gốc ngắn 'had a good guess', 'might be' và 'Most likely' tại p000076."
+    recommendation: "Khi chuốt văn ở bước sau, có thể điều chỉnh nhẹ thành 'đoán được khá rõ gói bưu kiện hệ trọng kia có thể là gì' để khớp mượt hơn với câu tiếp theo ('Nhiều khả năng là...')."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000089
+    severity: minor
+    category: diction
+    issue: "Thành ngữ 'khỉ ho cò gáy' trong tiếng Việt thường chỉ nơi hẻo lánh, vắng bóng người, chưa thật khớp với bối cảnh trụ sở Văn phòng Bộ Tổng tham mưu ở thủ đô vốn đang đông đúc và hỗn loạn."
+    evidence: "Đối chiếu cụm nguyên gốc ngắn 'the godforsaken General Staff Office' tại p000089 cùng mô tả hành lang đông người ở lô trước (p000039–p000040)."
+    recommendation: "Khi chuốt văn ở bước sau, có thể thay bằng tính từ biểu thị sự tồi tàn hoặc ghê sợ như 'tồi tàn', 'quỷ quái' hoặc 'bị ruồng bỏ'."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Degurechaff / the tiny lieutenant colonel"
+    proposed_vi: "Trung tá Degurechaff / vị trung tá nhỏ nhắn"
+    alternatives_vi: []
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000059
+      - YS-LN10/Text/chapter006.xhtml/p000073
+      - YS-LN10/Text/chapter006.xhtml/p000074
+      - YS-LN10/Text/chapter006.xhtml/p000081
+    rationale: "Giữ nhất quán cấp bậc Trung tá (Lieutenant Colonel) của Tanya von Degurechaff theo chỉ mục pending."
+  - source_term: "Personnel"
+    proposed_vi: "bên Nhân sự"
+    alternatives_vi:
+      - "Cục Nhân sự"
+      - "Phòng Nhân sự"
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000065
+    rationale: "Dịch trung tính, sát ngữ cảnh khẩu ngữ hành chính trong lời thoại của Trung tướng Rudersdorf mà không tự suy diễn cấp cơ quan (Cục/Phòng) khi nguồn chỉ viết hoa danh từ chung."
+  - source_term: "Lieutenant General Romel / General Romel"
+    proposed_vi: "Trung tướng Romel / Tướng Romel"
+    alternatives_vi: []
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000066
+      - YS-LN10/Text/chapter006.xhtml/p000076
+      - YS-LN10/Text/chapter006.xhtml/p000087
+    rationale: "Phân biệt chính xác nơi nguồn ghi quân hàm đầy đủ 'Lieutenant General Romel' và nơi gọi tắt 'General Romel', nhất quán với lô ch-01-b08."
+  - source_term: "veteran aerial mage / aerial magic officer"
+    proposed_vi: "pháp sư trên không dày dạn kinh nghiệm / sĩ quan ma pháp trên không"
+    alternatives_vi:
+      - "pháp sư hàng không kỳ cựu / sĩ quan pháp sư trên không"
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000068
+      - YS-LN10/Text/chapter006.xhtml/p000071
+      - YS-LN10/Text/chapter006.xhtml/p000075
+    rationale: "Giữ nhất quán 'pháp sư trên không' (aerial mage) và 'sĩ quan ma pháp trên không' (aerial magic officer) theo chỉ mục pending và lô ch-01-b08."
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000069
+      - YS-LN10/Text/chapter006.xhtml/p000089
+    rationale: "Giữ nhất quán với chỉ mục pending và lô ch-01-b08."
+  - source_term: "Lieutenant General Rudersdorf / General Rudersdorf"
+    proposed_vi: "Trung tướng Rudersdorf / Tướng Rudersdorf"
+    alternatives_vi: []
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000072
+      - YS-LN10/Text/chapter006.xhtml/p000080
+      - YS-LN10/Text/chapter006.xhtml/p000084
+      - YS-LN10/Text/chapter006.xhtml/p000096
+    rationale: "Giữ đúng nơi nguồn dùng quân hàm đầy đủ 'Lieutenant General Rudersdorf' và nơi dùng 'General Rudersdorf' trong lời độc thoại của Romel."
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    alternatives_vi:
+      - "Phương án B"
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000076
+      - YS-LN10/Text/chapter006.xhtml/p000092
+    rationale: "Tiếp nối nhất quán thuật ngữ 'Kế hoạch B' đã khóa ở lô ch-01-b08."
+  - source_term: "General Zettour / Lieutenant General Zettour"
+    proposed_vi: "Tướng Zettour / Trung tướng Zettour"
+    alternatives_vi: []
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000076
+      - YS-LN10/Text/chapter006.xhtml/p000077
+    rationale: "Giữ chính xác cách gọi tắt 'Tướng Zettour' và quân hàm đầy đủ 'Trung tướng Zettour' theo chỉ mục pending."
+  - source_term: "eastern front / western front"
+    proposed_vi: "mặt trận phía đông / mặt trận phía tây"
+    alternatives_vi: []
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000078
+      - YS-LN10/Text/chapter006.xhtml/p000085
+    rationale: "Giữ nhất quán tên gọi các mặt trận theo phương hướng với lô ch-01-b08."
+  - source_term: "fog of war"
+    proposed_vi: "sương mù chiến tranh"
+    alternatives_vi: []
+    status: pending
+    uncertainty: low
+    segment_ids:
+      - YS-LN10/Text/chapter006.xhtml/p000094
+    rationale: "Thuật ngữ lý luận quân sự kinh điển của Clausewitz, dịch chuẩn xác và tự nhiên."
+locked_choices:
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000059
+    terms:
+      - "xuất kích (deploy)"
+      - "Trung tá Degurechaff (Lieutenant Colonel Degurechaff)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf với Trung tướng Romel: xưng 'Tôi', gọi Romel là 'ông', quy chiếu Degurechaff là 'cô ấy'."
+    modality_and_negation: "Giữ sắc thái rào đón lịch sự 'Tôi phải cáo lỗi', dự báo thời gian 'sẽ mất một thời gian' và phủ định 'sẽ không thể có mặt ở đó sớm như ông mong muốn'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000060
+    terms: []
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Romel hỏi Trung tướng Rudersdorf, tự xưng 'Tôi'."
+    modality_and_negation: "Giữ câu hỏi lịch sự trực diện."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000061
+    terms:
+      - "Romel"
+    pov_and_pronouns: "Trần thuật ngôi thứ ba theo điểm nhìn Trung tướng Romel, đại từ 'ông'."
+    modality_and_negation: "Giữ mức độ kiềm chế 'hơi đanh lại đôi chút, dù chưa đến mức có thể nói là ông đang bực dọc' và nhận định 'hoàn toàn dễ hiểu'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000062
+    terms:
+      - "những tấm séc (checks)"
+      - "tiền tệ thực thụ (proper currency)"
+      - "quân tiếp viện (reinforcements)"
+      - "những tấm séc khống (fake checks)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'Ông', tự quy chiếu 'mình', quy chiếu binh lính/séc bằng 'chúng'."
+    modality_and_negation: "Giữ điều kiện phủ định 'Chừng nào chưa đổi ra tiền mặt thì chúng vẫn chưa thể được coi là tiền tệ thực thụ' và quan hệ nhân quả giải thích bằng thực tế 'thường rốt cuộc chỉ là những tấm séc khống'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000063
+    terms:
+      - "tiền mặt (cash)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'Ông'."
+    modality_and_negation: "Giữ mong muốn dứt khoát 'càng sớm càng tốt'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000064
+    terms:
+      - "vị tướng (the general)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel ('ông') nhìn Trung tướng Rudersdorf ('vị tướng')."
+    modality_and_negation: "Giữ quan hệ nhân quả 'Vì vậy' và tương phản 'nhưng câu trả lời ông nhận được lại hoàn toàn nằm ngoài dự đoán'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000065
+    terms:
+      - "bên Nhân sự (Personnel)"
+      - "kỳ nghỉ hè (summer vacation)"
+      - "số ngày phép còn tồn đọng chưa dùng (vacation time she has yet to use)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf: tự xưng 'tôi', quy chiếu Degurechaff là 'cô ấy'."
+    modality_and_negation: "Giữ trạng thái tiếp diễn 'cứ thúc ép tôi mãi' và mốc thời gian 'mới chỉ vừa bắt đầu từ hôm nay thôi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000066
+    terms:
+      - "Trung tướng Romel (Lieutenant General Romel)"
+    pov_and_pronouns: "Trần thuật ngôi thứ ba quy chiếu 'Trung tướng Romel'."
+    modality_and_negation: "Giữ cấu trúc tự đính chính 'vô thức—không, hoàn toàn có ý thức—cao giọng'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000067
+    terms:
+      - "nghỉ phép (vacation)"
+    pov_and_pronouns: "Thoại cảm thán của Trung tướng Romel với Trung tướng Rudersdorf, gọi đối phương là 'Ngài'."
+    modality_and_negation: "Giữ hai câu hỏi dồn dập biểu thị sự sững sờ."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000068
+    terms:
+      - "pháp sư trên không dày dạn kinh nghiệm (veteran aerial mage)"
+      - "thời chiến (wartime)"
+    pov_and_pronouns: "Độc thoại và nhận định nội tâm của Trung tướng Romel."
+    modality_and_negation: "Giữ tình thái trách cứ ở câu đầu và đánh giá 'thật hết sức phi lý' ở câu sau."
+    emphasis: "Khóa nhấn mạnh Markdown '*Ít ra cũng phải kiếm cái cớ nào nghe lọt tai hơn thế chứ!*' ở câu đầu khớp hoàn toàn với thẻ <html:em> trong nguồn theo DEC-P01-002."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000069
+    terms:
+      - "Văn phòng Bộ Tổng tham mưu (General Staff Office)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Romel với Trung tướng Rudersdorf: xưng 'Tôi', gọi 'thưa ngài' / 'Ngài'."
+    modality_and_negation: "Giữ nhịp ngập ngừng chuyển chủ ngữ từ cá nhân sang cơ quan 'Ngài… Văn phòng Bộ Tổng tham mưu định cho phép chuyện này sao?'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000070
+    terms:
+      - "Romel"
+      - "các nhà chiến lược (strategists)"
+      - "những tu sĩ phụng sự vị thần tất yếu tàn nhẫn (priests for the merciless god of necessity)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, quy chiếu các nhà chiến lược bằng 'Họ' / 'họ'."
+    modality_and_negation: "Giữ ẩn dụ tôn giáo, mức độ 'hoàn toàn có khả năng' và giả định tăng tiến 'Một khi tình thế đòi hỏi, họ thậm chí sẵn sàng hủy bỏ cả những kỳ nghỉ phép đã hứa'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000071
+    terms:
+      - "những người cày xới trên cánh đồng chiến lược (farmers in the field of strategy)"
+      - "nô lệ của sự tất yếu (slaves to necessity)"
+      - "Romel"
+      - "sĩ quan ma pháp trên không (aerial magic officer)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel."
+    modality_and_negation: "Giữ cấu trúc nhượng bộ – đối lập ('Không cần phải nói... Thế nhưng suy cho cùng...') và cấu trúc tăng tiến 'Không chỉ có vậy, người đang đứng trước mặt Romel hoàn toàn có thể dễ dàng hủy bỏ...'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000072
+    terms:
+      - "Trung tướng Rudersdorf (Lieutenant General Rudersdorf)"
+    pov_and_pronouns: "Trần thuật ngôi thứ ba quy chiếu 'Trung tướng Rudersdorf'."
+    modality_and_negation: "Giữ chuỗi cử chỉ đồng thời của Rudersdorf."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000073
+    terms:
+      - "Trung tá Degurechaff (Lieutenant Colonel Degurechaff)"
+      - "miền đông (the east)"
+      - "tài liệu mật (secret document)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf: quy chiếu Degurechaff bằng 'cô ấy', quy chiếu phía Bộ Tổng tham mưu bằng 'chúng tôi' (xem finding minor về việc thống nhất 'chúng ta' -> 'chúng tôi')."
+    modality_and_negation: "Giữ câu hỏi đuôi 'phải không?' và sắc thái nói giảm 'đơn giản chỉ là dịp... nhân tiện chạy giúp... một việc vặt'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000074
+    terms:
+      - "Trung tá Degurechaff (Lieutenant Colonel Degurechaff)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Romel."
+    modality_and_negation: "Giữ câu hỏi nhấn vào tính bắt buộc của người thực hiện 'đích thân Trung tá Degurechaff phải là người chuyển tập tài liệu đặc biệt này sao?'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000075
+    terms:
+      - "sĩ quan ma pháp trên không (aerial magic officer)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel nhận định về Degurechaff ('Cô' / 'cô')."
+    modality_and_negation: "Giữ suy luận tất yếu quá khứ – hiện tại 'Bất kể thứ cô đang chuyển đi là gì, đó hẳn phải là một bộ giấy tờ tối quan trọng'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000076
+    terms:
+      - "Tướng Romel (General Romel)"
+      - "Kế hoạch B (Plan B)"
+      - "đường dây liên lạc trực tiếp (direct line of communication)"
+      - "Tướng Zettour (General Zettour)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel ('Tướng Romel')."
+    modality_and_negation: "Giữ tình thái suy đoán có căn cứ và mức độ khả năng 'Nhiều khả năng là đường dây liên lạc trực tiếp gửi tới Tướng Zettour' (xem finding minor)."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000077
+    terms:
+      - "miền đông (the east)"
+      - "Trung tướng Zettour (Lieutenant General Zettour)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf: dùng 'Chúng ta' ở câu mở đầu, quy chiếu Degurechaff bằng 'cô ấy'."
+    modality_and_negation: "Giữ lời khuyên ngăn 'đừng vội suy diễn sâu xa quá' và mục đích 'để cô ấy có cớ nghỉ phép mà thôi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000078
+    terms:
+      - "mặt trận phía đông (eastern front)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Romel, quy chiếu Degurechaff là 'cô ấy'."
+    modality_and_negation: "Giữ sắc thái mỉa mai kín đáo qua tình thái 'Hy vọng... sẽ thực sự giúp cô ấy thư giãn'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000079
+    terms: []
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf."
+    modality_and_negation: "Giữ sự đồng tình và lời cầu chúc ngắn gọn."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000080
+    terms:
+      - "Trung tướng Rudersdorf (Lieutenant General Rudersdorf)"
+      - "Romel"
+    pov_and_pronouns: "Trần thuật theo điểm nhìn Trung tướng Romel, quy chiếu Rudersdorf bằng 'chính mình' và 'ông ta'."
+    modality_and_negation: "Giữ phủ định 'không muốn bàn thêm về chủ đề này nữa'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000081
+    terms:
+      - "Romel"
+      - "vị trung tá nhỏ nhắn (the tiny lieutenant colonel)"
+      - "miền đông (the east)"
+      - "miền tây (the west)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel ('Ông' / 'ông') về Degurechaff ('Cô' / 'cô')."
+    modality_and_negation: "Giữ mức độ 'suýt chút nữa đã thấy tội nghiệp', phủ định tuyệt đối 'chẳng bao giờ có lấy một phút nghỉ ngơi' và sự tương phản hài hước đen tối giữa lời chúc nghỉ ngơi ở miền đông với ý định 'vắt kiệt sức làm việc của cô' ở miền tây."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000082
+    terms: []
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Romel, tự xưng 'tôi'."
+    modality_and_negation: "Giữ quan hệ điều kiện chấp thuận 'nếu đã vậy thì tôi hiểu rồi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000083
+    terms: []
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf."
+    modality_and_negation: "Giữ lời đáp ngắn gọn."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000084
+    terms:
+      - "Trung tướng Rudersdorf (Lieutenant General Rudersdorf)"
+    pov_and_pronouns: "Trần thuật ngôi thứ ba quy chiếu 'Trung tướng Rudersdorf'."
+    modality_and_negation: "Giữ tính chủ đích 'cố tình hắng giọng một tiếng đầy hàm ý' và quan hệ thời gian 'trước khi quay lại vấn đề chính'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000085
+    terms:
+      - "mặt trận phía tây (western front)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Rudersdorf với Trung tướng Romel: xưng 'Tôi', gọi 'ông'."
+    modality_and_negation: "Giữ lời chốt quyết định và sự kỳ vọng."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000086
+    terms:
+      - "miền nam (the south)"
+    pov_and_pronouns: "Thoại trực tiếp của Trung tướng Romel với Trung tướng Rudersdorf: gọi 'Ông' (hoặc 'Ngài' nếu đồng bộ với p000067/p000069), tự xưng 'chúng tôi' (chỉ Romel và đội ngũ của ông ở chiến trường phía nam)."
+    modality_and_negation: "Giữ khẳng định tự tin về kết quả tích lũy từ chiến trường phía nam."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000087
+    terms:
+      - "Trung tướng Romel (Lieutenant General Romel)"
+    pov_and_pronouns: "Trần thuật theo điểm nhìn Trung tướng Romel, đại từ 'ông'."
+    modality_and_negation: "Giữ trình tự thời gian trước và sau khi rời phòng họp."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000088
+    terms:
+      - "ổ chuột (rathole)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'ông'."
+    modality_and_negation: "Giữ so sánh giả định 'chẳng khác nào một cái ổ chuột dài ngoằng, rệu rã'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000089
+    terms:
+      - "Romel"
+      - "Văn phòng Bộ Tổng tham mưu (General Staff Office)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel."
+    modality_and_negation: "Giữ giả định phủ định 'Đến cả một con mèo chắc cũng chẳng buồn bén mảng tới cái chốn này' và cảm giác ghê sợ đang nảy sinh của Romel (xem finding minor)."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000090
+    terms:
+      - "chiến trường (battlefield)"
+      - "kiểu nói năng nước đôi (doublespeak)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'Ông' / 'ông', tự quy chiếu 'mình'."
+    modality_and_negation: "Giữ so sánh hơn 'còn đáng sợ hơn cả chiến trường' và phủ định tương lai 'sẽ chẳng bao giờ quen nổi kiểu nói năng nước đôi...'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000091
+    terms:
+      - "người lính (soldier)"
+      - "các mối đe dọa ngoại bang (foreign threats)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'ông'."
+    modality_and_negation: "Giữ cấu trúc danh ngữ nối tiếp đoạn trước nhấn mạnh bổn phận bảo vệ đất nước."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000092
+    terms:
+      - "Kế hoạch B (Plan B)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'Ông' / 'ông', tự quy chiếu 'mình'."
+    modality_and_negation: "Giữ phủ định 'không sao rũ bỏ được cảm giác...' và mức độ vượt ngưỡng 'quá đỗi rắc rối để ông có thể nắm bắt trọn vẹn'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000093
+    terms: []
+    pov_and_pronouns: "Nhận định nội tâm của Trung tướng Romel."
+    modality_and_negation: "Giữ trạng thái tiếp diễn 'đang trở nên quá phức tạp'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000094
+    terms:
+      - "sương mù chiến tranh (fog of war)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel, đại từ 'ông'."
+    modality_and_negation: "Giữ giả định 'Nếu phải ví tình cảnh hiện tại với một trận đánh, thì cứ như thể...', sự đối lập với nguyên tắc tập trung binh lực và câu hỏi tu từ nội tâm ở cuối đoạn."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000095
+    terms: []
+    pov_and_pronouns: "Nhận định nội tâm của Trung tướng Romel."
+    modality_and_negation: "Giữ khẳng định cảnh báo nguy cơ thảm họa."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000096
+    terms:
+      - "Tướng Rudersdorf (General Rudersdorf)"
+    pov_and_pronouns: "Thoại độc thoại của Trung tướng Romel nói về Tướng Rudersdorf."
+    modality_and_negation: "Giữ tình thái phỏng đoán 'có lẽ đã lún quá sâu rồi'."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000097
+    terms:
+      - "vị tướng (the general)"
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel ('Ông') nhận định về Rudersdorf ('vị tướng ấy' / 'mình')."
+    modality_and_negation: "Giữ cấu trúc 'không khỏi có cảm giác' và nhận định vượt tầm kiểm soát."
+    emphasis: "Không dùng *...*."
+  - segment_id: YS-LN10/Text/chapter006.xhtml/p000098
+    terms: []
+    pov_and_pronouns: "Điểm nhìn Trung tướng Romel."
+    modality_and_negation: "Giữ phủ định 'cứ không sao khớp lại được' khép lại chương."
+    emphasis: "Không dùng *...*."
