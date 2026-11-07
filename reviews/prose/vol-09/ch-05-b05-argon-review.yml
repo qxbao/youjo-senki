@@ -1,0 +1,200 @@
+task_id: vol-09-ch-05-b05-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000046
+    severity: minor
+    category: addition_omission
+    issue: "Trong lời thoại ví von việc gọi món khai vị để tự mình kiểm chứng hương vị như một hoạt động trinh sát quân sự ở p000046, bản dịch đang thêm động từ và danh từ chỉ đơn vị thành 'cử một đội tuần tra cấp sĩ quan', làm lệch nhẹ ẩn dụ việc chính bản thân Tanya (một sĩ quan) tự nếm thử món ăn để vượt qua 'sương mù chiến tranh'."
+    evidence: "Theo canon/style-guide.md, không tự thêm chi tiết không có trong nguồn và cần giữ đúng mạch liên kết với câu hỏi lựa chọn món ăn ngay ở p000047–p000048."
+    recommendation: "Bỏ cụm 'cử một đội', đổi thành '“Vậy thì tôi đoán đã đến lúc thực hiện một cuộc tuần tra cấp sĩ quan rồi.”' (hoặc '“Vậy thì tôi đoán đã đến lúc đi tuần tra cấp sĩ quan rồi.”')."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000057
+    severity: minor
+    category: meaning_nuance
+    issue: "Cụm từ cuối câu ở p000057 diễn tả việc khen ngon một cách vô điều kiện (không kèm lời rào đón hay điều kiện giảm trừ nào) đang được dịch là 'không cần bàn cãi gì thêm', hơi lệch sang sắc thái tranh luận đúng sai."
+    evidence: "Theo canon/style-guide.md, cần giữ đúng sắc thái nghĩa của bản gốc; trong mạch độc thoại nội tâm của Tanya, cô thường đánh giá đồ ăn kèm theo tiêu chuẩn hoàn cảnh chiến trường, nhưng ở đây cô công nhận món ăn ngon tuyệt đối mà không cần lời rào đón nào."
+    recommendation: "Đổi 'không cần bàn cãi gì thêm' thành 'không cần rào đón gì cả' hoặc 'không kèm lời rào đón nào'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000065
+    severity: minor
+    category: meaning_nuance
+    issue: "Mệnh đề so sánh hơn giữa hình thức và hương vị ở p000065 đang được dịch nặng thành 'nó chỉ đẹp mã chứ ăn chẳng ra gì', làm tăng mức độ phán xét tiêu cực so với phép so sánh tương đối của bản gốc."
+    evidence: "Theo canon/style-guide.md, không thêm sắc thái phán xét hoặc miệt thị vượt quá bản gốc và giữ đúng mức độ đánh giá theo ngữ cảnh."
+    recommendation: "Đổi 'nó chỉ đẹp mã chứ ăn chẳng ra gì' thành 'nó trông bắt mắt hơn là ngon miệng' hoặc 'hình thức của nó đẹp hơn hương vị thực tế'."
+pending_term_recommendations:
+  - source_term: "Colonel (addressing Colonel Calandro)"
+    proposed_vi: "Đại tá (thưa Đại tá)"
+    category: "quân hàm / xưng hô"
+    status: proposed
+    uncertainty: low
+    rationale: "Nhất quán với cấp bậc Đại tá của Calandro trong work/run-state/pending-terms-index.yml và giữ cách xưng hô ngoại giao lịch sự của Tanya ('tôi' - 'ngài / thưa Đại tá')."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter020.xhtml/p000041
+  - source_term: "Colonel / Colonel Degurechaff / Lieutenant Colonel Tanya von Degurechaff"
+    proposed_vi: "Trung tá / Trung tá Degurechaff / Trung tá Tanya von Degurechaff"
+    category: "tên gọi / quân hàm / xưng hô"
+    status: proposed
+    uncertainty: low
+    rationale: "Trong tiếng Anh, cấp Trung tá (Lieutenant Colonel) được gọi tắt là 'Colonel' trong giao tiếp; dịch là 'Trung tá' trong lời thoại của Calandro và 'Trung tá Tanya von Degurechaff' trong trần thuật để khớp chính xác với quân hàm hiện tại của Tanya trong vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter020.xhtml/p000042
+      - YS-LN09/Text/chapter020.xhtml/p000044
+      - YS-LN09/Text/chapter020.xhtml/p000049
+      - YS-LN09/Text/chapter020.xhtml/p000061
+      - YS-LN09/Text/chapter020.xhtml/p000062
+  - source_term: "Ildoan / Ildoans / the Empire / imperial logistics"
+    proposed_vi: "người Ildoa / của Ildoa / Đế quốc / hậu cần của Đế quốc"
+    category: "tên gọi / quốc danh / thuật ngữ"
+    status: proposed
+    uncertainty: low
+    rationale: "Kế thừa phương án tạm đã sử dụng ổn định xuyên suốt vol-09 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter020.xhtml/p000037
+      - YS-LN09/Text/chapter020.xhtml/p000042
+      - YS-LN09/Text/chapter020.xhtml/p000048
+      - YS-LN09/Text/chapter020.xhtml/p000060
+      - YS-LN09/Text/chapter020.xhtml/p000068
+  - source_term: "opening skirmish / fog of war / officer patrol"
+    proposed_vi: "cuộc giao tranh mở màn / sương mù chiến tranh / cuộc tuần tra cấp sĩ quan"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Giữ đúng bộ thuật ngữ quân sự chuẩn được hai nhân vật dùng làm ẩn dụ hóm hỉnh trên bàn tiệc."
+    alternatives_vi:
+      - "chuyến tuần tra của sĩ quan"
+    segment_ids:
+      - YS-LN09/Text/chapter020.xhtml/p000041
+      - YS-LN09/Text/chapter020.xhtml/p000044
+      - YS-LN09/Text/chapter020.xhtml/p000046
+  - source_term: "tartare / marinade / potage / surinagashi / bratwurst / baguette"
+    proposed_vi: "tartare / món ngâm xốt (nước xốt ngâm) / súp potage / *surinagashi* / xúc xích bratwurst / bánh mì baguette"
+    category: "thuật ngữ ẩm thực"
+    status: proposed
+    uncertainty: low
+    rationale: "Giữ nguyên các danh từ ẩm thực quốc tế/Nhật Bản quen thuộc kèm từ loại làm rõ nghĩa khi cần, đồng thời thống nhất cách dịch 'món ngâm xốt' từ batch ch-05-b04."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter020.xhtml/p000042
+      - YS-LN09/Text/chapter020.xhtml/p000048
+      - YS-LN09/Text/chapter020.xhtml/p000049
+      - YS-LN09/Text/chapter020.xhtml/p000050
+      - YS-LN09/Text/chapter020.xhtml/p000052
+      - YS-LN09/Text/chapter020.xhtml/p000054
+      - YS-LN09/Text/chapter020.xhtml/p000055
+      - YS-LN09/Text/chapter020.xhtml/p000058
+      - YS-LN09/Text/chapter020.xhtml/p000063
+      - YS-LN09/Text/chapter020.xhtml/p000072
+locked_choices:
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000037
+    choices:
+      - "Khóa nhấn mạnh Markdown '*Đấy là nếu được ăn đồ ngon thôi*' theo DEC-P01-002, đại từ nội tâm 'mình', cấu trúc phủ định 'Chẳng cần phải...' và cụm 'hậu cần của Đế quốc' (imperial logistics)."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000038
+    choices:
+      - "Khóa mệnh đề giả định ngoại trừ 'Trừ phi có sự can thiệp thần thánh thực sự nào đó xảy ra', đại từ nội tâm 'mình' và cụm 'đồ hộp tịch thu được' (seized canned goods)."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000039
+    choices:
+      - "Khóa cụm danh ngữ nối tiếp 'Hoặc lương thực trưng thu tại chỗ.' (provisions requisitioned locally)."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000040
+    choices:
+      - "Khóa cụm 'lương thực trưng thu tại chỗ', sắc thái khả thể 'đôi khi cũng ngon miệng' và đại từ phiếm chỉ 'bạn' ở vế sau."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000041
+    choices:
+      - "Khóa cách xưng hô 'thưa Đại tá' (Colonel), đại từ 'Tôi' và ẩn dụ quân sự 'cuộc giao tranh mở màn' (opening skirmish)."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000042
+    choices:
+      - "Khóa cách gọi 'Trung tá' (Colonel), cặp đại từ thoại 'Tôi' – 'Cô', định danh 'Người Ildoa', 'Đế quốc' và tên món 'tartare'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000043
+    choices:
+      - "Khóa câu hỏi lựa chọn của Tanya về việc phát huy tối đa hương vị tự nhiên hay có loại xốt bí truyền."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000044
+    choices:
+      - "Khóa cách gọi 'Trung tá', cặp đại từ thoại 'tôi' – 'cô' và nhấn mạnh Markdown '*sương mù chiến tranh*' (fog of war) theo DEC-P01-002."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000045
+    choices:
+      - "Khóa sự chuyển đổi điểm nhìn từ độc thoại nội tâm ('mình' nhận xét về 'Calandro' / 'ông ta') sang câu trần thuật ngôi thứ ba ('Thế là Tanya gật đầu.')."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000046
+    choices:
+      - "Khóa đại từ thoại 'tôi' và ẩn dụ quân sự 'thực hiện một cuộc tuần tra cấp sĩ quan' (hoặc 'đi tuần tra cấp sĩ quan', không tự thêm 'cử một đội')."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000047
+    choices:
+      - "Khóa lời đáp ngắn gọn của Calandro với đại từ ngôi thứ hai 'cô'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000048
+    choices:
+      - "Khóa thành ngữ 'Nhập gia tùy tục', cặp đại từ 'Tôi' (tự quy chiếu 'mình') – 'ngài', cụm 'người Ildoa' và hai món 'món tartare và món ngâm xốt'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000049
+    choices:
+      - "Khóa cách gọi 'Trung tá Degurechaff' (Colonel Degurechaff), đại từ 'Tôi' và cụm 'món cá tươi ngâm xốt' (fresh fish marinade)."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000050
+    choices:
+      - "Khóa sự chuyển điểm nhìn từ trần thuật ('món họ gọi') sang nội tâm ('chúng ta vẫn gọi'), cụm 'súp potage thanh nhẹ' và nhấn mạnh Markdown '*surinagashi*' theo DEC-P01-002."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000051
+    choices:
+      - "Khóa nhận xét nội tâm về sự tỉ mỉ và tay nghề điêu luyện ngay từ món đầu tiên."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000052
+    choices:
+      - "Khóa câu hỏi nội tâm mở đầu 'Liệu món này có ngon không đây…?', đại từ 'Mình' và chi tiết món khai vị 'tartare' chỉ nêm muối và tiêu cho vừa miệng."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000053
+    choices:
+      - "Khóa giả định trái thực tế 'nếu chất lượng thịt mà kém thì sẽ hoàn toàn không thể nuốt nổi', đại từ 'mình' và cụm 'vị ngọt umami cô đọng'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000054
+    choices:
+      - "Khóa sự tương phản giữa gia vị kích thích thoang thoảng làm dậy vị ngọt của thịt với những món 'tartare' kém chất lượng dùng nhiều tiêu át mùi hôi tanh của thịt sống."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000055
+    choices:
+      - "Khóa đại từ nội tâm 'mình', cụm 'xúc xích bratwurst làm từ đủ thứ thịt vụn tạp nham' và ẩn dụ 'hương vị văn minh rõ rệt'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000056
+    choices:
+      - "Khóa câu cảm thán ngắn gọn trong nội tâm: 'Ngon quá đi mất.'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000057
+    choices:
+      - "Khóa nhịp khẳng định dứt khoát trong nội tâm: 'Nó ngon thực sự, chấm hết, không cần rào đón gì cả.' (hoặc 'không kèm lời rào đón nào')."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000058
+    choices:
+      - "Khóa các chi tiết 'bánh mì baguette giòn rụm', việc làm rơi vụn bánh mì trên bàn không vi phạm phép tắc và 'nước khoáng có ga nhẹ' được phục vụ chu đáo."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000059
+    choices:
+      - "Khóa đại từ nội tâm 'Mình' và sự tương phản giữa 'thứ nước đục ngầu bùn đất' với 'vị ngọt của khoáng chất'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000060
+    choices:
+      - "Khóa câu nhận định ngắn: 'Thịt của Ildoa quả thực đáng gờm.'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000061
+    choices:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba với định danh đầy đủ 'Trung tá Tanya von Degurechaff', đại từ 'cô' và tên riêng 'Calandro'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000062
+    choices:
+      - "Khóa cách gọi 'Trung tá' (Colonel), đại từ ngôi thứ hai 'cô' và sự ngập ngừng chuyển ý 'À mà không.' của Calandro."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000063
+    choices:
+      - "Khóa câu trần thuật ngôi thứ ba nhắc tới 'Calandro' và 'món cá thịt trắng ngâm xốt' (white fish marinade)."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000064
+    choices:
+      - "Khóa đại từ nội tâm 'Mình', câu phỏng đoán nghi vấn về 'cá vược biển' (sea bass) và cụm 'món ăn chú trọng hình thức trình bày'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000065
+    choices:
+      - "Khóa đại từ nội tâm 'mình', cấu trúc phủ định kép 'không thể loại trừ khả năng' và phép so sánh tương đối 'nó trông bắt mắt hơn là ngon miệng' (hoặc 'hình thức của nó đẹp hơn hương vị thực tế')."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000066
+    choices:
+      - "Khóa đại từ nội tâm 'mình', chi tiết tự nhận bản chất vẫn là 'người Nhật' khắt khe với món cá và đánh giá tích cực về độ chín cùng cách bày đĩa."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000067
+    choices:
+      - "Khóa câu nhận xét nội tâm: 'Nhưng có rất ít loại xốt hợp với cá.'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000068
+    choices:
+      - "Khóa nhấn mạnh Markdown toàn câu '*Cho dù người Ildoa có hết lời bảo chứng đi chăng nữa…*' theo DEC-P01-002."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000069
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và bước ngoặt cảm xúc từ 'ý nghĩ ngạo mạn' sang 'sững sờ kinh ngạc' khi nếm thử."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000070
+    choices:
+      - "Khóa đại từ nội tâm 'mình', nhịp câu ngắn 'Hương cam chanh. Chắc là chanh vàng.' và ẩn dụ 'một bản concerto được biên soạn hoàn mỹ không tì vết'."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000071
+    choices:
+      - "Khóa đại từ nội tâm 'Mình' và sự đối lập giữa việc giữ vẻ điềm tĩnh khi phân tích miếng đầu tiên với sự kinh ngạc trước phần nước xốt bao phủ gai vị giác."
+  - segment_id: YS-LN09/Text/chapter020.xhtml/p000072
+    choices:
+      - "Khóa đại từ nội tâm 'mình', cụm 'phần nước xốt ngâm' (the marinade) với sự kết hợp mặn, ngọt, dầu ô liu và giấm thấm vào thớ cá và tan chảy cùng lớp mỡ cá."
