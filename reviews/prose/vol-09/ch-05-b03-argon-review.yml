@@ -1,0 +1,228 @@
+task_id: vol-09-ch-05-b03-argon-review
+reviewer: gemini-4-argon-medium
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000067
+    severity: minor
+    category: terminology
+    issue: "Từ 'glass' ở p000067 đang được dịch là 'kính' ('kiếm bao nhiêu kính tùy thích'), làm đứt mạch liên kết từ vựng và logic với chi tiết chiếc bình nước trên bàn toa ăn làm bằng 'thủy tinh' ở p000057–p000058 ngay cuối lô trước (ch-05-b02)."
+    evidence: "Theo canon/style-guide.md, cần giữ đúng nghĩa và quan hệ nhân quả trong mạch suy luận của nhân vật; p000067 là lý do bổ sung giải thích vì sao phía Ildoa thản nhiên dùng bình nước thủy tinh trên tàu hỏa sau khi Tanya nhận ra tàu chạy rất êm ở p000059–p000066."
+    recommendation: "Đổi 'kính' thành 'thủy tinh' (hoặc 'đồ thủy tinh'): 'Và người Ildoa có lẽ còn có thể kiếm bao nhiêu thủy tinh tùy thích.'"
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000087
+    severity: minor
+    category: style_register
+    issue: "Thành ngữ chỉ việc làm cho đám quan liêu hiểu ra vấn đề trong lời thoại của Đại tá Calandro ở p000087 đang dịch bằng từ lóng hiện đại là 'thông não', lệch sắc thái văn phong quân sự – ngoại giao của nhân vật."
+    evidence: "Theo canon/style-guide.md, cần giữ giọng kể và giọng thoại nhất quán theo ngữ cảnh; Đại tá Calandro dù nói năng thân mật, hoa mỹ nhưng vẫn là sĩ quan cấp cao trong bối cảnh lịch sử quân sự."
+    recommendation: "Đổi 'cuối cùng tôi cũng thông não được cho đám quan liêu ngu xuẩn đó rồi' thành 'cuối cùng tôi cũng làm cho đám quan liêu ngu xuẩn đó thủng ra rồi' hoặc 'cuối cùng tôi cũng nhét được chuyện đó vào đầu đám quan liêu ngu xuẩn kia rồi'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000106
+    related_segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000094
+      - YS-LN09/Text/chapter018.xhtml/p000100
+    severity: minor
+    category: pronouns_pov
+    issue: "Đại từ ngôi thứ nhất số nhiều 'We' ở câu trần thuật nội tâm kết cảnh p000106 (chỉ Tanya và Đại tá Calandro) đang dịch là 'Chúng tôi', làm lệch điểm nhìn tự quy chiếu của Tanya từ 'mình' (đang dùng nhất quán ở p000094, p000100 và toàn cảnh) sang 'tôi'."
+    evidence: "Theo DEC-P01-001 và quy ước trong work/run-state/pending-terms-index.yml, độc thoại/trần thuật ngôi thứ nhất của Tanya dùng 'mình'; ở p000094, cùng chủ thể hai người trong hành động thăm dò lẫn nhau đã được dịch hợp lý là 'cả hai'."
+    recommendation: "Đổi 'Chúng tôi' ở p000106 thành 'Cả hai' hoặc 'Hai bên' ('Cả hai lời qua tiếng lại châm chọc để thăm dò lẫn nhau.') để đồng nhất với p000094 và giữ vững điểm nhìn nội tâm của Tanya."
+pending_term_recommendations:
+  - source_term: "Ildoans / Ildoa / Ildoan"
+    proposed_vi: "người Ildoa / Ildoa / của Ildoa"
+    category: "tên gọi / quốc danh"
+    status: proposed
+    uncertainty: low
+    rationale: "Nhất quán với phương án tạm đã sử dụng xuyên suốt vol-09 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000067
+      - YS-LN09/Text/chapter018.xhtml/p000096
+      - YS-LN09/Text/chapter018.xhtml/p000104
+  - source_term: "the Reich / the Empire"
+    proposed_vi: "Đế quốc"
+    category: "tên gọi / quốc danh"
+    status: proposed
+    uncertainty: low
+    rationale: "Kế thừa phương án tạm 'Đế quốc' cho cả 'the Reich' và 'the Empire' trong work/run-state/pending-terms-index.yml của vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000069
+      - YS-LN09/Text/chapter018.xhtml/p000074
+  - source_term: "ersatz bread / K-Brot"
+    proposed_vi: "bánh mì thay thế / K-Brot"
+    category: "thuật ngữ"
+    status: proposed
+    uncertainty: low
+    rationale: "Giữ nguyên tên gốc 'K-Brot' và dịch 'ersatz bread' là 'bánh mì thay thế' tương ứng với 'ersatz coffee' ('cà phê thay thế') và 'food substitutes' ('thực phẩm thay thế') trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000074
+  - source_term: "Colonel Calandro / Calandro / Colonel (addressing Colonel Calandro)"
+    proposed_vi: "Đại tá Calandro / Calandro / Đại tá (thưa Đại tá Calandro)"
+    category: "tên gọi / quân hàm / xưng hô"
+    status: proposed
+    uncertainty: low
+    rationale: "Nhất quán với cấp bậc Đại tá của Calandro trong work/run-state/pending-terms-index.yml và giữ cách xưng hô ngoại giao lịch sự của Tanya ('tôi' - 'ngài / Đại tá')."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000078
+      - YS-LN09/Text/chapter018.xhtml/p000083
+      - YS-LN09/Text/chapter018.xhtml/p000093
+      - YS-LN09/Text/chapter018.xhtml/p000094
+  - source_term: "dining car"
+    proposed_vi: "toa ăn"
+    category: "thuật ngữ"
+    status: proposed
+    uncertainty: low
+    rationale: "Đồng nhất với phương án 'TOA ĂN' / 'toa ăn' đã khóa ở p000049 và p000052 của lô ch-05-b02."
+    alternatives_vi:
+      - "toa nhà hàng"
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000078
+  - source_term: "Colonel Degurechaff / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá Degurechaff / Trung tá"
+    category: "tên gọi / quân hàm / xưng hô"
+    status: proposed
+    uncertainty: low
+    rationale: "Trong tiếng Anh, cấp Trung tá (Lieutenant Colonel) được gọi tắt là 'Colonel' trong giao tiếp; dịch là 'Trung tá' để khớp chính xác với quân hàm hiện tại của Tanya trong vol-09."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000082
+      - YS-LN09/Text/chapter018.xhtml/p000087
+      - YS-LN09/Text/chapter018.xhtml/p000095
+      - YS-LN09/Text/chapter018.xhtml/p000102
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "thuật ngữ quân sự"
+    status: proposed
+    uncertainty: low
+    rationale: "Nhất quán với phương án tạm xuyên suốt vol-09 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - YS-LN09/Text/chapter018.xhtml/p000092
+      - YS-LN09/Text/chapter018.xhtml/p000104
+      - YS-LN09/Text/chapter018.xhtml/p000105
+locked_choices:
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000067
+    choices:
+      - "Khóa định danh 'người Ildoa' (Ildoans), sắc thái tình thái 'có lẽ' (probably) và từ 'thủy tinh' (glass) để nối mạch trực tiếp với chiếc bình nước bằng thủy tinh ở p000057–p000058."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000068
+    choices:
+      - "Khóa câu lẩm bẩm cảm thán ngắn trong dấu ngoặc kép: '“…Ghen tị chết đi được.”'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000069
+    choices:
+      - "Khóa ẩn dụ tài chính 'Cổ tức mà hòa bình mang lại' (The dividends peace pays), tên gọi 'Đế quốc' (the Reich), đại từ nội tâm 'mình' và sắc thái điều kiện 'Nếu có thể... dù chỉ một ngày thôi'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000070
+    choices:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba với định danh 'Tanya' và đại từ 'cô'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000071
+    choices:
+      - "Khóa đại từ ngôi thứ hai phiếm chỉ 'Bạn' trong cụm 'Bạn có tin nổi không' và chi tiết 'bột mì trắng tinh chế' (processed white flour)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000072
+    choices:
+      - "Khóa đại từ nội tâm ngôi thứ nhất số nhiều 'chúng ta' (chỉ nhóm của Tanya) và sắc thái thản nhiên của người phục vụ."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000073
+    choices:
+      - "Khóa câu hỏi ngắn trong dấu ngoặc kép lặp lại cụm từ ở p000072: '“Cứ tự nhiên dùng ư?”'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000074
+    choices:
+      - "Khóa tên gọi 'Đế quốc' (the Empire) và cụm thuật ngữ 'loại bánh mì thay thế kinh điển là K-Brot' (the classic ersatz bread, K-Brot)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000075
+    choices:
+      - "Khóa quan hệ tương phản 'Thế nhưng ở đây...', sắc thái suy đoán 'hẳn nhân viên phục vụ cũng đã hâm nóng lại' và đại từ nội tâm 'mình'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000076
+    choices:
+      - "Khóa cụm cảm thán ngắn bỏ lửng: 'Mùi hương này…'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000077
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và nhịp câu ngắn diễn tả sự cám dỗ của mùi bánh mì."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000078
+    choices:
+      - "Khóa nhấn mạnh Markdown '*muộn*' theo đúng thẻ em trong nguồn."
+      - "Khóa quân hàm và tên 'Đại tá Calandro', từ 'toa ăn' (dining car), đại từ nội tâm 'mình' và đại từ ngôi thứ ba 'ông ta'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000079
+    choices:
+      - "Khóa nhấn mạnh Markdown '*viên đạn lạc đáng tiếc*' theo đúng thẻ em trong nguồn."
+      - "Khóa cấu trúc giả định 'Nếu ông ta định hoãn bữa ăn này lại...', phủ định giảm nhẹ 'chẳng ngại' (not averse to) và bước tự điều chỉnh suy nghĩ 'À không, làm thế thì chắc cũng hơi quá tay'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000080
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và mức độ khẳng định tuyệt đối 'dứt khoát' (absolutely)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000081
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và phản xạ chỉnh lại tư thế ngồi thẳng lưng khi có tiếng gọi từ phía sau."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000082
+    choices:
+      - "Khóa cách xưng hô của Đại tá Calandro với Tanya: gọi 'Trung tá Degurechaff' (Colonel Degurechaff), xưng 'tôi' và gọi 'cô'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000083
+    choices:
+      - "Khóa lời đáp ngắn của Tanya gọi cấp bậc 'Đại tá!' (Colonel!)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000084
+    choices:
+      - "Khóa sự phân biệt cử chỉ hai tay (tay phải ra hiệu cứ ngồi yên, tay trái tỏ ý xin lỗi) và các đại từ 'mình' / 'ông ta'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000085
+    choices:
+      - "Khóa cặp đại từ thoại 'cô' (hoặc 'các vị') và chi tiết giới chức Đế quốc muốn nhồi kín lịch trình bằng các bữa tiệc."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000086
+    choices:
+      - "Khóa đại từ thoại ngôi thứ nhất số nhiều 'chúng tôi' và giọng hỏi mỉa mai lịch sự của Tanya."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000087
+    choices:
+      - "Khóa cách gọi 'Trung tá' (Colonel) trong lời thoại của Calandro và đại từ trần thuật ngôi thứ ba 'cô' (her) ở phần dẫn thoại."
+      - "Khóa cách diễn đạt phù hợp văn phong lịch sử cho ý làm đám quan liêu hiểu ra vấn đề (tránh từ lóng hiện đại 'thông não') và sự đối lập giữa tiệc chào mừng chính thức với một bữa tối không chính thức đơn giản."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000088
+    choices:
+      - "Khóa nhấn mạnh Markdown toàn bộ câu độc thoại nội tâm '*Chỉ ăn tối lấy lệ với đồng nghiệp rồi sau đó chúng ta được thả tự do ư?!*' theo đúng thẻ em trong nguồn và đại từ 'chúng ta'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000089
+    choices:
+      - "Khóa cách dịch 'một cuộc gặp xã giao' (a courtesy call) và cặp đại từ thoại 'tôi' – 'Cô' của Calandro."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000090
+    choices:
+      - "Khóa đại từ nội tâm 'Mình' và sự tương phản giữa dự tính ban đầu (tham quan theo nghi thức dưới sự giám sát gắt gao) với kế hoạch hào phóng của Calandro."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000091
+    choices:
+      - "Khóa cách xưng hô trang trọng của Tanya với Đại tá Calandro trong thoại: xưng 'tôi', gọi 'ngài' và cụm 'Thay mặt cho thuộc cấp của mình' (On behalf of my troops)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000092
+    choices:
+      - "Khóa thuật ngữ 'mặt trận phía đông' (eastern front), cụm 'đám quan liêu quân sự' (military bureaucrats) và hình ảnh ẩn dụ 'lấy mớ lễ nghi cứng nhắc ra đập vào đầu nhau'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000093
+    choices:
+      - "Khóa cách gọi 'ngài' và 'thưa Đại tá Calandro' trong câu đáp xã giao của Tanya."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000094
+    choices:
+      - "Khóa định danh 'Calandro', đại từ nội tâm 'Mình' và cách dịch 'cả hai' cho chủ thể hai người đang thăm dò lẫn nhau."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000095
+    choices:
+      - "Khóa cách gọi 'Trung tá' (Colonel) và chuỗi danh từ 'nhà thơ, nhà hùng biện, hay thậm chí là một nhạc sĩ'."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000096
+    choices:
+      - "Khóa cụm trích dẫn trong ngoặc kép '“thế giới của ánh sáng”' (world of light) và các chi tiết 'những quả chanh vàng' (lemons), 'cam đỏ' (blood oranges)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000097
+    choices:
+      - "Khóa sự chuyển dịch điểm nhìn theo sát nguyên tác: ngôi thứ nhất 'Mình' ở câu đầu sang ngôi thứ ba 'Tanya' ở câu cuối."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000098
+    choices:
+      - "Khóa đại từ trần thuật 'Ông ta' và lời xin lỗi tự nhận hơi dài dòng trong thoại."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000099
+    choices:
+      - "Khóa đại từ nội tâm 'mình' ở câu đầu và cấu trúc tăng tiến 'không chỉ vô nghĩa mà còn thực sự có hại' (not only pointless but actively harmful)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000100
+    choices:
+      - "Khóa đại từ nội tâm 'mình' và hành động trưng ra vẻ mặt ngây thơ để chuyển chủ đề."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000101
+    choices:
+      - "Khóa đại từ thoại 'tôi' / 'chúng tôi' và cụm 'chuyến tàu quân sự' (military train)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000102
+    choices:
+      - "Khóa cách gọi 'Trung tá' (Colonel), cặp đại từ 'Cô' – 'chúng tôi' và cụm 'những vị khách quý đến từ một quốc gia đồng minh' (honored guests from an allied nation)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000103
+    choices:
+      - "Khóa cấu trúc phủ định kép 'Đúng như dự đoán' (Not unexpectedly) và điểm nhìn trần thuật ngôi thứ ba ('ông ta' / 'của cô')."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000104
+    choices:
+      - "Khóa các cụm 'chuyến tàu hạng sang của Ildoa' (luxury Ildoan train ride), 'mặt trận phía đông' (eastern front) và phủ định giảm nhẹ 'cũng đâu đến nỗi tệ, phải không?' (isn’t half-bad, right?)."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000105
+    choices:
+      - "Khóa cách xưng hô 'ngài' – 'chúng tôi' và thuật ngữ 'mặt trận phía đông' (eastern front) trong lời đáp nhún nhường mang tính ngoại giao của Tanya."
+  - segment_id: YS-LN09/Text/chapter018.xhtml/p000106
+    choices:
+      - "Khóa chủ ngữ 'Cả hai' (hoặc 'Hai bên') thay cho 'Chúng tôi' để giữ nhất quán điểm nhìn nội tâm của Tanya với p000094 và p000100."
