@@ -1,0 +1,293 @@
+task_id: vol-08-ch-05-b11-argon-review
+parent_task_id: vol-08-ch-05-b11
+reviewer: gemini-4-argon-medium
+volume: vol-08
+chapter: 5
+source_package: work/vol-08/batches/ch-05-b11-source.jsonl
+target_translation: translations/vol-08/ch-05-b11.jsonl
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000373
+    severity: minor
+    category: lexical_nuance
+    issue: "Từ chỉ tính chất ở câu cuối thể hiện sự thiếu thận trọng/khinh suất hoặc không phải lối khi bật cười trên chiến trường, nhưng bản dịch dùng 'khiếm nhã' thiên về lỗi phép tắc xã giao."
+    recommendation: "Có thể cân nhắc đổi 'hơi khiếm nhã' thành 'hơi thiếu thận trọng' hoặc 'hơi không phải lối' để sát nghĩa hơn."
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000390
+    severity: moderate
+    category: meaning_logic
+    issue: "Câu thứ hai đảo ngược quan hệ giữa chủ thể bị đem làm cái cớ và mục đích: trong nguyên tác, điều bất thường đó (việc sĩ quan cao cấp tự đặt mình vào nguy hiểm) bị nghi là cái cớ được dựng lên để thực hiện cuộc giải cứu, nhưng bản dịch lại viết thành 'liệu cuộc giải cứu có đang được dùng làm cái cớ cho việc đó hay không'."
+    recommendation: "Sửa lại đúng chiều quan hệ nhân quả – mục đích: 'Nghĩa là cô khó lòng gạt bỏ mối nghi vấn nghiêm túc của mình về việc liệu điều đó có đang được dùng làm cái cớ để thực hiện cuộc giải cứu hay không.'"
+pending_term_recommendations:
+  - source_term: "adjutant / Visha / Lieutenant Serebryakov / Serebryakov / Lieutenant / M-ma’am / C-Colonel"
+    proposed_vi: "viên sĩ quan phụ tá / Visha / Trung úy Serebryakov / Serebryakov / Trung úy / D-dạ, thưa Trung tá / T-Trung tá"
+    alternatives_vi: []
+    rationale: "Giữ thống nhất cấp bậc, định danh và cách xưng hô giữa Trung tá Tanya von Degurechaff và Trung úy Visha Serebryakov đã khóa trong tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000368
+      - YS-LN08/Text/chapter018.xhtml/p000376
+      - YS-LN08/Text/chapter018.xhtml/p000377
+      - YS-LN08/Text/chapter018.xhtml/p000382
+      - YS-LN08/Text/chapter018.xhtml/p000384
+      - YS-LN08/Text/chapter018.xhtml/p000393
+      - YS-LN08/Text/chapter018.xhtml/p000394
+      - YS-LN08/Text/chapter018.xhtml/p000403
+      - YS-LN08/Text/chapter018.xhtml/p000404
+    status: pending
+  - source_term: "Zettour / General von Zettour / the general / lieutenant general"
+    proposed_vi: "Zettour / Tướng von Zettour / vị tướng ấy / trung tướng"
+    alternatives_vi: []
+    rationale: "Đồng bộ với định danh và cấp bậc của Trung tướng von Zettour trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000370
+      - YS-LN08/Text/chapter018.xhtml/p000373
+      - YS-LN08/Text/chapter018.xhtml/p000381
+      - YS-LN08/Text/chapter018.xhtml/p000390
+      - YS-LN08/Text/chapter018.xhtml/p000391
+    status: pending
+  - source_term: "Service Corps / the rear / staff officers / staffers / war college / active service unit"
+    proposed_vi: "Cục Quân vụ / hậu phương / các sĩ quan tham mưu / trường đại học quân sự / đơn vị tác chiến hiện dịch"
+    alternatives_vi:
+      - "Cục Quân vụ / hậu phương / các sĩ quan tham mưu / trường đại học quân sự / đơn vị tại ngũ"
+    rationale: "Đồng bộ hệ thuật ngữ cơ quan tham mưu, hậu cần và đào tạo sĩ quan của Đế quốc."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000372
+      - YS-LN08/Text/chapter018.xhtml/p000375
+      - YS-LN08/Text/chapter018.xhtml/p000382
+      - YS-LN08/Text/chapter018.xhtml/p000386
+      - YS-LN08/Text/chapter018.xhtml/p000388
+      - YS-LN08/Text/chapter018.xhtml/p000391
+    status: pending
+  - source_term: "three thousand realms"
+    proposed_vi: "tam thiên thế giới"
+    alternatives_vi:
+      - "ba ngàn thế giới"
+    rationale: "Dịch đúng điển cố Phật giáo (tam thiên thế giới / sanzen-sekai) được dùng trong lối ví von của Tanya."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000373
+    status: pending
+  - source_term: "HQ / headquarters / decapitation tactics / headquarters disabling, encirclement, and annihilation"
+    proposed_vi: "sở chỉ huy / chiến thuật chặt đầu chỉ huy / vô hiệu hóa sở chỉ huy, bao vây và tiêu diệt hoàn toàn"
+    alternatives_vi: []
+    rationale: "Khớp với các thuật ngữ tác chiến và sở chỉ huy đã khóa ở các chương trước của tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000377
+      - YS-LN08/Text/chapter018.xhtml/p000380
+      - YS-LN08/Text/chapter018.xhtml/p000383
+      - YS-LN08/Text/chapter018.xhtml/p000391
+      - YS-LN08/Text/chapter018.xhtml/p000395
+      - YS-LN08/Text/chapter018.xhtml/p000399
+    status: pending
+  - source_term: "Commies / Federation Army / Federation / Imperial Army"
+    proposed_vi: "đám Cộng sản / Quân đội Liên bang / Liên bang / Lục quân Đế quốc"
+    alternatives_vi: []
+    rationale: "Đồng bộ hoàn toàn với hệ thuật ngữ phe phái trong pending-terms-index.yml."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000370
+      - YS-LN08/Text/chapter018.xhtml/p000380
+      - YS-LN08/Text/chapter018.xhtml/p000382
+      - YS-LN08/Text/chapter018.xhtml/p000383
+      - YS-LN08/Text/chapter018.xhtml/p000387
+      - YS-LN08/Text/chapter018.xhtml/p000395
+      - YS-LN08/Text/chapter018.xhtml/p000396
+      - YS-LN08/Text/chapter018.xhtml/p000399
+    status: pending
+  - source_term: "the captains, Meybert and Ahrens / Salamander Kampfgruppe / Lergen Kampfgruppe"
+    proposed_vi: "hai vị đại úy là Meybert và Ahrens / Kampfgruppe Salamander / Kampfgruppe Lergen"
+    alternatives_vi: []
+    rationale: "Giữ chuẩn xác tên phiên hiệu đơn vị và cấp bậc của Đại úy Meybert và Đại úy Ahrens trong tập 8."
+    segment_ids:
+      - YS-LN08/Text/chapter018.xhtml/p000389
+      - YS-LN08/Text/chapter018.xhtml/p000404
+    status: pending
+locked_choices:
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000367
+    choices:
+      - "pronouns: Serebryakov xưng 'Tôi' và dùng tiểu từ kính ngữ 'ạ' với Tanya"
+      - "modality: Giữ phủ định 'không thể phủ nhận khả năng đó'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000368
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: viên sĩ quan phụ tá (adjutant)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô', tự quy chiếu 'mình'"
+      - "emphasis: Chỉ bọc '*Cái gì?*' ở đầu đoạn theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000369
+    choices:
+      - "ranks_and_names: Tanya"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000370
+    choices:
+      - "ranks_and_names: Zettour"
+      - "terms: đám Cộng sản (the Commies)"
+      - "pronouns: Câu hỏi nội tâm hướng tới Visha dùng 'Cô'"
+      - "emphasis: Chỉ bọc '*Cô—cô thực sự nghĩ Zettour sẽ phạm sai lầm ngớ ngẩn đến mức tiết lộ vị trí của mình cho đám Cộng sản biết ư?!*' theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000371
+    choices:
+      - "terms: ‘Bị lộ’ (‘Exposed’)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000372
+    choices:
+      - "terms: hậu phương (the rear), Cục Quân vụ (Service Corps)"
+      - "pronouns: Nội tâm Tanya tự quy chiếu 'mình'"
+      - "modality: Giữ cấu trúc tăng tiến 'không chỉ thông thạo việc bảo mật tình báo mà còn rành rẽ nghệ thuật cố tình “làm rò rỉ” thông tin'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000373
+    choices:
+      - "terms: vị tướng ấy (the general), tam thiên thế giới (three thousand realms)"
+      - "pronouns: Tanya xưng 'tôi'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000374
+    choices:
+      - "modality: Giữ cấu trúc khẳng định nhấn mạnh ở cuối câu"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000375
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: các sĩ quan tham mưu (staff officers), ở ngoài chiến trường (In the field)"
+      - "modality: Giữ cấu trúc tương quan tăng tiến 'càng... bao nhiêu thì... càng... bấy nhiêu'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000376
+    choices:
+      - "ranks_and_names: T-Trung tá (C-Colonel)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000377
+    choices:
+      - "ranks_and_names: Visha"
+      - "terms: viên sĩ quan phụ tá (adjutant), sở chỉ huy (HQ)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô', tự quy chiếu 'mình'; thoại Tanya gọi Visha là 'cô' và dùng 'chúng ta'"
+      - "modality: Giữ đối lập chủ động – bị động giữa 'bị lộ' và 'làm lộ nó'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000378
+    choices:
+      - "modality: Giữ cấu trúc bác bỏ 'không phải là trò chơi chữ mà là vấn đề về chủ thể'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000379
+    choices:
+      - "modality: Giữ nét ngập ngừng 'Nh-nhưng' và kính ngữ 'ạ' của Serebryakov"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000380
+    choices:
+      - "terms: sở chỉ huy (HQ), Quân đội Liên bang (Federation Army), chiến thuật chặt đầu chỉ huy (decapitation tactics)"
+      - "pronouns: Tanya dùng 'chúng ta'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000381
+    choices:
+      - "ranks_and_names: Tướng von Zettour (General von Zettour)"
+      - "pronouns: Serebryakov xưng 'Tôi'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000382
+    choices:
+      - "ranks_and_names: Serebryakov"
+      - "terms: đơn vị tác chiến hiện dịch (active service unit), Quân đội Liên bang (Federation Army)"
+      - "pronouns: Trần thuật gọi Serebryakov là 'Cô ấy'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000383
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: Quân đội Liên bang (Federation Army), Liên bang (Federation), chiến thuật chặt đầu chỉ huy (decapitation tactics), sở chỉ huy (HQ / headquarters)"
+      - "pronouns: Gọi phía Liên bang là 'chúng', trong lời chế giễu nội tâm dùng 'Các người'"
+      - "emphasis: Chỉ bọc '*Các người là cái gì, lũ lửng chắc?*' ở cuối đoạn theo đúng thẻ <em> của nguồn"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000384
+    choices:
+      - "ranks_and_names: Trung úy (Lieutenant)"
+      - "pronouns: Tanya gọi Serebryakov là 'Cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000385
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000386
+    choices:
+      - "terms: các sĩ quan tham mưu (staff officers), trường đại học quân sự (war college)"
+      - "pronouns: Tanya xưng 'tôi', gọi Serebryakov là 'cô', dùng 'chúng tôi' chỉ nhóm sĩ quan tham mưu xuất thân từ trường đại học quân sự"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000387
+    choices:
+      - "terms: nhân viên tập đoàn (corporate employees), Lục quân Đế quốc (Imperial Army), nguồn nhân lực (human resources)"
+      - "pronouns: Đại từ khái quát dịch là 'bạn'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000388
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: các sĩ quan tham mưu (staffers)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000389
+    choices:
+      - "ranks_and_names: hai vị đại úy là Meybert và Ahrens (the captains, Meybert and Ahrens)"
+      - "terms: sĩ quan cao cấp (high-ranking officer)"
+      - "pronouns: Tự quy chiếu 'mình'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000390
+    choices:
+      - "ranks_and_names: Zettour, trung tướng (lieutenant general)"
+      - "pronouns: Trần thuật gọi Tanya là 'cô', tự quy chiếu 'mình', gọi Zettour là 'ông'"
+      - "modality: Giữ đúng chiều quan hệ: việc sĩ quan cao cấp tự đặt mình vào nguy hiểm bị nghi là cái cớ để thực hiện cuộc giải cứu"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000391
+    choices:
+      - "ranks_and_names: Tướng von Zettour (General von Zettour)"
+      - "terms: sĩ quan tham mưu (staff officer), sở chỉ huy (HQ)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000392
+    choices:
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000393
+    choices:
+      - "ranks_and_names: Trung úy (Lieutenant)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000394
+    choices:
+      - "ranks_and_names: D-dạ, thưa Trung tá (M-ma’am)"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000395
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: Đơn vị phản công của Lục quân Đế quốc (The Imperial Army’s counterattacking unit), sở chỉ huy (HQ), Quân đội Liên bang (Federation Army)"
+      - "pronouns: Tanya gọi Serebryakov là 'cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000396
+    choices:
+      - "terms: Quân đội Liên bang (Federation Army)"
+      - "pronouns: Serebryakov xưng 'tôi', gọi đơn vị phản công là 'họ'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000397
+    choices:
+      - "pronouns: Tanya gọi Serebryakov là 'Cô'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000398
+    choices:
+      - "modality: Giữ mức độ chắc chắn 'chắc chắn 100 phần trăm các trường hợp đều phải đưa ra được đáp án đúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000399
+    choices:
+      - "terms: Quân đội Liên bang (Federation Army), Lục quân Đế quốc (Imperial Army), vô hiệu hóa sở chỉ huy, bao vây và tiêu diệt hoàn toàn (headquarters disabling, encirclement, and annihilation), sở chỉ huy (HQ)"
+      - "pronouns: Trần thuật gọi phía Quân đội Liên bang là 'chúng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000400
+    choices:
+      - "pronouns: Trần thuật gọi phía Quân đội Liên bang là 'chúng'"
+      - "modality: Giữ phủ định kép giảm nhẹ 'có lẽ cũng chẳng sai khi đoán rằng'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000401
+    choices:
+      - "modality: Giữ câu hỏi giả định 'Sẽ ra sao nếu… quân địch đang bị thu hút một cách có chủ đích?'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000402
+    choices:
+      - "pronouns: Serebryakov xưng 'tôi', gọi đơn vị phản công là 'Họ / họ'"
+      - "modality: Giữ mệnh đề nhượng bộ 'Ngay cả khi nhử được quân địch vào tròng thành công, xem chừng họ cũng chẳng có...'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000403
+    choices:
+      - "ranks_and_names: Trung úy Serebryakov (Lieutenant Serebryakov)"
+      - "pronouns: Tanya gọi Serebryakov là 'cô'"
+      - "modality: Giữ câu hỏi đuôi hàm ý trêu chọc 'chẳng lẽ cô vừa hóa thành hồn ma rồi hay sao?'"
+      - "emphasis: Không dùng *...*"
+  - segment_id: YS-LN08/Text/chapter018.xhtml/p000404
+    choices:
+      - "ranks_and_names: Tanya"
+      - "terms: viên sĩ quan phụ tá (adjutant), Kampfgruppe Salamander (Salamander Kampfgruppe), Kampfgruppe Lergen (Lergen Kampfgruppe)"
+      - "pronouns: Trần thuật gọi Serebryakov là 'Cô ấy', nội tâm Tanya tự quy chiếu 'mình', gọi các thành viên đơn vị là 'họ'"
+      - "emphasis: Chỉ bọc '*Cô có chân mà, phải không?*' theo đúng thẻ <em> của nguồn"
