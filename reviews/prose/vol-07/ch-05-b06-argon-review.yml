@@ -1,0 +1,347 @@
+task_id: "vol-07-ch-05-b06-argon-review"
+parent_task_id: "vol-07-ch-05-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 5
+source_package: "work/vol-07/batches/ch-05-b06-source.jsonl"
+target_translation: "translations/vol-07/ch-05-b06.jsonl"
+review_path: "reviews/prose/vol-07/ch-05-b06-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 3
+  minor: 3
+findings:
+  - severity: "moderate"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000197"
+    issue: "Thuật ngữ 'aerial mages' đang được dịch là 'các pháp sư hàng không', lệch với phương án chuẩn tạm 'các pháp sư trên không' đã dùng xuyên suốt các tập và khóa trong sổ pending."
+    evidence: "Trong work/run-state/pending-terms-index.yml (từ vol-01 đến vol-07), 'aerial mages' luôn được thống nhất là 'pháp sư trên không' / 'các pháp sư trên không'."
+    recommendation: "Đổi 'các pháp sư hàng không' thành 'các pháp sư trên không'."
+  - severity: "moderate"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000205"
+    issue: "Thuật ngữ 'mana signal' đang được dịch là 'tín hiệu ma đạo', lệch với phương án 'tín hiệu ma năng' đã thống nhất trong sổ pending; đồng thời 'home country' dịch là 'chính quốc' chưa đồng bộ với 'bản quốc' / 'quê hương' trong tập 6–7."
+    evidence: "Trong work/run-state/pending-terms-index.yml, 'mana signals' được khóa là 'tín hiệu ma năng' và 'home country' được khóa là 'bản quốc' (hoặc 'quê hương')."
+    recommendation: "Đổi 'tín hiệu ma đạo' thành 'tín hiệu ma năng' và cân nhắc đổi 'chính quốc' thành 'bản quốc'."
+  - severity: "moderate"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000216"
+    issue: "Thuật ngữ 'orbs' / 'the orb' ở p000216 và p000217 đang được dịch là 'bảo châu', lệch hoàn toàn với thuật ngữ 'quả cầu' (viết tắt của 'quả cầu tính toán') đã khóa xuyên suốt bộ truyện."
+    evidence: "Trong work/run-state/pending-terms-index.yml (từ vol-01 đến vol-07), 'orb' / 'orbs' luôn được dịch là 'quả cầu' / 'các quả cầu'."
+    recommendation: "Tại p000216 và p000217, đổi 'bảo châu' thành 'quả cầu'."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000187"
+    issue: "Cụm danh từ 'an old country' đang được dịch thành 'một quốc gia cổ hủ', đưa sớm sắc thái phán xét tiêu cực vào tính từ chỉ tuổi đời/lịch sử ('old') và làm mờ quan hệ nhân quả với câu kế tiếp giải thích việc vận hành theo truyền thống."
+    evidence: "Theo canon/style-guide.md, không thêm sắc thái phán xét khi nguồn chỉ nêu thuộc tính trung tính làm tiền đề lập luận."
+    recommendation: "Đổi 'một quốc gia cổ hủ' thành 'một quốc gia lâu đời' (hoặc 'một quốc gia già cỗi')."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000194"
+    issue: "Thuật ngữ 'eastern front' (viết thường trong lời kể) đang được viết hoa thành 'Mặt trận phía Đông' ở cả hai lần xuất hiện, chưa đồng bộ với quy ước viết thường 'mặt trận phía đông' trong lời kể của tập 7."
+    evidence: "Trong work/run-state/pending-terms-index.yml của vol-07, 'eastern front' trong văn xuôi luôn được thống nhất là 'mặt trận phía đông' (chỉ viết hoa khi nằm trong tiêu đề phụ hoặc tên tác phẩm)."
+    recommendation: "Đổi cả hai cụm 'Mặt trận phía Đông' trong p000194 thành 'mặt trận phía đông'."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter018.xhtml/p000223"
+    issue: "Đại từ trần thuật chỉ Đại tá Mikel đang dùng là 'anh' ('khóe miệng anh lại cứng đờ'), thiếu nhất quán với đại từ trần thuật 'ông' dùng cho Trung tá Drake (cấp dưới về quân hàm trong cùng bối cảnh đối thoại ở p000218 và p000224)."
+    evidence: "Cả Mikel (Đại tá) và Drake (Trung tá) đều là sĩ quan chỉ huy cấp tá trung niên; p000218 và p000224 đều quy chiếu Drake bằng 'ông'."
+    recommendation: "Đổi 'khóe miệng anh lại cứng đờ' thành 'khóe miệng ông lại cứng đờ' để đồng bộ đại từ trần thuật giữa hai vị chỉ huy."
+pending_term_recommendations:
+  - source_term: "ochlocracy"
+    proposed_vi: "chế độ dân chủ đám đông"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Dịch chuẩn xác thuật ngữ chính trị học chỉ nền dân chủ bị đám đông chi phối trong lời nhận xét của Loria về dư luận và báo chí."
+    alternatives_vi:
+      - "chế độ đám đông trị"
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000185"
+  - source_term: "Imperial Army / the Empire / the Reich"
+    proposed_vi: "Lục quân Đế quốc / Đế quốc"
+    category: "quốc gia / tổ chức quân sự"
+    status: "pending"
+    rationale: "Đồng bộ tuyệt đối với toàn bộ các lô trước trong tập 7 và sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000186"
+      - "YS-LN07/Text/chapter018.xhtml/p000187"
+      - "YS-LN07/Text/chapter018.xhtml/p000188"
+      - "YS-LN07/Text/chapter018.xhtml/p000190"
+      - "YS-LN07/Text/chapter018.xhtml/p000192"
+      - "YS-LN07/Text/chapter018.xhtml/p000194"
+      - "YS-LN07/Text/chapter018.xhtml/p000208"
+  - source_term: "the Federation / the party / Federation Army"
+    proposed_vi: "Liên bang / Đảng / Quân đội Liên bang"
+    category: "quốc gia / tổ chức chính trị - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với hệ thuật ngữ chỉ Liên bang, Đảng và Quân đội Liên bang trong sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000190"
+      - "YS-LN07/Text/chapter018.xhtml/p000192"
+      - "YS-LN07/Text/chapter018.xhtml/p000193"
+      - "YS-LN07/Text/chapter018.xhtml/p000197"
+  - source_term: "AROUND THE SAME TIME, FORMER ENTENTE ALLIANCE TERRITORY, THE NORTHERN LIBERATED ZONE (WHAT THE PARTISANS AND FEDERATION ARMY CALLED IT) / THE REGION CRAWLING WITH PARTISANS (WHAT THE EMPIRE CALLED IT)"
+    proposed_vi: "VÀO KHOẢNG CÙNG THỜI ĐIỂM ĐÓ, LÃNH THỔ CỰU LIÊN MINH HIỆP ƯỚC, VÙNG GIẢI PHÓNG PHÍA BẮC (CÁCH GỌI CỦA QUÂN DU KÍCH VÀ QUÂN ĐỘI LIÊN BANG) / KHU VỰC LÚC NHÚC QUÂN DU KÍCH (CÁCH GỌI CỦA ĐẾ QUỐC)"
+    category: "tiêu đề phụ / địa danh"
+    status: "pending"
+    rationale: "Đồng bộ cấu trúc tiêu đề phụ và các định danh 'Lãnh thổ cựu Liên minh Hiệp ước', 'quân du kích', 'Quân đội Liên bang', 'Đế quốc' với tập 6 và tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000192"
+  - source_term: "eastern front / secondary front / multinational unit / former Entente Alliance territory / Entente Alliance / Entente Alliance Army"
+    proposed_vi: "mặt trận phía đông / mặt trận thứ yếu / đơn vị đa quốc gia / lãnh thổ cựu Liên minh Hiệp ước / Liên minh Hiệp ước / Quân đội Liên minh Hiệp ước"
+    category: "địa danh / thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thống nhất cách viết thường 'mặt trận phía đông' trong lời kể và giữ nhất quán tên gọi 'Liên minh Hiệp ước' cùng các tổ hợp liên quan."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000194"
+      - "YS-LN07/Text/chapter018.xhtml/p000204"
+      - "YS-LN07/Text/chapter018.xhtml/p000211"
+  - source_term: "invisible hand"
+    proposed_vi: "bàn tay vô hình"
+    category: "thuật ngữ kinh tế - triết học"
+    status: "pending"
+    rationale: "Đồng bộ với phương án đã khóa ở các chương trước của tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000195"
+      - "YS-LN07/Text/chapter018.xhtml/p000196"
+  - source_term: "Commander Colonel Mikel / Mikel / Colonel / sir"
+    proposed_vi: "Chỉ huy Đại tá Mikel / Mikel / thưa Đại tá / ngài"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất tên và cấp bậc của Đại tá Mikel thuộc Quân đội Liên bang từ tập 6; trong thoại, Trung tá Drake gọi Mikel là 'ngài' và 'thưa Đại tá'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000197"
+      - "YS-LN07/Text/chapter018.xhtml/p000203"
+      - "YS-LN07/Text/chapter018.xhtml/p000209"
+      - "YS-LN07/Text/chapter018.xhtml/p000214"
+      - "YS-LN07/Text/chapter018.xhtml/p000223"
+      - "YS-LN07/Text/chapter018.xhtml/p000226"
+  - source_term: "Lieutenant Colonel Drake / Drake / Colonel"
+    proposed_vi: "Trung tá Drake / Drake / thưa Trung tá"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Đồng bộ quân hàm 'Trung tá Drake' từ tập 4 và tập 6; khi Mikel gọi xã giao 'Colonel' trong thoại (p000225), dịch đúng cấp bậc thực tế là 'thưa Trung tá'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000198"
+      - "YS-LN07/Text/chapter018.xhtml/p000203"
+      - "YS-LN07/Text/chapter018.xhtml/p000209"
+      - "YS-LN07/Text/chapter018.xhtml/p000214"
+      - "YS-LN07/Text/chapter018.xhtml/p000224"
+      - "YS-LN07/Text/chapter018.xhtml/p000225"
+      - "YS-LN07/Text/chapter018.xhtml/p000229"
+  - source_term: "aerial mages / mana signal / orbs / orb"
+    proposed_vi: "các pháp sư trên không / tín hiệu ma năng / quả cầu"
+    category: "thuật ngữ ma pháp - quân sự"
+    status: "pending"
+    rationale: "Khôi phục đúng bộ thuật ngữ chuẩn tạm đã khóa xuyên suốt sổ pending tập 1–7 (thay cho 'pháp sư hàng không', 'tín hiệu ma đạo' và 'bảo châu')."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000197"
+      - "YS-LN07/Text/chapter018.xhtml/p000205"
+      - "YS-LN07/Text/chapter018.xhtml/p000216"
+      - "YS-LN07/Text/chapter018.xhtml/p000217"
+  - source_term: "lageri"
+    proposed_vi: "*lageri*"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ in nghiêng '*lageri*' chỉ trại cải tạo lao động của Liên bang, đồng bộ với lô ch-05-b05 (p000151)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter018.xhtml/p000223"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000185"
+    choices:
+      - "Thuật ngữ trong lời độc thoại của Loria: 'ochlocracy' -> 'chế độ dân chủ đám đông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000186"
+    choices:
+      - "Thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc'; 'the Empire' -> 'Đế quốc'; 'censoring the press' -> 'kiểm duyệt báo chí'; 'guidance' -> 'sự định hướng'"
+      - "Tình thái suy đoán: 'hẳn cứ ngỡ' - 'ắt hẳn đã chẳng hiểu được'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000187"
+    choices:
+      - "Thuật ngữ & diễn đạt: 'The Empire' -> 'Đế quốc'; 'an old country' nên chỉnh thành 'một quốc gia lâu đời' (thay vì 'một quốc gia cổ hủ'); 'old world' -> 'thế giới cũ'"
+      - "Đại từ chỉ phía Đế quốc: 'Họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000188"
+    choices:
+      - "Thuật ngữ: 'Reich' -> 'Đế quốc'; 'military power' -> 'cường quốc quân sự'; 'political influence' -> 'tầm ảnh hưởng chính trị'"
+      - "Đại từ chỉ phía Đế quốc: 'Họ' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000189"
+    choices:
+      - "Lời cảm thán của Loria: '“Thật vô cùng kỳ thú và mỉa mai làm sao…”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000190"
+    choices:
+      - "Thuật ngữ: 'the Federation' -> 'Liên bang'; 'the party' -> 'Đảng'; 'the Empire' -> 'Đế quốc'"
+      - "Phủ định & đối chiếu: 'chẳng có lý do gì để bên này phải cố đi ganh đua trên sân nhà của bên kia cả'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000191"
+    choices:
+      - "Đại từ trong lời độc thoại của Loria: 'we' -> 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000192"
+    choices:
+      - "Tiêu đề phụ viết hoa toàn bộ: 'VÀO KHOẢNG CÙNG THỜI ĐIỂM ĐÓ, LÃNH THỔ CỰU LIÊN MINH HIỆP ƯỚC, VÙNG GIẢI PHÓNG PHÍA BẮC (CÁCH GỌI CỦA QUÂN DU KÍCH VÀ QUÂN ĐỘI LIÊN BANG) / KHU VỰC LÚC NHÚC QUÂN DU KÍCH (CÁCH GỌI CỦA ĐẾ QUỐC)'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000193"
+    choices:
+      - "Thuật ngữ: 'the Federation' -> 'Liên bang'; 'grand-strategy level' -> 'cấp độ đại chiến lược'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000194"
+    choices:
+      - "Thuật ngữ: 'the Empire' -> 'Đế quốc'; 'eastern front' nên chỉnh thành 'mặt trận phía đông' (viết thường); 'multinational unit' -> 'đơn vị đa quốc gia'; 'former Entente Alliance territory' -> 'lãnh thổ cựu Liên minh Hiệp ước'; 'secondary front' -> 'mặt trận thứ yếu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000195"
+    choices:
+      - "Thuật ngữ: 'invisible hand' -> 'bàn tay vô hình'"
+      - "Phủ định: 'chẳng ai chủ đích'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000196"
+    choices:
+      - "Thuật ngữ: 'invisible hand' -> 'bàn tay vô hình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000197"
+    choices:
+      - "Thuật ngữ & tên nhân vật: 'aerial mages' cần chỉnh thành 'các pháp sư trên không' (thay vì 'các pháp sư hàng không'); 'Commander Colonel Mikel' -> 'Chỉ huy Đại tá Mikel'; 'Federation Army authorities' -> 'giới chức Quân đội Liên bang'; 'main lines' -> 'các tuyến chính'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000198"
+    choices:
+      - "Tên nhân vật & cấp bậc: 'Lieutenant Colonel Drake' -> 'Trung tá Drake'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000199"
+    choices:
+      - "Đại từ tự xưng của Drake trong thoại với Mikel: 'Tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000200"
+    choices:
+      - "Đại từ trong lời Mikel: 'Tôi' - 'Chúng ta' - 'họ' (quân du kích); 'partisans' -> 'quân du kích'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000201"
+    choices:
+      - "Đại từ trong lời Drake: 'họ' (quân du kích) - 'chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000202"
+    choices:
+      - "Đại từ trong lời Mikel: 'chúng ta' - 'họ' (quân du kích)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000203"
+    choices:
+      - "Tên nhân vật: 'Drake' - 'Mikel'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000204"
+    choices:
+      - "Thuật ngữ: 'standard Entente Alliance language' -> 'ngôn ngữ tiêu chuẩn của Liên minh Hiệp ước'; 'dialect' -> 'phương ngữ'"
+      - "Đại từ chỉ đơn vị đa quốc gia: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000205"
+    choices:
+      - "Thuật ngữ: 'home country' nên chỉnh thành 'bản quốc'; 'mana signal' cần chỉnh thành 'tín hiệu ma năng' (thay vì 'tín hiệu ma đạo')"
+      - "Đại từ trong lời Drake nói với Mikel: 'chúng tôi' (đơn vị của Drake) - 'các ngài' (đơn vị Liên bang của Mikel) - 'ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000206"
+    choices:
+      - "Lời đáp của Mikel: '“Làm thế thì hơi quá vô ơn đấy.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000207"
+    choices:
+      - "Lời đáp của Drake: '“Đúng vậy.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000208"
+    choices:
+      - "Thuật ngữ: 'partisan territory' -> 'địa bàn quân du kích'; 'Imperial Army' -> 'Lục quân Đế quốc'; 'the partisans' -> 'phía quân du kích'; 'the imperials' -> 'quân Đế quốc'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000209"
+    choices:
+      - "Thuật ngữ & tên nhân vật: 'tactical intel' -> 'thông tin tình báo chiến thuật'; 'Mikel' - 'Drake'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000210"
+    choices:
+      - "Lời thoại của Drake giữ đúng tình thái tất yếu: 'chuyện đó bị lộ ra cũng chỉ là vấn đề thời gian thôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000211"
+    choices:
+      - "Thuật ngữ & đại từ: 'former Entente Alliance Army mages' -> 'những cựu pháp sư Quân đội Liên minh Hiệp ước'; 'Chúng tôi' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000212"
+    choices:
+      - "Thuật ngữ & đại từ: 'former mages' -> 'cựu pháp sư'; 'Tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000213"
+    choices:
+      - "Đại từ trong lời Mikel: 'Tôi' - 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000214"
+    choices:
+      - "Thuật ngữ & tên nhân vật: 'Reserves' -> 'Quân dự bị'; 'Drake' - 'Mikel'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000215"
+    choices:
+      - "Đại từ trong lời Mikel: 'Họ' - 'tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000216"
+    choices:
+      - "Thuật ngữ: 'decoys' -> 'mồi nhử'; 'orbs' cần chỉnh thành 'quả cầu' (thay vì 'bảo châu')"
+      - "Đại từ chỉ các cựu pháp sư cao tuổi: 'Họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000217"
+    choices:
+      - "Thuật ngữ: 'the orb' cần chỉnh thành 'quả cầu' (thay vì 'bảo châu')"
+      - "Đại từ chỉ các cựu pháp sư cao tuổi: 'bọn họ' (hoặc 'họ')"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000218"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Trong hoàn cảnh thế này ư?*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ trần thuật chỉ Drake: 'Ông'; đại từ chỉ phía quân du kích/chỉ huy địa phương: 'Họ'"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000219"
+    choices:
+      - "Lời đáp xác nhận hệ quả của Mikel: '“Ý nghĩa của việc đó là vậy đấy.”' (hoặc '“Thì có nghĩa là vậy đấy.”')"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000220"
+    choices:
+      - "Đại từ tự xưng của Drake: 'Tôi'; 'subordinates' -> 'cấp dưới'; 'discipline issues' -> 'rắc rối kỷ luật'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000221"
+    choices:
+      - "Lời tán đồng ngắn của Mikel: '“Cũng phải.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000222"
+    choices:
+      - "Cấu trúc tăng tiến trong lời Drake: 'Chính trị đúng là một thứ phiền toái. Nhưng chiến tranh còn là một con quái vật ghê gớm hơn thế.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000223"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*lageri*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ: trong thoại Mikel gọi Drake là 'ngài'; trong trần thuật nên chỉnh đại từ chỉ Mikel từ 'anh' thành 'ông' ('khóe miệng ông lại cứng đờ') để nhất quán với 'ông' chỉ Drake"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000224"
+    choices:
+      - "Tên nhân vật & đại từ trần thuật: 'Drake' - 'ông' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000225"
+    choices:
+      - "Cách xưng hô & cấp bậc trong lời Mikel nói với Trung tá Drake: 'Colonel' -> 'thưa Trung tá'; tự xưng 'tôi'; 'homeland' -> 'tổ quốc'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000226"
+    choices:
+      - "Cách xưng hô trong lời Drake nói với Đại tá Mikel: 'you... sir' -> 'ngài... thưa Đại tá'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000227"
+    choices:
+      - "Đại từ & thuật ngữ trong lời Mikel: 'chúng ta'; 'main lines' -> 'các tuyến chính'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000228"
+    choices:
+      - "Lời đáp nhận lệnh/đồng thuận của Drake: '“Rõ.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000229"
+    choices:
+      - "Tên nhân vật & cấp bậc: 'Lieutenant Colonel Drake' -> 'Trung tá Drake' - 'mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter018.xhtml/p000230"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu độc thoại nội tâm: '*Tại sao dù là trà hay tâm trạng thì rốt cuộc cả hai đều phải nguội lạnh đi thế nhỉ?*'"
