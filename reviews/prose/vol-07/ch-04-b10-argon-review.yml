@@ -1,0 +1,293 @@
+task_id: "vol-07-ch-04-b10-argon-review"
+parent_task_id: "vol-07-ch-04-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b10-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b10.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b10-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000210"
+    issue: "Đại từ ngôi thứ nhất số nhiều 'chúng tôi' trong câu trần thuật ở p000210 chuyển điểm nhìn hơi đột ngột khi đặt ngay trước câu trần thuật ngôi thứ ba dùng 'nó' và 'họ' ở p000211."
+    evidence: "Nguyên bản dùng tân ngữ ngôi thứ nhất số nhiều mang sắc thái nhập vai điểm nhìn của đơn vị giải cứu ngay trước khi quay lại trần thuật ngôi thứ ba về Tanya ở đoạn kế tiếp."
+    recommendation: "Có thể đổi 'về phía chúng tôi' thành 'về phía chúng ta' (hoặc 'về phía quân ta') để đồng bộ với điểm nhìn trần thuật ở p000207 và p000211."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000221"
+    issue: "Cách gọi 'bên cô' trong lời của vị sĩ quan chỉ huy toán biệt kích dù khi đáp lại Tanya hơi thiếu trang trọng so với bối cảnh quân đội Đế quốc vừa xưng rõ chức vụ chỉ huy trưởng Kampfgruppe và quân hàm Trung tá ở p000220."
+    evidence: "Ở p000220, Tanya giới thiệu trực tiếp chức danh chỉ huy trưởng Kampfgruppe và cấp bậc Trung tá; trong hội thoại quân sự Đế quốc, sĩ quan đồng cấp hoặc cấp dưới thường xưng hô bằng quân hàm."
+    recommendation: "Đổi 'Nếu bên cô có đạn' thành 'Nếu bên Trung tá có đạn' (hoặc 'Nếu đơn vị của Trung tá có đạn')."
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000227"
+    issue: "Cụm 'Lâu lắm rồi tôi mới muốn được đánh một giấc ra trò...' dễ khiến người đọc hiểu trạng thái 'muốn' mới xuất hiện sau một thời gian dài, thay vì bổ nghĩa cho hành động được ngủ trên một chiếc giường tử tế sau bao ngày thiếu thốn."
+    evidence: "Trạng ngữ chỉ thời gian ở cuối câu đầu trong nguyên bản bổ nghĩa cho việc được ngủ một giấc thật sâu trên chiếc giường đàng hoàng sau chuỗi ngày tác chiến cô lập."
+    recommendation: "Chỉnh lại trật tự để rõ phạm vi bổ nghĩa, chẳng hạn: 'Sau ngần ấy ngày, giờ tôi chỉ muốn được đánh một giấc ra trò trên một chiếc giường tử tế.' (hoặc 'Tôi muốn được đánh một giấc ra trò trên một chiếc giường tử tế sau bao ngày rồi chưa có dịp.')."
+pending_term_recommendations:
+  - source_term: "Imperial Army / Federation / Federation Army / Federation Army Command"
+    proposed_vi: "Lục quân Đế quốc / Liên bang / Quân đội Liên bang / Bộ Tư lệnh Quân đội Liên bang"
+    category: "quốc gia / tổ chức quân sự"
+    status: "pending"
+    rationale: "Kế thừa thống nhất tên gọi các tổ chức quân sự và quốc gia theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000208"
+      - "YS-LN07/Text/chapter016.xhtml/p000236"
+      - "YS-LN07/Text/chapter016.xhtml/p000237"
+      - "YS-LN07/Text/chapter016.xhtml/p000239"
+      - "YS-LN07/Text/chapter016.xhtml/p000240"
+      - "YS-LN07/Text/chapter016.xhtml/p000241"
+  - source_term: "rangers / paratrooper rangers / airborne officer / anti-tank gun"
+    proposed_vi: "những người lính biệt kích (số biệt kích) / lực lượng biệt kích dù / vị sĩ quan đổ bộ đường không / pháo chống tăng"
+    category: "thuật ngữ quân sự / đơn vị"
+    status: "pending"
+    rationale: "Giữ thống nhất thuật ngữ chỉ lực lượng biệt kích dù, sĩ quan đổ bộ đường không và vũ khí chống tăng từ các lô trước của chương 4 tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000210"
+      - "YS-LN07/Text/chapter016.xhtml/p000211"
+      - "YS-LN07/Text/chapter016.xhtml/p000216"
+      - "YS-LN07/Text/chapter016.xhtml/p000219"
+      - "YS-LN07/Text/chapter016.xhtml/p000241"
+  - source_term: "tank desants / meat shields"
+    proposed_vi: "tùng thiết trên xe tăng / bia đỡ đạn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ thuật ngữ 'tùng thiết trên xe tăng' với lô ch-04-b09 và dịch sát nghĩa bóng quân sự của 'meat shields' là 'bia đỡ đạn'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000212"
+      - "YS-LN07/Text/chapter016.xhtml/p000213"
+  - source_term: "Kampfgruppe / Lieutenant Colonel von Degurechaff / Grantz / Lieutenant Serebryakov"
+    proposed_vi: "Kampfgruppe / Trung tá von Degurechaff / Grantz / Trung úy Serebryakov"
+    category: "nhân vật / quân hàm / đơn vị"
+    status: "pending"
+    rationale: "Giữ nguyên định danh Kampfgruppe cùng cấp bậc và tên riêng các nhân vật theo sổ pending tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000216"
+      - "YS-LN07/Text/chapter016.xhtml/p000220"
+      - "YS-LN07/Text/chapter016.xhtml/p000231"
+      - "YS-LN07/Text/chapter016.xhtml/p000236"
+  - source_term: "rotation days / choke points"
+    proposed_vi: "những ngày luân phiên nghỉ ngơi / các nút thắt"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt tự nhiên, rõ nghĩa tác chiến cho chế độ luân phiên nghỉ ngơi của binh lính và vị trí nút thắt địa hình tại các cây cầu."
+    alternatives_vi:
+      - "những ngày nghỉ luân phiên / các điểm nghẽn yết hầu"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000228"
+      - "YS-LN07/Text/chapter016.xhtml/p000233"
+  - source_term: "MAY 8, UNIFIED YEAR 1927, THE GENERAL STATE OF THE EASTERN FRONT"
+    proposed_vi: "NGÀY 8 THÁNG 5 NĂM THỐNG NHẤT 1927, TÌNH HÌNH CHUNG CỦA MẶT TRẬN PHÍA ĐÔNG"
+    category: "tiêu đề thời gian - địa điểm"
+    status: "pending"
+    rationale: "Tuân thủ quy ước dịch tiêu đề thời gian Năm Thống nhất và địa danh Mặt trận phía Đông trong tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000235"
+  - source_term: "vanguard / air superiority / rear communication lines"
+    proposed_vi: "đội tiên phong / ưu thế trên không / các tuyến giao thông liên lạc ở hậu phương"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kế thừa nhất quán các thuật ngữ tác chiến và hậu cần đã dùng ở các tập và chương trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000236"
+      - "YS-LN07/Text/chapter016.xhtml/p000237"
+      - "YS-LN07/Text/chapter016.xhtml/p000239"
+      - "YS-LN07/Text/chapter016.xhtml/p000240"
+  - source_term: "THE SAME DAY, IMPERIAL CAPITAL BERUN, IMPERIAL ARMY GENERAL STAFF OFFICE / General Staff / General Staff Office"
+    proposed_vi: "CÙNG NGÀY, THỦ ĐÔ ĐẾ QUỐC BERUN, VĂN PHÒNG BỘ TỔNG THAM MƯU LỤC QUÂN ĐẾ QUỐC / Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu"
+    category: "tiêu đề thời gian - địa điểm / tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch Thủ đô Đế quốc Berun, Bộ Tổng tham mưu và Văn phòng Bộ Tổng tham mưu Lục quân Đế quốc theo sổ pending."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000242"
+      - "YS-LN07/Text/chapter016.xhtml/p000243"
+      - "YS-LN07/Text/chapter016.xhtml/p000246"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000208"
+    choices:
+      - "Lời hô nhận dạng quân mình khẩn cấp: '“Đừng bắn! Quân mình đấy! Chúng tôi là Lục quân Đế quốc!”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000209"
+    choices:
+      - "Lời thốt ngạc nhiên của lính biệt kích dù: '“Cái—? Hả? Đơn vị quân mình sao?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000210"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng từ đầu câu có thẻ em: '*Đúng vậy*'"
+      - "Thuật ngữ: 'rangers' -> 'những người lính biệt kích'; 'anti-tank gun' -> 'khẩu pháo chống tăng'"
+      - "Nên cân nhắc đồng bộ đại từ 'chúng tôi' thành 'chúng ta' (hoặc 'quân ta') để mượt điểm nhìn với p000211"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000211"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho câu nội tâm có thẻ em: '*Suýt chút nữa là thành cảnh tồi tệ rồi.*'"
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'; đại từ chỉ đơn vị: 'họ'"
+      - "Giả định trái thực tế ở quá khứ: 'Nếu nó mà thổi bay số biệt kích họ được phái tới giải cứu, mọi chuyện hẳn đã kết thúc bằng nỗi nhục bị đưa ra tòa án quân sự.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000212"
+    choices:
+      - "Thuật ngữ: 'Tank desants' -> 'Tùng thiết trên xe tăng'"
+      - "Cấu trúc phủ định giảm nhẹ: 'cũng không tệ chút nào.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000213"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho mệnh đề nội tâm có thẻ em: '*Xem ra việc Liên Xô cũ và ngay cả người Mỹ từng dùng chiến thuật này cũng có lý do cả*'"
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó' - 'mình'"
+      - "Thuật ngữ: 'meat shields' -> 'bia đỡ đạn'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000214"
+    choices:
+      - "Đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'nó'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000215"
+    choices:
+      - "Lời khen khích lệ: '“Các anh làm tốt lắm.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000216"
+    choices:
+      - "Nhân vật & thuật ngữ: 'Grantz'; 'airborne officer' -> 'vị sĩ quan đổ bộ đường không'"
+      - "Đại từ chỉ Grantz và vị sĩ quan: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000217"
+    choices:
+      - "Lời chào của bên giải cứu: '“Xin lỗi vì bọn tôi tới muộn!”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000218"
+    choices:
+      - "Lời đáp của bên được giải cứu: '“Mừng là các anh đã tới được đây!”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000219"
+    choices:
+      - "Tên nhân vật & đại từ trần thuật chỉ Tanya theo DEC-P01-001: 'Tanya' - 'nó'"
+      - "Thuật ngữ: 'paratrooper rangers' -> 'lực lượng biệt kích dù'; 'rangers' -> 'những người lính biệt kích'"
+      - "Tình thái suy luận quá khứ và phủ định nhấn mạnh: 'họ hẳn đã phải chiến đấu tuyệt vọng đến nhường nào... Những gian truân họ trải qua không thể nào là những gian truân tầm thường được.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000220"
+    choices:
+      - "Đại từ phản thân của Tanya trong mệnh đề phụ thuộc: 'mình'"
+      - "Xưng hô và chức danh trong thoại của Tanya: 'Tôi là chỉ huy trưởng của Kampfgruppe, Trung tá von Degurechaff. Các anh có cần thứ gì không?!'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000221"
+    choices:
+      - "Đại từ tự xưng của toán biệt kích dù: 'Chúng tôi'; nên đổi cách gọi Tanya từ 'bên cô' thành 'bên Trung tá' để chuẩn quân phong"
+      - "Thuật ngữ: 'mages' -> 'các pháp sư'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000222"
+    choices:
+      - "Xưng hô của Tanya: 'Tôi' / 'chúng tôi' - 'các anh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000223"
+    choices:
+      - "Đại từ chỉ vị sĩ quan biệt kích dù: 'Anh ta'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng cụm có thẻ em: '*Nó ở ngay kia kìa.*'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000224"
+    choices:
+      - "Thuật ngữ: 'modern individual' -> 'cá nhân hiện đại'; 'concept of property' -> 'khái niệm quyền sở hữu tài sản'"
+      - "Xưng hô của Tanya với phía biệt kích dù: 'các anh'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000225"
+    choices:
+      - "Đại từ tự xưng của vị sĩ quan biệt kích dù: 'chúng tôi' - 'tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000226"
+    choices:
+      - "Câu hỏi thăm của Tanya với vị sĩ quan: '“Thế thì không ổn đâu. Anh ngủ không đủ giấc à?”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000227"
+    choices:
+      - "Đại từ tự xưng của vị sĩ quan: 'tôi'"
+      - "Thuật ngữ: 'commemorative photo' -> 'tấm ảnh kỷ niệm'"
+      - "Nên chỉnh nhẹ trật tự câu đầu để trạng ngữ chỉ thời gian bổ nghĩa cho việc được ngủ trên giường tử tế thay vì bổ nghĩa cho động từ 'muốn'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000228"
+    choices:
+      - "Thuật ngữ: 'rotation days' -> 'những ngày luân phiên nghỉ ngơi'"
+      - "Đại từ chỉ những người lính: 'họ'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000229"
+    choices:
+      - "Tên nhân vật & đại từ tập thể trong lời Tanya: 'Tanya' - 'chúng ta'"
+      - "Thuật ngữ: 'commemorative photo' -> 'tấm ảnh kỷ niệm'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000230"
+    choices:
+      - "Lời hưởng ứng của Trung úy Serebryakov với Tanya có kính ngữ 'ạ' và tự xưng 'Tôi': '“Không tồi chút nào đâu ạ. Tôi sẽ lo việc kiếm máy ảnh!”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000231"
+    choices:
+      - "Nhân vật & xưng hô của Tanya: 'Trung úy Serebryakov' - 'Tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000232"
+    choices:
+      - "Xưng hô của Serebryakov với Tanya: 'Vâng, Trung tá cứ giao cho tôi!'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000233"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 ở đúng cụm có thẻ em: '*Đáng tin cậy thật*'"
+      - "Thuật ngữ: 'fateful choke points' -> 'các nút thắt định mệnh'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000234"
+    choices:
+      - "Câu lẩm bẩm kết cảnh của Tanya: '“…Xem ra việc còn lại chỉ là thực hiện chuyện này cho trót mà thôi.”'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000235"
+    choices:
+      - "Tiêu đề thời gian và địa điểm viết hoa toàn bộ: 'NGÀY 8 THÁNG 5 NĂM THỐNG NHẤT 1927, TÌNH HÌNH CHUNG CỦA MẶT TRẬN PHÍA ĐÔNG'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000236"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Federation Army Command' -> 'Bộ Tư lệnh Quân đội Liên bang'; 'Kampfgruppe vanguard' -> 'đội tiên phong của Kampfgruppe'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000237"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Imperial Army' -> 'Lục quân Đế quốc'; 'air superiority' -> 'ưu thế trên không'; 'Federation Army' -> 'Quân đội Liên bang'"
+      - "Quan hệ điều kiện – đối lập nhân quả được giữ nguyên"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000238"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu có thẻ em: '*Chúng ta sẽ chiến thắng.*'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000239"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Imperial Army commanders' -> 'các chỉ huy Lục quân Đế quốc'; 'Federation' -> 'phía Liên bang'; 'front lines' -> 'tiền tuyến'; 'rear communication lines' -> 'các tuyến giao thông liên lạc ở hậu phương'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000240"
+    choices:
+      - "Tổ chức & thuật ngữ: 'Federation Army’s numerical superiority' -> 'ưu thế quân số của Quân đội Liên bang'; 'air superiority' -> 'ưu thế trên không'; 'the imperial side' -> 'phía Đế quốc'"
+      - "Tình thái phản thực tế quá khứ: 'lẽ ra cán cân vẫn phải nghiêng về phía họ. Nhưng khi không có ưu thế trên không, quyền kiểm soát chiến trường đã trở lại tay phía Đế quốc.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000241"
+    choices:
+      - "Quốc gia & thuật ngữ: 'Federation' -> 'Liên bang'; 'eastern front' -> 'mặt trận phía đông'; 'imperial paratrooper rangers' -> 'lực lượng biệt kích dù Đế quốc'; 'Federation troops' -> 'quân Liên bang'"
+      - "Cấu trúc phủ định tăng tiến và điều kiện: 'Đừng nói tới chuyện tiêu diệt..., nếu quân Liên bang không nhanh chóng rút lui, họ sẽ rơi vào vòng vây khốn đốn.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000242"
+    choices:
+      - "Tiêu đề thời gian và địa điểm viết hoa toàn bộ: 'CÙNG NGÀY, THỦ ĐÔ ĐẾ QUỐC BERUN, VĂN PHÒNG BỘ TỔNG THAM MƯU LỤC QUÂN ĐẾ QUỐC'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000243"
+    choices:
+      - "Tổ chức & thuật ngữ: 'wireless communications' -> 'liên lạc vô tuyến'; 'General Staff' -> 'Bộ Tổng tham mưu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000244"
+    choices:
+      - "Phân biệt rõ hai chủ thể: 'họ' (Bộ Tổng tham mưu) và 'quân ta' (các lực lượng đang tiến quân ngoài chiến trường)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000245"
+    choices:
+      - "Sự đối lập bản chất giữa 'các báo cáo thành công gửi về từ thực địa' và 'phỏng đoán về thế thượng phong được suy luận từ những thông tin kiểm chứng gián tiếp'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000246"
+    choices:
+      - "Tổ chức & thuật ngữ: 'staffers' -> 'các nhân viên tham mưu'; 'General Staff Office' -> 'Văn phòng Bộ Tổng tham mưu'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000247"
+    choices:
+      - "Hình ảnh so sánh: 'bức điện họ hằng mong đợi đã truyền tới tựa như một cơn mưa lành.'"
+      - "Không dùng nhấn mạnh Markdown"
