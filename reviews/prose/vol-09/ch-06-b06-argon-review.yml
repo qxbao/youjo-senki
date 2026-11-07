@@ -1,0 +1,269 @@
+task_id: "vol-09-ch-06-b06-argon-review"
+parent_task_id: "vol-09-ch-06-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-09"
+chapter: 6
+source_package: "work/vol-09/batches/ch-06-b06-source.jsonl"
+target_translation: "translations/vol-09/ch-06-b06.jsonl"
+status: "approved"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "Lieutenant General Rudersdorf / Rudersdorf / sir"
+    proposed_vi: "Trung tướng Rudersdorf / Rudersdorf / thưa Tướng quân"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất quân hàm Trung tướng của Rudersdorf trong Tập 9 và cách Tanya gọi tôn kính cấp tướng trong thoại trực tiếp."
+    alternatives_vi:
+      - "thưa Trung tướng"
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000210"
+      - "YS-LN09/Text/chapter022.xhtml/p000211"
+      - "YS-LN09/Text/chapter022.xhtml/p000215"
+      - "YS-LN09/Text/chapter022.xhtml/p000216"
+      - "YS-LN09/Text/chapter022.xhtml/p000231"
+      - "YS-LN09/Text/chapter022.xhtml/p000236"
+  - source_term: "Colonel / Colonel Degurechaff / lieutenant colonel"
+    proposed_vi: "Trung tá / Trung tá Degurechaff / trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Trong tiếng Anh, sĩ quan cấp Lieutenant Colonel được gọi tắt là Colonel trong giao tiếp; bản dịch giữ đúng quân hàm thực tế của Tanya là Trung tá nhất quán với các lô trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000206"
+      - "YS-LN09/Text/chapter022.xhtml/p000211"
+      - "YS-LN09/Text/chapter022.xhtml/p000214"
+      - "YS-LN09/Text/chapter022.xhtml/p000222"
+      - "YS-LN09/Text/chapter022.xhtml/p000231"
+      - "YS-LN09/Text/chapter022.xhtml/p000239"
+  - source_term: "Colonel Lergen"
+    proposed_vi: "Đại tá Lergen"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Khớp với quân hàm Đại tá của Lergen ở Tập 9 theo sổ thuật ngữ tạm."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000235"
+  - source_term: "the Empire’s homeland / the home front"
+    proposed_vi: "chính quốc của Đế quốc / hậu phương"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Phân biệt rõ vùng lãnh thổ bản địa (homeland -> chính quốc) và tuyến hậu phương trong nước (home front -> hậu phương) theo ngữ cảnh bàn về chính trị – quân sự."
+    alternatives_vi:
+      - "bản thổ của Đế quốc"
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000204"
+      - "YS-LN09/Text/chapter022.xhtml/p000227"
+  - source_term: "reparation demands"
+    proposed_vi: "những yêu sách bồi thường chiến tranh"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt rõ nghĩa đòi bồi thường thiệt hại sau chiến tranh trong thảo luận chiến lược giữa Rudersdorf và Tanya."
+    alternatives_vi:
+      - "những yêu sách bồi thường"
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000201"
+  - source_term: "Defeatism"
+    proposed_vi: "Tư tưởng bại trận"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Tự nhiên trong lời chất vấn ngắn của Rudersdorf với cấp dưới."
+    alternatives_vi:
+      - "Chủ nghĩa bại trận"
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000222"
+  - source_term: "classically liberal anti-Communist"
+    proposed_vi: "người theo chủ nghĩa tự do cổ điển kiêm chống Cộng"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ trọn hai nhãn tư tưởng chính trị mà Tanya tự nhận trong độc thoại nội tâm."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000234"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên định danh Being X theo canon/glossary-pending.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN09/Text/chapter022.xhtml/p000234"
+locked_choices:
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000200"
+    choices:
+      - "Đế quốc (The Empire)"
+      - "miền đông (the east)"
+      - "chúng ta (us/we - nội tâm Tanya nói về phía Đế quốc)"
+      - "bãi lầy đó (that swamp)"
+      - "Giữ cấu trúc phủ định kép và câu điều kiện ở câu cuối"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000201"
+    choices:
+      - "chiều sâu chiến lược (the depth)"
+      - "những yêu sách bồi thường chiến tranh (reparation demands)"
+      - "Liên bang (the Federation)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000202"
+    choices:
+      - "tôi (I - Tanya xưng với Trung tướng Rudersdorf)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000203"
+    choices:
+      - "Câu hỏi ngắn tự nhiên của Rudersdorf đáp lời Tanya"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000204"
+    choices:
+      - "chính quốc của Đế quốc (the Empire’s homeland)"
+      - "tôi / chúng ta (my / we - Tanya thoại với Rudersdorf)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000205"
+    choices:
+      - "Tanya (ngôi thứ ba trong câu mở đầu) chuyển sang mình (I - độc thoại nội tâm của Tanya ở câu kết)"
+      - "Đế quốc (the Empire)"
+      - "lối tư duy quân sự (a militant style of thinking)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000206"
+    choices:
+      - "ta - cô (I - You - Rudersdorf xưng hô với Tanya)"
+      - "Trung tá (Colonel - gọi Trung tá Tanya von Degurechaff)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000207"
+    choices:
+      - "Tôi - ngài (I - you - Tanya xưng hô với Trung tướng Rudersdorf)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000208"
+    choices:
+      - "Giữ câu thoại không chèn đại từ dư thừa, bảo toàn sự đối lập giữa hiện thực và giấc mơ giữa ban ngày"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000209"
+    choices:
+      - "thời đại chúng ta (our time)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000210"
+    choices:
+      - "một vị trung tướng (a lieutenant general)"
+      - "mình (me/my - độc thoại nội tâm của Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000211"
+    choices:
+      - "Tanya / Rudersdorf (trần thuật)"
+      - "chúng ta / Cô / Trung tá (our / you / Colonel - Rudersdorf nói với Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000212"
+    choices:
+      - "Tôi - mình ... ạ (I - Tanya đáp lễ phép với cấp trên)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000213"
+    choices:
+      - "Câu mệnh lệnh ngắn của Rudersdorf"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000214"
+    choices:
+      - "tôi ... ạ (Tanya nói với Rudersdorf)"
+      - "một trung tá (a lieutenant colonel)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000215"
+    choices:
+      - "mình (me - trần thuật từ điểm nhìn ngôi thứ nhất của Tanya)"
+      - "ta - cô (I/me - you - Rudersdorf nói với Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000216"
+    choices:
+      - "thưa Tướng quân (sir - Tanya gọi Trung tướng Rudersdorf)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000217"
+    choices:
+      - "Khẳng định ngắn gọn của Rudersdorf"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000218"
+    choices:
+      - "mình (I - độc thoại nội tâm của Tanya)"
+      - "bảo hiểm / phao cứu sinh (insurance / a lifeline)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000219"
+    choices:
+      - "tôi ... ạ (I - Tanya hỏi xin đảm bảo từ Rudersdorf)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000220"
+    choices:
+      - "Ta (I - Rudersdorf)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000221"
+    choices:
+      - "Mình (I - trần thuật nội tâm Tanya)"
+      - "chúng ta ... ạ (we - Tanya nhận định về cơ hội thắng của Đế quốc)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000222"
+    choices:
+      - "Tư tưởng bại trận (Defeatism)"
+      - "Trung tá (Colonel)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000223"
+    choices:
+      - "tôi / chúng ta (I / our - trong lời thoại của Tanya)"
+      - "mình (I/myself - trong câu dẫn trần thuật của Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000224"
+    choices:
+      - "Sự nhận thức về thất bại đang cận kề (Awareness of impending defeat)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000225"
+    choices:
+      - "chúng ta (our)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000226"
+    choices:
+      - "Tanya (tự quy chiếu ngôi thứ ba theo bản gốc)"
+      - "Giữ đúng cấu trúc giả định trái thực tế ở quá khứ"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000227"
+    choices:
+      - "chúng ta / mình ... ạ (We / our - lời thoại của Tanya)"
+      - "hậu phương (the home front)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000228"
+    choices:
+      - "mình (My - nội tâm Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000229"
+    choices:
+      - "thế bế tắc (a stalemate)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000230"
+    choices:
+      - "chúng ta (we/our)"
+      - "thế bế tắc (a stalemate)"
+      - "*thỏa hiệp* (*compromise* - bảo toàn nhấn mạnh chữ nghiêng theo DEC-P01-002)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000231"
+    choices:
+      - "Rudersdorf / Ông (trần thuật)"
+      - "mình (me - trần thuật ngôi thứ nhất của Tanya)"
+      - "Trung tá / ta - cô (Colonel / I - you - Rudersdorf hỏi Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000232"
+    choices:
+      - "tôi / chúng ta ... ạ (my/I / our - Tanya trả lời Rudersdorf)"
+      - "những điều lệnh (the regulations)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000233"
+    choices:
+      - "Chủ động hành động để chấm dứt chiến tranh (Actively working to end the war)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000234"
+    choices:
+      - "Mình / chính mình (I - nội tâm Tanya) chuyển sang bản thân Tanya / cô (Tanya herself / she - tự quy chiếu ngôi thứ ba)"
+      - "người theo chủ nghĩa tự do cổ điển kiêm chống Cộng (classically liberal anti-Communist)"
+      - "*hòa bình thiêng liêng* (*sacred peace* - bảo toàn nhấn mạnh chữ nghiêng theo DEC-P01-002)"
+      - "Being X (Being X)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000235"
+    choices:
+      - "cô (you - Rudersdorf gọi Tanya)"
+      - "Đại tá Lergen (Colonel Lergen)"
+      - "giải ngũ (retire from active service)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000236"
+    choices:
+      - "Rudersdorf / ông (trần thuật)"
+      - "Tanya / một sĩ quan tại ngũ (Tanya, an active-duty officer)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000237"
+    choices:
+      - "mình (I/my - nội tâm Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000238"
+    choices:
+      - "tôi / mình ... ạ (I / my - Tanya nói với Rudersdorf)"
+      - "giải ngũ (retire)"
+      - "nghị viện (parliament)"
+      - "Giữ đúng cấu trúc giả định trái thực tế"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000239"
+    choices:
+      - "Trung tá Degurechaff (Colonel Degurechaff)"
+      - "cô (you - Rudersdorf nói với Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000240"
+    choices:
+      - "Hả? (Huh?)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000241"
+    choices:
+      - "Cô (you - Rudersdorf nói với Tanya)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000242"
+    choices:
+      - "ngài / tôi ... ạ (Tanya nói với Rudersdorf)"
+      - "những bậc cao niên (the elderly)"
+      - "Giữ mệnh đề bỏ lửng 'nên tôi không khỏi…' khớp với câu hỏi nối tiếp ở p000243"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000243"
+    choices:
+      - "Cô không khỏi làm sao? (bắt nhịp trực tiếp với câu bỏ lửng ở p000242)"
+  - segment_id: "YS-LN09/Text/chapter022.xhtml/p000244"
+    choices:
+      - "Tôi / mình ... ạ (I / me - Tanya đáp Rudersdorf)"
