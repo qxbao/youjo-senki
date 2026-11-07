@@ -1,0 +1,233 @@
+task_id: "vol-07-ch-02-b16-argon-review"
+parent_task_id: "vol-07-ch-02-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 2
+source_package: "work/vol-07/batches/ch-02-b16-source.jsonl"
+target_translation: "translations/vol-07/ch-02-b16.jsonl"
+status: "completed"
+summary:
+  serious: 0
+  moderate: 1
+  minor: 0
+findings:
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000378"
+    severity: "moderate"
+    issue: "Lệch quan hệ cấp bậc trong lời gọi: ở p000378, Tanya (Trung tá, chỉ huy tiểu đoàn) đang nói với cấp dưới là Thiếu tá Weiss (phó chỉ huy, người đáp lại bằng câu đùa ở p000379 và nhắc tới cả Grantz lẫn Visha ở ngôi thứ ba), nhưng bản dịch lại dịch danh xưng cấp bậc thành 'thưa Thiếu tá' như cấp dưới thưa gửi cấp trên."
+    evidence: "Mạch hội thoại từ p000369 đến p000380 diễn ra giữa Tanya và Thiếu tá Weiss; ở p000379 Weiss nhắc tới cả hai cấp dưới Grantz và Visha ở ngôi thứ ba, và p000380 xác nhận Tanya đáp lại câu đùa của vị phó chỉ huy. Khi gọi cấp dưới theo quân hàm (tương tự cách gọi Trung úy ở p000384), Tanya chỉ gọi trực tiếp chức danh quân hàm, không dùng từ 'thưa'."
+    resolution: "Bỏ từ 'thưa', đổi 'thưa Thiếu tá' thành 'Thiếu tá': '“Thế này thì không ổn đâu, Thiếu tá. Đến muộn thì mất mặt lắm.”'."
+pending_term_recommendations:
+  - source_term: "replenishment mages / artillery observations / artillery support / Meybert"
+    proposed_vi: "các pháp sư bổ sung / quan sát pháo binh / pháo binh chi viện / Meybert"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ pháp sư bổ sung, nhiệm vụ quan sát pháo binh, pháo binh chi viện và tên riêng Đại úy Meybert từ các lô trước."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000340"
+    status: "proposed"
+  - source_term: "Tanya / ma’am / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Tanya / thưa Trung tá / Thưa Trung tá"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên nhân vật chính và cách cấp dưới xưng hô tôn kính theo đúng quân hàm Trung tá của Tanya."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000344"
+      - "YS-LN07/Text/chapter008.xhtml/p000345"
+      - "YS-LN07/Text/chapter008.xhtml/p000347"
+      - "YS-LN07/Text/chapter008.xhtml/p000349"
+      - "YS-LN07/Text/chapter008.xhtml/p000354"
+      - "YS-LN07/Text/chapter008.xhtml/p000357"
+      - "YS-LN07/Text/chapter008.xhtml/p000361"
+      - "YS-LN07/Text/chapter008.xhtml/p000367"
+      - "YS-LN07/Text/chapter008.xhtml/p000380"
+      - "YS-LN07/Text/chapter008.xhtml/p000383"
+    status: "proposed"
+  - source_term: "new models / new orbs / the Federation"
+    proposed_vi: "các mẫu khí tài mới (các mẫu mới) / những quả cầu mới / Liên bang"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán cách dịch quả cầu tính toán mới và tên quốc gia Liên bang."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000349"
+      - "YS-LN07/Text/chapter008.xhtml/p000350"
+      - "YS-LN07/Text/chapter008.xhtml/p000356"
+    status: "proposed"
+  - source_term: "Group Leader / Salamander 01 / Salamander Kampfgruppe / mage battalion / the controller"
+    proposed_vi: "Chỉ huy cụm chiến đấu / Salamander 01 / Kampfgruppe Salamander / tiểu đoàn pháp sư / viên sĩ quan điều khiển"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán các mã hiệu liên lạc vô tuyến, tên đơn vị Kampfgruppe Salamander và chức danh sĩ quan điều khiển."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000353"
+      - "YS-LN07/Text/chapter008.xhtml/p000355"
+      - "YS-LN07/Text/chapter008.xhtml/p000356"
+      - "YS-LN07/Text/chapter008.xhtml/p000361"
+      - "YS-LN07/Text/chapter008.xhtml/p000364"
+      - "YS-LN07/Text/chapter008.xhtml/p000365"
+    status: "proposed"
+  - source_term: "Major Weiss / Major / vice commander"
+    proposed_vi: "Thiếu tá Weiss / Thiếu tá / vị phó chỉ huy"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán quân hàm Thiếu tá và chức vụ phó chỉ huy của Weiss; khi Tanya gọi trực tiếp Weiss chỉ dùng 'Thiếu tá' không kèm 'thưa'."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000369"
+      - "YS-LN07/Text/chapter008.xhtml/p000378"
+      - "YS-LN07/Text/chapter008.xhtml/p000380"
+    status: "proposed"
+  - source_term: "magic officers / Imperial Army / company commanders / ancient Roman centurions / boatswains on ships of the line"
+    proposed_vi: "các sĩ quan ma pháp / Lục quân Đế quốc / đại đội trưởng / các bách phu trưởng La Mã cổ đại / các thủy thủ trưởng trên những chiến hạm tuyến"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán thuật ngữ sĩ quan ma pháp, Lục quân Đế quốc, đại đội trưởng và dịch chuẩn xác các chức danh quân sự lịch sử dùng để so sánh."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000372"
+      - "YS-LN07/Text/chapter008.xhtml/p000374"
+    status: "proposed"
+  - source_term: "First Lieutenant Schwarkopf"
+    proposed_vi: "Trung úy Schwarkopf"
+    alternatives_vi: []
+    rationale: "Dịch chuẩn quân hàm Trung úy và giữ nguyên tên riêng Schwarkopf."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000375"
+    status: "proposed"
+  - source_term: "Grantz / Visha / adjutant / Lieutenant Serebryakov / Lieutenant"
+    proposed_vi: "Grantz / Visha / viên sĩ quan phụ tá / Trung úy Serebryakov / Trung úy"
+    alternatives_vi: []
+    rationale: "Kế thừa nhất quán tên riêng, biệt danh, chức vụ sĩ quan phụ tá và quân hàm Trung úy của Serebryakov."
+    segment_ids:
+      - "YS-LN07/Text/chapter008.xhtml/p000379"
+      - "YS-LN07/Text/chapter008.xhtml/p000381"
+      - "YS-LN07/Text/chapter008.xhtml/p000382"
+      - "YS-LN07/Text/chapter008.xhtml/p000384"
+    status: "proposed"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000340"
+    choices:
+      - "Điểm nhìn, đại từ, phủ định & thuật ngữ: độc thoại nội tâm của Tanya dùng 'mình' và 'chúng ta' theo DEC-P01-001; giữ phủ định ('không thể một mình tung hoành mãi được', 'chẳng bao giờ thoát khỏi cảnh phải tằn tiện chúng'); 'replenishment mages' -> 'các pháp sư bổ sung'; 'artillery observations' -> 'quan sát pháo binh'; 'artillery support' -> 'pháo binh chi viện'; 'Meybert' -> 'Meybert'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000341"
+    choices:
+      - "Điểm nhìn, phủ định & nhấn mạnh Markdown: giữ phủ định bác bỏ 'cũng đâu phải là...'; chỉ bọc '*ngay lúc này*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000342"
+    choices:
+      - "Thoại, nhấn mạnh Markdown, đại từ & phủ định: bọc '*Non.*' trong dấu sao theo DEC-P01-002; quy chiếu Đại úy Meybert bằng 'Anh ấy'; giữ phủ định 'Việc này sẽ không mất nhiều thời gian đâu'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000343"
+    choices:
+      - "Trần thuật, đại từ & phủ định: quy chiếu Tanya bằng 'nó' theo DEC-P01-001; giữ khẳng định phủ định 'Sẽ không có chuyện chia nhỏ binh lực dưới quyền chỉ huy của nó'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000344"
+    choices:
+      - "Trần thuật & quan hệ đối lập: giữ cấu trúc 'Thay vì dao động, Tanya quyết định dồn toàn bộ quân lực lao vào tấn công quân địch để giải quyết dứt điểm mọi chuyện thật nhanh gọn'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000345"
+    choices:
+      - "Thoại & xưng hô: dịch 'ma’am' thành 'thưa Trung tá' khi cấp dưới thúc giục lên đường."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000346"
+    choices:
+      - "Thoại & phủ định: Tanya hưởng ứng 'Đi thôi' và giữ phủ định 'Không thể bắt mấy người đó chờ lâu được'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000347"
+    choices:
+      - "Trần thuật, đại từ & tình thái: quy chiếu Tanya bằng 'nó' theo DEC-P01-001; giữ tình thái ngoại quan 'dường như đang gánh lấy nỗi đau của những người đồng đội'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000348"
+    choices:
+      - "Trần thuật, đối lập & đại từ: giữ sự tương phản giữa vẻ ngoài và nội tâm ('Nhưng trong thâm tâm, nó đang hối hận đứt ruột vì quyết định của mình'); dùng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000349"
+    choices:
+      - "Trần thuật, đại từ & thuật ngữ: quy chiếu Tanya bằng 'nó' theo DEC-P01-001; 'new models' -> 'các mẫu khí tài mới'; 'new orbs' -> 'những quả cầu mới'; giữ ý định ban đầu là giao chiến nhẹ và thu giữ một chiếc nếu có thể để phục vụ thu thập tình báo."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000350"
+    choices:
+      - "Trần thuật, đại từ, phủ định & thuật ngữ: 'the Federation' -> 'Liên bang'; quy chiếu Tanya bằng 'nó' theo DEC-P01-001; giữ phủ định 'chẳng phải là chuyện đáng mừng gì'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000351"
+    choices:
+      - "Điểm nhìn, đại từ, phủ định & câu hỏi nội tâm: độc thoại nội tâm tự quy chiếu của Tanya dùng 'Mình' theo DEC-P01-001, không bọc nghiêng vì nguồn không có thẻ em theo DEC-P01-002; giữ phủ định 'sẽ chẳng có thời gian' và câu hỏi tự vấn ở cuối."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000352"
+    choices:
+      - "Điểm nhìn & phủ định kép: giữ cấu trúc điều kiện phủ định 'Chẳng có cách nào biết được nếu không bắt liên lạc'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000353"
+    choices:
+      - "Thoại vô tuyến & thuật ngữ: 'Group Leader' -> 'Chỉ huy cụm chiến đấu'; 'Salamander 01' -> 'Salamander 01'; 'come in' -> 'nghe rõ trả lời'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000354"
+    choices:
+      - "Trần thuật, đại từ & phủ định: giữ phủ định 'chẳng mất mát gì'; quy chiếu Tanya bằng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000355"
+    choices:
+      - "Thoại vô tuyến & thuật ngữ: 'Salamander 01, đây là Chỉ huy cụm chiến đấu!'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000356"
+    choices:
+      - "Thoại vô tuyến, xưng hô & thuật ngữ: 'Group Leader' -> 'Chỉ huy cụm chiến đấu'; 'Salamander 01' -> 'Salamander 01'; 'mage battalion' -> 'tiểu đoàn pháp sư'; 'Salamander Kampfgruppe' -> 'Kampfgruppe Salamander'; dùng đại từ trung tính 'chúng tôi' – 'các vị'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000357"
+    choices:
+      - "Trần thuật, phủ định & thuật ngữ: 'right wing' -> 'cánh phải'; giữ phủ định 'Chưa sụp đổ là một tín hiệu tốt'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000358"
+    choices:
+      - "Thoại vô tuyến & phủ định: giữ lời từ chối lịch sự 'Rất tiếc, tôi không thể làm vậy được'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000359"
+    choices:
+      - "Thoại vô tuyến, câu hỏi & đại từ: giữ câu hỏi xác nhận của Tanya, tự xưng 'tôi' và gọi đầu dây bên kia một cách trung tính lịch sự ('vị')."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000360"
+    choices:
+      - "Thoại vô tuyến & phủ định: giữ nguyên nhân tiền tuyến đang rối loạn và phủ định 'chúng tôi không thể gửi bất kỳ báo cáo chi tiết nào'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000361"
+    choices:
+      - "Thoại, trần thuật & thuật ngữ: giữ lời thốt 'Ồ, khoan đã nào'; 'the controller' -> 'viên sĩ quan điều khiển'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000362"
+    choices:
+      - "Thoại vô tuyến, xưng hô & điều kiện: viên sĩ quan điều khiển xưng 'Tôi' – 'các vị'; giữ điều kiện giảm nhẹ 'Nếu có thể' khi nhờ báo cáo chi tiết tình hình 'cánh phải' lúc tới nơi."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000363"
+    choices:
+      - "Thoại vô tuyến & phủ định: Tanya xưng 'tôi' / 'Chúng tôi'; giữ phủ định 'không được trang bị để làm nhiệm vụ trinh sát hay quan sát' và mục đích 'đang lao vào để thực hiện một đợt xung kích'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000364"
+    choices:
+      - "Thoại vô tuyến & thuật ngữ: 'Chỉ huy cụm chiến đấu đã rõ'; giữ lời giải thích lý do chỉ dám đề nghị ở mức 'nếu có thể'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000365"
+    choices:
+      - "Thoại vô tuyến & xưng hô: 'Salamander 01 đã rõ'; Tanya xưng 'Tôi' / 'Chúng tôi' – 'các vị', giữ lời rào đón về giới hạn khả năng thực hiện."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000366"
+    choices:
+      - "Thoại vô tuyến: 'Tất nhiên rồi. Ngắt liên lạc.'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000367"
+    choices:
+      - "Nhấn mạnh Markdown, trần thuật & đại từ: chỉ bọc '*Hừm.*' trong dấu sao theo DEC-P01-002; quy chiếu Tanya bằng 'Nó' theo DEC-P01-001; giữ nhận định các đơn vị tiền tuyến đang tan rã trong hoảng loạn vì bất lực trước kiểu kẻ địch mới."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000368"
+    choices:
+      - "Điểm nhìn, câu hỏi nội tâm & nhấn mạnh Markdown: dùng 'chúng ta'; chỉ bọc '*có*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000369"
+    choices:
+      - "Thoại, quân hàm & xưng hô: Tanya gọi 'Thiếu tá Weiss', xưng hô 'anh' và 'chúng ta'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000370"
+    choices:
+      - "Thoại, xưng hô & thuật ngữ: Weiss đáp lời kèm tiểu từ 'ạ'; 'the wireless' -> 'sóng vô tuyến'; 'open channel' -> 'kênh liên lạc mở'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000371"
+    choices:
+      - "Thoại & câu hỏi: Tanya hỏi xác nhận liệu những người đang nghe thấy có phải là 'lính mới' ('rookies') không."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000372"
+    choices:
+      - "Thoại, tình thái & thuật ngữ: Weiss đáp kèm 'ạ', giữ tình thái 'Có vẻ như'; 'magic officers' -> 'các sĩ quan ma pháp'; 'up through company level' -> 'cho đến tận cấp đại đội'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000373"
+    choices:
+      - "Thoại & trần thuật: giữ tiếng huýt sáo cảm thán và quy chiếu Tanya bằng 'nó' theo DEC-P01-001."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000374"
+    choices:
+      - "Điểm nhìn, đại từ, phủ định & thuật ngữ: độc thoại nội tâm tự quy chiếu của Tanya dùng 'Mình' / 'mình' theo DEC-P01-001; 'Imperial Army' -> 'Lục quân Đế quốc'; 'company commander(s)' -> 'đại đội trưởng'; 'ancient Roman centurions' -> 'các bách phu trưởng La Mã cổ đại'; 'boatswains on ships of the line' -> 'các thủy thủ trưởng trên những chiến hạm tuyến'; 'middle management' -> 'cấp quản lý tầm trung'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000375"
+    choices:
+      - "Điểm nhìn, đại từ, quân hàm & nhấn mạnh Markdown: câu đầu kết hợp điểm nhìn 'chúng ta' và quy chiếu Tanya bằng 'nó' theo DEC-P01-001; 'First Lieutenant Schwarkopf' -> 'Trung úy Schwarkopf'; bọc trọn câu hỏi cuối '*Vậy tức là những kẻ ở cấp độ đó đang mất hết cả lý trí rồi sao?*' trong dấu sao theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000376"
+    choices:
+      - "Thoại & tình thái: giữ mức độ suy đoán 'có lẽ sẽ là một thử thách lớn hơn dự tính đấy' đối với việc cứu nguy cho 'cánh phải'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000377"
+    choices:
+      - "Nhấn mạnh Markdown, điểm nhìn & đại từ: bọc trọn câu độc thoại nội tâm '*Cấp dưới của mình toàn là lũ cuồng chiến, trong khi mình lại chỉ chuộng bảo toàn mạng sống…*' trong dấu sao theo DEC-P01-002 và dùng 'mình' theo DEC-P01-001; câu trần thuật sau dùng 'nó' cho Tanya."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000378"
+    choices:
+      - "Thoại, phủ định & quân hàm: Tanya nói với cấp dưới là Thiếu tá Weiss nên gọi trực tiếp là 'Thiếu tá' (không có từ 'thưa'); giữ phủ định 'Thế này thì không ổn đâu' và nhận xét 'Đến muộn thì mất mặt lắm'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000379"
+    choices:
+      - "Thoại & tên riêng: Weiss đáp lại bằng lời động viên pha chút đùa cợt rằng 'Grantz' và 'Visha' vẫn còn đủ sức trẻ."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000380"
+    choices:
+      - "Nhấn mạnh Markdown, trần thuật, thoại & thuật ngữ: chỉ bọc '*Heh.*' trong dấu sao theo DEC-P01-002; 'vice commander' -> 'vị phó chỉ huy'; trong thoại Tanya tự xưng 'tôi' và nhắc đừng quên sức trẻ đáng gờm của chính mình."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000381"
+    choices:
+      - "Thoại, trần thuật, đại từ, thuật ngữ & nhấn mạnh Markdown: 'adjutant' -> 'viên sĩ quan phụ tá'; quy chiếu Tanya bằng 'nó' theo DEC-P01-001; chỉ bọc '*Thôi chết rồi*' trong dấu sao khớp thẻ em nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000382"
+    choices:
+      - "Thoại & quân hàm: Tanya hỏi 'Trung úy Serebryakov? Có chuyện gì thế?'."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000383"
+    choices:
+      - "Thoại, quân hàm & xưng hô: Serebryakov ngập ngừng đáp, tự xưng 'tôi' và gọi Tanya là 'Thưa Trung tá' ('Colonel')."
+  - segment_id: "YS-LN07/Text/chapter008.xhtml/p000384"
+    choices:
+      - "Thoại, quân hàm & xưng hô: Tanya gọi Serebryakov là 'Trung úy', xưng 'tôi' – 'cô' trong câu hỏi vặn lại."
