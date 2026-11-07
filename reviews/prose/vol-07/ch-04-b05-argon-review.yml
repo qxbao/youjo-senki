@@ -1,0 +1,232 @@
+task_id: "vol-07-ch-04-b05-argon-review"
+parent_task_id: "vol-07-ch-04-b05"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-07"
+chapter: 4
+source_package: "work/vol-07/batches/ch-04-b05-source.jsonl"
+target_translation: "translations/vol-07/ch-04-b05.jsonl"
+review_path: "reviews/prose/vol-07/ch-04-b05-argon-review.yml"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - severity: "minor"
+    segment_id: "YS-LN07/Text/chapter016.xhtml/p000054"
+    issue: "Cụm từ 'cảm thấy có gì đó sai sai' mang sắc thái khẩu ngữ hiện đại, hơi lệch nhẹ so với giọng trần thuật nghiêm cẩn từ điểm nhìn của Trung tướng von Zettour."
+    evidence: "Đoạn trần thuật mô tả nhận thức của Zettour trước thái độ kiên định bất ngờ của người bạn già bên Cục Tác chiến."
+    recommendation: "Có thể cân nhắc chỉnh thành 'cảm thấy có gì đó không ổn' hoặc 'cảm thấy có chút bất thường' ở bước chuốt văn của Flash polisher; không ảnh hưởng nghĩa nên không chặn signoff."
+pending_term_recommendations:
+  - source_term: "Zettour / Rudersdorf / General von Rudersdorf"
+    proposed_vi: "Zettour / Rudersdorf / Tướng von Rudersdorf"
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ nhất quán danh xưng và quân hàm của hai vị tướng Bộ Tổng tham mưu theo sổ pending tập 7 và các batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000029"
+      - "YS-LN07/Text/chapter016.xhtml/p000030"
+      - "YS-LN07/Text/chapter016.xhtml/p000031"
+      - "YS-LN07/Text/chapter016.xhtml/p000034"
+      - "YS-LN07/Text/chapter016.xhtml/p000036"
+      - "YS-LN07/Text/chapter016.xhtml/p000039"
+      - "YS-LN07/Text/chapter016.xhtml/p000054"
+      - "YS-LN07/Text/chapter016.xhtml/p000058"
+  - source_term: "superior officer"
+    proposed_vi: "sĩ quan cấp trên"
+    category: "chức danh / thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác khái niệm người chỉ huy/sĩ quan cấp trên trong lời chất vấn của Rudersdorf."
+    alternatives_vi:
+      - "sĩ quan thượng cấp"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000051"
+  - source_term: "Operations / Service Corps / General Staff / Imperial Army General Staff"
+    proposed_vi: "Cục Tác chiến / Cục Quân vụ / Bộ Tổng tham mưu / Bộ Tổng tham mưu Lục quân Đế quốc"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống tên cơ quan thuộc Bộ Tổng tham mưu trong sổ pending từ các tập trước và tập 7."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000054"
+      - "YS-LN07/Text/chapter016.xhtml/p000057"
+      - "YS-LN07/Text/chapter016.xhtml/p000058"
+      - "YS-LN07/Text/chapter016.xhtml/p000059"
+  - source_term: "enemy’s military district / airborne operation / air supremacy / preliminary espionage"
+    proposed_vi: "quân khu địch / chiến dịch đổ bộ đường không / quyền làm chủ bầu trời / hoạt động gián điệp tiền trạm"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất các thuật ngữ tác chiến đã khóa ở các batch trước của chương 4 và diễn đạt rõ công tác tình báo chuẩn bị trước chiến dịch."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000056"
+  - source_term: "staff education"
+    proposed_vi: "chương trình đào tạo tham mưu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với cách dịch 'chương trình đào tạo tham mưu' đã khóa tại batch ch-04-b04."
+    alternatives_vi:
+      - "nền giáo dục tham mưu"
+    segment_ids:
+      - "YS-LN07/Text/chapter016.xhtml/p000059"
+locked_choices:
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000027"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông'"
+      - "Phủ định & đối lập trạng thái: 'Ông không chắc đó là lời nguyền của việc làm việc quá sức hay do căng thẳng gây ra, nhưng mái tóc của ông cũng chẳng khá khẩm gì hơn'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000028"
+    choices:
+      - "Đại từ trần thuật: 'ông' (Zettour), 'Người bạn đang đứng cạnh ông' (Rudersdorf)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000029"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Tôi nói sai sao?*' tương ứng với thẻ em trong nguồn"
+      - "Đại từ trong thoại của Zettour: 'chúng ta'; câu hỏi bằng ánh mắt hướng tới Rudersdorf xưng 'Tôi'; trần thuật chỉ Zettour là 'ông'"
+      - "Phủ định: 'Chẳng có gì đảm bảo rằng chúng ta có thể chọc thủng được.'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000030"
+    choices:
+      - "Phân biệt đại từ trần thuật: 'Người bạn già của ông' / 'ông ấy' / 'của mình' (Rudersdorf) và 'ông' / 'Zettour' (Zettour)"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000031"
+    choices:
+      - "Danh xưng & xưng hô: 'General von Rudersdorf' -> 'Tướng von Rudersdorf'; Zettour xưng 'tôi'"
+      - "Phủ định: 'tôi không thể nắm chắc về kế hoạch này'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000032"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'ông'"
+      - "Thuật ngữ: 'military history' -> 'lịch sử quân sự'; 'specialist' -> 'chuyên gia'"
+      - "Phủ định & câu hỏi tu từ: 'ông không được phép dao động khi bước vào khâu thực thi'; 'Chẳng phải ông vốn là chuyên gia trong lĩnh vực đó sao?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000033"
+    choices:
+      - "Xưng hô của Zettour với Rudersdorf: 'tôi' - 'ông'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000034"
+    choices:
+      - "Tên nhân vật: 'Rudersdorf', 'Zettour'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000035"
+    choices:
+      - "Tự xưng của Zettour trong thoại: 'lão già này' / 'tôi'"
+      - "Phủ định: 'tôi không thể đón nhận chuyện này một cách bình thản được'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000036"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'Tôi' - 'ông'"
+      - "Giữ nguyên câu hỏi tu từ và câu hỏi mở về tình trạng: 'Chẳng phải ông đang quá mức nhút nhát sao? Rốt cuộc là có chuyện gì vậy?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000037"
+    choices:
+      - "Câu đáp ngắn phủ định của Zettour: 'Tôi không biết.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000038"
+    choices:
+      - "Câu hỏi ngắn biểu thị sự ngạc nhiên của Rudersdorf: 'Hả?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000039"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'chính Zettour' / 'mình' / 'ông'"
+      - "Cụm từ & câu hỏi nghi vấn nội tâm gián tiếp: 'phản khoa học và phi logic'; 'nhưng phải chăng đó là trực giác?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000040"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông' / 'mình'; đại từ trong thoại: 'Chúng ta'"
+      - "Phủ định: 'Chúng ta không thể ước tính được những rủi ro'; 'Chúng ta không nắm rõ được những khả năng có thể xảy ra'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000041"
+    choices:
+      - "Đại từ trần thuật: 'Ông' / 'mình' (Zettour), 'họ' (phía Đế quốc/Bộ Tổng tham mưu)"
+      - "Thuật ngữ: 'preliminary analysis' -> 'phân tích sơ bộ'; 'fighting power' -> 'sức chiến đấu'"
+      - "Phủ định kép trong mệnh đề nghi vấn: 'không chắc liệu có phải vì họ chưa phân tích sơ bộ đủ kỹ lưỡng hay vì sức chiến đấu chưa được chuẩn bị dồi dào hay không'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000042"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông'"
+      - "Phủ định: 'không có được sự chắc chắn thường thấy trước mỗi chiến dịch'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000043"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'Ông'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Chà, nếu như…*' tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000044"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'Ông'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002: '*Hoặc biết đâu…*' tương ứng với thẻ em trong nguồn"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000045"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông' / 'bản thân mình'"
+      - "Phủ định: 'ông không thể tự lừa dối bản thân mình'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000046"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'Tôi' - 'ông'"
+      - "Phủ định: 'Thế này thật chẳng giống ông chút nào.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000047"
+    choices:
+      - "Lời đáp khái quát của Zettour: '…Trong chiến tranh có quá nhiều điều bất ngờ.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000048"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông'"
+      - "Phủ định & tình thái quá khứ: 'không biết'; 'không tài nào hiểu nổi và cũng chẳng thể nào lường trước được'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000049"
+    choices:
+      - "Đại từ trần thuật chỉ Zettour: 'ông' / 'mình'"
+      - "Logic hồi cố & phủ định: 'mọi thứ dường như đều mang tính tất yếu—đến mức giờ đây ông tự hỏi sao mình lại không thể nhìn thấu tất cả những điều đó từ trước'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000050"
+    choices:
+      - "Đại từ trần thuật trong câu hỏi tự vấn gián tiếp của Zettour: 'mình' / 'ông' / 'bản thân'"
+      - "Quan hệ nhân quả nghi vấn: 'Phải chăng vì đã có quá nhiều kế hoạch của mình thất bại nên ông đang dần đánh mất sự tự tin vào khả năng phán đoán của bản thân?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000051"
+    choices:
+      - "Xưng hô của Rudersdorf với Zettour: 'ông' / 'Ông'"
+      - "Thuật ngữ: 'superior officer' -> 'sĩ quan cấp trên'; 'willpower' -> 'ý chí'"
+      - "Câu hỏi điều kiện phủ định: 'nếu thiếu đi ý chí thì ông chẳng xứng được gọi là một sĩ quan cấp trên không hả?'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000052"
+    choices:
+      - "Đại từ ngôi thứ nhất của Zettour trong thoại: 'Tôi'"
+      - "Phủ định & phân biệt khái niệm: 'Tôi không có ý đó. Tôi chỉ không muốn đánh đồng sự liều lĩnh với lòng dũng cảm mà thôi.'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000053"
+    choices:
+      - "Đại từ ngôi thứ nhất số nhiều trong lời Rudersdorf: 'Chúng ta'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000054"
+    choices:
+      - "Phân biệt đại từ & định danh: 'Zettour' / 'Ông' / 'mình' (Zettour) và 'người bạn già của mình' / 'con người của Cục Tác chiến ấy' / 'ông ấy' / 'Rudersdorf' (Rudersdorf), 'họ' (cả hai)"
+      - "Thuật ngữ: 'the east' -> 'phía đông'; 'Operations' -> 'Cục Tác chiến'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000055"
+    choices:
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu độc thoại nội tâm: '*Vậy ra mình đã thực sự mắc một sai lầm hiếm hoi khi đọc ý định của ông ấy sao?*'"
+      - "Đại từ nội tâm tự quy chiếu của Zettour: 'mình'; chỉ Rudersdorf: 'ông ấy'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000056"
+    choices:
+      - "Thuật ngữ: 'enemy’s military district' -> 'quân khu địch'; 'airborne operation' -> 'chiến dịch đổ bộ đường không'; 'air supremacy' -> 'quyền làm chủ bầu trời'; 'preliminary espionage' -> 'hoạt động gián điệp tiền trạm'"
+      - "Đại từ trong thoại của Zettour: 'chúng ta' / 'tôi'"
+      - "Phủ định: 'tôi không muốn tiếp tục làm chuyện này nữa'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000057"
+    choices:
+      - "Thuật ngữ: 'operation plans' -> 'kế hoạch tác chiến'; 'Service Corps' -> 'Cục Quân vụ'"
+      - "Phân biệt đại từ giữa hai cục trong lời Rudersdorf: 'chúng tôi' (Cục Tác chiến) - 'mấy người bên Cục Quân vụ các ông' (Cục Quân vụ) - 'Tôi'"
+      - "Không dùng nhấn mạnh Markdown"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000058"
+    choices:
+      - "Thuật ngữ: 'General Staff' -> 'Bộ Tổng tham mưu'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 (giữ đúng cấu trúc đảo chữ nghiêng của nguồn): '*đáng tin cậy*' ở câu hai, và '*Mà ngay từ đầu, liệu người ta có thực sự gọi một kẻ đề xuất chiến dịch rủi ro cao này làm lựa chọn duy nhất là* đáng tin cậy *được không?*' ở câu ba"
+      - "Đại từ trần thuật chỉ Zettour: 'ông'; chủ thể khái quát trong câu hỏi nội tâm: 'người ta'"
+  - segment_id: "YS-LN07/Text/chapter016.xhtml/p000059"
+    choices:
+      - "Thuật ngữ: 'staff education' -> 'chương trình đào tạo tham mưu'; 'Imperial Army General Staff' -> 'Bộ Tổng tham mưu Lục quân Đế quốc'"
+      - "Nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu thứ hai và giữ nguyên dấu ngoặc kép quanh chữ “đáng tin cậy”: '*Bộ Tổng tham mưu Lục quân Đế quốc—những kẻ lên kế hoạch giành thế chủ động và làm những việc người đời ghét bỏ, những kẻ giành thế chủ động và tìm cách thực hiện các nhiệm vụ linh hoạt, tùy cơ ứng biến tới đâu hay tới đó—liệu đã từng có lấy một lần lựa chọn một chiến dịch “đáng tin cậy” chưa?*'"
