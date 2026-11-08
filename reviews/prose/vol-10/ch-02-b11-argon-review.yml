@@ -1,0 +1,219 @@
+task_id: "vol-10-ch-02-b11-argon-review"
+parent_task_id: "vol-10-ch-02-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b11-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b11.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b11-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000033"
+    severity: "minor"
+    issue: "Ở câu thứ hai, vị ngữ nói về khả năng đáp ứng của 'tuyến tiếp vận' (supply line) cho cánh quân tiến sâu được dịch là 'sẽ không tài nào chi viện nổi'; trong tiếng Việt quân sự, 'chi viện' thường thiên về tăng viện binh lực hoặc hỏa lực, còn với tuyến tiếp vận thì dùng 'duy trì tiếp tế nổi' hoặc 'đảm bảo hậu cần nổi' sẽ chuẩn xác hơn về mặt kết hợp từ."
+    basis: "Đối chiếu ngữ nghĩa hậu cần ở câu thứ hai của p000033 và nguyên tắc kết hợp từ tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'chi viện nổi' thành 'duy trì tiếp tế nổi' hoặc 'nuôi quân nổi'; không làm sai lệch logic nhân quả nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000057"
+    severity: "minor"
+    issue: "Ở câu thứ hai, cụm danh từ chỉ từ khóa mật trong giao tiếp được dịch là 'mật danh'; 'mật danh' thường tương ứng với 'codename' (tên gọi mật của cá nhân/chiến dịch), trong khi ở đây Tanya đang hỏi liệu từ 'hy vọng' mà Zettour nhấn mạnh có phải là một 'mật ngữ' hoặc 'ám hiệu' vượt thẩm quyền của cô hay không."
+    basis: "Đối chiếu sắc thái từ vựng ở câu thứ hai của p000057 và ngữ cảnh đối thoại từ p000053 đến p000057."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'mật danh' thành 'mật ngữ' hoặc 'ám hiệu' để khớp sát hơn với ngữ cảnh lời nói."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Degurechaff / the young lieutenant colonel / the small lieutenant colonel / the lieutenant colonel / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá Degurechaff / vị trung tá trẻ tuổi / vị trung tá nhỏ nhắn / vị trung tá / Trung tá"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Tanya trong trần thuật và cách gọi rút gọn 'Colonel -> Trung tá' trong lời thoại của Zettour theo quy ước đã khóa ở các batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000027"
+      - "YS-LN10/Text/chapter010.xhtml/p000035"
+      - "YS-LN10/Text/chapter010.xhtml/p000041"
+      - "YS-LN10/Text/chapter010.xhtml/p000044"
+      - "YS-LN10/Text/chapter010.xhtml/p000045"
+      - "YS-LN10/Text/chapter010.xhtml/p000046"
+      - "YS-LN10/Text/chapter010.xhtml/p000049"
+      - "YS-LN10/Text/chapter010.xhtml/p000053"
+      - "YS-LN10/Text/chapter010.xhtml/p000055"
+  - source_term: "senior officer"
+    proposed_vi: "sĩ quan cao cấp"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp nhất quán với mục 'senior officers -> các sĩ quan cao cấp' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000029"
+  - source_term: "field marshal / marshal"
+    proposed_vi: "thống chế"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Thuật ngữ quân hàm chuẩn xác cho cấp bậc cao nhất trên cấp đại tướng trong hệ thống quân hàm Đế quốc, giữ đồng nhất giữa lời bông đùa của Tanya và câu đáp của Zettour."
+    alternatives_vi:
+      - "nguyên soái"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000030"
+      - "YS-LN10/Text/chapter010.xhtml/p000032"
+      - "YS-LN10/Text/chapter010.xhtml/p000041"
+  - source_term: "supply line / supply hub"
+    proposed_vi: "tuyến tiếp vận / đầu mối tiếp vận"
+    category: "thuật ngữ quân sự - hậu cần"
+    status: "pending"
+    rationale: "Phản ánh rõ ràng, nhất quán hệ thống đường tiếp tế và trạm trung tâm hậu cần của quân đội trên chiến trường."
+    alternatives_vi:
+      - "tuyến tiếp tế / trung tâm tiếp tế"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000033"
+      - "YS-LN10/Text/chapter010.xhtml/p000038"
+  - source_term: "François army / revolving door"
+    proposed_vi: "quân đội François / cánh cửa xoay"
+    category: "tên gọi - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'revolving door operation -> chiến dịch cánh cửa xoay' trong pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000033"
+  - source_term: "magic lieutenant colonel"
+    proposed_vi: "trung tá pháp sư"
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'magic lieutenant colonel -> trung tá pháp sư' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000035"
+  - source_term: "Rhine front"
+    proposed_vi: "mặt trận Rhine"
+    category: "thuật ngữ quân sự - địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Rhine front -> mặt trận Rhine' đã dùng xuyên suốt các tập và trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000036"
+  - source_term: "General Trickster / Field Marshal Trickster / board of trickery"
+    proposed_vi: "Tướng Mánh khóe / Thống chế Mánh khóe / hội đồng mánh khóe"
+    category: "danh xưng - chơi chữ"
+    status: "pending"
+    rationale: "Bảo toàn mạch chơi chữ nối tiếp từ nhận xét 'bậc thầy mánh khóe' ở p000040 sang các danh hiệu giả định hài hước của Zettour ở p000041."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000040"
+      - "YS-LN10/Text/chapter010.xhtml/p000041"
+  - source_term: "military police"
+    proposed_vi: "quân cảnh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với cách dịch 'military police -> quân cảnh' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000045"
+  - source_term: "ace mage"
+    proposed_vi: "pháp sư át chủ bài"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác danh hiệu pháp sư xuất sắc hàng đầu của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000054"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000027"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('Ông' - 'cô'), danh xưng 'Trung tá Degurechaff' và chi tiết chỉ một cú gõ ngón tay lên bản đồ đã đủ để cô nhìn thấu ý đồ thực sự của ông."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000028"
+    locks:
+      - "Khóa câu thoại bỏ lửng của Tanya với cách gọi 'Thưa Tướng quân'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000029"
+    locks:
+      - "Khóa cụm 'Vị sĩ quan cao cấp nhỏ nhắn', phủ định 'không giấu nổi vẻ kinh ngạc trong giọng nói' và cặp đại từ 'cô' - 'ông'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000030"
+    locks:
+      - "Khóa lời thoại của Tanya ('Tôi' - 'ngài', 'thưa Tướng quân'), phủ định 'không ngờ' và quân hàm 'thống chế'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000031"
+    locks:
+      - "Khóa suy đoán nhượng bộ ('Dù hẳn là cô đang nói quá lên…'), đại từ 'cô' - 'ông' và chi tiết Zettour giấu tiếng cười sau một làn khói thuốc lá mỏng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000032"
+    locks:
+      - "Khóa lời đáp của Zettour ('chúng ta', 'tôi'), mục tiêu 'chiếm lấy một căn cứ địch' và câu giả định điều kiện nếu địch phản ứng kém cỏi thì biết đâu ông sẽ trở thành 'thống chế'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000033"
+    locks:
+      - "Khóa nhận định 'Rõ ràng là cả hai chỉ đang nói đùa', giả định điều kiện về 'tuyến tiếp vận' bị kéo căng không thể đáp ứng nếu tiến quá sâu, cấu trúc tăng tiến 'Không chỉ vậy, họ còn cần phải...' và phép so sánh với chiến dịch nhốt 'quân đội François' vào 'cánh cửa xoay'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000034"
+    locks:
+      - "Khóa giới hạn mức độ ('Cùng lắm thì... chỉ có thể...') và cụm 'chiến thắng mang tính chiến lược trên chiến trường'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000035"
+    locks:
+      - "Khóa đại từ 'ông' - 'cô', tên riêng 'Zettour', cùng hai danh xưng 'vị trung tá trẻ tuổi' và 'Vị trung tá pháp sư'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000036"
+    locks:
+      - "Khóa câu hỏi xác nhận vai trò nghi binh/đánh lạc hướng của Tanya ('Tôi', 'chúng ta', 'thưa Tướng quân', 'ạ') và địa danh 'mặt trận Rhine'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000037"
+    locks:
+      - "Khóa lời xác nhận của Zettour với cặp đại từ 'tôi' - 'cô' và đại từ chỉ quân địch 'chúng'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000038"
+    locks:
+      - "Khóa quan hệ nhân quả quá khứ hoàn thành ('Ông đã buộc quân địch phải đẩy đầu mối tiếp vận của chúng lên phía trước')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000039"
+    locks:
+      - "Khóa sự tương phản thời gian ('Trước đó... năm ăn năm thua… nhưng giờ đây...'), hình ảnh 'miếng mồi hoàn hảo để nhử chúng chui vào bẫy', phủ định 'Chẳng còn gì phải lo ngại nữa' và kết luận bắt đầu chiến dịch; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000040"
+    locks:
+      - "Khóa lời nhận xét hóm hỉnh nhưng giữ lễ của Tanya ('Xin thứ lỗi cho tôi nói thẳng', 'ngài', 'thưa Tướng quân') cùng hai hình ảnh 'tay lừa đảo siêu hạng' và 'bậc thầy mánh khóe'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000041"
+    locks:
+      - "Khóa cách gọi 'Trung tá', cặp đại từ 'Tôi' - 'cô', cùng chuỗi danh xưng chơi chữ 'Tướng Mánh khóe', 'Thống chế Mánh khóe' và 'hội đồng mánh khóe'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000042"
+    locks:
+      - "Khóa tên riêng 'Zettour' và hành động mỉm cười thật tươi rồi rút thêm một điếu thuốc lá nữa."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000043"
+    locks:
+      - "Khóa mốc thời gian ngay trước khi ra mệnh lệnh cuối cùng và chi tiết 'ông' chợt nhận ra một thiếu sót đã bỏ quên."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000044"
+    locks:
+      - "Khóa điểm nhìn của 'Zettour' ('ông' - 'cô'), cụm 'vị trung tá nhỏ nhắn chưa từng hút thuốc bao giờ' và phán đoán từ vẻ mặt cứng đờ rằng rất có khả năng bản thân cô cũng phản đối chuyện hút thuốc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000045"
+    locks:
+      - "Khóa giả định trái thực tế ('Nếu Trung tá Degurechaff mà hút thuốc ở độ tuổi của cô, ông sẽ có nghĩa vụ phải báo cho quân cảnh'), nhận xét về sự nghiêm khắc của 'quân cảnh' và hành động cười gượng trước khi quay lại hoạch định tác chiến."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000046"
+    locks:
+      - "Khóa mệnh lệnh tác chiến của Zettour ('Tôi' - 'cô', 'Trung tá'), sự phối hợp giữa 'mồi nhử' thu hút địch với 'lực lượng chủ lực' giáng đòn, và đánh giá 'đơn giản nhưng cực kỳ hiệu quả'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000047"
+    locks:
+      - "Khóa lời bày tỏ nỗi lo ngại của Tanya ('Nhưng thưa Tướng quân, tôi hơi lo ngại về cánh quân chủ lực ạ')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000048"
+    locks:
+      - "Khóa câu hỏi ngắn của Zettour với đại từ 'cô'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000049"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba ('Ông' - 'vị trung tá' / 'cô') yêu cầu giải thích rõ hơn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000050"
+    locks:
+      - "Khóa câu trả lời của Tanya ('họ', 'ạ') nêu vấn đề nằm ở vị trí triển khai hiện tại của cánh quân chủ lực."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000051"
+    locks:
+      - "Khóa chi tiết đôi bàn tay nhỏ xíu của 'cô' chỉ vào các con số biểu thị 'các sư đoàn của Đế quốc' trên bản đồ với vẻ mặt bối rối."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000052"
+    locks:
+      - "Khóa đại từ 'tôi', 'chúng ta', nhấn mạnh Markdown đúng phạm vi theo DEC-P01-002 tại '*chưa từng nghe tên bao giờ*' và câu hỏi về việc bố trí 'các sư đoàn mới thành lập' cho cuộc tiến công quan trọng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000053"
+    locks:
+      - "Khóa câu trả lời của Zettour ('họ', 'Trung tá') về mục đích 'trao cho họ hy vọng' và 'một khoản đầu tư cho tương lai'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000054"
+    locks:
+      - "Khóa danh xưng 'vị pháp sư át chủ bài', cặp đại từ 'Ông' - 'cô', phủ định 'chẳng hiểu ông đang nói về chuyện gì' và suy nghĩ thông cảm của Zettour vì cô vốn chỉ huy những binh lính tinh nhuệ."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000055"
+    locks:
+      - "Khóa câu hỏi tu từ mở đầu ('Cô có biết không, Trung tá?') và luận điểm 'Hy vọng chính là thứ mang lại cho con người ta ý chí chiến đấu'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000056"
+    locks:
+      - "Khóa phép so sánh hai mặt của hy vọng ('kịch độc' nhưng tùy liều lượng có thể dùng làm 'thần dược') và nhận định chỉ 'những sĩ quan lớn tuổi hơn' mới thấu hiểu; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000057"
+    locks:
+      - "Khóa lời đáp ngập ngừng của Tanya ('Thưa Tướng quân', 'tôi'/'mình' - 'ngài', 'không ạ'), phủ định 'không chắc là mình theo kịp ý ngài' và câu hỏi nghi vấn về từ khóa vượt quá thẩm quyền."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000058"
+    locks:
+      - "Khóa điểm nhìn nội tâm của 'Zettour' về Tanya ('Cô', 'cô', 'đứa trẻ nhỏ nhắn này'), sự đối lập giữa năng lực sĩ quan/người lính xuất sắc với tuổi đời và trải nghiệm còn hạn chế chưa nhận ra những nét tinh tế trong tâm hồn con người."
