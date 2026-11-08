@@ -1,0 +1,390 @@
+task_id: "vol-11-ch-01-b11-argon-review"
+parent_task_id: "vol-11-ch-01-b11"
+volume: "vol-11"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+target_translation: "translations/vol-11/ch-01-b11.jsonl"
+source_package: "work/vol-11/batches/ch-01-b11-source.jsonl"
+summary:
+  serious: 0
+  moderate: 3
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000311"
+    severity: "moderate"
+    category: "terminology_and_pronouns"
+    issue: "Chức danh 'the deputy director' (chỉ Rudersdorf trên cương vị cấp phó điều hành Bộ Tổng tham mưu) đang dịch là 'vị cục phó', làm hạ cấp cơ quan xuống cấp cục và lệch với phương án tạm đã ghi nhận trong pending-terms-index.yml ('vị phó tổng tham mưu trưởng'). Ngoài ra, đại từ quy chiếu Rudersdorf trong trần thuật đang dùng 'ông ta', thiếu nhất quán với 'ông ấy' ở p000316 và p000317."
+    evidence: "Đối chiếu work/run-state/pending-terms-index.yml (mục 'the general / Lieutenant General Rudersdorf / deputy director -> vị tướng / Trung tướng Rudersdorf / vị phó tổng tham mưu trưởng') và mạch trần thuật của Tanya ở p000315-p000317."
+    recommendation: "Đổi 'vị cục phó' thành 'vị phó tổng tham mưu trưởng' và đổi 'ông ta' thành 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000314"
+    severity: "moderate"
+    category: "pronouns_and_pov"
+    issue: "Trong câu trần thuật ngôi thứ nhất của Tanya, cụm chủ ngữ số nhiều đang dịch là 'Hai chúng tôi', bị trượt sang đại từ đối thoại 'tôi' và lệch với quy ước tự xưng 'mình' trong trần thuật/độc thoại nội tâm của Tanya theo DEC-P01-001."
+    evidence: "Đối chiếu DEC-P01-001 và mạch tự xưng 'mình' xuyên suốt các đoạn trần thuật p000308, p000311, p000315."
+    recommendation: "Sửa thành 'Cả hai cùng bật cười sảng khoái.' hoặc 'Hai người bọn mình cùng bật cười sảng khoái.' để giữ ngôi kể nhất quán."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000317"
+    severity: "moderate"
+    category: "pronouns_and_pov"
+    issue: "Trần thuật ngôi thứ nhất của Tanya tiếp tục dùng đại từ 'chúng tôi' ('Sau khi chúng tôi nhìn ông ấy...'), không khớp với đại từ tự quy chiếu 'mình' ở p000315 và p000319."
+    evidence: "Đối chiếu DEC-P01-001 và các đoạn trần thuật liền kề p000315, p000319."
+    recommendation: "Sửa thành 'Sau khi cả hai nhìn ông ấy nhanh chóng rời khỏi văn phòng, Tướng Zettour nở một nụ cười chua chát.' hoặc dùng 'bọn mình'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000305"
+    severity: "minor"
+    category: "meaning_and_nuance"
+    issue: "Cụm mô tả vẻ mặt 'uncomfortably stern' đang dịch là 'nghiêm nghị một cách ngượng ngập', mang sắc thái bối rối/e thẹn không phù hợp với thái độ cực kỳ nghiêm túc của người phụ trách mặt trận phía đông (Zettour) khi nhắc nhở Rudersdorf về đội hộ vệ."
+    evidence: "Đối chiếu ngữ cảnh cảnh báo an ninh ở p000305-p000306 và vế khẳng định mức độ nghiêm túc tối đa ở cuối câu p000305."
+    recommendation: "Sửa 'nghiêm nghị một cách ngượng ngập' thành 'nghiêm nghị đến mức gây khó chịu' hoặc 'nghiêm nghị một cách căng thẳng'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000309"
+    severity: "minor"
+    category: "tense_and_modality"
+    issue: "Bản dịch thêm từ chỉ thời quá khứ 'đã' ('cô đã hào hứng đến mức nào khi phải đi theo làm cận vệ cho ông ta'), trong khi cấu trúc hiện tại ở nguồn diễn tả nghĩa vụ hiện hành/nói chung của Tanya."
+    evidence: "Đối chiếu thời động từ của mệnh đề thời gian trong p000309 và quy tắc giữ đúng thời gian trong canon/style-guide.md."
+    recommendation: "Lược chữ 'đã', sửa thành 'Tôi chỉ có thể hình dung được cô hào hứng đến mức nào khi phải đi theo làm cận vệ cho ông ta.'"
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000324"
+    severity: "minor"
+    category: "address_and_register"
+    issue: "Hô ngữ 'sir' khi Tanya đáp lời Zettour đang dịch là 'thưa Tướng quân', hơi lệch sang văn phong cổ/kiếm hiệp và chưa đồng nhất với cách dịch 'Thưa ngài' / 'ngài' ở p000330 và p000334."
+    evidence: "Đối chiếu cách xưng hô 'tôi - ngài' của Tanya với Zettour tại p000320, p000330, p000334, p000338."
+    recommendation: "Đổi 'thưa Tướng quân' thành 'thưa ngài' (hoặc viết '“Bất cứ việc gì ngài cần ạ, thưa ngài.”')."
+pending_term_recommendations:
+  - source_term: "person in charge of the eastern front"
+    proposed_vi: "người phụ trách mặt trận phía đông"
+    category: "thuật ngữ / chức trách"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách dịch sát nghĩa cho cụm mô tả chức trách của Tướng Zettour ở mặt trận phía đông; giữ 'mặt trận phía đông' nhất quán với pending-terms-index.yml."
+    alternatives_vi:
+      - "người đứng đầu mặt trận phía đông"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000305"
+  - source_term: "First Lieutenant Grantz"
+    proposed_vi: "Trung úy Grantz"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm đã thiết lập trong pending-terms-index.yml cho Grantz."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000310"
+  - source_term: "deputy director"
+    proposed_vi: "vị phó tổng tham mưu trưởng"
+    category: "chức danh"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Chỉ chức vụ cấp phó đứng đầu Văn phòng Bộ Tổng tham mưu của Tướng Rudersdorf (xem thêm p000316); thống nhất với mục đã ghi trong pending-terms-index.yml ở vol-10."
+    alternatives_vi:
+      - "vị phó trưởng bộ tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000311"
+  - source_term: "General Rudersdorf"
+    proposed_vi: "Tướng Rudersdorf"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ cách gọi 'Tướng Rudersdorf' cho 'General Rudersdorf' nhất quán với pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Rudersdorf"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000315"
+      - "YS-LN11/Text/chapter002.xhtml/p000322"
+      - "YS-LN11/Text/chapter002.xhtml/p000325"
+      - "YS-LN11/Text/chapter002.xhtml/p000337"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    category: "tổ chức"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml cho tổ chức chính trị địa phương làm việc với quân đội Đế quốc."
+    alternatives_vi:
+      - "Hội đồng Tự quản"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000315"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nhất quán với phương án tạm xuyên suốt các tập trước trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000316"
+  - source_term: "General Zettour"
+    proposed_vi: "Tướng Zettour"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nhất quán với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Zettour"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000317"
+      - "YS-LN11/Text/chapter002.xhtml/p000319"
+      - "YS-LN11/Text/chapter002.xhtml/p000322"
+      - "YS-LN11/Text/chapter002.xhtml/p000341"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Trong tiếng Anh, cấp Lieutenant Colonel thường được gọi tắt là Colonel trong giao tiếp trực tiếp; dịch là 'Trung tá' để phản ánh đúng quân hàm thực tế của Tanya và khớp với pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000323"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000304"
+    speaker: "Rudersdorf"
+    addressee: "Zettour"
+    pronouns: "tôi - anh"
+    choices:
+      - "Giữ xưng hô ngang hàng thân tình nhưng châm biếm nhẹ 'tôi - anh' giữa Rudersdorf và Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000305"
+    pov: "narrator"
+    terms:
+      - "eastern front -> mặt trận phía đông"
+    choices:
+      - "Sửa 'nghiêm nghị một cách ngượng ngập' thành 'nghiêm nghị đến mức gây khó chịu' (hoặc 'nghiêm nghị một cách căng thẳng')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000306"
+    speaker: "Zettour"
+    addressee: "Rudersdorf"
+    pronouns: "anh (gọi Rudersdorf)"
+    choices:
+      - "Giữ mệnh lệnh cảnh báo trực tiếp và cụm 'Đội hộ vệ' (The guards)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000307"
+    speaker: "Rudersdorf"
+    addressee: "Zettour"
+    pronouns: "tôi - anh"
+    choices:
+      - "Giữ thái độ miễn cưỡng chấp nhận 'đội hộ vệ của anh'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000308"
+    pov: "Tanya_mixed_first_and_third_person"
+    pronouns: "mình (My boss -> Sếp của mình), ông (Zettour), Tanya (giữ nguyên tên theo điểm nhìn pha trộn của nguồn)"
+    choices:
+      - "Giữ cấu trúc điểm nhìn pha trộn đặc trưng của nguyên tác: vừa tự xưng 'mình' ('Sếp của mình') vừa nhắc tên 'Tanya' ở vế sau."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000309"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi - cô, ông ta (chỉ Rudersdorf)"
+    choices:
+      - "Lược trợ từ quá khứ 'đã' trước 'hào hứng'; giữ từ 'cận vệ' (bodyguard)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000310"
+    speaker: "Tanya"
+    addressee: "Rudersdorf"
+    pronouns: "tôi - ngài, cậu ấy (chỉ Grantz)"
+    terms:
+      - "First Lieutenant Grantz -> Trung úy Grantz"
+    choices:
+      - "Giữ thái độ lễ độ pha chút hài hước ngoại giao của Tanya ('tôi - ngài', 'Trung úy Grantz', 'cậu ấy')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000311"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (chỉ Rudersdorf)"
+    terms:
+      - "deputy director -> vị phó tổng tham mưu trưởng"
+    choices:
+      - "Đổi 'vị cục phó' thành 'vị phó tổng tham mưu trưởng' và đổi 'ông ta' thành 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000312"
+    speaker: "Rudersdorf"
+    addressee: "Tanya"
+    pronouns: "tôi - cô, cậu ta (chỉ Grantz)"
+    terms:
+      - "company -> đại đội"
+    choices:
+      - "Giữ 'tôi - cô', 'cậu ta', 'chỉ huy đại đội'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000313"
+    speaker: "Tanya"
+    addressee: "Rudersdorf"
+    pronouns: "Tôi, cậu ấy (Grantz)"
+    terms:
+      - "the Empire -> Đế quốc"
+    choices:
+      - "Giữ cách nói bông đùa 'gục ngã trước bia của Đế quốc'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000314"
+    pov: "Tanya_first_person"
+    pronouns: "Cả hai / Hai người bọn mình (tránh dùng 'chúng tôi' trong trần thuật của Tanya)"
+    choices:
+      - "Sửa 'Hai chúng tôi' thành 'Cả hai' hoặc 'Hai người bọn mình' để thống nhất với tự xưng 'mình' trong trần thuật."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000315"
+    pov: "Tanya_first_person"
+    pronouns: "mình"
+    terms:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+      - "Council for Self-Government -> Hội đồng Tự trị"
+    choices:
+      - "Giữ 'Tướng Rudersdorf', 'Hội đồng Tự trị' và tự xưng 'mình'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000316"
+    pov: "Tanya_first_person"
+    pronouns: "ông ấy (chỉ Rudersdorf)"
+    terms:
+      - "the army -> quân đội"
+      - "committee -> ủy ban"
+      - "General Staff Office -> Văn phòng Bộ Tổng tham mưu"
+    choices:
+      - "Giữ mức độ suy đoán ('nhiều khả năng'), đánh giá phủ định ('chẳng có nội dung gì thực chất', 'hoàn toàn dư thừa') và tên cơ quan 'Văn phòng Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000317"
+    pov: "Tanya_first_person"
+    pronouns: "cả hai / bọn mình, ông ấy (Rudersdorf)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Sửa 'chúng tôi' thành 'cả hai' hoặc 'bọn mình'; giữ 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000318"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    choices:
+      - "Giữ giọng nhận xét thân mật 'cái tay Rudersdorf đó'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000319"
+    pov: "Tanya_mixed_first_and_third_person"
+    pronouns: "Mình, Tanya và thuộc hạ (giữ nguyên điểm nhìn pha trộn của nguồn)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+      - "convoy -> đoàn hộ tống"
+    choices:
+      - "Giữ sự chuyển đổi điểm nhìn tự nhiên theo nguồn ('Mình' ở hai câu đầu, 'Tanya và thuộc hạ' ở câu thứ ba)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000320"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài, các thuộc cấp"
+    choices:
+      - "Giữ 'tôi - ngài' và 'các thuộc cấp'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000321"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "cô"
+    choices:
+      - "Giữ lời dặn dò của Zettour với đại từ 'cô'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000322"
+    pov: "Tanya_first_person"
+    pronouns: "mình, ông ấy (Zettour), Bạn (ngôi thứ hai khái quát 'You see...')"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+      - "General Rudersdorf -> Tướng Rudersdorf"
+    choices:
+      - "Giữ thời tương lai trong quá khứ ('sẽ sớm phải hối hận') và tình thái phản tỉnh ('lẽ ra không đáng')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000323"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi - cô"
+    terms:
+      - "Colonel -> Trung tá"
+    choices:
+      - "Giữ cách gọi quân hàm 'Trung tá' (dịch từ cách gọi tắt 'Colonel' dành cho cấp bậc Trung tá của Tanya) và xưng hô 'tôi - cô'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000324"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "ngài"
+    choices:
+      - "Đổi 'thưa Tướng quân' thành 'thưa ngài' để thống nhất với p000330 và p000334."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000325"
+    pov: "Tanya_first_person"
+    pronouns: "mình"
+    emphasis:
+      - "*nghỉ phép*"
+    terms:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*nghỉ phép*' theo DEC-P01-002 và dấu gạch ngang dài nối sang p000327."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000326"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi - cô"
+    choices:
+      - "Giữ mức độ tình thái 'có thể tôi sẽ cần cô ám sát một người bạn thân của tôi trong tương lai gần'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000327"
+    pov: "Tanya_first_person"
+    pronouns: "mình"
+    emphasis:
+      - "*chuyện này*"
+    choices:
+      - "Giữ dấu gạch ngang mở đầu và nhấn mạnh Markdown '*chuyện này*' theo DEC-P01-002."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000328"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    choices:
+      - "Giữ phản ứng khựng lại giữa chừng '“Rõ… Hả?”'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000329"
+    pov: "Tanya_first_person"
+    pronouns: "Mình, sếp, Ông ấy (Zettour)"
+    choices:
+      - "Giữ hình ảnh ẩn dụ 'ngân nga giai điệu báo tử' và tình thái 'có lẽ mình phải đi khám lại tai thôi'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000330"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "ngài"
+    choices:
+      - "Giữ '“Thưa ngài?”'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000331"
+    pov: "Tanya_first_person"
+    pronouns: "Ông ấy - mình"
+    emphasis:
+      - "*Sao thế?*"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*Sao thế?*' theo DEC-P01-002 chỉ ánh mắt hỏi lại của Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000332"
+    pov: "Tanya_first_person"
+    pronouns: "mình"
+    choices:
+      - "Giữ tự xưng 'mình' và hình ảnh 'con quái vật'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000333"
+    pov: "Tanya_first_person"
+    pronouns: "mình"
+    choices:
+      - "Giữ phủ định 'không thể cho qua được' và 'không nghe nhầm'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000334"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài (và 'mình' trong mệnh đề phụ tự quy chiếu)"
+    choices:
+      - "Giữ lời hỏi xác nhận lịch sự nhưng thận trọng của Tanya."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000335"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi - cô"
+    choices:
+      - "Giữ nguyên lối diễn đạt lạnh lùng, trực diện ('sơn lên tường bằng những thứ bên trong hộp sọ của người bạn thân của tôi') và câu hỏi ngược ở cuối."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000336"
+    pov: "Tanya_first_person"
+    pronouns: "Ông ấy"
+    choices:
+      - "Giữ phủ định tuyệt đối 'Đúng nghĩa đen là chẳng có cách nào hiểu sai lời ông ấy được'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000337"
+    pov: "Tanya_first_person"
+    pronouns: "Ông ấy - mình"
+    terms:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+    choices:
+      - "Giữ câu hỏi nội tâm ở dạng văn bản thường không in nghiêng theo DEC-P01-002."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000338"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Tôi - ngài"
+    choices:
+      - "Giữ sắc thái trang trọng quân sự 'Tôi xin phép được biết ý định của ngài'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000339"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "cô"
+    choices:
+      - "Giữ câu hỏi thăm dò của Zettour với đại từ 'cô'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000340"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Tôi"
+    choices:
+      - "Giữ phủ định 'không thể sát hại một người mà không có lý do' và cặp khái niệm 'danh dự lẫn nghĩa vụ'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000341"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy"
+    emphasis:
+      - "*sĩ quan chỉ huy nghiêm túc*"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*sĩ quan chỉ huy nghiêm túc*' theo DEC-P01-002 và giả định điều kiện 'Nếu ông ấy thu hẹp khoảng cách này và nhượng bộ một nửa...'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000342"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Cô, người đàn ông đó (chỉ Rudersdorf)"
+    terms:
+      - "strategist -> nhà chiến lược"
+    choices:
+      - "Giữ nhận định 'từ đầu đến chân đều là một nhà chiến lược'."
