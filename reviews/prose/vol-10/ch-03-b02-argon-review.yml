@@ -1,0 +1,234 @@
+task_id: "vol-10-ch-03-b02-argon-review"
+parent_task_id: "vol-10-ch-03-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b02-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b02.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 3
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000023"
+    severity: "moderate"
+    issue: "Trong thoại quân sự, viên sĩ quan trực ban đang nói chuyện với Trung tá Tanya von Degurechaff nhưng bản dịch dùng đại từ ngôi thứ hai 'cô', vừa lệch chuẩn xưng hô quân ngũ vừa chạm giới hạn suy diễn quan hệ/giới tính trong thoại theo DEC-P01-001."
+    basis: "Đối chiếu quy ước DEC-P01-001, cấp bậc Trung tá của Tanya trong vol-10 và bối cảnh giao tiếp công vụ tại tổng hành dinh ở p000022-p000027."
+    recommendation: "Đổi 'cô' thành 'Trung tá' (ví dụ: '“Chà, Trung tá cũng biết tính vị tướng ấy thế nào rồi đấy.”')."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000024"
+    severity: "moderate"
+    issue: "Bản dịch dùng 'Tôi đã nghe kể tường tận' làm đổi nghĩa sang tiếp nhận thông tin gián tiếp qua lời kể của người khác, mâu thuẫn với mạch sự kiện của bộ truyện và ngay với p000029 (Tanya trực tiếp phục vụ dưới quyền Romel và bị ông quần tơi tả ở chiến trường miền nam)."
+    basis: "Đối chiếu nghĩa động từ nhận thức qua trải nghiệm trong nguồn tại p000024 với thông tin tự thuật trực tiếp ở p000029."
+    recommendation: "Sửa thành cách diễn đạt thể hiện sự hiểu rõ/thấm thía từ trải nghiệm thực tế (ví dụ: '“Tôi đã quá rõ thói quen bất chợt biến mất của ngài ấy hồi ở miền nam rồi.”' hoặc '“Hồi ở miền nam tôi đã hiểu quá rõ thói quen bất chợt biến mất của ngài ấy rồi.”')."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000031"
+    severity: "moderate"
+    issue: "Dùng đại từ phản thân 'mình' cho chủ thể ngôi thứ ba ('ông ta ghét cay ghét đắng bất cứ thứ gì mình cho là lãng phí') ngay sát câu dùng 'mình' cho ngôi thứ nhất của Tanya ('Theo phỏng đoán của mình') gây nhập nhằng chủ thể đánh giá sự lãng phí giữa Romel và Tanya."
+    basis: "Đối chiếu điểm nhìn độc thoại nội tâm ngôi thứ nhất ('mình') xuyên suốt batch và chủ thể mệnh đề phụ ở p000031."
+    recommendation: "Đổi 'mình cho là lãng phí' thành 'ông ta cho là lãng phí' hoặc 'bản thân ông ta cho là lãng phí'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000022"
+    severity: "minor"
+    issue: "Động từ 'gặng hỏi' hơi nặng sắc thái tra vấn so với hành động gợi chuyện/hỏi dò nhẹ nhàng vì hơi tò mò, và 'gật gù đồng tình' thêm chi tiết cử chỉ không nêu trực tiếp trong nguồn."
+    basis: "Đối chiếu sắc thái từ vựng ở p000022 và lời đáp tự nhiên của sĩ quan trực ban ở p000023."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ thành 'hỏi dò thêm' / 'khơi chuyện với' và 'đáp lại đầy đồng tình' khi sửa bản dịch hoặc ở bước chuốt văn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000040"
+    severity: "minor"
+    issue: "Đại từ ngôi thứ nhất số nhiều 'chúng mình' trong câu nói về việc Tanya và các đầu mối ở Bộ Tư lệnh Hạm đội gặp gỡ trao đổi thông tin nghe hơi thân mật so với giọng độc thoại quân sự của Tanya (vốn dùng 'chúng ta' ở p000028 hoặc 'chúng tôi')."
+    basis: "Đối chiếu giọng nhân vật Tanya và mục đại từ nội tâm trong pending-terms-index.yml."
+    recommendation: "Đề xuất đổi 'chúng mình' thành 'chúng ta' hoặc 'hai bên' để giữ đúng giọng văn quân sự."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000041"
+    severity: "minor"
+    issue: "Cụm 'chỉ để thị sát trong muôn vàn việc khác' bám sát chữ khá nặng nề so với cấu trúc cảm thán tỏ ý bất ngờ trước lý do đi thị sát."
+    basis: "Đối chiếu cấu trúc ngữ dụng ở câu đầu p000041."
+    recommendation: "Có thể diễn đạt tự nhiên hơn như 'lại đến tận đó để thị sát trong biết bao nhiêu việc' hoặc 'lại đến tận đó chỉ để thị sát cơ chứ' ở bước sửa/chuốt văn."
+pending_term_recommendations:
+  - source_term: "duty officer"
+    proposed_vi: "sĩ quan trực ban"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác chỉ sĩ quan làm nhiệm vụ trực tại cơ quan chỉ huy."
+    alternatives_vi:
+      - "sĩ quan trực nhật"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000022"
+  - source_term: "military branches / branches of the military"
+    proposed_vi: "các quân chủng"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phản ánh chính xác sự phân chia giữa hải quân, lục quân và không quân được liệt kê ngay sau đó."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000025"
+      - "YS-LN10/Text/chapter016.xhtml/p000032"
+      - "YS-LN10/Text/chapter016.xhtml/p000036"
+  - source_term: "General Romel / Romel / the general / lieutenant general for the Imperial Army"
+    proposed_vi: "Tướng Romel / Romel / vị tướng / trung tướng của Lục quân Đế quốc"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng trong vol-09 và vol-10 tại sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000023"
+      - "YS-LN10/Text/chapter016.xhtml/p000028"
+      - "YS-LN10/Text/chapter016.xhtml/p000036"
+      - "YS-LN10/Text/chapter016.xhtml/p000039"
+      - "YS-LN10/Text/chapter016.xhtml/p000045"
+      - "YS-LN10/Text/chapter016.xhtml/p000049"
+  - source_term: "maneuver campaign"
+    proposed_vi: "chiến dịch cơ động"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Nhất quán với hệ thuật ngữ 'maneuver warfare -> tác chiến cơ động' trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "chiến dịch vận động"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000030"
+  - source_term: "western front"
+    proposed_vi: "mặt trận phía tây"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Khớp phương án chuẩn hóa xuyên suốt vol-09 và vol-10 trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000035"
+  - source_term: "air superiority"
+    proposed_vi: "ưu thế trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'air superiority -> ưu thế trên không' đã có trong pending-terms-index.yml."
+    alternatives_vi:
+      - "quyền làm chủ trên không"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000035"
+  - source_term: "anti-aircraft artillery"
+    proposed_vi: "pháo phòng không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự tiếng Việt tiêu chuẩn, rõ nghĩa."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000036"
+  - source_term: "Imperial Army / Imperial Navy"
+    proposed_vi: "Lục quân Đế quốc / Hải quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với cách dịch đối xứng hai quân chủng của Đế quốc trong các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000036"
+      - "YS-LN10/Text/chapter016.xhtml/p000038"
+  - source_term: "Fleet Command"
+    proposed_vi: "Bộ Tư lệnh Hạm đội"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác cơ quan chỉ huy hạm đội hải quân trong ngữ cảnh liên lạc liên quân chủng."
+    alternatives_vi:
+      - "Bộ Chỉ huy Hạm đội"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000040"
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp với mục 'Plan B -> Kế hoạch B' đã ghi nhận ở vol-09 và vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000042"
+      - "YS-LN10/Text/chapter016.xhtml/p000045"
+  - source_term: "the Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    category: "quốc gia - thế lực"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm xuyên suốt từ vol-04 đến vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000048"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000022"
+    locks:
+      - "Khóa điểm nhìn ngôi thứ nhất của Tanya ('mình') và chức danh 'viên sĩ quan trực ban'; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000023"
+    locks:
+      - "Khóa cách xưng hô quân sự của sĩ quan trực ban với Tanya là 'Trung tá' (sau khi sửa khỏi 'cô') và cách quy chiếu Romel là 'vị tướng ấy'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000024"
+    locks:
+      - "Khóa đại từ thoại 'Tôi' của Tanya, quy chiếu 'ngài ấy' cho Romel, chi tiết 'ở miền nam', và nghĩa đã biết rõ/thấm thía qua thực tế (không dịch là nghe kể lại)."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000025"
+    locks:
+      - "Khóa quy chiếu 'Ngài ấy', thuật ngữ 'các quân chủng' và ba lực lượng 'các đơn vị hải quân, lục quân và không quân'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000026"
+    locks:
+      - "Khóa giọng xã giao lịch sự của Tanya trong thoại và đại từ 'Ngài ấy'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000027"
+    locks:
+      - "Khóa đại từ nội tâm/trần thuật ngôi thứ nhất 'Mình' và trình tự hành động cảm ơn viên sĩ quan trước khi lập tức quyết định bước tiếp theo."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000028"
+    locks:
+      - "Khóa danh xưng 'Tướng Romel', đại từ độc thoại 'Mình' - 'chúng ta' - 'ông ta', và hình ảnh so sánh 'đoàn tàu chở hàng mất phanh'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000029"
+    locks:
+      - "Khóa lối tự quy chiếu tách ngôi đặc trưng của nhân vật trong nội tâm: dùng đồng thời 'Mình' và tên riêng 'Tanya', cùng chi tiết bị Romel quần tơi tả ở miền nam."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000030"
+    locks:
+      - "Khóa thuật ngữ 'chiến dịch cơ động', đại từ 'Ông ta' - 'mình', và góc nhìn ví von bản thân là 'nhân viên tận tụy' đánh giá Romel là 'người lao động lý tưởng'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000031"
+    locks:
+      - "Khóa sự phân tách rõ đại từ giữa chủ thể Romel ('ông ta ghét cay ghét đắng bất cứ thứ gì ông ta cho là lãng phí') và điểm nhìn phỏng đoán của Tanya ('Theo phỏng đoán của mình')."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000032"
+    locks:
+      - "Khóa thuật ngữ 'các quân chủng', giả định trái thực tế 'dùng tử linh thuật để hồi sinh người chết rồi đưa họ ra trận nếu có thể', và phép so sánh với 'bức xạ ngắm bắn của địch'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000033"
+    locks:
+      - "Khóa hai đối tượng mà Romel tiếp cận gây nghi ngại là 'lục quân và hải quân'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000034"
+    locks:
+      - "Khóa câu tự vấn ngắn trong ngoặc kép của Tanya; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000035"
+    locks:
+      - "Khóa địa danh 'mặt trận phía tây' và nhấn mạnh Markdown theo DEC-P01-002 cho thuật ngữ '*ưu thế trên không*'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000036"
+    locks:
+      - "Khóa thuật ngữ 'pháo phòng không', 'các quân chủng khác', danh xưng 'Tướng Romel' và cấp bậc - tổ chức 'trung tướng của Lục quân Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000037"
+    locks:
+      - "Khóa câu hỏi nội tâm xoay quanh mục đích của Romel đối với 'hải quân'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000038"
+    locks:
+      - "Khóa cấu trúc phủ định bộ phận ('Không phải là... đặc biệt tồi tệ—thực tế là khá tốt'), tên hai quân chủng 'Lục quân Đế quốc và Hải quân Đế quốc', và cụm 'hạm đội hải quân đồn trú ở phía tây'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000039"
+    locks:
+      - "Khóa câu hỏi tu từ, nhấn mạnh Markdown theo DEC-P01-002 tại cụm '*cử người đi thay mình*' (hoặc '*cử người đi thay*'), và câu trả lời phủ định tuyệt đối ở cuối đoạn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000040"
+    locks:
+      - "Khóa lối tự quy chiếu 'Tanya', tên cơ quan 'Bộ Tư lệnh Hạm đội', và nhận định bản chất các cuộc gặp chỉ thuần túy mang tính xã giao."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000041"
+    locks:
+      - "Khóa phủ định toàn phần ('chẳng thể nghĩ ra nổi lấy một lý do nào'), cụm 'sĩ quan lục quân cấp cao', và suy luận tình thái 'Ắt hẳn phải có… một nguyên do sâu xa hơn'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000042"
+    locks:
+      - "Khóa thuật ngữ 'Kế hoạch B' (không in nghiêng ở đoạn này theo đúng nguồn) và câu hỏi nghi vấn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000043"
+    locks:
+      - "Khóa sự đối lập giữa việc giải thích được lý do gặp 'lục quân' với câu hỏi bỏ ngỏ về 'hải quân'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000044"
+    locks:
+      - "Khóa sự tương phản giữa năng lực trên biển và 'binh lực trên bộ' không mấy ấn tượng của hải quân."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000045"
+    locks:
+      - "Khóa thuật ngữ 'bộ binh', 'thủ đô', nhấn mạnh Markdown theo DEC-P01-002 cho '*Kế hoạch B*', lối tự quy chiếu 'Tanya' đặt song hành với 'Tướng Romel' như những quân tốt chính trị, và câu hỏi cuối đoạn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000046"
+    locks:
+      - "Khóa điểm nhìn nội tâm 'mình' tự điều chỉnh mạch suy nghĩ quay lại phương diện quân sự."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000047"
+    locks:
+      - "Khóa giả định nhượng bộ ('cứ cho là ông ta đi vắng vì công vụ chính đáng') và câu hỏi trọng tâm lặp lại về 'hải quân'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000048"
+    locks:
+      - "Khóa cụm 'kế hoạch đánh phá tuyến giao thương của địch', 'tàu ngầm', tên thế lực 'Khối Thịnh vượng chung ở phía tây', và cách gọi Romel là 'vị chỉ huy của mình'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000049"
+    locks:
+      - "Khóa quan hệ nhượng bộ - bác bỏ: thừa nhận khả năng đó có thể xảy ra nhưng chưa phải lý do đủ sức thuyết phục để 'Tướng Romel' đích thân đi."
