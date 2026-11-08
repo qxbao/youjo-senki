@@ -1,0 +1,203 @@
+task_id: "vol-10-ch-03-b06-argon-review"
+parent_task_id: "vol-10-ch-03-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b06-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b06.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b06-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000068"
+    severity: "minor"
+    issue: "Trong câu thứ hai, cụm 'Các quốc gia đặt lợi ích quốc gia tối thượng của mình' lặp từ 'quốc gia' sát nhau và dùng từ 'mình' làm sở hữu cách ngôi thứ ba số nhiều, dễ trùng bề mặt với đại từ độc thoại nội tâm 'mình' của Tanya ở các đoạn lân cận."
+    basis: "Đối chiếu quy ước đại từ nội tâm trong DEC-P01-001 và nhịp văn nghị luận nội tâm tại p000068."
+    recommendation: "Ở bước chuốt văn có thể lược từ 'của mình' hoặc tinh chỉnh nhẹ thành 'Các nước đặt lợi ích quốc gia tối thượng vào việc giành chiến thắng trong những trận đánh này'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000075"
+    severity: "minor"
+    issue: "Trong lời thoại của Tanya với Tướng Romel, câu thứ hai mở đầu bằng 'Tôi nghĩ' nhưng cuối câu lại dùng 'ngấm vào người mình mất rồi ạ', tạo sự pha trộn nhẹ giữa đại từ thoại ('tôi') và đại từ phản thân thân mật ('mình')."
+    basis: "Đối chiếu hệ đại từ xưng hô trong thoại cấp dưới – cấp trên giữa Tanya và Tướng Romel xuyên suốt ch-03."
+    recommendation: "Ở bước chuốt văn có thể cân nhắc chỉnh thành 'ngấm vào người tôi mất rồi ạ' hoặc 'bắt đầu làm tôi bị lây mất rồi ạ' để giữ thuần nhất ngôi xưng 'tôi' trong thoại."
+pending_term_recommendations:
+  - source_term: "General Romel / Colonel / sir"
+    proposed_vi: "Tướng Romel / Trung tá / thưa Tướng quân (ngài)"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với phương án đã khóa ở các batch trước của vol-10 (ch-03-b02 đến ch-03-b05) và sổ pending-terms-index.yml, bao gồm cách gọi tắt 'Colonel' dành cho Trung tá Tanya là 'Trung tá'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000064"
+      - "YS-LN10/Text/chapter018.xhtml/p000069"
+      - "YS-LN10/Text/chapter018.xhtml/p000070"
+      - "YS-LN10/Text/chapter018.xhtml/p000071"
+      - "YS-LN10/Text/chapter018.xhtml/p000078"
+      - "YS-LN10/Text/chapter018.xhtml/p000080"
+      - "YS-LN10/Text/chapter018.xhtml/p000086"
+      - "YS-LN10/Text/chapter018.xhtml/p000088"
+  - source_term: "southern front / eastern and western fronts"
+    proposed_vi: "mặt trận phía nam / hai mặt trận phía đông và phía tây"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với hệ thống tên gọi các mặt trận theo phương hướng trong toàn bộ vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000066"
+      - "YS-LN10/Text/chapter018.xhtml/p000067"
+      - "YS-LN10/Text/chapter018.xhtml/p000071"
+  - source_term: "raison d’état"
+    proposed_vi: "lợi ích quốc gia tối thượng"
+    category: "thuật ngữ chính trị - ngoại giao"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác khái niệm lý do tồn tại/lợi ích tối cao của nhà nước trong văn cảnh chiến tranh quyết định vận mệnh đất nước."
+    alternatives_vi:
+      - "lý lẽ quốc gia"
+      - "đại cục quốc gia"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000068"
+  - source_term: "line officer"
+    proposed_vi: "sĩ quan tác chiến"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Làm rõ sự đối lập trực tiếp giữa sĩ quan chỉ huy chiến đấu ngoài chiến trường với giới quan chức hành chính và Văn phòng Bộ Tổng tham mưu tại p000076."
+    alternatives_vi:
+      - "sĩ quan chiến đấu"
+      - "sĩ quan chỉ huy trực tiếp"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000076"
+  - source_term: "General Staff Office / Imperial Army staff officer / General Staff officers / bureaucrats"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / sĩ quan tham mưu của Lục quân Đế quốc / sĩ quan Bộ Tổng tham mưu / giới quan chức hành chính (đám quan chức hành chính)"
+    category: "cơ quan - chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thuật ngữ đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000074"
+      - "YS-LN10/Text/chapter018.xhtml/p000076"
+      - "YS-LN10/Text/chapter018.xhtml/p000079"
+      - "YS-LN10/Text/chapter018.xhtml/p000086"
+      - "YS-LN10/Text/chapter018.xhtml/p000087"
+  - source_term: "Parkinson’s bitter law"
+    proposed_vi: "định luật cay đắng của Parkinson"
+    category: "thuật ngữ hành chính - quản trị"
+    status: "pending"
+    rationale: "Dịch sát nghĩa định luật Parkinson nổi tiếng về sự phình to của bộ máy quan liêu tự đẻ thêm việc trong liên tưởng của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000079"
+  - source_term: "fog city"
+    proposed_vi: "thành phố sương mù"
+    category: "địa danh ẩn dụ"
+    status: "pending"
+    rationale: "Giữ đúng cách gọi biệt danh chỉ thủ đô của Khối Thịnh vượng chung theo mặt chữ gốc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000081"
+  - source_term: "White Silver / the Empire / imperial soldier"
+    proposed_vi: "Bạch Ngân / Đế quốc / người lính Đế quốc"
+    category: "danh hiệu - định danh"
+    status: "pending"
+    rationale: "Nhất quán với các lựa chọn đã khóa trong pending-terms-index.yml và các batch trước của ch-03."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000084"
+  - source_term: "aerial combat / anti–air defenses"
+    proposed_vi: "không chiến / hệ thống phòng không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Chuẩn xác về thuật ngữ tác chiến phòng không và không chiến trong phân tích chuyên môn của Tanya."
+    alternatives_vi:
+      - "tác chiến trên không / lưới lửa phòng không"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000090"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000064"
+    locks:
+      - "Khóa cặp đại từ thoại của Romel 'ta' - 'cô', hô ngữ 'Trung tá', danh xưng 'vị tướng ấy' (chỉ Zettour), và thành ngữ 'tung hoành thỏa sức'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000065"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', địa danh phương hướng 'miền đông', và nhận định nơi hội tụ mọi điều tồi tệ nhất khi nói về các chiến trường."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000066"
+    locks:
+      - "Khóa cụm 'mặt trận phía nam' và sự tương phản giữa 'sự chênh lệch nhiệt độ gay gắt' với 'một chiến trường tương đối dễ thở'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000067"
+    locks:
+      - "Khóa cụm 'Mặt trận phía nam', nhận định thắng thua ở miền nam không được xem là quá quan trọng để định đoạt kết cục cuộc chiến, và hệ quả tạo nên 'một mức độ lịch thiệp qua lại giữa đôi bên'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000068"
+    locks:
+      - "Khóa thuật ngữ 'lợi ích quốc gia tối thượng' và mệnh đề nhượng bộ 'bất kể phải trả giá đắt đến đâu'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000069"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*Vậy thì…*' theo đúng DEC-P01-002 và danh xưng 'Tướng Romel'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000070"
+    locks:
+      - "Khóa hô ngữ 'Trung tá', cặp đại từ 'ta' - 'cô', và tên riêng 'Liên bang'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000071"
+    locks:
+      - "Khóa hô ngữ 'Thưa Tướng quân', cụm 'hai mặt trận phía đông và phía tây', và cụm rào đón 'Với tất cả sự kính trọng…'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000072"
+    locks:
+      - "Khóa lời ngắt 'Khoan đã' và đại từ trần thuật 'ông ta'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000073"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình', đại từ 'ông ta', và chi tiết dừng phản đối khi nhận ra giọng điệu phật ý."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000074"
+    locks:
+      - "Khóa cặp đại từ 'Ta' - 'cô', cụm trích dẫn lại 'với tất cả sự kính trọng', và cách gọi 'đám quan chức hành chính'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000075"
+    locks:
+      - "Khóa đại từ thoại 'tôi' (kèm 'ạ'), từ 'thủ đô', và cụm 'thủ tục hành chính rườm rà'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000076"
+    locks:
+      - "Khóa đại từ 'cô', thuật ngữ 'sĩ quan tác chiến', 'Văn phòng Bộ Tổng tham mưu', và 'giới quan chức hành chính'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000077"
+    locks:
+      - "Khóa tiếng cười 'Ha-ha-ha.'"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000078"
+    locks:
+      - "Khóa danh xưng 'Tướng Romel', đại từ 'ông ta' - 'mình', và chi tiết nét mặt méo xệch đi."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000079"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' / 'mình', cụm 'Sự thái quá của tệ quan liêu', 'định luật cay đắng của Parkinson', và 'đám quan chức hành chính'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000080"
+    locks:
+      - "Khóa hô ngữ 'Trung tá', cặp đại từ 'ta' - 'cô', và mục tiêu 'trực tiếp uy hiếp thủ đô của chúng'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000081"
+    locks:
+      - "Khóa cặp đại từ 'Ngài' - 'tôi' (kèm 'sao ạ?') và cụm ẩn dụ 'thành phố sương mù'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000082"
+    locks:
+      - "Khóa cặp đại từ 'Cô' - 'ta' / 'chúng ta' và mốc thời gian 'kể từ thời chúng ta còn ở miền nam'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000083"
+    locks:
+      - "Khóa cặp đại từ 'ngài' - 'tôi' (kèm 'ạ') và lối nói mỉa khéo xin mượn từ điển để trau dồi vốn từ vựng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000084"
+    locks:
+      - "Khóa danh hiệu 'Bạch Ngân', cụm 'Đế quốc', 'người lính Đế quốc', đại từ 'cô' / 'chúng ta', và yêu cầu nói thẳng suy nghĩ bằng chính lời lẽ của mình."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000085"
+    locks:
+      - "Khóa đại từ 'Ông ta' và nhận định nội tâm 'Chắc chắn đây là cố tình rồi. Ông ta đang giả ngơ đây mà.'"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000086"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', danh xưng 'Tướng Romel', và cụm chức danh 'sĩ quan tham mưu của Lục quân Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000087"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và cụm 'đám sĩ quan Bộ Tổng tham mưu sau cùng lại leo lên làm tướng'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000088"
+    locks:
+      - "Khóa cặp đại từ 'ta' - 'cô', hô ngữ 'Trung tá', và hai câu hỏi gặng về cách 'củng cố miền tây' hay kế hoạch tốt hơn."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000089"
+    locks:
+      - "Khóa lối tách điểm nhìn tự quy chiếu ngôi thứ ba ('Tanya', 'cô') song hành với đại từ nội tâm ngôi thứ nhất ('Mình', 'mình') theo DEC-P01-001, cùng hành động 'lịch sự bắt đầu bóc tách triệt để giả định của cấp trên'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000090"
+    locks:
+      - "Khóa đại từ thoại 'Tôi' / 'chúng ta', thuật ngữ 'không chiến', 'bài toán hiệu suất', và 'hệ thống phòng không'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000091"
+    locks:
+      - "Khóa điều kiện giả định trái thực tế 'nếu chúng ta có đủ nguồn lực cho việc ấy', cặp đại từ 'ta' - 'cô', và câu hỏi chất vấn về việc ở 'phe thua cuộc'."
