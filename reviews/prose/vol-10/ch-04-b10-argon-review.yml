@@ -1,0 +1,227 @@
+task_id: "vol-10-ch-04-b10-argon-review"
+parent_task_id: "vol-10-ch-04-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b10-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b10.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b10-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000158"
+    severity: "minor"
+    issue: "Cụm chỉ thời gian ở cuối câu được dịch thành 'chỉ mới vài giây trước đó' hơi thu hẹp khoảng thời gian thực tế của cuộc đối thoại (từ lúc Tanya nói ở lô trước đến thời điểm hiện tại đã qua vài lượt lời và cử chỉ hút xì gà)."
+    basis: "Đối chiếu ngữ cảnh mạch hội thoại của chương và nguyên tắc không tự thu hẹp sắc thái trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'chỉ vừa mới trước đó' hoặc 'chỉ mới chốc lát trước đó' để tự nhiên và khớp mạch thời gian hơn; không sai lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Colonel Lergen / Colonel / the colonel"
+    proposed_vi: "Đại tá Lergen / Thưa Đại tá / vị đại tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Đại tá và cách xưng hô/quy chiếu dành cho Lergen trong tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000128"
+      - "YS-LN10/Text/chapter022.xhtml/p000134"
+      - "YS-LN10/Text/chapter022.xhtml/p000135"
+      - "YS-LN10/Text/chapter022.xhtml/p000137"
+      - "YS-LN10/Text/chapter022.xhtml/p000143"
+      - "YS-LN10/Text/chapter022.xhtml/p000146"
+      - "YS-LN10/Text/chapter022.xhtml/p000147"
+      - "YS-LN10/Text/chapter022.xhtml/p000149"
+      - "YS-LN10/Text/chapter022.xhtml/p000158"
+  - source_term: "Counselor Conrad / the counselor / Counselor / counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán / thưa Tham tán / tham tán"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất chức danh ngoại giao và cách gọi Conrad theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000129"
+      - "YS-LN10/Text/chapter022.xhtml/p000131"
+      - "YS-LN10/Text/chapter022.xhtml/p000134"
+      - "YS-LN10/Text/chapter022.xhtml/p000136"
+      - "YS-LN10/Text/chapter022.xhtml/p000137"
+      - "YS-LN10/Text/chapter022.xhtml/p000138"
+      - "YS-LN10/Text/chapter022.xhtml/p000140"
+      - "YS-LN10/Text/chapter022.xhtml/p000153"
+      - "YS-LN10/Text/chapter022.xhtml/p000157"
+      - "YS-LN10/Text/chapter022.xhtml/p000158"
+      - "YS-LN10/Text/chapter022.xhtml/p000161"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "thuật ngữ tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã khóa xuyên suốt tập 10 trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000129"
+      - "YS-LN10/Text/chapter022.xhtml/p000159"
+  - source_term: "the army / the military"
+    proposed_vi: "bên lục quân / bên quân đội / quân đội"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ 'the army' (lục quân) và 'the military' (quân đội nói chung) theo đúng quy ước đã khóa ở các lô trước của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000132"
+      - "YS-LN10/Text/chapter022.xhtml/p000138"
+  - source_term: "reconciliation"
+    proposed_vi: "giảng hòa"
+    category: "thuật ngữ ngoại giao - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với thuật ngữ đã khóa ở lô ch-04-b09 trong cùng cuộc thảo luận giữa Conrad, Lergen và Tanya."
+    alternatives_vi:
+      - "hòa giải"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000132"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "thuật ngữ quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch tên quốc gia trong toàn bộ tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000132"
+  - source_term: "Supreme High Command"
+    proposed_vi: "Bộ Tư lệnh Tối cao"
+    category: "thuật ngữ tổ chức quân sự - chính trị"
+    status: "pending"
+    rationale: "Phù hợp với cơ quan hoạch định tối cao gồm cả quân sự lẫn ngoại giao được nhắc tới trong đoạn và khớp với phương án đã dùng cho Supreme Command trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Chỉ huy Tối cao"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000137"
+      - "YS-LN10/Text/chapter022.xhtml/p000159"
+  - source_term: "need-to-know basis"
+    proposed_vi: "nguyên tắc chỉ-biết-khi-cần"
+    category: "thuật ngữ bảo mật - quân sự"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa cơ chế phân quyền tiếp cận thông tin mật theo nhu cầu nhiệm vụ."
+    alternatives_vi:
+      - "nguyên tắc cần-mới-biết"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000138"
+  - source_term: "magic lieutenant colonel / Lieutenant Colonel"
+    proposed_vi: "trung tá pháp sư / Trung tá"
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa trong pending-terms-index.yml của tập 10 khi quy chiếu và xưng hô với Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000141"
+      - "YS-LN10/Text/chapter022.xhtml/p000151"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000127"
+    locks:
+      - "Khóa lời đáp lịch thiệp của Tanya cảm ơn lời đề nghị hào phóng từ Tham tán Conrad."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000128"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba với tên 'Tanya' cúi đầu cảm ơn chân thành và 'Đại tá Lergen' xen vào với vẻ mặt khó chịu ('như vừa nuốt phải một con bọ xít')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000129"
+    locks:
+      - "Khóa lời thoại của Lergen với cách gọi 'Thưa Tham tán', đại từ 'ông', hành động 'lôi kéo nhân sự' và tên tổ chức 'Văn phòng Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000130"
+    locks:
+      - "Khóa lời đáp của Conrad với câu hỏi tu từ ('Ông thấy việc cả hai chúng ta đều mong muốn cùng một thứ là lạ lắm sao?') và đại từ 'Ông' - 'cả hai chúng ta'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000131"
+    locks:
+      - "Khóa câu trần thuật mô tả sự nhượng bộ bằng nụ cười thoải mái của 'Tham tán Conrad'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000132"
+    locks:
+      - "Khóa lời thoại chuyển hướng về chủ đề chính của Conrad, giữ thuật ngữ 'điều kiện giảng hòa', 'bên lục quân', 'Đế quốc' và đại từ 'Các ông'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000133"
+    locks:
+      - "Khóa câu trả lời phủ định ngắn gọn của Lergen với đại từ ngôi thứ nhất số nhiều ('Chúng tôi không biết')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000134"
+    locks:
+      - "Khóa câu trần thuật với 'Đại tá Lergen', 'Tham tán Conrad' và đại từ 'Ông ta' (Conrad) nhíu mày ngậm chặt điếu xì gà thể hiện sự bất mãn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000135"
+    locks:
+      - "Khóa câu mệnh lệnh phủ định của Conrad ('Đừng đùa nữa, thưa Đại tá')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000136"
+    locks:
+      - "Khóa lời khẳng định phủ định của Lergen ('Tin tôi đi, thưa Tham tán—đây không phải chuyện đùa đâu')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000137"
+    locks:
+      - "Khóa lời thoại của Conrad với cách gọi 'Đại tá Lergen', xưng hô 'tôi' - 'ông', chức danh 'tham tán', tổ chức 'Bộ Tư lệnh Tối cao' và thẩm quyền tiếp cận bí mật quân sự."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000138"
+    locks:
+      - "Khóa điểm nhìn nội tâm ngôi thứ nhất với đại từ tự quy chiếu 'mình' theo DEC-P01-001, đại từ 'Ông ta' / 'vị tham tán' (Conrad), 'bên quân đội' / 'quân đội' và thuật ngữ 'nguyên tắc chỉ-biết-khi-cần nghiêm ngặt'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000139"
+    locks:
+      - "Khóa câu trần thuật nội tâm với đại từ tự quy chiếu 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000140"
+    locks:
+      - "Khóa độc thoại nội tâm với đại từ 'mình' theo DEC-P01-001, cấu trúc phủ định đối lập ('không phải là vị tham tán—mà là *mình*') và hai vị trí nhấn mạnh Markdown '*đó*', '*mình*' theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000141"
+    locks:
+      - "Khóa độc thoại nội tâm với đại từ 'mình', cụm 'thành viên của bộ tham mưu', cấp bậc 'trung tá pháp sư' và tình thái phỏng đoán ('Có lẽ')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000142"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ nhất với đại từ 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000143"
+    locks:
+      - "Khóa lời thoại xin phép rời cuộc họp của Tanya với cách gọi 'Thưa Đại tá', đại từ 'tôi', phủ định thẩm quyền ('không đủ thẩm quyền') và câu hỏi xin phép ở cuối đoạn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000144"
+    locks:
+      - "Khóa độc thoại nội tâm với đại từ 'Mình' / 'mình', cách gọi 'sếp' (Lergen), thuật ngữ 'tiền tuyến' và tình thái suy đoán ('ắt hẳn')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000145"
+    locks:
+      - "Khóa câu tự nhận xét nội tâm với tình thái 'Có lẽ' và đại từ 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000146"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ nhất ('Mình'), danh xưng 'vị đại tá' và câu thoại ngăn cản của Lergen ('Không, cô cứ ngồi nguyên tại chỗ đi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000147"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ nhất với tên 'Đại tá Lergen' và đại từ 'mình'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000148"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ nhất với đại từ 'mình' và 'ông ấy' (chỉ cấp trên Lergen)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000149"
+    locks:
+      - "Khóa sự tách biệt điểm nhìn đặc trưng trong cùng một đoạn giữa chủ thể suy nghĩ ngôi thứ nhất ('Mình' theo DEC-P01-001) và nhân vật ngôi thứ ba ('Tanya', 'cô'), cùng phủ định kép về việc 'Đại tá Lergen' ('ông ấy') không mạo hiểm chia sẻ thông tin."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000150"
+    locks:
+      - "Khóa câu hỏi nội tâm in nghiêng '*Chuyện gì đang diễn ra thế này?*' theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000151"
+    locks:
+      - "Khóa lời thoại của Lergen gọi Tanya là 'Trung tá', đại từ 'cô', tình thái 'có lẽ' và phủ định ('sẽ không muốn biết đâu')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000152"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ nhất với đại từ 'Mình', 'ông ấy' (Lergen) và hai cấu trúc phủ định ('chẳng mảy may hiểu', 'hầu như không còn lựa chọn nào khác')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000153"
+    locks:
+      - "Khóa lời thoại của Lergen với cách gọi 'Thưa Tham tán', xưng hô 'tôi' - 'ông', phủ định nhấn mạnh ('hoàn toàn không phải là bí mật'), quan hệ nhân quả ('Do đó') và so sánh mức độ ('còn nghiêm trọng hơn thế rất nhiều')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000154"
+    locks:
+      - "Khóa câu nhận xét nội tâm ngắn mang sắc thái phủ định dự cảm ('chắc chắn là chẳng lành chút nào rồi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000155"
+    locks:
+      - "Khóa trần thuật nội tâm ngôi thứ nhất với đại từ 'Mình' / 'mình' và tình thái đối lập giữa ý muốn rời đi ('gần như muốn rời khỏi đây') với nhận thức trách nhiệm ('có lẽ đây là chuyện mà mình nên nghe')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000156"
+    locks:
+      - "Khóa câu thoại ngắn nhắc nhở thận trọng lắng nghe của Lergen."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000157"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ nhất với tên 'Tham tán Conrad' và đại từ 'mình' chỉnh lại tư thế ngồi."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000158"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba mang tính báo trước về lời sắp nói của 'Đại tá Lergen' ('ông') so sánh với 'quả bom' mà 'Tanya' vừa thả xuống trước mặt 'vị tham tán'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000159"
+    locks:
+      - "Khóa lời thoại của Lergen với cấu trúc rào đón phủ định ('Sẽ chẳng phải là nói quá chút nào nếu bảo rằng, xét theo một nghĩa nhất định') và ba chủ thể 'Văn phòng Bộ Tổng tham mưu', 'Bộ Tư lệnh Tối cao', 'chính phủ' có chung một quan điểm."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000160"
+    locks:
+      - "Khóa lời đáp của Conrad với cụm 'Lời rào đón', điều kiện giả định ('Nếu chuyện đó đã là điều ai cũng biết như vậy') và thắc mắc phủ định của phía ngoại giao ('tại sao đến giờ chúng tôi vẫn chưa biết gì về nó')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000161"
+    locks:
+      - "Khóa lời khẳng định đảo ngược của Lergen với cách gọi 'Thưa Tham tán' và nhịp nhấn mạnh lặp lại ('ngược lại mới đúng. Hoàn toàn và tuyệt đối ngược lại mới đúng')."
