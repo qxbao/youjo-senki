@@ -1,0 +1,306 @@
+task_id: "vol-10-ch-03-b11-argon-review"
+parent_task_id: "vol-10-ch-03-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b11-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b11.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b11-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000225"
+    severity: "minor"
+    issue: "Cụm 'sự đồng cảnh ngộ ngoài ý muốn' diễn giải hơi cụ thể nét nghĩa cảm giác thân thuộc/gần gũi bất chợt của danh từ gốc khi Drake liên tưởng bản thân với que diêm đang cháy dần."
+    basis: "Quy tắc giữ đúng mức độ cụ thể và không tự thêm giải thích trong canon/style-guide.md tại p000225."
+    recommendation: "Ở bước chuốt văn có thể cân nhắc chỉnh thành 'một cảm giác gần gũi ngoài ý muốn' hoặc 'một sự đồng cảm ngoài ý muốn' nếu muốn sát sắc thái bề mặt hơn."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000236"
+    severity: "minor"
+    issue: "Cụm tính từ ghép 'méo mó dị dạng' hơi nặng hơn sắc thái mô tả hình thái chiến tuyến bị biến dạng, mất cân đối trong nguyên văn."
+    basis: "Quy tắc giữ đúng sắc thái đánh giá của bản gốc trong canon/style-guide.md tại p000236."
+    recommendation: "Ở bước chuốt văn có thể tiết chế thành 'tuyến đầu méo mó ấy' hoặc 'tuyến đầu mất cân đối ấy'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000248"
+    severity: "minor"
+    issue: "Câu thoại bị ngắt lửng ở cụm tính từ trong nguyên văn được dịch thành danh ngữ 'một con nhãi xấc xược…', làm rõ sớm giới tính nữ của đối phương hơn cách gọi trung tính xuyên suốt các câu lân cận."
+    basis: "Quy tắc giữ độ mở và giới hạn suy luận trong canon/style-guide.md và DEC-P01-001 tại p000248."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'đó là một đứa nhóc xấc xược…' hoặc 'đó là một con quỷ nhỏ xấc xược…' để giữ sắc thái trung tính đồng bộ với mạch thoại."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000257"
+    severity: "minor"
+    issue: "Động từ 'nung nấu điều gì đó trong đầu' mang sắc thái ấp ủ ý đồ mạnh hơn cách diễn đạt trung tính chỉ việc đang bận tâm suy nghĩ điều gì đó của nguyên văn."
+    basis: "Quy tắc giữ đúng sắc thái và mức độ chắc chắn của bản gốc trong canon/style-guide.md tại p000257."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'ông đang bận tâm suy nghĩ điều gì đó' hoặc 'trong đầu ông đang có điều gì đó trăn trở'."
+pending_term_recommendations:
+  - source_term: "the Federation / Communists / Communism / nationalism"
+    proposed_vi: "Liên bang / những người Cộng sản / Chủ nghĩa Cộng sản / chủ nghĩa dân tộc"
+    category: "chính trị - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với các phương án đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000220"
+      - "YS-LN10/Text/chapter018.xhtml/p000222"
+  - source_term: "Intelligence branch of the Commonwealth Army"
+    proposed_vi: "nhánh Tình báo của Lục quân Khối Thịnh vượng chung"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với 'nhánh Tình báo' và 'Khối Thịnh vượng chung' trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000222"
+  - source_term: "Lieutenant Colonel Drake / Drake / Colonel"
+    proposed_vi: "Trung tá Drake / Drake / Trung tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ nhất quán tuyệt đối cấp bậc và danh xưng của Trung tá Drake xuyên suốt vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000221"
+      - "YS-LN10/Text/chapter018.xhtml/p000223"
+      - "YS-LN10/Text/chapter018.xhtml/p000225"
+      - "YS-LN10/Text/chapter018.xhtml/p000226"
+      - "YS-LN10/Text/chapter018.xhtml/p000229"
+      - "YS-LN10/Text/chapter018.xhtml/p000231"
+      - "YS-LN10/Text/chapter018.xhtml/p000233"
+      - "YS-LN10/Text/chapter018.xhtml/p000240"
+      - "YS-LN10/Text/chapter018.xhtml/p000244"
+      - "YS-LN10/Text/chapter018.xhtml/p000250"
+      - "YS-LN10/Text/chapter018.xhtml/p000252"
+      - "YS-LN10/Text/chapter018.xhtml/p000256"
+      - "YS-LN10/Text/chapter018.xhtml/p000257"
+      - "YS-LN10/Text/chapter018.xhtml/p000259"
+  - source_term: "General Habergram / General / the general"
+    proposed_vi: "Tướng Habergram / thưa Tướng quân / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Thống nhất với danh xưng và cách xưng hô dành cho Tướng Habergram trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000230"
+      - "YS-LN10/Text/chapter018.xhtml/p000235"
+      - "YS-LN10/Text/chapter018.xhtml/p000250"
+      - "YS-LN10/Text/chapter018.xhtml/p000257"
+  - source_term: "First Lieutenant Sue"
+    proposed_vi: "Trung úy Sue"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc 'Trung úy Sue' của Mary Sue trong vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000230"
+  - source_term: "multinational unit"
+    proposed_vi: "đơn vị đa quốc gia"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'đơn vị đa quốc gia' đã ghi nhận trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000234"
+  - source_term: "Imperial Army’s senior mages"
+    proposed_vi: "các pháp sư kỳ cựu của Lục quân Đế quốc"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Kết hợp chuẩn xác tên gọi 'Lục quân Đế quốc' với cách dịch tự nhiên cho các pháp sư dày dạn kinh nghiệm."
+    alternatives_vi:
+      - "các pháp sư thâm niên của Lục quân Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000238"
+  - source_term: "Devil of the Rhine / the devil"
+    proposed_vi: "Ác quỷ sông Rhine / con ác quỷ đó"
+    category: "biệt danh"
+    status: "pending"
+    rationale: "Khớp chính xác với mục đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000243"
+      - "YS-LN10/Text/chapter018.xhtml/p000246"
+      - "YS-LN10/Text/chapter018.xhtml/p000247"
+      - "YS-LN10/Text/chapter018.xhtml/p000249"
+      - "YS-LN10/Text/chapter018.xhtml/p000251"
+      - "YS-LN10/Text/chapter018.xhtml/p000253"
+  - source_term: "Named mage / the Named"
+    proposed_vi: "Pháp sư Định danh / tên Pháp sư Định danh đó"
+    category: "thuật ngữ ma pháp quân sự"
+    status: "pending"
+    rationale: "Thống nhất với thuật ngữ 'Pháp sư Định danh' trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000246"
+      - "YS-LN10/Text/chapter018.xhtml/p000249"
+      - "YS-LN10/Text/chapter018.xhtml/p000254"
+  - source_term: "Rusted Silver"
+    proposed_vi: "Bạch Ngân Rỉ Sét"
+    category: "biệt danh"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với biệt danh 'Bạch Ngân Rỉ Sét' đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000246"
+  - source_term: "decapitation strikes / decapitation specialist"
+    proposed_vi: "các đòn tập kích chặt đầu chỉ huy / kẻ chuyên tung đòn chặt đầu chỉ huy"
+    category: "thuật ngữ chiến thuật"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'các đòn tập kích chặt đầu chỉ huy' trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000249"
+      - "YS-LN10/Text/chapter018.xhtml/p000256"
+  - source_term: "visual confirmation / mana reading"
+    proposed_vi: "xác nhận bằng mắt thường / chỉ số ma năng"
+    category: "thuật ngữ tác chiến ma pháp"
+    status: "pending"
+    rationale: "Giữ thống nhất cụm 'xác nhận bằng mắt thường' trong sổ pending-terms-index.yml và diễn đạt rõ nghĩa thông số đo ma năng/ma lực."
+    alternatives_vi:
+      - "xác nhận bằng mắt thường / chỉ số ma lực"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000251"
+  - source_term: "enchanted blade / optical sniping formula / explosive one"
+    proposed_vi: "lưỡi kiếm ma pháp / thuật thức bắn tỉa quang học / thuật thức phát nổ"
+    category: "thuật ngữ ma pháp"
+    status: "pending"
+    rationale: "Khớp với hệ thống thuật ngữ ma pháp chiến đấu đã ghi nhận trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000253"
+  - source_term: "magical therapy"
+    proposed_vi: "trị liệu ma pháp"
+    category: "thuật ngữ quân y ma pháp"
+    status: "pending"
+    rationale: "Cách dịch trực tiếp, chuẩn xác cho phương pháp điều trị y tế bằng ma pháp."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000255"
+  - source_term: "the homeland"
+    proposed_vi: "bản thổ"
+    category: "địa chính trị"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'bản thổ' khi chỉ lãnh thổ chính quốc của Khối Thịnh vượng chung trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000259"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000220"
+    locks:
+      - "Khóa tương quan thứ tự ưu tiên 'là người của Liên bang trước khi là những người Cộng sản', cấu trúc đối lập 'Động lực thúc đẩy họ là chủ nghĩa dân tộc chứ không phải Chủ nghĩa Cộng sản', và đại từ 'Tôi' - 'chúng ta' - 'họ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000221"
+    locks:
+      - "Khóa tên riêng 'Drake', đại từ 'mình' - 'Anh', và mức độ khả năng 'hoàn toàn có thể đặt dấu chấm hết cho sự nghiệp của mình'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000222"
+    locks:
+      - "Khóa tên cơ quan 'nhánh Tình báo của Lục quân Khối Thịnh vượng chung', thuật ngữ 'Chủ nghĩa Cộng sản', và lập luận về việc nhắc tới hệ tư tưởng này cũng đủ hủy hoại tương lai sĩ quan."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000223"
+    locks:
+      - "Khóa quan hệ nhượng bộ 'Bất chấp điều đó, Drake vẫn giữ vững lập trường'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000224"
+    locks:
+      - "Khóa sự tương phản giữa thái độ khẳng định 'Tôi ghét chế độ của họ' và câu hỏi nội tâm gián tiếp mở 'tôi tự hỏi liệu chúng ta có nên ghét cả con người họ hay không'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000225"
+    locks:
+      - "Khóa phủ định 'Không đáp lời', đại từ 'ông' (chỉ cấp trên) và danh xưng 'Trung tá Drake', cùng sự tương phản giữa nét hung bạo và lời tuyên bố muốn làm một ông già hiền hậu."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000226"
+    locks:
+      - "Khóa tư thế 'Đứng nghiêm', tên riêng 'Drake', và nhận định về sự im lặng ngột ngạt."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000227"
+    locks:
+      - "Khóa điểm nhìn của Drake ('Anh'), trạng thái không còn bận tâm đến kết cục cuối cùng, và hình ảnh so sánh như một bị cáo sắp nghe tuyên án cuối cùng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000228"
+    locks:
+      - "Khóa liên từ đối lập 'Ngược lại', đại từ sở hữu 'cấp trên của anh', và chuỗi hành động hút xì gà thong thả rồi đột ngột đặt lên gạt tàn và nói thẳng thừng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000229"
+    locks:
+      - "Khóa cặp đại từ 'anh' - 'chúng ta', thuật ngữ 'người theo chủ nghĩa nhân đạo', hô ngữ 'Trung tá ạ', và lời cảnh báo 'Sự ủy mị kiểu đó sẽ khiến anh mất mạng đấy'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000230"
+    locks:
+      - "Khóa hô ngữ 'thưa Tướng quân', phủ định 'tôi không biến thành một con quái vật nào đó khi bước lên chiến trường', và kiến nghị loại bỏ một vài thành viên bắt đầu từ 'Trung úy Sue'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000231"
+    locks:
+      - "Khóa cấu trúc tăng tiến cùng chủ thể 'Anh không những chẳng biết cảm kích vì đã được miễn trừ trách nhiệm, mà giờ còn dám hạ cố đưa ra lời khuyên sao?', cặp đại từ 'Anh' - 'tôi', và hô ngữ 'Trung tá'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000232"
+    locks:
+      - "Khóa mệnh đề nhượng bộ chỉ thái độ 'Dù cố tình không che giấu vẻ bất mãn' và thiện chí vẫn sẵn lòng lắng nghe của cấp trên."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000233"
+    locks:
+      - "Khóa hô ngữ 'Trung tá' và câu hỏi xác nhận có phủ định 'ý anh là chuyện này không phải một tai nạn sao?'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000234"
+    locks:
+      - "Khóa quan hệ nhân quả giải thích vì sao sự cố vị trí có vẻ như tai nạn nhưng thực chất là 'lỗi do con người' do kẻ địch cố tình nhử các thành viên non kinh nghiệm trong 'đơn vị đa quốc gia'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000235"
+    locks:
+      - "Khóa danh xưng 'Tướng Habergram', đại từ 'ông', và nhận định ông đã hiểu kẻ địch giăng bẫy nhử họ."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000236"
+    locks:
+      - "Khóa đại từ 'ông' và nhận định đánh giá của ông về hình thái tuyến đầu rất đơn giản."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000237"
+    locks:
+      - "Khóa đại từ 'chúng' - 'chúng ta' và câu kết luận ngắn gọn thừa nhận đã bị đối phương qua mặt."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000238"
+    locks:
+      - "Khóa câu đáp 'Vâng, thưa ngài' và câu nhận xét mỉa mai về việc liệu các pháp sư kỳ cựu của 'Lục quân Đế quốc' có mọc đuôi hay không."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000239"
+    locks:
+      - "Khóa sự liên hệ với hình ảnh 'lũ ác quỷ' và câu hỏi trực tiếp của Habergram về tính khả thi của việc ngăn chặn sự việc tương tự tái diễn."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000240"
+    locks:
+      - "Khóa tên riêng 'Drake' và cử chỉ hổ thẹn lắc đầu đáp lại."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000241"
+    locks:
+      - "Khóa căn cứ 'Xét đến xuất thân của những người lính bên chúng ta' và nhận định dứt khoát 'tôi phải nói là bất khả thi'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000242"
+    locks:
+      - "Khóa hai câu hỏi liên tiếp của Habergram về việc dạy lính đừng mắc mưu khiêu khích và liệu đòi hỏi đó có quá đáng không."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000243"
+    locks:
+      - "Khóa hô ngữ 'Thưa ngài', biệt danh 'Ác quỷ sông Rhine', cách gọi trung tính 'tên pháp sư đó', và mức độ khẳng định tuyệt đối 'không ai sánh kịp'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000244"
+    locks:
+      - "Khóa danh xưng 'Trung tá Drake' và hành động thở dài kìm nén nỗi bực dọc."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000245"
+    locks:
+      - "Khóa cách gọi 'Bóng ma chết tiệt đó' và lời nhận xét gay gắt 'là hạng người tồi tệ nhất'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000246"
+    locks:
+      - "Khóa thuật ngữ 'Pháp sư Định danh', biệt danh mới 'Bạch Ngân Rỉ Sét', cách quy chiếu 'Con ác quỷ đó' / 'tên pháp sư ấy', và lý do biệt danh bắt nguồn từ máu của vô số nạn nhân."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000247"
+    locks:
+      - "Khóa biệt danh 'Ác quỷ sông Rhine' và lời xác nhận 'Tôi từng nghe qua cái tên đó rồi' của Habergram."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000248"
+    locks:
+      - "Khóa từ đáp 'Vâng' và dấu chấm lửng ở cuối câu thoại bị ngắt lời của Drake."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000249"
+    locks:
+      - "Khóa hiệu lệnh ngắt lời 'Khoan đã', biệt danh 'Ác quỷ sông Rhine', thuật ngữ 'Pháp sư Định danh', cụm 'các đòn tập kích chặt đầu chỉ huy', và câu hỏi nhận diện 'Hai kẻ đó là một ư?'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000250"
+    locks:
+      - "Khóa điểm nhìn của Drake nhận thấy sự hứng thú của vị tướng dù chưa rõ nguyên do."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000251"
+    locks:
+      - "Khóa cụm 'xác nhận bằng mắt thường', giả định nhượng bộ về việc chỉ số ma năng có thể làm giả, và khẳng định phủ định 'không thể nào nhầm lẫn con ác quỷ đó trên chiến trường được'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000252"
+    locks:
+      - "Khóa câu khẳng định ngắn gọn 'Drake hoàn toàn chắc chắn về điều đó'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000253"
+    locks:
+      - "Khóa lối nói mỉa mai 'màn âu yếm ngắn ngủi ở cự ly cực gần', cách gọi 'Con ác quỷ đó', và các thuật ngữ 'lưỡi kiếm ma pháp', 'thuật thức bắn tỉa quang học', 'thuật thức phát nổ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000254"
+    locks:
+      - "Khóa câu hỏi xác nhận nguyên nhân vết thương từ trận giao chiến với 'tên Pháp sư Định danh đó'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000255"
+    locks:
+      - "Khóa cấu trúc giả định trái thực tế trong quá khứ dẫn tới hệ quả ở hiện tại ('Nếu không nhờ được cấp cứu kịp thời và trị liệu ma pháp, thì giờ này hẳn tôi hoặc là đã về hưu non, hoặc là đã nằm trong túi đựng xác rồi')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000256"
+    locks:
+      - "Khóa cụm 'kẻ chuyên tung đòn chặt đầu chỉ huy' và nhận định những lời lẽ đầy cảm xúc của Drake đã thu hút trọn vẹn sự chú ý của cấp trên."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000257"
+    locks:
+      - "Khóa sự tương phản giữa vẻ ngoài điềm tĩnh của vị tướng tóc điểm bạc và nhận thức của Drake rằng ông đang suy tính điều gì đó."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000258"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' - 'anh' và lời đề nghị hỏi thêm về cuộc chạm trán của Tướng Habergram."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000259"
+    locks:
+      - "Khóa thuật ngữ 'tiền tuyến', 'bản thổ', danh xưng 'Trung tá Drake', và phủ định 'chẳng có gì là bất thường cả'."
