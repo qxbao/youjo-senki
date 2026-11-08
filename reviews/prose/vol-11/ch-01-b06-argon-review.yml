@@ -1,0 +1,210 @@
+task_id: "vol-11-ch-01-b06-argon-review"
+parent_task_id: "vol-11-ch-01-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 1
+source_package: "work/vol-11/batches/ch-01-b06-source.jsonl"
+target_translation: "translations/vol-11/ch-01-b06.jsonl"
+review_path: "reviews/prose/vol-11/ch-01-b06-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000169"
+    severity: "minor"
+    issue: "Từ sở hữu ngôi thứ hai trong câu hỏi của Zettour về khả năng tác chiến đang được dịch cụ thể hóa thêm danh từ thành 'của đơn vị cô' ('khả năng tác chiến của đơn vị cô')."
+    basis: "Đối chiếu p000169 với nguyên tắc không tự thêm từ giải thích trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'khả năng tác chiến của các cô' hoặc 'khả năng tác chiến của bên cô' để vừa thể hiện phạm vi tập thể vừa không thêm danh từ ngoài nguồn; không làm sai lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000177"
+    severity: "minor"
+    issue: "Thuật ngữ chỉ biên chế không quân cấp cao ('air fleet') đang được dịch là 'không đoàn', dễ trùng với cách dịch của cấp 'wing' ('Không đoàn Tiêm kích số 103') trong work/run-state/pending-terms-index.yml."
+    basis: "Đối chiếu hệ thống thuật ngữ đơn vị không quân trong work/run-state/pending-terms-index.yml."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'hạm đội không quân' để phân biệt rõ cấp biên chế với 'không đoàn'; không ảnh hưởng logic sự kiện nên không bắt buộc chặn bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Deputy Director of the General Staff / deputy director"
+    proposed_vi: "Phó Tổng tham mưu trưởng Bộ Tổng tham mưu / phó tổng tham mưu trưởng"
+    category: "chức danh - tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất định danh chức vụ 'Phó Tổng tham mưu trưởng' của Rudersdorf và tổ chức 'Bộ Tổng tham mưu' theo work/run-state/pending-terms-index.yml và các lô trước của vol-11."
+    alternatives_vi:
+      - "Cục phó Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000167"
+      - "YS-LN11/Text/chapter002.xhtml/p000185"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Trong tiếng Anh quân sự, 'Colonel' được dùng khi gọi trực tiếp 'Lieutenant Colonel'; dịch là 'Trung tá' để khớp chính xác với quân hàm thực tế của Tanya theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000167"
+  - source_term: "General Zettour / General Rudersdorf"
+    proposed_vi: "Tướng Zettour / Tướng Rudersdorf"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khi đi kèm trực tiếp trước họ nhân vật trong lời kể của Tanya, cách dịch 'Tướng Zettour' và 'Tướng Rudersdorf' khớp nhất quán với work/run-state/pending-terms-index.yml và ch-01-b05."
+    alternatives_vi:
+      - "Đại tướng Zettour / Đại tướng Rudersdorf"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000168"
+      - "YS-LN11/Text/chapter002.xhtml/p000171"
+      - "YS-LN11/Text/chapter002.xhtml/p000181"
+      - "YS-LN11/Text/chapter002.xhtml/p000185"
+  - source_term: "aerial mages"
+    proposed_vi: "các pháp sư trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp nhất quán với thuật ngữ 'pháp sư trên không' xuyên suốt các tập trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000175"
+  - source_term: "detached missions"
+    proposed_vi: "những nhiệm vụ biệt phái"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác khái niệm tách phân đội đi làm nhiệm vụ riêng lẻ ngoài đội hình chính."
+    alternatives_vi:
+      - "các nhiệm vụ phối thuộc tách lẻ"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000175"
+  - source_term: "air fleet"
+    proposed_vi: "hạm đội không quân"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Dịch sát nghĩa biên chế không quân cấp chiến dịch - chiến lược (tương ứng Luftflotte), tránh trùng với 'không đoàn' vốn dùng cho 'wing' trong work/run-state/pending-terms-index.yml; bản dịch hiện dùng 'không đoàn' vẫn hiểu được trong ngữ cảnh phàn nàn chung và có thể chỉnh ở bước chuốt văn."
+    alternatives_vi:
+      - "không đoàn"
+      - "không hạm đội"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000177"
+  - source_term: "Kampfgruppe / Salamander Kampfgruppe"
+    proposed_vi: "Kampfgruppe / Salamander Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ 'Kampfgruppe' theo tiền lệ tại work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Kampfgruppe Salamander"
+      - "Cụm tác chiến Salamander"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000177"
+      - "YS-LN11/Text/chapter002.xhtml/p000186"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất định danh 'mặt trận phía đông' theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000182"
+      - "YS-LN11/Text/chapter002.xhtml/p000190"
+  - source_term: "203rd Aerial Mage Battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với định danh đơn vị trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000188"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất định danh 'Đế quốc' xuyên suốt các tập theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000188"
+      - "YS-LN11/Text/chapter002.xhtml/p000193"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000165"
+    locks:
+      - "Khóa câu nhận xét ngắn của Rudersdorf ('Ra là chúng bị lún trong bùn. Tôi sẽ ghi nhớ điều đó.'), giữ đúng đại từ 'chúng' (chỉ số xe tăng mới) và 'Tôi'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000166"
+    locks:
+      - "Khóa cách gọi 'Vị chiến lược gia già' (chỉ Rudersdorf), 'sếp của mình' (chỉ Zettour), đại từ tự quy chiếu 'mình' theo DEC-P01-001 kết hợp lối tự nhắc tên ngôi thứ ba 'Tanya' đúng theo nguyên bản, cùng nhận định về hệ quả luôn kéo theo thêm rắc rối cho Tanya."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000167"
+    locks:
+      - "Khóa lời của Zettour, chức danh 'Phó Tổng tham mưu trưởng Bộ Tổng tham mưu', cách gọi quân hàm 'Trung tá' dành cho Tanya và mệnh lệnh đưa cuộc họp quay lại đúng quỹ đạo."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000168"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'mình' – 'Mình', danh xưng 'Tướng Zettour', sự đối lập giữa hy vọng làm chệch hướng cuộc thảo luận với hành động nén lại nỗi thống khổ và nhìn thẳng vào mắt Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000169"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'cô' trong lời Zettour hỏi Tanya và đối tượng câu hỏi về khả năng tác chiến."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000170"
+    locks:
+      - "Khóa câu đáp lễ phép chuẩn điều lệnh của Tanya ('Rõ, thưa Tướng quân! Xin ngài cứ hỏi bất cứ điều gì ạ.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000171"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', đại từ 'ông ấy', chuỗi miêu tả vẻ ngoài thân thiện, điềm nhiên đối lập với cảm giác kinh hãi và phép so sánh 'Chẳng khác nào nhìn thấy một con hổ đã dồn được con mồi vào chân tường'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000172"
+    locks:
+      - "Khóa câu hỏi xác nhận của Zettour ('Số xe tăng mới đó có phải là vấn đề duy nhất không?')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000173"
+    locks:
+      - "Khóa phạm vi nhấn mạnh Markdown theo DEC-P01-002 ở cụm mở đầu '*Cứ nói thẳng suy nghĩ của cô đi*', đại từ 'ông ấy' – 'mình', phủ định 'mình chưa thể để bản thân bị đánh lừa lúc này được' và sự tương phản giữa nụ cười bên ngoài với ánh mắt lạnh tanh như đá bên trong."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000174"
+    locks:
+      - "Khóa phạm vi nhấn mạnh Markdown theo DEC-P01-002 duy nhất ở động từ '*quan sát*', đại từ 'ông ấy' – 'mình', phép so sánh với ánh mắt nhà khoa học quan sát chuột bạch, sự chuyển dịch điểm nhìn sang ngôi thứ ba 'Tanya' – 'cô' ở hai câu cuối và hình ảnh ẩn dụ 'diễn tròn vai con thú cưng đã được huấn luyện thuần thục'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000175"
+    locks:
+      - "Khóa đại từ 'tôi' – 'chúng tôi' trong lời báo cáo của Tanya, tình thái giả định lịch sự ('Có lẽ tôi nên...') và ba vấn đề được nêu: thiếu đạn pháo trong kho dự trữ, thiếu ngựa kéo vận chuyển đạn pháo, và việc điều động các pháp sư trên không đi làm nhiệm vụ biệt phái."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000176"
+    locks:
+      - "Khóa câu hỏi ngắn tiếp lời của Zettour ('Còn gì nữa không?')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000177"
+    locks:
+      - "Khóa các đại từ 'Tôi' – 'chúng tôi' – 'Ngài', thuật ngữ 'Kampfgruppe', các bất bình về triển khai lực lượng không quân chậm trễ cùng yểm trợ đường không ngừng hoạt động, và câu hỏi tu từ mang giả định quá khứ ('lẽ ra tôi đã có thể lập được cả một Kampfgruppe mới sẵn sàng xuất kích')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000178"
+    locks:
+      - "Khóa lời tổng kết thản nhiên của Zettour ('Thế là đủ rồi. Vậy tức là mọi chuyện vẫn như thường lệ.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000179"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'Mình' và chuỗi hành động nuốt tiếng rên, khẽ gật đầu trước khi bị một người nghe đầy kinh ngạc chen ngang."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000180"
+    locks:
+      - "Khóa câu hỏi phản vấn phủ định của Rudersdorf ('Khoan đã, chẳng phải tất cả những chuyện đó đều là các vấn đề nghiêm trọng hay sao?')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000181"
+    locks:
+      - "Khóa danh xưng 'Tướng Rudersdorf', lối tự nhắc tên 'Tanya' và quan hệ nhân quả giữa việc đánh giá tình hình tiền tuyến gây ra phản ứng bối rối của Rudersdorf với cảm giác lạnh toát sống lưng của Tanya."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000182"
+    locks:
+      - "Khóa địa danh 'mặt trận phía đông', đại từ 'chúng tôi' và phạm vi nhấn mạnh Markdown theo DEC-P01-002 duy nhất ở từ '*lý tưởng*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000183"
+    locks:
+      - "Khóa câu hỏi ngạc nhiên của Rudersdorf ('Ngay cả với tất cả ngần ấy vấn đề sao?')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000184"
+    locks:
+      - "Khóa câu đáp khẳng định ngắn gọn của Zettour ('Phải.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000185"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', cụm 'vị phó tổng tham mưu trưởng đang cứng họng' và thái độ hết mực niềm nở của Zettour khi nói tiếp."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000186"
+    locks:
+      - "Khóa tên đơn vị 'Salamander Kampfgruppe', đại từ 'họ' và mệnh đề giải thích đặc quyền 'không bị xé lẻ ra để vét thêm người chỉ huy cho các đơn vị khác'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000187"
+    locks:
+      - "Khóa phạm vi nhấn mạnh Markdown theo DEC-P01-002 cho câu hỏi bằng ánh mắt '*Cô hiểu chứ hả?*', đại từ 'Cô' – 'mình' và phản ứng lặng lẽ gật đầu đáp lại."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000188"
+    locks:
+      - "Khóa tên đơn vị 'Tiểu đoàn Pháp sư Trên không số 203', định danh 'Đế quốc', đại từ 'họ', phủ định 'chẳng có kế hoạch nào nhằm xé lẻ họ ra cả' và quan hệ nhượng bộ ('bất chấp thực tế rằng họ đang nắm giữ một lượng pháp sư kỳ cựu tương đối lớn của Đế quốc')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000189"
+    locks:
+      - "Khóa cụm chuyển ý kèm dấu chấm lửng ('Nhưng nghĩ đi nghĩ lại thì…') và lối tự nhắc tên 'Tanya'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000190"
+    locks:
+      - "Khóa tên riêng 'Rudersdorf', địa danh 'mặt trận phía đông', cặp đại từ 'ông' – 'chúng tôi', phạm vi nhấn mạnh Markdown theo DEC-P01-002 duy nhất ở từ '*ổn định*' và nhận định chỉ đang cố cầm cự qua ngày một cách chật vật."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000191"
+    locks:
+      - "Khóa đại từ 'Ông' – 'ông' trong lời đáp lạc quan của Rudersdorf với Zettour ('Ông sẽ nghĩ ra cách gì đó thôi. Lúc nào ông chẳng thế.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000192"
+    locks:
+      - "Khóa các đại từ 'Tôi' – 'ông' – 'chúng ta' – 'chúng tôi', mệnh đề phủ định 'các mánh khóe sẽ không giúp chúng ta trụ lại cuộc chơi được bao lâu nữa đâu' và hình ảnh 'bám trụ một cách vô cùng mong manh'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000193"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'mình', định danh 'Đế quốc', nhận định về sự chênh lệch tột cùng trong nhận thức giữa hai vị cấp trên, cấu trúc giả định trái thực tế ('Nếu mình là một sử gia, hẳn sẽ là một niềm vinh dự...') và câu chốt mỉa mai rằng niềm vinh dự ấy chỉ có thể được tận hưởng ở thế giới bên kia."
