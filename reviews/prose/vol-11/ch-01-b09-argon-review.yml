@@ -1,0 +1,211 @@
+task_id: "vol-11-ch-01-b09-argon-review"
+parent_task_id: "vol-11-ch-01-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 1
+source_package: "work/vol-11/batches/ch-01-b09-source.jsonl"
+target_translation: "translations/vol-11/ch-01-b09.jsonl"
+review_path: "reviews/prose/vol-11/ch-01-b09-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000251"
+    severity: "minor"
+    issue: "Câu cảm thán nội tâm gọi thẳng khái niệm trừu tượng đang chuyển đại từ tự quy chiếu của Tanya sang 'Ta' ('Ta khao khát mi biết nhường nào!'), lệch nhẹ so với đại từ nội tâm 'mình' ở các đoạn xung quanh dù vẫn nối sang 'Chúng ta' ở câu kế tiếp."
+    basis: "Đối chiếu p000251 với quy ước đại từ nội tâm tự quy chiếu 'mình' trong DEC-P01-001 (canon/decisions.md)."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'Ta' thành 'Mình' (hoặc giữ nếu chủ đích nhấn giọng bi kịch trào phúng khi hô gọi khái niệm trừu tượng); không làm lệch nghĩa hay điểm nhìn nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000274"
+    severity: "minor"
+    issue: "Câu đầu đoạn độc thoại nội tâm hướng về Rudersdorf không nằm trong dấu ngoặc kép nhưng đang dùng cặp đại từ 'tôi' – 'ngài' như lời thoại trực tiếp nối tiếp p000273, thay vì đại từ nội tâm tự quy chiếu 'mình' theo quy ước."
+    basis: "Đối chiếu cấu trúc không có dấu thoại tại p000274 với quy ước phân biệt đại từ nội tâm 'mình' trong DEC-P01-001 (canon/decisions.md)."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chuyển câu đầu sang đại từ nội tâm 'mình' – 'ông ấy'/'ngài' để tách bạch rõ lời nói thành tiếng ở p000273 với lời nghĩ thầm ở p000274; không làm sai nghĩa câu nên không bắt buộc chặn bản chuẩn."
+pending_term_recommendations:
+  - source_term: "power harassment"
+    proposed_vi: "chèn ép bằng quyền chức"
+    category: "thuật ngữ công sở - xã hội"
+    status: "pending"
+    rationale: "Diễn đạt rõ nghĩa khái niệm lạm dụng quyền hạn cấp trên để gây sức ép nơi làm việc, khớp mạch liên tưởng công sở của Tanya."
+    alternatives_vi:
+      - "lạm quyền chèn ép"
+      - "quấy rối quyền lực"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000250"
+  - source_term: "Labor Standards Inspection Office / labor standards"
+    proposed_vi: "Văn phòng Thanh tra Tiêu chuẩn Lao động / tiêu chuẩn lao động"
+    category: "tổ chức - luật lao động"
+    status: "pending"
+    rationale: "Dịch sát tên cơ quan thanh tra lao động theo hệ thống hành chính Nhật Bản trong ký ức tiền kiếp của Tanya và giữ nhất quán cụm 'tiêu chuẩn lao động' ở đoạn kế tiếp."
+    alternatives_vi:
+      - "Phòng Thanh tra Tiêu chuẩn Lao động / tiêu chuẩn lao động"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000250"
+      - "YS-LN11/Text/chapter002.xhtml/p000251"
+  - source_term: "the Reich"
+    proposed_vi: "Đế chế"
+    category: "chính trị - quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất với định danh 'Đế chế' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000250"
+  - source_term: "libertarian"
+    proposed_vi: "người theo chủ nghĩa tự do cá nhân"
+    category: "thuật ngữ chính trị - triết học"
+    status: "pending"
+    rationale: "Làm rõ lập trường đề cao tự do cá nhân và thị trường tự do của Tanya khi tự trào về việc khao khát luật bảo vệ người lao động."
+    alternatives_vi:
+      - "kẻ tôn sùng chủ nghĩa tự do cá nhân"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000252"
+  - source_term: "coup d’état"
+    proposed_vi: "cuộc đảo chính"
+    category: "thuật ngữ chính trị - quân sự"
+    status: "pending"
+    rationale: "Khớp thống nhất với phương án 'cuộc đảo chính' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000252"
+  - source_term: "Modu Chanyu / Mongolia / Mongolian plains"
+    proposed_vi: "Mặc Đốn Thiền vu / Mông Cổ / thảo nguyên Mông Cổ"
+    category: "nhân vật lịch sử - địa danh"
+    status: "pending"
+    rationale: "Dùng đúng danh xưng lịch sử Hán-Việt chuẩn xác cho vị Thiền vu Hung Nô dùng tên bắn cha để rèn quân kỵ và tên địa danh Mông Cổ tương ứng."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000255"
+  - source_term: "General Rudersdorf"
+    proposed_vi: "Tướng Rudersdorf"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch quân hàm đi kèm trực tiếp trước họ nhân vật theo work/run-state/pending-terms-index.yml và các lô trước của vol-11."
+    alternatives_vi:
+      - "Đại tướng Rudersdorf"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000259"
+      - "YS-LN11/Text/chapter002.xhtml/p000261"
+      - "YS-LN11/Text/chapter002.xhtml/p000263"
+      - "YS-LN11/Text/chapter002.xhtml/p000270"
+      - "YS-LN11/Text/chapter002.xhtml/p000274"
+  - source_term: "HR department"
+    proposed_vi: "Phòng nhân sự"
+    category: "thuật ngữ công sở"
+    status: "pending"
+    rationale: "Phù hợp tự nhiên với mạch ẩn dụ doanh nghiệp hiện đại trong độc thoại nội tâm của Tanya."
+    alternatives_vi:
+      - "Bộ phận nhân sự"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000269"
+  - source_term: "Personnel Division"
+    proposed_vi: "Cục Nhân sự"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ cơ quan phụ trách nhân sự chính thức trong quân đội Đế quốc ở lời thoại của Rudersdorf với cách gọi 'Phòng nhân sự' trong liên tưởng công sở của Tanya."
+    alternatives_vi:
+      - "Ban Nhân sự"
+      - "Cục Quân lực"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000275"
+  - source_term: "Lieutenant Colonel"
+    proposed_vi: "Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Khớp chính xác với quân hàm của Tanya trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000275"
+  - source_term: "regiment"
+    proposed_vi: "trung đoàn"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp thống nhất với hệ thống cấp đơn vị trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000275"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000249"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'ngài' kèm kính ngữ 'ạ' và cấu trúc giả định lịch sự phủ định ('nếu ngài đừng chèn ép tôi quá mức như vậy')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000250"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'mình' theo DEC-P01-001, các thuật ngữ 'chèn ép bằng quyền chức', 'Văn phòng Thanh tra Tiêu chuẩn Lao động', 'Đế chế', giả định trái thực tế ('giá mà làm được thì mình đã chạy thẳng tới...') và phủ định tuyệt đối ('con số không tròn trĩnh')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000251"
+    locks:
+      - "Khóa thuật ngữ 'tiêu chuẩn lao động', đại từ số nhiều 'Chúng ta' và giọng cảm thán bi hài nơi tiền tuyến thế giới khác."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000252"
+    locks:
+      - "Khóa đại từ 'mình' – 'bản thân' – 'họ', các thuật ngữ 'người theo chủ nghĩa tự do cá nhân' và 'cuộc đảo chính', tình thái khả năng ('có thể sẽ trở thành') cùng quan hệ so sánh tăng tiến ở câu kết ('bị bưng bít hoàn toàn... đã là một vấn đề rồi… nhưng việc bị đặt vào ngay tâm điểm... còn tệ hơn gấp bội')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000253"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'chúng ta' – 'họ' và lập luận lấy trạng thái tinh thần cùng chuẩn mực đạo đức nội tại của từng người lính làm lý do thoái thác."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000254"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'mình' và sự tương phản ngầm giữa vẻ ngoài nêu quan ngại chính đáng với việc vắt óc tìm đường thoát thân."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000255"
+    locks:
+      - "Khóa đại từ 'mình' – 'bản thân', danh xưng lịch sử 'Mặc Đốn Thiền vu', địa danh 'Mông Cổ' / 'thảo nguyên Mông Cổ', giả định trái thực tế ở câu đầu ('Giá như ở vào vị trí... mình hẳn sẽ tự hào...'), phủ định kép ('không phải là Mông Cổ, cũng chẳng phải thế kỷ thứ hai') và ý tránh đối đầu trực diện với chuẩn mực văn hóa – pháp lý hiện đại."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000256"
+    locks:
+      - "Khóa đúng phạm vi nhấn mạnh Markdown theo DEC-P01-002 tại đại từ '*mình*', đại từ 'họ' và kết luận bắt buộc phải đánh lừa hai vị tướng để bảo toàn triển vọng chuyển việc."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000257"
+    locks:
+      - "Khóa đại từ 'Tôi' kèm kính ngữ 'ạ' và sắc thái từ chối khéo léo giảm nhẹ ('việc đó e là khó khăn')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000258"
+    locks:
+      - "Khóa đại từ 'Mình' – 'mình' – 'bản thân' – 'họ' và thế lưỡng khả có chủ đích thông qua cấu trúc phủ định kép ở câu đầu ('không tuyên bố là không thể làm được, nhưng họ cũng chẳng thể diễn giải... rằng việc đó là khả thi')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000259"
+    locks:
+      - "Khóa danh xưng 'Tướng Rudersdorf', đại từ 'Ông ấy' và diễn tiến hành động từ vẻ nhìn bất ngờ, khoanh tay cân nhắc sang bày tỏ sự cảm thông."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000260"
+    locks:
+      - "Khóa đại từ 'Chúng ta' và lời tạm gác vấn đề lại để tính cách giải quyết sau."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000261"
+    locks:
+      - "Khóa đại từ 'Ông ấy' – 'mình', danh xưng 'Tướng Rudersdorf', hình ảnh ẩn dụ lái thuyền lách qua rạn đá ngầm tạm thời thoát mắc cạn và mong muốn tìm cớ đi xa khỏi Rudersdorf."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000262"
+    locks:
+      - "Khóa câu hỏi tu từ nội tâm nhắc nhở luôn phải lường trước điều bất ngờ trong thời chiến."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000263"
+    locks:
+      - "Khóa danh xưng 'Tướng Rudersdorf', lối tự nhắc tên ngôi thứ ba 'Tanya' và hình ảnh so sánh việc thản nhiên quăng một quả bom vào tay cô."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000264"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'Cô' và câu hỏi gợi ý thăng hàm trực tiếp của Rudersdorf."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000265"
+    locks:
+      - "Khóa đại từ 'mình' – 'chúng ta', câu hỏi lặp lại 'Thăng hàm ư?', phủ định 'không phải ngoại lệ' và mệnh đề điều kiện giới hạn ở câu cuối ('đấy là khi chúng ta đang ở trong hoàn cảnh bình thường kìa')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000266"
+    locks:
+      - "Khóa sắc thái dè chừng phủ định kèm kính ngữ 'ạ' trong câu đáp của Tanya."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000267"
+    locks:
+      - "Khóa sự luân phiên giữa đại từ nội tâm 'Mình' và tên ngôi thứ ba 'Tanya', phép so sánh biến động thị trường cùng mệnh đề đối lập đặt sự an toàn lên trên danh vọng trong thời khủng hoảng."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000268"
+    locks:
+      - "Khóa cặp đại từ 'Ngài' – 'tôi' kèm kính ngữ 'ạ' và sắc thái suýt bị mắc câu ('suýt nữa thì dụ được tôi rồi')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000269"
+    locks:
+      - "Khóa thuật ngữ 'Phòng nhân sự', đại từ 'Mình' và hai mệnh đề phủ định nhấn mạnh sức cám dỗ không thể chối cãi của việc thăng tiến trước khi chuyển việc."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000270"
+    locks:
+      - "Khóa danh xưng 'Tướng Rudersdorf', đại từ 'ông ấy', hình ảnh ẩn dụ 'củ cà rốt' nhử những quân tốt thí và cấu trúc phủ định kép khẳng định chắc chắn có bẫy ('Chẳng có viễn cảnh nào mà củ cà rốt này lại không bị tẩm thuốc diệt chuột cả')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000271"
+    locks:
+      - "Khóa đại từ 'cô' và câu hỏi dò xét của Rudersdorf về việc theo đuổi cấp bậc cao."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000272"
+    locks:
+      - "Khóa đại từ 'Ông ấy' – 'Mình' và sự tương phản giữa vẻ mặt nghiêm túc bên ngoài với nỗi tiếc nuối thực sự bên trong khi phải từ chối."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000273"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'ngài' – 'họ' và lập luận lấy trách nhiệm với binh lính dưới quyền để phủ định khả năng rời bỏ đơn vị ('không thể cho phép bản thân rời bỏ họ')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000274"
+    locks:
+      - "Khóa giả định điều kiện về cái bẫy phạm pháp nếu cắn vào củ cà rốt, danh xưng 'Tướng Rudersdorf' và lối tự nhắc tên ngôi thứ ba 'Tanya' khi mô tả vỏ bọc người sĩ quan yêu nước trọng nghĩa tình."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000275"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'cô' – 'họ', các định danh 'Cục Nhân sự', 'Trung tá', 'trung đoàn' và câu hỏi đề nghị chỉ huy trung đoàn riêng ở cuối đoạn."
