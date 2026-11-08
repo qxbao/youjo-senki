@@ -1,0 +1,184 @@
+task_id: "vol-11-ch-02-b03-argon-review"
+parent_task_id: "vol-11-ch-02-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 2
+source_package: "work/vol-11/batches/ch-02-b03-source.jsonl"
+target_translation: "translations/vol-11/ch-02-b03.jsonl"
+review_path: "reviews/prose/vol-11/ch-02-b03-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000029"
+    severity: "minor"
+    issue: "Cụm danh từ ẩn dụ chỉ cỗ xe tăng hạng nặng ('steel monstrosity') đang dịch thành 'con quái vật bọc thép', làm nhạt bớt nhẹ ấn tượng trực quan về một khối thép khổng lồ so với 'con quái vật bằng thép' hoặc 'con quái vật sắt thép'."
+    basis: "Đối chiếu p000029 và nguyên tắc giữ đúng sắc thái hình ảnh của bản gốc trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'một con quái vật bằng thép như thế' hoặc 'một con quái vật sắt thép như thế'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000031"
+    severity: "minor"
+    issue: "Cụm trạng ngữ chỉ việc các sĩ quan đọc báo cáo từ vị trí hậu phương ('in the reports from the rear') được dịch thêm từ 'gửi về' ('trong những bản báo cáo gửi về từ hậu phương'), dễ gây hiểu nhầm chiều thông tin là hậu phương gửi báo cáo tác chiến ra tiền tuyến thay vì sĩ quan ngồi ở hậu phương đọc báo cáo."
+    basis: "Đối chiếu mạch văn p000029, p000031, p000033 và nguyên tắc không tự thêm từ làm lệch quan hệ ngữ nghĩa trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher nên cân nhắc chỉnh thành 'qua những bản báo cáo khi ở hậu phương' hoặc 'từ hậu phương qua những bản báo cáo'; ý đối lập chính giữa báo cáo và thực địa vẫn rõ nên không bắt buộc chặn bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000038"
+    severity: "minor"
+    issue: "Trong lời thoại của Tham tán Conrad nói với Đại tá Lergen, đại từ ngôi thứ hai đang dùng 'anh' ('đưa ra cho anh một vài gợi ý'), trong khi ở p000037 trần thuật của Lergen gọi Conrad là 'ông' và tại Tập 10 (chương 1, chương 4) hai người xưng hô lịch thiệp 'tôi – ông' phù hợp với phong thái quý tộc ở p000039."
+    basis: "Đối chiếu p000037–p000039 và tính nhất quán xưng hô giữa Tham tán Conrad với Đại tá Lergen tại Tập 10."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'anh' thành 'ông' ('xin cho phép tôi đưa ra cho ông một vài gợi ý') để đồng bộ với Tập 10 và phong thái quý tộc ở p000039, hoặc giữ nguyên nếu muốn nhấn sắc thái thân tình giữa hai người bạn đồng trang lứa ở p000037; không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án 'mặt trận phía đông' đã dùng xuyên suốt trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000028"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ quân sự tiếng Đức 'Kampfgruppe' không in nghiêng do nguồn không đánh dấu nhấn mạnh, tuân thủ DEC-P01-002 và thống nhất với ch-02-b02."
+    alternatives_vi:
+      - "Cụm tác chiến"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000028"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh 'Liên bang' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000028"
+  - source_term: "main battle tanks"
+    proposed_vi: "xe tăng chiến đấu chủ lực"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác trong tiếng Việt để chỉ dòng xe tăng chủ lực trên chiến trường."
+    alternatives_vi:
+      - "xe tăng chủ lực"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000028"
+  - source_term: "lunge mines"
+    proposed_vi: "mìn xung kích gắn sào"
+    category: "vũ khí"
+    status: "pending"
+    rationale: "Diễn đạt chính xác loại vũ khí chống tăng cảm tử gắn trên đầu gậy/sào để đâm trực tiếp vào giáp xe tăng, khớp với mô tả ở p000031 ('mìn gắn trên gậy')."
+    alternatives_vi:
+      - "mìn cảm tử gắn sào"
+      - "mìn đâm chống tăng"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000029"
+  - source_term: "anti-tank rifles"
+    proposed_vi: "súng trường chống tăng"
+    category: "vũ khí"
+    status: "pending"
+    rationale: "Thuật ngữ vũ khí chuẩn xác, nhất quán với cách dịch dòng súng chống tăng tại các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000030"
+  - source_term: "aerial mage"
+    proposed_vi: "pháp sư trên không"
+    category: "binh chủng"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với thuật ngữ 'pháp sư trên không' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000030"
+  - source_term: "Heimat"
+    proposed_vi: "Heimat"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức 'Heimat' ở dạng chữ thường không in nghiêng theo DEC-P01-002 và thống nhất với các lô trước của vol-11."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000033"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "tổ chức chính phủ"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án 'Bộ Ngoại giao' tại ch-02-b02 và work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000036"
+  - source_term: "the two generals, Zettour and Rudersdorf"
+    proposed_vi: "hai vị đại tướng, Zettour và Rudersdorf"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Dịch chuẩn xác cấp bậc 'đại tướng' mà cả Zettour lẫn Rudersdorf đang nắm giữ ở thời điểm triển khai nỗ lực đàm phán hòa bình (đồng bộ với ch-01-b02, ch-01-b03)."
+    alternatives_vi:
+      - "hai vị tướng, Zettour và Rudersdorf"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000036"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với định danh 'Đế quốc' xuyên suốt trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000036"
+  - source_term: "Counselor Conrad / Ildoa"
+    proposed_vi: "Tham tán Conrad / Ildoa"
+    category: "chức danh - nhân vật - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với chức danh 'Tham tán Conrad' và tên quốc gia 'Ildoa' tại vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000037"
+      - "YS-LN11/Text/chapter006.xhtml/p000039"
+  - source_term: "Colonel Lergen / colonels"
+    proposed_vi: "Đại tá Lergen / đại tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với quân hàm và định danh 'Đại tá Lergen' tại vol-10 và vol-11 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000029"
+      - "YS-LN11/Text/chapter006.xhtml/p000038"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000028"
+    locks:
+      - "Khóa điểm nhìn hồi ký ngôi thứ nhất 'tôi', địa danh 'mặt trận phía đông', tên đơn vị 'Kampfgruppe' (không in nghiêng), định danh 'Liên bang', thuật ngữ 'xe tăng chiến đấu chủ lực', chi tiết 'một sĩ quan còn quá đỗi non trẻ' và nhận định 'Chiến tranh càn quét qua lớp người trưởng thành của một quốc gia, buộc những đứa trẻ của đất nước ấy phải đứng ra thế chỗ họ'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000029"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình' – 'chúng tôi', sự đối lập giữa việc đọc báo cáo với 'tận mắt chứng kiến hàng thật lại đáng giá bằng cả triệu bản báo cáo', vũ khí 'mìn xung kích gắn sào', cấp bậc 'đại tá' và nhận thức 'hình dung về chiến tranh trong đầu tôi cũng đã lỗi thời từ lâu'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000030"
+    locks:
+      - "Khóa đại từ 'tôi', chủ thể khái quát 'Người ta', thuật ngữ 'súng trường chống tăng', 'pháp sư trên không', 'pháo cỡ nòng lớn', cùng sự tương phản giữa những chiếc xe tăng quen thuộc như 'những món đồ chơi' với 'quái vật khổng lồ tôi nhìn thấy trên chiến trường'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000031"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình' – 'cánh sĩ quan chúng tôi', địa điểm 'nơi tiền tuyến' đối lập với 'hậu phương', và sự khác biệt giữa thế giới trong báo cáo với 'thế giới thực, nơi những người lính đang phải dùng mìn gắn trên gậy để thổi bay lớp giáp khỏi xe tăng'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000032"
+    locks:
+      - "Khóa đại từ 'tôi' – 'chúng tôi', mệnh đề nhượng bộ phủ định 'Dù tôi khó lòng gọi chúng tôi là những kẻ may mắn', tác động của 'những cảnh tượng địa ngục ấy' giúp bám sát thế giới thực, và phủ định tương phản ở câu cuối ('cũng có rất nhiều người trong chúng tôi sẽ chẳng bao giờ nhận ra điều này, bất chấp việc đang đứng ngay trên chiến trường…'); không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000033"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình' – 'chúng tôi', thuật ngữ 'Heimat' (không in nghiêng), sự thất bại khi cố thức tỉnh các đồng cấp ở hậu phương ('nhưng chẳng mấy hiệu quả'), lòng biết ơn những người đã giúp sức, và cấu trúc liệt kê ba nhóm người hiến dâng tất cả vì quốc gia (người bỏ mạng thành con số thống kê, người gánh tiếng phản quốc trong lịch sử, người hiến dâng mọi thứ cho Heimat); không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000034"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', cách gọi người đọc 'độc giả' – 'quý vị', nghĩa sống sót sau khi những người anh em đồng đội đã ngã xuống, lý do 'ấy là bởi quý vị đã không ở đó' và ẩn dụ 'sự sáng suốt của tôi giống một lời nguyền hơn bất cứ thứ gì khác'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000035"
+    locks:
+      - "Khóa chủ thể 'Tôi và những người xung quanh' / 'chúng tôi', ẩn dụ 'tiếng bước chân của sự sụp đổ đang ngày một đến gần', phủ định kép 'chẳng có đường nào để chạy trốn, hay thậm chí là nghĩ ra cách để chống trả' và nhận định 'những tháng ngày đen tối không lối thoát'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000036"
+    locks:
+      - "Khóa tên cơ quan 'Bộ Ngoại giao', định danh 'hai vị đại tướng, Zettour và Rudersdorf', tổ chức 'lục quân', quốc gia 'Đế quốc', đại từ 'chúng tôi' – 'tôi', lý do giữ bí mật nỗ lực chấm dứt chiến tranh, và câu chốt 'Và tôi… là một trong số ít ỏi những người thừa hành ấy'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000037"
+    locks:
+      - "Khóa đại từ 'tôi' – 'chúng tôi' – 'mình', đại từ ngôi thứ ba 'ông' (quy chiếu Conrad), cụm 'nhà ngoại giao Đế quốc có năng lực và chân thành', định danh 'Tham tán Conrad', cách gọi 'chiến hữu' và bối cảnh 'khi tôi bước vào cuộc đàm phán với Ildoa'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000038"
+    locks:
+      - "Khóa danh xưng 'Đại tá Lergen', đại từ tự xưng 'tôi' của Conrad và lời mở đầu đề nghị đưa ra một vài gợi ý; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000039"
+    locks:
+      - "Khóa định danh 'Tham tán Conrad', cụm 'Nhà ngoại giao chuyên nghiệp ấy', 'vẻ thanh lịch thời tiền chiến' và 'phong thái quý tộc của mình'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000040"
+    locks:
+      - "Khóa các nhận định tương phản về bản chất của ngoại giao ('trông có vẻ linh hoạt, nhưng thực chất lại khá cứng nhắc', 'nhìn chung nó cũng luôn biến chuyển không ngừng') và nguyên lý cốt lõi 'một sự cân bằng tinh tế giữa công lý và sự đền bù thỏa đáng'; không có nhấn mạnh Markdown."
