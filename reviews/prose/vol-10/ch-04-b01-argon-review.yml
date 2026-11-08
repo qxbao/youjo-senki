@@ -1,0 +1,164 @@
+task_id: "vol-10-ch-04-b01-argon-review"
+parent_task_id: "vol-10-ch-04-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b01-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b01.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b01-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000015"
+    severity: "minor"
+    issue: "Ở mệnh đề chính, cụm chỉ cảm giác thôi thúc phải đặt câu hỏi được dịch thành 'mình không khỏi bức xúc muốn hỏi'; từ 'bức xúc' làm rõ sớm sắc thái cảm xúc vốn mới được nêu trực tiếp ở đoạn p000016 tiếp theo."
+    basis: "Đối chiếu sắc thái từ vựng tại p000015 và p000016 theo nguyên tắc không tự thêm giải thích trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'mình thấy buộc phải hỏi' hoặc 'mình không khỏi muốn hỏi' để bám sát nhịp tăng tiến cảm xúc từ p000015 sang p000016; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000022"
+    severity: "minor"
+    issue: "Tính từ mang sắc thái tôn giáo/thiêng liêng bổ nghĩa cho sự riêng tư của tâm trí được dịch thoát ý thành 'bất khả xâm phạm'; cách dịch này hợp ngữ cảnh nhưng làm mờ sắc thái ẩn dụ tôn giáo vốn được Tanya dùng kiểu mỉa mai."
+    basis: "Đối chiếu từ ngữ mở đầu p000022 và nguyên tắc giữ sắc thái từ vựng trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc dùng 'thiêng liêng' ('Trong cõi riêng tư thiêng liêng của tâm trí') hoặc giữ 'bất khả xâm phạm' nếu ưu tiên nhịp văn tự nhiên."
+pending_term_recommendations:
+  - source_term: "IMPERIAL CAPITAL / the capital"
+    proposed_vi: "ĐẾ ĐÔ / thủ đô"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã khóa xuyên suốt vol-10 trong pending-terms-index.yml cho tiêu đề mở chương và lời kể."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000001"
+      - "YS-LN10/Text/chapter020.xhtml/p000013"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với thuật ngữ đã dùng ổn định xuyên suốt các tập và vol-10 trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000003"
+      - "YS-LN10/Text/chapter020.xhtml/p000011"
+  - source_term: "commander of the Kampfgruppe / Colonel Lergen / colonel"
+    proposed_vi: "chỉ huy Kampfgruppe / Đại tá Lergen / *đại tá*"
+    category: "quân hàm - chức danh - đơn vị"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ Kampfgruppe và cấp bậc Đại tá của Lergen ở thời điểm vol-10 theo đúng pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000008"
+      - "YS-LN10/Text/chapter020.xhtml/p000010"
+  - source_term: "Lieutenant Colonel Degurechaff / Tanya"
+    proposed_vi: "Trung tá Degurechaff / Tanya"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Tanya trong lời tự giới thiệu và cách tự gọi tên ngôi thứ ba trong độc thoại nội tâm."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000002"
+      - "YS-LN10/Text/chapter020.xhtml/p000003"
+      - "YS-LN10/Text/chapter020.xhtml/p000009"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "tổ chức chính phủ"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã khóa tại vol-10 trong pending-terms-index.yml cho cơ quan phụ trách đối ngoại của Đế quốc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000013"
+      - "YS-LN10/Text/chapter020.xhtml/p000017"
+  - source_term: "HR"
+    proposed_vi: "bộ phận nhân sự"
+    category: "thuật ngữ quản trị"
+    status: "pending"
+    rationale: "Phù hợp với giọng điệu cựu nhân viên nhân sự của Tanya khi liên tưởng việc thanh trừng các quan chức ngoại giao tắc trách."
+    alternatives_vi:
+      - "mảng nhân sự"
+      - "phòng nhân sự"
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000018"
+  - source_term: "Bismarck / Empire"
+    proposed_vi: "Bismarck / Đế quốc"
+    category: "tên riêng - quốc gia"
+    status: "pending"
+    rationale: "Giữ nguyên tên danh nhân lịch sử Bismarck dùng làm hình mẫu ngoại giao và tên gọi Đế quốc thống nhất toàn bộ bản dịch."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000020"
+      - "YS-LN10/Text/chapter020.xhtml/p000023"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000001"
+    locks:
+      - "Khóa dòng tiêu đề thời gian và địa điểm viết hoa toàn bộ: 'NGÀY 14 THÁNG 8 NĂM THỐNG NHẤT 1927, ĐẾ ĐÔ'; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000002"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' - 'mình' theo DEC-P01-001, lối tự khách quan hóa khi nhắc tới 'Tanya' ở ngôi thứ ba, cùng các cụm 'công dân hiện đại gương mẫu', 'sinh vật xã hội' và 'sự bấp bênh'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000003"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', tên riêng 'Tanya', thuật ngữ 'Văn phòng Bộ Tổng tham mưu', cấu trúc tương phản công sở - quân ngũ ('bộ âu phục' / 'bộ quân phục', 'bản đề xuất dự án' / 'kế hoạch tác chiến', 'chiếc cà vạt' / 'huân chương và huy hiệu') và phủ định ('không thuyết trình tại trụ sở công ty cũ', 'không phải bằng chiếc cà vạt')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000004"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và phủ định giảm nhẹ ('chẳng khác mấy so với công việc cũ')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000005"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' - 'mình', cụm 'cán cân quyền lực', 'ở phía phải cúi đầu' và hai phủ định liên tiếp ('một kế hoạch mà bản thân thực sự chẳng muốn dính dáng tới', 'những cấp trên vốn cũng chẳng muốn nghe về nó')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000006"
+    locks:
+      - "Khóa đại từ 'Người ta' - 'mình' và lập luận kinh tế thị trường ('thị trường đã ngừng vận hành bình thường', 'những công việc vô nghĩa với mức lương bèo bọt')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000007"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và thái độ thực dụng hoàn thành phần việc."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000008"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' - 'mình', đại từ 'ông' chỉ Lergen, chức danh 'chỉ huy Kampfgruppe' và cấp bậc 'Đại tá Lergen'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000009"
+    locks:
+      - "Khóa câu thoại bỏ lửng với đại từ công vụ 'Tôi' và danh xưng 'Trung tá Degurechaff'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000010"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*đại tá*', đại từ nội tâm 'mình', danh xưng 'Đại tá Lergen' và cụm 'nhân viên văn thư'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000011"
+    locks:
+      - "Khóa đại từ ngôi thứ nhất số nhiều 'Chúng tôi' - 'chúng tôi' (gồm Tanya và Đại tá Lergen), thuật ngữ 'Văn phòng Bộ Tổng tham mưu', trạng thái bị động không rõ chuyện gì đang xảy ra và chi tiết được chở thẳng tới 'một tòa nhà chính phủ xa lạ'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000012"
+    locks:
+      - "Khóa cấu trúc giả định mở đầu ('Nếu hào phóng thì mình sẽ mô tả...'), thuật ngữ 'phong cách tiền phong' và sắc thái mỉa mai ở cụm 'một viên ngọc quý của kiến trúc hiện đại'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000013"
+    locks:
+      - "Khóa địa danh 'thủ đô', tên cơ quan 'Bộ Ngoại giao' và chức năng 'xử lý toàn bộ công tác đối ngoại'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000014"
+    locks:
+      - "Khóa cụm ẩn dụ miệt thị 'một cái ổ êm ấm của lũ ăn không ngồi rồi' và phủ định ('Chẳng ai thực sự biết những kẻ bên trong đã làm gì suốt từ khi chiến tranh nổ ra')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000015"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', sự đối lập giữa 'binh lính' với 'đám ăn bám này' và câu hỏi nội tâm chất vấn."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000016"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Lo mà làm cái việc chết tiệt của các người đi!*', đại từ nội tâm 'Mình' - 'mình' và đại từ ngôi thứ hai số nhiều 'các người' trong tiếng gào tưởng tượng."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000017"
+    locks:
+      - "Khóa tên cơ quan 'Bộ Ngoại giao', đại từ 'chúng ta' - 'họ', cấu trúc giả định trái thực tế trong quá khứ kéo tới hệ quả hiện tại cùng tình thái và phủ định ('Giá như họ tiến hành ngoại giao đúng như bổn phận của mình, đất nước chúng ta có lẽ đã chẳng đứng bên bờ vực sụp đổ...')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000018"
+    locks:
+      - "Khóa đại từ 'họ' - 'mình', các cụm 'tội ác chiến tranh', 'bộ phận nhân sự', giả định không có thật ('Nếu mình mà phụ trách... cứ cho là họ sẽ phải lên thớt theo đúng nghĩa đen đi') và câu cảm thán kết đoạn."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000019"
+    locks:
+      - "Khóa câu nhận định ngắn gọn 'Ngoại giao cốt ở con người.'"
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000020"
+    locks:
+      - "Khóa giả định trái thực tế ở hiện tại cùng tình thái ('Nếu Đế quốc ngày nay có lấy dù chỉ một Bismarck thôi, có lẽ lúc này mình đã đang ngồi ung dung...'), tên riêng 'Bismarck', 'Đế quốc' và đại từ nội tâm 'mình'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000021"
+    locks:
+      - "Khóa đại từ 'chúng ta', tình thái giả định và phủ định kép ('cũng sẽ không bị mắc kẹt trong một cuộc chiến không thể thắng')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000022"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và mạch chuyển ý từ phàn nàn sang chợt nhận ra sự thật."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000023"
+    locks:
+      - "Khóa tên riêng 'Đế quốc', 'Bismarck', đại từ 'họ', các phủ định ('không có lấy một Bismarck', 'chẳng biết làm cách nào để tiến hành ngoại giao cho ra hồn', 'Ngay từ đầu họ đã chẳng có cơ hội nào thắng được cuộc chiến này rồi') và kết luận 'cầm chắc kết cục diệt vong'."
