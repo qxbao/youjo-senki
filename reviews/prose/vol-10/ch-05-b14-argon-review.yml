@@ -1,0 +1,361 @@
+task_id: "vol-10-ch-05-b14-argon-review"
+parent_task_id: "vol-10-ch-05-b14"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 5
+source_package: "work/vol-10/batches/ch-05-b14-source.jsonl"
+target_translation: "translations/vol-10/ch-05-b14.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000491"
+    severity: "minor"
+    category: "terminology_nuance"
+    issue: "Thuật ngữ 'pseudo-unit' đang dịch là 'đơn vị bán chính quy', dễ gợi nghĩa lực lượng bán quân sự (paramilitary/semi-regular) trong khi ngữ cảnh p000498 chỉ lữ đoàn tân binh đang huấn luyện nên mới chỉ gần giống pháp sư thực thụ."
+    recommendation: "Có thể giữ tạm trong bản nháp hoặc cân nhắc 'đơn vị nửa vời' / 'đơn vị tạm bợ' ở bước chuốt văn nếu cần sát sắc thái mô tả trình độ chưa hoàn chỉnh, nhưng vẫn giữ nguyên vế 'gần giống các pháp sư thực thụ rồi'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000512"
+    severity: "minor"
+    category: "diction"
+    issue: "Cụm 'gằn cao giọng' cho 'raise his voice' hơi lệch kết hợp từ tiếng Việt (vì 'gằn giọng' thường chỉ giọng trầm nén xuống, còn 'cao giọng/lớn tiếng' là nâng âm lượng)."
+    recommendation: "Ở bước chuốt văn có thể chỉnh nhẹ thành 'nâng cao giọng' hoặc 'lớn tiếng' trên sóng vô tuyến mà không đổi nghĩa."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Drake / Drake / Colonel"
+    proposed_vi: "Trung tá Drake / Drake / thưa Trung tá"
+    alternatives_vi:
+      - "Trung tá"
+    category: "nhân vật / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Giữ nhất quán với pending-terms-index.yml của vol-04 và vol-10; cách gọi rút gọn 'Colonel' trong thoại đối với trung tá được dịch là 'thưa Trung tá'."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000490"
+      - "YS-LN10/Text/chapter024.xhtml/p000497"
+      - "YS-LN10/Text/chapter024.xhtml/p000499"
+      - "YS-LN10/Text/chapter024.xhtml/p000514"
+      - "YS-LN10/Text/chapter024.xhtml/p000520"
+      - "YS-LN10/Text/chapter024.xhtml/p000525"
+      - "YS-LN10/Text/chapter024.xhtml/p000527"
+      - "YS-LN10/Text/chapter024.xhtml/p000529"
+      - "YS-LN10/Text/chapter024.xhtml/p000531"
+  - source_term: "fellow ace / ace mages"
+    proposed_vi: "người đồng đội át chủ bài / những pháp sư át chủ bài"
+    alternatives_vi:
+      - "đồng đội át chủ bài / các pháp sư át chủ bài"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Biểu đạt rõ danh hiệu 'ace' của Drake và người đồng đội cùng quan sát trận đánh."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000490"
+      - "YS-LN10/Text/chapter024.xhtml/p000494"
+  - source_term: "pseudo-unit"
+    proposed_vi: "đơn vị bán chính quy"
+    alternatives_vi:
+      - "đơn vị nửa vời"
+      - "đơn vị tạm bợ"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách gọi hàm ý đơn vị chưa hoàn chỉnh về năng lực tác chiến thực thụ vì binh sĩ vẫn đang trong giai đoạn huấn luyện."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000491"
+  - source_term: "marine mage battalion / marine mage units / marine mage"
+    proposed_vi: "tiểu đoàn pháp sư hải quân đánh bộ / các đơn vị pháp sư hải quân đánh bộ / pháp sư hải quân đánh bộ"
+    alternatives_vi: []
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thống nhất với mục 'marine mage battalion / marine mages' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000496"
+      - "YS-LN10/Text/chapter024.xhtml/p000530"
+      - "YS-LN10/Text/chapter024.xhtml/p000531"
+  - source_term: "imperial war machine / imperial mages / the Empire"
+    proposed_vi: "cỗ máy chiến tranh Đế quốc / các pháp sư Đế quốc / Đế quốc"
+    alternatives_vi: []
+    category: "thuật ngữ / tên gọi"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch phe Đế quốc và lực lượng pháp sư Đế quốc trong toàn vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000500"
+      - "YS-LN10/Text/chapter024.xhtml/p000502"
+      - "YS-LN10/Text/chapter024.xhtml/p000523"
+  - source_term: "the Commonwealth / Commonwealth fleet"
+    proposed_vi: "Khối Thịnh vượng chung / hạm đội Khối Thịnh vượng chung"
+    alternatives_vi: []
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Nhất quán với pending-terms-index.yml xuyên suốt các tập."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000501"
+      - "YS-LN10/Text/chapter024.xhtml/p000521"
+      - "YS-LN10/Text/chapter024.xhtml/p000526"
+  - source_term: "Daniel 01 / Daniel 06 / Pirate Commander"
+    proposed_vi: "Daniel 01 / Daniel 06 / Chỉ huy Pirate"
+    alternatives_vi: []
+    category: "mã gọi vô tuyến"
+    status: "pending"
+    rationale: "Giữ nguyên tên mã gọi vô tuyến 'Daniel 01', 'Daniel 06' và dịch chức danh chỉ huy trong 'Pirate Commander' là 'Chỉ huy Pirate'."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000505"
+      - "YS-LN10/Text/chapter024.xhtml/p000506"
+      - "YS-LN10/Text/chapter024.xhtml/p000517"
+      - "YS-LN10/Text/chapter024.xhtml/p000530"
+  - source_term: "brigade commander / Commander Ballmer / his aide"
+    proposed_vi: "lữ đoàn trưởng / Chỉ huy Ballmer / sĩ quan phụ tá"
+    alternatives_vi:
+      - "viên sĩ quan phụ tá"
+    category: "quân hàm / chức danh"
+    status: "pending"
+    rationale: "Khớp với mục 'Brigade Commander Ballmer / Commander Ballmer' trong pending-terms-index.yml của vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000508"
+      - "YS-LN10/Text/chapter024.xhtml/p000510"
+      - "YS-LN10/Text/chapter024.xhtml/p000512"
+      - "YS-LN10/Text/chapter024.xhtml/p000524"
+  - source_term: "reserve soldiers"
+    proposed_vi: "binh sĩ dự bị / những người lính dự bị"
+    alternatives_vi:
+      - "quân dự bị"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa vai trò lực lượng dự bị của đơn vị Drake trong trận đánh."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000505"
+      - "YS-LN10/Text/chapter024.xhtml/p000510"
+  - source_term: "crushed piecemeal"
+    proposed_vi: "nghiền nát từng bộ phận"
+    alternatives_vi:
+      - "đánh tan từng bộ phận"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác khái niệm quân sự bị chia cắt và tiêu diệt từng phần."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000512"
+  - source_term: "Decapitation tactics / surgical attacks"
+    proposed_vi: "Chiến thuật chặt đầu chỉ huy / những đòn đánh điểm huyệt"
+    alternatives_vi:
+      - "những đòn tập kích điểm huyệt"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thống nhất 'decapitation tactics' là 'chiến thuật chặt đầu chỉ huy' theo pending-terms-index.yml; 'surgical attacks' dịch là 'những đòn đánh điểm huyệt' tự nhiên và đúng bản chất tác chiến."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000523"
+      - "YS-LN10/Text/chapter024.xhtml/p000524"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    alternatives_vi: []
+    category: "tên gọi / biệt danh"
+    status: "pending"
+    rationale: "Thống nhất tuyệt đối với toàn bộ các tập trước và vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000524"
+      - "YS-LN10/Text/chapter024.xhtml/p000528"
+  - source_term: "area of operations"
+    proposed_vi: "khu vực tác chiến"
+    alternatives_vi: []
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Thống nhất với mục 'AO / area of operations' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000531"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000490"
+    locked:
+      names_and_ranks: "Drake"
+      pronouns_and_address: "trần thuật gọi Drake là mình (sở hữu phản thân) / người kia (fellow ace)"
+      pov_and_modality: "trần thuật ngôi thứ ba theo điểm nhìn Drake; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000491"
+    locked:
+      terminology: "pháp sư thực thụ"
+      pronouns_and_address: "bọn họ (chỉ lữ đoàn ngoài tiền tuyến)"
+      pov_and_modality: "thoại trực tiếp; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000492"
+    locked:
+      pronouns_and_address: "cậu"
+      negation_and_modality: "phủ định tình thái 'Đời nào ... lại nghĩ nói như thế là ổn chứ' (can't possibly)"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000493"
+    locked:
+      pronouns_and_address: "anh (Drake); quân mình / họ (allies); kẻ địch (enemy)"
+      negation_and_modality: "phủ định 'Không giấu nổi vẻ bàng hoàng'"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000494"
+    locked:
+      terminology: "Những pháp sư át chủ bài (The ace mages)"
+      pronouns_and_address: "anh; người đồng đội; họ"
+      negation_and_modality: "khóa 'không thể cứ khoanh tay đứng nhìn' để bảo toàn mạch logic nhân quả trực tiếp với câu dẫn về đám cháy cần dập tắt và p000495 ('Họ cần phải can thiệp')"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000495"
+    locked:
+      pronouns_and_address: "Họ"
+      negation_and_modality: "tình thái bắt buộc 'cần phải can thiệp'"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000496"
+    locked:
+      terminology: "tiểu đoàn pháp sư hải quân đánh bộ (marine mage battalion)"
+      pronouns_and_address: "Chúng ta / ta"
+      negation_and_modality: "giả định ước muốn trái thực tế 'ước gì ta có được ... từ thời trước chiến tranh!'"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000497"
+    locked:
+      names_and_ranks: "lữ đoàn (brigade); thưa Trung tá (Colonel - xưng hô với Trung tá Drake)"
+      negation_and_modality: "câu hỏi tu từ + nhận định đánh giá; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000498"
+    locked:
+      terminology: "giai đoạn huấn luyện; tiền tuyến"
+      pronouns_and_address: "Bọn họ; chúng ta; tôi - mình; lũ trẻ con"
+      negation_and_modality: "phủ định 'không tính được'; câu hỏi cảm thán 'Ai mà ngờ...'; giả định nuối tiếc quá khứ 'Giá mà có ai đó nói trước...'"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000499"
+    locked:
+      names_and_ranks: "Drake"
+      pronouns_and_address: "Anh (Drake); họ (phe Khối Thịnh vượng chung)"
+      negation_and_modality: "phủ định 'đã không chuẩn bị đủ kỹ càng'"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000500"
+    locked:
+      terminology: "cỗ máy chiến tranh Đế quốc (imperial war machine)"
+      pronouns_and_address: "nó (cỗ máy chiến tranh Đế quốc)"
+      negation_and_modality: "khẳng định thời lượng từ đầu cuộc chiến đến hiện tại; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000501"
+    locked:
+      terminology: "Khối Thịnh vượng chung (the Commonwealth)"
+      negation_and_modality: "tiếp diễn hiện tại trong mạch kể 'Giờ đây ... đang phải trả giá'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000502"
+    locked:
+      terminology: "các pháp sư Đế quốc (imperial mages); ma pháp (magic)"
+      pronouns_and_address: "anh (Drake); những pháp sư vẫn còn là lũ trẻ con"
+      negation_and_modality: "giới hạn hành động 'chỉ biết trơ mắt nhìn'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000503"
+    locked:
+      terminology: "thần linh (a god)"
+      pronouns_and_address: "tôi (Drake); hắn (a god)"
+      negation_and_modality: "điều kiện giả định 'Nếu trên đời này thực sự có thần linh'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000504"
+    locked:
+      terminology: "tử thần (the god of death)"
+      pronouns_and_address: "anh - mình (Drake)"
+      negation_and_modality: "mức độ tăng tiến 'ngày càng khó lòng tiếp tục làm ngơ'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000505"
+    locked:
+      names_and_ranks: "Daniel 01; Chỉ huy Pirate (Pirate Commander); binh sĩ dự bị (reserve soldiers)"
+      negation_and_modality: "mệnh lệnh/yêu cầu vô tuyến khẩn cấp; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000506"
+    locked:
+      names_and_ranks: "Chỉ huy Pirate (Pirate Commander); Daniel 06"
+      negation_and_modality: "đáp lời vô tuyến 'Xin hãy giữ máy chờ!'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000507"
+    locked:
+      negation_and_modality: "thán từ nghi vấn '“Hả?”'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000508"
+    locked:
+      names_and_ranks: "lữ đoàn trưởng (brigade commander); sĩ quan phụ tá (aide)"
+      pronouns_and_address: "anh (Drake); ông (lữ đoàn trưởng Ballmer)"
+      negation_and_modality: "câu hỏi nội tâm cấu trúc 'không phải là ... mà là ... sao?'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000509"
+    locked:
+      pronouns_and_address: "ông (lữ đoàn trưởng Ballmer)"
+      negation_and_modality: "câu hỏi phỏng đoán nội tâm 'Phải chăng ... đến mức đích thân ông không thể xử lý...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000510"
+    locked:
+      names_and_ranks: "Chỉ huy Ballmer (Commander Ballmer); những người lính dự bị (reserve soldiers)"
+      pronouns_and_address: "họ"
+      negation_and_modality: "phủ định điều kiện 'khi chưa có sự cho phép'; câu hỏi nội tâm 'Liệu họ có nên...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000511"
+    locked:
+      pronouns_and_address: "họ"
+      negation_and_modality: "phủ định giới hạn 'chẳng làm được gì ngoài việc bất lực đứng nhìn'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000512"
+    locked:
+      names_and_ranks: "lữ đoàn (the brigade); viên sĩ quan phụ tá của Chỉ huy Ballmer (Commander Ballmer's aide)"
+      terminology: "chia cắt và nghiền nát từng bộ phận (broken up and crushed piecemeal); sóng vô tuyến (the radio); chiến tuyến (the line)"
+      pronouns_and_address: "Họ"
+      negation_and_modality: "phủ định 'chẳng mấy khả quan'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000513"
+    locked:
+      negation_and_modality: "giới hạn hệ quả 'chỉ là gieo rắc thêm nỗi sợ hãi và hoảng loạn'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000514"
+    locked:
+      names_and_ranks: "Drake; các sĩ quan chỉ huy (commanding officers)"
+      pronouns_and_address: "Mình (nội tâm trực tiếp của Drake); Anh (trần thuật về Drake)"
+      negation_and_modality: "câu hỏi nội tâm + phủ định 'Anh không muốn làm tình hình thêm phần khó xử...'"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*Mình có nên nhảy vào nói trên sóng vô tuyến không?*' tương ứng với <html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000515"
+    locked:
+      pronouns_and_address: "anh (Drake)"
+      negation_and_modality: "tương lai trong quá khứ 'sẽ sớm bị các tác nhân bên ngoài đột ngột chấm dứt'; so sánh ẩn dụ 'như thể một lưỡi rìu chiến...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000516"
+    locked:
+      terminology: "đại đội địch (enemy company)"
+      negation_and_modality: "mốc thời gian 'ngay sau khi đại đội địch tách làm hai nhóm'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000517"
+    locked:
+      names_and_ranks: "Daniel 01"
+      negation_and_modality: "thoại báo nguy lặp lại hai lần trên sóng vô tuyến; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000518"
+    locked:
+      names_and_ranks: "một sĩ quan thuộc lữ đoàn (A brigade officer)"
+      pronouns_and_address: "anh ta"
+      negation_and_modality: "cấp độ cực hạn 'Bước ngoặt tồi tệ nhất có thể tưởng tượng ra đã xảy đến'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000519"
+    locked:
+      negation_and_modality: "thoại ngắt quãng '“Cái—?!”'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000520"
+    locked:
+      names_and_ranks: "Drake"
+      negation_and_modality: "phủ định cảm thán nội tâm"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*Chuyện này không thể nào là thật được*' tương ứng với <html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000521"
+    locked:
+      names_and_ranks: "Lữ đoàn của Khối Thịnh vượng chung (The Commonwealth's brigade); tiểu đoàn (battalion); vị chỉ huy (the very leader)"
+      negation_and_modality: "quá khứ hoàn thành 'đã bị một tiểu đoàn duy nhất đánh rã đám hoàn toàn'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000522"
+    locked:
+      emphasis: "giữ đúng chữ nghiêng Markdown '*À, phải rồi…*' cho toàn bộ đoạn tương ứng với <html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000523"
+    locked:
+      terminology: "Chiến thuật chặt đầu chỉ huy (Decapitation tactics); Đế quốc (the Empire)"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000524"
+    locked:
+      names_and_ranks: "Ác quỷ sông Rhine (Devil of the Rhine); Chỉ huy Ballmer (Commander Ballmer)"
+      terminology: "những đòn đánh điểm huyệt (surgical attacks)"
+      pronouns_and_address: "họ (phe Khối Thịnh vượng chung); chúng (phe Đế quốc)"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000525"
+    locked:
+      names_and_ranks: "Drake"
+      pronouns_and_address: "kẻ địch"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000526"
+    locked:
+      terminology: "những chiến hạm (warships); hạm đội Khối Thịnh vượng chung (Commonwealth fleet)"
+      pronouns_and_address: "chúng (pháp sư Đế quốc); đồng đội của chúng (lực lượng tàu Đế quốc bị chiến hạm Khối Thịnh vượng chung truy đuổi bên dưới); Anh (Drake)"
+      negation_and_modality: "câu hỏi nội tâm 'Mục tiêu tiếp theo của chúng là gì?' + suy luận tất yếu 'Chắc chắn phải là...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000527"
+    locked:
+      names_and_ranks: "Drake"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000528"
+    locked:
+      names_and_ranks: "Ác quỷ sông Rhine (Devil of the Rhine)"
+      pronouns_and_address: "Đứa con gái ngoài kia (The girl out there); ả (she/her - từ điểm nhìn đối địch của Drake); Họ (phe Drake)"
+      negation_and_modality: "phủ định so sánh nhất 'Tình hình không thể nào tồi tệ hơn thế này được nữa'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000529"
+    locked:
+      names_and_ranks: "Trung tá Drake (Lieutenant Colonel Drake)"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000530"
+    locked:
+      names_and_ranks: "Chỉ huy Pirate (Pirate Commander); các đơn vị pháp sư hải quân đánh bộ (marine mage units)"
+      pronouns_and_address: "Tôi (Drake trên sóng vô tuyến)"
+      emphasis: "không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000531"
+    locked:
+      names_and_ranks: "Drake; pháp sư hải quân đánh bộ (marine mage)"
+      terminology: "khu vực tác chiến (area of operations)"
+      pronouns_and_address: "Anh (Drake); tất cả bọn họ"
+      negation_and_modality: "nhượng bộ 'Dù có phải cưỡng ép... thì cũng chẳng sao'; phủ định 'Đây không phải lúc để giữ bình tĩnh'; ẩn dụ toán học âm nhân âm thành dương; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000532"
+    locked:
+      pronouns_and_address: "Các cậu (các pháp sư đồng minh dưới quyền chỉ huy của Drake); chúng (pháp sư Đế quốc)"
+      negation_and_modality: "chuỗi câu cầu khiến/khích lệ tinh thần trên chiến trường; không có chữ nghiêng Markdown"
