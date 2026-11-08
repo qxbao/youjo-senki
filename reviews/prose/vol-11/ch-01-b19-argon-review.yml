@@ -1,0 +1,233 @@
+task_id: "vol-11-ch-01-b19-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000201"
+    severity: "minor"
+    category: "pronouns_clarity"
+    issue: "Cụm 'nhưng ông ấy không thể làm theo ý mình được' trong trần thuật góc nhìn Tanya dùng từ 'mình' trùng với đại từ tự quy chiếu nội tâm của Tanya, dễ gây hiểu nhầm là 'theo ý của Tanya', đồng thời chưa thật sát nghĩa việc Zettour không thể toại nguyện trước sự từ chối của Tanya."
+    recommendation: "Đổi 'nhưng ông ấy không thể làm theo ý mình được' thành 'nhưng ông ấy không thể được như ý' hoặc 'nhưng ông ấy không thể đạt được ý muốn'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000226"
+    severity: "minor"
+    category: "pronouns_register"
+    issue: "Trong độc thoại nội tâm của Tanya (vốn dùng 'mình' và 'chúng ta'), cụm 'Cả hai chúng tôi đều biết' chuyển sang dùng 'chúng tôi' của lời thoại đối ngoại; hiện tượng tương tự lặp lại ở đầu đoạn p000230 ('cả hai chúng tôi cùng thở dài') gây lệch với câu kế tiếp trong cùng đoạn ('số phận cay đắng của chúng ta')."
+    recommendation: "Đổi 'Cả hai chúng tôi' ở p000226 và 'cả hai chúng tôi' ở p000230 thành 'Cả hai chúng ta' / 'cả hai chúng ta' để thống nhất hệ đại từ nội tâm."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000227"
+    severity: "minor"
+    category: "tone_register"
+    issue: "Trong lời thoại của Tanya nói trực tiếp với cấp trên là Tướng Zettour, cụm 'khi thốt ra từ miệng một vị trung tướng' mang sắc thái hơi suồng sã, chưa khớp với vẻ lễ độ bề ngoài của Tanya."
+    recommendation: "Đổi 'khi thốt ra từ miệng một vị trung tướng đấy ạ' thành 'khi được nghe từ một vị trung tướng đấy ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000231"
+    severity: "minor"
+    category: "rank_address_register"
+    issue: "Trong lời của Tướng Zettour nói với cấp dưới là Trung tá Tanya, cách gọi 'Trung tá ạ' có thêm tiểu từ kính ngữ 'ạ', làm đảo ngược tương quan thứ bậc quân hàm cấp trên – cấp dưới và lệch với cách Zettour gọi 'Trung tá' ở p000221, p000228."
+    recommendation: "Bỏ từ 'ạ' sau 'Trung tá', giữ thành '“Đó là lý do vì sao, Trung tá, mọi chuyện có thể sẽ trở nên cam go đối với quân của cô đấy.”'."
+pending_term_recommendations:
+  - source_term: "inspectors / lieutenant general / lieutenant colonel"
+    proposed_vi: "các thanh tra viên / trung tướng / trung tá"
+    alternatives_vi: []
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Giữ thống nhất danh xưng quân hàm và chức danh thanh tra viên theo sổ pending của dự án."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000198"
+      - "YS-LN11/Text/chapter004.xhtml/p000227"
+  - source_term: "General Zettour / General Romel / General Rudersdorf / commanding officer"
+    proposed_vi: "Tướng Zettour / Tướng Romel / Tướng Rudersdorf / sĩ quan chỉ huy"
+    alternatives_vi: []
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Thống nhất cách gọi các tướng lĩnh Đế quốc và chức danh sĩ quan chỉ huy theo sổ pending vol-10 và vol-11."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000199"
+      - "YS-LN11/Text/chapter004.xhtml/p000201"
+      - "YS-LN11/Text/chapter004.xhtml/p000203"
+      - "YS-LN11/Text/chapter004.xhtml/p000208"
+      - "YS-LN11/Text/chapter004.xhtml/p000209"
+      - "YS-LN11/Text/chapter004.xhtml/p000219"
+      - "YS-LN11/Text/chapter004.xhtml/p000222"
+  - source_term: "Colonel"
+    proposed_vi: "Trung tá"
+    alternatives_vi: []
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Cách gọi tắt trong hội thoại của Tướng Zettour dành cho Trung tá Tanya von Degurechaff, khớp với các batch trước."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000221"
+      - "YS-LN11/Text/chapter004.xhtml/p000228"
+      - "YS-LN11/Text/chapter004.xhtml/p000231"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    alternatives_vi:
+      - "Cụm tác chiến"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức Kampfgruppe theo tiền lệ trong sổ pending."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000204"
+  - source_term: "eastern front / the east / the Empire / Imperial Army / the Federation"
+    proposed_vi: "mặt trận phía đông / miền đông / Đế quốc / Lục quân Đế quốc / Liên bang"
+    alternatives_vi: []
+    category: "địa danh - quốc gia - quân đội"
+    status: "pending"
+    rationale: "Giữ nhất quán hệ thống tên gọi quốc gia, quân chủng và sự phân biệt giữa 'mặt trận phía đông' với 'miền đông'."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000202"
+      - "YS-LN11/Text/chapter004.xhtml/p000206"
+      - "YS-LN11/Text/chapter004.xhtml/p000207"
+      - "YS-LN11/Text/chapter004.xhtml/p000209"
+      - "YS-LN11/Text/chapter004.xhtml/p000213"
+      - "YS-LN11/Text/chapter004.xhtml/p000214"
+      - "YS-LN11/Text/chapter004.xhtml/p000217"
+      - "YS-LN11/Text/chapter004.xhtml/p000219"
+      - "YS-LN11/Text/chapter004.xhtml/p000221"
+  - source_term: "Council for Self-Government / deep operation"
+    proposed_vi: "Hội đồng Tự trị / chiến dịch tác chiến chiều sâu"
+    alternatives_vi:
+      - "Hội đồng Tự trị / tác chiến chiều sâu"
+    category: "tổ chức - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với 'Hội đồng Tự trị' và học thuyết 'tác chiến chiều sâu' tại mặt trận phía đông trong sổ pending."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000210"
+      - "YS-LN11/Text/chapter004.xhtml/p000218"
+      - "YS-LN11/Text/chapter004.xhtml/p000219"
+  - source_term: "pragmatism / raison d’état / necessity"
+    proposed_vi: "chủ nghĩa thực dụng / lý tính nhà nước / sự tất yếu"
+    alternatives_vi: []
+    category: "thuật ngữ chính trị - triết học"
+    status: "pending"
+    rationale: "Khớp với mục 'raison d’état: lý tính nhà nước' và 'necessity: sự tất yếu' đã ghi nhận trong sổ pending."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000219"
+      - "YS-LN11/Text/chapter004.xhtml/p000238"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000198"
+    choices:
+      - "Xưng hô và cấp bậc trong thoại của Tanya với Zettour: xưng 'Tôi' / 'mình', có 'ạ', giữ 'các thanh tra viên mang quân hàm trung tướng' và 'trung tá'."
+      - "Tình thái và phủ định: 'Tôi e là mình chẳng thể khiến bất kỳ ai chịu nghe theo mệnh lệnh nào của mình đâu ạ.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000199"
+    choices:
+      - "Đại từ nội tâm tự quy chiếu của Tanya: 'mình' theo DEC-P01-001; giữ danh xưng 'Tướng Zettour' và hình ảnh ẩn dụ 'chiếc giường đinh'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000200"
+    choices:
+      - "Nhận định khái quát trong nội tâm Tanya: giữ quan hệ đối lập và phủ định 'biết mình không thể làm một cách hiệu quả', 'nơi người lao động có thể nói không'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000201"
+    choices:
+      - "Thoại của Zettour với Tanya: xưng 'Tôi', gọi 'Cô' / 'cô'; trần thuật gọi 'Tướng Zettour' ('ông ấy'), chỉnh cụm phản thân dễ gây nhập nhằng theo khuyến nghị."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000202"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya với Zettour: xưng 'tôi', gọi 'ngài', giữ 'mặt trận phía đông', 'Đế quốc' và phủ định 'không nghĩ có lấy một ai'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000203"
+    choices:
+      - "Điểm nhìn nội tâm: mở đầu tự quy chiếu 'mình', câu cuối chuyển sang tự nhìn nhận khách quan bằng tên 'Tanya'; giữ 'Tướng Romel', 'Tướng Rudersdorf', 'Tướng Zettour', 'sĩ quan chỉ huy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000204"
+    choices:
+      - "Điểm nhìn ngôi thứ ba nối tiếp câu cuối đoạn p000203: quy chiếu Tanya là 'cô', giữ nguyên thuật ngữ 'Kampfgruppe' và mục đích phủ định 'không bị kẹt ở thế hớ hênh'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000205"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'mình', gọi Zettour là 'cấp trên của mình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000206"
+    choices:
+      - "Thoại của Tanya với Zettour: dùng 'chúng ta', 'Tôi', 'mặt trận phía đông', 'chính quốc', 'toàn bộ chiến tuyến', kết câu bằng 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000207"
+    choices:
+      - "Thoại của Zettour với Tanya: gọi 'Cô', xưng 'tôi', dùng 'Ở miền đông'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000208"
+    choices:
+      - "Đại từ nội tâm: 'mình', danh xưng 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000209"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'Mình', dùng 'chúng ta' cho phía Đế quốc; giữ 'Tướng Zettour' và 'Liên bang'."
+      - "Nhấn mạnh Markdown: giữ '*độc lập*' tương ứng với thẻ em trong XHTML gốc theo DEC-P01-002."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000210"
+    choices:
+      - "Thoại của Tanya với Zettour: dùng 'chúng ta', 'Hội đồng Tự trị', 'chiến dịch tác chiến chiều sâu', giữ câu hỏi có 'ạ' và dấu chấm lửng."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000211"
+    choices:
+      - "Thoại của Zettour: xưng 'Tôi' / 'tôi', quy chiếu Hội đồng Tự trị là 'nó' / 'họ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000212"
+    choices:
+      - "Đại từ nội tâm: quy chiếu Zettour là 'ông ấy', tự quy chiếu 'mình', giữ tình thái 'Có lẽ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000213"
+    choices:
+      - "Nội tâm của Tanya: quy chiếu hội đồng là 'Họ' / 'họ', giữ 'Lục quân Đế quốc' và phủ định 'chẳng bao giờ tự mình gánh vác nổi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000214"
+    choices:
+      - "Thoại của Zettour: xưng 'tôi', quy chiếu Hội đồng Tự trị là 'họ', giữ 'Lục quân Đế quốc', 'tiền tuyến', 'trật tự công cộng'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000215"
+    choices:
+      - "Nội tâm của Tanya: quy chiếu Hội đồng Tự trị là 'họ', giữ 'hậu cần ở hậu phương'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000216"
+    choices:
+      - "Thoại của Tanya hỏi Zettour: gọi 'Ngài', quy chiếu Hội đồng Tự trị là 'họ', kết câu hỏi bằng 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000217"
+    choices:
+      - "Thoại của Zettour đáp Tanya: xưng 'tôi', giữ đối lập phủ định – khẳng định 'Không, nhưng tôi có niềm tin vào Liên bang.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000218"
+    choices:
+      - "Thoại của Tanya hỏi tiếp Zettour: giữ dấu chấm lửng mở đầu, 'Hội đồng Tự trị', 'kẻ thù không đội trời chung', kết câu bằng 'sao ạ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000219"
+    choices:
+      - "Nội tâm của Tanya: giữ 'Tướng Zettour', 'Hội đồng Tự trị', 'Đế quốc', 'chủ nghĩa thực dụng' và 'lý tính nhà nước'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000220"
+    choices:
+      - "Thoại của Tanya với Zettour: gọi 'ngài', dùng 'chúng ta', có 'ạ', giữ nghĩa giả định 'ném bom cháy thiêu rụi mọi thứ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000221"
+    choices:
+      - "Thoại của Zettour với Tanya: gọi 'Trung tá', giữ 'ở miền đông' và dấu chấm lửng cuối câu."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000222"
+    choices:
+      - "Trần thuật nội tâm: gọi 'Tướng Zettour', quy chiếu là 'ông ấy', giữ sắc thái 'chủ nghĩa bại trận'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000223"
+    choices:
+      - "Thoại của Zettour: dùng 'Chúng ta', giữ phủ định 'không cần phải gieo rắc những hạt giống thù hận'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000224"
+    choices:
+      - "Thoại của Tanya với Zettour: dùng 'chúng ta', quy chiếu Hội đồng Tự trị là 'họ', giữ câu điều kiện 'Nếu chúng ta chiến thắng' và 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000225"
+    choices:
+      - "Nhấn mạnh Markdown trong thoại của Zettour: giữ '*nếu*' tương ứng với thẻ em trong XHTML gốc theo DEC-P01-002."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000226"
+    choices:
+      - "Đại từ nội tâm: đổi 'Cả hai chúng tôi' thành 'Cả hai chúng ta' theo khuyến nghị để nhất quán giọng độc thoại nội tâm."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000227"
+    choices:
+      - "Thoại của Tanya với Zettour: giữ 'một vị trung tướng' và 'đấy ạ', chỉnh cụm động từ theo khuyến nghị để giữ lễ độ."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000228"
+    choices:
+      - "Thoại của Zettour với Tanya: xưng 'tôi', gọi 'Cô' / 'cô' và 'Trung tá', dùng 'chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000229"
+    choices:
+      - "Thoại xin lỗi của Tanya với Zettour: xưng 'Tôi', gọi 'ngài', có 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000230"
+    choices:
+      - "Đại từ nội tâm: quy chiếu Zettour là 'Ông ấy', thống nhất dùng 'cả hai chúng ta' và 'số phận cay đắng của chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000231"
+    choices:
+      - "Thoại của Zettour với Tanya: gọi 'Trung tá' (bỏ 'ạ' theo khuyến nghị), gọi 'quân của cô', giữ tình thái 'có thể sẽ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000232"
+    choices:
+      - "Thoại của Tanya với Zettour: giữ dấu chấm lửng sau 'Chà…' và tiểu từ 'ạ' cuối câu."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000233"
+    choices:
+      - "Thoại của Zettour với Tanya: gọi 'cô', giữ giọng khích lệ lịch sự."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000234"
+    choices:
+      - "Nhận định nội tâm ngắn của Tanya: giữ 'Đất nước này thật đen tối.' để nối mạch chơi chữ về màu đen ở đoạn p000235."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000235"
+    choices:
+      - "Đại từ và chơi chữ trong nội tâm Tanya: dùng 'Chúng ta' và 'mình', giữ ba lớp nghĩa của màu đen ('màu đen kịt' của máu oxy hóa, 'con số sổ sách màu đen báo lãi' và 'những hệ thống bóc lột')."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000236"
+    choices:
+      - "Câu cảm thán nội tâm của Tanya: 'Nguyền rủa cái thế giới bị ruồng bỏ này xuống địa ngục đi.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000237"
+    choices:
+      - "Thoại của Tanya với Zettour: xưng 'Tôi', kết câu bằng 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000238"
+    choices:
+      - "Thoại kết chương của Zettour: giữ 'nhân danh sự tất yếu'."
+      - "Nhấn mạnh Markdown toàn lô: chỉ dùng *...* ở p000209 ('*độc lập*') và p000225 ('*nếu*'), toàn bộ 39 đoạn còn lại không có thẻ nhấn mạnh trong XHTML gốc nên không dùng *...* theo DEC-P01-002."

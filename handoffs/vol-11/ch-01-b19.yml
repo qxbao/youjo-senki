@@ -27,8 +27,8 @@ canon_references:
 source_manifest: segments/vol-11/manifest.yml
 source_package: work/vol-11/batches/ch-01-b19-source.jsonl
 source_package_sha256: 32d744d4352268b8ecc33c284785feb87da0f34dcbcfeb8fcca127205633530a
-translation_editor: codex-coordinator
-status: ready
+translation_editor: ys-coord-stream-4
+status: polished
 checkpoints:
   meaning: Giữ nghĩa, phủ định, đối tượng câu hỏi, chỉ dẫn, logic và thời gian của
     giả định.
@@ -42,3 +42,17 @@ planning:
   min_source_words: 600
   max_source_words: 900
   boundary_after: chapter_end
+lease:
+  holder: ys-coord-stream-4
+  task_id: vol-11-ch-01-b19
+  role: coordinator
+  state: completed
+  allowlist:
+  - translations/vol-11/ch-01-b19.jsonl
+polish_promotion:
+  result: promoted
+  task_id: vol-11-ch-01-b19
+  segment_count: 41
+  baseline_sha256: 43ba98b0f6469589c1bc6a313f07928f525b020ab038236f324fca9348c70c5f
+  candidate_sha256: 78896da50dea87068806cc3d8b52242cbc2e7b60b96113e9d5fb8b0b1923b87c
+  receipt_sha256: 881df5aba1e4bc0d35f6ef45d2fe7ac528100346290569a1e39d10a40cb6e04e
