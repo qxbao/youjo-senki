@@ -1,0 +1,310 @@
+task_id: "vol-10-ch-02-b16-argon-review"
+parent_task_id: "vol-10-ch-02-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b16-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b16.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b16-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000184"
+    severity: "minor"
+    issue: "Cụm 'cô học trò nhỏ của mình' dùng đại từ phản thân 'mình' để quy chiếu về chủ ngữ ngôi thứ ba 'Trung tướng Zettour' trong lời trần thuật theo góc nhìn của Drake, dễ gây thoáng nhầm với đại từ nội tâm ngôi thứ nhất."
+    basis: "Đối chiếu quy ước phân biệt đại từ trần thuật và nội tâm trong DEC-P01-001 cùng nguyên tắc diễn đạt rõ ràng trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'cô học trò nhỏ của ông ta'; không làm sai nghĩa câu nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000209"
+    severity: "minor"
+    issue: "Trong cùng một câu có hai đại từ 'anh' quy chiếu tới hai nhân vật khác nhau ('hỏi người cộng sự xem ý anh là gì' chỉ Mikel, 'kéo sự chú ý của anh quay lại' chỉ Drake), làm giảm nhẹ độ rõ ràng khi đọc lướt."
+    basis: "Đối chiếu nguyên tắc viết tiếng Việt rõ ràng và giữ điểm nhìn mạch lạc trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh vế đầu thành 'Trước khi Drake kịp hỏi người cộng sự xem ý ông ấy là gì' hoặc 'hỏi xem người cộng sự có ý gì'; không làm sai nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000211"
+    severity: "minor"
+    issue: "Cụm 'công nghệ ma đạo tối tân' dùng từ 'ma đạo' thay vì 'ma pháp' vốn đang được dùng thống nhất cho các thuật ngữ cùng gốc trong dự án (như 'sĩ quan ma pháp', 'oanh kích ma pháp', 'lưỡi kiếm ma pháp')."
+    basis: "Đối chiếu các mục thuật ngữ có yếu tố 'magic' trong work/run-state/pending-terms-index.yml."
+    recommendation: "Ở bước chuốt văn, polisher nên cân nhắc đồng bộ thành 'công nghệ ma pháp tối tân của Lục quân Đế quốc'; không làm lệch nghĩa câu nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Drake / Drake"
+    proposed_vi: "Trung tá Drake / Drake"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Lieutenant Colonel Drake / Drake -> Trung tá Drake / Drake' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000180"
+      - "YS-LN10/Text/chapter010.xhtml/p000183"
+      - "YS-LN10/Text/chapter010.xhtml/p000190"
+      - "YS-LN10/Text/chapter010.xhtml/p000196"
+      - "YS-LN10/Text/chapter010.xhtml/p000198"
+      - "YS-LN10/Text/chapter010.xhtml/p000201"
+      - "YS-LN10/Text/chapter010.xhtml/p000202"
+      - "YS-LN10/Text/chapter010.xhtml/p000206"
+      - "YS-LN10/Text/chapter010.xhtml/p000209"
+      - "YS-LN10/Text/chapter010.xhtml/p000211"
+      - "YS-LN10/Text/chapter010.xhtml/p000219"
+  - source_term: "AUGUST 1, UNIFIED YEAR 1927, EASTERN FRONT, MULTINATIONAL UNIT GARRISON PROTECTED AIRSPACE"
+    proposed_vi: "NGÀY 1 THÁNG 8 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, KHÔNG PHẬN ĐƯỢC BẢO VỆ CỦA NƠI ĐỒN TRÚ ĐƠN VỊ ĐA QUỐC GIA"
+    category: "tiêu đề thời gian - địa điểm"
+    status: "pending"
+    rationale: "Giữ thống nhất quy ước dịch tiêu đề ngày tháng, 'EASTERN FRONT -> MẶT TRẬN PHÍA ĐÔNG' và 'MULTINATIONAL UNIT -> ĐƠN VỊ ĐA QUỐC GIA' trong vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000181"
+  - source_term: "multinational unit / volunteers"
+    proposed_vi: "đơn vị đa quốc gia / đội quân tình nguyện"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp nhất quán với các mục 'multinational unit -> đơn vị đa quốc gia' và 'voluntary army -> đội quân tình nguyện' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "những người lính tình nguyện"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000181"
+      - "YS-LN10/Text/chapter010.xhtml/p000216"
+      - "YS-LN10/Text/chapter010.xhtml/p000219"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Devil of the Rhine -> Ác quỷ sông Rhine' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000182"
+      - "YS-LN10/Text/chapter010.xhtml/p000185"
+  - source_term: "Federation Army"
+    proposed_vi: "Quân đội Liên bang"
+    category: "quân đội - quốc gia"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Federation Army -> Quân đội Liên bang' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000184"
+      - "YS-LN10/Text/chapter010.xhtml/p000191"
+  - source_term: "Lieutenant General Zettour / their general"
+    proposed_vi: "Trung tướng Zettour / viên tướng kia của địch"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Lieutenant General Zettour -> Trung tướng Zettour' trong work/run-state/pending-terms-index.yml và giữ đúng điểm nhìn của phía Drake."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000184"
+      - "YS-LN10/Text/chapter010.xhtml/p000186"
+      - "YS-LN10/Text/chapter010.xhtml/p000195"
+      - "YS-LN10/Text/chapter010.xhtml/p000196"
+  - source_term: "salient / supply line(s)"
+    proposed_vi: "vùng mũi lồi / tuyến tiếp vận (các tuyến tiếp vận)"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục 'salient(s) -> mũi lồi' và 'supply line(s) -> tuyến tiếp vận' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000186"
+      - "YS-LN10/Text/chapter010.xhtml/p000195"
+      - "YS-LN10/Text/chapter010.xhtml/p000197"
+  - source_term: "the Empire / Imperial Army / imperial General Staff Office / imperial mages"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / Văn phòng Bộ Tổng tham mưu Đế quốc / các pháp sư Đế quốc"
+    category: "quốc gia - quân đội - cơ quan chỉ huy"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục tương ứng trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000186"
+      - "YS-LN10/Text/chapter010.xhtml/p000189"
+      - "YS-LN10/Text/chapter010.xhtml/p000196"
+      - "YS-LN10/Text/chapter010.xhtml/p000211"
+      - "YS-LN10/Text/chapter010.xhtml/p000216"
+  - source_term: "two-man cell / flight of two"
+    proposed_vi: "tổ hai người / biên đội hai người"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'two-man cells -> các tổ hai người' trong work/run-state/pending-terms-index.yml và thuật ngữ không quân/pháp sư trên không 'biên đội hai người'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000188"
+      - "YS-LN10/Text/chapter010.xhtml/p000205"
+  - source_term: "recon-in-force"
+    proposed_vi: "trinh sát chiến đấu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'recon-in-force -> trinh sát chiến đấu' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "trinh sát bằng vũ lực"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000189"
+  - source_term: "Rhine front"
+    proposed_vi: "mặt trận Rhine"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Rhine front -> mặt trận Rhine' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000196"
+  - source_term: "Colonel Mikel / Mikel"
+    proposed_vi: "Đại tá Mikel / Mikel"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất với lô trước (ch-02-b15) cho cấp bậc và tên riêng của sĩ quan Liên bang phối thuộc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000200"
+      - "YS-LN10/Text/chapter010.xhtml/p000201"
+  - source_term: "Named mage"
+    proposed_vi: "Pháp sư Định danh"
+    category: "thuật ngữ ma pháp quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Named -> Pháp sư Định danh' và 'Named mages -> các Pháp sư Định danh' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000207"
+  - source_term: "magic technology"
+    proposed_vi: "công nghệ ma pháp"
+    category: "thuật ngữ ma pháp"
+    status: "pending"
+    rationale: "Đồng bộ với hệ thuật ngữ dùng 'ma pháp' cho 'magic' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "công nghệ ma đạo"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000211"
+  - source_term: "aerial superiority"
+    proposed_vi: "ưu thế trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'air superiority -> ưu thế trên không' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000212"
+  - source_term: "flight ceiling / flight formula"
+    proposed_vi: "trần bay / thuật thức bay"
+    category: "thuật ngữ hàng không - ma pháp"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn xác cho giới hạn độ cao bay ('trần bay') và cấu trúc thuật thức bay ('thuật thức bay')."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000216"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000180"
+    locks:
+      - "Khóa danh xưng 'Trung tá Drake', đại từ 'anh' và mốc chuyển sang ngày hôm sau khi Drake chạm trán kẻ địch đúng như dự đoán."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000181"
+    locks:
+      - "Khóa tiêu đề thời gian - địa điểm viết hoa toàn bộ: 'NGÀY 1 THÁNG 8 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG, KHÔNG PHẬN ĐƯỢC BẢO VỆ CỦA NƠI ĐỒN TRÚ ĐƠN VỊ ĐA QUỐC GIA'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000182"
+    locks:
+      - "Khóa lời báo cáo nhận diện mục tiêu lạ trên không, sắc thái kinh ngạc xác nhận đúng như báo cáo và biệt danh 'Ác quỷ sông Rhine'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000183"
+    locks:
+      - "Khóa định danh 'Drake' và chi tiết một người lính được cắt cử giám sát không phận lên tiếng báo cáo đầy kinh ngạc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000184"
+    locks:
+      - "Khóa tên 'Quân đội Liên bang', danh xưng 'Trung tướng Zettour' và nhận định Zettour có xu hướng tung cô học trò nhỏ ra vào thời khắc then chốt nhất; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000185"
+    locks:
+      - "Khóa cụm 'đệ tử ruột của ông ta', biệt danh 'Ác quỷ sông Rhine' và tình thái nhận định 'Xem ra... cuối cùng đã chịu lộ diện'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000186"
+    locks:
+      - "Khóa tình thái suy đoán 'hẳn là', các thuật ngữ 'tuyến tiếp vận ở vùng mũi lồi', 'Đế quốc', 'Trung tướng Zettour', 'đòn tập kích bất ngờ', đại từ 'anh' (chỉ Drake) và thế lưỡng lự bỏ lửng ở cuối câu."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000187"
+    locks:
+      - "Khóa đại từ 'Cậu' (Drake hỏi người lính cấp dưới) và hai câu hỏi dồn dập xác nhận độ chắc chắn cùng quân số địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000188"
+    locks:
+      - "Khóa thuật ngữ 'Một tổ hai người', tiểu từ lễ phép 'ạ' của cấp dưới và câu hỏi phỏng đoán mục đích trinh sát."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000189"
+    locks:
+      - "Khóa đại từ 'ta' / 'chúng', điều kiện 'nếu tập tài liệu này chính xác', cặp khả năng 'hoặc tiến hành trinh sát chiến đấu, hoặc tìm cách hạ sát một sĩ quan chỉ huy' và quyết tâm không để địch dễ dàng đạt ý đồ."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000190"
+    locks:
+      - "Khóa định danh 'Drake' / 'Trung tá Drake', đại từ 'anh', nhận định đã nhìn thấu kế hoạch địch và sự tự tin hiếm hoi vào cơ hội chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000191"
+    locks:
+      - "Khóa đại từ 'Ta', tên 'Quân đội Liên bang' và lời ghi nhận bản phân tích sắc sảo của họ."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000192"
+    locks:
+      - "Khóa thuật ngữ 'đòn nghi binh', 'toán trinh sát' và nhận định bình thường họ sẽ chẳng bao giờ bận tâm tới một cặp pháp sư như vậy."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000193"
+    locks:
+      - "Khóa cụm 'tổ trinh sát thông thường' và mệnh đề phủ định khẳng định lần này trò giả dạng của hai tên pháp sư sẽ không có tác dụng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000194"
+    locks:
+      - "Khóa cặp đại từ 'Bọn ta - các người' trong lời độc thoại thách thức kẻ địch của Drake."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000195"
+    locks:
+      - "Khóa thuật ngữ 'Vùng mũi lồi' và danh xưng 'Trung tướng Zettour'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000196"
+    locks:
+      - "Khóa địa danh 'mặt trận Rhine', định danh 'Drake', tên cơ quan 'Văn phòng Bộ Tổng tham mưu Đế quốc' và nhận xét về cơn nghiện bao vây kẻ địch của Zettour cũng như giới sĩ quan tham mưu Đế quốc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000197"
+    locks:
+      - "Khóa đại từ 'Anh' (chỉ Drake), thuật ngữ 'các tuyến tiếp vận' và quy luật mở màn tấn công nhắm vào điểm yếu và tuyến tiếp vận của địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000198"
+    locks:
+      - "Khóa định danh 'Drake' và bước chuyển tương phản sang người lính dày dạn trận mạc đứng cạnh không có chung sự lạc quan ấy; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000199"
+    locks:
+      - "Khóa lời nhận xét dè dặt rằng có điều gì đó không ổn trong toàn bộ chuyện này."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000200"
+    locks:
+      - "Khóa đại từ 'anh' (Drake gọi Mikel) và danh xưng 'Đại tá Mikel'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000201"
+    locks:
+      - "Khóa định danh 'Mikel', 'Drake' và cấu trúc phủ định kép ('sẽ không đời nào thẳng thắn nói ra nỗi băn khoăn... nếu không có lý do chính đáng')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000202"
+    locks:
+      - "Khóa định danh 'Drake', đại từ 'anh' và chi tiết đáp lại câu hỏi của Drake chỉ là ánh mắt đầy vẻ nghi hoặc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000203"
+    locks:
+      - "Khóa đại từ 'Anh' (Mikel gọi Drake) và câu hỏi nghi vấn về điểm kỳ lạ ở hai kẻ địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000204"
+    locks:
+      - "Khóa câu hỏi nội tâm in nghiêng bằng Markdown '*Có điểm gì đó kỳ lạ ư?*' theo đúng DEC-P01-002 và câu trần thuật tiếp nối không in nghiêng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000205"
+    locks:
+      - "Khóa thuật ngữ 'biên đội hai người', 'quy trình tiêu chuẩn cho một nhiệm vụ trinh sát' và nhận định phủ định rằng việc khảo sát chiến trường vốn không có gì khác thường."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000206"
+    locks:
+      - "Khóa định danh 'Drake', đại từ 'anh' và sự tương phản giữa nỗi ngạc nhiên vì đoán trúng sự xuất hiện của địch với vẻ bình thường của mọi thứ còn lại."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000207"
+    locks:
+      - "Khóa đại từ 'tôi' / 'chúng ta', thuật ngữ 'Pháp sư Định danh', phủ định kép ('không nhận thấy điểm gì bất thường... Nói vậy không có nghĩa là tôi xem nhẹ chúng đâu') và quyết tâm dốc toàn lực tấn công."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000208"
+    locks:
+      - "Khóa cặp đại từ 'tôi - anh' (Mikel nói với Drake) và linh cảm bất an không sao gạt bỏ được về sự xuất hiện của địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000209"
+    locks:
+      - "Khóa định danh 'Drake' và tình huống cấp dưới lên tiếng kéo sự chú ý của Drake quay lại phía cặp đôi quân địch trước khi anh kịp hỏi rõ ý của Mikel."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000210"
+    locks:
+      - "Khóa thông số độ cao 'tám nghìn' và lời cảnh báo tốc độ di chuyển nhanh của địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000211"
+    locks:
+      - "Khóa định danh 'Drake', tên 'Lục quân Đế quốc' và miêu tả tốc độ vọt lên cao kinh hoàng của hai mục tiêu cùng công nghệ tối tân khiến Drake quặn dạ dày."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000212"
+    locks:
+      - "Khóa thuật ngữ 'ưu thế trên không' và cảm xúc tức giận trước ý đồ tận dụng triệt để ưu thế độ cao của địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000213"
+    locks:
+      - "Khóa lời thoại của Drake nhận định việc trinh sát chỉ là vỏ bọc không phải tin mới nhưng tốc độ ra tay của địch rất nhanh."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000214"
+    locks:
+      - "Khóa đại từ 'anh', hai mốc độ cao đối lập 'tám nghìn' và 'sáu nghìn', cùng cơn phẫn nộ của Drake trước ý đồ của địch; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000215"
+    locks:
+      - "Khóa câu phủ định khẳng định lần này kế hoạch của địch sẽ không thành công."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000216"
+    locks:
+      - "Khóa các thuật ngữ 'đơn vị đa quốc gia', 'trần bay tám nghìn', 'thuật thức bay', 'các pháp sư Đế quốc', đại từ 'Anh' và chi tiết rèn luyện phổi ở độ cao đó kết hợp đánh giá lại thuật thức bay."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000217"
+    locks:
+      - "Khóa đại từ 'Tôi' / 'Chúng ta' trong lời Drake tuyên bố xuất kích trước."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000218"
+    locks:
+      - "Khóa lời chúc may mắn ngắn gọn của Mikel."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000219"
+    locks:
+      - "Khóa định danh 'Drake' và hành động cảm ơn người bạn rồi lao đi tập hợp đội quân tình nguyện."
