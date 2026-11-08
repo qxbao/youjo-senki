@@ -1,0 +1,195 @@
+task_id: "vol-10-ch-02-b01-argon-review"
+parent_task_id: "vol-10-ch-02-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b01-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b01.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b01-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000005"
+    severity: "minor"
+    issue: "Chủ thể đầu câu đang nối tiếp nhóm sĩ quan Lục quân Đế quốc được triệu tập ở p000004 khi họ tản về các tiểu đoàn tương ứng của mình; dịch là 'những người lính' hơi làm mờ sự phân tầng giữa nhóm sĩ quan nhận lệnh ở p000004-p000005 với binh lính thường ở p000010, dù trong tiếng Việt 'những người lính' vẫn có thể hiểu rộng là quân nhân nói chung và không làm sai mạch sự kiện."
+    basis: "Đối chiếu mạch quy chiếu giữa p000004, p000005 và p000010-p000011."
+    recommendation: "Có thể giữ nguyên hoặc cân nhắc đổi thành 'họ' / 'các sĩ quan ấy' ở bước chuốt văn nếu muốn làm rõ hơn sự chuyển dịch điểm nhìn từ cấp sĩ quan sang binh lính; không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000027"
+    severity: "minor"
+    issue: "Cách dịch 'rất khó chấp nhận' ở câu cuối hơi nghiêng sang thái độ phản kháng tâm lý so với sắc thái nhận thức ('khó tiêu hóa' / 'khó mà hiểu nổi' / 'khó lý giải nổi' khi cố phân tích mệnh lệnh phi chiến lược)."
+    basis: "Đối chiếu mạch lập luận nhận thức của các sĩ quan chỉ huy từ p000025 đến p000029."
+    recommendation: "Chấp nhận được trong ngữ cảnh cảm xúc bức bối của cấp chỉ huy; polisher có thể cân nhắc 'khó mà hiểu nổi' hoặc giữ nguyên."
+pending_term_recommendations:
+  - source_term: "THE EASTERN FRONT / eastern front"
+    proposed_vi: "MẶT TRẬN PHÍA ĐÔNG / mặt trận phía đông"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng xuyên suốt vol-09 và vol-10 trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "chiến trường phía đông"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000001"
+      - "YS-LN10/Text/chapter008.xhtml/p000002"
+      - "YS-LN10/Text/chapter008.xhtml/p000005"
+      - "YS-LN10/Text/chapter008.xhtml/p000006"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp phương án tạm chuẩn hóa trong các tập trước cho lực lượng mặt đất của Đế quốc trên mặt trận phía đông."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000004"
+      - "YS-LN10/Text/chapter008.xhtml/p000012"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa tổ chức tự quản/tự trị phối hợp dẫn đường cho quân Đế quốc tại mặt trận phía đông."
+    alternatives_vi:
+      - "Hội đồng Tự quản"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000009"
+  - source_term: "roaming partisans"
+    proposed_vi: "các toán quân du kích lảng vảng"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'partisans -> quân du kích' trong pending-terms-index.yml và giữ đúng sắc thái cơ động quấy rối."
+    alternatives_vi:
+      - "lực lượng du kích hoạt động lưu động"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000009"
+  - source_term: "Lieutenant General Zettour / The general"
+    proposed_vi: "Trung tướng Zettour / Vị tướng này"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác cấp bậc của Zettour ở thời điểm tháng 7 năm 1927 theo sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000012"
+      - "YS-LN10/Text/chapter008.xhtml/p000021"
+      - "YS-LN10/Text/chapter008.xhtml/p000028"
+      - "YS-LN10/Text/chapter008.xhtml/p000029"
+  - source_term: "maneuver warfare"
+    proposed_vi: "tác chiến cơ động"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác chỉ học thuyết đánh vận động/cơ động bao vây của Zettour."
+    alternatives_vi:
+      - "chiến tranh cơ động"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000012"
+      - "YS-LN10/Text/chapter008.xhtml/p000029"
+  - source_term: "general withdrawal"
+    proposed_vi: "cuộc tổng rút lui"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ quy mô rút lui toàn tuyến với các đợt lùi quân cục bộ."
+    alternatives_vi:
+      - "cuộc rút quân toàn diện"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000017"
+  - source_term: "Graduates from the academy"
+    proposed_vi: "Những người tốt nghiệp học viện"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ cách dịch trung tính, khớp với 'the academy -> học viện' trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "Các sĩ quan tốt nghiệp học viện quân sự"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000018"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000001"
+    locks:
+      - "Khóa mốc thời gian - địa điểm đầu chương: 'NGÀY 29 THÁNG 7 NĂM THỐNG NHẤT 1927, MẶT TRẬN PHÍA ĐÔNG'; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000002"
+    locks:
+      - "Khóa địa danh 'mặt trận phía đông' và điểm nhìn trần thuật ngôi thứ ba."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000003"
+    locks:
+      - "Khóa đại từ thoại giữa các sĩ quan: 'chúng ta' - 'Tôi'; giữ câu hỏi nghi vấn về việc bị điều chuyển và mệnh đề bỏ lửng."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000004"
+    locks:
+      - "Khóa tên tổ chức và cấp bậc chung: 'Các sĩ quan Lục quân Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000005"
+    locks:
+      - "Khóa cấu trúc nhượng bộ - nghịch lý ('Tuy vậy, hoặc có lẽ chính vì vậy') và đơn vị 'tiểu đoàn'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000006"
+    locks:
+      - "Khóa hướng hành quân: băng qua mặt trận phía đông nhưng di chuyển về 'phía tây'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000007"
+    locks:
+      - "Khóa đại từ thoại 'chúng ta' và hướng di chuyển lặp lại về 'phía tây' / 'hướng tây'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000008"
+    locks:
+      - "Khóa mạch liên kết nhân quả giải thích lý do cho sự càu nhàu."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000009"
+    locks:
+      - "Khóa thuật ngữ 'Hội đồng Tự trị', 'quân du kích', và ý toàn quân đang chầm chậm quay lại nơi từng xuất phát."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000010"
+    locks:
+      - "Khóa thuật ngữ 'thu hẹp chiến tuyến', góc nhìn của 'người lính bình thường' và phép so sánh tự sát bằng cách để vết thương hở rỉ máu đến cạn kiệt."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000011"
+    locks:
+      - "Khóa chủ thể 'các sĩ quan' bắt đầu có chung suy nghĩ với binh lính sau nhiều lần nhận lệnh rút quân."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000012"
+    locks:
+      - "Khóa tên tổ chức 'Lục quân Đế quốc', quân hàm 'Trung tướng Zettour', thuật ngữ 'tác chiến cơ động quy mô lớn', và sự tương phản giữa tháng 7 (rút lui có tính toán) với tháng 6."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000013"
+    locks:
+      - "Khóa câu hỏi độc thoại nội tâm tập thể có nhấn mạnh Markdown theo DEC-P01-002: '*Chúng ta vẫn còn nắm quyền chủ động chứ?*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000014"
+    locks:
+      - "Khóa đại từ thoại 'chúng ta' và quy chiếu 'Cấp trên' cho chủ thể ra lệnh lùi sâu hơn."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000015"
+    locks:
+      - "Khóa cấu trúc phủ định tăng tiến: 'Không chỉ một hai người lính'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000016"
+    locks:
+      - "Khóa chi tiết chỉ đóng quân một đêm trước khi nhận lệnh mới lùi về phương tây và phủ định 'chẳng phải hạng người chỉ biết cắm đầu xông lên mà không suy nghĩ'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000017"
+    locks:
+      - "Khóa thuật ngữ 'cuộc tổng rút lui' và nhận định tình thái 'về cơ bản là điều tất yếu' dưới góc độ quân sự."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000018"
+    locks:
+      - "Khóa hai nhóm chủ thể: 'Những người tốt nghiệp học viện' và 'số ít binh lính dày dạn trận mạc'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000019"
+    locks:
+      - "Khóa quan hệ giải thích nối tiếp p000018 (việc điều chuyển quân liên miên thường diễn ra trước trận đánh quy mô lớn) và giới hạn thời gian 'ít nhất là trong giai đoạn đầu'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000020"
+    locks:
+      - "Khóa quan hệ tương phản giữa việc ngoan ngoãn vào vị trí mới chờ lệnh với kết quả thất vọng lặp đi lặp lại."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000021"
+    locks:
+      - "Khóa danh xưng 'nhà chiến lược lừng danh—Trung tướng Zettour' và phẩm chất quyết liệt, dứt khoát trên chiến trường."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000022"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho mệnh lệnh '*rút lui, rút lui*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000023"
+    locks:
+      - "Khóa chủ thể 'các sĩ quan ngoài tiền tuyến' và tâm lý tự trấn an rằng cấp trên có ý đồ bí mật chưa nắm bắt được."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000024"
+    locks:
+      - "Khóa sự chuyển dịch điểm nhìn sang 'các sĩ quan cấp trên của họ' cùng phủ định việc không thể bấu víu vào nghi vấn đó."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000025"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho câu hỏi nội tâm của cấp chỉ huy: '*Tại sao chúng ta lại hành động thận trọng đến thế?*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000026"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho suy nghĩ nội tâm: '*Có điều gì đó bất ổn trong những mệnh lệnh này*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000027"
+    locks:
+      - "Khóa giả định trái thực tế ở quá khứ ('Giá như... hẳn đã...'), nhấn mạnh Markdown '*rút lui và giữ vững phòng tuyến*', và chủ thể 'các sĩ quan chỉ huy'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000028"
+    locks:
+      - "Khóa thuật ngữ 'phòng tuyến mới', 'tính cơ động', quân hàm 'Trung tướng Zettour', và đối lập giữa cách bố trí thiên về cơ động với việc củng cố công sự."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000029"
+    locks:
+      - "Khóa danh xưng 'Vị tướng này', thuật ngữ 'tác chiến cơ động', giả định 'Sẽ là một chuyện khác nếu họ đang lùi chiến tuyến về sau nhằm bảo toàn lực lượng cho một chiến dịch lớn', và câu kết mở ra vấn đề lớn của kết luận đó."
