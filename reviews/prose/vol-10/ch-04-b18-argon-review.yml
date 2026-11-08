@@ -1,0 +1,237 @@
+task_id: "vol-10-ch-04-b18-argon-review"
+parent_task_id: "vol-10-ch-04-b18"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b18-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b18.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b18-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000409"
+    severity: "minor"
+    issue: "Ở câu thứ hai, thành ngữ tiếng Anh chỉ việc quen thuộc diễn ra như thường lệ được dịch thành 'chuyện thường ngày ở huyện'. Cách nói có yếu tố hành chính bản địa ('ở huyện') hơi lệch màu sắc bối cảnh quân sự phương Tây của tác phẩm."
+    basis: "Đối chiếu sắc thái văn phong tại p000409 và hướng dẫn giữ giọng kể tự nhiên, phù hợp ngữ cảnh trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'chuyện thường ngày' hoặc 'chuyện cơm bữa' để hợp bối cảnh hơn; không ảnh hưởng nghĩa cốt lõi."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000413"
+    severity: "minor"
+    issue: "Ở câu cuối, cụm thành ngữ khen binh sĩ dày dạn, cứng cỏi được dịch là 'rắn rỏi như đinh đóng cột'. Trong tiếng Việt, 'như đinh đóng cột' thường đi với 'chắc' để chỉ lời nói hoặc sự việc chắc chắn, bất di bất dịch, khi ghép với tính từ chỉ phẩm chất con người 'rắn rỏi' tạo cảm giác lệch kết hợp từ."
+    basis: "Đối chiếu nghĩa của thành ngữ tại p000413 và nguyên tắc ưu tiên kết hợp từ tiếng Việt tự nhiên trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể đổi thành 'cứng cỏi như sắt đá' hoặc 'rắn rỏi như thép tôi'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000415"
+    severity: "minor"
+    issue: "Ở câu đầu tiên, hai đại từ ngôi thứ nhất số nhiều cùng chỉ tập thể đơn vị (tiểu đoàn pháp sư từng tác chiến tại Khối Thịnh vượng chung) được dịch lần lượt là 'Chúng ta' và 'mình' ('Chúng ta sắp sửa tấn công một vùng đất mà trước đây mình từng ghé thăm'), làm thu hẹp phạm vi chủ thể ở mệnh đề quan hệ."
+    basis: "Đối chiếu mạch quy chiếu với p000414 và các câu tiếp theo trong p000415."
+    recommendation: "Ở bước chuốt văn, polisher nên đồng bộ đại từ ở mệnh đề sau thành 'chúng ta' ('mà trước đây chúng ta từng ghé thăm') hoặc lược chủ ngữ lặp ('mà trước đây từng ghé thăm')."
+pending_term_recommendations:
+  - source_term: "Colonel / Lieutenant Colonel Degurechaff"
+    proposed_vi: "Trung tá / Trung tá Degurechaff"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với các phương án tạm đã khóa cho Trung tá Tanya von Degurechaff trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000395"
+      - "YS-LN10/Text/chapter022.xhtml/p000397"
+      - "YS-LN10/Text/chapter022.xhtml/p000404"
+  - source_term: "limited air superiority"
+    proposed_vi: "ưu thế trên không cục bộ"
+    category: "thuật ngữ quân sự - không quân"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án tạm đã khóa ở batch liền trước (ch-04-b17) và mục 'air superiority -> ưu thế trên không' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "ưu thế trên không hạn chế"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000397"
+  - source_term: "General Zettour / General Romel / General / sir"
+    proposed_vi: "Tướng Zettour / Tướng Romel / Thưa Tướng quân / thưa Tướng quân (ngài)"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án tạm đã chuẩn hóa cho Tướng Zettour và Tướng Romel trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000399"
+      - "YS-LN10/Text/chapter022.xhtml/p000400"
+      - "YS-LN10/Text/chapter022.xhtml/p000407"
+  - source_term: "Imperial Army / the Empire / General Staff Office"
+    proposed_vi: "Lục quân Đế quốc / Đế quốc / Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với các phương án tạm đã dùng xuyên suốt vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000399"
+      - "YS-LN10/Text/chapter022.xhtml/p000404"
+      - "YS-LN10/Text/chapter022.xhtml/p000421"
+      - "YS-LN10/Text/chapter022.xhtml/p000425"
+  - source_term: "battalion / regiment / brigade / company"
+    proposed_vi: "tiểu đoàn / trung đoàn / lữ đoàn / đại đội"
+    category: "thuật ngữ quân sự - biên chế"
+    status: "pending"
+    rationale: "Dịch chuẩn xác hệ thống cấp bậc đơn vị quân sự theo thuật ngữ quân đội tiếng Việt."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000400"
+      - "YS-LN10/Text/chapter022.xhtml/p000421"
+  - source_term: "203rd Aerial Mage Battalion / the 203rd / mage battalion"
+    proposed_vi: "Tiểu đoàn Pháp sư Trên không số 203 / Tiểu đoàn 203 / tiểu đoàn pháp sư"
+    category: "tên đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục '203rd Aerial Mage Battalion -> Tiểu đoàn Pháp sư Trên không số 203' và 'the 203rd -> Tiểu đoàn 203' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000404"
+      - "YS-LN10/Text/chapter022.xhtml/p000408"
+      - "YS-LN10/Text/chapter022.xhtml/p000409"
+      - "YS-LN10/Text/chapter022.xhtml/p000421"
+      - "YS-LN10/Text/chapter022.xhtml/p000427"
+  - source_term: "western front"
+    proposed_vi: "mặt trận phía tây"
+    category: "thuật ngữ quân sự - chiến trường"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục 'western front -> mặt trận phía tây' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000414"
+  - source_term: "Operation Revolving Door"
+    proposed_vi: "Chiến dịch Cánh cửa xoay"
+    category: "tên chiến dịch quân sự"
+    status: "pending"
+    rationale: "Nhất quán với 'revolving door -> cánh cửa xoay' và 'Operation Mini–Revolving Door -> Chiến dịch Cánh cửa xoay Thu nhỏ' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000414"
+  - source_term: "homeland of the Commonwealth / the Commonwealth"
+    proposed_vi: "bản thổ của Khối Thịnh vượng chung / Khối Thịnh vượng chung"
+    category: "tên gọi - quốc gia - địa chính trị"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với 'the Commonwealth / Commonwealth homeland -> Khối Thịnh vượng chung / bản thổ Khối Thịnh vượng chung' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000414"
+      - "YS-LN10/Text/chapter022.xhtml/p000415"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000395"
+    locks:
+      - "Khóa xưng hô trong thoại của Tướng Romel với Tanya ('ta' - 'cô', danh xưng 'Trung tá') và ý khẳng định giao phó trọng trách."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000396"
+    locks:
+      - "Khóa câu hỏi ngắn thể hiện sự bất ngờ nhưng giữ lễ tiết của Tanya ('…Dạ?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000397"
+    locks:
+      - "Khóa danh xưng 'Trung tá Degurechaff', đại từ thoại 'Ta' - 'cô'/'Các cô', thuật ngữ 'ưu thế trên không cục bộ', 'những trọng điểm' và giới hạn nhiệm vụ chỉ cần giữ vững các điểm này trong một đêm."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000398"
+    locks:
+      - "Khóa tên riêng 'Tanya', đại từ 'ông ta' chỉ Romel và nhận định về thái độ nghiêm túc của vị tướng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000399"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', 'Tướng Romel', cụm 'Giới lãnh đạo Lục quân Đế quốc' và nhận xét châm biếm về việc vắt kiệt sức lực binh lính."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000400"
+    locks:
+      - "Khóa danh xưng 'Thưa Tướng quân', đại từ 'tôi', tiểu từ 'ạ', các cấp đơn vị 'tiểu đoàn', 'trung đoàn', 'lữ đoàn' và phủ định đối lập quy mô đơn vị."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000401"
+    locks:
+      - "Khóa đại từ thoại của Romel ('ta', 'chúng ta', 'các cô'), đại từ chỉ địch ('chúng'), thuật ngữ 'Đội tuần tra đêm', 'ưu thế về quân số' và mục tiêu bảo đảm an toàn trong vài giờ."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000402"
+    locks:
+      - "Khóa đại từ thoại 'ngài' - 'tiểu đoàn chúng tôi', tiểu từ 'ạ' và câu hỏi xác nhận việc tiểu đoàn phải một mình xoay xở nhiệm vụ."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000403"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' theo DEC-P01-001, đại từ 'họ' chỉ tiểu đoàn và mục đích chỉ ra nhiệm vụ quá sức cùng liên từ chuyển ý 'Tuy nhiên…'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000404"
+    locks:
+      - "Khóa danh xưng 'Trung tá', đại từ 'Ta' - 'cô', tên gọi 'Đế quốc', 'Tiểu đoàn Pháp sư Trên không số 203' và cấu trúc điều kiện phủ định nhấn mạnh sự tín nhiệm tuyệt đối."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000405"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*Thôi xong, chết tiệt thật.*' trên toàn câu cảm thán nội tâm theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000406"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001 và sự đối lập giữa tiếng chửi thầm trong lòng với phản ứng chuẩn mực bên ngoài (nụ cười hoàn hảo, lời tán dương nhã nhặn, động tác chào chuẩn mực)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000407"
+    locks:
+      - "Khóa xưng hô trong thoại của Tanya với Romel ('ngài', 'thưa Tướng quân', 'tôi', tiểu từ 'ạ') và cam kết thi hành mệnh lệnh."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000408"
+    locks:
+      - "Khóa toàn bộ mốc thời gian và địa điểm '0100 GIỜ NGÀY 17 THÁNG 8 NĂM THỐNG NHẤT 1927, DOANH TRẠI TIỂU ĐOÀN PHÁP SƯ TRÊN KHÔNG SỐ 203'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000409"
+    locks:
+      - "Khóa tên đơn vị 'Tiểu đoàn 203', thông tin nhận lệnh xuất quân và nhận định đây là việc quen thuộc với binh sĩ."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000410"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, đại từ 'họ' và hành động phát biểu sau khi đơn vị đã tập hợp ngay ngắn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000411"
+    locks:
+      - "Khóa khẩu lệnh quân sự 'Nghiêm!'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000412"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, đại từ 'họ', hình ảnh 'cỗ máy chiến tranh' và niềm tự hào về lớp lính tinh hoa do chính tay Tanya đào tạo."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000413"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình'/'mình' theo DEC-P01-001, đại từ 'Họ'/'họ', phủ định 'chẳng có ai xuất sắc hơn tiểu đoàn của mình cả' và đánh giá nhiệm vụ vô lý nhưng đơn vị sẽ vượt qua."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000414"
+    locks:
+      - "Khóa cách xưng hô trong diễn văn của Tanya ('chúng ta', 'hỡi các chiến hữu của tôi'), các thuật ngữ 'mặt trận phía tây', 'Chiến dịch Cánh cửa xoay', 'bản thổ của Khối Thịnh vượng chung' và hình ảnh cái gai trong mắt trên bầu trời."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000415"
+    locks:
+      - "Khóa tên gọi 'Khối Thịnh vượng chung', các thuật ngữ 'pháp sư', 'bộ binh' và lập luận phủ định pháp sư không thể trấn giữ lãnh thổ vì không phải bộ binh."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000416"
+    locks:
+      - "Khóa đại từ 'chúng ta', thuật ngữ 'lực lượng bộ binh' và kết luận cần đưa bộ binh đi cùng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000417"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình'/'mình' theo DEC-P01-001 và quyết tâm khích lệ tinh thần binh sĩ trước nhiệm vụ khó khăn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000418"
+    locks:
+      - "Khóa câu hỏi tu từ ngắn mở đầu nhịp diễn văn ('Vì sao ư?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000419"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' theo DEC-P01-001 và hành động nhìn khắp gương mặt các cấp dưới khi tiếp tục bài diễn văn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000420"
+    locks:
+      - "Khóa cặp câu hỏi tu từ nối tiếp trong thoại ('Vì sao? Vì sao chúng ta lại có mặt ở đây?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000421"
+    locks:
+      - "Khóa tên tổ chức 'Văn phòng Bộ Tổng tham mưu', 'Tiểu đoàn Pháp sư Trên không số 203', ẩn dụ 'con át chủ bài' và phép đối chiếu giữa nói quá ('một địch một ngàn') với năng lực thực tế ('xóa sổ cả một đại đội toàn bọn vô danh tiểu tốt')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000422"
+    locks:
+      - "Khóa đại từ 'họ' và ba danh từ 'nhiệm vụ, vai trò và mục tiêu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000423"
+    locks:
+      - "Khóa đại từ thoại 'Chúng ta' và điệp cấu trúc khẳng định mục tiêu chiến thắng, thống trị bầu trời bằng chính sức mạnh của đơn vị."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000424"
+    locks:
+      - "Khóa phép tương phản giữa vị đắng của thất bại và sự ngọt ngào của chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000425"
+    locks:
+      - "Khóa tên gọi 'Đế quốc', đại từ 'họ' chỉ binh sĩ, đại từ nội tâm 'mình' theo DEC-P01-001, nhấn mạnh Markdown '*thiếu hụt kinh phí*' theo DEC-P01-002 và phủ định việc Đế quốc không có đủ tiền đầu tư cho chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000426"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001 và yêu cầu giữ cho binh lính dưới quyền bình tĩnh."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000427"
+    locks:
+      - "Khóa danh xưng 'Các chiến hữu', đại từ 'chúng ta' - 'chúng', nhấn mạnh Markdown '*Nhìn xem quân số của bọn chúng ít ỏi đến mức nào kìa*' theo DEC-P01-002, thuật ngữ 'tiểu đoàn pháp sư', 'lực lượng tăng viện' và giọng điệu mỉa mai về khả năng làm toán cơ bản của địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000428"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' theo DEC-P01-001, đại từ 'chúng ta' và mục đích trình bày khách quan hoàn cảnh để cấp dưới hiểu rõ tình hình."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000429"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, đại từ 'họ', phủ định 'không giải quyết được cốt lõi của vấn đề' và lý do cần duy trì sĩ khí ở mức cao."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000430"
+    locks:
+      - "Khóa hình ảnh so sánh sự cấp thiết với 'một nắm đấm sắt' định đoạt tất cả."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000431"
+    locks:
+      - "Khóa xưng hô trang trọng trong diễn văn ('Các vị' - 'tôi'/'Chúng ta'), hình ảnh ẩn dụ 'tôi luyện bằng máu và sắt', 'đám pháp sư còn đang đóng bỉm' và lý do đơn vị được triệu tập ra chiến trường."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000432"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' theo DEC-P01-001, đại từ 'họ' và ý truyền ý thức mạnh mẽ về mục tiêu chiến đấu."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000433"
+    locks:
+      - "Khóa các phủ định và lập luận nội tâm cuối đoạn về 'Ý chí', 'cảm giác tự chán ghét chính mình' và cảnh báo việc mất khả năng nhận biết điều sai trái sẽ dẫn tới sự bất tài thực sự."
