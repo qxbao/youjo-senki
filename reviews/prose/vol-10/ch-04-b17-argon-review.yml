@@ -1,0 +1,272 @@
+task_id: "vol-10-ch-04-b17-argon-review"
+parent_task_id: "vol-10-ch-04-b17"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b17-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b17.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b17-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000370"
+    severity: "minor"
+    issue: "Ở câu cuối, cụm chỉ chiến thắng thuần túy bằng lực lượng hải quân được dịch thành 'một chiến thắng thuần túy trên biển'. Vì tác chiến bằng pháp sư trên không ở vùng biển vẫn diễn ra trên biển, cách dịch 'thuần túy của hải quân' hoặc 'hải quân thuần túy' sẽ làm nổi bật rõ hơn lý do Tanya hỏi lại ở p000371 rằng có phải chỉ được dựa chủ yếu vào tàu chiến hay không."
+    basis: "Đối chiếu mạch lập luận giữa câu thứ ba, câu thứ tư của p000370 và câu hỏi nối tiếp ở p000371."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'một chiến thắng thuần túy của hải quân' hoặc 'một chiến thắng hải quân thuần túy'; không ảnh hưởng nghĩa cốt lõi vì câu liền trước đã nêu rõ việc dùng hải quân đánh bại hải quân địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000375"
+    severity: "minor"
+    issue: "Ở mệnh đề nhượng bộ đầu câu, cụm thành ngữ trung tính chỉ sự tương đồng về tính chất/chiều hướng được dịch là 'không cùng một giuộc với'. Trong tiếng Việt, 'cùng một giuộc' thường dùng với sắc thái khẩu ngữ miệt thị để chỉ nhóm người/phe cánh đồng lõa xấu xa, khi ghép với danh từ trừu tượng 'cuộc chiến dai dẳng' hơi lệch trường nghĩa và sắc thái."
+    basis: "Đối chiếu sắc thái từ vựng tại p000375 và nguyên tắc không thêm sắc thái miệt thị trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể đổi 'không cùng một giuộc với' thành 'không cùng một kiểu với' hoặc 'không cùng tính chất với' để câu văn tự nhiên và đúng sắc thái hơn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000384"
+    severity: "minor"
+    issue: "Ở cuối câu thứ hai, cấu trúc tỉnh lược của nguyên bản khi chuyển sang tiếng Việt ('nếu không có yểm trợ đường không, cho dù sự yểm trợ ấy chỉ ở mức hạn chế đi chăng nữa') có thể khiến người đọc thoáng hiểu nhầm mệnh đề nhượng bộ bổ nghĩa trực tiếp cho trạng thái 'không có'."
+    basis: "Đối chiếu cấu trúc điều kiện - nhượng bộ ở câu thứ hai của p000384 và mục tiêu giành ưu thế trên không cục bộ ở p000394."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc diễn đạt rõ mạch tỉnh lược hơn, chẳng hạn 'nếu không có lấy sự yểm trợ đường không, dù chỉ ở mức hạn chế đi chăng nữa'; không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "General Romel / the general / General / sir"
+    proposed_vi: "Tướng Romel / vị tướng / thưa Tướng quân"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với các phương án tạm đã khóa cho Tướng Romel trong pending-terms-index.yml."
+    alternatives_vi:
+      - "thưa ngài"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000361"
+      - "YS-LN10/Text/chapter022.xhtml/p000365"
+      - "YS-LN10/Text/chapter022.xhtml/p000366"
+      - "YS-LN10/Text/chapter022.xhtml/p000372"
+      - "YS-LN10/Text/chapter022.xhtml/p000382"
+      - "YS-LN10/Text/chapter022.xhtml/p000392"
+  - source_term: "assault destroyer / destroyers"
+    proposed_vi: "tàu khu trục xung kích / tàu khu trục"
+    category: "thuật ngữ quân sự - hải quân"
+    status: "pending"
+    rationale: "Kết hợp thuật ngữ 'destroyer -> tàu khu trục' đã có trong pending-terms-index.yml với tính chất 'assault -> xung kích' của phương án lao thẳng tàu lên bờ đổ bộ."
+    alternatives_vi:
+      - "tàu khu trục đổ bộ xung kích"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000362"
+      - "YS-LN10/Text/chapter022.xhtml/p000363"
+  - source_term: "landing parties"
+    proposed_vi: "các toán đổ bộ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác thuật ngữ hải quân/lục quân chỉ các đội/toán quân được tàu chiến đưa lên bờ."
+    alternatives_vi:
+      - "các đội đổ bộ"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000362"
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    category: "tên gọi - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án tạm đã dùng xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000362"
+      - "YS-LN10/Text/chapter022.xhtml/p000368"
+      - "YS-LN10/Text/chapter022.xhtml/p000373"
+      - "YS-LN10/Text/chapter022.xhtml/p000381"
+  - source_term: "aerial mages"
+    proposed_vi: "các pháp sư trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã chuẩn hóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000369"
+  - source_term: "air support / air cover / limited air superiority"
+    proposed_vi: "yểm trợ đường không / lực lượng yểm trợ đường không (sự yểm trợ đường không) / ưu thế trên không cục bộ"
+    category: "thuật ngữ quân sự - không quân"
+    status: "pending"
+    rationale: "Giữ nhất quán với 'air superiority -> ưu thế trên không' trong pending-terms-index.yml và diễn đạt chuẩn xác vai trò che chắn, yểm trợ từ trên không cho hạm đội tàu mặt nước."
+    alternatives_vi:
+      - "ưu thế trên không hạn chế"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000369"
+      - "YS-LN10/Text/chapter022.xhtml/p000384"
+      - "YS-LN10/Text/chapter022.xhtml/p000385"
+      - "YS-LN10/Text/chapter022.xhtml/p000393"
+      - "YS-LN10/Text/chapter022.xhtml/p000394"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Khớp với mục P05-being-x trong canon/glossary-pending.yml và pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000375"
+  - source_term: "heavy siege artillery / long-range railway guns"
+    proposed_vi: "trọng pháo công thành / pháo đường sắt tầm xa"
+    category: "thuật ngữ quân sự - pháo binh"
+    status: "pending"
+    rationale: "Khớp với 'railway guns -> pháo đường sắt' trong pending-terms-index.yml và dịch sát nghĩa 'heavy siege artillery -> trọng pháo công thành'."
+    alternatives_vi:
+      - "pháo công thành hạng nặng"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000378"
+      - "YS-LN10/Text/chapter022.xhtml/p000380"
+  - source_term: "commandos"
+    proposed_vi: "lực lượng biệt kích"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'commandos -> biệt kích' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "toán biệt kích"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000381"
+  - source_term: "Pacific War"
+    proposed_vi: "Chiến tranh Thái Bình Dương"
+    category: "lịch sử quân sự"
+    status: "pending"
+    rationale: "Tên gọi lịch sử chuẩn xác trong tiếng Việt cho cuộc chiến tại mặt trận Thái Bình Dương mà Tanya liên hệ từ ký ức kiếp trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000385"
+  - source_term: "battlecruisers / light cruisers"
+    proposed_vi: "tàu chiến-tuần dương / tàu tuần dương hạng nhẹ"
+    category: "thuật ngữ quân sự - hải quân"
+    status: "pending"
+    rationale: "Phân biệt chuẩn xác hai phân lớp chiến hạm: 'battlecruiser' (tàu chiến-tuần dương) và 'light cruiser' (tàu tuần dương hạng nhẹ, khớp pending-terms-index.yml)."
+    alternatives_vi:
+      - "thiết giáp tuần dương hạm / tuần dương hạm hạng nhẹ"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000385"
+      - "YS-LN10/Text/chapter022.xhtml/p000393"
+  - source_term: "anti–air defenses"
+    proposed_vi: "hệ thống phòng không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục 'anti–air defenses -> hệ thống phòng không' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "lưới lửa phòng không"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000389"
+  - source_term: "the Empire / Western Army Group"
+    proposed_vi: "Đế quốc / Cụm tập đoàn quân phía Tây"
+    category: "tổ chức quân sự - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với các phương án tạm đã chuẩn hóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000390"
+  - source_term: "choke points"
+    proposed_vi: "các điểm nghẽn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục 'choke points -> điểm nghẽn' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "các nút cổ chai"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000394"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000361"
+    locks:
+      - "Khóa danh xưng 'vị tướng', tình thái 'có vẻ như' và ý đã nghĩ ra cách giảm thiểu bất lợi đó."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000362"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' - 'chúng ta' theo DEC-P01-001, nhấn mạnh Markdown '*tàu khu trục xung kích*' theo DEC-P01-002, thông số 'ba mươi hải lý một giờ', thuật ngữ 'các toán đổ bộ', tên gọi 'Khối Thịnh vượng chung' và câu hỏi nghi vấn về phương thức lao tàu thẳng lên bờ biển địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000363"
+    locks:
+      - "Khóa đại từ thoại của Tướng Romel ('Chúng ta', 'Ta'), thuật ngữ 'tự đánh đắm', 'tàu khu trục', 'bên hải quân' và phủ định 'sẽ chẳng vui vẻ gì đâu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000364"
+    locks:
+      - "Khóa câu hỏi xác nhận của Tanya với đại từ 'Chúng ta', tiểu từ lễ phép 'ạ' và phủ định bộ phận 'sẽ không đưa được toàn bộ tàu thuyền trở về'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000365"
+    locks:
+      - "Khóa danh xưng 'vị tướng', đại từ 'ông ta', chủ thể 'Bên hải quân' và giả định về phản ứng dữ dội của hải quân nếu nghe thấy câu nói đó."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000366"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, danh xưng 'Tướng Romel' và nhận định về niềm tin vững chắc của ông đối với bản kế hoạch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000367"
+    locks:
+      - "Khóa đại từ 'Ông ta' và phủ định 'không còn đường lui nữa'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000368"
+    locks:
+      - "Khóa đại từ thoại 'Chúng ta', tên gọi 'Khối Thịnh vượng chung' và yêu cầu cấp thiết phải trực tiếp đưa binh lính đặt chân lên bờ biển địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000369"
+    locks:
+      - "Khóa câu hỏi đề xuất giả định của Tanya với đại từ 'chúng ta', tiểu từ 'ạ', thuật ngữ 'các pháp sư trên không', 'yểm trợ đường không' và mục đích phân tán sự tập trung của địch để tăng cơ hội chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000370"
+    locks:
+      - "Khóa đại từ thoại 'chúng ta' - 'chúng', phủ định 'không nằm trong tính toán' và 'biển cả không phải của riêng mình chúng', cùng lập luận rằng việc dùng pháp sư sẽ làm giảm sức nặng của chiến thắng hải quân."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000371"
+    locks:
+      - "Khóa hai câu hỏi liên tiếp của Tanya với đại từ 'chúng ta', tiểu từ 'ạ' và cấu trúc hỏi phản vấn 'Chẳng phải... cũng sẽ phục vụ cùng một mục đích đó hay sao?'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000372"
+    locks:
+      - "Khóa danh xưng 'Tướng Romel' và hành động gật đầu thật sâu trong im lặng trước khi trả lời."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000373"
+    locks:
+      - "Khóa đại từ thoại 'Chúng ta' - 'chúng', tên gọi 'Khối Thịnh vượng chung', thuật ngữ 'đàm phán ngoại giao' và cặp ý liên kết giữa niềm tin 'vô biên' trên biển của địch với việc chỉ rõ 'giới hạn thực sự nằm ở đâu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000374"
+    locks:
+      - "Khóa đại từ thoại của Tanya ('chúng ta', 'ngài', tiểu từ 'ạ'), đại từ chỉ địch ('chúng') và sắc thái nhận xét rằng mục tiêu hủy diệt sự tự tin trên biển của địch nghe khá hào hứng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000375"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, tên gọi 'Being X', phủ định so sánh đầu câu và nhận định về bản tính con người luôn cố tìm ý nghĩa trong những công việc vô nghĩa buộc phải làm."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000376"
+    locks:
+      - "Khóa đại từ khái quát 'bạn', điều kiện giả định được trả lương xứng đáng, phủ định 'Chẳng ai muốn làm không công cả' và kết luận tư duy cầu tiến cùng thái độ tích cực tạo ra sự đổi mới."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000377"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' theo DEC-P01-001 và hành động vỗ hai bàn tay vào nhau."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000378"
+    locks:
+      - "Khóa đại từ thoại 'chúng ta' - 'chúng', thuật ngữ 'trọng pháo công thành', ẩn dụ 'những bức tường gỗ' chỉ hải quân Khối Thịnh vượng chung và câu hỏi phản vấn gợi ý thổi bay tất cả thành từng mảnh vụn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000379"
+    locks:
+      - "Khóa đại từ thoại 'Chúng ta' - 'chúng', phủ định 'không có đủ tiềm lực để đập toạc chúng ra' và mệnh đề điều kiện 'Nếu việc tối đa chúng ta làm được chỉ là gõ cửa, thì tốt nhất là hãy gõ cho thật đàng hoàng'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000380"
+    locks:
+      - "Khóa đại từ thoại của Tanya ('Tôi', 'chúng ta', tiểu từ 'ạ'), thuật ngữ 'pháo đường sắt tầm xa' và sắc thái tiếc nuối về mong muốn không thực hiện được."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000381"
+    locks:
+      - "Khóa tình thái giả định trái thực tế ở quá khứ ('hẳn sẽ...'), các thuật ngữ 'Lực lượng biệt kích', 'sự yểm trợ của hải quân', 'đạn pháo cỡ nòng lớn', tên gọi 'Khối Thịnh vượng chung' và phủ định 'Sẽ chẳng có sự kiểm duyệt nào đủ sức ngăn...'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000382"
+    locks:
+      - "Khóa xưng hô trong thoại của Tanya với Romel ('chúng ta', 'Tôi', 'ngài', 'thưa Tướng quân'), thuật ngữ 'tác chiến trên biển' và ý hy vọng cấp trên không định giữ sức vào đúng lúc này."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000383"
+    locks:
+      - "Khóa đại từ tự xưng của Tướng Romel ('ta') và ẩn dụ chiếc ví rỗng tuếch khi dốc ngược lên chỉ rơi ra toàn biên lai."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000384"
+    locks:
+      - "Khóa đại từ thoại 'chúng ta', thuật ngữ 'yểm trợ đường không' và cảnh báo tàu chiến sẽ thành bia sống nếu thiếu sự yểm trợ đường không dù chỉ ở mức hạn chế."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000385"
+    locks:
+      - "Khóa các thuật ngữ 'không quân', 'Chiến tranh Thái Bình Dương', 'lực lượng yểm trợ đường không', 'các tàu chiến-tuần dương' và kết luận phủ định rằng nếu không có yểm trợ đường không thì tàu chiến-tuần dương chỉ có nước chìm xuống đáy đại dương."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000386"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001 và ý nghi ngờ đôi tai của chính mình."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000387"
+    locks:
+      - "Khóa dấu gạch ngang mở lời thoại của Romel và phủ định việc yểm trợ đường không sẽ không diễn ra."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000388"
+    locks:
+      - "Khóa câu hỏi ngắn thể hiện sự sững sờ của Tanya ('Sao cơ ạ?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000389"
+    locks:
+      - "Khóa đại từ thoại 'chúng ta', các thuật ngữ 'hệ thống phòng không', 'Các lực lượng không quân', 'những phi đoàn' và lý do lực lượng không quân đã bị điều đi chi viện phương xa hoặc đang tái tổ chức."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000390"
+    locks:
+      - "Khóa tên gọi 'Đế quốc', 'siêu cường quân sự', 'Cụm tập đoàn quân phía Tây' và câu hỏi nội tâm phản ánh sự nghịch lý khi không có nổi lực lượng cần thiết để tác chiến toàn lực."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000391"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001 và quyết tâm nói thẳng suy nghĩ trong lòng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000392"
+    locks:
+      - "Khóa danh xưng 'thưa Tướng quân', tiểu từ 'ạ' và phủ định 'tiền đề của kế hoạch không còn đứng vững nữa'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000393"
+    locks:
+      - "Khóa đại từ nội tâm 'chúng ta', số lượng và chủng loại tàu ('Hai chiếc tàu chiến-tuần dương và ba chiếc tàu tuần dương hạng nhẹ'), thuật ngữ 'sự yểm trợ đường không', 'các đội tuần tra đêm' và điều kiện tối thiểu phải xử lý đội tuần tra đêm của địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000394"
+    locks:
+      - "Khóa đại từ thoại của Tanya ('tôi', 'chúng ta', tiểu từ 'ạ'), các thuật ngữ 'ưu thế trên không cục bộ', 'các điểm nghẽn', 'những chiến hạm' và cảnh báo bất kỳ phương án nào khác sẽ dẫn đến tổn thất toàn bộ các chiến hạm quan trọng."
