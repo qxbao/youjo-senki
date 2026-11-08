@@ -1,0 +1,217 @@
+task_id: "vol-10-ch-06-b06-argon-review"
+parent_task_id: "vol-10-ch-06-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b06-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b06.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b06-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000167"
+    severity: "minor"
+    issue: "Cụm 'thăng lên hàm đại tướng' cụ thể hóa cấp bậc hẹp hơn cách gọi chung cấp tướng trong ngữ cảnh liền kề."
+    basis: "Tại p000161 nhân vật vẫn được định danh là 'Trung tướng Zettour', đồng thời p000168 ('những ngôi sao cấp tướng'), p000189 ('những vị tướng') và p000192 ('vị tướng hạng hai') đều đang xét bình diện cấp tướng nói chung."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'thăng lên hàm tướng dễ dàng đến vậy' để khớp mạch với p000161 và p000168."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000180"
+    severity: "minor"
+    issue: "Cụm 'nhà chiến lược gia' bị lặp yếu tố chỉ người ('nhà' và 'gia')."
+    basis: "Đối chiếu p000181, p000191 (đều dùng 'một chiến lược gia') và nguyên tắc kết hợp từ tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher nên lược thành 'chiến lược gia trong thâm tâm mình' hoặc 'nhà chiến lược trong thâm tâm mình'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000182"
+    severity: "minor"
+    issue: "Cách diễn đạt 'có lẽ sẽ chẳng đời nào chấp nhận' hơi quá tuyệt đối khi đặt cạnh câu ngay sau ('khả năng ông ấy chịu chấp nhận chỉ là năm ăn năm thua')."
+    basis: "Đối chiếu mức độ tình thái của phán đoán ở câu đầu với tỷ lệ 50-50 ở câu thứ hai tại p000182."
+    recommendation: "Ở bước chuốt văn, polisher có thể điều chỉnh nhẹ thành 'có lẽ sẽ không chịu chấp nhận những điều khoản này' để chuyển ý sang tỷ lệ năm ăn năm thua mượt hơn."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000196"
+    severity: "minor"
+    issue: "Câu độc thoại nội tâm in nghiêng dùng đại từ tự xưng 'mình' hơi lệch với ngôi tự xưng 'ta' của Zettour ở câu thoại độc thoại ngay trước (p000195) và sau (p000200)."
+    basis: "Đối chiếu DEC-P01-001 trong decisions.md (không tự mở rộng quy ước dùng 'mình' của Tanya sang chủ thể khác) và tính nhất quán trong giọng độc thoại của Zettour."
+    recommendation: "Ở bước chuốt văn, polisher có thể thống nhất thành '*Sẽ tốt hơn nếu ta có thể trực tiếp trao đổi mặt đối mặt với ông ấy.*' để đồng bộ với p000195 và p000200."
+pending_term_recommendations:
+  - source_term: "Lieutenant General Zettour / Zettour / the general / Rudersdorf"
+    proposed_vi: "Trung tướng Zettour / Zettour / vị tướng / Rudersdorf"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với định danh và cấp bậc đã khóa ở các lô trước của chương 6 và trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000161"
+      - "YS-LN10/Text/chapter028.xhtml/p000181"
+      - "YS-LN10/Text/chapter028.xhtml/p000182"
+      - "YS-LN10/Text/chapter028.xhtml/p000183"
+      - "YS-LN10/Text/chapter028.xhtml/p000184"
+      - "YS-LN10/Text/chapter028.xhtml/p000185"
+      - "YS-LN10/Text/chapter028.xhtml/p000186"
+      - "YS-LN10/Text/chapter028.xhtml/p000187"
+      - "YS-LN10/Text/chapter028.xhtml/p000189"
+      - "YS-LN10/Text/chapter028.xhtml/p000192"
+      - "YS-LN10/Text/chapter028.xhtml/p000194"
+      - "YS-LN10/Text/chapter028.xhtml/p000199"
+  - source_term: "eastern front / in the east"
+    proposed_vi: "mặt trận phía đông / ở miền đông"
+    category: "thuật ngữ quân sự - địa lý"
+    status: "pending"
+    rationale: "Đồng bộ với định danh địa lý quân sự trong pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000165"
+      - "YS-LN10/Text/chapter028.xhtml/p000171"
+  - source_term: "senior staff officers / General Staff Office / war college / the Empire"
+    proposed_vi: "các sĩ quan tham mưu cao cấp / Văn phòng Bộ Tổng tham mưu / trường đại học quân sự / Đế quốc"
+    category: "tổ chức quân sự - chức danh - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống thuật ngữ tổ chức và đào tạo quân sự đã khóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000172"
+      - "YS-LN10/Text/chapter028.xhtml/p000174"
+      - "YS-LN10/Text/chapter028.xhtml/p000183"
+      - "YS-LN10/Text/chapter028.xhtml/p000189"
+  - source_term: "political officer"
+    proposed_vi: "sĩ quan chính trị"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác, trung tính theo nghĩa trực tiếp cho vai trò sĩ quan phụ trách công tác chính trị/liên lạc chính trị."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000195"
+  - source_term: "Plan B / official channels"
+    proposed_vi: "Kế hoạch B / các kênh liên lạc chính thức"
+    category: "thuật ngữ quân sự - kế hoạch"
+    status: "pending"
+    rationale: "Nhất quán với định danh 'Kế hoạch B' đã khóa xuyên suốt chương 5 và chương 6 của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000197"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000160"
+    locks:
+      - "Khóa đại từ 'Ông' (Zettour), 'cô' (Trung tá Degurechaff từ đoạn trước) và nhận thức mang tính khả thể quá khứ rằng tài năng quân sự của cô có lẽ bắt nguồn từ việc cô không phải là một người lính tầm thường."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000161"
+    locks:
+      - "Khóa định danh 'Trung tướng Zettour' và chi tiết bật ra tiếng cười khẽ nhưng vô cùng rõ rệt."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000162"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Ồ, ra là vậy*' và đại từ trần thuật 'ông'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000163"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu nội tâm '*Hóa ra mọi chuyện chỉ đơn giản có thế*'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000164"
+    locks:
+      - "Khóa đại từ 'Ông' và hành động bật cười trước sự nực cười của toàn bộ sự việc."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000165"
+    locks:
+      - "Khóa thuật ngữ 'mặt trận phía đông' và câu thoại giả định quá khứ về việc một người lính bình thường hẳn đã chạm giới hạn từ lâu."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000166"
+    locks:
+      - "Khóa thuật ngữ 'sĩ quan', 'huấn luyện tiêu chuẩn' và chi tiết những sĩ quan chỉ qua huấn luyện tiêu chuẩn vẫn giữ được đường lui về với tính người."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000167"
+    locks:
+      - "Khóa cấu trúc câu hỏi giả định đối lập giữa 'cỗ máy có tính hợp lý' với 'một con người' trong cuộc chiến toàn diện, cùng hệ quả lý giải vì sao một người nặng về lý thuyết như ông lại được thăng hàm tướng dễ dàng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000168"
+    locks:
+      - "Khóa câu độc thoại của Zettour về lý do cấp trên vung tay ban phát những ngôi sao cấp tướng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000169"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*bản tính lương thiện*', đại từ 'ông' - 'mình' và sự đối lập giữa tư duy logic tàn nhẫn (vốn là biện pháp khẩn cấp nay dần thành bình thường) với bản tính lương thiện của các đồng cấp."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000170"
+    locks:
+      - "Khóa nhận định chuyển ý rằng lý do cho chuyện này cũng thật đơn giản."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000171"
+    locks:
+      - "Khóa đại từ 'Chúng ta', định danh 'miền đông', phủ định không thể giành chiến thắng ở miền đông và nhu cầu cần thêm đủ mọi thứ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000172"
+    locks:
+      - "Khóa thuật ngữ 'các sĩ quan tham mưu cao cấp', định danh 'Đế quốc', ẩn dụ 'những con quái vật' / 'những sự phi lý được thổi hồn sống dậy' để biến điều không thể thành có thể và câu liên văn bản về điểm tựa đòn bẩy nhấc bổng thế giới."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000173"
+    locks:
+      - "Khóa quan hệ tương phản rằng số lượng những con quái vật như thế lại quá đỗi ít ỏi."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000174"
+    locks:
+      - "Khóa thuật ngữ 'trường đại học quân sự', hình ảnh 'vật chứa lý tưởng' và phủ định không có hy vọng cho ra lò hàng loạt thêm trong tương lai gần do quá trình sàng lọc khắc nghiệt."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000175"
+    locks:
+      - "Khóa thế lưỡng nan: không thể biến toàn bộ quân đội thành quái vật, nhưng chính sự bất lực đó sẽ làm cuộc chiến khựng lại và khiến họ không còn hy vọng vào một chiến thắng toàn diện."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000176"
+    locks:
+      - "Khóa câu độc thoại của Zettour với đại từ 'ta' - 'chúng ta' về việc đến nước này chỉ còn biết trông cậy vào chính trị."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000177"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*bên ngoài*', đại từ 'Họ' và sự tương phản giữa việc có thể thắng đôi trận trên chiến trường với nhu cầu thực sự là những thắng lợi bên ngoài chiến trường."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000178"
+    locks:
+      - "Khóa câu hỏi nội tâm mở về tính khả thi của phương án chính trị."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000179"
+    locks:
+      - "Khóa tình thái có thể đồng nghĩa với việc rốt cuộc họ phải chấp nhận thất bại và nhận định đó là thế giới của chính trị."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000180"
+    locks:
+      - "Khóa tỷ số ẩn dụ 'năm mươi mốt trên bốn mươi chín', mức chênh lệch 'hai điểm' trên thang một trăm, thuật ngữ 'chiến thắng về mặt kỹ thuật' và câu hỏi nội tâm của Zettour ('ông' - 'mình')."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000181"
+    locks:
+      - "Khóa tên riêng 'Zettour', vai trò 'chiến lược gia' và chi tiết dành phần lớn sự nghiệp trăn trở về chuyện thắng bại."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000182"
+    locks:
+      - "Khóa định danh 'Tên ngốc Rudersdorf đó', đại từ 'Ta' - 'ông ấy', phán đoán phủ định ở câu đầu và mức cược 'năm ăn năm thua' ở câu thứ hai."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000183"
+    locks:
+      - "Khóa đại từ 'Ông ấy' (Rudersdorf), tên riêng 'Zettour', thuật ngữ 'trường đại học quân sự', 'sĩ quan' và phẩm chất nhạy bén chớp thời cơ cùng kiến thức thấu triệt về tác chiến và giành chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000184"
+    locks:
+      - "Khóa tên riêng 'Zettour', 'Rudersdorf', đại từ 'ông' và quan hệ nhân quả: vì nghi ngờ khả năng mình có thể qua mặt Rudersdorf trong điều hành tác chiến quân sự nên ông không lo lắng về bản thân cuộc chiến."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000185"
+    locks:
+      - "Khóa đại từ 'Ông', tên riêng 'Rudersdorf' và thái độ sẵn lòng để Rudersdorf đánh trận."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000186"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*quá trình binh nghiệp*', tên riêng 'Zettour', 'Rudersdorf' và mối bận tâm hàng đầu khi yếu tố chính trị can dự vào bài toán."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000187"
+    locks:
+      - "Khóa tên riêng 'Zettour' và chi tiết đó là sự khác biệt mong manh mà Zettour đã có đôi chút kinh nghiệm xoay xở."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000188"
+    locks:
+      - "Khóa câu thoại của Zettour với đại từ 'Ông ấy' (Rudersdorf) về cái tật luôn ra lệnh vào thời điểm tồi tệ nhất có thể."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000189"
+    locks:
+      - "Khóa định danh 'vị tướng ấy' (Rudersdorf), 'Văn phòng Bộ Tổng tham mưu', tên riêng 'Zettour', thuật ngữ 'sĩ quan tham mưu cao cấp' và nhận định những vị tướng được tôi luyện từ hàng ngũ này là một nhóm rất đặc thù."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000190"
+    locks:
+      - "Khóa đại từ 'ông ấy' (Rudersdorf), phủ định chưa bao giờ tự mãn vì thực tế đó và sự giới hạn bởi trải nghiệm cá nhân cùng môi trường trưởng thành."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000191"
+    locks:
+      - "Khóa vai trò 'chiến lược gia', đại từ 'Ông ấy' và phủ định không đời nào chịu chấp nhận thất bại."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000192"
+    locks:
+      - "Khóa sự đối lập giữa Zettour ('vị tướng hạng hai') và phong cách chỉ huy của Rudersdorf ('hàng thật giá thật'), cùng nỗi hoài nghi liệu người bạn của mình có biết đạt mục tiêu bằng phương thức nào ngoài vũ lực hay không."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000193"
+    locks:
+      - "Khóa đại từ 'Ông' và hành động lắc cái đầu đang bắt đầu nhức buốt."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000194"
+    locks:
+      - "Khóa tên riêng 'Zettour' và niềm hy vọng nỗi lo của mình sẽ hóa ra vô ích để một ngày nào đó hai người có thể nâng ly pha trò về chuyện này."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000195"
+    locks:
+      - "Khóa đại từ 'Ta' - 'ông ấy', thuật ngữ 'sĩ quan chính trị' và ý định gửi thư thông qua một sĩ quan chính trị."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000196"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu suy nghĩ trực tiếp ước muốn trao đổi mặt đối mặt với Rudersdorf."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000197"
+    locks:
+      - "Khóa thuật ngữ 'rào cản hậu cần', 'Kế hoạch B', 'các kênh liên lạc chính thức', đại từ 'ông' - 'họ' và sự tương phản giữa việc dễ dàng trao đổi ý kiến quân sự với việc không thể bàn bạc về thứ độc tố chết người trong Kế hoạch B qua kênh chính thức."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000198"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*À.*'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000199"
+    locks:
+      - "Khóa định danh 'vị tướng' và chi tiết lần đầu tiên chợt nhận ra một điều."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000200"
+    locks:
+      - "Khóa câu độc thoại kết đoạn của Zettour với đại từ 'Ta', cụm 'con người đó' (Rudersdorf) và phủ định chưa bao giờ thực sự đoán được ông ấy đang nghĩ gì."
