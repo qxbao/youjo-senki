@@ -1,0 +1,257 @@
+task_id: "vol-10-ch-03-b09-argon-review"
+parent_task_id: "vol-10-ch-03-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b09-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b09.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b09-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000157"
+    severity: "minor"
+    issue: "Ở câu đầu, cụm 'một mệnh lệnh trắng trợn đến mức này' mang sắc thái phán xét tiêu cực mạnh hơn so với từ gốc vốn chỉ sự rõ ràng, thẳng thừng (đặt trong thế đối lập với việc 'ẩn ý' ở vế trước)."
+    basis: "Quy tắc giữ đúng bình diện đánh giá và không thêm sắc thái phán xét trong canon/style-guide.md tại p000157."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'một mệnh lệnh thẳng thừng đến mức này' hoặc 'một mệnh lệnh rõ ràng đến mức này'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000171"
+    severity: "minor"
+    issue: "Cụm 'hầu như sẽ chẳng từ thủ đoạn nào' mang sắc thái đạo đức tiêu cực hơn so với cấu trúc phủ định kép chỉ mức độ sẵn sàng cao độ của các sĩ quan trong nguồn."
+    basis: "Quy tắc không thêm sắc thái phán xét hoặc đạo đức không có trong nguồn tại canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'hầu như sẵn sàng làm bất cứ điều gì' hoặc 'hầu như chẳng nề hà việc gì'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000179"
+    severity: "minor"
+    issue: "Câu đầu lặp từ 'lại' hai lần gần nhau ('nhưng đôi khi chúng lại mang lại cảm giác') và tự thêm từ giải thích 'báo động' vào sau hình ảnh ẩn dụ 'những con chim hoàng yến', làm lộ trước ý 'đưa ra lời cảnh báo' ở câu thứ hai."
+    basis: "Quy tắc không tự thêm giải thích và viết tiếng Việt tự nhiên trong canon/style-guide.md tại p000179."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'nhưng đôi khi chúng lại đem đến cảm giác giống những con chim hoàng yến hơn'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000186"
+    severity: "minor"
+    issue: "Trong lời thoại của cấp trên nói với Trung tá Drake, câu 'Nào, hãy nghe báo cáo của anh xem sao' dùng trợ từ mệnh lệnh 'hãy nghe' dễ tạo cảm giác yêu cầu người nghe tự nghe báo cáo của chính mình."
+    basis: "Quy tắc diễn đạt tiếng Việt tự nhiên, rõ nghĩa trong canon/style-guide.md tại p000186."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'Nào, để tôi nghe báo cáo của anh xem sao' hoặc 'Nào, giờ thì nghe báo cáo của anh xem sao'."
+pending_term_recommendations:
+  - source_term: "emergency evasive maneuvers / evasive maneuvers"
+    proposed_vi: "các pha cơ động né tránh khẩn cấp / các pha cơ động né tránh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'các pha cơ động né tránh' đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000153"
+  - source_term: "General Zettour / General Romel / Sir / sir"
+    proposed_vi: "Tướng Zettour / Tướng Romel / Thưa Tướng quân / thưa Tướng quân (ngài)"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Thống nhất tuyệt đối với hệ danh xưng và hô ngữ dành cho Tướng Zettour và Tướng Romel trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000157"
+      - "YS-LN10/Text/chapter018.xhtml/p000159"
+      - "YS-LN10/Text/chapter018.xhtml/p000164"
+  - source_term: "the Empire / high-ranking officers / General Staff Office"
+    proposed_vi: "Đế quốc / các sĩ quan cao cấp / Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự - quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với các lựa chọn đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000157"
+      - "YS-LN10/Text/chapter018.xhtml/p000158"
+      - "YS-LN10/Text/chapter018.xhtml/p000163"
+  - source_term: "aerial mage"
+    proposed_vi: "pháp sư trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với thuật ngữ đã dùng xuyên suốt các tập và sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000158"
+  - source_term: "AUGUST 14, UNIFIED YEAR 1927, COMMONWEALTH SUBURBS"
+    proposed_vi: "NGÀY 14 THÁNG 8 NĂM THỐNG NHẤT 1927, VÙNG NGOẠI Ô KHỐI THỊNH VƯỢNG CHUNG"
+    category: "tiêu đề thời gian - địa điểm"
+    status: "pending"
+    rationale: "Theo đúng mẫu định dạng ngày tháng Năm Thống nhất và tên gọi Khối Thịnh vượng chung trong vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000166"
+  - source_term: "naval mages / foot soldiers"
+    proposed_vi: "các pháp sư hải quân / những người lính bộ binh thường"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án 'pháp sư hải quân' đã ghi nhận trong sổ pending-terms-index.yml của vol-10 và làm rõ sự tương phản với lính bộ binh thông thường."
+    alternatives_vi:
+      - "các pháp sư hải quân / những người lính bộ binh"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000170"
+      - "YS-LN10/Text/chapter018.xhtml/p000171"
+  - source_term: "Imperial Guard / fog city"
+    proposed_vi: "Đội Cận vệ Hoàng gia / thành phố sương mù"
+    category: "tổ chức quân sự - địa danh"
+    status: "pending"
+    rationale: "Đồng bộ 'thành phố sương mù' với sổ pending-terms-index.yml và dịch 'Đội Cận vệ Hoàng gia' phù hợp với thể chế quân chủ của Khối Thịnh vượng chung tại thủ đô sương mù."
+    alternatives_vi:
+      - "Đội Cận vệ / thành phố sương mù"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000172"
+  - source_term: "Commonwealth’s Intelligence Service"
+    proposed_vi: "Cơ quan Tình báo Khối Thịnh vượng chung"
+    category: "tổ chức tình báo"
+    status: "pending"
+    rationale: "Khớp chính xác với lựa chọn đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000173"
+  - source_term: "decapitation strikes / Rhine campaign"
+    proposed_vi: "các đòn tập kích chặt đầu chỉ huy / chiến dịch Rhine"
+    category: "thuật ngữ quân sự - chiến dịch"
+    status: "pending"
+    rationale: "Thống nhất tuyệt đối với các mục tương ứng trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000175"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh"
+    status: "pending"
+    rationale: "Thống nhất với biệt danh của Tanya trong toàn bộ các tập và sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000178"
+  - source_term: "Lieutenant Colonel Drake / Drake / Colonel"
+    proposed_vi: "Trung tá Drake / Drake / Trung tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc và danh xưng của Trung tá Drake xuyên suốt các tập và vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000180"
+      - "YS-LN10/Text/chapter018.xhtml/p000183"
+      - "YS-LN10/Text/chapter018.xhtml/p000186"
+      - "YS-LN10/Text/chapter018.xhtml/p000187"
+  - source_term: "boat mage / Charon"
+    proposed_vi: "pháp sư lái đò / Charon"
+    category: "ẩn dụ - điển tích"
+    status: "pending"
+    rationale: "Bám sát bề mặt từ ngữ nguồn ('boat mage') kết hợp điển tích thần thoại Hy Lạp về người lái đò Charon đưa linh hồn qua sông địa ngục."
+    alternatives_vi:
+      - "người lái đò ma pháp / Charon"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000183"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000151"
+    locks:
+      - "Khóa câu đáp ngập ngừng 'Vâng ạ…' của Tanya trước lời đề nghị của Tướng Romel."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000152"
+    locks:
+      - "Khóa đại từ độc thoại nội tâm 'mình' / 'Mình' theo DEC-P01-001, hình ảnh 'gióng lên hồi chuông báo động trong đầu mình', và ý định lách khỏi chuyện này bằng giọng điệu cùng vẻ mặt mơ hồ."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000153"
+    locks:
+      - "Khóa thuật ngữ 'các pha cơ động né tránh khẩn cấp'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000154"
+    locks:
+      - "Khóa chuỗi tự nhủ trong nội tâm của Tanya ('mình', 'ông ấy', 'chúng ta'), lối tự quy chiếu ngôi thứ ba 'Tanya' ở câu kết, và giới hạn 'cùng lắm cũng chỉ câu thêm cho Tanya được vài giây ngắn ngủi'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000155"
+    locks:
+      - "Khóa nhận định ngắn 'Kẻ địch quá đỗi hùng mạnh'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000156"
+    locks:
+      - "Khóa cặp đại từ xưng hô 'Ta' - 'cô' trong lời thoại của Tướng Romel giao việc xin phê chuẩn cho Tanya."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000157"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', giả định trái thực tế 'giá mà mình không hiểu những gì ông ấy đang ẩn ý', phủ định 'chẳng có cách nào trốn tránh', và các danh xưng 'Tướng Zettour', 'Tướng Romel', 'các sĩ quan cao cấp của Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000158"
+    locks:
+      - "Khóa lối tự quy chiếu ngôi thứ ba 'Tanya', thuật ngữ 'pháp sư trên không', tên riêng 'Đế quốc', và phủ định 'tuyệt chẳng phải chuyện dễ dàng gì!'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000159"
+    locks:
+      - "Khóa hô ngữ 'Thưa Tướng quân', đại từ 'ngài', và câu hỏi phản vấn lịch sự bỏ lửng của Tanya."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000160"
+    locks:
+      - "Khóa nhận định phủ định của Tướng Romel 'Một người chỉ huy không thể dễ dàng rời khỏi vị trí của mình như thế được'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000161"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*bây giờ*' theo đúng DEC-P01-002, đại từ 'ông ta', và nhận định về hậu quả nghiêm trọng đối với sự nghiệp của một người lính nếu phản đối nguyên tắc hiển nhiên này."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000162"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', cụm 'thành viên kỳ cựu của một tổ chức', và nhận định 'chẳng còn lựa chọn nào khác ngoài việc nuốt nước mắt vào trong'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000163"
+    locks:
+      - "Khóa cặp đại từ 'ta' - 'cô', tên cơ quan 'Văn phòng Bộ Tổng tham mưu', và lời khích lệ 'Hãy cùng nhau biến chuyện này thành hiện thực'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000164"
+    locks:
+      - "Khóa đại từ thoại 'Tôi', hô ngữ 'thưa Tướng quân', và cam kết tiến hành với sự bảo mật tối đa để đưa kế hoạch ra chiến trường."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000165"
+    locks:
+      - "Khóa đại từ ngôi thứ ba 'Cô' và câu hỏi tu từ 'Cô còn có thể nói gì khác với người đàn ông này nữa đây?'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000166"
+    locks:
+      - "Khóa dòng tiêu đề thời gian – địa điểm 'NGÀY 14 THÁNG 8 NĂM THỐNG NHẤT 1927, VÙNG NGOẠI Ô KHỐI THỊNH VƯỢNG CHUNG'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000167"
+    locks:
+      - "Khóa câu mô tả mở cảnh 'Đó là một ngôi nhà ngoại ô bình thường như bao ngôi nhà khác'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000168"
+    locks:
+      - "Khóa cụm 'dinh thự miền quê điển hình của giới quý tộc' và mệnh đề rào đón ở cuối đoạn 'hoặc ít nhất, vẻ bề ngoài của nó trông là như vậy'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000169"
+    locks:
+      - "Khóa đại từ phiếm chỉ 'người ta' và sự chuyển biến ngay khoảnh khắc bước chân vào tòa nhà."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000170"
+    locks:
+      - "Khóa thuật ngữ 'các pháp sư hải quân', 'tiền tuyến', và chi tiết lính gác giả vờ mang dáng vẻ buồn chán, không quan trọng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000171"
+    locks:
+      - "Khóa sự tương phản giữa giá trị thực của các pháp sư hải quân và việc họ đóng giả làm những người lính bộ binh thường."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000172"
+    locks:
+      - "Khóa tên gọi 'Đội Cận vệ Hoàng gia' và địa danh 'thành phố sương mù'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000173"
+    locks:
+      - "Khóa tên cơ quan 'tổng hành dinh của Cơ quan Tình báo Khối Thịnh vượng chung', đại từ phiếm chỉ 'người ta', và chi tiết 'một bộ quy trình an ninh lập dị mới lại vừa được thiết lập'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000174"
+    locks:
+      - "Khóa câu độc thoại thành tiếng 'Phải thừa nhận rằng những quy trình này rất thận trọng'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000175"
+    locks:
+      - "Khóa thuật ngữ 'Các đòn tập kích chặt đầu chỉ huy', 'chiến dịch Rhine', và cụm 'Chủ nhân của cơ sở này'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000176"
+    locks:
+      - "Khóa nhận định khái quát về sự cảnh giác và thận trọng của người đứng đầu bất kỳ cơ quan tình báo nào dù ở phương đông hay phương tây."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000177"
+    locks:
+      - "Khóa mệnh đề giả định phủ định 'nếu ông ta không phải là người mà mình phải trực tiếp báo cáo'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000178"
+    locks:
+      - "Khóa biệt danh 'con Ác quỷ sông Rhine', đại từ tự xưng 'mình' trong lời lẩm bẩm của Drake, và chi tiết vết thương cũ bắt đầu nhức nhối kèm linh cảm chẳng lành."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000179"
+    locks:
+      - "Khóa phép so sánh vết sẹo với 'tấm huân chương' và 'những con chim hoàng yến', cùng đại từ giả định chung 'bạn'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000180"
+    locks:
+      - "Khóa danh xưng 'Trung tá Drake', đại từ ngôi thứ ba 'anh', cụm 'động vật xã hội', và phủ định 'Đầu óc lý trí của anh sẽ không cho phép bản năng lấn át mà quay đầu bỏ chạy'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000181"
+    locks:
+      - "Khóa đại từ 'Anh' và hành động rảo bước đi bên cạnh một người lính khác dọc theo các dãy hành lang."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000182"
+    locks:
+      - "Khóa đại từ 'anh', phủ định 'không hề có chút tự do đi lại nào, bất kể cấp bậc hay địa vị của họ ra sao', và cụm 'chế độ an ninh nghiêm ngặt của tòa nhà này'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000183"
+    locks:
+      - "Khóa sự phân biệt đại từ ngôi thứ ba giữa Drake ('anh') và người lính dẫn đường ('anh ta'), ẩn dụ 'không phải là một bức tường cản lối mà là một pháp sư lái đò', tên riêng 'Charon', hình ảnh 'cánh cổng địa ngục đã định trước', và phủ định 'chẳng còn đường nào để chạy trốn hay ẩn nấp được nữa'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000184"
+    locks:
+      - "Khóa câu trần thuật ngắn 'Anh hít một hơi thật sâu'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000185"
+    locks:
+      - "Khóa đại từ 'anh', hành động cúi chào người dẫn đường theo đúng nghi thức quân đội, và mô tả 'một người đàn ông với vẻ mặt đầy uy quyền đang chờ sẵn'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000186"
+    locks:
+      - "Khóa hô ngữ 'Trung tá' và đại từ 'anh' trong lời chào của cấp trên dành cho Drake."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000187"
+    locks:
+      - "Khóa tên riêng 'Drake', đại từ 'anh', mô tả tuýp người lớn tuổi kiệm lời vừa nắm bắt được cốt lõi vấn đề vừa dễ nổi nóng trước mọi lời bào chữa, và chi tiết cơn đau đầu bắt đầu ập đến."
