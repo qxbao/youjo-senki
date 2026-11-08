@@ -1,0 +1,237 @@
+task_id: "vol-10-ch-04-b11-argon-review"
+parent_task_id: "vol-10-ch-04-b11"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b11-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b11.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b11-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000195"
+    severity: "minor"
+    issue: "Cụm mở đầu câu đầu tiên ('Thực tế vấn đề là') bám khá sát cấu trúc bề mặt của thành ngữ tiếng Anh nên nhịp câu tiếng Việt hơi cứng."
+    basis: "Nguyên tắc viết tiếng Việt tự nhiên, tránh bám máy móc cấu trúc câu tiếng Anh trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc làm mượt thành 'Sự thật là' hoặc 'Thực tế là' trong khi vẫn giữ nguyên toàn bộ nghĩa và ẩn dụ tài chính phía sau; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000196"
+    severity: "minor"
+    issue: "Trong cùng một đoạn độc thoại nội tâm dùng chủ ngữ giả định chung, câu thứ hai dịch là 'Người ta' nhưng câu cuối lại chuyển sang 'đất nước của bạn', tạo cảm giác hơi dịch sát đại từ ngôi thứ hai khái quát."
+    basis: "Nguyên tắc giữ giọng kể và điểm nhìn nội tâm tự nhiên, nhất quán trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'khi đất nước của bạn đang cố' thành 'khi chính quốc gia của mình đang cố' (tương tự p000193) hoặc 'khi một quốc gia đang cố'; không sai lệch nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Colonel Lergen / the colonel / Colonel / sir"
+    proposed_vi: "Đại tá Lergen / vị đại tá / thưa Đại tá / Đại tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Đại tá và cách xưng hô/quy chiếu dành cho Lergen xuyên suốt tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000162"
+      - "YS-LN10/Text/chapter022.xhtml/p000165"
+      - "YS-LN10/Text/chapter022.xhtml/p000166"
+      - "YS-LN10/Text/chapter022.xhtml/p000168"
+      - "YS-LN10/Text/chapter022.xhtml/p000169"
+      - "YS-LN10/Text/chapter022.xhtml/p000173"
+      - "YS-LN10/Text/chapter022.xhtml/p000177"
+      - "YS-LN10/Text/chapter022.xhtml/p000181"
+      - "YS-LN10/Text/chapter022.xhtml/p000186"
+      - "YS-LN10/Text/chapter022.xhtml/p000188"
+      - "YS-LN10/Text/chapter022.xhtml/p000192"
+  - source_term: "Counselor Conrad / the counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất chức danh ngoại giao và cách quy chiếu tới Conrad theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000162"
+      - "YS-LN10/Text/chapter022.xhtml/p000166"
+      - "YS-LN10/Text/chapter022.xhtml/p000173"
+  - source_term: "the homeland"
+    proposed_vi: "chính quốc"
+    category: "thuật ngữ không gian - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã khóa trong pending-terms-index.yml của tập 10 khi chỉ vùng lãnh thổ trung tâm/hậu phương của Đế quốc."
+    alternatives_vi:
+      - "hậu phương"
+      - "bản thổ"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000163"
+  - source_term: "General Staff / General Staff Office / General Staff officers"
+    proposed_vi: "Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu / các sĩ quan Bộ Tổng tham mưu"
+    category: "thuật ngữ tổ chức quân sự"
+    status: "pending"
+    rationale: "Phân biệt và giữ thống nhất cách dịch giữa tên gọi tắt của cơ quan ('Bộ Tổng tham mưu'), tên đầy đủ có 'Office' ('Văn phòng Bộ Tổng tham mưu') và các sĩ quan thuộc cơ quan này theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000164"
+      - "YS-LN10/Text/chapter022.xhtml/p000170"
+      - "YS-LN10/Text/chapter022.xhtml/p000178"
+      - "YS-LN10/Text/chapter022.xhtml/p000183"
+  - source_term: "Supreme High Command"
+    proposed_vi: "Bộ Tư lệnh Tối cao"
+    category: "thuật ngữ tổ chức quân sự - chính trị"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa ở lô ch-04-b10 trong cùng mạch hội thoại."
+    alternatives_vi:
+      - "Bộ Chỉ huy Tối cao"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000170"
+  - source_term: "reconciliation"
+    proposed_vi: "giảng hòa"
+    category: "thuật ngữ ngoại giao - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với thuật ngữ đã khóa ở các lô ch-04-b09 và ch-04-b10 trong cùng cuộc thảo luận về triển vọng đàm phán hòa bình."
+    alternatives_vi:
+      - "hòa giải"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000174"
+  - source_term: "the army"
+    proposed_vi: "bên lục quân"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa ở các lô trước của chương 4 tập 10."
+    alternatives_vi:
+      - "lục quân"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000176"
+  - source_term: "Lieutenant Colonel"
+    proposed_vi: "Trung tá"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Giữ thống nhất cách Lergen gọi cấp bậc của Tanya trong thoại theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000179"
+      - "YS-LN10/Text/chapter022.xhtml/p000187"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "thuật ngữ quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch tên quốc gia trong toàn bộ bộ truyện."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000195"
+  - source_term: "revolving credit / advance loans"
+    proposed_vi: "tín dụng quay vòng / các khoản vay ứng trước"
+    category: "thuật ngữ tài chính - kinh tế"
+    status: "pending"
+    rationale: "Dùng đúng thuật ngữ tài chính tiêu chuẩn trong tiếng Việt để truyền tải chính xác phép ẩn dụ của Tanya về tình trạng kiệt quệ nguồn lực và vay nợ chồng chất của Đế quốc."
+    alternatives_vi:
+      - "tín dụng tuần hoàn / các khoản vay tạm ứng"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000195"
+      - "YS-LN10/Text/chapter022.xhtml/p000196"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000162"
+    locks:
+      - "Khóa sự chuyển đổi/tách biệt điểm nhìn trong cùng đoạn giữa tự sự nội tâm ngôi thứ nhất ('mình' theo DEC-P01-001) và quy chiếu ngôi thứ ba ('Tanya'), cùng tên 'Đại tá Lergen' ('ông ấy'), 'Tham tán Conrad' ('ông ta'), cấu trúc phủ định kép ('không thể không nhận ra', 'hẳn không phải điều') và nhấn mạnh Markdown '*sao ông ta nhận ra được chứ?*' theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000163"
+    locks:
+      - "Khóa độc thoại nội tâm với đại từ 'Ông ấy' (Lergen), ẩn dụ 'chiếc mặt nạ' và câu hỏi về 'bản lĩnh vững vàng' khi làm việc ở 'chính quốc'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000164"
+    locks:
+      - "Khóa câu giả định trái thực tế trong nội tâm với đại từ 'mình' theo DEC-P01-001, thuật ngữ 'các sĩ quan Bộ Tổng tham mưu', tình thái 'có lẽ' và phủ định 'chẳng bao giờ nhận ra được' đối với 'bộ mặt lạnh tanh kín như bưng này của ông ấy'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000165"
+    locks:
+      - "Khóa lời thoại yêu cầu giải thích của Conrad gửi tới 'Đại tá Lergen' với cặp xưng hô 'tôi' - 'ông'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000166"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với 'Tham tán Conrad' rút thêm điếu xì gà và 'vị đại tá' cuối cùng chịu nhượng bộ."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000167"
+    locks:
+      - "Khóa câu hỏi xác nhận ngắn của Lergen gửi tới Conrad với đại từ 'Ông'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000168"
+    locks:
+      - "Khóa lời đáp khẳng định của Conrad với cách gọi 'thưa Đại tá' và đại từ 'ông'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000169"
+    locks:
+      - "Khóa lời đáp 'Được thôi' và câu trần thuật ngôi thứ ba mô tả 'Đại tá Lergen' ('ông') hút thuốc lá rồi đưa ra 'một tiết lộ phũ phàng' trước 'họ' (Tanya và Conrad)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000170"
+    locks:
+      - "Khóa lời thoại của Lergen với phủ định tuyệt đối ('Chẳng có sự đồng thuận nào cả', 'hoàn toàn không có chút đồng thuận nào') giữa ba chủ thể 'Bộ Tổng tham mưu', 'Bộ Tư lệnh Tối cao' và 'chính phủ'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000171"
+    locks:
+      - "Khóa câu nhận xét nội tâm tóm lược nghịch lý ('Sự đồng thuận duy nhất chính là chẳng có sự đồng thuận nào cả')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000172"
+    locks:
+      - "Khóa câu cảm thán nội tâm ngắn về sự mỉa mai."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000173"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với 'Đại tá Lergen' tiếp tục nói ra sự thật nghiệt ngã như trò đùa tồi tệ trong khi 'Tanya' và 'vị tham tán' chết lặng vì bàng hoàng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000174"
+    locks:
+      - "Khóa lời thoại của Lergen hướng tới Conrad ('Ông'), giữ thuật ngữ 'giảng hòa', phủ định ('chẳng tìm nổi một người nào có thể trả lời') và giả định mỉa mai ở câu cuối."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000175"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với tên 'Tanya' cao giọng lên tiếng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000176"
+    locks:
+      - "Khóa lời thoại phản bác đầy sửng sốt của Tanya trước cấp trên (có tiểu từ kính ngữ 'ạ'), giữ thuật ngữ 'bên lục quân', 'những định hướng chỉ đạo' và hai câu hỏi phủ định liên tiếp."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000177"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với 'Đại tá Lergen' ('ông') lắc đầu trang nghiêm và góc nhìn của 'Tanya' không sao hiểu nổi sự điềm tĩnh đó."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000178"
+    locks:
+      - "Khóa câu hỏi chất vấn của Tanya về 'Văn phòng Bộ Tổng tham mưu' (giữ sắc thái kính ngữ 'ạ' khi nói trước mặt cấp trên)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000179"
+    locks:
+      - "Khóa lời thoại bị bỏ lửng của Lergen gọi Tanya là 'Trung tá', xưng hô 'tôi' - 'cô' và đại từ bao gộp 'Chúng ta' / 'chúng ta' với tư cách là 'quân nhân'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000180"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba mô tả 'Tanya' ngắt lời 'ông' (Lergen) và thẳng thừng bác bỏ cấp trên."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000181"
+    locks:
+      - "Khóa lời thoại của Tanya với cụm mở đầu lịch sự trước khi phản bác ('Xin thứ lỗi cho sự mạo muội của tôi thưa Đại tá'), xưng 'tôi' và dùng 'chúng ta' trong câu hỏi phủ định cuối đoạn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000182"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với phủ định ('không phải là cuộc trò chuyện cần phải lặp đi lặp lại nhiều lần') và tên 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000183"
+    locks:
+      - "Khóa câu trần thuật nối tiếp với đại từ 'cô' (Tanya) và cụm 'các sĩ quan Bộ Tổng tham mưu khác'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000184"
+    locks:
+      - "Khóa câu trần thuật ngắn nhấn mạnh sự bất lực khi 'cô' (Tanya) vẫn phải lặp lại điều đó."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000185"
+    locks:
+      - "Khóa hai câu hỏi than thở trong lời thoại của Tanya với đại từ 'tôi' và cấu trúc phủ định ('chẳng đến được tai một ai cả', 'chẳng bao giờ có bất cứ thứ gì thay đổi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000186"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với 'Đại tá Lergen' ('Ông') phả làn khói thuốc chứa 'nicotine và hắc ín' trước nỗi lo âu của 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000187"
+    locks:
+      - "Khóa lời thoại của Lergen gọi Tanya là 'Trung tá', xưng hô 'tôi' - 'cô' với tư cách người trong cùng tổ chức chỉ ra chỗ cô đang làm sai."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000188"
+    locks:
+      - "Khóa lời đáp ngắn lịch sự của Tanya mời Lergen nói tiếp ('Xin Đại tá cứ nói')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000189"
+    locks:
+      - "Khóa lời khuyên ẩn dụ của Lergen với đại từ 'Cô', hình ảnh 'bọc đường cho những viên thuốc đắng nhất' và phủ định 'không được hà tiện đường đâu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000190"
+    locks:
+      - "Khóa lời đáp trả theo nghĩa đen thời chiến của Tanya với đại từ 'Chúng ta', 'Tôi' / 'mình', cùng chi tiết chuyển đổi 'các cánh đồng củ cải đường' thành 'ruộng khoai tây'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000191"
+    locks:
+      - "Khóa lời thoại của Lergen với đại từ 'cô' (Tanya), phủ định số lượng ('Chẳng có mấy người như cô'), ẩn dụ 'nuốt trôi viên thuốc đắng mang tên thực tại' và thành ngữ 'quẳng hết lẽ thường qua cửa sổ'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000192"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với 'Tanya' ('cô') nhìn lên trần nhà lắng nghe lời khuyên mỏi mệt từ 'một vị đại tá mỏi mệt'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000193"
+    locks:
+      - "Khóa điểm nhìn nội tâm ngôi thứ nhất với đại từ tự quy chiếu 'mình' theo DEC-P01-001 và tâm trạng hối hận vì đã ở lại căn phòng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000194"
+    locks:
+      - "Khóa lời cảm thán mỉa mai ('Thật không thể tin nổi!') kết hợp trần thuật nội tâm ngôi thứ nhất ('Mình' / 'mình' theo DEC-P01-001) và phủ định ('vốn đã chẳng có ý nghĩa gì ngay từ đầu')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000195"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất với đại từ 'mình', tên 'Đế quốc' ('họ'), phủ định ('thậm chí còn chẳng vận hành bình thường được nữa') và các thuật ngữ tài chính ẩn dụ ('Séc của họ có thể bị từ chối thanh toán', 'tín dụng quay vòng', 'thiếu tiền mặt để thanh toán các khoản nợ')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000196"
+    locks:
+      - "Khóa đoạn kết nội tâm phê phán sự phi lý của việc đánh trận bằng 'các khoản vay ứng trước', giữ nguyên mệnh đề nhượng bộ ('ngay cả khi đó là quyền được tắc trách') và sự sụp đổ nguyên tắc."
