@@ -1,0 +1,134 @@
+task_id: vol-10-ch-04-b06-argon-review
+parent_task_id: vol-10-ch-04-b06
+reviewer: gemini-4-argon-medium
+role: terminology_review_argon
+volume: vol-10
+chapter: ch-04
+batch: b06
+source_path: work/vol-10/batches/ch-04-b06-source.jsonl
+translation_path: translations/vol-10/ch-04-b06.jsonl
+reviewed_at: "2026-11-08T11:32:00+07:00"
+summary:
+  segments_reviewed: 25
+  serious: 0
+  moderate: 0
+  minor: 2
+  status: pass_with_minor_notes
+findings:
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000005
+    severity: minor
+    category: prose_naturalness
+    issue: "Tại p000005, câu 'Bảo hiểm chỉ đúng là như thế—bảo hiểm mà thôi.' bám sát cấu trúc nhấn mạnh của nguồn nhưng kết hợp từ 'chỉ đúng là như thế' hơi gượng trong tiếng Việt."
+    recommendation: "Có thể giữ nguyên vì không sai nghĩa, hoặc tinh chỉnh nhẹ ở bước polish thành 'Bảo hiểm đúng là như thế—chỉ là bảo hiểm mà thôi.' hoặc 'Bảo hiểm suy cho cùng cũng chỉ là như thế—bảo hiểm mà thôi.'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000007
+    severity: minor
+    category: collocation
+    issue: "Tại p000007, thuật ngữ 'insurance fraud' đang dịch là 'trục lợi bảo hiểm gian lận', hơi trùng ý giữa 'trục lợi' và 'gian lận' và lặp lại từ 'trục lợi' vừa dùng cho 'capitalize on' ở p000006."
+    recommendation: "Có thể giữ nguyên hoặc chỉnh nhẹ ở bước polish thành 'gian lận bảo hiểm' (và tại p000006 có thể cân nhắc 'kiếm lời từ' / 'tận dụng' hoặc giữ 'trục lợi từ' đều đạt)."
+pending_term_recommendations:
+  - term: "interior lines doctrine / interior lines strategy"
+    recommended_vi: "học thuyết tác chiến trên tuyến trong / chiến lược nội tuyến"
+    alternatives:
+      - "học thuyết nội tuyến / chiến lược tác chiến trên tuyến trong"
+    rationale: "Cả hai cách dịch đều đã được ghi nhận trong work/run-state/pending-terms-index.yml (vol-02 và vol-10) và phản ánh đúng khái niệm quân sự."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter022.xhtml/p000001
+      - YS-LN10/Text/chapter022.xhtml/p000005
+  - term: "defeating ... in detail"
+    recommended_vi: "tiêu diệt từng bộ phận"
+    alternatives:
+      - "đánh bại từng bộ phận"
+    rationale: "Thuật ngữ lý thuyết quân sự chuẩn xác để chỉ việc tập trung ưu thế binh lực tiêu diệt từng cánh quân địch bị chia cắt."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter022.xhtml/p000001
+  - term: "Counselor Conrad / Lieutenant Colonel"
+    recommended_vi: "Tham tán Conrad / thưa Trung tá"
+    alternatives: []
+    rationale: "Giữ nhất quán hoàn toàn với chức danh ngoại giao của Conrad và cấp bậc của Tanya trong vol-10."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter022.xhtml/p000009
+  - term: "the Empire / the Rhine / Operation Revolving Door / François Republic / Ildoa"
+    recommended_vi: "Đế quốc / mặt trận Rhine / Chiến dịch Cánh cửa xoay / Cộng hòa François / Ildoa"
+    alternatives: []
+    rationale: "Khớp hoàn toàn với hệ thống tên riêng, địa danh và tên chiến dịch đã khóa xuyên suốt các tập và vol-10."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter022.xhtml/p000004
+      - YS-LN10/Text/chapter022.xhtml/p000008
+      - YS-LN10/Text/chapter022.xhtml/p000010
+      - YS-LN10/Text/chapter022.xhtml/p000011
+      - YS-LN10/Text/chapter022.xhtml/p000014
+      - YS-LN10/Text/chapter022.xhtml/p000016
+      - YS-LN10/Text/chapter022.xhtml/p000022
+      - YS-LN10/Text/chapter022.xhtml/p000023
+      - YS-LN10/Text/chapter022.xhtml/p000024
+      - YS-LN10/Text/chapter022.xhtml/p000025
+  - term: "force concentration / local superiority"
+    recommended_vi: "sự tập trung binh lực / ưu thế cục bộ"
+    alternatives: []
+    rationale: "Thuật ngữ chiến thuật - chiến dịch chuẩn xác, đối ứng trực tiếp với học thuyết tác chiến trên tuyến trong."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter022.xhtml/p000012
+  - term: "war matériel"
+    recommended_vi: "vật tư và trang bị quân sự"
+    alternatives:
+      - "vật tư chiến tranh"
+    rationale: "Nhất quán với mục từ matériel đã ghi nhận trong work/run-state/pending-terms-index.yml."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter022.xhtml/p000022
+locked_choices:
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000001
+    locked: "Giữ đại từ 'Tôi', 'chúng ta', thuật ngữ 'học thuyết tác chiến trên tuyến trong' và 'tiêu diệt từng bộ phận quân địch'; không có nhấn mạnh Markdown."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000002
+    locked: "Giữ tên riêng 'Tanya' và miêu tả hành động 'lắc đầu và buông một tiếng thở dài rõ rệt'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000003
+    locked: "Giữ mục tiêu gốc 'tập hợp một đạo đại quân để giành thắng lợi nhanh chóng và hiệu quả trong một vài trận đánh quyết định được chọn lọc' và phủ định 'chưa bao giờ được tạo ra để dùng cho việc chống lại cả thế giới'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000004
+    locked: "Giữ hình ảnh ẩn dụ 'hợp đồng bảo hiểm phòng khi họ thất bại về mặt chiến lược', đại từ 'chúng ta', tên riêng 'Đế quốc' và nhấn mạnh Markdown '*bên ngoài*' theo DEC-P01-002."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000005
+    locked: "Giữ thuật ngữ 'Chiến lược nội tuyến', đại từ 'chúng ta' và định nghĩa về bản chất của bảo hiểm ('bỏ tiền ra mua nhưng lại hy vọng sẽ không bao giờ phải dùng đến')."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000006
+    locked: "Giữ hai câu hỏi tu từ liên tiếp, đại từ tự quy chiếu 'mình' theo DEC-P01-001 và toàn bộ phạm vi nhấn mạnh Markdown '*Ồ, tốt hơn hết là mình nên bị ung thư để còn trục lợi từ bảo hiểm y tế của mình*' theo DEC-P01-002."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000007
+    locked: "Giữ cấu trúc loại trừ ('Trừ phi là...') và nhận định phủ định tuyệt đối ('hoàn toàn vô lý')."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000008
+    locked: "Giữ tên riêng 'Đế quốc', đại từ 'Chúng ta', hình ảnh so sánh 'đánh mất nỗi sợ cái chết chính đáng chỉ vì có một gói bảo hiểm nhân thọ tuyệt vời' và cấu trúc tăng tiến 'Không những thế...'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000009
+    locked: "Giữ lời thưa 'thưa Trung tá', danh xưng 'Tham tán Conrad', đại từ trần thuật 'ông ấy', đại từ đối thoại 'cô' - 'chúng ta' và hai câu chất vấn về việc sử dụng nguồn lực quốc gia."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000010
+    locked: "Giữ đại từ 'chúng ta', địa danh quân sự 'mặt trận Rhine' và sự đối lập giữa thắng các trận then chốt với việc không trận nào đủ mang tính quyết định để kết thúc chiến tranh."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000011
+    locked: "Giữ tên 'Chiến dịch Cánh cửa xoay', 'Cộng hòa François', 'Đế quốc', đại từ độc thoại nội tâm 'Mình' theo DEC-P01-001 và dự báo về nguy cơ cạn tiền chi trả cho nhu cầu thiết yếu cơ bản."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000012
+    locked: "Giữ đại từ 'chúng ta' và các thuật ngữ quân sự 'thế áp đảo', 'sự tập trung binh lực', 'ưu thế cục bộ'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000013
+    locked: "Giữ tên riêng 'Tanya', đại từ trần thuật 'cô' và hành động 'đập mạnh bàn tay xuống chiếc bàn giữa họ khi cô tiếp tục vạch rõ sự thật khủng khiếp ấy'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000014
+    locked: "Giữ nhấn mạnh Markdown '*nếu*' theo DEC-P01-002, tên riêng 'Ildoa', đại từ 'chúng ta' và nhận định 'vẫn có quá nhiều kẻ địch'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000015
+    locked: "Giữ ẩn dụ 'sa lầy trong vũng bùn này quá lâu' và nhận định 'Việc cạn sạch thời gian chỉ còn là vấn đề sớm muộn mà thôi'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000016
+    locked: "Giữ giả định trái thực tế ('Nếu Tanya là chủ nợ của Đế quốc, cô đã cắt nguồn vay của họ...'), sự chuyển dịch điểm nhìn từ trần thuật ngôi thứ ba ('Tanya', 'cô') sang nội tâm ngôi thứ nhất ('mình dám cá rằng...') và chi tiết 'những kẻ đào tẩu trong những ngày sắp tới'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000017
+    locked: "Giữ phép so sánh tương đồng giữa những yếu tố định đoạt số phận của một quốc gia và của một công ty."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000018
+    locked: "Giữ câu nhận định cô đọng 'Thời gian và tiền bạc là tất cả.'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000019
+    locked: "Giữ quan hệ điều kiện - hệ quả 'Nếu một trong hai thứ đó cạn kiệt, toàn bộ nỗ lực sẽ lập tức khựng lại hoàn toàn.'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000020
+    locked: "Giữ đại từ 'chúng ta', hình ảnh ẩn dụ 'lăn xuống dốc' và cảnh báo 'sẽ chỉ tự chuốc thêm nhiều kẻ địch hơn cho mình'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000021
+    locked: "Giữ nhận định về 'Những kẻ cơ hội' và điều kiện thời gian 'cho đến khi chúng chắc chắn thời cơ đã chín muồi'."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000022
+    locked: "Giữ tên riêng 'Ildoa', 'Đế quốc', thuật ngữ 'vật tư và trang bị quân sự' và danh mục hàng hóa ('nhiên liệu cùng các tài nguyên có nhu cầu cao khác... rượu vang hay hạt cà phê')."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000023
+    locked: "Giữ tên riêng 'Đế quốc' và nhận định về sự mong manh của 'Mối quan hệ hữu hảo này' khi thất bại cận kề hiện rõ."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000024
+    locked: "Giữ tên gọi 'người Ildoa', 'Đế quốc', nhấn mạnh Markdown '*do dự*' theo DEC-P01-002 và phép so sánh với việc công ty bị bán cho ban lãnh đạo mới."
+  - segment_id: YS-LN10/Text/chapter022.xhtml/p000025
+    locked: "Giữ sự đối lập 'Thực tại mới sẽ hủy diệt thế giới cũ', tên riêng 'Đế quốc' và kết luận buộc phải chuẩn bị sẵn sàng cho mọi tình huống."
