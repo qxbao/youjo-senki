@@ -1,0 +1,305 @@
+task_id: "vol-10-ch-04-b22-argon-review"
+parent_task_id: "vol-10-ch-04-b22"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b22-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b22.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b22-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000567"
+    severity: "minor"
+    issue: "Lặp cụm từ 'vô tuyến' khá sát nhau ở hai câu đầu ('máy bộ đàm vô tuyến' và 'các tần số vô tuyến')."
+    basis: "Đối chiếu nhịp văn tại p000567 và nguyên tắc diễn đạt tiếng Việt tự nhiên, cô đọng trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể lược bớt một từ 'vô tuyến' (ví dụ: 'hét lớn vào máy bộ đàm. Ông phát thông điệp đi khắp các tần số vô tuyến...')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000569"
+    severity: "minor"
+    issue: "Cụm 'mở đường máu' trong 'càn lướt mở đường máu xuyên qua' thường gợi sắc thái quân bị vây khốn liều chết thoát thân, trong khi ngữ cảnh tại đây là đại đội Pháp sư Định danh của Đế quốc đang áp đảo hoàn toàn và cậy sức mạnh càn lướt xuyên thủng tuyến phòng không."
+    basis: "Đối chiếu ngữ cảnh tác chiến tại p000569 và nguyên tắc giữ đúng sắc thái trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể chỉnh thành 'đang tìm cách càn lướt đột phá xuyên qua!' hoặc 'đang tìm cách dùng vũ lực càn lướt xuyên qua!'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000583"
+    severity: "minor"
+    issue: "Cụm 'Lũ chó săn Đế quốc' hơi lệch nhẹ sắc thái vì 'chó săn' thường chỉ tay sai phục vụ một thế lực khác, trong khi lời chửi ở đây nhắm trực tiếp vào quân Đế quốc."
+    basis: "Đối chiếu sắc thái lời thoại tại p000583 và nguyên tắc dịch chuẩn xác trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'Lũ chó Đế quốc khốn kiếp!'."
+pending_term_recommendations:
+  - source_term: "intercept control / control room / command center / integrated control center / line control"
+    proposed_vi: "đài kiểm soát đánh chặn / phòng kiểm soát / trung tâm chỉ huy / trung tâm kiểm soát tích hợp / đài kiểm soát tuyến"
+    category: "thuật ngữ quân sự - kiểm soát không lưu"
+    status: "pending"
+    rationale: "Hệ thống hóa nhất quán các cấp và bộ phận chỉ huy, kiểm soát đánh chặn phòng không của Khối Thịnh vượng chung trong trận không chiến ban đêm."
+    alternatives_vi:
+      - "đài chỉ huy đánh chặn / phòng điều khiển / sở chỉ huy / trung tâm điều khiển tích hợp / bộ phận kiểm soát tuyến"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000568"
+      - "YS-LN10/Text/chapter022.xhtml/p000572"
+      - "YS-LN10/Text/chapter022.xhtml/p000579"
+      - "YS-LN10/Text/chapter022.xhtml/p000583"
+      - "YS-LN10/Text/chapter022.xhtml/p000588"
+  - source_term: "air patrol / formation leader"
+    proposed_vi: "đội tuần tra trên không / chỉ huy đội hình"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Dịch sát nghĩa và tự nhiên theo thuật ngữ tác chiến không quân."
+    alternatives_vi:
+      - "toán tuần tra không중 / đội trưởng đội hình"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000567"
+      - "YS-LN10/Text/chapter022.xhtml/p000568"
+  - source_term: "company of aerial mages / aerial mage companies"
+    proposed_vi: "đại đội pháp sư trên không / hai đại đội pháp sư trên không"
+    category: "thuật ngữ quân sự - biên chế"
+    status: "pending"
+    rationale: "Khớp với hệ thuật ngữ 'aerial mages -> pháp sư trên không' trong pending-terms-index.yml và cấp biên chế đại đội."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000569"
+      - "YS-LN10/Text/chapter022.xhtml/p000573"
+  - source_term: "Named / Named units"
+    proposed_vi: "Pháp sư Định danh / đơn vị Pháp sư Định danh"
+    category: "thuật ngữ quân sự - ma pháp"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục 'Named -> Pháp sư Định danh' trong pending-terms-index.yml và lô ch-04-b21."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000569"
+      - "YS-LN10/Text/chapter022.xhtml/p000580"
+      - "YS-LN10/Text/chapter022.xhtml/p000581"
+  - source_term: "the channel"
+    proposed_vi: "vùng eo biển"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Giữ thống nhất hoàn toàn với cách dịch 'the channel -> vùng eo biển' đã khóa ở lô ch-04-b21 (p000536, p000543)."
+    alternatives_vi:
+      - "kênh liên lạc"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000572"
+  - source_term: "squads Argyle and Carbene / Argyle / Carbene"
+    proposed_vi: "hai phân đội Argyle và Carbene / Argyle / Carbene"
+    category: "tên đơn vị - hô hiệu"
+    status: "pending"
+    rationale: "Giữ nguyên tên định danh/hô hiệu Argyle và Carbene, dịch 'squads' là 'phân đội' phù hợp với biên chế tác chiến."
+    alternatives_vi:
+      - "hai tiểu đội Argyle và Carbene"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000574"
+      - "YS-LN10/Text/chapter022.xhtml/p000591"
+      - "YS-LN10/Text/chapter022.xhtml/p000593"
+  - source_term: "quick response team two / quick response teams / elite quick response force"
+    proposed_vi: "Đội phản ứng nhanh số hai / các đội phản ứng nhanh / lực lượng phản ứng nhanh tinh nhuệ"
+    category: "thuật ngữ quân sự - biên chế"
+    status: "pending"
+    rationale: "Thống nhất với cách dịch 'quick response team -> đội phản ứng nhanh' ở lô ch-04-b21 (p000554) và mục 'quick reaction force -> lực lượng phản ứng nhanh' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000575"
+      - "YS-LN10/Text/chapter022.xhtml/p000592"
+      - "YS-LN10/Text/chapter022.xhtml/p000594"
+  - source_term: "air zone twelve / air zone sixteen / zone sixteen / intercept line two"
+    proposed_vi: "không vực mười hai / không vực mười sáu / tuyến đánh chặn số hai"
+    category: "thuật ngữ quân sự - tác chiến phòng không"
+    status: "pending"
+    rationale: "Dịch rõ ràng, tự nhiên tên các phân khu không phận và tuyến đánh chặn trên bản đồ tác chiến phòng không."
+    alternatives_vi:
+      - "khu vực không phận 12 / khu vực không phận 16 / tuyến đánh chặn thứ hai"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000580"
+      - "YS-LN10/Text/chapter022.xhtml/p000600"
+      - "YS-LN10/Text/chapter022.xhtml/p000601"
+      - "YS-LN10/Text/chapter022.xhtml/p000602"
+  - source_term: "Devil of the Rhine / Rhine front / Rhine Air Battle / Rhine campaign"
+    proposed_vi: "Ác quỷ sông Rhine / mặt trận Rhine / Trận Không chiến sông Rhine / chiến dịch Rhine"
+    category: "biệt danh - địa danh - chiến dịch"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với 'Devil of the Rhine -> Ác quỷ sông Rhine' và 'Rhine front -> mặt trận Rhine' trong pending-terms-index.yml, đồng thời giữ cấu trúc tương tự 'Formosa Air Battle -> Trận Không chiến Đài Loan'."
+    alternatives_vi:
+      - "Ác quỷ sông Rhine / mặt trận Rhine / Trận Không chiến Rhine / chiến dịch sông Rhine"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000581"
+      - "YS-LN10/Text/chapter022.xhtml/p000582"
+      - "YS-LN10/Text/chapter022.xhtml/p000583"
+      - "YS-LN10/Text/chapter022.xhtml/p000596"
+  - source_term: "duty officers / southern interception control area"
+    proposed_vi: "các sĩ quan trực ban / khu vực kiểm soát đánh chặn phía nam"
+    category: "chức danh - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với các lựa chọn đã khóa trong lô ch-04-b21 (p000548, p000553, p000563)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000584"
+  - source_term: "electronic warfare / guidance signals / navigation support / dummies"
+    proposed_vi: "tác chiến điện tử / các tín hiệu dẫn đường / hỗ trợ dẫn đường / các tín hiệu mồi nhử"
+    category: "thuật ngữ quân sự - tác chiến điện tử"
+    status: "pending"
+    rationale: "Chuẩn xác về mặt thuật ngữ kỹ thuật - quân sự trong ngữ cảnh dò tìm nguồn phát sóng dẫn đường và chống chế áp điện tử."
+    alternatives_vi:
+      - "chiến tranh điện tử / tín hiệu chỉ dẫn / hỗ trợ hoa tiêu / mục tiêu giả"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000585"
+      - "YS-LN10/Text/chapter022.xhtml/p000587"
+  - source_term: "François Republic"
+    proposed_vi: "Cộng hòa François"
+    category: "tên quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với cách dịch tên quốc gia xuyên suốt các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000596"
+  - source_term: "Whiskey Battalion / Whiskey / Scotch Battalion"
+    proposed_vi: "Tiểu đoàn Whiskey / Whiskey / Tiểu đoàn Scotch"
+    category: "tên đơn vị - hô hiệu"
+    status: "pending"
+    rationale: "Giữ nguyên định danh mã gọi theo tên rượu (Whiskey, Scotch) tương tự quy ước 'Fairy Battalion -> Tiểu đoàn Fairy' và 'Yankee Battalion -> Tiểu đoàn Yankee' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000600"
+      - "YS-LN10/Text/chapter022.xhtml/p000602"
+      - "YS-LN10/Text/chapter022.xhtml/p000604"
+      - "YS-LN10/Text/chapter022.xhtml/p000606"
+  - source_term: "Commonwealth"
+    proposed_vi: "Khối Thịnh vượng chung"
+    category: "tên quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục 'Commonwealth -> Khối Thịnh vượng chung' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000605"
+      - "YS-LN10/Text/chapter022.xhtml/p000609"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000567"
+    locks:
+      - "Khóa đại từ 'Người đàn ông' - 'Ông' nối tiếp mạch quy chiếu từ cuối lô ch-04-b21, trạng thái 'đã quá muộn' và chi tiết tiếng gào thét của 'đội tuần tra trên không' vang vọng trên bầu trời đêm đen kịt."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000568"
+    locks:
+      - "Khóa hô hiệu gọi 'Đài kiểm soát đánh chặn', đại từ 'Chúng tôi' và các thuật ngữ 'viện binh'/'chi viện', 'Chỉ huy đội hình'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000569"
+    locks:
+      - "Khóa các thuật ngữ 'Một đại đội pháp sư trên không', 'các Pháp sư Định danh', sự đối lập đại từ 'chúng' (địch) - 'Chúng tôi' (ta) và phủ định khả năng 'không cầm chân chúng nổi nữa!'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000570"
+    locks:
+      - "Khóa câu báo cáo khẩn cấp bị ngắt quãng bằng dấu gạch ngang dài 'Chỉ huy bị bắn hạ rồi! Chỉ huy bị—'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000571"
+    locks:
+      - "Khóa câu nhận định ngắn gọn tổng kết tình cảnh hỗn loạn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000572"
+    locks:
+      - "Khóa địa danh 'vùng eo biển', các thuật ngữ 'phòng kiểm soát', 'vị sĩ quan chỉ huy', phủ định tuyệt đối 'Chuyện thế này chưa từng xảy ra bao giờ' và nhận thức chung 'họ không tài nào đối phó nổi với thứ vừa ập tới'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000573"
+    locks:
+      - "Khóa thuật ngữ 'Hai đại đội pháp sư trên không', đại từ 'Họ' và nhấn mạnh Markdown '*đã giao chiến*' khớp chính xác với thẻ <em> trong nguồn theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000574"
+    locks:
+      - "Khóa tên đơn vị 'hai phân đội Argyle và Carbene' và cụm 'chuyển sang trạng thái chiến đấu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000575"
+    locks:
+      - "Khóa tên đơn vị 'Đội phản ứng nhanh số hai' và trạng thái đã hoàn tất việc cơ động tập kết dưới mặt đất."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000576"
+    locks:
+      - "Khóa sự tương phản giữa những ánh mắt hoài nghi xung quanh với thái độ 'không hề do dự dù chỉ một khoảnh khắc' của vị sĩ quan."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000577"
+    locks:
+      - "Khóa đại từ 'chúng ta' và mệnh lệnh huy động toàn bộ quân tiếp viện kể cả 'lực lượng dự bị'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000578"
+    locks:
+      - "Khóa đại từ sở hữu 'của họ' và cụm 'phát động một cuộc phản công quy mô lớn'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000579"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*Chúng ta phải chặn đứng chúng lại.*' theo đúng phạm vi thẻ <em> trong nguồn (DEC-P01-002), thuật ngữ 'trung tâm chỉ huy' và đại từ 'họ'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000580"
+    locks:
+      - "Khóa các thuật ngữ 'các đơn vị không quân mới của Lục quân Đế quốc', 'không vực mười hai', 'không vực mười sáu', 'Pháp sư Định danh' và đại từ 'bọn chúng'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000581"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*Không thể nào.*' theo đúng thẻ <em> trong nguồn (DEC-P01-002), cấu trúc mở rộng phạm vi 'Đó không chỉ là tiểu đoàn do Ác quỷ sông Rhine dẫn đầu' và các thuật ngữ 'đơn vị Pháp sư Định danh', 'mặt trận Rhine'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000582"
+    locks:
+      - "Khóa đại từ 'họ', sự tự hiệu chỉnh tăng cấp 'Cứ như thể... Không, địa ngục trần gian...' và các tên gọi 'Trận Không chiến sông Rhine', 'chiến dịch Rhine'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000583"
+    locks:
+      - "Khóa các thuật ngữ 'trung tâm kiểm soát tích hợp', 'đơn vị không quân hùng mạnh của Đế quốc', đại từ 'chúng' và câu hỏi cảnh báo về một mặt trận Rhine thứ hai."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000584"
+    locks:
+      - "Khóa các thuật ngữ 'Các sĩ quan trực ban', 'khu vực kiểm soát đánh chặn phía nam' và 'sở chỉ huy'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000585"
+    locks:
+      - "Khóa các thuật ngữ 'tác chiến điện tử', 'các tín hiệu dẫn đường', 'Đế quốc', 'hỗ trợ dẫn đường bằng phương thức điện tử', đại từ 'chúng' - 'chúng ta' và tình thái suy đoán có cơ sở 'hẳn phải đang... Việc đó sẽ giúp...'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000586"
+    locks:
+      - "Khóa đại từ 'Tôi' và hai mệnh đề phủ định liên tiếp ('Không có tác dụng… Tôi chẳng bắt được tín hiệu nào cả.')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000587"
+    locks:
+      - "Khóa mệnh lệnh phủ định 'Đừng để bị mắc lừa bởi các tín hiệu mồi nhử của chúng' và chỉ dẫn 'thu hẹp phạm vi các nguồn phát khả dĩ lại'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000588"
+    locks:
+      - "Khóa hiệu ứng nói lắp 'V-vấn đề', phủ định 'Hoàn toàn không có tín hiệu nào' và thuật ngữ 'đài kiểm soát tuyến'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000589"
+    locks:
+      - "Khóa xưng hô 'anh' (cấp trên hỏi nhân viên vận hành), đại từ 'chúng' và câu hỏi nghi vấn về việc đối phương dùng công nghệ mới."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000590"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*Lại thêm tin xấu nữa ư?*' theo đúng thẻ <em> trong nguồn (DEC-P01-002) và hành động các sĩ quan đồng loạt day thái dương."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000591"
+    locks:
+      - "Khóa hiệu ứng nói lắp 'Q-quân địch', các tên đơn vị 'Argyle', 'Carbene' và chức danh 'sĩ quan chỉ huy', 'Chỉ huy'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000592"
+    locks:
+      - "Khóa đại từ 'Tôi', thuật ngữ 'các đội phản ứng nhanh' và mệnh lệnh huy động toàn bộ lực lượng có thể bay lên bầu trời ngay tức khắc."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000593"
+    locks:
+      - "Khóa hiệu ứng nói lắp 'A-Argyle', các tên đơn vị 'Argyle', 'Carbene' và trạng thái bị xóa sổ/tiêu diệt hoàn toàn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000594"
+    locks:
+      - "Khóa thuật ngữ 'lực lượng phản ứng nhanh tinh nhuệ', đại từ 'họ', hình ảnh so sánh vị chua chát và chức danh 'Vị sĩ quan phụ trách'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000595"
+    locks:
+      - "Khóa đại từ 'Họ' (chỉ phân đội Argyle) và sự bàng hoàng trước việc đơn vị vừa chạm trán đã bị tiêu diệt chóng vánh."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000596"
+    locks:
+      - "Khóa đại từ 'Ông' - 'mình', nhịp tự khẳng định 'Ông nghĩ là mình biết lý do. Không, ông thực sự biết.', hai cụm nhấn mạnh Markdown '*Ác quỷ sông Rhine*' và '*ác mộng*' theo đúng thẻ <em> trong nguồn (DEC-P01-002), tên gọi 'Cộng hòa François' và phủ định 'hoàn toàn không phải là chuyện hoang đường'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000597"
+    locks:
+      - "Khóa đại từ 'Họ'/'họ', cách gọi 'con quái vật đó' và quan hệ nguyên nhân - kết quả giải thích lý do họ chuẩn bị dốc toàn lực giáng vào quân xâm lược."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000598"
+    locks:
+      - "Khóa hai câu hỏi nội tâm liên tiếp thể hiện sự bế tắc của sĩ quan chỉ huy."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000599"
+    locks:
+      - "Khóa sự phân biệt rõ đại từ 'họ' (phía phòng không Khối Thịnh vượng chung) và 'chúng' (quân Đế quốc tấn công) trong các câu hỏi tu từ."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000600"
+    locks:
+      - "Khóa các thuật ngữ 'Các pháp sư địch', 'không vực mười hai', 'Tiểu đoàn Whiskey' và 'tuyến đánh chặn số hai'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000601"
+    locks:
+      - "Khóa thuật ngữ 'không vực mười hai' và động thái quay đầu của quân địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000602"
+    locks:
+      - "Khóa đại từ 'Chúng', thuật ngữ 'không vực mười sáu' và phán đoán mục tiêu của địch là 'Whiskey'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000603"
+    locks:
+      - "Khóa câu trần thuật về tốc độ phản ứng khẩn trương tối đa của các sĩ quan."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000604"
+    locks:
+      - "Khóa tên đơn vị 'Tiểu đoàn Whiskey', đại từ ngôi thứ hai số nhiều 'các anh' trong cảnh báo vô tuyến và hành động tập hợp lao thẳng tới của các pháp sư địch."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000605"
+    locks:
+      - "Khóa đại từ 'Người đàn ông' - 'họ' (Tiểu đoàn Whiskey) và tên gọi 'Khối Thịnh vượng chung'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000606"
+    locks:
+      - "Khóa các tên đơn vị 'Tiểu đoàn Scotch', 'Tiểu đoàn Whiskey', đại từ 'họ', cụm 'Thời gian dự kiến tới nơi' và các mốc thời gian 'bốn trăm giây', '360 giây'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000607"
+    locks:
+      - "Khóa đại từ 'Họ' (Tiểu đoàn Scotch) - 'chúng ta' (phía chỉ huy phòng không) và nhận định tình thế sát nút nhưng viện binh sẽ tới kịp lúc."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000608"
+    locks:
+      - "Khóa hình ảnh so sánh 'như đi trên dây' và trạng thái vắt kiệt sức lực."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000609"
+    locks:
+      - "Khóa tên gọi 'Khối Thịnh vượng chung', quan hệ nhân quả giải thích vì sao đã lâu tình hình mới hỗn loạn đến vậy và nhận định ẩn dụ 'chiến tranh là một con quái vật không bao giờ có thể tin cậy được'."
