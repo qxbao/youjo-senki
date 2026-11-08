@@ -1,0 +1,211 @@
+task_id: "vol-10-ch-06-b05-argon-review"
+parent_task_id: "vol-10-ch-06-b05"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b05-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b05.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b05-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000130"
+    severity: "minor"
+    issue: "Cụm 'phòng tuyến của ông tỏ ra yếu ớt nhất' hơi mang sắc thái nhân hóa đối với chủ thể vô tri là phòng tuyến."
+    basis: "Đối chiếu p000130 và nguyên tắc kết hợp từ tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'phòng tuyến của ông lộ rõ vẻ mỏng yếu nhất' hoặc 'phòng tuyến của ông có vẻ mỏng yếu nhất'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000138"
+    severity: "minor"
+    issue: "Đại từ quy chiếu Liên bang ở câu đầu ('chiến thuật của chúng') chuyển đổi hơi đột ngột so với câu ngay trước tại p000137 ('cho thấy họ đang chịu cảnh thiếu hụt quân số')."
+    basis: "Đối chiếu mạch quy chiếu Liên bang giữa p000137 và p000138, đồng thời giữ sự phân biệt rõ ràng với chủ thể Lục quân Đế quốc ('họ') ở câu thứ ba của p000138."
+    recommendation: "Ở bước chuốt văn, polisher có thể đổi 'chiến thuật của chúng' ở câu đầu p000138 thành 'chiến thuật của phía bên kia' hoặc 'chiến thuật của đối phương' để vừa liền mạch với p000137 vừa không trùng đại từ 'họ' của Lục quân Đế quốc ở cuối đoạn."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000144"
+    severity: "minor"
+    issue: "Câu độc thoại nội tâm in nghiêng mở đầu bằng đại từ tự xưng 'Mình' ('*Mình thừa biết...*') hơi lệch giọng so với đại từ tự xưng 'Ta' của Trung tướng Zettour ở các câu độc thoại lân cận (p000131, p000142, p000146, p000152, p000154, p000157)."
+    basis: "Đối chiếu DEC-P01-001 trong decisions.md (không tự mở rộng quy ước dùng 'mình' của Tanya sang chủ thể khác) và tính nhất quán trong giọng nhân vật của Zettour xuyên suốt chương 6."
+    recommendation: "Ở bước chuốt văn, polisher có thể thống nhất thành '*Ta thừa biết là cần phải có thứ gì đó thay đổi!*' để đồng bộ hoàn toàn với giọng độc thoại của Zettour."
+pending_term_recommendations:
+  - source_term: "Federation Army / the Federation / Federation divisions / Communists"
+    proposed_vi: "Quân đội Liên bang / Liên bang / sư đoàn Liên bang / Cộng sản"
+    category: "quốc gia - tổ chức quân sự - chính trị"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với các định danh đã khóa ở các lô trước của chương 6 và trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000129"
+      - "YS-LN10/Text/chapter028.xhtml/p000131"
+      - "YS-LN10/Text/chapter028.xhtml/p000134"
+      - "YS-LN10/Text/chapter028.xhtml/p000135"
+      - "YS-LN10/Text/chapter028.xhtml/p000137"
+  - source_term: "the Empire / Imperial Army / the military"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / quân đội"
+    category: "quốc gia - tổ chức quân sự"
+    status: "pending"
+    rationale: "Nhất quán với hệ thống thuật ngữ quốc gia và quân chủng xuyên suốt vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000134"
+      - "YS-LN10/Text/chapter028.xhtml/p000135"
+      - "YS-LN10/Text/chapter028.xhtml/p000138"
+      - "YS-LN10/Text/chapter028.xhtml/p000139"
+      - "YS-LN10/Text/chapter028.xhtml/p000144"
+      - "YS-LN10/Text/chapter028.xhtml/p000147"
+      - "YS-LN10/Text/chapter028.xhtml/p000154"
+  - source_term: "Zettour / the general / Lieutenant General Zettour / senior staff officer"
+    proposed_vi: "Zettour / vị tướng / Trung tướng Zettour / sĩ quan tham mưu cao cấp"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc hiện tại của Zettour và danh xưng 'sĩ quan tham mưu cao cấp' đã khóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000132"
+      - "YS-LN10/Text/chapter028.xhtml/p000134"
+      - "YS-LN10/Text/chapter028.xhtml/p000140"
+      - "YS-LN10/Text/chapter028.xhtml/p000149"
+      - "YS-LN10/Text/chapter028.xhtml/p000151"
+      - "YS-LN10/Text/chapter028.xhtml/p000154"
+  - source_term: "front line / line / in the east / eastern front / battle of attrition / divisions"
+    proposed_vi: "tiền tuyến / phòng tuyến / ở miền đông / mặt trận phía đông / cuộc chiến tiêu hao / sư đoàn"
+    category: "thuật ngữ quân sự - địa lý"
+    status: "pending"
+    rationale: "Đồng bộ với hệ thống thuật ngữ tác chiến và định hướng mặt trận trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000129"
+      - "YS-LN10/Text/chapter028.xhtml/p000130"
+      - "YS-LN10/Text/chapter028.xhtml/p000134"
+      - "YS-LN10/Text/chapter028.xhtml/p000135"
+      - "YS-LN10/Text/chapter028.xhtml/p000136"
+      - "YS-LN10/Text/chapter028.xhtml/p000138"
+      - "YS-LN10/Text/chapter028.xhtml/p000140"
+      - "YS-LN10/Text/chapter028.xhtml/p000149"
+      - "YS-LN10/Text/chapter028.xhtml/p000158"
+      - "YS-LN10/Text/chapter028.xhtml/p000159"
+  - source_term: "Total war / military rationale / raison d’état / necessity"
+    proposed_vi: "Chiến tranh tổng lực / tính hợp lý về mặt quân sự / lý tính nhà nước / sự tất yếu"
+    category: "thuật ngữ quân sự - triết học chính trị"
+    status: "pending"
+    rationale: "Phù hợp với mục P03-rationality trong canon/glossary-pending.yml, mục 'chiến tranh tổng lực' trong pending-terms-index.yml và giữ sự thống nhất của khái niệm 'sự tất yếu' xuyên suốt p000140, p000147, p000155."
+    alternatives_vi:
+      - "lý lẽ nhà nước"
+      - "lợi ích quốc gia tối thượng"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000140"
+      - "YS-LN10/Text/chapter028.xhtml/p000147"
+      - "YS-LN10/Text/chapter028.xhtml/p000155"
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    category: "thuật ngữ quân sự - kế hoạch"
+    status: "pending"
+    rationale: "Nhất quán với định danh 'Kế hoạch B' đã khóa ở các chương trước của vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000144"
+  - source_term: "Lieutenant Colonel Degurechaff"
+    proposed_vi: "Trung tá Degurechaff"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với định danh 'Trung tá Degurechaff' trong pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000159"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000129"
+    locks:
+      - "Khóa định danh 'Quân đội Liên bang', thuật ngữ 'quân tiếp viện', 'hậu phương', 'tiền tuyến', 'phòng tuyến', đại từ 'ông' (Zettour) và thế tương phản giữa lượng lớn quân tiếp viện địch với tiền tuyến thiếu hụt binh lính trầm trọng của ông."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000130"
+    locks:
+      - "Khóa thuật ngữ 'phòng tuyến', đại từ 'ông' và chi tiết có bằng chứng cho thấy quân địch đang tăng cường lực lượng tại bất cứ nơi nào phòng tuyến của ông yếu nhất."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000131"
+    locks:
+      - "Khóa câu hỏi độc thoại tự giễu của Zettour với định danh 'Đám Cộng sản', đại từ tự xưng 'ta' và cụm 'một lão già như ta'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000132"
+    locks:
+      - "Khóa tên riêng 'Zettour', đại từ 'ông', 'họ' (phía Đế quốc) và quan hệ nhượng bộ: dù thắng bao nhiêu trận đánh riêng lẻ cũng không có lấy một dấu hiệu nào cho thấy có thể thắng cả cuộc chiến."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000133"
+    locks:
+      - "Khóa câu hỏi nội tâm gián tiếp của Zettour với đại từ 'Ông' - 'mình' về việc còn phải tiêu diệt hoàn toàn và đánh đuổi quân địch thêm bao nhiêu lần nữa."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000134"
+    locks:
+      - "Khóa định danh 'Đế quốc', 'sư đoàn Liên bang', 'Vị tướng', con số 'khoảng hai trăm sư đoàn' lúc đầu cuộc chiến và nhận định đã xóa sổ phần lớn, nếu không muốn nói là toàn bộ số đó."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000135"
+    locks:
+      - "Khóa định danh 'sư đoàn Liên bang', 'Lục quân Đế quốc', 'Đế quốc', chi tiết bức tường vững chắc gồm hai trăm sư đoàn Liên bang khác và phủ định không thể tiếp tục duy trì màn kịch rằng Đế quốc có đủ binh lực sánh ngang."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000136"
+    locks:
+      - "Khóa đại từ 'ông', mục tiêu san bằng thế trận và chi tiết đánh bại các sư đoàn địch theo từng cụm mười, thậm chí hai mươi sư đoàn cùng lúc."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000137"
+    locks:
+      - "Khóa định danh 'Liên bang', đại từ 'ông' và phủ định Liên bang không hề lộ dấu hiệu thiếu hụt quân số bất chấp mọi nỗ lực của ông."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000138"
+    locks:
+      - "Khóa định danh 'Lục quân Đế quốc', thuật ngữ 'cuộc chiến tiêu hao', 'tốc độ tổn thất', 'sư đoàn', 'phòng tuyến ở miền đông', con số 'một trăm năm mươi sư đoàn' và thực trạng phần lớn đã thiếu hụt quân số đến mức đáng báo động."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000139"
+    locks:
+      - "Khóa định danh 'Đế quốc' và ẩn dụ đang rạn nứt từ mọi đường khâu mối nối, sắp toạc ra vượt quá giới hạn có thể cứu vãn vì cuộc chiến kéo dài quá lâu."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000140"
+    locks:
+      - "Khóa thuật ngữ 'Chiến tranh tổng lực', 'sự tất yếu', 'tính hợp lý về mặt quân sự', 'lý tính nhà nước', 'tiền tuyến', định danh 'Trung tướng Zettour' cùng hai hình ảnh ẩn dụ: lấy chính ngôi nhà của mình làm bùi nhùi giữ lửa và chiếc đồng hồ cát chứa tương lai tổ tiên để lại đang trôi tuột xuống đáy."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000141"
+    locks:
+      - "Khóa đại từ 'Ông' và mệnh đề tình thái cần phải chấm dứt chuyện này."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000142"
+    locks:
+      - "Khóa câu độc thoại bỏ lửng của Zettour với đại từ 'Ta' - 'mình' ('Ta biết mình phải làm gì, nhưng…')."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000143"
+    locks:
+      - "Khóa đại từ 'Ông' và hành động day thái dương, thầm đau khổ trong lòng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000144"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 ở câu đầu, định danh 'Kế hoạch B của quân đội', đại từ 'ông' và quan hệ nhân quả giải thích vì sao ông giữ im lặng khi Kế hoạch B dần thành hình sau hậu trường."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000145"
+    locks:
+      - "Khóa đại từ 'Ông' - 'mình', sự phân biệt 'có thể và nên làm gì' cùng tư thế sẵn sàng thực thi bổn phận nếu tình thế buộc phải làm tới cùng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000146"
+    locks:
+      - "Khóa câu độc thoại ngắn của Zettour với đại từ 'Ta' khẳng định sự chắc chắn ('Ta biết chắc điều này.')."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000147"
+    locks:
+      - "Khóa đại từ 'Ông', cụm 'nhân danh sự tất yếu' và cấu trúc tăng tiến 'Không chỉ riêng ông biết điều này; mà tất cả mọi người trong quân đội đều biết'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000148"
+    locks:
+      - "Khóa đại từ 'Họ' và chi tiết phải trả giá cho tương lai bằng máu của lớp người trẻ tuổi cùng nhận định đó là một gánh nặng khổng lồ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000149"
+    locks:
+      - "Khóa thuật ngữ 'mặt trận phía đông', 'viên đạn bạc', 'vị tướng', 'sĩ quan tham mưu cao cấp', phép so sánh khao khát lối thoát như kẻ nghiện thèm thuốc phiện và sự đối lập khi vị tướng bật cười trước cả đời rèn luyện của mình."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000150"
+    locks:
+      - "Khóa đại từ 'ông' và nhận thức rằng quá trình rèn luyện buộc ông thấy rõ sự vô nghĩa của lối suy tính ngắn hạn."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000151"
+    locks:
+      - "Khóa đại từ 'Họ' - 'ông', thuật ngữ 'sĩ quan tham mưu cao cấp', điều kiện giả định sẵn sàng chất chồng sinh mạng và dựng pháo đài bằng xác người miễn là câu thêm được thời gian, cùng nhận thức rằng đất nước mình đã đi quá giới hạn."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000152"
+    locks:
+      - "Khóa câu độc thoại của Zettour với đại từ 'Ta' - 'mình' đối lập giữa quá khứ từng nghĩ mình là người tốt và thực tại hiện nay."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000153"
+    locks:
+      - "Khóa đại từ 'Ông' - 'mình' và mức phủ định khó lòng tự coi mình là người tốt theo bất kỳ nghĩa nào."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000154"
+    locks:
+      - "Khóa thuật ngữ 'sĩ quan tham mưu cao cấp', 'sĩ quan', định danh 'Đế quốc', hình ảnh 'con quái thú chimera', đại từ 'Ông' (trần thuật) và 'ta' / 'chúng ta' (trong lời nói của Zettour)."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000155"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Sự tất yếu.*'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000156"
+    locks:
+      - "Khóa thuật ngữ 'sĩ quan', đại từ 'Họ' và sự chuyển hóa từ con người thành 'những bánh răng trong cỗ máy chiến tranh' hành động không chút do dự chỉ vì từ 'Sự tất yếu'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000157"
+    locks:
+      - "Khóa câu độc thoại của Zettour với đại từ 'Ta' và phủ định không thể tự lừa dối bản thân thêm nữa."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000158"
+    locks:
+      - "Khóa đại từ 'Ông' - 'mình', thuật ngữ 'mặt trận phía đông', 'sĩ quan' và sự nhìn nhận lại cách ông luôn tự coi mình là người tốt, một sĩ quan biết rõ phải làm gì để hoàn thành nhiệm vụ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000159"
+    locks:
+      - "Khóa đại từ 'Ông', thuật ngữ 'mặt trận phía đông', định danh 'Trung tá Degurechaff' và chi tiết ông nhận ra bản thân đánh giá nhóm nhỏ các sĩ quan sẵn lòng làm vấy bẩn đôi tay cùng ông ở mặt trận phía đông là vượt trội hơn các đồng cấp."
