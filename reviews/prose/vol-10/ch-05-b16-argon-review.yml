@@ -1,0 +1,268 @@
+task_id: "vol-10-ch-05-b16-argon-review"
+parent_task_id: "vol-10-ch-05-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 5
+source_package: "work/vol-10/batches/ch-05-b16-source.jsonl"
+target_translation: "translations/vol-10/ch-05-b16.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000575"
+    severity: "minor"
+    category: "pronoun_clarity"
+    issue: "Cụm 'bên mình' trong 'những người lính trẻ tuổi hơn bên mình' (và lặp lại ở p000585 'lớp lính trẻ tuổi hơn bên mình') trong khẩu ngữ tiếng Việt đôi khi dễ gợi nghĩa 'phe ta', dù ngữ cảnh cho thấy đang chỉ binh lính thuộc phe địch (như p000590 đã dịch rõ là 'bên chúng')."
+    recommendation: "Ở bước chuốt văn có thể cân nhắc đổi 'bên mình' tại p000575 và p000585 thành 'của mình' hoặc 'bên họ' / 'bên chúng' để loại bỏ hoàn toàn độ mập mờ thoáng qua."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000579"
+    severity: "minor"
+    category: "terminology_nuance"
+    issue: "Từ 'strategy' trong độc thoại nội tâm đang được dịch là 'chiến thuật', hơi thu hẹp cấp độ khái niệm dù vẫn xuôi mạch với 'tactic' ở p000585."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ ở bước chuốt văn thành 'chiến lược' hoặc 'sách lược' để phân biệt sắc thái với 'chiến thuật' (tactic) tại p000585."
+pending_term_recommendations:
+  - source_term: "destroyer"
+    proposed_vi: "tàu khu trục"
+    alternatives_vi: []
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ hải quân chuẩn xác và thống nhất trong các tập."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000571"
+  - source_term: "Elinium Type 95 orbs"
+    proposed_vi: "quả cầu Elinium Type 95"
+    alternatives_vi: []
+    category: "thuật ngữ / khí tài"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với mục 'Elinium Type 95 / orb' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000572"
+  - source_term: "Type 97 Assault Computation Orb / orb formulas"
+    proposed_vi: "Quả cầu Tính toán Xung kích Type 97 / thuật thức từ quả cầu"
+    alternatives_vi:
+      - "thuật thức quả cầu"
+    category: "thuật ngữ / khí tài"
+    status: "pending"
+    rationale: "Thống nhất với mục 'Elinium Arms Type 97 Assault Computation Orb' trong pending-terms-index.yml và phân biệt rõ thuật thức tạo trực tiếp bằng quả cầu với đạn thuật thức."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000573"
+  - source_term: "cannon fodder"
+    proposed_vi: "bia đỡ đạn"
+    alternatives_vi:
+      - "tốt thí"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch tự nhiên, chuẩn xác và phân biệt hợp lý với 'meat shield' (lá chắn thịt) ở p000578."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000575"
+      - "YS-LN10/Text/chapter024.xhtml/p000585"
+  - source_term: "meat shield"
+    proposed_vi: "lá chắn thịt"
+    alternatives_vi:
+      - "bia đỡ đạn"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Đồng bộ tuyệt đối với lựa chọn đã khóa ở ch-05-b15 (p000558)."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000578"
+  - source_term: "Commonwealth mages / the Commonwealth"
+    proposed_vi: "các pháp sư Khối Thịnh vượng chung / Khối Thịnh vượng chung"
+    alternatives_vi: []
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Thống nhất tuyệt đối với pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000581"
+      - "YS-LN10/Text/chapter024.xhtml/p000585"
+      - "YS-LN10/Text/chapter024.xhtml/p000589"
+  - source_term: "Deputy"
+    proposed_vi: "Phó chỉ huy"
+    alternatives_vi:
+      - "Đội phó"
+    category: "chức danh / xưng hô"
+    status: "pending"
+    rationale: "Đồng bộ với mục 'deputy commander / vice commander -> phó chỉ huy' trong pending-terms-index.yml khi Tanya gọi Weiss."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000583"
+  - source_term: "the Empire’s naval squadron"
+    proposed_vi: "hải đội của Đế quốc"
+    alternatives_vi:
+      - "phân hạm đội của Đế quốc"
+    category: "thuật ngữ hải quân"
+    status: "pending"
+    rationale: "Phù hợp để chỉ đơn vị tàu chiến cấp hải đội của Hải quân Đế quốc đang đi cùng đơn vị Tanya."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000587"
+  - source_term: "First Lieutenant Serebryakov"
+    proposed_vi: "Trung úy Serebryakov"
+    alternatives_vi: []
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Thống nhất với mục 'First Lieutenants Serebryakov and Grantz / Lieutenant Serebryakov' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000591"
+  - source_term: "stakeholders / HR representative"
+    proposed_vi: "các bên liên quan / chuyên viên nhân sự"
+    alternatives_vi:
+      - "đại diện nhân sự"
+    category: "thuật ngữ quản trị"
+    status: "pending"
+    rationale: "Phù hợp với giọng văn cựu nhân viên phòng nhân sự của Tanya."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000594"
+      - "YS-LN10/Text/chapter024.xhtml/p000598"
+  - source_term: "wingmates"
+    proposed_vi: "đồng đội cùng biên đội"
+    alternatives_vi: []
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Biểu đạt chính xác vị trí đồng đội bay kèm trong biên đội tác chiến trên không."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000601"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000571"
+    locked:
+      terminology: "tái tổ chức đội hình (reorganize themselves); tàu chiến (ships); hỏa lực bắn trả (return fire); tàu khu trục (destroyer)"
+      pronouns_and_address: "họ (các đại đội pháp sư thuộc quyền Tanya tiếp nối từ p000570); chúng ta (Tanya và toàn đơn vị)"
+      negation_and_modality: "phủ định 'chẳng lộ ra dù chỉ một chút dấu hiệu mệt mỏi'; giả định trái thực tế 'Nếu có lao xuống tấn công... thì có lẽ họ cũng chẳng phải hứng chịu bao nhiêu...'; khả năng 'có thể dễ dàng rút lui nhanh chóng nếu cần'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000572"
+    locked:
+      names_and_ranks: "quả cầu Elinium Type 95 (Elinium Type 95 orbs)"
+      terminology: "lữ đoàn (brigade); pháp sư (mages); đạn dược (ammunition)"
+      pronouns_and_address: "họ (các pháp sư thuộc quyền Tanya); mình (Tanya tự quy chiếu trong nội tâm theo DEC-P01-001)"
+      negation_and_modality: "phủ định kép 'chẳng phải vô hạn' (not unlimited); điều kiện giả định 'Nếu muốn tạo ra... mình sẽ cần thêm hàng chục...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000573"
+    locked:
+      names_and_ranks: "Quả cầu Tính toán Xung kích Type 97 (Type 97 Assault Computation Orb)"
+      terminology: "đạn dược (ammo); thuật thức từ quả cầu (orb formulas)"
+      pronouns_and_address: "chúng ta (Tanya và đơn vị)"
+      negation_and_modality: "hai câu hỏi nội tâm liên tiếp kiểm tra tình trạng đạn dược và phương án dự phòng trong kịch bản xấu nhất; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000574"
+    locked:
+      terminology: "lá chắn (shield)"
+      negation_and_modality: "phủ định giả định 'Đó sẽ chẳng phải vấn đề nếu...' đối lập với điều kiện 'một khi phải đối mặt với một kẻ địch biết tính toán hợp lý'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000575"
+    locked:
+      terminology: "bia đỡ đạn (cannon fodder)"
+      pronouns_and_address: "họ (phe địch)"
+      pov_and_modality: "thoại trực tiếp cảm thán; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000576"
+    locked:
+      terminology: "trận chiến toàn diện (all-out war)"
+      pronouns_and_address: "Mình (Tanya)"
+      negation_and_modality: "phủ định 'Mình không ngờ...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000577"
+    locked:
+      pronouns_and_address: "Mình (Tanya)"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*Lũ gian lận kia*' tương ứng với <html:em>Those cheaters</html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000578"
+    locked:
+      terminology: "lá chắn thịt (meat shield); động vật xã hội (social animals)"
+      pronouns_and_address: "Mình - bản thân mình (Tanya)"
+      negation_and_modality: "phủ định 'không sao nuốt trôi nổi' + câu hỏi tu từ phủ định 'Nhưng chẳng phải con người là động vật xã hội hay sao?'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000579"
+    locked:
+      pronouns_and_address: "Mình (Tanya)"
+      negation_and_modality: "phủ định 'Mình không tài nào rũ bỏ được nỗi kinh ngạc...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000580"
+    locked:
+      negation_and_modality: "điệp phủ định ba lần 'Không, không, không.'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000581"
+    locked:
+      names_and_ranks: "các pháp sư Khối Thịnh vượng chung (Commonwealth mages)"
+      pronouns_and_address: "chúng ta (phe Tanya)"
+      pov_and_modality: "độc thoại nội tâm của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000582"
+    locked:
+      terminology: "nhà tuyển dụng tiềm năng (potential employers)"
+      pronouns_and_address: "Họ (phía Khối Thịnh vượng chung); mình (Tanya)"
+      negation_and_modality: "hai câu hỏi nội tâm + phủ định 'đây cũng chẳng phải lúc để suy nghĩ về chuyện đó'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000583"
+    locked:
+      names_and_ranks: "Phó chỉ huy (Deputy - Weiss)"
+      pronouns_and_address: "Phó chỉ huy - anh (Tanya gọi Weiss); chúng ta (đơn vị)"
+      pov_and_modality: "thoại câu hỏi trực tiếp của Tanya với Weiss; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000584"
+    locked:
+      pronouns_and_address: "Tôi (Weiss xưng với Tanya); chúng (quân địch)"
+      negation_and_modality: "phủ định 'Tôi chẳng ưa chiều hướng hiện tại chút nào'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000585"
+    locked:
+      names_and_ranks: "Khối Thịnh vượng chung (the Commonwealth)"
+      terminology: "chiến thuật (tactic); bia đỡ đạn (cannon fodder)"
+      pronouns_and_address: "Chúng (phe Khối Thịnh vượng chung)"
+      negation_and_modality: "thoại đánh giá của Tanya với Weiss, giữ phủ định 'Chẳng ngờ...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000586"
+    locked:
+      pov_and_modality: "nhận định nội tâm khái quát sự chuyển biến tình thế từ bắt nạt kẻ yếu sang sập bẫy; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000587"
+    locked:
+      names_and_ranks: "hải đội của Đế quốc (the Empire’s naval squadron)"
+      terminology: "hạm đội (fleet)"
+      pronouns_and_address: "Họ (phe Khối Thịnh vượng chung)"
+      negation_and_modality: "cấu trúc tăng tiến 'vẫn chưa đủ. Họ còn phải...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000588"
+    locked:
+      pronouns_and_address: "Mình (Tanya)"
+      negation_and_modality: "câu bỏ lửng với liên từ đối lập 'nhưng…'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000589"
+    locked:
+      names_and_ranks: "Khối Thịnh vượng chung (the Commonwealth)"
+      terminology: "các pháp sư (the mages); hải quân (the navy)"
+      pronouns_and_address: "mình (Tanya); chúng ta (đơn vị của Tanya)"
+      negation_and_modality: "phủ định 'không cho phép làm vậy', 'không tài nào ưa nổi' + câu cảm thán cuối đoạn; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000590"
+    locked:
+      terminology: "lá chắn (shields)"
+      pronouns_and_address: "tôi (Tanya tự xưng trong thoại vô tuyến); chúng ta; chúng (phe địch)"
+      negation_and_modality: "tình thái tự nhận 'Lẽ ra tôi phải là người cuối cùng có tư cách nói câu này, nhưng...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000591"
+    locked:
+      names_and_ranks: "Trung úy Serebryakov (First Lieutenant Serebryakov)"
+      terminology: "sóng vô tuyến (the radio)"
+      pronouns_and_address: "Mình (Tanya)"
+      pov_and_modality: "trần thuật ngôi thứ nhất của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000592"
+    locked:
+      pronouns_and_address: "chúng ta; họ (phe địch); ạ (Serebryakov nói với Tanya)"
+      negation_and_modality: "câu hỏi giả định hồi cố 'Vậy lẽ ra chúng ta nên nương tay với họ hơn sao ạ?'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000593"
+    locked:
+      pronouns_and_address: "Cô (Tanya gọi Serebryakov); Tôi - mình (Tanya); họ (các đồng đội)"
+      negation_and_modality: "câu hỏi phản vấn điều kiện phủ định 'nếu họ không thể trở về nhà không?' + sự ưu tiên dứt khoát của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000594"
+    locked:
+      terminology: "các bên liên quan (stakeholders); nhà tuyển dụng mới tiềm năng (potential new employer)"
+      pronouns_and_address: "mình (Tanya)"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*bằng cách nào đó*' tương ứng với <html:em>somehow</html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000595"
+    locked:
+      terminology: "đồng nghiệp (coworkers)"
+      negation_and_modality: "nhận định quy tắc ứng xử công sở theo trình tự 'Trước hết phải... rồi sau đó mới...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000596"
+    locked:
+      negation_and_modality: "phủ định 'Mọi chuyện không vận hành theo chiều ngược lại đâu.'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000597"
+    locked:
+      terminology: "đồng nghiệp (coworkers); nguồn nhân lực (human resource)"
+      pronouns_and_address: "bạn (ngôi thứ hai khái quát trong lập luận)"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*kẻ muốn nhảy việc*' tương ứng với <html:em>someone who wants to change jobs</html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000598"
+    locked:
+      terminology: "chuyên viên nhân sự (HR representative)"
+      pronouns_and_address: "Mình (Tanya)"
+      pov_and_modality: "độc thoại nội tâm khẳng định chuyên môn cá nhân; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000599"
+    locked:
+      terminology: "người lao động (worker); người sử dụng lao động (employer); nhà tuyển dụng tiếp theo (next employer)"
+      pronouns_and_address: "họ (người lao động)"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*vô ơn*' tương ứng với <html:em>ungrateful</html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000600"
+    locked:
+      pronouns_and_address: "mình - bản thân (Tanya); các đồng đội (my companions)"
+      negation_and_modality: "phủ định 'kiên quyết không làm các đồng đội thất vọng' + giả định ước muốn 'giá mà có lấy một lần mọi chuyện diễn ra dễ dàng thì tốt biết mấy'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000601"
+    locked:
+      terminology: "đồng đội cùng biên đội (wingmates)"
+      pronouns_and_address: "Chúng ta (Tanya và đơn vị); chúng (quân địch)"
+      pov_and_modality: "mệnh lệnh tác chiến dứt khoát trên sóng vô tuyến; không có chữ nghiêng Markdown"
