@@ -1,0 +1,199 @@
+task_id: "vol-10-ch-03-b01-argon-review"
+parent_task_id: "vol-10-ch-03-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b01-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b01.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b01-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000003"
+    severity: "minor"
+    issue: "Ở câu cuối, danh từ chỉ chức danh công vụ quy chiếu về Tanya được dịch thoát ý theo đối tượng thành 'đương sự'; dù mạch văn tự nhiên và đúng người được nhắc tới, bản gốc dùng từ mang sắc thái chỉ viên chức/quan chức."
+    basis: "Đối chiếu từ ngữ câu cuối của p000003 và nguyên tắc giữ sắc thái từ vựng trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc dùng 'vị quan chức này' hoặc giữ 'đương sự' nếu ưu tiên nhịp văn tự nhiên; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000021"
+    severity: "minor"
+    issue: "Ở câu thứ hai, cụm chỉ các đơn vị ngoài chiến trường được dịch là 'các đơn vị thực địa'; cách dịch này hiểu được nhưng trong ngữ cảnh quân sự thường dùng 'các đơn vị dã chiến' hoặc 'các đơn vị ngoài hiện trường/ngoài mặt trận' tự nhiên hơn."
+    basis: "Đối chiếu thuật ngữ câu thứ hai của p000021 với quy ước diễn đạt tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi nhẹ thành 'các đơn vị dã chiến' để thuật ngữ quân sự mượt hơn."
+pending_term_recommendations:
+  - source_term: "WESTERN COMMAND CENTER FOR THE IMPERIAL ARMY / western front command post / command center"
+    proposed_vi: "TRUNG TÂM CHỈ HUY PHÍA TÂY CỦA LỤC QUÂN ĐẾ QUỐC / sở chỉ huy mặt trận phía tây / trung tâm chỉ huy"
+    category: "thuật ngữ quân sự - địa danh"
+    status: "pending"
+    rationale: "Phân biệt rõ tiêu đề địa điểm mở chương (TRUNG TÂM CHỈ HUY PHÍA TÂY CỦA LỤC QUÂN ĐẾ QUỐC) với cụm sở chỉ huy mặt trận phía tây và trung tâm chỉ huy nơi Tanya tới trình diện."
+    alternatives_vi:
+      - "SỞ CHỈ HUY PHÍA TÂY CỦA LỤC QUÂN ĐẾ QUỐC"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000001"
+      - "YS-LN10/Text/chapter016.xhtml/p000016"
+  - source_term: "Lieutenant General Zettour / soon-to-be general"
+    proposed_vi: "Trung tướng Zettour / vị đại tướng tương lai này"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc hiện tại của Zettour là Trung tướng và chi tiết ông sắp được thăng lên hàm Đại tướng (full general) như đã đề cập ở chương trước."
+    alternatives_vi:
+      - "Trung tướng Zettour / vị tướng tương lai này"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000002"
+      - "YS-LN10/Text/chapter016.xhtml/p000003"
+  - source_term: "Commies"
+    proposed_vi: "lũ Cộng sản"
+    category: "tên gọi - sắc thái khẩu ngữ"
+    status: "pending"
+    rationale: "Phản ánh đúng sắc thái khẩu ngữ mỉa mai trong suy nghĩ của Tanya khi nhắc tới quân Liên bang ở mặt trận phía đông."
+    alternatives_vi:
+      - "đám Cộng sản"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000002"
+  - source_term: "eastern front / western front / front line"
+    proposed_vi: "mặt trận phía đông / mặt trận phía tây / tiền tuyến"
+    category: "thuật ngữ quân sự - địa danh"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với các phương án tạm đã khóa xuyên suốt vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000002"
+      - "YS-LN10/Text/chapter016.xhtml/p000009"
+      - "YS-LN10/Text/chapter016.xhtml/p000015"
+      - "YS-LN10/Text/chapter016.xhtml/p000016"
+      - "YS-LN10/Text/chapter016.xhtml/p000019"
+      - "YS-LN10/Text/chapter016.xhtml/p000020"
+  - source_term: "Federation"
+    proposed_vi: "Liên bang"
+    category: "tên gọi - quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000003"
+  - source_term: "the capital / imperial capital / the homeland"
+    proposed_vi: "thủ đô / đế đô / chính quốc"
+    category: "địa danh"
+    status: "pending"
+    rationale: "Khớp với hệ thống thuật ngữ địa danh chỉ thủ đô và chính quốc Đế quốc trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000004"
+      - "YS-LN10/Text/chapter016.xhtml/p000009"
+      - "YS-LN10/Text/chapter016.xhtml/p000011"
+  - source_term: "adjutant"
+    proposed_vi: "sĩ quan phụ tá"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch chức danh adjutant trong toàn bộ các tập trước và vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000004"
+      - "YS-LN10/Text/chapter016.xhtml/p000018"
+  - source_term: "General Staff officer / high-ranking staff officers"
+    proposed_vi: "sĩ quan Bộ Tổng tham mưu / các sĩ quan tham mưu cao cấp"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ sĩ quan thuộc Bộ Tổng tham mưu với các sĩ quan tham mưu cao cấp tại sở chỉ huy mặt trận phía tây."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000004"
+      - "YS-LN10/Text/chapter016.xhtml/p000017"
+  - source_term: "government-run corporation / Imperial Army"
+    proposed_vi: "tập đoàn quốc doanh / Lục quân Đế quốc"
+    category: "thuật ngữ - tổ chức"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác ẩn dụ kinh doanh của Tanya khi ví Lục quân Đế quốc như một doanh nghiệp/tập đoàn nhà nước."
+    alternatives_vi:
+      - "công ty quốc doanh / Lục quân Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000007"
+  - source_term: "General Romel / the general"
+    proposed_vi: "Tướng Romel / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với mục 'General Romel / the general -> Tướng Romel / vị tướng' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000015"
+      - "YS-LN10/Text/chapter016.xhtml/p000018"
+  - source_term: "inspection"
+    proposed_vi: "đợt thị sát / đi thị sát"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phù hợp với ngữ cảnh vị tướng tư lệnh mới nhậm chức trực tiếp đi kiểm tra thực địa và tiền tuyến bằng xe tăng."
+    alternatives_vi:
+      - "đợt thanh tra"
+    segment_ids:
+      - "YS-LN10/Text/chapter016.xhtml/p000017"
+      - "YS-LN10/Text/chapter016.xhtml/p000019"
+      - "YS-LN10/Text/chapter016.xhtml/p000021"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000001"
+    locks:
+      - "Khóa dòng tiêu đề thời gian và địa điểm viết hoa toàn bộ: 'NGÀY 11 THÁNG 8 NĂM THỐNG NHẤT 1927, TRUNG TÂM CHỈ HUY PHÍA TÂY CỦA LỤC QUÂN ĐẾ QUỐC'; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000002"
+    locks:
+      - "Khóa danh xưng 'Trung tướng Zettour', tên riêng 'Tanya', đại từ 'ông', cách gọi khẩu ngữ 'lũ Cộng sản', địa danh 'mặt trận phía đông' và sắc thái mỉa mai của câu kết."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000003"
+    locks:
+      - "Khóa cụm 'vị đại tướng tương lai này', phủ định ('hoàn toàn chẳng phải một người hiền lành gì', 'chẳng thấy bóng dáng đâu'), tên gọi 'Liên bang' và trạng thái Tanya không thể tham gia vào thời khắc then chốt."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000004"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('Cô', 'cô'), các thuật ngữ 'thủ đô', 'sĩ quan phụ tá', 'sĩ quan Bộ Tổng tham mưu' và phủ định ('không còn cần thiết ở phía đông nữa', 'không thể mượn cô quá lâu')."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000005"
+    locks:
+      - "Khóa đại từ 'cô' - 'mình' và chi tiết ra về tay trắng, chỉ thu hoạch thêm vài mạng bắn hạ vào bảng thành tích."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000006"
+    locks:
+      - "Khóa đại từ 'cô', phủ định ('chẳng giúp ích được gì nhiều') và ẩn dụ 'công cuộc săn tìm việc làm mới'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000007"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Tôi từng tham gia chiến dịch đó đấy! Cái chiến dịch lớn ấy, ông biết mà!*', sự chuyển dịch điểm nhìn từ tự khách quan hóa ngôi thứ ba ('Tanya', 'cô') sang độc thoại nội tâm ngôi thứ nhất ('Mình'), cùng các thuật ngữ 'tập đoàn quốc doanh' và 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000008"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001 và ý nghĩa sự việc chỉ là một mắt xích trong chuỗi dài sự kiện cản trở kế hoạch rời khỏi đây."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000009"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', các địa danh 'đế đô', 'mặt trận phía đông', cặp ẩn dụ công sở 'chủ sử dụng lao động' - 'nhân viên' và sắc thái chán ngán bầu không khí lạc quan."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000010"
+    locks:
+      - "Khóa câu độc thoại thành tiếng của Tanya với đại từ tự quy chiếu 'mình' và giữ nguyên độ mở của câu hỏi tự vấn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000011"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và thuật ngữ 'chính quốc'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000012"
+    locks:
+      - "Khóa sự phân tách giữa cái tên 'Tanya' (cơ thể chưa đủ tuổi uống rượu) và chủ thể nội tâm 'mình' đang cảm nhận cơn mệt mỏi bủa vây."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000013"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', tình thái phỏng đoán nguyên nhân ('Có lẽ là do thiếu ngủ, hoặc cũng có thể vì mình đã làm việc quá sức') và ý nghĩ lệch lạc rằng thà ở ngoài chiến trường còn hơn."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000014"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và nhận định khái quát về tầm quan trọng của việc một con người được nghỉ ngơi đầy đủ."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000015"
+    locks:
+      - "Khóa tên riêng 'Tanya', địa danh 'mặt trận phía tây', nhấn mạnh Markdown theo DEC-P01-002 tại '*Chết rồi tha hồ mà nghỉ*', danh xưng 'Tướng Romel', đại từ 'Chúng ta' và đánh giá ông ta là kiểu cấp trên tệ hại nhất để phục vụ."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000016"
+    locks:
+      - "Khóa điểm nhìn trần thuật hiện tại lịch sử ('Tanya', 'cô', 'ông ta'), thuật ngữ 'sở chỉ huy mặt trận phía tây' và 'trung tâm chỉ huy'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000017"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', thuật ngữ 'các sĩ quan tham mưu cao cấp' và 'đợt thị sát'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000018"
+    locks:
+      - "Khóa các cấp bậc/chức danh 'đại úy', 'sĩ quan phụ tá của vị tướng', 'Tướng Romel', 'ban tham mưu', đại từ 'anh ta' - 'ông ta' và chi tiết quan sát từ trên xe tăng, liên lạc qua điện đài."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000019"
+    locks:
+      - "Khóa đại từ 'ông ta' - 'mình', phần bình luận dí dỏm đính chính từ bánh xe sang xích xe tăng, thuật ngữ 'tiền tuyến', 'đi thị sát' và 'vị tướng mới nhậm chức'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000020"
+    locks:
+      - "Khóa nhận định khái quát về việc các sĩ quan trực tiếp ghé thăm 'tiền tuyến'."
+  - segment_id: "YS-LN10/Text/chapter016.xhtml/p000021"
+    locks:
+      - "Khóa câu thoại của Tanya với đại từ 'họ' chỉ nhóm của Tướng Romel, thuật ngữ 'đi thị sát' và sự cảm thông xã giao dành cho các đơn vị cùng đội ngũ sĩ quan."
