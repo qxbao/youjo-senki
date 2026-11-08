@@ -1,0 +1,290 @@
+task_id: "vol-11-ch-01-b14-argon-review"
+parent_task_id: "vol-11-ch-01-b14"
+volume: "vol-11"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+target_translation: "translations/vol-11/ch-01-b14.jsonl"
+source_package: "work/vol-11/batches/ch-01-b14-source.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000046"
+    severity: "minor"
+    category: "style_and_naturalness"
+    issue: "Đại từ tự xưng 'mình' lặp ba lần trong một câu ngắn ('Mình quan sát cấp trên của mình, người chỉ lắc đầu trước mặt mình.'), tạo cảm giác hơi nặng nề về nhịp câu."
+    evidence: "Đối chiếu câu độc thoại nội tâm ở p000030 ('trước ý định tàn nhẫn của cấp trên') khi chủ ngữ đã là 'mình' thì danh ngữ 'cấp trên' không cần lặp lại định ngữ sở hữu 'của mình'."
+    recommendation: "Có thể lược bớt một từ 'mình' thành 'Mình quan sát cấp trên, người chỉ lắc đầu trước mặt mình.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000055"
+    severity: "minor"
+    category: "pronouns_and_register"
+    issue: "Đại từ ngôi thứ nhất số nhiều trong độc thoại nội tâm của Tanya khi gộp bản thân với Tướng Zettour ở p000055 và p000057 đang dịch là 'cả hai chúng mình' / 'Chúng mình', mang sắc thái thân mật đời thường hơn mức quan hệ cấp dưới - cấp trên trong Bộ Tổng tham mưu và chưa đồng nhất với đại từ 'chúng ta' dùng trong nội tâm ở p000034, p000060."
+    evidence: "Đối chiếu work/run-state/pending-terms-index.yml ('mình / chúng ta (nội tâm)') cùng cách dùng 'chúng ta' trong nội tâm tại p000034, p000060 và lô trước p000021."
+    recommendation: "Đổi 'cả hai chúng mình' / 'Chúng mình' ở p000055 và 'cả hai chúng mình' ở p000057 thành 'cả hai chúng ta' / 'Chúng ta' (hoặc rút gọn thành 'cả hai')."
+pending_term_recommendations:
+  - source_term: "General Zettour"
+    proposed_vi: "Tướng Zettour"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm đã thiết lập trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Zettour"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000028"
+      - "YS-LN11/Text/chapter004.xhtml/p000036"
+      - "YS-LN11/Text/chapter004.xhtml/p000040"
+      - "YS-LN11/Text/chapter004.xhtml/p000055"
+  - source_term: "Rudersdorf"
+    proposed_vi: "Rudersdorf"
+    category: "nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên tên riêng nhân vật thống nhất toàn bộ các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000029"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "tổ chức / quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000040"
+  - source_term: "human resource"
+    proposed_vi: "nguồn nhân lực"
+    category: "thuật ngữ quản trị"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ quản trị nhân sự chuẩn xác, phù hợp với góc nhìn doanh nhân của Tanya trong lời thoại với Zettour và phân biệt hợp lý với 'human capital' ('vốn con người') ở p000060."
+    alternatives_vi:
+      - "nhân lực"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000049"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng Tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000055"
+  - source_term: "human capital"
+    proposed_vi: "vốn con người"
+    category: "thuật ngữ kinh tế"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với mục P03-human-capital trong canon/glossary-pending.yml và pending-terms-index.yml."
+    alternatives_vi:
+      - "nguồn vốn con người"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000060"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000027"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "chúng ta"
+    choices:
+      - "Giữ phủ định 'không thể tránh khỏi cảnh hỗn loạn', giả định điều kiện 'Nếu chúng ta phạm sai lầm' và mục tiêu 'Để đảm bảo các cuộc đàm phán này diễn ra, chúng ta cần phải nỗ lực hướng tới hòa bình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000028"
+    pov: "Tanya_first_person"
+    pronouns: "ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ 'Tướng Zettour' và cấu trúc so sánh giả định 'cứ như thể ông ấy là một nhà toán học đang giải một phương trình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000029"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "chúng ta, tôi, ông ấy (Rudersdorf)"
+    terms:
+      - "Rudersdorf -> Rudersdorf"
+    choices:
+      - "Giữ cách gọi mỉa mai 'người bạn vĩ đại và quyền thế Rudersdorf của tôi' và kết luận 'Giết ông ấy… là lựa chọn duy nhất của chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000030"
+    pov: "Tanya_first_person"
+    pronouns: "mình, Tanya (tự quy chiếu ngôi thứ ba), họ (ngôi thứ ba khái quát)"
+    emphasis:
+      - "*khoan dung*"
+    choices:
+      - "Giữ tự xưng 'mình' theo DEC-P01-001, cách tự nhắc tên 'từ điển của Tanya', và nhấn mạnh Markdown '*khoan dung*' theo DEC-P01-002."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000031"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    choices:
+      - "Giữ lời nhận xét trực diện 'Thật là một ý nghĩ ngu xuẩn.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000032"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    choices:
+      - "Giữ câu hỏi ngắn biểu thị sự sững sờ 'Gì cơ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000033"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Ngài - ông ấy (Rudersdorf)"
+    choices:
+      - "Giữ câu hỏi chất vấn 'Ngài định giết ông ấy chỉ vì ông ấy là một sự phiền toái ư?' và nhận định 'Thật phi lý hết sức.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000034"
+    pov: "Tanya_first_person"
+    pronouns: "chúng ta"
+    choices:
+      - "Giữ câu hỏi tu từ nội tâm với 'giết quách con người đó đi thôi sao' và đánh giá 'một lập luận phi lý chẳng đáng để bàn lấy một khắc'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000035"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi - Cô"
+    choices:
+      - "Giữ lời nhận trách nhiệm của Zettour và câu hỏi chất vấn ngược 'Cô cũng là người khinh thường các công cụ gieo rắc cái chết sao?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000036"
+    pov: "Tanya_first_person"
+    pronouns: "mình - ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ nhận định Zettour đang hiểu lầm ý mình, câu tự vấn về áp lực căng thẳng của 'Tướng Zettour' và ý định chấn chỉnh lối suy nghĩ của ông ấy."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000037"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Ngài - ông ấy (Rudersdorf)"
+    choices:
+      - "Giữ trọng tâm phản bác của Tanya nằm ở chữ 'chỉ muốn giết quách ông ấy đi' và câu phủ định tình thái 'Nhưng hẳn ngài không thể nào nói thật lòng được.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000038"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi"
+    choices:
+      - "Giữ lời khẳng định dứt khoát 'Tôi hoàn toàn nghiêm túc trong từng lời nói.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000039"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài"
+    choices:
+      - "Giữ mệnh đề điều kiện 'Nếu đó là mệnh lệnh của ngài, thì tôi có nghĩa vụ phải bắn ngài ngay tại đây, ngay lúc này để bảo vệ phẩm giá của chính mình.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000040"
+    pov: "Tanya_first_person"
+    pronouns: "mình - ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+      - "the Empire -> Đế quốc"
+    choices:
+      - "Giữ phủ định 'không được phép đứng nhầm phe', giả định nhượng bộ về việc 'Tướng Zettour' chấp nhận sự sụp đổ của 'Đế quốc', và điều kiện 'nếu ông ấy tiến hành theo một phương thức không thể nào hiện thực hóa nổi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000041"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "cô"
+    choices:
+      - "Giữ câu hỏi kinh ngạc của Zettour khi tưởng nhầm Tanya phản đối việc giết đồng minh vào lúc cuối cuộc này."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000042"
+    pov: "Tanya_first_person"
+    pronouns: "mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ chi tiết sắc máu rút cạn khỏi mặt Zettour, nỗi thất vọng của Tanya và nhận định 'Ông ấy đang hiểu lầm một cách tai hại.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000043"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Tôi - ngài"
+    choices:
+      - "Giữ thái độ lễ phép 'Tôi xin thứ lỗi... ạ' đi kèm nhận định thẳng thắn rằng lối suy nghĩ của Zettour đang hoàn toàn lệch hướng."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000044"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "cô"
+    choices:
+      - "Giữ hai câu hỏi dồn dập 'Ý cô là sao? Cô đang cố nói điều gì?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000045"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài"
+    choices:
+      - "Giữ lời rào đón 'xin cáo lỗi vì sự xấc xược của mình' và câu hỏi ngập ngừng 'lẽ nào ngài… thực sự cần tôi phải nói toạc hết ra sao ạ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000046"
+    pov: "Tanya_first_person"
+    pronouns: "Mình"
+    choices:
+      - "Giữ chi tiết cấp trên chỉ lắc đầu trước mặt Tanya; có thể lược 'của mình' sau 'cấp trên' để tránh lặp từ."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000047"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi - cô"
+    choices:
+      - "Giữ sự bối rối của Zettour '…Tôi không chắc là cô đang muốn ám chỉ điều gì.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000048"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ sự phân biệt cốt lõi trong lập luận của Tanya: không phản đối chuyện giết người, mà chỉ phủ nhận tính hiệu quả của việc ám sát trong hoàn cảnh cụ thể này."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000049"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "ngài, chúng ta, họ (các lãnh đạo cấp cao)"
+    terms:
+      - "human resource -> nguồn nhân lực"
+    choices:
+      - "Giữ 'sự lãng phí một nguồn nhân lực tốt' và cấu trúc tăng tiến phủ định 'không ở vào vị thế có thể để mất các lãnh đạo cấp cao một cách dễ dàng như thế, chứ đừng nói đến chuyện vứt bỏ họ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000050"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Chúng ta"
+    choices:
+      - "Giữ ẩn dụ y khoa 'cắt bỏ một khối u ác tính khỏi tổ chức của mình' và phủ định kép 'sẽ không thể tránh khỏi đau đớn đâu…'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000051"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài"
+    choices:
+      - "Giữ sự đồng tình của Tanya rằng nỗi đau là một phần tất yếu của quá trình, nhưng chỉ ra vấn đề nằm ở cách tiếp cận của Zettour."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000052"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ 'kiến thức chiến thuật nhập môn', mệnh đề điều kiện phủ định về mục tiêu và hướng tiếp cận chiến lược, cùng nỗi thắc mắc vì sao đúng hôm nay lại không nói cho Zettour thông suốt được."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000053"
+    pov: "Tanya_first_person"
+    pronouns: "Mình"
+    choices:
+      - "Giữ giọng tự đánh giá đầy mâu thuẫn hài hước của Tanya ('tự hào nói rằng mình khá khiêm tốn về khoản này dù bản thân là một chuyên gia') và ba kỹ năng giao tiếp trước vế nhượng bộ 'nhưng mình đâu có hoàn hảo'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000054"
+    pov: "Tanya_first_person"
+    pronouns: "mình, bạn (ngôi thứ hai khái quát)"
+    choices:
+      - "Giữ đại từ khái quát 'bạn' trong nhận định về sự hiểu lầm trên chiến trường và sự tự tin của Tanya vào khả năng giao tiếp hiệu quả hơn hầu hết mọi người."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000055"
+    pov: "Tanya_first_person"
+    pronouns: "mình, chúng ta (gộp Tanya và Zettour)"
+    terms:
+      - "General Staff -> Bộ Tổng tham mưu"
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ 'Bộ Tổng tham mưu', 'Tướng Zettour' và ý 'nói cùng một thứ ngôn ngữ'; chỉnh 'cả hai chúng mình' / 'Chúng mình' thành 'cả hai chúng ta' / 'Chúng ta' (hoặc 'cả hai')."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000056"
+    pov: "Tanya_first_person"
+    choices:
+      - "Giữ thành ngữ 'nói một đằng hiểu một nẻo' và nhận định mỉa mai 'Nó gần như là một phép màu vậy.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000057"
+    pov: "Tanya_first_person"
+    pronouns: "Mình, chúng ta (gộp Tanya và Zettour), ông ấy (Zettour)"
+    choices:
+      - "Giữ suy đoán áp lực căng thẳng ảnh hưởng đến khả năng xử lý thông tin và quyết định nói thẳng với Zettour; chỉnh 'cả hai chúng mình' thành 'cả hai chúng ta' (hoặc 'cả hai')."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000058"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ hành động 'sắp xếp lại mạch lập luận trước khi trình bày rõ ràng cho ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000059"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "họ (con người nói chung)"
+    choices:
+      - "Giữ câu tuyên ngôn mang đậm tư duy hiệu suất lạnh lùng của Tanya: 'Con người cần được giết một cách hiệu quả, nhưng sinh mạng của họ không nên bị phung phí.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000060"
+    pov: "Tanya_first_person"
+    pronouns: "Mình, chúng ta"
+    terms:
+      - "human capital -> vốn con người"
+    choices:
+      - "Giữ 'lập trường mà mình sẵn sàng bảo vệ đến cùng', thuật ngữ 'vốn con người' theo P03-human-capital, 'một trọng tội' và 'nguồn vốn quý giá đó'."
