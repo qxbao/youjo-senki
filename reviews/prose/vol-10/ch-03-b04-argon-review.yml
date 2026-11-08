@@ -1,0 +1,206 @@
+task_id: "vol-10-ch-03-b04-argon-review"
+parent_task_id: "vol-10-ch-03-b04"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b04-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b04.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b04-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000005"
+    severity: "minor"
+    issue: "Cụm 'các điều khoản của nhiệm vụ' mang sắc thái hợp đồng thương mại khá đậm; dù phù hợp với mạch liên tưởng công sở ở p000004, trong ngữ cảnh quân sự báo cáo trực tiếp với tướng lĩnh có thể cân nhắc từ tự nhiên hơn."
+    basis: "Đối chiếu câu cuối của p000005 trong ngữ cảnh đối thoại quân sự giữa Tanya và Tướng Romel."
+    recommendation: "Ở bước chuốt văn có thể giữ nguyên nếu muốn nhấn giọng công sở của Tanya, hoặc chỉnh nhẹ thành 'khuôn khổ của nhiệm vụ' / 'các điều kiện của nhiệm vụ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000028"
+    severity: "minor"
+    issue: "Câu hỏi mở đầu đoạn ('Và chuyện gì sẽ xảy ra nếu...') dùng phụ từ chỉ tương lai 'sẽ', trong khi câu gốc là giả định trái thực tế trong quá khứ (câu sau đã dịch chuẩn là 'hẳn đã khép lại... hẳn đã bị đẩy xuống...')."
+    basis: "Đối chiếu quy tắc giữ đồng thời tính giả định, mức chắc chắn và thời gian của giả định trong canon/style-guide.md tại p000028."
+    recommendation: "Ở bước chuốt văn có thể chỉnh câu đầu thành 'Và chuyện gì hẳn đã xảy ra nếu tướng quân Nobunaga chỉ ngồi không trong thành...?' để đồng bộ thời gian giả định quá khứ với câu tiếp theo."
+pending_term_recommendations:
+  - source_term: "General Romel / sir"
+    proposed_vi: "Tướng Romel / thưa Tướng quân (ngài)"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa ở các batch trước của vol-10 (ch-03-b02, ch-03-b03) và sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000005"
+      - "YS-LN10/Text/chapter018.xhtml/p000007"
+      - "YS-LN10/Text/chapter018.xhtml/p000009"
+      - "YS-LN10/Text/chapter018.xhtml/p000016"
+      - "YS-LN10/Text/chapter018.xhtml/p000017"
+      - "YS-LN10/Text/chapter018.xhtml/p000029"
+  - source_term: "aggressively defensive strategy / defensive tactics"
+    proposed_vi: "chiến lược phòng ngự tích cực tiến công / chiến thuật phòng ngự"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chính xác bản chất lấy tiến công làm phòng ngự trong lập luận của Romel và giữ nhất quán hệ thuật ngữ 'phòng ngự' - 'tiến công' xuyên suốt chương."
+    alternatives_vi:
+      - "chiến lược phòng ngự mang tính tiến công quyết liệt / chiến thuật phòng ngự"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000006"
+      - "YS-LN10/Text/chapter018.xhtml/p000021"
+  - source_term: "full-scale assault"
+    proposed_vi: "cuộc tiến công quy mô lớn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phù hợp ngữ cảnh phản biện trực tiếp của Tanya trước nhận định của Romel, đồng thời khớp với cách dùng 'cuộc tiến công quy mô lớn' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "cuộc tiến công toàn diện"
+      - "cuộc tấn công toàn diện"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000007"
+  - source_term: "Lieutenant Colonel Degurechaff"
+    proposed_vi: "Trung tá Degurechaff"
+    category: "quân hàm - tên gọi"
+    status: "pending"
+    rationale: "Khớp với cấp bậc đã khóa của Tanya trong toàn bộ các tập trước và sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000013"
+  - source_term: "White Silver"
+    proposed_vi: "Bạch Ngân"
+    category: "danh hiệu"
+    status: "pending"
+    rationale: "Giữ thống nhất với danh hiệu Pháp sư Định danh của Tanya trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000013"
+  - source_term: "Oda Nobunaga / Oda clan / shogun Nobunaga"
+    proposed_vi: "Oda Nobunaga / gia tộc Oda / tướng quân Nobunaga"
+    category: "tên riêng - danh xưng lịch sử"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng lịch sử Nhật Bản và dịch 'shogun' là 'tướng quân' theo cách gọi lịch sử phổ biến trong tiếng Việt."
+    alternatives_vi:
+      - "Oda Nobunaga / gia tộc Oda / Tướng quân Nobunaga"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000022"
+      - "YS-LN10/Text/chapter018.xhtml/p000023"
+      - "YS-LN10/Text/chapter018.xhtml/p000025"
+      - "YS-LN10/Text/chapter018.xhtml/p000027"
+      - "YS-LN10/Text/chapter018.xhtml/p000028"
+  - source_term: "Battle of Okehazama / Dengakuhazama / Imagawa Yoshimoto / Owari Province"
+    proposed_vi: "Trận Okehazama / Dengakuhazama / Imagawa Yoshimoto / xứ Owari"
+    category: "địa danh - sự kiện lịch sử"
+    status: "pending"
+    rationale: "Giữ chuẩn xác tên trận đánh, địa danh, nhân vật lịch sử thời Chiến Quốc Nhật Bản và dịch 'Province' thời phong kiến Nhật là 'xứ' (xứ Owari) rất tự nhiên."
+    alternatives_vi:
+      - "Trận Okehazama / Dengakuhazama / Imagawa Yoshimoto / tỉnh Owari"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000023"
+      - "YS-LN10/Text/chapter018.xhtml/p000025"
+      - "YS-LN10/Text/chapter018.xhtml/p000027"
+  - source_term: "decapitation strikes"
+    proposed_vi: "các đòn tập kích chặt đầu chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với mục 'decapitation tactics -> chiến thuật chặt đầu chỉ huy' trong pending-terms-index.yml và phản ánh đúng hành động đột kích tiêu diệt tướng địch vừa nêu ở p000027."
+    alternatives_vi:
+      - "các đòn đánh chặt đầu chỉ huy"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000029"
+  - source_term: "General Zettour / maneuver warfare in the east"
+    proposed_vi: "Tướng Zettour / lối tác chiến cơ động ... ở miền đông"
+    category: "quân hàm - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với danh xưng 'Tướng Zettour' và thuật ngữ 'maneuver warfare -> tác chiến cơ động' trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000029"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000001"
+    locks:
+      - "Khóa điểm nhìn tự quy chiếu ngôi thứ ba ('Tanya', 'cô') và nhận định kế hoạch điên rồ một cách triệt để và rành rành; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000002"
+    locks:
+      - "Khóa đại từ nội tâm ngôi thứ nhất 'mình' và chuỗi hành động khoanh tay ngước nhìn trần nhà."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000003"
+    locks:
+      - "Khóa đại từ thoại 'Tôi' kèm tiểu từ kính ngữ 'ạ' thể hiện sự ngập ngừng của cấp dưới."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000004"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', đại từ khái quát 'bạn' trong mệnh đề kinh nghiệm nghề nghiệp chung, và ẩn dụ nhảy việc/công ty cũ."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000005"
+    locks:
+      - "Khóa cách xưng hô 'Thưa Tướng quân', cặp đại từ 'tôi' - 'ngài' (kèm 'ạ'), phủ định 'không thể tán thành việc này', và nhận định vượt ngoài phạm vi thẩm quyền."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000006"
+    locks:
+      - "Khóa thuật ngữ 'chiến lược phòng ngự tích cực tiến công' trong lời đáp của Romel."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000007"
+    locks:
+      - "Khóa hô ngữ 'Thưa Tướng quân…', thuật ngữ 'cuộc tiến công quy mô lớn' và tiểu từ 'ạ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000008"
+    locks:
+      - "Khóa mệnh đề châm ngôn quân sự ('cách phòng thủ tốt nhất là một đòn tấn công xuất sắc') và quan hệ so sánh hơn giữa 'tinh thần tiến công và khao khát giành thế áp đảo quân sự' với 'chính bản thân đòn tấn công'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000009"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*lẽ ra cô phải biết điều này rồi chứ*' theo DEC-P01-002, danh xưng 'Tướng Romel', và đại từ nội tâm 'mình'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000010"
+    locks:
+      - "Khóa đại từ 'ông ta' quy chiếu Romel và ba yếu tố chiến lược: nơi dồn sức mạnh, cách bố trí lực lượng dự bị hợp lý, đạt được mục tiêu chiến lược."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000011"
+    locks:
+      - "Khóa phép so sánh tương đồng với 'chuyện nhảy việc của một người'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000012"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*lúc nào*' trong cấu trúc phủ định bộ phận 'không phải *lúc nào* cũng xấu' theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000013"
+    locks:
+      - "Khóa danh xưng 'Trung tá Degurechaff', cặp đại từ thoại của Romel 'Ta' - 'cô' (và 'chúng ta' ở câu đầu), phủ định kép 'không định để cô không hiểu thấu', danh hiệu 'Bạch Ngân', và câu hỏi khích tướng 'Phải chăng lớp bạc của cô đã rỉ sét rồi?'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000014"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và sắc thái ước muốn trái thực tế ('gần như ước gì chuyện đó là thật')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000015"
+    locks:
+      - "Khóa lối tự quy chiếu đan xen giữa 'mình' và 'Tanya', cùng phủ định 'không thể lớn tiếng khi phản đối' gắn với điều kiện giữ vững vị trí."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000016"
+    locks:
+      - "Khóa đại từ 'Mình' và danh xưng 'Tướng Romel'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000017"
+    locks:
+      - "Khóa hô ngữ 'thưa Tướng quân', đại từ 'Tôi', mệnh đề phân biệt 'Sự liều lĩnh không đồng nghĩa với lòng dũng cảm', và phủ định 'không muốn thiếu suy xét mà coi việc ẩn nhẫn chờ thời là nhu nhược về mặt tinh thần'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000018"
+    locks:
+      - "Khóa đại từ 'Ta' trong câu hỏi tu từ cuối đoạn của Romel ('Ta nói có sai không?')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000019"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba 'Tanya không còn lựa chọn nào khác ngoài việc gật đầu tán thành.'"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000020"
+    locks:
+      - "Khóa cấu trúc phủ định kép 'ý tôi không phải là không cần một mức độ tiến công nhất định để tổ chức phòng ngự hiệu quả' và trọng tâm phản biện ở cái giá phải đánh cược."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000021"
+    locks:
+      - "Khóa đại từ 'Chúng ta', hình ảnh tập trung lực lượng chĩa vào một điểm duy nhất, và thuật ngữ 'Chiến thuật phòng ngự'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000022"
+    locks:
+      - "Khóa đại từ 'ông ta' (Romel) phân biệt với 'ông' (Oda Nobunaga), cùng nhận định về chiến thuật quân sự mang tính cách mạng và cách phòng thủ đi vào lịch sử Nhật Bản."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000023"
+    locks:
+      - "Khóa đại từ 'mình', tên riêng 'Oda Nobunaga', 'Trận Okehazama tại Dengakuhazama', và quan hệ nhân quả phủ định ở câu cuối."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000024"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*phòng ngự*' theo DEC-P01-002, đại từ khái quát 'bạn', và điều kiện loại trừ 'Trừ phi bạn đang cố câu giờ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000025"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*chờ*' theo DEC-P01-002, cùng các tên riêng 'Gia tộc Oda', 'Imagawa Yoshimoto' và 'xứ Owari'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000026"
+    locks:
+      - "Khóa chủ ngữ khái quát 'Người ta' và chi tiết 'sách giáo khoa lịch sử Nhật Bản'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000027"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*phòng ngự*' theo DEC-P01-002, cùng các chi tiết 'samurai', 'lấy đầu Imagawa Yoshimoto' và 'đánh chặn quân xâm lược'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000028"
+    locks:
+      - "Khóa danh xưng 'tướng quân Nobunaga', đại từ 'ông', và tính giả định quá khứ trái thực tế ('hẳn đã khép lại...', 'hẳn đã bị đẩy xuống thành một dòng chú thích trong lịch sử')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000029"
+    locks:
+      - "Khóa hô ngữ 'Thưa Tướng quân', đại từ 'tôi', phủ định 'không phủ nhận rằng', và hai minh chứng: 'Các đòn tập kích chặt đầu chỉ huy' cùng 'lối tác chiến cơ động của Tướng Zettour ở miền đông'."
