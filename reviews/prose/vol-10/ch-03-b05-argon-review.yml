@@ -1,0 +1,226 @@
+task_id: "vol-10-ch-03-b05-argon-review"
+parent_task_id: "vol-10-ch-03-b05"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b05-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b05.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b05-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000053"
+    severity: "minor"
+    issue: "Trong câu thứ hai, cụm 'các hành động phòng ngự của mình trong phạm vi thế lực của bản thân' dùng từ 'mình' để quy chiếu ngôi thứ ba (Shimazu), dễ trùng bề mặt với đại từ nội tâm ngôi thứ nhất 'mình' của Tanya ở các câu lân cận."
+    basis: "Đối chiếu quy ước phân tách đại từ trần thuật/nội tâm trong DEC-P01-001 và mạch độc thoại của Tanya tại p000053."
+    recommendation: "Ở bước chuốt văn có thể lược bớt sở hữu cách lặp hoặc đổi nhẹ thành 'cũng chỉ giới hạn các hành động phòng ngự trong phạm vi thế lực của ông ta'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000055"
+    severity: "minor"
+    issue: "Từ 'tình tiết' trong cụm 'có rất nhiều tình tiết đang tác động ở đây' hơi thiên về sắc thái vụ án hoặc cốt truyện, chưa thật khớp với văn cảnh bàn luận tình hình chiến lược quân sự của Tướng Romel."
+    basis: "Đối chiếu ngữ cảnh trao đổi chiến lược giữa Tướng Romel và Tanya tại p000055."
+    recommendation: "Ở bước chuốt văn có thể cân nhắc chỉnh thành 'có rất nhiều yếu tố đang chi phối ở đây' hoặc 'có rất nhiều hoàn cảnh đang tác động ở đây' để tự nhiên hơn với giọng tướng lĩnh."
+pending_term_recommendations:
+  - source_term: "field officer"
+    proposed_vi: "sĩ quan thực địa"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phản ánh đúng vai trò chỉ huy trực tiếp ngoài chiến trường trong mạch đối lập giữa tư duy tác chiến tại chỗ và mệnh lệnh chiến lược từ chính quốc."
+    alternatives_vi:
+      - "sĩ quan tác chiến"
+      - "sĩ quan cấp tá"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000030"
+      - "YS-LN10/Text/chapter018.xhtml/p000035"
+  - source_term: "General Romel / Colonel / sir"
+    proposed_vi: "Tướng Romel / Trung tá / thưa Tướng quân (ngài)"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với phương án đã khóa ở các batch trước của vol-10 (ch-03-b02 đến ch-03-b04) và sổ pending-terms-index.yml, bao gồm việc dịch cách gọi tắt 'Colonel' dành cho Trung tá Tanya là 'Trung tá'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000033"
+      - "YS-LN10/Text/chapter018.xhtml/p000035"
+      - "YS-LN10/Text/chapter018.xhtml/p000041"
+      - "YS-LN10/Text/chapter018.xhtml/p000043"
+      - "YS-LN10/Text/chapter018.xhtml/p000055"
+      - "YS-LN10/Text/chapter018.xhtml/p000056"
+      - "YS-LN10/Text/chapter018.xhtml/p000058"
+  - source_term: "strategic defense / defensive strategy / defensive posture"
+    proposed_vi: "phòng ngự chiến lược / chiến lược phòng ngự / thế bố trí phòng ngự"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ các cấp độ khái niệm phòng ngự trong cuộc tranh luận học thuyết giữa Tanya và Romel, đồng bộ với hệ thuật ngữ đã khóa ở ch-03-b04."
+    alternatives_vi:
+      - "phòng ngự chiến lược / chiến lược phòng ngự / thế trận phòng ngự"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000034"
+      - "YS-LN10/Text/chapter018.xhtml/p000048"
+      - "YS-LN10/Text/chapter018.xhtml/p000055"
+  - source_term: "Commonwealth waters / maritime superpower"
+    proposed_vi: "vùng biển của Khối Thịnh vượng chung / siêu cường hàng hải"
+    category: "địa chính trị - quân sự"
+    status: "pending"
+    rationale: "Khớp với tên gọi 'Khối Thịnh vượng chung' trong sổ pending-terms-index.yml và diễn đạt chuẩn xác vị thế hải quyền của quốc gia này."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000045"
+  - source_term: "coordinated naval strike / naval infantry"
+    proposed_vi: "đòn tập kích đường biển hiệp đồng / hải quân đánh bộ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Chính xác về thuật ngữ tác chiến hiệp đồng quân binh chủng và nhất quán với cách dịch 'hải quân đánh bộ' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "cuộc tập kích hải quân hiệp đồng / lính thủy đánh bộ"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000050"
+  - source_term: "western front / eastern front"
+    proposed_vi: "mặt trận phía tây / mặt trận phía đông"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất cách gọi các mặt trận chiến lược theo phương hướng trong toàn tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000051"
+      - "YS-LN10/Text/chapter018.xhtml/p000060"
+  - source_term: "Shimazu"
+    proposed_vi: "Shimazu"
+    category: "tên riêng lịch sử"
+    status: "pending"
+    rationale: "Giữ nguyên chính tả tên riêng lịch sử Nhật Bản theo đúng mặt chữ của văn bản nguồn tại đoạn này."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000053"
+  - source_term: "White Silver"
+    proposed_vi: "Bạch Ngân"
+    category: "danh hiệu"
+    status: "pending"
+    rationale: "Giữ thống nhất với danh hiệu Pháp sư Định danh của Tanya đã khóa ở ch-03-b04 và trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000057"
+  - source_term: "Federation / Communism / nationalism"
+    proposed_vi: "Liên bang / Chủ nghĩa Cộng sản / chủ nghĩa dân tộc"
+    category: "chính trị - ý thức hệ"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với 'Liên bang' và 'Chủ nghĩa Cộng sản' trong pending-terms-index.yml, giữ phân biệt viết hoa/viết thường theo đúng bản gốc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000059"
+      - "YS-LN10/Text/chapter018.xhtml/p000061"
+  - source_term: "General Zettour"
+    proposed_vi: "Tướng Zettour"
+    category: "quân hàm - tên gọi"
+    status: "pending"
+    rationale: "Khớp với danh xưng đã khóa ở ch-03-b04 và trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000063"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000030"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', thuật ngữ 'sĩ quan thực địa', và nhận định nắm rõ cách tận dụng thế chủ động cùng thông tin để giành ưu thế trong phòng ngự; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000031"
+    locks:
+      - "Khóa câu hỏi phản vấn của Romel và nhận định kế hoạch thiên hẳn về phòng ngự."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000032"
+    locks:
+      - "Khóa đại từ thoại 'tôi' (kèm 'ạ') và sự đối lập giữa 'Ở cấp độ quốc gia thì đúng là nó thiên hẳn về phòng ngự' với 'khó mà gọi đây là một kế hoạch mang tư duy phòng ngự'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000033"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', danh xưng 'Tướng Romel', và phủ định 'không tài nào chấp nhận nổi định nghĩa hết sức phóng khoáng'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000034"
+    locks:
+      - "Khóa thành ngữ tương đương 'chỉ hươu bảo ngựa', thuật ngữ 'phòng ngự chiến lược', và tiểu từ kính ngữ 'ạ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000035"
+    locks:
+      - "Khóa cặp đại từ thoại của Romel 'Chúng ta' / 'Ta' - 'cô', hô ngữ 'Trung tá', và cụm 'sĩ quan thực địa'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000036"
+    locks:
+      - "Khóa lối chuyển điểm nhìn từ ngôi thứ ba ('Tanya') sang nội tâm ngôi thứ nhất ('mình'), phép so sánh với thế giới trước kia, cụm 'môi trường làm việc bóc lột do thời chiến tạo ra', và ý định tìm đường rút lui."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000037"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và mục tiêu trước mắt là bảo vệ vị trí hiện tại."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000038"
+    locks:
+      - "Khóa hình ảnh ẩn dụ 'một con chó săn… cần phải giữ bình tĩnh cho đến khi con mồi vừa vặn lọt vào tầm vồ' và tiểu từ 'ạ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000039"
+    locks:
+      - "Khóa đại từ 'Mình', danh xưng 'vị tướng', và hành động đứng thẳng người nhìn thẳng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000040"
+    locks:
+      - "Khóa hình ảnh đối lập 'loài chó hoang' tự ý chạy loạn khi chưa có lệnh và chuẩn mực hành xử của 'một người lính Đế quốc' (kèm 'ạ')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000041"
+    locks:
+      - "Khóa đại từ 'cô', hô ngữ 'Trung tá', và lời nhắc không sa đà vào ẩn dụ."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000042"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*diễn giải lại*' theo DEC-P01-002, đại từ 'ngài' (kèm 'ạ'), và cụm 'mệnh lệnh của chính quốc'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000043"
+    locks:
+      - "Khóa danh xưng 'Tướng Romel', đại từ 'mình' - 'ông ta', và sự tương phản giữa vẻ mặt vui vẻ không suy suyển với ánh mắt uy nghiêm thúc giục nói tiếp."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000044"
+    locks:
+      - "Khóa đại từ 'Chúng ta' / 'tôi' (kèm 'ạ') và cấu trúc đối lập 'Không phải để đánh chặn mà là để xông thẳng vào lãnh thổ địch!'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000045"
+    locks:
+      - "Khóa cụm 'vùng biển của Khối Thịnh vượng chung', 'siêu cường hàng hải của thế giới', đại từ 'chúng ta', và câu hỏi tu từ bác bỏ tính chất phòng ngự."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000046"
+    locks:
+      - "Khóa nhận định nội tâm coi kế hoạch vừa điên rồ vừa chỉ là một cuộc tấn công liều lĩnh."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000047"
+    locks:
+      - "Khóa cặp đại từ thoại của Romel 'Chúng ta' / 'ta' - 'cô' và quan điểm 'loại bỏ kẻ địch chính là cách phòng ngự tốt nhất'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000048"
+    locks:
+      - "Khóa đại từ 'Ngài' (kèm 'sao ạ?'), cụm 'đòn tấn công vào sau chiến tuyến địch', và thuật ngữ 'chiến lược phòng ngự'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000049"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và chi tiết cấp trên lặng lẽ gật đầu."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000050"
+    locks:
+      - "Khóa đại từ 'chúng ta' và cụm thuật ngữ 'Một đòn tập kích đường biển hiệp đồng sử dụng cả pháp sư lẫn hải quân đánh bộ…'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000051"
+    locks:
+      - "Khóa đại từ 'ta', cụm 'quyền tự quyết', và mục đích 'bảo vệ sự toàn vẹn của mặt trận phía tây'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000052"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*ngay trên sân nhà của chúng*' theo DEC-P01-002 và câu hỏi chất vấn nội tâm hướng về 'ngài'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000053"
+    locks:
+      - "Khóa tên riêng 'Shimazu', chi tiết 'một trong những lãnh chúa điên rồ khét tiếng nhất lịch sử Nhật Bản', và giới hạn hành động phòng ngự trong 'phạm vi thế lực'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000054"
+    locks:
+      - "Khóa đại từ 'Tôi' (kèm 'ạ'), phủ định 'không thể ủng hộ quyết định này', và lập luận 'xóa sổ luôn khái niệm tiến công ngay từ đầu'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000055"
+    locks:
+      - "Khóa hô ngữ 'Trung tá', cặp đại từ 'ta' / 'chúng ta' - 'cô', và thuật ngữ 'thế bố trí phòng ngự của chúng ta ở miền tây'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000056"
+    locks:
+      - "Khóa cặp đại từ 'tôi' - 'ngài', hô ngữ 'thưa Tướng quân' (kèm 'ạ'), và bổn phận người lính nỗ lực vì thế phòng ngự tốt nhất tại miền tây."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000057"
+    locks:
+      - "Khóa danh hiệu 'Bạch Ngân', đại từ 'cô', và phép ví von 'như một lão chính khách lụ khụ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000058"
+    locks:
+      - "Khóa danh xưng 'Tướng Romel' và hành động lắc đầu không tin nổi."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000059"
+    locks:
+      - "Khóa tên riêng 'Liên bang' và hình ảnh 'nồng nặc chướng khí'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000060"
+    locks:
+      - "Khóa đại từ 'ông ta' (Romel), đại từ nội tâm 'mình', cụm 'mặt trận phía đông', và nhận định tình hình thê thảm."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000061"
+    locks:
+      - "Khóa hình ảnh 'bãi lầy chất đầy những thi thể chẳng bao giờ được chôn cất tử tế', ẩn dụ 'con quái thú hai đầu' của 'Liên bang' đại diện cho 'Chủ nghĩa Cộng sản' và 'chủ nghĩa dân tộc', cùng lời mời của 'tôi' với 'ngài' (kèm 'ạ')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000062"
+    locks:
+      - "Khóa đại từ 'ta' và lời từ chối khéo của Romel rằng đã hơi có tuổi nên không còn hợp với trò nghịch bùn."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000063"
+    locks:
+      - "Khóa cặp đại từ 'tôi' - 'ngài' (kèm 'ạ'), danh xưng 'Tướng Zettour', và chi tiết từng lội qua bùn lầy ở miền đông cùng đơn vị của Tanya."
