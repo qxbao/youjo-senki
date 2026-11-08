@@ -1,0 +1,282 @@
+task_id: "vol-10-ch-02-b17-argon-review"
+parent_task_id: "vol-10-ch-02-b17"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b17-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b17.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b17-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000239"
+    severity: "minor"
+    issue: "Câu chửi thề nhắm vào quân Đế quốc trong mệnh lệnh của Drake được dịch thành 'Kệ xác lũ Đế quốc!', dễ gây cảm giác mâu thuẫn nhẹ với mệnh lệnh ngay kế tiếp ('Ngắm bắn như thể chúng đang cách bốn nghìn ấy!') vì 'kệ xác' thường gợi nghĩa bỏ mặc, không bận tâm."
+    basis: "Đối chiếu mạch logic mệnh lệnh tác chiến trong đoạn và nguyên tắc giữ đúng sắc thái trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'Khốn kiếp lũ Đế quốc!' hoặc 'Mẹ kiếp lũ Đế quốc!' để giữ đúng sắc thái chửi thề mà không gợi nghĩa bỏ mặc mục tiêu; không làm sai lệch mệnh lệnh cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000251"
+    severity: "minor"
+    issue: "Chi tiết mô tả độ dài câu đáp trong nguồn được dịch thoáng thành 'chỉ bằng câu ngắn gọn', lược nhẹ sắc thái định lượng ngắn gọn để tránh lệch số chữ với câu thoại tiếng Việt ở p000250."
+    basis: "Đối chiếu nguyên tắc không lược bỏ chi tiết trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc diễn đạt thành 'chỉ bằng đôi lời ngắn gọn' để vừa giữ sát sắc thái định lượng của nguồn vừa khớp tự nhiên với câu thoại tiếng Việt; không làm sai nghĩa câu nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000260"
+    severity: "minor"
+    issue: "Cụm 'Giá như kẻ đó tình cờ chạm trán chúng ta khi chỉ có một mình' hơi lưỡng nghĩa nhẹ về chủ thể của trạng thái 'chỉ có một mình' nếu đọc tách riêng vế đầu, dù vế sau ('đằng này tên pháp sư kia lại bỏ lại toàn bộ đội hình của mình ở tít phía sau') vẫn giúp xác định đúng chủ thể là tên pháp sư địch."
+    basis: "Đối chiếu nguyên tắc viết tiếng Việt rõ ràng và giữ đúng quan hệ điều kiện giả định trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'Giá như kẻ đó đi lẻ một mình rồi tình cờ chạm trán chúng ta' để câu văn rõ nghĩa ngay từ vế đầu; không làm sai nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Devil of the Rhine -> Ác quỷ sông Rhine' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000220"
+  - source_term: "Lieutenant Colonel Drake / Drake"
+    proposed_vi: "Trung tá Drake / Drake"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Lieutenant Colonel Drake / Drake -> Trung tá Drake / Drake' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000221"
+      - "YS-LN10/Text/chapter010.xhtml/p000223"
+      - "YS-LN10/Text/chapter010.xhtml/p000232"
+      - "YS-LN10/Text/chapter010.xhtml/p000236"
+  - source_term: "imperial mages / the imperials"
+    proposed_vi: "pháp sư Đế quốc / lũ Đế quốc"
+    category: "quân đội - quốc gia"
+    status: "pending"
+    rationale: "Khớp với mục 'imperial mages -> các pháp sư Đế quốc' trong work/run-state/pending-terms-index.yml và giữ đúng giọng điệu thù địch trong lời thoại của Drake."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000221"
+      - "YS-LN10/Text/chapter010.xhtml/p000239"
+  - source_term: "Type 97s / dual-core Type 97 computation orbs / single-core models"
+    proposed_vi: "mẫu Type 97 / quả cầu tính toán Type 97 lõi kép / những mẫu lõi đơn"
+    category: "khí tài ma pháp"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'dual cores / Type 97 computation orbs / computation orbs -> lõi kép / quả cầu tính toán Type 97 / quả cầu tính toán' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000225"
+      - "YS-LN10/Text/chapter010.xhtml/p000243"
+  - source_term: "flights / wingmates"
+    proposed_vi: "các biên đội / đồng đội cùng biên đội"
+    category: "thuật ngữ không quân - pháp sư trên không"
+    status: "pending"
+    rationale: "Phù hợp với thuật ngữ tổ chức đơn vị bay ('biên đội') đã dùng ở lô ch-02-b16."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000228"
+  - source_term: "First Lieutenant Sue / Lieutenant Sue / Sue"
+    proposed_vi: "Trung úy Sue / Sue"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Dịch chuẩn xác cấp bậc 'First Lieutenant' của Mary Sue ở thời điểm vol-10 là 'Trung úy Sue' và đồng bộ cách gọi tắt 'Lieutenant Sue -> Trung úy Sue'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000231"
+      - "YS-LN10/Text/chapter010.xhtml/p000235"
+      - "YS-LN10/Text/chapter010.xhtml/p000238"
+      - "YS-LN10/Text/chapter010.xhtml/p000239"
+  - source_term: "optical sniper formulas / optical and guided formulas"
+    proposed_vi: "thuật thức bắn tỉa quang học / các thuật thức quang học lẫn thuật thức dẫn đường"
+    category: "thuật ngữ ma pháp quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'optical sniping formula -> thuật thức bắn tỉa quang học' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000239"
+      - "YS-LN10/Text/chapter010.xhtml/p000244"
+  - source_term: "Tanya / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Tanya / thưa Trung tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Colonel / Tanya (addressing or referring to Lieutenant Colonel Tanya von Degurechaff) -> Trung tá / Tanya' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000240"
+      - "YS-LN10/Text/chapter010.xhtml/p000248"
+      - "YS-LN10/Text/chapter010.xhtml/p000251"
+      - "YS-LN10/Text/chapter010.xhtml/p000256"
+      - "YS-LN10/Text/chapter010.xhtml/p000257"
+      - "YS-LN10/Text/chapter010.xhtml/p000260"
+  - source_term: "soft altitude ceiling"
+    proposed_vi: "ngưỡng trần bay mềm"
+    category: "thuật ngữ hàng không - ma pháp"
+    status: "pending"
+    rationale: "Kết hợp nhất quán với thuật ngữ 'ceiling -> trần bay' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "trần bay mềm"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000242"
+  - source_term: "aerial mages / aerial mage"
+    proposed_vi: "các pháp sư trên không / pháp sư trên không"
+    category: "thuật ngữ ma pháp quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'aerial mages -> các pháp sư trên không' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000242"
+      - "YS-LN10/Text/chapter010.xhtml/p000260"
+  - source_term: "suppressing fire"
+    proposed_vi: "hỏa lực chế áp"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'suppressing fire -> hỏa lực chế áp' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000244"
+  - source_term: "defensive shells / protective films / evasive maneuvers"
+    proposed_vi: "lớp vỏ phòng thủ / màn chắn bảo hộ / các pha cơ động né tránh"
+    category: "thuật ngữ ma pháp quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục 'defensive shell / protective films -> lớp vỏ phòng thủ / màn chắn bảo hộ' và 'evasive maneuvers -> các pha cơ động né tránh' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000244"
+  - source_term: "First Lieutenant Serebryakov / adjutant / 02"
+    proposed_vi: "Trung úy Serebryakov / viên sĩ quan phụ tá / 02"
+    category: "quân hàm - chức vụ - hô hiệu"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục 'First Lieutenant Serebryakov -> Trung úy Serebryakov', 'adjutant -> sĩ quan phụ tá' và giữ nguyên hô hiệu '02'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000248"
+      - "YS-LN10/Text/chapter010.xhtml/p000249"
+      - "YS-LN10/Text/chapter010.xhtml/p000250"
+      - "YS-LN10/Text/chapter010.xhtml/p000251"
+      - "YS-LN10/Text/chapter010.xhtml/p000257"
+      - "YS-LN10/Text/chapter010.xhtml/p000260"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000220"
+    locks:
+      - "Khóa đại từ 'anh' (chỉ Drake), thuật ngữ 'một tiểu đoàn duy nhất', biệt danh 'Ác quỷ sông Rhine' và nhận định kỳ vọng của phía Drake rằng với quân số này lẽ ra họ phải chiếm được thế thượng phong."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000221"
+    locks:
+      - "Khóa bước ngoặt thực tế trái ngược kỳ vọng ('Ít nhất là họ đã nghĩ vậy'), định danh 'đơn vị của Drake', cụm 'hai pháp sư Đế quốc' và câu hỏi nội tâm thắc mắc vì sao đã đạt độ cao thích hợp mà vẫn không theo kịp tốc độ đối phương."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000222"
+    locks:
+      - "Khóa nét lắp bắp 'Ch-chúng' và thông số 'độ cao mười nghìn' trong lời báo cáo."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000223"
+    locks:
+      - "Khóa định danh 'Drake', đại từ 'anh' và cấu trúc nhấn mạnh phủ định rằng Drake chẳng cần nghe báo cáo cũng thấy rõ bằng chính hai mắt mình."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000224"
+    locks:
+      - "Khóa thế đối lập giữa việc kiềm chế được lời mỉa mai với việc không ngăn được bản thân chửi thề."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000225"
+    locks:
+      - "Khóa đại từ 'Ta' / 'chúng', tên khí tài 'mẫu Type 97', mốc độ cao 'tám nghìn' và câu chửi thề phẫn nộ của Drake."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000226"
+    locks:
+      - "Khóa nhận định so sánh tuyệt đối ('Chẳng có gì ức chế hơn việc phải chịu bất lợi về độ cao chỉ vì khí tài thua kém') và hình ảnh ẩn dụ buộc phải đối đầu một thợ săn lão luyện bằng mớ vũ khí tồi tàn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000227"
+    locks:
+      - "Khóa câu hỏi tu từ nội tâm không in nghiêng của Drake với đại từ 'chúng ta' trách móc đám người ở quê nhà không gửi trang bị ra hồn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000228"
+    locks:
+      - "Khóa các thuật ngữ 'các biên đội trong tiểu đoàn', 'đồng đội cùng biên đội', đại từ 'Anh' và tình thái dự đoán 'có lẽ họ sẽ vượt qua được trận này' nếu bám sát và phối hợp với nhau."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000229"
+    locks:
+      - "Khóa đại từ 'Cô ta' (chỉ người lính tách đội hình là Sue) và nhận xét cô thiếu nhận thức rằng phối hợp đồng đội là cách duy nhất khỏa lấp khoảng cách công nghệ; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000230"
+    locks:
+      - "Khóa đại từ 'tôi' / 'chúng' trong lời hô của Sue yêu cầu yểm trợ để kéo địch xuống."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000231"
+    locks:
+      - "Khóa câu gọi thốt lên đầy bất ngờ 'Trung úy Sue?!'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000232"
+    locks:
+      - "Khóa định danh 'Drake', đại từ 'Anh' trong trần thuật và câu hỏi nội tâm in nghiêng bằng Markdown '*Mình có nên cản cô ta lại không?*' theo đúng DEC-P01-001 và DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000233"
+    locks:
+      - "Khóa câu cảm thán nội tâm in nghiêng toàn bộ bằng Markdown '*Chết tiệt thật.*' theo đúng DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000234"
+    locks:
+      - "Khóa đại từ 'Anh' / 'cô ta' và quyết định bất đắc dĩ phải để Sue hành động."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000235"
+    locks:
+      - "Khóa danh xưng 'Trung úy Sue', đại từ 'Anh' và lý do chênh lệch độ cao quá lớn buộc Drake phải trông cậy vào pha lao lên liều mạng của Sue để thu hẹp khoảng cách."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000236"
+    locks:
+      - "Khóa danh xưng đầy đủ 'Trung tá Drake' và sự thay đổi cách nhìn nhận tình thế trong tâm trạng ngán ngẩm."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000237"
+    locks:
+      - "Khóa đại từ 'Anh' và thế đối lập giữa mong muốn tác chiến như một khối gắn kết với nhận thức đây không phải lúc cứng nhắc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000238"
+    locks:
+      - "Khóa định danh 'Sue', đại từ 'anh' / 'cô ta', cụm ẩn dụ 'quân bài bất định' và cấu trúc điều kiện tận dụng cô đúng như vậy."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000239"
+    locks:
+      - "Khóa danh xưng 'Trung úy Sue', thuật ngữ 'Thuật thức bắn tỉa quang học', thông số 'bốn nghìn' và chuỗi mệnh lệnh dồn dập lưu ý chênh lệch độ cao khi ngắm bắn quân Đế quốc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000240"
+    locks:
+      - "Khóa bước chuyển điểm nhìn sang phía 'Tanya' nhìn xuống từ vị trí cao vợi trên bầu trời."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000241"
+    locks:
+      - "Khóa lời khen ngợi 'Viên chỉ huy của địch đang làm rất xuất sắc'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000242"
+    locks:
+      - "Khóa cấu trúc tăng tiến 'Không những... mà... còn' (cùng chủ thể 'anh ta' chỉ chỉ huy địch), đại từ nội tâm 'chúng ta', các thông số 'tám nghìn bộ', 'sáu nghìn bộ' và các thuật ngữ 'ngưỡng trần bay mềm', 'các mẫu quả cầu đời cũ', 'các pháp sư trên không'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000243"
+    locks:
+      - "Khóa các thuật ngữ 'quả cầu tính toán Type 97 lõi kép', 'những mẫu lõi đơn', đại từ 'chúng ta' và tình thái suy luận của Tanya ('hẳn việc đạt được điều này chẳng hề dễ dàng', 'Ắt hẳn phải có bí quyết gì đó')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000244"
+    locks:
+      - "Khóa các thuật ngữ 'hỏa lực chế áp', 'thuật thức quang học', 'thuật thức dẫn đường', 'lớp vỏ phòng thủ', 'màn chắn bảo hộ', 'các pha cơ động né tránh', đại từ 'chúng ta' và thế lưỡng nan chiến thuật; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000245"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'mình' của Tanya theo DEC-P01-001, cụm 'kẻ địch của chúng ta' và nhận định thế giới bị chi phối bởi các định luật vật lý."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000246"
+    locks:
+      - "Khóa câu khẳng định phủ định ngắn gọn 'Có những chuyện đơn giản là không thể làm được'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000247"
+    locks:
+      - "Khóa lập luận về quy luật tự nhiên và giới hạn: đôi khi phải vượt qua giới hạn nhưng giới hạn vẫn là giới hạn và mánh khóe chỉ giúp đi xa tới một mức độ nhất định."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000248"
+    locks:
+      - "Khóa cụm nội tâm in nghiêng bằng Markdown '*Đến lúc rồi*' theo DEC-P01-002, định danh 'Tanya', đại từ trần thuật 'cô' và danh xưng 'Trung úy Serebryakov'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000249"
+    locks:
+      - "Khóa hô hiệu '02' và mệnh lệnh bắt đầu phản công của Tanya."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000250"
+    locks:
+      - "Khóa lời đáp xác nhận qua vô tuyến '02 nghe rõ'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000251"
+    locks:
+      - "Khóa thuật ngữ 'Viên sĩ quan phụ tá', đại từ 'cô', định danh 'Tanya' và chi tiết vẫy súng đáp lời khiến Tanya mỉm cười."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000252"
+    locks:
+      - "Khóa giả định 'Giả sử như chúng ta bổ nhào thẳng xuống đội hình của họ', đại từ nội tâm 'Mình' / 'chúng ta' và mức độ chắc chắn 'Mình dám chắc' của Tanya."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000253"
+    locks:
+      - "Khóa câu thoại bỏ lửng của Tanya xác định thời điểm quân địch không thể leo cao thêm được nữa."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000254"
+    locks:
+      - "Khóa câu thoại tiếp nối bị ngắt giữa chừng, đại từ 'cô' và cụm in nghiêng bằng Markdown '*chấm nhỏ*' theo đúng DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000255"
+    locks:
+      - "Khóa hình ảnh ví von 'một con lợn rừng đang bay về phía chúng ta' trong lời thoại của Tanya."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000256"
+    locks:
+      - "Khóa cách xưng hô 'thưa Trung tá' — 'Tôi' của Serebryakov với Tanya, đại từ trung tính 'Kẻ đó' (không suy diễn giới tính mục tiêu từ xa theo DEC-P01-001) và hai câu hỏi ngạc nhiên liên tiếp."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000257"
+    locks:
+      - "Khóa sự tương phản giữa vẻ cảm phục của 'viên sĩ quan phụ tá' với thái độ khinh miệt kẻ địch của 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000258"
+    locks:
+      - "Khóa đại từ trung tính 'kẻ đó' và nhận định của Tanya rằng mục tiêu đã vứt bỏ mọi logic để hành động liều lĩnh."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000259"
+    locks:
+      - "Khóa đại từ 'Tôi', cách gọi trung tính 'kẻ đó', tiểu từ lễ phép 'ạ' và nhận xét của Serebryakov rằng việc còn thở được ở độ cao này chứng tỏ bản lĩnh hơn hẳn đồng đội."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000260"
+    locks:
+      - "Khóa cụm 'Viên sĩ quan phụ tá của Tanya', thuật ngữ 'pháp sư trên không', từ in nghiêng '*chấm nhỏ*' theo DEC-P01-002, đại từ nội tâm 'chúng ta', cách gọi trung tính 'kẻ đó' / 'tên pháp sư kia' và cấu trúc giả định trái thực tế đối lập giữa chạm trán khi đi lẻ với tự ý bỏ lại toàn bộ đội hình phía sau."
