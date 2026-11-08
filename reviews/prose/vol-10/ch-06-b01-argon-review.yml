@@ -1,0 +1,213 @@
+task_id: "vol-10-ch-06-b01-argon-review"
+parent_task_id: "vol-10-ch-06-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b01-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b01.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b01-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000014"
+    severity: "minor"
+    issue: "Cụm ẩn dụ ở câu cuối p000014 ('một ngọn hải đăng hy vọng nhỏ nhoi') và phần nối tiếp ở đầu p000015 ('Dẫu là một ngọn hải đăng…') dịch danh từ chỉ ngọn đèn/ánh sáng dẫn đường thành 'ngọn hải đăng'; khi đi kèm tính từ 'nhỏ nhoi', hình ảnh một công trình hải đăng đồ sộ trở nên hơi vênh về mặt liên tưởng trong tiếng Việt."
+    basis: "Đối chiếu mạch ẩn dụ liên kết giữa p000014 và p000015 cùng nguyên tắc kết hợp từ tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'một ngọn đèn hy vọng nhỏ nhoi' (hoặc 'một đốm sáng hy vọng nhỏ nhoi') ở p000014 và chỉnh tương ứng ở đầu p000015 ('Dẫu là một ngọn đèn dẫn đường…' / 'Dẫu là một đốm sáng…') để hình ảnh vừa khớp kích thước 'nhỏ nhoi' vừa giữ trọn nghĩa biểu trưng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000019"
+    severity: "minor"
+    issue: "Cụm 'trút bỏ được một gánh nặng áp lực rất lớn' ở câu cuối ghép trực tiếp hai danh từ đồng nghĩa ('gánh nặng' và 'áp lực') khiến diễn đạt hơi trùng lặp."
+    basis: "Đối chiếu câu cuối p000019 và nguyên tắc viết tiếng Việt tự nhiên, rõ ràng trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc gọn lại thành 'trút bỏ được một phần lớn áp lực cho vị tướng' hoặc 'trút bỏ được một gánh nặng rất lớn cho vị tướng'."
+pending_term_recommendations:
+  - source_term: "SEPTEMBER 2, UNIFIED YEAR 1927, IMPERIAL CAPITAL, GENERAL STAFF OFFICE / General Staff Office / the capital"
+    proposed_vi: "NGÀY 2 THÁNG 9 NĂM THỐNG NHẤT 1927, ĐẾ ĐÔ, VĂN PHÒNG BỘ TỔNG THAM MƯU / Văn phòng Bộ Tổng tham mưu / thủ đô"
+    category: "tiêu đề mục - địa danh - cơ quan quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với quy ước dịch tiêu đề thời gian - địa điểm và định danh 'Đế đô', 'Văn phòng Bộ Tổng tham mưu' đã khóa xuyên suốt trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000001"
+      - "YS-LN10/Text/chapter028.xhtml/p000014"
+      - "YS-LN10/Text/chapter028.xhtml/p000020"
+  - source_term: "deputy director"
+    proposed_vi: "cục phó"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Chỉ chức vụ Cục phó Cục Tác chiến của Trung tướng Rudersdorf; nhất quán với cụm 'cục phó kiêm thanh tra viên' tại vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000002"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh đã khóa xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000003"
+      - "YS-LN10/Text/chapter028.xhtml/p000010"
+      - "YS-LN10/Text/chapter028.xhtml/p000030"
+  - source_term: "fog of war"
+    proposed_vi: "màn sương mù chiến tranh"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự kinh điển của Clausewitz chỉ sự bất định thông tin trên chiến trường, giữ nguyên hình ảnh ẩn dụ để đối xứng với 'làn sương mù kiểu khác' trên chính trường ở câu kế tiếp."
+    alternatives_vi:
+      - "sương mù chiến tranh"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000004"
+  - source_term: "Lieutenant General Rudersdorf / the general"
+    proposed_vi: "Trung tướng Rudersdorf / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc và định danh của Rudersdorf tại vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000008"
+      - "YS-LN10/Text/chapter028.xhtml/p000014"
+      - "YS-LN10/Text/chapter028.xhtml/p000019"
+      - "YS-LN10/Text/chapter028.xhtml/p000026"
+      - "YS-LN10/Text/chapter028.xhtml/p000029"
+      - "YS-LN10/Text/chapter028.xhtml/p000032"
+  - source_term: "Zettour"
+    proposed_vi: "Zettour"
+    category: "nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên họ nhân vật nhất quán với toàn bộ các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000010"
+      - "YS-LN10/Text/chapter028.xhtml/p000012"
+      - "YS-LN10/Text/chapter028.xhtml/p000017"
+      - "YS-LN10/Text/chapter028.xhtml/p000019"
+  - source_term: "the east / eastern front / the west"
+    proposed_vi: "miền đông / mặt trận phía đông / miền tây"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Khớp với hệ thống tên gọi các mặt trận và hướng chiến trường trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000010"
+      - "YS-LN10/Text/chapter028.xhtml/p000019"
+      - "YS-LN10/Text/chapter028.xhtml/p000030"
+  - source_term: "a revolving door"
+    proposed_vi: "*cánh cửa xoay*"
+    category: "tên chiến dịch"
+    status: "pending"
+    rationale: "Khớp với định danh 'cánh cửa xoay' / 'Chiến dịch Cánh cửa xoay' đã khóa trong pending-terms-index.yml và bảo toàn nhấn mạnh in nghiêng theo DEC-P01-002."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000012"
+  - source_term: "Bureaucrats / bureaucracy / politicians / members of parliament / imperial family"
+    proposed_vi: "Giới quan chức hành chính / bộ máy quan liêu (thủ tục quan liêu) / đám chính khách / các nghị sĩ quốc hội / hoàng gia"
+    category: "chính trị - hành chính"
+    status: "pending"
+    rationale: "Phân biệt rõ bốn nhóm chủ thể trên chính trường Đế quốc và khớp với 'giới quan chức hành chính', 'các nghị sĩ quốc hội' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000024"
+      - "YS-LN10/Text/chapter028.xhtml/p000027"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000001"
+    locks:
+      - "Khóa dòng tiêu đề thời gian - địa điểm viết hoa toàn bộ: 'NGÀY 2 THÁNG 9 NĂM THỐNG NHẤT 1927, ĐẾ ĐÔ, VĂN PHÒNG BỘ TỔNG THAM MƯU'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000002"
+    locks:
+      - "Khóa chức danh 'cục phó' trong cụm 'văn phòng cục phó', nhận định ban đầu về sự kỳ lạ khi nơi này chìm trong hỗn loạn và mệnh đề nhượng bộ bỏ lửng ở câu thứ hai."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000003"
+    locks:
+      - "Khóa định danh 'Đế quốc' và cấu trúc phủ định kép khẳng định tình trạng hỗn loạn không hề thiếu dạo gần đây."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000004"
+    locks:
+      - "Khóa phép đối lập giữa 'màn sương mù chiến tranh' trên chiến trường với 'một làn sương mù kiểu khác' bao phủ chính trường, cùng hệ quả khiến 'ngay cả những nhà chiến lược sắc sảo hơn' cũng cảm thấy mình trở nên 'đần độn và chậm lụt'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000005"
+    locks:
+      - "Khóa trạng thái 'nỗi bứt rứt mơ hồ nhưng âm ỉ cứ lơ lửng trên đầu' và phủ định 'chẳng phải là chuyện gì khác thường đối với những con người này'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000006"
+    locks:
+      - "Khóa quan hệ chuyển ý 'Tuy nhiên' và nhận định 'bầu không khí chung vào ngày hôm đó lại có đôi chút khác biệt'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000007"
+    locks:
+      - "Khóa câu hỏi độc thoại của Rudersdorf với đại từ 'Chúng ta' và thế lưỡng lự giữa 'tin tốt hay tin xấu'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000008"
+    locks:
+      - "Khóa danh xưng trần thuật 'Vị tướng', đại từ 'ông', chi tiết mang 'cả hai luồng cảm xúc vừa nêu' khi nhìn bản đồ và hành động thở hắt ra giữa màn khói thuốc lá sẫm đặc."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000009"
+    locks:
+      - "Khóa đại từ tự xưng 'ta' trong câu cảm thán độc thoại của Rudersdorf về điếu thuốc ngon hiếm có sau một thời gian dài."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000010"
+    locks:
+      - "Khóa hướng địa lý 'miền đông', cách gọi mang màu sắc điểm nhìn của Rudersdorf 'Con chó săn Zettour kia', địa danh 'mặt trận phía đông' và hệ quả kéo dài 'sinh mệnh đang héo mòn của Đế quốc tại chiến trường đó'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000011"
+    locks:
+      - "Khóa đại từ 'Ông ta' quy chiếu Zettour và hai chiến công 'vực dậy mặt trận ấy từ cõi chết', 'tung ra một đòn phản công vô tiền khoáng hậu'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000012"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại tên chiến dịch '*cánh cửa xoay*', kết quả đẩy chiến tuyến trở lại đúng vị trí cần thiết và lời bông đùa của các sĩ quan về hàm ý kép trong cụm '“bước tiến lên phía trước”' của Zettour gắn với việc chắc chắn được thăng hàm."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000013"
+    locks:
+      - "Khóa câu độc thoại hoài niệm của Rudersdorf với cách gọi 'Tay lừa đảo đó', đại từ tự xưng 'ta' - 'chúng ta', đại từ 'Lão' chỉ Zettour và sự tương phản giữa vẻ ngoài 'học giả đạo mạo' với bản chất 'tàn nhẫn nhất'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000014"
+    locks:
+      - "Khóa danh xưng 'vị tướng', đại từ 'ông', suy luận rằng nhờ 'chiến lược đúng đắn' vẫn có thể 'lật ngược thế cờ trong cuộc chiến cho dù bị áp đảo quân số đến mức tuyệt vọng' và định danh 'Văn phòng Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000015"
+    locks:
+      - "Khóa mệnh đề nhượng bộ ở đầu câu và thực tế phủ định 'vẫn không làm thay đổi được thực tế rằng cả đất nước đang sa lầy trong bế tắc'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000016"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ 'lão' (chỉ Zettour), 'chúng ta' và nhận định giới hạn về tác dụng từ những mánh khóe của Zettour."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000017"
+    locks:
+      - "Khóa chi tiết 'bàn tay run rẩy của ông vươn ra lấy chút thuốc lá' và đánh giá giới hạn 'chỉ dừng lại ở một thắng lợi chiến thuật trên chiến trường'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000018"
+    locks:
+      - "Khóa quan hệ nghịch đối làm nổi bật 'thực trạng thảm hại trong nỗ lực chiến tranh của họ'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000019"
+    locks:
+      - "Khóa phủ định 'chẳng ai khác có thể làm nổi', sự tin cậy khi 'phó thác mặt trận phía đông cho Zettour' và danh xưng 'vị tướng'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000020"
+    locks:
+      - "Khóa mệnh đề nhượng bộ 'Dẫu vậy… chừng đó vẫn chưa đủ để mang lại cho ông chút khoảng thở thực sự nào', việc phải 'xoay xở dàn xếp đủ đường tại thủ đô' và sự tăng tiến mức độ kiệt quệ từ thể xác sang tinh thần."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000021"
+    locks:
+      - "Khóa nguyên nhân cộng hưởng khiến tình hình tệ hơn khi ông phải đối phó với 'các công việc chính trị, một lĩnh vực mà ông vốn chẳng mấy thông thạo'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000022"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ 'Ta' và cách gọi trung tính 'hai người đó'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000023"
+    locks:
+      - "Khóa sắc thái 'tự giễu' trong giọng nói của vị tướng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000024"
+    locks:
+      - "Khóa bản chất hoạt động của bốn nhóm chủ thể: 'Giới quan chức hành chính' vì 'bộ máy quan liêu', 'đám chính khách' chỉ nghĩ cho bản thân, 'các nghị sĩ quốc hội' đưa ra yêu sách và 'hoàng gia' ôm ấp tham vọng cùng toan tính riêng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000025"
+    locks:
+      - "Khóa nguyên nhân bất đồng do mỗi bên tuân theo 'trường phái tư tưởng và ngôn ngữ riêng', nỗi khó khăn của 'một nhà chiến lược' khi làm việc với những kẻ vận hành theo 'một hệ logic khác biệt về căn bản' và hệ quả kéo theo 'quá nhiều cuộc tranh cãi vô nghĩa'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000026"
+    locks:
+      - "Khóa hình ảnh ví von 'vị tướng lúc nào cũng đang phải đi trên dây'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000027"
+    locks:
+      - "Khóa sự tương phản giữa nhiệm vụ 'còn cả một cuộc chiến phải đánh' với 'những thủ tục quan liêu rườm rà vô bổ' đang 'thử thách sức chịu đựng của mạch máu trong người ông'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000028"
+    locks:
+      - "Khóa câu hỏi than vãn độc thoại của Rudersdorf với đại từ 'Ta' về việc còn phải tiếp tục chống đỡ tình cảnh này thêm bao lâu."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000029"
+    locks:
+      - "Khóa nhận định của người kể chuyện rằng lời than vãn vô tình 'chạm trúng cốt lõi của vấn đề trước mắt'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000030"
+    locks:
+      - "Khóa phép đối chiếu giữa việc 'giành chiến thắng ở miền đông' và 'bất chấp thất bại ở miền tây' vẫn buộc kẻ địch phải dè chừng, cùng thông điệp của 'Đế quốc' rằng họ sẽ không dễ dàng gục ngã hay chịu thua mà không chiến đấu kèm giới hạn thời gian '… ít nhất là ở thời điểm hiện tại'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000031"
+    locks:
+      - "Khóa nhận định đảo chiều góc nhìn: 'đó cũng là tất cả những gì họ đạt được'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000032"
+    locks:
+      - "Khóa hình ảnh ẩn dụ 'Cả quốc gia đang bước đi trên lớp băng mỏng đầy hiểm nguy', cấp bậc kèm tên riêng 'Trung tướng Rudersdorf' và hành động giấu tiếng thở dài vào làn khói thuốc lá đặc quánh khi trầm ngâm suy tính về cục diện."
