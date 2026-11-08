@@ -1,0 +1,199 @@
+task_id: "vol-10-ch-04-b15-argon-review"
+parent_task_id: "vol-10-ch-04-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b15-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b15.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b15-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 0
+findings: []
+pending_term_recommendations:
+  - source_term: "Colonel Lergen"
+    proposed_vi: "Đại tá Lergen"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất quân hàm Đại tá của Lergen ở thời điểm tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000295"
+      - "YS-LN10/Text/chapter022.xhtml/p000297"
+  - source_term: "western front"
+    proposed_vi: "mặt trận phía tây"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000295"
+  - source_term: "Lieutenant General Rudersdorf"
+    proposed_vi: "Trung tướng Rudersdorf"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất quân hàm Trung tướng của Rudersdorf trong Bộ Tổng tham mưu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000295"
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    category: "thuật ngữ kế hoạch"
+    status: "pending"
+    rationale: "Giữ định danh Kế hoạch B nhất quán với lô trước; không in nghiêng tại p000296 vì bản nguồn không có thẻ nhấn mạnh."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000296"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "tổ chức nhà nước"
+    status: "pending"
+    rationale: "Giữ thống nhất tên gọi Bộ Ngoại giao theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000297"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "thuật ngữ tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tên cơ quan tham mưu trung ương theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000299"
+  - source_term: "Titanic"
+    proposed_vi: "*Titanic*"
+    category: "tên riêng"
+    status: "pending"
+    rationale: "Giữ nguyên tên tàu Titanic kèm dấu nhấn mạnh chữ nghiêng theo đúng bản nguồn và quy ước DEC-P01-002."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000306"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "tên quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất tên gọi Đế quốc theo pending-terms-index.yml xuyên suốt các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000314"
+  - source_term: "industrial espionage"
+    proposed_vi: "gián điệp công nghiệp"
+    category: "thuật ngữ kinh tế - an ninh"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn xác trong tiếng Việt chỉ hành vi đánh cắp bí mật thương mại/công nghiệp giữa các doanh nghiệp."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000317"
+  - source_term: "Japan"
+    proposed_vi: "nước Nhật"
+    category: "tên quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án trong pending-terms-index.yml của tập 10."
+    alternatives_vi:
+      - "Nhật Bản"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000318"
+  - source_term: "AUGUST 14, UNIFIED YEAR 1927, WESTERN COMMAND CENTER FOR THE IMPERIAL ARMY"
+    proposed_vi: "NGÀY 14 THÁNG 8 NĂM THỐNG NHẤT 1927, TRUNG TÂM CHỈ HUY PHÍA TÂY CỦA LỤC QUÂN ĐẾ QUỐC"
+    category: "tiêu đề thời gian - địa điểm"
+    status: "pending"
+    rationale: "Giữ chuẩn định dạng mốc thời gian Năm Thống nhất và tên cơ quan chỉ huy mặt trận phía tây thuộc Lục quân Đế quốc."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000322"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000294"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình' theo DEC-P01-001) và phủ định tuyệt đối ('tuyệt nhiên chẳng có thời gian')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000295"
+    locks:
+      - "Khóa danh xưng 'Đại tá Lergen', 'mặt trận phía tây', đại từ ngôi thứ nhất số nhiều 'chúng tôi' (chỉ Tanya và Đại tá Lergen) và danh xưng 'Trung tướng Rudersdorf' ('ngài ấy')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000296"
+    locks:
+      - "Khóa sự chuyển dịch điểm nhìn từ tự quy chiếu ngôi thứ ba ('Tanya') sang ngôi thứ nhất nội tâm ('mình' theo DEC-P01-001), định danh 'Kế hoạch B' (không in nghiêng do nguồn không nhấn mạnh) và chuỗi phủ định ('sẽ chẳng được đền đáp', 'sẽ chưa sớm bắt đầu', 'Hoàn toàn chẳng có bất kỳ điều gì cụ thể cả')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000297"
+    locks:
+      - "Khóa tự sự nội tâm ngôi thứ nhất ('mình'), danh xưng 'Đại tá Lergen' ('ông ấy') và tên cơ quan 'Bộ Ngoại giao'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000298"
+    locks:
+      - "Khóa câu nội tâm ngôi thứ nhất ('mình' theo DEC-P01-001) và cấu trúc 'không khỏi thở dài thườn thượt trong lòng'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000299"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình'), quy chiếu 'ông ấy' (Đại tá Lergen), cụm 'binh lính ngoài tiền tuyến', 'các vị cấp trên' và 'Văn phòng Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000300"
+    locks:
+      - "Khóa câu cảm thán nội tâm ngắn ('Chuyện này thật quá đỗi phi lý.')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000301"
+    locks:
+      - "Khóa lời độc thoại lẩm bẩm một mình của Tanya với đại từ tự xưng 'mình' và cấu trúc phủ định ở vế đối lập ('nhưng thế thì cũng chẳng tốt đẹp gì cho mình cả')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000302"
+    locks:
+      - "Khóa câu tự sự ngôi thứ nhất ('Mình' theo DEC-P01-001) ngoài hành lang."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000303"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình') và mệnh đề điều kiện phủ định ('nếu không muốn tự bốc cháy')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000304"
+    locks:
+      - "Khóa câu khẳng định mức độ chắc chắn cao ('Dù nói vậy, đây chắc chắn là một cuộc khủng hoảng.')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000305"
+    locks:
+      - "Khóa nhận định nội tâm về quỹ thời gian còn lại trước khi tình hình 'trở nên vô phương cứu vãn'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000306"
+    locks:
+      - "Khóa phép so sánh với 'tàu *Titanic*' (giữ đúng dấu nhấn mạnh chữ nghiêng theo DEC-P01-002), đại từ bao gộp 'chúng ta' (ẩn dụ tập thể hành khách trên con tàu Đế quốc) và đại từ tự quy chiếu 'mình' ở hành động tìm đường thoát thân."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000307"
+    locks:
+      - "Khóa câu nội tâm ngôi thứ nhất ('Mình') và phủ định ('chưa có nhiều người nghĩ đến chuyện tìm đường ra xuồng cứu sinh đâu')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000308"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình'), đúng phạm vi nhấn mạnh chữ nghiêng '*bằng cách nào*' trong câu hỏi nội tâm theo DEC-P01-002, cùng hình ảnh so sánh 'lấy gậy chọc tổ ong'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000309"
+    locks:
+      - "Khóa câu liên hệ tới 'những kẻ đào tẩu đã thành công ở thế giới cũ của mình'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000310"
+    locks:
+      - "Khóa lập luận nội tâm ngôi thứ nhất ('Mình') và điều kiện phủ định ('nếu không muốn kết thúc dưới một nấm mồ nông')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000311"
+    locks:
+      - "Khóa phép so sánh với 'việc chuyển nghề', cấu trúc điều kiện loại trừ ('trừ phi') và đại từ ngôi thứ hai khái quát 'bạn'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000312"
+    locks:
+      - "Khóa sự đan xen điểm nhìn giữa ngôi thứ nhất ('mình') và quy chiếu ngôi thứ ba 'Tanya' ('cô'), cụm 'quốc gia tị nạn' và giả định hệ quả truyền thông ('nếu người ta diễn giải việc cô rời đi là bỏ rơi binh lính của mình…')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000313"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình' / 'bản thân') và các thuật ngữ ẩn dụ tuyển dụng ('nhà tuyển dụng mới', 'nhân sự có kinh nghiệm')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000314"
+    locks:
+      - "Khóa hình ảnh thành ngữ 'xỏ hai đôi dép cùng một lúc', đại từ nội tâm 'Mình' và tên 'Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000315"
+    locks:
+      - "Khóa câu nhận định chung có phủ định ('chẳng bao giờ có được những vị trí tốt nhất') và đại từ ngôi thứ hai khái quát 'Bạn' ('Bạn sẽ không thể tìm được...')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000316"
+    locks:
+      - "Khóa giả định mức tồi tệ nhất và đúng phạm vi nhấn mạnh chữ nghiêng '*kẻ phản bội*' theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000317"
+    locks:
+      - "Khóa ví dụ 'gián điệp công nghiệp' và nhận định phủ định về lòng tin của nhà tuyển dụng tiếp theo ('sẽ chẳng bao giờ được ông chủ tiếp theo tin tưởng')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000318"
+    locks:
+      - "Khóa quy chiếu ngôi thứ ba 'Tanya' ('cô'), đại từ bao gộp 'chúng ta' khi dẫn ngạn ngữ ở 'nước Nhật' ('Đừng phá hỏng tổ khi rời đi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000319"
+    locks:
+      - "Khóa câu đúc kết với đại từ ngôi thứ hai khái quát 'bạn'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000320"
+    locks:
+      - "Khóa câu nhận định ngắn khẳng định độ khó ('Sẽ khó khăn đấy—điều đó là chắc chắn.')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000321"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình') và phép ẩn dụ 'bảo hiểm' / 'gói bảo hiểm có kỳ hạn cố định'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000322"
+    locks:
+      - "Khóa dòng tiêu đề thời gian và địa điểm 'NGÀY 14 THÁNG 8 NĂM THỐNG NHẤT 1927, TRUNG TÂM CHỈ HUY PHÍA TÂY CỦA LỤC QUÂN ĐẾ QUỐC'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000323"
+    locks:
+      - "Khóa đoạn tự sự ngôi thứ nhất ('mình' theo DEC-P01-001) mở đầu cảnh báo cáo tại văn phòng chỉ huy phía tây."
