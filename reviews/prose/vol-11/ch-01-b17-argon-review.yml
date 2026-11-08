@@ -1,0 +1,213 @@
+task_id: "vol-11-ch-01-b17-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000137"
+    severity: "minor"
+    category: "pronouns"
+    issue: "Trong câu trần thuật mang điểm nhìn nội tâm của Tanya, cụm 'một trong những người bạn thân nhất của mình' dùng 'mình' làm đại từ phản thân quy chiếu cho Zettour ngay sau đoạn p000136 vừa dùng 'Mình' để tự quy chiếu Tanya, dễ gây nhập nhằng chủ thể với quy ước DEC-P01-001 (tương tự ở cuối p000127 'Kế hoạch B của mình' đang quy chiếu cho Rudersdorf)."
+    recommendation: "Đổi 'một trong những người bạn thân nhất của mình' ở p000137 thành 'một trong những người bạn thân nhất của ông ấy' (và có thể cân nhắc đổi 'Kế hoạch B của mình' ở p000127 thành 'Kế hoạch B của ông ta' để tách bạch hoàn toàn chủ thể)."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000145"
+    severity: "minor"
+    category: "pronouns"
+    issue: "Câu cuối đoạn trần thuật nội tâm dùng 'quanh hai chúng tôi' (lệch sang đại từ 'tôi' của lời thoại thay vì hệ đại từ nội tâm của Tanya theo DEC-P01-001) và dùng 'mối bận tâm của mình' làm đại từ phản thân quy chiếu cho Zettour."
+    recommendation: "Sửa 'quanh hai chúng tôi, ông ấy vừa nhả thêm một hơi khói vừa nói ra mối bận tâm của mình' thành 'quanh cả hai, ông ấy vừa nhả thêm một hơi khói vừa nói ra mối bận tâm của ông ấy' (hoặc 'quanh hai người, ông ấy vừa nhả thêm một hơi khói vừa nói ra nỗi bận tâm trong lòng')."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000154"
+    severity: "minor"
+    category: "word_choice"
+    issue: "Cụm 'ánh nhìn ghê tởm đó' trong tiếng Việt dễ bị hiểu theo hướng định ngữ phẩm chất ('một ánh nhìn đáng ghê tởm'), trong khi ngữ cảnh chỉ ánh mắt biểu lộ sự ghê tởm/chán ghét của Zettour trước đề xuất của Tanya."
+    recommendation: "Đổi 'ánh nhìn ghê tởm đó' thành 'ánh nhìn đầy vẻ ghê tởm đó' hoặc 'ánh mắt tỏ vẻ ghê tởm đó'."
+pending_term_recommendations:
+  - source_term: "General Zettour / General Rudersdorf / Colonel Lergen / the colonel"
+    proposed_vi: "Tướng Zettour / Tướng Rudersdorf / Đại tá Lergen / vị đại tá"
+    alternatives_vi:
+      - "Đại tướng Zettour / Đại tướng Rudersdorf"
+    category: "quân hàm - danh xưng"
+    status: "pending"
+    rationale: "Giữ thống nhất danh xưng cấp bậc của Zettour, Rudersdorf và Lergen (đã thăng Đại tá) theo tiền lệ các batch trước trong vol-11."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000124"
+      - "YS-LN11/Text/chapter004.xhtml/p000125"
+      - "YS-LN11/Text/chapter004.xhtml/p000126"
+      - "YS-LN11/Text/chapter004.xhtml/p000127"
+      - "YS-LN11/Text/chapter004.xhtml/p000128"
+      - "YS-LN11/Text/chapter004.xhtml/p000129"
+      - "YS-LN11/Text/chapter004.xhtml/p000136"
+      - "YS-LN11/Text/chapter004.xhtml/p000145"
+      - "YS-LN11/Text/chapter004.xhtml/p000151"
+      - "YS-LN11/Text/chapter004.xhtml/p000157"
+  - source_term: "Ildoa / the Empire / the Federation / the eastern front / the east"
+    proposed_vi: "Ildoa / Đế quốc / Liên bang / mặt trận phía đông / miền đông"
+    alternatives_vi: []
+    category: "địa danh - quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống tên quốc gia và phân biệt 'mặt trận phía đông' với 'miền đông' trong sổ pending."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000124"
+      - "YS-LN11/Text/chapter004.xhtml/p000130"
+      - "YS-LN11/Text/chapter004.xhtml/p000134"
+      - "YS-LN11/Text/chapter004.xhtml/p000140"
+      - "YS-LN11/Text/chapter004.xhtml/p000143"
+  - source_term: "peace deal / Plan B"
+    proposed_vi: "thỏa thuận hòa bình / Kế hoạch B"
+    alternatives_vi:
+      - "hiệp định hòa bình / Phương án B"
+    category: "thuật ngữ chính trị - quân sự"
+    status: "pending"
+    rationale: "Cách dịch tự nhiên, sát nghĩa cho đàm phán ngoại giao với Ildoa và phương án dự phòng của Rudersdorf."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000124"
+      - "YS-LN11/Text/chapter004.xhtml/p000127"
+  - source_term: "air transport network / maintenance issue / plane crew / crew"
+    proposed_vi: "mạng lưới vận tải hàng không / sự cố bảo dưỡng / tổ bay"
+    alternatives_vi:
+      - "mạng lưới không vận / trục trặc bảo dưỡng / phi hành đoàn"
+    category: "thuật ngữ hàng không"
+    status: "pending"
+    rationale: "Thuật ngữ hàng không quân sự rõ nghĩa, thống nhất cách dịch 'tổ bay' giữa p000146 và p000148."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000142"
+      - "YS-LN11/Text/chapter004.xhtml/p000143"
+      - "YS-LN11/Text/chapter004.xhtml/p000146"
+      - "YS-LN11/Text/chapter004.xhtml/p000148"
+  - source_term: "serial killer / psychopath"
+    proposed_vi: "kẻ giết người hàng loạt / kẻ thái nhân cách"
+    alternatives_vi: []
+    category: "thuật ngữ tâm lý"
+    status: "pending"
+    rationale: "Thuật ngữ tiêu chuẩn, truyền tải đúng sắc thái nhận xét châm biếm lạnh lùng của Tanya về Zettour."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000161"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000122"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: gọi 'Ngài', xưng 'tôi', kết câu hỏi bằng 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000123"
+    choices:
+      - "Điểm nhìn nội tâm: 'Vị cấp trên của mình' theo DEC-P01-001."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000124"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Zettour: 'Chúng ta', 'Rudersdorf', 'Đại tá Lergen', 'thỏa thuận hòa bình với Ildoa'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000125"
+    choices:
+      - "Câu hỏi phủ định tu từ của Tanya: 'Chẳng phải... sao ạ?', quy chiếu Rudersdorf là 'ông ta' và Lergen là 'vị đại tá'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000126"
+    choices:
+      - "Đại từ nội tâm: 'chúng ta', 'mình'; quy chiếu Rudersdorf là 'ông ta'."
+      - "Quân hàm và tên riêng: 'Tướng Rudersdorf', 'Đại tá Lergen', 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000127"
+    choices:
+      - "Phủ định và đối lập trong thoại của Zettour: 'không nằm ở năng lực của Đại tá Lergen… mà là ở chỗ cậu ta đứng về phía nào'."
+      - "Giả định trái thực tế: 'Nếu thực sự tin tưởng vị đại tá, hẳn ông ta đã giao cho cậu ta phụ trách khâu chuẩn bị cho Kế hoạch B...'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000128"
+    choices:
+      - "Thoại hỏi lại của Tanya: giữ rõ chủ thể 'vị đại tá' (Lergen) và 'ông ta' (Rudersdorf), có 'ạ' cuối câu."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000129"
+    choices:
+      - "Nhấn mạnh Markdown: giữ '*Chính xác.*' khớp với thẻ <em> trong XHTML gốc theo DEC-P01-002."
+      - "Tên gọi và đại từ: 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000130"
+    choices:
+      - "Xưng hô trong thoại của Zettour: xưng 'Tôi', quy chiếu Rudersdorf là 'ông ta'."
+      - "Địa danh: 'mặt trận phía đông'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000131"
+    choices:
+      - "Đại từ trần thuật quy chiếu Zettour: 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000132"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: 'Thưa ngài', xưng 'tôi', giữ dấu chấm lửng ngập ngừng cuối câu."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000133"
+    choices:
+      - "Xưng hô trong thoại của Zettour với Tanya: gọi 'Cô', giữ phủ định 'không cần phải nói ra đâu'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000134"
+    choices:
+      - "Điểm nhìn và đại từ nội tâm: 'Vị cấp trên đang mỉm cười của mình', quy chiếu Zettour là 'ông ấy'."
+      - "Thuật ngữ: 'sĩ quan Đế quốc', 'Liên bang'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000135"
+    choices:
+      - "Xưng hô trong câu hỏi của Zettour với Tanya: gọi 'cô', xưng 'tôi', giữ đúng chủ thể người thực hiện 'phần việc bẩn thỉu' là Zettour."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000136"
+    choices:
+      - "Đại từ nội tâm tự quy chiếu của Tanya: 'Mình'; quy chiếu 'Tướng Zettour' là 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000137"
+    choices:
+      - "Đại từ quy chiếu Zettour: 'ông ấy'; đổi 'bạn thân nhất của mình' thành 'bạn thân nhất của ông ấy' để tránh trùng đại từ nội tâm 'mình' của Tanya."
+      - "Giữ dấu chấm lửng và cụm trích dẫn trong câu 'khẽ thì thầm “được thôi”'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000138"
+    choices:
+      - "Xưng hô trong thoại của Zettour: 'Chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000139"
+    choices:
+      - "Giữ nhịp câu ngắn khẳng định trong độc thoại nội tâm: 'Đó lại là phần dễ dàng.'"
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000140"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: 'chúng ta', 'Ngài', 'ạ'; quy chiếu Rudersdorf là 'ông ta'."
+      - "Địa danh và từ vựng: 'miền đông', 'vụ rơi máy bay'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000141"
+    choices:
+      - "Giữ sắc thái tán đồng thản nhiên của Zettour: 'Những vụ như thế thi thoảng vẫn xảy ra.'"
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000142"
+    choices:
+      - "Giọng mỉa mai lịch sự của Tanya: 'Vâng. Sẽ thật đáng tiếc biết bao nếu xảy ra một sự cố bảo dưỡng.'"
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000143"
+    choices:
+      - "Đại từ nội tâm: 'chúng ta'."
+      - "Thuật ngữ: 'mạng lưới vận tải hàng không', 'Đế quốc'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000144"
+    choices:
+      - "Xưng hô trong thoại của Tanya: xưng 'Tôi', 'quân của mình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000145"
+    choices:
+      - "Tên gọi và đại từ: 'Tướng Zettour', 'Ông ấy'; sửa 'quanh hai chúng tôi' và 'mối bận tâm của mình' để giữ nhất quán hệ đại từ nội tâm theo DEC-P01-001."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000146"
+    choices:
+      - "Thuật ngữ trong thoại của Zettour: 'tổ bay' (plane crew)."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000147"
+    choices:
+      - "Đại từ trần thuật quy chiếu Zettour: 'Ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000148"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Zettour: gọi Tanya là 'Cô', dùng 'chúng ta', giữ thống nhất 'tổ bay'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000149"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'Mình', quy chiếu Zettour là 'ông ấy'; giữ dấu chấm lửng và giọng mỉa mai ở câu cuối."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000150"
+    choices:
+      - "Đại từ nội tâm và tình thái: tự quy chiếu 'mình', quy chiếu Zettour là 'ông ấy', giữ tình thái 'Đáng lẽ mình phải...'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000151"
+    choices:
+      - "Đại từ nội tâm và phủ định: 'Đáng lẽ phải vậy, nhưng mình lại chẳng hề thấy thế', 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000152"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: 'Thưa ngài, ngài có thể…'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000153"
+    choices:
+      - "Câu hỏi ngắn của Zettour: 'Chuyện gì?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000154"
+    choices:
+      - "Điểm nhìn nội tâm: tự quy chiếu 'Mình', gọi Zettour trong độc thoại thầm là 'Ông'; chỉnh 'ánh nhìn ghê tởm đó' thành 'ánh nhìn đầy vẻ ghê tởm đó' và giữ dấu chấm lửng cuối đoạn."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000155"
+    choices:
+      - "Xưng hô lễ độ trong thoại của Tanya với Zettour: 'ngài', 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000156"
+    choices:
+      - "Thán từ ngập ngừng của Zettour: 'Ồ… hả?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000157"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'Mình', quy chiếu 'Tướng Zettour' là 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000158"
+    choices:
+      - "Đại từ quy chiếu Zettour: 'ông ấy', giữ dấu chấm lửng và hình ảnh đối lập trong câu thứ hai."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000159"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: xưng 'Tôi', gọi 'ngài'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000160"
+    choices:
+      - "Xưng hô trong thoại của Zettour: giữ dấu chấm lửng đầu câu và đại từ 'Tôi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000161"
+    choices:
+      - "Đại từ nội tâm và từ vựng: quy chiếu Zettour là 'ông ấy' / 'sếp của mình', quy chiếu kẻ sát nhân giả định là 'hắn', dùng 'kẻ giết người hàng loạt' và 'thái nhân cách'."
+      - "Nhấn mạnh Markdown: ngoại trừ p000129 có '*Chính xác.*', 39 đoạn còn lại không có thẻ nhấn mạnh trong XHTML gốc nên giữ nguyên không đánh dấu *...* theo DEC-P01-002."
