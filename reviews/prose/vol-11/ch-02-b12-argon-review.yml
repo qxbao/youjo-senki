@@ -1,0 +1,193 @@
+task_id: "vol-11-ch-02-b12-argon-review"
+parent_task_id: "vol-11-ch-02-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 2
+source_package: "work/vol-11/batches/ch-02-b12-source.jsonl"
+target_translation: "translations/vol-11/ch-02-b12.jsonl"
+review_path: "reviews/prose/vol-11/ch-02-b12-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000090"
+    severity: "minor"
+    issue: "Câu thứ hai trong lời thoại của Đại tá Calandro thêm động từ 'kết luận' ('vội vàng kết luận như vậy'), làm thu hẹp nhẹ phạm vi khuyên đừng nóng vội nói chung của nguyên bản."
+    basis: "Đối chiếu p000090 và nguyên tắc không tự thu hẹp sắc thái hoặc thêm từ giải thích trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc rút gọn thành 'Ngài không cần phải nóng vội như vậy.' hoặc 'Chưa cần phải vội vàng đến thế đâu.'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000094"
+    severity: "minor"
+    issue: "Trong mệnh đề điều kiện cuối câu thoại, đại từ ngôi thứ ba quy chiếu về Đế quốc được chuyển sang ngôi thứ hai ('nếu phía các ngài không sẵn lòng...'), làm giảm nhẹ sắc thái giữ khoảng cách khách quan kiểu ngoại giao của Calandro."
+    basis: "Đối chiếu p000094 và nguyên tắc giữ đúng điểm nhìn, sắc thái phát ngôn trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'phía các ngài' thành 'họ' hoặc 'phía Đế quốc' để giữ nguyên cách nói gián tiếp của nhà trung gian hòa giải; không làm sai lệch nghĩa nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000104"
+    severity: "minor"
+    issue: "Câu thứ hai dùng hai trợ từ thời tương lai 'sẽ' ('sẽ tự động phát huy tác dụng, và tôi sẽ luôn thấy chân mình quay trở lại') để dịch cấu trúc diễn tả thói quen/phản xạ lặp lại trong quá khứ, khiến nhịp câu hơi lệch sang dự đoán tương lai so với mạch hồi tưởng."
+    basis: "Đối chiếu p000104 và nguyên tắc giữ đúng thời gian, sắc thái tình thái trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc điều chỉnh thành 'luôn tự động phát huy tác dụng, để rồi lúc nào tôi cũng thấy chân mình quay trở lại Văn phòng Bộ Tổng tham mưu' nhằm khớp tự nhiên hơn với mạch hồi ký quá khứ; không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Colonel Calandro"
+    proposed_vi: "Đại tá Calandro"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng Calandro và dịch chuẩn quân hàm Colonel là Đại tá theo hệ thống cấp bậc Lục quân Ildoa."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000089"
+      - "YS-LN11/Text/chapter008.xhtml/p000093"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh Đế quốc trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000092"
+      - "YS-LN11/Text/chapter008.xhtml/p000094"
+      - "YS-LN11/Text/chapter008.xhtml/p000096"
+      - "YS-LN11/Text/chapter008.xhtml/p000097"
+      - "YS-LN11/Text/chapter008.xhtml/p000101"
+      - "YS-LN11/Text/chapter008.xhtml/p000102"
+      - "YS-LN11/Text/chapter008.xhtml/p000107"
+      - "YS-LN11/Text/chapter008.xhtml/p000108"
+  - source_term: "Ildoa"
+    proposed_vi: "Ildoa"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng quốc gia Ildoa theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000094"
+      - "YS-LN11/Text/chapter008.xhtml/p000107"
+  - source_term: "mediator"
+    proposed_vi: "bên trung gian hòa giải"
+    category: "thuật ngữ ngoại giao"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác vai trò trung gian hòa giải ngoại giao của Ildoa (khi chỉ quốc gia ở p000094 và đại diện ngoại giao ở p000096)."
+    alternatives_vi:
+      - "người trung gian hòa giải"
+      - "nhà trung gian hòa giải"
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000094"
+      - "YS-LN11/Text/chapter008.xhtml/p000096"
+  - source_term: "the fatherland"
+    proposed_vi: "Tổ quốc"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Khớp thống nhất với phương án 'Tổ quốc' đã dùng tại vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000098"
+      - "YS-LN11/Text/chapter008.xhtml/p000101"
+  - source_term: "international railway / international railroad"
+    proposed_vi: "tuyến đường sắt quốc tế"
+    category: "thuật ngữ giao thông"
+    status: "pending"
+    rationale: "Dịch sát nghĩa và thống nhất cho cả hai cách viết trong nguồn khi chỉ tuyến đường sắt liên quốc gia nối Ildoa với Đế quốc."
+    alternatives_vi:
+      - "đường sắt quốc tế"
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000099"
+      - "YS-LN11/Text/chapter008.xhtml/p000100"
+  - source_term: "brownout"
+    proposed_vi: "hạn chế chiếu sáng"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Phản ánh đúng tình trạng giảm/hạn chế điện năng dẫn đến thiếu vắng ánh đèn trong bối cảnh thời chiến tại p000101."
+    alternatives_vi:
+      - "cắt giảm điện chiếu sáng"
+      - "sụt giảm điện áp diện rộng"
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000101"
+  - source_term: "staff officer"
+    proposed_vi: "sĩ quan tham mưu"
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Khớp thống nhất với thuật ngữ 'sĩ quan tham mưu' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000104"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án đã khóa xuyên suốt các tập trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000104"
+      - "YS-LN11/Text/chapter008.xhtml/p000105"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000089"
+    locks:
+      - "Khóa định danh 'Đại tá Calandro', đại từ tự xưng 'tôi' của Lergen trong mạch hồi ký và giả định so sánh 'như thể tôi đã hiểu lầm'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000090"
+    locks:
+      - "Khóa cặp xưng hô ngoại giao trang trọng 'Tôi' – 'Ngài', đại từ 'họ' (chỉ phe đối phương/Hiệp ước) và phủ định tình thái 'không rõ liệu họ có đẩy mọi chuyện đi xa đến mức đó hay không' cùng lời khuyên không cần nóng vội."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000091"
+    locks:
+      - "Khóa đại từ 'Tôi' (Lergen) và 'ông ấy' (Calandro), cùng hai câu hỏi tu từ biểu lộ sự bàng hoàng kết thúc bằng dấu '?!'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000092"
+    locks:
+      - "Khóa đại từ 'các ngài', định danh 'Đế quốc', cụm trạng ngữ 'xét trên mọi phương diện thực chất' và câu hỏi xác nhận việc đối xử với Đế quốc như 'kẻ chiến bại trong cuộc chiến này'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000093"
+    locks:
+      - "Khóa định danh 'Đại tá Calandro', đại từ 'ông ấy' – 'tôi', chi tiết 'ra vẻ có phần miễn cưỡng' và cấu trúc nhượng bộ phủ định 'Dù ông ấy không thể thẳng thừng bác bỏ nhận định đó, câu trả lời đã quá đỗi rõ ràng, ngay cả với tôi'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000094"
+    locks:
+      - "Khóa tên quốc gia 'Ildoa', định danh 'Đế quốc', thuật ngữ 'bên trung gian hòa giải', đại từ 'tôi' – 'chúng tôi' và điều kiện phủ định kép 'không thể đứng ra làm trung gian hòa giải cho Đế quốc nếu... không sẵn lòng chấp nhận những nhượng bộ cần thiết'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000095"
+    locks:
+      - "Khóa đại từ 'tôi' – 'chúng tôi', ẩn dụ 'từng mảnh ghép rơi vào đúng vị trí' tạo nên 'một bức tranh toàn cảnh đầy kịch tính' và hai nhận định phủ định về 'một cuộc chiến mà chúng tôi không thể nào thắng nổi' cùng cách tiến hành chiến tranh sai lầm."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000096"
+    locks:
+      - "Khóa định danh 'Đế quốc', thuật ngữ 'bên trung gian hòa giải', đại từ 'Tôi' – 'mình', phủ định 'chẳng hề nhận ra điều này cho đến khi một người lính gặp gỡ một bên trung gian hòa giải' và mệnh đề đối lập 'khó có thể gọi ngoại giao là một chiến thắng, nhưng tôi vẫn luôn tự xem mình là một chiến binh giàu danh dự của Đế quốc'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000097"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình' – 'chúng tôi', cụm mỉa mai 'những đối thủ đáng kính của chúng tôi', phủ định tuyệt đối 'tuyệt nhiên không có ý định để Đế quốc giữ lại dù chỉ một chút danh dự bề ngoài nào trong thất bại này' và câu hỏi tu từ chua chát 'Chẳng phải chuyện đó nực cười lắm sao?'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000098"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình', cụm 'sĩ quan Đế quốc ngạo mạn', định danh 'Tổ quốc', dấu ba chấm ngập ngừng 'quá đỗi ám ảnh… với việc ghê tởm mọi điều nhục nhã và việc hoàn thành bổn phận của mình' và sự tương phản giữa nỗi đau đối diện thực tại với 'vận mệnh bi thảm của Tổ quốc'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000099"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', thuật ngữ 'tuyến đường sắt quốc tế', hình ảnh so sánh tiếng đoàn tàu với 'tiếng rạn nứt từ nền móng đang sụp đổ của đất nước mình' và phủ định 'không tài nào phủ nhận được điều đó, hay bất cứ lời nào mình đã nghe vào ngày hôm ấy'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000100"
+    locks:
+      - "Khóa thuật ngữ 'tuyến đường sắt quốc tế', đại từ 'tôi', dấu ba chấm ngập ngừng 'nhưng…' và phủ định 'chẳng thể nuốt trôi bất cứ thứ gì'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000101"
+    locks:
+      - "Khóa định danh 'Tổ quốc', 'Đế quốc', đại từ 'tôi' – 'chúng tôi', hình ảnh so sánh 'nhìn xuống một vực thẳm tuyệt vọng', 'cứa vào lòng tôi sắc lạnh như những lưỡi dao găm' và nguyên nhân 'hạn chế chiếu sáng do thiếu hụt điện năng'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000102"
+    locks:
+      - "Khóa định danh 'Đế quốc', đại từ 'tôi' – 'mình', hình ảnh quá khứ 'một pháo đài rực sáng, lấp lánh ánh đèn bất tận' và mốc chuyển biến tâm lý 'đã chấp nhận thất bại của chính mình'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000103"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình', dấu gạch ngang giải thích 'công việc—không còn bổn phận của mình' và giả định trái thực tế ở quá khứ với mức độ chắc chắn 'Tôi khá chắc rằng mình đã tìm lấy khẩu súng gần nhất rồi ngậm chặt lấy nòng súng mất rồi'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000104"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', chức danh 'sĩ quan tham mưu', tên cơ quan 'Văn phòng Bộ Tổng tham mưu' và ý phản xạ kỷ luật khiến cơ thể tự động quay trở lại cơ quan tham mưu."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000105"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', tên cơ quan 'Văn phòng Bộ Tổng tham mưu', hình ảnh so sánh 'một con búp bê lên dây cót khi cứ thế bước đi vô định dọc các hành lang' và kết luận 'chắc chắn chuyện mình đã nộp báo cáo là sự thật'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000106"
+    locks:
+      - "Khóa đại từ 'Tôi', phủ định 'không tài nào nhớ nổi' và nhấn mạnh Markdown theo DEC-P01-002 tại đúng cụm '*Ngoại giao là vô ích.*'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000107"
+    locks:
+      - "Khóa đại từ 'tôi' – 'chúng ta' – 'mình', định danh 'Đế quốc', tên quốc gia 'Ildoa', phủ định 'vẫn không thể nhớ lại được bất cứ chi tiết đáng kể nào', tình thái suy đoán 'Có lẽ tôi đã đóng một chiếc nút chặn lên não bộ của mình' và kết luận 'từ bỏ mọi hy vọng về việc Đế quốc có thể tìm kiếm hòa bình thông qua Ildoa'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000108"
+    locks:
+      - "Khóa định danh 'Đế quốc' và thời quá khứ hoàn thành 'từng mơ tưởng đến việc khép lại cuộc chiến với tư thế của kẻ chiến thắng'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000109"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình', đối tượng 'các độc giả ngày nay', phủ định 'sẽ chẳng thể nào hiểu hay đồng cảm nổi với cách nhìn nhận đó' và mốc thời gian hậu chiến 'khi đọc lại những ghi chép của mình rất lâu sau khi cuộc chiến kết thúc'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000110"
+    locks:
+      - "Khóa đại từ tập thể 'Chúng tôi' và hai tính từ tự phê phán 'quá tham lam. Và cũng quá đỗi ngây thơ'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000111"
+    locks:
+      - "Khóa đại từ 'chúng tôi', quan hệ nhân quả 'Đó là lý do vì sao vào thời điểm ấy' và phủ định khả năng 'đã không thể hy vọng vào bất cứ điều gì hơn thế'."
