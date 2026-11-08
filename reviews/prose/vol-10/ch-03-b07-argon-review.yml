@@ -1,0 +1,185 @@
+task_id: "vol-10-ch-03-b07-argon-review"
+parent_task_id: "vol-10-ch-03-b07"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b07-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b07.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b07-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000096"
+    severity: "minor"
+    issue: "Chính tả tiếng Việt chuẩn của từ chỉ trạng thái sắp bật ra hoặc trào ra ở đầu lưỡi là 'chực trào' thay vì 'trực trào'."
+    basis: "Quy tắc chính tả tiếng Việt và ngữ cảnh mô tả ba chữ suýt buột ra khỏi đầu lưỡi tại p000096."
+    recommendation: "Ở bước chuốt văn có thể chỉnh nhẹ 'trực trào' thành 'chực trào'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000099"
+    severity: "minor"
+    issue: "Trong lời thoại của Tanya với Tướng Romel, câu thứ ba dùng 'Tôi tự tin rằng chúng tôi có thể...' nhưng cuối câu lại dùng 'mà mình đang có', tạo sự pha trộn nhẹ giữa đại từ thoại ('tôi'/'chúng tôi') và đại từ phản thân ('mình') vốn dùng cho độc thoại nội tâm."
+    basis: "Đối chiếu quy ước đại từ nội tâm trong DEC-P01-001 và hệ xưng hô trong thoại cấp dưới – cấp trên giữa Tanya và Tướng Romel."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'mà chúng tôi đang có' hoặc 'hiện có' để giữ thuần nhất hệ đại từ trong lời thoại."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000112"
+    severity: "minor"
+    issue: "Ở câu cuối, đại từ phản thân 'mình' trong cụm 'sẵn lòng giúp đỡ mình' quy chiếu về gia tộc Oda (ngôi thứ ba số nhiều), dễ trùng bề mặt với đại từ tự xưng 'mình' trong độc thoại nội tâm của Tanya ở các câu kế tiếp."
+    basis: "Đối chiếu quy ước đại từ nội tâm trong DEC-P01-001 và mạch độc thoại so sánh giữa Đế quốc với gia tộc Oda tại p000112–p000113."
+    recommendation: "Ở bước chuốt văn có thể đổi 'giúp đỡ mình' thành 'giúp đỡ họ' để phân tách rõ chủ thể ngôi thứ ba với đại từ nội tâm của Tanya."
+pending_term_recommendations:
+  - source_term: "AA gunners / bombers / high-altitude bombers"
+    proposed_vi: "pháo thủ phòng không / máy bay ném bom / máy bay ném bom tầm cao"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Chuẩn xác về thuật ngữ tác chiến phòng không và đồng bộ với các lựa chọn đã khóa ở những batch trước của vol-10."
+    alternatives_vi:
+      - "xạ thủ cao xạ / oanh tạc cơ / oanh tạc cơ tầm cao"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000095"
+      - "YS-LN10/Text/chapter018.xhtml/p000100"
+  - source_term: "General Romel / the general"
+    proposed_vi: "Tướng Romel / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với phương án đã khóa trong sổ pending-terms-index.yml và các batch ch-03-b02 đến ch-03-b06."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000097"
+      - "YS-LN10/Text/chapter018.xhtml/p000105"
+      - "YS-LN10/Text/chapter018.xhtml/p000111"
+  - source_term: "vanguard unit"
+    proposed_vi: "đơn vị tiên phong"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác khái niệm lực lượng đi đầu đảm nhiệm đòn tập kích vào thủ đô đối phương."
+    alternatives_vi:
+      - "đội quân tiên phong"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000097"
+  - source_term: "aerial magic battalion / Aerial mages"
+    proposed_vi: "tiểu đoàn pháp sư trên không / Các pháp sư trên không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thuật ngữ đã khóa xuyên suốt sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000099"
+      - "YS-LN10/Text/chapter018.xhtml/p000100"
+  - source_term: "Lieutenant Colonel Degurechaff / Colonel"
+    proposed_vi: "Trung tá Degurechaff / Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Nhất quán với cách dịch cấp bậc của Tanya và cách gọi tắt 'Colonel' dành cho Trung tá trong toàn bộ các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000102"
+      - "YS-LN10/Text/chapter018.xhtml/p000109"
+  - source_term: "Nobunaga / Oda clan / Asai and Asakura clans / Japan"
+    proposed_vi: "Nobunaga / gia tộc Oda / hai gia tộc Asai và Asakura / nước Nhật"
+    category: "tên riêng lịch sử - địa danh"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng lịch sử Nhật Bản và thống nhất cách gọi 'gia tộc Oda', 'nước Nhật' với sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000105"
+      - "YS-LN10/Text/chapter018.xhtml/p000111"
+      - "YS-LN10/Text/chapter018.xhtml/p000112"
+  - source_term: "aggressive defense / doctrine of interior lines"
+    proposed_vi: "lối phòng ngự tích cực tiến công / học thuyết tác chiến trên tuyến trong"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với 'chiến lược phòng ngự tích cực tiến công' (ch-03-b02) và thuật ngữ 'tác chiến trên tuyến trong' trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "phòng ngự chủ động tiến công / học thuyết nội tuyến"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000106"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "tên gọi quốc gia"
+    status: "pending"
+    rationale: "Thống nhất tuyệt đối với toàn bộ các tập và các batch trước của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000112"
+      - "YS-LN10/Text/chapter018.xhtml/p000113"
+      - "YS-LN10/Text/chapter018.xhtml/p000115"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000092"
+    locks:
+      - "Khóa nhấn mạnh Markdown '*Làm gì có viết*' theo đúng DEC-P01-002 (đáp lại câu hỏi về sách giáo khoa ở p000091) và đại từ nội tâm 'mình'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000093"
+    locks:
+      - "Khóa cụm 'Những công ty độc hại', 'đổi mới sáng tạo', mệnh đề phủ định 'không phải thứ được sinh ra từ việc bắt nhân viên hô hào những khẩu hiệu ngu xuẩn', và yêu cầu phát huy tối đa tự do cùng sức sáng tạo."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000094"
+    locks:
+      - "Khóa nhận định phủ định 'môi trường làm việc tồi tệ nhìn chung chẳng mấy thuận lợi để nuôi dưỡng một bầu không khí giúp sức sáng tạo thăng hoa'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000095"
+    locks:
+      - "Khóa thuật ngữ 'pháo thủ phòng không', 'máy bay ném bom', đại từ 'chúng ta', và phủ định 'không phải thứ chúng ta có thể tiếp cận ngay lúc này'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000096"
+    locks:
+      - "Khóa nhấn mạnh Markdown ba chữ '*Điều này đúng*' theo DEC-P01-002 (khớp với cụm 'ba chữ ấy' ngay sau đó) và đại từ tự quy chiếu ngôi thứ ba 'cô'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000097"
+    locks:
+      - "Khóa sự chuyển dịch điểm nhìn từ ngôi thứ nhất ('Mình') sang tự quy chiếu ngôi thứ ba ('Tanya', 'cô') theo DEC-P01-001, danh xưng 'vị tướng' / 'Tướng Romel', đại từ 'ông ta', và cụm 'đơn vị tiên phong lĩnh trọng trách tấn công thủ đô địch'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000098"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và cụm 'đưa ra một đề xuất mới'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000099"
+    locks:
+      - "Khóa đại từ thoại 'tôi' / 'chúng tôi' / 'chúng ta' (kèm 'ạ'), thuật ngữ 'tiểu đoàn pháp sư trên không', và hình ảnh so sánh số giờ bay khiến quân địch 'chẳng khác nào lũ chim non mới nở'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000100"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', thuật ngữ 'Các pháp sư trên không', và 'đánh chặn máy bay ném bom tầm cao'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000101"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' / 'mình', cụm 'kế hoạch chủ động tiến công đầy tính cạnh tranh', và chi tiết 'nét mặt cấp trên của mình chẳng hề suy suyển'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000102"
+    locks:
+      - "Khóa danh xưng 'Trung tá Degurechaff' và ẩn dụ 'một liều thuốc giảm đau, cùng lắm cũng chỉ là biện pháp giảm nhẹ tạm thời'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000103"
+    locks:
+      - "Khóa đại từ 'chúng ta' (kèm 'ạ') và lập luận 'Làm dịu cơn đau sẽ giúp chúng ta câu thêm thời gian cần thiết'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000104"
+    locks:
+      - "Khóa đại từ 'cô' / 'chúng ta', nhận xét về thói quen 'chần chừ trì hoãn' khi phòng ngự, và kết luận 'Đằng nào chúng ta cũng sẽ diệt vong' nếu không có con đường dẫn tới chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000105"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình', danh xưng 'vị tướng', tên riêng 'Nobunaga', 'Gia tộc Oda', và 'hai gia tộc Asai và Asakura'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000106"
+    locks:
+      - "Khóa thuật ngữ 'lối phòng ngự tích cực tiến công', 'học thuyết tác chiến trên tuyến trong', đại từ nội tâm 'mình', nhấn mạnh Markdown '*ban quản lý*' theo đúng DEC-P01-002, và cụm 'những nhân sự làm việc ngoài thực địa'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000107"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và ý 'nỗi hoài nghi trong lòng... vẫn cứ lớn dần lên'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000108"
+    locks:
+      - "Khóa đại từ 'chúng ta' và câu hỏi xác nhận 'cần phải hành động thì mọi chuyện mới thay đổi được sao ạ?'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000109"
+    locks:
+      - "Khóa hô ngữ 'Trung tá', cặp đại từ 'Ta' - 'cô' / 'chúng ta', và mệnh đề điều kiện phủ định 'Nếu chúng ta không hành động ngay bây giờ, việc đó sẽ chỉ kéo dài cái chết tất yếu của chúng ta mà thôi'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000110"
+    locks:
+      - "Khóa đại từ 'ông ta' và nhận định 'khả năng thành công vẫn rất đáng lo ngại'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000111"
+    locks:
+      - "Khóa tên riêng 'Nobunaga', 'Tướng Romel', và câu tự đáp phủ định 'Câu trả lời là chẳng có lấy một cái nào cả!'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000112"
+    locks:
+      - "Khóa tên riêng 'Đế quốc', 'gia tộc Oda', 'nước Nhật', và luận điểm chỉ ra điểm tương đồng duy nhất là bị bao vây trong khi gia tộc Oda còn có mạng lưới quan hệ sẵn lòng giúp đỡ ở phía sau vòng vây."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000113"
+    locks:
+      - "Khóa đại từ 'chúng ta' / 'Mình', tên riêng 'Đế quốc', và chuỗi phủ định dứt khoát 'Không hề. Chẳng có lấy một mống.'"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000114"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và cụm 'kết luận của bản thân'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000115"
+    locks:
+      - "Khóa so sánh 'Còn vô giá trị hơn cả làm thêm giờ không lương', tên riêng 'Đế quốc', đại từ nội tâm 'mình', và mục tiêu 'tự bảo toàn bản thân'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000116"
+    locks:
+      - "Khóa ẩn dụ 'chuyển nghề', 'đi săn việc làm', và kết câu 'Một bảng thành tích sáng chói.'"
