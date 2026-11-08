@@ -1,0 +1,248 @@
+task_id: "vol-10-ch-06-b02-argon-review"
+parent_task_id: "vol-10-ch-06-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b02-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b02.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000048"
+    severity: "minor"
+    issue: "Trong câu độc thoại nội tâm của Trung tướng Rudersdorf khi tự răn mình không nên vội vã tính chuyện thiết lập chế độ độc tài quân sự hay thiết quân luật trước khi có kết quả đàm phán hòa bình, thành ngữ khẩu ngữ hiện đại 'cầm đèn chạy trước ô tô' hơi lệch tông so với giọng điệu trầm tư, nghiêm cẩn của một tướng lĩnh Bộ Tổng tham mưu."
+    basis: "Đối chiếu ngữ cảnh p000047–p000051 và nguyên tắc giữ giọng thoại nhất quán theo ngữ cảnh trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành '“Ta không nên vội tính quá xa…”' hoặc '“Ta không nên nóng vội đi trước thời cuộc…”' để hợp với khẩu khí nhân vật hơn."
+pending_term_recommendations:
+  - source_term: "the Empire / Imperial Army / the army / the military / branches of the military"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / lục quân / quân đội / các quân chủng"
+    category: "quốc gia - tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống định danh quốc gia và lực lượng vũ trang đã khóa tại vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000034"
+      - "YS-LN10/Text/chapter028.xhtml/p000036"
+      - "YS-LN10/Text/chapter028.xhtml/p000038"
+      - "YS-LN10/Text/chapter028.xhtml/p000040"
+      - "YS-LN10/Text/chapter028.xhtml/p000043"
+      - "YS-LN10/Text/chapter028.xhtml/p000046"
+      - "YS-LN10/Text/chapter028.xhtml/p000051"
+      - "YS-LN10/Text/chapter028.xhtml/p000064"
+      - "YS-LN10/Text/chapter028.xhtml/p000065"
+  - source_term: "total war"
+    proposed_vi: "chiến tranh tổng lực"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn mực đã được sử dụng thống nhất trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000036"
+  - source_term: "Zettour / General Romel / Lieutenant General Rudersdorf / Rudersdorf / the general"
+    proposed_vi: "Zettour / Tướng Romel / Trung tướng Rudersdorf / Rudersdorf / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc và định danh của ba tướng lĩnh Đế quốc tại vol-10 trong pending-terms-index.yml và ch-06-b01."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000037"
+      - "YS-LN10/Text/chapter028.xhtml/p000039"
+      - "YS-LN10/Text/chapter028.xhtml/p000041"
+      - "YS-LN10/Text/chapter028.xhtml/p000047"
+      - "YS-LN10/Text/chapter028.xhtml/p000052"
+      - "YS-LN10/Text/chapter028.xhtml/p000059"
+      - "YS-LN10/Text/chapter028.xhtml/p000060"
+      - "YS-LN10/Text/chapter028.xhtml/p000061"
+      - "YS-LN10/Text/chapter028.xhtml/p000064"
+      - "YS-LN10/Text/chapter028.xhtml/p000068"
+  - source_term: "the east / the west"
+    proposed_vi: "miền đông / miền tây"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Nhất quán với cách dịch hướng chiến trường tại ch-06-b01 và pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000037"
+      - "YS-LN10/Text/chapter028.xhtml/p000039"
+      - "YS-LN10/Text/chapter028.xhtml/p000059"
+  - source_term: "chain of command"
+    proposed_vi: "hệ thống chỉ huy"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án 'hệ thống chỉ huy' đã khóa xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi:
+      - "chuỗi chỉ huy"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000042"
+      - "YS-LN10/Text/chapter028.xhtml/p000046"
+  - source_term: "General Staff Office / Supreme Army Command / Supreme High Command"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / Bộ Tư lệnh Lục quân Tối cao / Bộ Tư lệnh Tối cao"
+    category: "cơ quan chỉ huy quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ ba cấp cơ quan trong tư duy của Rudersdorf: 'Văn phòng Bộ Tổng tham mưu' hiện hữu, 'Bộ Tư lệnh Tối cao' (tương ứng Supreme Command đã khóa trong pending-terms-index.yml) và mô hình 'Bộ Tư lệnh Lục quân Tối cao' (tương ứng Oberste Heeresleitung) thâu tóm quyền điều hành toàn bộ cuộc chiến."
+    alternatives_vi:
+      - "Bộ Chỉ huy Lục quân Tối cao / Bộ Chỉ huy Tối cao"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000043"
+  - source_term: "parliament / the imperial family / the fatherland"
+    proposed_vi: "quốc hội / hoàng gia / Tổ quốc"
+    category: "chính trị - nhà nước"
+    status: "pending"
+    rationale: "Khớp với các định danh chính trị đã dùng trong ch-06-b01 và pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000043"
+      - "YS-LN10/Text/chapter028.xhtml/p000056"
+  - source_term: "Plan B / contingency plan"
+    proposed_vi: "Kế hoạch B / kế hoạch dự phòng"
+    category: "thuật ngữ chiến lược"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác, tự nhiên tên gọi phương án dự phòng trong hoạch định chiến lược."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000050"
+      - "YS-LN10/Text/chapter028.xhtml/p000051"
+  - source_term: "Counselor Conrad / Ildoa"
+    proposed_vi: "Tham tán Conrad / Ildoa"
+    category: "nhân vật - quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh 'Tham tán Conrad' và 'Ildoa' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000051"
+  - source_term: "martial law"
+    proposed_vi: "tình trạng thiết quân luật"
+    category: "thuật ngữ chính trị - quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ pháp lý - quân sự chuẩn xác chỉ chế độ quân quản/thiết quân luật trong tình huống khẩn cấp."
+    alternatives_vi:
+      - "thiết quân luật"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000055"
+  - source_term: "encryption / codes"
+    proposed_vi: "hệ thống mã hóa / các bộ mật mã (mật mã)"
+    category: "thuật ngữ mật mã - tình báo"
+    status: "pending"
+    rationale: "Khớp với cặp thuật ngữ 'mật mã / hệ thống mã hóa' đã khóa tại vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000063"
+      - "YS-LN10/Text/chapter028.xhtml/p000064"
+      - "YS-LN10/Text/chapter028.xhtml/p000066"
+      - "YS-LN10/Text/chapter028.xhtml/p000068"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000033"
+    locks:
+      - "Khóa đại từ 'Họ' và nhận định ngắn gọn về nhu cầu cần thêm thời gian."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000034"
+    locks:
+      - "Khóa định danh 'Đế quốc' cùng hình ảnh ẩn dụ chiếc đồng hồ cát đã cạn sạch từ lâu và cách duy nhất để có thêm thời gian là lật ngược cả chiếc đồng hồ cát lại."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000035"
+    locks:
+      - "Khóa mệnh đề chuyển ý chỉ ra vấn đề cốt lõi: ngay từ đầu họ đã bị mắc kẹt bên trong một chiếc đồng hồ cát."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000036"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với định danh 'Lục quân', thuật ngữ 'chiến tranh tổng lực' và điều kiện 'dưới quyền một người chỉ huy duy nhất'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000037"
+    locks:
+      - "Khóa tên riêng 'Zettour', hướng địa lý 'miền đông' và hình ảnh ẩn dụ về thắng lợi làm vang vọng điệp khúc đó hơn bất cứ điều gì khác."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000038"
+    locks:
+      - "Khóa định danh 'Lục quân Đế quốc' và hệ quả chứng minh rằng nhờ chiến lược được thực thi bài bản, họ vẫn có thể duy trì vị thế của một siêu cường bất khả xâm phạm."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000039"
+    locks:
+      - "Khóa định danh 'Tướng Romel', hướng địa lý 'miền tây' và ý nghĩa bài học quan trọng rút ra từ thất bại đó."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000040"
+    locks:
+      - "Khóa định danh 'Lục quân Đế quốc', phủ định 'không có khả năng giành lấy chiến thắng trên một chiến trường xa lạ' và điều kiện 'nếu thiếu đi sự phối hợp nhịp nhàng'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000041"
+    locks:
+      - "Khóa nhận định về sự tương phản quá lớn giữa kết cục của hai trận đánh và tác động làm sáng tỏ vấn đề đối với 'nhà chiến lược bên trong con người Rudersdorf'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000042"
+    locks:
+      - "Khóa câu độc thoại với đại từ 'Chúng ta' và thuật ngữ 'hệ thống chỉ huy duy nhất'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000043"
+    locks:
+      - "Khóa sự phân biệt giữa các định chế: 'Lục quân', 'Văn phòng Bộ Tổng tham mưu', 'Bộ Tư lệnh Lục quân Tối cao', 'Bộ Tư lệnh Tối cao', 'quốc hội', 'hoàng gia' và 'ý nguyện của người dân'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000044"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ 'chúng ta' và nhận định chính những yếu tố đó đang trói buộc quân đội."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000045"
+    locks:
+      - "Khóa đại từ trần thuật 'Ông', chi tiết chuyển từ thuốc lá điếu sang xì gà để đổi gió và sự bận tâm tới một ý tưởng mới nhen nhóm nơi góc tâm trí."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000046"
+    locks:
+      - "Khóa câu hỏi nội tâm giả định về khả năng chiến thắng với 'một hệ thống chỉ huy duy nhất', câu trả lời phủ định mức độ chắc chắn ('Điều đó chưa có gì chắc chắn') và mục đích chấm dứt cảnh đi trên dây để 'lục quân' vận dụng quỹ thời gian cùng nguồn lực hạn hẹp."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000047"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*tính tất yếu*', cấp bậc kèm tên riêng 'Trung tướng Rudersdorf' và phản ứng nhăn mặt kèm tiếng cười gượng gạo đầy bất an."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000048"
+    locks:
+      - "Khóa đại từ tự xưng 'Ta' và sắc thái phủ định tự răn mình không nên vội vã đi quá xa trong độc thoại của Rudersdorf."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000049"
+    locks:
+      - "Khóa trạng thái suýt chút nữa đã bất cẩn đưa ra quyết định về một vấn đề đầy rắc rối."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000050"
+    locks:
+      - "Khóa định danh 'Kế hoạch B' và bản chất 'vẫn chỉ là một kế hoạch dự phòng'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000051"
+    locks:
+      - "Khóa định danh 'Tham tán Conrad', địa danh 'Ildoa', 'Kế hoạch B', 'Đế quốc' và quan hệ điều kiện: chừng nào còn cơ may rút chân ra khỏi cuộc chiến qua ngả hòa đàm thì Kế hoạch B vẫn phải xếp lại phía sau."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000052"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ tự xưng 'Ta' - 'mình', tên riêng 'Zettour', đại từ 'lão' quy chiếu Zettour và sự đối chiếu giữa trí tưởng tượng phục vụ mưu mẹo chiến trường của Zettour với ý tưởng mà Rudersdorf từng nghĩ mình sẽ không bao giờ phải tính đến."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000053"
+    locks:
+      - "Khóa sự tương phản giữa nỗ lực cười xòa để gạt bỏ ý nghĩ đó của 'Ông' với việc nó vẫn ngoan cố đeo bám."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000054"
+    locks:
+      - "Khóa hình ảnh ẩn dụ về việc ý tưởng đó đã cắm rễ trong tâm trí ông."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000055"
+    locks:
+      - "Khóa chuỗi định danh bản chất ý tưởng: dành cho 'kịch bản tồi tệ nhất', định hình đất nước dưới 'tình trạng thiết quân luật' nếu buộc phải đi đến bước đó, là 'giải pháp khẩn cấp' có triển vọng thành công khả quan."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000056"
+    locks:
+      - "Khóa mệnh đề phủ định và điều kiện: đó không phải là điều mà bất kỳ người lính tỉnh táo nào từng thề trung thành với 'hoàng gia' và 'Tổ quốc' có thể thực hiện đến cùng nếu không đánh mất sự tự chủ của bản thân."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000057"
+    locks:
+      - "Khóa mong muốn đọc một cuốn tiểu thuyết trinh thám hoặc bất cứ thứ gì giúp tâm trí ông tạm quên đi mọi chuyện."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000058"
+    locks:
+      - "Khóa nhấn mạnh Markdown toàn câu theo DEC-P01-002 đối với nhịp chuyển ý ngập ngừng trong nội tâm: '*Mặc dù vậy—nói đi thì cũng phải nói lại—dẫu sao chăng nữa…*'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000059"
+    locks:
+      - "Khóa định danh 'Trung tướng Rudersdorf', ẩn dụ 'quả bom' và hướng gửi tới từ 'miền tây'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000060"
+    locks:
+      - "Khóa câu độc thoại mở đầu bằng 'bản báo cáo khẩn cấp của Tướng Romel'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000061"
+    locks:
+      - "Khóa chi tiết nhận lời cảnh báo từ 'vị tướng ấy' (Romel) qua bức thư niêm phong trao tận tay và phép so sánh vấn đề không chịu tan biến giống như làn khói xì gà quanh ông."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000062"
+    locks:
+      - "Khóa quan hệ nhượng bộ giữa tính chất giống một 'linh cảm' của lời cảnh báo với việc những căn cứ cho linh cảm của 'ông ta' (Romel) lại hết sức đáng ngại."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000063"
+    locks:
+      - "Khóa nội dung cảnh báo rằng nhiều khả năng 'hệ thống mã hóa' của họ đã bị phá giải và mức độ chấn động khôn lường nếu điều đó có dù chỉ một phần là sự thật."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000064"
+    locks:
+      - "Khóa danh xưng 'vị tướng', nhu cầu phải rà soát lại 'các bộ mật mã' và việc kiểm tra xác nhận từng 'quân chủng' với thông lệ riêng dù đòi hỏi khối lượng công việc khổng lồ nhưng dứt khoát phải làm."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000065"
+    locks:
+      - "Khóa tâm lý không muốn nghĩ tới khả năng có gián điệp trong lòng 'Đế quốc' và nhận định rằng chỉ liệt kê các khả năng không giúp chỉ đích danh được vấn đề thực tế nào."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000066"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ 'Ta' - 'chúng ta', đặt song song hai nguy cơ: có 'kẻ phản bội' nội bộ và việc kẻ địch thực sự đã giải mã được 'mật mã' của họ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000067"
+    locks:
+      - "Khóa nhận định rằng mối nghi ngại/tranh cãi xoay quanh các 'thông tin tuyệt mật' của họ là một bước lùi nghiêm trọng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000068"
+    locks:
+      - "Khóa định danh 'Trung tướng Rudersdorf' và tình thế bế tắc khi ông không có cách nào biết được liệu 'các bộ mật mã' của mình có thực sự đáng tin cậy hay không."
