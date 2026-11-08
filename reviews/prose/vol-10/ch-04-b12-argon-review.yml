@@ -1,0 +1,203 @@
+task_id: "vol-10-ch-04-b12-argon-review"
+parent_task_id: "vol-10-ch-04-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b12-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b12.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b12-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000203"
+    severity: "minor"
+    issue: "Ở mệnh đề cuối câu kết đoạn độc thoại nội tâm ('bắt đầu từ chính những người mà bạn muốn giữ lại nhất'), đại từ ngôi thứ hai khái quát được dịch sát thành 'bạn' trong khi trước đó người kể đang tự quy chiếu bằng 'mình'."
+    basis: "Nguyên tắc viết tiếng Việt tự nhiên và giữ giọng độc thoại nội tâm nhất quán trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'mà bạn muốn giữ lại nhất' thành 'mà người ta muốn giữ lại nhất' hoặc 'mà tổ chức muốn giữ lại nhất'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000218"
+    severity: "minor"
+    issue: "Cụm mô tả biểu cảm của Tham tán Conrad ('nở một nụ cười toe toét') mang sắc thái hơi xuề xòa, trẻ con so với hình tượng nhà ngoại giao có ánh mắt lạnh lùng, toan tính vừa được khắc họa ở các đoạn p000215-p000216."
+    basis: "Nguyên tắc giữ đúng sắc thái ngữ cảnh và tính nhất quán nhân vật trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc điều chỉnh thành 'nở một nụ cười đầy ẩn ý' hoặc 'nhếch môi cười'; không làm sai lệch nghĩa hành động nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "reconcile"
+    proposed_vi: "giảng hòa"
+    category: "thuật ngữ ngoại giao - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với thuật ngữ 'reconciliation' ('giảng hòa') đã khóa xuyên suốt chương 4 tập 10 trong cùng cuộc thảo luận về triển vọng đàm phán kết thúc chiến tranh."
+    alternatives_vi:
+      - "hòa giải"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000199"
+  - source_term: "the Empire / Imperial Army / the military / the army"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / quân đội / lục quân"
+    category: "thuật ngữ quốc gia - tổ chức quân sự"
+    status: "pending"
+    rationale: "Phân biệt và giữ thống nhất tên quốc gia ('Đế quốc'), tên quân chủng ('Lục quân Đế quốc' / 'lục quân') và lực lượng vũ trang nói chung ('quân đội') theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000201"
+      - "YS-LN10/Text/chapter022.xhtml/p000202"
+      - "YS-LN10/Text/chapter022.xhtml/p000205"
+      - "YS-LN10/Text/chapter022.xhtml/p000217"
+  - source_term: "Xiang Yu / Liu Bang"
+    proposed_vi: "Hạng Vũ / Lưu Bang"
+    category: "tên riêng lịch sử"
+    status: "pending"
+    rationale: "Dùng âm Hán-Việt chuẩn mực và quen thuộc trong tiếng Việt cho hai nhân vật lịch sử thời Hán-Sở tranh hùng được Tanya liên tưởng trong độc thoại nội tâm."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000201"
+  - source_term: "front lines"
+    proposed_vi: "tiền tuyến"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000202"
+  - source_term: "HR rep"
+    proposed_vi: "chuyên viên nhân sự"
+    category: "thuật ngữ nghề nghiệp"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi:
+      - "đại diện nhân sự"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000203"
+  - source_term: "S-rank employees / A-rank / B-rankers"
+    proposed_vi: "nhân viên hạng S / nhóm hạng A / nhân sự hạng B"
+    category: "thuật ngữ quản trị nhân sự"
+    status: "pending"
+    rationale: "Dịch rõ ràng, tự nhiên hệ thống phân hạng nhân sự S/A/B trong phép so sánh quản trị tổ chức của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000204"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên định danh theo mục P05-being-x trong canon/glossary-pending.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000207"
+  - source_term: "raison d’état"
+    proposed_vi: "lý do quốc gia"
+    category: "thuật ngữ chính trị - ngoại giao"
+    status: "pending"
+    rationale: "Chọn cách dịch trung tính, sát nghĩa bề mặt cho khái niệm chính trị học tiếng Pháp được dùng trong câu chất vấn của Tanya; ghi nhận các phương án chuyên ngành thay thế trong sổ pending."
+    alternatives_vi:
+      - "lợi ích tối thượng của quốc gia"
+      - "lý tính quốc gia"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000209"
+  - source_term: "Counselor Conrad / the counselor / Counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán / Thưa Tham tán"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất chức danh ngoại giao và cách quy chiếu/xưng hô dành cho Conrad theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000210"
+      - "YS-LN10/Text/chapter022.xhtml/p000214"
+      - "YS-LN10/Text/chapter022.xhtml/p000217"
+      - "YS-LN10/Text/chapter022.xhtml/p000218"
+  - source_term: "Lieutenant Colonel / Lieutenant Colonel Degurechaff"
+    proposed_vi: "thưa Trung tá / Trung tá Degurechaff"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Tanya trong lời thoại của Conrad theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000211"
+      - "YS-LN10/Text/chapter022.xhtml/p000218"
+  - source_term: "Lieutenant General Zettour"
+    proposed_vi: "Trung tướng Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc và tên của Zettour theo pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000214"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000197"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất với đại từ tự quy chiếu 'Mình' theo DEC-P01-001, giữ nguyên lập luận phân biệt giữa sự dại dột cá nhân (đi kèm với tự do/đa dạng) và sự kinh tởm trước tình trạng hiện tại."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000198"
+    locks:
+      - "Khóa đoạn nội tâm phê phán 'sự ngu xuẩn ở cấp độ quốc gia', giữ phép đính chính tăng tiến ('Một quốc gia—không, một tổ chức—') và câu điều kiện ẩn dụ ('Nếu bộ não ở tầng lớp chóp bu đã mục ruỗng... thì chẳng còn hy vọng nào cứu vãn nổi phần thân xác bên dưới nữa')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000199"
+    locks:
+      - "Khóa lời thoại phản bác của Tanya với đại từ bao gộp 'Chúng ta' / 'chúng ta', cách gọi 'các vị', mệnh đề điều kiện phủ định ('không thể thắng cuộc chiến này nếu thiếu ngoại giao') và thuật ngữ 'giảng hòa'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000200"
+    locks:
+      - "Khóa câu hỏi nội tâm giữ nguyên đối tượng và độ mở ('Những người ở ngoài thực địa mong muốn điều gì?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000201"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('Mình' / 'mình' theo DEC-P01-001), tên 'Đế quốc', giả định nhượng bộ ('có thể thắng chín mươi chín lần, nhưng tất cả sẽ bị cuốn phăng chỉ bởi một thất bại duy nhất ở trận đánh thứ một trăm'), điển tích 'Hạng Vũ' - 'Lưu Bang' và cấu trúc phủ định so sánh hơn ('không muốn... lại càng không muốn')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000202"
+    locks:
+      - "Khóa lời thoại của Tanya với đại từ 'Chúng ta' / 'chúng ta', thuật ngữ 'tiền tuyến', 'Đế quốc', 'quân đội', cấu trúc phủ định tuyệt đối ('gần như đã bị phung phí sạch sành sanh', 'chẳng có lấy một dấu hiệu nào') và hai hình ảnh ẩn dụ ('củi đốt cho ngọn lửa ngày hôm nay', 'mặt trời đã sắp sửa lặn trên Đế quốc')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000203"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('mình' theo DEC-P01-001), thuật ngữ 'chuyên viên nhân sự', phủ định ('chẳng phải là vấn đề gì to tát') và quy luật chảy máu chất xám bắt đầu từ những nhân sự muốn giữ lại nhất."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000204"
+    locks:
+      - "Khóa chuỗi thứ tự rời đi của 'nhân viên hạng S', 'nhóm hạng A' để lại quyền kiểm soát cho 'đám nhân sự hạng B', cùng nhấn mạnh Markdown '*từng*' theo DEC-P01-002."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000205"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba quy chiếu tới 'Tanya' ('cô'), tên tổ chức 'Lục quân Đế quốc' và giới hạn phạm vi ('chỉ được ghi nhận ở phạm vi nội bộ')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000206"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba ('cô'), nhấn mạnh Markdown '*đối thủ cạnh tranh*' theo DEC-P01-002, cùng các mệnh đề phủ định về thất bại thị trường ('không thể tự do dịch chuyển', 'chẳng bao giờ có thứ gì tốt đẹp nảy sinh được từ các chế độ độc tài')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000207"
+    locks:
+      - "Khóa câu trần thuật gắn với góc nhìn của 'Tanya', định danh 'Being X' và phép đối lập giữa 'những bàn tay vô hình của một đấng tối cao' với 'cặp móng vuốt bẩn thỉu của Being X'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000208"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba mô tả 'Tanya' không kìm nén được cơn giận và lại bắt đầu lên tiếng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000209"
+    locks:
+      - "Khóa lời thoại chất vấn của Tanya với cụm 'lý do quốc gia của đất nước chúng ta' và câu cảm thán bị ngắt ngang ('Ắt hẳn đây phải là một trò đùa tồi tệ nào đó—!')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000210"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với 'Tham tán Conrad' mang nét mặt vừa cảm thông vừa không tán thành cắt ngang lời than phiền của 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000211"
+    locks:
+      - "Khóa lời nhắc nhở của Conrad gọi Tanya là 'thưa Trung tá' và đại từ 'Cô' trong câu hỏi chỉnh đốn phép tắc."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000212"
+    locks:
+      - "Khóa sự chuyển điểm nhìn về ngôi thứ nhất nội tâm ('mình' / 'Mình' theo DEC-P01-001) đánh giá 'ông ta' (Conrad) và nụ cười tán thưởng nghiêm nghị."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000213"
+    locks:
+      - "Khóa sự đan xen điểm nhìn đặc trưng trong nguyên tác giữa quy chiếu ngôi thứ ba ('Ông ta quở trách Tanya') và tự sự ngôi thứ nhất ('mình tìm kiếm ở một người đồng nghiệp', 'mình có thể làm việc cùng')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000214"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất ('Mình' / 'mình' theo DEC-P01-001), so sánh ngang bằng với 'Trung tướng Zettour' và hành động nhìn 'vị tham tán' rồi ngồi xuống."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000215"
+    locks:
+      - "Khóa câu miêu tả đôi mắt lạnh lùng và toan tính của 'ông ta' (Conrad)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000216"
+    locks:
+      - "Khóa nhận định nội tâm ngôi thứ nhất ('Mình' / 'mình' theo DEC-P01-001) về trí tuệ điềm tĩnh đằng sau nghi thức xã giao của người có thể hợp tác làm ăn cùng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000217"
+    locks:
+      - "Khóa lời thoại của Tanya gọi Conrad là 'Thưa Tham tán', xưng hô 'tôi' - 'ông' và liệt kê ba chủ thể đã trả giá ('lục quân, các thuộc cấp của tôi và bản thân tôi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000218"
+    locks:
+      - "Khóa lời thoại của 'Tham tán Conrad' gọi 'Trung tá Degurechaff', cặp xưng hô 'Tôi' - 'cô' ('hai ta') và phần trần thuật xen giữa giữ nguyên phủ định ('không hề có ý định để Tanya lảng tránh câu hỏi của mình')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000219"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba với phủ định ('Ông ta không ưa lối nói vòng vo bóng gió'), thành ngữ 'dẹp bỏ hết những màn khói mù che mắt' và tên 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000220"
+    locks:
+      - "Khóa câu trần thuật ngôi thứ ba mô tả cơ hội để 'Tanya' ('cô') nắm thế chủ động hỏi 'ông ta' (Conrad) điều cô thực sự muốn biết."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000221"
+    locks:
+      - "Khóa lời thoại chốt đoạn của Tanya đại diện cho phía quân đội ('Chúng tôi' / 'chúng tôi') kết hợp ngôi thứ nhất cá nhân ('tôi') để đặt câu hỏi trực diện cho phía Conrad/Bộ Ngoại giao ('các ông muốn gì ở chúng tôi?')."
