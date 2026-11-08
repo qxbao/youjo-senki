@@ -1,0 +1,224 @@
+task_id: "vol-11-ch-01-b08-argon-review"
+parent_task_id: "vol-11-ch-01-b08"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 1
+source_package: "work/vol-11/batches/ch-01-b08-source.jsonl"
+target_translation: "translations/vol-11/ch-01-b08.jsonl"
+review_path: "reviews/prose/vol-11/ch-01-b08-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000225"
+    severity: "minor"
+    issue: "Thán từ mở đầu câu độc thoại cảm thán đang được dịch là 'Ái chà', vốn thường mang sắc thái ngạc nhiên hoặc cảm thán nhẹ nhàng thay vì tiếng rên bực dọc, ức chế vì áp lực tâm lý."
+    basis: "Đối chiếu sắc thái biểu cảm tại p000225 với mạch tâm lý bị dồn ép ở p000224 và nguyên tắc giữ sắc thái trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'Chao ôi', 'Trời ạ' hoặc 'Khổ thật' để thể hiện rõ hơn sự bức bối khi không thể nói ra điều mình thực sự muốn; không làm sai nghĩa câu nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000228"
+    severity: "minor"
+    issue: "Cụm phản thân 'của riêng mình' ở cuối câu quy chiếu về Tướng Rudersdorf nhưng lại xuất hiện trong câu mở đầu bằng đại từ chủ ngữ nội tâm 'Mình' (chỉ Tanya), tạo sự lặp từ 'mình' cho hai chủ thể khác nhau."
+    basis: "Đối chiếu p000228 với quy tắc giữ rõ điểm nhìn và chủ thể hành động trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'của riêng mình' ở cuối câu thành 'của riêng ông ấy' để tách bạch hoàn toàn với đại từ tự quy chiếu 'Mình' của Tanya; không gây hiểu lầm mạch sự kiện nên không bắt buộc chặn bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên định danh 'Being X' theo canon/glossary-pending.yml (P05-being-x) và work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000222"
+  - source_term: "General (addressing General Rudersdorf)"
+    proposed_vi: "Đại tướng"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Khớp chính xác với cấp bậc Đại tướng của Rudersdorf ở vol-11 theo work/run-state/pending-terms-index.yml trong lời thưa trực tiếp của cấp dưới."
+    alternatives_vi:
+      - "Tướng quân"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000226"
+  - source_term: "necessity"
+    proposed_vi: "sự tất yếu"
+    category: "thuật ngữ triết học - quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với lựa chọn 'sự tất yếu' trong work/run-state/pending-terms-index.yml để duy trì mạch lập luận xuyên suốt giữa Tanya và Rudersdorf."
+    alternatives_vi:
+      - "tính tất yếu"
+      - "sự cần thiết"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000226"
+      - "YS-LN11/Text/chapter002.xhtml/p000227"
+      - "YS-LN11/Text/chapter002.xhtml/p000229"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh 'Lục quân Đế quốc' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000227"
+  - source_term: "senior staff officer"
+    proposed_vi: "sĩ quan tham mưu cao cấp"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án 'sĩ quan tham mưu cao cấp' đã dùng ở các lô trước trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000227"
+  - source_term: "General Zettour / General Rudersdorf"
+    proposed_vi: "Tướng Zettour / Tướng Rudersdorf"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cách dịch quân hàm đi kèm trực tiếp trước họ nhân vật theo work/run-state/pending-terms-index.yml và các lô trước của vol-11."
+    alternatives_vi:
+      - "Đại tướng Zettour / Đại tướng Rudersdorf"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000228"
+      - "YS-LN11/Text/chapter002.xhtml/p000234"
+      - "YS-LN11/Text/chapter002.xhtml/p000239"
+      - "YS-LN11/Text/chapter002.xhtml/p000242"
+      - "YS-LN11/Text/chapter002.xhtml/p000244"
+  - source_term: "the Reich"
+    proposed_vi: "Đế chế"
+    category: "chính trị - quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất với định danh 'Đế chế' trong work/run-state/pending-terms-index.yml, phân biệt với 'Đế quốc'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000229"
+  - source_term: "military police / the MPs"
+    proposed_vi: "quân cảnh / bên quân cảnh"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp nhất quán với thuật ngữ 'quân cảnh' trong work/run-state/pending-terms-index.yml và tự nhiên trong độc thoại nội tâm."
+    alternatives_vi:
+      - "quân cảnh / lực lượng quân cảnh"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000230"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất định danh cơ quan tham mưu trung ương theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000230"
+  - source_term: "Colonel Degurechaff / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá Degurechaff / Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Khớp chính xác với quân hàm thực tế Trung tá của Tanya theo work/run-state/pending-terms-index.yml khi cấp trên gọi rút gọn trong hội thoại."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000235"
+      - "YS-LN11/Text/chapter002.xhtml/p000246"
+  - source_term: "imperial capital / Imperial palace"
+    proposed_vi: "đế đô / hoàng cung"
+    category: "địa danh - chính trị"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác, trang trọng chỉ thủ đô và cung điện hoàng gia của Đế quốc trong giả định tác chiến."
+    alternatives_vi:
+      - "thủ đô Đế quốc / cung điện Hoàng gia"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000235"
+      - "YS-LN11/Text/chapter002.xhtml/p000240"
+  - source_term: "strategist / commanding officer"
+    proposed_vi: "nhà chiến lược / sĩ quan chỉ huy"
+    category: "chức danh - vai trò quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000247"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000221"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'mình' theo DEC-P01-001, đại từ ngôi thứ ba 'ông ấy' (chỉ Rudersdorf) và sắc thái kinh hãi trước việc bị ép trả lời câu hỏi tàn nhẫn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000222"
+    locks:
+      - "Khóa đại từ 'mình' – 'ông ấy', định danh 'Being X' và sự so sánh ánh mắt kiên định tuyệt đối của kẻ tin mình nắm lẽ phải với Being X."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000223"
+    locks:
+      - "Khóa tình thái nhượng bộ ('Một mức độ do dự nhất định có thể được châm chước') đối lập với mệnh lệnh dứt khoát ở câu kết ('đây là việc buộc phải làm')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000224"
+    locks:
+      - "Khóa tên gọi 'Rudersdorf', đại từ 'ông ấy' – 'mình' – 'bản thân' và mệnh đề điều kiện giả định về hậu quả thảm khốc nếu tuân theo mệnh lệnh của ông ấy."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000225"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'mình' và cấu trúc phủ định ('không thể nói ra điều mình thực sự mong muốn') trong lời cảm thán nội tâm."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000226"
+    locks:
+      - "Khóa danh xưng kèm kính ngữ 'Thưa Đại tướng ... ạ' và thuật ngữ 'sự tất yếu' trong câu hỏi dò xét của Tanya."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000227"
+    locks:
+      - "Khóa đại từ 'Chúng ta', các thuật ngữ 'sự tất yếu', 'Lục quân Đế quốc', 'sĩ quan tham mưu cao cấp' và cụm phủ định tuyệt đối 'không có ngoại lệ nào'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000228"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'Mình', danh xưng 'Tướng Zettour' và 'Tướng Rudersdorf', cùng quan hệ đối lập khi Tanya vừa liếc nhìn cầu cứu Zettour thì Rudersdorf đã ra đòn trước."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000229"
+    locks:
+      - "Khóa cặp đại từ 'tôi' – 'cô', thuật ngữ 'Sự tất yếu', định danh 'Đế chế' và yêu cầu thực thi bổn phận không phàn nàn nhiều lời."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000230"
+    locks:
+      - "Khóa đại từ 'ông ấy' – 'mình', các định danh 'quân cảnh' – 'bên quân cảnh' và 'Bộ Tổng tham mưu', hai mệnh đề phủ định ở hai câu đầu cùng chuỗi ba câu hỏi nội tâm tiến thoái lưỡng nan ở cuối đoạn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000231"
+    locks:
+      - "Khóa lối tự nhắc tên ngôi thứ ba 'Tanya' – 'bản thân' và sự chuyển ngoặt từ vòng xoáy lợi ích xung đột sang tia hy vọng vừa lóe lên."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000232"
+    locks:
+      - "Khóa đúng phạm vi nhấn mạnh Markdown theo DEC-P01-002 tại trợ động từ tình thái ('*có thể*') và sắc thái phân biệt giữa điều tất yếu hiện hữu với điều có khả năng trở nên cần thiết."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000233"
+    locks:
+      - "Khóa đại từ ngang hàng 'ông' trong câu hỏi vặn lại ngắn gọn của Rudersdorf dành cho Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000234"
+    locks:
+      - "Khóa danh xưng 'Tướng Rudersdorf' và 'Tướng Zettour', đại từ 'ông ấy' – 'Mình' và câu cảm thán phủ định đề cao đồng minh đáng tin cậy."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000235"
+    locks:
+      - "Khóa danh xưng 'Trung tá Degurechaff', cặp đại từ 'tôi' – 'Cô', các thuật ngữ 'tiểu đoàn', 'đế đô', 'quân ta' và hai tầng giả định điều kiện ('nếu tình thế đòi hỏi', 'Kể cả khi điều đó đồng nghĩa với việc...')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000236"
+    locks:
+      - "Khóa câu cảm thán một từ 'Đính chính!' thể hiện sự quay ngoắt nhận định trong nội tâm Tanya."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000237"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'Mình' trong câu tự thú nhận sai lầm."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000238"
+    locks:
+      - "Khóa đại từ 'mình' và hình ảnh ẩn dụ giọt hy vọng duy nhất xuyên thẳng qua tim rồi lao thẳng xuống địa ngục."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000239"
+    locks:
+      - "Khóa đại từ 'mình' – 'bọn mình' – 'ông ấy' – 'họ', danh xưng 'Tướng Zettour', các mệnh đề phủ định ('có lẽ không biết điều này', 'không hề kén chọn đối thủ') và phạm vi nhấn mạnh Markdown theo DEC-P01-002 ở cụm '*bất kể điều gì*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000240"
+    locks:
+      - "Khóa đại từ 'Mình' – 'mình' – 'bọn mình' – 'họ', thuật ngữ 'hoàng cung', giả định không nghi ngờ việc cấp dưới nạp tọa độ hoàng cung ngay lúc phổ biến nhiệm vụ, câu hỏi tu từ tự trào và phạm vi nhấn mạnh Markdown theo DEC-P01-002 ở đại từ '*mình*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000241"
+    locks:
+      - "Khóa các đại từ 'Họ' – 'cô' – 'chúng tôi' trong lời thúc giục nói thật lòng của Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000242"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', đại từ 'mình' – 'ông ấy' – 'bản thân', hai câu hỏi nội tâm liên tiếp cùng các câu phủ định khẳng định quyết tâm nắm lấy sợi dây cứu sinh để thoát khỏi cuộc thảo luận vượt cấp bậc."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000243"
+    locks:
+      - "Khóa đại từ 'tôi' kèm kính ngữ 'ạ' và sắc thái dè dặt xin thêm thời gian suy nghĩ câu trả lời."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000244"
+    locks:
+      - "Khóa đại từ 'Mình' – 'họ', danh xưng 'Tướng Rudersdorf' và 'Tướng Zettour', cùng sự tương phản trực tiếp giữa vẻ bất bình của Rudersdorf và sự hài lòng của Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000245"
+    locks:
+      - "Khóa cặp quy chiếu 'người đầu' (Rudersdorf) – 'người sau' / 'ông ấy' (Zettour), đại từ 'mình', thuật ngữ 'phép thử lòng trung thành' và chuỗi ba câu hỏi nghi kỵ trong nội tâm."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000246"
+    locks:
+      - "Khóa cách gọi quân hàm 'Trung tá', đại từ 'tôi' – 'cô', cách Zettour gọi Rudersdorf là 'tên đần độn này' – 'ông ta' và lời bảo Tanya cứ phớt lờ sức ép trả lời vội."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000247"
+    locks:
+      - "Khóa đại từ 'ông ấy' (chỉ Zettour), cặp đại từ 'Tôi' – 'cô', các thuật ngữ 'nhà chiến lược' và 'sĩ quan chỉ huy', cùng yêu cầu phải trả lời thành thật ngay lập tức."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000248"
+    locks:
+      - "Khóa sự chuyển dịch điểm nhìn từ lối tự nhắc tên ngôi thứ ba 'Tanya' – 'cô' ở hai câu đầu sang đại từ nội tâm tự quy chiếu 'mình' ở hai câu cuối theo DEC-P01-001, cùng hình ảnh ẩn dụ muốn tìm bãi rác gần nhất để trút bỏ cả núi lời phàn nàn."
