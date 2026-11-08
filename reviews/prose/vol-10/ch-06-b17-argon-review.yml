@@ -1,0 +1,473 @@
+task_id: "vol-10-ch-06-b17-argon-review"
+parent_task_id: "vol-10-ch-06-b17"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b17-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b17.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b17-argon-review.yml"
+status: "completed"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000010"
+    severity: "minor"
+    issue: "Cấu trúc 'vừa có tác dụng..., vừa có thể...' ở câu thứ hai hơi nghiêng về quan hệ đồng thời, trong khi nguyên bản nêu hai khả năng loại trừ/song hành ('hoặc... hoặc...') làm tiền đề trực tiếp cho cụm mở đầu 'Dù theo hướng nào đi nữa…' ở p000011."
+    basis: "Đối chiếu canon/style-guide.md (giữ quan hệ logic giữa các mệnh đề) và mạch liên kết câu giữa p000010 với p000011."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'hoặc là để làm kẻ địch mất cảnh giác, hoặc là thực sự đạt được thành công trên bàn ngoại giao' để khớp chặt hơn với câu chuyển ý ở p000011."
+pending_term_recommendations:
+  - source_term: "General Rudersdorf / Lieutenant General Rudersdorf / the general"
+    proposed_vi: "Tướng Rudersdorf / Trung tướng Rudersdorf / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất quân hàm và danh xưng của Trung tướng Rudersdorf xuyên suốt chương 6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000004"
+      - "YS-LN10/Text/chapter030.xhtml/p000006"
+      - "YS-LN10/Text/chapter030.xhtml/p000007"
+      - "YS-LN10/Text/chapter030.xhtml/p000010"
+      - "YS-LN10/Text/chapter030.xhtml/p000012"
+      - "YS-LN10/Text/chapter030.xhtml/p000030"
+  - source_term: "Colonel Lergen / Lergen / the colonel / Colonel / senior staff officer"
+    proposed_vi: "Đại tá Lergen / Lergen / vị đại tá / Đại tá / sĩ quan tham mưu cao cấp"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Thống nhất quân hàm Đại tá và chức danh sĩ quan tham mưu cao cấp của Lergen trong cả trần thuật lẫn lời thoại."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000004"
+      - "YS-LN10/Text/chapter030.xhtml/p000005"
+      - "YS-LN10/Text/chapter030.xhtml/p000007"
+      - "YS-LN10/Text/chapter030.xhtml/p000009"
+      - "YS-LN10/Text/chapter030.xhtml/p000010"
+      - "YS-LN10/Text/chapter030.xhtml/p000013"
+      - "YS-LN10/Text/chapter030.xhtml/p000015"
+      - "YS-LN10/Text/chapter030.xhtml/p000016"
+      - "YS-LN10/Text/chapter030.xhtml/p000017"
+      - "YS-LN10/Text/chapter030.xhtml/p000019"
+      - "YS-LN10/Text/chapter030.xhtml/p000021"
+      - "YS-LN10/Text/chapter030.xhtml/p000022"
+      - "YS-LN10/Text/chapter030.xhtml/p000029"
+      - "YS-LN10/Text/chapter030.xhtml/p000031"
+      - "YS-LN10/Text/chapter030.xhtml/p000034"
+      - "YS-LN10/Text/chapter030.xhtml/p000036"
+  - source_term: "Uger / the lieutenant colonel / Lieutenant Colonel / railway specialist / railway operators / train operator"
+    proposed_vi: "Uger / vị trung tá / Trung tá / chuyên gia đường sắt / cánh điều hành đường sắt / viên sĩ quan điều hành đường sắt"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Thống nhất quân hàm Trung tá và vai trò chuyên trách điều độ vận tải đường sắt của Uger, tiếp nối các lô trước của chương 6."
+    alternatives_vi:
+      - "những người vận hành đường sắt"
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000016"
+      - "YS-LN10/Text/chapter030.xhtml/p000017"
+      - "YS-LN10/Text/chapter030.xhtml/p000021"
+      - "YS-LN10/Text/chapter030.xhtml/p000034"
+      - "YS-LN10/Text/chapter030.xhtml/p000037"
+  - source_term: "Counselor Conrad / diplomats"
+    proposed_vi: "Tham tán Conrad / các nhà ngoại giao"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất chức danh Tham tán của Conrad như đã dùng trong toàn tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000005"
+      - "YS-LN10/Text/chapter030.xhtml/p000025"
+  - source_term: "Plan B / surprise attack / military planning / early spring blitzkrieg"
+    proposed_vi: "Kế hoạch B / đòn tấn công bất ngờ / công tác hoạch định quân sự / *cuộc chiến tranh chớp nhoáng vào đầu xuân*"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chính xác hệ thống khái niệm tác chiến và hoạch định quân sự trong mạch suy luận của Lergen."
+    alternatives_vi:
+      - "Phương án B / *đòn đánh chớp nhoáng đầu xuân*"
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000004"
+      - "YS-LN10/Text/chapter030.xhtml/p000008"
+      - "YS-LN10/Text/chapter030.xhtml/p000014"
+      - "YS-LN10/Text/chapter030.xhtml/p000023"
+  - source_term: "railway staff / Railroad Department / schedule"
+    proposed_vi: "bộ phận tham mưu đường sắt / Cục Đường sắt / lịch trình"
+    category: "tên cơ quan - thuật ngữ đường sắt"
+    status: "pending"
+    rationale: "Khớp với sổ pending của dự án và ngữ cảnh lập biểu đồ điều vận đường sắt quân sự."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000012"
+      - "YS-LN10/Text/chapter030.xhtml/p000019"
+      - "YS-LN10/Text/chapter030.xhtml/p000020"
+  - source_term: "the Empire / the Reich / the Heimat / the fatherland / Ildoan front / the Ildoan side"
+    proposed_vi: "Đế quốc / Đế chế / Heimat / Tổ quốc / mặt trận ở Ildoa / phía Ildoa"
+    category: "quốc danh - thuật ngữ chính trị"
+    status: "pending"
+    rationale: "Phân biệt rõ và giữ nguyên sắc thái của chuỗi danh xưng chỉ quốc gia (the Empire -> Đế quốc, the Reich -> Đế chế, the Heimat -> Heimat, the fatherland -> Tổ quốc) theo đúng sổ pending của tập 10."
+    alternatives_vi:
+      - "quê hương bản quán (cho the Heimat)"
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000003"
+      - "YS-LN10/Text/chapter030.xhtml/p000019"
+      - "YS-LN10/Text/chapter030.xhtml/p000020"
+      - "YS-LN10/Text/chapter030.xhtml/p000025"
+      - "YS-LN10/Text/chapter030.xhtml/p000027"
+      - "YS-LN10/Text/chapter030.xhtml/p000030"
+      - "YS-LN10/Text/chapter030.xhtml/p000033"
+      - "YS-LN10/Text/chapter030.xhtml/p000042"
+  - source_term: "The Saga of Tanya the Evil, Volume 10: Viribus Unitis, fin"
+    proposed_vi: "Tanya Chiến Ký, Tập 10: Viribus Unitis, Hết"
+    category: "nhan đề tác phẩm"
+    status: "pending"
+    rationale: "Giữ nguyên phụ đề tiếng Latinh 'Viribus Unitis' và dịch dòng kết tập theo quy ước tạm."
+    alternatives_vi:
+      - "Ấu Nữ Chiến Ký, Tập 10: Viribus Unitis, hết"
+      - "Biên niên sử Tanya Ác nghiệt, Tập 10: Viribus Unitis, hết"
+    segment_ids:
+      - "YS-LN10/Text/chapter030.xhtml/p000043"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000003"
+    names_and_ranks:
+      - "The Empire -> Đế quốc"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri theo góc nhìn Lergen; giữ tình thái phỏng đoán có nhấn mạnh (*có lẽ*) về quỹ thời gian một năm"
+    emphasis:
+      - "*có lẽ*"
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000004"
+    names_and_ranks:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+      - "Lergen -> Lergen"
+      - "Plan B -> Kế hoạch B"
+    pronouns_and_address:
+      - "he (Rudersdorf) -> ông"
+      - "His (Lergen) -> anh"
+      - "their -> của họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ đối lập nhượng bộ (Ấy vậy mà...) và hình ảnh đặt nỗ lực ngoại giao lên bàn cân cùng Kế hoạch B"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000005"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "Counselor Conrad -> Tham tán Conrad"
+    pronouns_and_address:
+      - "he (Lergen) -> mình"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ nhân quả lý giải việc Lergen được cho thời gian đàm phán kèm giới hạn rõ ràng"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000006"
+    names_and_ranks:
+      - "Lieutenant General Rudersdorf -> Trung tướng Rudersdorf"
+    pronouns_and_address:
+      - "him (Lergen) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri mang sắc thái cảm thán khi ngộ ra sự thật"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000007"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "the general -> vị tướng"
+    pronouns_and_address:
+      - "He (Rudersdorf) -> Ông"
+      - "him (Lergen) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ song hành ở câu đầu và tình thái phỏng đoán đi kèm phủ định ở câu sau (có lẽ sẽ chẳng bao giờ trực tiếp tiết lộ)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000008"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ tình thái khả năng cao (rất có khả năng là một đòn tấn công bất ngờ)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000009"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "he (Lergen) -> Lergen"
+      - "they -> họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ cấu trúc tăng tiến (Càng nghĩ kỹ, Lergen càng tin chắc rằng...), câu điều kiện gắn với tính bắt buộc về thời điểm mùa xuân và tình thái phỏng đoán mốc sớm nhất (tháng Hai hay tháng Ba)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000010"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "the general -> vị tướng"
+    pronouns_and_address:
+      - "he / his (Lergen) -> mình / của bản thân"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ so sánh giả định ở câu đầu (như thể tính mạng của bản thân phụ thuộc vào đó) và hai mục đích của cuộc đàm phán đối với Rudersdorf ở câu thứ hai"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000011"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "he (Lergen) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ nhận định về việc bản thân đã bị cuốn vào một kịch bản/cơ cấu không sao tưởng tượng nổi"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000012"
+    names_and_ranks:
+      - "the general -> vị tướng"
+      - "railway staff -> bộ phận tham mưu đường sắt"
+    pronouns_and_address:
+      - "He (Lergen) -> Anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ phủ định so sánh ở câu đầu (chẳng cần phải nhìn đâu xa ngoài...) và tình thái khả năng cao kèm lối chơi chữ nghĩa bóng – nghĩa đen ở câu thứ hai"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000013"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "He / his (Lergen) -> Anh / mình"
+      - "them (those who engaged in politics) -> những kẻ chủ động dấn thân vào đó"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ mạch giải thích nguyên nhân thái độ giữ khoảng cách với chính trị và mong muốn giới hạn của Lergen ở câu cuối"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000014"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "his / he (Lergen) -> của anh / anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ bước chuyển thời gian ở hiện tại (Giờ đây...) và phần giải thích chêm giữa hai dấu gạch ngang (—công tác hoạch định quân sự—)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000015"
+    names_and_ranks:
+      - "Colonel Lergen -> Đại tá Lergen"
+    pronouns_and_address:
+      - "you (Lergen) -> Anh"
+    pov_and_modality:
+      - "Thoại hỏi thăm trực tiếp của Trung tá Uger"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000016"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "the lieutenant colonel -> vị trung tá"
+      - "railway specialist -> chuyên gia đường sắt"
+    pronouns_and_address:
+      - "He (Lergen) -> Anh"
+      - "his / This man / He / he (Uger) -> đối phương / Người đàn ông này / Anh / anh ấy"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri kết thúc bằng suy nghĩ bỏ lửng mang tình thái hy vọng mong manh (Biết đâu, chỉ là biết đâu anh ấy…)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000017"
+    names_and_ranks:
+      - "Lieutenant Colonel -> Trung tá"
+      - "The colonel -> Vị đại tá"
+    pronouns_and_address:
+      - "I / me (Lergen) -> Tôi / tôi"
+      - "you (Uger) -> anh"
+    pov_and_modality:
+      - "Thoại của Lergen xen trần thuật ngôi thứ ba; giữ phủ định mức độ (khó lòng gánh vác thêm được nữa) và tình thái nhượng bộ – thừa nhận ở hai câu cuối"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000018"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "he (Lergen) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ nhượng bộ (Dẫu vậy, anh vẫn buộc phải...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000019"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "Railroad Department -> Cục Đường sắt"
+      - "the Reich -> Đế chế"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ đúng từ in nghiêng (*sự tất yếu*), quan hệ mục đích và mệnh đề nhượng bộ ở câu cuối"
+    emphasis:
+      - "*sự tất yếu*"
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000020"
+    names_and_ranks:
+      - "Ildoan front -> mặt trận ở Ildoa"
+    pronouns_and_address:
+      - "I (Lergen) -> Tôi"
+      - "you (Uger) -> Anh"
+    pov_and_modality:
+      - "Thoại đề nghị của Lergen; giữ mốc thời gian trước khi chiến sự chuyển sang mặt trận Ildoa và câu hỏi nhờ kéo dài công tác chuẩn bị lịch trình"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000021"
+    names_and_ranks:
+      - "Colonel -> Thưa Đại tá"
+      - "railway operators -> cánh điều hành đường sắt"
+    pronouns_and_address:
+      - "us -> chúng tôi"
+    pov_and_modality:
+      - "Thoại giãi bày khó khăn thực tế của Uger"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000022"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "he (Lergen) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ đối lập và nhượng bộ mức độ ở câu thứ ba (dù ít ỏi đến đâu)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000023"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "He / he (Lergen) -> Anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ phủ định kèm hai khả năng ở câu đầu, giữ đúng cụm in nghiêng và câu điều kiện giả định mở ra hy vọng xoay chuyển cục diện ở câu thứ hai"
+    emphasis:
+      - "*cuộc chiến tranh chớp nhoáng vào đầu xuân*"
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000024"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri khẳng định ngắn gọn"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000025"
+    names_and_ranks:
+      - "Counselor Conrad -> Tham tán Conrad"
+      - "diplomats -> các nhà ngoại giao"
+      - "the Empire -> Đế quốc"
+      - "the Ildoan side -> phía Ildoa"
+    pronouns_and_address:
+      - "they (Conrad and the diplomats) -> họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ câu điều kiện giả định rủi ro ở câu thứ hai và khả năng đàm phán bị đình trệ từ phía Ildoa ở câu thứ ba"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000026"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "He (Lergen) -> Anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ nhận định về xác suất thành công hết sức mong manh"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000027"
+    names_and_ranks:
+      - "the Empire -> Đế quốc"
+      - "the Heimat -> Heimat"
+    pronouns_and_address:
+      - "He / his / him (Lergen) -> Anh / mình"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ câu nhượng bộ khẳng định ở đầu đoạn và phủ định thể hiện quyết tâm ở câu thứ hai (sẽ không để cơ hội duy nhất... vuột khỏi tầm tay mình)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000028"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "his (Lergen) -> của anh"
+    pov_and_modality:
+      - "Hai câu hỏi nội tâm nửa trực tiếp liên tiếp trong trần thuật ngôi thứ ba hạn tri"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000029"
+    names_and_ranks:
+      - "Colonel Lergen -> Đại tá Lergen"
+    pronouns_and_address:
+      - "He / he (Lergen) -> Anh / mình"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri khẳng định sự chấp nhận và quyết tâm hành động"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000030"
+    names_and_ranks:
+      - "Lieutenant General Rudersdorf -> Trung tướng Rudersdorf"
+      - "the fatherland -> Tổ quốc"
+    pronouns_and_address:
+      - "He / him / he (Lergen) -> Anh / mình / anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ hai câu phủ định đầu đoạn, tình thái khả năng ở câu thứ ba (Có lẽ nó cũng chỉ khác biệt đôi chút...) và khẳng định lý tưởng phụng sự Tổ quốc ở câu cuối"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000031"
+    names_and_ranks:
+      - "senior staff officer -> sĩ quan tham mưu cao cấp"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri đúc kết bản chất chức phận"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000032"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "He / he / his (Lergen) -> Anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ cả hai tầng phủ định ('không thể đứng nhìn thêm được nữa' và 'quỹ thời gian vốn chẳng còn lại nơi tay')"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000033"
+    names_and_ranks:
+      - "the Reich -> Đế chế"
+    pronouns_and_address:
+      - "I / me (Lergen) -> Tôi / tôi"
+      - "our -> của chúng ta"
+      - "you (Uger) -> anh"
+    pov_and_modality:
+      - "Thoại khẩn cầu trực tiếp của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000034"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "Uger -> Uger"
+      - "The train operator -> Viên sĩ quan điều hành đường sắt"
+    pronouns_and_address:
+      - "his (Uger) -> hai vai"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba; giữ cụm phủ định mở đầu (Chẳng còn bận tâm đến thể diện...) và chuỗi cử chỉ, biểu cảm của Uger"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000035"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "I / my (Uger) -> tôi / mình"
+    pov_and_modality:
+      - "Thoại của Uger; giữ tình thái phỏng đoán ở câu đầu, phủ định nghi ngờ ở câu thứ hai (Tôi e là mình sẽ chẳng thể về nhà nổi nữa) và hình dung ở câu cuối"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000036"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "The man (Uger) -> Người đàn ông ấy / anh"
+      - "his / he (Lergen) -> của Lergen / anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ đối lập ở câu thứ hai và cấu trúc phủ định kép ở cuối câu thứ ba (nhưng không có nghĩa là anh không cảm thấy áy náy vì chuyện ấy)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000037"
+    names_and_ranks:
+      - "Lieutenant Colonel -> Trung tá"
+    pronouns_and_address:
+      - "I / me (Lergen) -> Tôi / tôi"
+      - "you (ẩn trong câu mệnh lệnh) -> Anh"
+    pov_and_modality:
+      - "Thoại xin lỗi chân thành của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000038"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "I (Uger) -> Tôi"
+      - "us -> chúng ta"
+    pov_and_modality:
+      - "Thoại đáp lời và đồng lòng sát cánh của Uger"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000039"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "They (Lergen and Uger) -> Họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba ngắn gọn, nhịp dồn dập"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000040"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "They (Lergen and Uger) -> Họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba song hành với p000039"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000041"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "they (Lergen and Uger) -> họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba nhấn mạnh mức độ dốc toàn lực"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000042"
+    names_and_ranks:
+      - "the Reich -> Đế chế"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Thoại đồng thanh hô vang của cả hai người (giữ cặp dấu ngoặc kép lồng ““...””)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000043"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Dòng ghi chú kết thúc Tập 10 đặt trong ngoặc đơn và in nghiêng toàn bộ"
+    emphasis:
+      - "*(Tanya Chiến Ký, Tập 10: Viribus Unitis, Hết)*"
