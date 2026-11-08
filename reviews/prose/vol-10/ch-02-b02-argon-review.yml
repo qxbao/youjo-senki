@@ -1,0 +1,220 @@
+task_id: "vol-10-ch-02-b02-argon-review"
+parent_task_id: "vol-10-ch-02-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b02-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b02.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000043"
+    severity: "minor"
+    issue: "Cụm 'Việc âm thầm dò đoán ý đồ của ông' hơi nghiêng về suy nghĩ đơn lẻ trong nội tâm, trong khi câu văn đang dẫn trực tiếp vào câu hỏi thoại ở p000044 được dùng như một lời chào cửa miệng giữa những người lính (hỏi nhỏ/khẽ hỏi nhau về ý đồ của vị tướng)."
+    basis: "Đối chiếu mạch liên kết trực tiếp giữa câu dẫn ở p000043 và lời thoại mở đầu ở p000044."
+    recommendation: "Bản hiện tại vẫn hiểu được trong mạch văn; ở bước chuốt văn có thể cân nhắc 'Việc khẽ hỏi nhau về ý đồ của ông' hoặc 'Việc lặng lẽ thắc mắc về ý đồ của ông' để nối mượt hơn sang câu thoại p000044."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000060"
+    severity: "minor"
+    issue: "Cách dịch 'Dù xuất thân là người làm tác chiến' thêm nét nghĩa 'xuất thân' không có trực tiếp trong câu và dễ gợi nhầm về lý lịch ngành của Zettour (vốn gắn với mảng Quân vụ/Hậu cần và học thuật trước khi nắm tác chiến), dù câu cuối p000067 có nhắc ẩn dụ về nguồn gốc tư tưởng quân sự chung."
+    basis: "Đối chiếu mệnh đề nhượng bộ đầu câu p000060 với vai trò thực tế của Zettour và câu độc thoại ở p000063, p000067."
+    recommendation: "Không làm sai mạch lập luận chính nhưng ở bước chuốt văn có thể cân nhắc lược chữ 'xuất thân' thành 'Dù là người làm tác chiến' hoặc 'Dù bản thân là một sĩ quan tác chiến' để trung tính và sát bề mặt chữ hơn."
+pending_term_recommendations:
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã khóa ở batch ch-02-b01 và sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000035"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã dùng trong vol-09 và vol-10 tại sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000037"
+  - source_term: "field officers"
+    proposed_vi: "các sĩ quan cấp tá"
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Khớp với mục 'field officer -> sĩ quan cấp tá' trong pending-terms-index.yml khi đặt trong thế sánh đôi với nhóm binh lính thuộc quyền (enlisted troops)."
+    alternatives_vi:
+      - "các sĩ quan thực địa"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000042"
+  - source_term: "Lieutenant General Zettour / the general"
+    proposed_vi: "Trung tướng Zettour / vị tướng"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc của Zettour tại mặt trận phía đông tháng 7 năm 1927."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000043"
+      - "YS-LN10/Text/chapter008.xhtml/p000044"
+      - "YS-LN10/Text/chapter008.xhtml/p000048"
+      - "YS-LN10/Text/chapter008.xhtml/p000054"
+      - "YS-LN10/Text/chapter008.xhtml/p000055"
+      - "YS-LN10/Text/chapter008.xhtml/p000057"
+      - "YS-LN10/Text/chapter008.xhtml/p000058"
+  - source_term: "INSPECTION OFFICE ON THE EASTERN FRONT"
+    proposed_vi: "VĂN PHÒNG THANH TRA TẠI MẶT TRẬN PHÍA ĐÔNG"
+    category: "tổ chức - địa danh quân sự"
+    status: "pending"
+    rationale: "Dịch sát nghĩa cơ quan thanh tra của Zettour tại mặt trận phía đông trong tiêu đề chuyển cảnh."
+    alternatives_vi:
+      - "CƠ QUAN THANH TRA TẠI MẶT TRẬN PHÍA ĐÔNG"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000047"
+  - source_term: "retrograde operations"
+    proposed_vi: "các hoạt động tác chiến rút lui"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác thuật ngữ quân sự chỉ các hoạt động hành quân lùi/rút lui có tổ chức."
+    alternatives_vi:
+      - "tác chiến hành quân lùi"
+      - "tác chiến rút lui"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000054"
+  - source_term: "deputy director’s office"
+    proposed_vi: "văn phòng cục phó"
+    category: "chức danh - tổ chức"
+    status: "pending"
+    rationale: "Phù hợp với chức vụ Cục phó tại Bộ Tổng tham mưu của Zettour trước khi ra mặt trận phía đông."
+    alternatives_vi:
+      - "văn phòng phó cục trưởng"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000057"
+  - source_term: "church of necessity"
+    proposed_vi: "giáo hội của sự tất yếu"
+    category: "ẩn dụ học thuyết quân sự"
+    status: "pending"
+    rationale: "Giữ đúng phép ẩn dụ tôn giáo (đi cùng với 'những giáo điều' ở câu sau) chỉ lối tư duy tôn sùng thắng lợi tác chiến như điều tất yếu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000067"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000030"
+    locks:
+      - "Khóa cấu trúc giả định và chuỗi 3 bước chiến lược: 'rút lui, tập hợp lại đội ngũ, rồi chuẩn bị cho một đòn phản công về sau'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000031"
+    locks:
+      - "Khóa giả định trái thực tế ('Giá như... sẽ chẳng có lấy một người lính nào...') và phủ định trọng tâm: 'họ hoàn toàn không hề tập hợp lại đội ngũ'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000032"
+    locks:
+      - "Khóa điểm nhìn nhận thức của binh lính/sĩ quan tiền tuyến và hành động 'đều đặn nhường đất' trên toàn mặt trận."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000033"
+    locks:
+      - "Khóa phủ định 'không sao rũ bỏ nổi cảm giác' và nhận định tình thái 'Khả năng ấy có vẻ quá đỗi chân thực'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000034"
+    locks:
+      - "Khóa cấu trúc điều kiện ('Nếu biết mục tiêu cuối cùng... họ sẵn sàng lặng lẽ nghe theo') và sự tương phản với việc lùi bước vượt quá sức hiểu biết."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000035"
+    locks:
+      - "Khóa tên tổ chức 'Lục quân Đế quốc', phủ định 'không chấp nhận sự im lặng', và mệnh đề 'Mọi thứ đều bắt đầu từ sự phục tùng'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000036"
+    locks:
+      - "Khóa cặp khái niệm pháp lý/tổ chức: 'đưa ra ý kiến bất đồng vừa là quyền lợi vừa là nghĩa vụ'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000037"
+    locks:
+      - "Khóa chủ thể 'các sĩ quan chỉ huy' và cơ quan tiếp nhận 'Văn phòng Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000038"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho câu trả lời: '*Tất cả đều nằm trong kế hoạch*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000039"
+    locks:
+      - "Khóa nhịp tịnh tiến lần thứ nhất: 'chấp nhận lời giải thích ấy một lần'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000040"
+    locks:
+      - "Khóa nhịp tịnh tiến lần thứ hai với sắc thái miễn cưỡng: 'miễn cưỡng xuôi theo vào lần thứ hai'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000041"
+    locks:
+      - "Khóa nhịp tịnh tiến lần thứ ba chạm giới hạn chịu đựng của họ."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000042"
+    locks:
+      - "Khóa hai nhóm chủ thể 'các sĩ quan cấp tá' và 'đám binh lính thuộc quyền' cùng công khai hoài nghi chiến lược hiện tại."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000043"
+    locks:
+      - "Khóa phủ định 'Chẳng một ai biết', danh xưng 'Trung tướng Zettour', địa danh 'mặt trận phía đông', và chi tiết câu hỏi trở thành kiểu chào hỏi giữa những người lính."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000044"
+    locks:
+      - "Khóa đại từ thoại ngang hàng giữa binh lính ('Anh') và danh xưng 'vị tướng ấy'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000045"
+    locks:
+      - "Khóa đại từ thoại tập thể ('chúng ta', 'mình'), giả định phỏng đoán ('Chắc...'), và chủ thể 'Nhóm những người lạc quan một cách dè dặt'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000046"
+    locks:
+      - "Khóa cặp chủ thể đối lập 'cả những kẻ hoài nghi lẫn những người còn tin tưởng' đều giữ im lặng và chấp hành mệnh lệnh."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000047"
+    locks:
+      - "Khóa dòng tiêu đề chuyển cảnh: 'CÙNG NGÀY HÔM ĐÓ, VĂN PHÒNG THANH TRA TẠI MẶT TRẬN PHÍA ĐÔNG'; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000048"
+    locks:
+      - "Khóa phép ẩn dụ 'đứng giữa tâm điểm của vũng lầy' và điểm nhìn tự nhận thức của 'Trung tướng Zettour'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000049"
+    locks:
+      - "Khóa cặp đối lập 'Cả bạn lẫn thù', đại từ trần thuật 'ông' cho Zettour, và sắc thái cười chua chát."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000050"
+    locks:
+      - "Khóa đại từ độc thoại tự quy chiếu 'mình' của Zettour và câu hỏi tự vấn mang tính tự trào."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000051"
+    locks:
+      - "Khóa phủ định 'không ngại thừa nhận' và tư cách tự nhìn nhận 'với tư cách một quân nhân'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000052"
+    locks:
+      - "Khóa mức độ tình thái 'gần như có thể mô tả là đầy khoái cảm'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000053"
+    locks:
+      - "Khóa đại từ độc thoại 'Mình' của Zettour và lời cảm thán về việc ở ngoài chiến trường quá lâu."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000054"
+    locks:
+      - "Khóa danh xưng 'Trung tướng Zettour', địa điểm 'phòng chỉ huy' / 'Trung tâm chỉ huy', và thuật ngữ 'các hoạt động tác chiến rút lui'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000055"
+    locks:
+      - "Khóa danh xưng 'Vị tướng', đại từ 'Ông', và hình ảnh hút xì gà đi lại quanh phòng nhìn tấm bản đồ lớn."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000056"
+    locks:
+      - "Khóa nhận định ngắn gọn: 'Đó là môi trường hoàn hảo để suy ngẫm'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000057"
+    locks:
+      - "Khóa dấu chấm lửng mở đầu '…Ông', chi tiết 'văn phòng cục phó', và hành động phân tích các kịch bản chiến tranh."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000058"
+    locks:
+      - "Khóa phủ định kép nhấn mạnh ('chưa bao giờ quên... —dù chỉ một lần'), nhấn mạnh Markdown theo DEC-P01-002 cho suy nghĩ '*Dẫu nói là vậy…*', và nhận định về bản chất con người của Trung tướng Zettour."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000059"
+    locks:
+      - "Khóa dấu chấm lửng trong câu độc thoại, đại từ 'Mình', và phủ định 'không thể cưỡng lại bản năng của một nhà chiến lược trong lòng'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000060"
+    locks:
+      - "Khóa sự đối lập giữa vai trò làm tác chiến với trách nhiệm bao quát hầu như mọi khía cạnh của cuộc chiến, và kết câu tự phản tỉnh '… hay ít nhất ông từng nghĩ vậy'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000061"
+    locks:
+      - "Khóa câu độc thoại ngắn của Zettour: '“Nhìn mình bây giờ xem.”'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000062"
+    locks:
+      - "Khóa tổ hợp ba sắc thái cảm xúc: 'tự giễu, kinh ngạc và hoài niệm'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000063"
+    locks:
+      - "Khóa đại từ độc thoại 'mình' và nhận định 'coi tác chiến là nhân tố quyết định của chiến tranh'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000064"
+    locks:
+      - "Khóa toàn bộ câu hỏi nội tâm có nhấn mạnh Markdown theo DEC-P01-002: '*Có lẽ chúng ta nên dồn toàn lực và đảm bảo giành thắng lợi ở miền đông chăng?*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000065"
+    locks:
+      - "Khóa sự chuyển biến cảm xúc sang 'bực dọc' trước ba gánh nặng: 'chuyện chính trị, việc cố vấn và bài toán xoay xở hậu cần'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000066"
+    locks:
+      - "Khóa nhận định tự phê phán khách quan: 'Lẽ dĩ nhiên, những cảm xúc ấy là hoàn toàn vô lý'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000067"
+    locks:
+      - "Khóa đại từ độc thoại 'mình', ẩn dụ 'giáo hội của sự tất yếu' cùng 'những giáo điều của nó', và chi tiết khó quên đi nơi mình xuất thân."
