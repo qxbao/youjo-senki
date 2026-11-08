@@ -1,0 +1,201 @@
+task_id: "vol-11-ch-01-b18-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000165"
+    severity: "minor"
+    category: "meaning_precision"
+    issue: "Bản dịch thêm đối tượng 'cấp trên' trong cụm 'việc nói lời chiều lòng cấp trên', làm thu hẹp phạm vi nhận định xã hội học khái quát của Tanya về hành vi lấy lòng/chiều lòng nói chung ở cả hai thời đại."
+    recommendation: "Đổi 'việc nói lời chiều lòng cấp trên' thành 'việc nói lời lấy lòng' hoặc 'chuyện chiều lòng người khác'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000183"
+    severity: "minor"
+    category: "naturalness_pronouns"
+    issue: "Cụm 'cấp trên của mình xua tay về phía ông ấy' bám sát lỗi in thiếu từ trong bản tiếng Anh và dùng đại từ 'ông ấy' khiến câu tiếng Việt nghe như Zettour đang xua tay về phía một người thứ ba, đồng thời lệch với hình ảnh gạt lời khen đi."
+    recommendation: "Sửa 'xua tay về phía ông ấy' thành 'xua tay trước mặt' hoặc 'đưa tay xua đi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000191"
+    severity: "minor"
+    category: "tone_register"
+    issue: "Trong lời hỏi trực tiếp đầy lễ độ của Tanya gửi Tướng Zettour, động từ 'rời bỏ' ('rời bỏ mặt trận phía đông') mang sắc thái tiêu cực như đào ngũ hoặc bỏ mặc, chưa thật khớp với thái độ cung kính bề ngoài của Tanya khi hỏi về việc Zettour rời chức vụ ở miền đông để về đế đô."
+    recommendation: "Đổi 'rời bỏ mặt trận phía đông' thành 'rời khỏi mặt trận phía đông' hoặc 'chia tay với mặt trận phía đông'."
+pending_term_recommendations:
+  - source_term: "General Zettour / Zettour / Rudersdorf / deputy director"
+    proposed_vi: "Tướng Zettour / Zettour / Rudersdorf / phó tổng tham mưu trưởng"
+    alternatives_vi:
+      - "Đại tướng Zettour / cục phó Bộ Tổng tham mưu"
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Giữ thống nhất danh xưng cấp bậc và chức vụ của Zettour và Rudersdorf theo sổ pending của vol-11."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000163"
+      - "YS-LN11/Text/chapter004.xhtml/p000166"
+      - "YS-LN11/Text/chapter004.xhtml/p000170"
+      - "YS-LN11/Text/chapter004.xhtml/p000176"
+      - "YS-LN11/Text/chapter004.xhtml/p000180"
+      - "YS-LN11/Text/chapter004.xhtml/p000185"
+      - "YS-LN11/Text/chapter004.xhtml/p000187"
+      - "YS-LN11/Text/chapter004.xhtml/p000194"
+  - source_term: "Colonel"
+    proposed_vi: "Trung tá"
+    alternatives_vi: []
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Cách gọi tắt trong hội thoại của Zettour dành cho Trung tá Tanya von Degurechaff, khớp với sổ pending các tập trước và vol-11."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000171"
+  - source_term: "the Empire / the Heimat / imperial capital / eastern front / the east"
+    proposed_vi: "Đế quốc / Heimat / đế đô / mặt trận phía đông / miền đông"
+    alternatives_vi:
+      - "thủ đô Đế quốc"
+    category: "địa danh - quốc gia"
+    status: "pending"
+    rationale: "Giữ nhất quán hệ thống tên gọi quốc gia, thủ đô và sự phân biệt giữa 'mặt trận phía đông' với 'miền đông' trong vol-11."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000167"
+      - "YS-LN11/Text/chapter004.xhtml/p000169"
+      - "YS-LN11/Text/chapter004.xhtml/p000185"
+      - "YS-LN11/Text/chapter004.xhtml/p000191"
+      - "YS-LN11/Text/chapter004.xhtml/p000193"
+  - source_term: "General Staff Office / senior staffer / military police"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / sĩ quan tham mưu cao cấp / quân cảnh"
+    alternatives_vi: []
+    category: "tổ chức - chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp với các mục tương ứng đã ghi nhận trong sổ pending."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000186"
+      - "YS-LN11/Text/chapter004.xhtml/p000189"
+      - "YS-LN11/Text/chapter004.xhtml/p000197"
+  - source_term: "Being X / Mother Necessity"
+    proposed_vi: "Being X / Mẹ Tất Yếu"
+    alternatives_vi:
+      - "Đức Mẹ Tất Yếu"
+    category: "tên gọi - khái niệm ẩn dụ"
+    status: "pending"
+    rationale: "Giữ nguyên 'Being X' theo canon/glossary-pending.yml; dịch 'Mẹ Tất Yếu' gắn kết tự nhiên với ẩn dụ người mẹ và tính tất yếu trong đối thoại giữa Zettour và Tanya."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000177"
+      - "YS-LN11/Text/chapter004.xhtml/p000180"
+  - source_term: "human resources"
+    proposed_vi: "nguồn nhân lực"
+    alternatives_vi: []
+    category: "thuật ngữ quản trị"
+    status: "pending"
+    rationale: "Khớp với giọng điệu quản trị nhân sự của Tanya và tiền lệ trong sổ pending."
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000167"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000162"
+    choices:
+      - "Xưng hô trong thoại của Zettour với Tanya: xưng 'tôi', gọi 'cô', dùng 'chúng ta' cho hành động chung."
+      - "Giữ ẩn dụ mẫu tính: 'cái đẩy đầy tình mẫu tử của sự tất yếu'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000163"
+    choices:
+      - "Trần thuật nội tâm: quy chiếu 'Zettour và Rudersdorf' là 'Họ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000164"
+    choices:
+      - "Đại từ nội tâm tự quy chiếu của Tanya: 'mình' theo DEC-P01-001; quy chiếu Zettour và Rudersdorf là 'cả hai người họ' / 'cả hai'."
+      - "Thuật ngữ và phủ định: 'sinh vật phi lý tính', giữ cấu trúc 'không khỏi cảm thấy' và tình thái 'có lẽ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000165"
+    choices:
+      - "Đại từ nội tâm: 'mình'; chỉnh 'việc nói lời chiều lòng cấp trên' thành cách diễn đạt khái quát không gắn thêm 'cấp trên'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000166"
+    choices:
+      - "Chức danh trong thoại của Tanya: 'Ngài phó tổng tham mưu trưởng' (quy chiếu Rudersdorf)."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000167"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'Mình', dùng 'chúng ta' khi gắn với 'Đế quốc'; quy chiếu Rudersdorf là 'Ông ta' / 'ông ta'."
+      - "Phủ định đối lập và thuật ngữ: 'chưa bao giờ nằm ở năng lực hoạch định chiến lược mà là ở tính khí của ông ta', 'nguồn nhân lực'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000168"
+    choices:
+      - "Đại từ nội tâm: 'chúng ta', quy chiếu Rudersdorf là 'ông ta', giữ dấu chấm lửng cuối câu."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000169"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya với Zettour: xưng 'tôi', gọi Rudersdorf một cách lịch sự là 'Ông ấy', giữ nguyên 'Heimat'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000170"
+    choices:
+      - "Đại từ nội tâm: 'mình', danh xưng 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000171"
+    choices:
+      - "Xưng hô và quân hàm trong thoại của Zettour với Tanya: gọi 'Trung tá', 'cô', xưng 'tôi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000172"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: 'ngài', 'thưa ngài'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000173"
+    choices:
+      - "Thoại của Zettour: giữ tiếng cười 'Ha-ha-ha-ha' và cụm 'người mẹ của chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000174"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'mình', quy chiếu Zettour là 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000175"
+    choices:
+      - "Thoại hỏi lại của Tanya với Zettour: 'Người mẹ của chúng ta ạ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000176"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'mình', quy chiếu 'Tướng Zettour' là 'ông ấy'; giữ cụm 'sinh vật xã hội'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000177"
+    choices:
+      - "Ẩn dụ và đại từ trong thoại của Zettour: 'Mẹ Tất Yếu', quy chiếu bằng 'bà' / 'bà ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000178"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'mình', quy chiếu Zettour là 'Ông ấy' / 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000179"
+    choices:
+      - "Thoại của Zettour với Tanya: quy chiếu Mẹ Tất Yếu là 'Bà ấy', gọi Tanya là 'Cô', giữ câu hỏi phủ định 'Cô không đồng ý sao?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000180"
+    choices:
+      - "Tên gọi và đại từ nội tâm: giữ 'Being X', 'Mẹ Tất Yếu' ('bà ấy'), 'Tướng Zettour' ('ông ấy')."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000181"
+    choices:
+      - "Xưng hô trong thoại của Tanya với Zettour: gọi Zettour là 'ngài', quy chiếu Mẹ Tất Yếu là 'bà ấy', có 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000182"
+    choices:
+      - "Xưng hô trong thoại của Zettour với Tanya: xưng 'tôi', gọi 'Cô', giữ phủ định 'không cần phải tâng bốc tôi đâu'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000183"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'Mình' / 'mình', gọi Zettour là 'cấp trên của mình'; bỏ cụm dư 'về phía ông ấy' theo khuyến nghị."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000184"
+    choices:
+      - "Độc thoại nội tâm của Tanya: quy chiếu Zettour là 'Ông ấy', giữ hai câu hỏi liên tiếp và câu giả định cuối đoạn."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000185"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Zettour: 'chúng ta', 'Tôi', 'Rudersdorf', 'đế đô'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000186"
+    choices:
+      - "Xưng hô và thuật ngữ trong thoại của Tanya: 'Chúng ta', 'quân cảnh', kết câu hỏi bằng 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000187"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'Mình', quy chiếu 'Tướng Zettour' / 'con quái vật này' là 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000188"
+    choices:
+      - "Xưng hô trong thoại của Zettour: xưng 'Tôi' / 'tôi', dùng đại từ phản thân 'mình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000189"
+    choices:
+      - "Đại từ nội tâm và tổ chức: tự quy chiếu 'mình', quy chiếu Zettour là 'Ông ấy' / 'ông ấy', giữ 'Văn phòng Bộ Tổng tham mưu'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000190"
+    choices:
+      - "Đại từ nội tâm: tự quy chiếu 'mình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000191"
+    choices:
+      - "Xưng hô và địa danh trong thoại của Tanya với Zettour: xưng 'tôi', gọi 'Ngài', 'mặt trận phía đông', có 'ạ'; đổi 'rời bỏ' thành 'rời khỏi' hoặc 'chia tay với'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000192"
+    choices:
+      - "Thoại xác nhận ngắn của Zettour: 'Đúng vậy.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000193"
+    choices:
+      - "Xưng hô và địa danh trong câu hỏi của Tanya: 'chúng ta', 'ở miền đông', kết câu bằng 'không ạ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000194"
+    choices:
+      - "Đại từ nội tâm: 'chúng ta', quy chiếu 'Tướng Zettour' / 'người đàn ông này' là 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000195"
+    choices:
+      - "Giữ tính giả định trong nhận định nội tâm: 'Một sự thay đổi ở cấp chỉ huy sẽ đủ để đưa cuộc chiến này đến hồi kết tất yếu của nó.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000196"
+    choices:
+      - "Chủ thể phát ngôn và dấu câu: lời của Zettour nói tiếp sang đoạn p000197 (xưng 'Tôi', dùng 'chúng ta', giữ nguyên việc không đóng ngoặc kép ở cuối đoạn p000196)."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000197"
+    choices:
+      - "Xưng hô và chức danh trong phần thoại tiếp nối của Zettour với Tanya: xưng 'Tôi' / 'tôi', gọi 'cô', dùng 'sĩ quan tham mưu cao cấp'."
+      - "Nhấn mạnh Markdown: toàn bộ 36 đoạn từ p000162 đến p000197 không có thẻ nhấn mạnh trong XHTML gốc nên không dùng *...* trong bản dịch theo DEC-P01-002."
