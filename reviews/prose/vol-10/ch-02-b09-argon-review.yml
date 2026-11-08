@@ -1,0 +1,279 @@
+task_id: "vol-10-ch-02-b09-argon-review"
+parent_task_id: "vol-10-ch-02-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b09-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b09.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b09-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000268"
+    severity: "minor"
+    issue: "Ở câu thứ ba, cách đặt danh từ 'bậc thầy' trực tiếp sau phó từ tiếp diễn ('Ông đang bậc thầy nhường lại từng tấc đất') hơi gượng về mặt cú pháp tiếng Việt dù vẫn hiểu được nghĩa khen ngợi tài nghệ điều binh."
+    basis: "Đối chiếu cấu trúc trạng ngữ chỉ cách thức trong câu thứ ba của p000268."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc diễn đạt tự nhiên hơn như 'Ông đang nhường lại từng tấc đất một cách đầy điêu luyện' hoặc 'Với tay nghề bậc thầy, ông đang nhường lại từng tấc đất'; không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000270"
+    severity: "minor"
+    issue: "Chủ từ ngôi thứ hai trong câu thứ hai mang nghĩa khái quát (bất kỳ người lập kế hoạch nào, và thực chất đang ám chỉ chính kế hoạch của Zettour); vế đầu đã lược chủ từ khái quát nhưng vế cuối lại dịch thành 'cho đến khi cô thực sự hiện thực hóa được nó', làm câu nói hơi nghiêng sang việc giao cho Tanya thực hiện."
+    basis: "Đối chiếu ngữ cảnh đối thoại giữa Zettour và Tanya từ p000268 đến p000271."
+    recommendation: "Polisher có thể cân nhắc đổi 'cô' thành đại từ khái quát 'ta' / 'người ta' hoặc lược đại từ tương ứng với vế đầu để câu châm ngôn quân sự tự nhiên hơn; không làm sai mạch chính."
+pending_term_recommendations:
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng xuyên suốt vol-09 và vol-10 trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000251"
+  - source_term: "deputy director"
+    proposed_vi: "ngài cục phó"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'the deputy director -> Ngài Cục phó' và 'deputy director’s office -> văn phòng cục phó' trong pending-terms-index.yml của vol-10."
+    alternatives_vi:
+      - "vị cục phó"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000251"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm - xưng hô"
+    status: "pending"
+    rationale: "Phản ánh chính xác cấp bậc Trung tá (Lieutenant Colonel) của Tanya theo quy ước đã khóa ở các batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000253"
+      - "YS-LN10/Text/chapter008.xhtml/p000258"
+      - "YS-LN10/Text/chapter008.xhtml/p000263"
+      - "YS-LN10/Text/chapter008.xhtml/p000270"
+      - "YS-LN10/Text/chapter008.xhtml/p000275"
+      - "YS-LN10/Text/chapter008.xhtml/p000280"
+  - source_term: "Lieutenant General Zettour / General Zettour / Zettour"
+    proposed_vi: "Trung tướng Zettour / Tướng Zettour / Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Trung tướng của Zettour ở thời điểm tháng 7 năm 1927 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000255"
+      - "YS-LN10/Text/chapter008.xhtml/p000268"
+      - "YS-LN10/Text/chapter008.xhtml/p000283"
+      - "YS-LN10/Text/chapter008.xhtml/p000285"
+  - source_term: "salient"
+    proposed_vi: "mũi lồi"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự chuẩn xác chỉ phần chiến tuyến nhô sâu vào khu vực đối phương, được dùng nhất quán trong chương."
+    alternatives_vi:
+      - "khu vực lồi"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000257"
+      - "YS-LN10/Text/chapter008.xhtml/p000260"
+      - "YS-LN10/Text/chapter008.xhtml/p000262"
+      - "YS-LN10/Text/chapter008.xhtml/p000284"
+  - source_term: "field army"
+    proposed_vi: "đạo quân dã chiến"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'enemy field army -> đạo quân dã chiến của địch' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "tập đoàn quân dã chiến"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000268"
+  - source_term: "Russy empire"
+    proposed_vi: "đế quốc Russy"
+    category: "địa danh - lịch sử"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng Russy và cách dịch trung tính chỉ tiền thân lịch sử của Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000272"
+  - source_term: "Staff officers"
+    proposed_vi: "Các sĩ quan tham mưu"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án tạm 'staff officer -> sĩ quan tham mưu' trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000277"
+  - source_term: "revolving door operation / Rhine front"
+    proposed_vi: "chiến dịch cánh cửa xoay / mặt trận Rhine"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ đúng hình ảnh ẩn dụ quân sự của chiến dịch bao vây trên mặt trận Rhine ở các tập trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000281"
+  - source_term: "pincer movement / local superiority"
+    proposed_vi: "đòn hợp điểm gọng kìm / ưu thế cục bộ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ chiến thuật tiêu chuẩn mô tả đòn tiến công hai cánh khép vây phần gốc mũi lồi để tạo ưu thế binh lực tại điểm quyết định."
+    alternatives_vi:
+      - "đòn gọng kìm / ưu thế tại chỗ"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000284"
+  - source_term: "magic lieutenant colonel"
+    proposed_vi: "trung tá pháp sư"
+    category: "quân hàm - binh chủng"
+    status: "pending"
+    rationale: "Khớp với mục 'Lieutenant Colonel Tanya von Degurechaff / magic lieutenant colonel -> Trung tá Tanya von Degurechaff / Trung tá Pháp sư' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "trung tá ma pháp"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000286"
+      - "YS-LN10/Text/chapter008.xhtml/p000289"
+  - source_term: "war college"
+    proposed_vi: "trường đại học quân sự"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'war college -> trường đại học quân sự' trong pending-terms-index.yml."
+    alternatives_vi:
+      - "học viện chiến tranh"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000287"
+  - source_term: "strategic ambush"
+    proposed_vi: "đòn phục kích chiến lược"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chính xác bản chất cái bẫy cấp chiến lược mà Zettour giăng ra trên bản đồ."
+    alternatives_vi:
+      - "cuộc phục kích chiến lược"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000289"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000248"
+    locks:
+      - "Khóa câu hỏi ngắn của Zettour dành cho Tanya với đại từ 'Cô'; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000249"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('Tanya', 'cấp trên') và sắc thái khen ngợi chân thành."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000250"
+    locks:
+      - "Khóa lời thoại của Tanya ca ngợi kế hoạch là 'nghệ thuật' và cách xưng hô kính trọng 'thưa Tướng quân'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000251"
+    locks:
+      - "Khóa điểm nhìn độc thoại nội tâm của Tanya, phủ định tuyệt đối ('Chẳng một ai khác...'), thuật ngữ 'Lục quân Đế quốc' và danh xưng 'ngài cục phó'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000252"
+    locks:
+      - "Khóa nhận định nội tâm của Tanya về nguyên tắc đãi ngộ tương xứng cho tài năng và công sức lao động."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000253"
+    locks:
+      - "Khóa cặp đại từ thoại của Zettour ('Tôi' - 'cô') và cách gọi cấp bậc 'Trung tá'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000254"
+    locks:
+      - "Khóa đại từ tự xưng 'Tôi' của Tanya trong thoại, phủ định về năng khiếu thẩm mỹ ('chẳng mấy tự tin'), phép đối lập giữa 'vận động tay chân' với 'múa cọ vẽ', và sự tán thưởng bố cục được dàn dựng công phu."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000255"
+    locks:
+      - "Khóa thuật ngữ 'sĩ quan cao cấp', hình ảnh ẩn dụ hài hước ('dùng cái đầu... ngoài làm giá treo mũ'), tên gọi 'Tanya' và quân hàm 'Trung tướng Zettour'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000256"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'mình' theo DEC-P01-001, đối lập hai cách định danh ('vấn đề ngữ nghĩa'), và mong muốn giữ quan hệ tốt với Zettour ngay cả khi chuyển nghề."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000257"
+    locks:
+      - "Khóa câu hỏi của Tanya với đại từ 'Ngài', cách gọi 'thưa Tướng quân' và thuật ngữ 'mũi lồi'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000258"
+    locks:
+      - "Khóa câu hỏi vặn lại của Zettour với đại từ 'cô' và cấp bậc 'Trung tá'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000259"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('ông', 'Tanya') và thái độ trả lời không do dự."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000260"
+    locks:
+      - "Khóa thuật ngữ 'Mũi lồi' và nhấn mạnh Markdown theo DEC-P01-002 tại '*đắc địa*'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000261"
+    locks:
+      - "Khóa chỉ dẫn nhìn vào bản đồ của Zettour, đại từ 'chúng ta'/'ta' và chi tiết lỗ hổng trên phòng tuyến nơi không đủ binh lực chống trả quân địch."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000262"
+    locks:
+      - "Khóa lập luận của Tanya phân biệt vẻ hợp lý bề ngoài của 'mũi lồi' với tính chất 'được tạo dựng có chủ đích', đại từ 'Tôi'/'tôi' - 'ngài', cách gọi 'thưa Tướng quân' và ẩn dụ 'đi săn' / 'cái bẫy'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000263"
+    locks:
+      - "Khóa lời khen ngắn của Zettour và cách gọi 'Trung tá'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000264"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('Tanya', 'cô') và nhận xét về khoảnh khắc hiếm hoi Tanya cư xử đúng với lứa tuổi."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000265"
+    locks:
+      - "Khóa câu hỏi xác nhận lại của Tanya với đại từ 'tôi' và cách gọi 'thưa Tướng quân'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000266"
+    locks:
+      - "Khóa lời xác nhận của Zettour ('tôi') về việc nhử quân địch vào bẫy và công sức đã bỏ ra."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000267"
+    locks:
+      - "Khóa lời tán dương của Tanya về việc vừa nhử địch vừa rút lui có tổ chức kỹ lưỡng và cách gọi 'thưa Tướng quân'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000268"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', thuật ngữ 'đạo quân dã chiến', mục tiêu nhường đất nhử địch để tiêu diệt hoàn toàn và giả định tương lai ('Nếu kế hoạch này thành công...')."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000269"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'mình' theo DEC-P01-001 và đại từ 'ông ấy' chỉ Zettour."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000270"
+    locks:
+      - "Khóa lời nhắc thận trọng của Zettour với cách gọi 'Trung tá' và ý kế hoạch chỉ là nét vẽ trên giấy cho đến khi thực hiện thành công."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000271"
+    locks:
+      - "Khóa câu hỏi phản biện lịch sự của Tanya với 'thưa Tướng quân' và đại từ 'ngài'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000272"
+    locks:
+      - "Khóa tên gọi 'đế quốc Russy', ẩn dụ 'múa ba lê' / 'khiêu vũ' và cách Zettour tự ví mình là 'bộ xương già này'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000273"
+    locks:
+      - "Khóa câu hỏi nội tâm mở đầu và sự chuyển tiếp sang đại từ nội tâm 'Mình' theo DEC-P01-001 cùng mức độ tình thái ('không thể bác bỏ hoàn toàn... nhưng xem chừng điều ấy rất khó xảy ra')."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000274"
+    locks:
+      - "Khóa ý bổ sung trong độc thoại nội tâm về việc luôn tồn tại một xác suất nhất định."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000275"
+    locks:
+      - "Khóa câu hỏi kiểm tra của Zettour với đại từ 'cô', 'chúng' (quân địch) và cấp bậc 'Trung tá'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000276"
+    locks:
+      - "Khóa lời xin thêm thời gian suy nghĩ của Tanya với đại từ 'tôi' và 'thưa Tướng quân'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000277"
+    locks:
+      - "Khóa thuật ngữ 'Các sĩ quan tham mưu' và chuỗi ba hành động đấu trí, tính kế, cơ động trên cơ kẻ địch."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000278"
+    locks:
+      - "Khóa câu trần thuật ngắn mô tả cử chỉ lắc đầu của Tanya."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000279"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001 và phủ định tuyệt đối ('chẳng có lấy một manh mối nào về câu trả lời đúng')."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000280"
+    locks:
+      - "Khóa lời giục hết giờ của Zettour với cấp bậc 'Trung tá' và cặp đại từ 'Tôi' - 'cô'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000281"
+    locks:
+      - "Khóa lựa chọn 'phương án quyết liệt' của Tanya, đại từ 'tôi' - 'chúng ta'/'ta' - 'chúng', thuật ngữ 'chiến dịch cánh cửa xoay', 'mặt trận Rhine' và mục tiêu 'bao vây chúng'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000282"
+    locks:
+      - "Khóa câu hỏi của Zettour về cách thức thực hiện với đại từ 'Cô'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000283"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba ('Tanya', 'Trung tướng Zettour', 'của ông')."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000284"
+    locks:
+      - "Khóa các thuật ngữ chiến thuật trong câu trả lời của Tanya: 'đòn hợp điểm gọng kìm', 'phần gốc của mũi lồi', 'cách tiếp cận chuẩn sách giáo khoa', 'khép chặt vòng vây' và 'ưu thế cục bộ'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000285"
+    locks:
+      - "Khóa sự chuyển dịch điểm nhìn trần thuật sang góc nhìn của Zettour ('Zettour', 'cô') và phép so sánh niềm vui của người thợ săn khi ngắm bắn con hươu đực lớn."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000286"
+    locks:
+      - "Khóa điểm nhìn của Zettour ('Ông' - 'cô'), danh xưng 'vị trung tá pháp sư', 'sĩ quan cao cấp' và niềm đắc ý khi đánh lừa được người hiểu rõ lối hoạch định của mình."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000287"
+    locks:
+      - "Khóa giả định quá khứ ('Tôi hẳn đã chấm...'), nhấn mạnh Markdown theo DEC-P01-002 tại '*đúng*', và thuật ngữ 'trường đại học quân sự'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000288"
+    locks:
+      - "Khóa câu thốt ngắn ngỡ ngàng nhưng vẫn giữ lễ tiết cấp dưới của Tanya ('Sao cơ ạ?')."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000289"
+    locks:
+      - "Khóa điểm nhìn trần thuật từ phía Zettour ('ông' - 'cô'), thuật ngữ 'Đòn phục kích chiến lược', tên 'Degurechaff', cụm 'một trong những trung tá pháp sư vĩ đại nhất lịch sử' và cảm giác thỏa mãn khép lại phân cảnh."
