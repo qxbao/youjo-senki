@@ -1,0 +1,257 @@
+task_id: "vol-10-ch-02-b15-argon-review"
+parent_task_id: "vol-10-ch-02-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b15-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b15.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b15-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000156"
+    severity: "minor"
+    issue: "Cụm 'cùng màu với tâm địa của mình' dùng đại từ phản thân 'mình' để quy chiếu về chủ ngữ ngôi thứ ba 'ông ta' (Zettour) trong đoạn trần thuật theo điểm nhìn của Drake, dễ gây thoáng nhầm với đại từ nội tâm tự quy chiếu."
+    basis: "Đối chiếu quy ước phân biệt đại từ trần thuật và nội tâm trong DEC-P01-001 cùng nguyên tắc diễn đạt rõ ràng trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'cùng màu với tâm địa của ông ta' hoặc 'cùng màu với tâm địa ông ta'; không làm sai nghĩa câu nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000172"
+    severity: "minor"
+    issue: "Cụm 'tự làm lành với chuyện đó' hơi bám sát chữ nghĩa bề mặt của thành ngữ gốc khi diễn đạt thái độ chấp nhận/thỏa hiệp với một việc không mấy dễ chịu."
+    basis: "Đối chiếu nguyên tắc viết tiếng Việt tự nhiên, tránh bám máy móc cấu trúc tiếng Anh trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'anh vẫn chấp nhận thỏa hiệp với chuyện đó' hoặc 'anh vẫn tự trấn an mình trước chuyện đó'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "the Federation / Federation Army / the Commonwealth / Federation-Commonwealth alliance"
+    proposed_vi: "Liên bang / Quân đội Liên bang / Khối Thịnh vượng chung / liên minh Liên bang – Khối Thịnh vượng chung"
+    category: "quốc gia - quân đội - liên minh"
+    status: "pending"
+    rationale: "Khớp chính xác và nhất quán với các mục 'the Federation -> Liên bang', 'Federation Army -> Quân đội Liên bang' và 'the Commonwealth -> Khối Thịnh vượng chung' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000153"
+      - "YS-LN10/Text/chapter010.xhtml/p000155"
+      - "YS-LN10/Text/chapter010.xhtml/p000156"
+      - "YS-LN10/Text/chapter010.xhtml/p000158"
+      - "YS-LN10/Text/chapter010.xhtml/p000159"
+      - "YS-LN10/Text/chapter010.xhtml/p000165"
+      - "YS-LN10/Text/chapter010.xhtml/p000167"
+      - "YS-LN10/Text/chapter010.xhtml/p000169"
+      - "YS-LN10/Text/chapter010.xhtml/p000171"
+      - "YS-LN10/Text/chapter010.xhtml/p000177"
+      - "YS-LN10/Text/chapter010.xhtml/p000178"
+  - source_term: "political officer / political officer corps"
+    proposed_vi: "sĩ quan chính trị / đội ngũ sĩ quan chính trị"
+    category: "chức danh - tổ chức quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn xác trong ngữ cảnh chế độ chính ủy/sĩ quan chính trị của Quân đội Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000154"
+      - "YS-LN10/Text/chapter010.xhtml/p000177"
+  - source_term: "Colonel Mikel"
+    proposed_vi: "Đại tá Mikel"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc 'Colonel -> Đại tá' và tên riêng 'Mikel' của sĩ quan chỉ huy phía Liên bang."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000154"
+      - "YS-LN10/Text/chapter010.xhtml/p000177"
+  - source_term: "Imperial Army / imperial officers / imperial counteroffensive"
+    proposed_vi: "Lục quân Đế quốc / các sĩ quan Đế quốc / cuộc phản công của Đế quốc"
+    category: "quân đội - quốc gia"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục 'Imperial Army -> Lục quân Đế quốc' và 'the Empire -> Đế quốc' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000154"
+      - "YS-LN10/Text/chapter010.xhtml/p000156"
+      - "YS-LN10/Text/chapter010.xhtml/p000169"
+      - "YS-LN10/Text/chapter010.xhtml/p000176"
+      - "YS-LN10/Text/chapter010.xhtml/p000178"
+  - source_term: "Commissariat for Internal Affairs / internal affairs office"
+    proposed_vi: "Bộ Dân ủy Nội vụ / cơ quan nội vụ"
+    category: "cơ quan nhà nước - tình báo"
+    status: "pending"
+    rationale: "Phản ánh chuẩn xác định danh cơ quan an ninh nội vụ của Liên bang theo mô hình lịch sử tương ứng."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000155"
+      - "YS-LN10/Text/chapter010.xhtml/p000158"
+      - "YS-LN10/Text/chapter010.xhtml/p000163"
+  - source_term: "Lieutenant General Zettour / Zettour"
+    proposed_vi: "Trung tướng Zettour / Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Lieutenant General Zettour -> Trung tướng Zettour' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000156"
+      - "YS-LN10/Text/chapter010.xhtml/p000157"
+      - "YS-LN10/Text/chapter010.xhtml/p000178"
+  - source_term: "Lieutenant Colonel Drake / Drake"
+    proposed_vi: "Trung tá Drake / Drake"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Lieutenant Colonel Drake -> Trung tá Drake' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000156"
+      - "YS-LN10/Text/chapter010.xhtml/p000157"
+      - "YS-LN10/Text/chapter010.xhtml/p000158"
+      - "YS-LN10/Text/chapter010.xhtml/p000161"
+      - "YS-LN10/Text/chapter010.xhtml/p000170"
+      - "YS-LN10/Text/chapter010.xhtml/p000175"
+      - "YS-LN10/Text/chapter010.xhtml/p000176"
+      - "YS-LN10/Text/chapter010.xhtml/p000177"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Devil of the Rhine -> Ác quỷ sông Rhine' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000157"
+      - "YS-LN10/Text/chapter010.xhtml/p000158"
+  - source_term: "God"
+    proposed_vi: "Chúa"
+    category: "tôn giáo"
+    status: "pending"
+    rationale: "Khớp với mục 'God / the Lord -> Thượng đế / Chúa' trong work/run-state/pending-terms-index.yml và tự nhiên trong câu cảm thán của Drake."
+    alternatives_vi:
+      - "Thượng đế"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000166"
+  - source_term: "multinational volunteer unit / multinational unit"
+    proposed_vi: "đơn vị tình nguyện đa quốc gia / đơn vị đa quốc gia"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'multinational volunteer unit / multinational unit -> đơn vị tình nguyện đa quốc gia / đơn vị đa quốc gia' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000171"
+      - "YS-LN10/Text/chapter010.xhtml/p000176"
+  - source_term: "press corps"
+    proposed_vi: "đoàn phóng viên"
+    category: "báo chí - truyền thông"
+    status: "pending"
+    rationale: "Thuật ngữ tự nhiên, chỉ nhóm phóng viên báo chí quốc tế đi theo đưa tin."
+    alternatives_vi:
+      - "giới báo chí"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000171"
+  - source_term: "the Communists"
+    proposed_vi: "những người Cộng sản"
+    category: "chính trị - ý thức hệ"
+    status: "pending"
+    rationale: "Khớp nhất quán với mục 'Communism -> Chủ nghĩa Cộng sản' và sắc thái trung tính hơn trong câu trần thuật về việc chụp ảnh ngoại giao."
+    alternatives_vi:
+      - "phe Cộng sản"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000172"
+  - source_term: "First Lieutenant Sue"
+    proposed_vi: "Trung úy Sue"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc 'First Lieutenant -> Trung úy' và họ nhân vật 'Sue' (Mary Sue)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000175"
+  - source_term: "Andrew"
+    proposed_vi: "Andrew"
+    category: "nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng của người bạn nhà báo của Drake."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000175"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000152"
+    locks:
+      - "Khóa nhận định khái quát mở đầu về thôi thúc bản năng của các sĩ quan luôn suy tính động tĩnh kẻ địch dù lúc ngủ hay lúc thức."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000153"
+    locks:
+      - "Khóa đại từ tự nhủ ngôi thứ nhất 'Mình', tên 'Liên bang' và sắc thái cảm thán trước tầm vươn của Liên bang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000154"
+    locks:
+      - "Khóa thuật ngữ 'sĩ quan chính trị', danh xưng 'Đại tá Mikel', đại từ 'anh' (chỉ Drake), tên 'Lục quân Đế quốc' và chi tiết tập hồ sơ tuyệt mật được dịch thuật tỉ mỉ."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000155"
+    locks:
+      - "Khóa tên cơ quan 'Bộ Dân ủy Nội vụ của Liên bang', đại từ 'anh' và sự đối lập giữa tiếng xấu của cơ quan này với giá trị không thể nghi ngờ của tập tài liệu."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000156"
+    locks:
+      - "Khóa danh xưng 'Trung tướng Zettour', đại từ 'ông ta' (chỉ Zettour từ góc nhìn của Drake), định danh 'Drake', tên 'Liên bang', chi tiết liệt kê nhãn hiệu xì gà và trà, cùng nét châm biếm Zettour thích cà phê đen giống như tâm địa của ông ta."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000157"
+    locks:
+      - "Khóa câu hỏi nội tâm mở đầu, định danh 'Drake' - 'Zettour', biệt danh 'Ác quỷ sông Rhine' và thông tin trong báo cáo rằng hai người có quan hệ thân thiết."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000158"
+    locks:
+      - "Khóa tên 'Bộ Dân ủy Nội vụ của Liên bang', biệt danh 'Ác quỷ sông Rhine', định danh 'Drake', đại từ 'anh', vị trí nhấn mạnh Markdown duy nhất '*cũng*' theo DEC-P01-002 (không nhấn mạnh thẻ neo trang) và câu hỏi hài hước về sức mạnh gắn kết của thức uống."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000159"
+    locks:
+      - "Khóa đại từ 'anh', tên 'Liên bang' và tâm lý vừa thấy hơi tham lam vừa tự nhiên thắc mắc cách Liên bang thu thập được thông tin."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000160"
+    locks:
+      - "Khóa lời tự nhủ ngôi thứ nhất với đại từ 'Mình' thể hiện sự tò mò muốn biết thêm."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000161"
+    locks:
+      - "Khóa định danh 'Drake', đại từ 'anh' và sự tương phản giữa lời thì thầm vang khắp căn lều với nhận thức rằng thông tin đó nằm ngoài tầm với rất xa."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000162"
+    locks:
+      - "Khóa nhận định khẳng định cấp so sánh nhất ('Nguồn tin của họ là bí mật được canh giữ nghiêm ngặt nhất')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000163"
+    locks:
+      - "Khóa cụm 'cơ quan nội vụ', đại từ 'anh', cấu trúc tăng tiến phủ định ('ngay trong cơ quan nội vụ cũng chẳng mấy ai biết, huống hồ là các đồng minh nước ngoài của họ'), giả định phủ định ('kể cả khi anh có cơ hội hỏi tới') và hệ quả làm sứt mẻ mối quan hệ vốn đã mong manh."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000164"
+    locks:
+      - "Khóa lời tự nhủ với đại từ 'mình', thành ngữ 'trong tình yêu và chiến tranh thì không từ thủ đoạn nào' và quyết định không chõ mũi vào chuyện này."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000165"
+    locks:
+      - "Khóa đại từ 'anh', hai vị trí nhấn mạnh Markdown theo DEC-P01-002 ('*Liên bang*', '*Khối Thịnh vượng chung*') và chi tiết cung cấp thông tin trước cả khi anh kịp yêu cầu."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000166"
+    locks:
+      - "Khóa lời tự nhủ của Drake với danh xưng 'Chúa', đại từ 'Mình' và câu chơi chữ 'chỉ có điều bất khả thi mới là bất khả thi mà thôi'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000167"
+    locks:
+      - "Khóa tình thái phỏng đoán ('Có lẽ'), tên 'Liên bang' và sắc thái 'về mặt danh nghĩa thì họ là đồng minh'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000168"
+    locks:
+      - "Khóa nhận định tích cực về tín hiệu đáng mừng cho tương lai."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000169"
+    locks:
+      - "Khóa tên 'Lục quân Đế quốc', 'Liên bang', đại từ 'anh' và tâm thế hiếm hoi lắm mới cảm thấy biết ơn Liên bang vì muốn tung đòn phản kích kẻ địch."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000170"
+    locks:
+      - "Khóa định danh 'Drake', đại từ 'Anh' và quan hệ nhân quả thúc đẩy Drake nuốt nỗi khổ vào lòng để bắt đầu huy động những người sẵn sàng chiến đấu."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000171"
+    locks:
+      - "Khóa đại từ 'anh', các thuật ngữ 'đơn vị đa quốc gia', 'đoàn phóng viên', 'Quân đội Liên bang' và hành động dựng màn trình diễn ca ngợi sự hợp tác trước báo giới quốc tế."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000172"
+    locks:
+      - "Khóa đại từ 'Anh', cụm 'những người Cộng sản' và thái độ miễn cưỡng nhưng chấp nhận việc ảnh bắt tay bị đăng tràn lan trên báo quốc tế như một phần công việc."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000173"
+    locks:
+      - "Khóa đại từ 'Anh' và hành động tự ép mình bắt tay và mỉm cười; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000174"
+    locks:
+      - "Khóa đại từ 'anh' và kết quả làm hài lòng đất nước mình."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000175"
+    locks:
+      - "Khóa định danh 'Drake', 'Trung úy Sue', 'Andrew', đại từ 'anh', vị trí nhấn mạnh Markdown '*háo hức chụp ảnh đến thế cơ mà*' theo DEC-P01-002, câu hỏi tu từ xem nhẹ lời càu nhàu của cô bé không hiểu chính trị và hành động trút bực dọc lên người bạn nhà báo."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000176"
+    locks:
+      - "Khóa danh xưng 'Trung tá Drake', đại từ 'anh', thuật ngữ 'Đơn vị tình nguyện đa quốc gia', tên 'Đế quốc' và mục tiêu đón đầu cuộc phản công nhằm làm nhụt bước tiến về phía tây."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000177"
+    locks:
+      - "Khóa danh xưng 'Đại tá Mikel', 'Trung tá Drake', cụm 'liên minh Liên bang – Khối Thịnh vượng chung', 'Phía Khối Thịnh vượng chung' và 'đội ngũ sĩ quan chính trị'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000178"
+    locks:
+      - "Khóa các định danh 'Quân đội Liên bang', 'Lục quân Đế quốc', 'Trung tướng Zettour', 'Liên bang', đại từ 'anh' và nội dung kế hoạch nhử địch ra trước khi bao vây tiêu diệt hoàn toàn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000179"
+    locks:
+      - "Khóa đại từ 'anh', hình ảnh so sánh thông tin gần như hoàn hảo 'giống hệt một trò ảo thuật đã bị vạch trần' và sự hào hứng chuẩn bị cho kẻ địch nếm mùi thất bại cay đắng."
