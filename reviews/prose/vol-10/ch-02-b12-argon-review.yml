@@ -1,0 +1,219 @@
+task_id: "vol-10-ch-02-b12-argon-review"
+parent_task_id: "vol-10-ch-02-b12"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b12-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b12.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b12-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000070"
+    severity: "minor"
+    issue: "Đại từ sở hữu ngôi thứ nhất số nhiều trong lời đáp của Tanya (nối tiếp lời khen 'Cô và các thuộc cấp của mình' ở p000069 và lặp lại trước cụm 'tinh thần chiến binh bất khuất trên chiến trường') được dịch là 'của chúng ta' (bao gồm cả Zettour), trong khi ở p000073 cùng mạch ý về huấn luyện lại dịch là 'của chúng tôi'."
+    basis: "Đối chiếu mạch quy chiếu đại từ giữa p000069, p000070 và p000073."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'của chúng ta' thành 'của chúng tôi' để đồng nhất quy chiếu về Tanya và thuộc cấp với p000073; không làm sai lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000081"
+    severity: "minor"
+    issue: "Ở câu đầu, cách diễn đạt 'nói toẹt ra' mang sắc thái khẩu ngữ hơi suồng sã so với giọng điềm đạm, dò hỏi của Trung tướng Zettour vừa được mô tả ở p000078."
+    basis: "Đối chiếu giọng nhân vật Zettour ở p000078, p000081 và hướng dẫn giữ giọng thoại nhất quán trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc làm dịu thành 'nói thẳng ra' hoặc 'vạch rõ ra cho cô' để hợp với phong thái tướng lĩnh của Zettour hơn."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Degurechaff / Lieutenant Colonel / the lieutenant colonel / Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá Degurechaff / Trung tá / vị trung tá / Trung tá"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Tanya trong trần thuật và cách gọi rút gọn 'Colonel -> Trung tá' trong lời thoại của Zettour theo quy ước đã khóa ở các batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000059"
+      - "YS-LN10/Text/chapter010.xhtml/p000065"
+      - "YS-LN10/Text/chapter010.xhtml/p000069"
+      - "YS-LN10/Text/chapter010.xhtml/p000081"
+      - "YS-LN10/Text/chapter010.xhtml/p000085"
+      - "YS-LN10/Text/chapter010.xhtml/p000087"
+      - "YS-LN10/Text/chapter010.xhtml/p000093"
+  - source_term: "Lieutenant General Zettour / the lieutenant general / Zettour / sir (addressing Lieutenant General Zettour)"
+    proposed_vi: "Trung tướng Zettour / vị trung tướng / Zettour / thưa Tướng quân"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Khớp nhất quán với mục 'Lieutenant General Zettour -> Trung tướng Zettour' và cách Tanya xưng hô 'sir -> thưa Tướng quân' đã khóa xuyên suốt chương."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000060"
+      - "YS-LN10/Text/chapter010.xhtml/p000061"
+      - "YS-LN10/Text/chapter010.xhtml/p000067"
+      - "YS-LN10/Text/chapter010.xhtml/p000077"
+      - "YS-LN10/Text/chapter010.xhtml/p000078"
+      - "YS-LN10/Text/chapter010.xhtml/p000086"
+      - "YS-LN10/Text/chapter010.xhtml/p000089"
+      - "YS-LN10/Text/chapter010.xhtml/p000094"
+      - "YS-LN10/Text/chapter010.xhtml/p000095"
+  - source_term: "Silver Wings Assault Badge"
+    proposed_vi: "Huy hiệu Xung kích Cánh Bạc"
+    category: "thuật ngữ quân sự - huân huy chương"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Silver Wings Assault Badge -> Huy hiệu Xung kích Cánh Bạc' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000062"
+  - source_term: "General Assault Badge / war merit medal / special skill badge / distinguished service awards / campaign medals"
+    proposed_vi: "Huy hiệu Xung kích Tổng hợp / huân chương chiến công / huy hiệu kỹ năng đặc biệt / phần thưởng phục vụ xuất sắc / huân chương chiến dịch"
+    category: "thuật ngữ quân sự - huân huy chương"
+    status: "pending"
+    rationale: "Phản ánh chuẩn xác hệ thống huy hiệu và huân chương quân sự Đế quốc mà Tanya liệt kê, phân biệt rõ giữa 'badge' (huy hiệu), 'medal' (huân chương) và 'awards' (phần thưởng)."
+    alternatives_vi:
+      - "Huy hiệu Xung kích Chung / huy chương chiến công / huy hiệu kỹ năng đặc biệt / giải thưởng phục vụ xuất sắc / huy chương chiến dịch"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000062"
+  - source_term: "the 203rd / the Lergen Kampfgruppe / unit citations"
+    proposed_vi: "Tiểu đoàn 203 / Kampfgruppe Lergen / bằng tuyên dương đơn vị"
+    category: "đơn vị quân sự - khen thưởng"
+    status: "pending"
+    rationale: "Khớp với '203rd -> Tiểu đoàn 203' và 'Lergen Kampfgruppe -> Kampfgruppe Lergen' trong pending-terms-index.yml; 'bằng tuyên dương đơn vị' là thuật ngữ quân sự chuẩn xác cho 'unit citations'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000063"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "thuật ngữ quân sự - địa danh"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'eastern front -> mặt trận phía đông' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000091"
+  - source_term: "total war"
+    proposed_vi: "chiến tranh tổng lực"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'total war -> chiến tranh tổng lực' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000093"
+  - source_term: "Rudersdorf"
+    proposed_vi: "Rudersdorf"
+    category: "nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên họ nhân vật theo quy ước xuyên suốt các tập."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000095"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000059"
+    locks:
+      - "Khóa câu hỏi mở đầu của Zettour với danh xưng 'Trung tá Degurechaff', cặp đại từ 'tôi' - 'cô' và cụm 'các huân huy chương của mình'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000060"
+    locks:
+      - "Khóa lời đáp lễ phép của Tanya ('thưa Tướng quân', 'ngài' - 'tôi', 'ạ') và cách dịch 'các phần thưởng vinh danh' cho danh từ chỉ sự vinh danh/khen thưởng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000061"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba ('Vị trung tướng' / 'ông' - 'cô') và trạng thái 'dù vẫn còn bối rối' khi cô trả lời ông."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000062"
+    locks:
+      - "Khóa đại từ 'tôi' và chuỗi danh mục khen thưởng: 'Huy hiệu Xung kích Cánh Bạc', 'Huy hiệu Xung kích Tổng hợp', 'huân chương chiến công', 'huy hiệu kỹ năng đặc biệt', 'phần thưởng phục vụ xuất sắc' và 'huân chương chiến dịch'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000063"
+    locks:
+      - "Khóa câu hỏi xác nhận của Zettour ('Tôi'), tên hai đơn vị 'Tiểu đoàn 203' và 'Kampfgruppe Lergen', cùng thuật ngữ 'bằng tuyên dương đơn vị'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000064"
+    locks:
+      - "Khóa lời khẳng định của Tanya ('Vâng', 'các thuộc cấp của tôi') ca ngợi năng lực làm việc xuất sắc của cấp dưới."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000065"
+    locks:
+      - "Khóa danh xưng 'Vị trung tá', đại từ 'cô' - 'mình', nhận xét về khoảnh khắc bộc lộ đúng lứa tuổi và câu phủ định so sánh với các 'nữ sinh' khoe chiến tích của bạn bè trên chiến trường."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000066"
+    locks:
+      - "Khóa câu cảm thán nội tâm gián tiếp tự do ('họ') về thời đại kỳ lạ đang sống."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000067"
+    locks:
+      - "Khóa điểm nhìn của 'Zettour', hành động nén lại 'một nụ cười chua chát nữa' và suy nghĩ về sự vặn vẹo của thế giới."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000068"
+    locks:
+      - "Khóa cấu trúc khẳng định tuyệt đối ('không có gì ngoài sự tán thưởng và lời khen ngợi') mà 'ông' dành cho 'người lính trẻ đang đứng trước mặt mình'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000069"
+    locks:
+      - "Khóa lời khen của Zettour ('Trung tá ạ', 'Cô và các thuộc cấp của mình'), cụm 'những tinh hoa ưu tú nhất' và khẳng định 'đừng nghi ngờ gì cả: Đó là điều hoàn toàn đáng để tự hào'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000070"
+    locks:
+      - "Khóa lời đáp của Tanya ('Tôi') quy công cho 'nền giáo dục và huấn luyện' cùng 'tinh thần chiến binh bất khuất trên chiến trường'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000071"
+    locks:
+      - "Khóa tình thái phỏng đoán ('Có lẽ cô tự hào là vì cô thực sự có năng lực') và sự đối lập cảm xúc ('thật đáng buồn, dù cũng mang một nét hài hước kỳ lạ')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000072"
+    locks:
+      - "Khóa lời đề nghị thảo luận để tham khảo cho tương lai của Zettour, cặp đại từ 'Cô' - 'mình' / 'của cô' và hai câu hỏi về cốt lõi thành công cùng yếu tố nâng tầm binh lính; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000073"
+    locks:
+      - "Khóa câu trả lời của Tanya ('Tôi', 'chúng tôi', 'Tiểu đoàn của tôi') nhấn mạnh yếu tố huấn luyện cùng 'máu và mồ hôi' đã đổ ra."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000074"
+    locks:
+      - "Khóa cụm danh từ mở đầu 'Thành công và nỗ lực', đại từ 'Ông' - 'cô' và suy đoán những thuộc cấp dưới quyền cô có lẽ cũng sẽ nói y hệt."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000075"
+    locks:
+      - "Khóa đại từ 'Họ' và nhận định việc trải qua những thành công vang dội đã trở thành một phần cốt lõi trong 'bản sắc của họ'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000076"
+    locks:
+      - "Khóa câu cảm thán ngắn gọn 'À… ra là vậy' của Zettour."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000077"
+    locks:
+      - "Khóa câu hỏi ngắn 'Thưa Tướng quân?' của Tanya."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000078"
+    locks:
+      - "Khóa danh xưng đầy đủ 'Trung tướng Zettour' cùng hành động thở dài và cất giọng dò hỏi."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000079"
+    locks:
+      - "Khóa câu mệnh lệnh của Zettour yêu cầu quên đi 'cái ảo tưởng về thành công đó'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000080"
+    locks:
+      - "Khóa phản ứng ngỡ ngàng lễ phép '…Dạ?' của Tanya."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000081"
+    locks:
+      - "Khóa cặp đại từ 'Cô' - 'tôi', cách gọi 'Trung tá ạ', phủ định 'không thể trách cô được' và yêu cầu phải hiểu cảm giác của 'những kẻ bại trận'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000082"
+    locks:
+      - "Khóa cụm 'Vị sĩ quan trẻ tuổi' và chi tiết lộ rõ vẻ bối rối trước lời của 'ông'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000083"
+    locks:
+      - "Khóa nhận định 'Hiếm khi nào cô lại không bắt kịp mạch suy nghĩ của cấp trên' và hai giả thuyết nối tiếp ('Phải chăng là vì cô vẫn còn là một đứa trẻ...' / 'Hay có lẽ vì cô quá đỗi xuất chúng nên đơn giản là không tài nào hiểu nổi những kẻ không được như mình')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000084"
+    locks:
+      - "Khóa hồi tưởng của 'Ông' về lời dặn không được kén chọn thuộc cấp và hy vọng năng lực siêu phàm của 'cô' sẽ không dẫn đến việc dùng những tiêu chuẩn cao không tưởng để đo lường các đồng cấp."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000085"
+    locks:
+      - "Khóa lời dặn 'Hãy nhớ lấy điều này, Trung tá', đại từ 'Chúng ta', phủ định 'chẳng có mấy người đủ khắc kỷ để rèn luyện gian khổ như lính của cô đâu'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000086"
+    locks:
+      - "Khóa lập luận của Tanya về mức độ nguy hiểm của việc huấn luyện không đủ, nét bất bình trong giọng nói, nhận định thời gian chẳng còn nhiều và câu hỏi tu từ kết lại bằng 'thưa Tướng quân?'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000087"
+    locks:
+      - "Khóa tiếng cười 'Ha-ha-ha', giả định quá khứ ('lẽ ra chính là thứ chúng ta cần'), nhấn mạnh Markdown đúng phạm vi theo DEC-P01-002 tại '*trước khi*', cách gọi 'Trung tá' và phủ định 'Đám tân binh hiện tại của chúng ta không nghĩ như vậy đâu'; không dùng nhấn mạnh cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000088"
+    locks:
+      - "Khóa câu hỏi của Tanya về nguyên nhân do sự yếu kém năng lực và quan điểm của 'tôi' rằng những người lính thực thụ phải được trui rèn qua thời gian và huấn luyện, rồi sau đó là qua máu và lửa."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000089"
+    locks:
+      - "Khóa luận điểm đanh thép của 'Zettour' ('Ý chí chiến đấu bắt nguồn trực tiếp từ chiến thắng trên chiến trường'), nhận định 'bất khả thi' đối với một người mà binh lính dưới quyền chưa từng biết thất bại như 'cô', và hệ quả biến cả những người lính ưu tú nhất thành 'những con chó vô dụng' khi phải đánh một cuộc chiến cầm chắc phần thua."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000090"
+    locks:
+      - "Khóa lời thú nhận chưa theo kịp ý cấp trên của Tanya ('Tôi' - 'ngài')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000091"
+    locks:
+      - "Khóa lời bảo 'Cô cứ tự mình nhìn xem' và nhận định 'Tâm lý bi quan về chiến thắng của chúng ta đang âm thầm ám ảnh mặt trận phía đông, ngay cả ở những cấp chỉ huy cao hơn'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000092"
+    locks:
+      - "Khóa nhận xét thẳng thừng của Tanya ('Theo quan điểm của tôi, những kẻ có trí tuệ tầm thường tất yếu sẽ suy nghĩ như vậy')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000093"
+    locks:
+      - "Khóa cách gọi 'Trung tá', cặp đại từ 'Tôi' - 'cô', lời khen nhãn quan về 'chiến tranh tổng lực' không ai sánh kịp, và phân tích việc cô lấy bản thân làm thước đo khách quan cũng như đặt trải nghiệm của chính mình lên trên người khác dù vẫn còn là một đứa trẻ."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000094"
+    locks:
+      - "Khóa câu hỏi nội tâm mở đầu về trải nghiệm bên ngoài chiến trường, điểm nhìn của 'Zettour' ('ông' - 'cô'), sự tự liên hệ bản thân dành phần lớn cuộc đời trong quân ngũ và suy đoán sự từng trải khôn ngoan có được là nhờ tuổi tác."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000095"
+    locks:
+      - "Khóa sự phân biệt đại từ rõ ràng giữa Zettour ('ông') và 'Rudersdorf' ('gã ngốc Rudersdorf', 'Ông ta'), phủ định 'sự khôn ngoan chẳng phải là vấn đề tuổi tác' và câu tự hỏi cuối đoạn về mức độ gian truân đã nếm trải."
