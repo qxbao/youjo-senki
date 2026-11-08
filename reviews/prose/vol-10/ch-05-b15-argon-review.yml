@@ -1,0 +1,313 @@
+task_id: "vol-10-ch-05-b15-argon-review"
+parent_task_id: "vol-10-ch-05-b15"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 5
+source_package: "work/vol-10/batches/ch-05-b15-source.jsonl"
+target_translation: "translations/vol-10/ch-05-b15.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000548"
+    severity: "minor"
+    category: "idiom_nuance"
+    issue: "Cụm 'dạy cho đám nhóc một hai bài học' dễ gợi thành ngữ mang nghĩa trừng phạt đối phương, trong khi mạch văn từ p000533, p000540 đến p000545 cho thấy Drake cùng đại đội pháp sư hải quân đánh bộ kỳ cựu đang xông lên làm gương và làm lá chắn cho đám pháp sư trẻ đồng minh đang hoảng loạn."
+    recommendation: "Ở bước chuốt văn có thể chỉnh nhẹ thành 'cho đám nhóc thấy đôi chút bản lĩnh' hoặc 'chỉ cho đám nhóc một hai chiêu' để giữ độ mở tự nhiên và khớp với lời hô hào làm mẫu ở p000540."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000567"
+    severity: "minor"
+    category: "modality_and_register"
+    issue: "Vế đầu 'Chấm dứt cuộc săn vịt!' mang sắc thái mệnh lệnh chủ động bảo ngừng săn, hơi lệch nhẹ so với câu thông báo rút gọn báo hiệu thời cơ săn mồi dễ dàng đã khép lại (song song với câu lặp ngay sau và được quy chiếu là 'lời cảnh báo' ở p000568)."
+    recommendation: "Có thể cân nhắc chỉnh nhẹ ở bước chuốt văn thành 'Hết giờ săn vịt! Cuộc săn vịt kết thúc rồi!' hoặc 'Cuộc săn vịt kết thúc! Cuộc săn vịt kết thúc rồi!'."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Drake / Drake"
+    proposed_vi: "Trung tá Drake / Drake"
+    alternatives_vi: []
+    category: "nhân vật / quân hàm"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với pending-terms-index.yml của vol-04 và vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000533"
+      - "YS-LN10/Text/chapter024.xhtml/p000537"
+      - "YS-LN10/Text/chapter024.xhtml/p000539"
+      - "YS-LN10/Text/chapter024.xhtml/p000542"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    alternatives_vi: []
+    category: "tên gọi / biệt danh"
+    status: "pending"
+    rationale: "Thống nhất xuyên suốt các tập và trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000533"
+  - source_term: "Marine mage company"
+    proposed_vi: "Đại đội pháp sư hải quân đánh bộ"
+    alternatives_vi: []
+    category: "thuật ngữ / đơn vị"
+    status: "pending"
+    rationale: "Nhất quán với hệ thuật ngữ 'marine mage' -> 'pháp sư hải quân đánh bộ' và 'company' -> 'đại đội' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000540"
+  - source_term: "Commonwealth soldiers / the Commonwealth / Commonwealth mages"
+    proposed_vi: "Những người lính Khối Thịnh vượng chung / Khối Thịnh vượng chung / pháp sư Khối Thịnh vượng chung"
+    alternatives_vi: []
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với pending-terms-index.yml của vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000542"
+      - "YS-LN10/Text/chapter024.xhtml/p000555"
+      - "YS-LN10/Text/chapter024.xhtml/p000558"
+      - "YS-LN10/Text/chapter024.xhtml/p000566"
+      - "YS-LN10/Text/chapter024.xhtml/p000570"
+  - source_term: "THE SAME DAY, 203RD AERIAL MAGE BATTALION / The 203rd / aerial mage battalion"
+    proposed_vi: "CÙNG NGÀY HÔM ĐÓ, TIỂU ĐOÀN PHÁP SƯ TRÊN KHÔNG SỐ 203 / Tiểu đoàn 203 / tiểu đoàn pháp sư trên không"
+    alternatives_vi: []
+    category: "tên đơn vị / tiêu đề cảnh"
+    status: "pending"
+    rationale: "Thống nhất với mục '203rd Aerial Mage Battalion / the 203rd' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000549"
+      - "YS-LN10/Text/chapter024.xhtml/p000555"
+      - "YS-LN10/Text/chapter024.xhtml/p000563"
+  - source_term: "explosion formulas"
+    proposed_vi: "thuật thức phát nổ"
+    alternatives_vi: []
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nhất quán với pending-terms-index.yml từ vol-02, vol-04 đến vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000551"
+  - source_term: "adjutant / Lieutenant Colonel"
+    proposed_vi: "viên sĩ quan phụ tá / Thưa Trung tá"
+    alternatives_vi:
+      - "sĩ quan phụ tá"
+    category: "chức danh / quân hàm / xưng hô"
+    status: "pending"
+    rationale: "Thống nhất cách gọi chức danh phụ tá của Visha và cách Visha xưng hô với Trung tá Tanya von Degurechaff trong vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000551"
+      - "YS-LN10/Text/chapter024.xhtml/p000552"
+  - source_term: "meat shield"
+    proposed_vi: "lá chắn thịt"
+    alternatives_vi:
+      - "bia đỡ đạn"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Cách dịch sát hình ảnh gốc, thể hiện rõ chiến thuật thí tốt của đối phương trong độc thoại của Tanya."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000558"
+  - source_term: "the Federation"
+    proposed_vi: "Liên bang"
+    alternatives_vi: []
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Thống nhất tuyệt đối với pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000558"
+  - source_term: "Northern Sea"
+    proposed_vi: "Biển Bắc"
+    alternatives_vi: []
+    category: "địa danh"
+    status: "pending"
+    rationale: "Tên vùng biển dịch trực tiếp rõ nghĩa và tự nhiên trong tiếng Việt."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000561"
+  - source_term: "replacements / full battalion"
+    proposed_vi: "quân bổ sung / tiểu đoàn đủ biên chế"
+    alternatives_vi: []
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Biểu đạt chính xác thuật ngữ bổ sung quân số và tình trạng biên chế đầy đủ của tiểu đoàn."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000563"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    category: "tên cơ quan"
+    status: "pending"
+    rationale: "Khớp với các mục trong pending-terms-index.yml của vol-10."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000563"
+  - source_term: "defeat in detail"
+    proposed_vi: "tiêu diệt từng bộ phận"
+    alternatives_vi: []
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Thống nhất với mục 'defeating ... in detail' -> 'tiêu diệt từng bộ phận' trong pending-terms-index.yml."
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000570"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000533"
+    locked:
+      names_and_ranks: "Drake; Ác quỷ sông Rhine (Devil of the Rhine)"
+      terminology: "miền đông (the east); những người lính trẻ (young soldiers); vòng chiến (the fray)"
+      pronouns_and_address: "anh - mình (Drake); họ (những người lính trẻ)"
+      pov_and_modality: "trần thuật ngôi thứ ba theo điểm nhìn Drake; quan hệ nhân quả 'Nhờ vậy, anh biết rõ...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000534"
+    locked:
+      pronouns_and_address: "Anh - mình (Drake); đồ khốn (you bastard)"
+      emphasis: "giữ đúng chữ nghiêng Markdown '*Giờ thì xuống địa ngục đi, đồ khốn.*' tương ứng với <html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000535"
+    locked:
+      pronouns_and_address: "kẻ địch - chúng"
+      negation_and_modality: "chuỗi câu mệnh lệnh và phủ định cầu khiến ('Đừng để bị bắn hạ!', 'Đừng để mất dấu chúng!') trên sóng vô tuyến; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000536"
+    locked:
+      terminology: "sóng vô tuyến (the radio); các binh sĩ (the soldiers)"
+      pronouns_and_address: "Anh (Drake); họ (các binh sĩ)"
+      negation_and_modality: "khẳng định năng lực 'họ có thể làm được điều đó' và phủ định 'kẻ địch chẳng phải kẻ bất tử'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000537"
+    locked:
+      names_and_ranks: "Drake"
+      pronouns_and_address: "anh (Drake); những người lính đang mất phương hướng kia"
+      negation_and_modality: "quan hệ đối lập 'nhưng những mệnh lệnh của anh đủ đơn giản để...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000538"
+    locked:
+      terminology: "chiến trường (the battlefield); đám tân binh (new soldiers)"
+      negation_and_modality: "phủ định khả năng 'nhưng đó lại không phải điều mà đám tân binh có khả năng làm được'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000539"
+    locked:
+      names_and_ranks: "Drake"
+      pronouns_and_address: "mình - anh (Drake); các binh sĩ của mình"
+      negation_and_modality: "phủ định 'Thay vì đòi hỏi thứ mình không thể có'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000540"
+    locked:
+      terminology: "Đại đội pháp sư hải quân đánh bộ (Marine mage company); các pháp sư trẻ (the young mages)"
+      negation_and_modality: "hô khẩu lệnh xung phong và khích lệ làm gương; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000541"
+    locked:
+      emphasis: "giữ đúng chữ nghiêng Markdown '*Quả là một cảnh tượng khủng khiếp khi phải chứng kiến.*' cho toàn bộ đoạn tương ứng với <html:em> trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000542"
+    locked:
+      names_and_ranks: "Những người lính Khối Thịnh vượng chung (The Commonwealth soldiers); Trung tá Drake (Lieutenant Colonel Drake)"
+      pronouns_and_address: "Anh - mình (Drake); họ (binh lính của Drake)"
+      negation_and_modality: "cấu trúc đối lập 'không ... với tư cách quân nhân mà là những kẻ sát nhân'; giới hạn 'cách duy nhất ... có thể nghĩ ra'; tình thái bắt buộc 'Anh buộc phải...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000543"
+    locked:
+      negation_and_modality: "mệnh đề nhượng bộ 'cho dù nó có được thổi bùng lên bởi sự cuồng loạn đi chăng nữa'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000544"
+    locked:
+      terminology: "các đơn vị (units); chiến trường (the battlefield); lá chắn (shield)"
+      pronouns_and_address: "anh - mình (Drake); họ (các đơn vị dưới quyền)"
+      negation_and_modality: "chuỗi mục đích và tất yếu 'Để... anh cần...', 'Muốn làm được điều đó, anh sẽ phải...', 'Nói cách khác, anh sẽ phải...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000545"
+    locked:
+      terminology: "quân tiếp viện của phe mình (friendly reinforcements)"
+      pronouns_and_address: "họ; phe mình"
+      negation_and_modality: "điệp cấu trúc tình thái kỳ vọng 'Hy vọng...' ở cả ba câu; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000546"
+    locked:
+      pronouns_and_address: "anh (Drake)"
+      negation_and_modality: "giới hạn 'chỉ còn biết trông cậy vào hy vọng mà thôi'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000547"
+    locked:
+      pronouns_and_address: "anh (Drake)"
+      negation_and_modality: "giới hạn 'điều duy nhất anh có thể làm là cố gắng cầm cự cho đến khi...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000548"
+    locked:
+      pronouns_and_address: "người lớn (the adults); đám nhóc (the kids)"
+      negation_and_modality: "thoại hô hào trực tiếp của Drake; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000549"
+    locked:
+      names_and_ranks: "TIỂU ĐOÀN PHÁP SƯ TRÊN KHÔNG SỐ 203 (203RD AERIAL MAGE BATTALION)"
+      pov_and_modality: "tiêu đề chuyển cảnh viết hoa toàn bộ; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000550"
+    locked:
+      negation_and_modality: "phủ định khái quát 'chẳng bao giờ diễn ra theo đúng ý muốn của con người'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000551"
+    locked:
+      names_and_ranks: "lữ đoàn địch (enemy brigade); hạm đội địch (enemy fleet); viên sĩ quan phụ tá (adjutant)"
+      terminology: "thuật thức phát nổ (explosion formulas)"
+      pronouns_and_address: "mình (Tanya tự quy chiếu trong độc thoại nội tâm theo DEC-P01-001); chúng (hạm đội địch)"
+      pov_and_modality: "độc thoại nội tâm ngôi thứ nhất của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000552"
+    locked:
+      names_and_ranks: "Thưa Trung tá (Lieutenant Colonel); các đơn vị pháp sư (mage troops)"
+      pronouns_and_address: "Thưa Trung tá ... ạ (lời báo cáo của Visha với Tanya)"
+      pov_and_modality: "thoại trực tiếp; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000553"
+    locked:
+      terminology: "các pháp sư địch (enemy mages)"
+      pronouns_and_address: "Mình (Tanya); cô ấy (Visha)"
+      pov_and_modality: "trần thuật ngôi thứ nhất của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000554"
+    locked:
+      terminology: "pháp sư (mages); lữ đoàn (brigade)"
+      pronouns_and_address: "mình (Tanya); chúng ta (Tanya và đơn vị); chúng (pháp sư địch)"
+      negation_and_modality: "so sánh hơn 'thiện chiến hơn hẳn cái lữ đoàn mà chúng ta vừa mới đánh tan tác'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000555"
+    locked:
+      names_and_ranks: "Tiểu đoàn 203 (The 203rd); Khối Thịnh vượng chung (the Commonwealth)"
+      terminology: "đại đội pháp sư (company of mages); lực lượng dự bị (in reserve); lữ đoàn (the brigade)"
+      pronouns_and_address: "mình (Tanya); chúng (phe địch)"
+      negation_and_modality: "phủ định 'chẳng có gì quá đáng ngại', 'chẳng có lựa chọn nào khác ngoài việc...'; quan hệ nhân quả 'nên khi thấy...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000556"
+    locked:
+      terminology: "đại đội (company)"
+      negation_and_modality: "phủ định 'sẽ chẳng gây ra ảnh hưởng lớn nào đến kết cục của trận đánh'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000557"
+    locked:
+      terminology: "đại đội (company)"
+      negation_and_modality: "đối lập 'Tuy nhiên... lại có thể dễ dàng làm thay đổi nhịp độ trận chiến'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000558"
+    locked:
+      names_and_ranks: "Liên bang (the Federation); Khối Thịnh vượng chung (the Commonwealth)"
+      terminology: "lữ đoàn (the brigade); lá chắn thịt (meat shield)"
+      pronouns_and_address: "mình (Tanya); chúng (phe Khối Thịnh vượng chung)"
+      negation_and_modality: "câu hỏi phỏng đoán nội tâm 'Chẳng lẽ chúng đã dùng... sao?' + phủ định nhấn mạnh 'có nằm mơ mình cũng chưa từng tưởng tượng ra...'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000559"
+    locked:
+      pronouns_and_address: "Mình (Tanya)"
+      pov_and_modality: "trần thuật ngôi thứ nhất của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000560"
+    locked:
+      pronouns_and_address: "Chúng (phe địch); chúng ta (phe Tanya)"
+      pov_and_modality: "thoại trực tiếp của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000561"
+    locked:
+      names_and_ranks: "Biển Bắc (the Northern Sea)"
+      pronouns_and_address: "Chúng ta (Tanya và đơn vị); Mình - bản thân (Tanya)"
+      negation_and_modality: "thành ngữ 'chỉ thấy cây chứ chẳng thấy rừng' (missed the forest for the trees); hồi tưởng quá khứ; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000562"
+    locked:
+      negation_and_modality: "phủ định đính chính tăng cấp 'Không, tình hình còn tồi tệ hơn thế'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000563"
+    locked:
+      names_and_ranks: "Văn phòng Bộ Tổng tham mưu (General Staff Office); tiểu đoàn pháp sư trên không (aerial mage battalion)"
+      terminology: "quân bổ sung (replacements); tiểu đoàn đủ biên chế (full battalion)"
+      pronouns_and_address: "chúng ta; mình (Tanya); họ (Bộ Tổng tham mưu)"
+      negation_and_modality: "đối lập quá khứ và hiện tại 'vẫn còn có thể trông đợi vào quân bổ sung' vs 'sẽ chẳng còn nhận được quân bổ sung nữa'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000564"
+    locked:
+      negation_and_modality: "phủ định cực hạn 'không thể nào tồi tệ hơn được nữa'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000565"
+    locked:
+      terminology: "thuộc cấp (subordinates)"
+      pronouns_and_address: "Mình - của mình (Tanya)"
+      pov_and_modality: "trần thuật ngôi thứ nhất của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000566"
+    locked:
+      names_and_ranks: "Khối Thịnh vượng chung (The Commonwealth)"
+      pronouns_and_address: "họ (Khối Thịnh vượng chung)"
+      negation_and_modality: "nhận định khái quát + câu cảm thán 'Chết tiệt thật.'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000567"
+    locked:
+      terminology: "cuộc săn vịt (duck hunt)"
+      pov_and_modality: "thoại cảnh báo trên sóng vô tuyến của Tanya; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000568"
+    locked:
+      terminology: "sóng vô tuyến (the radio)"
+      pronouns_and_address: "mình (Tanya)"
+      negation_and_modality: "phủ định 'Không sao rũ bỏ hoàn toàn được cảm giác bất an'; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000569"
+    locked:
+      pronouns_and_address: "chúng - mình (quân địch mới xuất hiện)"
+      pov_and_modality: "thoại cảnh báo trực tiếp trên sóng vô tuyến; không có chữ nghiêng Markdown"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000570"
+    locked:
+      names_and_ranks: "pháp sư Khối Thịnh vượng chung (Commonwealth mages)"
+      terminology: "lữ đoàn địch (the brigade); tiêu diệt từng bộ phận (defeat in detail); các đại đội (companies); đội hình mới (new formation)"
+      pronouns_and_address: "Mình - của mình (Tanya)"
+      pov_and_modality: "trần thuật ngôi thứ nhất của Tanya; trình tự thời gian trước - sau ('Sau khi tách ra trước đó... các đại đội của mình tập hợp lại...'); không có chữ nghiêng Markdown"
