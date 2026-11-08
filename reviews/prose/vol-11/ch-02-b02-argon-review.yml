@@ -1,0 +1,169 @@
+task_id: "vol-11-ch-02-b02-argon-review"
+parent_task_id: "vol-11-ch-02-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 2
+source_package: "work/vol-11/batches/ch-02-b02-source.jsonl"
+target_translation: "translations/vol-11/ch-02-b02.jsonl"
+review_path: "reviews/prose/vol-11/ch-02-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000017"
+    severity: "minor"
+    issue: "Tính từ chỉ phẩm chất tri thức/học thức của giới sĩ quan tham mưu cao cấp ('intellectual') được dịch thành 'duy lý', làm dịch chuyển nhẹ sắc thái từ có đầu óc tri thức/học thuật sang thiên về lý tính."
+    basis: "Đối chiếu p000017 và sự phân biệt với thuật ngữ 'rationality' trong canon/glossary-pending.yml."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'quá đỗi duy lý' thành 'quá đỗi có đầu óc tri thức' hoặc 'quá thiên về học thức'; không làm lệch mạch lập luận nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000020"
+    severity: "minor"
+    issue: "Câu cuối đoạn dùng 'Lẽ ra tôi nên bắt đầu bằng việc...' mang sắc thái giả định trái thực tế ở quá khứ, trong khi câu gốc là lời chuyển ý hướng về phần trình bày chi tiết ngay sau đó."
+    basis: "Đối chiếu p000020 và quy tắc giữ đúng thời gian của tình thái trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'Tôi nên bắt đầu bằng việc mô tả chi tiết chuỗi sự kiện đã dẫn đến cơ sự này.' để khớp tự nhiên với mạch mở đầu giải thích ở p000021; không làm sai lệch cốt truyện nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000023"
+    severity: "minor"
+    issue: "Cụm 'so với thời hoàng kim trước kia' thêm từ 'thời hoàng kim' khi diễn đạt trạng thái trước đây của Đế chế."
+    basis: "Đối chiếu p000023 và quy tắc không tự thêm chi tiết giải thích trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc rút gọn thành 'so với dáng vẻ trước kia của nó' hoặc 'so với trước kia'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000025"
+    severity: "minor"
+    issue: "Cụm 'những kẻ... vừa trốn tránh thực tại vừa lạc quan tếu' hơi tăng sắc thái miệt thị và khẩu ngữ so với cách nhận định khái quát trung tính của người kể chuyện."
+    basis: "Đối chiếu p000025 và quy tắc không tự thêm sắc thái phán xét/miệt thị không có trong nguồn tại canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc điều chỉnh thành 'những người... thường là sự kết hợp giữa tâm lý trốn tránh thực tại và sự lạc quan'; không làm thay đổi lập luận nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Reich / the Reich / the Reich of old"
+    proposed_vi: "Đế chế / Đế chế thuở trước"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất phương án 'Đế chế' cho 'Reich' để phân biệt sắc thái biểu trưng với 'Đế quốc' ('the Empire') theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000014"
+      - "YS-LN11/Text/chapter006.xhtml/p000017"
+      - "YS-LN11/Text/chapter006.xhtml/p000022"
+      - "YS-LN11/Text/chapter006.xhtml/p000023"
+  - source_term: "General Staff / General Staff Office / the General Staff Office’s inner circle"
+    proposed_vi: "Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu / nhóm cốt lõi thuộc Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với cách dịch 'Bộ Tổng tham mưu' và 'Văn phòng Bộ Tổng tham mưu' đã khóa tại các tập trước và vol-11 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "nhóm nòng cốt của Văn phòng Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000014"
+      - "YS-LN11/Text/chapter006.xhtml/p000021"
+  - source_term: "Zettour the Terror / General Zettour / the general"
+    proposed_vi: "Hung thần Zettour / Tướng Zettour / vị tướng ấy"
+    category: "nhân vật - biệt danh - quân hàm"
+    status: "pending"
+    rationale: "Giữ 'Tướng Zettour' và 'vị tướng ấy' theo chuẩn đã khóa; biệt danh hồi cố 'Zettour the Terror' được dịch là 'Hung thần Zettour' đảm bảo tự nhiên và đúng sắc thái nhìn lại sau chiến tranh."
+    alternatives_vi:
+      - "Zettour Kẻ Gieo Rắc Kinh Hoàng"
+      - "Bạo chúa Zettour"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000014"
+      - "YS-LN11/Text/chapter006.xhtml/p000016"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với định danh 'Đế quốc' xuyên suốt trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000014"
+      - "YS-LN11/Text/chapter006.xhtml/p000016"
+      - "YS-LN11/Text/chapter006.xhtml/p000017"
+      - "YS-LN11/Text/chapter006.xhtml/p000021"
+      - "YS-LN11/Text/chapter006.xhtml/p000022"
+      - "YS-LN11/Text/chapter006.xhtml/p000025"
+  - source_term: "The Heimat"
+    proposed_vi: "Heimat"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức 'Heimat' không in nghiêng do nguồn không đánh dấu nhấn mạnh, tuân thủ DEC-P01-002 và thống nhất với work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000016"
+  - source_term: "senior staff officers / senior staff officer"
+    proposed_vi: "các sĩ quan tham mưu cao cấp / sĩ quan tham mưu cao cấp"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp thống nhất với phương án đã khóa tại vol-10 và vol-11 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000017"
+      - "YS-LN11/Text/chapter006.xhtml/p000020"
+  - source_term: "Ildoan"
+    proposed_vi: "người dân Ildoa"
+    category: "quốc gia - dân tộc"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng Ildoa theo work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "người Ildoa"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000018"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "tổ chức chính phủ"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án 'Bộ Ngoại giao' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000025"
+  - source_term: "Lergen Kampfgruppe"
+    proposed_vi: "Kampfgruppe Lergen"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ quân sự tiếng Đức 'Kampfgruppe' không in nghiêng theo DEC-P01-002 và đặt tên riêng chỉ huy Lergen phía sau theo trật tự danh ngữ tiếng Việt."
+    alternatives_vi:
+      - "Cụm tác chiến Lergen"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000027"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000014"
+    locks:
+      - "Khóa phân biệt 'Đế chế' ('the Reich') và 'Đế quốc' ('the Empire'), tên cơ quan 'Bộ Tổng tham mưu', biệt danh 'Hung thần Zettour', danh xưng 'Tướng Zettour', ẩn dụ 'một con tàu không thuyền trưởng' và nhận định 'trở nên đồng nghĩa với cả Đế quốc trong những giờ phút cuối cùng của quốc gia'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000015"
+    locks:
+      - "Khóa điểm nhìn hồi ký ngôi thứ nhất xưng 'tôi' (kết hợp đại từ phản thân 'mình' trong mệnh đề phụ), phủ định 'chưa bao giờ là điều được chủ ý từ trước' và khẳng định vai trò nhân chứng lịch sử 'đây là lời chứng của tôi dành cho các thế hệ tương lai'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000016"
+    locks:
+      - "Khóa hai vị trí nhấn mạnh Markdown theo DEC-P01-002 tại '*vị tướng ấy chưa bao giờ có bất kỳ tham vọng nào muốn trở thành một kẻ độc tài*' và '*ngoại lệ*'; khóa đại từ 'tôi' – 'những người lính chúng tôi', 'vị tướng ấy' – 'Ông ấy', thuật ngữ 'Heimat' (không in nghiêng), định danh 'Đế quốc' và phủ định 'chưa từng mảy may tưởng tượng rằng quân đội lại ở vào vị thế dẫn dắt chính sách đối ngoại'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000017"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại câu hỏi '*Bao nhiêu người không chọn, tại sao lại là một quân nhân?*', đại từ 'tôi' – 'Các sĩ quan tham mưu cao cấp chúng tôi', sự phân biệt 'Đế quốc' và 'Đế chế', cặp hình ảnh ẩn dụ 'nắm đấm của Đế chế' đối lập với 'bộ não của nó', và phủ định tuyệt đối về việc không bao giờ có ý định 'tạo lập một quốc gia riêng của mình ngay trong lòng quốc gia'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000018"
+    locks:
+      - "Khóa đại từ ngôi thứ nhất 'tôi', sự thừa nhận 'đây là một ngoại lệ', thế bị động bất đắc dĩ khi bị cuốn vào 'mưu tính chấm dứt cuộc chiến' và hình ảnh 'mọi người dân Ildoa đều coi tôi là một con nhện đê tiện cho đến tận ngày hôm nay'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000019"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', cách gọi người đọc là 'độc giả' và câu hỏi trọng tâm mở đầu phần giải thích: 'Tại sao một quân nhân Đế quốc lại đi tiến hành đàm phán ngoại giao để chấm dứt chiến tranh?'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000020"
+    locks:
+      - "Khóa cách xưng hô của người viết với người đọc ('tôi' – 'độc giả'), chức danh 'sĩ quan tham mưu cao cấp', phủ định 'Tôi vốn chẳng phải người quen bàn luận chuyện lịch sử' và ý chuyển tiếp sang phần mô tả chi tiết chuỗi sự kiện."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000021"
+    locks:
+      - "Khóa sự phân biệt đại từ 'chúng tôi' (nhóm thực hiện đàm phán/Bộ Tổng tham mưu) và 'chúng ta' (toàn thể quốc gia Đế quốc), định danh 'Đế quốc', tổ chức 'nhóm cốt lõi thuộc Văn phòng Bộ Tổng tham mưu', 'lục quân', phủ định 'cho đến trước cuộc chiến này, Đế quốc chưa từng biết đến thất bại' và nhận định 'chúng ta luôn tìm ra cách giành chiến thắng chung cuộc trong cuộc chiến'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000022"
+    locks:
+      - "Khóa cụm 'Đế chế thuở trước', định danh 'Đế quốc', đại từ 'chúng ta' và luận điểm nền tảng ngoại giao của Đế quốc dựa vào sức mạnh quân sự – kinh tế của một 'siêu cường'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000023"
+    locks:
+      - "Khóa đại từ 'Tôi', định danh 'Đế chế', sự đối lập giữa nhận thức hậu chiến của 'Những người sống sót qua thời Đế chế' với tâm thế đương thời ('Thế nhưng vào thời điểm ấy, sự tình chắc chắn không phải như vậy')."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000024"
+    locks:
+      - "Khóa câu đoạn ngắn nhấn mạnh mốc thời gian quá khứ 'Vào thời điểm ấy, khi cuộc chiến vẫn đang diễn ra.'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000025"
+    locks:
+      - "Khóa định danh 'Đế quốc', cơ quan 'Bộ Ngoại giao', đại từ 'chúng ta', phủ định 'Đế quốc chưa bao giờ tiến hành ngoại giao dựa trên giả định rằng chúng ta sẽ thua một cuộc chiến' và ý khái niệm thất bại đi ngược lại tâm thức chung."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000026"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 chỉ tại giới từ '*trong*', phủ định 'Những người lính cũng chẳng phải ngoại lệ', chủ thể 'Lục quân' và chi tiết mất nhiều thời gian cùng đấu đá nội bộ mới nhận thức được 'thất bại tất yếu của mình'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000027"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'bản thân mình', cấu trúc giả định trái thực tế ở quá khứ ('Tôi e rằng bản thân mình cũng khó lòng từ bỏ hẳn hy vọng nếu trước đó không trực tiếp ra tiền tuyến cùng Kampfgruppe Lergen'), tên đơn vị 'Kampfgruppe Lergen' (không in nghiêng) và mệnh đề 'Chiến tranh luôn phải chịu sự chi phối của các định luật vật lý'."
