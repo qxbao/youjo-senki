@@ -1,0 +1,255 @@
+task_id: "vol-10-ch-05-b06-argon-review"
+parent_task_id: "vol-10-ch-05-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 5
+source_package: "work/vol-10/batches/ch-05-b06-source.jsonl"
+target_translation: "translations/vol-10/ch-05-b06.jsonl"
+review_path: "reviews/prose/vol-10/ch-05-b06-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000167"
+    severity: "minor"
+    issue: "Câu mở đầu đặt cụm cảm thán 'quái quỷ' ngay sau phần in nghiêng ('Vậy thì *những thứ kia* quái quỷ là gì thế?'), khiến trật tự từ tiếng Việt hơi ngượng."
+    basis: "Đối chiếu cấu trúc câu hỏi cảm thán tại p000167, quy ước giữ nguyên phạm vi nhấn mạnh DEC-P01-002 và nguyên tắc viết tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'Vậy thì *những thứ kia* là cái quái gì thế?' để vừa bảo toàn phạm vi in nghiêng '*những thứ kia*' vừa giúp nhịp câu tự nhiên hơn."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000171"
+    severity: "minor"
+    issue: "Mệnh đề phủ định ở câu thứ hai dùng hư từ 'cho cam' ('Đây sẽ chẳng phải một trận giao chiến cho cam—mà chỉ là một cuộc thảm sát đơn thuần.'); trong tiếng Việt, 'cho cam' thường đi với cấu trúc nhượng bộ hoặc than thở ('nào phải... gì cho cam', 'đã đành một nhẽ... cho cam'), nên đặt vào câu nhận định trực tiếp này nghe hơi lệch quán ngữ."
+    basis: "Đối chiếu ngữ cảnh nhận định của Tanya tại p000171 và nguyên tắc kết hợp từ tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'Đây sẽ chẳng thể gọi là một trận giao chiến thực sự—mà chỉ là một cuộc thảm sát đơn thuần.' hoặc 'Đó sẽ chẳng phải một trận giao chiến ra hồn—mà chỉ là một cuộc thảm sát đơn thuần.'"
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000192"
+    severity: "minor"
+    issue: "Thán từ biểu thị tiếng gầm gừ/rên tức tối của Tanya ở câu cuối p000192 (và câu độc thoại p000175) được dịch là 'Ái chà'; trong tiếng Việt, 'Ái chà' thường gợi sắc thái ngạc nhiên thích thú hoặc tán thưởng nhẹ, chưa khớp với trạng thái nghiến răng uất ức và 'sự kích động dâng trào' của nhân vật."
+    basis: "Đối chiếu mạch cảm xúc của Tanya tại p000175, p000183, p000192 và nguyên tắc giữ đúng sắc thái giọng thoại trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc thay 'Ái chà' ở p000175 và p000192 bằng thán từ bộc lộ sự bực bội/uất ức như 'Khốn thật', 'Chết tiệt' hoặc 'Hừ'."
+pending_term_recommendations:
+  - source_term: "marines"
+    proposed_vi: "những người lính hải quân đánh bộ"
+    category: "quân chủng"
+    status: "pending"
+    rationale: "Nhất quán với thuật ngữ 'hải quân đánh bộ' và 'pháp sư hải quân đánh bộ' đã khóa xuyên suốt từ vol-04 đến vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000159"
+  - source_term: "the channel / SKIES ABOVE THE CHANNEL"
+    proposed_vi: "eo biển / BẦU TRỜI PHÍA TRÊN EO BIỂN"
+    category: "địa danh - tiêu đề mục"
+    status: "pending"
+    rationale: "Khớp với quy ước dịch địa danh eo biển giữa lục địa và Khối Thịnh vượng chung trong các batch trước của chương 5."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000160"
+      - "YS-LN10/Text/chapter024.xhtml/p000163"
+  - source_term: "the Commonwealth / Commonwealth Home Fleet"
+    proposed_vi: "Khối Thịnh vượng chung / Hạm đội Bản thổ của Khối Thịnh vượng chung"
+    category: "quốc gia - đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với định danh 'Khối Thịnh vượng chung' và 'Hạm đội Bản thổ' đã khóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000161"
+      - "YS-LN10/Text/chapter024.xhtml/p000168"
+  - source_term: "battleships / capital ships / dreadnoughts / fast battleships / battlecruisers"
+    proposed_vi: "thiết giáp hạm / tàu chủ lực / thiết giáp hạm dreadnought / thiết giáp hạm nhanh / tàu chiến-tuần dương"
+    category: "thuật ngữ hải quân"
+    status: "pending"
+    rationale: "Phân biệt chuẩn xác các phân lớp tàu chiến mặt nước hạng nặng theo thuật ngữ hải quân tiếng Việt và khớp với 'tàu chiến-tuần dương' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000167"
+      - "YS-LN10/Text/chapter024.xhtml/p000169"
+  - source_term: "Imperial Navy / Northern Sea / High Seas Fleet"
+    proposed_vi: "Hải quân Đế quốc / Biển Bắc / Hạm đội Biển khơi"
+    category: "quân chủng - địa danh - đơn vị"
+    status: "pending"
+    rationale: "Khớp với 'Hạm đội Biển khơi' và hệ thống định danh quân sự của Đế quốc trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000170"
+  - source_term: "Communism / Being X"
+    proposed_vi: "Chủ nghĩa Cộng sản / Being X"
+    category: "thuật ngữ - định danh"
+    status: "pending"
+    rationale: "Khớp với các mục tương ứng trong canon/glossary-pending.yml và pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000176"
+  - source_term: "the Empire / Imperial Army / military"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / quân đội"
+    category: "quốc gia - quân sự"
+    status: "pending"
+    rationale: "Khớp thống nhất với hệ thống thuật ngữ xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000180"
+      - "YS-LN10/Text/chapter024.xhtml/p000185"
+      - "YS-LN10/Text/chapter024.xhtml/p000188"
+  - source_term: "203rd Battalion"
+    proposed_vi: "Tiểu đoàn 203"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Khớp với cách gọi tắt của Tiểu đoàn Pháp sư Trên không số 203 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000181"
+  - source_term: "Western Army Group command / operational security"
+    proposed_vi: "bộ chỉ huy Cụm tập đoàn quân phía Tây / ý thức bảo mật tác chiến"
+    category: "đơn vị - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với 'Cụm tập đoàn quân phía Tây' trong pending-terms-index.yml và diễn đạt rõ nghĩa thuật ngữ OPSEC trong ngữ cảnh."
+    alternatives_vi:
+      - "bảo mật tác chiến"
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000185"
+  - source_term: "General Romel"
+    proposed_vi: "Tướng Romel"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với định danh đã khóa tại vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000186"
+  - source_term: "probatio diabolica"
+    proposed_vi: "*probatio diabolica*"
+    category: "thuật ngữ Latin"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ Latin chỉ nghịch lý 'chứng minh của quỷ' (yêu cầu chứng minh điều không thể có bằng chứng phủ định) và bảo toàn định dạng in nghiêng theo DEC-P01-002."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000188"
+  - source_term: "Lieutenant Colonel / adjutant / First Lieutenant Serebryakov / high command"
+    proposed_vi: "Thưa Trung tá / sĩ quan phụ tá / Trung úy Serebryakov / bộ chỉ huy tối cao"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc, chức danh của Tanya và Visha đã khóa xuyên suốt trong pending-terms-index.yml."
+    alternatives_vi:
+      - "bộ chỉ huy cấp cao"
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000191"
+      - "YS-LN10/Text/chapter024.xhtml/p000192"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000156"
+    locks:
+      - "Khóa cách gọi 'Trung tá' của người lính thuộc cấp dành cho Drake và hai câu hỏi bông đùa về việc lây bệnh ngoài miền đông hay ngủ nhầm với cô ả nào."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000157"
+    locks:
+      - "Khóa câu đáp phủ định 'Không' của Drake, cặp xưng hô 'tôi' - 'anh', khẳng định thể trạng khỏe mạnh cùng đầu óc hoàn toàn tỉnh táo và mệnh đề nhượng bộ 'Dù tôi gần như ước gì anh nói đúng đấy'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000158"
+    locks:
+      - "Khóa câu trần thuật ngắn khẳng định thực tại: 'Đây là chiến tranh.'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000159"
+    locks:
+      - "Khóa đại từ trần thuật 'Họ' và tư cách chiến đấu 'trước nhất và trên hết với tư cách là những người lính hải quân đánh bộ'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000160"
+    locks:
+      - "Khóa lời hiệu triệu của Drake với cách gọi 'Thưa các quý ông', đại từ 'chúng ta' - 'các anh', mệnh lệnh 'Nếu cần thì hãy hóa thành quái vật ngoài kia đi', điều kiện sinh tồn 'Nếu không muốn chết, các anh phải nhắm bắn để giết' và tuyên bố tiễn kẻ địch xuống mồ dưới đáy 'eo biển'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000161"
+    locks:
+      - "Khóa tên quốc gia 'Khối Thịnh vượng chung', đại từ 'Họ', các lợi thế về 'quân số', 'thông tin tình báo', 'lực lượng hải quân hùng hậu', nhận định 'Cán cân sức mạnh hoàn toàn nghiêng về phía họ' và đánh giá hài hước về 'đám chính khách và giới chóp bu'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000162"
+    locks:
+      - "Khóa lời hô xung trận của Drake với đại từ 'chúng ta' và quyết tâm giành chiến thắng."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000163"
+    locks:
+      - "Khóa dòng tiêu đề thời gian - địa điểm viết hoa toàn bộ: 'NGÀY 31 THÁNG 8 NĂM THỐNG NHẤT 1927, BẦU TRỜI PHÍA TRÊN EO BIỂN'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000164"
+    locks:
+      - "Khóa sự chuyển đổi điểm nhìn sang độc thoại nội tâm của Tanya và tình thái trái kỳ vọng 'Đáng lẽ đây phải là một cuộc tập kích bất ngờ'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000165"
+    locks:
+      - "Khóa câu cảm thán bổ sung về nội dung ghi trong kế hoạch."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000166"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'Mình' theo DEC-P01-001 và chi tiết đã thực hiện mọi biện pháp có thể nghĩ ra để giữ bí mật."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000167"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*những thứ kia*', phủ định 'Không, mình thậm chí còn chẳng cần phải hỏi' và các thuật ngữ hải quân 'những thiết giáp hạm màu đen', 'hạm đội tàu chủ lực'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000168"
+    locks:
+      - "Khóa cụm ẩn dụ 'Những kẻ thống trị vực thẳm, những vị vua của đại dương' và định danh 'Hạm đội Bản thổ của Khối Thịnh vượng chung'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000169"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*phần*', căn cứ nhận diện nhờ sự vắng mặt của 'những chiếc thiết giáp hạm dreadnought trứ danh' và cấu trúc hạm đội xoay quanh 'các mẫu thiết giáp hạm nhanh và tàu chiến-tuần dương đời cũ hơn'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000170"
+    locks:
+      - "Khóa các định danh 'Hải quân Đế quốc', 'Biển Bắc', 'Hạm đội Biển khơi', đại từ 'chúng ta' và tình thái so sánh giới hạn 'may ra cũng chỉ ngang ngửa nhóm này về mặt số lượng là cùng'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000171"
+    locks:
+      - "Khóa hình ảnh so sánh 'như một đàn kiến sắp bị voi giẫm bẹp' và sự tương phản giữa một trận giao chiến với 'một cuộc thảm sát đơn thuần'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000172"
+    locks:
+      - "Khóa câu phủ định làm rõ nguyên nhân cốt lõi khiến quân Đế quốc cầm chắc thất bại."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000173"
+    locks:
+      - "Khóa đại từ 'mình' và mối lo ngại thực sự về cách thức hành động của kẻ địch."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000174"
+    locks:
+      - "Khóa câu hỏi tu từ chỉ sự phi lý khi vừa chuẩn bị 'tập kích bất ngờ' lại tình cờ đụng độ 'một hạm đội lớn hơn đang trong tư thế sẵn sàng nghênh chiến'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000175"
+    locks:
+      - "Khóa lời độc thoại phủ định tuyệt đối khả năng sự việc xảy ra do tình cờ."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000176"
+    locks:
+      - "Khóa đại từ 'Mình', cấu trúc so sánh cực đoan với 'Chủ nghĩa Cộng sản' hay 'Being X' và kết luận phủ định sự tồn tại của sự trùng hợp như vậy."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000177"
+    locks:
+      - "Khóa đại từ 'Mình', chi tiết 'kiến thức sẵn có từ thế giới cũ' và hình ảnh mỉa mai 'bữa tiệc chào mừng được lên kế hoạch từ trước' tràn ngập niềm vui cùng sự bất ngờ."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000178"
+    locks:
+      - "Khóa sự chuyển biến mức độ nhận thức của Tanya từ 'mới chỉ hoài nghi' trước đây sang 'giờ thì mình đã dám chắc'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000179"
+    locks:
+      - "Khóa câu nhận định ẩn dụ ngắn: 'Đó là một trò ảo thuật.'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000180"
+    locks:
+      - "Khóa suy luận tất yếu 'Ắt hẳn họ đã giải mã hoàn toàn mật mã của Đế quốc', tên tổ chức 'Lục quân Đế quốc', phủ định 'không phải chuyện đơn giản như một vụ rò rỉ nhỏ lẻ' và hệ quả 'họ đang nghe lén toàn bộ những gì chúng ta nói'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000181"
+    locks:
+      - "Khóa đại từ 'mình', tên đơn vị 'Tiểu đoàn 203' và nỗi ngán ngẩm vì công sức che giấu hành tung đổ sông đổ biển."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000182"
+    locks:
+      - "Khóa câu kết luận bi quan với đại từ 'chúng ta': 'Chính vì thế này mà chúng ta không thể thắng nổi.'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000183"
+    locks:
+      - "Khóa đại từ 'mình', chi tiết 'khao khát chuyển việc trong lòng ngày một mãnh liệt hơn', cử chỉ 'nắm chặt tay và nghiến răng' và nhận thức 'đang chiến đấu cho phe thua cuộc'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000184"
+    locks:
+      - "Khóa nhận định 'Thông tin là vấn đề sống còn' và tình thái đáng tiếc trong quá khứ 'đây vốn là chuyện hoàn toàn có thể tránh được'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000185"
+    locks:
+      - "Khóa giả định trái thực tế trong quá khứ về việc kiêng dùng vô tuyến, các định danh 'Đế quốc', 'bộ chỉ huy Cụm tập đoàn quân phía Tây', 'bên hải quân' và sự phẫn nộ trước việc thiếu 'ý thức bảo mật tác chiến'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000186"
+    locks:
+      - "Khóa câu lầm bầm tự nhủ của Tanya với đại từ 'mình', cấp bậc kèm tên riêng 'Tướng Romel' và ý định làm ầm chuyện này lên khi quay về."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000187"
+    locks:
+      - "Khóa quan hệ nghịch đối 'Tuy nhiên', đại từ 'mình' và thế kẹt phủ định 'không thể chứng minh rằng mật mã của quân ta đã bị giải mã'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000188"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại thuật ngữ Latin '*probatio diabolica*', tình trạng thiếu bằng chứng, niềm tin mù quáng của 'Lục quân Đế quốc' và câu điều kiện giả định trái thực tế về việc các phòng ban phát sóng mọi mẩu thông tin chiến dịch."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000189"
+    locks:
+      - "Khóa ba tính từ cảm thán đánh giá tình cảnh: 'Thật tàn nhẫn, liều lĩnh và phi lý biết bao.'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000190"
+    locks:
+      - "Khóa câu hỏi cảm thán thành lời của Tanya về sự ngu xuẩn tột cùng đang diễn ra."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000191"
+    locks:
+      - "Khóa câu hỏi ngắn gọn theo quân phong của Visha: '“Thưa Trung tá?”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000192"
+    locks:
+      - "Khóa đại từ 'Mình', chức danh 'sĩ quan phụ tá', trạng thái 'kích động dâng trào', danh xưng 'Trung úy Serebryakov', cụm 'bộ chỉ huy tối cao' và nhận định về kết cục bất định của cuộc chiến."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000193"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại tiếng hét giả định '*Lũ ngu xuẩn các người!*', câu điều kiện trái thực tế về việc bỏ việc ngay tại chỗ và ẩn dụ công sở 'khắc phục sai lầm của ban quản lý'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000194"
+    locks:
+      - "Khóa đại từ 'Mình' và phép đối lập giữa 'yêu thích sự nỗ lực' với 'căm ghét những nỗ lực vô nghĩa'."
