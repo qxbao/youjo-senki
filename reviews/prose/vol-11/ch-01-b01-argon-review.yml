@@ -1,0 +1,233 @@
+task_id: "vol-11-ch-01-b01-argon-review"
+parent_task_id: "vol-11-ch-01-b01"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 1
+source_package: "work/vol-11/batches/ch-01-b01-source.jsonl"
+target_translation: "translations/vol-11/ch-01-b01.jsonl"
+review_path: "reviews/prose/vol-11/ch-01-b01-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000003"
+    severity: "minor"
+    issue: "Trong câu giả định thứ hai, bản dịch chuyển tình thái khả thể thấp ở quá khứ sang mức suy đoán chắc chắn ('hẳn ông ta đã nhận ra điều đó') và cụ thể hóa trạng thái bình thường như mọi khi thành 'vẫn tỉnh táo như thường ngày'."
+    basis: "Đối chiếu p000003 và nguyên tắc giữ đúng mức độ chắc chắn của giả định, không tự thu hẹp sắc thái trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'Nếu người đối thoại với ông vẫn như thường ngày, có lẽ ông ta đã nhận ra điều đó.' để giữ sát mức độ khả thể và sắc thái trung tính; không làm sai lệch cốt truyện nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000031"
+    severity: "minor"
+    issue: "Chức danh chỉ cấp phó của Bộ Tổng tham mưu ('deputy director of the general staff') được dịch là 'cục phó Bộ Tổng tham mưu'; cách ghép 'cục phó' với 'Bộ Tổng tham mưu' hơi lệch cấp đơn vị hành chính – quân sự và chưa khớp với phương án 'phó tổng tham mưu trưởng' đã khóa cho 'deputy director' ở cuối vol-10 trong work/run-state/pending-terms-index.yml."
+    basis: "Đối chiếu p000031 và mục 'deputy director' ('vị phó tổng tham mưu trưởng') tại vol-10 trong work/run-state/pending-terms-index.yml."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'cục phó Bộ Tổng tham mưu' thành 'phó tổng tham mưu trưởng' để thống nhất chức vụ với vol-10; không làm sai lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000032"
+    severity: "minor"
+    issue: "Cụm 'quê hương Heimat' bổ sung danh từ giải thích 'quê hương' trước thuật ngữ tiếng Đức 'Heimat' vốn đã hàm chứa nghĩa quê hương/tổ quốc."
+    basis: "Đối chiếu p000032, mục 'Heimat' trong work/run-state/pending-terms-index.yml và nguyên tắc không tự thêm từ giải thích trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc giữ gọn là 'Heimat' ('nhử cả Heimat xuống địa ngục'); không ảnh hưởng đến mạch nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "SEPTEMBER 25, UNIFIED YEAR 1927, GENERAL ZETTOUR’S OFFICE AT THE EASTERN FRONT ARMY HEADQUARTERS"
+    proposed_vi: "NGÀY 25 THÁNG 9 NĂM THỐNG NHẤT 1927, VĂN PHÒNG CỦA TƯỚNG ZETTOUR TẠI BỘ TƯ LỆNH LỤC QUÂN MẶT TRẬN PHÍA ĐÔNG"
+    category: "tiêu đề thời gian - địa điểm"
+    status: "pending"
+    rationale: "Giữ thống nhất quy ước dịch tiêu đề mốc thời gian Năm Thống nhất, quân hàm Tướng Zettour và tên cơ quan chỉ huy tại mặt trận phía đông."
+    alternatives_vi:
+      - "NGÀY 25 THÁNG 9 NĂM THỐNG NHẤT 1927, VĂN PHÒNG CỦA TƯỚNG ZETTOUR TẠI TỔNG HÀNH DINH LỤC QUÂN MẶT TRẬN PHÍA ĐÔNG"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000001"
+  - source_term: "General Zettour / Zettour"
+    proposed_vi: "Tướng Zettour / Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với định danh và cấp bậc của Zettour đã khóa tại vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000001"
+      - "YS-LN11/Text/chapter002.xhtml/p000003"
+      - "YS-LN11/Text/chapter002.xhtml/p000005"
+      - "YS-LN11/Text/chapter002.xhtml/p000010"
+      - "YS-LN11/Text/chapter002.xhtml/p000014"
+      - "YS-LN11/Text/chapter002.xhtml/p000017"
+      - "YS-LN11/Text/chapter002.xhtml/p000020"
+      - "YS-LN11/Text/chapter002.xhtml/p000024"
+      - "YS-LN11/Text/chapter002.xhtml/p000028"
+      - "YS-LN11/Text/chapter002.xhtml/p000029"
+  - source_term: "Rudersdorf"
+    proposed_vi: "Rudersdorf"
+    category: "nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng Rudersdorf theo chuẩn xuyên suốt các tập trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000004"
+      - "YS-LN11/Text/chapter002.xhtml/p000018"
+      - "YS-LN11/Text/chapter002.xhtml/p000019"
+      - "YS-LN11/Text/chapter002.xhtml/p000023"
+      - "YS-LN11/Text/chapter002.xhtml/p000027"
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án đã khóa tại vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000002"
+      - "YS-LN11/Text/chapter002.xhtml/p000011"
+      - "YS-LN11/Text/chapter002.xhtml/p000025"
+  - source_term: "the empire / the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh Đế quốc trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000008"
+      - "YS-LN11/Text/chapter002.xhtml/p000025"
+      - "YS-LN11/Text/chapter002.xhtml/p000031"
+  - source_term: "Ildoa"
+    proposed_vi: "Ildoa"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng quốc gia Ildoa theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000011"
+      - "YS-LN11/Text/chapter002.xhtml/p000019"
+  - source_term: "General Staff Office / deputy director of the general staff"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / phó tổng tham mưu trưởng (hoặc cục phó Bộ Tổng tham mưu)"
+    category: "tổ chức quân sự - chức danh"
+    status: "pending"
+    rationale: "Giữ thống nhất 'Văn phòng Bộ Tổng tham mưu' cho 'General Staff Office' và khuyến nghị đồng bộ 'deputy director of the general staff' với 'phó tổng tham mưu trưởng' tại vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "phó chủ nhiệm Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000014"
+      - "YS-LN11/Text/chapter002.xhtml/p000031"
+  - source_term: "Goddess of Victory"
+    proposed_vi: "Nữ thần Chiến thắng"
+    category: "biểu tượng - ẩn dụ"
+    status: "pending"
+    rationale: "Dịch sát nghĩa biểu tượng nhân cách hóa chiến thắng, tương ứng với cấu trúc 'Nữ thần Vận mệnh' (Goddess of Fate) ở vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000031"
+  - source_term: "Heimat"
+    proposed_vi: "Heimat (hoặc quê hương Heimat)"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên từ tiếng Đức 'Heimat' không in nghiêng trong trường translation vì nguồn ở p000032 không đánh dấu nhấn mạnh, tuân thủ DEC-P01-002."
+    alternatives_vi:
+      - "Heimat"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000032"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000001"
+    locks:
+      - "Khóa dòng tiêu đề thời gian – địa điểm viết hoa: 'NGÀY 25 THÁNG 9 NĂM THỐNG NHẤT 1927, VĂN PHÒNG CỦA TƯỚNG ZETTOUR TẠI BỘ TƯ LỆNH LỤC QUÂN MẶT TRẬN PHÍA ĐÔNG'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000002"
+    locks:
+      - "Khóa cặp đại từ xưng hô ngang hàng giữa hai vị tướng đồng liêu 'Tôi' – 'Ông', thuật ngữ 'bản sơ thảo của Kế hoạch B', câu hỏi chất vấn 'Ông có điên không đấy?' và hình ảnh so sánh 'mấy dòng ghi chú đánh bạc bốc đồng mà ông nguệch ngoạc lên mặt sau một tờ khăn ăn'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000003"
+    locks:
+      - "Khóa tên riêng 'Zettour', đại từ trần thuật 'ông' (chỉ Zettour) và 'ông ta' (chỉ Rudersdorf), quan hệ nhượng bộ 'Dù đã cố giữ vẻ điềm tĩnh, trong lời nói của Zettour vẫn thoáng chút ngập ngừng' và giả định ở quá khứ về việc người đối thoại nhận ra điều đó."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000004"
+    locks:
+      - "Khóa liên từ chuyển ý 'Thế nhưng', đại từ 'ông' (Zettour), tên riêng 'Rudersdorf' và chi tiết 'vẻ mặt ngơ ngác thuần túy'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000005"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại lời rủa thầm '*Chết tiệt thật*' và mệnh đề trần thuật 'Zettour thầm rủa trong lòng'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000006"
+    locks:
+      - "Khóa cặp xưng hô 'tôi' – 'Ông' trong lời thoại của Zettour và hai câu hỏi truy vấn liên tiếp về mục đích lẫn lý do cân nhắc kế hoạch."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000007"
+    locks:
+      - "Khóa câu trả lời ngắn gọn của Rudersdorf ('Để tránh thua cuộc chiến này'), cặp xưng hô 'tôi' – 'ông' và phủ định tình thái 'Lẽ ra tôi không cần phải nói toạc ra cho ông hiểu chứ'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000008"
+    locks:
+      - "Khóa đại từ 'họ', định danh 'Đế quốc', cụm 'bản kế hoạch định đoạt vận mệnh của Đế quốc' và nhận định mỉa mai nhẹ 'một chủ đề xứng đáng được bàn với thái độ nhiệt huyết hơn đôi chút'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000009"
+    locks:
+      - "Khóa điểm nhìn nội tâm gián tiếp của Zettour với đại từ 'ông' – 'mình', các cụm 'tuyên thệ phụng sự quân ngũ', 'tầm nhìn về tương lai của đất nước' và câu hỏi tự vấn về việc phải 'đấu khẩu với người đàn ông mà mình xem như anh em kết nghĩa'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000010"
+    locks:
+      - "Khóa tên riêng 'Zettour', đại từ 'ông', hành động 'nuốt những mối nghi ngờ ban đầu vào trong' và việc 'tiếp tục máy móc bác bỏ người bạn của mình như bất kỳ vị tướng nào ở cương vị của ông phải làm'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000011"
+    locks:
+      - "Khóa cặp xưng hô 'Tôi' – 'Ông', đại từ 'chúng ta', thuật ngữ 'Kế hoạch B', 'các nỗ lực thăm dò ngoại giao', tên quốc gia 'Ildoa' và hai câu hỏi xác nhận việc 'lật đổ chính phủ, rồi lập tức xâm lược Ildoa'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000012"
+    locks:
+      - "Khóa cách gọi 'Kẻ ngốc ngồi đối diện ông' (chỉ Rudersdorf dưới góc nhìn Zettour), hành động 'gật đầu thật sâu' của Rudersdorf và việc làm rõ chủ thể phát ngôn câu hỏi tiếp theo từ đáy lòng để khớp mạch hội thoại với p000011, p000013 và p000019."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000013"
+    locks:
+      - "Khóa đại từ 'Ông' và câu hỏi chất vấn trực tiếp về kết quả kỳ vọng ('Ông kỳ vọng sẽ đạt được kết quả gì từ chuyện này?')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000014"
+    locks:
+      - "Khóa tên riêng 'Zettour', đại từ 'Ông', cụm 'quân nhân chuyên nghiệp', tên cơ quan 'Văn phòng Bộ Tổng tham mưu' và ẩn dụ 'sinh huyết của quốc gia mình đang dần cạn kiệt'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000015"
+    locks:
+      - "Khóa đại từ 'Ông' và mức độ xác tín khẳng định 'tin chắc vào nhận định của mình'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000016"
+    locks:
+      - "Khóa quan hệ nhân quả 'Đó là lý do vì sao', đại từ 'ông', cụm 'người bạn lâu năm của mình' và mục tiêu 'tìm kiếm một lối thoát khỏi mớ hỗn độn này với sự hy sinh ít nhất có thể'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000017"
+    locks:
+      - "Khóa tên riêng 'Zettour' và chi tiết 'nhìn người bạn bằng ánh mắt nghiêm nghị'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000018"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu độc thoại nội tâm '*Bạn của tôi ơi, Rudersdorf, đồ ngốc chết tiệt này… Rốt cuộc ông đang tính giở trò gì thế hả?*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000019"
+    locks:
+      - "Khóa đại từ 'Tôi', 'chúng ta'/'ta', tên quốc gia 'Ildoa', tên riêng 'Rudersdorf', lập luận coi Ildoa là 'một điểm yếu trong tuyến phòng thủ của ta' cần khắc phục để 'ngăn chặn sự sụp đổ đang cận kề của đất nước chúng ta', cùng cử chỉ 'hơi ngẩng đầu lên khi nói'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000020"
+    locks:
+      - "Khóa tên riêng 'Zettour' và sắc thái mỉa mai pha lẫn chạnh lòng 'suýt nữa đã khiến Zettour muốn ôm lấy hy vọng'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000021"
+    locks:
+      - "Khóa đại từ 'ông', 'chúng ta', động từ tình thái khả năng 'có thể làm' (đối lập trực tiếp với p000022–p000023) và cụm 'tránh khỏi sự diệt vong đang cận kề'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000022"
+    locks:
+      - "Khóa đại từ 'Tôi', 'chúng ta' và tình thái bổn phận/mong muốn 'cần phải tránh' (khớp đối lập với 'có thể' ở p000021 và p000023)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000023"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại câu đầu '*Không phải là có thể, mà là cần phải.*' và cấu trúc đối lập phủ định 'Đó không phải là câu chuyện về tính khả thi, mà là mong muốn chủ quan của Rudersdorf'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000024"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại câu hỏi nội tâm '*Đó là lý lẽ tốt nhất mà ông ta nghĩ ra được sao?*' và mệnh đề trần thuật 'Zettour vừa thở dài vừa thầm nghĩ'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000025"
+    locks:
+      - "Khóa cấu trúc câu hỏi tu từ phủ định 'Chẳng phải... hay sao?', thuật ngữ 'Kế hoạch B', định danh 'Đế quốc' và nội dung 'đã kiệt quệ đến mức không còn có thể tính đến bất kỳ phương án thay thế nào khác'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000026"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ đoạn độc thoại nội tâm tự phản tỉnh '*Vậy mà giờ mình lại ngồi đây bàn bạc chuyện này với người bạn cũ. Cái tên ngốc này.*' với đại từ tự quy chiếu 'mình'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000027"
+    locks:
+      - "Khóa cặp xưng hô 'Tôi' – 'ông', đại từ 'chúng ta', tên riêng 'Rudersdorf', cụm liên kết 'chuyện chúng ta cần phải làm gì ở giai đoạn này của cuộc chơi' và nhận xét mỉa mai về việc 'tầm nhìn xa của ông đang ngày càng khó phân biệt với niềm hy vọng vào tương lai'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000028"
+    locks:
+      - "Khóa danh xưng 'Zettour', đại từ 'chúng ta' – 'mình', số lượng 'Hàng chục ngàn binh sĩ đã bỏ mạng dưới quyền chỉ huy của chúng ta', dấu ba chấm ngập ngừng 'Chúng ta phải… chấp nhận rằng mình đã phạm sai lầm' và chuỗi phủ định khẳng định quyết tâm không để sự hy sinh trở nên vô nghĩa hay tự tay hủy hoại lý tưởng của binh sĩ."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000029"
+    locks:
+      - "Khóa tên riêng 'Zettour', đại từ 'ông', chi tiết binh sĩ hiến dâng mạng sống với 'niềm tin vào chiến thắng cuối cùng' và cấu trúc phủ định kép 'Không một ngày nào trôi qua mà những linh hồn đã khuất ấy không ám ảnh ông'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000030"
+    locks:
+      - "Khóa liên từ nhượng bộ 'Dẫu vậy', đại từ 'ông' và phủ định bất lực 'chẳng thể làm được gì để thay đổi thực tế đó'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000031"
+    locks:
+      - "Khóa cách gọi 'Ông lão' (chỉ Zettour), đại từ 'ông', định danh 'Đế quốc', biểu tượng 'Nữ thần Chiến thắng', chức vụ cấp phó tại 'Bộ Tổng tham mưu' và kết luận phủ định dứt khoát rằng Đế quốc 'không còn khả năng chạm tới Nữ thần Chiến thắng được nữa'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000032"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 chỉ tại câu đầu '*À phải, vị nữ thần chết tiệt đó.*', giữ văn bản thường cho phần còn lại với đại từ 'ả', thuật ngữ 'Heimat' và hình ảnh ẩn dụ 'dùng thứ mật ngọt hy vọng để nhử... xuống địa ngục'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000033"
+    locks:
+      - "Khóa cách gọi thân mật pha châm biếm 'ông bạn chậm hiểu của tôi', cặp đại từ 'tôi' – 'ông', 'Chúng ta', ẩn dụ coi việc theo đuổi Nữ thần Chiến thắng là 'ngoại tình' và câu hỏi móc máy 'Hay ông đã quên mất tình yêu nồng cháy với vợ mình rồi?'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000034"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'ông', sự phân định rạch ròi giữa 'việc quân cơ và chuyện gia đình' và lời khẳng định 'một lòng chung thủy với cả người bạn đời lẫn cuộc chiến này'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000035"
+    locks:
+      - "Khóa cặp đại từ 'Ông' – 'tôi', 'cả hai ta' và hình ảnh ẩn dụ khép lại màn đối đáp 'theo đuổi một mối tình mà cả hai ta đều biết sẽ chẳng bao giờ đơm hoa kết trái'."
