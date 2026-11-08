@@ -1,0 +1,328 @@
+task_id: "vol-11-ch-01-b13-argon-review"
+parent_task_id: "vol-11-ch-01-b13"
+volume: "vol-11"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+target_translation: "translations/vol-11/ch-01-b13.jsonl"
+source_package: "work/vol-11/batches/ch-01-b13-source.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000001"
+    severity: "minor"
+    category: "register_and_address"
+    issue: "Tướng Zettour (cấp trên) khi gọi Trung tá Tanya (cấp dưới) đang dùng tiểu từ kính ngữ 'Trung tá ạ', làm lệch nhẹ tương quan cấp bậc trong thoại quân đội và trùng với sắc thái lễ phép mà Tanya dùng để thưa gửi Zettour ở p000005, p000011, p000024."
+    evidence: "Đối chiếu cách Zettour gọi Tanya ở p000012 ('Đừng giả ngây nữa, Trung tá.') và ở lô trước p000370 ('Trung tá, tôi là một người tốt...')."
+    recommendation: "Bỏ tiểu từ 'ạ', sửa ', Trung tá ạ.' thành ', Trung tá.'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000012"
+    severity: "minor"
+    category: "meaning_and_metaphor"
+    issue: "Ở câu cuối, thành ngữ chỉ việc bày toàn bộ mọi thứ ra bàn đang được dịch cụ thể hóa thành 'bày hết mọi quân bài lên bàn', làm chuyển hướng sang ẩn dụ đánh bài và làm mờ nhẹ mạch liên kết trực tiếp với ẩn dụ đóng cửa tiệm / đợt xả hàng thanh lý mà Tanya liên tưởng ngay ở p000013."
+    evidence: "Đối chiếu mạch ẩn dụ kinh doanh nối tiếp từ câu áp cuối p000012 ('đóng cửa dẹp tiệm') sang hai câu đầu p000013 ('tất toán mọi khoản nợ tồn đọng', 'một đợt xả hàng thanh lý để đóng cửa')."
+    recommendation: "Đổi 'bày hết mọi quân bài lên bàn' thành 'bày hết mọi thứ lên bàn'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000019"
+    severity: "minor"
+    category: "terminology_and_collocation"
+    issue: "Cụm danh từ chỉ con người Zettour ở câu cuối đang dịch là 'cá nhân có tính hợp lý tên là Zettour kia', ghép trực tiếp danh từ 'tính hợp lý' vào danh từ chỉ người nên hơi cứng so với kết hợp từ tiếng Việt tự nhiên khi mô tả phẩm chất tư duy của một cá nhân."
+    evidence: "Đối chiếu canon/glossary-pending.yml (mục P03-rationality có phương án 'tính hợp lý' / 'tính duy lý') và cách dùng tự nhiên cho danh từ chỉ người ('cá nhân duy lý' hoặc 'con người lý trí')."
+    recommendation: "Có thể chỉnh mượt thành 'cá nhân duy lý tên là Zettour kia' (hoặc 'con người lý trí tên là Zettour kia')."
+pending_term_recommendations:
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml khi gọi cấp bậc Trung tá của Tanya."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000001"
+      - "YS-LN11/Text/chapter004.xhtml/p000012"
+  - source_term: "General Zettour / the general"
+    proposed_vi: "Tướng Zettour / vị tướng"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm đã thiết lập trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Zettour"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000003"
+      - "YS-LN11/Text/chapter004.xhtml/p000007"
+      - "YS-LN11/Text/chapter004.xhtml/p000013"
+      - "YS-LN11/Text/chapter004.xhtml/p000015"
+      - "YS-LN11/Text/chapter004.xhtml/p000017"
+      - "YS-LN11/Text/chapter004.xhtml/p000026"
+  - source_term: "contingency plan"
+    proposed_vi: "kế hoạch dự phòng"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi:
+      - "phương án dự phòng"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000012"
+  - source_term: "the Reich"
+    proposed_vi: "Đế chế"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ phân biệt với 'the Empire' ('Đế quốc') và thống nhất với pending-terms-index.yml."
+    alternatives_vi:
+      - "Đế quốc"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000012"
+  - source_term: "V-shaped recovery"
+    proposed_vi: "cuộc phục hồi hình chữ V"
+    category: "thuật ngữ kinh tế"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ kinh tế học chuẩn xác chỉ sự phục hồi kinh tế bật tăng trở lại ngay sau suy thoái, đối lập với phương án thanh lý/tất toán nợ của Zettour."
+    alternatives_vi:
+      - "sự phục hồi hình chữ V"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000013"
+  - source_term: "status quo"
+    proposed_vi: "nguyên trạng"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Cách dịch chuẩn xác, tự nhiên trong cụm 'duy trì nguyên trạng'."
+    alternatives_vi:
+      - "hiện trạng"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000019"
+  - source_term: "implicit bias"
+    proposed_vi: "thiên kiến ngầm"
+    category: "thuật ngữ tâm lý - hành vi"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ chuẩn xác trong tâm lý học và kinh tế học hành vi, phù hợp với vốn từ chuyên môn của Tanya."
+    alternatives_vi:
+      - "định kiến ngầm"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000019"
+  - source_term: "senior staff officer"
+    proposed_vi: "sĩ quan tham mưu cao cấp"
+    category: "chức danh quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000020"
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Phương án B"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000020"
+  - source_term: "the Empire / Imperial Army"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc"
+    category: "tổ chức / quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000021"
+  - source_term: "single source of command"
+    proposed_vi: "việc quy quyền chỉ huy về một mối"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Diễn đạt rõ ràng, tự nhiên nguyên tắc tập trung đầu mối chỉ huy thống nhất trong ngữ cảnh Kế hoạch B."
+    alternatives_vi:
+      - "một đầu mối chỉ huy thống nhất"
+    segment_ids:
+      - "YS-LN11/Text/chapter004.xhtml/p000024"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000001"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi - cô"
+    terms:
+      - "Colonel -> Trung tá"
+      - "defeatist -> kẻ theo chủ nghĩa chủ bại"
+      - "realist -> người thực tế"
+    choices:
+      - "Giữ cặp đối lập 'người yêu nước' - 'kẻ theo chủ nghĩa chủ bại' và nhận định 'coi việc tránh được thất bại cũng là một chiến thắng'; bỏ tiểu từ 'ạ' sau 'Trung tá'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000002"
+    pov: "Tanya_first_person"
+    pronouns: "Cô (Tanya trong lời mời gọi không lời của Zettour)"
+    emphasis:
+      - "*Cô nói sao nào?*"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*Cô nói sao nào?*' theo DEC-P01-002."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000003"
+    pov: "Tanya_first_person"
+    pronouns: "mình"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ tự xưng 'mình' theo DEC-P01-001 và 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000004"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi - cô"
+    choices:
+      - "Giữ sự đối lập giữa việc bắn Zettour và việc 'bắn người bạn của tôi thì hợp logic hơn đấy' (ám chỉ Rudersdorf)."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000005"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "ngài, ông ấy (Rudersdorf)"
+    choices:
+      - "Giữ câu hỏi xác nhận lễ phép của Tanya với 'ngài', 'ông ấy' và 'ạ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000006"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Chúng ta, Tôi - cô"
+    choices:
+      - "Giữ lời cam kết nhận trách nhiệm của Zettour ('Tôi sẽ nhận trách nhiệm nếu tình thế đòi hỏi') làm cơ sở cho đánh giá của Tanya ở p000007."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000007"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ chi tiết chấm điểm 'B+', mức độ 'đáp ứng được mức tối thiểu những gì mình cần' và 'Tướng Zettour'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000008"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi - cô"
+    choices:
+      - "Giữ cách nói uyển ngữ mỉa mai 'chăm sóc người bạn cố tri yêu quý của tôi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000009"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài"
+    choices:
+      - "Giữ điều kiện 'ngay khi ngài hạ lệnh' và câu chuyển ý hỏi thêm kế hoạch."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000010"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ chuỗi ba nội dung Tanya muốn biết và ẩn dụ 'Nếu không thể bỏ cuộc chơi này, chí ít mình cũng cần nắm rõ luật chơi của nó'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000011"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "ngài"
+    choices:
+      - "Giữ câu hỏi trực diện 'Kế hoạch của ngài là gì ạ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000012"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi - cô, chúng ta"
+    terms:
+      - "Colonel -> Trung tá"
+      - "contingency plan -> kế hoạch dự phòng"
+      - "the Reich -> Đế chế"
+    choices:
+      - "Giữ cách gọi 'Trung tá', 'kế hoạch dự phòng', 'Đế chế' và ẩn dụ 'đóng cửa dẹp tiệm'; chỉnh 'bày hết mọi quân bài lên bàn' thành 'bày hết mọi thứ lên bàn'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000013"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    terms:
+      - "V-shaped recovery -> cuộc phục hồi hình chữ V"
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ chuỗi ẩn dụ kinh tế - thanh lý ('cuộc phục hồi hình chữ V', 'tất toán mọi khoản nợ tồn đọng', 'một đợt xả hàng thanh lý để đóng cửa') và hành động Zettour bước ra cửa sổ nhìn lên bầu trời."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000014"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ phủ định 'chưa từng thấy tấm lưng của ông ấy trông nhỏ bé đến thế bao giờ'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000015"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ câu tự vấn nội tâm với sắc thái nghi vấn 'liệu... hay chăng' và tư thế 'Vẫn quay lưng về phía mình'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000016"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Chúng ta, Tôi"
+    choices:
+      - "Giữ ẩn dụ hàng không 'muốn cú hạ cánh khẩn cấp của chúng ta êm ái hết mức có thể'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000017"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy / vị tướng (Zettour)"
+    terms:
+      - "the general -> vị tướng"
+    choices:
+      - "Giữ thế lưỡng phân trong cảm nhận của Tanya về vẻ mong manh của Zettour và chi tiết ông ngước nhìn trần nhà nhả khói thuốc kèm tiếng thở dài."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000018"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "chúng ta, tôi"
+    terms:
+      - "Rudersdorf -> Rudersdorf"
+    choices:
+      - "Giữ ẩn dụ nối tiếp 'hạ cánh an toàn', cách gọi thân mật pha châm biếm 'gã đầu đất Rudersdorf kia' và sự đối lập 'nhìn về cùng một giấc mơ. Chỉ là đoạn kết khác nhau mà thôi'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000019"
+    pov: "Tanya_first_person"
+    terms:
+      - "status quo -> nguyên trạng"
+      - "implicit bias -> thiên kiến ngầm"
+      - "Zettour -> Zettour"
+    choices:
+      - "Giữ 'duy trì nguyên trạng' và 'thiên kiến ngầm'; chỉnh cụm mô tả Zettour thành 'cá nhân duy lý tên là Zettour kia' (hoặc 'con người lý trí tên là Zettour kia')."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000020"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi"
+    terms:
+      - "senior staff officer -> sĩ quan tham mưu cao cấp"
+      - "Plan B -> Kế hoạch B"
+    choices:
+      - "Giữ 'sĩ quan tham mưu cao cấp' và mệnh đề 'Kế hoạch B cần phải đặt dấu chấm hết cho tất cả chuyện này'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000021"
+    pov: "Tanya_first_person"
+    pronouns: "mình, chúng ta"
+    terms:
+      - "the Empire -> Đế quốc"
+      - "Imperial Army -> Lục quân Đế quốc"
+    choices:
+      - "Giữ nhận định 'Đế quốc đã là một đại cuộc vô phương cứu vãn', 'dự đoán hợp lý' và chi tiết chỉ có duy nhất một quý ông trong 'Lục quân Đế quốc' sẵn sàng bàn thẳng về thất bại cận kề."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000022"
+    pov: "Tanya_first_person"
+    pronouns: "họ, bạn (ngôi thứ hai khái quát)"
+    choices:
+      - "Giữ đại từ khái quát 'bạn' và dấu hai chấm dẫn sang lời nhận xét của Zettour ở p000023."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000023"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi"
+    terms:
+      - "strategist -> các nhà chiến lược"
+    choices:
+      - "Giữ đánh giá phê phán của Zettour đối với kế hoạch hiện tại là 'thứ lời lẽ nhảm nhí quen thuộc của các nhà chiến lược, chất chứa đầy những hy vọng và mộng tưởng về chiến thắng'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000024"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Ngài"
+    terms:
+      - "single source of command -> việc quy quyền chỉ huy về một mối"
+    choices:
+      - "Giữ câu hỏi đuôi phủ định 'Ngài không phản đối việc quy quyền chỉ huy về một mối chứ ạ?'."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000025"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi, ông ấy (Rudersdorf), chúng ta"
+    choices:
+      - "Giữ phủ định mạnh 'Hoàn toàn không', sự phân biệt giữa nguyên tắc thống nhất chỉ huy với 'chính bản thân kế hoạch của ông ấy', và hệ quả của việc ép đưa quân đội lên nắm quyền kiểm soát quốc gia vào phút chót."
+  - segment_id: "YS-LN11/Text/chapter004.xhtml/p000026"
+    pov: "Tanya_first_person"
+    pronouns: "Mình"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+      - "private sector -> khu vực tư nhân"
+    choices:
+      - "Giữ bộ ba 'khu vực tư nhân, chính phủ và quân đội' cùng hình ảnh tiếng thở dài và nỗi thống khổ bắt nguồn từ sự cam chịu số phận ở câu kết."
