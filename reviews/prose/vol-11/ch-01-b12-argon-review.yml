@@ -1,0 +1,356 @@
+task_id: "vol-11-ch-01-b12-argon-review"
+parent_task_id: "vol-11-ch-01-b12"
+volume: "vol-11"
+chapter: 1
+reviewer: "gemini-4-argon-medium"
+target_translation: "translations/vol-11/ch-01-b12.jsonl"
+source_package: "work/vol-11/batches/ch-01-b12-source.jsonl"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000346"
+    severity: "minor"
+    category: "meaning_and_nuance"
+    issue: "Trạng từ bổ nghĩa cho hành động mở đường tới chiến thắng của các nhà chiến lược đang được dịch là 'bằng mọi giá', làm dịch chuyển sắc thái từ tính chất mặc định 'vô điều kiện' (coi chiến thắng là tiền đề tuyệt đối không bàn cãi) sang cái giá phải trả, làm mờ nhẹ mạch liên kết logic với câu hỏi ở p000348."
+    evidence: "Đối chiếu mạch lập luận từ p000346 sang p000347-p000348 về việc các nhà chiến lược chỉ hỏi làm sao để thắng chứ không đặt câu hỏi liệu có thắng được không."
+    recommendation: "Đổi 'bằng mọi giá' thành 'một cách vô điều kiện' (hoặc 'chỉ chăm chăm mở ra con đường đi tới chiến thắng một cách vô điều kiện')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000355"
+    severity: "minor"
+    category: "tense_and_pronouns"
+    issue: "Mệnh đề chỉ thời điểm cảm xúc của Zettour đang thêm từ chỉ tần suất lặp lại 'mỗi khi' ('mỗi khi nghĩ về người bạn lâu năm của mình'), biến phản ứng trực tiếp ngay lúc đang nhắc tới Rudersdorf thành thói quen lặp lại. Ngoài ra, đại từ quy chiếu Zettour ở mệnh đề phụ nên dùng 'ông ấy' để đồng nhất với điểm nhìn ngôi thứ nhất của Tanya ở p000351 và p000358."
+    evidence: "Đối chiếu thời hiện tại gắn với hành động phát ngôn ở p000355 và hệ đại từ 'Mình - ông ấy' trong mạch trần thuật của Tanya (p000351, p000358, p000361)."
+    recommendation: "Sửa 'mà ông cảm thấy mỗi khi nghĩ về' thành 'mà ông ấy cảm thấy khi nghĩ về'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000373"
+    severity: "minor"
+    category: "meaning_and_precision"
+    issue: "Ở câu kế cuối, bản dịch thêm danh từ cụ thể 'bằng chứng' ('mình vẫn chưa có đủ bằng chứng để thuyết phục họ'), hơi thu hẹp phạm vi diễn đạt so với bản gốc vốn chỉ chung cơ sở/sức nặng thuyết phục từ lời xác nhận tường minh của Zettour."
+    evidence: "Đối chiếu mục đích của Tanya tại p000366-p000368 (buộc Zettour nói rõ mệnh lệnh và lý giải bằng lời lẽ tường minh phòng khi phải ra làm chứng trước tòa) và nguyên tắc không tự thu hẹp nghĩa trong canon/style-guide.md."
+    recommendation: "Đổi 'vẫn chưa có đủ bằng chứng để thuyết phục họ' thành 'vẫn chưa có đủ cơ sở để thuyết phục họ' hoặc 'vẫn chưa đủ để thuyết phục họ'."
+pending_term_recommendations:
+  - source_term: "General Zettour"
+    proposed_vi: "Tướng Zettour"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm đã thiết lập trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Zettour"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000343"
+      - "YS-LN11/Text/chapter002.xhtml/p000349"
+      - "YS-LN11/Text/chapter002.xhtml/p000355"
+      - "YS-LN11/Text/chapter002.xhtml/p000358"
+      - "YS-LN11/Text/chapter002.xhtml/p000373"
+  - source_term: "Plan B / plan A / plan B"
+    proposed_vi: "Kế hoạch B / kế hoạch A / kế hoạch B"
+    category: "thuật ngữ"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml; viết hoa 'Kế hoạch B' khi chỉ phương án dự phòng cụ thể ở p000356, p000359 và viết thường khi nói khái quát ở p000344."
+    alternatives_vi:
+      - "Phương án B / phương án A / phương án B"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000344"
+      - "YS-LN11/Text/chapter002.xhtml/p000356"
+      - "YS-LN11/Text/chapter002.xhtml/p000359"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml xuyên suốt các tập."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000350"
+  - source_term: "General Rudersdorf"
+    proposed_vi: "Tướng Rudersdorf"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Rudersdorf"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000353"
+      - "YS-LN11/Text/chapter002.xhtml/p000359"
+  - source_term: "Ildoa"
+    proposed_vi: "Ildoa"
+    category: "địa danh / quốc gia"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ nguyên tên riêng theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000356"
+  - source_term: "Lieutenant Colonel"
+    proposed_vi: "Trung tá"
+    category: "quân hàm / xưng hô"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Phản ánh đúng cấp bậc hiện tại của Tanya và thống nhất với pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000370"
+  - source_term: "Colonel Lergen"
+    proposed_vi: "Đại tá Lergen"
+    category: "quân hàm / nhân vật"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000372"
+  - source_term: "financial receiver"
+    proposed_vi: "quản tài viên"
+    category: "thuật ngữ pháp lý - tài chính"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Thuật ngữ pháp lý - tài chính chuẩn xác chỉ người được chỉ định tiếp quản, đánh giá tài sản và xử lý tình trạng mất khả năng thanh toán/phá sản (bankruptcy), phù hợp hoàn hảo với ẩn dụ phá sản quốc gia ở câu sau."
+    alternatives_vi:
+      - "người tiếp quản tài chính"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000373"
+  - source_term: "Reich"
+    proposed_vi: "Đế chế"
+    category: "thuật ngữ chính trị"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ phân biệt với 'the Empire' ('Đế quốc') và thống nhất với mục đã ghi trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Đế quốc"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000373"
+  - source_term: "stakeholder"
+    proposed_vi: "bên liên quan"
+    category: "thuật ngữ kinh tế - quản trị"
+    status: "pending"
+    uncertainty: "low"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml."
+    alternatives_vi:
+      - "bên có quyền lợi liên quan"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000373"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000343"
+    pov: "narrator_with_Tanya_focalization"
+    pronouns: "ông (Zettour), Tanya"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ điểm nhìn trần thuật khách quan ở câu mở cảnh nhắc tên 'Tướng Zettour' và 'Tanya'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000344"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "ông ấy (chỉ Rudersdorf)"
+    terms:
+      - "plan A / plan B -> kế hoạch A / kế hoạch B"
+    choices:
+      - "Giữ đại từ 'ông ấy' khi Zettour nói về người bạn lâu năm Rudersdorf và chuỗi 'kế hoạch A', 'kế hoạch B', 'kế hoạch thứ ba'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000345"
+    pov: "Tanya_first_person"
+    pronouns: "ông ấy (chỉ Rudersdorf)"
+    terms:
+      - "front lines -> tiền tuyến"
+    choices:
+      - "Giữ ẩn dụ 'thanh kiếm hai lưỡi' và đại từ 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000346"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    terms:
+      - "strategists -> các nhà chiến lược"
+    choices:
+      - "Sửa 'bằng mọi giá' thành 'một cách vô điều kiện' để giữ đúng nghĩa trạng từ chỉ tính chất không kèm điều kiện."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000347"
+    pov: "Tanya_first_person"
+    pronouns: "chúng ta (chỉ tập thể quốc gia/Đế quốc)"
+    terms:
+      - "The empire -> Đế quốc"
+      - "emerging superpower -> siêu cường mới nổi"
+    choices:
+      - "Giữ phủ định 'chưa từng nếm trải thất bại bao giờ' và đại từ ngôi thứ nhất số nhiều bao gộp 'chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000348"
+    pov: "Tanya_first_person"
+    pronouns: "chúng ta"
+    emphasis:
+      - "*Liệu chúng ta có thắng được không?*"
+    terms:
+      - "strategist -> nhà chiến lược"
+      - "the Empire -> Đế quốc"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*Liệu chúng ta có thắng được không?*' theo DEC-P01-002 và sự đối lập giữa hai câu hỏi chiến lược."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000349"
+    pov: "Tanya_first_person"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ mô tả vẻ cô độc và hành động tự cười của Tướng Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000350"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "chúng ta"
+    terms:
+      - "Imperial Army -> Lục quân Đế quốc"
+      - "defensive actions -> các hoạt động phòng ngự"
+    choices:
+      - "Giữ đại từ bao gộp 'chúng ta' và thuật ngữ 'Lục quân Đế quốc'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000351"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ tự xưng 'Mình' theo DEC-P01-001 và cặp cảm xúc đối lập 'cả sự yêu mến lẫn lòng căm ghét' đối với 'huyền thoại đã mất'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000352"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "chúng ta"
+    choices:
+      - "Giữ nhận định về việc không thể thắng cuộc chiến này là 'chưa từng có tiền lệ trong lịch sử'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000353"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    terms:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+    choices:
+      - "Giữ mức độ dè dặt 'dường như không sẵn lòng chấp nhận'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000354"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "ông ấy (Rudersdorf)"
+    terms:
+      - "strategist -> nhà chiến lược"
+    choices:
+      - "Giữ sự phân biệt giữa 'nhận thức được thất bại' và việc 'thật sự tiếp nhận nó'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000355"
+    pov: "Tanya_first_person"
+    pronouns: "ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Sửa 'mà ông cảm thấy mỗi khi nghĩ về' thành 'mà ông ấy cảm thấy khi nghĩ về'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000356"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "ông ấy (Rudersdorf), chúng tôi (Zettour và Rudersdorf), chúng ta (quốc gia Đế quốc)"
+    terms:
+      - "Plan B -> Kế hoạch B"
+      - "military coup -> đảo chính quân sự"
+      - "Ildoa -> Ildoa"
+    choices:
+      - "Giữ sự phân biệt chuẩn xác giữa 'chúng tôi' (nhóm lập kế hoạch B) và 'chúng ta' (quốc gia Đế quốc), cấu trúc tăng tiến 'Không những... mà ông ấy còn...' và mệnh đề kết 'Chiến tranh là phương tiện để giải quyết xung đột. Nó không thể là mục tiêu được.'"
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000357"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "hai ngài, thưa ngài"
+    choices:
+      - "Giữ câu hỏi lễ phép 'Đây có phải là điểm bất đồng giữa hai ngài không ạ, thưa ngài?'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000358"
+    pov: "Tanya_first_person"
+    pronouns: "Ông ấy (Zettour)"
+    terms:
+      - "General Zettour -> Tướng Zettour"
+    choices:
+      - "Giữ 'Ông ấy' và mô tả 'Một Tướng Zettour rã rời gật đầu trước khi lắc đầu vẻ bực dọc'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000359"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi, chúng ta, ông ấy (Rudersdorf)"
+    terms:
+      - "Plan B -> Kế hoạch B"
+      - "General Rudersdorf -> Tướng Rudersdorf"
+      - "Empire -> Đế quốc"
+      - "defeatism -> tư tưởng chủ bại"
+    choices:
+      - "Giữ khái niệm 'một thất bại gọn ghẽ' và giả định trái thực tế ở cuối đoạn về 'tư tưởng chủ bại'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000360"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Ngài"
+    choices:
+      - "Giữ câu hỏi thăm dò của Tanya với đại từ 'Ngài' và 'chưa ạ'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000361"
+    pov: "Tanya_first_person"
+    pronouns: "mình, ông ấy (Zettour)"
+    choices:
+      - "Giữ 'Cấp trên của mình' và 'ông ấy'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000362"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi"
+    terms:
+      - "strategy -> phương diện chiến lược"
+      - "operationally speaking -> xét trên phương diện chiến dịch"
+    choices:
+      - "Giữ đối lập thuật ngữ quân sự giữa 'phương diện chiến lược' và 'phương diện chiến dịch', cùng phủ định kép 'không phải là bất khả thi'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000363"
+    pov: "Tanya_first_person"
+    pronouns: "ông (Zettour)"
+    choices:
+      - "Giữ câu dẫn thoại ngắn trước lời độc thoại trách cứ ở p000364."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000364"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "Tôi, chúng ta"
+    choices:
+      - "Giữ phủ định 'không thể để di sản của cha ông chúng ta kết thúc bằng một cuộc tự sát tập thể mù quáng được'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000365"
+    pov: "Tanya_first_person"
+    pronouns: "ông ấy (Zettour)"
+    choices:
+      - "Giữ nhận xét nội tâm 'quá đỗi vòng vo'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000366"
+    pov: "Tanya_first_person"
+    pronouns: "Mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ tự xưng 'Mình' và mục đích dự phòng khi phải 'ra làm chứng trước tòa'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000367"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "Thưa ngài, tôi"
+    choices:
+      - "Giữ câu thoại ngắn khẳng định vị thế quân nhân 'Thưa ngài, tôi là một người lính.'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000368"
+    pov: "Tanya_first_person"
+    pronouns: "mình - ông ấy (Zettour)"
+    choices:
+      - "Giữ điều kiện giả định 'nếu hành động mà không có mệnh lệnh rõ ràng cùng một lời giải thích thật sự vững chắc cho những mệnh lệnh ấy'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000369"
+    speaker: "Tanya"
+    addressee: "Zettour"
+    pronouns: "tôi - ngài"
+    choices:
+      - "Giữ yêu cầu xác nhận trực diện 'tôi cần phải hiểu rõ ý định thật sự của ngài'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000370"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi, chúng ta"
+    terms:
+      - "Lieutenant Colonel -> Trung tá"
+    choices:
+      - "Giữ cách gọi 'Trung tá', sự đối lập 'một người tốt, nhưng lại là một thành viên xấu xa của tổ chức này' và cụm 'có nghĩa vụ' khớp với p000371."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000371"
+    pov: "Tanya_first_person"
+    emphasis:
+      - "*Có nghĩa vụ.*"
+    choices:
+      - "Giữ nhấn mạnh Markdown '*Có nghĩa vụ.*' theo DEC-P01-002 liên kết trực tiếp với lời Zettour ở p000370."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000372"
+    speaker: "Zettour"
+    addressee: "Tanya"
+    pronouns: "tôi, chúng ta, anh ta (Lergen)"
+    terms:
+      - "Colonel Lergen -> Đại tá Lergen"
+    choices:
+      - "Giữ 'Đại tá Lergen', 'lộ trình hòa giải' và thành ngữ chỉ trách nhiệm cuối cùng 'trách nhiệm sau cùng thuộc về tôi'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000373"
+    pov: "Tanya_first_person"
+    pronouns: "mình, ông ấy (Zettour)"
+    terms:
+      - "financial receiver -> quản tài viên"
+      - "Reich -> Đế chế"
+      - "stakeholder -> bên liên quan"
+      - "General Zettour -> Tướng Zettour"
+      - "jurors -> bồi thẩm đoàn"
+    choices:
+      - "Giữ hệ ẩn dụ pháp lý - tài chính ('quản tài viên', 'Đế chế đang suy tàn này rốt cuộc cũng lâm vào cảnh phá sản', 'bên liên quan', 'bồi thẩm đoàn'); đổi 'vẫn chưa có đủ bằng chứng để thuyết phục họ' thành 'vẫn chưa có đủ cơ sở để thuyết phục họ' hoặc 'vẫn chưa đủ để thuyết phục họ'."
