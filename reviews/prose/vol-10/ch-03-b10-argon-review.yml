@@ -1,0 +1,288 @@
+task_id: "vol-10-ch-03-b10-argon-review"
+parent_task_id: "vol-10-ch-03-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 3
+source_package: "work/vol-10/batches/ch-03-b10-source.jsonl"
+target_translation: "translations/vol-10/ch-03-b10.jsonl"
+review_path: "reviews/prose/vol-10/ch-03-b10-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 5
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000190"
+    severity: "minor"
+    issue: "Câu mở đầu dùng cụm giới từ 'Ngay từ vấn đề đầu tiên được đem ra bàn' làm chủ ngữ cho vị ngữ 'đã khiến ruột gan anh quặn thắt...', tạo cấu trúc câu khuyết chủ ngữ trong tiếng Việt."
+    basis: "Quy tắc viết tiếng Việt tự nhiên, rõ ràng trong canon/style-guide.md tại p000190."
+    recommendation: "Ở bước chuốt văn có thể bỏ từ 'từ' để chỉnh thành 'Ngay vấn đề đầu tiên được đem ra bàn đã khiến ruột gan anh quặn thắt...'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000202"
+    severity: "minor"
+    issue: "Từ 'quở phạt' mang thêm nét nghĩa trừng phạt nặng hơn sắc thái quở trách nhẹ bằng lời nói của từ gốc trong cụm đi đôi với 'trách móc'."
+    basis: "Quy tắc giữ đúng sắc thái và bình diện đánh giá của bản gốc trong canon/style-guide.md tại p000202."
+    recommendation: "Ở bước chuốt văn có thể chỉnh 'quở phạt' thành 'quở trách' hoặc 'khiển trách'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000207"
+    severity: "minor"
+    issue: "Dịch cụm danh từ chỉ đơn kiến nghị rút lui/triệu hồi thành 'đơn thỉnh cầu rút quân' hơi thu hẹp đối tượng vào toàn bộ quân đội, trong khi câu kế tiếp liên hệ trực tiếp với hồ sơ lý lịch của đơn vị tình nguyện đa quốc gia và Trung úy Sue."
+    basis: "Quy tắc không tự thu hẹp phạm vi nghĩa của bản gốc trong canon/style-guide.md tại p000207."
+    recommendation: "Ở bước chuốt văn có thể cân nhắc chỉnh thành 'đơn kiến nghị cho rút về' hoặc 'đơn thỉnh cầu rút lui' để bao quát tự nhiên cả trường hợp rút nhân sự lẫn đơn vị."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000213"
+    severity: "minor"
+    issue: "Cụm 'làm ngơ như vậy' ở cuối câu cụ thể hóa hơi sâu đại từ chỉ định chung trong nguyên văn (vốn quy chiếu cả về việc đồng tình với nhận định của cấp trên lẫn việc không bận tâm đến tổn thất)."
+    basis: "Quy tắc giữ độ mở và không tự thêm giải thích trong canon/style-guide.md tại p000213."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'làm như vậy được' hoặc 'làm vậy được'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000216"
+    severity: "minor"
+    issue: "Việc dịch đồng thời đại từ nhân xưng ngôi thứ hai và hô ngữ tôn kính thành 'lời ngài, thưa ngài' và 'với ngài, thưa ngài' gây lặp từ 'ngài' sát nhau hai lần trong cùng một câu thoại."
+    basis: "Quy tắc viết tiếng Việt tự nhiên, tránh bám máy móc cấu trúc tiếng Anh trong canon/style-guide.md tại p000216."
+    recommendation: "Ở bước chuốt văn có thể chỉnh thành 'Xin phép được đính chính, thưa ngài—' và 'Và xin nói thẳng, thưa ngài,' để giữ trọn sắc thái kính trọng mà câu thoại gọn tự nhiên hơn."
+pending_term_recommendations:
+  - source_term: "the crown"
+    proposed_vi: "Hoàng gia"
+    category: "thể chế chính trị"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'Hoàng gia' đã ghi nhận trong sổ pending-terms-index.yml của vol-10 khi nói về vương quyền Khối Thịnh vượng chung."
+    alternatives_vi:
+      - "Vương quyền"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000191"
+  - source_term: "Lieutenant Colonel Drake / Drake / Colonel"
+    proposed_vi: "Trung tá Drake / Drake / Trung tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối cấp bậc và danh xưng của Trung tá Drake xuyên suốt các tập và trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000192"
+      - "YS-LN10/Text/chapter018.xhtml/p000196"
+      - "YS-LN10/Text/chapter018.xhtml/p000198"
+      - "YS-LN10/Text/chapter018.xhtml/p000200"
+      - "YS-LN10/Text/chapter018.xhtml/p000204"
+      - "YS-LN10/Text/chapter018.xhtml/p000205"
+      - "YS-LN10/Text/chapter018.xhtml/p000208"
+      - "YS-LN10/Text/chapter018.xhtml/p000209"
+      - "YS-LN10/Text/chapter018.xhtml/p000212"
+      - "YS-LN10/Text/chapter018.xhtml/p000214"
+      - "YS-LN10/Text/chapter018.xhtml/p000215"
+      - "YS-LN10/Text/chapter018.xhtml/p000217"
+  - source_term: "collateral damage"
+    proposed_vi: "thiệt hại ngoài ý muốn"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt tự nhiên, chuẩn xác thuật ngữ quân sự chỉ thiệt hại phụ phát sinh ngoài mục tiêu chủ đích trong giao tranh."
+    alternatives_vi:
+      - "thiệt hại phụ"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000193"
+      - "YS-LN10/Text/chapter018.xhtml/p000194"
+  - source_term: "volunteer mage / multinational volunteer unit"
+    proposed_vi: "pháp sư tình nguyện / đơn vị tình nguyện đa quốc gia"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với các mục đã khóa trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000193"
+      - "YS-LN10/Text/chapter018.xhtml/p000207"
+  - source_term: "the Federation / Federation field officers"
+    proposed_vi: "Liên bang / sĩ quan cấp tá của Liên bang"
+    category: "quốc gia - quân hàm"
+    status: "pending"
+    rationale: "Đồng bộ tên gọi 'Liên bang' và cấp bậc 'sĩ quan cấp tá' đã ghi nhận trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000194"
+      - "YS-LN10/Text/chapter018.xhtml/p000196"
+      - "YS-LN10/Text/chapter018.xhtml/p000197"
+      - "YS-LN10/Text/chapter018.xhtml/p000215"
+      - "YS-LN10/Text/chapter018.xhtml/p000216"
+      - "YS-LN10/Text/chapter018.xhtml/p000217"
+      - "YS-LN10/Text/chapter018.xhtml/p000219"
+  - source_term: "political officers"
+    proposed_vi: "các sĩ quan chính trị"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Thống nhất với phương án 'sĩ quan chính trị' trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000196"
+  - source_term: "First Lieutenant Sue / Lieutenant Sue"
+    proposed_vi: "Trung úy Sue"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc 'Trung úy Sue' của Mary Sue trong vol-10 đã ghi nhận tại sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000196"
+      - "YS-LN10/Text/chapter018.xhtml/p000207"
+  - source_term: "Colonel Mikel"
+    proposed_vi: "Đại tá Mikel"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Dịch đúng quân hàm chính thức của sĩ quan chỉ huy Liên bang Mikel trong vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000196"
+  - source_term: "Lieutenant General Zettour"
+    proposed_vi: "Trung tướng Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Thống nhất với danh xưng 'Trung tướng Zettour' trong toàn bộ các tập và sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000198"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "cơ quan nhà nước"
+    status: "pending"
+    rationale: "Khớp với phương án 'Bộ Ngoại giao' đã dùng nhất quán trong vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000199"
+  - source_term: "Communism / the Communists / Commies"
+    proposed_vi: "Chủ nghĩa Cộng sản (hệ tư tưởng Cộng sản) / phía Cộng sản (những tín đồ Cộng sản) / lũ Cộng sản"
+    category: "chính trị - sắc thái"
+    status: "pending"
+    rationale: "Phân biệt rõ danh từ chỉ hệ tư tưởng ('Chủ nghĩa Cộng sản'), cách gọi trung tính ('phía Cộng sản' / 'những tín đồ Cộng sản') và từ lóng mang sắc thái miệt thị trong thoại ('lũ Cộng sản')."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000201"
+      - "YS-LN10/Text/chapter018.xhtml/p000212"
+      - "YS-LN10/Text/chapter018.xhtml/p000216"
+      - "YS-LN10/Text/chapter018.xhtml/p000217"
+      - "YS-LN10/Text/chapter018.xhtml/p000219"
+  - source_term: "the brass"
+    proposed_vi: "giới chóp bu"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Đồng bộ với phương án 'giới chóp bu' trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "cấp trên"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000210"
+  - source_term: "Entente Alliance"
+    proposed_vi: "Liên minh Hiệp ước"
+    category: "tên khối liên minh"
+    status: "pending"
+    rationale: "Thống nhất với tên gọi 'Liên minh Hiệp ước' đã khóa trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000210"
+  - source_term: "General Habergram"
+    proposed_vi: "Tướng Habergram"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác với danh xưng 'Tướng Habergram' trong sổ pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000211"
+  - source_term: "head of Intelligence"
+    proposed_vi: "Người đứng đầu ngành Tình báo"
+    category: "chức danh tình báo"
+    status: "pending"
+    rationale: "Biểu đạt chính xác vị thế chỉ huy tối cao ngành Tình báo Khối Thịnh vượng chung của Tướng Habergram."
+    alternatives_vi:
+      - "Người đứng đầu Cơ quan Tình báo"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000214"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000188"
+    locks:
+      - "Khóa câu đáp lễ phép 'Vâng, thưa ngài. Tôi nên bắt đầu từ đâu ạ?' của Trung tá Drake trước cấp trên."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000189"
+    locks:
+      - "Khóa cụm 'vụ nổ súng nhầm' và câu hỏi truy vấn trực tiếp 'Thực sự đã có chuyện gì xảy ra?' của Tướng Habergram."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000190"
+    locks:
+      - "Khóa đại từ ngôi thứ ba 'anh' (chỉ Drake) và 'cô ta' (chỉ Mary Sue), mệnh đề nhượng bộ 'Dù chỉ trên danh nghĩa', phủ định 'Tuy không nắm toàn quyền đối với cô ta', và nhận định 'anh vẫn phải gánh chịu một phần trách nhiệm'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000191"
+    locks:
+      - "Khóa cụm 'phụng sự Hoàng gia' và nhận định 'đây là điều không thể tránh khỏi'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000192"
+    locks:
+      - "Khóa tên riêng 'Drake', đại từ 'anh', cụm 'nhận định chuyên môn của anh trên cương vị là người phụ trách vào thời điểm xảy ra sự cố', và nỗ lực giữ giọng bình tĩnh khi lên tiếng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000193"
+    locks:
+      - "Khóa sự tương phản giữa báo cáo chính thức ('thiệt hại ngoài ý muốn phát sinh từ cảnh hỗn loạn trong trận chiến') và thực tế ('một pháp sư tình nguyện đã phớt lờ mệnh lệnh của tôi và tự ý hành động')."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000194"
+    locks:
+      - "Khóa thuật ngữ 'thiệt hại ngoài ý muốn', tên riêng 'Liên bang', và câu hỏi có dấu chấm lửng 'Tình hình nghiêm trọng đến mức nào… mà phía Liên bang lại làm ầm ĩ lên như thế?'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000195"
+    locks:
+      - "Khóa thuật ngữ 'thuật thức' và câu trả lời ngắn gọn 'Đáng tiếc là thuật thức đó quá mạnh'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000196"
+    locks:
+      - "Khóa cấu trúc tăng tiến khác chủ thể 'Không những Drake phải đứng ra nhận lỗi trước các sĩ quan chính trị, mà Trung úy Sue—kẻ đã gây ra toàn bộ mớ hỗn độn này—sau đó lại còn trò chuyện vui vẻ với họ', danh xưng 'Đại tá Mikel', tên riêng 'Liên bang', và chi tiết hai bản báo cáo khớp nhau."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000197"
+    locks:
+      - "Khóa cụm 'sĩ quan cấp tá của Liên bang', chi tiết bị cuốn vào vụ nổ và thiệt mạng, cùng mệnh đề rào đón 'Tuy không chính thức, nhưng thông tin này đến từ một nguồn đáng tin cậy của tôi'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000198"
+    locks:
+      - "Khóa hình ảnh 'làm dòng máu đang sôi sục trong người anh lạnh toát ngay tức khắc', danh xưng 'Trung tướng Zettour', và nhận định 'việc Drake vẫn còn giữ được quyền chỉ huy quả là một phép màu'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000199"
+    locks:
+      - "Khóa tên cơ quan 'Bộ Ngoại giao' và chi tiết cơ quan này phải hứng chịu phần lớn hệ lụy."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000200"
+    locks:
+      - "Khóa câu hỏi nội tâm gián tiếp của Drake về việc liệu bản thân mình có phải chịu hậu quả gì không."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000201"
+    locks:
+      - "Khóa phủ định 'chẳng thể đưa ra lời xin lỗi chính thức với họ được', phương án xử lý 'để thủ tướng của chúng ta xin lỗi riêng phía Cộng sản', và câu kết 'Chuyện đó coi như khép lại tại đây. Anh vất vả rồi'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000202"
+    locks:
+      - "Khóa đại từ 'ông' và phủ định hoàn toàn 'không hề có lấy một chút trách móc hay... nào' trong câu nói cuối cùng của cấp trên."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000203"
+    locks:
+      - "Khóa câu hỏi thảng thốt ngắn 'Sao cơ ạ?' của Drake."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000204"
+    locks:
+      - "Khóa hô ngữ 'Trung tá', cặp đại từ xưng hô 'tôi' - 'chúng ta', phủ định về việc khiển trách cấp dưới vô nghĩa hay trút đòi hỏi vô lý của giới chính trị gia lên đầu các nam nữ quân nhân ngoài chiến trường, và ý nguyện già đi một cách đàng hoàng."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000205"
+    locks:
+      - "Khóa nhịp ngắt 'gần như cảm thấy mình được miễn trừ khỏi mọi trách nhiệm trong vụ việc này. Gần như thôi…' và phủ định kép 'không thể để bản thân mình thoát khỏi sự trừng phạt được'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000206"
+    locks:
+      - "Khóa quan hệ nhân quả giải thích lý do Drake tự viết bản báo cáo riêng bất chấp việc biết rõ làm vậy là bất kính."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000207"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' - 'anh' trong lời Tướng Habergram, thuật ngữ 'đơn vị tình nguyện đa quốc gia', và danh xưng 'Trung úy Sue'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000208"
+    locks:
+      - "Khóa nhận thức của Drake về bản chất chính trị trong đơn thỉnh cầu của mình và chi tiết thoáng bực dọc rất khẽ trong ánh mắt cấp trên cũng đủ gây kinh hãi."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000209"
+    locks:
+      - "Khóa liên từ chuyển ý 'Dẫu vậy' và quyết tâm buộc phải nói ra suy nghĩ trong lòng của Drake."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000210"
+    locks:
+      - "Khóa thuật ngữ 'giới chóp bu', nhấn mạnh Markdown '*đứa trẻ mồ côi của cựu quân đội Liên minh Hiệp ước*' theo đúng DEC-P01-002, và cụm 'bổn phận tuyên thệ của một sĩ quan'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000211"
+    locks:
+      - "Khóa hô ngữ 'Thưa Tướng Habergram', đại từ 'tôi', và lý do đưa nội dung đó vào báo cáo là vì lo sợ chuyện tương tự sẽ tái diễn."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000212"
+    locks:
+      - "Khóa cách gọi miệt thị 'lũ Cộng sản', hô ngữ 'Trung tá', và lời gạt đi của Habergram rằng Drake không cần bận tâm đến tổn thất của họ."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000213"
+    locks:
+      - "Khóa câu giả định trái thực tế ở hiện tại 'Tôi sẽ đồng tình với ngài nếu tôi không biết rõ sự thật' và lập trường của người có mặt tại hiện trường."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000214"
+    locks:
+      - "Khóa cụm 'Người đứng đầu ngành Tình báo' và sự chuyển biến trong ánh mắt nhìn Drake: từ chỗ đối đãi như 'một quý ông của hải quân' sang nhìn anh như 'một người lính thực thụ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000215"
+    locks:
+      - "Khóa hô ngữ 'Trung tá Drake', cặp đại từ 'tôi' - 'anh', và câu chất vấn sắc bén 'Tôi vẫn luôn đinh ninh anh là người căm ghét Liên bang chứ'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000216"
+    locks:
+      - "Khóa hô ngữ 'thưa ngài', sự phân biệt thái độ của Drake giữa việc căm ghét 'Chủ nghĩa Cộng sản' đến tận xương tủy và nhận định phủ định 'tôi không nghĩ sẽ có ngày mình có cảm tình nổi với Liên bang đâu'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000217"
+    locks:
+      - "Khóa sự phân biệt rạch ròi của Drake giữa 'người dân Liên bang' và 'hệ tư tưởng Cộng sản'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000218"
+    locks:
+      - "Khóa phủ định 'không thể nào làm ngơ' và bối cảnh 'khi anh kề vai sát cánh cùng họ trên chiến trường'."
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000219"
+    locks:
+      - "Khóa mệnh đề nhượng bộ 'dù nhiều người dân Liên bang là những tín đồ Cộng sản chính hiệu từ trong máu' và nhận định phủ định kép phê phán việc đánh đồng mọi công dân Liên bang là 'một suy nghĩ hết sức thiển cận'."
