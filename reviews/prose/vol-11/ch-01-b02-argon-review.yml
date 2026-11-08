@@ -1,0 +1,203 @@
+task_id: "vol-11-ch-01-b02-argon-review"
+parent_task_id: "vol-11-ch-01-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 1
+source_package: "work/vol-11/batches/ch-01-b02-source.jsonl"
+target_translation: "translations/vol-11/ch-01-b02.jsonl"
+review_path: "reviews/prose/vol-11/ch-01-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000047"
+    severity: "minor"
+    issue: "Câu cuối rút gọn mệnh đề nhượng bộ có tình thái khả thể ('Dù bản thân quốc gia có thể sụp đổ, núi sông của nó vẫn sẽ còn lại') thành câu cô đọng dạng thành ngữ 'Quốc phá nhưng sơn hà vẫn còn', làm mờ nhẹ sắc thái giả định 'có thể' và đại từ sở hữu quy chiếu về đất nước."
+    basis: "Đối chiếu p000047 và nguyên tắc giữ đồng thời tính giả định, mức chắc chắn và quan hệ nhượng bộ trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc diễn đạt rõ tình thái nhượng bộ hơn như 'Dù bản thân quốc gia có sụp đổ, núi sông của nó vẫn sẽ trường tồn.' hoặc giữ nguyên nếu ưu tiên nhịp thành ngữ cô đọng; không làm sai lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000063"
+    severity: "minor"
+    issue: "Trong đoạn độc thoại nội tâm in nghiêng của Zettour, đại từ tự quy chiếu ở câu cuối đang dùng 'tôi' ('gọi thẳng tôi là kẻ cầm đầu một bè phái'), trong khi các đoạn độc thoại nội tâm khác của Zettour trong cùng chương (như p000026 và p000066) dùng 'mình'."
+    basis: "Đối chiếu p000063 với p000026, p000066 và nguyên tắc giữ giọng nội tâm nhất quán trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'tôi' thành 'mình' ('Họ cứ gọi thẳng mình là kẻ cầm đầu một bè phái nào đó cho rồi.') để đồng bộ đại từ độc thoại nội tâm của Zettour; không ảnh hưởng đến nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "the Reich"
+    proposed_vi: "Đế chế"
+    category: "quốc gia - thể chế"
+    status: "pending"
+    rationale: "Giữ thống nhất phương án 'Đế chế' cho 'the Reich' để phân biệt với 'Đế quốc' ('the Empire') khi hai thuật ngữ cùng xuất hiện trong văn cảnh (đặc biệt tại p000065), khớp với work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000039"
+      - "YS-LN11/Text/chapter002.xhtml/p000048"
+      - "YS-LN11/Text/chapter002.xhtml/p000065"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh 'Đế quốc' xuyên suốt các tập trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000045"
+      - "YS-LN11/Text/chapter002.xhtml/p000046"
+      - "YS-LN11/Text/chapter002.xhtml/p000065"
+  - source_term: "Heimat"
+    proposed_vi: "Heimat"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức 'Heimat' ở dạng văn bản thường vì nguồn tại p000048 không có thẻ nhấn mạnh, tuân thủ DEC-P01-002 và thống nhất với khuyến nghị tại ch-01-b01."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000048"
+  - source_term: "Ildoa"
+    proposed_vi: "Ildoa"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng quốc gia Ildoa theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000043"
+      - "YS-LN11/Text/chapter002.xhtml/p000045"
+  - source_term: "the east / eastern front"
+    proposed_vi: "miền đông / mặt trận phía đông"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với cách dịch 'miền đông' và 'mặt trận phía đông' đã dùng ở vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000043"
+      - "YS-LN11/Text/chapter002.xhtml/p000061"
+      - "YS-LN11/Text/chapter002.xhtml/p000063"
+  - source_term: "General Staff Headquarters"
+    proposed_vi: "Tổng hành dinh Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Dịch sát nghĩa tổ chức cơ quan đầu não quân sự, phân biệt hợp lý với 'General Staff Office' ('Văn phòng Bộ Tổng tham mưu')."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000065"
+  - source_term: "brigadier general / major general / lieutenant general / general"
+    proposed_vi: "chuẩn tướng / thiếu tướng / trung tướng / đại tướng"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Khớp chính xác hệ thống bậc quân hàm tướng lĩnh theo văn bản nguồn tiếng Anh từ thấp lên cao trong đoạn hồi tưởng và đối thoại của Zettour."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000056"
+      - "YS-LN11/Text/chapter002.xhtml/p000061"
+      - "YS-LN11/Text/chapter002.xhtml/p000063"
+      - "YS-LN11/Text/chapter002.xhtml/p000067"
+      - "YS-LN11/Text/chapter002.xhtml/p000068"
+      - "YS-LN11/Text/chapter002.xhtml/p000069"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000036"
+    locks:
+      - "Khóa đại từ tự xưng 'tôi' của Rudersdorf và hai câu khẳng định nghĩa vụ ngắn gọn ('Đó là bổn phận của tôi. Là việc tôi buộc phải làm.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000037"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu cảm thán nội tâm '*À, tất nhiên rồi.*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000038"
+    locks:
+      - "Khóa tên riêng 'Zettour' và sắc thái 'chất chứa rõ sự thất vọng—hoặc có lẽ là cả nỗi tuyệt vọng' trong tiếng thở dài."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000039"
+    locks:
+      - "Khóa phân biệt đại từ trần thuật 'ông' (Zettour) và 'ông ta' (Rudersdorf), thuật ngữ 'Đế chế' (the Reich), tình thái suy đoán 'Có lẽ ông ta sẵn sàng làm bất cứ điều gì vì quốc gia của mình' và nhận định 'chẳng khác nào việc gào thét và than khóc trước viễn cảnh đánh mất tất cả'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000040"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ câu thúc giục nội tâm '*Chúng ta cần phải đưa ra lựa chọn ngay lúc này!*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000041"
+    locks:
+      - "Khóa cặp xưng hô 'Tôi' – 'ông', tên riêng 'Rudersdorf' và lý do mở lời trên tư cách bạn bè."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000042"
+    locks:
+      - "Khóa đại từ 'ông' và lời đáp khích lệ nói tiếp của Rudersdorf ('Ồ? Để xem ông định nói gì nào.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000043"
+    locks:
+      - "Khóa các đại từ 'Ông', 'chúng ta', 'tôi', tên quốc gia 'Ildoa', địa danh 'miền đông', ẩn dụ tài chính 'Ông không thể tuyên bố phá sản đối với một khoản nợ vay để đánh bạc được' và yêu cầu điều toàn bộ nguồn lực hiện có sang miền đông."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000044"
+    locks:
+      - "Khóa nhận định trần thuật về việc mọi nguồn lực tiến hành chiến tranh đang dần cạn kiệt và 'Tình trạng thiếu hụt cả binh lính lẫn quân nhu đến thời điểm này đã trở thành kinh niên'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000045"
+    locks:
+      - "Khóa đại từ 'Ông', 'tôi', 'chúng ta', tên quốc gia 'Ildoa', định danh 'Đế quốc', mệnh đề xen '—tôi có cần phải nhắc cho ông nhớ không—', cụm 'kênh đàm phán hòa bình khả dĩ duy nhất' và câu mệnh lệnh 'Hãy xét đến tình cảnh hiện tại của Đế quốc trước khi mở lời đi'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000046"
+    locks:
+      - "Khóa định danh 'Đế quốc', tên riêng 'Zettour', đại từ 'ông' (ẩn/quy chiếu Zettour), phủ định 'Không thể cứ thế làm ngơ một cách tiện lợi trước sự sụp đổ đang cận kề của Đế quốc được' và chi tiết 'gần như cảm thấy xấu hổ khi phải nói thẳng điều đó ra'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000047"
+    locks:
+      - "Khóa chủ thể 'Cả hai' / 'họ', nhận định 'thất bại gần như đã cầm chắc', phủ định 'chiến thắng không còn là điều có thể tính tới nữa', 'thất bại của họ không nhất thiết đồng nghĩa với sự chấm hết' và ý tương phản đất nước mất nhưng núi sông vẫn còn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000048"
+    locks:
+      - "Khóa đối lập khái niệm giữa 'Đế chế hiện tại' (current Reich) và 'Heimat' (giữ nguyên chữ thường, không in nghiêng), tên riêng 'Rudersdorf', vị thế của Heimat là 'thực thể thiêng liêng' mà quân đội phụng sự, trung thành, cần bảo vệ, cùng câu hỏi tu từ nghi vấn ở cuối đoạn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000049"
+    locks:
+      - "Khóa đại từ 'ông ta' (chỉ Rudersdorf) và cấu trúc giả định đối lập ở quá khứ giữa 'một kẻ tội phạm' với 'một người yêu nước' ('lẽ ra ông ta hoàn toàn không thể nào mảy may nghĩ tới chuyện đó mới phải')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000050"
+    locks:
+      - "Khóa đại từ 'ông', tên riêng 'Rudersdorf' và hai câu hỏi dồn dập của Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000051"
+    locks:
+      - "Khóa cụm 'Người bạn cũ của Zettour', đại từ 'ông' và chi tiết đáp lại 'câu hỏi đầy giằng xé của ông bằng một nụ cười nhếch mép'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000052"
+    locks:
+      - "Khóa cặp đại từ 'tôi' – 'ông' và lời đề nghị nói thẳng khi chỉ có hai người."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000053"
+    locks:
+      - "Khóa đại từ 'ông', tên riêng 'Zettour', chi tiết hồi tưởng những lời từng chia sẻ với bạn bè nhiều lần trước đây và hành động 'Zettour mỉm cười'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000054"
+    locks:
+      - "Khóa đại từ 'Tôi', 'chúng ta', ý 'hành xử cho đúng với quân hàm của mình' và sự đối lập giữa tính thất thường của thế sự với 'thực tại của chúng ta'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000055"
+    locks:
+      - "Khóa cặp đại từ 'tôi' – 'ông', 'hai ta' và câu nói đùa mỉa mai về việc bảo trợ lý hai bên liên hệ thu xếp cuộc họp hay cứ thẳng thắn với nhau."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000056"
+    locks:
+      - "Khóa cấp bậc 'một trung tướng và một đại tướng', tên riêng 'Zettour' và hành động 'cười trừ và nhún vai bỏ qua câu nói đùa nhằm khiến người bạn của mình dẹp bớt những nghi thức xã giao'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000057"
+    locks:
+      - "Khóa đại từ 'hai ta', 'tôi', 'chúng ta' và thông tin đã được thăng hàm nên về thực chất hai người đã ngang cấp nhau."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000058"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' – 'ông' và lời thừa nhận người đối thoại nắm thông tin nhạy bén."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000059"
+    locks:
+      - "Khóa đại từ 'Tôi', 'chúng ta', cụm 'suy nghĩ giống một quan chức hành chính' và nhận định việc thăng hàm chỉ là 'một sự điều chỉnh' hoặc 'một nỗ lực nhằm cân bằng bộ máy tham mưu'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000060"
+    locks:
+      - "Khóa tên riêng 'Rudersdorf', 'Zettour', sự phân biệt đại từ 'ông' (Zettour) và 'ông ta' (Rudersdorf), cùng chi tiết Rudersdorf cảm thấy hổ thẹn trước việc thăng hàm trên thực tế này."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000061"
+    locks:
+      - "Khóa tên riêng 'Zettour', cấp bậc 'trung tướng', địa danh 'mặt trận phía đông' và cụm 'thăng hàm hữu danh vô thực mang màu sắc chính trị'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000062"
+    locks:
+      - "Khóa đại từ 'ông' và cấu trúc nhấn mạnh 'chính người đàn ông đang ngồi trước mặt ông là người đã đứng ra thu xếp những thủ tục cần thiết'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000063"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 cho toàn bộ đoạn độc thoại nội tâm mỉa mai của Zettour, gồm danh xưng 'Trung tướng Zettour', địa danh 'mặt trận phía đông' và hình ảnh 'kẻ cầm đầu một bè phái nào đó'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000064"
+    locks:
+      - "Khóa cách gọi 'Ông lão', tên riêng 'Zettour', đại từ 'Ông' – 'mình' và câu giả định trái thực tế ở quá khứ ('Giá như Zettour biết trước tương lai đang chờ đợi mình, ngay từ đầu ông đã chẳng bao giờ khao khát leo lên các nấc thang quân hàm.')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000065"
+    locks:
+      - "Khóa đại từ 'ông' – 'mình', tên cơ quan 'Tổng hành dinh Bộ Tổng tham mưu', hình ảnh 'một người tiên phong mở đường' và cặp khái niệm 'Đế chế và Đế quốc' (the Reich and the Empire)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000066"
+    locks:
+      - "Khóa đại từ trần thuật 'ông', đại từ nội tâm 'Mình' và phạm vi nhấn mạnh Markdown theo DEC-P01-002 chỉ ở mệnh đề sau dấu hai chấm: '*Mình chỉ cần giành chiến thắng là được.*'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000067"
+    locks:
+      - "Khóa đại từ 'Ông' và quân hàm 'chuẩn tướng' (brigadier general)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000068"
+    locks:
+      - "Khóa đại từ 'ông', hình ảnh 'nằm trong tầm tay' và quân hàm 'thiếu tướng' (major general)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000069"
+    locks:
+      - "Khóa đại từ 'ông', trạng thái 'không ngừng khắc khoải hướng về nó' và quân hàm 'trung tướng' (lieutenant general)."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000070"
+    locks:
+      - "Khóa đại từ 'ông' và câu cảm thán hoài niệm khép lại đoạn ('Quá khứ của ông mới tươi đẹp làm sao.')."
