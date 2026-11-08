@@ -1,0 +1,252 @@
+task_id: "vol-10-ch-06-b07-argon-review"
+parent_task_id: "vol-10-ch-06-b07"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b07-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b07.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b07-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000223"
+    severity: "minor"
+    issue: "Cấu trúc 'đã lâu lắm rồi Trung tá mới lại dành ra một ngày cho riêng mình' diễn đạt theo lối khẳng định kèm phó từ 'mới lại' thay vì giữ trực tiếp hình thức phủ định."
+    basis: "Đối chiếu p000223 và yêu cầu giữ nguyên hình thức phủ định trong handoffs/vol-10/ch-06-b07.yml."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'Không ạ, tôi chỉ nghĩ là đã lâu lắm rồi Trung tá chưa dành ra một ngày nào cho riêng mình.' để bám sát cấu trúc phủ định của lời thoại."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000233"
+    severity: "minor"
+    issue: "Cụm 'sĩ quan chỉ huy của các cô' dùng đại từ số nhiều chỉ nữ giới ('các cô'), chưa thật khớp với việc Tanya đang trực tiếp gọi tên Visha ở câu trước và đa số thành viên Tiểu đoàn 203 là nam giới."
+    basis: "Đối chiếu lời gọi trực tiếp Visha tại câu đầu p000233 và ngữ cảnh nhân sự của Tiểu đoàn 203."
+    recommendation: "Ở bước chuốt văn, polisher nên chỉnh thành 'sĩ quan chỉ huy của cô' (quy chiếu trực tiếp Visha) hoặc 'sĩ quan chỉ huy của mọi người'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000237"
+    severity: "minor"
+    issue: "Cụm 'khi thay phiên thực hiện ca trực luân phiên' bị lặp nghĩa giữa 'thay phiên' và 'luân phiên'."
+    basis: "Đối chiếu p000237 và nguyên tắc kết hợp từ tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể lược bớt một yếu tố lặp thành 'khi thay phiên nhau thực hiện ca trực' hoặc 'trong việc thực hiện lịch trực luân phiên'."
+pending_term_recommendations:
+  - source_term: "Zettour / Rudersdorf / future general stationed in the east"
+    proposed_vi: "Zettour / Rudersdorf / vị đại tướng tương lai đang đồn trú ở miền đông"
+    category: "quân hàm - nhân vật - địa lý"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với định danh nhân vật và cách dịch cấp bậc sắp thăng của Zettour đã khóa ở các lô trước của chương 6 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000201"
+  - source_term: "Lieutenant Colonel Tanya von Degurechaff / Tanya / aerial magic officer / Colonel / commanding officer"
+    proposed_vi: "Trung tá Tanya von Degurechaff / Tanya / sĩ quan ma pháp trên không / Trung tá / sĩ quan chỉ huy"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với hệ thống quân hàm, chức danh và cách xưng hô rút gọn ('Colonel' -> 'Trung tá' khi gọi Trung tá Degurechaff) trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000202"
+      - "YS-LN10/Text/chapter028.xhtml/p000207"
+      - "YS-LN10/Text/chapter028.xhtml/p000210"
+      - "YS-LN10/Text/chapter028.xhtml/p000213"
+      - "YS-LN10/Text/chapter028.xhtml/p000215"
+      - "YS-LN10/Text/chapter028.xhtml/p000216"
+      - "YS-LN10/Text/chapter028.xhtml/p000221"
+      - "YS-LN10/Text/chapter028.xhtml/p000224"
+      - "YS-LN10/Text/chapter028.xhtml/p000229"
+      - "YS-LN10/Text/chapter028.xhtml/p000232"
+      - "YS-LN10/Text/chapter028.xhtml/p000233"
+  - source_term: "maximization of utility / freedom of the pursuit of happiness"
+    proposed_vi: "tối đa hóa lợi ích / quyền tự do mưu cầu hạnh phúc"
+    category: "thuật ngữ kinh tế - triết học chính trị"
+    status: "pending"
+    rationale: "Cách dịch chuẩn xác, tự nhiên cho cặp khái niệm kinh tế học vị lợi và triết học chính trị quen thuộc trong mạch độc thoại nội tâm của Tanya."
+    alternatives_vi:
+      - "tối đa hóa độ thỏa dụng"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000203"
+  - source_term: "dogfight / Commonwealth marine mage / the Commonwealth / multinational volunteer unit"
+    proposed_vi: "cận chiến quần vòng / pháp sư hải quân đánh bộ của Khối Thịnh vượng chung / Khối Thịnh vượng chung / đơn vị tình nguyện đa quốc gia"
+    category: "thuật ngữ quân sự - quốc gia - đơn vị"
+    status: "pending"
+    rationale: "Đồng bộ với các mục thuật ngữ không chiến, quốc gia và đơn vị đã khóa trong pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000204"
+      - "YS-LN10/Text/chapter028.xhtml/p000207"
+      - "YS-LN10/Text/chapter028.xhtml/p000213"
+  - source_term: "General Romel"
+    proposed_vi: "Tướng Romel"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Nhất quán với định danh 'Tướng Romel' trong pending-terms-index.yml của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000204"
+      - "YS-LN10/Text/chapter028.xhtml/p000213"
+  - source_term: "the east / the west / western territory / François / the capital / the south / Ildoa"
+    proposed_vi: "miền đông / miền tây / vùng lãnh thổ phía tây / François / thủ đô / phương nam / Ildoa"
+    category: "địa lý - quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất với hệ thống định danh địa lý và tên riêng quốc gia xuyên suốt vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000201"
+      - "YS-LN10/Text/chapter028.xhtml/p000204"
+      - "YS-LN10/Text/chapter028.xhtml/p000211"
+      - "YS-LN10/Text/chapter028.xhtml/p000226"
+  - source_term: "adjutant / First Lieutenant Serebryakov / Visha / aide"
+    proposed_vi: "sĩ quan phụ tá / Trung úy Serebryakov / Visha / người phụ tá"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Đồng bộ với định danh 'Trung úy Serebryakov', 'Visha' và 'sĩ quan phụ tá' trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000215"
+      - "YS-LN10/Text/chapter028.xhtml/p000216"
+      - "YS-LN10/Text/chapter028.xhtml/p000217"
+      - "YS-LN10/Text/chapter028.xhtml/p000218"
+      - "YS-LN10/Text/chapter028.xhtml/p000220"
+      - "YS-LN10/Text/chapter028.xhtml/p000224"
+      - "YS-LN10/Text/chapter028.xhtml/p000233"
+      - "YS-LN10/Text/chapter028.xhtml/p000235"
+  - source_term: "Kampfgruppe / Lergen Kampfgruppe / 203rd Aerial Mage Battalion / mage battalion / battalion / command center / command tent"
+    proposed_vi: "Kampfgruppe / Kampfgruppe Lergen / Tiểu đoàn Pháp sư Trên không số 203 / tiểu đoàn pháp sư / tiểu đoàn / trung tâm chỉ huy / lều chỉ huy"
+    category: "đơn vị quân sự - cơ sở chỉ huy"
+    status: "pending"
+    rationale: "Nhất quán với hệ thống phiên hiệu đơn vị và cơ sở chỉ huy đã khóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000216"
+      - "YS-LN10/Text/chapter028.xhtml/p000227"
+      - "YS-LN10/Text/chapter028.xhtml/p000230"
+      - "YS-LN10/Text/chapter028.xhtml/p000231"
+      - "YS-LN10/Text/chapter028.xhtml/p000233"
+      - "YS-LN10/Text/chapter028.xhtml/p000236"
+      - "YS-LN10/Text/chapter028.xhtml/p000237"
+  - source_term: "time off / paid time off / vacation time / apply for leave / watch rotation"
+    proposed_vi: "nghỉ phép / ngày phép có lương / thời gian nghỉ phép / nộp đơn xin nghỉ phép / ca trực luân phiên"
+    category: "thuật ngữ hành chính - quân vụ"
+    status: "pending"
+    rationale: "Khớp với các mục 'nghỉ phép có lương' và 'thời gian nghỉ phép' đã ghi nhận trong pending-terms-index.yml của vol-10."
+    alternatives_vi:
+      - "lịch trực luân phiên"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000220"
+      - "YS-LN10/Text/chapter028.xhtml/p000227"
+      - "YS-LN10/Text/chapter028.xhtml/p000231"
+      - "YS-LN10/Text/chapter028.xhtml/p000236"
+      - "YS-LN10/Text/chapter028.xhtml/p000237"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000201"
+    locks:
+      - "Khóa tên riêng 'Zettour', 'Rudersdorf', đại từ 'ông ấy' (quy chiếu Rudersdorf), cụm định danh 'vị đại tướng tương lai đang đồn trú ở miền đông' (quy chiếu Zettour) và nhận định mọi toan tính của Rudersdorf đều nằm ngoài sức tưởng tượng của Zettour."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000202"
+    locks:
+      - "Khóa định danh 'Trung tá Tanya von Degurechaff', đại từ trần thuật 'Cô' và mức tình thái 'có lẽ' đối với những mong muốn chung của hầu hết con người."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000203"
+    locks:
+      - "Khóa đại từ 'cô' cùng hai khái niệm mục tiêu là 'tối đa hóa lợi ích' và 'quyền tự do mưu cầu hạnh phúc'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000204"
+    locks:
+      - "Khóa thuật ngữ 'cận chiến quần vòng', 'pháp sư hải quân đánh bộ ... của Khối Thịnh vượng chung', định danh 'Tướng Romel', các hướng địa lý 'miền đông' - 'miền tây', đại từ 'cô' và mạch sự kiện chạm trán chính gã pháp sư điên khùng đó ở cả hai mặt trận."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000205"
+    locks:
+      - "Khóa câu thoại tự hỏi của Tanya với đại từ 'Hắn' và hình ảnh 'tên bám đuôi biến thái'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000206"
+    locks:
+      - "Khóa quan hệ nhượng bộ giữa tính chất rợn người của suy nghĩ đó với việc đằng sau nó có cơ sở nhất định."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000207"
+    locks:
+      - "Khóa thuật ngữ 'đơn vị tình nguyện đa quốc gia', tên riêng 'Tanya', đại từ 'họ' (đơn vị của Tanya) và chi tiết kẻ địch bám theo họ khắp lục địa khiến Tanya thấy xây xẩm chỉ khi nghĩ tới."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000208"
+    locks:
+      - "Khóa đại từ 'Cô' - 'mình' và phép so sánh tâm trí minh mẫn, lành mạnh như đang bị tống qua 'cỗ máy nghiền công nghiệp'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000209"
+    locks:
+      - "Khóa câu lầm bầm tự nhủ của Tanya với đại từ tự xưng 'Mình' theo DEC-P01-001 và nhu cầu cần một kỳ nghỉ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000210"
+    locks:
+      - "Khóa tên riêng 'Tanya', hành động buột miệng lầm bầm một mình và quan hệ chuyển ý khi chính câu nói ấy châm ngòi cho một nhận thức mới."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000211"
+    locks:
+      - "Khóa định danh 'vùng lãnh thổ phía tây', 'François', 'miền đông', đại từ 'họ' và phép so sánh nơi đồn trú hiện tại chẳng khác nào thiên đường so với miền đông ngoại trừ những đợt oanh tạc thỉnh thoảng vọng về từ phía xa."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000212"
+    locks:
+      - "Khóa liệt kê các tiện nghi ('hệ thống ống nước, có điện, và thậm chí có cả giường ngủ' cùng đồ ăn ngon) và kết luận đây là nơi hoàn hảo để tận hưởng những tiện nghi tối thiểu của nền văn minh."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000213"
+    locks:
+      - "Khóa định danh 'Khối Thịnh vượng chung', 'Tướng Romel', 'Tanya' và quan hệ nhân quả: kế hoạch tấn công Khối Thịnh vượng chung của Tướng Romel vấp phải chướng ngại khiến Tanya hoàn toàn không có việc gì để làm."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000214"
+    locks:
+      - "Khóa câu lầm bầm mở ra khả năng giả định 'Biết đâu đấy, chỉ là biết đâu đấy thôi…'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000215"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 và đại từ 'Mình' theo DEC-P01-001 tại '*Mình có thể dành chút thời gian cho riêng mình.*', cùng thuật ngữ 'sĩ quan ma pháp trên không', 'sĩ quan phụ tá', tên riêng 'Tanya' và chuỗi hành động tự soạn biểu mẫu, tự đóng dấu phê duyệt để chính thức nghỉ phép."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000216"
+    locks:
+      - "Khóa tên riêng 'Tanya', thuật ngữ 'sĩ quan phụ tá', 'doanh trại tiểu đoàn', 'trung tâm chỉ huy', 'Kampfgruppe' và chi tiết chỉ còn việc lặng lẽ nộp giấy tờ đi."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000217"
+    locks:
+      - "Khóa danh xưng 'Trung úy Serebryakov', đại từ tự xưng 'tôi' của Tanya trong thoại và tuyên bố hôm nay nghỉ phép một ngày."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000218"
+    locks:
+      - "Khóa thuật ngữ 'Sĩ quan phụ tá', đại từ 'cô' và câu hỏi lại đầy ngơ ngác của Visha ('Nghỉ phép một ngày ạ?')."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000219"
+    locks:
+      - "Khóa câu khẳng định của Tanya với đại từ 'tôi' và phủ định 'hôm nay tôi không làm việc đâu!'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000220"
+    locks:
+      - "Khóa thuật ngữ 'Sĩ quan phụ tá', nhấn mạnh Markdown theo DEC-P01-002 tại '*nghỉ phép*' và chi tiết vỗ hai bàn tay vào nhau mỉm cười như thể đã quên mất khái niệm nghỉ phép."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000221"
+    locks:
+      - "Khóa cách xưng hô 'Trung tá' kèm tiểu từ kính ngữ 'ạ' trong lời thoại của Visha nhận xét chuyện này thật khác thường."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000222"
+    locks:
+      - "Khóa câu hỏi ngắn 'Chuyện gì cơ?' của Tanya."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000223"
+    locks:
+      - "Khóa đại từ 'tôi', danh xưng 'Trung tá' trong lời đáp của Visha về việc đã rất lâu Tanya không dành ra một ngày nghỉ cho riêng mình."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000224"
+    locks:
+      - "Khóa tên riêng 'Tanya', cụm 'người phụ tá của cô', 'con dấu nghỉ phép' và phủ định Tanya không nhớ nổi lần cuối lấy con dấu ra tự phê duyệt thời gian nghỉ cho bản thân."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000225"
+    locks:
+      - "Khóa nhận định phủ định rằng trong hoàn cảnh như thế này vốn chẳng có mấy cơ hội để nghỉ phép ngay từ đầu."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000226"
+    locks:
+      - "Khóa đại từ 'Cô', lộ trình điều động 'từ miền đông sang miền tây rồi lại về thủ đô', ngoại lệ chuyến đi ngắn ngày xuống 'phương nam ở Ildoa' và phủ định đã rất lâu cô chưa có một kỳ nghỉ đúng nghĩa."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000227"
+    locks:
+      - "Khóa thuật ngữ 'tiểu đoàn', 'ngày phép có lương', đại từ 'chúng ta' - 'tôi' và phủ định chuyện không dùng ngày phép có lương không chỉ giới hạn ở riêng Tanya."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000228"
+    locks:
+      - "Khóa đại từ 'Chúng ta' và sự tương phản trong lời Visha: vẫn xoay xở đủ thời gian để ngủ nhưng ngoài việc đó ra thì đã một thời gian không có lúc nào nghỉ ngơi."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000229"
+    locks:
+      - "Khóa tên riêng 'Tanya' và hành động gật đầu dứt khoát."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000230"
+    locks:
+      - "Khóa thuật ngữ 'lều chỉ huy', 'tiểu đoàn pháp sư', đại từ 'Cô' và chi tiết mọi gương mặt trong lều đều giống hệt cô vì tiểu đoàn pháp sư vốn chẳng mấy khi được cho đủ thời gian nghỉ ngơi đàng hoàng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000231"
+    locks:
+      - "Khóa định danh 'Kampfgruppe Lergen', 'Kampfgruppe', 'Tiểu đoàn Pháp sư Trên không số 203', đại từ 'họ' và sự đối lập giữa danh nghĩa Kampfgruppe Lergen với thực tế xoay quanh Tiểu đoàn 203 bị điều đi khắp các chiến trường, khiến người lính trung thành nhất cũng có lúc muốn nộp đơn xin nghỉ phép."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000232"
+    locks:
+      - "Khóa tên riêng 'Tanya', đại từ 'cô', động cơ đặt nặng việc bảo toàn bản thân nên không bao giờ thừa nhận điều đó thành lời, và cấu trúc phủ định kép khẳng định cô vẫn sẽ gật đầu thật mạnh tán đồng nếu chủ đề đó được khơi ra."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000233"
+    locks:
+      - "Khóa tên riêng 'Visha', đại từ 'tôi', chức danh 'sĩ quan chỉ huy', 'tiểu đoàn', 'cấp dưới' và lập luận làm gương của Tanya: nếu chính cô không nghỉ phép thì cấp dưới sẽ không đời nào dám nghỉ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000234"
+    locks:
+      - "Khóa hình ảnh tự ví von 'nhà quản lý biết quan tâm', 'một cô gái', đại từ 'cô' và quan hệ tương phản: dù việc giả bộ đó làm hao tổn sức lực nhưng cô vẫn cần diễn cho tròn vai."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000235"
+    locks:
+      - "Khóa đại từ 'cô', cụm 'người phụ tá' và nhận định tuyên bố của cô được đón nhận khá tốt qua phản ứng của người phụ tá."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000236"
+    locks:
+      - "Khóa lời đáp của Visha với cụm 'Tiểu đoàn chúng ta' và nhận định tiểu đoàn có xu hướng bỏ qua 'thời gian nghỉ phép'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000237"
+    locks:
+      - "Khóa câu hỏi nội tâm lựa chọn của Tanya về 'cấp dưới của cô' (bản tính quá nghiêm túc hay đã từ bỏ ý định nghỉ phép sau thời gian dài chinh chiến) và sự tương phản giữa việc luôn chuẩn chỉnh trong ca trực luân phiên với sự lơ là đến khó tin khi đụng tới chuyện nghỉ phép của 'tiểu đoàn pháp sư'."
