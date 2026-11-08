@@ -1,0 +1,173 @@
+task_id: vol-10-ch-04-b04-argon-review
+parent_task_id: vol-10-ch-04-b04
+reviewer: gemini-4-argon-medium
+role: terminology_review_argon
+volume: vol-10
+chapter: ch-04
+batch: b04
+source_path: work/vol-10/batches/ch-04-b04-source.jsonl
+translation_path: translations/vol-10/ch-04-b04.jsonl
+reviewed_at: "2026-04-19T14:43:00Z"
+summary:
+  segments_reviewed: 33
+  serious: 0
+  moderate: 1
+  minor: 2
+  status: pass_with_minor_notes
+findings:
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000108
+    severity: moderate
+    category: terminology_consistency
+    issue: "Tại p000108, cụm thuật ngữ 'aerial magic battalion' đang được dịch là 'tiểu đoàn ma pháp trên không', chưa đồng bộ với phương án đề xuất đã khóa nhất quán trong work/run-state/pending-terms-index.yml của vol-10 và các tập trước là 'tiểu đoàn pháp sư trên không'."
+    recommendation: "Đổi 'tiểu đoàn ma pháp trên không' thành 'tiểu đoàn pháp sư trên không' trong p000108 để giữ tính nhất quán thuật ngữ đơn vị quân sự xuyên suốt tập 10."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000089
+    severity: minor
+    category: nuance_and_register
+    issue: "Tại p000089, cụm 'tiết lộ cho ông ấy biết cái tin khủng khiếp đó' diễn đạt đúng nghĩa đen nhưng hơi nặng về sắc thái tiết lộ bí mật mới, trong khi ngữ cảnh là Tanya giữ thái độ điềm tĩnh để nói thẳng cho Conrad biết sự thật phũ phàng (nối tiếp từ p000086 và dẫn vào lời thoại p000090)."
+    recommendation: "Có thể giữ nguyên vì không sai nghĩa, hoặc tinh chỉnh nhẹ ở bước polish thành 'cho ông ấy biết tin dữ đó' / 'nói thẳng cho ông ấy biết sự thật tồi tệ đó' để mạch văn tự nhiên hơn."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000106
+    severity: minor
+    category: pov_and_pronoun_flow
+    issue: "Tại p000106, nguyên tác đan xen giữa độc thoại nội tâm ngôi thứ nhất và lời kể nửa trực tiếp nhắc tên 'Tanya' cùng đại từ ngôi thứ ba ở câu cuối ('giá trị thực sự của cô'). Bản dịch đã xử lý rất chuẩn lỗi in 'comprises' (= 'compromises' / 'những thỏa hiệp khó chịu') của bản gốc, nhưng vế cuối câu kết dùng 'của cô' ngay sau mạch độc thoại 'Mình' có thể hơi gợn nhẹ."
+    recommendation: "Có thể giữ nguyên để bám sát cấu trúc chuyển điểm nhìn của nguyên tác, hoặc cân nhắc đổi 'giá trị thực sự của cô' thành 'giá trị thực sự của mình' / 'giá trị thực sự của bản thân' ở bước polish nếu muốn mạch độc thoại liền lạc hơn."
+pending_term_recommendations:
+  - term: "Counselor Conrad / Counselor / the counselor"
+    recommended_vi: "Tham tán Conrad / thưa Tham tán / vị tham tán"
+    alternatives:
+      - "Cố vấn Conrad / thưa Cố vấn / vị cố vấn"
+    rationale: "Giữ nhất quán tuyệt đối với lựa chọn đã dùng ở ch-04-b02 và ch-04-b03 cho chức danh ngoại giao cấp cao của Conrad thuộc Bộ Ngoại giao Đế quốc."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000083
+      - YS-LN10/Text/chapter020.xhtml/p000088
+      - YS-LN10/Text/chapter020.xhtml/p000093
+      - YS-LN10/Text/chapter020.xhtml/p000095
+      - YS-LN10/Text/chapter020.xhtml/p000097
+  - term: "honest broker"
+    recommended_vi: "nhà môi giới trung thực"
+    alternatives:
+      - "người trung gian trung thực"
+    rationale: "Khớp với thuật ngữ ngoại giao Bismarck ('ehrlicher Makler' / 'nhà môi giới trung thực') đã được khóa trong work/run-state/pending-terms-index.yml của vol-10 (ch-01-b03, ch-01-b04, ch-02-b01) và rất hợp với ẩn dụ kinh doanh của Tanya ở đầu batch."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000091
+  - term: "Colonel Lergen"
+    recommended_vi: "Đại tá Lergen"
+    alternatives: []
+    rationale: "Đúng cấp bậc hiện tại của Lergen trong tập 10 và nhất quán với canon/characters.yml cũng như các batch trước."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000095
+  - term: "Lieutenant Colonel Degurechaff / lieutenant colonel"
+    recommended_vi: "Trung tá Degurechaff / trung tá"
+    alternatives: []
+    rationale: "Đúng quân hàm hiện tại của Tanya trong tập 10 (Trung tá Không quân Pháp sư Đế quốc)."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000094
+      - YS-LN10/Text/chapter020.xhtml/p000097
+  - term: "Silver Wings Assault Badge / Field Assault Badge / Wound Badge / Trench Action Badge First Class / Close Combat Clasp Special Class / Iron Cross First Class"
+    recommended_vi: "Huy hiệu Xung kích Cánh Bạc / Huy hiệu Xung kích Dã chiến / Huy hiệu Chiến thương / Huy hiệu Tác chiến Chiến hào Hạng Nhất / Cài ngực Cận chiến Hạng Đặc biệt / Thập tự Sắt Hạng Nhất"
+    alternatives:
+      - "Huy hiệu Tác chiến Chiến hào Hạng Nhất có thể đối chiếu thêm với Huy hiệu Chiến công Chiến hào Hạng Nhất ở các tập trước nếu cần chuẩn hóa toàn bộ hệ thống huân chương"
+    rationale: "'Huy hiệu Xung kích Cánh Bạc' tuân thủ đúng canon/glossary.yml; các huân chương và huy hiệu quân sự Đức/Đế quốc còn lại dịch rõ nghĩa, chuẩn xác theo hệ thống danh hiệu quân sự trong truyện."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000101
+  - term: "Named"
+    recommended_vi: "Pháp sư Định danh"
+    alternatives:
+      - "Pháp sư được trao danh hiệu"
+    rationale: "Khớp hoàn toàn với thuật ngữ đã khóa trong work/run-state/pending-terms-index.yml xuyên suốt các tập trước cho danh hiệu 'Named' của Tanya."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000104
+  - term: "Norden / Rhine front / Dacia / Federation front"
+    recommended_vi: "Norden / mặt trận Rhine / Dacia / mặt trận Liên bang"
+    alternatives: []
+    rationale: "Tuân thủ đúng hệ thống địa danh và tên mặt trận chuẩn trong canon/glossary.yml và work/run-state/pending-terms-index.yml."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000108
+  - term: "platoon leader / war college / aerial magic battalion"
+    recommended_vi: "trung đội trưởng / trường đại học quân sự / tiểu đoàn pháp sư trên không"
+    alternatives:
+      - "tiểu đoàn ma pháp trên không"
+    rationale: "Đảm bảo tính nhất quán với các bản ghi đã khóa trong work/run-state/pending-terms-index.yml của vol-10 (trong đó 'aerial magic battalion' được thống nhất là 'tiểu đoàn pháp sư trên không')."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000108
+  - term: "Operation Revolving Door"
+    recommended_vi: "Chiến dịch Cánh cửa xoay"
+    alternatives: []
+    rationale: "Khớp với tên chiến dịch đã khóa trong work/run-state/pending-terms-index.yml ở các tập trước."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000108
+locked_choices:
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000079
+    locked: "Giữ đại từ nội tâm/nguyên tắc chung 'công ty mình', cấu trúc nhấn mạnh 'nói thẳng ngay từ đầu về những mặt hàng mà công ty mình không kinh doanh' và 'kiến thức cơ bản trong kinh doanh'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000080
+    locked: "Giữ đại từ trần thuật 'Cô' chỉ Tanya, dấu ba chấm ngập ngừng 'có thể gây… thất vọng', cấu trúc phủ định kép 'cái gì đã không có thì vẫn là không có' và thuật ngữ 'suy nghĩ viển vông'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000081
+    locked: "Giữ đại từ 'cô', cụm 'giữ giọng điệu và thái độ điềm tĩnh' và nhận định 'Nụ cười là yếu tố đầu tiên và quan trọng nhất khi làm việc với khách hàng'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000082
+    locked: "Giữ cụm 'Việc theo sát đến cùng', đại từ nội tâm 'mình' và 'nền tảng tốt nhất để xây dựng lòng tin'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000083
+    locked: "Giữ tên riêng 'Tanya', danh xưng 'vị tham tán' và hình ảnh 'hóa thân thành một chuyên gia nói năng thẳng thắn'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000084
+    locked: "Giữ cặp xưng hô 'tôi' - 'ngài' cùng đại từ 'chúng ta', các cụm 'đám lừa đảo và cuồng tín', 'một người lính có tư duy logic', 'thắng lợi hoàn toàn' và 'đang nằm mơ giữa ban ngày đấy'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000085
+    locked: "Giữ nhấn mạnh Markdown theo DEC-P01-002 tại '*nhảy việc*', cấu trúc giả định trái thực tế kèm phủ định ('Nếu họ có thể thắng cuộc chiến này, ý định *nhảy việc* đã chẳng bao giờ thoáng qua tâm trí Tanya'), tên riêng 'Nhật Bản', 'Thế chiến II', 'Đế quốc' và ẩn dụ 'một con tàu đắm'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000086
+    locked: "Giữ cấu trúc giới hạn 'Bất kỳ ai có chút năng lực phân tích tối thiểu cũng chỉ có thể...', cụm 'sự thật rành rành' và hình ảnh 'đất nước này đang hấp hối rồi'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000087
+    locked: "Giữ câu hỏi phản ứng sững sờ có dấu ba chấm mở đầu '“…Cô mất trí rồi sao?”'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000088
+    locked: "Giữ câu đáp phủ định lịch sự '“Không đâu, thưa Tham tán.”'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000089
+    locked: "Giữ tên riêng 'Tanya', đại từ 'ông ấy' chỉ Conrad và cụm 'vẫn giữ vẻ điềm tĩnh'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000090
+    locked: "Giữ cặp xưng hô 'Tôi' - 'ngài' và cụm 'đưa ra lời khuyên đúng sự thật'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000091
+    locked: "Giữ đại từ 'cô' trong lời Conrad gọi Tanya, giọng chất vấn hoài nghi và thuật ngữ 'nhà môi giới trung thực'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000092
+    locked: "Giữ câu đáp điều kiện ngắn gọn '“Nếu ngài cần tôi làm thế.”'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000093
+    locked: "Giữ danh xưng 'Tham tán Conrad' và hành động 'lắc đầu'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000094
+    locked: "Giữ cách gọi hạ thấp 'Một trung tá quèn', chi tiết 'một đứa trẻ', đại từ 'tôi' và lời cảnh cáo 'Nếu là tôi thì tôi sẽ suy nghĩ kỹ trước khi phát ngôn bạo miệng như vậy đấy'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000095
+    locked: "Giữ cấu trúc phủ định đối chiếu 'không phải là Tanya, mà là người đàn ông ngồi cạnh cô', cùng danh xưng 'Tham tán Conrad' và 'Đại tá Lergen'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000096
+    locked: "Giữ cụm 'Là một đồng ngũ trong quân đội', đại từ 'ông ấy' chỉ Lergen và tình thái 'cảm thấy buộc phải lên tiếng can thiệp'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000097
+    locked: "Giữ lời thưa 'Thưa Tham tán', danh xưng 'Trung tá Degurechaff', đại từ 'Tôi' / 'chúng ta' - 'cô ấy', các cụm 'một trong những quân nhân có nhiều huân chương nhất', 'một thế lực đáng gờm nơi tiền tuyến' và nhận xét bỏ lửng 'cách dùng từ của cô ấy đôi khi hơi cực đoan…'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000098
+    locked: "Giữ câu hỏi phản bác mang tính hoài nghi của Conrad '“Nghe có vẻ hơi phóng đại quá đấy, phải không?”'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000099
+    locked: "Giữ nhấn mạnh Markdown theo DEC-P01-002 tại '*ai*', tên riêng 'Tanya', đại từ 'ông ta' chỉ Conrad và phủ định 'không biết *ai* đang đưa ra ý kiến thẳng thắn cho mình'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000100
+    locked: "Giữ đại từ 'cô' - 'ông ta', tên riêng 'Đế quốc', sự đối lập giữa việc hồ sơ thành tích không tự nói lên tất cả ở ngoài biên giới nước nhà với 'hàng huân chương gắn dọc cổ áo' trong phạm vi biên giới Đế quốc."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000101
+    locked: "Giữ nguyên danh sách huân chương và huy hiệu quân sự: 'Huy hiệu Xung kích Cánh Bạc, Huy hiệu Xung kích Dã chiến, Huy hiệu Chiến thương, Huy hiệu Tác chiến Chiến hào Hạng Nhất, Cài ngực Cận chiến Hạng Đặc biệt, Thập tự Sắt Hạng Nhất…'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000102
+    locked: "Giữ nhấn mạnh Markdown theo DEC-P01-002 tại từ tượng thanh '*Cạch, cạch, cạch…*', tên riêng 'Tanya' và hành động 'lần lượt chỉ vào từng tấm huân chương của mình'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000103
+    locked: "Giữ phép so sánh cấp độ giữa 'ở một công ty' và 'Trong quân đội', cùng kết luận 'quá đủ để giành được sự tôn trọng của một người đồng hương'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000104
+    locked: "Giữ cặp xưng hô 'Tôi' / 'mình' - 'ngài', thuật ngữ 'Pháp sư Định danh', câu hỏi phản vấn 'Trong mắt ngài thì những thứ này trông có phóng đại không?' và khẳng định tư cách bàn về 'thực trạng cuộc chiến'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000105
+    locked: "Giữ tên riêng 'Tanya', phủ định 'chẳng chút ngần ngại' và mục đích 'dùng những huân chương vinh dự của mình để thuyết phục người đàn ông này'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000106
+    locked: "Giữ đại từ nội tâm 'Mình' kết hợp tên riêng 'Tanya', cấu trúc đối lập phủ định—khẳng định 'không phải kiểu người để tổ chức chọn mình—mình mới là người đưa ra lựa chọn', cụm 'những thỏa hiệp khó chịu' và câu hỏi tu từ kết đoạn."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000107
+    locked: "Giữ đại từ nội tâm 'mình' kết hợp tên riêng 'Tanya', cấu trúc phủ định mức độ 'Điều cuối cùng mình muốn' và cụm 'một kẻ vô danh tiểu tốt chẳng làm nên trò trống gì'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000108
+    locked: "Giữ đại từ 'tôi', chuỗi địa danh/mặt trận 'Norden', 'mặt trận Rhine', 'Dacia', 'phương nam', 'mặt trận Liên bang', các chức vụ/đơn vị 'trung đội trưởng', 'trường đại học quân sự', 'tiểu đoàn pháp sư trên không' (sau khi đồng bộ thuật ngữ) và tên chiến dịch 'Chiến dịch Cánh cửa xoay'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000109
+    locked: "Giữ cụm danh từ kết đọng 'Sự mẫn cán, tính chính trực và một hồ sơ thành tích hoàn hảo không tì vết.'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000110
+    locked: "Giữ tên đầy đủ 'Tanya von Degurechaff', đại từ 'cô' và khẳng định 'đã làm quá đủ để chứng minh giá trị của mình trên chiến trường'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000111
+    locked: "Giữ thuật ngữ 'mức định giá thị trường chuẩn xác' và câu kết độc thoại nội tâm 'Đây là điều đáng để tự hào.'."
