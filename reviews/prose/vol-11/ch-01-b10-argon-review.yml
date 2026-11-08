@@ -1,0 +1,230 @@
+task_id: "vol-11-ch-01-b10-argon-review"
+parent_task_id: "vol-11-ch-01-b10"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 1
+source_package: "work/vol-11/batches/ch-01-b10-source.jsonl"
+target_translation: "translations/vol-11/ch-01-b10.jsonl"
+review_path: "reviews/prose/vol-11/ch-01-b10-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 1
+  minor: 1
+findings:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000303"
+    severity: "moderate"
+    issue: "Lời thoại của Tướng Zettour ở p000303 đang dịch đại từ ngôi thứ hai là 'cô' (hướng về Tanya), nhưng mạch thoại nối trực tiếp từ p000293–p000302 cùng logic ngữ cảnh cho thấy người nghe là Tướng Rudersdorf ('ông'). Ở p000301, Zettour vừa gọi Rudersdorf là 'ông' và nhắc đến Tanya ở ngôi thứ ba ('Trung tá Degurechaff'); Rudersdorf là người sắp dự cuộc họp với các quan chức Hội đồng Tự trị (p000293–p000294) và đối mặt nguy cơ bị điệp viên Liên bang ném bom (p000297). Việc Zettour thu xếp đội cận vệ mới gồm những người lính tinh nhuệ có ngoại hình tương xứng để hộ tống Rudersdorf vì lý do ngoại giao nhằm tránh gây chú ý vào chuyện Đế quốc dùng trẻ em làm sĩ quan quân đội (tức tránh để Tanya đi theo làm cận vệ tại cuộc họp ngoại giao) hoàn toàn khớp với đại từ 'ông'."
+    basis: "Đối chiếu mạch hội thoại giữa Zettour và Rudersdorf từ p000293 đến p000303, cách quy chiếu ngôi thứ ba 'Trung tá Degurechaff' ở p000301 và lý do ngoại giao trong p000303."
+    recommendation: "Đổi toàn bộ đại từ ngôi thứ hai chỉ người được hộ tống/bảo vệ trong lời Zettour ở p000303 từ 'cô' sang 'ông' ('để hộ tống ông', 'Ông thấy đấy', 'cắt cử cho ông', 'để bảo vệ ông')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000277"
+    severity: "minor"
+    issue: "Từ 'vinh trạng' là từ Hán-Việt hiếm gặp trong tiếng Việt hiện đại, hơi kém tự nhiên khi đặt cạnh 'huân chương' ở câu kế tiếp."
+    basis: "Đối chiếu ngữ cảnh lời thoại của Rudersdorf tại p000277 và yêu cầu diễn đạt tiếng Việt tự nhiên, rõ ràng trong canon/style-guide.md."
+    recommendation: "Có thể đổi 'vinh trạng' thành 'danh hiệu vinh dự', 'chiến tích' hoặc 'sự tuyên dương' khi cập nhật bản dịch hoặc ở bước chuốt văn."
+pending_term_recommendations:
+  - source_term: "General Staff Office / General Staff"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu / Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã dùng xuyên suốt các lô trước trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000278"
+      - "YS-LN11/Text/chapter002.xhtml/p000281"
+      - "YS-LN11/Text/chapter002.xhtml/p000282"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000278"
+  - source_term: "Colonel Lergen"
+    proposed_vi: "Đại tá Lergen"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc và tên nhân vật theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000279"
+      - "YS-LN11/Text/chapter002.xhtml/p000281"
+  - source_term: "primary school–military academy–first regiment–war college pipeline"
+    proposed_vi: "quy trình đào tạo từ trường tiểu học – học viện quân sự – trung đoàn đầu tiên – trường đại học quân sự"
+    category: "thuật ngữ đào tạo quân sự"
+    status: "pending"
+    rationale: "Phản ánh đầy đủ các nấc đào tạo sĩ quan tham mưu chính quy trong lục quân Đế quốc và giữ nhất quán 'trường đại học quân sự' từ work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "lộ trình từ trường tiểu học – học viện quân sự – trung đoàn đầu tiên – trường đại học quân sự"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000282"
+  - source_term: "mage officer"
+    proposed_vi: "sĩ quan ma pháp"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với thuật ngữ 'sĩ quan ma pháp' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000282"
+  - source_term: "ex-HR representative"
+    proposed_vi: "cựu đại diện nhân sự"
+    category: "thuật ngữ công sở"
+    status: "pending"
+    rationale: "Dịch sát chức danh nhân sự ở tiền kiếp của Tanya trong mạch liên tưởng tuyển dụng."
+    alternatives_vi:
+      - "nguyên đại diện bộ phận nhân sự"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000283"
+  - source_term: "Being X"
+    proposed_vi: "Being X"
+    category: "tên gọi"
+    status: "pending"
+    rationale: "Giữ nguyên định danh theo canon/glossary-pending.yml (P05-being-x)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000288"
+  - source_term: "General Rudersdorf / General Zettour"
+    proposed_vi: "Tướng Rudersdorf / Tướng Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cách gọi danh xưng kèm họ hai vị tướng theo work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Đại tướng Rudersdorf / Đại tướng Zettour"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000290"
+      - "YS-LN11/Text/chapter002.xhtml/p000292"
+      - "YS-LN11/Text/chapter002.xhtml/p000295"
+      - "YS-LN11/Text/chapter002.xhtml/p000303"
+  - source_term: "soldier’s tobacco"
+    proposed_vi: "thuốc lá quân đội"
+    category: "vật phẩm quân nhu"
+    status: "pending"
+    rationale: "Diễn đạt tự nhiên loại thuốc lá cấp phát cho lính mà Zettour thường hút."
+    alternatives_vi:
+      - "thuốc lá lính"
+      - "thuốc lá cấp phát cho binh lính"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000292"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    category: "tổ chức chính trị"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với phương án tạm trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000294"
+  - source_term: "Federation / Federation agent"
+    proposed_vi: "Liên bang / điệp viên của Liên bang"
+    category: "quốc gia - tình báo"
+    status: "pending"
+    rationale: "Giữ thống nhất tên gọi 'Liên bang' theo work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Liên bang / điệp viên Liên bang"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000297"
+  - source_term: "master of the eastern front"
+    proposed_vi: "vị chúa tể của mặt trận phía đông"
+    category: "danh xưng ẩn dụ - địa danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất cụm 'mặt trận phía đông' trong work/run-state/pending-terms-index.yml và sắc thái tôn xưng vị thế cầm trịch chiến trường miền đông của Zettour."
+    alternatives_vi:
+      - "người làm chủ mặt trận phía đông"
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000300"
+  - source_term: "Colonel Degurechaff"
+    proposed_vi: "Trung tá Degurechaff"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Dịch đúng quân hàm thực tế Trung tá của Tanya khi tiếng Anh gọi tắt là Colonel, thống nhất với work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter002.xhtml/p000301"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000276"
+    locks:
+      - "Khóa cặp đại từ 'Ngài' – 'tôi' kèm kính ngữ 'ạ', thuật ngữ 'trung đoàn' và dấu chấm lửng ngập ngừng trước cụm 'trung đoàn của riêng mình'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000277"
+    locks:
+      - "Khóa cặp đại từ 'cô' – 'chúng tôi', cấu trúc tăng tiến 'càng... lại càng...' và cụm 'lộ trình thăng tiến chính thống'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000278"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'mình' theo DEC-P01-001, đại từ 'ông ấy' chỉ Rudersdorf, các định danh 'Văn phòng Bộ Tổng tham mưu', 'Đế quốc' và hình ảnh ẩn dụ con tàu của Đế quốc sắp chìm nhưng vẫn là con tàu cho đến lúc chìm hẳn."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000279"
+    locks:
+      - "Khóa cặp đại từ 'Ngài' – 'tôi' kèm kính ngữ 'ạ' và danh xưng 'Đại tá Lergen'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000280"
+    locks:
+      - "Khóa đại từ 'Người đó' (chỉ Lergen), 'cô' (chỉ Tanya) và sự xác nhận có điều chỉnh nhẹ của Rudersdorf."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000281"
+    locks:
+      - "Khóa sự luân phiên giữa đại từ nội tâm 'mình' và tên riêng ngôi thứ ba 'Tanya', các định danh 'Bộ Tổng tham mưu', 'Đại tá Lergen' cùng cụm 'chỉ có kinh nghiệm làm chỉ huy thực địa trên danh nghĩa'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000282"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', các thuật ngữ 'quy trình đào tạo từ trường tiểu học – học viện quân sự – trung đoàn đầu tiên – trường đại học quân sự', 'Văn phòng Bộ Tổng tham mưu', 'sĩ quan ma pháp', 'lục quân', các mệnh đề phủ định ('không đi qua...', 'chẳng được đi học mẫu giáo', 'không sao rũ bỏ được') và nhận định về sự phân biệt đối xử ngầm."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000283"
+    locks:
+      - "Khóa đại từ 'mình', chức danh 'cựu đại diện nhân sự', lập luận hai mặt về việc dùng 'bộ lọc' trong 'quy trình tuyển dụng' và kết luận chỉ còn lối thoát là chuyển việc."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000284"
+    locks:
+      - "Khóa đại từ 'mình', phép so sánh nhân viên dùng kinh phí công ty cũ lấy bằng thạc sĩ kinh doanh ở trường đại học hàng đầu rồi chuyển việc ngay, cùng mệnh đề điều kiện ở câu cuối."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000285"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba gọi tên 'Tanya' và sắc thái khó nhọc khi đưa ra câu trả lời."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000286"
+    locks:
+      - "Khóa đại từ 'Tôi' kèm kính ngữ 'ạ' trong lời từ chối trực tiếp."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000287"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và cấu trúc giả định trái thực tế trong quá khứ ('Giá như lời đề nghị này đến sớm hơn vài năm, hẳn mình đã...')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000288"
+    locks:
+      - "Khóa đại từ 'mình', định danh 'Being X', mốc thời gian 'chín năm trước khi cuộc chiến nổ ra' và cụm 'gã thần thánh tự xưng đó'."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000289"
+    locks:
+      - "Khóa cách gọi 'con bé' và đại từ 'tôi' trong câu than của Rudersdorf."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000290"
+    locks:
+      - "Khóa hai danh xưng 'Tướng Rudersdorf', 'Tướng Zettour' và sự đối lập giữa tiếng thở dài chịu thua của Rudersdorf với nụ cười gần như hân hoan của Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000291"
+    locks:
+      - "Khóa câu hỏi trêu chọc ngắn gọn không chủ ngữ của Zettour."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000292"
+    locks:
+      - "Khóa đại từ 'Ông ấy' / 'ông ấy', danh xưng 'Tướng Rudersdorf', cụm 'điếu thuốc lá quân đội' và chuỗi cử chỉ nhổm dậy, nhìn đồng hồ tiếc nuối rồi buông thõng vai."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000293"
+    locks:
+      - "Khóa đại từ 'tôi' trong lời Rudersdorf thông báo chuẩn bị cho cuộc họp kế tiếp."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000294"
+    locks:
+      - "Khóa cặp đại từ ngang hàng 'Tôi' – 'ông' giữa hai vị tướng, định danh 'Hội đồng Tự trị' và hai mệnh đề khuyên can phủ định ('đừng đưa ra bất kỳ lời hứa hão nào', 'cũng đừng vẽ ra một bức tranh ảm đạm và tuyệt vọng')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000295"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', 'Tướng Rudersdorf' và sự tương phản giữa ánh nhìn thấu hiểu với vẻ mặt trầm mặc."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000296"
+    locks:
+      - "Khóa cặp đại từ 'Ông' – 'tôi' trong lời mời đi cùng và giám sát cuộc họp của Rudersdorf."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000297"
+    locks:
+      - "Khóa đại từ ngôi thứ nhất số nhiều 'Chúng ta' – 'chúng ta', cụm 'điệp viên của Liên bang' và giả định về việc trở thành mục tiêu bị ném bom nếu cả hai xuất hiện cùng nhau."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000298"
+    locks:
+      - "Khóa đại từ 'Họ' – 'chúng ta' và câu hỏi về mức độ thâm nhập của đối phương."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000299"
+    locks:
+      - "Khóa điểm nhìn ngôi thứ nhất số nhiều 'Cả ba người chúng tôi' bao gồm Tanya và hai vị tướng cùng thở dài."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000300"
+    locks:
+      - "Khóa cụm danh xưng 'vị chúa tể của mặt trận phía đông' (chỉ Zettour) và bầu không khí bất an trong phòng."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000301"
+    locks:
+      - "Khóa cặp đại từ 'tôi' – 'ông' – 'họ', danh xưng 'Trung tá Degurechaff', cấu trúc phủ định kép ('Chẳng có bằng chứng nào cho thấy họ chưa làm được điều đó') và câu hỏi điều kiện loại trừ ('Trừ phi ông hoặc Trung tá Degurechaff có bất kỳ bằng chứng nào chứng minh điều ngược lại?')."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000302"
+    locks:
+      - "Khóa đại từ 'Tôi' và câu trả lời phủ định ngắn gọn của Rudersdorf."
+  - segment_id: "YS-LN11/Text/chapter002.xhtml/p000303"
+    locks:
+      - "Khóa danh xưng 'Tướng Zettour', cặp đại từ 'tôi' – 'ông' (Zettour nói với Rudersdorf sau khi sửa finding), đại từ 'chúng ta', lý do ngoại giao tránh gây chú ý vào việc có trẻ em làm sĩ quan quân đội và việc cắt cử đội cận vệ gồm những người lính tinh nhuệ có ngoại hình tương xứng để bảo vệ Rudersdorf."
