@@ -1,0 +1,240 @@
+task_id: "vol-10-ch-03-b15-argon-review"
+reviewer: "gemini-4-argon-medium"
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000389"
+    severity: "minor"
+    issue: "Cụm mở đầu câu thoại lặp lại từ 'ngài' hai lần liền kề ('Xin ngài thứ lỗi, thưa ngài') tạo cảm giác hơi nặng nhịp."
+    evidence: "Đoạn p000389 mở đầu bằng lời xin lỗi ngắn gọn của vị đại tá giải mã với cấp trên ('sir')."
+    recommendation: "Có thể chỉnh nhẹ thành 'Xin thứ lỗi, thưa ngài' hoặc 'Mong ngài thứ lỗi' ở bước chuốt văn để lời thoại tự nhiên hơn."
+pending_term_recommendations:
+  - source_term: "Section B"
+    proposed_vi: "Ban B"
+    alternatives_vi:
+      - "Bộ phận B"
+      - "Phòng B"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000380"
+    rationale: "Dịch nhất quán quy ước 'Section' là 'Ban' trong cơ cấu tổ chức quân sự và tình báo (tương tự 'Equipment Section' -> 'Ban Trang bị')."
+    uncertainty: "low"
+  - source_term: "decoding department / cryptography department / decoding officer"
+    proposed_vi: "bộ phận giải mã / bộ phận mật mã / sĩ quan giải mã"
+    alternatives_vi:
+      - "phòng giải mã / phòng mật mã / sĩ quan giải mã"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000386"
+      - "YS-LN10/Text/chapter018.xhtml/p000390"
+      - "YS-LN10/Text/chapter018.xhtml/p000394"
+      - "YS-LN10/Text/chapter018.xhtml/p000406"
+    rationale: "Cách gọi trung tính, sát nghĩa chức năng chuyên môn của đơn vị phụ trách giải mã/mật mã và sĩ quan trực thuộc."
+    uncertainty: "low"
+  - source_term: "Intelligence branch / Commonwealth Intelligence Service"
+    proposed_vi: "nhánh Tình báo / Cơ quan Tình báo Khối Thịnh vượng chung"
+    alternatives_vi:
+      - "ngành Tình báo / Cục Tình báo Khối Thịnh vượng chung"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000409"
+      - "YS-LN10/Text/chapter018.xhtml/p000411"
+    rationale: "Khớp nhất quán với đề xuất 'Tổng hành dinh Cơ quan Tình báo Khối Thịnh vượng chung' ('Commonwealth Intelligence Service Headquarters') đã dùng trước đó trong tập 10."
+    uncertainty: "low"
+  - source_term: "dummy codes"
+    proposed_vi: "mật mã giả"
+    alternatives_vi:
+      - "bộ mã giả"
+    segment_ids:
+      - "YS-LN10/Text/chapter018.xhtml/p000403"
+    rationale: "Diễn đạt sát nghĩa thuật ngữ chỉ các mật mã ngụy tạo dùng để đánh lạc hướng đối phương."
+    uncertainty: "low"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000372"
+    choices:
+      - "Điểm nhìn: nhận định phân tích của Habergram"
+      - "Tên riêng: 'Ultra'"
+      - "Tình thái: giữ tương phản mức độ giữa 'gợi ý mạnh mẽ' và 'mới chỉ dừng lại ở mức gợi ý lại thực sự đáng sợ'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000373"
+    choices:
+      - "Điểm nhìn: câu hỏi nội tâm của Habergram"
+      - "Tên riêng: 'Ultra'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000374"
+    choices:
+      - "Điểm nhìn và đại từ: câu hỏi nội tâm của Habergram, gọi phía Ultra là 'họ'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000375"
+    choices:
+      - "Điểm nhìn và đại từ: 'Vị tướng' (The general), đại từ 'Ông', tự quy chiếu 'mình'"
+      - "Phủ định: 'Không biết được sự thật'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000376"
+    choices:
+      - "Điểm nhìn và xưng hô: lời độc thoại của Habergram, tự xưng 'mình'"
+      - "Giả định quá khứ: giữ cấu trúc điều kiện trái thực tế 'giá mà biết trước... thì mình đã vẽ...'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000377"
+    choices:
+      - "Điểm nhìn và đại từ: Habergram ('ông', tự quy chiếu 'mình')"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000378"
+    choices:
+      - "Điểm nhìn và đại từ: Habergram ('Ông', tự quy chiếu 'mình')"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000379"
+    choices:
+      - "Điểm nhìn và tên riêng: 'Habergram', đại từ 'Ông'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000380"
+    choices:
+      - "Điểm nhìn: lời thoại nhân viên trực điện thoại"
+      - "Thuật ngữ/tổ chức: 'Ban B' (Section B)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000381"
+    choices:
+      - "Điểm nhìn và đại từ: Habergram ('ông')"
+      - "Hình ảnh so sánh: 'tuần tra tầng địa ngục thứ bảy' (patrolling the seventh circle of hell)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000382"
+    choices:
+      - "Điểm nhìn: lời thoại tự giới thiệu của Habergram ('Habergram đây')"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000383"
+    choices:
+      - "Điểm nhìn và xưng hô: cấp dưới ở Ban B gọi Habergram là 'Thưa Tướng quân' (General), 'Ngài' (you)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000384"
+    choices:
+      - "Điểm nhìn và xưng hô: Habergram ('ông') xưng 'Tôi' - gọi đầu dây Ban B là 'các anh'"
+      - "Thuật ngữ: 'độ an toàn của các hệ thống mã hóa bên ta' (strength of our encryptions), 'sĩ quan phụ trách' (officer in charge)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000385"
+    choices:
+      - "Điểm nhìn và đại từ: Habergram ('ông') và vị sĩ quan ('Một sĩ quan')"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000386"
+    choices:
+      - "Điểm nhìn và đại từ: quan sát của Habergram về vị sĩ quan ('anh ta')"
+      - "Thuật ngữ: 'bộ phận giải mã' (decoding department)"
+      - "Phủ định/giới hạn: 'chỉ xét độc mỗi năng lực khi tuyển người' (considered nothing but talent when recruiting)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000387"
+    choices:
+      - "Điểm nhìn và đại từ: 'Habergram' ('Ông'), gọi vị đại tá là 'anh ta', cấp dưới là 'cấp dưới của mình'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000388"
+    choices:
+      - "Điểm nhìn và cấp bậc: Habergram chào mỉa mai 'Đại tá' (Colonel)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000389"
+    choices:
+      - "Điểm nhìn và xưng hô: vị đại tá xưng 'chúng tôi' (đại diện bộ phận) - gọi Habergram là 'thưa ngài' / 'ngài'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000390"
+    choices:
+      - "Điểm nhìn và đại từ: 'vị tướng' (the general) quan sát 'người sĩ quan giải mã' (the decoding officer / 'Người đàn ông', 'anh ta')"
+      - "Phủ định: 'vẫn chưa hoàn toàn đánh mất tính người'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000391"
+    choices:
+      - "Điểm nhìn và đại từ: Habergram ('ông') và vị đại tá ('anh ta', 'người đàn ông này')"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000392"
+    choices:
+      - "Điểm nhìn và xưng hô: Habergram xưng 'Tôi' - 'anh' với vị đại tá, dùng 'chúng ta' cho phía Khối Thịnh vượng chung"
+      - "Thuật ngữ: 'giải mã' (decoding), 'các bức điện của Đế quốc' (the Empire’s messages), 'thông tin phản gián' (counterintelligence), 'những bức điện chặn thu được' (the intercepts)"
+      - "Phủ định và tình thái: giữ khả năng phủ định 'có thể chúng ta đang không giải mã chính xác' và 'có điểm nào bất hợp lý không'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000393"
+    choices:
+      - "Điểm nhìn và đại từ: câu hỏi nội tâm của Habergram, gọi phe mình là 'họ'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000394"
+    choices:
+      - "Điểm nhìn và thuật ngữ: trần thuật khách quan về 'Vị sĩ quan giải mã' (The decoding officer) và 'cấp trên của mình' (his superior)"
+      - "Phủ định: 'hoàn toàn không mảy may nao núng'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000395"
+    choices:
+      - "Điểm nhìn và xưng hô: vị đại tá xưng 'tôi' - gọi Habergram là 'ngài'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000396"
+    choices:
+      - "Điểm nhìn: câu hỏi ngắn của Habergram"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000397"
+    choices:
+      - "Điểm nhìn và xưng hô: vị đại tá xưng 'tôi' (cá nhân) và 'chúng tôi' (bộ phận giải mã)"
+      - "Thuật ngữ: 'mật mã của Đế quốc' (the Empire’s codes), 'tin tình báo về ma pháp' (magic intel)"
+      - "Phủ định: 'không còn nghi ngờ gì nữa' và 'chưa hề có bất kỳ sự sai lệch nào'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000398"
+    choices:
+      - "Điểm nhìn và cấp bậc: 'Vị đại tá này' (This colonel), đại từ 'Anh ta'"
+      - "Thuật ngữ/tên riêng: 'cuộc chiến mật mã' (cryptological battle), 'Khối Thịnh vượng chung' (the Commonwealth), 'Đế quốc' (the Empire)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000399"
+    choices:
+      - "Điểm nhìn và xưng hô: vị đại tá xưng 'Chúng tôi', gọi phía Đế quốc là 'họ'"
+      - "Thuật ngữ: 'quy luật mã hóa' (coding patterns), 'đối chiếu chéo nhiều bộ mã' (cross-examinations of multiple codes), 'thời gian giải mã' (deciphering times), 'theo thời gian thực' (in real time)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000400"
+    choices:
+      - "Điểm nhìn và xưng hô: 'Habergram' dùng 'chúng ta' cho phe mình và 'chúng' cho phía Đế quốc"
+      - "Tình thái: giữ sự dè dặt 'ít nhất là cho đến lúc này' và câu hỏi gián tiếp 'liệu chúng đã đánh hơi thấy... hay chưa'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000401"
+    choices:
+      - "Điểm nhìn và đại từ: suy nghĩ của Habergram về phe mình ('họ') và 'Đế quốc' (the Empire)"
+      - "Từ vựng: 'xác thực và dùng để hành động được' (real and actionable)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000402"
+    choices:
+      - "Điểm nhìn và đại từ: suy nghĩ của Habergram, gọi phía Đế quốc là 'chúng'"
+      - "Thuật ngữ: 'thông tin giả' (false information), 'chuyên viên bẻ khóa mật mã' (code crackers), 'thông tin phản gián' (counterintelligence)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000403"
+    choices:
+      - "Điểm nhìn và xưng hô: Habergram gọi vị đại tá là 'Anh', phe mình là 'chúng ta', Đế quốc là 'chúng'"
+      - "Thuật ngữ: 'mật mã giả' (dummy codes)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000404"
+    choices:
+      - "Điểm nhìn và xưng hô: vị đại tá xưng 'Chúng tôi'"
+      - "Phủ định: 'vẫn chưa thấy bất kỳ dấu hiệu nào cho thấy chuyện đó đang xảy ra cả'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000405"
+    choices:
+      - "Điểm nhìn và xưng hô: Habergram xưng 'Tôi' - gọi vị đại tá là 'anh'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000406"
+    choices:
+      - "Điểm nhìn và đại từ: nhận định trần thuật về 'Bộ phận mật mã' (The cryptography department), đại từ 'họ'"
+      - "Thuật ngữ: 'giải mã các bức điện' (decipher encoded messages), 'phân tích cả độ xác thực' (analyze the message’s accuracy)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000407"
+    choices:
+      - "Điểm nhìn và đại từ: 'vị đại tá' ('anh ta') và 'Habergram' ('ông')"
+      - "Phủ định kép: 'không hề bỏ sót phản ứng đó' (didn’t fail to notice his reaction)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000408"
+    choices:
+      - "Điểm nhìn và xưng hô: Habergram dùng 'Chúng ta'"
+      - "Phủ định: 'Không có thời gian để lãng phí đâu'"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000409"
+    choices:
+      - "Điểm nhìn và cấp bậc: 'Vị đại tá' (The colonel), đại từ 'họ' cho phía tình báo"
+      - "Thuật ngữ: 'nhánh Tình báo' (Intelligence branch), 'cuộc kiểm tra' (audit)"
+      - "Nhấn mạnh Markdown: không dùng"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000410"
+    choices:
+      - "Điểm nhìn: nội dung báo cáo kiểm tra"
+      - "Phủ định: 'Không phát hiện bất thường'"
+      - "Nhấn mạnh Markdown: giữ đúng phạm vi '*Không phát hiện bất thường.*' tương ứng thẻ em trong nguồn (DEC-P01-002)"
+  - segment_id: "YS-LN10/Text/chapter018.xhtml/p000411"
+    choices:
+      - "Điểm nhìn: kết luận trần thuật khép lại chương"
+      - "Thuật ngữ/tổ chức: 'Cơ quan Tình báo Khối Thịnh vượng chung' (The Commonwealth Intelligence Service), 'các bức điện mã hóa của Đế quốc' (the Empire’s encrypted messages)"
+      - "Nhấn mạnh Markdown: không dùng"
