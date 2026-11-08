@@ -1,0 +1,233 @@
+task_id: "vol-10-ch-02-b13-argon-review"
+parent_task_id: "vol-10-ch-02-b13"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b13-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b13.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b13-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000100"
+    severity: "minor"
+    issue: "Cụm 'âm thầm tiến hành một cuộc điều tra ngầm' lặp lại hai lần nét nghĩa bí mật ('âm thầm' và 'ngầm') cho cùng một tính từ bổ nghĩa danh từ trong nguồn."
+    basis: "Đối chiếu cấu trúc cụm danh từ tại p000100 và nguyên tắc diễn đạt tự nhiên, tránh dư từ trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc rút gọn thành 'tiến hành một cuộc điều tra ngầm' hoặc 'âm thầm tiến hành một cuộc điều tra'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000117"
+    severity: "minor"
+    issue: "Trong độc thoại nội tâm của Tanya khi nhắc tới tập thể công ty cũ ở thế giới trước, đại từ ngôi thứ nhất số nhiều đang dịch là 'Chúng mình' (thường mang sắc thái thân mật cá nhân), hơi lệch nhẹ so với giọng nhận định lạnh lùng của một quản lý nhân sự."
+    basis: "Đối chiếu giọng nhân vật Tanya ở p000117–p000118 và hướng dẫn giữ giọng kể nhất quán trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'Chúng mình' thành 'Công ty mình' hoặc 'Chúng tôi' để giữ sắc thái công sở khách quan hơn."
+pending_term_recommendations:
+  - source_term: "Sir / Zettour / the general (referring to or addressing Lieutenant General Zettour)"
+    proposed_vi: "Thưa Tướng quân / ngài / Zettour / vị tướng"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất cách Tanya xưng hô 'Sir -> Thưa Tướng quân', đại từ 'ngài' và cách gọi 'Zettour' / 'vị tướng' trong trần thuật và độc thoại nội tâm theo các batch trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000097"
+      - "YS-LN10/Text/chapter010.xhtml/p000099"
+      - "YS-LN10/Text/chapter010.xhtml/p000100"
+      - "YS-LN10/Text/chapter010.xhtml/p000103"
+      - "YS-LN10/Text/chapter010.xhtml/p000111"
+      - "YS-LN10/Text/chapter010.xhtml/p000120"
+  - source_term: "Colonel / Tanya (addressing or referring to Lieutenant Colonel Tanya von Degurechaff)"
+    proposed_vi: "Trung tá / Tanya"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất cách Zettour gọi tắt cấp bậc 'Colonel -> Trung tá' khi nói với Trung tá Tanya von Degurechaff và định danh 'Tanya' trong trần thuật theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000098"
+      - "YS-LN10/Text/chapter010.xhtml/p000099"
+      - "YS-LN10/Text/chapter010.xhtml/p000103"
+      - "YS-LN10/Text/chapter010.xhtml/p000105"
+      - "YS-LN10/Text/chapter010.xhtml/p000108"
+      - "YS-LN10/Text/chapter010.xhtml/p000121"
+      - "YS-LN10/Text/chapter010.xhtml/p000123"
+  - source_term: "the Empire / Imperial Army / the homeland"
+    proposed_vi: "Đế quốc / Lục quân Đế quốc / chính quốc"
+    category: "quốc gia - tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với các mục 'the Empire -> Đế quốc', 'Imperial Army -> Lục quân Đế quốc' và 'the homeland -> chính quốc' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000101"
+      - "YS-LN10/Text/chapter010.xhtml/p000104"
+      - "YS-LN10/Text/chapter010.xhtml/p000114"
+      - "YS-LN10/Text/chapter010.xhtml/p000115"
+      - "YS-LN10/Text/chapter010.xhtml/p000117"
+  - source_term: "rank and file / the enlisted"
+    proposed_vi: "cánh lính trơn / hàng ngũ binh sĩ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'rank and file -> cánh lính trơn' trong work/run-state/pending-terms-index.yml và giữ sự phân biệt tự nhiên với 'the enlisted -> hàng ngũ binh sĩ' ở đoạn kế tiếp."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000106"
+      - "YS-LN10/Text/chapter010.xhtml/p000107"
+  - source_term: "Saipan"
+    proposed_vi: "đảo Saipan"
+    category: "địa danh lịch sử"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng địa danh lịch sử ở thế giới cũ của Tanya kèm danh từ loại thể 'đảo' giúp câu văn tiếng Việt rõ nghĩa."
+    alternatives_vi:
+      - "Saipan"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000106"
+  - source_term: "psychological warfare front"
+    proposed_vi: "mặt trận chiến tranh tâm lý"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'psychological warfare -> chiến tranh tâm lý' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000107"
+  - source_term: "Valhalla / defeatism"
+    proposed_vi: "Valhalla / chủ nghĩa bại trận"
+    category: "thuật ngữ văn hóa - chính trị - quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên điển tích thần thoại Bắc Âu 'Valhalla' và khớp chính xác với mục 'defeatism -> chủ nghĩa bại trận' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000110"
+  - source_term: "the east / eastern front / front line"
+    proposed_vi: "miền đông / mặt trận phía đông / tiền tuyến"
+    category: "thuật ngữ quân sự - địa danh"
+    status: "pending"
+    rationale: "Khớp nhất quán với các mục 'the east -> miền đông', 'eastern front -> mặt trận phía đông' và 'front line -> tiền tuyến' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000098"
+      - "YS-LN10/Text/chapter010.xhtml/p000105"
+      - "YS-LN10/Text/chapter010.xhtml/p000112"
+      - "YS-LN10/Text/chapter010.xhtml/p000115"
+      - "YS-LN10/Text/chapter010.xhtml/p000116"
+  - source_term: "Council for Self-Government / nationalist code"
+    proposed_vi: "Hội đồng Tự trị / mật mã của phe dân tộc chủ nghĩa"
+    category: "tổ chức chính trị - thuật ngữ tình báo"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'Council for Self-Government -> Hội đồng Tự trị' trong work/run-state/pending-terms-index.yml và diễn đạt chuẩn xác mật mã của lực lượng dân tộc chủ nghĩa ở miền đông."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000112"
+  - source_term: "HR manager / toxic work culture"
+    proposed_vi: "quản lý nhân sự / văn hóa làm việc độc hại"
+    category: "thuật ngữ quản trị - nhân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác chức danh nghề nghiệp kiếp trước của Tanya và khái niệm môi trường doanh nghiệp độc hại."
+    alternatives_vi:
+      - "trưởng phòng nhân sự / văn hóa doanh nghiệp độc hại"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000118"
+      - "YS-LN10/Text/chapter010.xhtml/p000120"
+  - source_term: "war college"
+    proposed_vi: "trường đại học quân sự"
+    category: "tổ chức giáo dục quân sự"
+    status: "pending"
+    rationale: "Khớp chính xác với mục 'war college -> trường đại học quân sự' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000122"
+  - source_term: "trickster"
+    proposed_vi: "bậc thầy mánh khóe"
+    category: "danh xưng ẩn dụ"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với cách dịch 'bậc thầy mánh khóe' trong lời Tanya nói với Zettour ở p000040 của cùng chương."
+    alternatives_vi:
+      - "kẻ lừa đảo"
+    segment_ids:
+      - "YS-LN10/Text/chapter010.xhtml/p000123"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000096"
+    locks:
+      - "Khóa câu tự hỏi lẩm bẩm của Zettour ('Hừm, không biết là do đâu nhỉ…?') nối tiếp mạch suy ngẫm ở p000094–p000095."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000097"
+    locks:
+      - "Khóa cách xưng hô lễ phép 'Thưa Tướng quân?' và câu hỏi thăm dò 'Có chuyện gì sao ạ?' của Tanya."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000098"
+    locks:
+      - "Khóa cặp đại từ 'Tôi' - 'cô', cách gọi 'Trung tá ạ', cụm 'bản báo cáo mật về sĩ khí của binh lính chúng ta ở tiền tuyến' và lời dẫn quay lại chủ đề chính."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000099"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba ('Zettour', 'Tanya') và hai hành động song song: đặt tập hồ sơ trước mặt Tanya trong khi tay kia xoay xoay điếu thuốc lá."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000100"
+    locks:
+      - "Khóa câu hỏi ngạc nhiên của Tanya với đại từ 'ngài', tiểu từ lễ phép 'ạ' và cụm 'cuộc điều tra ngầm về sĩ khí'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000101"
+    locks:
+      - "Khóa số liệu 'bốn mươi phần trăm', tên 'Đế quốc' và câu hỏi tu từ phủ định cuối đoạn ('chẳng phải con số bốn mươi phần trăm đó là cao đến mức đáng kinh ngạc hay sao?'); không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000102"
+    locks:
+      - "Khóa đại từ nội tâm tự quy chiếu 'Mình' theo DEC-P01-001 và nhận định 'nội dung bên trong tệ hại không sao tả xiết'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000103"
+    locks:
+      - "Khóa điểm nhìn tự tách ngôi ('Tanya') trong trần thuật và câu phản đối thẳng thắn ('Thưa Tướng quân, không đời nào có thể diễn giải những con số này theo hướng tích cực được ạ')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000104"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' - 'chúng ta', phủ định chắc chắn ('Mình biết chắc chắn một thực tế rằng chúng ta không thể'), nhấn mạnh Markdown đúng phạm vi theo DEC-P01-002 tại '*hòa*', và sự đối lập giữa việc tô vẽ kết quả hòa thành chiến thắng với 'một thắng lợi toàn diện, dứt khoát thì hoàn toàn là chuyện viển vông'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000105"
+    locks:
+      - "Khóa câu hỏi điều kiện phủ định về ý chí chiến đấu của binh lính ngoài 'tiền tuyến', tình thái 'Có thể' và cách tự quy chiếu ngôi thứ ba 'những sĩ quan giống như Tanya' chiến đấu thuần túy vì tinh thần trách nhiệm."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000106"
+    locks:
+      - "Khóa cụm 'cánh lính trơn', đại từ 'mình' ('thế giới cũ của mình') và dẫn chứng lịch sử về 'những người lính cố thủ trên đảo Saipan' vẫn tin viện binh sẽ đến cứu cho tới tận phút cuối cùng."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000107"
+    locks:
+      - "Khóa cấu trúc điều kiện phủ định ('Nếu hàng ngũ binh sĩ không còn tin vào chiến thắng cuối cùng nữa…') và thuật ngữ 'mặt trận chiến tranh tâm lý'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000108"
+    locks:
+      - "Khóa lời xác nhận của Zettour ('Đúng vậy đấy, Trung tá'), tỷ lệ 'Sáu mươi phần trăm', nhận định 'cuộc chiến này đã cầm chắc phần thua' và mức độ trầm trọng hơn ở 'nhóm tân binh'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000109"
+    locks:
+      - "Khóa đại từ 'Tôi', sắc thái giả định ngược kỳ vọng ('…Tôi cứ ngỡ chỉ những ai đã bầm dập và kiệt quệ mới cảm thấy như vậy thôi chứ ạ')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000110"
+    locks:
+      - "Khóa giả định quá khứ ('Cách đây không lâu thì đúng là như vậy'), hình ảnh 'những cựu binh bi quan đều đã lên đường tới Valhalla trước cả rồi' và ẩn dụ miễn dịch ('tạo cho họ sức đề kháng trước chủ nghĩa bại trận đang tràn lan và hoành hành')."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000111"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', danh xưng 'vị tướng' và nhận định tình thái 'dường như vẫn có một vài điểm mâu thuẫn'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000112"
+    locks:
+      - "Khóa chuỗi ba thành tựu chiến lược ('Tạo ra một cuộc tranh giành bá quyền ở miền đông', 'chia rẽ kẻ địch bằng việc thành lập Hội đồng Tự trị', 'giải mã được mật mã của phe dân tộc chủ nghĩa') và câu hỏi phản biện phủ định cuối đoạn; không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000113"
+    locks:
+      - "Khóa cụm 'Đám tân binh', giả định trái thực tế ('nếu có nhiều kinh nghiệm đến mức ấy, họ cũng sẽ nhận ra được tình cảnh ngặt nghèo mà chúng ta đang tự đẩy mình vào') và yêu cầu 'nếm trải hương vị của một chiến thắng thực sự'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000114"
+    locks:
+      - "Khóa thuật ngữ 'chính quốc', đại từ 'Tôi' - 'họ' và hai câu hỏi liên tiếp của Tanya về tác dụng của tuyên truyền cùng sự sụt giảm nhuệ khí của đám tân binh."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000115"
+    locks:
+      - "Khóa nhận định 'phản tác dụng' vì 'hiệu quả một cách thái quá', tên 'Đế quốc' và nguyên nhân đám tân binh suy sụp khi bị sốc trước thực tế của 'mặt trận phía đông'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000116"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình', 'ông ấy' (chỉ Zettour), địa danh 'miền đông' và suy luận 'hẳn là một cú sốc nặng nề khi phải tận mắt chứng kiến những gì thực sự đang diễn ra ở vùng này'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000117"
+    locks:
+      - "Khóa đại từ 'mình', phép liên hệ với 'những tập đoàn bóc lột ở thế giới cũ của mình', giọng mỉa mai khi tự khen công ty cũ cho nghỉ việc đám lười biếng và kém hiệu quả đúng quy trình, cùng câu đối lập 'Tuy nhiên, Lục quân Đế quốc lại chẳng tử tế được như vậy'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000118"
+    locks:
+      - "Khóa đại từ 'mình', chức danh kiếp trước 'quản lý nhân sự' và nỗi nhớ hòa bình cùng khao khát tìm kiếm một môi trường làm việc tốt hơn."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000119"
+    locks:
+      - "Khóa mệnh đề nhượng bộ ('dù điều đó đồng nghĩa với việc phải yêu cầu họ làm một việc hơi quá sức') và nhận định 'tất cả những lời nhảm nhí về việc buộc phải giành chiến thắng thì riêng lần này lại thực sự đúng đấy'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000120"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', danh xưng 'vị tướng' / 'ông ấy' và phép so sánh với 'một công ty có văn hóa làm việc độc hại đang cố thuyết phục nhân viên rằng công việc của họ cực kỳ quan trọng'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000121"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba ('Ánh mắt Tanya vụt ngước lên khi mưu đồ thâm hiểm ấy lộ rõ'); không dùng nhấn mạnh Markdown cho thẻ neo trang."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000122"
+    locks:
+      - "Khóa đại từ 'chúng tôi', phủ định 'Họ không dạy chúng tôi điều này' và thuật ngữ 'trường đại học quân sự'."
+  - segment_id: "YS-LN10/Text/chapter010.xhtml/p000123"
+    locks:
+      - "Khóa cách gọi 'Trung tá', cặp đại từ 'Cô' - 'chúng ta', cụm 'vừa làm vừa học' và hình ảnh hồi đáp p000040 ('chúng ta sẽ cùng nhau bước đi trên con đường của một bậc thầy mánh khóe vĩ đại')."
