@@ -1,0 +1,205 @@
+task_id: "vol-10-ch-05-b02-argon-review"
+parent_task_id: "vol-10-ch-05-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 5
+source_package: "work/vol-10/batches/ch-05-b02-source.jsonl"
+target_translation: "translations/vol-10/ch-05-b02.jsonl"
+review_path: "reviews/prose/vol-10/ch-05-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000053"
+    severity: "minor"
+    issue: "Thành ngữ ẩn dụ chỉ nguồn tin rò rỉ trong lời thoại của Johnson được dịch thoát ý thành 'Một nguồn tin mật', làm giảm nhẹ nét dí dỏm và giọng điệu nửa đùa nửa thật của nhân vật tình báo."
+    basis: "Đối chiếu sắc thái giọng thoại nhân vật tại p000053 theo nguyên tắc giữ giọng điệu trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc cách diễn đạt giữ chút sắc thái thành ngữ như 'Có con chim nhỏ ở Đế quốc mách với tôi rằng...' hoặc giữ nguyên 'Một nguồn tin mật ở Đế quốc cho tôi hay...' vì nghĩa cốt lõi hoàn toàn chính xác."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000058"
+    severity: "minor"
+    issue: "Ở câu đầu và câu hai, bản dịch quy chiếu đại từ sở hữu về Drake ('lời nói của anh') và thêm phụ từ 'cũng' vào câu nhận xét về tâm trạng của ông lão; trong mạch văn nối từ p000055–p000057, câu đầu và câu hai có thể cùng mô tả thái độ của ông lão (giọng điệu bề ngoài thản nhiên nhưng ẩn chứa cơn giận vì tâm trạng rất tồi tệ) trước khi câu ba chuyển sang phản ứng của Drake bằng liên từ đối lập."
+    basis: "Đối chiếu mạch liên kết câu và liên từ đối lập tại p000058 theo style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ theo hướng quy chiếu về ông lão và bỏ từ 'cũng' để liên từ 'Tuy nhiên' ở câu thứ ba tạo thế đối lập mạch lạc hơn."
+pending_term_recommendations:
+  - source_term: "Mr. Johnson"
+    proposed_vi: "Ông Johnson / ông Johnson"
+    category: "nhân vật"
+    status: "pending"
+    rationale: "Giữ nguyên họ nhân vật và dịch danh xưng lịch sự tự nhiên trong bối cảnh giao tiếp tại Khối Thịnh vượng chung."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000035"
+      - "YS-LN10/Text/chapter024.xhtml/p000038"
+      - "YS-LN10/Text/chapter024.xhtml/p000054"
+      - "YS-LN10/Text/chapter024.xhtml/p000063"
+  - source_term: "Lieutenant Colonel Drake / Lieutenant Colonel / Drake"
+    proposed_vi: "Trung tá Drake / Trung tá / Drake"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Thống nhất với cấp bậc và danh xưng của Trung tá Drake trong pending-terms-index.yml và batch ch-05-b01."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000034"
+      - "YS-LN10/Text/chapter024.xhtml/p000036"
+      - "YS-LN10/Text/chapter024.xhtml/p000038"
+      - "YS-LN10/Text/chapter024.xhtml/p000040"
+      - "YS-LN10/Text/chapter024.xhtml/p000046"
+      - "YS-LN10/Text/chapter024.xhtml/p000050"
+      - "YS-LN10/Text/chapter024.xhtml/p000058"
+      - "YS-LN10/Text/chapter024.xhtml/p000065"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã khóa xuyên suốt vol-10 trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000038"
+      - "YS-LN10/Text/chapter024.xhtml/p000053"
+  - source_term: "Devil of the Rhine"
+    proposed_vi: "Ác quỷ sông Rhine"
+    category: "biệt danh"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với biệt danh của Tanya đã khóa trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000049"
+      - "YS-LN10/Text/chapter024.xhtml/p000055"
+  - source_term: "the Empire / the channel / Intelligence / the Commonwealth / the Federation"
+    proposed_vi: "Đế quốc / vùng eo biển / Bên Tình báo / Khối Thịnh vượng chung / Liên bang"
+    category: "quốc gia - địa danh - tổ chức"
+    status: "pending"
+    rationale: "Giữ thống nhất hệ thống tên gọi quốc gia, vùng biển và cơ quan tình báo theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000053"
+      - "YS-LN10/Text/chapter024.xhtml/p000055"
+      - "YS-LN10/Text/chapter024.xhtml/p000056"
+      - "YS-LN10/Text/chapter024.xhtml/p000059"
+      - "YS-LN10/Text/chapter024.xhtml/p000062"
+  - source_term: "Krauts / Commies"
+    proposed_vi: "bọn Kraut (lũ Kraut) / đám Cộng sản"
+    category: "từ lóng quân sự - chính trị"
+    status: "pending"
+    rationale: "Giữ nguyên từ lóng chỉ lính Đế quốc kèm lượng từ mang sắc thái khẩu ngữ và dịch sát sắc thái gọi đám Cộng sản trong lời thoại."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000056"
+      - "YS-LN10/Text/chapter024.xhtml/p000059"
+      - "YS-LN10/Text/chapter024.xhtml/p000062"
+  - source_term: "John Bull spirit"
+    proposed_vi: "tinh thần John Bull"
+    category: "biểu tượng văn hóa"
+    status: "pending"
+    rationale: "Giữ nguyên biểu tượng nhân cách hóa nước Anh/Khối Thịnh vượng chung là John Bull để bảo toàn sắc thái văn hóa - lịch sử."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter024.xhtml/p000063"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000032"
+    locks:
+      - "Khóa quan hệ nhượng bộ ('chẳng có mấy thực khách dù đang là thời điểm lý tưởng nhất trong ngày để thưởng trà'), đại từ trần thuật 'anh' chỉ Drake, phủ định ('cố không chê bai tất cả mọi thứ') và bối cảnh 'thời chiến'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000033"
+    locks:
+      - "Khóa phủ định toàn phần ('chẳng ai thích thú gì việc nhồi nhét đầy bụng bằng đồ giả cả')."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000034"
+    locks:
+      - "Khóa tên riêng 'Drake', đại từ 'anh' - 'mình', danh từ 'bánh scone' và sự xuất hiện của 'một ông lão'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000035"
+    locks:
+      - "Khóa câu hỏi nhận diện ngắn '“Ông Johnson?”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000036"
+    locks:
+      - "Khóa danh xưng 'Trung tá Drake', đại từ 'anh' và câu hỏi thăm về 'Việc bình phục của anh'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000037"
+    locks:
+      - "Khóa cặp đại từ giao tiếp 'tôi' - 'ông', câu hỏi tu từ giả định ('Nếu không cử động được cánh tay, làm sao tôi có thể tận hưởng hết mọi thứ quê nhà ban tặng cơ chứ?') và lời khen mỉa mai lịch sự cuối đoạn."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000038"
+    locks:
+      - "Khóa danh từ 'Ông lão', tên riêng 'Drake', đại từ 'anh', danh xưng 'ông Johnson', địa danh 'mặt trận phía đông' và phủ định ('chẳng bao giờ thực sự đoán được người đàn ông này đang nghĩ gì')."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000039"
+    locks:
+      - "Khóa cấu trúc so sánh giả định ('Cứ như thể lúc nào ông ta cũng đang gảy bàn tính trong đầu') và sự tương phản giữa 'nụ cười rạng rỡ' với 'những đòi hỏi vô lý'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000040"
+    locks:
+      - "Khóa đại từ 'Tôi' - 'anh', danh xưng 'Trung tá' và lời đề nghị lịch sự ('Nếu anh có đôi phút thong thả, phiền anh tiếp chuyện tôi một lát được không?')."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000041"
+    locks:
+      - "Khóa câu hỏi ngắn '“Ý ông là sao?”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000042"
+    locks:
+      - "Khóa đại từ 'Anh' và câu hỏi gợi mở '“Anh có phải tuýp người thích trừ tà bắt ma không?”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000043"
+    locks:
+      - "Khóa đại từ 'tôi' và hồi ức tuổi thơ ('Hồi còn nhỏ tôi vẫn thường giả vờ làm chuyện đó suốt. Chà, chủ yếu chỉ là nô đùa thôi.')."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000044"
+    locks:
+      - "Khóa đại từ 'Anh' - 'anh' và chi tiết hoài niệm 'vung cành cây chiến đấu với các nàng tiên và yêu tinh'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000045"
+    locks:
+      - "Khóa thế đối lập giữa 'chỉ là trò giả vờ' với cảm nhận 'vô cùng chân thật đối với anh' khi còn nhỏ."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000046"
+    locks:
+      - "Khóa tên riêng 'Drake', đại từ trần thuật 'Anh', đại từ tự quy chiếu 'mình' trong câu hỏi nội tâm gián tiếp ('liệu có phải mình đã lãng quên những ký ức này giữa bốn bức tường của khu ký túc xá quân đội hay không')."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000047"
+    locks:
+      - "Khóa đại từ 'tôi' - 'anh' và hình ảnh 'đánh thức lại đứa trẻ bên trong mình một lần nữa'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000048"
+    locks:
+      - "Khóa đại từ 'Chúng ta', 'tôi' - 'ông', nhận định thực tế ('Chúng ta đang nói về một mệnh lệnh đấy thôi. Đằng nào thì tôi cũng phải thực hiện cả, chẳng phải sao?') và câu hỏi 'Ông cần tôi giết một bóng ma giúp ông à?'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000049"
+    locks:
+      - "Khóa biệt danh 'Ác quỷ sông Rhine' trong câu đáp ngắn '“Đó là Ác quỷ sông Rhine.”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000050"
+    locks:
+      - "Khóa chủ thể 'ông lão', danh xưng 'Trung tá Drake', đại từ 'anh' và chi tiết 'sặc cả thứ chất lỏng hao hao giống trà mà anh đang uống dở'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000051"
+    locks:
+      - "Khóa câu thốt ngắn '“Cái gì cơ?”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000052"
+    locks:
+      - "Khóa đại từ 'Anh' - 'anh', chủ thể 'người đàn ông kia' và ẩn dụ 'giáng thêm cho anh một quả bom khác'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000053"
+    locks:
+      - "Khóa đại từ 'anh' - 'tôi' - 'chúng ta', các cụm 'Bóng ma nhỏ bé', 'mặt trận phía đông', 'Đế quốc' và lời báo trước 'bóng ma đó sẽ sớm ghé thăm chúng ta thôi'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000054"
+    locks:
+      - "Khóa danh xưng 'Ông Johnson', đại từ 'tôi' và câu hỏi xác nhận 'chuyện đó là thật sao?'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000055"
+    locks:
+      - "Khóa đại từ 'tôi' - 'anh' và 'Chúng tôi', sự tương phản diện mạo ('Miệng mỉm cười nhưng đáy mắt chẳng hề có chút ý cười nào'), định danh 'viên điệp viên tình báo', địa danh 'vùng eo biển' và biệt danh 'Ác quỷ sông Rhine'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000056"
+    locks:
+      - "Khóa các thuật ngữ và tên gọi 'Bên Tình báo', 'bọn Kraut', 'hàng rào phòng thủ của Khối Thịnh vượng chung' và mục đích 'vượt qua vùng biển rộng lớn để mở một cuộc tập kích bất ngờ'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000057"
+    locks:
+      - "Khóa câu hỏi phản ứng '“Ông không nói đùa đấy chứ?”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000058"
+    locks:
+      - "Khóa chi tiết 'một cơn giận thực sự', tâm trạng tồi tệ của 'Ông lão' và thái độ của 'Trung tá Drake' trên cương vị 'một sĩ quan quân đội' trước người bàn chuyện cơ mật ở nơi công cộng."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000059"
+    locks:
+      - "Khóa đại từ 'ông' - 'tôi', cụm 'lũ Kraut khốn kiếp đó', 'đặt dù chỉ một chiếc ủng da lên đất của Khối Thịnh vượng chung' và địa điểm 'một sảnh chờ khách sạn như thế này'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000060"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 đúng phạm vi đại từ sở hữu '*chúng ta*' trong câu thoại '“Chà, đây là đất của *chúng ta* mà.”'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000061"
+    locks:
+      - "Khóa chủ thể 'Ông lão' - 'Ông' và chi tiết 'đang ám chỉ điều gì đó khi nhắc tới đất đai'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000062"
+    locks:
+      - "Khóa đại từ 'anh' - 'Tôi', tên gọi 'Liên bang' và cách gọi 'đám Cộng sản ấy'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000063"
+    locks:
+      - "Khóa danh xưng 'Ông Johnson', 'nụ cười ranh mãnh' và cụm 'sự thâm độc sâu cay của tinh thần John Bull'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000064"
+    locks:
+      - "Khóa đại từ 'chúng tôi', mệnh đề nhượng bộ ('Dù không hoàn hảo nhưng nó vẫn đang hoạt động') và lời nhắc 'tin tức tình báo do chúng tôi cung cấp bao giờ cũng đi kèm điều kiện ràng buộc'."
+  - segment_id: "YS-LN10/Text/chapter024.xhtml/p000065"
+    locks:
+      - "Khóa đại từ 'Ông', tên riêng 'Drake', đại từ 'anh' và cụm trong ngoặc kép '“dọn sạch”'."
