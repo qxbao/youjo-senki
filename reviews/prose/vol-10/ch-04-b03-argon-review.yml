@@ -1,0 +1,167 @@
+task_id: "vol-10-ch-04-b03-argon-review"
+parent_task_id: "vol-10-ch-04-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b03-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b03.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b03-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000053"
+    severity: "minor"
+    issue: "Cụm mở đầu câu thứ hai 'Trước nỗi bất lực tột cùng của họ' bám hơi sát cấu trúc giới từ chỉ thái độ trong nguyên bản, khiến mạch nối với mệnh đề chính hơi nặng."
+    basis: "Đối chiếu ngữ cảnh tâm lý các sĩ quan tại p000053 và nguyên tắc diễn đạt tiếng Việt tự nhiên, tránh bám máy móc cấu trúc câu tiếng Anh trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'Điều khiến họ vô cùng bất lực là...' hoặc 'Trong nỗi bức bối tột cùng của họ, ngay cả việc mảy may nghĩ tới khả năng thất bại thôi...'; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000070"
+    severity: "minor"
+    issue: "Trong cùng một câu nhận định khái quát về nguyên tắc ứng xử với khách hàng, chủ ngữ giả định chung chuyển từ 'người ta' ở mệnh đề trước sang 'bạn' ('trước khi bạn đưa ra ý kiến thành thật của mình') ở mệnh đề sau, khiến giọng văn hơi giống sách hướng dẫn trực tiếp người đọc."
+    basis: "Đối chiếu điểm nhìn trần thuật bám theo góc nhìn Tanya tại p000070 và hướng dẫn giữ giọng kể tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc lược đại từ 'bạn' ('trước khi đưa ra ý kiến thành thật của mình') để câu văn mượt và hợp giọng độc thoại/trần thuật hơn; không làm sai nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm trong pending-terms-index.yml để chỉ lực lượng lục quân của Đế quốc."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000054"
+      - "YS-LN10/Text/chapter020.xhtml/p000055"
+  - source_term: "Counselor Conrad / the counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án tạm đã khóa ở b02 và trong pending-terms-index.yml cho nhà ngoại giao Conrad."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000059"
+      - "YS-LN10/Text/chapter020.xhtml/p000064"
+      - "YS-LN10/Text/chapter020.xhtml/p000068"
+      - "YS-LN10/Text/chapter020.xhtml/p000070"
+      - "YS-LN10/Text/chapter020.xhtml/p000073"
+  - source_term: "Colonel Lergen / Colonel / the colonel"
+    proposed_vi: "Đại tá Lergen / thưa Đại tá / vị đại tá"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Đại tá của Lergen tại vol-10 và cách gọi lịch sự của Tham tán Conrad trong hội thoại."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000059"
+      - "YS-LN10/Text/chapter020.xhtml/p000062"
+      - "YS-LN10/Text/chapter020.xhtml/p000063"
+      - "YS-LN10/Text/chapter020.xhtml/p000064"
+  - source_term: "Lieutenant Colonel Degurechaff / Tanya"
+    proposed_vi: "Trung tá Degurechaff / Tanya"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất quân hàm Trung tá của Tanya trong lời gọi của Tham tán Conrad và tên riêng trong trần thuật ngôi thứ ba."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000066"
+      - "YS-LN10/Text/chapter020.xhtml/p000069"
+      - "YS-LN10/Text/chapter020.xhtml/p000070"
+      - "YS-LN10/Text/chapter020.xhtml/p000073"
+      - "YS-LN10/Text/chapter020.xhtml/p000075"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với thuật ngữ đã khóa ở b01, b02 và trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000072"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000051"
+    locks:
+      - "Khóa tên riêng 'Đế quốc', hình ảnh ẩn dụ 'Chiến thắng tựa như một ảo ảnh' và tình thái bắt buộc 'phải được giữ vững bằng mọi giá'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000052"
+    locks:
+      - "Khóa cấu trúc so sánh phủ định tuyệt đối 'Chẳng có gì tàn nhẫn hơn một giấc mộng sẽ không bao giờ thành hiện thực'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000053"
+    locks:
+      - "Khóa tên riêng 'Đế quốc', cụm 'tình hình chiến tuyến của Đế quốc' và phủ định mức độ 'ngay cả việc mảy may nghĩ tới khả năng thất bại thôi cũng đã là điều không thể tưởng tượng nổi'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000054"
+    locks:
+      - "Khóa thuật ngữ 'Lục quân Đế quốc', 'quốc gia dân tộc', tên riêng 'Đế quốc' và cụm 'Ký ức tập thể và văn hóa'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000055"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*chiến thắng vào phút cuối*', thuật ngữ 'Lục quân Đế quốc', tên riêng 'Đế quốc', tình thái nhượng bộ 'đôi khi có thể hứng chịu vài trận thua lẻ tẻ' và cặp đối lập 'vừa là một phước lành, lại vừa là một lời nguyền'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000056"
+    locks:
+      - "Khóa hai cụm nhấn mạnh Markdown theo DEC-P01-002 tại '*kết quả*' và '*luôn luôn*', cùng tên riêng 'Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000057"
+    locks:
+      - "Khóa câu hỏi tu từ kèm điều kiện phủ định ('nếu họ không tin rằng mình sẽ chiến thắng?') và mệnh đề phủ định tuyệt đối ở câu cảm thán ('một đội quân chưa từng thua bất kỳ cuộc chiến nào!')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000058"
+    locks:
+      - "Khóa cụm 'thắng lợi chung cuộc' và quan hệ nhân quả ('vì điều đó biện minh cho tất cả những tổn thất mà họ đã phải gánh chịu cho đến nay')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000059"
+    locks:
+      - "Khóa danh xưng 'Tham tán Conrad', 'Đại tá Lergen' và cấu trúc nhấn mạnh 'Chính sự đơn giản... lại là điều khiến...'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000060"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*hoàn toàn công cốc*', đại từ 'ông ấy' chỉ Lergen, đại từ 'chúng ta' và phủ định tuyệt đối 'không đời nào có thể thừa nhận'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000061"
+    locks:
+      - "Khóa ẩn dụ y học ('chưa từng được tiêm chủng để miễn nhiễm trước thất bại'), tên riêng 'Đế quốc', phủ định ('không thể nào sụp đổ chỉ sau một đêm') và hai câu hỏi tu từ."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000062"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Có, chúng ta có thể*', danh xưng 'Đại tá Lergen', tên riêng 'Đế quốc', cụm 'lời nói dối vô hại' và tình thái suy đoán 'Hoặc có lẽ'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000063"
+    locks:
+      - "Khóa cách xưng hô lịch sự của Conrad với Lergen: 'thưa Đại tá', 'Tôi' - 'ngài'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000064"
+    locks:
+      - "Khóa danh xưng 'Vị tham tán', 'Lergen', 'vị đại tá' và điểm nhìn trần thuật ngôi thứ ba."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000065"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Thất bại*', đại từ 'ông ấy' chỉ Lergen và chuỗi phủ định ('không giống với phong cách thường ngày', 'không tài nào ghép nổi một câu trả lời mạch lạc', 'không phải là điều ông ấy có thể dễ dàng thốt ra')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000066"
+    locks:
+      - "Khóa điểm nhìn trần thuật ngôi thứ ba gọi 'Tanya' - 'cô', đại từ 'Ông ấy' chỉ Lergen, các phủ định ('không sao nói ra được—thậm chí còn chẳng thể mở miệng', 'hoàn toàn không hề hay biết gì') và tình thái 'Có lẽ'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000067"
+    locks:
+      - "Khóa đại từ trần thuật 'cô' chỉ Tanya, phủ định giảm nhẹ 'Chẳng suy nghĩ gì quá nhiều' và cụm 'thiện chí'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000068"
+    locks:
+      - "Khóa lời gọi 'Thưa Tham tán Conrad', đại từ 'ngài' và câu hỏi xác nhận nhu cầu biết sự thật."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000069"
+    locks:
+      - "Khóa lời gọi cấp bậc '“Trung tá Degurechaff?”'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000070"
+    locks:
+      - "Khóa danh xưng 'Vị tham tán', tên riêng 'Tanya', đại từ 'cô' và nguyên tắc xác nhận khách hàng thực sự muốn nghe sự thật về mức độ bi đát của tình hình."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000071"
+    locks:
+      - "Khóa cặp xưng hô 'tôi' / 'chúng tôi' - 'ngài' trong lời đề nghị hỏi lại của Tanya."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000072"
+    locks:
+      - "Khóa câu hỏi lặp lại nguyên văn từ b02 ('Chúng ta có thể thắng cuộc chiến này không?'), xưng hô của Conrad ('tôi' - 'hai vị'), thuật ngữ 'Văn phòng Bộ Tổng tham mưu' và cụm giới từ kép 'làm việc trực tiếp với và ngay bên trong'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000073"
+    locks:
+      - "Khóa danh xưng 'Tham tán Conrad', tên riêng 'Tanya' và cấu trúc phủ định nhấn mạnh 'không thể nào rõ ràng hơn được nữa'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000074"
+    locks:
+      - "Khóa đại từ 'Cô', cấu trúc điều kiện phủ định ('sẽ không trả lời... cho đến khi...') và cụm 'những lời lẽ không thể chối cãi'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000075"
+    locks:
+      - "Khóa tên riêng 'Tanya', chi tiết biểu cảm 'Nở một nụ cười méo mó' và cụm 'lời phân tích thẳng thừng không chút nể nang'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000076"
+    locks:
+      - "Khóa câu khẳng định phủ định khả năng chiến thắng của Tanya: '“Điều đó là bất khả thi. Tôi có thể khẳng định không chút nghi ngờ rằng chúng ta sẽ không thắng nổi đâu.”'"
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000077"
+    locks:
+      - "Khóa câu hỏi lắp bắp bỏ lửng '“C-cô đang nói cái gì…?”'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000078"
+    locks:
+      - "Khóa xưng hô 'Tôi' - 'ngài', đại từ 'chúng ta', thành ngữ được dịch thoát ý tự nhiên ('Ngài tìm nhầm chỗ rồi nếu đang trông đợi một chiến thắng từ phía quân đội') và nhận định 'Cuộc chiến này đã vượt khỏi tầm kiểm soát của chúng ta rồi'."
