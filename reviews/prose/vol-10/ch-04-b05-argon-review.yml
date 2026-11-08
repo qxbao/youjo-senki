@@ -1,0 +1,147 @@
+task_id: vol-10-ch-04-b05-argon-review
+parent_task_id: vol-10-ch-04-b05
+reviewer: gemini-4-argon-medium
+role: terminology_review_argon
+volume: vol-10
+chapter: ch-04
+batch: b05
+source_path: work/vol-10/batches/ch-04-b05-source.jsonl
+translation_path: translations/vol-10/ch-04-b05.jsonl
+reviewed_at: "2026-11-08T11:20:00+07:00"
+summary:
+  segments_reviewed: 27
+  serious: 0
+  moderate: 0
+  minor: 2
+  status: pass_with_minor_notes
+findings:
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000115
+    severity: minor
+    category: prose_naturalness
+    issue: "Tại p000115, cụm 'Dù việc chỉ ra điều đó là một ý kiến có phần thất lễ' dịch sát chữ 'notion' nhưng kết hợp 'việc chỉ ra... là một ý kiến' hơi cồng kềnh trong tiếng Việt."
+    recommendation: "Có thể giữ nguyên vì không sai nghĩa, hoặc tinh chỉnh nhẹ ở bước polish thành 'Dù việc chỉ ra điều đó là một nhận xét có phần thất lễ' hoặc 'Dù việc chỉ ra điều đó có phần thất lễ'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000133
+    severity: minor
+    category: collocation
+    issue: "Tại p000133, cụm 'khiến chúng ta không thể xuể được' thiếu động từ chính đi kèm với bổ ngữ 'xuể' (thường dùng 'xoay xở không xuể' hoặc 'đối phó không xuể')."
+    recommendation: "Có thể giữ nguyên hoặc chỉnh nhẹ ở bước polish thành 'Có quá nhiều kẻ địch khiến chúng ta không sao đối phó xuể.' / 'Có quá nhiều kẻ địch, chúng ta xoay xở không xuể đâu.'."
+pending_term_recommendations:
+  - term: "General Staff Office"
+    recommended_vi: "Văn phòng Bộ Tổng tham mưu"
+    alternatives:
+      - "Bộ Tổng tham mưu"
+    rationale: "Giữ nhất quán hoàn toàn với các bản ghi đã khóa trong work/run-state/pending-terms-index.yml của vol-10."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000112
+  - term: "Counselor Conrad / Counselor / the counselor"
+    recommended_vi: "Tham tán Conrad / thưa Tham tán / vị tham tán"
+    alternatives:
+      - "Cố vấn Conrad / thưa Cố vấn / vị cố vấn"
+    rationale: "Tiếp nối nhất quán cách dịch chức danh ngoại giao của Conrad từ ch-04-b02 đến ch-04-b04."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000113
+      - YS-LN10/Text/chapter020.xhtml/p000114
+      - YS-LN10/Text/chapter020.xhtml/p000119
+      - YS-LN10/Text/chapter020.xhtml/p000121
+      - YS-LN10/Text/chapter020.xhtml/p000128
+      - YS-LN10/Text/chapter020.xhtml/p000134
+  - term: "Colonel Lergen"
+    recommended_vi: "Đại tá Lergen"
+    alternatives: []
+    rationale: "Đúng cấp bậc của Lergen trong tập 10, nhất quán với các batch trước."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000113
+      - YS-LN10/Text/chapter020.xhtml/p000114
+      - YS-LN10/Text/chapter020.xhtml/p000127
+  - term: "Lieutenant Colonel Degurechaff / Lieutenant Colonel"
+    recommended_vi: "Trung tá Degurechaff / thưa Trung tá"
+    alternatives: []
+    rationale: "Đúng cấp bậc hiện tại của Tanya và cách gọi xã giao trực tiếp trong hội thoại."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000114
+      - YS-LN10/Text/chapter020.xhtml/p000118
+      - YS-LN10/Text/chapter020.xhtml/p000125
+  - term: "the army / Imperial Army / the Empire / the homeland"
+    recommended_vi: "lục quân / Lục quân Đế quốc / Đế quốc / chính quốc"
+    alternatives: []
+    rationale: "Khớp hoàn toàn với hệ thống thuật ngữ đã khóa trong work/run-state/pending-terms-index.yml của vol-10."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000114
+      - YS-LN10/Text/chapter020.xhtml/p000122
+      - YS-LN10/Text/chapter020.xhtml/p000130
+      - YS-LN10/Text/chapter020.xhtml/p000132
+  - term: "the Federation / the Commonwealth / the Unified States / Ildoa / Akitsushima"
+    recommended_vi: "Liên bang / Khối Thịnh vượng chung / Hợp chúng quốc / Ildoa / Akitsushima"
+    alternatives: []
+    rationale: "Giữ nguyên tên các quốc gia và siêu cường theo chuẩn đã khóa xuyên suốt các tập và vol-10."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000130
+  - term: "balance of power"
+    recommended_vi: "cán cân quyền lực"
+    alternatives:
+      - "cán cân sức mạnh"
+    rationale: "Thuật ngữ quan hệ quốc tế và lý thuyết quân sự chuẩn xác, phù hợp với lập luận học thuật của Tanya."
+    uncertainty: low
+    segments:
+      - YS-LN10/Text/chapter020.xhtml/p000137
+locked_choices:
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000112
+    locked: "Giữ cặp xưng hô 'ngài' - 'tôi', thuật ngữ 'hồ sơ thành tích', 'Văn phòng Bộ Tổng tham mưu', cấu trúc phủ định kép khẳng định chắc chắn ('chứng minh không còn nghi ngờ gì nữa rằng tôi không phải một con nhóc vớ vẩn nào đó chưa từng bước chân ra chiến trường'); không có nhấn mạnh Markdown."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000113
+    locked: "Giữ danh xưng 'Tham tán Conrad', 'Đại tá Lergen' và chuỗi hành động 'chùn bước đôi chút trước khi Đại tá Lergen nắm lấy quyền dẫn dắt cuộc trò chuyện'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000114
+    locked: "Giữ cặp xưng hô 'ngài' - 'tôi', đại từ 'cô ấy' chỉ 'Trung tá Degurechaff', lời thưa 'thưa Tham tán', thuật ngữ 'lục quân', ẩn dụ 'nanh vuốt của cô ấy thuộc hàng sắc bén nhất' và giọng điệu xã giao lịch sự."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000115
+    locked: "Giữ quan hệ nhượng bộ giữa tính chất thất lễ của nhận xét và phản ứng 'người đàn ông ngồi đối diện họ vẫn bật cười'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000116
+    locked: "Giữ đại từ 'Tôi' của Conrad và chuỗi nhận định ngắn gọn về bản chất chiến tranh ('Điều gì cũng có thể xảy ra cả. Có điều đôi khi cũng khó mà luôn ghi nhớ được chuyện đó trong đầu.')."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000117
+    locked: "Giữ đại từ 'ông ấy' chỉ Conrad, miêu tả cử chỉ châm thuốc và nhận định 'Rõ ràng ông ấy biết nhìn nhận khi nào mình đã chịu thua'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000118
+    locked: "Giữ lời thưa 'thưa Trung tá', cặp xưng hô 'tôi' - 'cô' (Conrad gọi Tanya) và hai câu hỏi liên tiếp về bí quyết giữ dũng khí trước những lời chỉ trích."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000119
+    locked: "Giữ tên riêng 'Tanya', 'Tham tán Conrad' / 'Vị tham tán', đại từ 'cô', câu trả lời phủ định nhẹ nhàng và câu hỏi tu từ nửa trực tiếp ở cuối đoạn."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000120
+    locked: "Giữ đại từ 'tôi' và nhận định khái quát về bản tính hay chỉ trích lẫn nhau của con người."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000121
+    locked: "Giữ lời thưa 'Thưa Tham tán', đại từ 'Tôi' - 'mình' và sự đối lập giữa dùng lời nói với việc đã chứng minh lòng dũng cảm ngoài chiến trường."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000122
+    locked: "Giữ tên riêng 'Tanya', thuật ngữ 'chiến công quân sự', 'chính quốc' và cách hiểu chuẩn xác cụm 'speak back in the homeland' là 'quyền được lên tiếng khi trở về chính quốc'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000123
+    locked: "Giữ phép liên hệ với 'ngành bán hàng' và hình ảnh 'nhân viên bán hàng đứng đầu chấm công tan làm sớm'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000124
+    locked: "Giữ đại từ 'Tôi', cấu trúc phủ định 'vẫn chưa gặp bất kỳ ai dám gọi tôi là kẻ hèn nhát hay nghi ngờ tinh thần trách nhiệm của tôi cả'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000125
+    locked: "Giữ cặp xưng hô 'Tôi' - 'Cô', lời thưa 'thưa Trung tá' và câu hỏi trực diện 'Cô thực sự nghĩ rằng cuộc chiến này là vô vọng sao?'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000126
+    locked: "Giữ câu đáp khẳng định dứt khoát '“Đúng vậy. Tôi chắc chắn về điều đó.”'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000127
+    locked: "Giữ danh xưng 'Đại tá Lergen', quan hệ 'cấp dưới của mình' và cụm 'số phận không thể tránh khỏi của đất nước họ'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000128
+    locked: "Giữ danh xưng 'Tham tán Conrad', đại từ 'Ông ấy', tên riêng 'Tanya', cấu trúc tăng tiến cùng chủ thể ('Không chỉ mỉm cười, người đàn ông ấy gần như nhổm cả người ra mép ghế') và chi tiết 'đôi mắt sáng rực đến mức gần như gây bất an'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000129
+    locked: "Giữ đại từ 'cô' trong câu hỏi ngắn '“Lập luận của cô là gì?”'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000130
+    locked: "Giữ câu hỏi tu từ mở đầu, đại từ 'chúng ta', và đầy đủ danh sách các quốc gia/thế lực: 'Đế quốc', 'Liên bang', 'Khối Thịnh vượng chung', 'Hợp chúng quốc', 'Ildoa', 'Akitsushima'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000131
+    locked: "Giữ đại từ 'Chúng ta' và cụm 'tất cả các cường quốc trên thế giới và có khả năng còn nhiều hơn thế nữa'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000132
+    locked: "Giữ tên riêng 'Đế quốc', 'Lục quân Đế quốc', 'Tanya', ẩn dụ 'thanh kiếm hùng mạnh' và cấu trúc phủ định kép 'cũng đâu phải tay không tấc sắt'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000133
+    locked: "Giữ đại từ 'chúng ta' và luận điểm 'đây là bài toán quân số rồi'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000134
+    locked: "Giữ tên riêng 'Tanya', danh xưng 'Tham tán Conrad' và hành động 'gật gù đầy thích thú'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000135
+    locked: "Giữ đại từ 'chúng ta', cụm 'vượt ra ngoài phạm vi lý thuyết quân sự', 'cân bằng cục diện' và cách xử lý chuẩn xác lỗi in 'counties' (= 'countries' / 'số lượng quốc gia') của bản gốc."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000136
+    locked: "Giữ đại từ độc thoại nội tâm 'Mình' / 'bản thân mình' theo DEC-P01-001, cụm 'đám cuồng tín và bọn lừa đảo', 'những quy luật phổ quát' và cấu trúc phủ định 'sẽ thật thiếu yêu nước nếu một công dân có lý trí, đứng đắn như bản thân mình lại không củng cố các nhận định của mình bằng lý thuyết chặt chẽ'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000137
+    locked: "Giữ đại từ 'Ngài', thuật ngữ 'cán cân quyền lực' và luận điểm 'Một quốc gia đơn lẻ đang phải chiến đấu trên bốn mặt trận khác nhau'."
+  - segment_id: YS-LN10/Text/chapter020.xhtml/p000138
+    locked: "Giữ câu kết trần thuật ngắn gọn 'Đó quả thực là chuyện chưa từng có tiền lệ.'."
