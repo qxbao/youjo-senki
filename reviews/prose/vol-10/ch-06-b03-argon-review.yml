@@ -1,0 +1,207 @@
+task_id: "vol-10-ch-06-b03-argon-review"
+parent_task_id: "vol-10-ch-06-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b03-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b03.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b03-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000093"
+    severity: "minor"
+    issue: "Ở câu cuối, cách diễn đạt 'tránh khỏi cảnh phá sản đang chực chờ và khó lòng tránh khỏi' lặp lại cụm 'tránh khỏi' sát nhau do bám sát lối chơi chữ nghịch lý của nguyên văn, khiến nhịp câu tiếng Việt hơi nặng."
+    basis: "Đối chiếu p000093 và nguyên tắc diễn đạt tiếng Việt tự nhiên, rõ ràng trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'tránh khỏi cảnh phá sản tất yếu đang chực chờ ập đến bằng mọi giá' để giữ trọn sắc thái nghịch lý mà câu văn mượt hơn."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000096"
+    severity: "minor"
+    issue: "Cấu trúc 'quá đỗi khôn ngoan để có thể vứt bỏ lợi ích của chính mình' còn mang dấu vết cú pháp tiếng Anh, chưa thật tự nhiên trong tiếng Việt khi diễn tả ý phủ định hệ quả."
+    basis: "Đối chiếu p000096 và nguyên tắc tránh bám máy móc cấu trúc câu tiếng Anh trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'Người Ildoa quá đỗi khôn ngoan, chẳng đời nào chịu vứt bỏ lợi ích của chính mình để ra chiến đấu nơi tiền tuyến nhân danh tình hữu nghị láng giềng.'"
+pending_term_recommendations:
+  - source_term: "the Commonwealth / Albion chaps"
+    proposed_vi: "Khối Thịnh vượng chung / đám người Albion"
+    category: "quốc gia - định danh"
+    status: "pending"
+    rationale: "Khớp với định danh 'Khối Thịnh vượng chung' đã khóa xuyên suốt vol-10 và giữ sắc thái khẩu ngữ tự nhiên trong suy nghĩ của Rudersdorf khi gọi người Albion."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000069"
+      - "YS-LN10/Text/chapter028.xhtml/p000070"
+  - source_term: "the Empire / the fatherland / the Reich / the mainland of the Empire"
+    proposed_vi: "Đế quốc / Tổ quốc / Đế chế / bản thổ của Đế quốc"
+    category: "quốc gia - chính trị"
+    status: "pending"
+    rationale: "Nhất quán với hệ thống định danh tại vol-10 trong pending-terms-index.yml; tại p000079 phân biệt rõ cặp đồng vị 'Đế quốc' và 'Đế chế' để truyền tải sắc thái trang trọng của danh xưng quốc gia trong niềm tin của binh sĩ."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000069"
+      - "YS-LN10/Text/chapter028.xhtml/p000070"
+      - "YS-LN10/Text/chapter028.xhtml/p000073"
+      - "YS-LN10/Text/chapter028.xhtml/p000077"
+      - "YS-LN10/Text/chapter028.xhtml/p000079"
+      - "YS-LN10/Text/chapter028.xhtml/p000082"
+      - "YS-LN10/Text/chapter028.xhtml/p000084"
+      - "YS-LN10/Text/chapter028.xhtml/p000087"
+      - "YS-LN10/Text/chapter028.xhtml/p000089"
+      - "YS-LN10/Text/chapter028.xhtml/p000090"
+      - "YS-LN10/Text/chapter028.xhtml/p000091"
+      - "YS-LN10/Text/chapter028.xhtml/p000093"
+      - "YS-LN10/Text/chapter028.xhtml/p000098"
+  - source_term: "the army / Imperial Army / Royal Ildoan Army / their military"
+    proposed_vi: "toàn quân (lục quân) / Lục quân Đế quốc / Lục quân Hoàng gia Ildoa / quân đội của họ"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Phân biệt chuẩn xác lực lượng lục quân của Đế quốc và Ildoa, đồng thời dịch linh hoạt theo ngữ cảnh giữa 'toàn quân', 'lục quân' và 'quân đội' đúng chuẩn đã khóa ở ch-06-b01 và ch-06-b02."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000071"
+      - "YS-LN10/Text/chapter028.xhtml/p000075"
+      - "YS-LN10/Text/chapter028.xhtml/p000088"
+      - "YS-LN10/Text/chapter028.xhtml/p000097"
+  - source_term: "Plan B"
+    proposed_vi: "Kế hoạch B"
+    category: "thuật ngữ chiến lược"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với định danh 'Kế hoạch B' đã khóa tại ch-06-b02."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000072"
+      - "YS-LN10/Text/chapter028.xhtml/p000073"
+      - "YS-LN10/Text/chapter028.xhtml/p000080"
+  - source_term: "Lieutenant General Rudersdorf / soon-to-be General Zettour / Zettour"
+    proposed_vi: "Trung tướng Rudersdorf / vị đại tướng tương lai tài ba Zettour / Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp với cấp bậc và định danh nhân vật trong pending-terms-index.yml (bao gồm cách dịch 'vị đại tướng tương lai' cho cụm chỉ việc Zettour sắp được thăng hàm đại tướng)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000074"
+      - "YS-LN10/Text/chapter028.xhtml/p000078"
+      - "YS-LN10/Text/chapter028.xhtml/p000092"
+      - "YS-LN10/Text/chapter028.xhtml/p000093"
+  - source_term: "Ildoa / the Ildoans"
+    proposed_vi: "Ildoa / người Ildoa"
+    category: "quốc gia - dân tộc"
+    status: "pending"
+    rationale: "Nhất quán với định danh 'Ildoa' và 'người Ildoa' xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000081"
+      - "YS-LN10/Text/chapter028.xhtml/p000082"
+      - "YS-LN10/Text/chapter028.xhtml/p000084"
+      - "YS-LN10/Text/chapter028.xhtml/p000085"
+      - "YS-LN10/Text/chapter028.xhtml/p000086"
+      - "YS-LN10/Text/chapter028.xhtml/p000088"
+      - "YS-LN10/Text/chapter028.xhtml/p000089"
+      - "YS-LN10/Text/chapter028.xhtml/p000091"
+      - "YS-LN10/Text/chapter028.xhtml/p000096"
+      - "YS-LN10/Text/chapter028.xhtml/p000098"
+  - source_term: "offensive and defensive clauses / strategic buffer / two-front war / the east"
+    proposed_vi: "các điều khoản công thủ đồng minh / vùng đệm chiến lược / cuộc chiến trên hai mặt trận / miền đông"
+    category: "thuật ngữ quân sự - địa chính trị"
+    status: "pending"
+    rationale: "Các thuật ngữ ngoại giao - quân sự và hướng chiến trường chuẩn xác, nhất quán với hệ thống thuật ngữ của vol-10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000088"
+      - "YS-LN10/Text/chapter028.xhtml/p000089"
+      - "YS-LN10/Text/chapter028.xhtml/p000092"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000069"
+    locks:
+      - "Khóa định danh 'Khối Thịnh vượng chung', 'Đế quốc' và nhận định đối lập giữa năng lực thu thập tình báo đáng kinh ngạc của đối phương với sự tụt hậu của Đế quốc về mảng gián điệp."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000070"
+    locks:
+      - "Khóa đại từ trần thuật 'ông' (quy chiếu Rudersdorf), cách gọi 'đám người Albion kia' và phép so sánh 'Đế quốc' chẳng khác nào một đứa trẻ về mặt tình báo khi đặt cạnh các quốc gia cùng thời."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000071"
+    locks:
+      - "Khóa định danh 'toàn quân', 'Lục quân Đế quốc', hậu quả chí mạng nếu tâm lý ngờ vực len lỏi và thực tế Lục quân Đế quốc gần như không có kinh nghiệm giữ vững lập trường trước nghi kỵ hay điều tra làm rõ các mối nghi ngờ."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000072"
+    locks:
+      - "Khóa câu hỏi nội tâm về khả năng thực hiện trót lọt 'Kế hoạch B' trong tình cảnh hiện tại."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000073"
+    locks:
+      - "Khóa đại từ 'Ông', định danh 'Kế hoạch B', 'Đế quốc' và lập luận về bổn phận của một nhà chiến lược phải trù tính phương án cho bất kỳ kịch bản tồi tệ nhất nào có thể xảy ra."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000074"
+    locks:
+      - "Khóa cấp bậc kèm tên riêng 'Trung tướng Rudersdorf' và phẩm chất luôn thực hiện bổn phận một cách nghiêm túc."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000075"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ 'Chúng ta', phủ định 'không thể nắm chắc được thực trạng của lục quân' và nguyên nhân 'vì cả những lý do nội bộ lẫn bên ngoài'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000076"
+    locks:
+      - "Khóa chi tiết 'Một tay ông cầm điếu xì gà' và nhận thức 'đã không còn đường lui nữa'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000077"
+    locks:
+      - "Khóa cặp định danh 'Tổ quốc, tức Đế quốc', thực trạng đẩy quá nhiều lớp người trẻ tuổi vào chỗ chết và hình ảnh so sánh nỗi đau thương của thân nhân đè nặng lên vai ông 'như một lời nguyền'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000078"
+    locks:
+      - "Khóa định danh 'Trung tướng Rudersdorf' và sự ý thức rõ ràng về món nợ trách nhiệm trước vô số người đã hiến dâng mạng sống với niềm tin vào thắng lợi cuối cùng của đất nước."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000079"
+    locks:
+      - "Khóa cặp định danh 'Đế quốc—vào Đế chế' thể hiện niềm tin tuyệt đối của những người đã ngã xuống."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000080"
+    locks:
+      - "Khóa quyết tâm của Rudersdorf cân nhắc mọi hướng đi khả dĩ, thực thi giải pháp tốt nhất bất kể kết cục và sẵn sàng làm những gì cần làm đúng thời điểm ngay cả khi phải khởi động 'Kế hoạch B'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000081"
+    locks:
+      - "Khóa câu độc thoại với đại từ 'Chúng ta' và tên riêng 'Ildoa'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000082"
+    locks:
+      - "Khóa định danh 'Đế quốc', 'Ildoa', 'Người Ildoa' và nhận định vận mệnh Đế quốc cũng như kết cục cuộc chiến phụ thuộc vào bản hiệp ước lập lờ cùng sự định đoạt của Ildoa."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000083"
+    locks:
+      - "Khóa nhấn mạnh Markdown toàn câu theo DEC-P01-002: '*Đúng là một vị thế chẳng dễ chịu chút nào.*'"
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000084"
+    locks:
+      - "Khóa định danh 'Người Ildoa', 'Đế quốc', nhấn mạnh Markdown theo DEC-P01-002 tại '*hạn chế*' và nội dung Ildoa giữ trung lập từ đầu cuộc chiến nhưng vẫn dành cho Đế quốc bị cấm vận sự hỗ trợ tuy hạn chế mà vô cùng cần thiết."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000085"
+    locks:
+      - "Khóa vai trò của 'Ildoa' là lựa chọn hiển nhiên để làm trung gian dàn xếp hiệp ước hòa bình và cầm trịch các cuộc đàm phán."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000086"
+    locks:
+      - "Khóa nhận định về vấn đề cốt lõi: 'Ildoa' đang nắm giữ vị trí địa lý vô cùng thuận lợi."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000087"
+    locks:
+      - "Khóa thuật ngữ 'bản thổ của Đế quốc' và hai đặc điểm của Ildoa: tự thân là một thế lực tầm cỡ thế giới nhưng vẫn chưa hề giao chiến với 'Đế quốc' trong cuộc đại chiến này."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000088"
+    locks:
+      - "Khóa định danh 'Lục quân Hoàng gia Ildoa', 'Lục quân Đế quốc', 'Ildoa', thuật ngữ 'các điều khoản công thủ đồng minh', nhấn mạnh Markdown theo DEC-P01-002 tại '*con dơi*' và hình ảnh ẩn dụ về con dơi đậu ở khoảng giữa lập lờ cùng nỗi rùng rợn trước viễn cảnh chọc gậy vào con dơi ấy."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000089"
+    locks:
+      - "Khóa định danh 'Ildoa', 'Đế quốc', thuật ngữ 'nguồn tiếp tế' và 'vùng đệm chiến lược', cùng việc cả hai phe đều nghiền ngẫm từng tuyên bố của Ildoa để nhìn thấu ý đồ thực sự."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000090"
+    locks:
+      - "Khóa cấu trúc so sánh tương quan đối với 'Đế quốc': cốt lõi của vấn đề ít nằm ở ý đồ mà nằm nhiều hơn ở năng lực thực thi hành động dứt khoát."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000091"
+    locks:
+      - "Khóa câu độc thoại nhận định 'Ildoa' là một quốc gia quá nguy hiểm đối với 'Đế quốc'."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000092"
+    locks:
+      - "Khóa thuật ngữ 'Cuộc chiến trên hai mặt trận', hướng địa lý 'miền đông', danh xưng 'vị đại tướng tương lai tài ba Zettour', đại từ 'lão' quy chiếu Zettour và ẩn dụ phép màu rút ra từ chiếc mũ ảo thuật."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000093"
+    locks:
+      - "Khóa định danh 'Đế quốc', tên riêng 'Zettour', đại từ 'lão' và cảnh báo rằng nếu cuộc chiến kéo dài thêm, Đế quốc sẽ cạn sạch đạn dược, vật tư tiếp tế lẫn con người và phải bằng mọi giá tránh cảnh phá sản."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000094"
+    locks:
+      - "Khóa mệnh đề nghịch lý trong thời chiến: quyết định đúng đắn không phải lúc nào cũng là quyết định tối ưu."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000095"
+    locks:
+      - "Khóa câu độc thoại của Rudersdorf với đại từ 'Ta' - 'chúng ta' - 'họ' và câu hỏi tu từ liệu Ildoa có khờ dại đến mức cùng chia sẻ vận mệnh trong cuộc chiến thảm khốc này không."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000096"
+    locks:
+      - "Khóa định danh 'Người Ildoa' và nhận định họ quá khôn ngoan, không đời nào vứt bỏ lợi ích riêng để ra tiền tuyến nhân danh tình hữu nghị láng giềng."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000097"
+    locks:
+      - "Khóa nhận định 'Quân đội của họ đang nắm quyền kiểm soát' và đặc tính hành xử dựa trên lý trí hơn nhiều so với tình cảm hữu hảo."
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000098"
+    locks:
+      - "Khóa ưu tiên cao nhất của 'Người Ildoa' là giữ lập trường trung lập để tránh bị cuốn vào chiến tranh, hệ quả lý thuyết là 'Đế quốc' không phải lo họ xé bỏ hiệp ước song phương để tiến quân lên phía bắc, và kết luận họ không vị tha đến mức tự lao đầu vào cuộc chiến vì bất kỳ phe nào."
