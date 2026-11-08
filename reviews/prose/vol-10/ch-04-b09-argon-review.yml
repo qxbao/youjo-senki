@@ -1,0 +1,280 @@
+task_id: "vol-10-ch-04-b09-argon-review"
+parent_task_id: "vol-10-ch-04-b09"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b09-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b09.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b09-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000089"
+    severity: "minor"
+    issue: "Cách kết hợp hai từ chỉ người 'vị nhà ngoại giao' (xuất hiện tại p000089, p000113, p000116, p000121) hơi dư từ loại vì danh từ 'nhà ngoại giao' đã có yếu tố chỉ người 'nhà'."
+    basis: "Đối chiếu yêu cầu kết hợp từ tiếng Việt tự nhiên trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc lược chữ 'vị' thành 'nhà ngoại giao ấy' / 'nhà ngoại giao này' hoặc đổi thành 'vị quan chức ngoại giao' để câu văn tự nhiên hơn; không ảnh hưởng nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "reconciliation / conditional reconciliation"
+    proposed_vi: "giảng hòa / *giảng hòa có điều kiện*"
+    category: "thuật ngữ ngoại giao - quân sự"
+    status: "pending"
+    rationale: "Phù hợp với văn cảnh đàm phán khép lại chiến tranh giữa các quốc gia và đối lập trực tiếp với phương án cầu hòa vô điều kiện ở p000113–p000114."
+    alternatives_vi:
+      - "hòa giải / *hòa giải có điều kiện*"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000087"
+      - "YS-LN10/Text/chapter022.xhtml/p000092"
+      - "YS-LN10/Text/chapter022.xhtml/p000098"
+      - "YS-LN10/Text/chapter022.xhtml/p000106"
+      - "YS-LN10/Text/chapter022.xhtml/p000113"
+  - source_term: "Counselor Conrad / the counselor / Counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán / thưa Tham tán"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất hoàn toàn với phương án đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000088"
+      - "YS-LN10/Text/chapter022.xhtml/p000095"
+      - "YS-LN10/Text/chapter022.xhtml/p000102"
+      - "YS-LN10/Text/chapter022.xhtml/p000104"
+      - "YS-LN10/Text/chapter022.xhtml/p000108"
+      - "YS-LN10/Text/chapter022.xhtml/p000111"
+      - "YS-LN10/Text/chapter022.xhtml/p000117"
+      - "YS-LN10/Text/chapter022.xhtml/p000125"
+      - "YS-LN10/Text/chapter022.xhtml/p000126"
+  - source_term: "field officer"
+    proposed_vi: "sĩ quan cấp tá"
+    category: "quân hàm - chức danh"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án đã khóa cho cụm 'field officer' trong pending-terms-index.yml của tập 10 (quy chiếu cấp bậc Trung tá của Tanya)."
+    alternatives_vi:
+      - "sĩ quan thực địa"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000096"
+  - source_term: "the army / the military"
+    proposed_vi: "bên lục quân / quân đội / quân ngũ"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Phân biệt rõ 'the army' (lục quân) với 'the military' (quân đội/quân ngũ nói chung) đúng theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000098"
+      - "YS-LN10/Text/chapter022.xhtml/p000109"
+      - "YS-LN10/Text/chapter022.xhtml/p000126"
+  - source_term: "Colonel Lergen / Colonel"
+    proposed_vi: "Đại tá Lergen / Thưa Đại tá"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Đại tá và cách xưng hô với Lergen trong tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000101"
+      - "YS-LN10/Text/chapter022.xhtml/p000105"
+      - "YS-LN10/Text/chapter022.xhtml/p000106"
+      - "YS-LN10/Text/chapter022.xhtml/p000108"
+      - "YS-LN10/Text/chapter022.xhtml/p000109"
+      - "YS-LN10/Text/chapter022.xhtml/p000111"
+      - "YS-LN10/Text/chapter022.xhtml/p000113"
+      - "YS-LN10/Text/chapter022.xhtml/p000122"
+  - source_term: "white flag"
+    proposed_vi: "*lá cờ trắng*"
+    category: "thuật ngữ quân sự - ngoại giao"
+    status: "pending"
+    rationale: "Dịch sát hình ảnh ẩn dụ chỉ sự đầu hàng/cầu hòa và bảo toàn dấu nhấn mạnh theo DEC-P01-002."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000113"
+  - source_term: "little devil"
+    proposed_vi: "con tiểu quỷ"
+    category: "danh xưng"
+    status: "pending"
+    rationale: "Truyền tải tự nhiên sắc thái nửa đùa nửa thật của Tham tán Conrad khi ám chỉ Tanya."
+    alternatives_vi:
+      - "tiểu ác ma"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000114"
+  - source_term: "the Empire / Foreign Office"
+    proposed_vi: "Đế quốc / Bộ Ngoại giao"
+    category: "thuật ngữ tổ chức - quốc gia"
+    status: "pending"
+    rationale: "Giữ thống nhất với các phương án tạm đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000117"
+      - "YS-LN10/Text/chapter022.xhtml/p000119"
+      - "YS-LN10/Text/chapter022.xhtml/p000126"
+  - source_term: "bureaucrats / meritocracy"
+    proposed_vi: "giới quan chức hành chính / chế độ trọng dụng nhân tài"
+    category: "thuật ngữ hành chính - chính trị"
+    status: "pending"
+    rationale: "Khớp với 'giới quan chức hành chính' trong pending-terms-index.yml và diễn đạt rõ nghĩa 'meritocracy' trong ngữ cảnh đánh giá năng lực."
+    alternatives_vi:
+      - "giới quan liêu / chế độ nhân tài trị"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000120"
+  - source_term: "lingua franca"
+    proposed_vi: "ngôn ngữ chung"
+    category: "thuật ngữ ngôn ngữ - ngoại giao"
+    status: "pending"
+    rationale: "Diễn đạt tự nhiên, rõ nghĩa ẩn dụ về sự đồng điệu trong tư duy thực tế giữa những người chuyên nghiệp."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000123"
+  - source_term: "HR rep"
+    proposed_vi: "chuyên viên nhân sự"
+    category: "chức danh"
+    status: "pending"
+    rationale: "Thống nhất với phương án 'cựu chuyên viên nhân sự' (ex–HR representative) đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi:
+      - "đại diện nhân sự"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000125"
+  - source_term: "Lieutenant Colonel Degurechaff"
+    proposed_vi: "Trung tá Degurechaff"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Tanya trong tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000126"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000083"
+    locks:
+      - "Khóa câu trần thuật về 'Cả hai quân nhân' (Tanya và Lergen) kìm nén mong mỏi rằng 'giới lãnh đạo' cũng có được sự khiêm tốn tương tự."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000084"
+    locks:
+      - "Khóa cấu trúc giả định trái thực tế ở quá khứ ('Giá như họ có lấy một mảy may đức tính này thôi, thì cuộc chiến đã diễn ra khác đi nhiều rồi') với đại từ 'họ' liên kết trực tiếp về 'giới lãnh đạo' ở p000083 để tránh nhầm với Tham tán Conrad."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000085"
+    locks:
+      - "Khóa nhận định từ góc nhìn chuyên gia và cấu trúc so sánh tuyệt đối ('chẳng còn gì tệ hại hơn một kẻ có trí tuệ làng nhàng nhưng lại tưởng mình thông tỏ mọi thứ về bất kỳ chủ đề nào được nhắc tới')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000086"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba với tên 'Tanya' và đại từ 'Cô' khi chọn thuật ngữ ngoại giao."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000087"
+    locks:
+      - "Khóa lời thoại của Tanya với thuật ngữ 'Giảng hòa', đại từ bao gộp 'chúng ta' và yêu cầu phải diễn ra nhanh chóng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000088"
+    locks:
+      - "Khóa đại từ 'Cô' (Tanya) và danh xưng 'Tham tán Conrad'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000089"
+    locks:
+      - "Khóa câu trần thuật đối chiếu ánh mắt giữa 'Tanya' ('cô') và 'ông ta' (Conrad), cùng tình thái có vẻ lời nói đã phát huy tác dụng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000090"
+    locks:
+      - "Khóa đại từ 'Ông ta' (Conrad) thở dài và ngước nhìn lên trần nhà."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000091"
+    locks:
+      - "Khóa tình thái khả năng và phủ định ('Có thể bản thân ông ta không nhận ra, nhưng nãy giờ ông ta vẫn cứ rung đùi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000092"
+    locks:
+      - "Khóa lời thoại lặp ba lần thuật ngữ 'Giảng hòa, giảng hòa, giảng hòa…' của Conrad."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000093"
+    locks:
+      - "Khóa câu trần thuật với đại từ 'Ông ta' châm xì gà, gãi đầu và rít một hơi với ánh mắt trống rỗng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000094"
+    locks:
+      - "Khóa câu miêu tả làn khói đặc quánh phả ra từ miệng 'ông ta'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000095"
+    locks:
+      - "Khóa mốc thời gian và tên riêng 'Tanya', 'Tham tán Conrad'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000096"
+    locks:
+      - "Khóa lời thoại của Conrad với thuật ngữ 'sĩ quan cấp tá' và suy luận tất yếu ('thì ắt hẳn nó phải là sự thật')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000097"
+    locks:
+      - "Khóa câu hỏi ngắn của Tanya với đại từ 'ông' ('Ý ông là…?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000098"
+    locks:
+      - "Khóa lời thoại của Conrad với đại từ 'Tôi' - 'chúng ta', thuật ngữ 'giảng hòa' và 'bên lục quân'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000099"
+    locks:
+      - "Khóa câu nhận xét nội tâm về việc 'cánh nhà ngoại giao này' vốn khó hiểu ngay cả trong những lúc thuận lợi nhất."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000100"
+    locks:
+      - "Khóa nhận xét nội tâm với đại từ 'họ' (cánh nhà ngoại giao), phủ định ('chẳng bao giờ nói ra điều gì thực chất') và mệnh đề điều kiện kép về phẩm chất người lính ('Sự rõ ràng và ngắn gọn—thiếu một trong hai thứ đó thì không thể làm một người lính được')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000101"
+    locks:
+      - "Khóa câu trần thuật với danh xưng 'Đại tá Lergen' và tên riêng 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000102"
+    locks:
+      - "Khóa lời thoại của Lergen với cách gọi 'Thưa Tham tán', đại từ 'chúng ta' và câu hỏi về phản ứng của kẻ địch ('Họ')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000103"
+    locks:
+      - "Khóa câu hỏi của Conrad với đại từ 'ông' (gọi Lergen)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000104"
+    locks:
+      - "Khóa câu trần thuật với danh xưng 'Vị tham tán'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000105"
+    locks:
+      - "Khóa câu trần thuật và lời đáp ngập ngừng dạng câu hỏi phủ định của 'Đại tá Lergen' ('Bởi vì chúng ta không ở vào vị thế có thể đưa ra yêu sách?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000106"
+    locks:
+      - "Khóa lời thoại của Conrad với cách gọi 'Thưa Đại tá', xưng hô 'tôi' - 'chúng ta', phủ định ('đang không hiểu') và câu hỏi tu từ phủ định ('Chẳng phải vì thế nên chúng ta mới cần giảng hòa sao?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000107"
+    locks:
+      - "Khóa lời thoại của Lergen xác nhận và quy chiếu 'những người bên phía ông' (phía Bộ Ngoại giao)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000108"
+    locks:
+      - "Khóa câu trần thuật với tên 'Tham tán Conrad' ('Ông ta') vỗ tay cắt ngang lời 'Đại tá Lergen'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000109"
+    locks:
+      - "Khóa lời thoại của Conrad gọi 'Đại tá Lergen', xưng hô 'tôi' - 'các ông' (phía quân đội) và nhịp ngập ngừng chuyển hướng ('Không, khoan đã')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000110"
+    locks:
+      - "Khóa câu hỏi lại của Lergen với đại từ 'ông'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000111"
+    locks:
+      - "Khóa câu trần thuật với 'Tham tán Conrad', 'Đại tá Lergen' và 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000112"
+    locks:
+      - "Khóa câu trần thuật với đại từ 'ông ta' (Conrad) và chi tiết nụ cười ranh mãnh."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000113"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*giảng hòa có điều kiện*' và '*lá cờ trắng*', cùng sự đối lập giữa phương án của 'Đại tá Lergen' và 'Tanya'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000114"
+    locks:
+      - "Khóa lời thoại của Conrad với danh xưng 'Con tiểu quỷ' (chỉ Tanya), đại từ 'ông' (Lergen), 'chúng ta', 'Tôi', cụm 'cầu hòa' và câu hỏi đuôi ('Tôi nói có sai không?')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000115"
+    locks:
+      - "Khóa sự pha trộn điểm nhìn giữa ngôi thứ ba ('cô', 'Tanya') và độc thoại nội tâm ngôi thứ nhất ('mình' theo DEC-P01-001), cấu trúc giả định trái thực tế ('Giá như Tanya không phải là một người lính, cô đã hét toáng lên') và nhấn mạnh Markdown theo DEC-P01-002 tại '*Ông nói chuẩn quá đi chứ!*'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000116"
+    locks:
+      - "Khóa độc thoại nội tâm ngôi thứ nhất với đại từ tự quy chiếu 'mình' theo DEC-P01-001."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000117"
+    locks:
+      - "Khóa đại từ tự quy chiếu 'Mình' theo DEC-P01-001, tên 'nhà ngoại giao Conrad' và câu hỏi cảm thán về việc 'Đế quốc' tự đẩy mình vào cảnh khốn cùng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000118"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, đại từ 'ông ta' (Conrad) và hành động đề cập trực tiếp tới vấn đề nhạy cảm mà ai cũng né tránh."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000119"
+    locks:
+      - "Khóa lời thoại của Tanya với đại từ 'Tôi', phủ định thẩm quyền bác bỏ ('không ở vào vị thế có thể bác bỏ') và danh xưng 'Bộ Ngoại giao'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000120"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba về 'Tanya' ('cô'), chuỗi phủ định thẩm quyền kéo theo không gánh trách nhiệm, cùng các thuật ngữ 'giới quan chức hành chính' và 'chế độ trọng dụng nhân tài tự xưng'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000121"
+    locks:
+      - "Khóa câu trần thuật liên kết nhận định giữa 'Tanya' ('cô') và 'ông ta' (Conrad)."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000122"
+    locks:
+      - "Khóa lời thoại tán thưởng của Conrad dành cho 'Đại tá Lergen'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000123"
+    locks:
+      - "Khóa câu bình luận nội tâm với thuật ngữ 'ngôn ngữ chung'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000124"
+    locks:
+      - "Khóa câu cảm thán nội tâm về sự đồng điệu khi trân trọng cùng những giá trị như nhau."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000125"
+    locks:
+      - "Khóa câu trần thuật với tên 'Tham tán Conrad' ('ông ta'), 'Tanya' và thuật ngữ 'chuyên viên nhân sự'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000126"
+    locks:
+      - "Khóa lời thoại mời làm việc tại 'Bộ Ngoại giao' sau khi rời quân ngũ của 'Tham tán Conrad', xưng hô 'tôi' (và phản thân 'mình') - 'cô', danh xưng 'Trung tá Degurechaff', cùng đoạn trần thuật xen giữa về sự phấn khích của 'Tanya'."
