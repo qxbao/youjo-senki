@@ -1,0 +1,181 @@
+task_id: "vol-10-ch-04-b02-argon-review"
+parent_task_id: "vol-10-ch-04-b02"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b02-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b02.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b02-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000031"
+    severity: "minor"
+    issue: "Cụm danh từ chỉ năng lực/uy thế chiến trận của quốc gia được dịch là 'võ công của nước ta'; dù đúng nghĩa Hán-Việt cổ điển (chiến công/năng lực quân sự), trong tiếng Việt hiện đại từ 'võ công' đôi khi dễ gợi liên tưởng sang võ thuật cá nhân."
+    basis: "Đối chiếu ngữ cảnh các bức tranh ca ngợi chiến thắng lịch sử của Đế quốc tại p000025-p000031 và nguyên tắc diễn đạt tự nhiên, rõ nghĩa trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'uy thế quân sự của nước ta' hoặc 'sức mạnh thượng võ của nước ta'; không làm sai lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000043"
+    severity: "minor"
+    issue: "Hai câu liên tiếp cùng dùng từ 'tỉnh táo' ('một cái đầu tỉnh táo' và 'vài người tỉnh táo') cho hai cách diễn đạt khác nhau trong nguyên bản (một thành ngữ chỉ đầu óc điềm tĩnh/biết suy xét và một tính từ chỉ người bình thường/không điên rồ)."
+    basis: "Đối chiếu sắc thái từ vựng tại p000043 và hướng dẫn văn phong tiếng Việt tự nhiên trong style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi câu trước thành 'Hẳn ông ta phải là người có đầu óc biết suy xét thấu đáo' hoặc 'Hẳn ông ta phải có cái đầu rất nhạy bén' để tránh lặp từ với câu cảm thán kế tiếp."
+pending_term_recommendations:
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao / Bộ *Ngoại giao*"
+    category: "tổ chức chính phủ"
+    status: "pending"
+    rationale: "Giữ thống nhất tuyệt đối với phương án tạm đã khóa ở b01 và trong pending-terms-index.yml; bảo toàn nhấn mạnh Markdown tại p000025 theo DEC-P01-002."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000024"
+      - "YS-LN10/Text/chapter020.xhtml/p000025"
+      - "YS-LN10/Text/chapter020.xhtml/p000031"
+      - "YS-LN10/Text/chapter020.xhtml/p000035"
+  - source_term: "Colonel Lergen / Sir / sir"
+    proposed_vi: "Đại tá Lergen / Thưa Đại tá / ngài"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Khớp với cấp bậc Đại tá của Lergen tại vol-10 và quy ước xưng hô cấp dưới gọi cấp trên trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000024"
+      - "YS-LN10/Text/chapter020.xhtml/p000028"
+      - "YS-LN10/Text/chapter020.xhtml/p000037"
+      - "YS-LN10/Text/chapter020.xhtml/p000044"
+      - "YS-LN10/Text/chapter020.xhtml/p000049"
+  - source_term: "Colonel (addressing Lieutenant Colonel Tanya von Degurechaff) / Tanya"
+    proposed_vi: "Trung tá / Tanya"
+    category: "quân hàm - nhân vật - xưng hô"
+    status: "pending"
+    rationale: "Trong quân đội, cấp bậc Lieutenant Colonel khi gọi tắt là Colonel trong thoại phải dịch đúng quân hàm thực tế của Tanya là 'Trung tá'; giữ thống nhất với pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000029"
+      - "YS-LN10/Text/chapter020.xhtml/p000036"
+      - "YS-LN10/Text/chapter020.xhtml/p000039"
+      - "YS-LN10/Text/chapter020.xhtml/p000049"
+  - source_term: "General Staff Office"
+    proposed_vi: "Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với thuật ngữ đã khóa ở b01 và trong pending-terms-index.yml."
+    alternatives_vi:
+      - "Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000027"
+  - source_term: "gunboat diplomacy"
+    proposed_vi: "chính sách ngoại giao pháo hạm"
+    category: "thuật ngữ ngoại giao"
+    status: "pending"
+    rationale: "Thuật ngữ chuẩn trong quan hệ quốc tế chỉ việc phô trương sức mạnh quân sự để gây sức ép ngoại giao."
+    alternatives_vi:
+      - "ngoại giao pháo hạm"
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000034"
+  - source_term: "Counselor Conrad / counselor named Conrad / the counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán tên là Conrad / vị tham tán"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án tạm đã khóa cho nhân vật Conrad thuộc Bộ Ngoại giao trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000039"
+      - "YS-LN10/Text/chapter020.xhtml/p000044"
+      - "YS-LN10/Text/chapter020.xhtml/p000046"
+      - "YS-LN10/Text/chapter020.xhtml/p000047"
+  - source_term: "Kampfgruppe"
+    proposed_vi: "Kampfgruppe"
+    category: "đơn vị quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ tiếng Đức chỉ cụm tác chiến theo đúng quy ước xuyên suốt các tập trong pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter020.xhtml/p000049"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000024"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' theo DEC-P01-001, tên cơ quan 'Bộ Ngoại giao', danh xưng 'Đại tá Lergen' và phủ định 'không thể làm ngơ'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000025"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại 'Bộ *Ngoại giao* của Đế quốc', đại từ nội tâm 'mình', tên riêng 'Đế quốc' và các chi tiết miêu tả tranh sơn dầu ('buổi lập quốc', 'cú xung phong của một hiệp sĩ', 'khoảng hai mươi người dân thường')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000026"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và dấu chấm lửng mở đầu '…Nỗi buồn dâng lên trong lồng ngực mình.'"
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000027"
+    locks:
+      - "Khóa câu giả định trái thực tế ('Nếu đây là một tòa nhà của quân đội thì lại là chuyện khác'), phủ định ('chẳng bao giờ cần đến thứ như vậy'), thuật ngữ 'Văn phòng Bộ Tổng tham mưu' và cụm 'những người theo chủ nghĩa hiện thực triệt để'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000028"
+    locks:
+      - "Khóa lời gọi cấp trên của Tanya với Lergen: '“Thưa Đại tá.”'"
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000029"
+    locks:
+      - "Khóa lời đáp của Lergen gọi đúng cấp bậc thực tế của Tanya: '“Sao thế, Trung tá?”'"
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000030"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', cụm 'cấp trên' và phủ định giảm nhẹ 'Chẳng suy nghĩ gì nhiều'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000031"
+    locks:
+      - "Khóa thuật ngữ 'Bộ Ngoại giao', đại từ 'nước ta' - 'chúng ta' (phía quân đội/Đế quốc) đối lập với 'họ' (Bộ Ngoại giao) trong lời thoại."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000032"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' - 'chúng ta', tên riêng 'Đế quốc' và chi tiết miêu tả bức tranh lập quốc."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000033"
+    locks:
+      - "Khóa cấu trúc điều kiện mỉa mai sau dấu gạch ngang ('—nếu như họ đang dốc hết sức mình để dọa dẫm bất kỳ vị quan khách ngoại giao nước ngoài nào')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000034"
+    locks:
+      - "Khóa câu giả định kèm tình thái giảm nhẹ ('Nếu điều đó là có chủ đích, thì có lẽ nó chỉ là...') và thuật ngữ 'chính sách ngoại giao pháo hạm'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000035"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình', tên cơ quan 'Bộ Ngoại giao', tên riêng 'Đế quốc', thuật ngữ 'chủ nghĩa lãng mạn' và chuỗi phủ định ('mà chẳng mảy may suy nghĩ', 'chẳng hiểu nổi mục đích', 'Mình không biết', 'không tán đồng')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000036"
+    locks:
+      - "Khóa danh xưng 'Trung tá' trong câu thoại ngập ngừng của Lergen."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000037"
+    locks:
+      - "Khóa cặp xưng hô cấp dưới - cấp trên ('Tôi' - 'ngài', 'thưa Đại tá') và cụm 'các nhà ngoại giao'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000038"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' - 'mình', đại từ 'ông' chỉ Lergen và sự tương đồng biểu cảm giữa hai cấp trên - cấp dưới."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000039"
+    locks:
+      - "Khóa xưng hô của Lergen với Tanya ('Tôi' - 'cô', 'Trung tá'), đại từ 'chúng ta', 'ông ấy' và chức danh 'vị tham tán tên là Conrad'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000040"
+    locks:
+      - "Khóa xưng hô của Tanya với Lergen ('tôi' - 'ngài'), đại từ 'ông ta' chỉ Conrad khi chưa gặp và cụm 'tư duy của bên quân đội'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000041"
+    locks:
+      - "Khóa câu phủ định đảo hướng ('Ngược lại mới đúng'), đại từ 'Ông ấy' - 'chúng ta' - 'tôi' - 'cô' và cụm 'những người tiền nhiệm'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000042"
+    locks:
+      - "Khóa câu cảm thán ngắn '“Chà, chà.”'"
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000043"
+    locks:
+      - "Khóa đại từ nội tâm 'mình', đại từ 'ông ta', các địa danh/vị trí 'thủ đô', 'hậu phương' và tình thái suy đoán ('Hẳn ông ta phải...', 'hẳn phải vất vả lắm')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000044"
+    locks:
+      - "Khóa câu hỏi nội tâm về tình thế chưa ngã ngũ ('một đất nước chưa biết sẽ thắng hay bại trong chiến tranh'), đại từ 'mình', danh xưng 'Đại tá Lergen' và 'Tham tán Conrad'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000045"
+    locks:
+      - "Khóa đại từ nội tâm 'mình' và điểm nhấn 'văn hóa'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000046"
+    locks:
+      - "Khóa danh xưng 'Vị tham tán', sự phân biệt đại từ 'chúng tôi' (Tanya và Lergen) với 'mình' (nội tâm Tanya) và 'họ' (Bộ Ngoại giao), cùng tình thái hoài nghi ('Hoặc có lẽ đó chỉ là cách...')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000047"
+    locks:
+      - "Khóa danh xưng 'Tham tán Conrad', cụm 'cấp trên và mình' và hình ảnh so sánh 'sắc lẹm như một lưỡi dao găm'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000048"
+    locks:
+      - "Khóa câu hỏi trực diện 'Chúng ta có thể thắng cuộc chiến này không?' và cách xưng hô lịch sự của Conrad với hai sĩ quan ('Tôi' - 'hai vị')."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000049"
+    locks:
+      - "Khóa sự chuyển điểm nhìn tự khách quan hóa từ 'chúng tôi' sang ngôi thứ ba 'cả Tanya lẫn Đại tá Lergen', tên riêng 'Đế quốc' và thuật ngữ đơn vị 'Kampfgruppe của họ'."
+  - segment_id: "YS-LN10/Text/chapter020.xhtml/p000050"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*Chiến thắng.*', đại từ nội tâm 'Mình' và sự đối lập giữa 'biết ý nghĩa của nó' với 'trăn trở suy ngẫm về định nghĩa của nó'."
