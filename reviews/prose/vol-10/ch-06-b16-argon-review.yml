@@ -1,0 +1,452 @@
+task_id: "vol-10-ch-06-b16-argon-review"
+parent_task_id: "vol-10-ch-06-b16"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 6
+source_package: "work/vol-10/batches/ch-06-b16-source.jsonl"
+target_translation: "translations/vol-10/ch-06-b16.jsonl"
+review_path: "reviews/prose/vol-10/ch-06-b16-argon-review.yml"
+status: "completed"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 1
+findings:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000573"
+    severity: "minor"
+    issue: "Cụm 'ở nhà một trong hai đứa mình' trong lời thoại của Đại tá Lergen nói với Trung tá Uger dùng cách gọi 'hai đứa mình' mang sắc thái quá suồng sã, đời thường, lệch với ngữ vực sĩ quan tham mưu cao cấp đang xưng hô 'tôi - anh', 'Trung tá - Đại tá' và dùng đại từ 'chúng ta' ngay đầu câu."
+    basis: "Đối chiếu DEC-P01-001 trong canon/decisions.md (tránh biến phương án đại từ hoặc lời gọi thân mật thành thông tin về quan hệ nhân vật), canon/style-guide.md (giữ giọng thoại nhất quán theo ngữ cảnh) và mạch xưng hô xuyên suốt cuộc đối thoại từ p000504 đến p000575."
+    recommendation: "Ở bước chuốt văn, polisher nên chỉnh thành 'ở nhà một trong hai chúng ta' hoặc 'ở nhà tôi hoặc nhà anh' để giữ nhất quán giọng thoại sĩ quan."
+pending_term_recommendations:
+  - source_term: "Lieutenant Colonel Uger / Lieutenant Colonel / the railway operator"
+    proposed_vi: "Trung tá Uger / Trung tá / viên sĩ quan điều hành đường sắt"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Uger và vai trò phụ trách điều độ vận tải đường sắt quân sự tại Bộ Tổng tham mưu, tiếp nối mạch ch-06-b14 và ch-06-b15."
+    alternatives_vi:
+      - "viên chức vận hành đường sắt"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000540"
+      - "YS-LN10/Text/chapter028.xhtml/p000543"
+      - "YS-LN10/Text/chapter028.xhtml/p000546"
+      - "YS-LN10/Text/chapter028.xhtml/p000551"
+      - "YS-LN10/Text/chapter028.xhtml/p000553"
+      - "YS-LN10/Text/chapter028.xhtml/p000556"
+      - "YS-LN10/Text/chapter028.xhtml/p000572"
+  - source_term: "Colonel Lergen / Lergen / Colonel / a strategist"
+    proposed_vi: "Đại tá Lergen / Lergen / Đại tá / một nhà chiến lược"
+    category: "quân hàm - chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất quân hàm Đại tá và vai trò tham mưu chiến lược của Lergen trong cả trần thuật lẫn lời thoại của Uger."
+    alternatives_vi:
+      - "một nhà hoạch định chiến lược"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000540"
+      - "YS-LN10/Text/chapter028.xhtml/p000545"
+      - "YS-LN10/Text/chapter028.xhtml/p000547"
+      - "YS-LN10/Text/chapter028.xhtml/p000553"
+      - "YS-LN10/Text/chapter028.xhtml/p000561"
+      - "YS-LN10/Text/chapter028.xhtml/p000563"
+      - "YS-LN10/Text/chapter028.xhtml/p000568"
+      - "YS-LN10/Text/chapter028.xhtml/p000571"
+      - "YS-LN10/Text/chapter028.xhtml/p000573"
+      - "YS-LN10/Text/chapter028.xhtml/p000576"
+  - source_term: "train cars / locomotives / preliminary schedule / train schedules / snowplow trains"
+    proposed_vi: "các toa tàu / các đầu máy xe lửa / lịch trình sơ bộ / những lịch trình tàu chạy / các đoàn tàu dọn tuyết"
+    category: "thuật ngữ đường sắt - quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác hệ thống phương tiện và biểu đồ điều độ đường sắt quân sự trong bối cảnh nghiên cứu tuyến vượt núi hướng tới Ildoa."
+    alternatives_vi:
+      - "biểu đồ chạy tàu / tàu gạt tuyết"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000541"
+      - "YS-LN10/Text/chapter028.xhtml/p000542"
+      - "YS-LN10/Text/chapter028.xhtml/p000549"
+      - "YS-LN10/Text/chapter028.xhtml/p000555"
+      - "YS-LN10/Text/chapter028.xhtml/p000556"
+      - "YS-LN10/Text/chapter028.xhtml/p000565"
+      - "YS-LN10/Text/chapter030.xhtml/p000002"
+  - source_term: "Ildoa / the Empire"
+    proposed_vi: "Ildoa / Đế quốc"
+    category: "quốc danh"
+    status: "pending"
+    rationale: "Giữ thống nhất tên gọi các quốc gia trong toàn bộ dự án."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000544"
+      - "YS-LN10/Text/chapter028.xhtml/p000549"
+      - "YS-LN10/Text/chapter028.xhtml/p000550"
+      - "YS-LN10/Text/chapter028.xhtml/p000554"
+      - "YS-LN10/Text/chapter028.xhtml/p000555"
+      - "YS-LN10/Text/chapter028.xhtml/p000560"
+  - source_term: "General Rudersdorf / the general"
+    proposed_vi: "Tướng Rudersdorf / vị tướng ấy"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Thống nhất cách dịch quân hàm và danh xưng của Rudersdorf với các lô trước của chương 6."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000550"
+      - "YS-LN10/Text/chapter028.xhtml/p000557"
+      - "YS-LN10/Text/chapter028.xhtml/p000568"
+  - source_term: "contingency plan / contingency / Plan B / pacification plan / top-secret operation"
+    proposed_vi: "kế hoạch dự phòng / phương án dự phòng / Kế hoạch B / kế hoạch bình định / chiến dịch tuyệt mật"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Tiếp nối nhất quán hệ thống thuật ngữ kế hoạch tác chiến đã khóa ở các lô trước của chương 6."
+    alternatives_vi:
+      - "Phương án B"
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000550"
+      - "YS-LN10/Text/chapter028.xhtml/p000562"
+      - "YS-LN10/Text/chapter028.xhtml/p000568"
+      - "YS-LN10/Text/chapter028.xhtml/p000569"
+      - "YS-LN10/Text/chapter028.xhtml/p000570"
+      - "YS-LN10/Text/chapter030.xhtml/p000001"
+  - source_term: "the army / General Staff Office / military topography"
+    proposed_vi: "lục quân / Văn phòng Bộ Tổng tham mưu / địa hình quân sự"
+    category: "tên cơ quan - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với sổ pending của dự án và phản ánh chính xác lĩnh vực chuyên môn địa hình quân sự của Lergen tại Bộ Tổng tham mưu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter028.xhtml/p000559"
+      - "YS-LN10/Text/chapter028.xhtml/p000561"
+      - "YS-LN10/Text/chapter028.xhtml/p000565"
+      - "YS-LN10/Text/chapter030.xhtml/p000001"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000540"
+    names_and_ranks:
+      - "Lieutenant Colonel Uger -> Trung tá Uger"
+      - "Colonel Lergen -> Đại tá Lergen"
+    pronouns_and_address:
+      - "him (Uger) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba; giữ quan hệ nhân quả giữa vẻ mặt không mảy may nhận ra vấn đề của Uger và hành động gặng hỏi lập tức của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000541"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "You (Uger) -> Anh"
+    pov_and_modality:
+      - "Hai câu hỏi liên tiếp của Lergen; giữ câu hỏi phủ định kiểm chứng ở câu thứ hai (Anh có chắc đây không phải là một sự hiểu lầm nào đó chứ?)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000542"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "we (Railroad Department) -> chúng tôi"
+    pov_and_modality:
+      - "Thoại xác nhận của Uger; giữ phủ định mức độ (không ở trong tình trạng tốt nhất) và quan hệ mục đích – trình tự (để lên kế hoạch cho tương lai, trước hết chúng tôi phải...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000543"
+    names_and_ranks:
+      - "Lieutenant Colonel -> Trung tá"
+    pronouns_and_address:
+      - "I (Lergen) -> tôi"
+    pov_and_modality:
+      - "Thoại của Lergen; giữ phủ định hoàn toàn (chưa từng nghe nói gì về chuyện này cả)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000544"
+    names_and_ranks:
+      - "Ildoa -> Ildoa"
+      - "subordinates -> cấp dưới"
+    pronouns_and_address:
+      - "you (Lergen) -> Anh"
+      - "me / I / my (Uger) -> tôi / của mình"
+      - "we (Railroad Department) -> chúng tôi"
+      - "we (the Empire) -> chúng ta"
+    pov_and_modality:
+      - "Thoại của Uger; giữ câu hỏi đầu đoạn và quan hệ nguyên nhân – giới hạn kèm phủ định tuyệt đối ở câu thứ hai (Vì lý do chính trị nên chúng ta sẽ chẳng bao giờ giao chiến với Ildoa, thành ra tôi chỉ có thể...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000545"
+    names_and_ranks:
+      - "Colonel Lergen -> Đại tá Lergen"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Ý nghĩ nội tâm trực tiếp có phủ định in nghiêng nối với trần thuật ngôi thứ ba"
+    emphasis:
+      - "*Vấn đề không phải ở chỗ đó*"
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000546"
+    names_and_ranks:
+      - "Lieutenant Colonel Uger -> Trung tá Uger"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri theo góc nhìn Lergen; giữ sắc thái phỏng đoán có căn cứ ở câu thứ ba (Nhiều khả năng cũng đã có những nghiên cứu mang tính kết luận...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000547"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "They -> Họ"
+      - "his (Lergen) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ sự đối lập giữa lý thuyết thuần túy và việc huy động máy móc thực tế, cùng nhận định về trách nhiệm phải nắm thông tin theo vị trí của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000548"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "he (Lergen) -> anh"
+    pov_and_modality:
+      - "Câu hỏi nội tâm nửa trực tiếp có phủ định trong trần thuật ngôi thứ ba hạn tri (Vậy tại sao anh lại không được thông báo bất cứ điều gì về chuyện này?)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000549"
+    names_and_ranks:
+      - "Ildoa -> Ildoa"
+    pronouns_and_address:
+      - "you (Uger) -> anh / mình"
+      - "me (Lergen) -> tôi"
+    pov_and_modality:
+      - "Thoại của Lergen; giữ bước tự ngắt lời để đổi trọng tâm câu hỏi từ lý do sang người ra lệnh và giữ đúng từ in nghiêng"
+    emphasis:
+      - "*ai*"
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000550"
+    names_and_ranks:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+      - "Ildoa -> Ildoa"
+    pronouns_and_address:
+      - "He (Rudersdorf) -> Ngài ấy / mình"
+    pov_and_modality:
+      - "Thoại thuật lại mệnh lệnh cấp trên của Uger"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000551"
+    names_and_ranks:
+      - "Lieutenant Colonel -> Trung tá"
+    pronouns_and_address:
+      - "we -> chúng ta"
+    pov_and_modality:
+      - "Thoại phản biện của Lergen; giữ sự chuyển ý nhượng bộ và tính giới hạn tuyệt đối ở câu thứ hai (Toàn bộ những kế hoạch duy nhất được phê duyệt đều mang tính phòng ngự)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000552"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "I (Uger) -> tôi / mình"
+      - "you (Lergen) -> anh"
+    pov_and_modality:
+      - "Thoại bối rối có phủ định mức độ chắc chắn của Uger (tôi không chắc là mình hiểu ý anh…)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000553"
+    names_and_ranks:
+      - "the railway operator -> viên sĩ quan điều hành đường sắt này"
+      - "Lergen -> Lergen"
+      - "strategist -> nhà chiến lược"
+    pronouns_and_address:
+      - "him (Uger) -> anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ phủ định ở mệnh đề nguyên nhân (vẫn chưa nắm được bức tranh toàn cảnh)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000554"
+    names_and_ranks:
+      - "Ildoa -> Ildoa"
+    pronouns_and_address:
+      - "we / our -> chúng ta"
+    pov_and_modality:
+      - "Thoại giải thích chiến lược của Lergen; giữ phủ định tuyệt đối ở câu cuối (Chẳng có lấy một bản kế hoạch nào...) và giữ đúng giới từ in nghiêng chỉ hướng tiến công"
+    emphasis:
+      - "*vào*"
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000555"
+    names_and_ranks:
+      - "the Empire -> Đế quốc"
+    pronouns_and_address:
+      - "They -> Họ"
+      - "its / itself (the country) -> của mình"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ mệnh đề nhượng bộ (Dù những kế hoạch này không đủ sức...) và tình thái chỉ khả năng kéo dài ở cuối câu (thậm chí có thể là vô thời hạn)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000556"
+    names_and_ranks:
+      - "Lieutenant Colonel Uger -> Trung tá Uger"
+    pronouns_and_address:
+      - "he / his (Uger) -> mình / anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000557"
+    names_and_ranks:
+      - "the general -> vị tướng ấy"
+    pronouns_and_address:
+      - "me (Uger) -> tôi"
+    pov_and_modality:
+      - "Câu hỏi hoang mang của Uger về kịch bản giả định của cấp trên"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000558"
+    names_and_ranks:
+      - "officer -> sĩ quan"
+    pronouns_and_address:
+      - "I (Lergen) -> tôi"
+    pov_and_modality:
+      - "Thoại phỏng đoán của Lergen; giữ tình thái phỏng đoán (Có lẽ...) và phủ định nhấn mạnh ở câu thứ hai (ngay cả một sĩ quan có thẩm quyền như tôi hiện giờ cũng chưa được biết tới)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000559"
+    names_and_ranks:
+      - "the army -> lục quân"
+    pronouns_and_address:
+      - "their / they -> họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ phủ định nhấn mạnh ở câu thứ hai (chắc chắn chẳng có chút thời gian dư dả nào) và cấu trúc phủ định – điều kiện ngoại trừ ở câu thứ ba (sẽ không một hoạt động nào được phê duyệt trừ phi...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000560"
+    names_and_ranks:
+      - "Ildoa -> Ildoa"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Câu hỏi nội tâm nửa trực tiếp trong trần thuật ngôi thứ ba hạn tri"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000561"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Câu hỏi nội tâm nửa trực tiếp có phủ định nối với mệnh đề định ngữ nhấn mạnh chức trách địa hình quân sự của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000562"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Thoại kết luận mang tình thái phỏng đoán của Lergen (…Có lẽ đây là một chiến dịch tuyệt mật.)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000563"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000564"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "your (khái quát) -> của mình"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri nêu châm ngôn binh pháp"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000565"
+    names_and_ranks:
+      - "General Staff Office -> Văn phòng Bộ Tổng tham mưu"
+      - "fellow officer -> sĩ quan đồng cấp"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ cấu trúc giới hạn ở câu đầu (chẳng qua chỉ là...) và tình thái đi kèm phủ định ở câu sau (nhiều khả năng sẽ chẳng bao giờ thu hút...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000566"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "they -> họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ phủ định kèm mệnh đề điều kiện thực tế (Thế nhưng mọi chuyện lại không như vậy, nếu họ đã bắt đầu...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000567"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ mệnh đề chêm phủ định nhấn mạnh (và dù có nhấn mạnh bao nhiêu cũng không đủ) cùng cụm từ in nghiêng cuối câu"
+    emphasis:
+      - "*rất nghiêm trọng*"
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000568"
+    names_and_ranks:
+      - "General Rudersdorf -> Tướng Rudersdorf"
+      - "Lergen -> Lergen"
+    pronouns_and_address:
+      - "his (Rudersdorf) -> trong đầu"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ quan hệ nhượng bộ – tăng tiến ở câu đầu và so sánh vượt mức hiểu biết của Lergen ở câu sau"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000569"
+    names_and_ranks:
+      - "Plan B -> Kế hoạch B"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ tình thái khả năng kết hợp giới hạn (rất có thể chỉ đơn thuần là một phương án dự phòng không hơn không kém)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000570"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri đối lập với đoạn trước để nhấn mạnh tính thực tế của phương án dự phòng"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000571"
+    names_and_ranks:
+      - "C-Colonel -> Đ-Đại tá"
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Thoại gọi lắp bắp đầy bất an của Uger"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000572"
+    names_and_ranks:
+      - "Lieutenant Colonel -> Trung tá"
+    pronouns_and_address:
+      - "us / we -> Chúng ta / chúng ta"
+      - "I (Lergen) -> Tôi"
+    pov_and_modality:
+      - "Thoại rủ đi uống rượu để trao đổi thẳng thắn của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000573"
+    names_and_ranks:
+      - "Colonel Lergen -> Đại tá Lergen"
+    pronouns_and_address:
+      - "we / our -> chúng ta / hai chúng ta (khuyến nghị thay cho 'hai đứa mình')"
+      - "he (Lergen) -> anh"
+    pov_and_modality:
+      - "Thoại đề nghị thận trọng của Lergen nối với trần thuật ngôi thứ ba"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000574"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ mệnh đề nhượng bộ có phủ định chắc chắn (Dù đó chắc chắn không phải là cách thức tốt nhất...)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000575"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "I (Lergen) -> Tôi"
+      - "we -> chúng ta"
+    pov_and_modality:
+      - "Thoại nhận định và đề xuất bỏ lửng của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000576"
+    names_and_ranks:
+      - "Lergen -> Lergen"
+      - "Colonel Lergen -> Đại tá Lergen"
+    pronouns_and_address:
+      - "him (Lergen) -> sững người"
+    pov_and_modality:
+      - "Ý nghĩ nội tâm trực tiếp đang dang dở in nghiêng nối với trần thuật ngôi thứ ba"
+    emphasis:
+      - "*Phối hợp cùng nhau ở hậu trường*"
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000577"
+    names_and_ranks: []
+    pronouns_and_address: []
+    pov_and_modality:
+      - "Thoại cảm thán khi chợt ngộ ra vấn đề của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000578"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "He (Lergen) -> Anh"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter028.xhtml/p000579"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "we -> chúng ta"
+    pov_and_modality:
+      - "Thoại ẩn dụ về giới hạn thời gian bằng hình ảnh chiếc đồng hồ cát của Lergen"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000001"
+    names_and_ranks:
+      - "the army -> lục quân"
+    pronouns_and_address:
+      - "They -> Họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ câu cảm thán mở đầu và câu hỏi nội tâm nửa trực tiếp có điều kiện phủ định ở câu thứ hai (Nếu lục quân không thể đạt được mục tiêu trong giới hạn đó… phải chăng điều ấy sẽ kích hoạt những kế hoạch dự phòng kia?)"
+    emphasis: []
+  - segment_id: "YS-LN10/Text/chapter030.xhtml/p000002"
+    names_and_ranks: []
+    pronouns_and_address:
+      - "They / they -> họ"
+    pov_and_modality:
+      - "Trần thuật ngôi thứ ba hạn tri; giữ câu điều kiện giả định về thời điểm mùa xuân, câu phủ định tuyệt đối về việc cơ động mùa đông (Chắc chắn họ sẽ không đời nào...), căn cứ từ việc thiếu đoàn tàu dọn tuyết và ước lượng thời gian ở câu cuối (còn một năm, hoặc có khi còn ít hơn thế)"
+    emphasis: []
