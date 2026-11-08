@@ -1,0 +1,199 @@
+task_id: "vol-11-ch-02-b13-argon-review"
+parent_task_id: "vol-11-ch-02-b13"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 2
+source_package: "work/vol-11/batches/ch-02-b13-source.jsonl"
+target_translation: "translations/vol-11/ch-02-b13.jsonl"
+review_path: "reviews/prose/vol-11/ch-02-b13-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 3
+findings:
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000112"
+    severity: "minor"
+    issue: "Cụm 'tai tiếng khét tiếng' lặp âm và trùng nét nghĩa ('tai tiếng' kết hợp với 'khét tiếng')."
+    basis: "Đối chiếu p000112 và nguyên tắc viết tiếng Việt tự nhiên, rõ ràng trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'tai tiếng lừng lẫy' (sắc thái mỉa mai nhẹ) hoặc 'tiếng xấu khét tiếng' để tránh lặp từ; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000126"
+    severity: "minor"
+    issue: "Ở câu thứ ba, trạng từ nhấn mạnh mức độ cực đoan ('ngay cả') trước chức danh 'Tổng tham mưu trưởng' được dịch thành 'đích thân', làm giảm nhẹ sắc thái so sánh bậc thang dù phía sau vẫn giữ trợ từ 'cũng là'."
+    basis: "Đối chiếu p000126 và nguyên tắc giữ đúng sắc thái nhấn mạnh, mức độ trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'việc đích thân Tổng tham mưu trưởng' thành 'việc ngay cả Tổng tham mưu trưởng' để khớp sát hơn với cấu trúc tăng tiến; không làm sai lệch nghĩa nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000128"
+    severity: "minor"
+    issue: "Ở câu thứ hai, cụm 'một phần' đặt ngay trước đại từ 'chúng tôi' ('có lẽ một phần chúng tôi đã tự vùi đầu...') dễ gây hiểu nhầm thành bộ phận chủ thể ('một bộ phận trong số chúng tôi') thay vì bổ nghĩa cho mục đích hành động ('một phần là để trốn tránh thực tại')."
+    basis: "Đối chiếu p000128 và nguyên tắc giữ đúng phạm vi bổ nghĩa, quan hệ mục đích trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher nên chuyển vị trí thành 'có lẽ chúng tôi đã tự vùi đầu vào sự bận rộn ấy một phần là để trốn tránh thực tại'; không bắt buộc sửa bản chuẩn ở bước này."
+pending_term_recommendations:
+  - source_term: "Ildoa"
+    proposed_vi: "Ildoa"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng quốc gia Ildoa thống nhất với các lô trước và work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000112"
+      - "YS-LN11/Text/chapter008.xhtml/p000114"
+      - "YS-LN11/Text/chapter008.xhtml/p000115"
+      - "YS-LN11/Text/chapter008.xhtml/p000121"
+      - "YS-LN11/Text/chapter008.xhtml/p000124"
+  - source_term: "diplomatic envoy"
+    proposed_vi: "đặc sứ ngoại giao"
+    category: "thuật ngữ ngoại giao"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác tư cách phái viên ngoại giao của Lergen khi sang làm việc tại Ildoa."
+    alternatives_vi:
+      - "phái viên ngoại giao"
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000114"
+  - source_term: "the Empire"
+    proposed_vi: "Đế quốc"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp thống nhất với định danh Đế quốc trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000114"
+      - "YS-LN11/Text/chapter008.xhtml/p000121"
+      - "YS-LN11/Text/chapter008.xhtml/p000126"
+      - "YS-LN11/Text/chapter008.xhtml/p000131"
+  - source_term: "General Staff / General Staff Office"
+    proposed_vi: "Bộ Tổng tham mưu / Văn phòng Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Phân biệt và giữ thống nhất cách dịch giữa Bộ Tổng tham mưu và Văn phòng Bộ Tổng tham mưu theo work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000120"
+      - "YS-LN11/Text/chapter008.xhtml/p000121"
+      - "YS-LN11/Text/chapter008.xhtml/p000124"
+      - "YS-LN11/Text/chapter008.xhtml/p000125"
+      - "YS-LN11/Text/chapter008.xhtml/p000126"
+  - source_term: "General Rudersdorf / General Zettour"
+    proposed_vi: "Tướng Rudersdorf / Tướng Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp thống nhất với cách gọi Tướng Rudersdorf và Tướng Zettour tại vol-10, vol-11 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000121"
+  - source_term: "Operations Department of the General Staff"
+    proposed_vi: "Cục Tác chiến của Bộ Tổng tham mưu"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với thuật ngữ 'Cục Tác chiến' (Operations) trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Phòng Tác chiến thuộc Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000125"
+  - source_term: "Lieutenant Colonel Uger"
+    proposed_vi: "Trung tá Uger"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với cấp bậc và tên nhân vật 'Trung tá Uger' ở vol-10 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000126"
+  - source_term: "Chief of the General Staff"
+    proposed_vi: "Tổng tham mưu trưởng"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Thuật ngữ quân sự tiêu chuẩn chỉ người đứng đầu Bộ Tổng tham mưu."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000126"
+  - source_term: "K-Brot"
+    proposed_vi: "K-Brot"
+    category: "thuật ngữ"
+    status: "pending"
+    rationale: "Giữ nguyên tên gọi K-Brot theo work/run-state/pending-terms-index.yml (bản dịch có bổ sung danh từ loại 'món bánh K-Brot' tự nhiên trong câu)."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000129"
+  - source_term: "Deputy Director of the General Staff Zettour / Deputy Director"
+    proposed_vi: "Phó Tổng tham mưu trưởng Zettour / Phó Tổng tham mưu trưởng"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Khớp thống nhất với phương án 'Phó Tổng tham mưu trưởng' đã dùng ở vol-10 và vol-11 trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "Cục phó Bộ Tổng tham mưu"
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000130"
+  - source_term: "Imperial Supreme High Command"
+    proposed_vi: "Bộ Tư lệnh Tối cao Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với định danh 'Bộ Tư lệnh Tối cao' (Supreme High Command) kết hợp định ngữ 'Đế quốc' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter008.xhtml/p000130"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000112"
+    locks:
+      - "Khóa đại từ tự xưng 'Tôi' – 'mình' của Lergen trong mạch hồi ký, tên quốc gia 'Ildoa', quan hệ nhân quả qua dấu ba chấm 'và kết quả là…' và cụm giải thích sau dấu gạch ngang 'chiến dịch quân sự nọ—mũi xung kích tiên phong đánh thốc vào Ildoa'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000113"
+    locks:
+      - "Khóa đại từ 'tôi' và sự chuyển biến vai trò đối lập trong tương lai nhìn từ quá khứ 'Từ một nhà đàm phán, tôi sẽ trở thành một kẻ xâm lược'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000114"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', tên quốc gia 'Ildoa', định danh 'Đế quốc', chức danh 'đặc sứ ngoại giao', hai mệnh đề phủ định tuyệt đối 'chưa từng do thám Ildoa...' và 'chưa từng đàm phán hòa bình ở Ildoa với dã tâm xâm lược họ' cùng lời thề danh dự về sứ mệnh duy nhất là tìm lối thoát khỏi cuộc chiến cho Đế quốc."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000115"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', tên quốc gia 'Ildoa', cấu trúc nhượng bộ 'Dù biết... tôi vẫn muốn làm tất cả những gì có thể cho đến tận phút cuối cùng để tránh cho đất nước mình khỏi cảnh sụp đổ' và kết cục đối lập 'tất cả đều trở thành công cốc'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000116"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', dấu ba chấm và dấu gạch ngang tự nhận lỗi 'Dẫu nói là vậy… tôi vẫn chấp nhận rằng mình đã sai—tôi buộc phải chấp nhận điều đó' cùng mong muốn duy nhất là sự thành tâm."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000117"
+    locks:
+      - "Khóa đại từ 'Tôi', mức độ xác tín ở quá khứ 'từng tin chắc rằng còn có một kế hoạch khác nằm ngoài con đường ngoại giao' và thuật ngữ quân sự 'một cuộc tiến công'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000118"
+    locks:
+      - "Khóa đại từ 'tôi', nhấn mạnh Markdown theo DEC-P01-002 tại đúng cụm tình thái '*có thể*' ('*có thể* sẽ có một cuộc tấn công') và mệnh đề điều kiện giả định 'nếu những nỗ lực của tôi thất bại, một phần trong tôi hiểu rằng sẽ có một phương án khác được khởi động'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000119"
+    locks:
+      - "Khóa phủ định 'Không ai nói thẳng điều đó ra thành lời', đại từ 'tôi' và ẩn dụ nhận thức 'phác họa nên toàn bộ bức tranh'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000120"
+    locks:
+      - "Khóa đại từ 'tôi' – 'mình', tên cơ quan 'Bộ Tổng tham mưu', thuật ngữ 'thông tin tuyệt mật', câu hỏi tu từ mở đầu và chi tiết liếc thấy tài liệu không được phép xem của đồng nghiệp cùng việc có bạn bè ở những vị trí trọng yếu."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000121"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình', định danh 'Đế quốc', tên quốc gia 'Ildoa', cơ quan 'Bộ Tổng tham mưu', danh xưng 'Tướng Rudersdorf', 'Tướng Zettour', phủ định 'chưa từng nằm mơ tới chuyện Đế quốc sẽ tấn công Ildoa' và cấu trúc đối sánh 'không hẳn là một chủ trương chung của Bộ Tổng tham mưu… mà giống một chuỗi những nước cờ nhỏ...'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000122"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'chúng tôi', điểm nhìn hồi ký hướng tới 'các thế hệ tương lai' và lời xin lỗi người đọc khi tạm đi lệch mạch chính."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000123"
+    locks:
+      - "Khóa đại từ 'tôi' và lời dẫn nhập chuyển đoạn 'Trước hết, hãy bắt đầu với cấp bậc của tôi'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000124"
+    locks:
+      - "Khóa đại từ 'tôi', tên quốc gia 'Ildoa', tên cơ quan 'Văn phòng Bộ Tổng tham mưu' và nhận định về 'một vị trí có phần kỳ lạ'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000125"
+    locks:
+      - "Khóa đại từ 'tôi', ngôi thứ hai số nhiều gọi độc giả 'các bạn', chức danh 'sĩ quan cao cấp thuộc Cục Tác chiến của Bộ Tổng tham mưu' và cách ví von 'một kẻ đụng việc gì làm việc nấy'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000126"
+    locks:
+      - "Khóa đại từ 'Tôi', tên cơ quan 'Văn phòng Bộ Tổng tham mưu', định danh 'Đế quốc', nhân vật 'Trung tá Uger', chức danh 'Tổng tham mưu trưởng', cấu trúc 'không chỉ... mà còn...' và chi tiết nguyên tắc chỉ huy (Tổng tham mưu trưởng phát lệnh trực tiếp cho cấp dưới của Lergen cũng là vi phạm quy tắc)."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000127"
+    locks:
+      - "Khóa nhận định khẳng định tính tất yếu và cấp bách của sự thay đổi vào thời điểm đó."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000128"
+    locks:
+      - "Khóa đại từ 'Chúng tôi' – 'tôi' – 'mình', phủ định 'không tài nào nhận ra được bất cứ điều gì bất thường' do khối lượng công việc không tưởng và phủ định kép 'không thể phủ nhận rằng...'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000129"
+    locks:
+      - "Khóa đại từ 'tôi' – 'bản thân' – 'chúng tôi', thuật ngữ 'K-Brot', 'sĩ quan tham mưu', 'hậu phương', ẩn dụ 'chiếc khăn bịt mắt thể chế đã giữ cho chúng tôi mãi ngây thơ', giả định quá khứ 'Chúng tôi hẳn đã chết vì làm việc quá sức' và sắc thái mỉa mai chua chát 'đón nhận cái chết đầy vẻ vang dưới sức nặng nghiền nát của khối lượng công việc nơi hậu phương'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000130"
+    locks:
+      - "Khóa chức danh 'Phó Tổng tham mưu trưởng Zettour' / 'vị Phó Tổng tham mưu trưởng', đại từ 'tôi' – 'Ông', tên cơ quan 'Bộ Tư lệnh Tối cao Đế quốc', cụm liệt kê sau dấu gạch ngang 'các hoạt động hậu phương—quản lý quân lương, hậu cần, đường sắt và những việc đại loại thế' cùng chú thích trong ngoặc đơn."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000131"
+    locks:
+      - "Khóa đại từ 'ông', danh xưng kèm chú thích thời gian 'vị tướng (vào thời điểm đó)', định danh 'Đế quốc', phép đối chiếu 'tình hình ngoài tiền tuyến với tình hình ở quê nhà' và cụm 'viễn cảnh chiến thắng ảm đạm của Đế quốc'."
+  - segment_id: "YS-LN11/Text/chapter008.xhtml/p000132"
+    locks:
+      - "Khóa danh hiệu trong ngoặc kép '“Vĩ đại”' và nhận định khái quát mang tính lịch sử kết thúc đoạn."
