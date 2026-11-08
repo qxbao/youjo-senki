@@ -1,0 +1,171 @@
+task_id: "vol-11-ch-02-b06-argon-review"
+parent_task_id: "vol-11-ch-02-b06"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-11"
+chapter: 2
+source_package: "work/vol-11/batches/ch-02-b06-source.jsonl"
+target_translation: "translations/vol-11/ch-02-b06.jsonl"
+review_path: "reviews/prose/vol-11/ch-02-b06-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 4
+findings:
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000080"
+    severity: "minor"
+    issue: "Cụm 'đang làm ăn vô cùng thịnh vượng' ở câu cuối thu hẹp nhẹ sắc thái sang hoạt động kinh doanh buôn bán, trong khi ngữ cảnh đang nói khái quát về tình cảnh sung túc, thuận lợi của đất nước và người dân Ildoa giữa thời chiến."
+    basis: "Đối chiếu p000080 với mạch p000079–p000081 và nguyên tắc giữ đúng độ mở nghĩa trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh thành 'Vào thời điểm ấy, cuộc sống của họ đang vô cùng thịnh vượng' hoặc 'Vào thời điểm ấy, đất nước họ đang vô cùng ăn nên làm ra / khấm khá'; không làm lệch nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000081"
+    severity: "minor"
+    issue: "Cụm từ 'nhìn lại hậu sự' dùng từ Hán Việt 'hậu sự' (vốn thường chỉ việc tang ma trong tiếng Việt hiện đại) để dịch ý nhìn lại sự việc sau khi đã kết thúc, dễ gây liên tưởng lệch ngữ cảnh."
+    basis: "Đối chiếu p000081 và nguyên tắc sử dụng từ ngữ tiếng Việt tự nhiên, chuẩn xác trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher nên chỉnh thành 'chỉ khi nhìn lại mọi việc đã qua' hoặc 'chỉ khi nhìn lại từ góc độ hậu chiến / người đi sau'; không làm sai cấu trúc mệnh đề nên không bắt buộc sửa bản chuẩn trước bước chuốt văn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000082"
+    severity: "minor"
+    issue: "Đại từ sở hữu ngôi thứ nhất số nhiều 'của riêng chúng ta' mang sắc thái gộp cả người đọc vào phía Đế quốc, trong khi người kể chuyện đang hướng tới cả độc giả ngoại quốc (như độc giả người Ildoa ở p000080) và dùng 'chúng tôi' ở p000086."
+    basis: "Đối chiếu p000080, p000082, p000086 và nguyên tắc giữ điểm nhìn, xưng hô nhất quán trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi thành 'những thiên tài của riêng mình' hoặc 'những thiên tài của riêng chúng tôi' để đồng bộ điểm nhìn hồi ký; không ảnh hưởng nghĩa cốt lõi nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000083"
+    severity: "minor"
+    issue: "Cụm chuyển ý 'Và để tôi nói cho mà biết' ở đầu câu cuối mang sắc thái khẩu ngữ hơi gay gắt so với giọng hồi ký điềm đạm, lịch thiệp của Lergen xuyên suốt chương."
+    basis: "Đối chiếu p000083 và nguyên tắc giữ giọng kể nhất quán theo ngữ cảnh trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc làm mềm thành 'Và tôi xin nói thật rằng' hoặc 'Và phải nói thật với độc giả rằng'; không ảnh hưởng nghĩa nên không bắt buộc sửa bản chuẩn."
+pending_term_recommendations:
+  - source_term: "Ildoa / Ildoan / Ildoans"
+    proposed_vi: "Ildoa / người Ildoa / người dân Ildoa"
+    category: "quốc gia - dân cư"
+    status: "pending"
+    rationale: "Giữ thống nhất định danh quốc gia 'Ildoa' và cách gọi cư dân 'người Ildoa' / 'người dân Ildoa' khớp với work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000077"
+      - "YS-LN11/Text/chapter006.xhtml/p000079"
+      - "YS-LN11/Text/chapter006.xhtml/p000080"
+      - "YS-LN11/Text/chapter006.xhtml/p000081"
+      - "YS-LN11/Text/chapter006.xhtml/p000082"
+      - "YS-LN11/Text/chapter006.xhtml/p000083"
+      - "YS-LN11/Text/chapter006.xhtml/p000084"
+      - "YS-LN11/Text/chapter006.xhtml/p000088"
+  - source_term: "the Empire / Imperial citizen / old Empire"
+    proposed_vi: "Đế quốc / công dân Đế quốc / Đế quốc cũ"
+    category: "quốc gia"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với định danh 'Đế quốc' xuyên suốt trong work/run-state/pending-terms-index.yml và các lô trước."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000078"
+      - "YS-LN11/Text/chapter006.xhtml/p000079"
+      - "YS-LN11/Text/chapter006.xhtml/p000082"
+      - "YS-LN11/Text/chapter006.xhtml/p000085"
+      - "YS-LN11/Text/chapter006.xhtml/p000090"
+  - source_term: "blackouts"
+    proposed_vi: "tắt đèn phòng không"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác biện pháp tắt đèn hoàn toàn khi có báo động máy bay ném bom oanh tạc, đồng thời phân biệt rõ với 'hạn chế chiếu sáng' ('brownout') ở các lô trước."
+    alternatives_vi:
+      - "tắt đèn giới nghiêm phòng không"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000078"
+  - source_term: "Colonel Calandro"
+    proposed_vi: "Đại tá Calandro"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ đúng cấp bậc 'Đại tá' tương đương với Đại tá Lergen trong vai trò đối tác phía Ildoa."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000088"
+  - source_term: "General Staff"
+    proposed_vi: "Bộ Tổng tham mưu"
+    category: "cơ quan quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với phương án 'Bộ Tổng tham mưu' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000089"
+  - source_term: "royal palace / palace"
+    proposed_vi: "hoàng cung"
+    category: "địa danh - cơ quan"
+    status: "pending"
+    rationale: "Khớp với phương án 'hoàng cung' đã dùng cho cung điện của Đế quốc trong work/run-state/pending-terms-index.yml."
+    alternatives_vi:
+      - "cung điện hoàng gia"
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000090"
+      - "YS-LN11/Text/chapter006.xhtml/p000091"
+  - source_term: "Foreign Office"
+    proposed_vi: "Bộ Ngoại giao"
+    category: "cơ quan nhà nước"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với định danh 'Bộ Ngoại giao' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000090"
+      - "YS-LN11/Text/chapter006.xhtml/p000091"
+  - source_term: "diplomatic offensives"
+    proposed_vi: "các cuộc tiến công ngoại giao"
+    category: "thuật ngữ ngoại giao - quân sự"
+    status: "pending"
+    rationale: "Giữ đúng ẩn dụ quân sự trong góc nhìn của một người lính khi đặt đối sánh với 'chiến tranh tổng lực'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000090"
+  - source_term: "total war"
+    proposed_vi: "chiến tranh tổng lực"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp hoàn toàn với thuật ngữ 'chiến tranh tổng lực' trong work/run-state/pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN11/Text/chapter006.xhtml/p000090"
+locked_choices:
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000077"
+    locks:
+      - "Khóa điểm nhìn hồi ký ngôi thứ nhất 'Tôi' – 'độc giả', định danh 'Ildoa', đại từ 'họ' chỉ người dân Ildoa và hình ảnh 'cất cao khúc ca hòa bình'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000078"
+    locks:
+      - "Khóa định danh 'Đế quốc', đại từ khái quát 'người ta', phủ định 'không có các trạm kiểm tra' và thuật ngữ 'tắt đèn phòng không trong các đợt oanh tạc của máy bay ném bom'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000079"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 chỉ tại '*trung lập*'; khóa đại từ 'tôi' – 'bản thân mình' – 'họ', định danh 'Đế quốc', 'công dân Đế quốc', 'Ildoa' và phép ví von 'thế giới mùa xuân vĩnh cửu'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000080"
+    locks:
+      - "Khóa đại từ 'tôi' – 'họ', định danh 'độc giả người Ildoa' và tình thái nghi ngờ 'tôi e rằng chẳng độc giả người Ildoa nào lại vui vẻ'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000081"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'họ', định danh 'chính phủ Ildoa' / 'người dân Ildoa', và ý bảo vệ giới quan chức trước những chỉ trích chỉ mang tính phán xét sau khi sự việc đã ngã ngũ; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000082"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 chỉ tại từ '*điều trị*' đầu tiên (không in nghiêng vế 'phòng bệnh bao giờ cũng hơn chữa bệnh' phía sau); khóa phủ định kép 'không phải là không có những tổn thất nặng nề', định danh 'Đế quốc' và 'Ildoa'."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000083"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình', định danh 'người Ildoa' và sự tương phản giữa tính chất công vụ chính thức với màu sắc cá nhân của hoạt động ngoại giao; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000084"
+    locks:
+      - "Khóa đại từ 'tôi' – 'họ', định danh 'Ildoa' và nhận định về ý nghĩa biểu trưng của quà tặng ngoại giao đối với vị thế, sức mạnh quốc gia; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000085"
+    locks:
+      - "Khóa định danh 'Đế quốc', phủ định 'không thể thua kém' và sự đối chiếu với món quà của đối tác phía bên kia; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000086"
+    locks:
+      - "Khóa đại từ tập thể 'chúng tôi' (phía Đế quốc) và mục đích giữ thể diện, duy trì vẻ bề ngoài của một siêu cường; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000087"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình', phủ định 'không phải là một nhà ngoại giao chuyên nghiệp' và áp lực phải chuẩn bị quà tặng xứng tầm; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000088"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 chỉ tại '*cử chỉ thiện ý nhỏ*'; khóa quân hàm – nhân vật 'Đại tá Calandro', định danh 'Ildoa', đại từ 'ông ấy' (Calandro) – 'tôi' / 'mình' (Lergen)."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000089"
+    locks:
+      - "Khóa đại từ 'tôi', cơ quan 'Bộ Tổng tham mưu', chuỗi phủ định 'Vấn đề không nằm ở ngân sách' / 'chẳng còn món quà hiện vật nào để mà mua nữa' / 'không thể cứ thế mò ra chợ đen rồi tiêu tiền công quỹ ở đó được'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000090"
+    locks:
+      - "Khóa đại từ 'Tôi' – 'mình' – 'độc giả' – 'Họ', định danh 'hoàng cung của Đế quốc cũ', 'Bộ Ngoại giao', và phép so sánh hiệu quả chi phí giữa 'các cuộc tiến công ngoại giao' với 'chiến tranh tổng lực'; không có nhấn mạnh Markdown."
+  - segment_id: "YS-LN11/Text/chapter006.xhtml/p000091"
+    locks:
+      - "Khóa đại từ 'tôi', định danh 'hoàng cung' và 'Bộ Ngoại giao', cùng chi tiết phát hiện kho dự trữ rượu vang còn sót lại trong hoàng cung; không có nhấn mạnh Markdown."
