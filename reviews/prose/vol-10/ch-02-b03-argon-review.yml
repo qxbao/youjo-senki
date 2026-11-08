@@ -1,0 +1,205 @@
+task_id: "vol-10-ch-02-b03-argon-review"
+parent_task_id: "vol-10-ch-02-b03"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 2
+source_package: "work/vol-10/batches/ch-02-b03-source.jsonl"
+target_translation: "translations/vol-10/ch-02-b03.jsonl"
+review_path: "reviews/prose/vol-10/ch-02-b03-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000073"
+    severity: "minor"
+    issue: "Mệnh đề nhượng bộ đầu câu thứ hai ('Dù đã có dấu hiệu thuyên giảm') lược chủ ngữ giả định chỉ hiện tượng/khuynh hướng ở vế sau, khiến khi đọc liền mạch dễ cảm giác chủ ngữ 'Đế quốc' là đối tượng đang 'thuyên giảm' thay vì chứng nghiện chiến thắng của quốc gia này."
+    basis: "Đối chiếu quan hệ quy chiếu nội câu ở câu thứ hai của p000073."
+    recommendation: "Nghĩa toàn câu vẫn rõ trong ngữ cảnh; ở bước chuốt văn có thể cân nhắc bổ sung danh từ quy chiếu như 'Dù tình trạng đó đã có dấu hiệu thuyên giảm' hoặc 'Dù căn bệnh ấy đã có dấu hiệu thuyên giảm'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000079"
+    severity: "minor"
+    issue: "Cụm 'tấm bản đồ cũ kỹ ấy' dịch theo nghĩa đen tính chất vật lý ('cũ kỹ'), trong khi mạch văn đang quy chiếu lại tấm bản đồ tác chiến quen thuộc vẫn luôn trải trước mặt Zettour trong phòng chỉ huy (tương ứng với chi tiết ở p000055)."
+    basis: "Đối chiếu mạch quy chiếu với p000055 và thói quen đọc bản đồ ở câu kế tiếp của p000079."
+    recommendation: "Không ảnh hưởng đến nghĩa chiến thuật; ở bước chuốt văn có thể cân nhắc đổi thành 'Vẫn tấm bản đồ quen thuộc ấy' để tự nhiên hơn."
+pending_term_recommendations:
+  - source_term: "Lieutenant General Zettour / The general / Zettour"
+    proposed_vi: "Trung tướng Zettour / Vị tướng / Zettour"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc và danh xưng của Zettour với các lô ch-02-b01, ch-02-b02 và sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000068"
+      - "YS-LN10/Text/chapter008.xhtml/p000070"
+      - "YS-LN10/Text/chapter008.xhtml/p000072"
+      - "YS-LN10/Text/chapter008.xhtml/p000074"
+      - "YS-LN10/Text/chapter008.xhtml/p000078"
+      - "YS-LN10/Text/chapter008.xhtml/p000080"
+      - "YS-LN10/Text/chapter008.xhtml/p000082"
+      - "YS-LN10/Text/chapter008.xhtml/p000085"
+  - source_term: "deputy director in charge of combat support services"
+    proposed_vi: "cục phó phụ trách khối bảo đảm chiến đấu"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa chức trách chính thức của Zettour (Cục phó Cục Quân vụ phụ trách bảo đảm chiến đấu/hậu cần cho toàn Lục quân Đế quốc) mà không tự suy diễn thêm tên cơ quan không nêu trực tiếp trong câu."
+    alternatives_vi:
+      - "cục phó phụ trách mảng bảo đảm tác chiến"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000068"
+  - source_term: "Imperial Army"
+    proposed_vi: "Lục quân Đế quốc"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm đã khóa ở ch-02-b01, ch-02-b02 và sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "Quân đội Đế quốc"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000068"
+      - "YS-LN10/Text/chapter008.xhtml/p000086"
+  - source_term: "eastern front"
+    proposed_vi: "mặt trận phía đông"
+    category: "địa danh quân sự"
+    status: "pending"
+    rationale: "Giữ thống nhất với phương án tạm xuyên suốt vol-09 và vol-10 trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "chiến trường phía đông"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000070"
+      - "YS-LN10/Text/chapter008.xhtml/p000075"
+      - "YS-LN10/Text/chapter008.xhtml/p000082"
+  - source_term: "Council for Self-Government"
+    proposed_vi: "Hội đồng Tự trị"
+    category: "tổ chức"
+    status: "pending"
+    rationale: "Khớp với phương án tạm đã khóa tại ch-02-b01 và sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "Hội đồng Tự quản"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000071"
+  - source_term: "the homeland"
+    proposed_vi: "bản quốc"
+    category: "thuật ngữ chính trị - quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'the homeland -> bản quốc' trong pending-terms-index.yml để chỉ hậu phương chính quốc của Đế quốc."
+    alternatives_vi:
+      - "chính quốc"
+      - "quê nhà"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000073"
+  - source_term: "war college"
+    proposed_vi: "trường đại học quân sự"
+    category: "tổ chức quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'war college -> trường đại học quân sự' đã dùng nhất quán trong các tập trước tại pending-terms-index.yml."
+    alternatives_vi:
+      - "học viện chiến tranh"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000073"
+  - source_term: "mobile warfare"
+    proposed_vi: "tác chiến cơ động"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Chuẩn xác về thuật ngữ quân sự và đồng bộ với khái niệm 'tác chiến cơ động' trong cùng chương."
+    alternatives_vi:
+      - "chiến tranh cơ động"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000075"
+  - source_term: "replacements"
+    proposed_vi: "quân bổ sung"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'replacements -> quân bổ sung' trong sổ pending-terms-index.yml."
+    alternatives_vi:
+      - "lính bổ sung"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000075"
+  - source_term: "Magic Lieutenant Colonel Tanya von Degurechaff / Degurechaff"
+    proposed_vi: "Trung tá Pháp sư Tanya von Degurechaff / Degurechaff"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Khớp chính xác định danh và cấp bậc của Tanya trong sổ pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000076"
+      - "YS-LN10/Text/chapter008.xhtml/p000077"
+  - source_term: "order of battle"
+    proposed_vi: "biên chế tác chiến"
+    category: "thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Diễn đạt chuẩn xác thuật ngữ quân sự chỉ cơ cấu tổ chức và quyền thuộc chỉ huy chính thức của các đơn vị trên chiến trường."
+    alternatives_vi:
+      - "trật tự chiến đấu"
+      - "đội hình biên chế tác chiến"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000080"
+  - source_term: "inspector on the eastern front"
+    proposed_vi: "thanh tra viên trên mặt trận phía đông"
+    category: "chức danh quân sự"
+    status: "pending"
+    rationale: "Khớp với mục 'inspector -> thanh tra viên' trong sổ pending-terms-index.yml và giữ sự tương ứng với 'Văn phòng Thanh tra tại Mặt trận phía Đông' ở ch-02-b02."
+    alternatives_vi:
+      - "tổng thanh tra trên mặt trận phía đông"
+    segment_ids:
+      - "YS-LN10/Text/chapter008.xhtml/p000082"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000068"
+    locks:
+      - "Khóa quân hàm 'Trung tướng Zettour', chức danh mô tả 'cục phó phụ trách khối bảo đảm chiến đấu của toàn bộ Lục quân Đế quốc', đại từ trần thuật 'ông', và cấu trúc giả định 'Nếu kế hoạch của ông tự sụp đổ, ông sẽ vô cùng chật vật để biện minh cho điều không thể biện minh'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000069"
+    locks:
+      - "Khóa quan hệ chuyển ý ('Thế nhưng') và mức độ tình thái ('đôi khi cũng mang lại một góc nhìn mới'); không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000070"
+    locks:
+      - "Khóa góc nhìn của 'người hoạch định tác chiến', quân hàm 'Trung tướng Zettour', địa danh 'mặt trận phía đông', và cấu trúc tăng tiến cùng chủ thể 'không chỉ áp đặt những ràng buộc lên cách họ vạch chiến lược, mà còn gây khó khăn cho việc theo đuổi một kế hoạch hành động thuần túy quân sự'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000071"
+    locks:
+      - "Khóa thuật ngữ 'Hội đồng Tự trị', 'công tác hậu cần của lục quân', và quan hệ nhân quả về nguy cơ kéo theo hệ lụy dây chuyền."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000072"
+    locks:
+      - "Khóa danh xưng 'Vị tướng', câu hỏi gián tiếp về việc quán xuyến đồng thời 'công tác hành chính dân sự và việc chỉ huy quân sự', cùng giả định ở câu thứ hai và câu kết chuyển ý 'Nhưng ông mới chỉ vừa bắt đầu'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000073"
+    locks:
+      - "Khóa thuật ngữ 'bản quốc', 'Đế quốc', 'trường đại học quân sự', dấu chấm lửng sau câu cảm thán về việc rút lui, và hai mệnh đề phủ định về thái độ của quần chúng cùng các phe phái cởi mở hơn."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000074"
+    locks:
+      - "Khóa câu chuyển đoạn tạo điểm nhấn: 'Nhưng nỗi sợ lớn nhất của Zettour lại hoàn toàn là một chuyện khác'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000075"
+    locks:
+      - "Khóa thuật ngữ 'tác chiến cơ động', 'mặt trận phía đông', 'quân bổ sung', 'cuộc Đại chiến', và câu hỏi tu từ nội tâm ở cuối đoạn; không dùng nhấn mạnh Markdown."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000076"
+    locks:
+      - "Khóa lời độc thoại của Zettour: đại từ tự xưng 'Mình', đại từ quy chiếu Tanya 'cô ấy', tên 'Degurechaff', và ẩn dụ 'đứng trên vai một người khổng lồ'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000077"
+    locks:
+      - "Khóa cấu trúc nghi vấn nội tâm gián tiếp ('Ông tự hỏi phải chăng là vì...'), quan hệ nghịch đảo ('ngược lại, điều đó giúp chúng có khả năng suy nghĩ tự do hơn...'), và định danh đầy đủ 'Trung tá Pháp sư Tanya von Degurechaff'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000078"
+    locks:
+      - "Khóa quân hàm 'Trung tướng Zettour' và chi tiết 'lại nở một nụ cười chua chát khi ngồi xuống'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000079"
+    locks:
+      - "Khóa chuỗi ba thói quen tác chiến ('đọc bản đồ, ghi nhớ vị trí các cánh quân của mình và nhẩm tính các kịch bản tiềm tàng trong đầu') và dấu gạch ngang giải thích '—một điều khiến ông tự hào'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000080"
+    locks:
+      - "Khóa dấu chấm lửng, thuật ngữ 'Thế bố trí của các tiểu đoàn', 'biên chế tác chiến chính thức', phủ định 'chúng không nằm dưới quyền chỉ huy của ông', và phép so sánh làm nổi bật 'khuyết tật hệ thống lớn nhất đang bày ra trước mắt Zettour'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000081"
+    locks:
+      - "Khóa lời độc thoại của Zettour: đại từ tự xưng 'Mình', danh xưng 'Chúa', dấu chấm lửng, và phủ định nghi vấn về khả năng đoán trước kết cục."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000082"
+    locks:
+      - "Khóa chức vụ 'thanh tra viên trên mặt trận phía đông', tính chất 'chỉ mang tính danh dự', phủ định 'không hề có thẩm quyền chỉ huy', và khái niệm 'định hướng chiến lược'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000083"
+    locks:
+      - "Khóa câu khẳng định nghịch lý ngắn gọn: 'Nói cách khác, mệnh lệnh của ông thực chất không phải là mệnh lệnh'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000084"
+    locks:
+      - "Khóa cụm giới hạn 'chẳng qua chỉ là những lời khuyên mang tính chuyên môn', khái niệm 'đạo quân phía đông', và phủ định mức độ 'khó có thể coi là quy trình chuẩn mực'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000085"
+    locks:
+      - "Khóa chuỗi ba giả thuyết tình thái giải thích lý do giới hạn quyền hạn ('trên danh nghĩa vốn chỉ được xem như...', 'Hoặc có lẽ nó có thể...', 'Rốt cuộc, biết đâu đó chỉ là...') và chi tiết 'vụ lùm xùm từng nổ ra trước kỳ lễ hội mùa hè'."
+  - segment_id: "YS-LN10/Text/chapter008.xhtml/p000086"
+    locks:
+      - "Khóa chủ thể 'Các sĩ quan Lục quân Đế quốc', cặp đối lập 'coi trọng thực chất hơn hình thức', và cấu trúc so sánh lựa chọn 'thà lách luật còn hơn làm ngơ trước thứ mà họ xem là thẩm quyền chỉ huy chính đáng'."
