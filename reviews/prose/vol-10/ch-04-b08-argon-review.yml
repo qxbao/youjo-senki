@@ -1,0 +1,202 @@
+task_id: "vol-10-ch-04-b08-argon-review"
+parent_task_id: "vol-10-ch-04-b08"
+reviewer: "gemini-4-argon-medium"
+volume: "vol-10"
+chapter: 4
+source_package: "work/vol-10/batches/ch-04-b08-source.jsonl"
+target_translation: "translations/vol-10/ch-04-b08.jsonl"
+review_path: "reviews/prose/vol-10/ch-04-b08-argon-review.yml"
+state: "done"
+validator: "not_run"
+diff_check: "not_run"
+commit: null
+summary:
+  serious: 0
+  moderate: 0
+  minor: 2
+findings:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000057"
+    severity: "minor"
+    issue: "Cụm 'tỉnh mộng khỏi giấc mộng ban ngày' ở câu cuối lời thoại lặp từ 'mộng' sát nhau làm nhịp câu hơi nặng."
+    basis: "Đối chiếu cấu trúc câu cuối của p000057 với yêu cầu diễn đạt tiếng Việt tự nhiên trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc chỉnh nhẹ thành 'tỉnh khỏi giấc mộng ban ngày nhỏ nhoi của mình rồi!' để câu thoại gọn và tự nhiên hơn; không ảnh hưởng nghĩa nên không bắt buộc sửa bản chuẩn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000061"
+    severity: "minor"
+    issue: "Cụm vị ngữ ở đầu câu chỉ cảm giác nặng nề/khó chịu khi phải chứng kiến cảnh người khác suy sụp đang được dịch là 'thật khó coi', dễ gợi sắc thái chê bai hình thức hơn là sự ái ngại và cảm thông nối tiếp ở p000062."
+    basis: "Đối chiếu mạch tâm lý nội tâm giữa p000061 và p000062 với nguyên tắc giữ đúng bình diện đánh giá theo ngữ cảnh trong canon/style-guide.md."
+    recommendation: "Ở bước chuốt văn, polisher có thể cân nhắc đổi 'thật khó coi' thành 'chẳng dễ chịu gì' hoặc 'thật khó mà nhìn' để khớp tự nhiên hơn với câu bày tỏ sự cảm thông ngay sau đó."
+pending_term_recommendations:
+  - source_term: "Counselor Conrad / the counselor"
+    proposed_vi: "Tham tán Conrad / vị tham tán / thưa Tham tán Conrad"
+    category: "chức danh - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất hoàn toàn với phương án đã khóa trong pending-terms-index.yml cho Tham tán Conrad xuyên suốt chương 4 tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000062"
+      - "YS-LN10/Text/chapter022.xhtml/p000063"
+      - "YS-LN10/Text/chapter022.xhtml/p000065"
+      - "YS-LN10/Text/chapter022.xhtml/p000067"
+      - "YS-LN10/Text/chapter022.xhtml/p000069"
+      - "YS-LN10/Text/chapter022.xhtml/p000070"
+      - "YS-LN10/Text/chapter022.xhtml/p000074"
+      - "YS-LN10/Text/chapter022.xhtml/p000075"
+  - source_term: "imperial soldier / Foreign Office / the Empire"
+    proposed_vi: "người lính Đế quốc / Bộ Ngoại giao / Đế quốc"
+    category: "thuật ngữ tổ chức - quốc gia"
+    status: "pending"
+    rationale: "Khớp với các phương án tạm đã khóa trong pending-terms-index.yml của tập 10."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000064"
+      - "YS-LN10/Text/chapter022.xhtml/p000071"
+      - "YS-LN10/Text/chapter022.xhtml/p000076"
+  - source_term: "Colonel Lergen / Lergen"
+    proposed_vi: "Đại tá Lergen / Lergen"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ nhất quán cấp bậc Đại tá của Lergen ở tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000058"
+      - "YS-LN10/Text/chapter022.xhtml/p000064"
+      - "YS-LN10/Text/chapter022.xhtml/p000065"
+      - "YS-LN10/Text/chapter022.xhtml/p000068"
+      - "YS-LN10/Text/chapter022.xhtml/p000069"
+      - "YS-LN10/Text/chapter022.xhtml/p000070"
+      - "YS-LN10/Text/chapter022.xhtml/p000074"
+      - "YS-LN10/Text/chapter022.xhtml/p000077"
+  - source_term: "optical dummies"
+    proposed_vi: "hình nhân quang học"
+    category: "thuật ngữ ma pháp"
+    status: "pending"
+    rationale: "Diễn đạt sát nghĩa vật thể ảo ảnh dạng người tạo bằng thuật thức quang học để đánh lạc hướng đối phương."
+    alternatives_vi:
+      - "mồi nhử quang học dạng hình nhân"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000065"
+  - source_term: "Lieutenant Colonel Degurechaff"
+    proposed_vi: "Trung tá Degurechaff"
+    category: "quân hàm - nhân vật"
+    status: "pending"
+    rationale: "Giữ thống nhất cấp bậc Trung tá của Tanya trong tập 10 theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000069"
+  - source_term: "Moskva / Londinium / aerial magic battalion"
+    proposed_vi: "Moskva / Londinium / tiểu đoàn pháp sư trên không"
+    category: "địa danh - thuật ngữ quân sự"
+    status: "pending"
+    rationale: "Giữ nguyên tên riêng địa danh Moskva, Londinium và dùng thống nhất thuật ngữ 'tiểu đoàn pháp sư trên không' theo pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000071"
+  - source_term: "second lieutenant / lieutenant"
+    proposed_vi: "thiếu úy"
+    category: "quân hàm"
+    status: "pending"
+    rationale: "Dịch chuẩn xác cấp bậc sĩ quan sơ cấp trong chế độ nghĩa vụ một năm; ở p000079 danh từ rút gọn quy chiếu trực tiếp về cấp bậc ở p000078 nên giữ thống nhất là 'thiếu úy'."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000075"
+      - "YS-LN10/Text/chapter022.xhtml/p000078"
+      - "YS-LN10/Text/chapter022.xhtml/p000079"
+  - source_term: "the Rhine / eastern front"
+    proposed_vi: "mặt trận Rhine / mặt trận phía đông"
+    category: "địa danh - mặt trận"
+    status: "pending"
+    rationale: "Giữ thống nhất cách gọi hai mặt trận với pending-terms-index.yml."
+    alternatives_vi: []
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000078"
+  - source_term: "Junker"
+    proposed_vi: "Junker"
+    category: "thuật ngữ lịch sử - xã hội"
+    status: "pending"
+    rationale: "Giữ nguyên thuật ngữ chỉ tầng lớp quý tộc điền chủ theo truyền thống Phổ/Đế quốc để bảo toàn sắc thái văn hóa - lịch sử."
+    alternatives_vi:
+      - "quý tộc Junker"
+    segment_ids:
+      - "YS-LN10/Text/chapter022.xhtml/p000080"
+locked_choices:
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000056"
+    locks:
+      - "Khóa câu trần thuật mở đầu với đại từ 'ông ta' quy chiếu Tham tán Conrad và quan hệ nhân quả ('Chính những lời này cuối cùng đã châm ngòi cho cơn bùng phát của ông ta')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000057"
+    locks:
+      - "Khóa lời thoại tự giễu của Tham tán Conrad với đại từ bao gộp 'chúng ta' - 'mình' và giọng cảm thán cuồng loạn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000058"
+    locks:
+      - "Khóa trần thuật ngôi thứ ba với tên riêng 'Lergen và Tanya', đại từ 'ông ta' chỉ vị tham tán và sự chuyển biến sắc thái tiếng cười từ khinh miệt sang cuồng loạn."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000059"
+    locks:
+      - "Khóa câu nhận xét ngắn về cảnh tượng kỳ lạ trước mắt."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000060"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*bên ngoài*', điểm nhìn độc thoại nội tâm với đại từ tự quy chiếu 'mình' theo DEC-P01-001, thuật ngữ 'tiền tuyến' và nhận định nguyên nhân suy sụp do quá tải căng thẳng."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000061"
+    locks:
+      - "Khóa nhận định nội tâm về việc chứng kiến một người đánh mất vẻ điềm tĩnh và bộc lộ những cảm xúc tăm tối dồn nén."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000062"
+    locks:
+      - "Khóa đại từ nội tâm 'Mình' theo DEC-P01-001, danh xưng 'vị tham tán' / 'Tham tán Conrad' và nhận định sự phi lý của chiến tranh đã bào mòn lý trí của ông ta."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000063"
+    locks:
+      - "Khóa cấu trúc giả định trái thực tế ('May thay, đây không phải là chiến hào và vị tham tán cũng chẳng có vũ khí, bằng không thì Tanya đã bắn gục ông ta ngay tại chỗ rồi…'), điểm nhìn pha trộn với tên 'Tanya' và mong muốn không phải khống chế ông ta."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000064"
+    locks:
+      - "Khóa điểm nhìn trần thuật gián tiếp tự do với tên 'Tanya' ('cô'), các thuật ngữ 'người lính Đế quốc', 'Bộ Ngoại giao', 'Trách nhiệm pháp lý', 'diễn tập tình huống', 'Đại tá Lergen', câu hỏi giả định lao ra cửa và phủ định kép ('Hoàn toàn không phải là chuyện không thể tính đến')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000065"
+    locks:
+      - "Khóa sự chuyển đổi điểm nhìn từ trần thuật ngôi thứ ba ('Cô') sang độc thoại nội tâm trực tiếp ('mình' theo DEC-P01-001) rồi quay lại ngôi thứ ba ('Tanya' - 'cô'), cùng danh xưng 'Đại tá Lergen', 'vị tham tán' và thuật ngữ 'hình nhân quang học'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000066"
+    locks:
+      - "Khóa câu kết luận rằng chuỗi tính toán vừa rồi rốt cuộc trở thành công cốc."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000067"
+    locks:
+      - "Khóa câu trần thuật mô tả hành động của 'Tham tán Conrad' buông tiếng chửi thề, ngả lưng vào ghế, bắt chéo chân và mệt mỏi nhìn lên trần nhà."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000068"
+    locks:
+      - "Khóa câu trần thuật với đại từ 'ông ta' và tên riêng 'Tanya và Lergen'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000069"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*thứ này*', danh xưng 'Đại tá Lergen', 'Trung tá Degurechaff', 'Vị tham tán', cùng cách xưng hô 'tôi' - 'ông' / 'các ông' trong lời thoại."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000070"
+    locks:
+      - "Khóa nhấn mạnh Markdown theo DEC-P01-002 tại '*thứ này*', tên riêng 'Tanya' ('cô'), 'Đại tá Lergen' ('Anh') và 'vị tham tán'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000071"
+    locks:
+      - "Khóa lời thoại của Lergen với đại từ 'Cô ấy' (chỉ Tanya), 'chúng tôi' (phía quân đội/Đế quốc), cấu trúc giả định quá khứ ('Nếu chúng tôi có thể sản xuất hàng loạt những người như Degurechaff, thì Đế quốc đã thổi bay cả Moskva lẫn Londinium khỏi bản đồ chỉ bằng một tiểu đoàn pháp sư trên không duy nhất từ đời nào rồi')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000072"
+    locks:
+      - "Khóa câu hỏi và suy nghĩ nội tâm của Tanya với đại từ tự quy chiếu 'Mình' theo DEC-P01-001."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000073"
+    locks:
+      - "Khóa lời thoại của Tham tán Conrad với xưng hô 'Tôi' - 'ông', phủ định ('khiến tôi chẳng mấy dễ chịu') và cụm 'những người dân sự như tôi'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000074"
+    locks:
+      - "Khóa câu trần thuật với danh xưng 'Vị tham tán' và 'Đại tá Lergen'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000075"
+    locks:
+      - "Khóa lời thoại của Lergen với danh xưng 'thưa Tham tán Conrad', xưng hô 'tôi' - 'ông', cấp bậc 'thiếu úy' và cấu trúc câu hỏi lịch sự ('liệu tôi có sai không khi cho rằng...')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000076"
+    locks:
+      - "Khóa giải thích bối cảnh về một năm nghĩa vụ quân sự tại 'Đế quốc' và câu giả định trái thực tế trong quá khứ về 'Tanya' ('Giá như Tanya không sinh ra là một đứa trẻ mồ côi, thì đó chính là con đường sự nghiệp mà cô đã kỳ vọng và mong muốn')."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000077"
+    locks:
+      - "Khóa câu trần thuật với danh xưng 'Đại tá Lergen' và chi tiết tiếng cười chua chát đáp lại."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000078"
+    locks:
+      - "Khóa lời thoại của Tham tán Conrad với đại từ 'Tôi', cấp bậc 'thiếu úy trên danh nghĩa', phủ định ('chưa từng đặt chân tới mặt trận Rhine hay mặt trận phía đông') và chi tiết học nghi thức quân đội trong doanh trại."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000079"
+    locks:
+      - "Khóa câu bình luận về 'thiếu úy chỉ trên danh nghĩa', đại từ 'ông ta' và hình ảnh 'nghi thức trưởng thành'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000080"
+    locks:
+      - "Khóa đại từ 'ông ta' và thuật ngữ 'Junker điển hình'."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000081"
+    locks:
+      - "Khóa câu trần thuật về đối tượng mà 'Tanya' hằng ghen tị—người đã giải ngũ khi vẫn còn hòa bình."
+  - segment_id: "YS-LN10/Text/chapter022.xhtml/p000082"
+    locks:
+      - "Khóa lời thoại kết lô của Tham tán Conrad với xưng hô 'tôi' - 'các vị' (và đại từ phản thân 'mình'), cùng phủ định kép ('đủ khiêm tốn để không giả vờ rằng mình hiểu rõ những gì mình đang nói')."
